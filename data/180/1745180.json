@@ -1,0 +1,221 @@
+{
+  "_lastChecked": 1788621450,
+  "_history": [
+    {
+      "buildId": "25044073",
+      "branch": "public",
+      "timeUpdated": 1788216102,
+      "firstSeen": 1788621450,
+      "manifests": {
+        "1745181": {
+          "gid": "4643713447533128829",
+          "size": 6891595443,
+          "download": 6640537488
+        }
+      }
+    }
+  ],
+  "_change_number": 38489298,
+  "_missing_token": false,
+  "_sha": "d9babe887f4bf118cdb08112aa260cf1301c9500",
+  "_size": 3966,
+  "appid": "1745180",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "4MinuteWarning",
+        "type": "developer"
+      },
+      "1": {
+        "name": "4MinuteWarning",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1"
+    },
+    "clienticns": "ffb8437728054ca2e05563a844978aa1cf237c88",
+    "clienticon": "2bc2b7be1dc4df18fe402522a9ff72dcacfa2778",
+    "clienttga": "6b4f2ed129f69a8f9ae482f9bf9e3bec210d8a0a",
+    "content_descriptors": {
+      "0": "1",
+      "1": "2",
+      "2": "3",
+      "3": "5",
+      "4": "4"
+    },
+    "content_descriptors_including_dlc": {
+      "0": "1",
+      "1": "2",
+      "2": "3",
+      "3": "4",
+      "4": "5"
+    },
+    "exfgls": "6",
+    "gameid": "1745180",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "b65a76cbdbb20793d37a2f247096e2713d77c558",
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "height_pct": "50",
+        "pinned_position": "BottomLeft",
+        "width_pct": "50"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "height_pct": "50",
+          "pinned_position": "BottomLeft",
+          "width_pct": "50"
+        }
+      }
+    },
+    "linuxclienticon": "f94be4befbddb84cf96ced25a269b305aff401d4",
+    "name": "Ravager Demo",
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos,linux",
+    "parent": "1683560",
+    "primary_genre": "0",
+    "releasestate": "released",
+    "restricted_countries": "CN,DE,SA",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1674905191",
+    "store_asset_mtime": "1672221900",
+    "supported_languages": {
+      "english": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "installdir": "Ravager",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Ravager\\Ravager.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Ravager\\Ravager.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Ravager\\Ravager.sh"
+      }
+    }
+  },
+  "depots": {
+    "1745181": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "download": "6640537488",
+          "gid": "4643713447533128829",
+          "size": "6891595443"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25044073",
+        "timebuildupdated": "1788207486",
+        "timeupdated": "1788216102"
+      }
+    }
+  },
+  "extended": {
+    "demoofappid": "1683560",
+    "developer": "4MinuteWarning",
+    "publisher": "4MinuteWarning"
+  },
+  "ufs": {
+    "appidredirect": "1683560",
+    "maxnumfiles": "1000",
+    "quota": "500000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Ravager/game/saves",
+            "replace": "RenPy/Ravager-1492958390"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Ravager/game/saves",
+            "replace": "Library/RenPy/Ravager-1492958390"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "MacHome"
+      },
+      "2": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Ravager/game/saves",
+            "replace": ".renpy/Ravager-1492958390"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Ravager/game/saves",
+        "pattern": "*",
+        "root": "gameinstall"
+      },
+      "copied_from_parent": "1"
+    }
+  }
+}

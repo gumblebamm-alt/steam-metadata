@@ -1,0 +1,183 @@
+{
+  "_lastChecked": 1788615317,
+  "_history": [
+    {
+      "buildId": "29998",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615317,
+      "manifests": {
+        "206291": {
+          "gid": "1080753509461091363",
+          "size": 524213147,
+          "download": 0
+        },
+        "206292": {
+          "gid": "2912052970513110382",
+          "size": 425544461,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 34826686,
+  "_missing_token": false,
+  "_sha": "116def8b90d8bf882d3a3cf21e7e31990c48093b",
+  "_size": 3732,
+  "appid": "206290",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Futuremark Games Studio",
+        "type": "developer"
+      }
+    },
+    "category": {},
+    "clienticns": "5e2eca5514c2e1ecca576dd7a99c71c6686d49a9",
+    "clienticon": "b729ed802b778594792fbdb7343a02db295e339d",
+    "clienttga": "ed32c259885893b1e09bd9a339e351d17cd2fafc",
+    "community_visible_stats": "1",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "206290",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "d34eb0a8fd0a76b7aaf2268f25b15afe014fd30f",
+    "library_assets": {
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "height_pct": "100",
+        "pinned_position": "BottomLeft",
+        "width_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "height_pct": "100",
+          "pinned_position": "BottomLeft",
+          "width_pct": "100"
+        }
+      }
+    },
+    "logo": "d7efbed97f6edef66fb62a9d962edf5956e4ee42",
+    "logo_small": "d7efbed97f6edef66fb62a9d962edf5956e4ee42_thumb",
+    "metacritic_name": "Unstoppable Gorg Demo",
+    "name": "Unstoppable Gorg Demo",
+    "osarch": "",
+    "osextended": "",
+    "oslist": "windows,macos",
+    "parent": "18120",
+    "primary_genre": "0",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1329152040",
+    "store_asset_mtime": "1568914551",
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Unstoppable Gorg Demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "0b51117bc4b6c63e8a0dd2508f213851f5be167b7ebcc3be9a529aee798431439d9776f28b0f94f01cd48e35784b50513694ab02ff942e14afc53462005c101bf90c7477203a6f14800d704d78cf26802575040fad6385ab566cd6571b4a7cc9d71c48e6b6a983f984dba9529110f8ee0bc7a10436fcf535e68229e08b181b53",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "unstoppable_gorg_demo.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "unstoppable_gorg_demo.app"
+      }
+    }
+  },
+  "depots": {
+    "206291": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "1080753509461091363",
+          "size": "524213147"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "206292": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "2912052970513110382",
+          "size": "425544461"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "29998",
+        "timebuildupdated": "1354842498"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "demoofappid": "18120",
+    "developer": "Futuremark Games Studio",
+    "gamedir": "Unstoppable Gorg Demo",
+    "homepage": "",
+    "icon": "",
+    "installscript": "installscript.vdf",
+    "installscript_macos": "unstoppable_gorg_demo.app/installscript_osx.vdf",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "206291",
+    "primarycache_macos": "206292",
+    "serverbrowsername": "",
+    "state": "eStateAvailable",
+    "validoslist": "windows,macos"
+  },
+  "install": {
+    "registry": {
+      "hkey_local_machine\\software\\futuremark\\unstoppable_gorg_demo": {
+        "string": {
+          "exe_path": "%INSTALLDIR%\\unstoppable_gorg_demo.exe",
+          "install_path": "%INSTALLDIR%"
+        }
+      }
+    },
+    "run process": {
+      "directx": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Futuremark\\Unstoppable_Gorg_Demo\\directx_setup",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+      }
+    }
+  },
+  "ufs": {
+    "hidecloudui": "0",
+    "maxnumfiles": "1000",
+    "quota": "104857600"
+  }
+}

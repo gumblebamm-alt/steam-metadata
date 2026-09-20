@@ -1,0 +1,175 @@
+{
+  "_lastChecked": 1788621550,
+  "_history": [
+    {
+      "buildId": "9124384",
+      "branch": "public",
+      "timeUpdated": 1657840469,
+      "firstSeen": 1788621550,
+      "manifests": {
+        "1774792": {
+          "gid": "5612150688751301029",
+          "size": 119327136,
+          "download": 62332464
+        },
+        "1774793": {
+          "gid": "4916360167414201608",
+          "size": 120302128,
+          "download": 62780256
+        }
+      }
+    }
+  ],
+  "_change_number": 26375805,
+  "_missing_token": false,
+  "_sha": "2a6eca5fc4f84d6ae32895edc6ba526bf22e803c",
+  "_size": 3035,
+  "appid": "1774790",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Lunacy Labs Ltd.",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Lunacy Labs Ltd.",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_28": "1"
+    },
+    "clienticon": "36e7120e13e2952545a80efcfff234ac939bbd82",
+    "clienttga": "360a9b3ee2faf1b2f7fe7150f849e4ee32363b3d",
+    "controller_support": "full",
+    "exfgls": "6",
+    "gameid": "1774790",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "327a460f3ca4f9a545e23d2cea73dad6b00464b3",
+    "linuxclienticon": "dca3998aa9916d4f7b4c9de8ecd80d72ebf7a948",
+    "name": "Tokyo Rogue Demo",
+    "osarch": "",
+    "osextended": "",
+    "oslist": "windows,linux",
+    "parent": "1646090",
+    "primary_genre": "0",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1633102529",
+    "store_asset_mtime": "1657312861",
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "installdir": "Tokyo Rogue",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Tokyo Rogue Demo.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Tokyo Rogue Demo.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1774792": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "62332464",
+          "gid": "5612150688751301029",
+          "size": "119327136"
+        }
+      }
+    },
+    "1774793": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "62780256",
+          "gid": "4916360167414201608",
+          "size": "120302128"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "9124384",
+        "timeupdated": "1657840469"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "demoofappid": "1646090",
+    "developer": "Lunacy Labs Ltd.",
+    "publisher": "Lunacy Labs Ltd."
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Tokyo Rogue",
+            "replace": ".local/share/godot/app_userdata/Tokyo Rogue"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": ".local/share/godot/app_userdata/Tokyo Rogue",
+            "replace": "Godot/app_userdata/Tokyo Rogue"
+          }
+        },
+        "root": "LinuxHome",
+        "useinstead": "WinAppDataRoaming"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Tokyo Rogue",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": ".local/share/godot/app_userdata/Tokyo Rogue",
+        "pattern": "*.save",
+        "root": "LinuxHome"
+      }
+    }
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "_lastChecked": 1788615366,
+  "_history": [
+    {
+      "buildId": "51729",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615366,
+      "manifests": {
+        "217861": {
+          "gid": "5199905382949915042",
+          "size": 756689216,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 27209232,
+  "_missing_token": false,
+  "_sha": "cc2eb44fd4660e8297f988e560a6d3e983a873f1",
+  "_size": 4212,
+  "appid": "217860",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Zombie Studios",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Atari - DNU",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_1": "1"
+    },
+    "clienticon": "c3c02bc6257f23855f69795b55dc75f891b57621",
+    "clienttga": "bd47d79764aa5bdbb1d680984ab2f7b6103244a4",
+    "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "gameid": "217860",
+    "genres": {
+      "0": "1"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "143e376bf72ec718d987d50d5c8b9c88ae9cfc62",
+    "languages": {
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "spanish": "1"
+    },
+    "logo": "6457c143dd7e5828480e261bf3150c455a62e359",
+    "logo_small": "6457c143dd7e5828480e261bf3150c455a62e359_thumb",
+    "metacritic_fullurl": "https://www.metacritic.com/game/pc/special-forces-team-x?ftag=MCD-06-10aaa1f",
+    "metacritic_name": "Special Forces: Team X",
+    "metacritic_score": "48",
+    "name": "Special Forces: Team X",
+    "oslist": "windows",
+    "primary_genre": "1",
+    "review_percentage": "53",
+    "review_score": "5",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1360166400",
+    "store_asset_mtime": "1367414043",
+    "store_screenshot": "ss_1caae1c8f5ac80c32e515078716c18159990737c.jpg",
+    "store_tags": {
+      "0": "19",
+      "1": "3814",
+      "2": "3859",
+      "3": "1697"
+    },
+    "supported_languages": {
+      "english": {
+        "full_audio": "1",
+        "supported": "1"
+      },
+      "french": {
+        "supported": "1"
+      },
+      "german": {
+        "supported": "1"
+      },
+      "italian": {
+        "supported": "1"
+      },
+      "spanish": {
+        "supported": "1"
+      }
+    },
+    "type": "Game"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Special Forces Team X",
+    "installscriptoverride": "1",
+    "installscriptsignature": "91c2a190fdbf82e8767b599153077226de22d285be20e47e698437b61d9625fe2b7442200cf4a1c541e7b6afc6c034aa59efdcffe6271ae29510e04e422afb25963f58558092f26593baab5d24469339fad0cf263a2b25c20d7b430eb16857799929d776b42d4a7aad72f64fb47177017fa616207bb80e01fddd6627b0eda09a",
+    "launch": {
+      "0": {
+        "description": "Launch",
+        "executable": "Binaries/Win32/SealTeamXGame-Win32-Shipping.exe",
+        "workingdir": "Binaries/"
+      }
+    }
+  },
+  "depots": {
+    "217861": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "5199905382949915042",
+          "size": "756689216"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "51729"
+      }
+    },
+    "overridescddb": "1",
+    "preloadonly": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Zombie Studios",
+    "gamedir": "ValveTestApp217860",
+    "homepage": "http://www.specialforcesteamx.com",
+    "icon": "",
+    "installscript": "install.vdf",
+    "noservers": "0",
+    "publisher": "Atari - DNU",
+    "sourcegame": "1",
+    "state": "eStateAvailable",
+    "thirdpartycdkey": "1",
+    "visibleonlywhensubscribed": "1"
+  },
+  "install": {
+    "registry": {
+      "hkey_local_machine\\software\\microprose\\special forces team x": {
+        "string": {
+          "installlocation": "%INSTALLDIR%"
+        }
+      }
+    },
+    "run process": {
+      "directxinst": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\217860",
+        "minimumhasrunvalue": "1",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Binaries\\Redist\\DXSETUP.exe"
+      },
+      "netframework": {
+        "command 1": "/passive",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Net Framework Setup\\NDP\\v3.5\\1033",
+        "minimumhasrunvalue": "1",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Binaries\\Redist\\dotnetfx35setup.exe"
+      },
+      "physxinst": {
+        "command 1": "/quiet",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\217860",
+        "minimumhasrunvalue": "100513",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Binaries\\Redist\\PhysX_9.10.0513_SystemSoftware.exe"
+      },
+      "vcredist_x86": {
+        "command 1": "/q:a",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\217860",
+        "minimumhasrunvalue": "1",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Binaries\\Redist\\vcredist_x86.exe"
+      }
+    }
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "2000"
+  }
+}

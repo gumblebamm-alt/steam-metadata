@@ -1,0 +1,116 @@
+{
+  "_lastChecked": 1788615354,
+  "_history": [
+    {
+      "buildId": "11428",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615354,
+      "manifests": {
+        "214811": {
+          "gid": "1852421734847386737",
+          "size": 143655446,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 26253459,
+  "_missing_token": false,
+  "_sha": "1eca084a8f25e5c29205a682616ebccd7518ea27",
+  "_size": 2606,
+  "appid": "214810",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Smudged Cat Games Ltd",
+        "type": "developer"
+      }
+    },
+    "category": {},
+    "clienticon": "ee7549881f752a52004005e486fb96bda9d10a2e",
+    "clienttga": "8fd5c6ed698e575135005474e8aec2f663551e95",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "214810",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "af0d77cb0d8c50b7df5ba9c5da86b619c078dc1f",
+    "logo": "4e60f6b884f1e90ffd963467b3dd281576a3c4d4",
+    "logo_small": "4e60f6b884f1e90ffd963467b3dd281576a3c4d4_thumb",
+    "metacritic_name": "Adventures of Shuggy Demo",
+    "name": "Adventures of Shuggy Demo",
+    "parent": "211440",
+    "primary_genre": "0",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1344394740",
+    "store_asset_mtime": "1344394915",
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Adventures of Shuggy Demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "16d11ae964e48d602ac261c50cadf21b1982c27a17f4ed3a7159d1dac5ddc15e4d654fc4894b1cfbf8422e41cd816bee50f5856a3fef2e2cc821208c53c87c121190f61c938c1dc4d8509c86094f167eb02ca49365db84e3d1e78cf8217f56321bd3e583832df95f9bb90ff6d5a80727f040cb39268274fae3f4174326630b4e",
+    "launch": {
+      "0": {
+        "executable": "Shuggy.exe",
+        "workingdir": "."
+      }
+    }
+  },
+  "depots": {
+    "214811": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "1852421734847386737",
+          "size": "143655446"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "11428"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "demoofappid": "211440",
+    "developer": "Smudged Cat Games Ltd",
+    "gamedir": "Adventures of Shuggy Demo",
+    "homepage": "",
+    "icon": "",
+    "languages": "english,russian",
+    "noservers": "0",
+    "sourcegame": "1",
+    "state": "eStateAvailable",
+    "visibleonlywhensubscribed": "1"
+  },
+  "install": {
+    "run process": {
+      "direct x": {
+        "command 1": "/silent",
+        "process 1": "%INSTALLDIR%\\Redist\\DX Redist\\DXSETUP.exe"
+      },
+      "install": {
+        "command 1": "/passive /norestart",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\NET Framework Setup\\NDP\\v4\\Full",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Redist\\dotNetFx40_Full_x86_x64.exe"
+      },
+      "installed": {
+        "command 1": "/passive /i \"%INSTALLDIR%\\Redist\\XNA FX Redist\\xnafx40_redist.msi\"",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Microsoft\\XNA\\Framework\\v4.0",
+        "nocleanup": "1",
+        "process 1": "msiexec.exe"
+      }
+    }
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "_lastChecked": 1788619382,
+  "_history": [
+    {
+      "buildId": "5482869",
+      "branch": "public",
+      "timeUpdated": 1598880092,
+      "firstSeen": 1788619382,
+      "manifests": {
+        "1136401": {
+          "gid": "1073094210562289661",
+          "size": 346277379,
+          "download": 25944608
+        },
+        "1136402": {
+          "gid": "8763689821768555865",
+          "size": 354440129,
+          "download": 28320944
+        },
+        "1136403": {
+          "gid": "8210906139172528997",
+          "size": 363811072,
+          "download": 29675264
+        }
+      }
+    }
+  ],
+  "_change_number": 26997904,
+  "_missing_token": false,
+  "_sha": "4a9205166ad603d6392088f27d8e5e4162071359",
+  "_size": 3737,
+  "appid": "1136400",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Gubbi Games",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Gubbi Games",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1"
+    },
+    "clienticns": "f8331a7df82b30da27e64ce06bf9e70e11a3c69b",
+    "clienticon": "5643e7924e6f76505aba58f818866b0b91c91ffa",
+    "clienttga": "4cca03d123c1c9a02caaa7d9f30ccab9dbb6c75e",
+    "exfgls": "6",
+    "gameid": "1136400",
+    "genres": {
+      "0": "25"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "5053325b06aacb3532f36fd21e042836580330db",
+    "linuxclienticon": "b96b99e1fac57b0d0509801d3c048544ea213462",
+    "logo": "ea598ddc335f7150ea5effccc065485045ea6cba",
+    "logo_small": "ea598ddc335f7150ea5effccc065485045ea6cba_thumb",
+    "metacritic_name": "Barney's Dream Cruise Demo",
+    "name": "Barney's Dream Cruise Demo",
+    "osarch": "",
+    "osextended": "macos64",
+    "oslist": "windows,macos,linux",
+    "parent": "1052210",
+    "primary_genre": "25",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1565153054",
+    "store_asset_mtime": "1598694454",
+    "store_screenshot": "ss_0466aae858857e94d39e3561fee64a1ee8ce4511.jpg",
+    "supported_languages": {
+      "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "spanish": {
+        "subtitles": "true",
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "installdir": "Barney's Dream Cruise Demo",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Barney's Dream Cruise.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Barney's Dream Cruise.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Barney's Dream Cruise.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1136401": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "25944608",
+          "gid": "1073094210562289661",
+          "size": "346277379"
+        }
+      }
+    },
+    "1136402": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "28320944",
+          "gid": "8763689821768555865",
+          "size": "354440129"
+        }
+      }
+    },
+    "1136403": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "29675264",
+          "gid": "8210906139172528997",
+          "size": "363811072"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "5482869",
+        "timeupdated": "1598880092"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "demoofappid": "1052210",
+    "developer": "Gubbi Games",
+    "homepage": "https://rikard-swahn.github.io/barney/",
+    "publisher": "Gubbi Games"
+  },
+  "ufs": {
+    "appidredirect": "1052210",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "100000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Gubbi Games/Barney's Dream Cruise",
+            "replace": "net.gubbi.goofy.macos"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Gubbi Games/Barney's Dream Cruise",
+            "replace": ".config/unity3d/Gubbi Games/Barney's Dream Cruise"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Gubbi Games/Barney's Dream Cruise",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
+}

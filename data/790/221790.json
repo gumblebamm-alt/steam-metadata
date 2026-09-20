@@ -1,0 +1,185 @@
+{
+  "_lastChecked": 1788615378,
+  "_history": [
+    {
+      "buildId": "67710",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615378,
+      "manifests": {
+        "221791": {
+          "gid": "4804865081294321497",
+          "size": 3934373126,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 37102744,
+  "_missing_token": false,
+  "_sha": "f4109afc87f9232bc409442dc05c93ef3566ec33",
+  "_size": 4358,
+  "appid": "221790",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "ChangYou.com (US), Inc. (GameFuse.com)",
+        "type": "developer"
+      },
+      "1": {
+        "name": "ChangYou ",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_1": "1",
+      "category_20": "1"
+    },
+    "clienticon": "d7cb2ecd882ffc4f3be0c63b2e830ace8794e89a",
+    "clienttga": "6e8beca0914445d7b088ed9dd896287eb6fee3ae",
+    "community_hub_visible": "1",
+    "gameid": "221790",
+    "genres": {
+      "0": "1",
+      "1": "37",
+      "2": "29"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "1974d4abdc58b00733429f32b0d176bbfa0e1f11",
+    "logo": "1ab2af1c09ea6dcfdc7510a9801ad48d510cceb0",
+    "logo_small": "1ab2af1c09ea6dcfdc7510a9801ad48d510cceb0_thumb",
+    "metacritic_name": "Renaissance Heroes",
+    "name": "Renaissance Heroes",
+    "primary_genre": "37",
+    "review_percentage": "88",
+    "review_score": "8",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1368579600",
+    "store_asset_mtime": "1368824587",
+    "store_screenshot": "ss_bbacb0968b84947e49f68275af387e5eaa9e35e2.jpg",
+    "store_tags": {},
+    "supported_languages": {
+      "english": {
+        "full_audio": "1",
+        "supported": "1"
+      }
+    },
+    "type": "Game"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Renaissance Heroes",
+    "installscriptoverride": "1",
+    "installscriptsignature": "65da38c61042ab0ef237e64916ee13c5ba73c0f179342bbee5e9a5acb672e1b5f9f92e2cb9e790dacf4cf1701a0f265a92975af4ecabbb7c61a33ee85ec18e9128f825e6d012d11656c433c66444c135b38a5ee414a0217c08f5dfd4187be78f2d001a1b3a2746b04882c2ae6c5561c8a2231fe4b1dbbdb1b7d089634c010685",
+    "launch": {
+      "0": {
+        "description": "Launch",
+        "executable": "BrideaLauncher.exe"
+      }
+    }
+  },
+  "depots": {
+    "221791": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "4804865081294321497",
+          "size": "3934373126"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "228982": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229001": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "67710",
+        "timebuildupdated": "1368519318"
+      }
+    },
+    "overridescddb": "1",
+    "preloadonly": "1"
+  },
+  "extended": {
+    "developer": "ChangYou.com (US), Inc. (GameFuse.com)",
+    "gamedir": "ValveTestApp221790",
+    "homepage": "http://www.gamefuse.com/renaissance-heroes/",
+    "icon": "",
+    "isfreeapp": "1",
+    "listofdlc": "236551,236552,236553,236554,236555,236556,236557,236558",
+    "noservers": "0",
+    "publisher": "ChangYou ",
+    "sourcegame": "1",
+    "state": "eStateAvailable",
+    "thirdpartycdkey": "1",
+    "visibleonlywhensubscribed": "1"
+  },
+  "install": {
+    "firewall": {
+      "renaissance heroes": "%INSTALLDIR%\\Binaries\\Win32\\DVGame.exe",
+      "renaissance heroes launcher": "%INSTALLDIR%\\BrideaLauncher.exe"
+    },
+    "registry": {
+      "hkey_current_user\\software\\bridea\\int\\davinci": {
+        "string": {
+          "installdir": "%INSTALLDIR%"
+        }
+      }
+    },
+    "run process": {
+      "3.5 client profile sp1": {
+        "command 1": "/q /norestart",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\.NET\\3.5 Client Profile",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\_CommonRedist\\DotNet\\3.5 Client Profile\\DotNetFx35Client.exe"
+      },
+      "dxsetup": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\DirectX\\Jun2010",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\_CommonRedist\\DirectX\\Jun2010\\DXSETUP.exe"
+      },
+      "x64 sp1": {
+        "command 1": "/q /norestart",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2008",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\_CommonRedist\\vcredist\\2008\\vcredist_x64.exe",
+        "requirement_os": {
+          "is64bitwindows": "1"
+        }
+      },
+      "x86 sp1": {
+        "command 1": "/q /norestart",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\vcredist\\2008",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\_CommonRedist\\vcredist\\2008\\vcredist_x86.exe"
+      }
+    }
+  }
+}

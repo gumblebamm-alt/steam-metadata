@@ -1,0 +1,143 @@
+{
+  "_lastChecked": 1788614867,
+  "_history": [
+    {
+      "buildId": "183631",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788614867,
+      "manifests": {
+        "6702": {
+          "gid": "2990841058567381947",
+          "size": 0,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 31692725,
+  "_missing_token": false,
+  "_sha": "2e2a6e7e93257f1a46d41e3c0678404d7cef8e44",
+  "_size": 3690,
+  "appid": "6700",
+  "common": {
+    "eulas": {
+      "0": {
+        "id": "6700_eula_0",
+        "name": "Notepad EULA",
+        "url": "http://store.steampowered.com/eula/6700_eula_0"
+      }
+    },
+    "gameid": "6700",
+    "icon": "",
+    "languages": {
+      "english": "1",
+      "french": "1"
+    },
+    "logo": "",
+    "logo_small": "",
+    "name": "SteamTestApp6700",
+    "oslist": "windows",
+    "releasestate": "released",
+    "scriptsignature": "1234",
+    "type": "Game"
+  },
+  "config": {
+    "cegpublickey": "30819D300D06092A864886F70D010101050003818B0030818702818100DF2077CAEEBEDF8E94A9F62C2B260DA7559C9AF4087C7938B836E8474EBFB44987477ABF472BE62893707636D9E4DE89905C602085CC9CE86CC1F3D8976E3E61EFCDD510F007B67FEDEED0D64F59919FA08FF2A2460C1C4FEE9383FF660422DB46B19AD30FF845C7C01522A75024F8C107219DFBAEF793F82D3F6F4BD1224731020111",
+    "checkguid": "steamworksexample.exe",
+    "contenttype": "3",
+    "installdir": "Appi",
+    "installscriptoverride": "1",
+    "installscriptsignature": "a6dea75e3b009f2643e7774e6e3b1b883445597d2c2f953ef5fba33b92167d0d07b99c4a3baaba0f0eb495e644e27c1090b00c5210f3c28eb8dc42fdf28a652eaeded747934e746e1a724149af38f16cc9d6b2f7ebc5646ae86b17c98dfb441cc88040fc4f3728fb7f06be84c7e07f748dcbad37343b351adecc20be8e4f665c",
+    "launch": {
+      "0": {
+        "arguments": "-console",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch with Console",
+        "executable": "pacman_prot_steamed.exe"
+      }
+    },
+    "signedfiles": {
+      "client.dll": "30819D300D06092A864886F70D010101050003818B0030818702818100B1260881BDFE84463D88C6AB8DB914A2E593893C10508B8A5ABDF692E9A5419A3EDBAE86A052849983B75E3B425C18178B260003D857DF0B6505C6CF9C84F5859FCE3B63F1FB2D4818501F6C5FA4AD1430EEB081A74ABD74CD1F4AA1FCCA3B88DD0548AED34443CEB52444EAE9099AA4FE66B2E6224D02381C248025C7044079020111",
+      "hl2.exe": "30819D300D06092A864886F70D010101050003818B0030818702818100B1260881BDFE84463D88C6AB8DB914A2E593893C10508B8A5ABDF692E9A5419A3EDBAE86A052849983B75E3B425C18178B260003D857DF0B6505C6CF9C84F5859FCE3B63F1FB2D4818501F6C5FA4AD1430EEB081A74ABD74CD1F4AA1FCCA3B88DD0548AED34443CEB52444EAE9099AA4FE66B2E6224D02381C248025C7044079020111"
+    }
+  },
+  "depots": {
+    "6702": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "2990841058567381947",
+          "size": "0"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "183631"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "overridescddb": "1",
+    "preloadonly": "1"
+  },
+  "install": {
+    "delete files on uninstall": {
+      "%installdir%\\template_out.txt": "1"
+    },
+    "file template": {
+      "test template": {
+        "output_file": "%INSTALLDIR%\\template_out.txt",
+        "template_file": "%INSTALLDIR%\\template_in.txt"
+      }
+    },
+    "registry": {
+      "hkey_local_machine\\software\\valve\\steam\\test": {
+        "dword": {
+          "test value": "42"
+        },
+        "string": {
+          "english": {
+            "languagestring": "US"
+          },
+          "german": {
+            "languagestring": "DE"
+          },
+          "test string 1": "Steam is awesome",
+          "test string 2": "%INSTALLDIR%"
+        }
+      }
+    },
+    "run process": {
+      "test process 1": {
+        "ascurrentuser": "1",
+        "command 1": "-s %INSTALLDIR%\\registrytest1.reg",
+        "process 1": "%windir%\\regedit.exe"
+      },
+      "test process 2": {
+        "command 1": "-s %INSTALLDIR%\\registrytest2.reg",
+        "nocleanup": "1",
+        "process 1": "%windir%\\regedit.exe"
+      }
+    },
+    "run process on uninstall": {
+      "test process 3": {
+        "command 1": "-s %INSTALLDIR%\\registrytest3.reg",
+        "process 1": "%windir%\\regedit.exe"
+      }
+    }
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "1000000"
+  }
+}

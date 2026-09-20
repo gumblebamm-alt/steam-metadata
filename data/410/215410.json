@@ -1,0 +1,161 @@
+{
+  "_lastChecked": 1788615359,
+  "_history": [
+    {
+      "buildId": "24593",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615359,
+      "manifests": {
+        "215411": {
+          "gid": "8181735852979172245",
+          "size": 1489784148,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 24981165,
+  "_missing_token": false,
+  "_sha": "bce1e84ff1409cc265e23b2f41e036059c8f606a",
+  "_size": 3233,
+  "appid": "215410",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Trickstar Games",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Mad Catz",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_1": "1",
+      "category_18": "1",
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_9": "1"
+    },
+    "clienticon": "df76cae1b69f85d75cf4f4bb066758a37b42204e",
+    "clienttga": "0d3362834952f5e52bb428acc74179a22ef82ca0",
+    "controller_support": "partial",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "215410",
+    "genres": {
+      "0": "1",
+      "1": "28"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "a6d7c1476b53a041a447e7169be5cdccc958caea",
+    "logo": "e8de52de9e8fb76ecbbc7d8853ce3acbcbdf81aa",
+    "logo_small": "e8de52de9e8fb76ecbbc7d8853ce3acbcbdf81aa_thumb",
+    "metacritic_name": "Damage Inc Demo",
+    "name": "Damage Inc Demo",
+    "primary_genre": "0",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "store_asset_mtime": "1350971720",
+    "supported_languages": {
+      "english": {
+        "full_audio": "1",
+        "supported": "1"
+      },
+      "french": {
+        "supported": "1"
+      },
+      "german": {
+        "supported": "1"
+      },
+      "italian": {
+        "supported": "1"
+      },
+      "spanish": {
+        "supported": "1"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Damage Inc Demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "6d86301a20edf8216adce74338b5cfdabb27283160722b31eb6a6e49424e0c38bf0217d8d9f4acc80f108a61bf6fc2fc7fc310bcdc37bbea52319654ff06f2ee3565dd3efb1e306398fa1407a253c67f64b2a66604a8f7e88097477ca9615ad9f830ecf01b0a77ec0a6720d7a634c3a7deec7c1f46295d7536c8c00333c7c155",
+    "launch": {
+      "0": {
+        "description": "Play Damage Inc Demo",
+        "executable": "GameLauncher.exe"
+      }
+    }
+  },
+  "depots": {
+    "215411": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "8181735852979172245",
+          "size": "1489784148"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "24593"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "developer": "Trickstar Games",
+    "gamedir": "ValveTestApp215410",
+    "homepage": "http://www.damageincthegame.com",
+    "icon": "",
+    "noservers": "0",
+    "publisher": "Mad Catz",
+    "sourcegame": "1",
+    "state": "eStateAvailable",
+    "visibleonlywhensubscribed": "1"
+  },
+  "install": {
+    "registry": {
+      "hkey_local_machine\\software\\madcatz\\damageincdemo": {
+        "dword": {
+          "patchversion": "12"
+        },
+        "string": {
+          "exe_path": "%INSTALLDIR%\\Game.exe",
+          "install_path": "%INSTALLDIR%"
+        }
+      }
+    },
+    "run process": {
+      "directx": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\215410",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Support\\directx_Jun2010\\DXSetup.exe"
+      },
+      "dotnet fx 2.0 x86": {
+        "command 1": "/q /norestart",
+        "process 1": "%INSTALLDIR%\\Support\\NetFx20SP2_x86.exe",
+        "requirement_os": {
+          "is64bitwindows": "0"
+        }
+      },
+      "vc++ redist x86": {
+        "command 1": "/q:a",
+        "process 1": "%INSTALLDIR%\\Support\\vcredist_x86.exe",
+        "requirement_os": {
+          "is64bitwindows": "0"
+        }
+      }
+    }
+  }
+}

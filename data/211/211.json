@@ -1,0 +1,113 @@
+{
+  "_lastChecked": 1788614768,
+  "_history": [
+    {
+      "buildId": "135296",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788614768,
+      "manifests": {
+        "1004": {
+          "gid": "3578600867548439549",
+          "size": 9662208,
+          "download": 0
+        },
+        "211": {
+          "gid": "7774191697749867566",
+          "size": 2163596723,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 26268883,
+  "_missing_token": false,
+  "_sha": "744672be765b09daf71cfb5c06d7c54cc4950334",
+  "_size": 2088,
+  "appid": "211",
+  "common": {
+    "clienttga": "cf1ac7ec6ac21d099a2fe81bf269bfd50a550a0c",
+    "community_hub_visible": "1",
+    "gameid": "211",
+    "icon": "50dd8fa4ea86581b1986e8b1d0560d58f41912ac",
+    "logo": "265be1d1db7ecf801a1ac8fde07692a567c14bb0",
+    "logo_small": "6f982a1905f93110bd7a719d80b6d4e6ffe39eae",
+    "name": "Source SDK",
+    "oslist": "windows",
+    "type": "Tool"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "SourceSDK",
+    "installscriptoverride": "1",
+    "launch": {
+      "0": {
+        "arguments": "-game launcher",
+        "executable": "bin\\SDKLauncher.exe"
+      }
+    }
+  },
+  "depots": {
+    "1004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "1002",
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "3578600867548439549",
+          "size": "9662208"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "211": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "7774191697749867566",
+          "size": "2163596723"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "135296"
+      }
+    },
+    "markdlcdepots": "1",
+    "overridescddb": "1"
+  },
+  "extended": {
+    "developer": "Valve",
+    "disableoverlay": "1",
+    "gamedir": "valve",
+    "homepage": "http://developer.valvesoftware.com/",
+    "icon": "steam/games/icon_source_ds",
+    "icon2": "steam/games/icon_source_ds_dull",
+    "installscript": "211_install.vdf",
+    "noservers": "1",
+    "order": "20",
+    "primarycache": "211",
+    "state": "eStateTool",
+    "visibleonlywhensubscribed": "1"
+  },
+  "install": {
+    "copy files": {
+      "config file": {
+        "dstfile1": "%INSTALLDIR%\\bin\\source2007\\bin\\steam.dll",
+        "dstfile2": "%INSTALLDIR%\\bin\\orangebox\\bin\\steam.dll",
+        "dstfile3": "%INSTALLDIR%\\bin\\ep1\\bin\\steam.dll",
+        "dstfile4": "%INSTALLDIR%\\bin\\source2009\\bin\\steam.dll",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\211",
+        "ignoreexitcode": "1",
+        "srcfile1": "%INSTALLDIR%\\steam.dll",
+        "srcfile2": "%INSTALLDIR%\\steam.dll",
+        "srcfile3": "%INSTALLDIR%\\steam.dll",
+        "srcfile4": "%INSTALLDIR%\\steam.dll"
+      }
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "_lastChecked": 1788615341,
+  "_history": [
+    {
+      "buildId": "68226",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615341,
+      "manifests": {
+        "210371": {
+          "gid": "6874234086041704849",
+          "size": 99437892,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 27209232,
+  "_missing_token": false,
+  "_sha": "1af857c0cbdf7e75217949a0568dc79c101c4be7",
+  "_size": 1979,
+  "appid": "210370",
+  "common": {
+    "clienticon": "7844f42ed36d0c095860ba48aa2ba5af1d98201f",
+    "clienttga": "ccecac94068978ad76f252ee583e824292aae7ce",
+    "gameid": "210370",
+    "icon": "69dce19583cd217b0f590cf7f6553fca69307250",
+    "name": "Starvoid Server",
+    "oslist": "windows",
+    "type": "Tool"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "SVALPHASERVER",
+    "installscriptoverride": "1",
+    "installscriptsignature": "156fd4ac2522c997652a5a6d90db988c446f2b6d5a6bcc8f9a38416f19da21e079be572143bee8ba87ea93324d67851e7ab8bbe65545445fd95c3356d00c1ec4302524d12b1ade6b445d018a36ec63bf1607fade42a6d1622b6ec639b3ee4b8802e6293a7a6aba5204233856622cc3881b46c6499fa4f2d6720dd4ce8afd7d02",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "default_win32_release.exe"
+      }
+    }
+  },
+  "depots": {
+    "210371": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "6874234086041704849",
+          "size": "99437892"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "68226"
+      }
+    },
+    "overridescddb": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "",
+    "gamedir": "Starvoid Dedicated Server",
+    "homepage": "",
+    "icon": "",
+    "installscript": "installscript.vdf",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "210371",
+    "serverbrowsername": "",
+    "state": "eStateTool"
+  },
+  "install": {
+    "run process": {
+      "directx": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\210370",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\install\\DirectX Feb 2010\\DXSETUP.exe"
+      },
+      "vcredist_2010": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\210370",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\install\\vcredist_x86_2010.exe"
+      }
+    }
+  },
+  "ufs": {
+    "hidecloudui": "0",
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
+}

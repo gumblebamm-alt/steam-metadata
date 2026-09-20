@@ -1,0 +1,242 @@
+{
+  "_lastChecked": 1788615395,
+  "_history": [],
+  "_change_number": 26685919,
+  "_missing_token": false,
+  "_sha": "6ee87199c287c0914ce22c2f8aaab1f0bfb87dc6",
+  "_size": 6083,
+  "appid": "226470",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Ubisoft",
+        "type": "publisher"
+      }
+    },
+    "clienticon": "ca96388ee5c05a5066e50dc580fabb23fba5d3da",
+    "clienttga": "9e51784b26b5f26682621efd882fb9a56d0172ab",
+    "eulas": {
+      "0": {
+        "id": "220240_eula",
+        "name": "220240_eula",
+        "url": "http://store.steampowered.com/eula/220240_eula"
+      }
+    },
+    "exfgls": "9",
+    "gameid": "226470",
+    "icon": "8231f43d3dd47fb4b4111fd6bd4a849e73eb0520",
+    "logo": "47811cc7821070306a24622b5d33c04c85264279",
+    "logo_small": "47811cc7821070306a24622b5d33c04c85264279_thumb",
+    "name": "Far Cry 3 - Map Editor",
+    "parent": "220240",
+    "type": "Tool"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Far Cry 3",
+    "installscriptoverride": "1",
+    "installscriptsignature": "9ecf8bba80beec38ad604e64b583d0242ce4ebbc91666fa811be41419afc0c8d44933230dcff18053384472ee8fd31f4b096744d834d3ca1dce2e3bd439598d29415e26249c314c380525fcae41eb16c9d6b298add2f5e3b5e34361b19793552414c3765c84a78319938c0b1fee6ceecbd8e5cd7b481574f4e4e84558926d5e0",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch the map editor",
+        "executable": "bin/FC3Editor.exe",
+        "workingdir": "bin"
+      }
+    }
+  },
+  "depots": {
+    "220241": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "220240",
+      "sharedinstall": "2",
+      "systemdefined": "1"
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "checkpkgstate": "1",
+    "developer": "Ubisoft",
+    "disableoverlay": "1",
+    "gamedir": "ValveTestApp226470",
+    "homepage": "http://www.farcrygame.com/",
+    "icon": "",
+    "launcheula": "http://store.steampowered.com/eula/220240_eula",
+    "noservers": "0",
+    "publisher": "Ubisoft",
+    "sourcegame": "1",
+    "state": "eStateComingSoonNoPreload",
+    "visibleonlywhensubscribed": "1"
+  },
+  "install": {
+    "registry": {
+      "hkey_local_machine\\software\\ubisoft\\far cry 3": {
+        "string": {
+          "brazilian": {
+            "language": "Portuguese"
+          },
+          "czech": {
+            "language": "Czech"
+          },
+          "danish": {
+            "language": "Danish"
+          },
+          "dutch": {
+            "language": "Dutch"
+          },
+          "english": {
+            "language": "English"
+          },
+          "executablename": "bin\\FC3UpdaterSteam.exe",
+          "french": {
+            "language": "French"
+          },
+          "german": {
+            "language": "German"
+          },
+          "installdir": "%INSTALLDIR%",
+          "italian": {
+            "language": "Italian"
+          },
+          "norwegian": {
+            "language": "Norwegian"
+          },
+          "polish": {
+            "language": "Polish"
+          },
+          "russian": {
+            "language": "Russian"
+          },
+          "sku": "WW_STEAM",
+          "spanish": {
+            "language": "Spanish"
+          },
+          "swedish": {
+            "language": "Swedish"
+          },
+          "version": "1.03"
+        }
+      },
+      "hkey_local_machine\\software\\wow6432node\\ubisoft\\far cry 3": {
+        "string": {
+          "brazilian": {
+            "language": "Portuguese"
+          },
+          "czech": {
+            "language": "Czech"
+          },
+          "danish": {
+            "language": "Danish"
+          },
+          "dutch": {
+            "language": "Dutch"
+          },
+          "english": {
+            "language": "English"
+          },
+          "executablename": "bin\\FC3UpdaterSteam.exe",
+          "french": {
+            "language": "French"
+          },
+          "german": {
+            "language": "German"
+          },
+          "installdir": "%INSTALLDIR%",
+          "italian": {
+            "language": "Italian"
+          },
+          "norwegian": {
+            "language": "Norwegian"
+          },
+          "polish": {
+            "language": "Polish"
+          },
+          "russian": {
+            "language": "Russian"
+          },
+          "sku": "WW_STEAM",
+          "spanish": {
+            "language": "Spanish"
+          },
+          "swedish": {
+            "language": "Swedish"
+          },
+          "version": "1.03"
+        }
+      }
+    },
+    "run process": {
+      "d3d11 support": {
+        "command 1": "/quiet",
+        "description": "DirectX 11",
+        "process 1": "%INSTALLDIR%\\Support\\DirectX\\D3D11InstallX86.exe"
+      },
+      "directx": {
+        "command 1": "/silent",
+        "description": "DirectX",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Support\\DirectX\\DXSETUP.exe"
+      },
+      "firewall-ige": {
+        "command 1": "add \"%INSTALLDIR%\\bin\\FC3Editor.exe\" \"Far Cry 3 - Map Editor\"",
+        "description": "Windows Firewall - IGE",
+        "ignoreexitcode": "1",
+        "process 1": "%INSTALLDIR%\\bin\\FirewallInstall.exe"
+      },
+      "microsoft .net framework - vista": {
+        "command 1": "/q /norestart",
+        "description": "Microsoft .Net Framework",
+        "ignoreexitcode": "1",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Support\\dotNetFramework\\dotNetFx35setup.exe",
+        "requirement_os": {
+          "ostype": "Windows Vista"
+        }
+      },
+      "microsoft .net framework - win7": {
+        "command 1": "/q /norestart",
+        "description": "Microsoft .Net Framework",
+        "ignoreexitcode": "1",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Support\\dotNetFramework\\dotNetFx35setup.exe",
+        "requirement_os": {
+          "ostype": "Windows 7"
+        }
+      },
+      "microsoft .net framework - winxp": {
+        "command 1": "/q /norestart",
+        "description": "Microsoft .Net Framework",
+        "ignoreexitcode": "1",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Support\\dotNetFramework\\dotNetFx35setup.exe",
+        "requirement_os": {
+          "ostype": "Windows XP"
+        }
+      },
+      "microsoft visual studio 2008 c++ redistributable": {
+        "command 1": "/q",
+        "description": "Microsoft Visual Studio C++ Redistributable",
+        "ignoreexitcode": "1",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Support\\VCRedist\\VS_2008_vcredist_sp1_x86.exe"
+      },
+      "microsoft visual studio 2010 c++ redistributable": {
+        "command 1": "/q",
+        "description": "Microsoft Visual Studio C++ Redistributable",
+        "ignoreexitcode": "1",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Support\\VCRedist\\VS_2010_vcredist_x86.exe"
+      }
+    },
+    "run process on uninstall": {
+      "firewall-ige-uninstall": {
+        "command 1": "remove \"%INSTALLDIR%\\bin\\FC3Editor.exe\" \"Far Cry 3 - Map Editor\"",
+        "process 1": "%INSTALLDIR%\\bin\\FirewallInstall.exe"
+      }
+    }
+  }
+}

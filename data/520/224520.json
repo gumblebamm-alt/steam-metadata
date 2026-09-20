@@ -1,0 +1,172 @@
+{
+  "_lastChecked": 1788615392,
+  "_history": [
+    {
+      "buildId": "28480",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615392,
+      "manifests": {
+        "224521": {
+          "gid": "182878369987975928",
+          "size": 1004341698,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 26253459,
+  "_missing_token": false,
+  "_sha": "d2fa2265499184c813a31089a24f2c259c9900e2",
+  "_size": 3750,
+  "appid": "224520",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Ankama Play",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Ankama",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_15": "1",
+      "category_18": "1",
+      "category_2": "1",
+      "category_22": "1",
+      "category_25": "1",
+      "category_28": "1"
+    },
+    "clienticon": "38fd2d93ed95ad87d6d7484ee5b02c601c74444b",
+    "clienttga": "bba8285db4d0a15feb6c1945e965f1626f518bd2",
+    "controller_support": "full",
+    "exfgls": "6",
+    "gameid": "224520",
+    "genres": {
+      "0": "23",
+      "1": "34"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "9f2c639c0a05cefe2c3029a20f6a542858e497c8",
+    "logo": "3a2dc57a60cc19eed711e43028d5f415cf136a37",
+    "logo_small": "3a2dc57a60cc19eed711e43028d5f415cf136a37_thumb",
+    "metacritic_name": "FLY'N Demo",
+    "name": "FLY'N Demo",
+    "oslist": "windows",
+    "parent": "223730",
+    "primary_genre": "0",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1352928720",
+    "store_asset_mtime": "1352928910",
+    "store_screenshot": "ss_6a100e96365c5af952dc6b4c2c9ad4b5918945d3.jpg",
+    "supported_languages": {
+      "english": {
+        "supported": "1"
+      },
+      "french": {
+        "supported": "1"
+      },
+      "german": {
+        "supported": "1"
+      },
+      "italian": {
+        "supported": "1"
+      },
+      "spanish": {
+        "supported": "1"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "FLYN Demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "3550fc35c5ca79110b21ee704fd0df881240e39367e2cdb2a65a4a4189d14d836ffaef69c37cacaaa8cacc0f8fac6991289767974bf2a1ae63e82811b741c6cc88a827ea9b1d1f3f777708fc3810fb21b3936f9cfc51bbe1be4ff9b5d8d9b48949f4801e3b544ec1e1a7868c6170fa3a0680e12d0f0f80c30c985fff721295c3",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch Flyn Demo",
+        "executable": "Source/Flyn.exe",
+        "workingdir": "Source"
+      }
+    }
+  },
+  "depots": {
+    "224521": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "182878369987975928",
+          "size": "1004341698"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "28480"
+      }
+    },
+    "overridescddb": "1",
+    "preloadonly": "1"
+  },
+  "extended": {
+    "demoofappid": "223730",
+    "developer": "Ankama Play",
+    "gamedir": "ValveTestApp224520",
+    "homepage": "http://www.flyn-devblog.com",
+    "icon": "",
+    "noservers": "0",
+    "publisher": "Ankama",
+    "sourcegame": "1",
+    "state": "eStateAvailable",
+    "thirdpartycdkey": "1",
+    "visibleonlywhensubscribed": "1"
+  },
+  "install": {
+    "run process": {
+      "directx": {
+        "command 1": "",
+        "description": "Microsoft DirectX",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\224520",
+        "ignoreexitcode": "1",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Redist\\DirectX\\DXSETUP.exe"
+      },
+      "dotnet": {
+        "command 1": "",
+        "description": "Microsoft .Net 4.0",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\224520",
+        "ignoreexitcode": "1",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Redist\\dotNetFx40_Full_x86_x64.exe"
+      },
+      "vcredist": {
+        "command 1": "",
+        "description": "Microsoft Visual C++ 2010",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\224520",
+        "ignoreexitcode": "1",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Redist\\vcredist_x86.exe"
+      },
+      "xna": {
+        "command 1": "/i \"%INSTALLDIR%\\Redist\\xnafx31_redist.msi\"",
+        "description": "Microsoft XNA 3.1",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\224520",
+        "ignoreexitcode": "1",
+        "nocleanup": "1",
+        "process 1": "msiexec.exe"
+      }
+    }
+  }
+}

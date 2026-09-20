@@ -1,0 +1,149 @@
+{
+  "_lastChecked": 1788615284,
+  "_history": [
+    {
+      "buildId": "25878",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615284,
+      "manifests": {
+        "105711": {
+          "gid": "8439039777427912047",
+          "size": 180983670,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 26253459,
+  "_missing_token": false,
+  "_sha": "fbef6c76eda36b73590537cedc16d97dca3e439b",
+  "_size": 2965,
+  "appid": "105710",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Secret Base",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Secret Base",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_18": "1",
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_25": "1",
+      "category_9": "1"
+    },
+    "controller_support": "partial",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "105710",
+    "genres": {
+      "0": "25",
+      "1": "23"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "name": "Tobe's Vertical Adventure demo",
+    "parent": "105700",
+    "primary_genre": "23",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1311024000",
+    "store_asset_mtime": "1311022771",
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Tobe's Vertical Adventure Demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "568b18a721d953980626cb64a60c2606f45b95a108c6096496c37d9104fe8ec55d21b883dd56beb66aa1262a5e33ce5cf424091f184aeecc4405682ee262a6d3ad5217af56f2a10417d4d29998c355d22c321ef95046a2338d605c958f57b102732bca5edecb90a7f5cda025cd66935067648550dfba28c228c1d250fa695553",
+    "launch": {
+      "0": {
+        "executable": "Tobe's Vertical Adventure.exe"
+      }
+    },
+    "usemms": ""
+  },
+  "depots": {
+    "105711": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "8439039777427912047",
+          "size": "180983670"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "25878"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "demoofappid": "105700",
+    "developer": "Secret Base",
+    "gamedir": "Tobe's Vertical Adventure (Demo)",
+    "homepage": "",
+    "icon": "",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "105711",
+    "publisher": "Secret Base",
+    "serverbrowsername": "",
+    "state": "eStateAvailable"
+  },
+  "install": {
+    "registry": {
+      "hkey_current_user\\software\\valve\\steam\\apps\\105700": {
+        "dword": {
+          "patchversion": "1"
+        },
+        "string": {
+          "exe_path": "%INSTALLDIR%\\Tobe's Veritcal Adventure.exe",
+          "install_path": "%INSTALLDIR%"
+        }
+      }
+    },
+    "run process": {
+      ".net 3.5": {
+        "command 1": "/qb",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\105700",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\dotnetfx35setup.exe"
+      },
+      "directx": {
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\105700",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\dx\\DXSETUP.exe"
+      },
+      "xna 3.1": {
+        "command 1": "/i \"%INSTALLDIR%\\redist\\xnafx31_redist.msi\"",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\105700",
+        "process 1": "msiexec"
+      }
+    }
+  },
+  "ufs": {
+    "appidredirect": "105700",
+    "hidecloudui": "0",
+    "maxnumfiles": "1000",
+    "quota": "104857600"
+  }
+}

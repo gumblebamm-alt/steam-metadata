@@ -1,0 +1,203 @@
+{
+  "_lastChecked": 1788623328,
+  "_history": [
+    {
+      "buildId": "11288285",
+      "branch": "public",
+      "timeUpdated": 1684766328,
+      "firstSeen": 1788623328,
+      "manifests": {
+        "2304911": {
+          "gid": "4152818764406973298",
+          "size": 458468768,
+          "download": 100730160
+        },
+        "2304912": {
+          "gid": "5735643447835165481",
+          "size": 38072832,
+          "download": 11550112
+        },
+        "2304913": {
+          "gid": "3134173618011433588",
+          "size": 40410224,
+          "download": 12473344
+        }
+      }
+    }
+  ],
+  "_change_number": 27924129,
+  "_missing_token": false,
+  "_sha": "81d5b88aee8a9915e610cd0dc86d5c0f732ac59c",
+  "_size": 3269,
+  "appid": "2304910",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Post Mortem Pixels",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Post Mortem Pixels",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_28": "1"
+    },
+    "clienticon": "e9e28d02e73d6b5f462a92f50217798d89eacb22",
+    "clienttga": "48f1951e9ebe5024d9a75e0a56329b269d34d449",
+    "controller_support": "full",
+    "exfgls": "6",
+    "gameid": "2304910",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "d7eff315b39efab13fe0c0249ad45bee1e5c1804",
+    "library_assets": {
+      "library_capsule": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      }
+    },
+    "linuxclienticon": "a5bb6e476e9977980251be0c5d55506e8534c292",
+    "name": "Takara Cards Demo",
+    "osarch": "64",
+    "osextended": "",
+    "oslist": "windows,linux",
+    "parent": "1932210",
+    "primary_genre": "0",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1675685490",
+    "store_asset_mtime": "1675273775",
+    "supported_languages": {
+      "brazilian": {
+        "supported": "true"
+      },
+      "english": {
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "installdir": "Takara Cards Demo",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TAKARA_Cards.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "TAKARA_Cards.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2304911": {
+      "manifests": {
+        "public": {
+          "download": "100730160",
+          "gid": "4152818764406973298",
+          "size": "458468768"
+        }
+      }
+    },
+    "2304912": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "11550112",
+          "gid": "5735643447835165481",
+          "size": "38072832"
+        }
+      }
+    },
+    "2304913": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "12473344",
+          "gid": "3134173618011433588",
+          "size": "40410224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "11288285",
+        "timeupdated": "1684766328"
+      }
+    }
+  },
+  "extended": {
+    "demoofappid": "1932210",
+    "developer": "Post Mortem Pixels",
+    "publisher": "Post Mortem Pixels"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "takara cards"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": ".local/share/takara cards"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
+}

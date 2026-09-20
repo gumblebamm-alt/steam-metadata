@@ -1,0 +1,207 @@
+{
+  "_lastChecked": 1788616500,
+  "_history": [
+    {
+      "buildId": "1381659",
+      "branch": "public",
+      "timeUpdated": 1475921871,
+      "firstSeen": 1788616500,
+      "manifests": {
+        "519101": {
+          "gid": "7547885773724049597",
+          "size": 1579664595,
+          "download": 162992192
+        },
+        "519102": {
+          "gid": "6953725714596985996",
+          "size": 1586280876,
+          "download": 164487792
+        },
+        "519103": {
+          "gid": "8801732113987086829",
+          "size": 1591258254,
+          "download": 166653472
+        }
+      }
+    }
+  ],
+  "_change_number": 26253459,
+  "_missing_token": false,
+  "_sha": "d689238c560e690129ab611cf6b3a23b40cbc3e2",
+  "_size": 3507,
+  "appid": "519100",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Lostwood",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Lostwood",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1"
+    },
+    "clienticon": "ab1443c65082b382df9df9c162edb83b4879359a",
+    "clienttga": "3d38bc2380ecc4723e40b4f71d603d6fcc504f82",
+    "exfgls": "6",
+    "gameid": "519100",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "23"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "8820ad4cebddcaf1c4d1b736ef6a69861c6b9b4c",
+    "metacritic_name": "Leviathan: The Cargo Demo",
+    "name": "Leviathan: The Cargo Demo",
+    "osarch": "",
+    "oslist": "windows,macos,linux",
+    "parent": "411130",
+    "primary_genre": "25",
+    "releasestate": "released",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1472290334",
+    "store_asset_mtime": "1471600832",
+    "store_screenshot": "ss_c3b9781b740686e32da40171394b1a8d859810cd.jpg",
+    "supported_languages": {
+      "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "russian": {
+        "subtitles": "true",
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "LeviathanTheCargoDemo",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch Leviathan: the Cargo demo",
+        "executable": "cargo.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Launch Leviathan: the Cargo demo",
+        "executable": "cargo.x86",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch Leviathan: the Cargo demo",
+        "executable": "cargo.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "519101": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "162992192",
+          "gid": "7547885773724049597",
+          "size": "1579664595"
+        }
+      }
+    },
+    "519102": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "164487792",
+          "gid": "6953725714596985996",
+          "size": "1586280876"
+        }
+      }
+    },
+    "519103": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "166653472",
+          "gid": "8801732113987086829",
+          "size": "1591258254"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "1381659",
+        "timeupdated": "1475921871"
+      }
+    }
+  },
+  "extended": {
+    "demoofappid": "411130",
+    "developer": "Lostwood",
+    "homepage": "http://thelostwood.com",
+    "publisher": "Lostwood"
+  },
+  "ufs": {
+    "appidredirect": "411130",
+    "maxnumfiles": "1",
+    "quota": "65536",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Lostwood/The Cargo",
+            "replace": ".config/unity3d/Lostwood/The Cargo"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Lostwood/The Cargo",
+            "replace": "unity.Lostwood.The Cargo "
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Lostwood/The Cargo",
+        "pattern": "savedata.txt",
+        "root": "WinAppDataLocalLow"
+      },
+      "copied_from_parent": "1"
+    }
+  }
+}

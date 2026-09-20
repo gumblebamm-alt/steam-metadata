@@ -1,0 +1,312 @@
+{
+  "_lastChecked": 1788616071,
+  "_history": [
+    {
+      "buildId": "1681169",
+      "branch": "public",
+      "timeUpdated": 1489091458,
+      "firstSeen": 1788616071,
+      "manifests": {
+        "410701": {
+          "gid": "9089358924475431029",
+          "size": 445726286,
+          "download": 445332384
+        },
+        "410702": {
+          "gid": "5544549462781182532",
+          "size": 29655736,
+          "download": 12765280
+        },
+        "410703": {
+          "gid": "8216673143202550519",
+          "size": 18001617,
+          "download": 7835088
+        },
+        "410704": {
+          "gid": "3761589834009070963",
+          "size": 638110959,
+          "download": 214698768
+        },
+        "410705": {
+          "gid": "3593083017024192917",
+          "size": 638110959,
+          "download": 214704608
+        },
+        "410706": {
+          "gid": "2647429789350853128",
+          "size": 352847924,
+          "download": 229135584
+        }
+      }
+    }
+  ],
+  "_change_number": 37600138,
+  "_missing_token": false,
+  "_sha": "15b7130c9d7ef0aab9cbf0a83e1f050556396595",
+  "_size": 6882,
+  "appid": "410700",
+  "common": {
+    "associations": {},
+    "clienticns": "68c681a21b22ec28e858672cf0856fae409768dd",
+    "clienticon": "5a5e57baa09538cd59c1630563cde925c8fe4fde",
+    "clienttga": "3d1267fc8841ca061303c669e63198dc5350ae83",
+    "community_hub_visible": "1",
+    "gameid": "410700",
+    "icon": "bf281779422082d9af5e4f46adc3123dd479690b",
+    "linuxclienticon": "163cbba3e3394037941a4233bc838dc0dc6bfb69",
+    "logo": "a41b927b65e8d2dbd0e415137d4220609be92f76",
+    "logo_small": "a41b927b65e8d2dbd0e415137d4220609be92f76_thumb",
+    "name": "System Shock: Classic",
+    "oslist": "windows,macos,linux",
+    "releasestate": "released",
+    "steam_deck_compatibility": {
+      "category": "3",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "proton_compat_config": "noforcelgadd,",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1652486400",
+      "tested_build_id": "1681169",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "type": "Game"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "SS1",
+    "launch": {
+      "0": {
+        "arguments": "-conf dosbox_systemshock.conf -conf dosbox_systemshockcd_launch_windows.conf -noconsole",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "System Shock: Classic - CD",
+        "executable": "dosbox_windows\\dosbox.exe",
+        "type": "none",
+        "workingdir": "dosbox_windows\\"
+      },
+      "1": {
+        "arguments": "-conf dosbox_systemshock.conf -conf dosbox_systemshockfd_launch_windows.conf -noconsole",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "System Shock: Classic - Floppy",
+        "executable": "dosbox_windows\\dosbox.exe",
+        "type": "none",
+        "workingdir": "dosbox_windows\\"
+      },
+      "10": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "System Shock: Classic - Configuration",
+        "executable": "dosbox_linux\\launch_systemshock_config.sh",
+        "type": "none",
+        "workingdir": "dosbox_linux\\"
+      },
+      "2": {
+        "arguments": "-conf dosbox_systemshock.conf -conf dosbox_systemshockcd_launch_windows.conf -noconsole",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "System Shock: Classic - CD (DOSBox Daum)",
+        "executable": "dosbox_windows\\daum\\dosbox.exe",
+        "type": "none",
+        "workingdir": "dosbox_windows\\daum\\"
+      },
+      "3": {
+        "arguments": "-conf dosbox_systemshock.conf -conf dosbox_systemshockfd_launch_windows.conf -noconsole",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "System Shock: Classic - Floppy (DOSBox Daum)",
+        "executable": "dosbox_windows\\daum\\dosbox.exe",
+        "type": "none",
+        "workingdir": "dosbox_windows\\daum\\"
+      },
+      "4": {
+        "arguments": "-conf dosbox_systemshock.conf -conf dosbox_systemshock_config_windows.conf -noconsole",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "System Shock: Classic - Configuration",
+        "executable": "dosbox_windows\\dosbox.exe",
+        "type": "none",
+        "workingdir": "dosbox_windows\\"
+      },
+      "5": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "System Shock Classic.app",
+        "type": "none"
+      },
+      "6": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "System Shock: Classic - CD",
+        "executable": "dosbox_linux\\launch_systemshockcd_game.sh",
+        "type": "none",
+        "workingdir": "dosbox_linux\\"
+      },
+      "7": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "System Shock: Classic - Floppy",
+        "executable": "dosbox_linux\\launch_systemshockfd_game.sh",
+        "type": "none",
+        "workingdir": "dosbox_linux\\"
+      },
+      "8": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "System Shock: Classic - CD (DOSBox Daum)",
+        "executable": "dosbox_linux\\daum\\launch_systemshockcd_game_daum.sh",
+        "type": "none",
+        "workingdir": "dosbox_linux\\daum\\"
+      },
+      "9": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "System Shock: Classic - Floppy (DOSBox Daum)",
+        "executable": "dosbox_linux\\daum\\launch_systemshockfd_game_daum.sh",
+        "type": "none",
+        "workingdir": "dosbox_linux\\daum\\"
+      }
+    }
+  },
+  "depots": {
+    "410701": {
+      "manifests": {
+        "public": {
+          "download": "445332384",
+          "gid": "9089358924475431029",
+          "size": "445726286"
+        }
+      }
+    },
+    "410702": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "12765280",
+          "gid": "5544549462781182532",
+          "size": "29655736"
+        }
+      }
+    },
+    "410703": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "7835088",
+          "gid": "8216673143202550519",
+          "size": "18001617"
+        }
+      }
+    },
+    "410704": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "214698768",
+          "gid": "3761589834009070963",
+          "size": "638110959"
+        }
+      }
+    },
+    "410705": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "214704608",
+          "gid": "3593083017024192917",
+          "size": "638110959"
+        }
+      }
+    },
+    "410706": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "229135584",
+          "gid": "2647429789350853128",
+          "size": "352847924"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "1681169",
+        "timebuildupdated": "1489091092",
+        "timeupdated": "1489091458"
+      }
+    }
+  }
+}

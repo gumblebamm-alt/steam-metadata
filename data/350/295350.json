@@ -1,0 +1,137 @@
+{
+  "_lastChecked": 1788615593,
+  "_history": [
+    {
+      "buildId": "580261",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615593,
+      "manifests": {
+        "295351": {
+          "gid": "2085892755620504624",
+          "size": 295938720,
+          "download": 87066976
+        }
+      }
+    }
+  ],
+  "_change_number": 32936622,
+  "_missing_token": false,
+  "_sha": "25aeb3668f50c203d2c31cbec867ae078989a3a5",
+  "_size": 2480,
+  "appid": "295350",
+  "common": {
+    "associations": {},
+    "clienticns": "c96aefe7f094d50039f150bc0836ab3006ff7350",
+    "clienticon": "c03b9562dd0d0d008e8af957500377bff3f0d3fe",
+    "clienttga": "8c9e85f8bb551a29279248329387415bc582894d",
+    "gameid": "295350",
+    "icon": "d54922abede7ee3433b4c18687190029c906d399",
+    "linuxclienticon": "7bd83073c14eba7662bde390e7ea14ab2c309dba",
+    "logo": "31cde752c08973508fb653ffbb7903d74ea05288",
+    "logo_small": "31cde752c08973508fb653ffbb7903d74ea05288_thumb",
+    "name": "Football Manager 2015 Editor",
+    "oslist": "windows,macos,linux",
+    "releasestate": "released",
+    "type": "Tool"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Football Manager 2015 Editor",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch",
+        "executable": "editor.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch",
+        "executable": "editor.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Launch",
+        "executable": "editor"
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "295351": {
+      "manifests": {
+        "public": {
+          "download": "87066976",
+          "gid": "2085892755620504624",
+          "size": "295938720"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "580261"
+      }
+    },
+    "overridescddb": "1",
+    "privatebranches": "1"
+  },
+  "ufs": {
+    "appidredirect": "295270",
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "1": {
+        "os": "macos",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      },
+      "2": {
+        "os": "linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "Sports Interactive/Football Manager 2015/cloud/games",
+        "pattern": "*.fm",
+        "platforms": {
+          "1": "all"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "Sports Interactive/Football Manager 2015/cloud/games",
+        "pattern": "*.fmc",
+        "platforms": {
+          "1": "all"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "3": {
+        "path": "Sports Interactive/Football Manager 2015/cloud/games",
+        "pattern": "*.fmv",
+        "platforms": {
+          "1": "all"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "copied_from_parent": "1"
+    }
+  }
+}

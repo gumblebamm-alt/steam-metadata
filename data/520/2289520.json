@@ -1,0 +1,173 @@
+{
+  "_lastChecked": 1788623280,
+  "_history": [
+    {
+      "buildId": "23775861",
+      "branch": "public",
+      "timeUpdated": 1781670484,
+      "firstSeen": 1788623280,
+      "manifests": {
+        "2289521": {
+          "gid": "272811456203971306",
+          "size": 835451872,
+          "download": 592892192
+        },
+        "2289522": {
+          "gid": "3695927509387442842",
+          "size": 917201888,
+          "download": 616380528
+        }
+      }
+    }
+  ],
+  "_change_number": 36637846,
+  "_missing_token": false,
+  "_sha": "3aa5809eca601ddfe21a07ae708b8ac6d2fd3abd",
+  "_size": 3036,
+  "appid": "2289520",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Winters Group Estate",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Winters Group Estate",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "clienticon": "0b3eecbc006f79cb60eeed4e7ffc2096f7f3c702",
+    "clienttga": "30938a2f5462a525c2c3c79fc7fa91bec517e25b",
+    "exfgls": "6",
+    "gameid": "2289520",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "64a6b43407f52860ec84f6324569cd0dc6538233",
+    "name": "Moonlight In Garland Demo",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos",
+    "parent": "1441770",
+    "primary_genre": "0",
+    "releasestate": "released",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1674627409",
+    "store_asset_mtime": "1674175794",
+    "supported_languages": {
+      "english": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "installdir": "Moonlight In Garland Demo",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Demo",
+        "description_loc": {
+          "english": "Demo"
+        },
+        "executable": "MoonlightInGarland.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Demo",
+        "description_loc": {
+          "english": "Demo"
+        },
+        "executable": "MoonlightInGarland.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2289521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "592892192",
+          "gid": "272811456203971306",
+          "size": "835451872"
+        }
+      }
+    },
+    "2289522": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "616380528",
+          "gid": "3695927509387442842",
+          "size": "917201888"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "23775861",
+        "timebuildupdated": "1781670484",
+        "timeupdated": "1781670484"
+      }
+    }
+  },
+  "extended": {
+    "demoofappid": "1441770",
+    "developer": "Winters Group Estate",
+    "homepage": "https://moonlightingarland.com",
+    "publisher": "Winters Group Estate"
+  },
+  "ufs": {
+    "appidredirect": "1441770",
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "MoonlightInGarland/{Steam3AccountID}",
+            "replace": "com.moonlightingarland.moonlight/{Steam3AccountID}"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "WinAppDataLocal"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "MoonlightInGarland/{Steam3AccountID}",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "copied_from_parent": "1"
+    }
+  }
+}

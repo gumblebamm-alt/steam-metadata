@@ -1,0 +1,128 @@
+{
+  "_lastChecked": 1788615283,
+  "_history": [
+    {
+      "buildId": "13311",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615283,
+      "manifests": {
+        "104301": {
+          "gid": "3046502394714735436",
+          "size": 300083603,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 26253459,
+  "_missing_token": false,
+  "_sha": "cac3617a595cf087f691e87eb73e6206420bd6ba",
+  "_size": 2634,
+  "appid": "104300",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Power of 2",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Tripwire Interactive",
+        "type": "publisher"
+      }
+    },
+    "category": {},
+    "clienticon": "33af66a97f5315054b2e17d051b5c1437b3fadc8",
+    "clienttga": "5566c15498850cb8713407e5116e0484a4f20e21",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "104300",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "aea074ae0727b262068eb0bd8d9b285fcdfb18c8",
+    "logo": "196072f9afd9623bcdd6c88dcc54c2c116299bca",
+    "logo_small": "196072f9afd9623bcdd6c88dcc54c2c116299bca_thumb",
+    "name": "Dwarfs Demo",
+    "parent": "35480",
+    "primary_genre": "0",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1304528400",
+    "store_asset_mtime": "1304353752",
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "DwarfsDemo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "24407cc7fd5f6113d90528b21ebeee145bc1f701d33b2db947b3a45b9a9e1c15f4d00c4975036805b650b6879fb7d3b606459baf221ddbba270a081d6a35d2bb3ee56f678b261711ec4953728ec4434cc31afb0cf3dd1aeaa55f083fb8c53111a1086c3b90543c5588fc7d65bc66b9986d1db456810c2450f8e9a026955fc533",
+    "launch": {
+      "0": {
+        "executable": "Dwarfs.exe"
+      }
+    }
+  },
+  "depots": {
+    "104301": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "3046502394714735436",
+          "size": "300083603"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "13311"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "demoofappid": "35480",
+    "developer": "Power of 2",
+    "gamedir": "DwarfsDemo",
+    "homepage": "http://www.Po2games.com",
+    "icon": "",
+    "installscript": "installscript.vdf",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "104301",
+    "publisher": "Tripwire Interactive",
+    "serverbrowsername": "",
+    "state": "eStateAvailable"
+  },
+  "install": {
+    "registry": {
+      "hkey_local_machine\\software\\dwarfs": {
+        "string": {
+          "install_path": "%INSTALLDIR%",
+          "version": "03501"
+        }
+      },
+      "run process": {
+        "directx": {
+          "command 1": "/silent",
+          "nocleanup": "1",
+          "process 1": "%INSTALLDIR%\\Depends\\DirectX\\DXSETUP.exe"
+        },
+        "dotnet": {
+          "command 1": "/Q ",
+          "nocleanup": "1",
+          "process 1": "%INSTALLDIR%\\Depends\\DotNet\\dotNetFx35.exe"
+        },
+        "xna": {
+          "command 1": "/Q ",
+          "hasrunkey": "HKEY_CURRENT_USER\\Software\\Dwarfs\\XNA2",
+          "nocleanup": "1",
+          "process 1": "%INSTALLDIR%\\Depends\\XNA\\xnafx31_redist.msi"
+        }
+      }
+    }
+  }
+}

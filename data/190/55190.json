@@ -1,0 +1,133 @@
+{
+  "_lastChecked": 1788615126,
+  "_history": [
+    {
+      "buildId": "23808",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615126,
+      "manifests": {
+        "55191": {
+          "gid": "867049099790349169",
+          "size": 7724,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 31692725,
+  "_missing_token": false,
+  "_sha": "5228cd87945e7179c841006f7f1dbc448384f7e5",
+  "_size": 3391,
+  "appid": "55190",
+  "common": {
+    "clienticon": "49a7e1869c516cc917dbb3041f133dd53bbf6622",
+    "clienttga": "0e4c4001ad93dee2732f0655f8459b7fc24e41d7",
+    "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "gameid": "55190",
+    "icon": "52d4f669d6aa00c92406457d430ed5aa6a035c54",
+    "languages": {
+      "czech": "1",
+      "dutch": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "japanese": "1",
+      "polish": "1",
+      "russian": "1",
+      "spanish": "1"
+    },
+    "logo": "3ed92bed83fc529adf7b0293ce70a73b70ad34ff",
+    "logo_small": "3ed92bed83fc529adf7b0293ce70a73b70ad34ff_thumb",
+    "name": "HOMEFRONT [Alpha]",
+    "type": "game"
+  },
+  "config": {
+    "cegpublickey": "30819D300D06092A864886F70D010101050003818B0030818702818100E71FE957AEE6D44D5B2474C0EBC0C8EEAC11A1798F3630F194FBD87C09D94B770BCA4583219D4362E685BA2987E4A1DE23A360DB92D7E128FAEE4103B029B8A5DEBFB8E76D9F87B4D1FEDD7AA13C0ABF6FF210E52A57976A86E52373464505C423862E9CD7B7E331A47540EBD71FC4BF6E90967406B111D4EADBF5035F5AE45D020111",
+    "checkguid": "HOMEFRONT.exe",
+    "contenttype": "3",
+    "installdir": "HOMEFRONTBETA",
+    "installscriptoverride": "1",
+    "installscriptsignature": "559a306af668279544d4766528ab81c7f5f959c169ff0df032f2854c2fc61d4277f5de4327adeeab540ee101cd1084432c1c0131c13f5e7789b9f565aba705ec18fe16f9cc63e0e406ad62e5d12be5608b46fb368c88b098684e0ef0a808acc62515514fe9601e9ac4fcde356de720ce09b3c342173043a320f3c525995ca45e",
+    "launch": {
+      "0": {
+        "arguments": "-seekfreeloading",
+        "executable": "Binaries\\HOMEFRONT.exe"
+      }
+    }
+  },
+  "depots": {
+    "55191": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "867049099790349169",
+          "size": "7724"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "23808"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "developer": "",
+    "gamedir": "HOMEFRONT[BETA]",
+    "homepage": "",
+    "icon": "",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "55191",
+    "serverbrowsername": "",
+    "state": "eStateAvailable"
+  },
+  "install": {
+    "registry": {
+      "hkey_current_user\\software\\valve\\steam\\apps\\55100": {
+        "dword": {
+          "patchversion": "20101201"
+        }
+      }
+    },
+    "run process": {
+      "directx2010febredist": {
+        "command 1": "/silent",
+        "description": "Microsoft DirectX February 2010 redist",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\55100\\DXRedist",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+      },
+      "physx": {
+        "command 1": "/quiet /passive /promptrestart",
+        "description": "NVidia PhysX Redist Package",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\55100\\PhysX",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\PhysX_9.09.1112.exe"
+      },
+      "vcredist2005": {
+        "command 1": "/q:a",
+        "description": "Microsoft VC Redist Package",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\55100\\VCRedist2005",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\vcredist_x86[2005].exe"
+      },
+      "vcredist2008": {
+        "command 1": "/q:a",
+        "description": "Microsoft VC Redist Package",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\55100\\VCRedist2008",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\vcredist_x86[2008].exe"
+      }
+    }
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "104857600"
+  }
+}

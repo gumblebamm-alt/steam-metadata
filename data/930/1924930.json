@@ -1,0 +1,207 @@
+{
+  "_lastChecked": 1788622076,
+  "_history": [
+    {
+      "buildId": "17064307",
+      "branch": "public",
+      "timeUpdated": 1737454525,
+      "firstSeen": 1788622076,
+      "manifests": {
+        "1924931": {
+          "gid": "5552671570907654269",
+          "size": 425351751,
+          "download": 227893648
+        },
+        "1924932": {
+          "gid": "306032126918544220",
+          "size": 426553500,
+          "download": 227754576
+        }
+      }
+    }
+  ],
+  "_change_number": 28158394,
+  "_missing_token": false,
+  "_sha": "a804a4229fcd7ef1ef32762d639527d48a41c522",
+  "_size": 3556,
+  "appid": "1924930",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Stochastic",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Stochastic",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_18": "1",
+      "category_2": "1"
+    },
+    "clienticon": "66f846971865ad2fd913bf3b031429743797926c",
+    "clienttga": "3191813f9536aeb800b28bd8476727d01e065c7a",
+    "community_visible_stats": "1",
+    "controller_support": "partial",
+    "exfgls": "6",
+    "gameid": "1924930",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "b6552e464b4cc74976e9fa78daed44071d81e7ce",
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "height_pct": "50",
+        "pinned_position": "BottomLeft",
+        "width_pct": "50"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "height_pct": "50",
+          "pinned_position": "BottomLeft",
+          "width_pct": "50"
+        }
+      }
+    },
+    "name": "Anode Heart Demo",
+    "osarch": "",
+    "osextended": "",
+    "oslist": "windows,macos",
+    "parent": "1592750",
+    "primary_genre": "0",
+    "releasestate": "released",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1646468411",
+    "store_asset_mtime": "1708462554",
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "installdir": "Anode Heart Demo",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "AnodeHeart.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "AnodeHeart.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1924931": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "227893648",
+          "gid": "5552671570907654269",
+          "size": "425351751"
+        }
+      }
+    },
+    "1924932": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "227754576",
+          "gid": "306032126918544220",
+          "size": "426553500"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "17064307",
+        "timeupdated": "1737454525"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "demoofappid": "1592750",
+    "developer": "Stochastic",
+    "homepage": "https://anodeheart.com",
+    "publisher": "Stochastic"
+  },
+  "ufs": {
+    "appidredirect": "1592750",
+    "maxnumfiles": "20",
+    "quota": "20000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RandomBirdGames/AnodeHeart",
+            "replace": ".config/unity3d/RandomBirdGames/AnodeHeart"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RandomBirdGames/AnodeHeart",
+        "pattern": "save_*.bin",
+        "root": "WinAppDataLocalLow"
+      },
+      "copied_from_parent": "1"
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "_lastChecked": 1788615352,
+  "_history": [
+    {
+      "buildId": "4418",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615352,
+      "manifests": {
+        "214311": {
+          "gid": "901143380365729103",
+          "size": 1298142860,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 30164241,
+  "_missing_token": false,
+  "_sha": "8bef97ee6cb5df308f5e57bdeb00d1dc6e4abad9",
+  "_size": 4165,
+  "appid": "214310",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Vertigo Games",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Iceberg Interactive",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_18": "1",
+      "category_2": "1",
+      "category_22": "1",
+      "category_62": "1"
+    },
+    "clienticon": "885bf152f230d6f34966babb36fb4a6acfbba41b",
+    "clienttga": "33646854493fcf332c6c06e2ef7357a5b08a5a68",
+    "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "partial",
+    "gameid": "214310",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "23"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "94226b58d8ae29751dc73e418ff431cdd8e6410d",
+    "logo": "b8081a6bde413724b17d30e1a622db26e4355069",
+    "logo_small": "b8081a6bde413724b17d30e1a622db26e4355069_thumb",
+    "metacritic_name": "Adam's Venture Episode 3: Revelations",
+    "name": "Adam's Venture Episode 3: Revelations",
+    "original_release_date": "1331280000",
+    "osarch": "",
+    "osextended": "",
+    "oslist": "windows",
+    "primary_genre": "25",
+    "review_percentage": "80",
+    "review_score": "8",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1341248640",
+    "store_screenshot": "ss_5873caf2f6bab08028a0303d3766bf53e85e7001.jpg",
+    "store_tags": {
+      "0": "21",
+      "1": "492",
+      "2": "19",
+      "3": "1664"
+    },
+    "supported_languages": {
+      "english": {
+        "full_audio": "1",
+        "subtitles": "true",
+        "supported": "1"
+      }
+    },
+    "type": "Game"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "adams_venture_3",
+    "installscriptoverride": "1",
+    "installscriptsignature": "4a4d03c81eb68fa12327f35279ca35168d1d6edc2540b11c85ebdb5070f9d337ff2125310062e31b232216bc7a4c691932892e237a2c552a13c239e9b2f36873c304567addef9df1fb7669118990886a02bdb466d48505c4bb04ae37cad191eaac72d916a102c86a7c00b327cd6a402d08723089435f4c22acf2a6dc5bf4511a",
+    "launch": {
+      "0": {
+        "description": "Launch Adam's Venture 3",
+        "executable": "Binaries/Win32/VentureGame.exe",
+        "workingdir": "Binaries/Win32/"
+      }
+    }
+  },
+  "depots": {
+    "214311": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "901143380365729103",
+          "size": "1298142860"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "4418"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "developer": "Vertigo Games",
+    "gamedir": "Adam's Venture Episode 3: Revelations",
+    "homepage": "http://www.adams-venture.com",
+    "icon": "",
+    "noservers": "0",
+    "publisher": "Iceberg Interactive",
+    "sourcegame": "1",
+    "state": "eStateAvailable",
+    "visibleonlywhensubscribed": "1"
+  },
+  "install": {
+    "registry": {
+      "hkey_local_machine\\software\\iceberg interactive\\adams venture 3": {
+        "dword": {
+          "patchversion": "1"
+        },
+        "string": {
+          "exe_path": "%INSTALLDIR%\\Binaries\\Win32\\VentureGame.exe",
+          "install_path": "%INSTALLDIR%"
+        }
+      }
+    },
+    "run process": {
+      ".net framework 3.5 redist": {
+        "command 1": "/norestart",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214310",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Drivers\\dotnetfx35.exe"
+      },
+      "amd cpu driver": {
+        "command 1": "/s",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214310",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Drivers\\AMD\\amdcpusetup.exe"
+      },
+      "directx": {
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214310",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Drivers\\DXRedistCutdown\\DXSETUP.exe"
+      },
+      "physx driver": {
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214310",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Drivers\\PhysX_9.10.0513_SystemSoftware.exe"
+      },
+      "vc redist x86": {
+        "command 1": "/q",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214310",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Drivers\\vcredist_x86_vs2008sp1.exe"
+      }
+    }
+  },
+  "ufs": {
+    "hidecloudui": "0",
+    "maxnumfiles": "1000",
+    "quota": "104857600"
+  }
+}

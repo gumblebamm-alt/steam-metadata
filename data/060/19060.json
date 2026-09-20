@@ -1,0 +1,127 @@
+{
+  "_lastChecked": 1788614906,
+  "_history": [
+    {
+      "buildId": "13089",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788614906,
+      "manifests": {
+        "19061": {
+          "gid": "8925751776045607058",
+          "size": 650194628,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 26253459,
+  "_missing_token": false,
+  "_sha": "d3f9292d1f1982fb0a19f1c500fa424d1500cdf3",
+  "_size": 2888,
+  "appid": "19060",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Climax Studios",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Konami Digital Entertainment, Inc.",
+        "type": "publisher"
+      }
+    },
+    "category": {},
+    "clienticon": "c82dc10c4f925e58353fe106d45aa15d379bb2d2",
+    "clienttga": "d9cbf92510f7b3905402b93b88902d221cc332c8",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "19060",
+    "genres": {
+      "0": "1",
+      "1": "25"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "f6e1627bfb21429320eda872b72760366d47640d",
+    "logo": "187ebe0164de7c8db26150ab93e1d4b6e1c08fd7",
+    "logo_small": "187ebe0164de7c8db26150ab93e1d4b6e1c08fd7_thumb",
+    "metacritic_name": "Rocket Knight Demo",
+    "name": "Rocket Knight Demo",
+    "parent": "19030",
+    "primary_genre": "1",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1273622400",
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Rocket Knight Demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "9975572b0f659664c074ec606d711092b0b5207dc2f1f41bb36c8eacb1ce2671f5239461f838593a31d482ef79ce6bad4aa346389a6b5a5a64ed13eb1d1be4753fcfbf565714036d711c71a910387f41c7909cf02ec42770dc3499af551ec6d09b576f50b4e160016d36e36bf926fcdb72346ff57bf7a4e26cd0091e5a9ac1de",
+    "launch": {
+      "0": {
+        "executable": "RocketKnight_ConfigTool.exe"
+      }
+    }
+  },
+  "depots": {
+    "19061": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "8925751776045607058",
+          "size": "650194628"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "baselanguages": "english,french,italian,german,spanish",
+    "branches": {
+      "public": {
+        "buildid": "13089"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "demoofappid": "19030",
+    "developer": "Climax Studios",
+    "gamedir": "Rocket Knight Demo",
+    "homepage": "http://www.climaxgroup.com/",
+    "icon": "",
+    "languages": "english,french,italian,german,spanish",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "19061",
+    "publisher": "Konami Digital Entertainment, Inc.",
+    "serverbrowsername": "",
+    "state": "eStateAvailable"
+  },
+  "install": {
+    "run process": {
+      "directx": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\19030",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Redist\\DirectX\\DXSETUP.exe"
+      },
+      "dotnet": {
+        "command 1": "/Q",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\19030",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Redist\\DotNet\\dotNetFx35setup.exe"
+      },
+      "vc2005": {
+        "command 1": "/q:a /c:\"msiexec /i vcredist.msi /qn /l*v %temp%\u000bcredist_x86.log\"",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\19030",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Redist\\VC2005\\vcredist_x86.exe"
+      }
+    }
+  }
+}

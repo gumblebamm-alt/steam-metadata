@@ -1,0 +1,205 @@
+{
+  "_lastChecked": 1788622769,
+  "_history": [
+    {
+      "buildId": "9651581",
+      "branch": "public",
+      "timeUpdated": 1664896754,
+      "firstSeen": 1788622769,
+      "manifests": {
+        "2154911": {
+          "gid": "8132458879656924950",
+          "size": 62725489,
+          "download": 26213376
+        },
+        "2154912": {
+          "gid": "6531149935551403999",
+          "size": 56178544,
+          "download": 24790784
+        }
+      }
+    }
+  ],
+  "_change_number": 27924129,
+  "_missing_token": false,
+  "_sha": "464fec484d515ce2f56b40fdd43556eed89125b9",
+  "_size": 3499,
+  "appid": "2154910",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Dev It With Cat",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Dev It With Cat",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1"
+    },
+    "clienticon": "6ed5bca1e5465d7eedc1a64833c595dfaf0891a8",
+    "clienttga": "47e6279ff60f5413f363a5e949e1230c82657746",
+    "community_visible_stats": "1",
+    "exfgls": "6",
+    "gameid": "2154910",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "02bec5495e95343bdbdef994b8bb7fa5c042b7b6",
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "height_pct": "78.01894756394165",
+        "pinned_position": "BottomLeft",
+        "width_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "height_pct": "78.01894756394165",
+          "pinned_position": "BottomLeft",
+          "width_pct": "100"
+        }
+      }
+    },
+    "name": "Sole Saga Demo",
+    "osarch": "64",
+    "osextended": "",
+    "oslist": "windows,linux",
+    "parent": "2027970",
+    "primary_genre": "0",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1663926149",
+    "store_asset_mtime": "1664024611",
+    "type": "Demo"
+  },
+  "config": {
+    "installdir": "Sole_Saga_Demo",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "solesaga.x86_64",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "solesaga.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2154911": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "26213376",
+          "gid": "8132458879656924950",
+          "size": "62725489"
+        }
+      }
+    },
+    "2154912": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "24790784",
+          "gid": "6531149935551403999",
+          "size": "56178544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "9651581",
+        "timeupdated": "1664896754"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "demoofappid": "2027970",
+    "developer": "Dev It With Cat",
+    "publisher": "Dev It With Cat"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "sole_saga_demo/",
+            "replace": ".local/share/sole_saga_demo/"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": ".local/share/sole_saga_demo/",
+            "replace": "sole_saga_demo/"
+          }
+        },
+        "root": "LinuxHome",
+        "useinstead": "WinAppDataRoaming"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "sole_saga_demo/",
+        "pattern": "*.sav",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": ".local/share/sole_saga_demo/",
+        "pattern": "*.sav",
+        "root": "LinuxHome"
+      }
+    }
+  }
+}

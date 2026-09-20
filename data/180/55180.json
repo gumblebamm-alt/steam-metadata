@@ -1,0 +1,109 @@
+{
+  "_lastChecked": 1788615126,
+  "_history": [],
+  "_change_number": 31692725,
+  "_missing_token": false,
+  "_sha": "245cfd17450e6590c8ec26a09746602aacea1fec",
+  "_size": 3268,
+  "appid": "55180",
+  "common": {
+    "clienticon": "49a7e1869c516cc917dbb3041f133dd53bbf6622",
+    "clienttga": "0e4c4001ad93dee2732f0655f8459b7fc24e41d7",
+    "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "gameid": "55180",
+    "icon": "52d4f669d6aa00c92406457d430ed5aa6a035c54",
+    "languages": {
+      "czech": "1",
+      "dutch": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "japanese": "1",
+      "polish": "1",
+      "russian": "1",
+      "spanish": "1"
+    },
+    "logo": "3ed92bed83fc529adf7b0293ce70a73b70ad34ff",
+    "logo_small": "3ed92bed83fc529adf7b0293ce70a73b70ad34ff_thumb",
+    "name": "HOMEFRONT [Dev]",
+    "type": "game"
+  },
+  "config": {
+    "cegpublickey": "30819D300D06092A864886F70D010101050003818B0030818702818100B07E9595C93AC816C847615C1542D35DC5C2B1834005CC4998366169B75BF390F03F3D2E4BEE15978E17E0F1C7BC18CB9C25C0BA81574FACE39E41C2698E653309E6BFB60ABAE130677CE1999277EE7EF45338D6D5AFC3A1F4CA9828595A0B02616D9927C277D9EB9B681239A52EB02F8B8F13E808E07BAE10143DF2C20DFEEF020111",
+    "checkguid": "HOMEFRONT.exe",
+    "contenttype": "2",
+    "installdir": "ValveTestApp55180",
+    "installscriptoverride": "1",
+    "installscriptsignature": "559a306af668279544d4766528ab81c7f5f959c169ff0df032f2854c2fc61d4277f5de4327adeeab540ee101cd1084432c1c0131c13f5e7789b9f565aba705ec18fe16f9cc63e0e406ad62e5d12be5608b46fb368c88b098684e0ef0a808acc62515514fe9601e9ac4fcde356de720ce09b3c342173043a320f3c525995ca45e",
+    "launch": {
+      "0": {
+        "arguments": "-seekfreeloading",
+        "executable": "Binaries\\HOMEFRONT.exe"
+      }
+    },
+    "usemms": "1"
+  },
+  "depots": {
+    "55181": {
+      "systemdefined": "1"
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "developer": "",
+    "gamedir": "ValveTestApp55180",
+    "homepage": "",
+    "icon": "",
+    "listofdlc": "55182,55220,55221,55222,55223",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "55181",
+    "serverbrowsername": "",
+    "state": "eStateAvailable"
+  },
+  "install": {
+    "registry": {
+      "hkey_current_user\\software\\valve\\steam\\apps\\55100": {
+        "dword": {
+          "patchversion": "20101201"
+        }
+      }
+    },
+    "run process": {
+      "directx2010febredist": {
+        "command 1": "/silent",
+        "description": "Microsoft DirectX February 2010 redist",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\55100\\DXRedist",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+      },
+      "physx": {
+        "command 1": "/quiet /passive /promptrestart",
+        "description": "NVidia PhysX Redist Package",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\55100\\PhysX",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\PhysX_9.09.1112.exe"
+      },
+      "vcredist2005": {
+        "command 1": "/q:a",
+        "description": "Microsoft VC Redist Package",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\55100\\VCRedist2005",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\vcredist_x86[2005].exe"
+      },
+      "vcredist2008": {
+        "command 1": "/q:a",
+        "description": "Microsoft VC Redist Package",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\55100\\VCRedist2008",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\vcredist_x86[2008].exe"
+      }
+    }
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "104857600"
+  }
+}

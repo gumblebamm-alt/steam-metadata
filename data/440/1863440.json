@@ -1,0 +1,151 @@
+{
+  "_lastChecked": 1788621868,
+  "_history": [
+    {
+      "buildId": "25057613",
+      "branch": "beta",
+      "timeUpdated": 1788272173,
+      "firstSeen": 1788621868,
+      "manifests": {
+        "1863441": {
+          "gid": "1770739514283191533",
+          "size": 2929771586,
+          "download": 1748534800
+        }
+      }
+    },
+    {
+      "buildId": "24571419",
+      "branch": "public",
+      "timeUpdated": 1786363193,
+      "firstSeen": 1788621868,
+      "manifests": {
+        "1863441": {
+          "gid": "4619456710482553639",
+          "size": 2927062714,
+          "download": 1746558912
+        }
+      }
+    },
+    {
+      "buildId": "24085374",
+      "branch": "v1.4.7",
+      "timeUpdated": 1783516804,
+      "firstSeen": 1788621868,
+      "manifests": {
+        "1863441": {
+          "gid": "7509788240638442211",
+          "size": 2927046921,
+          "download": 1746551616
+        }
+      }
+    }
+  ],
+  "_change_number": 38510146,
+  "_missing_token": false,
+  "_sha": "77f9af19dcb9aefbb0cba7102a509ced65d96507",
+  "_size": 2350,
+  "appid": "1863440",
+  "common": {
+    "associations": {},
+    "clienticon": "67c469bce70b110fc0d2247dc1402695cc55175a",
+    "clienttga": "619dcbaf475b4417c4e02467d18c4a0992a001d8",
+    "freetodownload": "1",
+    "gameid": "1863440",
+    "icon": "4d0ba27332070f96ac95cd29f1e40f12fd530a52",
+    "name": "Mount & Blade II: Dedicated Server",
+    "osarch": "64",
+    "osextended": "",
+    "oslist": "windows,linux",
+    "parent": "261550",
+    "releasestate": "released",
+    "type": "Tool"
+  },
+  "config": {
+    "installdir": "Mount & Blade II Dedicated Server",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Launch Server",
+        "description_loc": {
+          "english": "Launch Server"
+        },
+        "executable": "bin/Win64_Shipping_Server/DedicatedCustomServer.Starter.exe",
+        "type": "default",
+        "workingdir": "bin/Win64_Shipping_Server"
+      },
+      "1": {
+        "arguments": "TaleWorlds.Starter.DotNetCore.Linux.dll",
+        "config": {
+          "betakey": "linux_test",
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Launch Linux Server",
+        "description_loc": {
+          "english": "Launch Linux Server"
+        },
+        "executable": "./dotnet",
+        "workingdir": "bin/Linux64_Shipping_Server"
+      }
+    }
+  },
+  "depots": {
+    "1863441": {
+      "manifests": {
+        "beta": {
+          "download": "1748534800",
+          "gid": "1770739514283191533",
+          "size": "2929771586"
+        },
+        "public": {
+          "download": "1746558912",
+          "gid": "4619456710482553639",
+          "size": "2927062714"
+        },
+        "v1.4.7": {
+          "download": "1746551616",
+          "gid": "7509788240638442211",
+          "size": "2927046921"
+        }
+      }
+    },
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229006": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "branches": {
+      "beta": {
+        "buildid": "25057613",
+        "description": "Beta v1.5.2",
+        "timebuildupdated": "1788265156",
+        "timeupdated": "1788272173"
+      },
+      "public": {
+        "buildid": "24571419",
+        "timebuildupdated": "1785929580",
+        "timeupdated": "1786363193"
+      },
+      "v1.4.7": {
+        "buildid": "24085374",
+        "description": "v1.4.7",
+        "timebuildupdated": "1783405133",
+        "timeupdated": "1783516804"
+      }
+    },
+    "privatebranches": "1"
+  }
+}

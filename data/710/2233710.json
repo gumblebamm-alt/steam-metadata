@@ -1,0 +1,211 @@
+{
+  "_lastChecked": 1788623026,
+  "_history": [
+    {
+      "buildId": "10942225",
+      "branch": "public",
+      "timeUpdated": 1705793364,
+      "firstSeen": 1788623026,
+      "manifests": {
+        "2233711": {
+          "gid": "3187868831905390283",
+          "size": 711847743,
+          "download": 414598336
+        }
+      }
+    },
+    {
+      "buildId": "13229136",
+      "branch": "test",
+      "timeUpdated": 1705793569,
+      "firstSeen": 1788623026,
+      "manifests": {
+        "2233711": {
+          "gid": "3187868831905390283",
+          "size": 711847743,
+          "download": 414598336
+        },
+        "2233712": {
+          "gid": "728802731249187740",
+          "size": 1373250667,
+          "download": 1048678448
+        }
+      }
+    }
+  ],
+  "_change_number": 24981165,
+  "_missing_token": false,
+  "_sha": "75f3919659dc156b8c3f01463ae84972ef36a37b",
+  "_size": 3659,
+  "appid": "2233710",
+  "common": {
+    "associations": {},
+    "category": {},
+    "clienticon": "cd9bf1ef7711df824e2f36c637434cf78fb1820a",
+    "clienttga": "6b3c554641afbd04b3d751442bd1ead227e14154",
+    "community_hub_visible": "1",
+    "exfgls": "9",
+    "gameid": "2233710",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "b8117c8d9ee8ae814adf5e9f9b6484f00da44b0c",
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "height_pct": "100",
+        "pinned_position": "BottomLeft",
+        "width_pct": "100"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "height_pct": "100",
+          "pinned_position": "BottomLeft",
+          "width_pct": "100"
+        }
+      }
+    },
+    "name": "Mortal Trace Playtest",
+    "osarch": "64",
+    "osextended": "",
+    "oslist": "windows",
+    "parent": "2233610",
+    "primary_genre": "0",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1680810011",
+    "store_asset_mtime": "1677340004",
+    "type": "Beta"
+  },
+  "config": {
+    "installdir": "Mortal_Trace_Playtest",
+    "launch": {
+      "0": {
+        "arguments": "-AUTH_TYPE=PersistentAuth",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Mortal Trace Playtest (Auto Login using previous login)",
+        "description_loc": {
+          "english": "Mortal Trace Playtest (Auto Login using previous login)"
+        },
+        "executable": "MortalTrace.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "-AUTH_TYPE=AccountPortal",
+        "description": "Mortal Trace Playtest (Account Portal -1st time login)",
+        "description_loc": {
+          "english": "Mortal Trace Playtest (Account Portal -1st time login)"
+        },
+        "executable": "MortalTrace.exe",
+        "type": "option2"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "test",
+        "description_loc": {
+          "english": "test"
+        },
+        "executable": "LyraGame.exe",
+        "type": "default",
+        "workingdir": "Mortal_Trace_Playtest_TEST"
+      }
+    }
+  },
+  "depots": {
+    "2233711": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "414598336",
+          "gid": "3187868831905390283",
+          "size": "711847743"
+        },
+        "test": {
+          "download": "414598336",
+          "gid": "3187868831905390283",
+          "size": "711847743"
+        }
+      }
+    },
+    "2233712": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "test": {
+          "download": "1048678448",
+          "gid": "728802731249187740",
+          "size": "1373250667"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "10942225",
+        "timeupdated": "1705793364"
+      },
+      "test": {
+        "buildid": "13229136",
+        "description": "test",
+        "timeupdated": "1705793569"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "betaforappid": "2233610",
+    "playtest_type": "1"
+  }
+}

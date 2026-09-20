@@ -1,0 +1,202 @@
+{
+  "_lastChecked": 1788622437,
+  "_history": [
+    {
+      "buildId": "9116692",
+      "branch": "public",
+      "timeUpdated": 1657752475,
+      "firstSeen": 1788622437,
+      "manifests": {
+        "1960331": {
+          "gid": "7857567852961754859",
+          "size": 997824920,
+          "download": 916192864
+        },
+        "1960332": {
+          "gid": "5310263859433034242",
+          "size": 1079938370,
+          "download": 931914992
+        },
+        "1960333": {
+          "gid": "1312908754073330058",
+          "size": 1384191784,
+          "download": 993709344
+        }
+      }
+    }
+  ],
+  "_change_number": 30855649,
+  "_missing_token": false,
+  "_sha": "a66063cab3667095f9693bb03d9738768c782249",
+  "_size": 3488,
+  "appid": "2051810",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Space Paca Games",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Marvellous Soft",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "clienticon": "02554673207afcbe204ec6ecf61e63b391a396bf",
+    "clienttga": "1eb82017bf1707c253fd05b30753eebb7072acde",
+    "exfgls": "6",
+    "gameid": "2051810",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "c28a3ed0e6d2526a22ea625a18e5b7363fc09a38",
+    "name": "Alchemia: Creatio Ex Nihilo Demo",
+    "osarch": "64",
+    "osextended": "macos64",
+    "oslist": "windows,macos,linux",
+    "parent": "1960330",
+    "primary_genre": "0",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1654901537",
+    "store_asset_mtime": "1654630092",
+    "store_screenshot": "ss_2f8698486c9127d158d55cf620e801ecf3501edf.jpg",
+    "supported_languages": {
+      "brazilian": {
+        "supported": "true"
+      },
+      "english": {
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "installdir": "Alchemia Creatio Ex Nihilo Demo",
+    "launch": {
+      "0": {
+        "arguments": "--is_demo --is_steam",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "game.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--is_demo --is_steam",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "game.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "--is_demo --is_steam",
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "game.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1960331": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "depotfromapp": "1960330",
+      "manifests": {
+        "public": {
+          "download": "916192864",
+          "gid": "7857567852961754859",
+          "size": "997824920"
+        }
+      }
+    },
+    "1960332": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "depotfromapp": "1960330",
+      "manifests": {
+        "public": {
+          "download": "931914992",
+          "gid": "5310263859433034242",
+          "size": "1079938370"
+        }
+      }
+    },
+    "1960333": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "depotfromapp": "1960330",
+      "manifests": {
+        "public": {
+          "download": "993709344",
+          "gid": "1312908754073330058",
+          "size": "1384191784"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "9116692",
+        "timeupdated": "1657752475"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "demoofappid": "1960330",
+    "developer": "Space Paca Games",
+    "publisher": "Marvellous Soft"
+  },
+  "ufs": {
+    "appidredirect": "1960330",
+    "maxnumfiles": "40",
+    "quota": "5000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "Godot/app_userdata/Alchemia- Creatio Ex Nihilo",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "addpath": ".local/share/godot/app_userdata/Alchemia- Creatio Ex Nihilo",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      },
+      "2": {
+        "addpath": "Godot/app_userdata/Alchemia- Creatio Ex Nihilo",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "copied_from_parent": "1"
+    }
+  }
+}

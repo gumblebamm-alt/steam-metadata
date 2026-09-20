@@ -1,0 +1,174 @@
+{
+  "_lastChecked": 1788615060,
+  "_history": [
+    {
+      "buildId": "26182",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615060,
+      "manifests": {
+        "36631": {
+          "gid": "4812308084960354390",
+          "size": 7174640308,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 26375805,
+  "_missing_token": false,
+  "_sha": "cd7770896afad3511fa0c52afde628b443e55ce4",
+  "_size": 4288,
+  "appid": "36630",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Stairway Games",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Perfect World Entertainment",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_1": "1",
+      "category_18": "1",
+      "category_20": "1",
+      "category_9": "1"
+    },
+    "clienticon": "badc4cdf2623ac957791b2bc628081f759d22f8c",
+    "clienttga": "adaf4e60b6d90780f8a10f25628266eda023aaee",
+    "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "partial",
+    "exfgls": "3",
+    "gameid": "36630",
+    "genres": {
+      "0": "1",
+      "1": "37",
+      "2": "29",
+      "3": "3"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "5d341e908f1356dd079ca9829df4ed57ad9fb798",
+    "logo": "ea74731b24ca4f17e1a8f8280d70d324887d80a5",
+    "logo_small": "ea74731b24ca4f17e1a8f8280d70d324887d80a5_thumb",
+    "metacritic_fullurl": "https://www.metacritic.com/game/pc/rusty-hearts?ftag=MCD-06-10aaa1f",
+    "metacritic_name": "Rusty Hearts",
+    "metacritic_score": "79",
+    "name": "Rusty Hearts",
+    "primary_genre": "37",
+    "review_percentage": "87",
+    "review_score": "8",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1316550300",
+    "store_asset_mtime": "1348277758",
+    "store_screenshot": "ss_6dca5d28a60f927f0aa9c51852915917ac1824ba.jpg",
+    "store_tags": {
+      "0": "113",
+      "1": "4085",
+      "2": "122",
+      "3": "128",
+      "4": "19",
+      "5": "1646"
+    },
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "type": "Game"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Rusty Hearts",
+    "installscriptoverride": "1",
+    "installscriptsignature": "5e6dbe99593079e68d843f9d7f404bf5d4248c19983aa04c4614c9a616e28d2d43361ce80906d96518c39dcd8fdcf1df32bed55e623099bcccae2d6cb36d75ef3693d58d05d4f8803e577200a52efbba86db4152ce794f71fc5b6e6280da4e6b820a54c0809e6d051c5d06fd02a51d7253a5e8c6e054dec3c3749b5289197117",
+    "launch": {
+      "0": {
+        "arguments": "steam:1",
+        "executable": "clientlauncher.exe"
+      }
+    },
+    "noupdatesafterinstall": "1",
+    "usemms": ""
+  },
+  "depots": {
+    "36631": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "4812308084960354390",
+          "size": "7174640308"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "26182"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "developer": "Stairway Games",
+    "gamedir": "Rusty Hearts",
+    "homepage": "http://rustyhearts.perfectworld.com/",
+    "icon": "",
+    "installscript": "installscript.vdf",
+    "isfreeapp": "1",
+    "listofdlc": "36632,36633",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "36631",
+    "publisher": "Perfect World Entertainment",
+    "serverbrowsername": "",
+    "state": "eStateAvailable"
+  },
+  "install": {
+    "registry": {
+      "hkey_local_machine\\software\\pwe\\service\\eng\\rustyhearts": {
+        "string": {
+          "installpath": "%INSTALLDIR%"
+        }
+      },
+      "hkey_local_machine\\software\\wow6432node\\pwe\\service\\eng\\rustyhearts": {
+        "string": {
+          "installpath": "%INSTALLDIR%"
+        }
+      }
+    },
+    "run process": {
+      "c++ redistributable 1": {
+        "command 1": "/q",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\36630",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\vcredist_x86_1.exe"
+      },
+      "c++ redistributable 2": {
+        "command 1": "/q",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\36630",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\vcredist_x86_2.exe"
+      },
+      "c++ redistributable 3": {
+        "command 1": "/q",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\36630",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\vcredist_x64.exe"
+      },
+      "directx": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\36630",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+      }
+    }
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "_lastChecked": 1788616591,
+  "_history": [
+    {
+      "buildId": "1370171",
+      "branch": "public",
+      "timeUpdated": 1475458277,
+      "firstSeen": 1788616591,
+      "manifests": {
+        "538381": {
+          "gid": "3579224500593427708",
+          "size": 154384936,
+          "download": 29238480
+        },
+        "538382": {
+          "gid": "8612176467377988564",
+          "size": 197033572,
+          "download": 40450624
+        },
+        "538383": {
+          "gid": "1612693559466876981",
+          "size": 163125155,
+          "download": 31327120
+        }
+      }
+    }
+  ],
+  "_change_number": 26253459,
+  "_missing_token": false,
+  "_sha": "4f907b038e28bed3ddcd551b29f0172069f56ad2",
+  "_size": 3109,
+  "appid": "538380",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Moonradish Inc.",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Moonradish Inc.",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1",
+      "category_28": "1"
+    },
+    "clienticns": "a4882732a35d5a1fadc89a163667e9a872791001",
+    "clienticon": "b2990b3fdc4a3aefae29e7208b9d4df750a24abe",
+    "clienttga": "e6c4cdbb994453110f3151b105b19a0bfd8291c0",
+    "controller_support": "full",
+    "exfgls": "6",
+    "gameid": "538380",
+    "genres": {
+      "0": "1",
+      "1": "23",
+      "2": "18"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "716c6cb33a62d85c5ca59a96e609a43eaa7a9ec8",
+    "linuxclienticon": "96d3d91e9f64c582c0faca87d804e41e86991cc4",
+    "metacritic_name": "Wand Wars Demo",
+    "name": "Wand Wars Demo",
+    "osarch": "",
+    "oslist": "windows,macos,linux",
+    "parent": "422110",
+    "primary_genre": "23",
+    "releasestate": "released",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1475615698",
+    "store_asset_mtime": "1475537485",
+    "store_screenshot": "ss_cf13ce228d9bc1f8627725d74e2149a641dea96a.jpg",
+    "supported_languages": {
+      "english": {
+        "subtitles": "true",
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "installdir": "Wand Wars Demo",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "WandWars.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "WandWars.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "launch.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "538381": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "29238480",
+          "gid": "3579224500593427708",
+          "size": "154384936"
+        }
+      }
+    },
+    "538382": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "40450624",
+          "gid": "8612176467377988564",
+          "size": "197033572"
+        }
+      }
+    },
+    "538383": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "31327120",
+          "gid": "1612693559466876981",
+          "size": "163125155"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "1370171",
+        "timeupdated": "1475458277"
+      }
+    }
+  },
+  "extended": {
+    "demoofappid": "422110",
+    "developer": "Moonradish Inc.",
+    "homepage": "http://wandwars.com",
+    "publisher": "Moonradish Inc."
+  },
+  "ufs": {
+    "appidredirect": "422110",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "3",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "WandWars_Data",
+            "replace": "WandWars.app/Contents/"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "WandWars_Data",
+        "pattern": "*save.dat",
+        "root": "gameinstall"
+      }
+    }
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "_lastChecked": 1788620964,
+  "_history": [
+    {
+      "buildId": "8422404",
+      "branch": "public",
+      "timeUpdated": 1648029909,
+      "firstSeen": 1788620964,
+      "manifests": {
+        "1620431": {
+          "gid": "7258187016604738063",
+          "size": 289664064,
+          "download": 226170688
+        },
+        "1620432": {
+          "gid": "4864856273879139549",
+          "size": 290636496,
+          "download": 226617760
+        },
+        "1620433": {
+          "gid": "8160738122360494101",
+          "size": 326986836,
+          "download": 236164320
+        }
+      }
+    }
+  ],
+  "_change_number": 27899686,
+  "_missing_token": false,
+  "_sha": "8751514b8d1685d5aea048d496c4446d5d9d306d",
+  "_size": 4016,
+  "appid": "1620430",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Monolith of Minds",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Monolith of Minds",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1",
+      "category_23": "1",
+      "category_28": "1"
+    },
+    "clienticon": "8092edcf39ba21e641912050311d2ef3a65bc543",
+    "clienttga": "4b02412580aa726344db05dc5fc300e44b401a19",
+    "controller_support": "full",
+    "exfgls": "6",
+    "gameid": "1620430",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "6ce32a2d2ba4e365012e918394a40604c70a6a0f",
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "logo_position": {
+          "height_pct": "100",
+          "pinned_position": "BottomLeft",
+          "width_pct": "100"
+        }
+      }
+    },
+    "name": "Lila’s Sky Ark Demo",
+    "osarch": "64",
+    "osextended": "macos64",
+    "oslist": "windows,macos,linux",
+    "parent": "1573390",
+    "primary_genre": "0",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1623860304",
+    "store_asset_mtime": "1623941144",
+    "supported_languages": {
+      "english": {
+        "subtitles": "true",
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "installdir": "LilasSkyArkDemo",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SkyArkDemo.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "SkyArkDemo.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "SkyArkDemo.app\\Contents\\MacOS\\SkyArkDemo",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4"
+  },
+  "depots": {
+    "1620431": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "226170688",
+          "gid": "7258187016604738063",
+          "size": "289664064"
+        }
+      }
+    },
+    "1620432": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "226617760",
+          "gid": "4864856273879139549",
+          "size": "290636496"
+        }
+      }
+    },
+    "1620433": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "236164320",
+          "gid": "8160738122360494101",
+          "size": "326986836"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "8422404",
+        "timeupdated": "1648029909"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "demoofappid": "1573390",
+    "developer": "Monolith of Minds",
+    "homepage": "https://monolithofminds.com/",
+    "publisher": "Monolith of Minds"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10000",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot",
+            "replace": "Godot/app_userdata/SkyArkDemo/dreams"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot",
+            "replace": "godot/app_userdata/SkyArkDemo/dreams"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "2": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot",
+            "replace": "Godot/app_userdata/SkyArkDemo/dreams"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot",
+        "pattern": "dream_*.sav",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
+}

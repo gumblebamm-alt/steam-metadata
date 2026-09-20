@@ -1,0 +1,191 @@
+{
+  "_lastChecked": 1788615371,
+  "_history": [
+    {
+      "buildId": "13922",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615371,
+      "manifests": {
+        "219661": {
+          "gid": "944235523978221623",
+          "size": 105918920,
+          "download": 0
+        },
+        "219662": {
+          "gid": "8247482249651212253",
+          "size": 782567554,
+          "download": 0
+        },
+        "219663": {
+          "gid": "2961565001968096722",
+          "size": 1933312,
+          "download": 0
+        },
+        "219664": {
+          "gid": "9023304575184197244",
+          "size": 798983998,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 26253459,
+  "_missing_token": false,
+  "_sha": "a39c0c979628b6e87d62807e602ee1acc7c6480d",
+  "_size": 3326,
+  "appid": "219660",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Animation Arts",
+        "type": "developer"
+      }
+    },
+    "category": {},
+    "clienticon": "c9cfb70daa28cc7688fee5d14e9bb75cfc551e14",
+    "clienttga": "21832f7434ab45e53b20e546f724072422fa9fdd",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "219660",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "52dc697e8b888a912582b3822527ad37c150c878",
+    "metacritic_name": "Secret Files 3 Demo",
+    "name": "Secret Files 3 Demo",
+    "primary_genre": "0",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1348011900",
+    "store_asset_mtime": "1348012131",
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "secretfiles3demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "1d0afb4dfa0edb55c9ae410a035abe7b43b767537144929ec58c736740b2ff9b86bf47bd114b4545ed4fd0d16b323bed016dd2dcb205a4913b9f7b17d2a3c12a273e8da4e05979343b75aa2ba9d1b27712f51495f6c36ae03f81d1f817d70f36e98e96423859107553f869ec9612744f04678d7513b34ac8bc7bd52329b7be24",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch SF3 Demo",
+        "executable": "fsasgame.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Configuration",
+        "executable": "configtool.exe"
+      },
+      "2": {
+        "description": "Readme",
+        "executable": "readme.txt"
+      }
+    }
+  },
+  "depots": {
+    "219661": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "944235523978221623",
+          "size": "105918920"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "219662": {
+      "config": {
+        "language": "german",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "8247482249651212253",
+          "size": "782567554"
+        }
+      }
+    },
+    "219663": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "2961565001968096722",
+          "size": "1933312"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "219664": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "9023304575184197244",
+          "size": "798983998"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "13922"
+      }
+    },
+    "overridescddb": "1",
+    "preloadonly": "1"
+  },
+  "extended": {
+    "developer": "Animation Arts",
+    "gamedir": "ValveTestApp219660",
+    "homepage": "",
+    "icon": "",
+    "noservers": "0",
+    "sourcegame": "1",
+    "state": "eStateAvailable",
+    "thirdpartycdkey": "1",
+    "visibleonlywhensubscribed": "1"
+  },
+  "install": {
+    "registry": {
+      "hkey_local_machine\\software\\deep silver\\secret files 3 demo": {
+        "dword": {
+          "english": {
+            "language": "1"
+          },
+          "german": {
+            "language": "2"
+          }
+        },
+        "string": {
+          "exe_path": "%INSTALLDIR%\\fsasgame.exe",
+          "install_path": "%INSTALLDIR%",
+          "version": "1.00"
+        }
+      }
+    },
+    "run process": {
+      "directx": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\219660",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+      }
+    }
+  }
+}

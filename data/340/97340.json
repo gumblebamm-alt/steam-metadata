@@ -1,0 +1,151 @@
+{
+  "_lastChecked": 1788615276,
+  "_history": [
+    {
+      "buildId": "10993",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615276,
+      "manifests": {
+        "97341": {
+          "gid": "4231340837151072603",
+          "size": 1403957213,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 35549614,
+  "_missing_token": false,
+  "_sha": "fe26c656b920ac26815a9531cd835e1ebde700c8",
+  "_size": 3228,
+  "appid": "97340",
+  "common": {
+    "app_retired_publisher_request": "1",
+    "associations": {
+      "0": {
+        "name": "Stainless Games",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Wizards of the Coast",
+        "type": "publisher"
+      }
+    },
+    "category": {},
+    "clienticon": "e660f48b7b7132d7671597e20b11f2694d8bd336",
+    "clienttga": "b228a8f9b2a38a3f583d9ffa96feba6e7872eb62",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "97340",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "b638cb8f36ea22352685ef10831d9960b6c2eb49",
+    "name": "Magic: The Gathering - Duels of the Planeswalkers 2013 Demo",
+    "parent": "97330",
+    "primary_genre": "0",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1340215620",
+    "store_asset_mtime": "1340215771",
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Magic 2013 Demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "09e595aca537c1f45494bf54351f6a51b074b787e6ea165cdb6d38ae053d5a2d81fde18f8c994863c888e30fa3ad7896eb475e8496feb10c8248cea3f21f7043f34e4afce736947da75443bca8c2126fd63e387acea5fccfe47ac71dbac360716c808e65fa582e7951acb0c437434711fafe06aab4f3ee1150aeb5fcc5c11152",
+    "launch": {
+      "0": {
+        "executable": "DotP_D13_Demo.exe"
+      }
+    }
+  },
+  "depots": {
+    "97341": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "4231340837151072603",
+          "size": "1403957213"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "baselanguages": "english,french,italian,german,spanish,japanese,koreana,russian,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "10993",
+        "timebuildupdated": "1346174685"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "demoofappid": "97330",
+    "developer": "Stainless Games",
+    "gamedir": "Magic 2013 Demo",
+    "homepage": "",
+    "icon": "",
+    "installscript": "installscript.vdf",
+    "languages": "english,french,italian,german,spanish,japanese,koreana,russian,brazilian",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "97341",
+    "publisher": "Wizards of the Coast",
+    "serverbrowsername": "",
+    "state": "eStateAvailable"
+  },
+  "install": {
+    "registry": {
+      "hkey_local_machine\\software\\wizards of the coast\\magic the gathering duels of the planeswalkers 2013": {
+        "dword": {
+          "brazilian": {
+            "language": "8"
+          },
+          "english": {
+            "language": "0"
+          },
+          "french": {
+            "language": "1"
+          },
+          "german": {
+            "language": "2"
+          },
+          "italian": {
+            "language": "3"
+          },
+          "japanese": {
+            "language": "5"
+          },
+          "koreana": {
+            "language": "6"
+          },
+          "russian": {
+            "language": "7"
+          },
+          "spanish": {
+            "language": "4"
+          }
+        }
+      }
+    },
+    "run process": {
+      "c++_runtimes": {
+        "command 1": "/Q",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\97340",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\PreReqs\\vcredist_x86.exe"
+      },
+      "directx": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\97340",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\PreReqs\\DirectX\\DXSETUP.exe"
+      }
+    }
+  }
+}

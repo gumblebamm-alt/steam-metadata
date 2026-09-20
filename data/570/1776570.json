@@ -1,0 +1,226 @@
+{
+  "_lastChecked": 1788621556,
+  "_history": [
+    {
+      "buildId": "14260735",
+      "branch": "public",
+      "timeUpdated": 1714813506,
+      "firstSeen": 1788621556,
+      "manifests": {
+        "1776571": {
+          "gid": "5168454938595095800",
+          "size": 8963803426,
+          "download": 3405688192
+        },
+        "1776572": {
+          "gid": "3744488485301021650",
+          "size": 9105491268,
+          "download": 3443950432
+        },
+        "1776573": {
+          "gid": "2280248961122289311",
+          "size": 9182533252,
+          "download": 3541488816
+        }
+      }
+    }
+  ],
+  "_change_number": 26845279,
+  "_missing_token": false,
+  "_sha": "a7f7d5045bec8c5730db05a0fdacc416e057a3d7",
+  "_size": 3915,
+  "appid": "1776570",
+  "common": {
+    "associations": {},
+    "category": {},
+    "clienticon": "e9da5d6ef70b3f34e8889c62d076230f312b9ce9",
+    "clienttga": "c4cecfcfa35008c6efb08edaa1c553b4582d76be",
+    "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "exfgls": "6",
+    "gameid": "1776570",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "02fbfc7c34976544c20f9a16074557a00eb22682",
+    "library_assets": {
+      "library_capsule": "en",
+      "library_hero": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "height_pct": "50",
+        "pinned_position": "BottomLeft",
+        "width_pct": "50"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "library_hero.jpg"
+        },
+        "image2x": {
+          "english": "library_hero_2x.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "logo.png"
+        },
+        "image2x": {
+          "english": "logo_2x.png"
+        },
+        "logo_position": {
+          "height_pct": "50",
+          "pinned_position": "BottomLeft",
+          "width_pct": "50"
+        }
+      }
+    },
+    "logo": "9c1aa72f13e9ab4a09f4b35ddb6e039ba03871bb",
+    "logo_small": "9c1aa72f13e9ab4a09f4b35ddb6e039ba03871bb_thumb",
+    "name": "The Fate of Baldr Playtest",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos,linux",
+    "parent": "1601630",
+    "primary_genre": "0",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1651387475",
+    "store_asset_mtime": "1712222591",
+    "type": "Beta"
+  },
+  "config": {
+    "installdir": "The Fate of Baldr Playtest",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "The Fate of Baldr.exe",
+        "type": "none"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "The Fate of Baldr.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "The Fate of Baldr"
+      }
+    }
+  },
+  "depots": {
+    "1776571": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3405688192",
+          "gid": "5168454938595095800",
+          "size": "8963803426"
+        }
+      }
+    },
+    "1776572": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "3443950432",
+          "gid": "3744488485301021650",
+          "size": "9105491268"
+        }
+      }
+    },
+    "1776573": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "3541488816",
+          "gid": "2280248961122289311",
+          "size": "9182533252"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "14260735",
+        "timeupdated": "1714813506"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "betaforappid": "1601630"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SaveData",
+            "replace": "no.ananki.baldr"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SaveData",
+            "replace": ".config/unity3d/Ananki AS/The Fate of Baldr"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      },
+      "2": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SaveData",
+            "replace": "Ananki AS/The Fate of Baldr"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "WinAppDataLocalLow"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SaveData",
+        "pattern": "*.data",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "_lastChecked": 1788614932,
+  "_history": [],
+  "_change_number": 11703200,
+  "_missing_token": false,
+  "_sha": "5e2abce2a4b8759782d03e7550aca2b5fa8582c7",
+  "_size": 1198,
+  "appid": "24674",
+  "common": {
+    "associations": {},
+    "gameid": "24674",
+    "name": "Trainz Simulator 12 DLC - Blue Comet",
+    "parent": "24670",
+    "type": "DLC"
+  },
+  "config": {
+    "installscriptoverride": "1",
+    "installscriptsignature": "6ad3f75bf097daf4700beee6009fe5dcb9611501bdb671abc8c0dec114bd250617d8765f086c34a5a3efb9cf25930769c118e62975bd22499ed010a0352e1cf0af7caea6964ed84f1e5fee4bf1aed0aef6e520f212f6cd738ff097347d189d2aec68e47eb286b4166d2558749dbc7ade2843f87c29003c359b3896980ff892d0"
+  },
+  "extended": {
+    "developer": "",
+    "dlcforappid": "24670",
+    "gamedir": "TS2012",
+    "homepage": "",
+    "icon": "",
+    "installscript": "bluecometinstallscript.vdf",
+    "legacykeyregistrationmethod": "registry",
+    "legacykeyregistrylocation": "HKEY_CURRENT_USER\\Software\\Valve\\TestApp24674\\SteamKey",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "24674",
+    "sdk_notownedbydefault": "1",
+    "serverbrowsername": "",
+    "showcdkeyonlaunch": "1",
+    "state": "eStateAvailable",
+    "supportscdkeycopytoclipboard": "1"
+  },
+  "install": {
+    "run process": {
+      "set_key": {
+        "command 1": "registerkey %CDKEY%",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\bin\\trainzutil.exe"
+      }
+    }
+  }
+}

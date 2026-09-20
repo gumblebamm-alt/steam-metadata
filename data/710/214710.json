@@ -1,0 +1,162 @@
+{
+  "_lastChecked": 1788615354,
+  "_history": [
+    {
+      "buildId": "66091",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615354,
+      "manifests": {
+        "214711": {
+          "gid": "6472582730393374955",
+          "size": 1112819153,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 26253459,
+  "_missing_token": false,
+  "_sha": "ce8f1ed29016938b602c185de91b0c52b233d57b",
+  "_size": 3465,
+  "appid": "214710",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Qooc Software ",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Digital Tribes",
+        "type": "publisher"
+      }
+    },
+    "category": {},
+    "clienticon": "0421dec2e1d5449c1f8d24a066cd8342a3b05fc3",
+    "clienttga": "7d81dfa53b2e9adc17d1a39d4d94a50ed1602129",
+    "community_visible_stats": "1",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "214710",
+    "genres": {
+      "0": "1",
+      "1": "23"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "97a2dcc75d66a8a2c707ba7053a67aae2bbff264",
+    "languages": {
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "spanish": "1"
+    },
+    "metacritic_name": "KungFu Strike",
+    "name": "KungFu Strike Demo",
+    "parent": "212030",
+    "primary_genre": "1",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1343952180",
+    "store_asset_mtime": "1343856779",
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "KungFuStrike Demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "4e6564d04b314c4085e6d699057f773d608eedf24597502b97dc87a3f7d4cd94c4b463e736819d9a1e22a4b69f3e5a03ea6a1d0a5ecbdbd60a2b46469cf7bc153f97643971eb7ec6b880cacf4c1a83c618cb6ab13c2ea43965846e1dff55846ffee36560ebbed220d0eeca433e2651d670c2643fc5492a078a0b0cd16a9d5084",
+    "launch": {
+      "0": {
+        "executable": "KungFuStrikeDemo.exe"
+      },
+      "1": {
+        "arguments": "-f",
+        "description": "FullScreen",
+        "executable": "KungFuStrikeDemo.exe"
+      }
+    }
+  },
+  "depots": {
+    "214711": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "6472582730393374955",
+          "size": "1112819153"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "66091"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "demoofappid": "212030",
+    "developer": "Qooc Software ",
+    "gamedir": "KungFuStrike Demo",
+    "homepage": "",
+    "icon": "",
+    "installscript": "214710_install.vdf",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "214711",
+    "publisher": "Digital Tribes",
+    "serverbrowsername": "",
+    "state": "eStateAvailable"
+  },
+  "install": {
+    "registry": {
+      "hkey_local_machine\\software\\qooc\\kungfustrikewr": {
+        "string": {
+          "exe_path": "%INSTALLDIR%\\KungFuStrikeDemo.exe",
+          "install_path": "%INSTALLDIR%"
+        }
+      }
+    },
+    "run process": {
+      ".net20_32": {
+        "command 1": "/Q /C:\"install.exe /Q\"",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v2.0.50727",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\dotnetfx.exe",
+        "requirement_os": {
+          "is64bitwindows": "0"
+        }
+      },
+      ".net20_64": {
+        "command 1": "/Q /C:\"install.exe /Q\"",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v2.0.50727",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\NetFx64.exe",
+        "requirement_os": {
+          "is64bitwindows": "1"
+        }
+      },
+      "directx": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Qooc\\KungFuStrike\\Req\\dx",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+      },
+      "xna31": {
+        "command 1": "/quiet /i \"%INSTALLDIR%\\redist\\xnafx31_redist.msi\"",
+        "nocleanup": "0",
+        "process 1": "msiexec.exe"
+      }
+    }
+  },
+  "ufs": {
+    "appidredirect": "212030",
+    "maxnumfiles": "1000",
+    "quota": "104857600"
+  }
+}

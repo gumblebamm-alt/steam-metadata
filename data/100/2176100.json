@@ -1,0 +1,179 @@
+{
+  "_lastChecked": 1788622838,
+  "_history": [
+    {
+      "buildId": "10174770",
+      "branch": "public",
+      "timeUpdated": 1671435454,
+      "firstSeen": 1788622838,
+      "manifests": {
+        "2176101": {
+          "gid": "1948300186551056063",
+          "size": 219707831,
+          "download": 65904512
+        },
+        "2176102": {
+          "gid": "4408271820873651657",
+          "size": 243988910,
+          "download": 73548896
+        }
+      }
+    }
+  ],
+  "_change_number": 35088392,
+  "_missing_token": false,
+  "_sha": "a89bb19346d04343570e283b66a2cb33b971942d",
+  "_size": 3023,
+  "appid": "2176100",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "MELOVITY",
+        "type": "developer"
+      },
+      "1": {
+        "name": "MELOVITY",
+        "type": "publisher"
+      },
+      "2": {
+        "name": "MELOVITY",
+        "type": "franchise"
+      }
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "clienticns": "42e4338dc9a643382c43aa55d20c5f2066382535",
+    "clienticon": "cd1aa51d806d32abdb778b3c715c6e298ee48635",
+    "clienttga": "d5e9e9e54dad1961dc5ee405605b3d5efc06b01e",
+    "exfgls": "6",
+    "gameid": "2176100",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "7c20c417cda95cc2e9d54daa476bccb83b13fcfc",
+    "library_assets": {
+      "library_capsule": "en"
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "library_600x900.jpg"
+        },
+        "image2x": {
+          "english": "library_600x900_2x.jpg"
+        }
+      }
+    },
+    "name": "Rhythm Stones Demo",
+    "name_localized": {
+      "koreana": "리듬 스톤즈 데모"
+    },
+    "osarch": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
+    "parent": "2175450",
+    "primary_genre": "0",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1666743685",
+    "store_asset_mtime": "1723613795",
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "installdir": "Rhythm Stones Demo",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Rhythm Stones.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Rhythm Stones.app"
+      }
+    }
+  },
+  "depots": {
+    "2176101": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "65904512",
+          "gid": "1948300186551056063",
+          "size": "219707831"
+        }
+      }
+    },
+    "2176102": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "73548896",
+          "gid": "4408271820873651657",
+          "size": "243988910"
+        }
+      }
+    },
+    "baselanguages": "english,koreana",
+    "branches": {
+      "public": {
+        "buildid": "10174770",
+        "timebuildupdated": "1671429614",
+        "timeupdated": "1671435454"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "demoofappid": "2175450",
+    "developer": "MELOVITY",
+    "publisher": "MELOVITY"
+  },
+  "ufs": {
+    "appidredirect": "2175450",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Rhythm Stones_Data/{64BitSteamID}",
+            "replace": "Rhythm Stones.app/Contents/{64BitSteamID}"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Rhythm Stones_Data/{64BitSteamID}",
+        "pattern": "GameData.json",
+        "root": "gameinstall"
+      },
+      "copied_from_parent": "1"
+    }
+  }
+}

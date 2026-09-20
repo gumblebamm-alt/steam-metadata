@@ -1,0 +1,143 @@
+{
+  "_lastChecked": 1788615163,
+  "_history": [
+    {
+      "buildId": "13289",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615163,
+      "manifests": {
+        "72411": {
+          "gid": "2806114435979525877",
+          "size": 155026506,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 26253459,
+  "_missing_token": false,
+  "_sha": "a7cd6792ef74df8dba024e56567e36b89ddce976",
+  "_size": 3034,
+  "appid": "72410",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Tomkorp Computer Solutions Inc.",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Tomkorp Computer Solutions Inc.",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_1": "1",
+      "category_15": "1",
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_25": "1",
+      "category_9": "1"
+    },
+    "clienticon": "edf2a976eb8cfb16ef578e01eaf7d7c85705ee4b",
+    "eulas": {
+      "0": {
+        "id": "eula_clones",
+        "name": "eula_clones",
+        "url": "http://store.steampowered.com/eula/eula_clones"
+      }
+    },
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "72410",
+    "genres": {
+      "0": "2",
+      "1": "34",
+      "2": "4",
+      "3": "23"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "4d8a369d857801a8e77b09d1dc9f9db929d7877f",
+    "logo": "aba8268ae850d268edb1c78ab057d0ab03c8ce5d",
+    "logo_small": "aba8268ae850d268edb1c78ab057d0ab03c8ce5d_thumb",
+    "name": "Clones Demo",
+    "parent": "72400",
+    "primary_genre": "4",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1290186000",
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Clones Demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "8f5864fc5aa8f76fbaa2e7e0a8176cfdfe11d49846e66d8674ec79434350fa758df8ad9e76a16826cc903424c85792ca85cc46199b69aaa2f9f6d51e38986a5110356b892ee1f28ad705ec925b5f75ecef0d3d6a6eaaa01cbcf85f042db752824596225a7d3ac53a4bf62ba2bc78b534a03e205552c1d0669716fd0dcac05fe5",
+    "launch": {
+      "0": {
+        "executable": "Bin\\ClonesGame.exe"
+      }
+    }
+  },
+  "depots": {
+    "72411": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "2806114435979525877",
+          "size": "155026506"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "13289"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "demoofappid": "72400",
+    "developer": "Tomkorp Computer Solutions Inc.",
+    "gamedir": "Clones Demo",
+    "homepage": "http://ClonesGame.com",
+    "icon": "",
+    "installscript": "clones_install.vdf",
+    "launcheula": "http://store.steampowered.com/eula/eula_clones",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "72411",
+    "publisher": "Tomkorp Computer Solutions Inc.",
+    "serverbrowsername": "",
+    "state": "eStateAvailable"
+  },
+  "install": {
+    "run process": {
+      "extension": {
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\72400\\Extension",
+        "process 1": "%INSTALLDIR%\\Bin\\SteamClonesInstall.exe"
+      },
+      "sound": {
+        "command 1": "/s",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\72400\\Sound",
+        "process 1": "%INSTALLDIR%\\Installers\\OpenAL_Installer.exe"
+      },
+      "video": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\72400\\Video",
+        "process 1": "%INSTALLDIR%\\Installers\\dxsetup.exe"
+      }
+    }
+  }
+}

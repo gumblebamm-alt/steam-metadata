@@ -1,0 +1,177 @@
+{
+  "_lastChecked": 1788621987,
+  "_history": [],
+  "_change_number": 32149660,
+  "_missing_token": false,
+  "_sha": "60756ee116f7a085155df3f6d08593d33286db37",
+  "_size": 3558,
+  "appid": "1898220",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "CGA Studio Games",
+        "type": "developer"
+      },
+      "1": {
+        "name": "CGA Studio Games",
+        "type": "publisher"
+      }
+    },
+    "clienticon": "c61aaa10c45baed4a7d5b6ed3fdeac44d0d9ab1f",
+    "clienttga": "bb3acc69500718e3e7a7169f3acf8e39df5939af",
+    "exfgls": "6",
+    "gameid": "1898220",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "523690b8e0b7f3de6803ffd70c053e05f891ce9d",
+    "name": "Chill Panda Demo",
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos,linux",
+    "parent": "1751470",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1644403993",
+    "store_asset_mtime": "1644852069",
+    "store_screenshot": "ss_0245873e772f1b5f7df3d957ec1348acf0a15cbe.jpg",
+    "type": "Demo"
+  },
+  "config": {
+    "installdir": "Chill Panda Demo",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ChillPanda/Chill Panda.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ChillPanda.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "ChillPanda.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1751471": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "depotfromapp": "1751470",
+      "manifests": {
+        "public": {
+          "download": "250559776",
+          "gid": "9197092842709872899",
+          "size": "797185680"
+        }
+      }
+    },
+    "1751472": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "depotfromapp": "1751470",
+      "manifests": {
+        "public": {
+          "download": "261850272",
+          "gid": "3304093262492101870",
+          "size": "825496984"
+        }
+      }
+    },
+    "1751473": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "depotfromapp": "1751470",
+      "manifests": {
+        "public": {
+          "download": "260014768",
+          "gid": "247748432942916927",
+          "size": "850762825"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {}
+  },
+  "extended": {
+    "demoofappid": "1751470",
+    "developer": "CGA Studio Games",
+    "publisher": "CGA Studio Games"
+  },
+  "ufs": {
+    "appidredirect": "1751470",
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "20",
+    "quota": "100000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "CGA Studio/Chill Panda/{64BitSteamID}",
+        "pattern": "*.savj",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "CGA Studio/Chill Panda/{64BitSteamID}",
+        "pattern": "*.options",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "CGA Studio/Chill Panda/{64BitSteamID}",
+        "pattern": "*.dat",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "CGA Studio/Chill Panda/{64BitSteamID}",
+        "pattern": "*.txt",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": "CGA Studio/Chill Panda/{64BitSteamID}",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "copied_from_parent": "1"
+    }
+  }
+}

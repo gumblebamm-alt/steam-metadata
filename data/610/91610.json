@@ -1,0 +1,179 @@
+{
+  "_lastChecked": 1788615269,
+  "_history": [
+    {
+      "buildId": "9367",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615269,
+      "manifests": {
+        "91611": {
+          "gid": "5215921024573782316",
+          "size": 1228790242,
+          "download": 0
+        },
+        "91625": {
+          "gid": "4051707713142824247",
+          "size": 1089314770,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 27209232,
+  "_missing_token": false,
+  "_sha": "2d61d647f532a3d5253f294019a1f17e72ae414f",
+  "_size": 3911,
+  "appid": "91610",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Coffee Stain Studios",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Coffee Stain Studios",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_1": "1",
+      "category_2": "1",
+      "category_9": "1"
+    },
+    "clienticns": "b0d264d8a85862e65284ff850e685c6a944ec755",
+    "clienticon": "eaf711daa39398d7366a638925c01d7ec78ff478",
+    "clienttga": "8be860479bc8b5ceef6f453860f61e22ba1b9ff5",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "91610",
+    "genres": {
+      "0": "1",
+      "1": "2",
+      "2": "23"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "fb131c31ed4dc33421dac1f805aaef337b03567c",
+    "logo": "d63198590c7bab5a332327a54f8ed0a00ac4b0d3",
+    "logo_small": "d63198590c7bab5a332327a54f8ed0a00ac4b0d3_thumb",
+    "metacritic_fullurl": "https://www.metacritic.com/game/pc/sanctum-2011?ftag=MCD-06-10aaa1f",
+    "metacritic_name": "Sanctum (2011)",
+    "metacritic_score": "70",
+    "name": "Sanctum - Demo",
+    "oslist": "windows,macos",
+    "parent": "91600",
+    "primary_genre": "23",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1305322740",
+    "store_asset_mtime": "1305322906",
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Sanctum - Demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "98a844b35ed15e455b9c737c5f9ca6b7c74cd167d51e9ef0dcb727cc0fd9dcf1e107ae6386b8e785d1826bd97011e6bdb37069c79aac0d27bb3c6f420238bd11fb5c82850917107f553f3ed4236079c82d49037f888a23d6d90d2189a11c7ace140f4169eaa023a2a375aee8825d2d1cc2acbd514754cb888fcb13d4aa8a6502",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch Sanctum",
+        "executable": "Binaries\\Win32\\SanctumGame-Win32-Shipping.exe",
+        "workingdir": "Binaries\\Win32\\"
+      },
+      "1": {
+        "arguments": "-log",
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch Sanctum",
+        "executable": "Sanctum.app"
+      }
+    }
+  },
+  "depots": {
+    "91611": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "5215921024573782316",
+          "size": "1228790242"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "91625": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "4051707713142824247",
+          "size": "1089314770"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "9367"
+      }
+    },
+    "overridescddb": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "demoofappid": "91600",
+    "developer": "Coffee Stain Studios",
+    "gamedir": "Sanctum - Demo",
+    "homepage": "http://www.sanctumgame.com",
+    "icon": "",
+    "installscript_macos": "Sanctum.app/installscript_osx.vdf",
+    "noservers": "1",
+    "onquitdemoshellexecute": "steam://store/91600",
+    "order": "1",
+    "publisher": "Coffee Stain Studios",
+    "serverbrowsername": "",
+    "state": "eStateAvailable",
+    "validoslist": "windows,macos"
+  },
+  "install": {
+    "run process": {
+      "amdcpu": {
+        "command 1": "/S",
+        "ignoreexitcode": "1",
+        "nocleanup": "0",
+        "process 1": "%INSTALLDIR%\\Install\\amdcpusetup.exe",
+        "requirement_cpu": {
+          "processorid": "AuthenticAMD"
+        },
+        "requirement_os": {
+          "ostype": "Windows XP"
+        }
+      },
+      "directx": {
+        "command 1": "/silent",
+        "nocleanup": "0",
+        "process 1": "%INSTALLDIR%\\Install\\DirectX\\dxsetup.exe"
+      },
+      "msvc redistributables": {
+        "command 1": "/q",
+        "nocleanup": "0",
+        "process 1": "%INSTALLDIR%\\Install\\vcredist_x64_vs2008sp1.exe",
+        "requirement_os": {
+          "is64bitwindows": "1"
+        }
+      }
+    }
+  }
+}

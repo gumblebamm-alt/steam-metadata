@@ -1,0 +1,232 @@
+{
+  "_lastChecked": 1788622981,
+  "_history": [
+    {
+      "buildId": "10172766",
+      "branch": "public",
+      "timeUpdated": 1671388265,
+      "firstSeen": 1788622981,
+      "manifests": {
+        "2222742": {
+          "gid": "8009008442761546679",
+          "size": 346949662,
+          "download": 259388784
+        },
+        "2222743": {
+          "gid": "9221782481581280491",
+          "size": 362577553,
+          "download": 264932112
+        },
+        "2222744": {
+          "gid": "5027963313939447286",
+          "size": 348499572,
+          "download": 258402080
+        }
+      }
+    }
+  ],
+  "_change_number": 26685919,
+  "_missing_token": false,
+  "_sha": "d460c871e086ff02ab895a64a756dbbd7f15b916",
+  "_size": 4047,
+  "appid": "2222740",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Team Zeroth",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Team Zeroth",
+        "type": "publisher"
+      },
+      "2": {
+        "name": "BREU",
+        "type": "franchise"
+      }
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "clienticon": "c8829704af0cf0f5a04ac1205ea1d0a57c40f912",
+    "clienttga": "f06ced8354cc78b13bb991b86672b91f0ab87cc2",
+    "exfgls": "6",
+    "gameid": "2222740",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "a5edd8149a46ad621aabf09f1fdc0e41a5422909",
+    "name": "Breu: Shadow Hunt Demo",
+    "name_localized": {
+      "brazilian": "Breu: Ataque das Sombras Demo"
+    },
+    "osarch": "64",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
+    "parent": "2213890",
+    "primary_genre": "0",
+    "releasestate": "released",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1674879879",
+    "store_asset_mtime": "1670703046",
+    "store_screenshot": "ss_80f58574e00a0ed3eec55d6094b1908f9c3ed0fb.jpg",
+    "supported_languages": {
+      "brazilian": {
+        "full_audio": "true",
+        "supported": "true"
+      },
+      "english": {
+        "full_audio": "true",
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "installdir": "BreuShadowHunt",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "breu2.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "breu2.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2213891": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "2213890",
+      "sharedinstall": "2"
+    },
+    "2213892": {
+      "config": {
+        "oslist": "macos"
+      },
+      "depotfromapp": "2213890",
+      "sharedinstall": "2"
+    },
+    "2213893": {
+      "config": {
+        "oslist": "linux"
+      },
+      "depotfromapp": "2213890",
+      "sharedinstall": "2"
+    },
+    "2222742": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "259388784",
+          "gid": "8009008442761546679",
+          "size": "346949662"
+        }
+      }
+    },
+    "2222743": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "264932112",
+          "gid": "9221782481581280491",
+          "size": "362577553"
+        }
+      }
+    },
+    "2222744": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "258402080",
+          "gid": "5027963313939447286",
+          "size": "348499572"
+        }
+      }
+    },
+    "baselanguages": "english,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "10172766",
+        "timeupdated": "1671388265"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "demoofappid": "2213890",
+    "developer": "Team Zeroth",
+    "homepage": "https://www.audiogamebreu.com.br/",
+    "publisher": "Team Zeroth"
+  },
+  "ufs": {
+    "appidredirect": "2213890",
+    "maxnumfiles": "1",
+    "quota": "100000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "teamzeroth/breu2/{Steam3AccountID}",
+            "replace": "com.teamzeroth.breu2/{Steam3AccountID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "teamzeroth/breu2/{Steam3AccountID}",
+            "replace": "teamzeroth/breu2/{Steam3AccountID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "2": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "teamzeroth/breu2/{Steam3AccountID}",
+            "replace": ".config/unity3d/teamzeroth/breu2/{Steam3AccountID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "teamzeroth/breu2/{Steam3AccountID}",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "copied_from_parent": "1"
+    }
+  }
+}

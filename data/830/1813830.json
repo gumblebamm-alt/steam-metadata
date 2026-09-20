@@ -1,0 +1,167 @@
+{
+  "_lastChecked": 1788621703,
+  "_history": [
+    {
+      "buildId": "15245893",
+      "branch": "public",
+      "timeUpdated": 1722638174,
+      "firstSeen": 1788621703,
+      "manifests": {
+        "1813831": {
+          "gid": "7463866566458017223",
+          "size": 1889602233,
+          "download": 1616718128
+        },
+        "1813832": {
+          "gid": "1369323140708622392",
+          "size": 2232552316,
+          "download": 1623079920
+        }
+      }
+    }
+  ],
+  "_change_number": 24981165,
+  "_missing_token": false,
+  "_sha": "ddd7dd6795b4816d6feaadb9ec516bf692b7a1a0",
+  "_size": 2701,
+  "appid": "1813830",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "DID Games",
+        "type": "developer"
+      },
+      "1": {
+        "name": "DID Games",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_18": "1",
+      "category_2": "1",
+      "category_23": "1"
+    },
+    "clienticns": "6bb899e1e9ced6e346781a7e1b914e9f707457d2",
+    "clienticon": "cca5b3b62090b54d6ea3f5b5371f3f02ee5e2db0",
+    "clienttga": "0222f55bcb8c69c126f6215a6c7244c0f744b773",
+    "content_descriptors": {
+      "0": "1",
+      "1": "3",
+      "2": "5",
+      "3": "4"
+    },
+    "controller_support": "partial",
+    "exfgls": "6",
+    "gameid": "1813830",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "a6e8aa4c68f111fdacbfca5e21511a5ae81478ec",
+    "name": "Didnapper 2 Demo",
+    "osarch": "",
+    "osextended": "",
+    "oslist": "windows,macos",
+    "parent": "1813820",
+    "primary_genre": "0",
+    "releasestate": "released",
+    "restricted_countries": "CN,DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1640199272",
+    "store_asset_mtime": "1639576834",
+    "supported_languages": {
+      "english": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "installdir": "Didnapper 2 Demo",
+    "launch": {
+      "0": {
+        "arguments": "--in-process-gpu",
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Game.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--in-process-gpu",
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Game.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1813831": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1616718128",
+          "gid": "7463866566458017223",
+          "size": "1889602233"
+        }
+      }
+    },
+    "1813832": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1623079920",
+          "gid": "1369323140708622392",
+          "size": "2232552316"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "15245893",
+        "timeupdated": "1722638174"
+      }
+    }
+  },
+  "extended": {
+    "demoofappid": "1813820",
+    "developer": "DID Games",
+    "publisher": "DID Games"
+  },
+  "ufs": {
+    "maxnumfiles": "60",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "www/save",
+            "replace": "Game.app/Contents/Resources/app.nw/save"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "www/save",
+        "pattern": "*",
+        "root": "gameinstall"
+      }
+    }
+  }
+}

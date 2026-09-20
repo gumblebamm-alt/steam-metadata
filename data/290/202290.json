@@ -1,0 +1,167 @@
+{
+  "_lastChecked": 1788615301,
+  "_history": [
+    {
+      "buildId": "29108",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615301,
+      "manifests": {
+        "202291": {
+          "gid": "4550913533303509508",
+          "size": 959943697,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 27209232,
+  "_missing_token": false,
+  "_sha": "c3242cba5d27c1e9899d2e53beed0e03ca52fc01",
+  "_size": 3624,
+  "appid": "202290",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Devil's Details",
+        "type": "developer"
+      },
+      "1": {
+        "name": "SEGA",
+        "type": "publisher"
+      },
+      "2": {
+        "name": "Sonic the Hedgehog",
+        "type": "franchise"
+      }
+    },
+    "category": {},
+    "clienttga": "4644a6d7f373cd364fe5c4a0cac66054d9ad5fe0",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "202290",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "efda039147f0968bc726c547ff3809f98b69964a",
+    "languages": {
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "spanish": "1"
+    },
+    "logo": "21ec1e24c31a50500bbddb8c8c8add451e6dcbe1",
+    "logo_small": "21ec1e24c31a50500bbddb8c8c8add451e6dcbe1_thumb",
+    "metacritic_name": "Sonic Generations Demo",
+    "name": "Sonic Generations Demo",
+    "parent": "71340",
+    "primary_genre": "0",
+    "restricted_countries": "DE",
+    "review_percentage": "85",
+    "review_score": "8",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1326848340",
+    "store_asset_mtime": "1327084418",
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Sonic Generations Demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "2c379a98793987ce18f490acf26158c45d7e24fcecc9e04f43215b9a41bfaff65d055d527bd23349d10d21017a44e817302376f101a38d97b29634d8c1354ec241718d7bb39f12d0ba5f266dc97fefc645ffbcf257cc1f90b9153226fa7cdce99ae2fcb01acd9d405367893e25215a492aadd01bd647610e33df8e11462ac372",
+    "launch": {
+      "0": {
+        "executable": "SonicGenerations.exe"
+      },
+      "1": {
+        "description": "Configure",
+        "executable": "ConfigurationTool.exe"
+      }
+    }
+  },
+  "depots": {
+    "202291": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "4550913533303509508",
+          "size": "959943697"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "baselanguages": "english,french,german,spanish,italian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "29108"
+      }
+    },
+    "overridescddb": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "demoofappid": "71340",
+    "developer": "Devil's Details",
+    "developer_url": "http://www.sega.com",
+    "gamedir": "Sonic Generations Demo",
+    "homepage": "http://www.sega.com/games/sonic-generations",
+    "icon": "",
+    "languages": "english,french,german,spanish,italian,japanese",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "202291",
+    "publisher": "SEGA",
+    "serverbrowsername": "",
+    "state": "eStateAvailable"
+  },
+  "install": {
+    "registry": {
+      "hkey_local_machine\\software\\sega\\sonic generations demo": {
+        "string": {
+          "english": {
+            "locale": "1033"
+          },
+          "exe_path": "%INSTALLDIR%\\SonicGenerations.exe",
+          "french": {
+            "locale": "1036"
+          },
+          "german": {
+            "locale": "1031"
+          },
+          "install_path": "%INSTALLDIR%",
+          "italian": {
+            "locale": "1040"
+          },
+          "japanese": {
+            "locale": "0411"
+          },
+          "savelocation": "My Games\\Sonic Generations Demo\\Saved Games",
+          "spanish": {
+            "locale": "3082"
+          }
+        }
+      }
+    },
+    "run process": {
+      "directx": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\202290",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+      },
+      "launcher": {
+        "description": "Sonic Generations Demo Configuration",
+        "process 1": "%INSTALLDIR%\\ConfigurationTool.exe"
+      },
+      "vcredist": {
+        "command 1": "/q:a",
+        "description": "Microsoft VC Redist Package",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\vcredist_x86.exe"
+      }
+    }
+  }
+}

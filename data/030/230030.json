@@ -1,0 +1,113 @@
+{
+  "_lastChecked": 1788615405,
+  "_history": [
+    {
+      "buildId": "280724",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615405,
+      "manifests": {
+        "230031": {
+          "gid": "6389423000354299537",
+          "size": 2953943098,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 30999378,
+  "_missing_token": false,
+  "_sha": "6c8bbff1d76014afdc8b8f5ba7739e671c042385",
+  "_size": 2512,
+  "appid": "230030",
+  "common": {
+    "associations": {},
+    "clienticon": "c577da8d64a82b0466d3c629323f3faca3eb2e59",
+    "clienttga": "1dc27046c3c927856922f3b2468c247e8eff8ae0",
+    "gameid": "230030",
+    "icon": "9c6868e261ffb2781660a5988bd0c0f00a5f6e0c",
+    "logo": "0eed9a0fd5c81d8b666898720c55c7e939cefa6a",
+    "logo_small": "0eed9a0fd5c81d8b666898720c55c7e939cefa6a_thumb",
+    "name": "Painkiller Hell & Damnation Dedicated Server",
+    "oslist": "windows",
+    "type": "Tool"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Painkiller Hell & Damnation Dedicated Server",
+    "installscriptoverride": "1",
+    "installscriptsignature": "8ae50061ea51519f0ac9e254c9c1e760da36aa4c5d28c8d00a12e379e03bd8394c375493d3b353d198ccb4cc62d619090fa0eefbdb0d7c5577b4521ccaff55266fb54eb5fce09f6002aefba0b49c30c13c9dd29915ce4053f26ae8402c09335a434522c30be237e8e70e96221b5c1f7436b54bc1a447f65aa8833644cf3d8453",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch Painkiller Hell & Damnation Dedicated Server Config Tool",
+        "executable": "Binaries/Server/PKHD-DS-ConfigTool.exe",
+        "workingdir": "Binaries/Server"
+      },
+      "1": {
+        "description": "Dedicated Server Readme",
+        "executable": "Readme.txt"
+      }
+    }
+  },
+  "depots": {
+    "230031": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "6389423000354299537",
+          "size": "2953943098"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "280724"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "checkpkgstate": "1",
+    "developer": "",
+    "gamedir": "ValveTestApp230030",
+    "homepage": "",
+    "icon": "",
+    "noservers": "0",
+    "sourcegame": "1",
+    "state": "eStateTool",
+    "visibleonlywhensubscribed": "1"
+  },
+  "install": {
+    "firewall": {
+      "painkiller hell & damnation dedicated server": "%INSTALLDIR%\\Binaries\\Server\\PKHDGame-Win32-Shipping.exe"
+    },
+    "run process": {
+      "amdcpudrivers": {
+        "command 1": "/s",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Binaries\\Redist\\amdcpu\\setup.exe",
+        "requirement_os": {
+          "ostype": "Windows XP"
+        }
+      },
+      "directx": {
+        "command 1": "/silent",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Binaries\\Redist\\DirectX\\DXSETUP.exe"
+      },
+      "vcredist_x86": {
+        "command 1": "/q",
+        "description": "Microsoft VC Redist Package",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Binaries\\Redist\\vcredist_x86.exe"
+      }
+    }
+  }
+}

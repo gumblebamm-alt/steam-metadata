@@ -1,0 +1,141 @@
+{
+  "_lastChecked": 1788615154,
+  "_history": [
+    {
+      "buildId": "13275",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615154,
+      "manifests": {
+        "65761": {
+          "gid": "4035637105898405368",
+          "size": 1204132347,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 26253459,
+  "_missing_token": false,
+  "_sha": "8e17da8de50af1f503c951edf2157c02e009eb03",
+  "_size": 3167,
+  "appid": "65760",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Centauri Production",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Bohemia Interactive",
+        "type": "publisher"
+      }
+    },
+    "category": {},
+    "clienticon": "217576150681d2694afd49b0f7b428e9bf8e749d",
+    "clienttga": "0bbc9e61b2180b2d493b032d8aef5aff93efb627",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "65760",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "7f6df6ab03b92e1fc724d2c1fa4098c721bd15b0",
+    "logo": "303b740a01e01f8efda5c64fbe0826d55071bc3e",
+    "logo_small": "303b740a01e01f8efda5c64fbe0826d55071bc3e_thumb",
+    "metacritic_name": "Pound of Ground Demo",
+    "name": "Pound of Ground Demo",
+    "parent": "33980",
+    "primary_genre": "0",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1303433760",
+    "store_asset_mtime": "1303434082",
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "externalregistrationurl": {
+      "english": "http://www.centauriproduction.com/pkm.php"
+    },
+    "installdir": "Pound of Ground Demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "2f218d07894f4fd24d555106cb0e34bdfbac8da95846341b10c51282e79ed85611a434610a693f3121d731ba875e819e20c048c5b469a44ceaa8df0d629c776589581736bd022bcaf0aaa01de447716a6ff2e05efa8263747a7eeb6274e7133dec122da4d2635919b9fbfa9e9bb2ff17a90be36dfc1e14ed803dc2c808bb6124",
+    "launch": {
+      "0": {
+        "executable": "ZL007.EXE"
+      }
+    }
+  },
+  "depots": {
+    "65761": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "4035637105898405368",
+          "size": "1204132347"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "13275"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "demoofappid": "33980",
+    "developer": "Centauri Production",
+    "developer_url": "http://www.centauriproduction.com/",
+    "gamedir": "Pound of Ground Demo",
+    "homepage": "http://www.poundofground.com/",
+    "icon": "",
+    "installscript": "65760_install.vdf",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "65761",
+    "publisher": "Bohemia Interactive",
+    "state": "eStateAvailable"
+  },
+  "install": {
+    "ea oreg": {
+      "string": {
+        "english": {
+          "url": "http://www.centauriproduction.com/pkm.php"
+        }
+      }
+    },
+    "registry": {},
+    "run process": {
+      "directx": {
+        "command 1": "/silent",
+        "description": "Microsoft DirectX for Windows",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+      },
+      "officialgamegroup": {
+        "description": "Official Game Group",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\65760",
+        "ignoreexitcode": "1",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\POG_OGG.cmd"
+      },
+      "vcredist": {
+        "command 1": "/q",
+        "description": "Microsoft Visual C++ 2005 SP1 Redistributable Package ATL Security Update",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\VCredist\\vcredist_x86.exe"
+      },
+      "wmfdist": {
+        "command 1": "/Q:A",
+        "description": "Windows Media Component",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\WMFdist\\WMFdist95.exe"
+      }
+    }
+  }
+}

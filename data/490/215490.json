@@ -1,0 +1,96 @@
+{
+  "_lastChecked": 1788615359,
+  "_history": [
+    {
+      "buildId": "20633",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615359,
+      "manifests": {
+        "215491": {
+          "gid": "584866123676159673",
+          "size": 1812795976,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 27209232,
+  "_missing_token": false,
+  "_sha": "0f5e9da89c01b969f33cf668a7a2a3b4feb930db",
+  "_size": 2001,
+  "appid": "215490",
+  "common": {
+    "clienticon": "d698c1de70dac5ff6d01a6410597d81ccc632dee",
+    "clienttga": "c75864218e0542fc531700f988d1a9cb1bab838b",
+    "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "gameid": "215490",
+    "icon": "1bffc779f16da98c97b606bf15021342531cae31",
+    "logo": "a95d1db1d814ee21bd3fc5416228ad5a5d458eb1",
+    "logo_small": "a95d1db1d814ee21bd3fc5416228ad5a5d458eb1_thumb",
+    "name": "Primal Carnage Beta",
+    "type": "Game"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "primal_carnage_beta",
+    "installscriptoverride": "1",
+    "installscriptsignature": "4fdee2565cb57914db2fc615b75347f7a04a72277f18f1fdacb54e2037a4d5b514cd25d3ec9f9a1164402181e6c28576d2e50420f1e764c7960e6ac460c8a0a4714ca2e6f02dd81beacecbbf37e562f77444155f3f1d0638c38e22f7d6c74a99c3ebedfdeb214567aad1c15e5ff050969fc48b058efd98349def00bcd94f5f2d",
+    "launch": {
+      "0": {
+        "description": "Launch with Console",
+        "executable": "Binaries/Win32/PrimalCarnageGame.exe"
+      }
+    }
+  },
+  "depots": {
+    "215491": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "584866123676159673",
+          "size": "1812795976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "20633"
+      }
+    },
+    "overridescddb": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "",
+    "gamedir": "primalcarnagebeta",
+    "homepage": "",
+    "icon": "",
+    "noservers": "0",
+    "sourcegame": "1",
+    "state": "eStateAvailable",
+    "visibleonlywhensubscribed": "1"
+  },
+  "install": {
+    "registry": {
+      "hkey_local_machine\\software\\lukewarm media\\primal carnage": {
+        "dword": {
+          "patchversion": "107"
+        },
+        "string": {
+          "exe_path": "%INSTALLDIR%\\Binaries\\PrimalCarnageGame.exe",
+          "install_path": "%INSTALLDIR%"
+        }
+      }
+    },
+    "run process": {
+      "prereqs": {
+        "command 1": "/Q",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\215490",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Binaries\\Redist\\UE3Redist.exe"
+      }
+    }
+  }
+}

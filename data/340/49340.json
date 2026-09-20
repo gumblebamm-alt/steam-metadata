@@ -1,0 +1,140 @@
+{
+  "_lastChecked": 1788615117,
+  "_history": [
+    {
+      "buildId": "13245",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615117,
+      "manifests": {
+        "49341": {
+          "gid": "5133043060390322863",
+          "size": 784495017,
+          "download": 0
+        },
+        "49342": {
+          "gid": "4620320470582585384",
+          "size": 108247672,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 26253459,
+  "_missing_token": false,
+  "_sha": "e9f76f9a1e7bbd4380a2f28a75a56ed06d3b2975",
+  "_size": 2925,
+  "appid": "49340",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Nitro Games",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Paradox Interactive",
+        "type": "publisher"
+      }
+    },
+    "category": {},
+    "clienticon": "1ec87a4f7f89fd49f8dc9874ebc7f67d497b0a26",
+    "clienttga": "8c37e3005409220c7b082663220a7232b312d0c3",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "49340",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "d397ac5fc7256be87d9a85a4ffb50e864304d5d0",
+    "logo": "3f52edebdbaa04f143550cd1ee412bc710e633b4",
+    "logo_small": "3f52edebdbaa04f143550cd1ee412bc710e633b4_thumb",
+    "name": "Pirates of Black Cove - Demo",
+    "parent": "49330",
+    "primary_genre": "0",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1312234200",
+    "store_asset_mtime": "1312230431",
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Pirates of Black Cove Demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "327983aa10065b451d61d26ebff563cbce42f32c451cba3f9e39d96c093d31880dd976972c7e8f4b2d2bfc30ca25cdc49f7380b25a42a2de9327d3f145916dddd29fae6d09b359f07bb7a7a539736f9e97126d7e9dff5fcf272a6d1d54f0ea62eb567ba4a92e4139fad9053c9389c2eef0da082cdd91467fa06475cf148dc849",
+    "launch": {
+      "0": {
+        "description": "Play Pirates of Black Cove Demo",
+        "executable": "./bin/x86/dx9/BlackCove.exe"
+      }
+    }
+  },
+  "depots": {
+    "49341": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "5133043060390322863",
+          "size": "784495017"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "49342": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "4620320470582585384",
+          "size": "108247672"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "13245"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "demoofappid": "49330",
+    "developer": "Nitro Games",
+    "gamedir": "Pirates of Black Cove Demo",
+    "homepage": "http://www.blackcovegame.com",
+    "icon": "",
+    "noservers": "1",
+    "onquitdemoshellexecute": "steam://store/49330",
+    "order": "1",
+    "primarycache": "49341",
+    "publisher": "Paradox Interactive",
+    "serverbrowsername": "",
+    "state": "eStateAvailable"
+  },
+  "install": {
+    "registry": {
+      "hkey_local_machine\\software\\pirates of black cove steam demo": {
+        "string": {
+          "exe_path": "%INSTALLDIR%\\bin\\x86\\dx9\\BlackCove.exe",
+          "install_path": "%INSTALLDIR%"
+        }
+      }
+    },
+    "run process": {
+      "directx": {
+        "command 1": "/silent",
+        "description": "Microsoft DirectX",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\ThirdParty\\DirectX\\DXSETUP.exe"
+      },
+      "vcredistributable": {
+        "command 1": "/q",
+        "description": "Microsoft Visual C++ Redistributable 2010",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\ThirdParty\\Studio_Redistributable\\vcredist_x86.exe"
+      }
+    }
+  }
+}

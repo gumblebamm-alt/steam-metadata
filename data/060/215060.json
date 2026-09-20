@@ -1,0 +1,148 @@
+{
+  "_lastChecked": 1788615356,
+  "_history": [
+    {
+      "buildId": "12105",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615356,
+      "manifests": {
+        "215061": {
+          "gid": "2200008697232289110",
+          "size": 1519761736,
+          "download": 0
+        },
+        "215067": {
+          "gid": "2595126060163730695",
+          "size": 174524159,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 27209232,
+  "_missing_token": false,
+  "_sha": "f943616ec080b8d25e58089a164d4d2db08ac782",
+  "_size": 3082,
+  "appid": "215060",
+  "common": {
+    "associations": {},
+    "clienttga": "5dcd135c7446e99dcf83da73a9b1d78a7d119cbb",
+    "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "gameid": "215060",
+    "icon": "2da1ec069bb154c3f6e73d2e4ee672b15a8842f4",
+    "logo": "4a43f4cb7b0d8fb409a97ef2669aa3a3953d0f51",
+    "logo_small": "4a43f4cb7b0d8fb409a97ef2669aa3a3953d0f51_thumb",
+    "name": "Painkiller Hell & Damnation Beta",
+    "type": "Game"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Painkiller Hell & Damnation Beta",
+    "installscriptoverride": "1",
+    "installscriptsignature": "a93f79eff295fa03fd636429f9044c099e21f8a53339d4718e0a85e52c4d07d1971f0e29f3ea2cab4fe59a69f3b3f4466c2fb4c9c3c751a5f46246beb874a2ea77964710df8cf70d8484f2094ebc70bf9ef40bbbbbb4ba6a3359371a7aab5c79082cee6d50f08202e7b5300814df5959efaa848f32f64ecdce307c74acca54f7",
+    "launch": {
+      "0": {
+        "arguments": "-seekfreeloadingpcconsole -fullscreen",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch Painkiller Hell & Damnation",
+        "executable": "Binaries/Win32/PKHDGame.exe",
+        "workingdir": "Binaries/Win32"
+      },
+      "1": {
+        "arguments": "-seekfreeloadingpcconsole -windowed - resx=1280 resy=720",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Painkiller Hell & Damnation Windowed",
+        "executable": "Binaries/Win32/PKHDGame.exe",
+        "workingdir": "Binaries/Win32"
+      },
+      "2": {
+        "description": "Give Feedback",
+        "executable": "Painkiller Hell & Damnation - Give Feedback!.url"
+      }
+    }
+  },
+  "depots": {
+    "215061": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "2200008697232289110",
+          "size": "1519761736"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "215062": {},
+    "215063": {},
+    "215064": {},
+    "215065": {},
+    "215066": {},
+    "215067": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "2595126060163730695",
+          "size": "174524159"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "12105"
+      }
+    },
+    "overridescddb": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "",
+    "gamedir": "Painkiller Hell and Damnation Beta",
+    "homepage": "",
+    "icon": "",
+    "noservers": "0",
+    "sourcegame": "1",
+    "state": "eStateAvailable",
+    "visibleonlywhensubscribed": "1"
+  },
+  "install": {
+    "run process": {
+      "amdcpudrivers": {
+        "command 1": "/s",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Binaries\\Redist\\amdcpu\\setup.exe",
+        "requirement_os": {
+          "ostype": "Windows XP"
+        }
+      },
+      "directx": {
+        "command 1": "/silent",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Binaries\\Redist\\DirectX\\DXSETUP.exe"
+      },
+      "vcredist_x86": {
+        "command 1": "/q",
+        "description": "Microsoft VC Redist Package",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Binaries\\Redist\\vcredist_x86.exe"
+      }
+    }
+  },
+  "ufs": {
+    "hidecloudui": "0",
+    "maxnumfiles": "1000",
+    "quota": "104857600"
+  }
+}

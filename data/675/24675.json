@@ -1,0 +1,70 @@
+{
+  "_lastChecked": 1788614933,
+  "_history": [],
+  "_change_number": 26201212,
+  "_missing_token": false,
+  "_sha": "fcd472e0433698a55a32196dada2728a4ecb58ce",
+  "_size": 1655,
+  "appid": "24675",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "N3V Games",
+        "type": "developer"
+      },
+      "1": {
+        "name": "N3V Games",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "gameid": "24675",
+    "genres": {
+      "0": "28"
+    },
+    "name": "Trainz Simulator 12 DLC - Duchess",
+    "parent": "24670",
+    "primary_genre": "28",
+    "store_screenshot": "ss_2518e3ffbee49e38d4159b63c344844a12b1a7a0.jpg",
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      }
+    },
+    "type": "DLC"
+  },
+  "config": {
+    "installscriptoverride": "1",
+    "installscriptsignature": "6ad3f75bf097daf4700beee6009fe5dcb9611501bdb671abc8c0dec114bd250617d8765f086c34a5a3efb9cf25930769c118e62975bd22499ed010a0352e1cf0af7caea6964ed84f1e5fee4bf1aed0aef6e520f212f6cd738ff097347d189d2aec68e47eb286b4166d2558749dbc7ade2843f87c29003c359b3896980ff892d0"
+  },
+  "extended": {
+    "developer": "N3V Games",
+    "dlcforappid": "24670",
+    "gamedir": "TS2012",
+    "homepage": "http://www.trainzportal.com/product_duchess.php",
+    "icon": "",
+    "installscript": "duchessinstallscript.vdf",
+    "legacykeyregistrationmethod": "registry",
+    "legacykeyregistrylocation": "HKEY_CURRENT_USER\\Software\\Valve\\TestApp24675\\SteamKey",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "24675",
+    "publisher": "N3V Games",
+    "sdk_notownedbydefault": "1",
+    "serverbrowsername": "",
+    "showcdkeyonlaunch": "1",
+    "state": "eStateAvailable",
+    "supportscdkeycopytoclipboard": "1"
+  },
+  "install": {
+    "run process": {
+      "set_key": {
+        "command 1": "registerkey %CDKEY%",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\bin\\trainzutil.exe"
+      }
+    }
+  }
+}

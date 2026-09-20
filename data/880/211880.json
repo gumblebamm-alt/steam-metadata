@@ -1,0 +1,170 @@
+{
+  "_lastChecked": 1788615345,
+  "_history": [
+    {
+      "buildId": "2642",
+      "branch": "local",
+      "timeUpdated": null,
+      "firstSeen": 1788615345,
+      "manifests": {
+        "211881": {
+          "gid": "5278140069407016036",
+          "size": 1947791465,
+          "download": 0
+        }
+      }
+    },
+    {
+      "buildId": "43368",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615345,
+      "manifests": {
+        "211881": {
+          "gid": "4607445331260447039",
+          "size": 2524510378,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 36454141,
+  "_missing_token": false,
+  "_sha": "c73472a90e20b77a3e10b6eb35b2a886f3c9d3a1",
+  "_size": 3406,
+  "appid": "211880",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "ACONY Games",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Sony Online Entertainment",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_1": "1"
+    },
+    "clienticon": "7ae9dfd3675433ec6ec90a0140fad69b1c4e9f53",
+    "clienttga": "3351e143eea047a3dddcf5c132fd6c475b8227b5",
+    "community_hub_visible": "1",
+    "gameid": "211880",
+    "genres": {
+      "0": "37",
+      "1": "1"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "4a8acc755961f4c889bfd4780042687f1779656c",
+    "logo": "768d970f2b3a31f01852cc7c135ef6fde54b8790",
+    "logo_small": "768d970f2b3a31f01852cc7c135ef6fde54b8790_thumb",
+    "metacritic_fullurl": "https://www.metacritic.com/game/pc/bullet-run?ftag=MCD-06-10aaa1f",
+    "metacritic_name": "Bullet Run",
+    "metacritic_score": "53",
+    "name": "Bullet Run",
+    "primary_genre": "37",
+    "review_percentage": "77",
+    "review_score": "6",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1343754000",
+    "store_asset_mtime": "1359758348",
+    "store_screenshot": "ss_9e1a0b1b41523662acdd76833407025922140272.jpg",
+    "supported_languages": {
+      "english": {
+        "full_audio": "true",
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      }
+    },
+    "type": "Game"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Bullet Run",
+    "installscriptoverride": "1",
+    "installscriptsignature": "08a4153a339652e53f60eaec31fdbfd58cf42101e2777854c34575f8c98fa0adde51e5e4d41a19ac1e1f889dff0dd7171464ac4395f81439b0cb490f79328ed9193f00dd4d77564131fe17167b821ac0ed9073ff44bb18e435717efdd0c93f7ee44e018cca92acaa29191e5bf2c5fdf5c4984261f5f6e3bc5fbb8b3af412bfd1",
+    "launch": {
+      "0": {
+        "arguments": "campaignID=1063152 promoID=140 launchArgs=-STEAM_ENABLED launchPoint=steam",
+        "description": "Main Launch args",
+        "executable": "LaunchPad.exe"
+      }
+    }
+  },
+  "depots": {
+    "211881": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "local": {
+          "download": "0",
+          "gid": "5278140069407016036",
+          "size": "1947791465"
+        },
+        "public": {
+          "download": "0",
+          "gid": "4607445331260447039",
+          "size": "2524510378"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "local": {
+        "buildid": "2642",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1337941598"
+      },
+      "public": {
+        "buildid": "43368",
+        "timebuildupdated": "1360614072"
+      }
+    },
+    "overridescddb": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "ACONY Games",
+    "gamedir": "Bullet Run",
+    "homepage": "http://www.bulletrunthegame.com",
+    "icon": "",
+    "listofdlc": "216630,216631,216632,216633",
+    "noservers": "0",
+    "publisher": "Sony Online Entertainment",
+    "sourcegame": "1",
+    "state": "eStateAvailable",
+    "visibleonlywhensubscribed": "1"
+  },
+  "install": {
+    "run process": {
+      "br_redist": {
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\211880",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\SOE_BR_Redist.exe"
+      },
+      "fixtimestamp": {
+        "command 1": "fix.soe",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\211880",
+        "process 1": "%INSTALLDIR%\\FixTimestamps.exe"
+      }
+    }
+  }
+}

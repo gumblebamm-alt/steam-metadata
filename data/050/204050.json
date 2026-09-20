@@ -1,0 +1,153 @@
+{
+  "_lastChecked": 1788615308,
+  "_history": [
+    {
+      "buildId": "29932",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615308,
+      "manifests": {
+        "204051": {
+          "gid": "2443210385653725649",
+          "size": 5216111467,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 29800927,
+  "_missing_token": false,
+  "_sha": "049cbd707ec2f3231de7735138eb6517f9cb5438",
+  "_size": 3231,
+  "appid": "204050",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Bohemia Interactive",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Bohemia Interactive",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "clienticon": "0cc8575f0cb7faa80e3b73fd0acf28d5775cb717",
+    "clienttga": "5239ca97be37e29cebc6585e03b3c55559ec2b9a",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "204050",
+    "genres": {
+      "0": "28"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "6c0e9b03c424ffbad64643ce473cae2325881a34",
+    "logo": "cb224d10279c001e9fe8f67ac9eb4c418926d147",
+    "logo_small": "cb224d10279c001e9fe8f67ac9eb4c418926d147_thumb",
+    "name": "Take On Helicopters Demo",
+    "parent": "65730",
+    "primary_genre": "28",
+    "restricted_countries": "DE",
+    "review_percentage": "72",
+    "review_score": "6",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1322782500",
+    "store_asset_mtime": "1322783207",
+    "supported_languages": {
+      "english": {
+        "full_audio": "true",
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "externalregistrationurl": {
+      "english": "http://www.takeonthegame.com/"
+    },
+    "installdir": "Take On Helicopters Demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "acdca1a89a22eede13e0ab6dc8cdc81f28cd8adc74f0f33891ad65490e716eb42ffaf1f8f71d8938ad4c041cd1beb6b96fec081b86d2da85dbadf25fdd85245ccce48d2177260ce29db0d2f6ec08c3f76325fc185bb2556c78260517b275b21e4a8d649efd59954ea8186d0186cd9ed65bba976fcad3c4b0b986bcf94ca21371",
+    "launch": {
+      "0": {
+        "executable": "TakeOnHDemo.exe"
+      },
+      "1": {
+        "arguments": "-window",
+        "description": "Launch in Windowed mode",
+        "executable": "TakeOnHDemo.exe"
+      }
+    }
+  },
+  "depots": {
+    "204051": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "2443210385653725649",
+          "size": "5216111467"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "29932"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "demoofappid": "65730",
+    "developer": "Bohemia Interactive",
+    "developer_url": "http://www.bistudio.com/",
+    "gamedir": "Take On Helicopters Demo",
+    "homepage": "http://www.takeonthegame.com",
+    "icon": "",
+    "installscript": "204050_install.vdf",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "204051",
+    "publisher": "Bohemia Interactive",
+    "showcdkeyonlaunch": "0",
+    "state": "eStateAvailable"
+  },
+  "install": {
+    "ea oreg": {
+      "string": {
+        "english": {
+          "url": "http://www.takeonthegame.com/"
+        }
+      }
+    },
+    "registry": {
+      "hkey_local_machine\\software\\bohemia interactive studio\\take on helicopters demo": {
+        "string": {
+          "main": "%INSTALLDIR%"
+        }
+      }
+    },
+    "run process": {
+      "directx": {
+        "command 1": "/silent",
+        "description": "Microsoft DirectX for Windows",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+      },
+      "officialgamegroup": {
+        "description": "Official Game Group",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\65730",
+        "ignoreexitcode": "1",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\TOH_OGG.cmd"
+      }
+    }
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "_lastChecked": 1788615156,
+  "_history": [
+    {
+      "buildId": "164017",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615156,
+      "manifests": {
+        "46772": {
+          "gid": "2949205412237421159",
+          "size": 932162590,
+          "download": 0
+        },
+        "46774": {
+          "gid": "7762600932811361456",
+          "size": 826510800,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 26253459,
+  "_missing_token": false,
+  "_sha": "cf46c2ef9defbb746be2c20466b9eee68b2e1b2c",
+  "_size": 2926,
+  "appid": "67100",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Muzzy Lane Software",
+        "type": "developer"
+      }
+    },
+    "category": {},
+    "clienticon": "dcc26873497a7c6cfceeb34d3c58afd27e624bf6",
+    "clienttga": "9180e80f832a28b64571b3269c82361f93dc13dc",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "67100",
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "a92b3aea35cedbd28adde71b191c1aba991e4725",
+    "logo": "055a3c4c1d7f413a7e4e210eabe3d93ceaf56d4a",
+    "logo_small": "055a3c4c1d7f413a7e4e210eabe3d93ceaf56d4a_thumb",
+    "name": "Making History II: The War of the World - Demo",
+    "parent": "46770",
+    "primary_genre": "0",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "store_asset_mtime": "1318894591",
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Making History II",
+    "installscriptoverride": "1",
+    "installscriptsignature": "58bea997226fa21ab00279521a9b255d11710f9e3f8482bb94a505dd485002c854ae9bc6c3b08a77a6bb94c79a07563f2cdd3949e02e50884763048876bac08039a4fe72bf941cb5b179501375dcd78a346cf7442f9cdad357545000abd370e1de6a93d6a5a0aa8452ffb3d0a5a4004283e16f42a60342ade33e3336bd909e1a",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MH2.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Making History II.app"
+      }
+    }
+  },
+  "depots": {
+    "46772": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "2949205412237421159",
+          "size": "932162590"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "46774": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "7762600932811361456",
+          "size": "826510800"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "164017"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "demoofappid": "46770",
+    "developer": "Muzzy Lane Software",
+    "gamedir": "Making History II",
+    "homepage": "",
+    "icon": "",
+    "installscript": "46770_install.vdf",
+    "installscript_macos": "MH2.app/installscript_osx.vdf",
+    "noservers": "1",
+    "onquitdemoshellexecute": "steam://store/46770",
+    "order": "1",
+    "serverbrowsername": "",
+    "state": "eStateAvailable",
+    "validoslist": "windows,macos"
+  },
+  "install": {
+    "registry": {
+      "hkey_local_machine\\software\\muzzy lane software\\making history ii": {
+        "string": {
+          "english": {
+            "locale": "en"
+          },
+          "french": {
+            "locale": "fr"
+          },
+          "german": {
+            "locale": "de"
+          },
+          "mod directory": "%INSTALLDIR%\\Mods",
+          "save directory": "%INSTALLDIR%",
+          "vendor": "Steam"
+        }
+      }
+    },
+    "run process": {
+      "directx": {
+        "command 1": "/silent",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+      }
+    }
+  }
+}

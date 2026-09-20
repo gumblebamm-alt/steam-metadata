@@ -1,0 +1,214 @@
+{
+  "_lastChecked": 1788618262,
+  "_history": [
+    {
+      "buildId": "17117192",
+      "branch": "public",
+      "timeUpdated": 1737710997,
+      "firstSeen": 1788618262,
+      "manifests": {
+        "964001": {
+          "gid": "5144008508079965652",
+          "size": 3897,
+          "download": 1968
+        },
+        "964002": {
+          "gid": "7021089615335170337",
+          "size": 460411165,
+          "download": 234923728
+        },
+        "964003": {
+          "gid": "8864207687637414293",
+          "size": 570844627,
+          "download": 267413408
+        },
+        "964004": {
+          "gid": "5653149223802095974",
+          "size": 760117925,
+          "download": 293337680
+        }
+      }
+    }
+  ],
+  "_change_number": 27146335,
+  "_missing_token": false,
+  "_sha": "6729438ccb525655b7ca30e81aed33b4c4773e9f",
+  "_size": 3326,
+  "appid": "964000",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "DID Games",
+        "type": "developer"
+      },
+      "1": {
+        "name": "DID Games",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "clienticon": "42478240cba02765a060b5d2a36bfa3a9dcf8f6d",
+    "clienttga": "262a23f7c9eb1e9ab0090ac9e2a7d53785082628",
+    "content_descriptors": {
+      "0": "1",
+      "1": "5"
+    },
+    "exfgls": "6",
+    "gameid": "964000",
+    "genres": {
+      "0": "4",
+      "1": "23",
+      "2": "28"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "fdba933b95564c970fa482b208f2fe16482c345f",
+    "metacritic_name": "Bonds Demo",
+    "name": "Bonds Demo",
+    "name_localized": {
+      "schinese": "束缚之契 Demo"
+    },
+    "original_release_date": "1513065600",
+    "osarch": "",
+    "osextended": "",
+    "oslist": "windows,macos,linux",
+    "parent": "955400",
+    "primary_genre": "4",
+    "releasestate": "released",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1540293207",
+    "store_asset_mtime": "1540650276",
+    "store_screenshot": "ss_45c291b9687acfc53d0e0238398fa7c14beaded0.jpg",
+    "supported_languages": {
+      "english": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "schinese": {
+        "subtitles": "true",
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "installdir": "Bonds",
+    "launch": {
+      "0": {
+        "arguments": "--in-process-gpu",
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Game.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--in-process-gpu",
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Game.app",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "--in-process-gpu",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Game",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "964001": {
+      "manifests": {
+        "public": {
+          "download": "1968",
+          "gid": "5144008508079965652",
+          "size": "3897"
+        }
+      }
+    },
+    "964002": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "234923728",
+          "gid": "7021089615335170337",
+          "size": "460411165"
+        }
+      }
+    },
+    "964003": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "267413408",
+          "gid": "8864207687637414293",
+          "size": "570844627"
+        }
+      }
+    },
+    "964004": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "293337680",
+          "gid": "5653149223802095974",
+          "size": "760117925"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "17117192",
+        "timeupdated": "1737710997"
+      }
+    }
+  },
+  "extended": {
+    "demoofappid": "955400",
+    "developer": "DID Games",
+    "publisher": "DID Games"
+  },
+  "ufs": {
+    "appidredirect": "955400",
+    "maxnumfiles": "20",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "www/save",
+            "replace": "Game.app/Contents/Resources/app.nw/save"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "www/save",
+        "pattern": "*",
+        "root": "gameinstall"
+      }
+    }
+  }
+}

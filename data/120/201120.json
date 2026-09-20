@@ -1,0 +1,139 @@
+{
+  "_lastChecked": 1788615296,
+  "_history": [
+    {
+      "buildId": "25967",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615296,
+      "manifests": {
+        "201121": {
+          "gid": "8093212870936365388",
+          "size": 1053472206,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 26253459,
+  "_missing_token": false,
+  "_sha": "e45fc1700d7467316b38ee7b19232335ec9d1356",
+  "_size": 2830,
+  "appid": "201120",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "WXP Games, LLC",
+        "type": "developer"
+      },
+      "1": {
+        "name": "WXP Games, LLC",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1"
+    },
+    "clienticon": "96bc78bdecb7d478cb50bd94520042e37d1b44d3",
+    "clienttga": "ddd4ba9d7766f309ad3a30dc2bb93e7a3090800b",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "201120",
+    "genres": {
+      "0": "1",
+      "1": "23"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "90353b17444aa8e20d0ca2ac727a4c25c8e9a663",
+    "logo": "976832b098a04c7a8c9a27e99d3e034bada6dc8a",
+    "logo_small": "976832b098a04c7a8c9a27e99d3e034bada6dc8a_thumb",
+    "name": "Xotic Demo",
+    "parent": "92600",
+    "primary_genre": "23",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1316883780",
+    "store_asset_mtime": "1316883966",
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "XoticDemo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "a3be10dff693e7ad9860472bafea4d6c82bb772adfc5ab7ae89fbd5c9b3a9c92481815106b7f6d4538a62e6cf0a0c7c970e36758682e6994bbfeec281c088078597ab23092ef50d82ead55eb423d236c70e63dfa89db05bc779f9ce7a92399dee25a8472df8b80374ff28b57eaf655960a7e4500620d2884e3aadcb7a735e0e1",
+    "launch": {
+      "0": {
+        "executable": "Xotic.exe"
+      }
+    }
+  },
+  "depots": {
+    "201121": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "8093212870936365388",
+          "size": "1053472206"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "baselanguages": "english,german,french,spanish,italian",
+    "branches": {
+      "public": {
+        "buildid": "25967"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "demoofappid": "92600",
+    "developer": "WXP Games, LLC",
+    "gamedir": "XoticDemo",
+    "homepage": "http://www.xoticgame.com",
+    "icon": "",
+    "languages": "english,german,french,spanish,italian",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "201121",
+    "publisher": "WXP Games, LLC",
+    "serverbrowsername": "",
+    "state": "eStateAvailable"
+  },
+  "install": {
+    "registry": {
+      "hkey_local_machine\\software\\wxp\\xoticdemo": {
+        "dword": {
+          "version": "1"
+        },
+        "string": {
+          "exe_path": "%INSTALLDIR%\\Xotic.exe",
+          "install_path": "%INSTALLDIR%"
+        }
+      }
+    },
+    "run process": {
+      "directx": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\WXP\\XoticDemo",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+      },
+      "vcredist": {
+        "command 1": "/q",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\WXP\\XoticDemo",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\VCRedist\\vcredist_2008.exe"
+      }
+    }
+  },
+  "ufs": {
+    "hidecloudui": "0",
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
+}

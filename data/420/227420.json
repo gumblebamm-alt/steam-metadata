@@ -1,0 +1,178 @@
+{
+  "_lastChecked": 1788615399,
+  "_history": [
+    {
+      "buildId": "30846",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615399,
+      "manifests": {
+        "227421": {
+          "gid": "267620831641976138",
+          "size": 1450248435,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 37934235,
+  "_missing_token": false,
+  "_sha": "bcc9da1f8df0b61f020a5b49d6a6e20e0e3a7c95",
+  "_size": 4079,
+  "appid": "227420",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Black Forest Games",
+        "type": "developer"
+      },
+      "1": {
+        "name": "THQ Nordic Mobile",
+        "type": "publisher"
+      },
+      "2": {
+        "name": "Black Forest Games",
+        "type": "publisher"
+      },
+      "3": {
+        "name": "Giana Sisters",
+        "type": "franchise"
+      }
+    },
+    "category": {
+      "category_18": "1",
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_25": "1",
+      "category_45": "1",
+      "category_46": "1"
+    },
+    "clienticon": "53ee7cf114857734cee435edf643a0b551b30612",
+    "clienttga": "e80bf59b01856cf0b878ec87add05b2f5f1ddbd1",
+    "community_visible_stats": "1",
+    "controller_support": "partial",
+    "exfgls": "6",
+    "gameid": "227420",
+    "genres": {
+      "0": "1",
+      "1": "4",
+      "2": "23"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "ac543243f2541e7a7728bf2165c5f3ebc57679fb",
+    "logo": "981e7c473d559c55e30a7fd2b9afbe43a9b84e0a",
+    "logo_small": "981e7c473d559c55e30a7fd2b9afbe43a9b84e0a_thumb",
+    "metacritic_name": "Giana Sisters: Twisted Dreams Demo",
+    "name": "Giana Sisters: Twisted Dreams Demo",
+    "oslist": "windows",
+    "parent": "223220",
+    "primary_genre": "23",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1355248320",
+    "store_asset_mtime": "1355248725",
+    "supported_languages": {
+      "english": {
+        "supported": "1"
+      },
+      "french": {
+        "supported": "1"
+      },
+      "german": {
+        "supported": "1"
+      },
+      "italian": {
+        "supported": "1"
+      },
+      "spanish": {
+        "supported": "1"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Giana Sisters Twisted Dreams Demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "6acfffb12b51ad0faa4cf45ff89fc142b2825037c41a373bc0d259f445d266c10f8e3a3fba8306a05532da1f632493aa669fa2619aa069a3b92457ce00ee4a77aaf90ffd27d0820ace548f400aae3eeca169fda26904a9d37ca45b4d058ce0b369aa03dfccac4b2545fa0e631818b60783f83608659df7f072bd35e57c008ece",
+    "launch": {
+      "0": {
+        "description": "Start with Launcher",
+        "executable": "Launcher\\GSLauncher.exe",
+        "workingdir": "Launcher\\"
+      }
+    }
+  },
+  "depots": {
+    "227421": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "267620831641976138",
+          "size": "1450248435"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "30846",
+        "timebuildupdated": "1355219656"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "checkpkgstate": "1",
+    "demoofappid": "223220",
+    "developer": "Black Forest Games",
+    "gamedir": "Giana Sisters: Twisted Dreams Demo",
+    "homepage": "",
+    "icon": "",
+    "noservers": "0",
+    "onquitdemoshellexecute": "steam://store/223220",
+    "publisher": "THQ Nordic Mobile",
+    "sourcegame": "1",
+    "state": "eStateComingSoonNoPreload",
+    "visibleonlywhensubscribed": "1"
+  },
+  "install": {
+    "run process": {
+      ".net framework 3.5": {
+        "command 1": "/qb",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\223220",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Extras\\dotnetfx35.exe"
+      },
+      ".visual c++ 2008 runtime sp1": {
+        "command 1": "/qb",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\223220",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Extras\\vcredist_x86 2008sp1.exe"
+      },
+      "directx": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\223220",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Extras\\dxsetup\\DXSETUP.exe"
+      },
+      "visual c++ 2005 runtime": {
+        "command 1": "/q",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\223220",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Extras\\vcredist_x86_vc8.0.50727.6195__KB2538242.EXE"
+      },
+      "visual c++ 2008 runtime": {
+        "command 1": "/qb",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\223220",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Extras\\vcredist_x86_vc9.0.30729.6161__KB2538243.exe"
+      }
+    }
+  }
+}

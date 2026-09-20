@@ -1,0 +1,165 @@
+{
+  "_lastChecked": 1788615293,
+  "_history": [
+    {
+      "buildId": "25939",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615293,
+      "manifests": {
+        "200401": {
+          "gid": "6302672011241918773",
+          "size": 494969756,
+          "download": 0
+        },
+        "200402": {
+          "gid": "5385974559182877962",
+          "size": 108247672,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 26375805,
+  "_missing_token": false,
+  "_sha": "5fd8a22e0bb29712e596ea1183129f1ad9f93c2d",
+  "_size": 3169,
+  "appid": "200400",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Octane Games",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Meridian4",
+        "type": "developer"
+      },
+      "2": {
+        "name": "Meridian4",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_18": "1",
+      "category_2": "1",
+      "category_22": "1",
+      "category_25": "1"
+    },
+    "clienticon": "8e663509a346324ed1cda592038cbdd083927c45",
+    "clienttga": "fff17965f86fa9c77f04bc48db984d81d7d675be",
+    "controller_support": "partial",
+    "exfgls": "6",
+    "freeondemand": "1",
+    "gameid": "200400",
+    "genres": {
+      "0": "1",
+      "1": "23"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "91cc53f6aae97dce59f94c04454333d170a08326",
+    "logo": "13b2d8fa14a1ee9d953c48117184ffdfa0f055c3",
+    "logo_small": "13b2d8fa14a1ee9d953c48117184ffdfa0f055c3_thumb",
+    "name": "Wasteland Angel - Demo",
+    "parent": "46520",
+    "primary_genre": "1",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1315611540",
+    "store_asset_mtime": "1315859066",
+    "supported_languages": {
+      "english": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Wasteland Angel - Demo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "4a8ffa6f63c4475f6bf7cdf5ed57ed0e8a925d6327a5e6c79cc1d0dbf61a6cb16a7d76d4125491c1df7a8dc40d7bf2bdd0be2166c6844f96d0aecc4ebc75d82db710fc86e805d4c29f48c5a93f454bb66d1b35b36f66bce75b7a3b3653b13b7127516d65a208ed020a8bb6e83f48c7ce551a64209d2e6f69db1fb79639ccfd96",
+    "launch": {
+      "0": {
+        "executable": "./bin/x86/dx9/Angel.exe"
+      }
+    }
+  },
+  "depots": {
+    "200401": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "6302672011241918773",
+          "size": "494969756"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "200402": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "5385974559182877962",
+          "size": "108247672"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "25939"
+      }
+    },
+    "overridescddb": "1"
+  },
+  "extended": {
+    "demoofappid": "46520",
+    "developer": "Octane Games",
+    "gamedir": "Wasteland Angel - Demo",
+    "homepage": "http://www.wastelandangel.com",
+    "icon": "",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "200401",
+    "publisher": "Meridian4",
+    "serverbrowsername": "",
+    "state": "eStateAvailable"
+  },
+  "install": {
+    "registry": {
+      "hkey_local_machine\\software\\wasteland angel demo": {
+        "string": {
+          "exe_path": "%INSTALLDIR%\\bin\\x86\\dx9\\Angel.exe",
+          "install_path": "%INSTALLDIR%"
+        }
+      }
+    },
+    "run process": {
+      "directx": {
+        "command 1": "/silent",
+        "description": "Microsoft DirectX",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+      },
+      "vcredistributable": {
+        "command 1": "/q",
+        "description": "Microsoft Visual C++ Redistributable 2010",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\Studio_Redistributable\\vcredist_x86.exe"
+      }
+    }
+  }
+}

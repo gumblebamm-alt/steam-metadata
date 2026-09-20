@@ -1,0 +1,116 @@
+{
+  "_lastChecked": 1788615341,
+  "_history": [],
+  "_change_number": 27209232,
+  "_missing_token": false,
+  "_sha": "d9dbb9fd97866631a95e662a70e60352ddf307e1",
+  "_size": 3184,
+  "appid": "210500",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Brain Candy",
+        "type": "developer"
+      }
+    },
+    "category": {
+      "category_1": "1"
+    },
+    "clienticon": "d4855ad6c04ca5cea9407eba7bb39c7450d6c4a4",
+    "clienttga": "00c3e5bc7c7d38b8f88b457a4b184ebfa966d3e4",
+    "exfgls": "6",
+    "gameid": "210500",
+    "genres": {
+      "0": "1",
+      "1": "2",
+      "2": "23"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "defdbb40ef2a3fce3a574bfdb14c30bec6c140b2",
+    "logo": "78cea960f184cc738ada03b300d4d2805c242598",
+    "logo_small": "78cea960f184cc738ada03b300d4d2805c242598_thumb",
+    "metacritic_name": "Fray Demo",
+    "name": "Fray Demo",
+    "parent": "210490",
+    "primary_genre": "0",
+    "restricted_countries": "DE",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "steam_release_date": "1352750400",
+    "store_asset_mtime": "1352737225",
+    "supported_languages": {
+      "english": {
+        "supported": "1"
+      }
+    },
+    "type": "Demo"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "FrayDemo",
+    "installscriptoverride": "1",
+    "installscriptsignature": "21fd8fd075a9a527cc29e3aefb4e4e4489f01f11de2e539e0e7972d26c9b2d9ebcf0fcc0a3a8a7b35f30c6beb435b27d80b9b8193ff3ac7cd8b71d7aa6e17239d338ea6dc1bd4ea71db006de130e04c95f0f91abf13f464bdf3cdb3ccc568cbb3c53793740360b065220f76f007dcbcbf6218004bc1aba10603662a5df194b71",
+    "launch": {
+      "0": {
+        "executable": "fray.exe"
+      }
+    }
+  },
+  "depots": {
+    "210491": {
+      "depotfromapp": "210490",
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "160426234293127367",
+          "size": "5574863896"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {},
+    "overridescddb": "1",
+    "preloadonly": "1"
+  },
+  "extended": {
+    "developer": "Brain Candy",
+    "gamedir": "ValveTestApp210500",
+    "homepage": "http://www.fray-game.com",
+    "icon": "",
+    "noservers": "0",
+    "sourcegame": "1",
+    "state": "eStateAvailable",
+    "thirdpartycdkey": "1",
+    "visibleonlywhensubscribed": "1"
+  },
+  "install": {
+    "run process": {
+      "configuration": {
+        "command 1": "/silent",
+        "description": "Preparing Fray Configuration Files",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\210500",
+        "process 1": "%INSTALLDIR%\\install\\installScriptDemo.bat"
+      },
+      "directx": {
+        "command 1": "/silent",
+        "description": "Microsoft DirectX",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\210500",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\install\\directx\\DXSETUP.exe"
+      },
+      "visual c++ 2010 redistributable": {
+        "command 1": "/q",
+        "description": "Visual C++ 2010 Redistributable",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\210500",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\install\\vcredist_x64.exe",
+        "requirement_os": {
+          "is64bitwindows": "1"
+        }
+      }
+    }
+  }
+}

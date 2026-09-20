@@ -1,0 +1,154 @@
+{
+  "_lastChecked": 1788622246,
+  "_history": [
+    {
+      "buildId": "22602102",
+      "branch": "public",
+      "timeUpdated": 1775045841,
+      "firstSeen": 1788622246,
+      "manifests": {
+        "1970901": {
+          "gid": "2109944954228114768",
+          "size": 453466878,
+          "download": 146665232
+        }
+      }
+    }
+  ],
+  "_change_number": 36124568,
+  "_missing_token": false,
+  "_sha": "3e501a20f3be98832b7e4bdefb01373b2de2e5b0",
+  "_size": 3004,
+  "appid": "1970900",
+  "common": {
+    "associations": {},
+    "clienticns": "1fe694231dc958828d90c0ffade780d733c891ea",
+    "clienticon": "515ddc74b8dc9bfbc621e94ba156f4f4441176c8",
+    "clienttga": "7f1054f1b0e5d0fd3863cf9c5a7869b3cef52a40",
+    "community_hub_visible": "1",
+    "gameid": "1970900",
+    "icon": "434705b3fff2f95cef13e5f8fcec6ef582eaee0b",
+    "linuxclienticon": "1268433d3db07f86b63a64ea1ea5fab9460faa10",
+    "name": "KAYF-LIFE: Complete Edition - SDK",
+    "osarch": "",
+    "osextended": "",
+    "oslist": "windows",
+    "parent": "1950750",
+    "releasestate": "released",
+    "type": "Tool"
+  },
+  "config": {
+    "installdir": "Kayf-LIfe Complete Edition",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Universal Valve Toolbox (SDK Launcher)",
+        "description_loc": {
+          "english": "Universal Valve Toolbox (SDK Launcher)"
+        },
+        "executable": "sdktools/UniversalValveToolbox/UniversalValveToolbox.exe",
+        "type": "editor"
+      },
+      "1": {
+        "arguments": "-game klall -novid -condebug -condump +map testmap -tools",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Engine Tools",
+        "description_loc": {
+          "english": "Engine Tools",
+          "russian": "Инструменты движка"
+        },
+        "executable": "KAYF-LIFE.exe",
+        "type": "editor"
+      },
+      "2": {
+        "arguments": "-game klall -novid -condebug -condump +map testmap -shaderedit",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Shader Editor",
+        "description_loc": {
+          "english": "Shader Editor",
+          "russian": "Редактор шейдеров"
+        },
+        "executable": "KAYF-LIFE.exe",
+        "type": "editor"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "1970901": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "146665232",
+          "gid": "2109944954228114768",
+          "size": "453466878"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "22602102",
+        "timebuildupdated": "1775045778",
+        "timeupdated": "1775045841"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "ufs": {
+    "appidredirect": "1950750",
+    "maxnumfiles": "2048",
+    "quota": "2000000000",
+    "savefiles": {
+      "2": {
+        "path": "klall/save",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "8": {
+        "path": "klall/save",
+        "pattern": "*.tga",
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "9": {
+        "path": "klall/save",
+        "pattern": "*.hl*",
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "copied_from_parent": "1"
+    },
+    "sync_while_suspended": "1"
+  }
+}

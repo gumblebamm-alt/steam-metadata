@@ -1,0 +1,133 @@
+{
+  "_lastChecked": 1788615320,
+  "_history": [
+    {
+      "buildId": "67837",
+      "branch": "localization",
+      "timeUpdated": null,
+      "firstSeen": 1788615320,
+      "manifests": {
+        "206981": {
+          "gid": "8647286541396852938",
+          "size": 6583572390,
+          "download": 0
+        }
+      }
+    },
+    {
+      "buildId": "145882",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615320,
+      "manifests": {
+        "206981": {
+          "gid": "6075265243232129252",
+          "size": 6641390883,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 27209232,
+  "_missing_token": false,
+  "_sha": "010694e46b8f1f85ecdc83f2fb0c96a9319d6896",
+  "_size": 2599,
+  "appid": "206980",
+  "common": {
+    "clienticon": "e1200eec91f693a2ab0827869852a75d607d242c",
+    "clienttga": "10ad019f03be7abce7563cb00cb30bbd5721a9aa",
+    "community_hub_visible": "1",
+    "eulas": {
+      "0": {
+        "id": "206980_eula_0",
+        "name": "War of the Roses Balance Beta EULA",
+        "url": "https://store.steampowered.com//eula/206980_eula_0",
+        "version": "1"
+      }
+    },
+    "gameid": "206980",
+    "icon": "f1bf7dd2ad1010bcf6d3b58454a402c8c179fae6",
+    "languages": {
+      "english": "1",
+      "japanese": "1"
+    },
+    "logo": "edbc12973ba245bdd19d27994494ccdecbcd5520",
+    "logo_small": "edbc12973ba245bdd19d27994494ccdecbcd5520_thumb",
+    "name": "War of the Roses Balance Beta",
+    "type": "Game"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "War of the Roses Alpha",
+    "installscriptoverride": "1",
+    "installscriptsignature": "15ad1a31332dd6818036f6d9a993f5322919b77b9b62982e38a4b45f59bfcd1f5c0241e85834dfeeae17dc2ea38a637072f6ac694928351692026d923a89b6905390e696b1f5477212c1051ca9c02d3e74d38067cbaff8a3105871b67ed98fd60fd0775f453427bf148f98b79e741c38c75ecb9cac17c29a0b3789a458b66707",
+    "launch": {
+      "0": {
+        "arguments": "wotr.exe -bundle-dir bundle",
+        "executable": "run_game.exe"
+      }
+    }
+  },
+  "depots": {
+    "206981": {
+      "manifests": {
+        "localization": {
+          "download": "0",
+          "gid": "8647286541396852938",
+          "size": "6583572390"
+        },
+        "public": {
+          "download": "0",
+          "gid": "6075265243232129252",
+          "size": "6641390883"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "baselanguages": "english,french,japanese,portuguese,polish",
+    "branches": {
+      "localization": {
+        "buildid": "67837"
+      },
+      "public": {
+        "buildid": "145882"
+      }
+    },
+    "overridescddb": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "",
+    "gamedir": "War of the Roses Alpha",
+    "homepage": "",
+    "icon": "",
+    "installscript": "install\\installscript.vdf",
+    "no_revenue_accumulation": "1",
+    "noservers": "1",
+    "order": "1",
+    "primarycache": "206981",
+    "serverbrowsername": "",
+    "state": "eStateAvailable"
+  },
+  "install": {
+    "run process": {
+      "directx": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\206980",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\install\\DirectX Feb 2010\\DXSETUP.exe"
+      },
+      "vcredist": {
+        "command 1": "/q /norestart",
+        "hasrunkey": "HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\206980",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\install\\vcredist_x86.exe"
+      }
+    }
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "maxnumfiles": "1000",
+    "quota": "104857600"
+  }
+}

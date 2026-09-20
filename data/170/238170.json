@@ -1,0 +1,195 @@
+{
+  "_lastChecked": 1788615427,
+  "_history": [
+    {
+      "buildId": "116863",
+      "branch": "public",
+      "timeUpdated": null,
+      "firstSeen": 1788615427,
+      "manifests": {
+        "238171": {
+          "gid": "273451914020421578",
+          "size": 2522130031,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 29689899,
+  "_missing_token": false,
+  "_sha": "4b29c02ff5ade9f90177ebd30a836bcdd0b3bd20",
+  "_size": 4456,
+  "appid": "238170",
+  "common": {
+    "associations": {
+      "0": {
+        "name": "Intoxicate Studios",
+        "type": "developer"
+      },
+      "1": {
+        "name": "Nicolas Games",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_15": "1",
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_25": "1",
+      "category_28": "1"
+    },
+    "clienticon": "26ac0ba5053b8521bdb01d54d2f1ac366f70ffe1",
+    "clienttga": "f45fa44e4d0def0a17c116023e76f156a8cc162f",
+    "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "full",
+    "gameid": "238170",
+    "genres": {
+      "0": "1",
+      "1": "25",
+      "2": "23"
+    },
+    "header_image": {
+      "english": "header.jpg"
+    },
+    "icon": "f934d7548341cb9973bccf40b590d49800c25fab",
+    "logo": "9d8a367d4d6b9c18833ebe2366ee00cf0b5c2d54",
+    "logo_small": "9d8a367d4d6b9c18833ebe2366ee00cf0b5c2d54_thumb",
+    "metacritic_name": "Afterfall Insanity -  Dirty Arena Edition",
+    "name": "Afterfall InSanity - Dirty Arena Edition",
+    "oslist": "windows",
+    "primary_genre": "1",
+    "releasestate": "released",
+    "review_percentage": "26",
+    "review_score": "4",
+    "small_capsule": {
+      "english": "capsule_231x87.jpg"
+    },
+    "store_asset_mtime": "1368124240",
+    "store_screenshot": "ss_c0b4fb1df55b5e8252b4f9a9477e2c1e15aea945.jpg",
+    "store_tags": {
+      "0": "19",
+      "1": "492",
+      "2": "21"
+    },
+    "supported_languages": {
+      "english": {
+        "full_audio": "true",
+        "supported": "true"
+      },
+      "polish": {
+        "full_audio": "true",
+        "supported": "true"
+      }
+    },
+    "type": "Game"
+  },
+  "config": {
+    "contenttype": "3",
+    "installdir": "Afterfall Insanity - Dirty Arena Edition",
+    "installscriptoverride": "1",
+    "installscriptsignature": "5f447982a582c8bbb7422610c259870596b6ea16d1130a2607a678437a131b3cd827efa67e6c75b4d121770932133889dade8b2c70cb120ee7c9a39a58e1839be02b8d1e8233b8bf27ab520d5441a02e8d7531665f0ef37456f59fc683e5f93eb4022ea9f812e3007f2675ecc1a9cc97b19fef0d8535d24c9edc2e537ee2e12d",
+    "launch": {
+      "0": {
+        "arguments": "-dlc",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch GAME",
+        "executable": "Binaries/Win32/InSanity-Win32-Shipping.exe",
+        "workingdir": "Binaries/Win32"
+      },
+      "1": {
+        "arguments": "-safemode",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch in SAFE MODE",
+        "executable": "Binaries/Win32/InSanity-Win32-Shipping.exe",
+        "workingdir": "Binaries/Win32"
+      }
+    }
+  },
+  "depots": {
+    "238171": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "273451914020421578",
+          "size": "2522130031"
+        }
+      },
+      "systemdefined": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "116863"
+      }
+    },
+    "markdlcdepots": "1",
+    "overridescddb": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "checkpkgstate": "1",
+    "developer": "Intoxicate Studios",
+    "gamedir": "ValveTestApp238170",
+    "homepage": "http://www.intoxicatestudios.com/index.php/en/projects/afterfall-dirty-arena",
+    "icon": "",
+    "noservers": "0",
+    "publisher": "Nicolas Games",
+    "sourcegame": "1",
+    "state": "eStateComingSoonNoPreload",
+    "visibleonlywhensubscribed": "1"
+  },
+  "install": {
+    "run process": {
+      "amdcpupatch": {
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\233010",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\amdcpusetup.exe",
+        "requirement_os": {
+          "ostype": "Windows XP"
+        }
+      },
+      "directx": {
+        "command 1": "/silent",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\233010",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\directx\\DXSETUP.exe"
+      },
+      "dotnet": {
+        "command 1": "/q /norestart",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\233010",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\dotnet\\dotnetfx35.exe"
+      },
+      "vcredist64": {
+        "command 1": "/q",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\233010",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\vcredist_x64.exe",
+        "requirement_os": {
+          "is64bitwindows": "1"
+        }
+      },
+      "vcredist86": {
+        "command 1": "/q",
+        "hasrunkey": "HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\233010",
+        "nocleanup": "1",
+        "process 1": "%INSTALLDIR%\\redist\\vcredist_x86.exe",
+        "requirement_os": {
+          "is64bitwindows": "0"
+        }
+      }
+    }
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "100000"
+  }
+}
