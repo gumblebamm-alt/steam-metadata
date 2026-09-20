@@ -22,4 +22,4 @@ verify-steam-api-key:
   stage: test
   image: python:3.11
   script:
-    - python -c "import os; key=os.getenv('STEAM_WEB_API_KEY'); raise SystemExit('STEAM_WEB_API_KEY is missing') if not key else print('STEAM_WEB_API_KEY is available to GitLab CI (value hidden)')"
+    - python -c "import os, sys; key=os.getenv('STEAM_WEB_API_KEY'); sys.exit('STEAM_WEB_API_KEY is missing') if not key else print('STEAM_WEB_API_KEY is available to GitLab CI (value hidden)')"
