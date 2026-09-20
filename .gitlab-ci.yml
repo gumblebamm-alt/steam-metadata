@@ -42,5 +42,5 @@ update-metadata:
     - git config user.name "gitlab-ci[bot]"
     - git config user.email "gitlab-ci[bot]@noreply.gitlab.com"
     - git add data/ cache/checkpoint.json
-    - git diff --cached --quiet || git commit -m "Auto-update: sync latest Steam metadata [skip ci]"
+    - 'git diff --cached --quiet || git commit -m "Auto-update: sync latest Steam metadata [skip ci]"'
     - git push "https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git" "HEAD:${CI_COMMIT_REF_NAME}"
