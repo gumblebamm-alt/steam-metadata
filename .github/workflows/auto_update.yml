@@ -2,13 +2,13 @@ name: Steam Metadata Auto Tracker
 
 on:
   schedule:
-    # Runs every 2 hours. This repo is a READ-ONLY metadata mirror consumed by
+    # Runs once per day. This repo is a READ-ONLY metadata mirror consumed by
     # the launcher through raw.githubusercontent.com / jsDelivr, so a tight loop
     # buys nothing but rate-limit pressure and Actions abuse signals. The old
     # setup paired a 15-minute cron with a self-dispatch chain that re-queued a
     # fresh run roughly every minute forever, which is exactly the pattern GitHub
     # flags as abusive scheduled-workflow usage.
-    - cron: '17 */12 * * *'
+    - cron: '17 3 * * *'
   workflow_dispatch:
     inputs:
       source:
@@ -57,7 +57,7 @@ jobs:
 
       - name: Run Tracker
         run: |
-          python tracker.py --run --concurrency 10 --reset-checkpoint
+          python tracker.py --run --concurrency 5 --reset-checkpoint
 
       - name: Commit and push changes
         run: |

@@ -249,7 +249,8 @@ class MetadataStorage:
             # Compact separators: these files are machine-readable mirrors, never
             # hand-edited. Pretty printing roughly doubled every shard file for no
             # benefit and inflated the repo on every commit.
-            json.dump(data, f, indent=2, ensure_ascii=False)`n            f.write("`n")
+            json.dump(data, f, indent=2, ensure_ascii=False)
+            f.write("\n")
 
         os.replace(temp_path, target_path)
 
