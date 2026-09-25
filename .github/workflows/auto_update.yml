@@ -1,1 +1,75 @@
-404: Not Found
+name: Steam Metadata Auto Tracker
+
+on:
+  schedule:
+    # Runs every 2 hours. This repo is a READ-ONLY metadata mirror consumed by
+    # the launcher through raw.githubusercontent.com / jsDelivr, so a tight loop
+    # buys nothing but rate-limit pressure and Actions abuse signals. The old
+    # setup paired a 15-minute cron with a self-dispatch chain that re-queued a
+    # fresh run roughly every minute forever, which is exactly the pattern GitHub
+    # flags as abusive scheduled-workflow usage.
+    - cron: '17 */12 * * *'
+  workflow_dispatch:
+    inputs:
+      source:
+        description: 'Trigger source for diagnostics'
+        required: false
+        default: 'manual'
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: steam-metadata-auto-tracker-main
+  cancel-in-progress: false
+
+jobs:
+  update-metadata:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Refresh AppList from Steam
+        env:
+          STEAM_KEY: ${{ secrets.STEAM_WEB_API_KEY }}
+        run: |
+          if [ -n "$STEAM_KEY" ]; then
+            python tracker.py --fetch-applist --steam-key "$STEAM_KEY"
+          else
+            python tracker.py --fetch-applist
+          fi
+
+      - name: Run Tracker
+        run: |
+          python tracker.py --run --concurrency 10 --reset-checkpoint
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ cache/checkpoint.json
+          if git diff --staged --quiet; then
+            echo "No new updates found."
+          else
+            git commit -m "Auto-update: sync latest Steam metadata [skip ci]"
+            # Bỏ qua pull --rebase nếu có lỗi, dùng chiến thuật merge an toàn hơn
+            git pull origin main --no-edit || true
+            git push origin main
+          fi
+
