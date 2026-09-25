@@ -1,155 +1,109 @@
 #!/usr/bin/env python3
 """
-applist_provider.py - Steam AppList Provider
-Fetches and caches the full list of Steam applications (~165k-184k apps).
-Supports verified community snapshot mirrors and official Valve IStoreService API.
+checkpoint.py - Checkpoint and Resume State Manager
+Allows scanning ~184k Steam apps over multiple hours/days with Ctrl+C interruption
+and seamless resumption without re-scanning previously processed apps.
 """
 
 from __future__ import annotations
 
 import json
 import logging
+import os
 import time
 from pathlib import Path
-from typing import Any, Dict, List, Optional
-import httpx
+from typing import Any, Dict, Set
 
-logger = logging.getLogger("steam_tracker.applist")
-
-DUMP_URL_PRIMARY = "https://raw.githubusercontent.com/dgibbs64/SteamCMD-AppID-List/master/steamcmd_appid.json"
-DUMP_URL_FALLBACK = "https://raw.githubusercontent.com/jsnli/steamappidlist/main/steam_apps.json"
+logger = logging.getLogger("steam_tracker.checkpoint")
 
 
-def fetch_from_steam_web_api(api_key: str, max_results: int = 50000) -> List[Dict[str, Any]]:
-    """
-    Paginates Valve's official IStoreService/GetAppList/v1/ using last_appid.
-    Requires a valid Steam Web API Key.
-    """
-    apps: List[Dict[str, Any]] = []
-    last_appid = 0
-    client = httpx.Client(timeout=30.0)
+class CheckpointManager:
+    def __init__(self, checkpoint_path: Path):
+        self.checkpoint_path = Path(checkpoint_path)
+        self.processed_appids: Set[int] = set()
+        self.total_scanned: int = 0
+        self.success_count: int = 0
+        self.new_version_count: int = 0
+        self.error_count: int = 0
+        self.started_at: int = int(time.time())
+        self.updated_at: int = int(time.time())
+        self.last_appid: int = 0
 
-    logger.info("Fetching applist from official Valve IStoreService API...")
-    while True:
-        url = (
-            f"https://api.steampowered.com/IStoreService/GetAppList/v1/"
-            f"?key={api_key}&max_results={max_results}&last_appid={last_appid}&include_games=true&include_dlc=true"
-        )
-        resp = client.get(url)
-        if resp.status_code != 200:
-            raise RuntimeError(f"Steam Web API returned HTTP {resp.status_code}: {resp.text[:200]}")
-
-        data = resp.json().get("response", {})
-        batch = data.get("apps", [])
-        if not batch:
-            break
-
-        for item in batch:
-            appid = item.get("appid")
-            name = item.get("name", "")
-            if appid is not None:
-                apps.append({"appid": int(appid), "name": name})
-
-        last_appid = batch[-1].get("appid", 0)
-        logger.info(f"Retrieved {len(apps)} apps so far (last_appid={last_appid})...")
-
-        if not data.get("have_more_results", False):
-            break
-        time.sleep(0.5)
-
-    return apps
-
-
-def fetch_from_public_dump() -> List[Dict[str, Any]]:
-    """
-    Downloads full Steam AppID snapshot from verified automated GitHub mirrors.
-    """
-    client = httpx.Client(timeout=60.0, follow_redirects=True)
-    for url in [DUMP_URL_PRIMARY, DUMP_URL_FALLBACK]:
+    def load(self) -> None:
+        """Loads state from checkpoint.json if it exists."""
+        if not self.checkpoint_path.exists():
+            return
         try:
-            logger.info(f"Downloading applist snapshot from {url}...")
-            resp = client.get(url)
-            if resp.status_code == 200:
-                raw_data = resp.json()
-                apps: List[Dict[str, Any]] = []
-
-                if isinstance(raw_data, list):
-                    for item in raw_data:
-                        aid = item.get("appid") or item.get("AppID") or item.get("id")
-                        name = item.get("name") or item.get("Name") or ""
-                        if aid is not None:
-                            apps.append({"appid": int(aid), "name": name})
-                elif isinstance(raw_data, dict):
-                    # Check for SteamCMD-AppID-List format: {"applist": {"apps": {"app": [...]}}}
-                    applist = raw_data.get("applist", {})
-                    app_items = applist.get("apps", [])
-                    if isinstance(app_items, dict):
-                        app_items = app_items.get("app", [])
-                    
-                    if not app_items and "apps" in raw_data:
-                        app_items = raw_data["apps"]
-
-                    for item in app_items:
-                        aid = item.get("appid") or item.get("AppID")
-                        name = item.get("name") or item.get("Name") or ""
-                        if aid is not None:
-                            apps.append({"appid": int(aid), "name": name})
-
-                if apps:
-                    logger.info(f"Successfully parsed {len(apps)} apps from snapshot.")
-                    return apps
+            with open(self.checkpoint_path, "r", encoding="utf-8") as f:
+                data = json.load(f)
+            self.processed_appids = set(data.get("processed_appids", []))
+            self.total_scanned = data.get("total_scanned", len(self.processed_appids))
+            self.success_count = data.get("success_count", 0)
+            self.new_version_count = data.get("new_version_count", 0)
+            self.error_count = data.get("error_count", 0)
+            self.started_at = data.get("started_at", int(time.time()))
+            self.updated_at = data.get("updated_at", int(time.time()))
+            self.last_appid = data.get("last_appid", 0)
+            logger.info(
+                f"Loaded checkpoint: {len(self.processed_appids)} apps already processed. "
+                f"Last AppID: {self.last_appid}"
+            )
         except Exception as exc:
-            logger.warning(f"Failed to fetch from {url}: {exc}")
+            logger.warning(f"Could not load checkpoint from {self.checkpoint_path}: {exc}")
 
-    raise RuntimeError("All public applist mirrors failed.")
+    def is_processed(self, appid: int) -> bool:
+        """Checks if appid has already been scanned in this checkpoint session."""
+        return int(appid) in self.processed_appids
 
+    def mark_processed(
+        self,
+        appid: int,
+        success: bool = True,
+        is_new_version: bool = False,
+        is_error: bool = False,
+    ) -> None:
+        """Records the completion of an app scan."""
+        aid = int(appid)
+        self.processed_appids.add(aid)
+        self.total_scanned += 1
+        self.last_appid = aid
+        self.updated_at = int(time.time())
 
-def get_app_list(
-    cache_path: Path,
-    steam_key: Optional[str] = None,
-    force_refresh: bool = False,
-) -> List[Dict[str, Any]]:
-    """
-    Retrieves applist from local cache or downloads fresh list if missing/forced.
-    """
-    if not force_refresh and cache_path.exists():
-        try:
-            with open(cache_path, "r", encoding="utf-8") as f:
-                cached = json.load(f)
-            if isinstance(cached, list) and cached:
-                logger.info(f"Loaded {len(cached)} apps from local cache: {cache_path}")
-                return cached
-        except Exception as exc:
-            logger.warning(f"Failed to read cache {cache_path}: {exc}")
+        if success:
+            self.success_count += 1
+            if is_new_version:
+                self.new_version_count += 1
+        if is_error:
+            self.error_count += 1
 
-    cache_path.parent.mkdir(parents=True, exist_ok=True)
+    def save(self) -> None:
+        """Writes checkpoint state atomically to disk."""
+        self.checkpoint_path.parent.mkdir(parents=True, exist_ok=True)
+        data = {
+            "total_scanned": self.total_scanned,
+            "success_count": self.success_count,
+            "new_version_count": self.new_version_count,
+            "error_count": self.error_count,
+            "last_appid": self.last_appid,
+            "started_at": self.started_at,
+            "updated_at": self.updated_at,
+            "processed_appids": sorted(list(self.processed_appids)),
+        }
+        temp_path = self.checkpoint_path.with_suffix(".tmp")
+        with open(temp_path, "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=2)
+        os.replace(temp_path, self.checkpoint_path)
 
-    if steam_key:
-        apps = fetch_from_steam_web_api(steam_key)
-    else:
-        apps = fetch_from_public_dump()
-
-    # Deduplicate by appid while preserving order
-    seen = set()
-    deduped = []
-    for app in apps:
-        aid = app["appid"]
-        if aid not in seen:
-            seen.add(aid)
-            deduped.append(app)
-
-    # Save to cache
-    with open(cache_path, "w", encoding="utf-8") as f:
-        json.dump(deduped, f, indent=2, ensure_ascii=False)
-    logger.info(f"Cached {len(deduped)} apps to {cache_path}")
-
-    return deduped
-
-
-if __name__ == "__main__":
-    logging.basicConfig(level=logging.INFO, format="[%(asctime)s] [%(levelname)s] %(message)s")
-    test_cache = Path("cache/applist.json")
-    list_apps = get_app_list(test_cache)
-    print(f"Total apps: {len(list_apps)}")
-    print("First 3 apps:", list_apps[:3])
-    print("Sample Among Us:", [a for a in list_apps if a["appid"] == 945360])
+    def reset(self) -> None:
+        """Clears checkpoint file and resets in-memory tracking."""
+        self.processed_appids.clear()
+        self.total_scanned = 0
+        self.success_count = 0
+        self.new_version_count = 0
+        self.error_count = 0
+        self.started_at = int(time.time())
+        self.updated_at = int(time.time())
+        self.last_appid = 0
+        if self.checkpoint_path.exists():
+            self.checkpoint_path.unlink()
+        logger.info(f"Checkpoint reset for {self.checkpoint_path}")
