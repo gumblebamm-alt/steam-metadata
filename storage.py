@@ -239,6 +239,64 @@ class MetadataStorage:
         self._write_atomically(appid, output_data)
         return True, is_new_version
 
+    def save_hubcap_entry(
+        self,
+        appid: int,
+        hubcap_entry: Dict[str, Any],
+        fallback_name: str = "",
+    ) -> Tuple[bool, bool]:
+        """
+        Saves a Hubcap-sourced manifest version entry into app metadata.
+        Returns: (success: bool, is_new_version: bool)
+        """
+        now_ts = int(time.time())
+        existing = self.load_app_metadata(appid) or {}
+
+        existing_history: List[Dict[str, Any]] = (
+            existing.get("_history") or existing.get("history") or []
+        )
+        history = list(existing_history)
+
+        # Check if identical manifest set already exists
+        new_manifests = hubcap_entry.get("manifests", {})
+        for entry in history:
+            old_manifests = entry.get("manifests", {})
+            if old_manifests and old_manifests == new_manifests:
+                # Same manifests, just update _lastChecked
+                existing["_lastChecked"] = now_ts
+                self._write_atomically(appid, existing)
+                return True, False
+
+        history.append(hubcap_entry)
+
+        # Keep history bounded
+        if len(history) > MAX_HISTORY_ENTRIES_PER_APP:
+            by_branch: Dict[str, List[Dict[str, Any]]] = {}
+            for entry in history:
+                by_branch.setdefault(str(entry.get("branch", "")), []).append(entry)
+            trimmed: List[Dict[str, Any]] = []
+            for branch_entries in by_branch.values():
+                def _recency(item: Dict[str, Any]) -> int:
+                    try:
+                        return int(item.get("timeUpdated") or item.get("firstSeen") or 0)
+                    except (TypeError, ValueError):
+                        return 0
+                branch_entries.sort(key=_recency, reverse=True)
+                trimmed.extend(branch_entries[:MAX_HISTORY_ENTRIES_PER_APP])
+            history = trimmed
+
+        output_data = dict(existing)
+        output_data["_lastChecked"] = now_ts
+        output_data["_history"] = history
+        if "appid" not in output_data:
+            output_data["appid"] = int(appid)
+        if fallback_name and "name" not in output_data:
+            if "common" not in output_data or not output_data["common"].get("name"):
+                output_data["name"] = fallback_name
+
+        self._write_atomically(appid, output_data)
+        return True, True
+
     def _write_atomically(self, appid: int, data: Dict[str, Any]) -> None:
         """Writes data to a temporary file, then renames to target for atomicity."""
         target_path = self.get_file_path(appid)
