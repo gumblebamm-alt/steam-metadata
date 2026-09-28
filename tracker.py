@@ -107,58 +107,69 @@ class SteamTracker:
         )
         return True
 
-    async def hubcap_scan(self, app_list: List[Dict[str, Any]]) -> List[int]:
+    async def hubcap_scan(self, app_list: List[Dict[str, Any]], max_feed_check: int = 300) -> int:
         """
-        Bước 1 (FREE): Dùng Hubcap để phát hiện app nào có update mới.
-        Với app Hubcap đã có → lấy depot_id/manifest_id miễn phí, lưu vào storage.
-        Trả về list app_ids cần fallback sang Steam (Hubcap chưa cover).
+        Phase 1 (Hubcap - FREE):
+        Queries Hubcap's recently updated games feed (/api/v1/library?sort_by=updated).
+        For any game that has manifest_updated > local _lastChecked:
+          - Fetches depot_id + manifest_id via /manifest/{appid}/contents (with polite rate limiting).
+          - Saves entry into local shard JSON.
+          - Marks app as updated in checkpoint.
+        Returns number of apps updated via Hubcap.
         """
         if not self.hubcap:
-            return [int(a["appid"]) for a in app_list]
+            return 0
 
-        all_ids = [int(a["appid"]) for a in app_list]
-        name_map = {int(a["appid"]): a.get("name", "") for a in app_list}
+        logger.info(f"[Hubcap] Phase 1: Checking top {max_feed_check} recently updated games on Hubcap...")
+        recent_games = self.hubcap.get_recently_updated_games(max_games=max_feed_check)
+        if not recent_games:
+            logger.info("[Hubcap] No games returned from Hubcap feed.")
+            return 0
 
-        # Đọc _lastChecked từ file JSON đã lưu để so sánh
-        logger.info(f"[Hubcap] Checking {len(all_ids)} apps for updates...")
-        last_checked_map: Dict[int, int] = {}
-        for aid in all_ids:
-            existing = self.storage.load_app_metadata(aid)
-            if existing:
-                last_checked_map[aid] = existing.get("_lastChecked", 0)
-
-        # Gọi Hubcap batch (FREE, tối đa 5000/lần)
-        updated_ids = self.hubcap.find_updated_apps(all_ids, last_checked_map)
-
-        # Lấy manifest contents (FREE) cho từng app Hubcap đã cover
-        needs_steam: List[int] = []
         hubcap_saved = 0
-
-        for aid in updated_ids:
+        for game in recent_games:
             if self._shutdown_requested:
                 break
-            hub_entry = self.hubcap.get_manifest_info_for_storage(aid)
-            if hub_entry is None:
-                # Hubcap không có app này → cần Steam
-                needs_steam.append(aid)
+
+            try:
+                aid = int(game.get("game_id", 0))
+            except (ValueError, TypeError):
                 continue
 
+            if not aid:
+                continue
+
+            if not game.get("manifest_available", False):
+                continue
+
+            hubcap_ts = self.hubcap._iso_to_ts(game.get("manifest_updated", ""))
+            existing = self.storage.load_app_metadata(aid)
+            last_checked = existing.get("_lastChecked", 0) if existing else 0
+
+            # If our local record is already newer or equal to Hubcap's update, skip
+            if last_checked >= hubcap_ts and existing and existing.get("_history"):
+                continue
+
+            # Fetch manifest details (includes gentle delay + 429 retry)
+            hub_entry = self.hubcap.get_manifest_info_for_storage(aid)
+            if not hub_entry:
+                continue
+
+            game_name = game.get("game_name") or ""
             saved, is_new_version = self.storage.save_hubcap_entry(
                 appid=aid,
                 hubcap_entry=hub_entry,
-                fallback_name=name_map.get(aid, ""),
+                fallback_name=game_name,
             )
             self.checkpoint.mark_processed(
                 aid, success=saved, is_new_version=is_new_version
             )
             if is_new_version:
                 hubcap_saved += 1
+                logger.info(f"[Hubcap] Ingested update for AppID {aid} ({game_name})")
 
-        logger.info(
-            f"[Hubcap] Done: {hubcap_saved} apps updated from Hubcap, "
-            f"{len(needs_steam)} need Steam fallback."
-        )
-        return needs_steam
+        logger.info(f"[Hubcap] Phase 1 finished: {hubcap_saved} apps updated from Hubcap.")
+        return hubcap_saved
 
     async def run_scan(
         self,
@@ -308,26 +319,15 @@ def main() -> int:
     if args.run or args.limit:
         async def _run() -> None:
             if tracker.hubcap:
-                logger.info("[Hubcap] Phase 1: detecting updates via Hubcap (FREE)...")
-                steam_fallback_ids = await tracker.hubcap_scan(app_list)
-                steam_app_list = [
-                    a for a in app_list if int(a["appid"]) in set(steam_fallback_ids)
-                ]
-                logger.info(
-                    f"[Hubcap] Phase 2: Steam scan for {len(steam_app_list)} remaining apps..."
-                )
-                if steam_app_list:
-                    await tracker.run_scan(
-                        app_list=steam_app_list,
-                        limit=args.limit,
-                        resume=not args.no_resume,
-                    )
-            else:
-                await tracker.run_scan(
-                    app_list=app_list,
-                    limit=args.limit,
-                    resume=not args.no_resume,
-                )
+                logger.info("[Hubcap] Phase 1: Checking recently updated games on Hubcap (FREE)...")
+                await tracker.hubcap_scan(app_list, max_feed_check=300)
+
+            logger.info("[Steam] Phase 2: Scanning catalog via Steam API (with checkpoint resume)...")
+            await tracker.run_scan(
+                app_list=app_list,
+                limit=args.limit,
+                resume=not args.no_resume,
+            )
 
         asyncio.run(_run())
         return 0
