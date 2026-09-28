@@ -76,15 +76,7 @@ jobs:
             echo "[Notice] No checkpoint file found — starting new scan cycle."
             SHOULD_RESET=true
           else
-            LAST=$(python3 -c "
-import json
-try:
-    with open('$CHECKPOINT', 'r') as f:
-        data = json.load(f)
-    print(int(data.get('updated_at', 0)))
-except Exception:
-    print(0)
-")
+            LAST=$(python3 -c "import json, os; print(int(json.load(open('$CHECKPOINT')).get('updated_at', 0)) if os.path.exists('$CHECKPOINT') else 0)")
             NOW=$(date +%s)
             AGE=$((NOW - LAST))
             DAYS=$((AGE / 86400))
