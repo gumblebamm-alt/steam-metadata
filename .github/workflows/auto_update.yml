@@ -2,12 +2,7 @@ name: Steam Metadata Auto Tracker
 
 on:
   schedule:
-    # Runs every 2 hours. This repo is a READ-ONLY metadata mirror consumed by
-    # the launcher through raw.githubusercontent.com / jsDelivr, so a tight loop
-    # buys nothing but rate-limit pressure and Actions abuse signals. The old
-    # setup paired a 15-minute cron with a self-dispatch chain that re-queued a
-    # fresh run roughly every minute forever, which is exactly the pattern GitHub
-    # flags as abusive scheduled-workflow usage.
+    # Runs twice daily at a jittered minute
     - cron: '17 */12 * * *'
   workflow_dispatch:
     inputs:
@@ -15,10 +10,13 @@ on:
         description: 'Trigger source for diagnostics'
         required: false
         default: 'manual'
+      reset_checkpoint:
+        description: 'Force reset checkpoint (true/false)'
+        required: false
+        default: 'false'
 
 permissions:
   contents: write
-  actions: write
 
 concurrency:
   group: steam-metadata-auto-tracker-main
@@ -29,10 +27,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
-      - name: Checkout repository
+      - name: Checkout repository (shallow)
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -45,6 +43,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Cache applist
+        uses: actions/cache@v4
+        with:
+          path: cache/applist.json
+          key: applist-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+          restore-keys: applist-${{ runner.os }}-
+
       - name: Refresh AppList from Steam
         env:
           STEAM_KEY: ${{ secrets.STEAM_WEB_API_KEY }}
@@ -56,8 +61,56 @@ jobs:
           fi
 
       - name: Run Tracker
+        env:
+          STEAM_KEY: ${{ secrets.STEAM_WEB_API_KEY }}
+          HUBCAP_KEY: ${{ secrets.HUBCAP_API_KEY }}
+          FORCE_RESET: ${{ github.event.inputs.reset_checkpoint }}
         run: |
-          python tracker.py --run --concurrency 10 --reset-checkpoint
+          CHECKPOINT="cache/checkpoint.json"
+          SHOULD_RESET=false
+
+          if [ "$FORCE_RESET" = "true" ]; then
+            echo "[Notice] Manual trigger requested checkpoint reset."
+            SHOULD_RESET=true
+          elif [ ! -f "$CHECKPOINT" ]; then
+            echo "[Notice] No checkpoint file found — starting new scan cycle."
+            SHOULD_RESET=true
+          else
+            LAST=$(python3 -c "
+import json
+try:
+    with open('$CHECKPOINT', 'r') as f:
+        data = json.load(f)
+    print(int(data.get('updated_at', 0)))
+except Exception:
+    print(0)
+")
+            NOW=$(date +%s)
+            AGE=$((NOW - LAST))
+            DAYS=$((AGE / 86400))
+            echo "Checkpoint age: ${DAYS} day(s) (${AGE} seconds)."
+
+            # Reset checkpoint if older than 7 days so all apps get refreshed cyclically
+            if [ "$AGE" -gt 604800 ]; then
+              echo "[Notice] Checkpoint is older than 7 days — starting fresh scan cycle."
+              SHOULD_RESET=true
+            fi
+          fi
+
+          # Build run command
+          ARGS="--run --concurrency 5"
+          if [ -n "$STEAM_KEY" ]; then
+            ARGS="$ARGS --steam-key $STEAM_KEY"
+          fi
+          if [ -n "$HUBCAP_KEY" ]; then
+            ARGS="$ARGS --hubcap-key $HUBCAP_KEY"
+          fi
+          if [ "$SHOULD_RESET" = "true" ]; then
+            ARGS="$ARGS --reset-checkpoint"
+          fi
+
+          echo "Executing: python tracker.py $ARGS"
+          python tracker.py $ARGS
 
       - name: Commit and push changes
         run: |
@@ -68,8 +121,6 @@ jobs:
             echo "No new updates found."
           else
             git commit -m "Auto-update: sync latest Steam metadata [skip ci]"
-            # Bỏ qua pull --rebase nếu có lỗi, dùng chiến thuật merge an toàn hơn
-            git pull origin main --no-edit || true
+            git pull origin main --rebase --no-edit || true
             git push origin main
           fi
-
