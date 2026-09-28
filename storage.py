@@ -172,12 +172,22 @@ class MetadataStorage:
 
                 manifests_for_branch = branch_manifests.get(branch_name, {})
 
-                # Check if this (branch, buildId) already exists in history
+                # Check if this (branch, buildId) already exists in history,
+                # or if there is an unattached Hubcap entry (buildId == "") on the same branch
                 existing_entry = None
                 for entry in history:
-                    if entry.get("branch") == branch_name and str(entry.get("buildId")) == str(build_id):
-                        existing_entry = entry
-                        break
+                    if entry.get("branch") == branch_name:
+                        if str(entry.get("buildId")) == str(build_id):
+                            existing_entry = entry
+                            break
+                        elif not entry.get("buildId") and entry.get("_source") == "hubcap":
+                            # Attach the real Steam buildId and timeUpdated!
+                            entry["buildId"] = str(build_id)
+                            if b_info.get("timeUpdated"):
+                                entry["timeUpdated"] = b_info.get("timeUpdated")
+                            existing_entry = entry
+                            is_new_version = True
+                            break
 
                 if existing_entry is not None:
                     # Check for missing manifests and add without overwriting

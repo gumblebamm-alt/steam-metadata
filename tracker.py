@@ -107,26 +107,26 @@ class SteamTracker:
         )
         return True
 
-    async def hubcap_scan(self, app_list: List[Dict[str, Any]], max_feed_check: int = 300) -> int:
+    async def hubcap_scan(self, app_list: List[Dict[str, Any]], max_feed_check: int = 300) -> List[Dict[str, Any]]:
         """
         Phase 1 (Hubcap - FREE):
         Queries Hubcap's recently updated games feed (/api/v1/library?sort_by=updated).
         For any game that has manifest_updated > local _lastChecked:
           - Fetches depot_id + manifest_id via /manifest/{appid}/contents (with polite rate limiting).
-          - Saves entry into local shard JSON.
-          - Marks app as updated in checkpoint.
-        Returns number of apps updated via Hubcap.
+          - Saves manifest entry into local shard JSON.
+          - Queues the game for Phase 2 Steam scan so Steam can attach the real buildId and metadata!
+        Returns list of priority app dicts: [{"appid": aid, "name": game_name}, ...]
         """
         if not self.hubcap:
-            return 0
+            return []
 
         logger.info(f"[Hubcap] Phase 1: Checking top {max_feed_check} recently updated games on Hubcap...")
         recent_games = self.hubcap.get_recently_updated_games(max_games=max_feed_check)
         if not recent_games:
             logger.info("[Hubcap] No games returned from Hubcap feed.")
-            return 0
+            return []
 
-        hubcap_saved = 0
+        priority_apps: List[Dict[str, Any]] = []
         for game in recent_games:
             if self._shutdown_requested:
                 break
@@ -161,15 +161,14 @@ class SteamTracker:
                 hubcap_entry=hub_entry,
                 fallback_name=game_name,
             )
-            self.checkpoint.mark_processed(
-                aid, success=saved, is_new_version=is_new_version
-            )
-            if is_new_version:
-                hubcap_saved += 1
-                logger.info(f"[Hubcap] Ingested update for AppID {aid} ({game_name})")
 
-        logger.info(f"[Hubcap] Phase 1 finished: {hubcap_saved} apps updated from Hubcap.")
-        return hubcap_saved
+            # Queue this game as HIGH PRIORITY for Phase 2 (Steam PICS scan)
+            # Steam will fetch the real buildId, appinfo, and merge both manifest sets!
+            priority_apps.append({"appid": aid, "name": game_name})
+            logger.info(f"[Hubcap] Ingested manifests for AppID {aid} ({game_name}) -> queued for Steam buildId sync")
+
+        logger.info(f"[Hubcap] Phase 1 finished: {len(priority_apps)} updated games queued for Steam scan.")
+        return priority_apps
 
     async def run_scan(
         self,
@@ -318,15 +317,51 @@ def main() -> int:
 
     if args.run or args.limit:
         async def _run() -> None:
+            # 1. Hubcap detects recently updated games & new manifests
+            priority_apps: List[Dict[str, Any]] = []
             if tracker.hubcap:
                 logger.info("[Hubcap] Phase 1: Checking recently updated games on Hubcap (FREE)...")
-                await tracker.hubcap_scan(app_list, max_feed_check=300)
+                priority_apps = await tracker.hubcap_scan(app_list, max_feed_check=300)
 
-            logger.info("[Steam] Phase 2: Scanning catalog via Steam API (with checkpoint resume)...")
+            # Ensure any new games found by Hubcap not in app_list are added
+            existing_appids = {int(a["appid"]) for a in app_list}
+            for pa in priority_apps:
+                aid = int(pa["appid"])
+                if aid not in existing_appids:
+                    app_list.append(pa)
+                    existing_appids.add(aid)
+
+            # 2. Discover brand new games on Steam not yet saved in data/
+            missing_new_apps: List[Dict[str, Any]] = []
+            priority_ids = {int(a["appid"]) for a in priority_apps}
+
+            # Check newest AppIDs first (highest AppID = newest releases on Steam)
+            sorted_by_newest = sorted(app_list, key=lambda x: int(x.get("appid", 0)), reverse=True)
+            for item in sorted_by_newest:
+                aid = int(item.get("appid", 0))
+                if aid in priority_ids:
+                    continue
+                # If this game is not yet saved in data/, queue it as a new game
+                if not tracker.storage.get_file_path(aid).exists():
+                    missing_new_apps.append(item)
+                    if len(missing_new_apps) >= 50:  # Batch up to 50 new games per run
+                        break
+
+            # 3. Targeted Steam scan: ONLY scan games with updates or new releases
+            target_apps = priority_apps + missing_new_apps
+            if not target_apps:
+                logger.info("[Targeted Scan] All games and manifests are up to date! No Steam scan needed.")
+                return
+
+            logger.info(
+                f"[Steam] Phase 2: Scanning {len(target_apps)} target games via Steam API "
+                f"({len(priority_apps)} updated from Hubcap + {len(missing_new_apps)} newly released games)..."
+            )
+            # Scan target apps with Steam to fetch real buildIds and merge all depots
             await tracker.run_scan(
-                app_list=app_list,
+                app_list=target_apps,
                 limit=args.limit,
-                resume=not args.no_resume,
+                resume=False,  # Ensure Steam scans these specific target apps
             )
 
         asyncio.run(_run())
