@@ -114,6 +114,21 @@ class HubcapProvider:
         logger.info(f"Retrieved {len(games)} recently updated games from Hubcap feed.")
         return games
 
+    def get_library_page_at_offset(
+        self, offset: int, limit: int = 100
+    ) -> List[Dict[str, Any]]:
+        """
+        GET /api/v1/library?sort_by=game_id at a specific offset.
+        Used for gap-fill: systematically paginate through Hubcap's full library
+        to find games not yet stored in data/.
+        FREE - no usage count.
+        """
+        url = f"{BASE_URL}/library?limit={limit}&offset={offset}&sort_by=game_id&include_adult=true"
+        resp = self._get_with_retry(url)
+        if not resp:
+            return []
+        return resp.json().get("games", [])
+
     def manifest_contents(self, app_id: int) -> Optional[Dict[str, Any]]:
         """
         GET /api/v1/manifest/{app_id}/contents

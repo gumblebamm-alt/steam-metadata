@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import argparse
 import asyncio
+import json
 import logging
 import signal
 import sys
@@ -169,6 +170,89 @@ class SteamTracker:
 
         logger.info(f"[Hubcap] Phase 1 finished: {len(priority_apps)} updated games queued for Steam scan.")
         return priority_apps
+
+    def _load_hubcap_offset(self) -> int:
+        """Reads the saved Hubcap library pagination offset from disk."""
+        offset_file = self.cache_dir / "hubcap_offset.json"
+        try:
+            if offset_file.exists():
+                data = json.loads(offset_file.read_text(encoding="utf-8"))
+                return int(data.get("offset", 0))
+        except Exception:
+            pass
+        return 0
+
+    def _save_hubcap_offset(self, offset: int) -> None:
+        """Saves the current Hubcap library pagination offset to disk."""
+        offset_file = self.cache_dir / "hubcap_offset.json"
+        self.cache_dir.mkdir(parents=True, exist_ok=True)
+        offset_file.write_text(
+            json.dumps({"offset": offset, "updated_at": int(time.time())}),
+            encoding="utf-8"
+        )
+
+    async def hubcap_gap_fill(self, batch_size: int = 500) -> List[Dict[str, Any]]:
+        """
+        Phase 1b (Hubcap - FREE, Gap Fill):
+        Systematically pages through Hubcap's full 167k library, batch_size games
+        at a time, to find games NOT yet stored in data/.
+        Progress (offset) is saved between runs so it resumes from where it left off.
+        After scanning all 167k games (~335 runs = ~167 days at 2 runs/day),
+        resets to offset 0 to start a fresh full sweep.
+        Returns list of new game dicts found: [{"appid": aid, "name": game_name}, ...]
+        """
+        if not self.hubcap:
+            return []
+
+        offset = self._load_hubcap_offset()
+        new_games: List[Dict[str, Any]] = []
+        scanned = 0
+        page_size = 100
+
+        logger.info(f"[Hubcap] Phase 1b (Gap Fill): scanning library from offset {offset} "
+                    f"(batch of {batch_size} games)...")
+
+        while scanned < batch_size:
+            if self._shutdown_requested:
+                break
+
+            games = self.hubcap.get_library_page_at_offset(offset=offset, limit=page_size)
+            if not games:
+                # Reached end of Hubcap library — reset offset for next full sweep
+                logger.info("[Hubcap] Gap Fill: completed full library sweep! Resetting offset to 0.")
+                self._save_hubcap_offset(0)
+                break
+
+            for game in games:
+                try:
+                    aid = int(game.get("game_id", 0))
+                except (ValueError, TypeError):
+                    continue
+                if not aid or not game.get("manifest_available", False):
+                    continue
+
+                # Only queue games not yet in our data/
+                if not self.storage.get_file_path(aid).exists():
+                    new_games.append({"appid": aid, "name": game.get("game_name") or ""})
+
+            offset += len(games)
+            scanned += len(games)
+
+            if len(games) < page_size:
+                # End of library
+                logger.info("[Hubcap] Gap Fill: completed full library sweep! Resetting offset to 0.")
+                self._save_hubcap_offset(0)
+                break
+
+            time.sleep(0.5)  # polite pause
+
+        else:
+            # Saved progress mid-sweep for next run
+            self._save_hubcap_offset(offset)
+            logger.info(f"[Hubcap] Gap Fill: scanned {scanned} games, offset now {offset}. "
+                        f"Found {len(new_games)} new games not yet in data/.")
+
+        return new_games
 
     async def run_scan(
         self,
@@ -331,37 +415,31 @@ def main() -> int:
                     app_list.append(pa)
                     existing_appids.add(aid)
 
-            # 2. Discover brand new games on Steam not yet saved in data/
-            missing_new_apps: List[Dict[str, Any]] = []
-            priority_ids = {int(a["appid"]) for a in priority_apps}
+            # 2. Hubcap Gap Fill: page through Hubcap's full 167k library 500 at a time
+            #    to find games that exist in Hubcap but not yet in data/.
+            #    Progress persists across runs via cache/hubcap_offset.json.
+            gap_fill_apps: List[Dict[str, Any]] = []
+            if tracker.hubcap:
+                logger.info("[Hubcap] Phase 1b (Gap Fill): scanning library for missing games...")
+                gap_fill_apps = await tracker.hubcap_gap_fill(batch_size=500)
+                logger.info(f"[Hubcap] Gap Fill found {len(gap_fill_apps)} new games not yet in data/.")
 
-            # Check newest AppIDs first (highest AppID = newest releases on Steam)
-            sorted_by_newest = sorted(app_list, key=lambda x: int(x.get("appid", 0)), reverse=True)
-            for item in sorted_by_newest:
-                aid = int(item.get("appid", 0))
-                if aid in priority_ids:
-                    continue
-                # If this game is not yet saved in data/, queue it as a new game
-                if not tracker.storage.get_file_path(aid).exists():
-                    missing_new_apps.append(item)
-                    if len(missing_new_apps) >= 50:  # Batch up to 50 new games per run
-                        break
-
-            # 3. Targeted Steam scan: ONLY scan games with updates or new releases
-            target_apps = priority_apps + missing_new_apps
+            # 3. Targeted Steam scan: ONLY scan games that actually need work
+            #    - priority_apps : recently updated (Hubcap detected manifest change)
+            #    - gap_fill_apps : found in Hubcap but missing from data/
+            target_apps = priority_apps + gap_fill_apps
             if not target_apps:
-                logger.info("[Targeted Scan] All games and manifests are up to date! No Steam scan needed.")
+                logger.info("[Targeted Scan] Everything is up to date! No Steam scan needed this run.")
                 return
 
             logger.info(
                 f"[Steam] Phase 2: Scanning {len(target_apps)} target games via Steam API "
-                f"({len(priority_apps)} updated from Hubcap + {len(missing_new_apps)} newly released games)..."
+                f"({len(priority_apps)} updated + {len(gap_fill_apps)} new from Hubcap gap fill)..."
             )
-            # Scan target apps with Steam to fetch real buildIds and merge all depots
             await tracker.run_scan(
                 app_list=target_apps,
                 limit=args.limit,
-                resume=False,  # Ensure Steam scans these specific target apps
+                resume=False,
             )
 
         asyncio.run(_run())
