@@ -36,6 +36,7 @@ from applist_provider import get_app_list
 from checkpoint import CheckpointManager
 from fetcher import SteamInfoFetcher
 from hubcap_provider import HubcapProvider
+from steam_webapi_provider import SteamWebAPIProvider
 from storage import MetadataStorage
 
 # Setup rich / clean logging
@@ -56,6 +57,7 @@ class SteamTracker:
         batch_save: int = 30,
         steam_key: Optional[str] = None,
         hubcap_key: Optional[str] = None,
+        steam_webapi_key: Optional[str] = None,
     ):
         self.base_dir = Path(base_dir)
         self.concurrency = concurrency
@@ -71,6 +73,11 @@ class SteamTracker:
         self.applist_path = self.cache_dir / "applist.json"
         self.checkpoint_path = self.cache_dir / "checkpoint.json"
         self.checkpoint = CheckpointManager(self.checkpoint_path)
+
+        self.steam_webapi: Optional[SteamWebAPIProvider] = (
+            SteamWebAPIProvider(steam_webapi_key, self.cache_dir)
+            if steam_webapi_key else None
+        )
 
         self._shutdown_requested = False
 
@@ -254,6 +261,100 @@ class SteamTracker:
 
         return new_games
 
+    async def steam_webapi_scan(
+        self,
+        hubcap_priority_ids: set,
+    ) -> List[Dict[str, Any]]:
+        """
+        Phase 1c (Steam Web API - FREE):
+        Calls IStoreService/GetAppList?if_modified_since to get ALL apps
+        that changed on Steam since the last run timestamp.
+
+        This catches game updates that Hubcap misses (e.g. EA SPORTS FC 27
+        build 25562691 was invisible to Hubcap but visible here immediately).
+
+        Logic:
+          - Only queues apps already in data/ that have steam last_modified
+            newer than our local _lastChecked (avoids duplicate work with gap fill).
+          - Skips apps already queued by Hubcap Phase 1a (hubcap_priority_ids).
+          - On first run: uses a 24h lookback window.
+          - Saves timestamp → next run only fetches delta.
+        Returns: [{appid, name}, ...] deduped priority list.
+        """
+        if not self.steam_webapi:
+            return []
+
+        # Determine lookback window
+        since_ts = self.steam_webapi.get_last_run_ts()
+        now_ts = int(time.time())
+        if since_ts == 0:
+            # First ever run — use 24h lookback to catch recent builds
+            since_ts = now_ts - 86400
+            logger.info("[SteamWebAPI] Phase 1c: First run, using 24h lookback window.")
+        else:
+            age_hours = (now_ts - since_ts) / 3600
+            logger.info(
+                f"[SteamWebAPI] Phase 1c: Fetching changes since last run "
+                f"({age_hours:.1f}h ago)..."
+            )
+
+        # Fetch changed apps in a thread (synchronous httpx)
+        changed_apps = await asyncio.to_thread(
+            self.steam_webapi.get_changed_apps_since, since_ts
+        )
+
+        if not changed_apps:
+            logger.info("[SteamWebAPI] Phase 1c: No apps changed since last run.")
+            self.steam_webapi.save_last_run_ts(now_ts)
+            return []
+
+        # Filter: only apps that are already in data/ AND have newer last_modified
+        # (new apps are handled by Hubcap gap fill)
+        priority_apps: List[Dict[str, Any]] = []
+        skipped_hubcap = 0
+        skipped_uptodate = 0
+        skipped_notindb = 0
+
+        for app in changed_apps:
+            if self._shutdown_requested:
+                break
+
+            aid = app.get("appid")
+            if not aid:
+                continue
+
+            # Skip if Hubcap already queued this one (Phase 1a handles it)
+            if aid in hubcap_priority_ids:
+                skipped_hubcap += 1
+                continue
+
+            steam_last_modified = app.get("last_modified", 0)
+            existing = self.storage.load_app_metadata(aid)
+
+            if not existing:
+                # Not in our DB yet → gap fill will handle it
+                skipped_notindb += 1
+                continue
+
+            local_last_checked = existing.get("_lastChecked", 0)
+            if steam_last_modified <= local_last_checked:
+                # Our data is already up to date
+                skipped_uptodate += 1
+                continue
+
+            # This app is in our DB and Steam says it changed → re-scan it
+            priority_apps.append({"appid": aid, "name": app.get("name", "")})
+
+        logger.info(
+            f"[SteamWebAPI] Phase 1c done: {len(priority_apps)} apps need re-scan "
+            f"(skipped: {skipped_hubcap} already in Hubcap, "
+            f"{skipped_uptodate} up-to-date, {skipped_notindb} not in DB yet)."
+        )
+
+        # Save timestamp for next run AFTER successful processing
+        self.steam_webapi.save_last_run_ts(now_ts)
+        return priority_apps
+
     async def run_scan(
         self,
         app_list: List[Dict[str, Any]],
@@ -343,6 +444,11 @@ def main() -> int:
         "--hubcap-key", type=str,
         help="Hubcap Manifest API key (optional) - use free endpoints to detect updates and reduce Steam requests"
     )
+    parser.add_argument(
+        "--steam-web-api-key", type=str,
+        dest="steam_web_api_key",
+        help="Steam Web API key for IStoreService/GetAppList delta detection (Phase 1c)"
+    )
     parser.add_argument("--stats", action="store_true", help="Show summary statistics of stored dataset")
 
     args = parser.parse_args()
@@ -354,6 +460,7 @@ def main() -> int:
         delay=args.delay,
         steam_key=args.steam_key,
         hubcap_key=getattr(args, "hubcap_key", None),
+        steam_webapi_key=getattr(args, "steam_web_api_key", None),
     )
 
     # Register Ctrl+C handler
@@ -401,13 +508,15 @@ def main() -> int:
 
     if args.run or args.limit:
         async def _run() -> None:
-            # 1. Hubcap detects recently updated games & new manifests
+            # ── Phase 1a: Hubcap Recent Feed ──────────────────────────────────
+            # Detects games whose manifests recently changed on Hubcap.
+            # Fast, FREE, ~29–200 games per 12h window.
             priority_apps: List[Dict[str, Any]] = []
             if tracker.hubcap:
-                logger.info("[Hubcap] Phase 1: Checking recently updated games on Hubcap (FREE)...")
+                logger.info("[Phase 1a] Hubcap recent feed: checking top 300 updated games...")
                 priority_apps = await tracker.hubcap_scan(app_list, max_feed_check=300)
 
-            # Ensure any new games found by Hubcap not in app_list are added
+            # Ensure Hubcap-discovered apps are in the app_list for Phase 2
             existing_appids = {int(a["appid"]) for a in app_list}
             for pa in priority_apps:
                 aid = int(pa["appid"])
@@ -415,27 +524,59 @@ def main() -> int:
                     app_list.append(pa)
                     existing_appids.add(aid)
 
-            # 2. Hubcap Gap Fill: page through Hubcap's full 167k library 500 at a time
-            #    to find games that exist in Hubcap but not yet in data/.
-            #    Progress persists across runs via cache/hubcap_offset.json.
+            # Set of appids Phase 1a already handles (passed to Phase 1c to skip)
+            hubcap_priority_ids = {int(pa["appid"]) for pa in priority_apps}
+
+            # ── Phase 1b: Hubcap Gap Fill ─────────────────────────────────────
+            # Pages through Hubcap's 167k library 500 at a time.
+            # Finds games that Hubcap knows about but we haven't indexed yet.
+            # Progress persists in cache/hubcap_offset.json between runs.
             gap_fill_apps: List[Dict[str, Any]] = []
             if tracker.hubcap:
-                logger.info("[Hubcap] Phase 1b (Gap Fill): scanning library for missing games...")
+                logger.info("[Phase 1b] Hubcap gap fill: scanning library for unindexed games...")
                 gap_fill_apps = await tracker.hubcap_gap_fill(batch_size=500)
-                logger.info(f"[Hubcap] Gap Fill found {len(gap_fill_apps)} new games not yet in data/.")
+                logger.info(f"[Phase 1b] Gap fill found {len(gap_fill_apps)} new games not yet in data/.")
 
-            # 3. Targeted Steam scan: ONLY scan games that actually need work
-            #    - priority_apps : recently updated (Hubcap detected manifest change)
-            #    - gap_fill_apps : found in Hubcap but missing from data/
-            target_apps = priority_apps + gap_fill_apps
+            # ── Phase 1c: Steam Web API Delta ─────────────────────────────────
+            # Calls IStoreService/GetAppList?if_modified_since to get ALL apps
+            # that changed on Steam since the last run.
+            # This catches updates that Hubcap misses (e.g. FC27 build 25562691).
+            # Only re-scans apps already in data/ with stale _lastChecked.
+            webapi_apps: List[Dict[str, Any]] = []
+            if tracker.steam_webapi:
+                logger.info("[Phase 1c] Steam Web API delta: detecting updates Hubcap missed...")
+                webapi_apps = await tracker.steam_webapi_scan(
+                    hubcap_priority_ids=hubcap_priority_ids,
+                )
+                logger.info(f"[Phase 1c] Steam Web API found {len(webapi_apps)} additional games to re-scan.")
+
+            # ── Phase 2: Targeted Steam PICS Scan ────────────────────────────
+            # Merge all three sources, deduplicate by appid.
+            # Only scan games that actually need work — never the full 250k list.
+            seen_ids: set = set(hubcap_priority_ids)
+            target_apps: List[Dict[str, Any]] = list(priority_apps)
+
+            for app in gap_fill_apps + webapi_apps:
+                aid = int(app["appid"])
+                if aid not in seen_ids:
+                    target_apps.append(app)
+                    seen_ids.add(aid)
+
             if not target_apps:
-                logger.info("[Targeted Scan] Everything is up to date! No Steam scan needed this run.")
+                logger.info("[Phase 2] Everything is up to date — no Steam scan needed this run.")
                 return
 
             logger.info(
-                f"[Steam] Phase 2: Scanning {len(target_apps)} target games via Steam API "
-                f"({len(priority_apps)} updated + {len(gap_fill_apps)} new from Hubcap gap fill)..."
+                f"[Phase 2] Steam PICS scan: {len(target_apps)} target games "
+                f"({len(priority_apps)} Hubcap updated + "
+                f"{len(gap_fill_apps)} gap fill + "
+                f"{len(webapi_apps)} Steam Web API delta)..."
             )
+
+            # Discard checkpoint for priority apps so Steam always re-scans them
+            for app in target_apps:
+                tracker.checkpoint.processed_appids.discard(int(app["appid"]))
+
             await tracker.run_scan(
                 app_list=target_apps,
                 limit=args.limit,
