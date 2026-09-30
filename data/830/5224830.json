@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1790728817,
-  "_history": [],
-  "_change_number": 39308295,
-  "_missing_token": true,
-  "_sha": "26ca202cfe1f2bc9d716273d9b4b96431b28cae8",
-  "_size": 3317,
+  "_lastChecked": 1790772056,
+  "_history": [
+    {
+      "buildId": "25480602",
+      "branch": "beta",
+      "timeUpdated": 1790164132,
+      "firstSeen": 1790772056,
+      "manifests": {
+        "5224831": {
+          "gid": "519701585276623471",
+          "size": 435081394,
+          "download": 145367728
+        }
+      }
+    },
+    {
+      "buildId": "25558022",
+      "branch": "public",
+      "timeUpdated": 1790500913,
+      "firstSeen": 1790772056,
+      "manifests": {
+        "5224831": {
+          "gid": "5549988598246070020",
+          "size": 435083033,
+          "download": 145369040
+        }
+      }
+    }
+  ],
+  "_change_number": 39335051,
+  "_missing_token": false,
+  "_sha": "97df811c947d933262f5267fcc5a81e6dcd29c5c",
+  "_size": 4468,
   "appid": "5224830",
   "common": {
     "aicontenttype": "1",
@@ -35,7 +62,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5224830",
     "genres": {
       "0": "4",
@@ -108,11 +134,12 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "25b9bb8ac37f5cba1bffe6044649a31350eb9d6f/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/5224830/announcements/detail/690895494487999843",
+    "steam_release_date": "1790753810",
     "store_asset_mtime": "1788555967",
     "store_tags": {
       "0": "701",
@@ -145,5 +172,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Podium '80",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "linux/podium80.x86_64"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "windows/podium80.exe"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "mac/Podium80.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "5224831": {
+      "manifests": {
+        "beta": {
+          "download": "145367728",
+          "gid": "519701585276623471",
+          "size": "435081394"
+        },
+        "public": {
+          "download": "145369040",
+          "gid": "5549988598246070020",
+          "size": "435083033"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "25480602",
+        "description": "For pre-release testing",
+        "timebuildupdated": "1790163901",
+        "timeupdated": "1790164132"
+      },
+      "public": {
+        "buildid": "25558022",
+        "timebuildupdated": "1790499145",
+        "timeupdated": "1790500913"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Mebobox Ltd",
+    "publisher": "Mebobox Ltd"
+  }
 }

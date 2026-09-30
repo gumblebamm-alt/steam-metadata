@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790728728,
+  "_lastChecked": 1790772018,
   "_history": [
     {
       "buildId": "24880126",
@@ -52,12 +52,51 @@
           "download": 119256128
         }
       }
+    },
+    {
+      "buildId": "24880126",
+      "branch": "next_patch",
+      "timeUpdated": 1790752407,
+      "firstSeen": 1790772018,
+      "manifests": {
+        "437901": {
+          "gid": "265475637426863906",
+          "size": 1612048157,
+          "download": 1154091344
+        }
+      }
+    },
+    {
+      "buildId": "17674861",
+      "branch": "version_dotnet8",
+      "timeUpdated": 1741686082,
+      "firstSeen": 1790772018,
+      "manifests": {
+        "437901": {
+          "gid": "1075132100364062233",
+          "size": 1004767344,
+          "download": 119256128
+        }
+      }
+    },
+    {
+      "buildId": "17674861",
+      "branch": "version_previous",
+      "timeUpdated": 1741686082,
+      "firstSeen": 1790772018,
+      "manifests": {
+        "437901": {
+          "gid": "1075132100364062233",
+          "size": 1004767344,
+          "download": 119256128
+        }
+      }
     }
   ],
-  "_change_number": 39305017,
+  "_change_number": 39334190,
   "_missing_token": false,
-  "_sha": "f65644fb45477cbb49a986ed140f4553e6394e7c",
-  "_size": 16078,
+  "_sha": "dd3bb0e956eb262beb3fb7a316401738823e5508",
+  "_size": 16707,
   "appid": "437900",
   "common": {
     "associations": {
@@ -79,7 +118,8 @@
       "category_43": "1",
       "category_44": "1",
       "category_49": "1",
-      "category_62": "1"
+      "category_62": "1",
+      "category_63": "1"
     },
     "clienticon": "d72d2ba0288afc392209aad1263d0418bb6b8017",
     "clienttga": "c918fc6c7d613afb3ad737f33badf1c8341a8119",
@@ -160,8 +200,8 @@
     "oslist": "windows",
     "primary_genre": "18",
     "releasestate": "released",
-    "review_percentage": "91",
-    "review_score": "8",
+    "review_percentage": "73",
+    "review_score": "6",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
     },
@@ -771,20 +811,6 @@
     "usemms": "1"
   },
   "depots": {
-    "229004": {
-      "config": {
-        "oslist": "windows"
-      },
-      "depotfromapp": "228980",
-      "sharedinstall": "1"
-    },
-    "229020": {
-      "config": {
-        "oslist": "windows"
-      },
-      "depotfromapp": "228980",
-      "sharedinstall": "1"
-    },
     "437901": {
       "manifests": {
         "beta_test": {
@@ -802,7 +828,22 @@
           "gid": "427581855340444083",
           "size": "186333822"
         },
+        "next_patch": {
+          "download": "1154091344",
+          "gid": "265475637426863906",
+          "size": "1612048157"
+        },
         "public": {
+          "download": "119256128",
+          "gid": "1075132100364062233",
+          "size": "1004767344"
+        },
+        "version_dotnet8": {
+          "download": "119256128",
+          "gid": "1075132100364062233",
+          "size": "1004767344"
+        },
+        "version_previous": {
           "download": "119256128",
           "gid": "1075132100364062233",
           "size": "1004767344"
@@ -828,13 +869,30 @@
         "timebuildupdated": "1517125577",
         "timeupdated": "1517125741"
       },
+      "next_patch": {
+        "buildid": "24880126",
+        "description": "Test the next small update",
+        "timebuildupdated": "1787407292",
+        "timeupdated": "1790752407"
+      },
       "public": {
         "buildid": "17674861",
         "timebuildupdated": "1741685826",
         "timeupdated": "1741686082"
+      },
+      "version_dotnet8": {
+        "buildid": "17674861",
+        "description": "Version history",
+        "timebuildupdated": "1741685826",
+        "timeupdated": "1741686082"
+      },
+      "version_previous": {
+        "buildid": "17674861",
+        "description": "Update restore point",
+        "timebuildupdated": "1741685826",
+        "timeupdated": "1741686082"
       }
-    },
-    "privatebranches": "1"
+    }
   },
   "extended": {
     "developer": "vikingfabian",

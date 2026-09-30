@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1790728751,
-  "_history": [],
-  "_change_number": 39302364,
-  "_missing_token": true,
-  "_sha": "12c8e9e7a5f49d3528568ddf77858a068ba41641",
-  "_size": 5658,
+  "_lastChecked": 1790772017,
+  "_history": [
+    {
+      "buildId": "25599928",
+      "branch": "public",
+      "timeUpdated": 1790677106,
+      "firstSeen": 1790771953,
+      "manifests": {
+        "228988": {
+          "gid": "6645201662696499616",
+          "size": null,
+          "download": null
+        },
+        "3582121": {
+          "gid": "5983830828356430406",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39342760,
+  "_missing_token": false,
+  "_sha": "3dc790a1efd2e46c5b8c409943284edf2cf85217",
+  "_size": 6768,
   "appid": "3582120",
   "common": {
     "aicontenttype": "1",
@@ -29,6 +49,7 @@
     "clienticon": "4194aa8af69870c1a92a9fcf34f6a5ae78219fbd",
     "clienttga": "5c7472ca78ac38c3679227ae28aec8296ca8ddae",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -39,7 +60,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3582120",
     "genres": {
       "0": "1",
@@ -143,14 +163,17 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "87",
+    "review_score": "7",
     "small_capsule": {
       "english": "0f1676317a3b74fdcb9e9210b2043f0b265dc3d7/capsule_231x87.jpg",
       "japanese": "8203517c4a435635cc9c5d616b41b10fac2ac3c8/capsule_231x87_japanese.jpg",
       "schinese": "6e4dc1394583bc6000decf70330a7042beb7aef3/capsule_231x87_schinese.jpg",
       "tchinese": "6e4dc1394583bc6000decf70330a7042beb7aef3/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1790237732",
+    "steam_release_date": "1790737206",
+    "store_asset_mtime": "1790736883",
     "store_tags": {
       "0": "4637",
       "1": "1734",
@@ -194,5 +217,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "科恩 1939",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Cohen1939.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3582121": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "9212471728",
+          "gid": "5983830828356430406",
+          "size": "19605251692"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25599928",
+        "timebuildupdated": "1790676935",
+        "timeupdated": "1790677106"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Cube of Cube",
+    "publisher": "2P Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "CubeOfCube/Cohen1939",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

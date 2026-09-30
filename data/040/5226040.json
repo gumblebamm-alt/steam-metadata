@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1790728817,
-  "_history": [],
-  "_change_number": 39295482,
-  "_missing_token": true,
-  "_sha": "18f41b575fb3fbd432192c4b8228d13c7af0ea36",
-  "_size": 3086,
+  "_lastChecked": 1790772017,
+  "_history": [
+    {
+      "buildId": "25592484",
+      "branch": "public",
+      "timeUpdated": 1790648146,
+      "firstSeen": 1790771959,
+      "manifests": {
+        "5226041": {
+          "gid": "7792508395517445454",
+          "size": null,
+          "download": null
+        },
+        "5232920": {
+          "gid": "570537147398254017",
+          "size": 14734266,
+          "download": 14694400
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39334936,
+  "_missing_token": false,
+  "_sha": "5ca0d2249da55c4039e4f8a1570f187dfd1af13d",
+  "_size": 4417,
   "appid": "5226040",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +51,8 @@
     },
     "clienticon": "89f8b469caa57766450057fd1086aec76aade2a1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5226040",
     "genres": {
       "0": "4",
@@ -107,10 +127,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3a5d21069cb81fd7f5e4586b89df4d860fe5b9c4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790754146",
     "store_asset_mtime": "1790660090",
     "store_tags": {
       "0": "615955",
@@ -141,5 +162,72 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Taskbar Armory",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Taskbar Armory.exe"
+      }
+    }
+  },
+  "depots": {
+    "5226041": {
+      "manifests": {
+        "public": {
+          "download": "143376560",
+          "gid": "7792508395517445454",
+          "size": "264698397"
+        }
+      }
+    },
+    "5232920": {
+      "dlcappid": "5232920",
+      "manifests": {
+        "public": {
+          "download": "14694400",
+          "gid": "570537147398254017",
+          "size": "14734266"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25592484",
+        "timebuildupdated": "1790647051",
+        "timeupdated": "1790648146"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Recoil Mojo",
+    "dlcavailableonstore": "1",
+    "isfreeapp": "1",
+    "listofdlc": "5232920",
+    "publisher": "Mojo Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "RecoilMojo/Taskbar Armory/Steam/{64BitSteamID}",
+        "pattern": "taskbar-armory-save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "RecoilMojo/Taskbar Armory/Steam/{64BitSteamID}",
+        "pattern": "taskbar-armory-save.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
