@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1790728750,
-  "_history": [],
-  "_change_number": 39215309,
-  "_missing_token": true,
-  "_sha": "05c589eacf7790d85949fae8d873759053c5efa6",
-  "_size": 3570,
+  "_lastChecked": 1790815104,
+  "_history": [
+    {
+      "buildId": "25618865",
+      "branch": "public",
+      "timeUpdated": 1790741166,
+      "firstSeen": 1790815104,
+      "manifests": {
+        "3510591": {
+          "gid": "6796581057715464275",
+          "size": 336298896,
+          "download": 188735712
+        },
+        "3510592": {
+          "gid": "5947203632959694955",
+          "size": 594464606,
+          "download": 233524992
+        }
+      }
+    }
+  ],
+  "_change_number": 39352461,
+  "_missing_token": false,
+  "_sha": "0020b638e83d992e9c8cc466b1d2cedd1e72f00d",
+  "_size": 7234,
   "appid": "3510590",
   "common": {
     "associations": {
@@ -25,8 +44,8 @@
     "clienticon": "0ff3a18a02cc25f9f7f6ce4f0576968ad1bb72d8",
     "clienttga": "5b69635bff83f2da8b68d7021782a4218a50d1b2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3510590",
     "genres": {
       "0": "4",
@@ -110,11 +129,97 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b9e3718d8de3602170efb48998aa28848217f9d8/capsule_231x87.jpg",
       "schinese": "8055c157ca35378ca14213fb148dcc3303e290f1/capsule_231x87_schinese.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "1",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "gamepad"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamMachine_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+        }
+      },
+      "test_timestamp": "1774915200",
+      "tested_build_id": "22076448",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "5": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+        }
+      }
+    },
+    "steam_release_date": "1790785998",
     "store_asset_mtime": "1787771653",
     "store_tags": {
       "0": "16689",
@@ -151,5 +256,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Purr-fect Chef",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Purr-fect-Chef.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Purr-fect-Chef.app/Contents/MacOS/Purr-fect-Chef",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3510591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "188735712",
+          "gid": "6796581057715464275",
+          "size": "336298896"
+        }
+      }
+    },
+    "3510592": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "233524992",
+          "gid": "5947203632959694955",
+          "size": "594464606"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25618865",
+        "timebuildupdated": "1790741151",
+        "timeupdated": "1790741166"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Supernova Games",
+    "homepage": "https://www.gamesupernova.com/",
+    "publisher": "Supernova Games"
+  }
 }

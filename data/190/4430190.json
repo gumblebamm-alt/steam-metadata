@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1790772038,
-  "_history": [],
-  "_change_number": 39334126,
-  "_missing_token": true,
-  "_sha": "3d8b15d95ad1d843f36e8b5b17eab15f62b9a66d",
-  "_size": 2961,
+  "_lastChecked": 1790815115,
+  "_history": [
+    {
+      "buildId": "25540328",
+      "branch": "public",
+      "timeUpdated": 1790381924,
+      "firstSeen": 1790815115,
+      "manifests": {
+        "4430191": {
+          "gid": "2823360388121997431",
+          "size": 322313042,
+          "download": 57448864
+        },
+        "4430192": {
+          "gid": "8740715161126891585",
+          "size": 341814862,
+          "download": 65228768
+        }
+      }
+    }
+  ],
+  "_change_number": 39361324,
+  "_missing_token": false,
+  "_sha": "fe1bc51a2878dbd78f8df1f7c2046d6724c09dfe",
+  "_size": 3966,
   "appid": "4430190",
   "common": {
     "associations": {
@@ -30,9 +49,9 @@
     },
     "clienticon": "30d6ba1d9bef9d6bdd37c4ecaeb105a2212a0727",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4430190",
     "genres": {
       "0": "25",
@@ -104,10 +123,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d9db6ac754f87da686e50e1df221458bd35ed83e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790806898",
     "store_asset_mtime": "1780904774",
     "store_tags": {
       "0": "21",
@@ -132,5 +152,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Soup Weather",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SoupWeatherBuildV1.0.1 Windows\\Soup Weather.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "SoupWeatherBuildV1.0.1 true (mac).app"
+      }
+    }
+  },
+  "depots": {
+    "4430191": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "57448864",
+          "gid": "2823360388121997431",
+          "size": "322313042"
+        }
+      }
+    },
+    "4430192": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "65228768",
+          "gid": "8740715161126891585",
+          "size": "341814862"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25540328",
+        "timebuildupdated": "1790381922",
+        "timeupdated": "1790381924"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Brie Healy",
+    "publisher": "beembag"
+  }
 }
