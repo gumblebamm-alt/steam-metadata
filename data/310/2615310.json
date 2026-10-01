@@ -1,1 +1,486 @@
-{"_lastChecked":1789818321,"_history":[{"buildId":"24595919","branch":"public","timeUpdated":1786029787,"firstSeen":1788624956,"manifests":{"2615312":{"gid":"384298945727802639","size":121473876,"download":45435072}}},{"buildId":"25302414","branch":"public","timeUpdated":1789397327,"firstSeen":1789403167,"manifests":{"2615312":{"gid":"103731967140513596","size":127625320,"download":50074080}}},{"buildId":"25403899","branch":"public","timeUpdated":1789787934,"firstSeen":1789795385,"manifests":{"2615312":{"gid":"4781699908016796286","size":127906296,"download":50400144}}}],"_change_number":39013331,"_missing_token":false,"_sha":"1705f18e3cb0d517c479d2978b7e43d58a72748a","_size":4381,"appid":"2615310","common":{"aicontenttype":"1","associations":{"0":{"name":"wozitdev","type":"developer"},"1":{"name":"wasitworthitdev","type":"publisher"},"2":{"name":"The 3D Trilogy","type":"franchise"}},"category":{"category_1":"1","category_2":"1","category_22":"1","category_23":"1","category_30":"1","category_36":"1","category_44":"1","category_49":"1","category_62":"1"},"clienticon":"e44988e118703faae9a2b017bb08828c6a65044f","clienttga":"35e733392c708e6a1170fe0c8dd839088e831df4","community_hub_visible":"1","community_visible_stats":"1","controllertagwizard":"1","gameid":"2615310","genres":{"0":"23","1":"28","2":"2","3":"70"},"header_image":{"english":"adfd7a404001003a3a0e1d195ecc900bf0485622/header.jpg"},"icon":"054304be40560034b2aa33d1700952d08f4670dc","library_assets":{"library_capsule":"en","library_header":"en","library_hero":"en","library_hero_blur":"en","library_logo":"en","logo_position":{"height_pct":"78.34243647589645","pinned_position":"CenterCenter","width_pct":"60.76833527357393"}},"library_assets_full":{"library_capsule":{"image":{"english":"98eaa51238c1d52f84800c73950eef2ef047c6c1/library_capsule.jpg"},"image2x":{"english":"98eaa51238c1d52f84800c73950eef2ef047c6c1/library_capsule_2x.jpg"}},"library_header":{"image":{"english":"b370e354c68c61fa0e3ad76959bfd7e120a61fcd/library_header.jpg"},"image2x":{"english":"b370e354c68c61fa0e3ad76959bfd7e120a61fcd/library_header_2x.jpg"}},"library_hero":{"image":{"english":"1adeec2c5c3e8d79fe7f49d2f21d170f59e48e16/library_hero.jpg"},"image2x":{"english":"1adeec2c5c3e8d79fe7f49d2f21d170f59e48e16/library_hero_2x.jpg"}},"library_hero_blur":{"image":{"english":"1adeec2c5c3e8d79fe7f49d2f21d170f59e48e16/library_hero_blur.jpg"}},"library_logo":{"image":{"english":"506df3f23ede5170d7f377756854cb5bd9e7664f/logo.png"},"image2x":{"english":"506df3f23ede5170d7f377756854cb5bd9e7664f/logo_2x.png"},"logo_position":{"height_pct":"78.34243647589645","pinned_position":"CenterCenter","width_pct":"60.76833527357393"}}},"name":"wozitdev's 3D Chess","osarch":"","osextended":"","oslist":"windows","primary_genre":"2","releasestate":"released","small_capsule":{"english":"93824bd7d9d30b1110afd0711379628cf47f6734/capsule_231x87.jpg"},"steam_release_date":"1762790493","store_asset_mtime":"1789433477","store_tags":{"0":"14139","1":"9","10":"6129","11":"492","12":"493","13":"8122","14":"7569","15":"4182","16":"7368","17":"4184","2":"1084988","3":"599","4":"12472","5":"1770","6":"17389","7":"1741","8":"8013","9":"4191"},"supported_languages":{"english":{"supported":"true"}},"type":"Game","workshop_visible":"1"},"config":{"installdir":"wozitdevs_3d_chess","launch":{"0":{"config":{"oslist":"windows"},"executable":"wozitdevs_3d_chess.exe","type":"default"}}},"depots":{"2615312":{"manifests":{"public":{"download":"50400144","gid":"4781699908016796286","size":"127906296"}}},"baselanguages":"english","branches":{"public":{"buildid":"25403899","timebuildupdated":"1789787901","timeupdated":"1789787934"}},"workshopdepot":"2615310"},"extended":{"developer":"wozitdev","publisher":"wasitworthitdev"},"ufs":{"maxnumfiles":"2600","quota":"1440000","savefiles":{"0":{"path":"Godot/app_userdata/wozitdevs_3d_chess/saves","pattern":"*.save","root":"WinAppDataRoaming"},"1":{"path":"Godot/app_userdata/wozitdevs_3d_chess/saves","pattern":"*.png","root":"WinAppDataRoaming"},"2":{"path":"Godot/app_userdata/wozitdevs_3d_chess","pattern":"game_config.json","root":"WinAppDataRoaming"}}}}
+{
+  "_lastChecked": 1790858205,
+  "_history": [
+    {
+      "buildId": "24595919",
+      "branch": "public",
+      "timeUpdated": 1786029787,
+      "firstSeen": 1788624956,
+      "manifests": {
+        "2615312": {
+          "gid": "384298945727802639",
+          "size": 121473876,
+          "download": 45435072
+        }
+      }
+    },
+    {
+      "buildId": "25302414",
+      "branch": "public",
+      "timeUpdated": 1789397327,
+      "firstSeen": 1789403167,
+      "manifests": {
+        "2615312": {
+          "gid": "103731967140513596",
+          "size": 127625320,
+          "download": 50074080
+        }
+      }
+    },
+    {
+      "buildId": "25403899",
+      "branch": "public",
+      "timeUpdated": 1789787934,
+      "firstSeen": 1789795385,
+      "manifests": {
+        "2615312": {
+          "gid": "4781699908016796286",
+          "size": 127906296,
+          "download": 50400144
+        }
+      }
+    },
+    {
+      "buildId": "25579093",
+      "branch": "public",
+      "timeUpdated": 1790602273,
+      "firstSeen": 1790858205,
+      "manifests": {
+        "2615311": {
+          "gid": "7385120033051240376",
+          "size": 128341144,
+          "download": 69789536
+        },
+        "2615312": {
+          "gid": "672273458197586491",
+          "size": 163299056,
+          "download": 78232352
+        },
+        "2615313": {
+          "gid": "379944012548292896",
+          "size": 227902784,
+          "download": 98103072
+        }
+      }
+    }
+  ],
+  "_change_number": 39372758,
+  "_missing_token": false,
+  "_sha": "6ae3b7c874accf2a8286454fded95145db2f6a3d",
+  "_size": 8385,
+  "appid": "2615310",
+  "common": {
+    "aicontenttype": "1",
+    "associations": {
+      "0": {
+        "name": "wozitdev",
+        "type": "developer"
+      },
+      "1": {
+        "name": "wasitworthitdev",
+        "type": "publisher"
+      },
+      "2": {
+        "name": "The 3D Trilogy",
+        "type": "franchise"
+      }
+    },
+    "category": {
+      "category_1": "1",
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_25": "1",
+      "category_28": "1",
+      "category_30": "1",
+      "category_36": "1",
+      "category_43": "1",
+      "category_44": "1",
+      "category_49": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_59": "1",
+      "category_62": "1"
+    },
+    "clienticns": "3cfea5c2da85e2921c37238d7cee9600e021146a",
+    "clienticon": "d46027a37bad0d0bc4e65e8c644f0b9dbb7765a9",
+    "clienttga": "35e733392c708e6a1170fe0c8dd839088e831df4",
+    "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "full",
+    "controllertagwizard": "1",
+    "gameid": "2615310",
+    "genres": {
+      "0": "23",
+      "1": "28",
+      "2": "2",
+      "3": "70"
+    },
+    "header_image": {
+      "english": "f69bff710e1799211cb21c5ebee5da3d64cf2815/header.jpg"
+    },
+    "icon": "d46027a37bad0d0bc4e65e8c644f0b9dbb7765a9",
+    "languages": {
+      "arabic": "1",
+      "brazilian": "1",
+      "bulgarian": "1",
+      "czech": "1",
+      "danish": "1",
+      "dutch": "1",
+      "english": "1",
+      "finnish": "1",
+      "french": "1",
+      "german": "1",
+      "greek": "1",
+      "hungarian": "1",
+      "indonesian": "1",
+      "italian": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "latam": "1",
+      "malay": "1",
+      "norwegian": "1",
+      "polish": "1",
+      "portuguese": "1",
+      "romanian": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1",
+      "swedish": "1",
+      "tchinese": "1",
+      "thai": "1",
+      "turkish": "1",
+      "ukrainian": "1",
+      "vietnamese": "1"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_header": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "height_pct": "78.34243647589645",
+        "pinned_position": "BottomCenter",
+        "width_pct": "60.76833527357393"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "0c1a2a949ac54664c4950556a53d29a923cc8784/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "0c1a2a949ac54664c4950556a53d29a923cc8784/library_capsule_2x.jpg"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "a6da8f047f3e1be0269f3e7971cf87e0e03f5599/library_header.jpg"
+        },
+        "image2x": {
+          "english": "a6da8f047f3e1be0269f3e7971cf87e0e03f5599/library_header_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "00786ff6b9336afff0db45b2a3299b6fb383206c/library_hero.jpg"
+        },
+        "image2x": {
+          "english": "00786ff6b9336afff0db45b2a3299b6fb383206c/library_hero_2x.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "00786ff6b9336afff0db45b2a3299b6fb383206c/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "cf360f20cffad2439fb9990be52ee6a52bde473d/logo.png"
+        },
+        "image2x": {
+          "english": "cf360f20cffad2439fb9990be52ee6a52bde473d/logo_2x.png"
+        },
+        "logo_position": {
+          "height_pct": "78.34243647589645",
+          "pinned_position": "BottomCenter",
+          "width_pct": "60.76833527357393"
+        }
+      }
+    },
+    "linuxclienticon": "8e9ef146d8cf10b44e53e4c4ec3d092cd88f5c0a",
+    "name": "wozitdev's 3D Chess",
+    "osarch": "",
+    "oscpu": "",
+    "osextended": "",
+    "oslist": "windows,macos,linux",
+    "primary_genre": "2",
+    "releasestate": "released",
+    "small_capsule": {
+      "english": "91501dd2b9ffeafc794afeac538a1231b1e289cd/capsule_231x87.jpg"
+    },
+    "steam_release_date": "1762790493",
+    "store_asset_mtime": "1790839896",
+    "store_tags": {
+      "0": "14139",
+      "1": "9",
+      "10": "6129",
+      "11": "492",
+      "12": "493",
+      "13": "8122",
+      "14": "7569",
+      "15": "4182",
+      "16": "7368",
+      "17": "4184",
+      "2": "1084988",
+      "3": "599",
+      "4": "12472",
+      "5": "1770",
+      "6": "17389",
+      "7": "1741",
+      "8": "8013",
+      "9": "4191"
+    },
+    "supported_languages": {
+      "arabic": {
+        "supported": "true"
+      },
+      "brazilian": {
+        "supported": "true"
+      },
+      "bulgarian": {
+        "supported": "true"
+      },
+      "czech": {
+        "supported": "true"
+      },
+      "danish": {
+        "supported": "true"
+      },
+      "dutch": {
+        "supported": "true"
+      },
+      "english": {
+        "supported": "true"
+      },
+      "filipino": {
+        "supported": "true"
+      },
+      "finnish": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "greek": {
+        "supported": "true"
+      },
+      "hungarian": {
+        "supported": "true"
+      },
+      "indonesian": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      },
+      "latam": {
+        "supported": "true"
+      },
+      "malay": {
+        "supported": "true"
+      },
+      "norwegian": {
+        "supported": "true"
+      },
+      "polish": {
+        "supported": "true"
+      },
+      "portuguese": {
+        "supported": "true"
+      },
+      "romanian": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "swedish": {
+        "supported": "true"
+      },
+      "tchinese": {
+        "supported": "true"
+      },
+      "thai": {
+        "supported": "true"
+      },
+      "turkish": {
+        "supported": "true"
+      },
+      "ukrainian": {
+        "supported": "true"
+      },
+      "vietnamese": {
+        "supported": "true"
+      }
+    },
+    "type": "Game",
+    "workshop_visible": "1"
+  },
+  "config": {
+    "installdir": "wozitdevs_3d_chess",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "wozitdevs_3d_chess.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "wozitdevs_3d_chess.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "wozitdevs_3d_chess.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "3",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "game_actions_2615310.vdf"
+  },
+  "depots": {
+    "2615311": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "69789536",
+          "gid": "7385120033051240376",
+          "size": "128341144"
+        }
+      }
+    },
+    "2615312": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "78232352",
+          "gid": "672273458197586491",
+          "size": "163299056"
+        }
+      }
+    },
+    "2615313": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "98103072",
+          "gid": "379944012548292896",
+          "size": "227902784"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25579093",
+        "timebuildupdated": "1790602234",
+        "timeupdated": "1790602273"
+      }
+    },
+    "workshopdepot": "2615310"
+  },
+  "extended": {
+    "developer": "wozitdev",
+    "publisher": "wasitworthitdev"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "2600",
+    "quota": "1440000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/wozitdevs_3d_chess/saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/wozitdevs_3d_chess/local_workshop",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "godot/app_userdata/wozitdevs_3d_chess/saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      },
+      "3": {
+        "path": "godot/app_userdata/wozitdevs_3d_chess/local_workshop",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxXdgDataHome"
+      },
+      "4": {
+        "path": "Godot/app_userdata/wozitdevs_3d_chess/saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "5": {
+        "path": "Godot/app_userdata/wozitdevs_3d_chess/local_workshop",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacAppSupport"
+      }
+    }
+  }
+}
