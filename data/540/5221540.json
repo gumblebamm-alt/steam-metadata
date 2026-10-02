@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1790858238,
-  "_history": [],
-  "_change_number": 39380131,
-  "_missing_token": true,
-  "_sha": "ab863a0d84cfd46db51262b92bf0acea5b703edb",
-  "_size": 5082,
+  "_lastChecked": 1790901470,
+  "_history": [
+    {
+      "buildId": "25656668",
+      "branch": "public",
+      "timeUpdated": 1790869375,
+      "firstSeen": 1790901470,
+      "manifests": {
+        "5221541": {
+          "gid": "7317975244061501646",
+          "size": 191378233,
+          "download": 145281952
+        },
+        "5291720": {
+          "gid": "456677469368815285",
+          "size": 113895172,
+          "download": 99720208
+        }
+      }
+    }
+  ],
+  "_change_number": 39397743,
+  "_missing_token": false,
+  "_sha": "590c96de63fa7fb6a000ca902f80b7111787e6f7",
+  "_size": 6264,
   "appid": "5221540",
   "common": {
     "associations": {
@@ -34,9 +53,9 @@
     },
     "clienticon": "23c1b37b76706570bf872005ac113fb3875f6db6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5221540",
     "genres": {
       "0": "25",
@@ -142,10 +161,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "b2300de81e6df300963f8ae760ef97603f4e04a0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790866821",
     "store_asset_mtime": "1790852620",
     "store_tags": {
       "0": "1664",
@@ -266,5 +288,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Emojix",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Emojix.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5221541": {
+      "manifests": {
+        "public": {
+          "download": "145281952",
+          "gid": "7317975244061501646",
+          "size": "191378233"
+        }
+      }
+    },
+    "5291720": {
+      "dlcappid": "5291720",
+      "manifests": {
+        "public": {
+          "download": "99720208",
+          "gid": "456677469368815285",
+          "size": "113895172"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25656668",
+        "timebuildupdated": "1790869375",
+        "timeupdated": "1790869375"
+      }
+    }
+  },
+  "extended": {
+    "developer": "100 Cozy Games",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5291720",
+    "publisher": "100 Cozy Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "Emojix/save",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Emojix/album",
+        "pattern": "album_index.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

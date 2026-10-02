@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1790858208,
-  "_history": [],
-  "_change_number": 39372697,
-  "_missing_token": true,
-  "_sha": "83bbbdb314d62583a7daf4008e20546c1394e769",
-  "_size": 3414,
+  "_lastChecked": 1790901423,
+  "_history": [
+    {
+      "buildId": "25653594",
+      "branch": "public",
+      "timeUpdated": 1790861039,
+      "firstSeen": 1790901423,
+      "manifests": {
+        "3339491": {
+          "gid": "3703547264643979140",
+          "size": 4315222384,
+          "download": 4125312912
+        }
+      }
+    }
+  ],
+  "_change_number": 39386614,
+  "_missing_token": false,
+  "_sha": "0520ba17bc13c25c016451062cb19b89c4084078",
+  "_size": 4693,
   "appid": "3339490",
   "common": {
     "associations": {
@@ -41,7 +55,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3339490",
     "genres": {
       "0": "1"
@@ -112,11 +125,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "28688ccd236544b128e2ac50d8e85af6760f985d/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1790829728",
+    "steam_release_date": "1790862979",
+    "store_asset_mtime": "1790864651",
     "store_tags": {
       "0": "5547",
       "1": "7178",
@@ -147,5 +161,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ArenaPartyGame",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play",
+        "description_loc": {
+          "english": "Play"
+        },
+        "executable": "ArenaPartyGame.exe",
+        "type": "default"
+      }
+    },
+    "market_presence": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3339491": {
+      "manifests": {
+        "public": {
+          "download": "4125312912",
+          "gid": "3703547264643979140",
+          "size": "4315222384"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25653594",
+        "timebuildupdated": "1790861019",
+        "timeupdated": "1790861039"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Secret Handshake Interactive",
+    "dlcavailableonstore": "1",
+    "listofdlc": "4836350",
+    "publisher": "Secret Handshake Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "8",
+    "quota": "500000",
+    "savefiles": {
+      "0": {
+        "path": "ArenaPartyGame/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

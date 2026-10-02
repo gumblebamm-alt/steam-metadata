@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1790772050,
-  "_history": [],
-  "_change_number": 39272888,
-  "_missing_token": true,
-  "_sha": "eb0039ee09d6b95b4ece086b2010544c1ab47e6e",
-  "_size": 2848,
+  "_lastChecked": 1790901461,
+  "_history": [
+    {
+      "buildId": "25574952",
+      "branch": "public",
+      "timeUpdated": 1790855679,
+      "firstSeen": 1790901461,
+      "manifests": {
+        "5034441": {
+          "gid": "5893374684377656997",
+          "size": 23964880,
+          "download": 10673920
+        },
+        "5034442": {
+          "gid": "6720162789447076809",
+          "size": 43054560,
+          "download": 14868800
+        }
+      }
+    }
+  ],
+  "_change_number": 39382995,
+  "_missing_token": false,
+  "_sha": "3e5daf3e3addf19a4a0dc9aea0453371d94c41c8",
+  "_size": 5161,
   "appid": "5034440",
   "common": {
     "aicontenttype": "1",
@@ -26,7 +45,6 @@
     "clienticon": "2af2cc1279bc095a47203623abb67d2f1b03c3a9",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5034440",
     "genres": {
       "0": "23",
@@ -99,10 +117,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "efa821f41f048bfa9eec5f4b8f666473eeb09e09/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790858774",
     "store_asset_mtime": "1790348526",
     "store_tags": {
       "0": "701",
@@ -125,5 +144,119 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cricket Team Manager",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "cricket-team-manager.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Cricket Team Manager.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5034441": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "10673920",
+          "gid": "5893374684377656997",
+          "size": "23964880"
+        }
+      }
+    },
+    "5034442": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "14868800",
+          "gid": "6720162789447076809",
+          "size": "43054560"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25574952",
+        "timebuildupdated": "1790588861",
+        "timeupdated": "1790855679"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "LSL Ventures",
+    "homepage": "https://cricketteammanager.com",
+    "publisher": "LSL Ventures"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "2000000000",
+    "savefiles": {
+      "0": {
+        "path": "Library/Application Support/com.lslventures.cricketteammanager/saves/",
+        "pattern": "*.sqlite",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacHome"
+      },
+      "1": {
+        "path": "com.lslventures.cricketteammanager/saves/",
+        "pattern": "*.sqlite",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Library/Application Support/com.lslventures.cricketteammanager/saves/",
+        "pattern": "*.sqlite-wal",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacHome"
+      },
+      "3": {
+        "path": "com.lslventures.cricketteammanager/saves/",
+        "pattern": "*.sqlite-wal",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Library/Application Support/com.lslventures.cricketteammanager/patches/",
+        "pattern": "*.tsv",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacHome"
+      },
+      "5": {
+        "path": "com.lslventures.cricketteammanager/patches/",
+        "pattern": "*.tsv",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
