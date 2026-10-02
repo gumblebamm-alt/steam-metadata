@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1790772027,
-  "_history": [],
-  "_change_number": 39332111,
-  "_missing_token": true,
-  "_sha": "c0f6da2fe04e86bcfbdbcbfa82964eb5eef30460",
-  "_size": 5181,
+  "_lastChecked": 1790944531,
+  "_history": [
+    {
+      "buildId": "25671528",
+      "branch": "public",
+      "timeUpdated": 1790926611,
+      "firstSeen": 1790944531,
+      "manifests": {
+        "3153281": {
+          "gid": "8289000949959569035",
+          "size": 6554303365,
+          "download": 5202501520
+        },
+        "3153282": {
+          "gid": "2729993645676382229",
+          "size": 3330147513,
+          "download": 2662469504
+        }
+      }
+    }
+  ],
+  "_change_number": 39416312,
+  "_missing_token": false,
+  "_sha": "cae6d3b6cc55d19780e7b07c92f1497a57e43439",
+  "_size": 6584,
   "appid": "3153280",
   "common": {
     "associations": {
@@ -30,9 +49,9 @@
     "clienticon": "6fb6a949ec43aed0c5b7f75c0ce9350b80858877",
     "clienttga": "0b801d7fe2a7c7c283e63c497418e2ada02c078d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3153280",
     "genres": {
       "0": "1",
@@ -136,7 +155,7 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "49f692a0c9964ef62b567d7913ff072fe0271ee2/capsule_231x87.jpg"
     },
@@ -221,5 +240,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "拯救小曼 SAVE AMANI",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Save Amani.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Save Amani.app"
+      }
+    }
+  },
+  "depots": {
+    "3153281": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "5202501520",
+          "gid": "8289000949959569035",
+          "size": "6554303365"
+        }
+      }
+    },
+    "3153282": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "2662469504",
+          "gid": "2729993645676382229",
+          "size": "3330147513"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25671528",
+        "timebuildupdated": "1790926583",
+        "timeupdated": "1790926611"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "SPIRIT3D",
+    "publisher": "SPIRIT3D"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "SaveDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

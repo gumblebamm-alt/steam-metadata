@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1790815107,
-  "_history": [],
-  "_change_number": 39349734,
-  "_missing_token": true,
-  "_sha": "0502d11c87398270f17748e7dd0a466d077da694",
-  "_size": 4455,
+  "_lastChecked": 1790944537,
+  "_history": [
+    {
+      "buildId": "25565749",
+      "branch": "public",
+      "timeUpdated": 1790543176,
+      "firstSeen": 1790944537,
+      "manifests": {
+        "3867171": {
+          "gid": "2883776470440190594",
+          "size": 963605518,
+          "download": 936585792
+        },
+        "3867172": {
+          "gid": "5834273811404445530",
+          "size": 1655663304,
+          "download": 1544055232
+        },
+        "3867173": {
+          "gid": "5680894969897154465",
+          "size": 975869362,
+          "download": 915694032
+        },
+        "3867174": {
+          "gid": "8074113942698168046",
+          "size": 1655663304,
+          "download": 1544055232
+        }
+      }
+    }
+  ],
+  "_change_number": 39419828,
+  "_missing_token": false,
+  "_sha": "29ebbec002892969cc6d72cfbb30f27decaac9db",
+  "_size": 6348,
   "appid": "3867170",
   "common": {
     "associations": {
@@ -45,7 +74,6 @@
     "controllertagwizard": "1",
     "disable_user_facing_ugc": "",
     "disable_user_media_upload": "",
-    "exfgls": "8",
     "gameid": "3867170",
     "genres": {
       "0": "3"
@@ -61,7 +89,12 @@
       "library_header": "en,zh-cn,ja",
       "library_hero": "en",
       "library_hero_blur": "en",
-      "library_logo": "en,zh-cn,ja"
+      "library_logo": "en,zh-cn,ja",
+      "logo_position": {
+        "height_pct": "58.67549375379506",
+        "pinned_position": "BottomLeft",
+        "width_pct": "60.15384591548401"
+      }
     },
     "library_assets_full": {
       "library_capsule": {
@@ -111,6 +144,11 @@
           "english": "1e95114b80e031bdbb79e274048ab024a3f1ff6e/logo_2x.png",
           "japanese": "c63b9773b49a75b8d536bcc27227d41cb3ef8b4d/logo_japanese_2x.png",
           "schinese": "145777ca150d6d3e7295d10420f80f147ba430ca/logo_schinese_2x.png"
+        },
+        "logo_position": {
+          "height_pct": "58.67549375379506",
+          "pinned_position": "BottomLeft",
+          "width_pct": "60.15384591548401"
         }
       }
     },
@@ -123,19 +161,23 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "96",
+    "review_score": "8",
     "small_capsule": {
       "english": "b93c26e6cb14b3bdc4c83d32b9c2b2bcabd6b108/capsule_231x87.jpg",
       "japanese": "f61901d3be412dc43db532c56120c2d3cce6f9ce/capsule_231x87_japanese.jpg",
       "schinese": "1586453ead51c62af18cca8d36cd76ee96f82568/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1790913602",
     "store_asset_mtime": "1790783225",
     "store_tags": {
       "0": "122",
       "1": "21",
+      "10": "4434",
       "2": "9",
-      "3": "4182",
-      "4": "4325",
+      "3": "4325",
+      "4": "4182",
       "5": "12095",
       "6": "4667",
       "7": "9130",
@@ -158,5 +200,93 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sengoku Rance",
+    "launch": {
+      "0": {
+        "executable": "Rance7.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3867171": {
+      "manifests": {
+        "public": {
+          "download": "936585792",
+          "gid": "2883776470440190594",
+          "size": "963605518"
+        }
+      }
+    },
+    "3867172": {
+      "config": {
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "download": "1544055232",
+          "gid": "5834273811404445530",
+          "size": "1655663304"
+        }
+      }
+    },
+    "3867173": {
+      "config": {
+        "language": "japanese"
+      },
+      "manifests": {
+        "public": {
+          "download": "915694032",
+          "gid": "5680894969897154465",
+          "size": "975869362"
+        }
+      }
+    },
+    "3867174": {
+      "config": {
+        "language": "tchinese"
+      },
+      "manifests": {
+        "public": {
+          "download": "1544055232",
+          "gid": "8074113942698168046",
+          "size": "1655663304"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25565749",
+        "timebuildupdated": "1790543028",
+        "timeupdated": "1790543176"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Alicesoft",
+    "homepage": "https://www.kaguragames.com/",
+    "publisher": "Kagura Games"
+  },
+  "ufs": {
+    "maxnumfiles": "101",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "SaveData",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "SaveData",
+        "pattern": "*.asd",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "SaveData",
+        "pattern": "*.as2",
+        "root": "gameinstall"
+      }
+    }
+  }
 }
