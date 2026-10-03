@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1790858219,
+  "_lastChecked": 1790987704,
   "_history": [
+    {
+      "buildId": "25680184",
+      "branch": "public",
+      "timeUpdated": 1790955383,
+      "firstSeen": 1790987704,
+      "manifests": {
+        "4369491": {
+          "gid": "6229116506474240149",
+          "size": 229731442,
+          "download": 84933904
+        },
+        "4369499": {
+          "gid": "3631938241958467860",
+          "size": 370232775,
+          "download": 115835520
+        }
+      }
+    },
     {
       "buildId": "25647883",
       "branch": "public",
@@ -52,25 +70,12 @@
           "download": 85220224
         }
       }
-    },
-    {
-      "buildId": "25303427",
-      "branch": "public",
-      "timeUpdated": 1789400768,
-      "firstSeen": 1789405377,
-      "manifests": {
-        "4369491": {
-          "gid": "3643199517084796507",
-          "size": 228230116,
-          "download": 85191360
-        }
-      }
     }
   ],
-  "_change_number": 39382303,
+  "_change_number": 39434128,
   "_missing_token": false,
-  "_sha": "23c961ab61083530465ec944fe47e93df2c8b220",
-  "_size": 6908,
+  "_sha": "f7881dde90656f0a37a6dff3e7343f46f0fa9051",
+  "_size": 8317,
   "appid": "4369490",
   "common": {
     "associations": {
@@ -176,11 +181,12 @@
     },
     "name": "Soulbound",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos",
     "primary_genre": "3",
     "releasestate": "released",
-    "review_percentage": "58",
+    "review_percentage": "59",
     "review_score": "5",
     "small_capsule": {
       "english": "c170435ab4cc440c5f8d17a741c6df2eeb28edfb/capsule_231x87.jpg"
@@ -299,7 +305,66 @@
       "9": "4236"
     },
     "supported_languages": {
+      "brazilian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "czech": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "dutch": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "french": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "german": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "hungarian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "indonesian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "italian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "latam": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "polish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "portuguese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "romanian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "russian": {
+        "subtitles": "true"
+      },
+      "spanish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "turkish": {
         "subtitles": "true",
         "supported": "true"
       }
@@ -310,13 +375,22 @@
     "installdir": "Soulbound",
     "launch": {
       "0": {
-        "executable": "Soulbound.exe"
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Soulbound.exe",
+        "type": "default"
       },
       "1": {
         "config": {
           "oslist": "macos"
         },
-        "executable": "Soulbound.app"
+        "description": "Launch macOS",
+        "description_loc": {
+          "english": "Launch macOS"
+        },
+        "executable": "Soulbound.app",
+        "type": "default"
       }
     }
   },
@@ -334,9 +408,9 @@
       },
       "manifests": {
         "public": {
-          "download": "85863008",
-          "gid": "3409116094160184614",
-          "size": "230588018"
+          "download": "84933904",
+          "gid": "6229116506474240149",
+          "size": "229731442"
         }
       }
     },
@@ -344,13 +418,19 @@
       "config": {
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "115835520",
+          "gid": "3631938241958467860",
+          "size": "370232775"
+        }
+      }
     },
     "branches": {
       "public": {
-        "buildid": "25647883",
-        "timebuildupdated": "1790843522",
-        "timeupdated": "1790854714"
+        "buildid": "25680184",
+        "timebuildupdated": "1790953916",
+        "timeupdated": "1790955383"
       }
     },
     "privatebranches": "1"

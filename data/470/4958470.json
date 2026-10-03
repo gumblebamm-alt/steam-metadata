@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1790728797,
-  "_history": [],
-  "_change_number": 39323229,
-  "_missing_token": true,
-  "_sha": "8c2010c6a5df17892338e43bf61ebafd2495cd31",
-  "_size": 4447,
+  "_lastChecked": 1790987719,
+  "_history": [
+    {
+      "buildId": "25632102",
+      "branch": "public",
+      "timeUpdated": 1790850845,
+      "firstSeen": 1790987719,
+      "manifests": {
+        "4958471": {
+          "gid": "7646620894490197722",
+          "size": 121399303,
+          "download": 64108640
+        }
+      }
+    }
+  ],
+  "_change_number": 39426466,
+  "_missing_token": false,
+  "_sha": "a57b5799803d6de6c063c22291585369419cfe78",
+  "_size": 5749,
   "appid": "4958470",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +45,8 @@
     },
     "clienticon": "859ff7e99c168c579e60fb7dd685b25d8fc71e52",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4958470",
     "genres": {
       "0": "4",
@@ -110,7 +124,7 @@
         }
       }
     },
-    "market_presence": "0",
+    "market_presence": "1",
     "name": "MarbleGo",
     "name_localized": {
       "schinese": "弹球出击"
@@ -119,11 +133,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "124202111a614c1f5397fe340000e47fb59db051/capsule_231x87.jpg",
       "schinese": "010506ad6e3376e3a5feb2479aa966adf9b87ba5/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1790946272",
     "store_asset_mtime": "1789304335",
     "store_tags": {
       "0": "597",
@@ -189,5 +204,72 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MarbleGo",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch Game",
+        "description_loc": {
+          "english": "Launch Game",
+          "schinese": "启动游戏"
+        },
+        "executable": "MarbleGo.exe"
+      },
+      "1": {
+        "arguments": "--deskpet",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch game in desk pet mode",
+        "description_loc": {
+          "english": "Launch game in desk pet mode",
+          "schinese": "以桌宠模式启动游戏"
+        },
+        "executable": "MarbleGo.exe"
+      }
+    }
+  },
+  "depots": {
+    "4958471": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "64108640",
+          "gid": "7646620894490197722",
+          "size": "121399303"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25632102",
+        "timebuildupdated": "1790783871",
+        "timeupdated": "1790850845"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "FF",
+    "publisher": "FF"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "FF/MarbleGo/SaveData",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1790901452,
-  "_history": [],
-  "_change_number": 39400833,
-  "_missing_token": true,
-  "_sha": "2598c393e7be8dad1eab928117493a9035ef98b8",
-  "_size": 3204,
+  "_lastChecked": 1790987713,
+  "_history": [
+    {
+      "buildId": "25683212",
+      "branch": "public",
+      "timeUpdated": 1790963226,
+      "firstSeen": 1790987713,
+      "manifests": {
+        "4803462": {
+          "gid": "3058816678680949124",
+          "size": 291081244,
+          "download": 209650112
+        },
+        "4803463": {
+          "gid": "4703540774053528878",
+          "size": 349392946,
+          "download": 225098848
+        },
+        "4803464": {
+          "gid": "4404162958524076180",
+          "size": 250009696,
+          "download": 196953920
+        }
+      }
+    }
+  ],
+  "_change_number": 39431482,
+  "_missing_token": false,
+  "_sha": "d3bcb23de68f7d18e38afff8a5184babae815fdd",
+  "_size": 5422,
   "appid": "4803460",
   "common": {
     "associations": {
@@ -29,9 +53,9 @@
     "clienticns": "be2b99f54ee4f265dfd5c6aff9651376925baf1e",
     "clienticon": "be2b99f54ee4f265dfd5c6aff9651376925baf1e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4803460",
     "genres": {
       "0": "1",
@@ -103,10 +127,11 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e45286848ee39585c088bda469cd26e241f8319c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790958038",
     "store_asset_mtime": "1790889743",
     "store_tags": {
       "0": "4255",
@@ -139,5 +164,121 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "From Beyond Arcade Edition",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "From Beyond.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "From Beyond.app/Contents/MacOS/From Beyond"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "From Beyond.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4803462": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "209650112",
+          "gid": "3058816678680949124",
+          "size": "291081244"
+        }
+      }
+    },
+    "4803463": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "225098848",
+          "gid": "4703540774053528878",
+          "size": "349392946"
+        }
+      }
+    },
+    "4803464": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "196953920",
+          "gid": "4404162958524076180",
+          "size": "250009696"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25683212",
+        "timebuildupdated": "1790963158",
+        "timeupdated": "1790963226"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Turbo Intercept Interactive",
+    "homepage": "https://bcvhs.com/",
+    "publisher": "Turbo Intercept Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "2621440",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/From Beyond",
+            "replace": "godot/app_userdata/From Beyond"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/From Beyond",
+        "pattern": "data.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

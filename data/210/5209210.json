@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1790901470,
-  "_history": [],
-  "_change_number": 39403388,
-  "_missing_token": true,
-  "_sha": "fc3ddf7b639951a353a85dafca327be5f00f08b7",
-  "_size": 3120,
+  "_lastChecked": 1790987730,
+  "_history": [
+    {
+      "buildId": "25682233",
+      "branch": "public",
+      "timeUpdated": 1790959857,
+      "firstSeen": 1790987730,
+      "manifests": {
+        "5209211": {
+          "gid": "8965920497650279948",
+          "size": 173429572,
+          "download": 94954832
+        }
+      }
+    }
+  ],
+  "_change_number": 39431203,
+  "_missing_token": false,
+  "_sha": "3d6114d161fbf8c7ccf0ae89e8633f1043d686d2",
+  "_size": 4276,
   "appid": "5209210",
   "common": {
     "aicontenttype": "1",
@@ -22,6 +36,7 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_25": "1",
       "category_62": "1",
       "category_67": "1",
       "category_68": "1",
@@ -31,8 +46,8 @@
     },
     "clienticon": "f3a2fd618fc19578944a1217705dd2f076f35491",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5209210",
     "genres": {
       "0": "4",
@@ -108,11 +123,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "93111061b65f4e745804f5f83b9230fb5387189b/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1790895817",
+    "steam_release_date": "1790960488",
+    "store_asset_mtime": "1790958597",
     "store_tags": {
       "0": "1645",
       "1": "9",
@@ -144,5 +160,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Clickore Station",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ClickoreStation.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5209211": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "94954832",
+          "gid": "8965920497650279948",
+          "size": "173429572"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "25682233",
+        "timebuildupdated": "1790959822",
+        "timeupdated": "1790959857"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Ludikatt",
+    "publisher": "Ludikatt"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Clickore Station",
+        "pattern": "*.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

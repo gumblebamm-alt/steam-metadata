@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1790728817,
-  "_history": [],
-  "_change_number": 38940853,
-  "_missing_token": true,
-  "_sha": "5ab30d6fe979f926565cb5f845b939e4eb3c0e30",
-  "_size": 3149,
+  "_lastChecked": 1790987731,
+  "_history": [
+    {
+      "buildId": "25317899",
+      "branch": "fac2rized",
+      "timeUpdated": 1789459701,
+      "firstSeen": 1790987731,
+      "manifests": {
+        "5230411": {
+          "gid": "8529629729559608230",
+          "size": 622705625,
+          "download": 204508560
+        },
+        "5230412": {
+          "gid": "5516310841554796161",
+          "size": 622705625,
+          "download": 204508560
+        }
+      }
+    },
+    {
+      "buildId": "25317550",
+      "branch": "public",
+      "timeUpdated": 1789459691,
+      "firstSeen": 1790987731,
+      "manifests": {
+        "5230411": {
+          "gid": "19678650732198471",
+          "size": 358947565,
+          "download": 193648400
+        },
+        "5230412": {
+          "gid": "5516310841554796161",
+          "size": 622705625,
+          "download": 204508560
+        }
+      }
+    }
+  ],
+  "_change_number": 39434125,
+  "_missing_token": false,
+  "_sha": "1463cee45e0f094de161833c71a34cb213a7344a",
+  "_size": 5439,
   "appid": "5230410",
   "common": {
     "associations": {
@@ -35,9 +72,9 @@
     },
     "clienticon": "8f27bbdc953524125e822a99fb934c9b8599cfe3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5230410",
     "genres": {
       "0": "1",
@@ -109,10 +146,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e1b139a144150ec338f11d6747c0d004bf5a3efb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1790969401",
     "store_asset_mtime": "1789067574",
     "store_tags": {
       "0": "3871",
@@ -142,5 +180,110 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Factorized",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Woah it is the video game!",
+        "description_loc": {
+          "english": "Woah it is the video game!"
+        },
+        "executable": "Factorized.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "fac2rized",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Super Secret launch option with a super secret game version",
+        "description_loc": {
+          "english": "Super Secret launch option with a super secret game version"
+        },
+        "executable": "Fac2rized\\Fac2rized.exe",
+        "workingdir": "Fac2rized"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5230411": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "fac2rized": {
+          "download": "204508560",
+          "gid": "8529629729559608230",
+          "size": "622705625"
+        },
+        "public": {
+          "download": "193648400",
+          "gid": "19678650732198471",
+          "size": "358947565"
+        }
+      }
+    },
+    "5230412": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "fac2rized": {
+          "download": "204508560",
+          "gid": "5516310841554796161",
+          "size": "622705625"
+        },
+        "public": {
+          "download": "204508560",
+          "gid": "5516310841554796161",
+          "size": "622705625"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "fac2rized": {
+        "buildid": "25317899",
+        "description": "dude where is the super crazy foreman boss in base game",
+        "timebuildupdated": "1789459701",
+        "timeupdated": "1789459701"
+      },
+      "public": {
+        "buildid": "25317550",
+        "timebuildupdated": "1789458482",
+        "timeupdated": "1789459691"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Lab of the Ocean",
+    "isfreeapp": "1",
+    "publisher": "Lab of the Ocean"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Factorized/Local Storage",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
