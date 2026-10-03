@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790987704,
+  "_lastChecked": 1791040084,
   "_history": [
     {
       "buildId": "25687978",
@@ -23,12 +23,35 @@
           "download": 22160800
         }
       }
+    },
+    {
+      "buildId": "25696412",
+      "branch": "public",
+      "timeUpdated": 1791034314,
+      "firstSeen": 1791040084,
+      "manifests": {
+        "4364931": {
+          "gid": "3508712620189403923",
+          "size": 41009512,
+          "download": 34355184
+        },
+        "4364932": {
+          "gid": "365543592592331049",
+          "size": 84772425,
+          "download": 39621360
+        },
+        "4364933": {
+          "gid": "572985611228779009",
+          "size": 433908091,
+          "download": 172851904
+        }
+      }
     }
   ],
-  "_change_number": 39438584,
+  "_change_number": 39452349,
   "_missing_token": false,
-  "_sha": "096508ccbc6f5738e619d903113e25494d2018c2",
-  "_size": 4745,
+  "_sha": "d86e6aeeef2bf9ab4d01e91000721b96f237572e",
+  "_size": 5298,
   "appid": "4364930",
   "common": {
     "associations": {
@@ -138,14 +161,17 @@
     },
     "name": "Birb",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos,linux",
     "primary_genre": "4",
     "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "4cd58bdd3e16dd7dec0d984e9dd7a1a73c7b80f0/capsule_231x87.jpg"
     },
-    "steam_release_date": "1798704000",
+    "steam_release_date": "1790979511",
     "store_asset_mtime": "1790949349",
     "store_tags": {
       "0": "560542",
@@ -197,6 +223,12 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
     "installdir": "Birb",
     "launch": {
       "0": {
@@ -204,8 +236,25 @@
           "oslist": "windows"
         },
         "executable": "birb.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Birb.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "runtime/AppRun",
+        "type": "default"
       }
-    }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "4364931": {
@@ -214,9 +263,9 @@
       },
       "manifests": {
         "public": {
-          "download": "34324848",
-          "gid": "8593093687011508945",
-          "size": "40919400"
+          "download": "34355184",
+          "gid": "3508712620189403923",
+          "size": "41009512"
         }
       }
     },
@@ -226,9 +275,9 @@
       },
       "manifests": {
         "public": {
-          "download": "26751920",
-          "gid": "4867602167870865972",
-          "size": "56887861"
+          "download": "39621360",
+          "gid": "365543592592331049",
+          "size": "84772425"
         }
       }
     },
@@ -238,19 +287,20 @@
       },
       "manifests": {
         "public": {
-          "download": "22160800",
-          "gid": "4254138714590155313",
-          "size": "29494952"
+          "download": "172851904",
+          "gid": "572985611228779009",
+          "size": "433908091"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25687978",
-        "timebuildupdated": "1790981415",
-        "timeupdated": "1790981415"
+        "buildid": "25696412",
+        "timebuildupdated": "1791032705",
+        "timeupdated": "1791034314"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Hwonze",
