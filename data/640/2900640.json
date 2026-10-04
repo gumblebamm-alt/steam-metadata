@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790728727,
+  "_lastChecked": 1791138125,
   "_history": [
     {
       "buildId": "25612785",
@@ -34,12 +34,46 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "25661158",
+      "branch": "public",
+      "timeUpdated": 1790883192,
+      "firstSeen": 1791138064,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "229007": {
+          "gid": "4477590687906973371",
+          "size": null,
+          "download": null
+        },
+        "2900641": {
+          "gid": "3282031870867150464",
+          "size": null,
+          "download": null
+        },
+        "2900642": {
+          "gid": "2516709856165172635",
+          "size": null,
+          "download": null
+        },
+        "2900643": {
+          "gid": "6830669909459899466",
+          "size": 1012085936,
+          "download": 381588368
+        }
+      },
+      "_source": "hubcap"
     }
   ],
-  "_change_number": 39324572,
+  "_change_number": 39429417,
   "_missing_token": false,
-  "_sha": "6638f1beeef249887fda7c530c69ec28783016ba",
-  "_size": 8384,
+  "_sha": "044d0feede3ad282a5a4c99eae1e33a7dcff283f",
+  "_size": 8654,
   "appid": "2900640",
   "common": {
     "associations": {
@@ -168,7 +202,7 @@
     },
     "metacritic_fullurl": "https://www.metacritic.com/game/pc/toem-2?ftag=MCD-06-10aaa1f",
     "metacritic_name": "TOEM 2",
-    "metacritic_score": "85",
+    "metacritic_score": "81",
     "name": "TOEM 2",
     "name_localized": {
       "japanese": "トーエム2",
@@ -176,11 +210,11 @@
     },
     "osarch": "64",
     "oscpu": "",
-    "osextended": "macos64",
+    "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
     "releasestate": "released",
-    "review_percentage": "96",
+    "review_percentage": "91",
     "review_score": "8",
     "small_capsule": {
       "english": "97459b62331f244266139581b9584c515eb35fc4/capsule_231x87.jpg"
@@ -365,9 +399,9 @@
       },
       "manifests": {
         "public": {
-          "download": "377199632",
-          "gid": "2169565310290538608",
-          "size": "970052270"
+          "download": "377492992",
+          "gid": "3282031870867150464",
+          "size": "970623618"
         }
       }
     },
@@ -377,9 +411,9 @@
       },
       "manifests": {
         "public": {
-          "download": "379416544",
-          "gid": "1872935274140768621",
-          "size": "961365895"
+          "download": "380143504",
+          "gid": "2516709856165172635",
+          "size": "963926377"
         }
       }
     },
@@ -390,18 +424,18 @@
       },
       "manifests": {
         "public": {
-          "download": "381388624",
-          "gid": "5647785645356992457",
-          "size": "1012086132"
+          "download": "381588368",
+          "gid": "6830669909459899466",
+          "size": "1012085936"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25612785",
-        "timebuildupdated": "1790716176",
-        "timeupdated": "1790716317"
+        "buildid": "25661158",
+        "timebuildupdated": "1790883192",
+        "timeupdated": "1790883192"
       }
     },
     "hasdepotsindlc": "0",
@@ -415,6 +449,20 @@
   "ufs": {
     "maxnumfiles": "1000",
     "quota": "128000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Save",
+            "replace": "TOEM 2.app/Save"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "Save",

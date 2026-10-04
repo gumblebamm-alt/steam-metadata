@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790728814,
+  "_lastChecked": 1791138124,
   "_history": [
     {
       "buildId": "25222439",
@@ -18,12 +18,31 @@
           "download": 433039216
         }
       }
+    },
+    {
+      "buildId": "25636370",
+      "branch": "public",
+      "timeUpdated": 1790797117,
+      "firstSeen": 1791138045,
+      "manifests": {
+        "5186651": {
+          "gid": "5933346672508264032",
+          "size": null,
+          "download": null
+        },
+        "5186652": {
+          "gid": "5629090249702857532",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
     }
   ],
-  "_change_number": 39317485,
+  "_change_number": 39466535,
   "_missing_token": false,
-  "_sha": "8a0f97bbc8f4b7649f91a4e73ed3d5f67631d414",
-  "_size": 6045,
+  "_sha": "e382b40ff28de92f9f60db985dc4b3351597e56f",
+  "_size": 6600,
   "appid": "5186650",
   "common": {
     "aicontenttype": "1",
@@ -253,6 +272,14 @@
         },
         "executable": "Maze of Thorns.app",
         "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "MazeofThorns.x86_64",
+        "type": "default"
       }
     }
   },
@@ -263,9 +290,9 @@
       },
       "manifests": {
         "public": {
-          "download": "432307616",
-          "gid": "1636691635480228092",
-          "size": "458126649"
+          "download": "532928480",
+          "gid": "5933346672508264032",
+          "size": "562367754"
         }
       }
     },
@@ -275,19 +302,26 @@
       },
       "manifests": {
         "public": {
-          "download": "433039216",
-          "gid": "7837073713646723359",
-          "size": "468478292"
+          "download": "433078464",
+          "gid": "5629090249702857532",
+          "size": "468595995"
         }
       }
     },
+    "5186653": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {}
+    },
     "branches": {
       "public": {
-        "buildid": "25222439",
-        "timebuildupdated": "1789009619",
-        "timeupdated": "1789009619"
+        "buildid": "25636370",
+        "timebuildupdated": "1790797117",
+        "timeupdated": "1790797117"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Fire Maple Games",
@@ -309,6 +343,18 @@
         },
         "root": "MacAppSupport",
         "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Maze of Thorns/Documents",
+            "replace": "FireMapleGames_MazeOfThorns/steam/5186650/{64BitSteamID}"
+          }
+        },
+        "root": "MacAppSupport",
+        "useinstead": "LinuxXdgDataHome"
       }
     },
     "savefiles": {
