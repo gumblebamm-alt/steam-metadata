@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1790944550,
-  "_history": [],
-  "_change_number": 39409674,
-  "_missing_token": true,
-  "_sha": "7b3381f7faf487dad063b207be7b585b57efce3e",
-  "_size": 2800,
+  "_lastChecked": 1791160863,
+  "_history": [
+    {
+      "buildId": "25687528",
+      "branch": "deck-test",
+      "timeUpdated": 1790979389,
+      "firstSeen": 1791160863,
+      "manifests": {
+        "4772221": {
+          "gid": "6387982698533997280",
+          "size": 379900445,
+          "download": 141794416
+        },
+        "4772222": {
+          "gid": "8229720461796265715",
+          "size": 301446234,
+          "download": 121533488
+        },
+        "4772223": {
+          "gid": "1562787221028331365",
+          "size": 330045474,
+          "download": 117253056
+        }
+      }
+    },
+    {
+      "buildId": "25687528",
+      "branch": "public",
+      "timeUpdated": 1790984270,
+      "firstSeen": 1791160863,
+      "manifests": {
+        "4772221": {
+          "gid": "6387982698533997280",
+          "size": 379900445,
+          "download": 141794416
+        },
+        "4772222": {
+          "gid": "8229720461796265715",
+          "size": 301446234,
+          "download": 121533488
+        },
+        "4772223": {
+          "gid": "1562787221028331365",
+          "size": 330045474,
+          "download": 117253056
+        }
+      }
+    }
+  ],
+  "_change_number": 39481080,
+  "_missing_token": false,
+  "_sha": "ef61db5703ea459daf3f9237eda8e7cbae030cfe",
+  "_size": 5100,
   "appid": "4772220",
   "common": {
     "aicontenttype": "1",
@@ -28,7 +75,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4772220",
     "genres": {
       "0": "1",
@@ -99,7 +145,7 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b5a39b02a1a901eba44906f4471d0834bf64e691/capsule_231x87.jpg"
     },
@@ -124,5 +170,127 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Jump Bait",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Jump Bait.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Jump Bait.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "jump-bait"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4772221": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "deck-test": {
+          "download": "141794416",
+          "gid": "6387982698533997280",
+          "size": "379900445"
+        },
+        "public": {
+          "download": "141794416",
+          "gid": "6387982698533997280",
+          "size": "379900445"
+        }
+      }
+    },
+    "4772222": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "deck-test": {
+          "download": "121533488",
+          "gid": "8229720461796265715",
+          "size": "301446234"
+        },
+        "public": {
+          "download": "121533488",
+          "gid": "8229720461796265715",
+          "size": "301446234"
+        }
+      }
+    },
+    "4772223": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "deck-test": {
+          "download": "117253056",
+          "gid": "1562787221028331365",
+          "size": "330045474"
+        },
+        "public": {
+          "download": "117253056",
+          "gid": "1562787221028331365",
+          "size": "330045474"
+        }
+      }
+    },
+    "branches": {
+      "deck-test": {
+        "buildid": "25687528",
+        "description": "Steam Deck window startup test (0.3.4)",
+        "timebuildupdated": "1790979343",
+        "timeupdated": "1790979389"
+      },
+      "public": {
+        "buildid": "25687528",
+        "timebuildupdated": "1790979343",
+        "timeupdated": "1790984270"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Tim Anderson",
+    "publisher": "Tim Anderson"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Jump Bait/cloud",
+        "pattern": "progress.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
