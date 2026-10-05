@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1790944540,
-  "_history": [],
-  "_change_number": 39419727,
-  "_missing_token": true,
-  "_sha": "794393b433d6e786b313320780e3d122a5d95bb3",
-  "_size": 4076,
+  "_lastChecked": 1791203939,
+  "_history": [
+    {
+      "buildId": "25719168",
+      "branch": "public",
+      "timeUpdated": 1791167667,
+      "firstSeen": 1791203939,
+      "manifests": {
+        "4246731": {
+          "gid": "5052476911410344853",
+          "size": 229121067,
+          "download": 104460512
+        }
+      }
+    },
+    {
+      "buildId": "25636024",
+      "branch": "steamdeck-review",
+      "timeUpdated": 1790796202,
+      "firstSeen": 1791203939,
+      "manifests": {
+        "4246731": {
+          "gid": "680814260642159145",
+          "size": 228332228,
+          "download": 103725792
+        }
+      }
+    }
+  ],
+  "_change_number": 39493553,
+  "_missing_token": false,
+  "_sha": "4dbf25ac7125923af00811f3196ae0014db1f313",
+  "_size": 5386,
   "appid": "4246730",
   "common": {
     "associations": {
@@ -25,8 +52,8 @@
     },
     "clienticon": "b515f62f7676f82273a4eb0fb7cb131311f3afeb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4246730",
     "genres": {
       "0": "4",
@@ -116,11 +143,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f609d76c4bd2993ebafe4ff507b71fc2d9b1ae49/capsule_231x87.jpg",
       "schinese": "c870e6c8c0d6a2bcef5c460d25aeb4117420df9e/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1791191567",
     "store_asset_mtime": "1790924456",
     "store_tags": {
       "0": "597",
@@ -148,5 +176,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Idle Shuguang's Alchemy Store",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Idle Shuguang's Alchemy Store.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4246731": {
+      "manifests": {
+        "public": {
+          "download": "104460512",
+          "gid": "5052476911410344853",
+          "size": "229121067"
+        },
+        "steamdeck-review": {
+          "download": "103725792",
+          "gid": "680814260642159145",
+          "size": "228332228"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25719168",
+        "timebuildupdated": "1791167463",
+        "timeupdated": "1791167667"
+      },
+      "steamdeck-review": {
+        "buildid": "25636024",
+        "description": "Steam Deck compatibility review",
+        "timebuildupdated": "1790796061",
+        "timeupdated": "1790796202"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "曙炚炼金工坊",
+    "publisher": "曙炚炼金工坊"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "20000000",
+    "savefiles": {
+      "0": {
+        "path": "Shuguang Alchemy Workshop/Idle Shuguang's Alchemy Store/SaveData/",
+        "pattern": "*Data.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
