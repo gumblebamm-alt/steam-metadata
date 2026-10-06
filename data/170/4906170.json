@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1791247340,
+  "_lastChecked": 1791290265,
   "_history": [
+    {
+      "buildId": "25743944",
+      "branch": "playtest",
+      "timeUpdated": 1791261965,
+      "firstSeen": 1791290265,
+      "manifests": {
+        "4906171": {
+          "gid": "8566280015042547560",
+          "size": 1064169028,
+          "download": 515074016
+        },
+        "4906172": {
+          "gid": "2222876145442671878",
+          "size": 1081446220,
+          "download": 522421744
+        }
+      }
+    },
     {
       "buildId": "25662288",
       "branch": "playtest",
@@ -15,15 +33,33 @@
       }
     },
     {
-      "buildId": "25662288",
+      "buildId": "25743944",
       "branch": "public",
-      "timeUpdated": 1790887306,
-      "firstSeen": 1790901456,
+      "timeUpdated": 1791262157,
+      "firstSeen": 1791290265,
       "manifests": {
         "4906171": {
-          "gid": "2165660403658201938",
-          "size": 1063610627,
-          "download": 514896768
+          "gid": "8566280015042547560",
+          "size": 1064169028,
+          "download": 515074016
+        },
+        "4906172": {
+          "gid": "2222876145442671878",
+          "size": 1081446220,
+          "download": 522421744
+        }
+      }
+    },
+    {
+      "buildId": "25733918",
+      "branch": "public",
+      "timeUpdated": 1791224149,
+      "firstSeen": 1791247340,
+      "manifests": {
+        "4906171": {
+          "gid": "4855149683264330944",
+          "size": 1064178242,
+          "download": 515056480
         }
       }
     },
@@ -41,23 +77,23 @@
       }
     },
     {
-      "buildId": "25733918",
+      "buildId": "25662288",
       "branch": "public",
-      "timeUpdated": 1791224149,
-      "firstSeen": 1791247340,
+      "timeUpdated": 1790887306,
+      "firstSeen": 1790901456,
       "manifests": {
         "4906171": {
-          "gid": "4855149683264330944",
-          "size": 1064178242,
-          "download": 515056480
+          "gid": "2165660403658201938",
+          "size": 1063610627,
+          "download": 514896768
         }
       }
     }
   ],
-  "_change_number": 39513723,
+  "_change_number": 39524110,
   "_missing_token": false,
-  "_sha": "e00430dd157b6b6bb2fb034bcb78ad8ce1e465f1",
-  "_size": 3909,
+  "_sha": "c0b2cbc3ed9d8eaa64b9e69e51132c1a864ac313",
+  "_size": 4460,
   "appid": "4906170",
   "common": {
     "associations": {
@@ -154,8 +190,9 @@
     },
     "name": "Pinched",
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "primary_genre": "1",
     "releasestate": "released",
     "small_capsule": {
@@ -195,36 +232,66 @@
     "installdir": "Tunnel Runners",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "Pinched.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Pinched.app"
       }
     }
   },
   "depots": {
     "4906171": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "playtest": {
-          "download": "514896768",
-          "gid": "2165660403658201938",
-          "size": "1063610627"
+          "download": "515074016",
+          "gid": "8566280015042547560",
+          "size": "1064169028"
         },
         "public": {
-          "download": "515056480",
-          "gid": "4855149683264330944",
-          "size": "1064178242"
+          "download": "515074016",
+          "gid": "8566280015042547560",
+          "size": "1064169028"
+        }
+      }
+    },
+    "4906172": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "playtest": {
+          "download": "522421744",
+          "gid": "2222876145442671878",
+          "size": "1081446220"
+        },
+        "public": {
+          "download": "522421744",
+          "gid": "2222876145442671878",
+          "size": "1081446220"
         }
       }
     },
     "branches": {
       "playtest": {
-        "buildid": "25662288",
+        "buildid": "25743944",
         "description": "Tunnel Maze playtest builds",
-        "timebuildupdated": "1790887137",
-        "timeupdated": "1790887137"
+        "timebuildupdated": "1791261861",
+        "timeupdated": "1791261965"
       },
       "public": {
-        "buildid": "25733918",
-        "timebuildupdated": "1791223976",
-        "timeupdated": "1791224149"
+        "buildid": "25743944",
+        "timebuildupdated": "1791261861",
+        "timeupdated": "1791262157"
       }
     }
   },

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790858198,
+  "_lastChecked": 1791290240,
   "_history": [
     {
       "buildId": "20241800",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 39024000,
+  "_change_number": 39511265,
   "_missing_token": false,
-  "_sha": "cc35b667640ab8585c7ee97fcad2f4bb592a0e57",
-  "_size": 9335,
+  "_sha": "31ea29216638d32f832899839f1a7276add2735e",
+  "_size": 9577,
   "appid": "887570",
   "common": {
     "associations": {
@@ -176,7 +176,7 @@
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
         "non_deck_display_glyphs": "1",
-        "primary_player_is_controller_slot_0": "1",
+        "primary_player_is_controller_slot_0": "0",
         "recommended_runtime": "proton-stable",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
@@ -188,8 +188,29 @@
         "small_text": "1",
         "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
       "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
@@ -203,18 +224,10 @@
         "2": {
           "display": "1",
           "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-        },
-        "3": {
-          "display": "1",
-          "token": "#SteamOS_TestResult_DisplayOutputHasNonblockingIssues"
-        },
-        "4": {
-          "display": "1",
-          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
-      "test_timestamp": "1648771200",
-      "tested_build_id": "8358042",
+      "test_timestamp": "1790619054",
+      "tested_build_id": "25104609",
       "tests": {
         "0": {
           "display": "3",
@@ -233,16 +246,12 @@
           "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
         },
         "4": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_DisplayOutputHasNonblockingIssues"
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "5": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
-        },
-        "6": {
-          "display": "1",
-          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       }
     },
@@ -250,25 +259,25 @@
     "store_asset_mtime": "1780059923",
     "store_tags": {
       "0": "9",
-      "1": "1678",
-      "10": "19",
-      "11": "4150",
-      "12": "1695",
+      "1": "599",
+      "10": "3810",
+      "11": "1755",
+      "12": "3942",
       "13": "1685",
       "14": "4182",
-      "15": "3810",
+      "15": "4598",
       "16": "7107",
       "17": "6310",
-      "18": "17305",
+      "18": "1669",
       "19": "493",
       "2": "4364",
-      "3": "4168",
-      "4": "599",
-      "5": "3859",
-      "6": "4598",
-      "7": "3987",
-      "8": "1708",
-      "9": "1676"
+      "3": "3859",
+      "4": "1678",
+      "5": "4168",
+      "6": "1708",
+      "7": "1676",
+      "8": "3987",
+      "9": "1670"
     },
     "supported_languages": {
       "brazilian": {
