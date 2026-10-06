@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1790728815,
-  "_history": [],
-  "_change_number": 39267869,
-  "_missing_token": true,
-  "_sha": "799273fac893ce944ba3b3bf87d9dd1dfd0f8595",
-  "_size": 6621,
+  "_lastChecked": 1791247351,
+  "_history": [
+    {
+      "buildId": "25720130",
+      "branch": "public",
+      "timeUpdated": 1791173249,
+      "firstSeen": 1791247351,
+      "manifests": {
+        "5193581": {
+          "gid": "8287540666404830785",
+          "size": 514368464,
+          "download": 432442256
+        },
+        "5193582": {
+          "gid": "655695814765436309",
+          "size": 579514778,
+          "download": 452549120
+        }
+      }
+    }
+  ],
+  "_change_number": 39518056,
+  "_missing_token": false,
+  "_sha": "cb8c4a55c5b1ad1b38eca1ef89a07b00f634af84",
+  "_size": 8267,
   "appid": "5193580",
   "common": {
     "aicontenttype": "1",
@@ -37,6 +56,7 @@
     },
     "clienticon": "2c89cac2fe763cd4576e58c9abe36e40588ea46a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -47,7 +67,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5193580",
     "genres": {
       "0": "25",
@@ -160,7 +179,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "53291868a45b7aa01cc2e3f85e0cd4bcc8a59833/capsule_231x87.jpg",
       "japanese": "1600cbc6055aeee93536385bdb8833a83c815161/capsule_231x87_japanese.jpg",
@@ -168,6 +187,7 @@
       "schinese": "a5e45c6b823a73c330a173385157ee6028dea91c/capsule_231x87_schinese.jpg",
       "tchinese": "a5e45c6b823a73c330a173385157ee6028dea91c/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1791242861",
     "store_asset_mtime": "1789968825",
     "store_tags": {
       "0": "3799",
@@ -210,5 +230,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "InYourHands",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "InYourHands.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "InYourHands.app"
+      }
+    }
+  },
+  "depots": {
+    "5193581": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "432442256",
+          "gid": "8287540666404830785",
+          "size": "514368464"
+        }
+      }
+    },
+    "5193582": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "452549120",
+          "gid": "655695814765436309",
+          "size": "579514778"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25720130",
+        "timebuildupdated": "1791173247",
+        "timeupdated": "1791173249"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Nibble &amp; Hop",
+    "publisher": "Lusty Robots"
+  },
+  "ufs": {
+    "maxnumfiles": "32",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "/Library/Application Support/",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "InYourHands",
+        "pattern": "profile.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "InYourHands",
+        "pattern": "settings.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "InYourHands/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

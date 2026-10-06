@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790901451,
+  "_lastChecked": 1791247335,
   "_history": [
     {
       "buildId": "25073165",
@@ -31,12 +31,35 @@
           "download": 146598576
         }
       }
+    },
+    {
+      "buildId": "25713751",
+      "branch": "public",
+      "timeUpdated": 1791139229,
+      "firstSeen": 1791247335,
+      "manifests": {
+        "4724081": {
+          "gid": "5700523351431935881",
+          "size": 1907356699,
+          "download": 146598576
+        },
+        "4724082": {
+          "gid": "7216162410743062226",
+          "size": 1929296481,
+          "download": 155680400
+        },
+        "4724083": {
+          "gid": "4335081606065048383",
+          "size": 1909629548,
+          "download": 145712928
+        }
+      }
     }
   ],
-  "_change_number": 39397211,
+  "_change_number": 39518640,
   "_missing_token": false,
-  "_sha": "74142dbb4015cce2bdc5ec03fa6bbf217cb3579b",
-  "_size": 3742,
+  "_sha": "c8b1650a2f45c8c152a8b2ee34acbd3b02bd7997",
+  "_size": 4375,
   "appid": "4724080",
   "common": {
     "associations": {
@@ -132,8 +155,8 @@
     "name": "Running Late",
     "osarch": "",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos,linux",
     "primary_genre": "4",
     "releasestate": "released",
     "small_capsule": {
@@ -170,7 +193,24 @@
     "installdir": "Running Late",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "Running Late.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "running_late_linux.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Contents/MacOS/Running Late",
         "type": "default"
       }
     }
@@ -191,19 +231,33 @@
     "4724082": {
       "config": {
         "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "155680400",
+          "gid": "7216162410743062226",
+          "size": "1929296481"
+        }
       }
     },
     "4724083": {
       "config": {
         "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "145712928",
+          "gid": "4335081606065048383",
+          "size": "1909629548"
+        }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25613612",
-        "timebuildupdated": "1790719058",
-        "timeupdated": "1790719103"
+        "buildid": "25713751",
+        "timebuildupdated": "1791139183",
+        "timeupdated": "1791139229"
       }
     }
   },

@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1791085576,
-  "_history": [],
-  "_change_number": 39455215,
-  "_missing_token": true,
-  "_sha": "9960227136f5027bf0d31b9e1514509ce5321129",
-  "_size": 3474,
+  "_lastChecked": 1791247318,
+  "_history": [
+    {
+      "buildId": "25740355",
+      "branch": "beta-testing",
+      "timeUpdated": 1791246536,
+      "firstSeen": 1791247318,
+      "manifests": {
+        "3419141": {
+          "gid": "7177928399081881773",
+          "size": 1864359212,
+          "download": 723511248
+        }
+      }
+    },
+    {
+      "buildId": "25740355",
+      "branch": "public",
+      "timeUpdated": 1791246536,
+      "firstSeen": 1791247318,
+      "manifests": {
+        "3419141": {
+          "gid": "7177928399081881773",
+          "size": 1864359212,
+          "download": 723511248
+        }
+      }
+    }
+  ],
+  "_change_number": 39519372,
+  "_missing_token": false,
+  "_sha": "d04ef2200c231929846b31ee609694bbcac5204d",
+  "_size": 4679,
   "appid": "3419140",
   "common": {
     "associations": {
@@ -35,9 +62,9 @@
     "clienticon": "73d10503f49c99a02e38e1ac930867e880c6af14",
     "clienttga": "c1120e79e83dac9dcdc58c1ba3d908c763bbcddb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3419140",
     "genres": {
       "0": "1",
@@ -114,10 +141,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "63680c58528a999b03b44fcc59c9eb6e24b6588a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791216757",
     "store_asset_mtime": "1788861525",
     "store_tags": {
       "0": "1628",
@@ -160,5 +188,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Stickility",
+    "launch": {
+      "0": {
+        "executable": "Stickility.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3419141": {
+      "manifests": {
+        "beta-testing": {
+          "download": "723511248",
+          "gid": "7177928399081881773",
+          "size": "1864359212"
+        },
+        "public": {
+          "download": "723511248",
+          "gid": "7177928399081881773",
+          "size": "1864359212"
+        }
+      }
+    },
+    "branches": {
+      "beta-testing": {
+        "buildid": "25740355",
+        "description": "Unstable (might contain save-breaking issues) version of the game",
+        "timebuildupdated": "1791246162",
+        "timeupdated": "1791246536"
+      },
+      "public": {
+        "buildid": "25740355",
+        "timebuildupdated": "1791246162",
+        "timeupdated": "1791246536"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Reglan",
+    "publisher": "Reglan"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "RegLaN/Stickility",
+        "pattern": "*.game",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
