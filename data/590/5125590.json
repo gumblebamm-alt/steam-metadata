@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1790728809,
-  "_history": [],
-  "_change_number": 39314552,
-  "_missing_token": true,
-  "_sha": "951c454684c95fe85cc9bc8f46d1b94d80b9b47e",
-  "_size": 3059,
+  "_lastChecked": 1791376840,
+  "_history": [
+    {
+      "buildId": "25607866",
+      "branch": "public",
+      "timeUpdated": 1790699957,
+      "firstSeen": 1791376840,
+      "manifests": {
+        "5125591": {
+          "gid": "8277479293963643857",
+          "size": 2193750472,
+          "download": 1794140176
+        }
+      }
+    }
+  ],
+  "_change_number": 39573884,
+  "_missing_token": false,
+  "_sha": "18be3049ec14461267b0fa9dc0c16da6e7416b06",
+  "_size": 4188,
   "appid": "5125590",
   "common": {
     "aicontenttype": "1",
@@ -32,9 +46,9 @@
     },
     "clienticon": "53d0a086b4291b2a22b402f3c19556841281073e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5125590",
     "genres": {
       "0": "4",
@@ -101,14 +115,16 @@
       }
     },
     "name": "Shelved",
-    "osarch": "",
+    "osarch": "64",
+    "oscpu": "",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ac0a67efd742f4e84eaa08ecba426dc9bd27a0f6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1788451438",
     "store_tags": {
       "0": "597",
@@ -137,5 +153,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Shelved",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Shelved.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "15",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input_manifest.vdf"
+  },
+  "depots": {
+    "5125591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1794140176",
+          "gid": "8277479293963643857",
+          "size": "2193750472"
+        }
+      }
+    },
+    "5125592": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25607866",
+        "timebuildupdated": "1790699803",
+        "timeupdated": "1790699957"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Wet Toast Studio",
+    "publisher": "Wet Toast Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": "data",
+        "pattern": "*.json",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

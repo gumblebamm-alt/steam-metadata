@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1790728815,
-  "_history": [],
-  "_change_number": 39319800,
-  "_missing_token": true,
-  "_sha": "c6aac7c4c60166cd36cd0d5241a35803bd80997d",
-  "_size": 3096,
+  "_lastChecked": 1791376843,
+  "_history": [
+    {
+      "buildId": "25663873",
+      "branch": "public",
+      "timeUpdated": 1790893163,
+      "firstSeen": 1791376843,
+      "manifests": {
+        "5190701": {
+          "gid": "1412116341033315899",
+          "size": 180337558,
+          "download": 43031760
+        },
+        "5190702": {
+          "gid": "3318126294557825277",
+          "size": 232383299,
+          "download": 50525760
+        }
+      }
+    }
+  ],
+  "_change_number": 39570790,
+  "_missing_token": false,
+  "_sha": "b47da0f215c88c8fcb17b09978c243fcf82742ef",
+  "_size": 4893,
   "appid": "5190700",
   "common": {
     "associations": {
@@ -24,6 +43,7 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_62": "1",
       "category_67": "1",
       "category_68": "1",
@@ -35,8 +55,8 @@
     },
     "clienticon": "7060fc648663afd4227a4544faf6600fb2b17270",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5190700",
     "genres": {
       "0": "4",
@@ -108,7 +128,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8ee6ffdc73bd54f02ab60e74db59cc6b15487e00/capsule_231x87.jpg"
     },
@@ -140,5 +160,98 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "One More Floor",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Windows",
+        "description_loc": {
+          "english": "Windows"
+        },
+        "executable": "OneMoreFloor.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Linux",
+        "description_loc": {
+          "english": "Linux"
+        },
+        "executable": "OneMoreFloor.x86_64",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "5190701": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "43031760",
+          "gid": "1412116341033315899",
+          "size": "180337558"
+        }
+      }
+    },
+    "5190702": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "50525760",
+          "gid": "3318126294557825277",
+          "size": "232383299"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25663873",
+        "timebuildupdated": "1790892973",
+        "timeupdated": "1790893163"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Offworld Corporation",
+    "publisher": "Offworld Corporation"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "400000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Offworld Corporation\\One More Floor\\saves",
+            "replace": ".config/unity3d/Offworld Corporation/One More Floor"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Offworld Corporation\\One More Floor",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

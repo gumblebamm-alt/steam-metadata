@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791333780,
-  "_history": [],
-  "_change_number": 39542170,
-  "_missing_token": true,
-  "_sha": "f2652fb3df4abb67d10891f17b97bd2b21710cb9",
-  "_size": 3059,
+  "_lastChecked": 1791376845,
+  "_history": [
+    {
+      "buildId": "25774618",
+      "branch": "public",
+      "timeUpdated": 1791368097,
+      "firstSeen": 1791376845,
+      "manifests": {
+        "5247021": {
+          "gid": "2347186589938880628",
+          "size": 160062985,
+          "download": 80151840
+        },
+        "5247022": {
+          "gid": "5782725804937701303",
+          "size": 200775430,
+          "download": 94358288
+        }
+      }
+    }
+  ],
+  "_change_number": 39570852,
+  "_missing_token": false,
+  "_sha": "f0b915ceb038c05594b65cc9f2f12649280e4d79",
+  "_size": 4794,
   "appid": "5247020",
   "common": {
     "aicontenttype": "1",
@@ -32,7 +51,6 @@
     "clienticon": "71f446a903a290248bdcec25b01fc459c79eaccb",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5247020",
     "genres": {
       "0": "23",
@@ -106,11 +124,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c994a231b077257ac757d98186d9a8dfb807286a/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791301041",
+    "steam_release_date": "1791368501",
+    "store_asset_mtime": "1791325160",
     "store_tags": {
       "0": "599",
       "1": "701",
@@ -142,5 +161,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "default",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "Calcio Totale",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Launch Calcio Totale",
+        "description_loc": {
+          "english": "Launch Calcio Totale",
+          "italian": "Avvia Calcio Totale"
+        },
+        "executable": "CalcioTotale.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Launch CalcioTotale",
+        "description_loc": {
+          "english": "Launch CalcioTotale",
+          "italian": "Avvia CalcioTotale"
+        },
+        "executable": "CalcioTotale"
+      }
+    }
+  },
+  "depots": {
+    "5247021": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "80151840",
+          "gid": "2347186589938880628",
+          "size": "160062985"
+        }
+      }
+    },
+    "5247022": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "94358288",
+          "gid": "5782725804937701303",
+          "size": "200775430"
+        }
+      }
+    },
+    "baselanguages": "english,italian,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25774618",
+        "timebuildupdated": "1791367663",
+        "timeupdated": "1791368097"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Eleòra",
+    "homepage": "https://github.com/eleora-dev/calciototale",
+    "publisher": "Eleòra"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "user",
+        "pattern": "slot*.json.gz",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "user",
+        "pattern": "slot*.meta.json",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

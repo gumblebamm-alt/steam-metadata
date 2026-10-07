@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1790728812,
-  "_history": [],
-  "_change_number": 39317523,
-  "_missing_token": true,
-  "_sha": "cda5828812f8f30f25b57be33fb308bdf68b7efb",
-  "_size": 3222,
+  "_lastChecked": 1791376842,
+  "_history": [
+    {
+      "buildId": "25663862",
+      "branch": "public",
+      "timeUpdated": 1790893160,
+      "firstSeen": 1791376842,
+      "manifests": {
+        "5163641": {
+          "gid": "3574160343186755371",
+          "size": 315242738,
+          "download": 57431152
+        },
+        "5163642": {
+          "gid": "6370879934599829426",
+          "size": 383624885,
+          "download": 66820832
+        }
+      }
+    }
+  ],
+  "_change_number": 39570788,
+  "_missing_token": false,
+  "_sha": "bbf721f60cc02138e6d4f23f353964436ed646a0",
+  "_size": 5017,
   "appid": "5163640",
   "common": {
     "associations": {
@@ -24,6 +43,7 @@
     "category": {
       "category_1": "1",
       "category_2": "1",
+      "category_23": "1",
       "category_24": "1",
       "category_36": "1",
       "category_37": "1",
@@ -38,7 +58,6 @@
     "clienticon": "0dfc893cb6038d8d386d123aae7bc32d2ae4ab0d",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5163640",
     "genres": {
       "0": "23",
@@ -110,10 +129,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d3c3e07c834f56b429ba2c037a17cfd911de4bcd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791368388",
     "store_asset_mtime": "1789424173",
     "store_tags": {
       "0": "4845",
@@ -144,5 +164,98 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Amalgamated",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Windows",
+        "description_loc": {
+          "english": "Windows"
+        },
+        "executable": "Amalgamated.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Linux",
+        "description_loc": {
+          "english": "Linux"
+        },
+        "executable": "Amalgamated.x86_64",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "5163641": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "57431152",
+          "gid": "3574160343186755371",
+          "size": "315242738"
+        }
+      }
+    },
+    "5163642": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "66820832",
+          "gid": "6370879934599829426",
+          "size": "383624885"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25663862",
+        "timebuildupdated": "1790892935",
+        "timeupdated": "1790893160"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Offworld Corporation",
+    "publisher": "Offworld Corporation"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "400000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Offworld Corporation\\Amalgamated\\saves",
+            "replace": ".config/unity3d/Offworld Corporation/Amalgamated"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Offworld Corporation\\Amalgamated",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

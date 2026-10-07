@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1790858238,
-  "_history": [],
-  "_change_number": 39372168,
-  "_missing_token": true,
-  "_sha": "29fa44c1a4b47780e68d38ded030426cea259455",
-  "_size": 3400,
+  "_lastChecked": 1791376844,
+  "_history": [
+    {
+      "buildId": "25775860",
+      "branch": "nightly",
+      "timeUpdated": 1791371452,
+      "firstSeen": 1791376844,
+      "manifests": {
+        "5197751": {
+          "gid": "8277917834620342706",
+          "size": 618945959,
+          "download": 381017136
+        },
+        "5197752": {
+          "gid": "6349098376751683295",
+          "size": 785345971,
+          "download": 447901104
+        },
+        "5197753": {
+          "gid": "6845511768237815478",
+          "size": 580828651,
+          "download": 362446608
+        }
+      }
+    },
+    {
+      "buildId": "25771071",
+      "branch": "public",
+      "timeUpdated": 1791356168,
+      "firstSeen": 1791376844,
+      "manifests": {
+        "5197751": {
+          "gid": "8630069011569874645",
+          "size": 618936395,
+          "download": 381016320
+        },
+        "5197752": {
+          "gid": "3707211565468457140",
+          "size": 785336407,
+          "download": 447900288
+        },
+        "5197753": {
+          "gid": "2477779222926400872",
+          "size": 580819087,
+          "download": 362445808
+        }
+      }
+    }
+  ],
+  "_change_number": 39572233,
+  "_missing_token": false,
+  "_sha": "8fd1e0316c5563c7fd48302761c68ec148a27534",
+  "_size": 5535,
   "appid": "5197750",
   "common": {
     "aicontenttype": "1",
@@ -37,6 +84,7 @@
     "clienticns": "a6fd59ec9747186e4d2e9ac863fe3cb983d7c74d",
     "clienticon": "998fdfba778a9e17c4d6df797231660378f8cb8a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -45,7 +93,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5197750",
     "genres": {
       "0": "1",
@@ -118,11 +165,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "abb8e414798d9c801a3f4ec8f74d77386a11ec60/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1790838440",
+    "steam_release_date": "1791356284",
+    "store_asset_mtime": "1791347875",
     "store_tags": {
       "0": "42804",
       "1": "723991",
@@ -150,5 +198,109 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CyberSprawlSurvivors",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CyberSprawlSurvivors.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "CyberSprawlSurvivors.app",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "--no-sandbox --disable-gpu-sandbox",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "CyberSprawlSurvivors",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5197751": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "nightly": {
+          "download": "381017136",
+          "gid": "8277917834620342706",
+          "size": "618945959"
+        },
+        "public": {
+          "download": "381016320",
+          "gid": "8630069011569874645",
+          "size": "618936395"
+        }
+      }
+    },
+    "5197752": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "nightly": {
+          "download": "447901104",
+          "gid": "6349098376751683295",
+          "size": "785345971"
+        },
+        "public": {
+          "download": "447900288",
+          "gid": "3707211565468457140",
+          "size": "785336407"
+        }
+      }
+    },
+    "5197753": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "nightly": {
+          "download": "362446608",
+          "gid": "6845511768237815478",
+          "size": "580828651"
+        },
+        "public": {
+          "download": "362445808",
+          "gid": "2477779222926400872",
+          "size": "580819087"
+        }
+      }
+    },
+    "branches": {
+      "nightly": {
+        "buildid": "25775860",
+        "description": "Nightly Dev Build",
+        "timebuildupdated": "1791371452",
+        "timeupdated": "1791371452"
+      },
+      "public": {
+        "buildid": "25771071",
+        "timebuildupdated": "1791356114",
+        "timeupdated": "1791356168"
+      }
+    }
+  },
+  "extended": {
+    "developer": "CyberSprawl Studios",
+    "homepage": "https://cybersprawl.ai/games/cyberswarm/",
+    "publisher": "CyberSprawl Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "100000000"
+  }
 }
