@@ -1,10 +1,48 @@
 {
-  "_lastChecked": 1790728809,
-  "_history": [],
-  "_change_number": 39299940,
-  "_missing_token": true,
-  "_sha": "4afb44e4e2f3a793ab9f7957d182c418fb6bd20e",
-  "_size": 4991,
+  "_lastChecked": 1791463187,
+  "_history": [
+    {
+      "buildId": "25802526",
+      "branch": "public",
+      "timeUpdated": 1791459772,
+      "firstSeen": 1791463120,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "5130481": {
+          "gid": "6530807572051570347",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    },
+    {
+      "buildId": "25802949",
+      "branch": "dev0",
+      "timeUpdated": 1791460640,
+      "firstSeen": 1791463187,
+      "manifests": {
+        "5130481": {
+          "gid": "8237055189676991330",
+          "size": 2735352890,
+          "download": 2469020240
+        }
+      }
+    }
+  ],
+  "_change_number": 39615075,
+  "_missing_token": false,
+  "_sha": "c484dc3b88a8cf40e289a0752f54bd2af2067009",
+  "_size": 6551,
   "appid": "5130480",
   "common": {
     "aicontenttype": "1",
@@ -33,11 +71,11 @@
       "category_80": "1",
       "category_9": "1"
     },
-    "clienticon": "54f63c94a71b7c31c7cb422e0c08017e2158f4fd",
+    "clienticon": "6feb9558e19f166031362b6be6dbdae248caed3a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5130480",
     "genres": {
       "0": "4",
@@ -47,7 +85,7 @@
       "english": "13edff66f11240d5fcb217805745d0473a174a7f/header.jpg",
       "schinese": "c8e0940b68f3839499ec31cf696ae2049f8c5221/header_schinese.jpg"
     },
-    "icon": "54f63c94a71b7c31c7cb422e0c08017e2158f4fd",
+    "icon": "6feb9558e19f166031362b6be6dbdae248caed3a",
     "languages": {
       "english": "1",
       "french": "1",
@@ -140,12 +178,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
-      "english": "317eaad089b499301ae561fd430c8a4cc4647d9a/capsule_231x87.jpg",
-      "schinese": "4ed71b7365b29e8619fda163fe96426dfbfe620b/capsule_231x87_schinese.jpg"
+      "english": "2a0322f8af453820401962a0253800b7c0489775/capsule_231x87.jpg",
+      "schinese": "66c825085103c8d35687b68caf7551a2b6252028/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1790671735",
+    "steam_release_date": "1791453299",
+    "store_asset_mtime": "1791430133",
     "store_tags": {
       "0": "1239876",
       "1": "1738",
@@ -204,5 +243,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SortTheCapybaras",
+    "launch": {
+      "0": {
+        "executable": "SortTheCapybaras.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "description": "dx11 mode",
+        "description_loc": {
+          "english": "dx11 mode"
+        },
+        "executable": "SortTheCapybaras.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5130481": {
+      "manifests": {
+        "dev0": {
+          "download": "2469020240",
+          "gid": "8237055189676991330",
+          "size": "2735352890"
+        },
+        "public": {
+          "download": "2469022896",
+          "gid": "6530807572051570347",
+          "size": "2735342874"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,japanese,koreana,portuguese,russian,schinese,spanish,tchinese",
+    "branches": {
+      "dev0": {
+        "buildid": "25802949",
+        "description": "dev0",
+        "timebuildupdated": "1791460640",
+        "timeupdated": "1791460640"
+      },
+      "public": {
+        "buildid": "25802526",
+        "timebuildupdated": "1791459443",
+        "timeupdated": "1791459772"
+      }
+    }
+  },
+  "extended": {
+    "developer": "CapybaraKoala",
+    "publisher": "CapybaraKoala"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "SortTheCapybaras",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

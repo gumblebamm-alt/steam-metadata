@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791040106,
-  "_history": [],
-  "_change_number": 39440961,
-  "_missing_token": true,
-  "_sha": "306a0c78942e543b807177f2c09ee9588a7a4a49",
-  "_size": 2833,
+  "_lastChecked": 1791463272,
+  "_history": [
+    {
+      "buildId": "25799779",
+      "branch": "public",
+      "timeUpdated": 1791451059,
+      "firstSeen": 1791463272,
+      "manifests": {
+        "5188281": {
+          "gid": "4530719859680208418",
+          "size": 417626125,
+          "download": 173737136
+        },
+        "5188282": {
+          "gid": "6511589499942259651",
+          "size": 564148587,
+          "download": 237151680
+        }
+      }
+    }
+  ],
+  "_change_number": 39610377,
+  "_missing_token": false,
+  "_sha": "4fbde05f8a52375369eba6a72e11e2ebc024a62e",
+  "_size": 4173,
   "appid": "5188280",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +44,6 @@
     "clienticon": "7595a0ece6088822a48cb763cf75300f28cae2ce",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5188280",
     "genres": {
       "0": "4",
@@ -96,10 +114,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "48526d6a472adeb41c9b02628894573af9e62ce5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791451738",
     "store_asset_mtime": "1790975450",
     "store_tags": {
       "0": "615955",
@@ -122,5 +141,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "My First Ant Farm",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "My First Ant Farm.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "My First Ant Farm.app"
+      }
+    }
+  },
+  "depots": {
+    "5188281": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "173737136",
+          "gid": "4530719859680208418",
+          "size": "417626125"
+        }
+      }
+    },
+    "5188282": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "237151680",
+          "gid": "6511589499942259651",
+          "size": "564148587"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25799779",
+        "timebuildupdated": "1791450996",
+        "timeupdated": "1791451059"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Joyner Labs",
+    "publisher": "Joyner Labs"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "My First Ant Farm/saves",
+        "pattern": "*.antfarm",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "1": {
+        "path": "My First Ant Farm/saves",
+        "pattern": "*.antfarm",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

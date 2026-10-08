@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790858203,
+  "_lastChecked": 1791463209,
   "_history": [
     {
       "buildId": "23802290",
@@ -26,12 +26,30 @@
           "download": 2924853328
         }
       }
+    },
+    {
+      "buildId": "25800478",
+      "branch": "public",
+      "timeUpdated": 1791453193,
+      "firstSeen": 1791463209,
+      "manifests": {
+        "2288521": {
+          "gid": "6165787632346558912",
+          "size": 3093599634,
+          "download": 2924853328
+        },
+        "2288522": {
+          "gid": "2187353782517001844",
+          "size": 3956685678,
+          "download": 3020580512
+        }
+      }
     }
   ],
-  "_change_number": 38804523,
+  "_change_number": 39611202,
   "_missing_token": false,
-  "_sha": "ff1132c339dc8085f287e3b5de803d2603faa167",
-  "_size": 6032,
+  "_sha": "1124abecbb8717a2c5c41866156bcdbc58bb6fb3",
+  "_size": 6512,
   "appid": "2288520",
   "common": {
     "associations": {
@@ -50,6 +68,7 @@
       "category_28": "1",
       "category_62": "1"
     },
+    "clienticns": "214bfaf5d375051d0b02fc81f89478cdd3c1b297",
     "clienticon": "0ba365525403755907036b52f20c6afdf61b72a9",
     "clienttga": "d1acf82c2795d5792328c3483c7e4541c2326da3",
     "community_hub_visible": "1",
@@ -124,12 +143,13 @@
     },
     "name": "The Quiet Things",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "25",
     "releasestate": "released",
-    "review_percentage": "81",
-    "review_score": "7",
+    "review_percentage": "78",
+    "review_score": "6",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
     },
@@ -251,7 +271,16 @@
     "installdir": "The Quiet Things",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "TheQuietThings.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "TheQuietThings.app"
       }
     }
   },
@@ -266,6 +295,19 @@
           "download": "2924853328",
           "gid": "6165787632346558912",
           "size": "3093599634"
+        }
+      }
+    },
+    "2288522": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "3020580512",
+          "gid": "2187353782517001844",
+          "size": "3956685678"
         }
       }
     },
@@ -285,9 +327,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "25253930",
-        "timebuildupdated": "1789131752",
-        "timeupdated": "1789156968"
+        "buildid": "25800478",
+        "timebuildupdated": "1791453193",
+        "timeupdated": "1791453193"
       }
     },
     "privatebranches": "1"

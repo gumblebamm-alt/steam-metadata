@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1791420087,
-  "_history": [],
-  "_change_number": 39593476,
-  "_missing_token": true,
-  "_sha": "ce71e0553f4fb2c0d968670b9f9725ff9e33ac23",
-  "_size": 4075,
+  "_lastChecked": 1791463187,
+  "_history": [
+    {
+      "buildId": "25795878",
+      "branch": "public",
+      "timeUpdated": 1791439708,
+      "firstSeen": 1791463121,
+      "manifests": {
+        "3232691": {
+          "gid": "2907884818988902359",
+          "size": null,
+          "download": null
+        },
+        "3232692": {
+          "gid": "3046277896114811846",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39605710,
+  "_missing_token": false,
+  "_sha": "9004b3da370c966e75859f5028691e2536fc07e7",
+  "_size": 6296,
   "appid": "3232690",
   "common": {
     "aicontenttype": "1",
@@ -32,6 +52,7 @@
     "clienticon": "0e7bcfa8ebbeb118d3e353914f884e0e52bcff53",
     "clienttga": "c2e2964232f1c4e66e9ef65afec1fbf15a76f840",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -41,7 +62,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "3232690",
     "genres": {
       "0": "28"
@@ -118,10 +138,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "06cba72ec019ba6b975813b3779c72d8ef7fbc82/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791442791",
     "store_asset_mtime": "1791276794",
     "store_tags": {
       "0": "599",
@@ -182,5 +203,101 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MaidCafeSimulator",
+    "launch": {
+      "0": {
+        "arguments": "-force-d3d11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "with DirectX 11 (Stable)",
+        "description_loc": {
+          "english": "with DirectX 11 (Stable)",
+          "koreana": "DirectX 11로 실행 (안정적)"
+        },
+        "executable": "MaidCafeSimulator.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Game Start (Mac)",
+        "description_loc": {
+          "english": "Game Start (Mac)",
+          "koreana": "게임 시작 (Mac)"
+        },
+        "executable": "MaidCafeSimulator.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3232691": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3435412816",
+          "gid": "2907884818988902359",
+          "size": "3704727457"
+        }
+      }
+    },
+    "3232692": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "3630560256",
+          "gid": "3046277896114811846",
+          "size": "3960292741"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25795878",
+        "timebuildupdated": "1791436184",
+        "timeupdated": "1791439708"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Accelix",
+    "dlcavailableonstore": "1",
+    "homepage": "https://accelixgames.com/",
+    "listofdlc": "4786460,4817460,4817500,4817550,4817660,4817670,4817680,4817690,4817790,4817800,4817810,4817820,4817900,4817910,4817920,4817930,4818000,4818010,4818020,4818030",
+    "publisher": "Accelix"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "16000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Accelix/MaidCafeSimulator/Saves/Steam/{64BitSteamID}",
+            "replace": "unity.Accelix.MaidCafeSimulator/Saves/Steam/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "Accelix/MaidCafeSimulator/Saves/Steam/{64BitSteamID}",
+        "pattern": "slot-*.maid",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

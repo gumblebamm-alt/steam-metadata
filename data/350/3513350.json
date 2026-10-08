@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790728750,
+  "_lastChecked": 1791463226,
   "_history": [
     {
       "buildId": "24626793",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 39324344,
+  "_change_number": 39419554,
   "_missing_token": false,
-  "_sha": "2d98f980951a31eb1211a87b0bc82cc0d554f2e8",
-  "_size": 10910,
+  "_sha": "f661d5bc7f5349916ef460be6e0ca793c7ea4098",
+  "_size": 11153,
   "appid": "3513350",
   "common": {
     "associations": {
@@ -204,7 +204,7 @@
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "1",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
       "steam_machine_compatibility": "2",
       "steam_machine_tests": {
@@ -214,9 +214,13 @@
         },
         "1": {
           "display": "4",
-          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "3": {
           "display": "4",
           "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
         }
@@ -236,8 +240,8 @@
           "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
-      "test_timestamp": "1781308800",
-      "tested_build_id": "19924357",
+      "test_timestamp": "1790268565",
+      "tested_build_id": "24626793",
       "tests": {
         "0": {
           "display": "3",
@@ -249,13 +253,17 @@
         },
         "2": {
           "display": "4",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "3": {
           "display": "4",
-          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
         },
         "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "5": {
           "display": "1",
           "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }

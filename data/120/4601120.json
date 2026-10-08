@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791138125,
+  "_lastChecked": 1791463247,
   "_history": [
     {
       "buildId": "25507034",
@@ -39,9 +39,9 @@
       "_source": "hubcap"
     },
     {
-      "buildId": "",
+      "buildId": "25802264",
       "branch": "public",
-      "timeUpdated": 1790834693,
+      "timeUpdated": 1791458672,
       "firstSeen": 1791138059,
       "manifests": {
         "4601121": {
@@ -53,15 +53,20 @@
           "gid": "7463410211871842252",
           "size": null,
           "download": null
+        },
+        "4601122": {
+          "gid": "468031062490066708",
+          "size": 573673323,
+          "download": 164037248
         }
       },
       "_source": "hubcap"
     }
   ],
-  "_change_number": 39475416,
+  "_change_number": 39614093,
   "_missing_token": false,
-  "_sha": "8fbc4eccea5fb1d6572ed3f03dbbd2cb2040ca1a",
-  "_size": 7778,
+  "_sha": "54bdb0eac6ca8a2357013bf81589321852e458b8",
+  "_size": 8362,
   "appid": "4601120",
   "common": {
     "associations": {
@@ -185,12 +190,13 @@
       "tchinese": "無盡列車"
     },
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "1",
     "releasestate": "released",
-    "review_percentage": "70",
-    "review_score": "6",
+    "review_percentage": "67",
+    "review_score": "5",
     "small_capsule": {
       "english": "a4e721a3b11740bb060c8e6c0d54a989a9973cbc/capsule_231x87.jpg",
       "schinese": "b478a35aac98ce31530a3e4fba49d41bd74106c8/capsule_231x87_schinese.jpg"
@@ -350,16 +356,38 @@
         },
         "executable": "Endless Rails.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Endless Rails.app",
+        "type": "default"
       }
     }
   },
   "depots": {
     "4601121": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "155819984",
-          "gid": "2967071135907744890",
-          "size": "548971086"
+          "download": "156229664",
+          "gid": "2137264329437626718",
+          "size": "555150511"
+        }
+      }
+    },
+    "4601122": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "164037248",
+          "gid": "468031062490066708",
+          "size": "573673323"
         }
       }
     },
@@ -375,9 +403,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "25650259",
-        "timebuildupdated": "1790851004",
-        "timeupdated": "1790851004"
+        "buildid": "25802264",
+        "timebuildupdated": "1791458672",
+        "timeupdated": "1791458672"
       }
     },
     "privatebranches": "1"
@@ -392,6 +420,15 @@
   "ufs": {
     "maxnumfiles": "5",
     "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "Studio Monoblok/Endless Rails",

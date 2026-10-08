@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1791203927,
-  "_history": [],
-  "_change_number": 39495214,
-  "_missing_token": true,
-  "_sha": "b667a53b303c476d14a32ad6534b1ff78a1eb170",
-  "_size": 4176,
+  "_lastChecked": 1791463187,
+  "_history": [
+    {
+      "buildId": "25778117",
+      "branch": "public",
+      "timeUpdated": 1791460622,
+      "firstSeen": 1791463121,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "1551981": {
+          "gid": "2052674537007090776",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39615195,
+  "_missing_token": false,
+  "_sha": "359362e3337ca3049cff6a00dae6c1760e10f022",
+  "_size": 7576,
   "appid": "1551980",
   "common": {
     "associations": {
@@ -32,6 +57,7 @@
     "clienticon": "192017033bf988b633bf7f8e58ec3a361c7897f6",
     "clienttga": "426c945ce0402ad123d628304294d481a195a910",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -52,7 +78,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "1551980",
     "genres": {
       "0": "1"
@@ -132,15 +157,16 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c8642c8c08272cb8646e851aa464a2e627438d19/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1790169213",
+    "steam_release_date": "1791460741",
+    "store_asset_mtime": "1791380091",
     "store_tags": {
       "0": "4345",
       "1": "19",
-      "10": "4667",
+      "10": "9541",
       "11": "1721",
       "12": "3978",
       "13": "4182",
@@ -154,10 +180,10 @@
       "3": "12095",
       "4": "6650",
       "5": "4166",
-      "6": "21",
-      "7": "3839",
+      "6": "3839",
+      "7": "21",
       "8": "4342",
-      "9": "9541"
+      "9": "4667"
     },
     "supported_languages": {
       "brazilian": {
@@ -196,5 +222,124 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Clive Barker's Hellraiser - Revival",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Clive Barker's Hellraiser: Revival (Dev)",
+        "description_loc": {
+          "english": "Clive Barker's Hellraiser: Revival (Dev)"
+        },
+        "executable": "Hellraiser.exe",
+        "type": "option1"
+      },
+      "1": {
+        "config": {
+          "betakey": "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing",
+          "oslist": "windows"
+        },
+        "description": "Clive Barker's Hellraiser: Revival (Test)",
+        "description_loc": {
+          "english": "Clive Barker's Hellraiser: Revival (Test)"
+        },
+        "executable": "Hellraiser\\Binaries\\Win64\\Hellraiser-Win64-Test.exe",
+        "type": "option2"
+      },
+      "2": {
+        "arguments": "-NoVerifyGC -trace=cpu,gpu,frames,log,bookmarks -tracehost=10.105.47.22",
+        "config": {
+          "betakey": "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing",
+          "oslist": "windows"
+        },
+        "description": "Performance Test",
+        "description_loc": {
+          "english": "Performance Test"
+        },
+        "executable": "Hellraiser.exe",
+        "type": "option3"
+      },
+      "3": {
+        "arguments": "--PsoRunDev",
+        "config": {
+          "betakey": "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing",
+          "oslist": "windows"
+        },
+        "description": "And Collect PSO (Dev)",
+        "description_loc": {
+          "english": "And Collect PSO (Dev)"
+        },
+        "executable": "RunGameAndCollectPSO.bat",
+        "type": "option3"
+      },
+      "4": {
+        "arguments": "--PsoRunTest",
+        "config": {
+          "betakey": "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing",
+          "oslist": "windows"
+        },
+        "description": "And Collect PSO (Test)",
+        "description_loc": {
+          "english": "And Collect PSO (Test)"
+        },
+        "executable": "RunGameAndCollectPSO.bat",
+        "type": "option3"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "1551981": {
+      "manifests": {
+        "public": {
+          "download": "69887227248",
+          "gid": "2052674537007090776",
+          "size": "77680229211"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "25778117",
+        "timebuildupdated": "1791378041",
+        "timeupdated": "1791460622"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Saber Interactive",
+    "dlcavailableonstore": "1",
+    "homepage": "https://hellraisergame.com",
+    "listofdlc": "4664760,4664770",
+    "publisher": "Saber Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Hellraiser/Saved/",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
