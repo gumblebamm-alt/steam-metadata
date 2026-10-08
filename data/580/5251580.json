@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791290274,
-  "_history": [],
-  "_change_number": 39527203,
-  "_missing_token": true,
-  "_sha": "8ac55096ac6230160afc3bfd4a3bbf60d0072ad0",
-  "_size": 4192,
+  "_lastChecked": 1791420132,
+  "_history": [
+    {
+      "buildId": "25384152",
+      "branch": "public",
+      "timeUpdated": 1789710775,
+      "firstSeen": 1791420132,
+      "manifests": {
+        "5251581": {
+          "gid": "3252551964113345278",
+          "size": 191294280,
+          "download": 136096416
+        }
+      }
+    }
+  ],
+  "_change_number": 39595819,
+  "_missing_token": false,
+  "_sha": "53c8469cc3fef4c29aec6565e9bd2c72c02e1678",
+  "_size": 5425,
   "appid": "5251580",
   "common": {
     "associations": {
@@ -33,7 +47,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5251580",
     "genres": {
       "0": "1",
@@ -118,11 +131,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "650c180a95f4ab9b5d33cae77d087858d0e879ad/capsule_231x87.jpg",
       "japanese": "1d4762d432550c54aa14e7ec92a57a9ffc999e39/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1791415649",
     "store_asset_mtime": "1789094785",
     "store_tags": {
       "0": "597",
@@ -156,5 +170,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Super Shooting Gallery Battle",
+    "launch": {
+      "0": {
+        "arguments": "-screen-fullscreen 1",
+        "description": "FullScreen",
+        "description_loc": {
+          "english": "FullScreen"
+        },
+        "executable": "Super_Shooting_Gallery_Battle.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-screen-fullscreen 0 -screen-width 1920 -screen-height 1080",
+        "description": "Windowed (1920 x 1080)",
+        "description_loc": {
+          "english": "Windowed (1920 x 1080)"
+        },
+        "executable": "Super_Shooting_Gallery_Battle.exe"
+      }
+    }
+  },
+  "depots": {
+    "5251581": {
+      "manifests": {
+        "public": {
+          "download": "136096416",
+          "gid": "3252551964113345278",
+          "size": "191294280"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25384152",
+        "timebuildupdated": "1789710756",
+        "timeupdated": "1789710775"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SAT-BOX",
+    "publisher": "SAT-BOX"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "SAT-BOX/Super_Shooting_Gallery_Battle",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

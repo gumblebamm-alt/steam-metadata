@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1790772042,
-  "_history": [],
-  "_change_number": 39332286,
-  "_missing_token": true,
-  "_sha": "713a9242485b13961ff036ce6a28472aef3ebd1e",
-  "_size": 3952,
+  "_lastChecked": 1791420070,
+  "_history": [
+    {
+      "buildId": "25620133",
+      "branch": "public",
+      "timeUpdated": 1790747108,
+      "firstSeen": 1791420011,
+      "manifests": {
+        "4699771": {
+          "gid": "8537094215045931534",
+          "size": null,
+          "download": null
+        },
+        "4699772": {
+          "gid": "7709265443663011648",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39595517,
+  "_missing_token": false,
+  "_sha": "b0cda1327c4e6f9e7584f4b3da7d16367c749912",
+  "_size": 6053,
   "appid": "4699770",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +50,8 @@
     },
     "clienticon": "21a079daba118c45794d7e9d3413e8b02e92590e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4699770",
     "genres": {
       "0": "4",
@@ -116,10 +136,13 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "90",
+    "review_score": "7",
     "small_capsule": {
       "english": "d1b1768174a679272c1666eb902ab297d73f128d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791378027",
     "store_asset_mtime": "1790191724",
     "store_tags": {
       "0": "597",
@@ -187,5 +210,113 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Babel Legacy",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Babel Legacy.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Babel Legacy.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4699771": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "55093408",
+          "gid": "8537094215045931534",
+          "size": "154333112"
+        }
+      }
+    },
+    "4699772": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "52793456",
+          "gid": "7709265443663011648",
+          "size": "153185093"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25620133",
+        "timebuildupdated": "1790747058",
+        "timeupdated": "1790747108"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Broken Toilet Games",
+    "publisher": "Broken Toilet Games"
+  },
+  "ufs": {
+    "maxnumfiles": "250",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Saves",
+            "replace": "Broken Toilet Games/Babel Legacy/Saves"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "WinAppDataLocalLow"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Saves",
+            "replace": "Broken Toilet Games/Babel Legacy/Saves"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      },
+      "2": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Saves",
+            "replace": ".config/unity3d/Broken Toilet Games/Babel Legacy/Saves"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Saves",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

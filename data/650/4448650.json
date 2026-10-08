@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1790815116,
-  "_history": [],
-  "_change_number": 39358483,
-  "_missing_token": true,
-  "_sha": "9f87c98a9c63db4e189d5ffc21c85a12485f401e",
-  "_size": 3006,
+  "_lastChecked": 1791420105,
+  "_history": [
+    {
+      "buildId": "25599002",
+      "branch": "public",
+      "timeUpdated": 1790673995,
+      "firstSeen": 1791420105,
+      "manifests": {
+        "4448651": {
+          "gid": "441596658571945843",
+          "size": 910535978,
+          "download": 766322512
+        }
+      }
+    }
+  ],
+  "_change_number": 39581504,
+  "_missing_token": false,
+  "_sha": "bb3d5fc9b1231111a055c34ddeef9a14277f723c",
+  "_size": 4370,
   "appid": "4448650",
   "common": {
     "associations": {
@@ -29,7 +43,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4448650",
     "genres": {
       "0": "1",
@@ -100,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ec3d58f7f00f46ae9a25d2c049aa1158913abb02/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1788728534",
     "store_tags": {
       "0": "19",
@@ -133,5 +147,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Proto Zero",
+    "launch": {
+      "0": {
+        "executable": "YunenKi.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4448651": {
+      "manifests": {
+        "public": {
+          "download": "766322512",
+          "gid": "441596658571945843",
+          "size": "910535978"
+        }
+      }
+    },
+    "4448652": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25599002",
+        "timebuildupdated": "1790673953",
+        "timeupdated": "1790673995"
+      }
+    }
+  },
+  "extended": {
+    "developer": "ExtraWildGames",
+    "publisher": "ExtraWildGames"
+  },
+  "ufs": {
+    "maxnumfiles": "4000",
+    "quota": "4000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

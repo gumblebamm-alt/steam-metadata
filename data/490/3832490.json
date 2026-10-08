@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790944536,
+  "_lastChecked": 1791420094,
   "_history": [
     {
       "buildId": "25578107",
@@ -24,12 +24,35 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "25781507",
+      "branch": "public",
+      "timeUpdated": 1791400382,
+      "firstSeen": 1791420094,
+      "manifests": {
+        "3832492": {
+          "gid": "9105199732851549534",
+          "size": 307897404,
+          "download": 204705696
+        },
+        "3832493": {
+          "gid": "3075330610017850880",
+          "size": 372705800,
+          "download": 224862208
+        },
+        "3832494": {
+          "gid": "3493177743191164038",
+          "size": 272878564,
+          "download": 196259408
+        }
+      }
     }
   ],
-  "_change_number": 39367566,
+  "_change_number": 39595548,
   "_missing_token": false,
-  "_sha": "209943a8c4f9e46c79558e54b47527b7ad3b7c08",
-  "_size": 11009,
+  "_sha": "d76428ef61dcef41f23411bcdd04d0e2f98a0fa9",
+  "_size": 11521,
   "appid": "3832490",
   "common": {
     "associations": {
@@ -136,7 +159,7 @@
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
     "releasestate": "released",
-    "review_percentage": "98",
+    "review_percentage": "97",
     "review_score": "9",
     "small_capsule": {
       "english": "320c5c297cc1c4b3369ecd89d4f8c50411fac8e2/capsule_231x87.jpg"
@@ -249,15 +272,15 @@
     "store_tags": {
       "0": "723991",
       "1": "42804",
-      "10": "3964",
+      "10": "4400",
       "11": "3871",
       "12": "6730",
       "13": "3993",
       "14": "4885",
       "15": "6691",
       "16": "597",
-      "17": "4791",
-      "18": "4004",
+      "17": "4004",
+      "18": "4791",
       "19": "7481",
       "2": "3959",
       "3": "5154",
@@ -266,10 +289,15 @@
       "6": "4182",
       "7": "14720",
       "8": "1773",
-      "9": "4400"
+      "9": "3964"
     },
     "supported_languages": {
       "brazilian": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "catalan": {
         "full_audio": "true",
         "subtitles": "true",
         "supported": "true"
@@ -279,7 +307,17 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "dutch": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
       "english": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "french": {
         "full_audio": "true",
         "subtitles": "true",
         "supported": "true"
@@ -314,6 +352,11 @@
         "supported": "true"
       },
       "spanish": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "thai": {
         "full_audio": "true",
         "subtitles": "true",
         "supported": "true"
@@ -414,9 +457,9 @@
       },
       "manifests": {
         "public": {
-          "download": "199572400",
-          "gid": "8659597044274217475",
-          "size": "299799872"
+          "download": "204705696",
+          "gid": "9105199732851549534",
+          "size": "307897404"
         }
       }
     },
@@ -427,9 +470,9 @@
       },
       "manifests": {
         "public": {
-          "download": "219650400",
-          "gid": "6744230747490149964",
-          "size": "364414039"
+          "download": "224862208",
+          "gid": "3075330610017850880",
+          "size": "372705800"
         }
       }
     },
@@ -440,17 +483,17 @@
       },
       "manifests": {
         "public": {
-          "download": "191123008",
-          "gid": "2131564338833996554",
-          "size": "264747360"
+          "download": "196259408",
+          "gid": "3493177743191164038",
+          "size": "272878564"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25578107",
-        "timebuildupdated": "1790599033",
-        "timeupdated": "1790599060"
+        "buildid": "25781507",
+        "timebuildupdated": "1791387091",
+        "timeupdated": "1791400382"
       }
     },
     "privatebranches": "1"
@@ -463,8 +506,8 @@
     "publisher": "Shaun Hammond Business Solutions Limited"
   },
   "ufs": {
-    "maxnumfiles": "40",
-    "quota": "1000000",
+    "maxnumfiles": "60",
+    "quota": "10000000",
     "rootoverrides": {
       "0": {
         "os": "MacOS",
@@ -499,6 +542,11 @@
       },
       "1": {
         "path": "AntivirusSurvivors/profiles",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "AntivirusSurvivors/profiles/{Steam3AccountID}",
         "pattern": "*.json",
         "root": "WinAppDataRoaming"
       }

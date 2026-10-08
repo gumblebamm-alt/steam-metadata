@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791376844,
-  "_history": [],
-  "_change_number": 39574683,
-  "_missing_token": true,
-  "_sha": "353f3fdf2032231bd1c2b925691cc75412e4116c",
-  "_size": 4998,
+  "_lastChecked": 1791420131,
+  "_history": [
+    {
+      "buildId": "25779551",
+      "branch": "public",
+      "timeUpdated": 1791382068,
+      "firstSeen": 1791420131,
+      "manifests": {
+        "5221862": {
+          "gid": "6979041386658683271",
+          "size": 266050615,
+          "download": 135688208
+        },
+        "5221863": {
+          "gid": "1670423599816512543",
+          "size": 222137888,
+          "download": 159560560
+        }
+      }
+    }
+  ],
+  "_change_number": 39578627,
+  "_missing_token": false,
+  "_sha": "f1a61f4ef292b113ba8e2d4924f8167e7c870aee",
+  "_size": 6918,
   "appid": "5221860",
   "common": {
     "aicontenttype": "1",
@@ -46,9 +65,9 @@
     },
     "clienticon": "66ce3f8d74a5c0ba7b7a9595bd0085a318e7149f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5221860",
     "genres": {
       "0": "2"
@@ -151,11 +170,12 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "10278f8c739c3270c0dfa955ea27d1cdb2d928e4/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/5221860/announcements/detail/678510595516925809?snr=1_2108_9__2107",
+    "steam_release_date": "1791383001",
     "store_asset_mtime": "1791374196",
     "store_tags": {
       "0": "9",
@@ -243,5 +263,93 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Chessfolk",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "windows/chessfolk.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "mac/Chessfolk.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input/action_manifest.vdf"
+  },
+  "depots": {
+    "5221861": {},
+    "5221862": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "135688208",
+          "gid": "6979041386658683271",
+          "size": "266050615"
+        }
+      }
+    },
+    "5221863": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "159560560",
+          "gid": "1670423599816512543",
+          "size": "222137888"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,dutch,english,french,german,indonesian,italian,japanese,koreana,polish,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "25779551",
+        "timebuildupdated": "1791382041",
+        "timeupdated": "1791382068"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Space 64",
+    "homepage": "https://space64.xyz/apps/chessfolk-offline-chess-ai/",
+    "publisher": "Space 64"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "500000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "com.space64/chessfolk",
+            "replace": "com.space64.chessfolk"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "com.space64/chessfolk",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
