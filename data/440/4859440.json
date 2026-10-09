@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791463256,
-  "_history": [],
-  "_change_number": 39601908,
-  "_missing_token": true,
-  "_sha": "a555ca29e8c4edb8c6e7133c4b8dd66c6a039958",
-  "_size": 3075,
+  "_lastChecked": 1791506724,
+  "_history": [
+    {
+      "buildId": "25794894",
+      "branch": "public",
+      "timeUpdated": 1791431707,
+      "firstSeen": 1791506724,
+      "manifests": {
+        "4859441": {
+          "gid": "2008713480897637031",
+          "size": 37238676,
+          "download": 27841392
+        },
+        "4859442": {
+          "gid": "2661963344548674785",
+          "size": 51255440,
+          "download": 32386880
+        }
+      }
+    }
+  ],
+  "_change_number": 39639199,
+  "_missing_token": false,
+  "_sha": "06694ec5ee329b55a52ad0a37a84d13a652974ed",
+  "_size": 4437,
   "appid": "4859440",
   "common": {
     "aicontenttype": "1",
@@ -28,8 +47,8 @@
     "clienticns": "5dc9e3a62fda50392a32bf477b791abf18ef84d0",
     "clienticon": "f22c2ee2853cfa944f9947e040c3def157072d2b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4859440",
     "genres": {
       "0": "4",
@@ -103,10 +122,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "11f1fa3a311fe5a0dd4be6ae6cc9e11abdfdff3d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791506139",
     "store_asset_mtime": "1790387643",
     "store_tags": {
       "0": "1091588",
@@ -137,5 +157,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Enchanted Blackjack",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Enchanted Blackjack.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Enchanted Blackjack.app"
+      }
+    }
+  },
+  "depots": {
+    "4859441": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "27841392",
+          "gid": "2008713480897637031",
+          "size": "37238676"
+        }
+      }
+    },
+    "4859442": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "32386880",
+          "gid": "2661963344548674785",
+          "size": "51255440"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25794894",
+        "timebuildupdated": "1791431704",
+        "timeupdated": "1791431707"
+      }
+    }
+  },
+  "extended": {
+    "developer": "drikdrok",
+    "publisher": "drikdrok"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Enchanted Blackjack",
+        "pattern": "*.dat",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

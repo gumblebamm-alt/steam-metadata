@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791463248,
-  "_history": [],
-  "_change_number": 39613685,
-  "_missing_token": true,
-  "_sha": "078060c3c955b8a86cc1c71ec02a1e21aa37ec0a",
-  "_size": 3661,
+  "_lastChecked": 1791506716,
+  "_history": [
+    {
+      "buildId": "25805382",
+      "branch": "public",
+      "timeUpdated": 1791467489,
+      "firstSeen": 1791506716,
+      "manifests": {
+        "4613651": {
+          "gid": "899987272696541985",
+          "size": 12776443438,
+          "download": 12054345456
+        },
+        "4613652": {
+          "gid": "8829477260665876488",
+          "size": 6191414120,
+          "download": 5268104400
+        }
+      }
+    }
+  ],
+  "_change_number": 39621750,
+  "_missing_token": false,
+  "_sha": "e08dade0a3fb139538ac49cc693f3499238a6a34",
+  "_size": 5077,
   "appid": "4613650",
   "common": {
     "aicontenttype": "1",
@@ -33,9 +52,9 @@
     },
     "clienticon": "151fc2f452dd969f3e8d584c16c8dee85b54be32",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4613650",
     "genres": {
       "0": "23"
@@ -105,7 +124,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1f7727f2a447c3905d8f2a6c28e1dc256336ae15/capsule_231x87.jpg"
     },
@@ -169,5 +188,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "DROWSE",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Drowse.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Drowse.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4613651": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "12054345456",
+          "gid": "899987272696541985",
+          "size": "12776443438"
+        }
+      }
+    },
+    "4613652": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "5268104400",
+          "gid": "8829477260665876488",
+          "size": "6191414120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25805382",
+        "timebuildupdated": "1791467489",
+        "timeupdated": "1791467489"
+      }
+    }
+  },
+  "extended": {
+    "developer": "MILKY COCO GAMES",
+    "publisher": "MILKY COCO GAMES"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "5000000"
+  }
 }

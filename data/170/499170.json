@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1791420072,
-  "_history": [],
-  "_change_number": 39587471,
-  "_missing_token": true,
-  "_sha": "e968133642786115af242fa059a25e5659c2f81a",
-  "_size": 7365,
+  "_lastChecked": 1791506675,
+  "_history": [
+    {
+      "buildId": "25805446",
+      "branch": "public",
+      "timeUpdated": 1791470786,
+      "firstSeen": 1791506600,
+      "manifests": {
+        "228988": {
+          "gid": "6645201662696499616",
+          "size": null,
+          "download": null
+        },
+        "499171": {
+          "gid": "5339597513961544897",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39634085,
+  "_missing_token": false,
+  "_sha": "8bc9f924bb72c9ee48924294a10b866d4b8a73c9",
+  "_size": 9249,
   "appid": "499170",
   "common": {
     "associations": {
@@ -36,9 +56,9 @@
     },
     "clienticon": "a440ee5f9039749226536670915eac6eecbf8121",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "499170",
     "genres": {
       "0": "25",
@@ -132,6 +152,9 @@
         }
       }
     },
+    "metacritic_fullurl": "https://www.metacritic.com/game/pc/order-of-the-sinking-star?ftag=MCD-06-10aaa1f",
+    "metacritic_name": "Order of the Sinking Star",
+    "metacritic_score": "83",
     "name": "Order of the Sinking Star",
     "name_localized": {
       "schinese": "沉星之序",
@@ -141,7 +164,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "98",
+    "review_score": "8",
     "small_capsule": {
       "english": "395519d87cc923a64bfa8834b02efb3c4ac8a565/capsule_231x87.jpg",
       "schinese": "7e82c94f09c5e10812a298738d449304c6d2fcb6/capsule_231x87_schinese.jpg",
@@ -208,7 +233,8 @@
         }
       }
     },
-    "store_asset_mtime": "1790865455",
+    "steam_release_date": "1791478648",
+    "store_asset_mtime": "1791477556",
     "store_tags": {
       "0": "1664",
       "1": "21",
@@ -280,5 +306,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "contenttype": "3",
+    "installdir": "Order of the Sinking Star",
+    "launch": {
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "DirectX12 version",
+        "description_loc": {
+          "english": "DirectX12 version"
+        },
+        "executable": "sinking_star.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "499171": {
+      "manifests": {
+        "public": {
+          "download": "10847222528",
+          "gid": "5339597513961544897",
+          "size": "13483225309"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,japanese,koreana,portuguese,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25805446",
+        "timebuildupdated": "1791467639",
+        "timeupdated": "1791470786"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Thekla, Inc.",
+    "homepage": "https://www.orderofthesinkingstar.com/",
+    "publisher": "Arc Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Order of the Sinking Star",
+        "pattern": "*.history",
+        "recursive": "1",
+        "root": "WinSavedGames"
+      },
+      "1": {
+        "path": "Order of the Sinking Star",
+        "pattern": "*.sokoban_status",
+        "recursive": "1",
+        "root": "WinSavedGames"
+      },
+      "2": {
+        "path": "Order of the Sinking Star",
+        "pattern": "*.keymap",
+        "recursive": "1",
+        "root": "WinSavedGames"
+      }
+    }
+  }
 }

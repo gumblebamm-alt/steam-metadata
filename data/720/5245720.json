@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791203957,
-  "_history": [],
-  "_change_number": 39488689,
-  "_missing_token": true,
-  "_sha": "1391d20b7adc80ac6a7dabc1deb86592812eedd9",
-  "_size": 5307,
+  "_lastChecked": 1791506740,
+  "_history": [
+    {
+      "buildId": "25809308",
+      "branch": "public",
+      "timeUpdated": 1791477813,
+      "firstSeen": 1791506740,
+      "manifests": {
+        "5245721": {
+          "gid": "8313067622513736827",
+          "size": 315101568,
+          "download": 201691088
+        }
+      }
+    }
+  ],
+  "_change_number": 39626450,
+  "_missing_token": false,
+  "_sha": "1a8ab6f185091e08a5484d818e2923fe75db6428",
+  "_size": 6305,
   "appid": "5245720",
   "common": {
     "associations": {
@@ -33,9 +47,9 @@
     },
     "clienticon": "f7050326bd23bbd50015de24ea2fb88d6503fbb9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5245720",
     "genres": {
       "0": "1",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ac68e6ea2cda94c75db0deca2fe8efb341dc05fc/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791479064",
     "store_asset_mtime": "1789901320",
     "store_tags": {
       "0": "19",
@@ -260,7 +275,59 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Old War Together",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Old War Together.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5245721": {
+      "manifests": {
+        "public": {
+          "download": "201691088",
+          "gid": "8313067622513736827",
+          "size": "315101568"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25809308",
+        "timebuildupdated": "1791477790",
+        "timeupdated": "1791477813"
+      }
+    },
+    "workshopdepot": "5245720"
+  },
+  "extended": {
+    "developer": "cnsgames",
+    "publisher": "cnsgames"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "cnsgames/Old War Together/profiles",
+        "pattern": "profile_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

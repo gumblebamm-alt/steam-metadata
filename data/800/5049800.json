@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791420071,
+  "_lastChecked": 1791506732,
   "_history": [
     {
       "buildId": "24674166",
@@ -54,12 +54,30 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "25816003",
+      "branch": "public",
+      "timeUpdated": 1791499435,
+      "firstSeen": 1791506732,
+      "manifests": {
+        "5049801": {
+          "gid": "1357279186154063373",
+          "size": 889050851,
+          "download": 541872592
+        },
+        "5049802": {
+          "gid": "2798922456209347557",
+          "size": 1061253243,
+          "download": 592859664
+        }
+      }
     }
   ],
-  "_change_number": 39575208,
+  "_change_number": 39636789,
   "_missing_token": false,
-  "_sha": "b5c93b4e8d0784063e48f0d9a7568bff67107dde",
-  "_size": 4056,
+  "_sha": "a9009138aa9bcd3d8614a0baf24c9b4608b79944",
+  "_size": 4567,
   "appid": "5049800",
   "common": {
     "associations": {
@@ -165,11 +183,12 @@
     },
     "name": "The Crimson Scales",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos",
     "primary_genre": "37",
     "releasestate": "released",
-    "review_percentage": "90",
+    "review_percentage": "91",
     "review_score": "7",
     "small_capsule": {
       "english": "d09db85a997e088d1a73649b401d2a92acebd1ac/capsule_231x87.jpg"
@@ -210,29 +229,46 @@
           "oslist": "windows"
         },
         "executable": "TheCrimsonScales.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "The Crimson Scales.app"
       }
     }
   },
   "depots": {
     "5049801": {
       "config": {
-        "language": "english",
         "osarch": "64",
         "oslist": "windows"
       },
       "manifests": {
         "public": {
-          "download": "541846208",
-          "gid": "8007509333901000307",
-          "size": "889016595"
+          "download": "541872592",
+          "gid": "1357279186154063373",
+          "size": "889050851"
+        }
+      }
+    },
+    "5049802": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "592859664",
+          "gid": "2798922456209347557",
+          "size": "1061253243"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25777622",
-        "timebuildupdated": "1791376592",
-        "timeupdated": "1791376920"
+        "buildid": "25816003",
+        "timebuildupdated": "1791499393",
+        "timeupdated": "1791499435"
       }
     }
   },
@@ -244,6 +280,15 @@
   "ufs": {
     "maxnumfiles": "10",
     "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "Godot/app_userdata/The Crimson Scales",

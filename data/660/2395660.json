@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1791420080,
-  "_history": [],
-  "_change_number": 39582341,
-  "_missing_token": true,
-  "_sha": "733dd3b56f642173750b6e47e8e1e8bf82d683ae",
-  "_size": 5263,
+  "_lastChecked": 1791506686,
+  "_history": [
+    {
+      "buildId": "25782161",
+      "branch": "beta",
+      "timeUpdated": 1791388986,
+      "firstSeen": 1791506686,
+      "manifests": {
+        "2395661": {
+          "gid": "1934810909497327868",
+          "size": 653519766,
+          "download": 300705792
+        }
+      }
+    },
+    {
+      "buildId": "25782175",
+      "branch": "public",
+      "timeUpdated": 1791389134,
+      "firstSeen": 1791506686,
+      "manifests": {
+        "2395661": {
+          "gid": "2707757793366957618",
+          "size": 653512064,
+          "download": 300647216
+        }
+      }
+    }
+  ],
+  "_change_number": 39638411,
+  "_missing_token": false,
+  "_sha": "e99c020876c8fde0608806f376aba4fe567e95b7",
+  "_size": 6392,
   "appid": "2395660",
   "common": {
     "associations": {
@@ -27,9 +54,9 @@
     "clienticon": "d41788dc39ca9c005569030d6f50f39213d3f1fb",
     "clienttga": "59df80a0c8eab2fb3cba6b6a7770da5f6ec87a7a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2395660",
     "genres": {
       "0": "4",
@@ -130,12 +157,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "007c76b097d5cca4bb9bb19a939c3b29e7006a82/capsule_231x87.jpg",
       "japanese": "f62146e0ff2f13c5bf828129efc055ab10aba2e7/capsule_231x87_japanese.jpg",
       "schinese": "05b7abe8f29d18da74408c055f169916b47f6324/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1793430000",
     "store_asset_mtime": "1790910722",
     "store_tags": {
       "0": "597",
@@ -170,5 +198,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BroSanguo",
+    "launch": {
+      "0": {
+        "executable": "BroSanguo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2395661": {
+      "manifests": {
+        "beta": {
+          "download": "300705792",
+          "gid": "1934810909497327868",
+          "size": "653519766"
+        },
+        "public": {
+          "download": "300647216",
+          "gid": "2707757793366957618",
+          "size": "653512064"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,schinese",
+    "branches": {
+      "beta": {
+        "buildid": "25782161",
+        "description": "beta branch",
+        "timebuildupdated": "1791388986",
+        "timeupdated": "1791388986"
+      },
+      "public": {
+        "buildid": "25782175",
+        "timebuildupdated": "1791389046",
+        "timeupdated": "1791389134"
+      }
+    }
+  },
+  "extended": {
+    "developer": "HanmoTech",
+    "publisher": "HanmoTech"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000"
+  }
 }

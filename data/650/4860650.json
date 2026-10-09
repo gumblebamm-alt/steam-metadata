@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1790815125,
+  "_lastChecked": 1791506724,
   "_history": [
+    {
+      "buildId": "25812041",
+      "branch": "public",
+      "timeUpdated": 1791486258,
+      "firstSeen": 1791506724,
+      "manifests": {
+        "4860651": {
+          "gid": "2940695337661139066",
+          "size": 1041234376,
+          "download": 591400992
+        },
+        "4860652": {
+          "gid": "8824035125028404649",
+          "size": 1118503276,
+          "download": 613306208
+        }
+      }
+    },
     {
       "buildId": "25632495",
       "branch": "public",
@@ -52,25 +70,12 @@
           "download": 566676144
         }
       }
-    },
-    {
-      "buildId": "25155829",
-      "branch": "public",
-      "timeUpdated": 1788722957,
-      "firstSeen": 1788729244,
-      "manifests": {
-        "4860651": {
-          "gid": "3704610423265109973",
-          "size": 997160024,
-          "download": 566668784
-        }
-      }
     }
   ],
-  "_change_number": 39356353,
+  "_change_number": 39630519,
   "_missing_token": false,
-  "_sha": "d1f4dc951c6098118ed13dc4dce68f13b582b243",
-  "_size": 5981,
+  "_sha": "ae854ece85ef9378ebd60d6e5b38074c88f9cf12",
+  "_size": 6370,
   "appid": "4860650",
   "common": {
     "associations": {
@@ -164,8 +169,9 @@
     },
     "name": "Floor Glitch",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64",
+    "oslist": "windows,macos",
     "primary_genre": "23",
     "releasestate": "released",
     "small_capsule": {
@@ -326,6 +332,12 @@
     "launch": {
       "0": {
         "executable": "FloorGlitch.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Floor Glitch.app/Contents/MacOS/Floor Glitch"
       }
     }
   },
@@ -333,17 +345,30 @@
     "4860651": {
       "manifests": {
         "public": {
-          "download": "591394880",
-          "gid": "6132689481361136683",
-          "size": "1041226276"
+          "download": "591400992",
+          "gid": "2940695337661139066",
+          "size": "1041234376"
         }
       }
     },
+    "4860652": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "613306208",
+          "gid": "8824035125028404649",
+          "size": "1118503276"
+        }
+      }
+    },
+    "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25632495",
-        "timebuildupdated": "1790785020",
-        "timeupdated": "1790785068"
+        "buildid": "25812041",
+        "timebuildupdated": "1791486150",
+        "timeupdated": "1791486258"
       }
     }
   },

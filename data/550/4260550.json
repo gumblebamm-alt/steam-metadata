@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1791463239,
-  "_history": [],
-  "_change_number": 39616142,
-  "_missing_token": true,
-  "_sha": "cc88784ae5b0255d87bf33d8713b70b532425f81",
-  "_size": 3381,
+  "_lastChecked": 1791506708,
+  "_history": [
+    {
+      "buildId": "25806350",
+      "branch": "public",
+      "timeUpdated": 1791470320,
+      "firstSeen": 1791506708,
+      "manifests": {
+        "4260551": {
+          "gid": "4642876925571608366",
+          "size": 180066696,
+          "download": 96575312
+        },
+        "4260552": {
+          "gid": "5034362752832552958",
+          "size": 263528613,
+          "download": 118766416
+        },
+        "4260553": {
+          "gid": "6657916788741066620",
+          "size": 153322704,
+          "download": 90128704
+        }
+      }
+    }
+  ],
+  "_change_number": 39621741,
+  "_missing_token": false,
+  "_sha": "c400b628f3262a26b578caab6b409ac57a1f6c2e",
+  "_size": 5029,
   "appid": "4260550",
   "common": {
     "associations": {
@@ -22,6 +46,7 @@
       "category_2": "1",
       "category_22": "1",
       "category_24": "1",
+      "category_25": "1",
       "category_28": "1",
       "category_36": "1",
       "category_37": "1",
@@ -35,9 +60,9 @@
     },
     "clienticon": "f2187bebd1849e78c9f0f8138f4b9524d21b20be",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4260550",
     "genres": {
       "0": "1",
@@ -118,10 +143,11 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bed99b9da75d1bd107bf8b0d177e178d0f2f76a4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791471890",
     "store_asset_mtime": "1790454612",
     "store_tags": {
       "0": "3859",
@@ -151,9 +177,97 @@
       },
       "english": {
         "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "latam": {
+        "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Run Giraffe Run",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "giraffe.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "macos.app/Contents/MacOS/run giraffe run",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "giraffe.x86_64",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4260551": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "96575312",
+          "gid": "4642876925571608366",
+          "size": "180066696"
+        }
+      }
+    },
+    "4260552": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "118766416",
+          "gid": "5034362752832552958",
+          "size": "263528613"
+        }
+      }
+    },
+    "4260553": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "90128704",
+          "gid": "6657916788741066620",
+          "size": "153322704"
+        }
+      }
+    },
+    "baselanguages": "english,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "25806350",
+        "timebuildupdated": "1791469996",
+        "timeupdated": "1791470320"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "thiago hilger",
+    "homepage": "http://thiago.hilger.com.br",
+    "publisher": "thiago hilger"
+  }
 }

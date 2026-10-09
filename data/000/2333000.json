@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1790901414,
-  "_history": [],
-  "_change_number": 39389881,
-  "_missing_token": true,
-  "_sha": "e9a74ca856b5fb42ef47b5b8aaf15a3d39004906",
-  "_size": 7111,
+  "_lastChecked": 1791506675,
+  "_history": [
+    {
+      "buildId": "25806663",
+      "branch": "public",
+      "timeUpdated": 1791470782,
+      "firstSeen": 1791506602,
+      "manifests": {
+        "2333001": {
+          "gid": "6698699548114882340",
+          "size": null,
+          "download": null
+        },
+        "4677931": {
+          "gid": "769645333623634749",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39638748,
+  "_missing_token": false,
+  "_sha": "a94a7e6922e0e9cd67483c00f948c7a42b93b5c3",
+  "_size": 8613,
   "appid": "2333000",
   "common": {
     "associations": {
@@ -31,6 +51,7 @@
     "clienticon": "e1b1464fe45035e765f91d2ac3b7a8ff4b8e8928",
     "clienttga": "ca5115c60f07197e018535110dfcbfe015c78b74",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -39,7 +60,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2333000",
     "genres": {
       "0": "1",
@@ -129,12 +149,20 @@
         }
       }
     },
+    "metacritic_fullurl": "https://www.metacritic.com/game/pc/silver-pines?ftag=MCD-06-10aaa1f",
+    "metacritic_name": "Silver Pines",
+    "metacritic_score": "84",
     "name": "Silver Pines",
+    "name_localized": {
+      "schinese": "银松镇"
+    },
     "osarch": "64",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "95",
+    "review_score": "8",
     "small_capsule": {
       "english": "1d876833b58e192d06e6067a84da77c2768c30e4/capsule_231x87.jpg",
       "schinese": "022c6bc39fc88949d1fab784ac7288d9c1c6f1dc/capsule_231x87_schinese.jpg"
@@ -208,7 +236,8 @@
         }
       }
     },
-    "store_asset_mtime": "1790861610",
+    "steam_release_date": "1791478740",
+    "store_asset_mtime": "1791481928",
     "store_tags": {
       "0": "3834",
       "1": "1667",
@@ -276,5 +305,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Silver Pines",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Carpenter.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2333001": {
+      "manifests": {
+        "public": {
+          "download": "3033308224",
+          "gid": "6698699548114882340",
+          "size": "6663684901"
+        }
+      }
+    },
+    "2333002": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      }
+    },
+    "4677931": {
+      "dlcappid": "4677930",
+      "manifests": {
+        "public": {
+          "download": "98456976",
+          "gid": "769645333623634749",
+          "size": "103204332"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25806663",
+        "timebuildupdated": "1791470782",
+        "timeupdated": "1791470782"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Wych Elm",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.silverpinesgame.com/",
+    "listofdlc": "4677930",
+    "publisher": "Team17"
+  },
+  "ufs": {
+    "maxnumfiles": "2500",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Wych Elm/Silver Pines/{64BitSteamID}",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

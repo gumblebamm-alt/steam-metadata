@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791247311,
-  "_history": [],
-  "_change_number": 39508367,
-  "_missing_token": true,
-  "_sha": "6d782243865411bf207b8c204f9a2a63f925c7be",
-  "_size": 5997,
+  "_lastChecked": 1791506684,
+  "_history": [
+    {
+      "buildId": "25809290",
+      "branch": "public",
+      "timeUpdated": 1791482885,
+      "firstSeen": 1791506684,
+      "manifests": {
+        "2184081": {
+          "gid": "6466214893515019055",
+          "size": 1201127475,
+          "download": 824607920
+        },
+        "2184082": {
+          "gid": "7700433940962174308",
+          "size": 1189806559,
+          "download": 820458576
+        }
+      }
+    }
+  ],
+  "_change_number": 39631566,
+  "_missing_token": false,
+  "_sha": "5f0107c1b9531b2e2ff9e79052abf57c4eaa5390",
+  "_size": 7994,
   "appid": "2184080",
   "common": {
     "associations": {
@@ -39,9 +58,9 @@
     "clienticon": "f885080826b4d8002bd779f91f0c296c1c0b35e6",
     "clienttga": "0af5bcd15927c5d2ecec74d2911533c25ea8725d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2184080",
     "genres": {
       "0": "1",
@@ -53,11 +72,11 @@
     },
     "icon": "f885080826b4d8002bd779f91f0c296c1c0b35e6",
     "languages": {
+      "brazilian": "1",
       "english": "1",
       "french": "1",
       "german": "1",
       "japanese": "1",
-      "portuguese": "1",
       "schinese": "1",
       "spanish": "1",
       "tchinese": "1"
@@ -123,7 +142,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d553c1ebb59c20ff4d253f7a177c851ea9896bc2/capsule_231x87.jpg"
     },
@@ -196,6 +215,7 @@
         }
       }
     },
+    "steam_release_date": "1791474008",
     "store_asset_mtime": "1790112534",
     "store_tags": {
       "0": "21",
@@ -255,5 +275,107 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Echo Weaver",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Echo Weaver.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Mac",
+        "description_loc": {
+          "english": "Mac"
+        },
+        "executable": "Echo Weaver.app\\Contents\\MacOS\\Echo Weaver",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65532",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2184081": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "824607920",
+          "gid": "6466214893515019055",
+          "size": "1201127475"
+        }
+      }
+    },
+    "2184082": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "820458576",
+          "gid": "7700433940962174308",
+          "size": "1189806559"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25809290",
+        "timebuildupdated": "1791477721",
+        "timeupdated": "1791482885"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Moonlight Kids",
+    "homepage": "https://www.moonlightkids.co/",
+    "publisher": "Akupara Games"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "16777216",
+    "savefiles": {
+      "0": {
+        "path": "Moonlight Kids/Echo Weaver",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Moonlight Kids/Echo Weaver",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Moonlight Kids/Echo Weaver",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "4": {
+        "path": "Moonlight Kids/Echo Weaver",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

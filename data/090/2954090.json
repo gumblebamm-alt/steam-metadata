@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1790901419,
-  "_history": [],
-  "_change_number": 39400472,
-  "_missing_token": true,
-  "_sha": "bb80388f6e2d836b9df4fa6066ef5b5b3f83e2b5",
-  "_size": 3557,
+  "_lastChecked": 1791506691,
+  "_history": [
+    {
+      "buildId": "25808259",
+      "branch": "public",
+      "timeUpdated": 1791474816,
+      "firstSeen": 1791506691,
+      "manifests": {
+        "2954091": {
+          "gid": "1977620895195192512",
+          "size": 899595144,
+          "download": 360368928
+        },
+        "2954092": {
+          "gid": "5493212915335038784",
+          "size": 899845244,
+          "download": 359876752
+        }
+      }
+    }
+  ],
+  "_change_number": 39632503,
+  "_missing_token": false,
+  "_sha": "6ba0d86c225f4e0f8a0619b041523831a1dc37f7",
+  "_size": 5548,
   "appid": "2954090",
   "common": {
     "associations": {
@@ -40,9 +59,9 @@
     "clienticon": "d7b36e80159ba8b63a602511f3af09046a091af4",
     "clienttga": "f99954e45732b0cc2a29123ddc562b911f21413a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2954090",
     "genres": {
       "0": "1",
@@ -53,6 +72,10 @@
       "english": "d060b952acec298d9b15c594fa51969c779ea0d8/header.jpg"
     },
     "icon": "d7b36e80159ba8b63a602511f3af09046a091af4",
+    "languages": {
+      "english": "1",
+      "german": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -114,11 +137,12 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bf11e4586ffd8ae4950ceaa8245809104094d46c/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/2954090/announcements/detail/676248646896845829",
+    "steam_release_date": "1791475500",
     "store_asset_mtime": "1790110077",
     "store_tags": {
       "0": "42804",
@@ -154,5 +178,106 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Nion Forge",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Nion Forge.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "NF_apple_silicon.app/Contents/MacOS/Nion Forge",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2954091": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "360368928",
+          "gid": "1977620895195192512",
+          "size": "899595144"
+        }
+      }
+    },
+    "2954092": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "359876752",
+          "gid": "5493212915335038784",
+          "size": "899845244"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "25808259",
+        "timebuildupdated": "1791474816",
+        "timeupdated": "1791474816"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Richard Puhr",
+    "homepage": "https://nionforge.com/",
+    "publisher": "DreamStudios"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RMC/Nion Forge",
+            "replace": "unity3d/RMC/Nion Forge"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RMC/Nion Forge",
+            "replace": "RMC/Nion Forge"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RMC/Nion Forge",
+        "pattern": "playerData*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

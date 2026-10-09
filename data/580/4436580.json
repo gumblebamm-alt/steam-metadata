@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791420105,
-  "_history": [],
-  "_change_number": 39597298,
-  "_missing_token": true,
-  "_sha": "0864f866d29b2335a71b37242f7c567c276ecef1",
-  "_size": 4461,
+  "_lastChecked": 1791506712,
+  "_history": [
+    {
+      "buildId": "25802460",
+      "branch": "public",
+      "timeUpdated": 1791460980,
+      "firstSeen": 1791506712,
+      "manifests": {
+        "4436581": {
+          "gid": "4948207337686770391",
+          "size": 598424280,
+          "download": 187478272
+        }
+      }
+    }
+  ],
+  "_change_number": 39634834,
+  "_missing_token": false,
+  "_sha": "34bf8653867ea87ffa6e5c99dc718582a387e5e3",
+  "_size": 5684,
   "appid": "4436580",
   "common": {
     "associations": {
@@ -33,9 +47,9 @@
     },
     "clienticon": "b50e01f1cbf1662b549b72afbb59d77b051679be",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4436580",
     "genres": {
       "0": "4",
@@ -123,12 +137,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c4d907e26a2fd75163cd921aa2491e7f4c744daa/capsule_231x87.jpg",
       "schinese": "dd0fea51c1ab12e2274e3402602ddd151fec6a8d/capsule_231x87_schinese.jpg",
       "tchinese": "dd0fea51c1ab12e2274e3402602ddd151fec6a8d/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1791479400",
     "store_asset_mtime": "1791419485",
     "store_tags": {
       "0": "560542",
@@ -200,5 +215,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "All You Can FISH!",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "All You Can FISH!.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4436581": {
+      "manifests": {
+        "public": {
+          "download": "187478272",
+          "gid": "4948207337686770391",
+          "size": "598424280"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25802460",
+        "timebuildupdated": "1791459233",
+        "timeupdated": "1791460980"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Luka's Games",
+    "publisher": "Lazy Otter"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": "Luka's Games/All You Can FISH!/{64BitSteamID}/full",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Luka's Games/All You Can FISH!/{64BitSteamID}/full",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

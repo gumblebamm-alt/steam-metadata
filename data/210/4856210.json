@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791333767,
-  "_history": [],
-  "_change_number": 39542161,
-  "_missing_token": true,
-  "_sha": "920a3979b7fe4a2795424dc84463da570a1a4bc5",
-  "_size": 3564,
+  "_lastChecked": 1791506724,
+  "_history": [
+    {
+      "buildId": "25804728",
+      "branch": "public",
+      "timeUpdated": 1791465705,
+      "firstSeen": 1791506724,
+      "manifests": {
+        "4856211": {
+          "gid": "6759745327302432949",
+          "size": 208796084,
+          "download": 82246832
+        },
+        "4856212": {
+          "gid": "2552148850378014658",
+          "size": 292707974,
+          "download": 105810720
+        }
+      }
+    }
+  ],
+  "_change_number": 39625766,
+  "_missing_token": false,
+  "_sha": "f2a6b488069e0c1b5798f126a8f1542107a81a86",
+  "_size": 5134,
   "appid": "4856210",
   "common": {
     "associations": {
@@ -31,8 +50,8 @@
     },
     "clienticon": "0dfab5303505643ae7637b9f4451c31aea88f833",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4856210",
     "genres": {
       "0": "4",
@@ -43,6 +62,19 @@
       "english": "df1ad270a66e527b8bf15364e184c97312e1f743/header.jpg"
     },
     "icon": "0dfab5303505643ae7637b9f4451c31aea88f833",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "latam": "1",
+      "polish": "1",
+      "portuguese": "1",
+      "schinese": "1",
+      "spanish": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -104,11 +136,12 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a33c1126ad5d895edaa9361197349ebd1d27edc1/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791217514",
+    "steam_release_date": "1791478277",
+    "store_asset_mtime": "1791475460",
     "store_tags": {
       "0": "560542",
       "1": "16250",
@@ -169,5 +202,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "More Slots More Money",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MoreSlotsMoreMoney.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MoreSlotsMoreMoney.app"
+      }
+    }
+  },
+  "depots": {
+    "4856211": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "82246832",
+          "gid": "6759745327302432949",
+          "size": "208796084"
+        }
+      }
+    },
+    "4856212": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "105810720",
+          "gid": "2552148850378014658",
+          "size": "292707974"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25804728",
+        "timebuildupdated": "1791465671",
+        "timeupdated": "1791465705"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Klavisuri Games",
+    "publisher": "Klavisuri Games"
+  },
+  "ufs": {
+    "maxnumfiles": "18",
+    "quota": "6000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "\\Godot\\app_userdata\\MoreSlotsMoreMoney\\saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

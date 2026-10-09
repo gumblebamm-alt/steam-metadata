@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1790987728,
-  "_history": [],
-  "_change_number": 39435460,
-  "_missing_token": true,
-  "_sha": "90acd832ccdd0d12bd8bd5d733caf6298ed51a63",
-  "_size": 4079,
+  "_lastChecked": 1791506737,
+  "_history": [
+    {
+      "buildId": "25816138",
+      "branch": "public",
+      "timeUpdated": 1791500218,
+      "firstSeen": 1791506737,
+      "manifests": {
+        "5169441": {
+          "gid": "1887406914933948614",
+          "size": 5061651296,
+          "download": 966190160
+        }
+      }
+    }
+  ],
+  "_change_number": 39636928,
+  "_missing_token": false,
+  "_sha": "7456e36b0375ff5da0f558e1c2ae6f8cf05dfa99",
+  "_size": 5634,
   "appid": "5169440",
   "common": {
     "associations": {
@@ -33,9 +47,9 @@
     },
     "clienticon": "048b6c8331286b80afa00c2040af20f0b736a168",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5169440",
     "genres": {
       "0": "4"
@@ -108,11 +122,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a5d9d195219855f1e02cf4c3f04aaf56e8a59bf3/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/5169440/partnerevents/preview/692018222142064163",
+    "steam_release_date": "1791479021",
     "store_asset_mtime": "1790182860",
     "store_tags": {
       "0": "597",
@@ -186,5 +201,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tidy Up the Royal Armory",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TidyUpTheRoyalArmory.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5169441": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "966190160",
+          "gid": "1887406914933948614",
+          "size": "5061651296"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25816138",
+        "timebuildupdated": "1791499828",
+        "timeupdated": "1791500218"
+      }
+    }
+  },
+  "extended": {
+    "developer": "7 Heads Studio",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5171960",
+    "publisher": "7 Heads Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "7heads studio/TidyUpTheRoyalArmory",
+        "pattern": "prefs.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": ".config/unity3d/7heads studio/TidyUpTheRoyalArmory",
+        "pattern": "prefs.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      },
+      "2": {
+        "path": "Library/Application Support/7heads studio/TidyUpTheRoyalArmory",
+        "pattern": "prefs.json, save_*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacHome"
+      },
+      "3": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      },
+      "4": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

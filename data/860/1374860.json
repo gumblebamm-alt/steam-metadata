@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790728731,
+  "_lastChecked": 1791506682,
   "_history": [
     {
       "buildId": "11949927",
@@ -15,6 +15,19 @@
       }
     },
     {
+      "buildId": "25808143",
+      "branch": "public",
+      "timeUpdated": 1791495344,
+      "firstSeen": 1791506682,
+      "manifests": {
+        "1374861": {
+          "gid": "3898600985879800559",
+          "size": 14705707437,
+          "download": 5671251584
+        }
+      }
+    },
+    {
       "buildId": "25487568",
       "branch": "public",
       "timeUpdated": 1790202116,
@@ -26,12 +39,51 @@
           "download": 5667806416
         }
       }
+    },
+    {
+      "buildId": "25487568",
+      "branch": "patch1.0.1",
+      "timeUpdated": 1790202116,
+      "firstSeen": 1791506682,
+      "manifests": {
+        "1374861": {
+          "gid": "128304249214937545",
+          "size": 14688445080,
+          "download": 5667806416
+        }
+      }
+    },
+    {
+      "buildId": "25684815",
+      "branch": "patch1.0.2",
+      "timeUpdated": 1791003409,
+      "firstSeen": 1791506682,
+      "manifests": {
+        "1374861": {
+          "gid": "6311995813079722975",
+          "size": 14690247413,
+          "download": 5668809904
+        }
+      }
+    },
+    {
+      "buildId": "25460029",
+      "branch": "release1.0.0",
+      "timeUpdated": 1790090881,
+      "firstSeen": 1791506682,
+      "manifests": {
+        "1374861": {
+          "gid": "3518502352046177744",
+          "size": 14688440303,
+          "download": 5667805760
+        }
+      }
     }
   ],
-  "_change_number": 39312330,
+  "_change_number": 39635714,
   "_missing_token": false,
-  "_sha": "f7fb3032c93edfff4c81b7b6374d085d3c3cd882",
-  "_size": 5602,
+  "_sha": "7181fc393008aa7324ca54a47b305aee0642b128",
+  "_size": 9067,
   "appid": "1374860",
   "common": {
     "associations": {
@@ -142,10 +194,99 @@
     "oslist": "windows",
     "primary_genre": "3",
     "releasestate": "released",
-    "review_percentage": "99",
-    "review_score": "8",
+    "review_percentage": "98",
+    "review_score": "9",
     "small_capsule": {
       "english": "16a68851c20bce42525409495afa4cc29d82d123/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        }
+      },
+      "test_timestamp": "1790349140",
+      "tested_build_id": "25487568",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "3": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "4": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_NativeResolutionNotSupported"
+        },
+        "5": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "6": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
     },
     "steam_release_date": "1790096442",
     "store_asset_mtime": "1790033825",
@@ -237,10 +378,25 @@
           "gid": "1182416976648526923",
           "size": "2115089100"
         },
-        "public": {
+        "patch1.0.1": {
           "download": "5667806416",
           "gid": "128304249214937545",
           "size": "14688445080"
+        },
+        "patch1.0.2": {
+          "download": "5668809904",
+          "gid": "6311995813079722975",
+          "size": "14690247413"
+        },
+        "public": {
+          "download": "5671251584",
+          "gid": "3898600985879800559",
+          "size": "14705707437"
+        },
+        "release1.0.0": {
+          "download": "5667805760",
+          "gid": "3518502352046177744",
+          "size": "14688440303"
         }
       }
     },
@@ -252,10 +408,28 @@
         "timebuildupdated": "1692140988",
         "timeupdated": "1692140988"
       },
-      "public": {
+      "patch1.0.1": {
         "buildid": "25487568",
+        "description": "a previous release",
         "timebuildupdated": "1790184412",
         "timeupdated": "1790202116"
+      },
+      "patch1.0.2": {
+        "buildid": "25684815",
+        "description": "a previous release",
+        "timebuildupdated": "1790968902",
+        "timeupdated": "1791003409"
+      },
+      "public": {
+        "buildid": "25808143",
+        "timebuildupdated": "1791474493",
+        "timeupdated": "1791495344"
+      },
+      "release1.0.0": {
+        "buildid": "25460029",
+        "description": "original launch build",
+        "timebuildupdated": "1790083562",
+        "timeupdated": "1790090881"
       }
     },
     "privatebranches": "1"

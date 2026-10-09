@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791463206,
-  "_history": [],
-  "_change_number": 39601205,
-  "_missing_token": true,
-  "_sha": "e98c50da15e901f8cef8f69bb2c6b882dca364a0",
-  "_size": 3642,
+  "_lastChecked": 1791506683,
+  "_history": [
+    {
+      "buildId": "25794315",
+      "branch": "public",
+      "timeUpdated": 1791429585,
+      "firstSeen": 1791506683,
+      "manifests": {
+        "1965551": {
+          "gid": "7081357972066859011",
+          "size": 1361501435,
+          "download": 553515600
+        },
+        "1965552": {
+          "gid": "7231787746247910992",
+          "size": 1355103638,
+          "download": 550653712
+        }
+      }
+    }
+  ],
+  "_change_number": 39637989,
+  "_missing_token": false,
+  "_sha": "43462dffaf8ad4c1954b79c6478dc0903b41a7eb",
+  "_size": 5150,
   "appid": "1965550",
   "common": {
     "associations": {
@@ -40,6 +59,7 @@
     "clienticon": "7baa61894bafb2aaaec3e8eeec1ee22f0db67ec8",
     "clienttga": "10fcc8629d408b5907c470c9dd131be50f93d92d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -50,7 +70,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "1965550",
     "genres": {
       "0": "1",
@@ -125,10 +144,11 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f65b23d6bd50a5fd8e34cea148615332abae50a2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791475140",
     "store_asset_mtime": "1784319380",
     "store_tags": {
       "0": "916648",
@@ -161,5 +181,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Wildaria",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Wildaria.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Mac.app"
+      }
+    }
+  },
+  "depots": {
+    "1965551": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "553515600",
+          "gid": "7081357972066859011",
+          "size": "1361501435"
+        }
+      }
+    },
+    "1965552": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "550653712",
+          "gid": "7231787746247910992",
+          "size": "1355103638"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25794315",
+        "timebuildupdated": "1791429213",
+        "timeupdated": "1791429585"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SpaceFudge",
+    "homepage": "https://wildaria.net/",
+    "publisher": "SpaceFudge"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "Spacefudge/Wildaria/",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "MacAppSupport",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "\\SpaceFudge\\Wildaria\\",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }
