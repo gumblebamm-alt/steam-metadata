@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791376815,
+  "_lastChecked": 1791549429,
   "_history": [
     {
       "buildId": "22142557",
@@ -26,12 +26,38 @@
           "download": 564465040
         }
       }
+    },
+    {
+      "buildId": "25772868",
+      "branch": "public",
+      "timeUpdated": 1791362578,
+      "firstSeen": 1791549429,
+      "manifests": {
+        "4054681": {
+          "gid": "2752749375417537479",
+          "size": 583627514,
+          "download": 565415936
+        }
+      }
+    },
+    {
+      "buildId": "22142557",
+      "branch": "rerelease",
+      "timeUpdated": 1773539026,
+      "firstSeen": 1791549429,
+      "manifests": {
+        "4054681": {
+          "gid": "3069905620879651458",
+          "size": 970183495,
+          "download": 873296048
+        }
+      }
     }
   ],
-  "_change_number": 39525192,
+  "_change_number": 39642944,
   "_missing_token": false,
-  "_sha": "68f85e17fa84382949d8934bf7cbc50926917053",
-  "_size": 8301,
+  "_sha": "725e6b669e313110e37377b47cf8c99a273940ef",
+  "_size": 9500,
   "appid": "4054680",
   "common": {
     "associations": {
@@ -41,26 +67,33 @@
       },
       "1": {
         "name": "FIJOY Games",
-        "type": "publisher"
+        "type": "developer"
       },
       "2": {
+        "name": "FIJOY Games",
+        "type": "publisher"
+      },
+      "3": {
         "name": "Floorball League",
         "type": "franchise"
       },
-      "3": {
+      "4": {
         "name": "FBL",
         "type": "franchise"
       },
-      "4": {
+      "5": {
         "name": "Floorball",
         "type": "franchise"
       }
     },
     "category": {
       "category_1": "1",
+      "category_15": "1",
       "category_18": "1",
       "category_2": "1",
+      "category_22": "1",
       "category_24": "1",
+      "category_30": "1",
       "category_37": "1",
       "category_39": "1",
       "category_44": "1",
@@ -77,6 +110,7 @@
     },
     "clienticon": "81ccf70c0d5944db82726305d0c8343a1c2629a2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
     "gameid": "4054680",
@@ -90,6 +124,18 @@
       "english": "abbab4d7a0de6cab73648e75fd436b8e182ae905/header.jpg"
     },
     "icon": "9b975c6abda067baae970562f3c5e4975d5b9f49",
+    "languages": {
+      "czech": "1",
+      "danish": "1",
+      "english": "1",
+      "finnish": "1",
+      "french": "1",
+      "german": "1",
+      "norwegian": "1",
+      "russian": "1",
+      "spanish": "1",
+      "swedish": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -268,6 +314,9 @@
       "9": "1697"
     },
     "supported_languages": {
+      "czech": {
+        "supported": "true"
+      },
       "danish": {
         "subtitles": "true",
         "supported": "true"
@@ -281,8 +330,20 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
       "norwegian": {
         "subtitles": "true",
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "spanish": {
         "supported": "true"
       },
       "swedish": {
@@ -304,6 +365,7 @@
         "type": "default"
       },
       "1": {
+        "arguments": "--configure",
         "config": {
           "oslist": "windows"
         },
@@ -324,7 +386,7 @@
           "english": "Floorball Editor"
         },
         "executable": "FloorballEditor/Floorball Editor.exe",
-        "type": "config"
+        "type": "editor"
       }
     },
     "steamdecktouchscreen": "1"
@@ -337,28 +399,32 @@
       "depotfromapp": "228980",
       "sharedinstall": "1"
     },
-    "229000": {
-      "config": {
-        "oslist": "windows"
-      },
-      "depotfromapp": "228980",
-      "sharedinstall": "1"
-    },
     "4054681": {
       "manifests": {
         "public": {
-          "download": "564465040",
-          "gid": "3346511808370222898",
-          "size": "582555384"
+          "download": "565415936",
+          "gid": "2752749375417537479",
+          "size": "583627514"
+        },
+        "rerelease": {
+          "download": "873296048",
+          "gid": "3069905620879651458",
+          "size": "970183495"
         }
       }
     },
-    "baselanguages": "english,finnish",
+    "baselanguages": "czech,danish,english,finnish,french,german,norwegian,russian,spanish,swedish",
     "branches": {
       "public": {
-        "buildid": "25744762",
-        "timebuildupdated": "1791265819",
-        "timeupdated": "1791265857"
+        "buildid": "25772868",
+        "timebuildupdated": "1791362521",
+        "timeupdated": "1791362578"
+      },
+      "rerelease": {
+        "buildid": "22142557",
+        "description": "Version 1.10",
+        "timebuildupdated": "1772291912",
+        "timeupdated": "1773539026"
       }
     },
     "hasdepotsindlc": "1",
@@ -390,6 +456,22 @@
         "path": "SavesDir",
         "pattern": "*.sav",
         "root": "gameinstall"
+      },
+      "1": {
+        "path": "Floorball League 2010/savedgames",
+        "pattern": "*.data",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "Floorball League 2010/PlayerRecords/{64BitSteamID}",
+        "pattern": "records-v1.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
       }
     }
   }

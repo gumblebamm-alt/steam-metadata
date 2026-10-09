@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1791420085,
-  "_history": [],
-  "_change_number": 39580183,
-  "_missing_token": true,
-  "_sha": "ec0ff272cdfee5fc54cbc89dfbbceb785b3c5af5",
-  "_size": 3579,
+  "_lastChecked": 1791549407,
+  "_history": [
+    {
+      "buildId": "25801659",
+      "branch": "public",
+      "timeUpdated": 1791457844,
+      "firstSeen": 1791549334,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "3031881": {
+          "gid": "7426875822183117580",
+          "size": null,
+          "download": null
+        },
+        "3031882": {
+          "gid": "4973726736103107679",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39657182,
+  "_missing_token": false,
+  "_sha": "cbedfa5c1339b7369d657faa6b0c3aa39bb39f52",
+  "_size": 5656,
   "appid": "3031880",
   "common": {
     "associations": {
@@ -29,7 +54,6 @@
     "clienttga": "72165dc3eb067f9adac2c366772dc5cf590189a5",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3031880",
     "genres": {
       "0": "23",
@@ -103,11 +127,14 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "93",
+    "review_score": "7",
     "small_capsule": {
       "english": "8416d25fdaea7768497e09b3e741b7f92024b9df/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1788961787",
+    "steam_release_date": "1791539735",
+    "store_asset_mtime": "1791503881",
     "store_tags": {
       "0": "4328",
       "1": "5851",
@@ -165,5 +192,115 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Car Park Capital",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "carparkcapital.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--glx",
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "GLX version",
+        "description_loc": {
+          "english": "GLX version"
+        },
+        "executable": "carparkcapital",
+        "type": "option1"
+      },
+      "2": {
+        "arguments": "--egl",
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "EGL version",
+        "description_loc": {
+          "english": "EGL version"
+        },
+        "executable": "carparkcapital",
+        "type": "option2"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3031881": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "643721488",
+          "gid": "7426875822183117580",
+          "size": "776411307"
+        }
+      }
+    },
+    "3031882": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "657568208",
+          "gid": "4973726736103107679",
+          "size": "814917284"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25801659",
+        "timebuildupdated": "1791456964",
+        "timeupdated": "1791457844"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hilkojj Interactive",
+    "homepage": "https://hilkojj.nl/",
+    "publisher": "MicroProse Software"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "saves",
+        "pattern": "*.cpcp",
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "saves/scenarios",
+        "pattern": "*.cpcs",
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "saves/blueprints",
+        "pattern": "*.cpbp",
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "3": {
+        "path": "saves",
+        "pattern": "*.json",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

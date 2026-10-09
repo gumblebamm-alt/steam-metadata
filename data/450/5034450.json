@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791376837,
-  "_history": [],
-  "_change_number": 39522917,
-  "_missing_token": true,
-  "_sha": "3b31d777e3f8a03fcab62e878672913dfdcf5dd3",
-  "_size": 3231,
+  "_lastChecked": 1791549452,
+  "_history": [
+    {
+      "buildId": "25819197",
+      "branch": "public",
+      "timeUpdated": 1791512428,
+      "firstSeen": 1791549452,
+      "manifests": {
+        "5034451": {
+          "gid": "4638479767433909598",
+          "size": 144974400,
+          "download": 65334704
+        }
+      }
+    }
+  ],
+  "_change_number": 39641878,
+  "_missing_token": false,
+  "_sha": "3c58e515e85045e6b61a127cd8a42dd6901c1685",
+  "_size": 4205,
   "appid": "5034450",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "9908041a02c6a80ef16ea23f6a202c9c03e2aab9",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5034450",
     "genres": {
       "0": "1",
@@ -96,10 +109,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "42928d7fc82fa83e0a698d29a6ddcad402fa7acb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793430000",
     "store_asset_mtime": "1787698245",
     "store_tags": {
       "0": "19",
@@ -142,12 +156,66 @@
         "subtitles": "true",
         "supported": "true"
       },
-      "schinese": {
+      "tchinese": {
         "subtitles": "true",
         "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Puppetborne",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "puppetborne.exe"
+      }
+    }
+  },
+  "depots": {
+    "5034451": {
+      "manifests": {
+        "public": {
+          "download": "65334704",
+          "gid": "4638479767433909598",
+          "size": "144974400"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,japanese,latam,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25819197",
+        "timebuildupdated": "1791512315",
+        "timeupdated": "1791512428"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Mario Aviles",
+    "publisher": "Mario Aviles"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "2000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.json",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

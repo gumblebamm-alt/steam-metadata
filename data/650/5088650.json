@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1790987724,
-  "_history": [],
-  "_change_number": 39430055,
-  "_missing_token": true,
-  "_sha": "8edebc6ef32ba18a47fb48e600a84bb8bf36e869",
-  "_size": 3572,
+  "_lastChecked": 1791549454,
+  "_history": [
+    {
+      "buildId": "25809017",
+      "branch": "public",
+      "timeUpdated": 1791476900,
+      "firstSeen": 1791549454,
+      "manifests": {
+        "5088651": {
+          "gid": "8161371574786631703",
+          "size": 1008791470,
+          "download": 306937632
+        },
+        "5088653": {
+          "gid": "2736381282812498150",
+          "size": 493242283,
+          "download": 213875024
+        },
+        "5088654": {
+          "gid": "8385693013249511138",
+          "size": 223983415,
+          "download": 223033888
+        }
+      }
+    }
+  ],
+  "_change_number": 39646552,
+  "_missing_token": false,
+  "_sha": "4132ef16b5a1b439b05523bf9974c683984b318c",
+  "_size": 5844,
   "appid": "5088650",
   "common": {
     "aicontenttype": "1",
@@ -34,7 +58,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5088650",
     "genres": {
       "0": "4",
@@ -108,12 +131,13 @@
     "osarch": "64",
     "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e51ff083f294cac36bdda73709960829f01a00ac/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1790781108",
     "store_tags": {
       "0": "699",
@@ -156,5 +180,120 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lane Rider Highway Runner",
+    "launch": {
+      "0": {
+        "arguments": "steamVR",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "VR/LaneRiderHighwayRunnerVR.exe",
+        "type": "vr",
+        "workingdir": "VR"
+      },
+      "1": {
+        "arguments": "oculusVR",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Quest and Rift",
+        "description_loc": {
+          "english": "Quest and Rift"
+        },
+        "executable": "VR/LaneRiderHighwayRunnerVR.exe",
+        "type": "openxr",
+        "workingdir": "VR"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "2D mode",
+        "description_loc": {
+          "english": "2D mode"
+        },
+        "executable": "2D/LaneRiderHighwayRunner2D.exe",
+        "type": "default",
+        "workingdir": "2D"
+      },
+      "3": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "2D/LaneRiderHighwayRunner2D.x86_64",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5088651": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "306937632",
+          "gid": "8161371574786631703",
+          "size": "1008791470"
+        }
+      }
+    },
+    "5088653": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "213875024",
+          "gid": "2736381282812498150",
+          "size": "493242283"
+        }
+      }
+    },
+    "5088654": {
+      "config": {
+        "oslist": "android"
+      },
+      "manifests": {
+        "public": {
+          "download": "223033888",
+          "gid": "8385693013249511138",
+          "size": "223983415"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25809017",
+        "timebuildupdated": "1791476888",
+        "timeupdated": "1791476900"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Home Net Games",
+    "homepage": "https://www.homenetgames.com/lane-rider-highway-runner/",
+    "publisher": "Home Net Games",
+    "vrheadsetstreaming": "1"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000"
+  }
 }

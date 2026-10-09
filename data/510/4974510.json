@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1790772048,
-  "_history": [],
-  "_change_number": 39337622,
-  "_missing_token": true,
-  "_sha": "755ce18d2486f3d49d3481c8089cae2987390757",
-  "_size": 3325,
+  "_lastChecked": 1791549450,
+  "_history": [
+    {
+      "buildId": "25773133",
+      "branch": "public",
+      "timeUpdated": 1791364101,
+      "firstSeen": 1791549450,
+      "manifests": {
+        "4974511": {
+          "gid": "5636263432085954752",
+          "size": 3673725970,
+          "download": 767146992
+        }
+      }
+    }
+  ],
+  "_change_number": 39654375,
+  "_missing_token": false,
+  "_sha": "6bf9b6a3bcd1ed3ef0821caff812f8eaeacd2256",
+  "_size": 4257,
   "appid": "4974510",
   "common": {
     "aicontenttype": "1",
@@ -39,6 +53,7 @@
     },
     "clienticon": "3c27a499c0dd70eec3cab9f569acb2e9976eae0a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -47,7 +62,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4974510",
     "genres": {
       "0": "1",
@@ -118,10 +132,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6d39b5ba2613ca39397e05c843458de64f6629a8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791543321",
     "store_asset_mtime": "1787048826",
     "store_tags": {
       "0": "1663",
@@ -152,5 +167,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Second Zero",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Second Zero.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4974511": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "767146992",
+          "gid": "5636263432085954752",
+          "size": "3673725970"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25773133",
+        "timebuildupdated": "1791363306",
+        "timeupdated": "1791364101"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kavari Studio",
+    "publisher": "Kavari Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "Kavari Studio/Second Zero/Saves/{64BitSteamID}",
+        "pattern": "progress.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

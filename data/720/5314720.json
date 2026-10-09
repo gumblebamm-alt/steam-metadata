@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1791506741,
-  "_history": [],
-  "_change_number": 39635758,
-  "_missing_token": true,
-  "_sha": "678b06972a7d8468cd29a9bd48c5e87e476a6fc4",
-  "_size": 3830,
+  "_lastChecked": 1791549460,
+  "_history": [
+    {
+      "buildId": "25808956",
+      "branch": "public",
+      "timeUpdated": 1791477277,
+      "firstSeen": 1791549460,
+      "manifests": {
+        "5314721": {
+          "gid": "1558404511924338884",
+          "size": 26726744,
+          "download": 7154288
+        },
+        "5314722": {
+          "gid": "5857480326032414017",
+          "size": 30042886,
+          "download": 9055216
+        },
+        "5314723": {
+          "gid": "3205563793375792062",
+          "size": 53181609,
+          "download": 12242928
+        }
+      }
+    }
+  ],
+  "_change_number": 39648466,
+  "_missing_token": false,
+  "_sha": "fc72458fcbc41b065f604bd47f06c21ac70ee684",
+  "_size": 5687,
   "appid": "5314720",
   "common": {
     "aicontenttype": "1",
@@ -35,9 +59,9 @@
     },
     "clienticon": "15ddc0528e6b8b0a3a69178648b6e04d08d95c2b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5314720",
     "genres": {
       "0": "4",
@@ -111,10 +135,11 @@
     "osextended": "macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a90635a159b5792c2323faa8b85f8ba69e128207/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791532797",
     "store_asset_mtime": "1790784861",
     "store_tags": {
       "0": "1664",
@@ -184,5 +209,108 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "101 Circuits",
+    "launch": {
+      "0": {
+        "executable": "101circuits.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "101 Circuits.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "101circuits"
+      }
+    }
+  },
+  "depots": {
+    "5314721": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "7154288",
+          "gid": "1558404511924338884",
+          "size": "26726744"
+        }
+      }
+    },
+    "5314722": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "9055216",
+          "gid": "5857480326032414017",
+          "size": "30042886"
+        }
+      }
+    },
+    "5314723": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "12242928",
+          "gid": "3205563793375792062",
+          "size": "53181609"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25808956",
+        "timebuildupdated": "1791476727",
+        "timeupdated": "1791477277"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Chilling Moose Games",
+    "homepage": "https://chillingmoose.com/101circuits",
+    "publisher": "Chilling Moose Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "400000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "101circuits",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791506739,
-  "_history": [],
-  "_change_number": 39632866,
-  "_missing_token": true,
-  "_sha": "c05b9bc546dca82b7d0eb8d63f41576a4062025e",
-  "_size": 3502,
+  "_lastChecked": 1791549459,
+  "_history": [
+    {
+      "buildId": "25827461",
+      "branch": "public",
+      "timeUpdated": 1791545161,
+      "firstSeen": 1791549459,
+      "manifests": {
+        "5209911": {
+          "gid": "3379858515496868822",
+          "size": 681312544,
+          "download": 402410816
+        }
+      }
+    }
+  ],
+  "_change_number": 39655366,
+  "_missing_token": false,
+  "_sha": "62f38715d2e77da0c71d6c5c04223775cde84b53",
+  "_size": 4656,
   "appid": "5209910",
   "common": {
     "aicontenttype": "1",
@@ -26,6 +40,7 @@
     },
     "clienticon": "4b30161bf85e172dec77c435d4a48d74d63410da",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -39,7 +54,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5209910",
     "genres": {
       "0": "1",
@@ -122,11 +136,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "64f8c922005b7f54f55ccb4d50343ae4e10ffec9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791541693",
     "store_asset_mtime": "1791487344",
     "store_tags": {
       "0": "12095",
@@ -166,5 +181,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Witch Storm",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "WitchStorm.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5209911": {
+      "manifests": {
+        "public": {
+          "download": "402410816",
+          "gid": "3379858515496868822",
+          "size": "681312544"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25827461",
+        "timebuildupdated": "1791545029",
+        "timeupdated": "1791545161"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Crystal Jam Studio",
+    "publisher": "Crystal Jam Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "32",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/witch-storm",
+        "pattern": "witch_storm_profile.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/witch-storm",
+        "pattern": "witch_storm_profile.backup.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

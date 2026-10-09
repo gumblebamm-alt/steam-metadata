@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791040106,
-  "_history": [],
-  "_change_number": 39445982,
-  "_missing_token": true,
-  "_sha": "b0a449ac3185aa2338db4bfc3b84b36319d3cfe3",
-  "_size": 4046,
+  "_lastChecked": 1791549459,
+  "_history": [
+    {
+      "buildId": "25654147",
+      "branch": "public",
+      "timeUpdated": 1790862573,
+      "firstSeen": 1791549459,
+      "manifests": {
+        "5208821": {
+          "gid": "3686069878684237504",
+          "size": 335924526,
+          "download": 242754256
+        },
+        "5208822": {
+          "gid": "7365229275083356424",
+          "size": 344031654,
+          "download": 244287088
+        }
+      }
+    }
+  ],
+  "_change_number": 39646835,
+  "_missing_token": false,
+  "_sha": "14e7624061088f6260dd731a18121f2920a58f62",
+  "_size": 5921,
   "appid": "5208820",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +49,8 @@
     },
     "clienticon": "db3097fca84dbcca2d9fc8feb9ad9b72c888fa7a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5208820",
     "genres": {
       "0": "4",
@@ -103,10 +122,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f8a60b80c488a170b2741f2932ba2ec7ef8d71f6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791529265",
     "store_asset_mtime": "1790177353",
     "store_tags": {
       "0": "597",
@@ -199,5 +219,105 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Last Bottle",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "last_bottle.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "last_bottle",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5208821": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "242754256",
+          "gid": "3686069878684237504",
+          "size": "335924526"
+        }
+      }
+    },
+    "5208822": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "244287088",
+          "gid": "7365229275083356424",
+          "size": "344031654"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25654147",
+        "timebuildupdated": "1790862573",
+        "timeupdated": "1790862573"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Entity Welfare",
+    "publisher": "Entity Welfare"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Last Bottle/saves/{64BitSteamID}",
+            "replace": "last-bottle/saves/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Last Bottle/saves/{64BitSteamID}",
+        "pattern": "savegame.txt",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Last Bottle/saves/{64BitSteamID}",
+        "pattern": "savegame.bak",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

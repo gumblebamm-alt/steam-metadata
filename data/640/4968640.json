@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1791506728,
-  "_history": [],
-  "_change_number": 39631180,
-  "_missing_token": true,
-  "_sha": "2ac79049278e030ac4ef853d6d83e52426aa2e94",
-  "_size": 3689,
+  "_lastChecked": 1791549407,
+  "_history": [
+    {
+      "buildId": "25825140",
+      "branch": "public",
+      "timeUpdated": 1791537974,
+      "firstSeen": 1791549334,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "4968641": {
+          "gid": "5654411472528220427",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39657205,
+  "_missing_token": false,
+  "_sha": "75ad5b1e58f03134d320e8d5cdd53e65e20ea7f1",
+  "_size": 5082,
   "appid": "4968640",
   "common": {
     "associations": {
@@ -19,6 +44,7 @@
     },
     "category": {
       "category_1": "1",
+      "category_18": "1",
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
@@ -36,8 +62,9 @@
     },
     "clienticon": "29023cdae87e4a0e7a4cc9a912f6d2ab80e5e880",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4968640",
     "genres": {
       "0": "4",
@@ -114,10 +141,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "88",
+    "review_score": "7",
     "small_capsule": {
       "english": "c87a37a5d10a2ac11bf2ab4aded25ca9bc657e12/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791532656",
     "store_asset_mtime": "1791482379",
     "store_tags": {
       "0": "599",
@@ -175,5 +205,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Japanese Ramen Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "RealRamenSimulator.exe",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4968641": {
+      "manifests": {
+        "public": {
+          "download": "3551511632",
+          "gid": "5654411472528220427",
+          "size": "4886096853"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25825140",
+        "timebuildupdated": "1791537643",
+        "timeupdated": "1791537974"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Wild Dog",
+    "homepage": "https://wilddog.jp/japaneseramensimulator",
+    "publisher": "Wild Dog"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "RealRamenSimulator/Saved/SaveGames/MenWorlds/{64BitSteamID}",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

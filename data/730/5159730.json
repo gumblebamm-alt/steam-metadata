@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1790987728,
-  "_history": [],
-  "_change_number": 39425872,
-  "_missing_token": true,
-  "_sha": "bf79b20c6f984a4357ae82b4f0fe1e217a27b05c",
-  "_size": 5001,
+  "_lastChecked": 1791549407,
+  "_history": [
+    {
+      "buildId": "25826297",
+      "branch": "public",
+      "timeUpdated": 1791541325,
+      "firstSeen": 1791549333,
+      "manifests": {
+        "5159731": {
+          "gid": "3543264348647515773",
+          "size": null,
+          "download": null
+        },
+        "5304330": {
+          "gid": "3332501957770544530",
+          "size": 118811216,
+          "download": 118772992
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39654501,
+  "_missing_token": false,
+  "_sha": "494258f24150db1d303f8dc89263834dbda7e3a9",
+  "_size": 6073,
   "appid": "5159730",
   "common": {
     "associations": {
@@ -44,7 +64,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5159730",
     "genres": {
       "0": "4",
@@ -134,12 +153,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4db42607434ca463a1a3a27260075ea67183adb9/capsule_231x87.jpg",
       "japanese": "426b0bcaa956b1e1cf36d7134360c67eb360ca07/capsule_231x87_japanese.jpg",
       "schinese": "49bb8f8ec5d6edb4a899a3daa69a2835d07c87de/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1791543560",
     "store_asset_mtime": "1790952344",
     "store_tags": {
       "0": "916648",
@@ -178,5 +198,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Touhou Garden of the Yukkuri",
+    "launch": {
+      "0": {
+        "executable": "yukkuri.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5159731": {
+      "manifests": {
+        "public": {
+          "download": "160274624",
+          "gid": "3543264348647515773",
+          "size": "182173401"
+        }
+      }
+    },
+    "5304330": {
+      "dlcappid": "5304330",
+      "manifests": {
+        "public": {
+          "download": "118772992",
+          "gid": "3332501957770544530",
+          "size": "118811216"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25826297",
+        "timebuildupdated": "1791541325",
+        "timeupdated": "1791541325"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Bar Holographic Otaku",
+    "dlcavailableonstore": "1",
+    "isfreeapp": "1",
+    "listofdlc": "5304330",
+    "publisher": "Bar Holographic Otaku"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "yukkuri_garden",
+        "pattern": "savegame.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
