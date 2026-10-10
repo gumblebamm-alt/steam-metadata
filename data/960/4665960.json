@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1790901449,
-  "_history": [],
-  "_change_number": 39400046,
-  "_missing_token": true,
-  "_sha": "66202bd1f63639dbcc8f69adb2b847c78a041d48",
-  "_size": 3352,
+  "_lastChecked": 1791593002,
+  "_history": [
+    {
+      "buildId": "25829186",
+      "branch": "public",
+      "timeUpdated": 1791550122,
+      "firstSeen": 1791593002,
+      "manifests": {
+        "4665961": {
+          "gid": "7667549528369173014",
+          "size": 4637737863,
+          "download": 3394523328
+        },
+        "4665962": {
+          "gid": "5772258524932441922",
+          "size": 4696617364,
+          "download": 3406277328
+        },
+        "4712210": {
+          "gid": "7151717236183049520",
+          "size": 8872581513,
+          "download": 6806199872
+        }
+      }
+    }
+  ],
+  "_change_number": 39661122,
+  "_missing_token": false,
+  "_sha": "eae6a66308e131a63d1dfdb791b0dccab715d838",
+  "_size": 5597,
   "appid": "4665960",
   "common": {
     "associations": {
@@ -34,6 +58,7 @@
     },
     "clienticon": "bbe8b20365fab7c5ceaa4ee5ab80f28422e166e1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -42,7 +67,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4665960",
     "genres": {
       "0": "4",
@@ -114,10 +138,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ffb2be93297d094f917378936d7facd18d8c6645/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791553229",
     "store_asset_mtime": "1790875190",
     "store_tags": {
       "0": "11014",
@@ -148,5 +173,121 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "BuitopiaDVD",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BuitopiaDVD.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "BuitopiaDVD_Linux"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "data/plugins/steam/game_actions_4665960.vdf"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4665961": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3394523328",
+          "gid": "7667549528369173014",
+          "size": "4637737863"
+        }
+      }
+    },
+    "4665962": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "3406277328",
+          "gid": "5772258524932441922",
+          "size": "4696617364"
+        }
+      }
+    },
+    "4712210": {
+      "config": {
+        "language": "english",
+        "optionaldlc": "4712210"
+      },
+      "dlcappid": "4712210",
+      "manifests": {
+        "public": {
+          "download": "6806199872",
+          "gid": "7151717236183049520",
+          "size": "8872581513"
+        }
+      }
+    },
+    "appmanagesdlc": "1",
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25829186",
+        "timebuildupdated": "1791549792",
+        "timeupdated": "1791550122"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Ben Wheele",
+    "dlcavailableonstore": "1",
+    "homepage": "https://nondoon.com/",
+    "listofdlc": "4712210",
+    "publisher": "Nondoon"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "1048576",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".local/share/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinSavedGames",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "BuitopiaDVD",
+        "pattern": "*.json",
+        "root": "WinSavedGames"
+      }
+    }
+  }
 }

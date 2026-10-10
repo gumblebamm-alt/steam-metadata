@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791333739,
+  "_lastChecked": 1791593008,
   "_history": [
     {
       "buildId": "25639446",
@@ -41,12 +41,48 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "25840030",
+      "branch": "linux-beta",
+      "timeUpdated": 1791582865,
+      "firstSeen": 1791593008,
+      "manifests": {
+        "4848461": {
+          "gid": "751360764074436312",
+          "size": 129210168,
+          "download": 50842576
+        },
+        "4848462": {
+          "gid": "2696320406870631553",
+          "size": 94508168,
+          "download": 42640304
+        }
+      }
+    },
+    {
+      "buildId": "25840030",
+      "branch": "public",
+      "timeUpdated": 1791583267,
+      "firstSeen": 1791593008,
+      "manifests": {
+        "4848461": {
+          "gid": "751360764074436312",
+          "size": 129210168,
+          "download": 50842576
+        },
+        "4848462": {
+          "gid": "2696320406870631553",
+          "size": 94508168,
+          "download": 42640304
+        }
+      }
     }
   ],
-  "_change_number": 39524653,
+  "_change_number": 39676786,
   "_missing_token": false,
-  "_sha": "da8071324acafd2bd320c3b7a99857250dbcac18",
-  "_size": 4672,
+  "_sha": "e1b87401e77d2421a0b2ce8f4a5c8db758b7e86a",
+  "_size": 5851,
   "appid": "4848460",
   "common": {
     "associations": {
@@ -153,8 +189,9 @@
     },
     "name": "Desktop Tower Survivor",
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "4",
     "releasestate": "released",
     "review_percentage": "100",
@@ -220,25 +257,66 @@
         },
         "executable": "DesktopTowerSurvivor.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "DesktopTowerSurvivor.x86_64",
+        "type": "default"
       }
     }
   },
   "depots": {
     "4848461": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
       "manifests": {
+        "linux-beta": {
+          "download": "50842576",
+          "gid": "751360764074436312",
+          "size": "129210168"
+        },
         "public": {
-          "download": "50808256",
-          "gid": "8844216701011183466",
-          "size": "129173400"
+          "download": "50842576",
+          "gid": "751360764074436312",
+          "size": "129210168"
+        }
+      }
+    },
+    "4848462": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "linux-beta": {
+          "download": "42640304",
+          "gid": "2696320406870631553",
+          "size": "94508168"
+        },
+        "public": {
+          "download": "42640304",
+          "gid": "2696320406870631553",
+          "size": "94508168"
         }
       }
     },
     "baselanguages": "english,spanish",
     "branches": {
+      "linux-beta": {
+        "buildid": "25840030",
+        "description": "Linux Beta",
+        "timebuildupdated": "1791582865",
+        "timeupdated": "1791582865"
+      },
       "public": {
-        "buildid": "25715234",
-        "timebuildupdated": "1791146195",
-        "timeupdated": "1791146231"
+        "buildid": "25840030",
+        "timebuildupdated": "1791582865",
+        "timeupdated": "1791583267"
       }
     }
   },
@@ -253,6 +331,20 @@
   "ufs": {
     "maxnumfiles": "50",
     "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Desktop Tower Survivor/saves",
+            "replace": "godot/app_userdata/Desktop Tower Survivor/saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "Godot/app_userdata/Desktop Tower Survivor/saves",

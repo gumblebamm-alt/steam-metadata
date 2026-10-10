@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1790944556,
-  "_history": [],
-  "_change_number": 39410088,
-  "_missing_token": true,
-  "_sha": "805d4f85e761454cf6b4592884c6a2d54b7e9b44",
-  "_size": 3054,
+  "_lastChecked": 1791593014,
+  "_history": [
+    {
+      "buildId": "25790299",
+      "branch": "public",
+      "timeUpdated": 1791414429,
+      "firstSeen": 1791593014,
+      "manifests": {
+        "5027321": {
+          "gid": "1060179776224017374",
+          "size": 319730458,
+          "download": 176443488
+        }
+      }
+    }
+  ],
+  "_change_number": 39675130,
+  "_missing_token": false,
+  "_sha": "048ca4241e4d35b388dab6442e9de6fb27aee0f7",
+  "_size": 4486,
   "appid": "5027320",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "3ca43ac4b0f997f9a0e261c9ec77f9ace259d033",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5027320",
     "genres": {
       "0": "23",
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2756f1e0e3a94971829f1c1babeb5c7c9457d22a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1789664950",
     "store_tags": {
       "0": "599",
@@ -139,5 +154,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Seed Money",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Seed Money",
+        "description_loc": {
+          "english": "Play Seed Money"
+        },
+        "executable": "SeedMoney.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5027321": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "176443488",
+          "gid": "1060179776224017374",
+          "size": "319730458"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25790299",
+        "timebuildupdated": "1791413560",
+        "timeupdated": "1791414429"
+      }
+    }
+  },
+  "extended": {
+    "absolutemousecoordinates": "1",
+    "developer": "Studio Oriens",
+    "homepage": "https://studiooriens.com/#seed-money",
+    "publisher": "Studio Oriens"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "1000000000",
+    "savefiles": {
+      "1": {
+        "path": "Godot/app_userdata/Seed Money",
+        "pattern": "save_*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Seed Money",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

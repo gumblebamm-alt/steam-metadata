@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1790815120,
-  "_history": [],
-  "_change_number": 39363469,
-  "_missing_token": true,
-  "_sha": "dba84c721b09261780fa4a292f1bb2166727418e",
-  "_size": 3337,
+  "_lastChecked": 1791593003,
+  "_history": [
+    {
+      "buildId": "25830143",
+      "branch": "public",
+      "timeUpdated": 1791552411,
+      "firstSeen": 1791593003,
+      "manifests": {
+        "4682331": {
+          "gid": "5667080007410780335",
+          "size": 331488249,
+          "download": 129350544
+        },
+        "4682332": {
+          "gid": "4476004091856862048",
+          "size": 479400027,
+          "download": 194626512
+        },
+        "4682333": {
+          "gid": "5549541805463746350",
+          "size": 285693113,
+          "download": 106903600
+        }
+      }
+    }
+  ],
+  "_change_number": 39664485,
+  "_missing_token": false,
+  "_sha": "25308b03b5c9be7939b18ed4d55d67ad27860316",
+  "_size": 4887,
   "appid": "4682330",
   "common": {
     "aicontenttype": "1",
@@ -34,7 +58,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4682330",
     "genres": {
       "0": "1",
@@ -60,18 +83,18 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "052693e77e70d9590c6fa5e6df0c58f507567760/library_capsule.jpg"
+          "english": "c940ef5839b515acd08d3366379b0705c42c4613/library_capsule.jpg"
         },
         "image2x": {
-          "english": "052693e77e70d9590c6fa5e6df0c58f507567760/library_capsule_2x.jpg"
+          "english": "c940ef5839b515acd08d3366379b0705c42c4613/library_capsule_2x.jpg"
         }
       },
       "library_header": {
         "image": {
-          "english": "1a3604591d4cd49698b8fc78fb426f4668a33eb3/library_header.jpg"
+          "english": "d2279b8500a5afa69cad503a696c890edec600ed/library_header.jpg"
         },
         "image2x": {
-          "english": "1a3604591d4cd49698b8fc78fb426f4668a33eb3/library_header_2x.jpg"
+          "english": "d2279b8500a5afa69cad503a696c890edec600ed/library_header_2x.jpg"
         }
       },
       "library_hero": {
@@ -107,11 +130,12 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "99bb783a1bee0f9c5767b3ba71d3face1a4e1719/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1790812711",
+    "steam_release_date": "1791558523",
+    "store_asset_mtime": "1791553011",
     "store_tags": {
       "0": "4158",
       "1": "12190",
@@ -143,5 +167,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Fister",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Fister.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Fister.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Fister",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4682331": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "129350544",
+          "gid": "5667080007410780335",
+          "size": "331488249"
+        }
+      }
+    },
+    "4682332": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "194626512",
+          "gid": "4476004091856862048",
+          "size": "479400027"
+        }
+      }
+    },
+    "4682333": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "106903600",
+          "gid": "5549541805463746350",
+          "size": "285693113"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25830143",
+        "timebuildupdated": "1791552356",
+        "timeupdated": "1791552411"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "Bootloop Studio",
+    "homepage": "https://fister.fun/",
+    "publisher": "Bootloop Studio"
+  }
 }

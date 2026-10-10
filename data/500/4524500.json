@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791549437,
-  "_history": [],
-  "_change_number": 39652232,
-  "_missing_token": true,
-  "_sha": "269100cb33064aa623d51b5945ce8f80cf0a9785",
-  "_size": 3645,
+  "_lastChecked": 1791592998,
+  "_history": [
+    {
+      "buildId": "25826684",
+      "branch": "public",
+      "timeUpdated": 1791557205,
+      "firstSeen": 1791592998,
+      "manifests": {
+        "4524501": {
+          "gid": "3532270721647508672",
+          "size": 160690090,
+          "download": 76404736
+        },
+        "4524502": {
+          "gid": "1923328876697539822",
+          "size": 125749754,
+          "download": 67974368
+        }
+      }
+    }
+  ],
+  "_change_number": 39663680,
+  "_missing_token": false,
+  "_sha": "cebcd99bdb78c6675290f548b36f4b8f232f24cf",
+  "_size": 5266,
   "appid": "4524500",
   "common": {
     "associations": {
@@ -31,6 +50,7 @@
     },
     "clienticon": "2fa83f3561f1b44e581d7e879e8cef54d09a3738",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -41,7 +61,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4524500",
     "genres": {
       "0": "1",
@@ -114,10 +133,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "79cb45413195fe9f44afeca24425ae82d01586de/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791557271",
     "store_asset_mtime": "1786621361",
     "store_tags": {
       "0": "4345",
@@ -172,5 +192,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Final Selection",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "FSDemo.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "FSDemo.x86_64",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4524501": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "76404736",
+          "gid": "3532270721647508672",
+          "size": "160690090"
+        }
+      }
+    },
+    "4524502": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "67974368",
+          "gid": "1923328876697539822",
+          "size": "125749754"
+        }
+      }
+    },
+    "baselanguages": "english,german,japanese,latam,russian,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25826684",
+        "timebuildupdated": "1791542655",
+        "timeupdated": "1791557205"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Wurrz",
+    "publisher": "Wurrz"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "400000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/FINAL SELECTION",
+            "replace": "FinalSelection/cloud"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "FinalSelection/cloud",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

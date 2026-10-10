@@ -1,10 +1,50 @@
 {
-  "_lastChecked": 1791549413,
-  "_history": [],
-  "_change_number": 39655105,
-  "_missing_token": true,
-  "_sha": "39107b191f28ef7f8357200048aac908e42bedc2",
-  "_size": 4300,
+  "_lastChecked": 1791592969,
+  "_history": [
+    {
+      "buildId": "25839346",
+      "branch": "public",
+      "timeUpdated": 1791580423,
+      "firstSeen": 1791592911,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "2254991": {
+          "gid": "5271000900942067526",
+          "size": null,
+          "download": null
+        },
+        "5345310": {
+          "gid": "3695520388007723921",
+          "size": 72328462,
+          "download": 69233584
+        },
+        "5345320": {
+          "gid": "7110738280640885678",
+          "size": 53017546,
+          "download": 49609376
+        },
+        "5346770": {
+          "gid": "1797509801426464797",
+          "size": 11853601,
+          "download": 9132096
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39679478,
+  "_missing_token": false,
+  "_sha": "219c864588f34dfd7a69c25abce40f6a325573eb",
+  "_size": 6525,
   "appid": "2254990",
   "common": {
     "associations": {
@@ -23,6 +63,7 @@
     },
     "category": {
       "category_1": "1",
+      "category_15": "1",
       "category_18": "1",
       "category_2": "1",
       "category_22": "1",
@@ -37,6 +78,7 @@
     "clienticon": "63bf80f0b7318b09ba78232cbc390344625a2120",
     "clienttga": "8ed95b2877fffaffbabef1120e11ddb342e8da70",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -47,7 +89,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2254990",
     "genres": {
       "0": "1",
@@ -135,11 +176,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "74",
+    "review_score": "6",
     "small_capsule": {
       "english": "024db5584cd87b23dd37229e049378f2d4828bdb/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791540999",
+    "steam_release_date": "1791550417",
+    "store_asset_mtime": "1791551894",
     "store_tags": {
       "0": "1100689",
       "1": "1662",
@@ -148,8 +192,8 @@
       "12": "1697",
       "13": "21",
       "14": "4166",
-      "15": "7332",
-      "16": "30358",
+      "15": "30358",
+      "16": "7332",
       "17": "9803",
       "18": "4236",
       "19": "122",
@@ -203,5 +247,121 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Permafrost",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "DirectX 12",
+        "description_loc": {
+          "english": "DirectX 12"
+        },
+        "executable": "Permafrost.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "description": "DirectX 11",
+        "description_loc": {
+          "english": "DirectX 11"
+        },
+        "executable": "Permafrost.exe",
+        "type": "option2"
+      }
+    }
+  },
+  "depots": {
+    "2254991": {
+      "manifests": {
+        "public": {
+          "download": "18221154800",
+          "gid": "5271000900942067526",
+          "size": "19315478662"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5345310": {
+      "config": {
+        "oslist": "windows"
+      },
+      "dlcappid": "5345310",
+      "manifests": {
+        "public": {
+          "download": "69233584",
+          "gid": "3695520388007723921",
+          "size": "72328462"
+        }
+      }
+    },
+    "5345320": {
+      "config": {
+        "oslist": "windows"
+      },
+      "dlcappid": "5345320",
+      "manifests": {
+        "public": {
+          "download": "49609376",
+          "gid": "7110738280640885678",
+          "size": "53017546"
+        }
+      }
+    },
+    "5346770": {
+      "config": {
+        "oslist": "windows"
+      },
+      "dlcappid": "5346770",
+      "manifests": {
+        "public": {
+          "download": "9132096",
+          "gid": "1797509801426464797",
+          "size": "11853601"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25839346",
+        "timebuildupdated": "1791580423",
+        "timeupdated": "1791580423"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "SpaceRocket Games",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5345310,5345320,5346770",
+    "publisher": "Toplitz Productions"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "Permafrost/SaveGame",
+        "pattern": "*.pfs",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791376834,
-  "_history": [],
-  "_change_number": 39570832,
-  "_missing_token": true,
-  "_sha": "107f07652804e640ca17ca55e32978ff895e3658",
-  "_size": 3852,
+  "_lastChecked": 1791593011,
+  "_history": [
+    {
+      "buildId": "25805984",
+      "branch": "public",
+      "timeUpdated": 1791469057,
+      "firstSeen": 1791593011,
+      "manifests": {
+        "4959181": {
+          "gid": "5240222165448887294",
+          "size": 3079494757,
+          "download": 2235953200
+        },
+        "5173900": {
+          "gid": "5773198636931220607",
+          "size": 71006884,
+          "download": 65077840
+        }
+      }
+    }
+  ],
+  "_change_number": 39661920,
+  "_missing_token": false,
+  "_sha": "083c993d875bba71d884baeff37cbd28c5587180",
+  "_size": 4944,
   "appid": "4959180",
   "common": {
     "associations": {
@@ -26,7 +45,6 @@
     "clienticon": "87b90a993b9dc2454592d5297dbadb41ba54b87e",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4959180",
     "genres": {
       "0": "1",
@@ -106,11 +124,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a17876cd9f203f9871b703ddadffd1d244d43499/capsule_231x87.jpg",
       "polish": "ff38182a12fe0dd0952230ed275b22d50a37d1a0/capsule_231x87_polish.jpg"
     },
+    "steam_release_date": "1791554385",
     "store_asset_mtime": "1788173409",
     "store_tags": {
       "0": "19",
@@ -155,5 +174,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blaster!",
+    "launch": {
+      "0": {
+        "description": "launch game",
+        "description_loc": {
+          "english": "launch game"
+        },
+        "executable": "Blaster!.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "ownsdlc": "5173900"
+        },
+        "description": "Wallpapers",
+        "description_loc": {
+          "english": "Wallpapers"
+        },
+        "executable": "ddc.cmd"
+      }
+    }
+  },
+  "depots": {
+    "4959181": {
+      "manifests": {
+        "public": {
+          "download": "2235953200",
+          "gid": "5240222165448887294",
+          "size": "3079494757"
+        }
+      }
+    },
+    "5173900": {
+      "dlcappid": "5173900",
+      "manifests": {
+        "public": {
+          "download": "65077840",
+          "gid": "5773198636931220607",
+          "size": "71006884"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25805984",
+        "timebuildupdated": "1791469056",
+        "timeupdated": "1791469057"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Metropolis",
+    "dlcavailableonstore": "1",
+    "homepage": "http://www.topware.com",
+    "listofdlc": "5173900",
+    "publisher": "TopWare Interactive"
+  }
 }

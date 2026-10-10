@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1790772026,
-  "_history": [],
-  "_change_number": 39337828,
-  "_missing_token": true,
-  "_sha": "ca3c870e58dabbc21e8161dfec9dbb6697bf94f9",
-  "_size": 6192,
+  "_lastChecked": 1791592968,
+  "_history": [
+    {
+      "buildId": "25829507",
+      "branch": "public",
+      "timeUpdated": 1791551562,
+      "firstSeen": 1791592907,
+      "manifests": {
+        "3090811": {
+          "gid": "7907327098191083461",
+          "size": null,
+          "download": null
+        },
+        "3090812": {
+          "gid": "2549618646198988015",
+          "size": null,
+          "download": null
+        },
+        "3090813": {
+          "gid": "8791680088625822468",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39679484,
+  "_missing_token": false,
+  "_sha": "06823746e628c6bc94756a77166ca652e4b151eb",
+  "_size": 8141,
   "appid": "3090810",
   "common": {
     "associations": {
@@ -46,9 +71,9 @@
     "clienticon": "50ae9b4489c0cc5593aeae2532c3a291e96eec36",
     "clienttga": "88487e1c6499423955dd2a7bb606f7cc0242d2b0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3090810",
     "genres": {
       "0": "1",
@@ -128,13 +153,16 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "81",
+    "review_score": "7",
     "small_capsule": {
       "english": "814001e754af9c29da141835c0802d750795707a/capsule_231x87.jpg",
       "schinese": "0651918fe3f59a79b2138c5e43ba21f2b24da48e/capsule_231x87_schinese.jpg",
       "tchinese": "7a1e34a906a8d85a8a3164e41a3b39e081387adf/capsule_231x87_tchinese.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/3090810/discussions/0/4520009413787352060/",
+    "steam_release_date": "1791561057",
     "store_asset_mtime": "1790670631",
     "store_tags": {
       "0": "1644",
@@ -150,8 +178,8 @@
       "18": "492",
       "2": "5716",
       "3": "19",
-      "4": "7622",
-      "5": "21",
+      "4": "21",
+      "5": "7622",
       "6": "3834",
       "7": "4191",
       "8": "4305",
@@ -281,5 +309,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Truckful",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Truckful.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Truckful.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Truckful.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3090811": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "313922608",
+          "gid": "7907327098191083461",
+          "size": "1812415970"
+        }
+      }
+    },
+    "3090812": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "320157216",
+          "gid": "2549618646198988015",
+          "size": "1852549285"
+        }
+      }
+    },
+    "3090813": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "301709936",
+          "gid": "8791680088625822468",
+          "size": "1767667180"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,romanian,turkish,arabic,brazilian,bulgarian,greek,ukrainian,latam,vietnamese,indonesian",
+    "branches": {
+      "public": {
+        "buildid": "25829507",
+        "timebuildupdated": "1791550679",
+        "timeupdated": "1791551562"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "MythicOwl",
+    "homepage": "https://www.mythicowl.com/truckful",
+    "publisher": "MythicOwl",
+    "remoteplaytogethertestingbranches": "default"
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "10048576",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

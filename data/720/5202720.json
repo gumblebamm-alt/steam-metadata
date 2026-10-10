@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791247351,
-  "_history": [],
-  "_change_number": 39509023,
-  "_missing_token": true,
-  "_sha": "82106e8cef67e9e940f515d1c90bfe8a87bfb7e2",
-  "_size": 3664,
+  "_lastChecked": 1791593023,
+  "_history": [
+    {
+      "buildId": "25824735",
+      "branch": "public",
+      "timeUpdated": 1791536483,
+      "firstSeen": 1791593023,
+      "manifests": {
+        "5202721": {
+          "gid": "7118915625569255905",
+          "size": 467987996,
+          "download": 220792464
+        },
+        "5202722": {
+          "gid": "2788460954693818653",
+          "size": 379162828,
+          "download": 186452848
+        }
+      }
+    }
+  ],
+  "_change_number": 39668375,
+  "_missing_token": false,
+  "_sha": "434cbecde07de23ad6214ceecb9fbd789d2a2f72",
+  "_size": 6030,
   "appid": "5202720",
   "common": {
     "aicontenttype": "1",
@@ -34,9 +53,9 @@
     },
     "clienticon": "e34af2ea2710263fc22b970ecd8a71a8b9fab4c1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5202720",
     "genres": {
       "0": "23",
@@ -47,6 +66,21 @@
       "english": "3190eea95e3f5b4c61ce21f5455917e7b9135754/header.jpg"
     },
     "icon": "e34af2ea2710263fc22b970ecd8a71a8b9fab4c1",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "latam": "1",
+      "polish": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1",
+      "tchinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -108,10 +142,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3785a46d98d3803d3934842e17ee2f95c050379a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791565158",
     "store_asset_mtime": "1791222459",
     "store_tags": {
       "0": "5502",
@@ -173,5 +208,104 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hack Faster",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Hack Faster.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "hack-faster",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input_manifest.vdf"
+  },
+  "depots": {
+    "5202721": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "220792464",
+          "gid": "7118915625569255905",
+          "size": "467987996"
+        }
+      }
+    },
+    "5202722": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "186452848",
+          "gid": "2788460954693818653",
+          "size": "379162828"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,polish,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25824735",
+        "timebuildupdated": "1791536455",
+        "timeupdated": "1791536483"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Night Syntax",
+    "publisher": "Night Syntax"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "536870912",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".config/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Hack Faster/Saves/{64BitSteamID}/slot-1",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Hack Faster/Saves/{64BitSteamID}/slot-2",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Hack Faster/Saves/{64BitSteamID}/slot-3",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Hack Faster/Saves/{64BitSteamID}/slot-4",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

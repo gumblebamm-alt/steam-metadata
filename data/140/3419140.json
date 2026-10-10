@@ -1,6 +1,32 @@
 {
-  "_lastChecked": 1791549409,
+  "_lastChecked": 1791592970,
   "_history": [
+    {
+      "buildId": "25837603",
+      "branch": "beta-testing",
+      "timeUpdated": 1791574296,
+      "firstSeen": 1791592970,
+      "manifests": {
+        "3419141": {
+          "gid": "8059022307462898087",
+          "size": 1880819706,
+          "download": 735817472
+        }
+      }
+    },
+    {
+      "buildId": "25822506",
+      "branch": "beta-testing",
+      "timeUpdated": 1791528396,
+      "firstSeen": 1791549409,
+      "manifests": {
+        "3419141": {
+          "gid": "2903108103823515771",
+          "size": 1880787079,
+          "download": 735793520
+        }
+      }
+    },
     {
       "buildId": "25740355",
       "branch": "beta-testing",
@@ -15,17 +41,18 @@
       }
     },
     {
-      "buildId": "25740355",
+      "buildId": "25837603",
       "branch": "public",
-      "timeUpdated": 1791246536,
-      "firstSeen": 1791247318,
+      "timeUpdated": 1791574296,
+      "firstSeen": 1791592921,
       "manifests": {
         "3419141": {
-          "gid": "7177928399081881773",
-          "size": 1864359212,
-          "download": 723511248
+          "gid": "8059022307462898087",
+          "size": null,
+          "download": null
         }
-      }
+      },
+      "_source": "hubcap"
     },
     {
       "buildId": "25822506",
@@ -56,10 +83,23 @@
       "_source": "hubcap"
     },
     {
+      "buildId": "25740355",
+      "branch": "public",
+      "timeUpdated": 1791246536,
+      "firstSeen": 1791247318,
+      "manifests": {
+        "3419141": {
+          "gid": "7177928399081881773",
+          "size": 1864359212,
+          "download": 723511248
+        }
+      }
+    },
+    {
       "buildId": "25822506",
-      "branch": "beta-testing",
+      "branch": "backup",
       "timeUpdated": 1791528396,
-      "firstSeen": 1791549409,
+      "firstSeen": 1791592970,
       "manifests": {
         "3419141": {
           "gid": "2903108103823515771",
@@ -69,10 +109,10 @@
       }
     }
   ],
-  "_change_number": 39646572,
+  "_change_number": 39672962,
   "_missing_token": false,
-  "_sha": "cf1c76a5fc7522af060bb51993ce1ff470b0f303",
-  "_size": 4825,
+  "_sha": "8407e3b29070871758d278400044e0bacfd7bcf3",
+  "_size": 5204,
   "appid": "3419140",
   "common": {
     "associations": {
@@ -178,12 +218,15 @@
       }
     },
     "name": "Stickility",
+    "name_localized": {
+      "schinese": "火柴迷城"
+    },
     "osarch": "64",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
     "releasestate": "released",
-    "review_percentage": "87",
+    "review_percentage": "88",
     "review_score": "7",
     "small_capsule": {
       "english": "63680c58528a999b03b44fcc59c9eb6e24b6588a/capsule_231x87.jpg"
@@ -249,29 +292,40 @@
   "depots": {
     "3419141": {
       "manifests": {
-        "beta-testing": {
+        "backup": {
           "download": "735793520",
           "gid": "2903108103823515771",
           "size": "1880787079"
         },
+        "beta-testing": {
+          "download": "735817472",
+          "gid": "8059022307462898087",
+          "size": "1880819706"
+        },
         "public": {
-          "download": "735793520",
-          "gid": "2903108103823515771",
-          "size": "1880787079"
+          "download": "735817472",
+          "gid": "8059022307462898087",
+          "size": "1880819706"
         }
       }
     },
     "branches": {
-      "beta-testing": {
+      "backup": {
         "buildid": "25822506",
-        "description": "Unstable (might contain save-breaking issues) version of the game",
+        "description": "A version of the game before the default, in case something may break",
         "timebuildupdated": "1791528320",
         "timeupdated": "1791528396"
       },
+      "beta-testing": {
+        "buildid": "25837603",
+        "description": "Unstable (might contain save-breaking issues) version of the game",
+        "timebuildupdated": "1791574223",
+        "timeupdated": "1791574296"
+      },
       "public": {
-        "buildid": "25822506",
-        "timebuildupdated": "1791528320",
-        "timeupdated": "1791528396"
+        "buildid": "25837603",
+        "timebuildupdated": "1791574223",
+        "timeupdated": "1791574296"
       }
     },
     "privatebranches": "1"

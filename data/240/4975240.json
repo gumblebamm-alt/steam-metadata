@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1791549450,
-  "_history": [],
-  "_change_number": 39640414,
-  "_missing_token": true,
-  "_sha": "7cc98d2ad5b1fca6549f6f0ac9426a023a61fe5e",
-  "_size": 3016,
+  "_lastChecked": 1791593012,
+  "_history": [
+    {
+      "buildId": "25834435",
+      "branch": "public",
+      "timeUpdated": 1791563978,
+      "firstSeen": 1791593012,
+      "manifests": {
+        "4975242": {
+          "gid": "735501170351217024",
+          "size": 125066186,
+          "download": 66317008
+        },
+        "4975243": {
+          "gid": "7178278984568246674",
+          "size": 153808847,
+          "download": 72556176
+        },
+        "4975244": {
+          "gid": "3270275125532476787",
+          "size": 239010230,
+          "download": 97942128
+        }
+      }
+    }
+  ],
+  "_change_number": 39669064,
+  "_missing_token": false,
+  "_sha": "fbf2ddc4ed57b8590ad19803bc2b40cbd13549e6",
+  "_size": 5332,
   "appid": "4975240",
   "common": {
     "associations": {
@@ -27,9 +51,9 @@
     },
     "clienticon": "18e51e5e8fe8c378ee61b99a114d5f94cd936113",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4975240",
     "genres": {
       "0": "1",
@@ -101,7 +125,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1628d3e32ba9e31cff2627a240927adbce54b49d/capsule_231x87.jpg"
     },
@@ -131,5 +155,129 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "default",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "SpacePads",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "SpacePads.x86_64",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "SpacePads.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "SpacePads.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "5",
+    "steaminputmanifestpath": "game_actions_4975240.vdf"
+  },
+  "depots": {
+    "4975242": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "66317008",
+          "gid": "735501170351217024",
+          "size": "125066186"
+        }
+      }
+    },
+    "4975243": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "72556176",
+          "gid": "7178278984568246674",
+          "size": "153808847"
+        }
+      }
+    },
+    "4975244": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "97942128",
+          "gid": "3270275125532476787",
+          "size": "239010230"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25834435",
+        "timebuildupdated": "1791563940",
+        "timeupdated": "1791563978"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Walygons",
+    "publisher": "Walygons"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "499999994",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/SpacePads",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "godot/app_userdata/SpacePads",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      },
+      "2": {
+        "path": "Godot/app_userdata/SpacePads",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

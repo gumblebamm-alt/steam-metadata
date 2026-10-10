@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791549420,
-  "_history": [],
-  "_change_number": 39646212,
-  "_missing_token": true,
-  "_sha": "003f2de0f1eeabaf381e3256486b403904474718",
-  "_size": 3458,
+  "_lastChecked": 1791592982,
+  "_history": [
+    {
+      "buildId": "25837893",
+      "branch": "public",
+      "timeUpdated": 1791575309,
+      "firstSeen": 1791592982,
+      "manifests": {
+        "3239361": {
+          "gid": "6102145653461981961",
+          "size": 3415254717,
+          "download": 1077348832
+        },
+        "3239362": {
+          "gid": "9135142968837434175",
+          "size": 3530872782,
+          "download": 1107237040
+        }
+      }
+    }
+  ],
+  "_change_number": 39678213,
+  "_missing_token": false,
+  "_sha": "51330b902175b133ea20b316dc95d28d9d67ec33",
+  "_size": 5106,
   "appid": "3239360",
   "common": {
     "associations": {
@@ -43,7 +62,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3239360",
     "genres": {
       "0": "1",
@@ -115,10 +133,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "0e2c8c75626c9f469cc5a6f8ed97831af5d4a08a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791565239",
     "store_asset_mtime": "1791527528",
     "store_tags": {
       "0": "1752",
@@ -151,5 +172,88 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Beat, Heart, Beat",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BeatHeartBeat\\BeatHeartBeat.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "BeatHeartBeat\\BeatHeartBeat.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3239361": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1077348832",
+          "gid": "6102145653461981961",
+          "size": "3415254717"
+        }
+      }
+    },
+    "3239362": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1107237040",
+          "gid": "9135142968837434175",
+          "size": "3530872782"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25837893",
+        "timebuildupdated": "1791575208",
+        "timeupdated": "1791575309"
+      }
+    },
+    "privatebranches": "1",
+    "workshopdepot": "3239360"
+  },
+  "extended": {
+    "developer": "The Wacy",
+    "homepage": "https://linktr.ee/beatheartbeatgame",
+    "publisher": "The Wacy"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "TheWacy/BeatHeartBeat/GameData",
+        "pattern": "settings.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "TheWacy/BeatHeartBeat/GameData/profiles",
+        "pattern": "progress.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

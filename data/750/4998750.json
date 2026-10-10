@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791420121,
-  "_history": [],
-  "_change_number": 39590468,
-  "_missing_token": true,
-  "_sha": "14ca75cc8a3c10fa208ce0abe5e1fa2eae6c49fe",
-  "_size": 2868,
+  "_lastChecked": 1791593013,
+  "_history": [
+    {
+      "buildId": "25440744",
+      "branch": "public",
+      "timeUpdated": 1790007484,
+      "firstSeen": 1791593013,
+      "manifests": {
+        "4998751": {
+          "gid": "3170553256700537650",
+          "size": 190088260,
+          "download": 64682272
+        },
+        "4998752": {
+          "gid": "1683773090846769711",
+          "size": 186785310,
+          "download": 61756496
+        }
+      }
+    }
+  ],
+  "_change_number": 39657883,
+  "_missing_token": false,
+  "_sha": "09770fe368d06f99f65f7389ee6b139f28105767",
+  "_size": 4160,
   "appid": "4998750",
   "common": {
     "associations": {
@@ -30,8 +49,8 @@
     },
     "clienticon": "649691c89dea4f04208601e8ba7aef0ca0f74364",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4998750",
     "genres": {
       "0": "4",
@@ -102,10 +121,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f9ba6ffc7a3ec94862f8652183ed5ea2ee4b3b0b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791549143",
     "store_asset_mtime": "1789934157",
     "store_tags": {
       "0": "1664",
@@ -127,5 +147,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PotionDrop",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Potion Drop.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "PotionDrop.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4998751": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "64682272",
+          "gid": "3170553256700537650",
+          "size": "190088260"
+        }
+      }
+    },
+    "4998752": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "61756496",
+          "gid": "1683773090846769711",
+          "size": "186785310"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25440744",
+        "timebuildupdated": "1790007484",
+        "timeupdated": "1790007484"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Data Dealer Productions",
+    "publisher": "Data Dealer Productions"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "5000000",
+    "savefiles": {
+      "0": {
+        "path": "Data Dealer Productions/Potion Drop",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

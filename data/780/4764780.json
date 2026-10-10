@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1791549442,
-  "_history": [],
-  "_change_number": 39657026,
-  "_missing_token": true,
-  "_sha": "8a937697c12a90f1e05174bf090782b01539dc22",
-  "_size": 4180,
+  "_lastChecked": 1791592968,
+  "_history": [
+    {
+      "buildId": "25838791",
+      "branch": "public",
+      "timeUpdated": 1791578900,
+      "firstSeen": 1791592901,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "4764781": {
+          "gid": "269542685517547645",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39674950,
+  "_missing_token": false,
+  "_sha": "dbe09b7893a83feb7969d7288687ee2d3902c4cd",
+  "_size": 5301,
   "appid": "4764780",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +51,8 @@
     },
     "clienticon": "8ab3ae300d65b52118d7123b49eb43a9c277479c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4764780",
     "genres": {
       "0": "4",
@@ -112,11 +137,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6c5f1bad8824cf63f199a81645b35c26c5387496/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791140473",
+    "steam_release_date": "1791561694",
+    "store_asset_mtime": "1791555391",
     "store_tags": {
       "0": "599",
       "1": "597",
@@ -200,5 +226,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Another Tavern Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "AnotherTavernSimulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4764781": {
+      "manifests": {
+        "public": {
+          "download": "1069728608",
+          "gid": "269542685517547645",
+          "size": "1233553687"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25838791",
+        "timebuildupdated": "1791578508",
+        "timeupdated": "1791578900"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Moonilis",
+    "publisher": "Moonilis"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "AnotherTavernSimulator/Saved/SaveGames",
+        "pattern": "MainSave*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

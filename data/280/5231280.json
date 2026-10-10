@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1791138160,
-  "_history": [],
-  "_change_number": 39477154,
-  "_missing_token": true,
-  "_sha": "327a27da28cb6ba5b2c82959ad2695b9ed340678",
-  "_size": 3123,
+  "_lastChecked": 1791593024,
+  "_history": [
+    {
+      "buildId": "25751377",
+      "branch": "public",
+      "timeUpdated": 1791289159,
+      "firstSeen": 1791593024,
+      "manifests": {
+        "5231281": {
+          "gid": "6867908745366672816",
+          "size": 2936721263,
+          "download": 1250241648
+        },
+        "5231282": {
+          "gid": "2767423251078947352",
+          "size": 2951667341,
+          "download": 1257183056
+        },
+        "5231283": {
+          "gid": "8901409981352022679",
+          "size": 2932783099,
+          "download": 1247239824
+        }
+      }
+    },
+    {
+      "buildId": "25751377",
+      "branch": "qa-test",
+      "timeUpdated": 1791288488,
+      "firstSeen": 1791593024,
+      "manifests": {
+        "5231281": {
+          "gid": "6867908745366672816",
+          "size": 2936721263,
+          "download": 1250241648
+        },
+        "5231282": {
+          "gid": "2767423251078947352",
+          "size": 2951667341,
+          "download": 1257183056
+        },
+        "5231283": {
+          "gid": "8901409981352022679",
+          "size": 2932783099,
+          "download": 1247239824
+        }
+      }
+    }
+  ],
+  "_change_number": 39667113,
+  "_missing_token": false,
+  "_sha": "83a3de4680060b577b29c9231e99245b8c8b8eb8",
+  "_size": 5565,
   "appid": "5231280",
   "common": {
     "aicontenttype": "1",
@@ -33,9 +80,9 @@
     },
     "clienticon": "f534704ac22ac04e42588b022521ffdb78c1d331",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5231280",
     "genres": {
       "0": "1",
@@ -111,10 +158,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0e5c2ece1a5b720eef4f3b838b1fadd7ff6cb629/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791562786",
     "store_asset_mtime": "1790613505",
     "store_tags": {
       "0": "1775",
@@ -141,5 +189,129 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hamsuri  Bomb Festival",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "hamsuri.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "hamsuri.app"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "hamsuri.x86_64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "2",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5231281": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1250241648",
+          "gid": "6867908745366672816",
+          "size": "2936721263"
+        },
+        "qa-test": {
+          "download": "1250241648",
+          "gid": "6867908745366672816",
+          "size": "2936721263"
+        }
+      }
+    },
+    "5231282": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1257183056",
+          "gid": "2767423251078947352",
+          "size": "2951667341"
+        },
+        "qa-test": {
+          "download": "1257183056",
+          "gid": "2767423251078947352",
+          "size": "2951667341"
+        }
+      }
+    },
+    "5231283": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1247239824",
+          "gid": "8901409981352022679",
+          "size": "2932783099"
+        },
+        "qa-test": {
+          "download": "1247239824",
+          "gid": "8901409981352022679",
+          "size": "2932783099"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25751377",
+        "timebuildupdated": "1791288488",
+        "timeupdated": "1791289159"
+      },
+      "qa-test": {
+        "buildid": "25751377",
+        "description": "Platform installation and gameplay validation",
+        "timebuildupdated": "1791288488",
+        "timeupdated": "1791288488"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Isotis",
+    "publisher": "isotis"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "16777216",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Isotis/Hamsuri/Steam/{64BitSteamID}",
+        "pattern": "hamsuri-progress.json",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
