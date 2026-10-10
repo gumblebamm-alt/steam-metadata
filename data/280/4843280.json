@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1791593008,
-  "_history": [],
-  "_change_number": 39678308,
-  "_missing_token": true,
-  "_sha": "192f38a564c48d9c9791f32decae5a6fd01ab4c9",
-  "_size": 3640,
+  "_lastChecked": 1791635742,
+  "_history": [
+    {
+      "buildId": "25849043",
+      "branch": "public",
+      "timeUpdated": 1791632892,
+      "firstSeen": 1791635657,
+      "manifests": {
+        "4843281": {
+          "gid": "5005631030230197357",
+          "size": null,
+          "download": null
+        },
+        "4843282": {
+          "gid": "8987217221630259736",
+          "size": null,
+          "download": null
+        },
+        "4843283": {
+          "gid": "491631210857604928",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39690498,
+  "_missing_token": false,
+  "_sha": "e83ef088754f36e4e8713b4630143b55d0031398",
+  "_size": 5103,
   "appid": "4843280",
   "common": {
     "aicontenttype": "1",
@@ -39,6 +64,7 @@
     "clienticns": "df3b69b870fb7fb9754a9229cc3d2da40505da51",
     "clienticon": "b2fcf338df657aa222a81ee902a646f5770b8645",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
     "eulas": {
@@ -49,7 +75,6 @@
         "version": "3"
       }
     },
-    "exfgls": "8",
     "gameid": "4843280",
     "genres": {
       "0": "1",
@@ -123,10 +148,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "29",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e8d77f556ff6d1886dbe841208fea5cfec833e4d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791626502",
     "store_asset_mtime": "1791565804",
     "store_tags": {
       "0": "128",
@@ -158,5 +184,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Nova Warp",
+    "launch": {
+      "0": {
+        "arguments": "--from-launcher -- --steam",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "nova_warp_linux.x86_64"
+      },
+      "1": {
+        "arguments": "--from-launcher -- --steam",
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "nova_warp_windows.exe"
+      },
+      "2": {
+        "arguments": "--from-launcher -- --steam",
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "NOVA WARP.app"
+      }
+    }
+  },
+  "depots": {
+    "4843281": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1476639472",
+          "gid": "431379427446294524",
+          "size": "1578975689"
+        }
+      }
+    },
+    "4843282": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1463229920",
+          "gid": "5959941308791324565",
+          "size": "1626632804"
+        }
+      }
+    },
+    "4843283": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1469980288",
+          "gid": "6957194110417670266",
+          "size": "1553181609"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25849043",
+        "timebuildupdated": "1791631885",
+        "timeupdated": "1791632892"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Valentin Stutznäcker",
+    "isfreeapp": "1",
+    "publisher": "vallestutz"
+  }
 }

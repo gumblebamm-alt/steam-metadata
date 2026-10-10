@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1791506737,
-  "_history": [],
-  "_change_number": 39617077,
-  "_missing_token": true,
-  "_sha": "b249940bc24b11e95055ad079e86ff9c0f17c362",
-  "_size": 3133,
+  "_lastChecked": 1791635770,
+  "_history": [
+    {
+      "buildId": "25847188",
+      "branch": "internal-test",
+      "timeUpdated": 1791621535,
+      "firstSeen": 1791635770,
+      "manifests": {
+        "5151841": {
+          "gid": "2610388943687346262",
+          "size": 696745258,
+          "download": 543123584
+        },
+        "5151842": {
+          "gid": "595112252189992342",
+          "size": 737287802,
+          "download": 536932832
+        }
+      }
+    },
+    {
+      "buildId": "25847188",
+      "branch": "public",
+      "timeUpdated": 1791621748,
+      "firstSeen": 1791635770,
+      "manifests": {
+        "5151841": {
+          "gid": "2610388943687346262",
+          "size": 696745258,
+          "download": 543123584
+        },
+        "5151842": {
+          "gid": "595112252189992342",
+          "size": 737287802,
+          "download": 536932832
+        }
+      }
+    }
+  ],
+  "_change_number": 39687318,
+  "_missing_token": false,
+  "_sha": "8efa856b365b3fae93422a581b3ab0895a52cbc1",
+  "_size": 5196,
   "appid": "5151840",
   "common": {
     "associations": {
@@ -26,8 +63,8 @@
     },
     "clienticon": "4bead923be626ce261734ea16322ee0c6b9636a9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5151840",
     "genres": {
       "0": "23",
@@ -106,10 +143,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cb3c0e515b00a8118040fe2ad2e9dcb49dfd7aed/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1790695523",
     "store_tags": {
       "0": "701",
@@ -143,5 +181,101 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DoubleAlpha",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Double Alpha",
+        "description_loc": {
+          "english": "Play Double Alpha",
+          "ukrainian": "Грати в Double Alpha"
+        },
+        "executable": "DoubleAlpha.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Play Double Alpha",
+        "description_loc": {
+          "english": "Play Double Alpha"
+        },
+        "executable": "DoubleAlpha.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "depotfromapp": "«228980»",
+      "shareddepottype": "commonredist",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "depotfromapp": "«228980»",
+      "shareddepottype": "commonredist",
+      "sharedinstall": "1"
+    },
+    "5151841": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "internal-test": {
+          "download": "543123584",
+          "gid": "2610388943687346262",
+          "size": "696745258"
+        },
+        "public": {
+          "download": "543123584",
+          "gid": "2610388943687346262",
+          "size": "696745258"
+        }
+      }
+    },
+    "5151842": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "internal-test": {
+          "download": "536932832",
+          "gid": "595112252189992342",
+          "size": "737287802"
+        },
+        "public": {
+          "download": "536932832",
+          "gid": "595112252189992342",
+          "size": "737287802"
+        }
+      }
+    },
+    "baselanguages": "english,ukrainian",
+    "branches": {
+      "internal-test": {
+        "buildid": "25847188",
+        "description": "Для внутрішнього тесту",
+        "timebuildupdated": "1791621535",
+        "timeupdated": "1791621535"
+      },
+      "public": {
+        "buildid": "25847188",
+        "timebuildupdated": "1791621535",
+        "timeupdated": "1791621748"
+      }
+    }
+  },
+  "extended": {
+    "developer": "UTC+2 Studio",
+    "homepage": "https://doublealpha.utcplus2.com",
+    "publisher": "UTC+2 Studio"
+  }
 }

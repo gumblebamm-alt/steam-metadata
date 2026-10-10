@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1791085598,
-  "_history": [],
-  "_change_number": 39455698,
-  "_missing_token": true,
-  "_sha": "bf8bc259b8d990a287c2609ca7a857d2f0555f57",
-  "_size": 3474,
+  "_lastChecked": 1791635769,
+  "_history": [
+    {
+      "buildId": "25510936",
+      "branch": "public",
+      "timeUpdated": 1790269721,
+      "firstSeen": 1791635769,
+      "manifests": {
+        "5105401": {
+          "gid": "8494526344105830800",
+          "size": 519982363,
+          "download": 203682624
+        },
+        "5105402": {
+          "gid": "4946645672958378907",
+          "size": 373446740,
+          "download": 138182496
+        },
+        "5105403": {
+          "gid": "3027096423680371095",
+          "size": 336368390,
+          "download": 119996704
+        }
+      }
+    }
+  ],
+  "_change_number": 39684232,
+  "_missing_token": false,
+  "_sha": "ce9e7f66cb7972b900213bcd00bc7bdc91111700",
+  "_size": 5025,
   "appid": "5105400",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +55,8 @@
     "clienticns": "b40b9ab6020bdf01c8d101c55e43f5b6834c620d",
     "clienticon": "d66e8e73c25254b3100d173e81c164f3792cc8a0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5105400",
     "genres": {
       "0": "4",
@@ -111,10 +135,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7514dcddff0fc8580af6e9221f6fdbb24b3b6b3b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793430000",
     "store_asset_mtime": "1791045074",
     "store_tags": {
       "0": "97376",
@@ -157,5 +182,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SPACE JK",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "SPACE JK.app"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SPACE JK.exe"
+      },
+      "2": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "spacejk-desktop"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5105401": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "203682624",
+          "gid": "8494526344105830800",
+          "size": "519982363"
+        }
+      }
+    },
+    "5105402": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "138182496",
+          "gid": "4946645672958378907",
+          "size": "373446740"
+        }
+      }
+    },
+    "5105403": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "119996704",
+          "gid": "3027096423680371095",
+          "size": "336368390"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25510936",
+        "timebuildupdated": "1790269721",
+        "timeupdated": "1790269721"
+      }
+    }
+  },
+  "extended": {
+    "developer": "FaSPel",
+    "dlcavailableonstore": "1",
+    "homepage": "https://sine.f-sp.net/intr/spacejk/",
+    "isfreeapp": "1",
+    "listofdlc": "5162480",
+    "publisher": "FaSPel"
+  }
 }
