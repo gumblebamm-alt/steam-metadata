@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791593012,
+  "_lastChecked": 1791722229,
   "_history": [
     {
       "buildId": "25828378",
@@ -13,12 +13,30 @@
           "download": 799609040
         }
       }
+    },
+    {
+      "buildId": "25862583",
+      "branch": "public",
+      "timeUpdated": 1791720607,
+      "firstSeen": 1791722229,
+      "manifests": {
+        "4971931": {
+          "gid": "4486565145109960024",
+          "size": 1060239918,
+          "download": 799780368
+        },
+        "4971932": {
+          "gid": "2737741295818405515",
+          "size": 1149370213,
+          "download": 828462544
+        }
+      }
     }
   ],
-  "_change_number": 39661847,
+  "_change_number": 39713067,
   "_missing_token": false,
-  "_sha": "02d61ac3ff0a9e15fc26067be4a1fb5c3904c4ad",
-  "_size": 3950,
+  "_sha": "ae36eb9a51100e9b1c5c9486e86310b2c3af2541",
+  "_size": 4876,
   "appid": "4971930",
   "common": {
     "associations": {
@@ -39,6 +57,7 @@
       "category_68": "1",
       "category_76": "1"
     },
+    "clienticns": "a4d8d60a368260e12dff6fec3e605190cd4d9371",
     "clienticon": "478dc58fc98ab388a3dd41703b2e09effb24010b",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
@@ -111,14 +130,17 @@
     },
     "name": "Polda 5.5",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos",
     "primary_genre": "25",
     "releasestate": "released",
+    "review_percentage": "92",
+    "review_score": "7",
     "small_capsule": {
       "english": "f6f634adf7914e09ae7475ea7942aa6a68052fde/capsule_231x87.jpg"
     },
-    "steam_release_date": "1798704000",
+    "steam_release_date": "1791554300",
     "store_asset_mtime": "1788856015",
     "store_tags": {
       "0": "21",
@@ -165,24 +187,50 @@
         },
         "executable": "Polda55.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Polda 5.5",
+        "description_loc": {
+          "english": "Polda 5.5"
+        },
+        "executable": "Polda55.app",
+        "type": "default"
       }
     }
   },
   "depots": {
     "4971931": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "799609040",
-          "gid": "8393837308175586297",
-          "size": "1059765482"
+          "download": "799780368",
+          "gid": "4486565145109960024",
+          "size": "1060239918"
+        }
+      }
+    },
+    "4971932": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "828462544",
+          "gid": "2737741295818405515",
+          "size": "1149370213"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25828378",
-        "timebuildupdated": "1791547602",
-        "timeupdated": "1791554137"
+        "buildid": "25862583",
+        "timebuildupdated": "1791714571",
+        "timeupdated": "1791720607"
       }
     },
     "privatebranches": "1"
@@ -195,6 +243,20 @@
   "ufs": {
     "maxnumfiles": "999",
     "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Zima software/Polda55/saves",
+            "replace": "Zima software/Polda55/saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "Zima software/Polda55/saves",

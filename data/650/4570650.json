@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791463246,
-  "_history": [],
-  "_change_number": 38154158,
-  "_missing_token": true,
-  "_sha": "88b53d53170689347f725f6ae9b52345cd77a97e",
-  "_size": 3202,
+  "_lastChecked": 1791722222,
+  "_history": [
+    {
+      "buildId": "25861070",
+      "branch": "public",
+      "timeUpdated": 1791703664,
+      "firstSeen": 1791722222,
+      "manifests": {
+        "4570651": {
+          "gid": "6681409689722206244",
+          "size": 7330098631,
+          "download": 5590608608
+        }
+      }
+    }
+  ],
+  "_change_number": 39709204,
+  "_missing_token": false,
+  "_sha": "945f8cede7f0807774f43a6f66d35d13daaef3d4",
+  "_size": 4457,
   "appid": "4570650",
   "common": {
     "associations": {
@@ -28,7 +42,6 @@
     "clienticon": "8ea7ad497ed201fa292b68bc5d6f83db658672cd",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4570650",
     "genres": {
       "0": "25",
@@ -103,19 +116,19 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7ee629b6e25caa0eabd8d868edc7a34427410b03/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1779816005",
+    "store_asset_mtime": "1791691462",
     "store_tags": {
       "0": "3834",
       "1": "3810",
       "10": "493",
       "11": "492",
       "12": "3978",
-      "13": "6276",
-      "14": "3859",
+      "13": "3859",
+      "14": "6276",
       "15": "4182",
       "16": "1685",
       "17": "3843",
@@ -144,5 +157,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BackroomsInfinite",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Backrooms:Infinite",
+        "description_loc": {
+          "english": "Play Backrooms:Infinite"
+        },
+        "executable": "WindowsClient/BACKROOMClient.exe",
+        "workingdir": "WindowsClient"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4570651": {
+      "manifests": {
+        "public": {
+          "download": "5590608608",
+          "gid": "6681409689722206244",
+          "size": "7330098631"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25861070",
+        "timebuildupdated": "1791703409",
+        "timeupdated": "1791703664"
+      }
+    }
+  },
+  "extended": {
+    "developer": "White Leaf Studio",
+    "publisher": "White Leaf Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "81920000",
+    "savefiles": {
+      "0": {
+        "path": "BACKROOM/Saved",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

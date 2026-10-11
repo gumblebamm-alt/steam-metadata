@@ -1,10 +1,58 @@
 {
-  "_lastChecked": 1791290259,
-  "_history": [],
-  "_change_number": 39527168,
-  "_missing_token": true,
-  "_sha": "97c7fc4e76f3be6c0e898422d0cf193ad358cc1e",
-  "_size": 2772,
+  "_lastChecked": 1791722209,
+  "_history": [
+    {
+      "buildId": "25734878",
+      "branch": "public",
+      "timeUpdated": 1791226930,
+      "firstSeen": 1791722145,
+      "manifests": {
+        "4604871": {
+          "gid": "8211967973707593832",
+          "size": null,
+          "download": null
+        },
+        "4604872": {
+          "gid": "8974422265994238351",
+          "size": null,
+          "download": null
+        },
+        "4604873": {
+          "gid": "4889275884927044555",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    },
+    {
+      "buildId": "25734878",
+      "branch": "beta",
+      "timeUpdated": 1791226930,
+      "firstSeen": 1791722209,
+      "manifests": {
+        "4604871": {
+          "gid": "8211967973707593832",
+          "size": 416389142,
+          "download": 180329392
+        },
+        "4604872": {
+          "gid": "8974422265994238351",
+          "size": 546743423,
+          "download": 240129712
+        },
+        "4604873": {
+          "gid": "4889275884927044555",
+          "size": 366405074,
+          "download": 155638464
+        }
+      }
+    }
+  ],
+  "_change_number": 39711033,
+  "_missing_token": false,
+  "_sha": "a600f84cdce66a90d455b3c2c0a964ab53264590",
+  "_size": 4517,
   "appid": "4604870",
   "common": {
     "aicontenttype": "1",
@@ -24,8 +72,8 @@
     },
     "clienticon": "fa8dd5e7bb007da8e749ec2dac9c5f9107d0fc8f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4604870",
     "genres": {
       "0": "23"
@@ -96,10 +144,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ef632016caa50eda523187c325bc6c4203a3d2f9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793430000",
     "store_asset_mtime": "1791205789",
     "store_tags": {
       "0": "492",
@@ -117,5 +166,98 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Slingshot",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Slingshot.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Slingshot.app"
+      },
+      "3": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "slingshot"
+      }
+    }
+  },
+  "depots": {
+    "4604871": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "180329392",
+          "gid": "8211967973707593832",
+          "size": "416389142"
+        },
+        "public": {
+          "download": "180329392",
+          "gid": "8211967973707593832",
+          "size": "416389142"
+        }
+      }
+    },
+    "4604872": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "240129712",
+          "gid": "8974422265994238351",
+          "size": "546743423"
+        },
+        "public": {
+          "download": "240129712",
+          "gid": "8974422265994238351",
+          "size": "546743423"
+        }
+      }
+    },
+    "4604873": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "155638464",
+          "gid": "4889275884927044555",
+          "size": "366405074"
+        },
+        "public": {
+          "download": "155638464",
+          "gid": "4889275884927044555",
+          "size": "366405074"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "25734878",
+        "description": "Beta",
+        "timebuildupdated": "1791226930",
+        "timeupdated": "1791226930"
+      },
+      "public": {
+        "buildid": "25734878",
+        "timebuildupdated": "1791226930",
+        "timeupdated": "1791226930"
+      }
+    }
+  },
+  "extended": {
+    "developer": "indiega.me",
+    "homepage": "https://slingshot.indiega.me",
+    "publisher": "indiega.me"
+  }
 }

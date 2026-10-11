@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1791635771,
-  "_history": [],
-  "_change_number": 39681875,
-  "_missing_token": true,
-  "_sha": "6a49284c06342f784a8f98aabb7b108391cb9fee",
-  "_size": 8569,
+  "_lastChecked": 1791722209,
+  "_history": [
+    {
+      "buildId": "25255188",
+      "branch": "public",
+      "timeUpdated": 1789135715,
+      "firstSeen": 1791722143,
+      "manifests": {
+        "5188711": {
+          "gid": "5786717823871677084",
+          "size": null,
+          "download": null
+        },
+        "5188712": {
+          "gid": "1683605803406980218",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39711207,
+  "_missing_token": false,
+  "_sha": "5588d813527883deef38eb541dbe3e5569a9c0f9",
+  "_size": 10476,
   "appid": "5188710",
   "common": {
     "associations": {
@@ -34,9 +54,9 @@
     },
     "clienticon": "4a4d4a8c4d4900b50ffa267efda65632aa1b6c1b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5188710",
     "genres": {
       "0": "4",
@@ -192,13 +212,14 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e31c5c0cb6b60b997aa6c4ed56bac94f9755af3a/capsule_231x87.jpg",
       "japanese": "c057bd053a8e13150c1a4834a5e9e9272503b701/capsule_231x87_japanese.jpg",
       "schinese": "9d131288b57f60f56921f0274b5110d32b5706f3/capsule_231x87_schinese.jpg",
       "tchinese": "a9c3a3320c6a9cc6384c958abedec2a9688acdec/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1791712845",
     "store_asset_mtime": "1788599882",
     "store_tags": {
       "0": "1730",
@@ -316,5 +337,101 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sokoban Ancient Ruins",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SokobanAncientRuins.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "SokobanAncientRuins.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5188711": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "233210224",
+          "gid": "5786717823871677084",
+          "size": "528229301"
+        }
+      }
+    },
+    "5188712": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "260844224",
+          "gid": "1683605803406980218",
+          "size": "625794045"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25255188",
+        "timebuildupdated": "1789135715",
+        "timeupdated": "1789135715"
+      }
+    }
+  },
+  "extended": {
+    "developer": "FWGames",
+    "publisher": "FWGames"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "FWGames/SokobanAncientRuins",
+            "replace": "FWGames/SokobanAncientRuins"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "FWGames/SokobanAncientRuins",
+            "replace": "config/unity3d/FWGames/SokobanAncientRuins"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "FWGames/SokobanAncientRuins",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
