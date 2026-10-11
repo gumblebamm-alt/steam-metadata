@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791549452,
-  "_history": [],
-  "_change_number": 39646433,
-  "_missing_token": true,
-  "_sha": "77d094216cd4fc7229a9e7abd8585c74f82e876f",
-  "_size": 3178,
+  "_lastChecked": 1791679460,
+  "_history": [
+    {
+      "buildId": "25856355",
+      "branch": "public",
+      "timeUpdated": 1791670330,
+      "firstSeen": 1791679460,
+      "manifests": {
+        "5038021": {
+          "gid": "7343851448050446777",
+          "size": 2725586765,
+          "download": 1000570816
+        }
+      }
+    }
+  ],
+  "_change_number": 39702258,
+  "_missing_token": false,
+  "_sha": "a67a029c48128044b73a2edefee0504edb42e622",
+  "_size": 4194,
   "appid": "5038020",
   "common": {
     "associations": {
@@ -33,8 +47,8 @@
     },
     "clienticon": "4c3c816a1fb192ad38db510f7ebe52d7b73c38df",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5038020",
     "genres": {
       "0": "4",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2ac1f61ac95bddaee086ae77db0b3d10e9d40d43/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791644492",
     "store_asset_mtime": "1791073640",
     "store_tags": {
       "0": "599",
@@ -143,5 +158,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Shelf Employed",
+    "launch": {
+      "0": {
+        "executable": "WarehouseManager.exe"
+      }
+    }
+  },
+  "depots": {
+    "5038021": {
+      "manifests": {
+        "public": {
+          "download": "1000570816",
+          "gid": "7343851448050446777",
+          "size": "2725586765"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25856355",
+        "timebuildupdated": "1791670081",
+        "timeupdated": "1791670330"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DuoQ",
+    "publisher": "DuoQ"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "DuoQ/Shelf-Employed/MagicalWarehouse/Saves",
+        "pattern": "slot_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "DuoQ/Shelf-Employed/MagicalWarehouse/Saves",
+        "pattern": "slot_*.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

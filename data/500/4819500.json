@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791376829,
+  "_lastChecked": 1791679455,
   "_history": [
     {
       "buildId": "25696819",
@@ -46,12 +46,35 @@
           "download": 10873504
         }
       }
+    },
+    {
+      "buildId": "25830430",
+      "branch": "public",
+      "timeUpdated": 1791651855,
+      "firstSeen": 1791679455,
+      "manifests": {
+        "4819501": {
+          "gid": "4523455589582964902",
+          "size": 13819002,
+          "download": 5568640
+        },
+        "4819502": {
+          "gid": "2884785060547073826",
+          "size": 14858637,
+          "download": 5806800
+        },
+        "4819503": {
+          "gid": "7856408988761332827",
+          "size": 33239167,
+          "download": 10865408
+        }
+      }
     }
   ],
-  "_change_number": 39538962,
+  "_change_number": 39697340,
   "_missing_token": false,
-  "_sha": "95a6cef361c9e1da71fab8f764e4b397c971e8e1",
-  "_size": 5201,
+  "_sha": "ac1ae1a1063e73eab8337ba8f3fca869055d2604",
+  "_size": 5180,
   "appid": "4819500",
   "common": {
     "associations": {
@@ -166,7 +189,7 @@
       "english": "7d73211379b0ebfab0f774c147e15cbbe08cadf1/capsule_231x87.jpg"
     },
     "steam_release_date": "1790415261",
-    "store_asset_mtime": "1791192268",
+    "store_asset_mtime": "1791653645",
     "store_tags": {
       "0": "597",
       "1": "1716",
@@ -231,9 +254,9 @@
       },
       "manifests": {
         "public": {
-          "download": "5428112",
-          "gid": "4780196070057704639",
-          "size": "13677760"
+          "download": "5568640",
+          "gid": "4523455589582964902",
+          "size": "13819002"
         }
       }
     },
@@ -243,9 +266,9 @@
       },
       "manifests": {
         "public": {
-          "download": "5667792",
-          "gid": "6395667067029990750",
-          "size": "14717395"
+          "download": "5806800",
+          "gid": "2884785060547073826",
+          "size": "14858637"
         }
       }
     },
@@ -255,18 +278,18 @@
       },
       "manifests": {
         "public": {
-          "download": "10873504",
-          "gid": "3888017442575626462",
-          "size": "33245200"
+          "download": "10865408",
+          "gid": "7856408988761332827",
+          "size": "33239167"
         }
       }
     },
     "baselanguages": "english,german",
     "branches": {
       "public": {
-        "buildid": "25753782",
-        "timebuildupdated": "1791295573",
-        "timeupdated": "1791295748"
+        "buildid": "25830430",
+        "timebuildupdated": "1791553162",
+        "timeupdated": "1791651855"
       }
     },
     "privatebranches": "1"
@@ -278,30 +301,27 @@
   "ufs": {
     "maxnumfiles": "10",
     "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "love/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "pinpongle",
         "pattern": "save.lua*",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataRoaming"
-      },
-      "1": {
-        "path": "pinpongle",
-        "pattern": "save.lua*",
-        "platforms": {
-          "1": "MacOS"
-        },
-        "root": "MacAppSupport"
-      },
-      "2": {
-        "path": "pinpongle",
-        "pattern": "save.lua*",
-        "platforms": {
-          "1": "Linux"
-        },
-        "root": "LinuxXdgDataHome"
       }
     }
   }

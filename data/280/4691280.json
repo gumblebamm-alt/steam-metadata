@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1791506719,
-  "_history": [],
-  "_change_number": 39109312,
-  "_missing_token": true,
-  "_sha": "340f858038875cb88fa1182ec2a33ff1684e71a1",
-  "_size": 3020,
+  "_lastChecked": 1791679453,
+  "_history": [
+    {
+      "buildId": "25855836",
+      "branch": "public",
+      "timeUpdated": 1791667201,
+      "firstSeen": 1791679453,
+      "manifests": {
+        "4691282": {
+          "gid": "2765002233870671633",
+          "size": 1222070451,
+          "download": 1052903744
+        }
+      }
+    },
+    {
+      "buildId": "25855836",
+      "branch": "rockgamepublisherevaluation",
+      "timeUpdated": 1791667201,
+      "firstSeen": 1791679453,
+      "manifests": {
+        "4691282": {
+          "gid": "2765002233870671633",
+          "size": 1222070451,
+          "download": 1052903744
+        }
+      }
+    }
+  ],
+  "_change_number": 39701669,
+  "_missing_token": false,
+  "_sha": "1185ac079fc872a0782c20ecc969c594846e4aae",
+  "_size": 4614,
   "appid": "4691280",
   "common": {
     "associations": {
@@ -30,8 +57,16 @@
     },
     "clienticon": "10e8756f251c9ebc936c8b806149955da42deed0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
+    "eulas": {
+      "0": {
+        "id": "4691280_eula_0",
+        "name": "Echoes: Unforgotten EULA",
+        "url": "https://store.steampowered.com/eula/4691280_eula_0",
+        "version": "1"
+      }
+    },
     "gameid": "4691280",
     "genres": {
       "0": "2"
@@ -101,10 +136,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9198e6840df843c9dd5ab045b96dcd008addaa37/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791668002",
     "store_asset_mtime": "1787265342",
     "store_tags": {
       "0": "9",
@@ -134,5 +170,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "EchoesUnforgotten",
+    "launch": {
+      "0": {
+        "executable": "EchoesUnforgotten.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4691282": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1052903744",
+          "gid": "2765002233870671633",
+          "size": "1222070451"
+        },
+        "rockgamepublisherevaluation": {
+          "download": "1052903744",
+          "gid": "2765002233870671633",
+          "size": "1222070451"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25855836",
+        "timebuildupdated": "1791667109",
+        "timeupdated": "1791667201"
+      },
+      "rockgamepublisherevaluation": {
+        "buildid": "25855836",
+        "description": "Build for RockGameS.A",
+        "timebuildupdated": "1791667109",
+        "timeupdated": "1791667201"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Varin",
+    "publisher": "Varin"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "EchoesUnforgotten\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
