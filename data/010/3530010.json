@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1791765783,
-  "_history": [],
-  "_change_number": 39716436,
-  "_missing_token": true,
-  "_sha": "f432f09ac6079e357d8f4d45d8074040d4f748a2",
-  "_size": 6599,
+  "_lastChecked": 1791809533,
+  "_history": [
+    {
+      "buildId": "25881483",
+      "branch": "public",
+      "timeUpdated": 1791807006,
+      "firstSeen": 1791809533,
+      "manifests": {
+        "3530011": {
+          "gid": "2150981756528602036",
+          "size": 651042679,
+          "download": 214856592
+        },
+        "3530012": {
+          "gid": "5571001921102874114",
+          "size": 675248857,
+          "download": 224113008
+        },
+        "3530013": {
+          "gid": "1024393411776571802",
+          "size": 648949324,
+          "download": 212410784
+        }
+      }
+    }
+  ],
+  "_change_number": 39740711,
+  "_missing_token": false,
+  "_sha": "f39db05664f7348f7954d2db8f5f84e1aa6879a7",
+  "_size": 8745,
   "appid": "3530010",
   "common": {
     "associations": {
@@ -27,7 +51,6 @@
     "clienttga": "757f80afe415248c14b6b18e1a5744be4b3a23a4",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3530010",
     "genres": {
       "0": "4",
@@ -118,12 +141,13 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "80b1bea04448f82419399a93a1b08ca507db8c07/capsule_231x87.jpg",
       "schinese": "ea1404c2133662785717ff98c70c872a559edb88/capsule_231x87_schinese.jpg",
       "tchinese": "7ced65af1b732c25339c4d40397db4227b2b7e32/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1791787574",
     "store_asset_mtime": "1791731934",
     "store_tags": {
       "0": "87918",
@@ -261,5 +285,120 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MeowGarden",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MeowGarden.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MeowGarden.app"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "MeowGarden.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "3530011": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "214856592",
+          "gid": "2150981756528602036",
+          "size": "651042679"
+        }
+      }
+    },
+    "3530012": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "224113008",
+          "gid": "5571001921102874114",
+          "size": "675248857"
+        }
+      }
+    },
+    "3530013": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "212410784",
+          "gid": "1024393411776571802",
+          "size": "648949324"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25881483",
+        "timebuildupdated": "1791806475",
+        "timeupdated": "1791807006"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Tanami Games",
+    "publisher": "Tanami Games"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Tanami/MeowGarden/{64BitSteamID}",
+            "replace": "Tanami/MeowGarden/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Tanami/MeowGarden/{64BitSteamID}",
+            "replace": ".config/unity3d/Tanami/MeowGarden/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Tanami/MeowGarden/{64BitSteamID}",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

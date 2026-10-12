@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1790728818,
-  "_history": [],
-  "_change_number": 39296834,
-  "_missing_token": true,
-  "_sha": "70fe9d99018d11f6270bf7f05318c018fe346501",
-  "_size": 3126,
+  "_lastChecked": 1791809563,
+  "_history": [
+    {
+      "buildId": "25435220",
+      "branch": "public",
+      "timeUpdated": 1789989482,
+      "firstSeen": 1791809563,
+      "manifests": {
+        "5246582": {
+          "gid": "8928912263783982479",
+          "size": 215113714,
+          "download": 65742560
+        },
+        "5246583": {
+          "gid": "6458588552660544410",
+          "size": 104598647,
+          "download": 66708000
+        }
+      }
+    }
+  ],
+  "_change_number": 39733033,
+  "_missing_token": false,
+  "_sha": "4d172a99f466f62f5726c037020cfa54ab09c2fc",
+  "_size": 4107,
   "appid": "5246580",
   "common": {
     "associations": {
@@ -34,7 +53,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5246580",
     "genres": {
       "0": "1"
@@ -106,7 +124,7 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a31ae4d1f8871fd226ce7b1ef87d131feb59888d/capsule_231x87.jpg"
     },
@@ -132,5 +150,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Defend The Totem",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DefendTheTotem.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "DefendTheTotem.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5246582": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "65742560",
+          "gid": "8928912263783982479",
+          "size": "215113714"
+        }
+      }
+    },
+    "5246583": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "66708000",
+          "gid": "6458588552660544410",
+          "size": "104598647"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25435220",
+        "timebuildupdated": "1789989397",
+        "timeupdated": "1789989482"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Michel Gerard",
+    "homepage": "https://supertiny.be",
+    "publisher": "Michel Gerard"
+  }
 }

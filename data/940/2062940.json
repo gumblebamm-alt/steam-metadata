@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1791765777,
+  "_lastChecked": 1791809526,
   "_history": [
+    {
+      "buildId": "25880862",
+      "branch": "experimental",
+      "timeUpdated": 1791804406,
+      "firstSeen": 1791809526,
+      "manifests": {
+        "2062941": {
+          "gid": "2352166029729502123",
+          "size": 20743905036,
+          "download": 17339046768
+        },
+        "2062942": {
+          "gid": "8284914547492236802",
+          "size": 22493872028,
+          "download": 18256347504
+        }
+      }
+    },
     {
       "buildId": "25864863",
       "branch": "experimental",
@@ -65,24 +83,6 @@
           "gid": "713937659628152173",
           "size": 11015770430,
           "download": 10287372000
-        },
-        "2062942": {
-          "gid": "7460976846424469466",
-          "size": 12935546986,
-          "download": 11303289968
-        }
-      }
-    },
-    {
-      "buildId": "25358689",
-      "branch": "experimental",
-      "timeUpdated": 1789607407,
-      "firstSeen": 1789608492,
-      "manifests": {
-        "2062941": {
-          "gid": "8464510780863142933",
-          "size": 11013240520,
-          "download": 10284852576
         },
         "2062942": {
           "gid": "7460976846424469466",
@@ -180,10 +180,10 @@
       }
     }
   ],
-  "_change_number": 39715295,
+  "_change_number": 39739464,
   "_missing_token": false,
-  "_sha": "2415ca2e425b238cef54f96ea7f3a0c8bbe9bb9f",
-  "_size": 8039,
+  "_sha": "fff4e00ddd9b2c6dc9ebd6c90b6ad99e400d1681",
+  "_size": 8577,
   "appid": "2062940",
   "common": {
     "aicontenttype": "1",
@@ -200,6 +200,7 @@
     "category": {
       "category_1": "1",
       "category_2": "1",
+      "category_23": "1",
       "category_36": "1",
       "category_38": "1",
       "category_47": "1",
@@ -212,6 +213,7 @@
     "clienticon": "d6a59d097e9b6072e4e54303d42905d990a4c24d",
     "clienttga": "f73b55ff02a18028115b78e00903b8e952eb4542",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -235,13 +237,14 @@
       "2": "70"
     },
     "header_image": {
-      "english": "header.jpg"
+      "english": "893d10e0047a20e2c576f9cc3e79d85275417cfd/header.jpg"
     },
     "icon": "60ece798e51296e1bbb7997f961ece7e8171bf33",
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
       "library_hero": "en",
+      "library_hero_blur": "en",
       "library_logo": "en",
       "logo_position": {
         "height_pct": "69.37781999525055",
@@ -252,34 +255,39 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "library_600x900.jpg"
+          "english": "10fcec1f91b71384092afd8e2b5290c1ee0295f5/library_capsule.jpg"
         },
         "image2x": {
-          "english": "library_600x900_2x.jpg"
+          "english": "10fcec1f91b71384092afd8e2b5290c1ee0295f5/library_capsule_2x.jpg"
         }
       },
       "library_header": {
         "image": {
-          "english": "c14c04c52d300be8e51fa1f8cea00fdbde1bb8b5/library_header.jpg"
+          "english": "5b09011bd34b441820cc761b464d66d080756d40/library_header.jpg"
         },
         "image2x": {
-          "english": "c14c04c52d300be8e51fa1f8cea00fdbde1bb8b5/library_header_2x.jpg"
+          "english": "5b09011bd34b441820cc761b464d66d080756d40/library_header_2x.jpg"
         }
       },
       "library_hero": {
         "image": {
-          "english": "library_hero.jpg"
+          "english": "aadc7d7b00c408f989bd0a2a1ea618ad7bb8526a/library_hero.jpg"
         },
         "image2x": {
-          "english": "library_hero_2x.jpg"
+          "english": "aadc7d7b00c408f989bd0a2a1ea618ad7bb8526a/library_hero_2x.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "aadc7d7b00c408f989bd0a2a1ea618ad7bb8526a/library_hero_blur.jpg"
         }
       },
       "library_logo": {
         "image": {
-          "english": "logo.png"
+          "english": "4b1fef3fea19f11b4794ef0f8796962c0d3b50d4/logo.png"
         },
         "image2x": {
-          "english": "logo_2x.png"
+          "english": "4b1fef3fea19f11b4794ef0f8796962c0d3b50d4/logo_2x.png"
         },
         "logo_position": {
           "height_pct": "69.37781999525055",
@@ -291,14 +299,15 @@
     "linuxclienticon": "65d9efb42679682298681c88b70d80eff462f2c2",
     "name": "Territory",
     "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "70",
     "releasestate": "released",
     "review_percentage": "64",
     "review_score": "5",
     "small_capsule": {
-      "english": "capsule_231x87.jpg"
+      "english": "5439f58138591fc0fbc959c5f0e1a150b65e6337/capsule_231x87.jpg"
     },
     "steam_deck_compatibility": {
       "category": "1",
@@ -337,28 +346,28 @@
       }
     },
     "steam_release_date": "1657354300",
-    "store_asset_mtime": "1728639180",
+    "store_asset_mtime": "1791799532",
     "store_tags": {
-      "0": "3834",
-      "1": "353880",
-      "10": "1721",
-      "11": "1695",
-      "12": "19",
-      "13": "4175",
-      "14": "1708",
-      "15": "4236",
-      "16": "1643",
-      "17": "1662",
-      "18": "1702",
-      "19": "30358",
-      "2": "3810",
-      "3": "1775",
-      "4": "1774",
-      "5": "4106",
-      "6": "1697",
-      "7": "3839",
-      "8": "1667",
-      "9": "3920"
+      "0": "1695",
+      "1": "1662",
+      "10": "1697",
+      "11": "3839",
+      "12": "1663",
+      "13": "3814",
+      "14": "3920",
+      "15": "1643",
+      "16": "4175",
+      "17": "4236",
+      "18": "21",
+      "19": "4166",
+      "2": "1702",
+      "3": "7332",
+      "4": "3810",
+      "5": "3834",
+      "6": "6730",
+      "7": "1775",
+      "8": "19",
+      "9": "1774"
     },
     "supported_languages": {
       "english": {
@@ -403,9 +412,9 @@
       },
       "manifests": {
         "experimental": {
-          "download": "17333795168",
-          "gid": "2616099023709033299",
-          "size": "20737050017"
+          "download": "17339046768",
+          "gid": "2352166029729502123",
+          "size": "20743905036"
         },
         "public": {
           "download": "21131197824",
@@ -445,9 +454,9 @@
       },
       "manifests": {
         "experimental": {
-          "download": "18247172464",
-          "gid": "3508503564940468016",
-          "size": "22482982818"
+          "download": "18256347504",
+          "gid": "8284914547492236802",
+          "size": "22493872028"
         },
         "public": {
           "download": "12007151056",
@@ -477,10 +486,10 @@
     },
     "branches": {
       "experimental": {
-        "buildid": "25864863",
+        "buildid": "25880862",
         "description": "Beta testing",
-        "timebuildupdated": "1791728362",
-        "timeupdated": "1791728362"
+        "timebuildupdated": "1791804406",
+        "timeupdated": "1791804406"
       },
       "public": {
         "buildid": "18296430",
@@ -523,7 +532,7 @@
   "extended": {
     "developer": "Threat Vector",
     "gamedir": "territory",
-    "homepage": "https://trello.com/b/8kVsmUCM/territory-game-development",
+    "homepage": "https://territorysurvival.com",
     "publisher": "Threat Vector",
     "serverbrowsername": "Territory"
   },

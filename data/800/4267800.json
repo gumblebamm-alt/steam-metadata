@@ -1,10 +1,73 @@
 {
-  "_lastChecked": 1791722219,
-  "_history": [],
-  "_change_number": 39713461,
-  "_missing_token": true,
-  "_sha": "87874cae1e6833243d2e6bf90aabfc4aba0be7eb",
-  "_size": 4718,
+  "_lastChecked": 1791809541,
+  "_history": [
+    {
+      "buildId": "25878766",
+      "branch": "public",
+      "timeUpdated": 1791796988,
+      "firstSeen": 1791809541,
+      "manifests": {
+        "4267801": {
+          "gid": "1245566969858966342",
+          "size": 450785288,
+          "download": 290125712
+        },
+        "4267802": {
+          "gid": "5291970902217447045",
+          "size": 386064068,
+          "download": 270406272
+        }
+      }
+    },
+    {
+      "buildId": "25878346",
+      "branch": "test",
+      "timeUpdated": 1791795640,
+      "firstSeen": 1791809541,
+      "manifests": {
+        "4267801": {
+          "gid": "1245566969858966342",
+          "size": 450785288,
+          "download": 290125712
+        }
+      }
+    },
+    {
+      "buildId": "25878522",
+      "branch": "win11stable",
+      "timeUpdated": 1791796196,
+      "firstSeen": 1791809541,
+      "manifests": {
+        "4267801": {
+          "gid": "7975669401140139175",
+          "size": 514151750,
+          "download": 316017456
+        }
+      }
+    },
+    {
+      "buildId": "25864244",
+      "branch": "win7compat",
+      "timeUpdated": 1791725168,
+      "firstSeen": 1791809541,
+      "manifests": {
+        "4267801": {
+          "gid": "3381507364965175716",
+          "size": 415229716,
+          "download": 276202000
+        },
+        "4267802": {
+          "gid": "5291970902217447045",
+          "size": 386064068,
+          "download": 270406272
+        }
+      }
+    }
+  ],
+  "_change_number": 39740678,
+  "_missing_token": false,
+  "_sha": "ad7bdabed0a552f69157d5dd02d0cfb369605c02",
+  "_size": 6847,
   "appid": "4267800",
   "common": {
     "aicontenttype": "1",
@@ -32,8 +95,8 @@
     },
     "clienticon": "a4ffd37699c2208f0a4be47f773e0a95100000a5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4267800",
     "genres": {
       "0": "4",
@@ -124,12 +187,15 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "80",
+    "review_score": "8",
     "small_capsule": {
       "english": "c7b1ea6202d25e4f9165abbae7c1cc7b843e1732/capsule_231x87.jpg",
       "schinese": "6b045358b3eee9a9285f122bccabf332e48dfdcb/capsule_231x87_schinese.jpg",
       "tchinese": "6b045358b3eee9a9285f122bccabf332e48dfdcb/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1791770322",
     "store_asset_mtime": "1791697135",
     "store_tags": {
       "0": "615955",
@@ -165,5 +231,104 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "塔防山贼模拟器",
+    "launch": {
+      "0": {
+        "executable": "game.exe",
+        "type": "none"
+      }
+    }
+  },
+  "depots": {
+    "4267801": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "290125712",
+          "gid": "1245566969858966342",
+          "size": "450785288"
+        },
+        "test": {
+          "download": "290125712",
+          "gid": "1245566969858966342",
+          "size": "450785288"
+        },
+        "win11stable": {
+          "download": "316017456",
+          "gid": "7975669401140139175",
+          "size": "514151750"
+        },
+        "win7compat": {
+          "download": "276202000",
+          "gid": "3381507364965175716",
+          "size": "415229716"
+        }
+      }
+    },
+    "4267802": {
+      "config": {
+        "osarch": "32",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "270406272",
+          "gid": "5291970902217447045",
+          "size": "386064068"
+        },
+        "win7compat": {
+          "download": "270406272",
+          "gid": "5291970902217447045",
+          "size": "386064068"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25878766",
+        "timebuildupdated": "1791796988",
+        "timeupdated": "1791796988"
+      },
+      "test": {
+        "buildid": "25878346",
+        "description": "测试专用分支for test",
+        "timebuildupdated": "1791795637",
+        "timeupdated": "1791795640"
+      },
+      "win11stable": {
+        "buildid": "25878522",
+        "description": "Crash or Windows 11 Compatible",
+        "timebuildupdated": "1791796195",
+        "timeupdated": "1791796196"
+      },
+      "win7compat": {
+        "buildid": "25864244",
+        "description": "Windows 7 Compatible",
+        "timebuildupdated": "1791725168",
+        "timeupdated": "1791725168"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "developer": "游戏养家工作室",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5240540",
+    "publisher": "游戏养家工作室"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "savedir",
+        "pattern": "*.dat",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

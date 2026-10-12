@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791463232,
-  "_history": [],
-  "_change_number": 39613794,
-  "_missing_token": true,
-  "_sha": "a79b7eb0154b97d9c2d0b2e22c259ddfb8e445d6",
-  "_size": 3293,
+  "_lastChecked": 1791809537,
+  "_history": [
+    {
+      "buildId": "25868400",
+      "branch": "public",
+      "timeUpdated": 1791746279,
+      "firstSeen": 1791809537,
+      "manifests": {
+        "3851681": {
+          "gid": "8188320570943314754",
+          "size": 773502506,
+          "download": 369994464
+        },
+        "3851682": {
+          "gid": "5389726347868467602",
+          "size": 784043122,
+          "download": 371687968
+        }
+      }
+    }
+  ],
+  "_change_number": 39735529,
+  "_missing_token": false,
+  "_sha": "7362020b469baee603f4c4d62f3b9e8d839cbe2b",
+  "_size": 4315,
   "appid": "3851680",
   "common": {
     "associations": {
@@ -30,8 +49,8 @@
     "clienticon": "4f3a30f362972d1a8b6c79569c90ef782cd858cc",
     "clienttga": "b9e88342488e93f1dfae5d0de27ea413e505c952",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3851680",
     "genres": {
       "0": "25"
@@ -97,15 +116,16 @@
       }
     },
     "name": "The Doll Shop",
-    "osarch": "",
+    "osarch": "64",
     "oscpu": "",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fdb991601b0cefc2a1d8f7e968197c5df6286e1d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791795644",
     "store_asset_mtime": "1787128089",
     "store_tags": {
       "0": "1667",
@@ -149,5 +169,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Doll Shop",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TheDollShop.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Contents/MacOS/TheDollShop",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3851681": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "369994464",
+          "gid": "8188320570943314754",
+          "size": "773502506"
+        }
+      }
+    },
+    "3851682": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "371687968",
+          "gid": "5389726347868467602",
+          "size": "784043122"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25868400",
+        "timebuildupdated": "1791745965",
+        "timeupdated": "1791746279"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Atelier Sentô",
+    "homepage": "https://ateliersento.com/",
+    "publisher": "Atelier Sentô"
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791593024,
-  "_history": [],
-  "_change_number": 39672281,
-  "_missing_token": true,
-  "_sha": "cc216f0383c5498bf11461ef053caa9fd6270f06",
-  "_size": 3905,
+  "_lastChecked": 1791809563,
+  "_history": [
+    {
+      "buildId": "25669999",
+      "branch": "public",
+      "timeUpdated": 1790919630,
+      "firstSeen": 1791809563,
+      "manifests": {
+        "5227861": {
+          "gid": "3900998984093961161",
+          "size": 313332700,
+          "download": 182239424
+        },
+        "5227862": {
+          "gid": "2592051992163090562",
+          "size": 280553684,
+          "download": 173384752
+        }
+      }
+    }
+  ],
+  "_change_number": 39740426,
+  "_missing_token": false,
+  "_sha": "68b9ca8566b1fbc4a9ba5833e07bbef3feb746b4",
+  "_size": 6198,
   "appid": "5227860",
   "common": {
     "aicontenttype": "1",
@@ -34,9 +53,9 @@
     },
     "clienticon": "5e7dedc3901f320b038ef0baba7bc266881835a1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5227860",
     "genres": {
       "0": "1",
@@ -122,7 +141,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a19f4ba35a4768ec68a379aa91ea7cbb5c25aeec/capsule_231x87.jpg"
     },
@@ -187,5 +206,116 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fable Gear",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Fable Gear.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Fable Gear.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5227861": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "182239424",
+          "gid": "3900998984093961161",
+          "size": "313332700"
+        }
+      }
+    },
+    "5227862": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "173384752",
+          "gid": "2592051992163090562",
+          "size": "280553684"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,polish,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25669999",
+        "timebuildupdated": "1790919479",
+        "timeupdated": "1790919630"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Milasuke",
+    "publisher": "Milasuke"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Fable Gear",
+            "replace": ".local/share/godot/app_userdata/Fable Gear"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Fable Gear",
+        "pattern": "save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Fable Gear",
+        "pattern": "save2.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Fable Gear",
+        "pattern": "save3.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Fable Gear",
+        "pattern": "save.json.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Fable Gear",
+        "pattern": "save2.json.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Godot/app_userdata/Fable Gear",
+        "pattern": "save3.json.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Godot/app_userdata/Fable Gear",
+        "pattern": "achievements.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

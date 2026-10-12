@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1791635751,
-  "_history": [],
-  "_change_number": 39685846,
-  "_missing_token": true,
-  "_sha": "371dbdb686eddd433ee0409205ee96530788a08e",
-  "_size": 7385,
+  "_lastChecked": 1791809536,
+  "_history": [
+    {
+      "buildId": "25871948",
+      "branch": "public",
+      "timeUpdated": 1791785215,
+      "firstSeen": 1791809536,
+      "manifests": {
+        "3746951": {
+          "gid": "8842088843268054801",
+          "size": 1830163742,
+          "download": 1056385856
+        }
+      }
+    },
+    {
+      "buildId": "23560596",
+      "branch": "publictest",
+      "timeUpdated": 1780555202,
+      "firstSeen": 1791809536,
+      "manifests": {
+        "3746951": {
+          "gid": "2358582026417400585",
+          "size": 1193160741,
+          "download": 539741104
+        }
+      }
+    }
+  ],
+  "_change_number": 39740671,
+  "_missing_token": false,
+  "_sha": "4244a4faf0f90acdd64e1b2a7ca4f9bcb006eacf",
+  "_size": 8553,
   "appid": "3746950",
   "common": {
     "associations": {
@@ -36,7 +63,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3746950",
     "genres": {
       "0": "4",
@@ -156,7 +182,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "96",
+    "review_score": "7",
     "small_capsule": {
       "english": "5b1d6ee6d70c363e1d6738822122bbe2f94b9050/capsule_231x87.jpg",
       "japanese": "dbf1f521c46709db160f1f2476ac8fa1d9e28f8d/capsule_231x87_japanese.jpg",
@@ -164,6 +192,7 @@
       "schinese": "bd146874a38e69fc6910c6399f174301d5f7a38d/capsule_231x87_schinese.jpg",
       "tchinese": "845705b046220f0cb01c26a506a80ccced200d1c/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1791791999",
     "store_asset_mtime": "1791615889",
     "store_tags": {
       "0": "12472",
@@ -224,5 +253,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MATCH2025A",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Life, the Universe, and Restaurants.exe"
+      }
+    }
+  },
+  "depots": {
+    "3746951": {
+      "manifests": {
+        "public": {
+          "download": "1056385856",
+          "gid": "8842088843268054801",
+          "size": "1830163742"
+        },
+        "publictest": {
+          "download": "539741104",
+          "gid": "2358582026417400585",
+          "size": "1193160741"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25871948",
+        "timebuildupdated": "1791763084",
+        "timeupdated": "1791785215"
+      },
+      "publictest": {
+        "buildid": "23560596",
+        "description": "公开测试",
+        "timebuildupdated": "1780555199",
+        "timeupdated": "1780555202"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "GARRY",
+    "publisher": "Gamersky Games"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Garry",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
