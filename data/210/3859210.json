@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791852276,
-  "_history": [],
-  "_change_number": 39745448,
-  "_missing_token": true,
-  "_sha": "2853785f41a095f2b2f6a97e87e675d7e13683ea",
-  "_size": 5178,
+  "_lastChecked": 1791895276,
+  "_history": [
+    {
+      "buildId": "25882678",
+      "branch": "public",
+      "timeUpdated": 1791812604,
+      "firstSeen": 1791895276,
+      "manifests": {
+        "3859211": {
+          "gid": "7509665629734282914",
+          "size": 1771867446,
+          "download": 864290912
+        }
+      }
+    }
+  ],
+  "_change_number": 39775186,
+  "_missing_token": false,
+  "_sha": "82a6fd461a1294bf4d2f6ab06bb1d70767a1139e",
+  "_size": 6812,
   "appid": "3859210",
   "common": {
     "associations": {
@@ -34,9 +48,9 @@
     "clienticon": "74118694d657eee10d03e8175571ef8fad4c2378",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3859210",
     "genres": {
       "0": "4",
@@ -134,12 +148,15 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "399dead9dab699ccafe017e6c252757d6c4da8ed/capsule_231x87.jpg",
       "japanese": "ddb274df81a389f269e51cc007f2bf8b08b94da1/capsule_231x87_japanese.jpg",
       "schinese": "05b1803079d8b702ecd8bf141b24f81d270c1834/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1791856870",
     "store_asset_mtime": "1791809516",
     "store_tags": {
       "0": "1752",
@@ -181,5 +198,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "RythmAnimalCafe",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "GameLobby.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3859211": {
+      "manifests": {
+        "public": {
+          "download": "864290912",
+          "gid": "7509665629734282914",
+          "size": "1771867446"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "25882678",
+        "timebuildupdated": "1791810097",
+        "timeupdated": "1791812604"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Salt Game Studio",
+    "publisher": "XD"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SaltRhythmAnimalCafe/GameLobby/SAVE",
+            "replace": ".config/unity3d/SaltRhythmAnimalCafe/GameLobby/SAVE"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SaltRhythmAnimalCafe/GameLobby/SAVE",
+            "replace": "SaltRhythmAnimalCafe/GameLobby/SAVE"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SaltRhythmAnimalCafe/GameLobby/SAVE",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791635743,
+  "_lastChecked": 1791895302,
   "_history": [
     {
       "buildId": "25717104",
@@ -40,12 +40,30 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "25875824",
+      "branch": "public",
+      "timeUpdated": 1791854405,
+      "firstSeen": 1791895302,
+      "manifests": {
+        "5121841": {
+          "gid": "7524802992220240347",
+          "size": 151250043,
+          "download": 78649600
+        },
+        "5121842": {
+          "gid": "201079091534537381",
+          "size": 166639288,
+          "download": 81704640
+        }
+      }
     }
   ],
-  "_change_number": 39680870,
+  "_change_number": 39762084,
   "_missing_token": false,
-  "_sha": "d678d3edb8b712bf895e478844b7b409802d9d0b",
-  "_size": 3798,
+  "_sha": "3c61321fc25c493f104aee89fde8d571324e5ea4",
+  "_size": 4426,
   "appid": "5121840",
   "common": {
     "associations": {
@@ -149,8 +167,9 @@
     },
     "name": "ORDNIX",
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "2",
     "releasestate": "released",
     "small_capsule": {
@@ -188,6 +207,12 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
     "installdir": "ORDNIX",
     "launch": {
       "0": {
@@ -197,26 +222,54 @@
         },
         "executable": "ORDNIX.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "ORDNIX (Linux)",
+        "description_loc": {
+          "english": "ORDNIX (Linux)"
+        },
+        "executable": "ORDNIX",
+        "type": "default"
       }
     }
   },
   "depots": {
     "5121841": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "78112176",
-          "gid": "4328091835599198073",
-          "size": "149248055"
+          "download": "78649600",
+          "gid": "7524802992220240347",
+          "size": "151250043"
+        }
+      }
+    },
+    "5121842": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "81704640",
+          "gid": "201079091534537381",
+          "size": "166639288"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25842958",
-        "timebuildupdated": "1791595397",
-        "timeupdated": "1791595748"
+        "buildid": "25875824",
+        "timebuildupdated": "1791784573",
+        "timeupdated": "1791854405"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Selman Demiray",

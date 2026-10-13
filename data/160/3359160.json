@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791765782,
+  "_lastChecked": 1791895271,
   "_history": [
     {
       "buildId": "22254541",
@@ -69,12 +69,58 @@
           "download": 291047776
         }
       }
+    },
+    {
+      "buildId": "25894045",
+      "branch": "beta",
+      "timeUpdated": 1791845591,
+      "firstSeen": 1791895271,
+      "manifests": {
+        "3359161": {
+          "gid": "3851201185399647012",
+          "size": 595235480,
+          "download": 288580000
+        },
+        "3359162": {
+          "gid": "5255526493115967414",
+          "size": 635963787,
+          "download": 405109232
+        },
+        "3359163": {
+          "gid": "478518590170055626",
+          "size": 300683747,
+          "download": 291091920
+        }
+      }
+    },
+    {
+      "buildId": "25894757",
+      "branch": "public",
+      "timeUpdated": 1791848302,
+      "firstSeen": 1791895271,
+      "manifests": {
+        "3359161": {
+          "gid": "3851201185399647012",
+          "size": 595235480,
+          "download": 288580000
+        },
+        "3359162": {
+          "gid": "2653357855412635356",
+          "size": 635964547,
+          "download": 405109456
+        },
+        "3359163": {
+          "gid": "478518590170055626",
+          "size": 300683747,
+          "download": 291091920
+        }
+      }
     }
   ],
-  "_change_number": 39725114,
+  "_change_number": 39775997,
   "_missing_token": false,
-  "_sha": "54a6b8f6b74efabc6fe1a2ec80ae2ebcecc88c82",
-  "_size": 4930,
+  "_sha": "5683d0d95f9c9c38521101c04acb0cdcbc7efcdd",
+  "_size": 5094,
   "appid": "3359160",
   "common": {
     "aicontenttype": "2",
@@ -166,15 +212,16 @@
     },
     "name": "Couch Cup",
     "osarch": "64",
+    "oscpu": "",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "oslist": "windows,macos",
+    "oslist": "windows,macos,linux",
     "primary_genre": "4",
     "releasestate": "released",
     "small_capsule": {
       "english": "96a395451df0e608810b562a34a31d51de0ec747/capsule_231x87.jpg"
     },
     "steam_release_date": "1744223326",
-    "store_asset_mtime": "1791759384",
+    "store_asset_mtime": "1791892429",
     "store_tags": {
       "0": "597",
       "1": "1773",
@@ -197,6 +244,12 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "Couch Cup",
     "launch": {
       "0": {
@@ -215,10 +268,11 @@
         "type": "default"
       },
       "2": {
+        "arguments": "--ozone-platform=x11",
         "config": {
           "oslist": "linux"
         },
-        "executable": "CouchCup",
+        "executable": "couch-cup",
         "type": "default"
       }
     }
@@ -231,14 +285,14 @@
       },
       "manifests": {
         "beta": {
-          "download": "288571424",
-          "gid": "7457439057266396427",
-          "size": "595087000"
+          "download": "288580000",
+          "gid": "3851201185399647012",
+          "size": "595235480"
         },
         "public": {
-          "download": "288571424",
-          "gid": "7457439057266396427",
-          "size": "595087000"
+          "download": "288580000",
+          "gid": "3851201185399647012",
+          "size": "595235480"
         }
       }
     },
@@ -248,14 +302,14 @@
       },
       "manifests": {
         "beta": {
-          "download": "288255872",
-          "gid": "3268575958966614157",
-          "size": "590110568"
+          "download": "405109232",
+          "gid": "5255526493115967414",
+          "size": "635963787"
         },
         "public": {
-          "download": "288255872",
-          "gid": "3268575958966614157",
-          "size": "590110568"
+          "download": "405109456",
+          "gid": "2653357855412635356",
+          "size": "635964547"
         }
       }
     },
@@ -266,28 +320,28 @@
       },
       "manifests": {
         "beta": {
-          "download": "291047776",
-          "gid": "4378294331174710011",
-          "size": "300496891"
+          "download": "291091920",
+          "gid": "478518590170055626",
+          "size": "300683747"
         },
         "public": {
-          "download": "291047776",
-          "gid": "4378294331174710011",
-          "size": "300496891"
+          "download": "291091920",
+          "gid": "478518590170055626",
+          "size": "300683747"
         }
       }
     },
     "branches": {
       "beta": {
-        "buildid": "25870554",
+        "buildid": "25894045",
         "description": "beta",
-        "timebuildupdated": "1791755700",
-        "timeupdated": "1791757756"
+        "timebuildupdated": "1791845549",
+        "timeupdated": "1791845591"
       },
       "public": {
-        "buildid": "25870554",
-        "timebuildupdated": "1791755700",
-        "timeupdated": "1791758510"
+        "buildid": "25894757",
+        "timebuildupdated": "1791848208",
+        "timeupdated": "1791848302"
       }
     }
   },

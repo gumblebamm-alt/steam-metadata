@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791765808,
-  "_history": [],
-  "_change_number": 39715302,
-  "_missing_token": true,
-  "_sha": "7eb0f94ac0fcdd5f2929235feecbeb015bf37d15",
-  "_size": 3738,
+  "_lastChecked": 1791895304,
+  "_history": [
+    {
+      "buildId": "25888196",
+      "branch": "public",
+      "timeUpdated": 1791825834,
+      "firstSeen": 1791895304,
+      "manifests": {
+        "5179801": {
+          "gid": "3150280586479081072",
+          "size": 261441520,
+          "download": 169632304
+        },
+        "5179802": {
+          "gid": "1599907176754181267",
+          "size": 362001723,
+          "download": 197337792
+        }
+      }
+    }
+  ],
+  "_change_number": 39773515,
+  "_missing_token": false,
+  "_sha": "06e2bfa3652cb687878580a9103e1ef8b2f69df1",
+  "_size": 5958,
   "appid": "5179800",
   "common": {
     "associations": {
@@ -36,9 +55,9 @@
     "clienticns": "87ec1f78043399f7d54498d28ad17638944a7c34",
     "clienticon": "07485b0ccd75a7f7876e2ca8888a0232eeddc0fa",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5179800",
     "genres": {
       "0": "1",
@@ -122,10 +141,11 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5d9033e9fe3d5c729be8c1ea2b89f91d3db50c0f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791887161",
     "store_asset_mtime": "1791728414",
     "store_tags": {
       "0": "699",
@@ -173,5 +193,109 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cone & Crest",
+    "launch": {
+      "0": {
+        "executable": "ConeAndCrest.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "5179801": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "169632304",
+          "gid": "3150280586479081072",
+          "size": "261441520"
+        }
+      }
+    },
+    "5179802": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "197337792",
+          "gid": "1599907176754181267",
+          "size": "362001723"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25888196",
+        "timebuildupdated": "1791825805",
+        "timeupdated": "1791825834"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Mooter Vision Games",
+    "publisher": "Mooter Vision Games"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "500000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Cone & Crest/accounts/{64BitSteamID}/ghosts",
+        "pattern": "*.res",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Cone & Crest/accounts/{64BitSteamID}/saves",
+        "pattern": "slot_*.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Cone & Crest/accounts/{64BitSteamID}/telemetry",
+        "pattern": "*.res",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Godot/app_userdata/Cone & Crest/accounts/{64BitSteamID}/submissions",
+        "pattern": "pending.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Godot/app_userdata/Cone & Crest/accounts/{64BitSteamID}/submissions",
+        "pattern": " legacy_import.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

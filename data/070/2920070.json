@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791247315,
+  "_lastChecked": 1791895268,
   "_history": [
     {
       "buildId": "22968173",
@@ -28,12 +28,45 @@
           "download": 272
         }
       }
+    },
+    {
+      "buildId": "25899785",
+      "branch": "public",
+      "timeUpdated": 1791869393,
+      "firstSeen": 1791895268,
+      "manifests": {
+        "2920071": {
+          "gid": "4065932142793832758",
+          "size": 1206758440,
+          "download": 186107776
+        },
+        "2920072": {
+          "gid": "5696471040856547877",
+          "size": 632123481,
+          "download": 120033424
+        },
+        "2920073": {
+          "gid": "8495207947630283543",
+          "size": 1027975411,
+          "download": 139007168
+        },
+        "2953420": {
+          "gid": "3242490529038148638",
+          "size": 292,
+          "download": 272
+        },
+        "3304860": {
+          "gid": "3730637421282312046",
+          "size": 304,
+          "download": 272
+        }
+      }
     }
   ],
-  "_change_number": 36799398,
+  "_change_number": 39766398,
   "_missing_token": false,
-  "_sha": "f7a5ade84a8c7f89e1e7b5b441672025a01c333e",
-  "_size": 4904,
+  "_sha": "d27452297f4f0393c34377b2220857099bc82175",
+  "_size": 5354,
   "appid": "2920070",
   "common": {
     "associations": {
@@ -135,11 +168,12 @@
     "linuxclienticon": "9dd7098de838879ace76f55c14b986c858c7694c",
     "name": "The Croaker",
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "23",
     "releasestate": "released",
-    "review_percentage": "93",
+    "review_percentage": "100",
     "review_score": "7",
     "small_capsule": {
       "english": "9e719822893be7026b7d4f5e13ddc702867388d8/capsule_231x87.jpg"
@@ -175,17 +209,30 @@
         "supported": "true"
       }
     },
-    "type": "Game",
-    "workshop_visible": "1"
+    "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "The Croaker",
     "launch": {
       "0": {
         "config": {
           "oslist": "windows"
         },
-        "executable": "The Croaker.exe"
+        "executable": "The Croaker.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "thecroaker.x86_64",
+        "type": "default"
       }
     }
   },
@@ -197,9 +244,9 @@
       },
       "manifests": {
         "public": {
-          "download": "186148384",
-          "gid": "1030651877379448878",
-          "size": "1204803052"
+          "download": "186107776",
+          "gid": "4065932142793832758",
+          "size": "1206758440"
         }
       }
     },
@@ -213,6 +260,18 @@
           "download": "120033424",
           "gid": "5696471040856547877",
           "size": "632123481"
+        }
+      }
+    },
+    "2920073": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "139007168",
+          "gid": "8495207947630283543",
+          "size": "1027975411"
         }
       }
     },
@@ -245,9 +304,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "22968173",
-        "timebuildupdated": "1777255550",
-        "timeupdated": "1777255550"
+        "buildid": "25899785",
+        "timebuildupdated": "1791869393",
+        "timeupdated": "1791869393"
       }
     },
     "hasdepotsindlc": "1",

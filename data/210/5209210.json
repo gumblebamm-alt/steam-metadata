@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791040106,
+  "_lastChecked": 1791895305,
   "_history": [
     {
       "buildId": "25682233",
@@ -26,12 +26,30 @@
           "download": 94952576
         }
       }
+    },
+    {
+      "buildId": "25905202",
+      "branch": "public",
+      "timeUpdated": 1791888930,
+      "firstSeen": 1791895305,
+      "manifests": {
+        "5209211": {
+          "gid": "4614902271434069830",
+          "size": 173450416,
+          "download": 94973728
+        },
+        "5209212": {
+          "gid": "1341894388432643139",
+          "size": 138391640,
+          "download": 86400496
+        }
+      }
     }
   ],
-  "_change_number": 39450028,
+  "_change_number": 39775935,
   "_missing_token": false,
-  "_sha": "4b1b2a27c1f1dfcde697ffd12b98c7c53c4ffaea",
-  "_size": 4275,
+  "_sha": "87c73069214c257ce5269a0813a7ecf992d0a5ad",
+  "_size": 4849,
   "appid": "5209210",
   "common": {
     "aicontenttype": "1",
@@ -50,6 +68,7 @@
       "category_22": "1",
       "category_23": "1",
       "category_25": "1",
+      "category_28": "1",
       "category_62": "1",
       "category_67": "1",
       "category_68": "1",
@@ -60,6 +79,7 @@
     "clienticon": "f3a2fd618fc19578944a1217705dd2f076f35491",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
     "gameid": "5209210",
     "genres": {
@@ -133,13 +153,15 @@
     },
     "name": "Clickore Station",
     "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "4",
     "releasestate": "released",
     "small_capsule": {
       "english": "93111061b65f4e745804f5f83b9230fb5387189b/capsule_231x87.jpg"
     },
+    "steam_deck_blog_url": "https://steamcommunity.com/app/5209210/",
     "steam_release_date": "1790960488",
     "store_asset_mtime": "1790958597",
     "store_tags": {
@@ -183,8 +205,19 @@
         },
         "executable": "ClickoreStation.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "ClickoreStation.x86_64",
+        "type": "default"
       }
-    }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "5209211": {
@@ -194,18 +227,31 @@
       },
       "manifests": {
         "public": {
-          "download": "94952576",
-          "gid": "983967185497376235",
-          "size": "173427428"
+          "download": "94973728",
+          "gid": "4614902271434069830",
+          "size": "173450416"
+        }
+      }
+    },
+    "5209212": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "86400496",
+          "gid": "1341894388432643139",
+          "size": "138391640"
         }
       }
     },
     "baselanguages": "english,french",
     "branches": {
       "public": {
-        "buildid": "25689737",
-        "timebuildupdated": "1790989897",
-        "timeupdated": "1790989989"
+        "buildid": "25905202",
+        "timebuildupdated": "1791888858",
+        "timeupdated": "1791888930"
       }
     }
   },
@@ -214,8 +260,6 @@
     "publisher": "Ludikatt"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "10",
     "quota": "10000000",
     "rootoverrides": {
