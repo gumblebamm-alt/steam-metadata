@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791376822,
-  "_history": [],
-  "_change_number": 39571315,
-  "_missing_token": true,
-  "_sha": "5e179f65e9ec54d8472e20f948c1cdbc1cffc84e",
-  "_size": 3613,
+  "_lastChecked": 1791852287,
+  "_history": [
+    {
+      "buildId": "25844215",
+      "branch": "public",
+      "timeUpdated": 1791602015,
+      "firstSeen": 1791852287,
+      "manifests": {
+        "4513301": {
+          "gid": "1957979338200785662",
+          "size": 657976287,
+          "download": 192930496
+        },
+        "4513302": {
+          "gid": "632950402172173648",
+          "size": 751509971,
+          "download": 215558688
+        }
+      }
+    }
+  ],
+  "_change_number": 39746066,
+  "_missing_token": false,
+  "_sha": "b519dd1d16ed55a5ecf3105374f68621c651c138",
+  "_size": 5406,
   "appid": "4513300",
   "common": {
     "associations": {
@@ -36,8 +55,8 @@
     },
     "clienticon": "b71263a1c5042002bc9bef88e26d92ea13438859",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4513300",
     "genres": {
       "0": "4",
@@ -109,10 +128,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bdac7f78494b5a966957a2dea7f1e52aa249dbf7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791816932",
     "store_asset_mtime": "1789387874",
     "store_tags": {
       "0": "599",
@@ -173,5 +193,103 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dinerz",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Dinerz.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Dinerz.x86_64"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "4"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4513301": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "192930496",
+          "gid": "1957979338200785662",
+          "size": "657976287"
+        }
+      }
+    },
+    "4513302": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "215558688",
+          "gid": "632950402172173648",
+          "size": "751509971"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25844215",
+        "timebuildupdated": "1791602015",
+        "timeupdated": "1791602015"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Deep Loop Gaming",
+    "publisher": "PlayWay S.A."
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "40000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "DeepLoopGaming/Dinerz",
+            "replace": ".config/unity3d/DeepLoopGaming/Dinerz"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "DeepLoopGaming/Dinerz",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

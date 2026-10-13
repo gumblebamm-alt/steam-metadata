@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790944526,
+  "_lastChecked": 1791852265,
   "_history": [
     {
       "buildId": "24472048",
@@ -13,12 +13,35 @@
           "download": 3532044336
         }
       }
+    },
+    {
+      "buildId": "25887444",
+      "branch": "public",
+      "timeUpdated": 1791823553,
+      "firstSeen": 1791852265,
+      "manifests": {
+        "2331281": {
+          "gid": "4775364748104934904",
+          "size": 4243571733,
+          "download": 2031909456
+        },
+        "2331282": {
+          "gid": "4095033095491553966",
+          "size": 4748491764,
+          "download": 2343616864
+        },
+        "2331283": {
+          "gid": "625175321044340742",
+          "size": 4377004547,
+          "download": 2099895472
+        }
+      }
     }
   ],
-  "_change_number": 39420206,
+  "_change_number": 39752452,
   "_missing_token": false,
-  "_sha": "f3c20df2cb1c1e764864102bf2643e816488955c",
-  "_size": 10650,
+  "_sha": "ac1a3921e45617e82e4b2f169592922520ce6738",
+  "_size": 10990,
   "appid": "2331280",
   "common": {
     "aicontenttype": "1",
@@ -185,8 +208,8 @@
     },
     "osarch": "64",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macosapplesilicon",
+    "oslist": "windows,macos,linux",
     "primary_genre": "28",
     "releasestate": "released",
     "review_percentage": "76",
@@ -260,7 +283,7 @@
       }
     },
     "steam_release_date": "1776877060",
-    "store_asset_mtime": "1777033031",
+    "store_asset_mtime": "1791537197",
     "store_tags": {
       "0": "16689",
       "1": "1702",
@@ -341,12 +364,14 @@
         "config": {
           "oslist": "macos"
         },
-        "executable": "MedievalCrafterBlacksmith",
+        "executable": "MedievalCrafterBlacksmith.app",
         "type": "default"
       },
       "3": {
-        "executable": "game.exe",
-        "type": "none"
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "MedievalCrafterBlacksmith.x86_64"
       }
     }
   },
@@ -357,28 +382,41 @@
       },
       "manifests": {
         "public": {
-          "download": "3532044336",
-          "gid": "6364440665920995525",
-          "size": "6800705585"
+          "download": "2031909456",
+          "gid": "4775364748104934904",
+          "size": "4243571733"
         }
       }
     },
     "2331282": {
       "config": {
         "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2343616864",
+          "gid": "4095033095491553966",
+          "size": "4748491764"
+        }
       }
     },
     "2331283": {
       "config": {
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "2099895472",
+          "gid": "625175321044340742",
+          "size": "4377004547"
+        }
+      }
     },
     "branches": {
       "public": {
-        "buildid": "24472048",
-        "timebuildupdated": "1785414624",
-        "timeupdated": "1785492829"
+        "buildid": "25887444",
+        "timebuildupdated": "1791823553",
+        "timeupdated": "1791823553"
       }
     },
     "privatebranches": "1"

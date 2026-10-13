@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1791592996,
-  "_history": [],
-  "_change_number": 39675527,
-  "_missing_token": true,
-  "_sha": "e4c029e7a8f1108a6eaa306f2c7711d59e882736",
-  "_size": 5523,
+  "_lastChecked": 1791852285,
+  "_history": [
+    {
+      "buildId": "25884692",
+      "branch": "forward_rendering",
+      "timeUpdated": 1791815815,
+      "firstSeen": 1791852285,
+      "manifests": {
+        "4425551": {
+          "gid": "1264421328348830085",
+          "size": 5213921332,
+          "download": 5013000624
+        }
+      }
+    },
+    {
+      "buildId": "25883953",
+      "branch": "public",
+      "timeUpdated": 1791813851,
+      "firstSeen": 1791852285,
+      "manifests": {
+        "4425551": {
+          "gid": "5256170987387608787",
+          "size": 5233520414,
+          "download": 5027465088
+        }
+      }
+    }
+  ],
+  "_change_number": 39748237,
+  "_missing_token": false,
+  "_sha": "634a9043cd19e07d32596cfac4f238a5d8121518",
+  "_size": 7427,
   "appid": "4425550",
   "common": {
     "associations": {
@@ -35,9 +62,9 @@
     },
     "clienticon": "748288239e53b1f94b4528024d4e2829d0f7f6d3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4425550",
     "genres": {
       "0": "1",
@@ -152,12 +179,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "500414bad70173d10073bea0dc0776063c36833a/capsule_231x87.jpg",
       "schinese": "5ff24519c4c059c75dcc1386046fbf786816c07c/capsule_231x87_schinese.jpg",
       "tchinese": "5ff24519c4c059c75dcc1386046fbf786816c07c/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1791820825",
     "store_asset_mtime": "1791579091",
     "store_tags": {
       "0": "3843",
@@ -188,5 +216,93 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Monkey Business",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MonkeyBusiness/Binaries/Win64/MonkeyBusiness-Win64-Shipping.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "with DX11 (fixes some crashes)",
+        "description_loc": {
+          "english": "with DX11 (fixes some crashes)"
+        },
+        "executable": "MonkeyBusiness/Binaries/Win64/MonkeyBusiness-Win64-Shipping.exe",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4425551": {
+      "manifests": {
+        "forward_rendering": {
+          "download": "5013000624",
+          "gid": "1264421328348830085",
+          "size": "5213921332"
+        },
+        "public": {
+          "download": "5027465088",
+          "gid": "5256170987387608787",
+          "size": "5233520414"
+        }
+      }
+    },
+    "branches": {
+      "forward_rendering": {
+        "buildid": "25884692",
+        "description": "Forward rendering version of the game",
+        "timebuildupdated": "1791815747",
+        "timeupdated": "1791815815"
+      },
+      "public": {
+        "buildid": "25883953",
+        "timebuildupdated": "1791813779",
+        "timeupdated": "1791813851"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Starlight Games",
+    "homepage": "http://starlightgames.co.uk",
+    "publisher": "Starlight Games"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "MonkeyBusiness\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

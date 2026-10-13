@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790728817,
+  "_lastChecked": 1791852308,
   "_history": [
     {
       "buildId": "25611989",
@@ -13,12 +13,30 @@
           "download": 207685584
         }
       }
+    },
+    {
+      "buildId": "25892607",
+      "branch": "public",
+      "timeUpdated": 1791840275,
+      "firstSeen": 1791852308,
+      "manifests": {
+        "5219281": {
+          "gid": "6587432270041795437",
+          "size": 447380489,
+          "download": 207286496
+        },
+        "5219282": {
+          "gid": "7392456456127885516",
+          "size": 390467855,
+          "download": 184990944
+        }
+      }
     }
   ],
-  "_change_number": 39322982,
+  "_change_number": 39757355,
   "_missing_token": false,
-  "_sha": "9dbd162dc9d70e7da53c4e379f90c063954c3dc3",
-  "_size": 5829,
+  "_sha": "9b19bcd7b576b435d8b7a03b7b373bd715004691",
+  "_size": 6305,
   "appid": "5219280",
   "common": {
     "aicontenttype": "1",
@@ -133,8 +151,9 @@
       "tchinese": "三國血戰麻將"
     },
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "2",
     "releasestate": "released",
     "small_capsule": {
@@ -142,6 +161,7 @@
       "schinese": "13a9a6b8de2409edab93baf3586bf83c32aaa6f1/capsule_231x87_schinese.jpg",
       "tchinese": "aadd2bdfa50576ed41a11f1a2446d84d754e90e5/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1790719027",
     "store_asset_mtime": "1788811391",
     "store_tags": {
       "0": "33572",
@@ -185,6 +205,13 @@
         },
         "executable": "SanguoBloodMahjong.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "三国血战麻将.app",
+        "type": "default"
       }
     }
   },
@@ -195,18 +222,30 @@
       },
       "manifests": {
         "public": {
-          "download": "207685584",
-          "gid": "8286007534095959218",
-          "size": "448249386"
+          "download": "207286496",
+          "gid": "6587432270041795437",
+          "size": "447380489"
+        }
+      }
+    },
+    "5219282": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "184990944",
+          "gid": "7392456456127885516",
+          "size": "390467855"
         }
       }
     },
     "baselanguages": "english,schinese,tchinese",
     "branches": {
       "public": {
-        "buildid": "25611989",
-        "timebuildupdated": "1790713307",
-        "timeupdated": "1790713381"
+        "buildid": "25892607",
+        "timebuildupdated": "1791840275",
+        "timeupdated": "1791840275"
       }
     }
   },
@@ -217,21 +256,24 @@
   "ufs": {
     "maxnumfiles": "10",
     "quota": "67108864",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "SanguoBloodMahjong/saves/{64BitSteamID}",
         "pattern": "savegame.json",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataRoaming"
       },
       "1": {
         "path": "SanguoBloodMahjong/saves/{64BitSteamID}",
         "pattern": "savegame.json.bak",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataRoaming"
       }
     }

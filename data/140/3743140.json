@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791809536,
-  "_history": [],
-  "_change_number": 39738107,
-  "_missing_token": true,
-  "_sha": "57ded567ee35fbaf02f7de8047197a49f860a7ee",
-  "_size": 3611,
+  "_lastChecked": 1791852275,
+  "_history": [
+    {
+      "buildId": "25825223",
+      "branch": "public",
+      "timeUpdated": 1791813664,
+      "firstSeen": 1791852275,
+      "manifests": {
+        "3743141": {
+          "gid": "2062674402091384340",
+          "size": 5819724350,
+          "download": 2357463680
+        },
+        "3743142": {
+          "gid": "4424642976433828014",
+          "size": 93869329,
+          "download": 84495056
+        }
+      }
+    }
+  ],
+  "_change_number": 39759445,
+  "_missing_token": false,
+  "_sha": "bd00b592a192cba78a3515d09eb4a282cdc29f8a",
+  "_size": 5035,
   "appid": "3743140",
   "common": {
     "associations": {
@@ -30,6 +49,7 @@
     "clienticon": "92554d4e8f6704417eebd8ce68d00c0d69030dfb",
     "clienttga": "44f2763946119e3b54d72f0c994de8202f2026a0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -39,7 +59,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "3743140",
     "genres": {
       "0": "2"
@@ -109,10 +128,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "66",
+    "review_score": "5",
     "small_capsule": {
       "english": "6b049cc18998fdf35d73c52713adda8c529fad2e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791813675",
     "store_asset_mtime": "1791794183",
     "store_tags": {
       "0": "9",
@@ -165,5 +187,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Battleplan",
+    "launch": {
+      "0": {
+        "executable": "Launcher.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "229006": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3743141": {
+      "manifests": {
+        "public": {
+          "download": "2357463680",
+          "gid": "2062674402091384340",
+          "size": "5819724350"
+        }
+      }
+    },
+    "3743142": {
+      "manifests": {
+        "public": {
+          "download": "84495056",
+          "gid": "4424642976433828014",
+          "size": "93869329"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25825223",
+        "timebuildupdated": "1791537825",
+        "timeupdated": "1791813664"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Foolish Mortals Games Inc.",
+    "homepage": "https://www6.slitherine.com/game/battleplan",
+    "publisher": "Slitherine Ltd."
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "5000000000",
+    "savefiles": {
+      "0": {
+        "path": "\\Foolish Mortals\\Battleplan",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "My Games/Battleplan",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinMyDocuments"
+      }
+    }
+  }
 }

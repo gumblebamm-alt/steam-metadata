@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791765797,
-  "_history": [],
-  "_change_number": 39694402,
-  "_missing_token": true,
-  "_sha": "4b06f8a4577357ddb9277ed1d0124a42213faefe",
-  "_size": 7093,
+  "_lastChecked": 1791852293,
+  "_history": [
+    {
+      "buildId": "25878689",
+      "branch": "public",
+      "timeUpdated": 1791796742,
+      "firstSeen": 1791852293,
+      "manifests": {
+        "4773181": {
+          "gid": "5624201112209804602",
+          "size": 1448976141,
+          "download": 1227645248
+        }
+      }
+    }
+  ],
+  "_change_number": 39751746,
+  "_missing_token": false,
+  "_sha": "dfcf7d85520d6c3522e676d3d80e008e98fccf8d",
+  "_size": 8866,
   "appid": "4773180",
   "common": {
     "aicontenttype": "1",
@@ -37,9 +51,9 @@
     },
     "clienticon": "5ccef94dea90e24754bd256a99a08dea3ef0582f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4773180",
     "genres": {
       "0": "1",
@@ -135,13 +149,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a2f615bf785a83601a223b1bfd47ca1eebda828c/capsule_231x87.jpg",
       "polish": "c236762c77d3cffda274be04d6cae0f47f94fc5a/capsule_231x87_polish.jpg",
       "schinese": "45319a00f081e68a2d8889ac435936c6442683e8/capsule_231x87_schinese.jpg",
       "tchinese": "45319a00f081e68a2d8889ac435936c6442683e8/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1791827785",
     "store_asset_mtime": "1791523351",
     "store_tags": {
       "0": "19",
@@ -280,5 +295,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "For The Cat! Sorcerer's Revenge",
+    "launch": {
+      "0": {
+        "arguments": "-force-d3d11",
+        "description": "Launch with DX11 (default)",
+        "description_loc": {
+          "english": "Launch with DX11 (default)",
+          "polish": "Uruchom z DX11 (domyślnie)"
+        },
+        "executable": "For the Cat Sorcerer's Revenge.exe",
+        "type": "default"
+      },
+      "1": {
+        "description": "Launch with DX12",
+        "description_loc": {
+          "english": "Launch with DX12",
+          "polish": "Uruchom z DX12"
+        },
+        "executable": "For the Cat Sorcerer's Revenge.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4773181": {
+      "manifests": {
+        "public": {
+          "download": "1227645248",
+          "gid": "5624201112209804602",
+          "size": "1448976141"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25878689",
+        "timebuildupdated": "1791796713",
+        "timeupdated": "1791796742"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Jasio Games",
+    "homepage": "https://store.steampowered.com/publisher/jasiogames",
+    "publisher": "Jasio Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Jasio Games/For the Cat_ Sorcerer's Revenge",
+            "replace": ".config/unity3d/Jasio Games/For the Cat_ Sorcerer's Revenge"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Jasio Games/For the Cat_ Sorcerer's Revenge",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

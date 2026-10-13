@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791592990,
-  "_history": [],
-  "_change_number": 39668941,
-  "_missing_token": true,
-  "_sha": "af470e875a0374650635f60a4491e2e1f99cf52e",
-  "_size": 4748,
+  "_lastChecked": 1791852280,
+  "_history": [
+    {
+      "buildId": "25888687",
+      "branch": "public",
+      "timeUpdated": 1791827443,
+      "firstSeen": 1791852280,
+      "manifests": {
+        "4062991": {
+          "gid": "1728006590356669051",
+          "size": 3531186831,
+          "download": 1681627264
+        }
+      }
+    }
+  ],
+  "_change_number": 39751554,
+  "_missing_token": false,
+  "_sha": "5d6097130ff4c19c15f1e2b99b1e18d02222025b",
+  "_size": 6109,
   "appid": "4062990",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "09046a37a8e63d604e00b2500cae4472cecc4f66",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4062990",
     "genres": {
       "0": "23",
@@ -42,6 +56,11 @@
       "tchinese": "aa08b6ef147f0ecb626a92234e209da0deb8eb59/header_tchinese.jpg"
     },
     "icon": "09046a37a8e63d604e00b2500cae4472cecc4f66",
+    "languages": {
+      "english": "1",
+      "schinese": "1",
+      "tchinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en,zh-cn,zh-tw",
       "library_header": "en,zh-cn,zh-tw",
@@ -118,12 +137,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f2e54b44bba3157ef6dece72b226c8ee7f2de9f9/capsule_231x87.jpg",
       "sc_schinese": "042e819e8d2538b524bdfe06f04ac3e71a2fe075/capsule_231x87_sc_schinese.jpg",
       "schinese": "589adbfeb55d27714941520e51c3477f71e20b94/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1791819608",
     "store_asset_mtime": "1791566106",
     "store_tags": {
       "0": "9",
@@ -157,5 +177,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pursuit of Mercantile Power",
+    "launch": {
+      "0": {
+        "config": {
+          "betakey": "windows\\PursuitOfMercantilePower\\PursuitOfMercantilePower.exe",
+          "oslist": "windows"
+        },
+        "description": "windows",
+        "description_loc": {
+          "english": "windows"
+        },
+        "executable": "windows\\PursuitOfMercantilePower\\PursuitOfMercantilePower.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4062991": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1681627264",
+          "gid": "1728006590356669051",
+          "size": "3531186831"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25888687",
+        "timebuildupdated": "1791827376",
+        "timeupdated": "1791827443"
+      }
+    }
+  },
+  "extended": {
+    "developer": "秘枫",
+    "publisher": "秘枫"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "1000",
+    "quota": "209715200",
+    "savefiles": {
+      "0": {
+        "path": "IBYON\\PursuitOfMercantilePower\\SAVE DATA",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

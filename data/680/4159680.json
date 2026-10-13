@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791809540,
-  "_history": [],
-  "_change_number": 39741659,
-  "_missing_token": true,
-  "_sha": "e93aa8a87549c2d58bc675fb1fca740ec7fb8da4",
-  "_size": 5368,
+  "_lastChecked": 1791852281,
+  "_history": [
+    {
+      "buildId": "25892522",
+      "branch": "public",
+      "timeUpdated": 1791841565,
+      "firstSeen": 1791852281,
+      "manifests": {
+        "4159681": {
+          "gid": "7306754792605854574",
+          "size": 1579327370,
+          "download": 1275751776
+        },
+        "4159682": {
+          "gid": "1916367276053850836",
+          "size": 1773484885,
+          "download": 1317831696
+        }
+      }
+    }
+  ],
+  "_change_number": 39759449,
+  "_missing_token": false,
+  "_sha": "b038f3126b87b2cc003984d200d73824b34a1b64",
+  "_size": 7203,
   "appid": "4159680",
   "common": {
     "aicontenttype": "1",
@@ -43,6 +62,7 @@
     "clienticns": "1bc9cabe59d42e933b5869f2def919f70fdea82c",
     "clienticon": "3883f7a01db33148c9e3b2b8de89768acf8b35d4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -59,7 +79,6 @@
         "version": "5"
       }
     },
-    "exfgls": "8",
     "gameid": "4159680",
     "genres": {
       "0": "23",
@@ -163,11 +182,14 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "94",
+    "review_score": "8",
     "small_capsule": {
       "english": "c4832b7afded4faeeef1e2c932bca396ac116546/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791794433",
+    "steam_release_date": "1791810273",
+    "store_asset_mtime": "1791811185",
     "store_tags": {
       "0": "599",
       "1": "3843",
@@ -259,5 +281,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Barfender",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Barfender.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Barfender.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65532",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4159681": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1275751776",
+          "gid": "7306754792605854574",
+          "size": "1579327370"
+        }
+      }
+    },
+    "4159682": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1317831696",
+          "gid": "1916367276053850836",
+          "size": "1773484885"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,russian,schinese,tchinese,turkish",
+    "branches": {
+      "public": {
+        "buildid": "25892522",
+        "timebuildupdated": "1791839965",
+        "timeupdated": "1791841565"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Proto Division",
+    "publisher": "Rock Paper Publisher"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "99000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ProtoDivision/Barfender/SaveFiles",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

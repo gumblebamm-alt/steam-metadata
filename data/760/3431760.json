@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791506696,
-  "_history": [],
-  "_change_number": 39629429,
-  "_missing_token": true,
-  "_sha": "02db79d99fe258705462831fd130fa3ea1f4efdf",
-  "_size": 3026,
+  "_lastChecked": 1791852271,
+  "_history": [
+    {
+      "buildId": "25853950",
+      "branch": "public",
+      "timeUpdated": 1791657230,
+      "firstSeen": 1791852271,
+      "manifests": {
+        "3431761": {
+          "gid": "368822489705022852",
+          "size": 392611957,
+          "download": 200281232
+        },
+        "5056530": {
+          "gid": "7914342168521717456",
+          "size": 23136812,
+          "download": 14237312
+        }
+      }
+    }
+  ],
+  "_change_number": 39749533,
+  "_missing_token": false,
+  "_sha": "2e4d9b1b31a301acb1908e58fb7dde6073a300a8",
+  "_size": 4396,
   "appid": "3431760",
   "common": {
     "associations": {
@@ -27,6 +46,7 @@
     "clienticon": "f20e62336b2e597477c6f26b11b94ceddca7506a",
     "clienttga": "a1b5957808f956d0e6254d9488ffc682de3c8406",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -36,7 +56,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3431760",
     "genres": {
       "0": "23"
@@ -106,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8bece1df97d236419d5de24c3fcfd0e6ddf1dcdc/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791823455",
     "store_asset_mtime": "1791483936",
     "store_tags": {
       "0": "1752",
@@ -136,5 +156,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Desires Burgers",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DesiresBurgers.exe"
+      }
+    }
+  },
+  "depots": {
+    "3431761": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "200281232",
+          "gid": "368822489705022852",
+          "size": "392611957"
+        }
+      }
+    },
+    "5056530": {
+      "dlcappid": "5056530",
+      "manifests": {
+        "public": {
+          "download": "14237312",
+          "gid": "7914342168521717456",
+          "size": "23136812"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25853950",
+        "timebuildupdated": "1791657230",
+        "timeupdated": "1791657230"
+      }
+    }
+  },
+  "extended": {
+    "developer": "partyhard.io",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5056530",
+    "publisher": "partyhard.io"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SavesDir",
+            "replace": ""
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

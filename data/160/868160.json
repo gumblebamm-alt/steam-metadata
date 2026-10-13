@@ -1,1 +1,428 @@
-{"_lastChecked":1789816449,"_history":[{"buildId":"25164444","branch":"public","timeUpdated":1788774259,"firstSeen":1788976745,"manifests":{"868161":{"gid":"5693702855358266065","size":575838540,"download":560333136},"868162":{"gid":"1986142353041659145","size":794597950,"download":600708784}}},{"buildId":"25282646","branch":"public","timeUpdated":1789310313,"firstSeen":1789312620,"manifests":{"868161":{"gid":"8277627549185243641","size":579089740,"download":563211824},"868162":{"gid":"6597220134646054783","size":798396429,"download":603680048}}},{"buildId":"25296639","branch":"public","timeUpdated":1789465352,"firstSeen":1789468360,"manifests":{"868161":{"gid":"6951524732182647672","size":579201868,"download":563218496},"868162":{"gid":"5162458098971252974","size":798802115,"download":603801696}}}],"_change_number":39011031,"_missing_token":false,"_sha":"18832145313f96cd0e4cc33615bab7f92e3ae914","_size":4835,"appid":"868160","common":{"aicontenttype":"1","associations":{"0":{"name":"AppsMafia","type":"developer"},"1":{"name":"AppsMafia","type":"publisher"}},"category":{"category_2":"1","category_22":"1","category_23":"1","category_62":"1"},"clienticon":"81973bc664f0270632ff755eef32fc56e821f221","community_hub_visible":"1","community_visible_stats":"1","controllertagwizard":"1","gameid":"868160","genres":{"0":"4","1":"23","2":"28","3":"2","4":"70"},"header_image":{"english":"258f3a03b0a2c75d09450839d745ef67efd4b715/header.jpg"},"icon":"81973bc664f0270632ff755eef32fc56e821f221","library_assets":{"library_capsule":"en","library_header":"en","library_hero":"en","library_hero_blur":"en","library_logo":"en","logo_position":{"height_pct":"50","pinned_position":"BottomLeft","width_pct":"50"}},"library_assets_full":{"library_capsule":{"image":{"english":"386993ca6e71b4c6bbf60022c6de13f110a06abe/library_capsule.jpg"},"image2x":{"english":"386993ca6e71b4c6bbf60022c6de13f110a06abe/library_capsule_2x.jpg"}},"library_header":{"image":{"english":"258f3a03b0a2c75d09450839d745ef67efd4b715/library_header.jpg"},"image2x":{"english":"258f3a03b0a2c75d09450839d745ef67efd4b715/library_header_2x.jpg"}},"library_hero":{"image":{"english":"14946feef79298ad2e8b9836ffe9b185d68eb0d1/library_hero.jpg"},"image2x":{"english":"14946feef79298ad2e8b9836ffe9b185d68eb0d1/library_hero_2x.jpg"}},"library_hero_blur":{"image":{"english":"14946feef79298ad2e8b9836ffe9b185d68eb0d1/library_hero_blur.jpg"}},"library_logo":{"image":{"english":"aa7879c11e9e1fe84ef79bfe6192e74b5852f441/logo.png"},"image2x":{"english":"aa7879c11e9e1fe84ef79bfe6192e74b5852f441/logo_2x.png"},"logo_position":{"height_pct":"50","pinned_position":"BottomLeft","width_pct":"50"}}},"name":"Code: Terraform","osarch":"","osextended":"","oslist":"windows,linux","primary_genre":"28","releasestate":"released","review_percentage":"86","review_score":"8","small_capsule":{"english":"f24ea0c07d2790da464b48ce5f997c0792e047cc/capsule_231x87.jpg"},"steam_release_date":"1788973128","store_asset_mtime":"1781533099","store_tags":{"0":"255534","1":"5432","10":"7332","11":"1664","12":"492","13":"3871","14":"5851","15":"5125","16":"3942","17":"8945","18":"4182","19":"6129","2":"599","3":"3810","4":"220585","5":"560542","6":"9","7":"3834","8":"1643","9":"1755"},"supported_languages":{"english":{"full_audio":"true","subtitles":"true","supported":"true"}},"type":"Game"},"config":{"app_mappings":{"0":{"platform":"linux","tool":"SteamLinuxRuntime_4"}},"installdir":"CodeTerraform","launch":{"0":{"config":{"osarch":"64","oslist":"windows"},"executable":"code-terraform.exe","type":"default"},"1":{"config":{"osarch":"64","oslist":"linux"},"executable":"./launch-code-terraform.sh","type":"default"}}},"depots":{"868161":{"config":{"osarch":"64","oslist":"windows"},"manifests":{"public":{"download":"563218496","gid":"6951524732182647672","size":"579201868"}}},"868162":{"config":{"osarch":"64","oslist":"linux"},"manifests":{"public":{"download":"603801696","gid":"5162458098971252974","size":"798802115"}}},"branches":{"public":{"buildid":"25296639","timebuildupdated":"1789378405","timeupdated":"1789465352"}},"privatebranches":"1"},"extended":{"developer":"AppsMafia","publisher":"AppsMafia"},"ufs":{"maxnumfiles":"2000","quota":"2000000000","rootoverrides":{"0":{"addpath":"","os":"Linux","oscompare":"=","root":"WinAppDataRoaming","useinstead":"LinuxXdgDataHome"}},"savefiles":{"0":{"path":"io.codeterraform.game","pattern":"save_*.json","root":"WinAppDataRoaming"},"1":{"path":"io.codeterraform.game","pattern":"slot_*.json","root":"WinAppDataRoaming"},"2":{"path":"io.codeterraform.game","pattern":"training-progress.json","root":"WinAppDataRoaming"}}}}
+{
+  "_lastChecked": 1791852261,
+  "_history": [
+    {
+      "buildId": "25164444",
+      "branch": "public",
+      "timeUpdated": 1788774259,
+      "firstSeen": 1788976745,
+      "manifests": {
+        "868161": {
+          "gid": "5693702855358266065",
+          "size": 575838540,
+          "download": 560333136
+        },
+        "868162": {
+          "gid": "1986142353041659145",
+          "size": 794597950,
+          "download": 600708784
+        }
+      }
+    },
+    {
+      "buildId": "25282646",
+      "branch": "public",
+      "timeUpdated": 1789310313,
+      "firstSeen": 1789312620,
+      "manifests": {
+        "868161": {
+          "gid": "8277627549185243641",
+          "size": 579089740,
+          "download": 563211824
+        },
+        "868162": {
+          "gid": "6597220134646054783",
+          "size": 798396429,
+          "download": 603680048
+        }
+      }
+    },
+    {
+      "buildId": "25296639",
+      "branch": "public",
+      "timeUpdated": 1789465352,
+      "firstSeen": 1789468360,
+      "manifests": {
+        "868161": {
+          "gid": "6951524732182647672",
+          "size": 579201868,
+          "download": 563218496
+        },
+        "868162": {
+          "gid": "5162458098971252974",
+          "size": 798802115,
+          "download": 603801696
+        }
+      }
+    },
+    {
+      "buildId": "25877113",
+      "branch": "public",
+      "timeUpdated": 1791835515,
+      "firstSeen": 1791852261,
+      "manifests": {
+        "868161": {
+          "gid": "1237552408441553799",
+          "size": 604283887,
+          "download": 587505696
+        },
+        "868162": {
+          "gid": "6749733062692750951",
+          "size": 824231750,
+          "download": 628097328
+        }
+      }
+    }
+  ],
+  "_change_number": 39755454,
+  "_missing_token": false,
+  "_sha": "13ceab96f349c0f55c7ae5a7b18175a8310fc658",
+  "_size": 7302,
+  "appid": "868160",
+  "common": {
+    "aicontenttype": "1",
+    "associations": {
+      "0": {
+        "name": "AppsMafia",
+        "type": "developer"
+      },
+      "1": {
+        "name": "AppsMafia",
+        "type": "publisher"
+      }
+    },
+    "category": {
+      "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_62": "1"
+    },
+    "clienticon": "81973bc664f0270632ff755eef32fc56e821f221",
+    "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controllertagwizard": "1",
+    "gameid": "868160",
+    "genres": {
+      "0": "4",
+      "1": "23",
+      "2": "28",
+      "3": "2",
+      "4": "70"
+    },
+    "header_image": {
+      "english": "258f3a03b0a2c75d09450839d745ef67efd4b715/header.jpg"
+    },
+    "icon": "81973bc664f0270632ff755eef32fc56e821f221",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1"
+    },
+    "library_assets": {
+      "library_capsule": "en",
+      "library_header": "en",
+      "library_hero": "en",
+      "library_hero_blur": "en",
+      "library_logo": "en",
+      "logo_position": {
+        "height_pct": "50",
+        "pinned_position": "BottomLeft",
+        "width_pct": "50"
+      }
+    },
+    "library_assets_full": {
+      "library_capsule": {
+        "image": {
+          "english": "386993ca6e71b4c6bbf60022c6de13f110a06abe/library_capsule.jpg"
+        },
+        "image2x": {
+          "english": "386993ca6e71b4c6bbf60022c6de13f110a06abe/library_capsule_2x.jpg"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "258f3a03b0a2c75d09450839d745ef67efd4b715/library_header.jpg"
+        },
+        "image2x": {
+          "english": "258f3a03b0a2c75d09450839d745ef67efd4b715/library_header_2x.jpg"
+        }
+      },
+      "library_hero": {
+        "image": {
+          "english": "14946feef79298ad2e8b9836ffe9b185d68eb0d1/library_hero.jpg"
+        },
+        "image2x": {
+          "english": "14946feef79298ad2e8b9836ffe9b185d68eb0d1/library_hero_2x.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "14946feef79298ad2e8b9836ffe9b185d68eb0d1/library_hero_blur.jpg"
+        }
+      },
+      "library_logo": {
+        "image": {
+          "english": "aa7879c11e9e1fe84ef79bfe6192e74b5852f441/logo.png"
+        },
+        "image2x": {
+          "english": "aa7879c11e9e1fe84ef79bfe6192e74b5852f441/logo_2x.png"
+        },
+        "logo_position": {
+          "height_pct": "50",
+          "pinned_position": "BottomLeft",
+          "width_pct": "50"
+        }
+      }
+    },
+    "name": "Code: Terraform",
+    "osarch": "",
+    "osextended": "",
+    "oslist": "windows,linux",
+    "primary_genre": "28",
+    "releasestate": "released",
+    "review_percentage": "84",
+    "review_score": "8",
+    "small_capsule": {
+      "english": "f24ea0c07d2790da464b48ce5f997c0792e047cc/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "1",
+      "steam_machine_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "steamos_compatibility": "1",
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "test_timestamp": "1789475319",
+      "tested_build_id": "25296639",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+        }
+      }
+    },
+    "steam_release_date": "1788973128",
+    "store_asset_mtime": "1791733925",
+    "store_tags": {
+      "0": "5432",
+      "1": "255534",
+      "10": "7332",
+      "11": "1664",
+      "12": "492",
+      "13": "3871",
+      "14": "5851",
+      "15": "5125",
+      "16": "3942",
+      "17": "8945",
+      "18": "4182",
+      "19": "6129",
+      "2": "599",
+      "3": "3810",
+      "4": "220585",
+      "5": "560542",
+      "6": "9",
+      "7": "3834",
+      "8": "1643",
+      "9": "1755"
+    },
+    "supported_languages": {
+      "brazilian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "english": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "french": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "german": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "italian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "japanese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "koreana": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "russian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "schinese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "spanish": {
+        "subtitles": "true",
+        "supported": "true"
+      }
+    },
+    "type": "Game"
+  },
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "CodeTerraform",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "code-terraform.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "./launch-code-terraform.sh",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "macos"
+        },
+        "executable": "Code Terraform.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "868161": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "587505696",
+          "gid": "1237552408441553799",
+          "size": "604283887"
+        }
+      }
+    },
+    "868162": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "628097328",
+          "gid": "6749733062692750951",
+          "size": "824231750"
+        }
+      }
+    },
+    "868163": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25877113",
+        "timebuildupdated": "1791790837",
+        "timeupdated": "1791835515"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "AppsMafia",
+    "publisher": "AppsMafia"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "2000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "io.codeterraform.game",
+        "pattern": "save_*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "io.codeterraform.game",
+        "pattern": "slot_*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "io.codeterraform.game",
+        "pattern": "training-progress.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "io.codeterraform.game/console",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
+}

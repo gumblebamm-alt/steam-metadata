@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791809539,
-  "_history": [],
-  "_change_number": 39731506,
-  "_missing_token": true,
-  "_sha": "70f49e81ac55da400a0322556002f0adf8b19697",
-  "_size": 3010,
+  "_lastChecked": 1791852280,
+  "_history": [
+    {
+      "buildId": "25888893",
+      "branch": "public",
+      "timeUpdated": 1791828942,
+      "firstSeen": 1791852280,
+      "manifests": {
+        "4080521": {
+          "gid": "5211663932915681444",
+          "size": 11017941540,
+          "download": 2395596928
+        },
+        "4080522": {
+          "gid": "8515459559619207949",
+          "size": 10968753423,
+          "download": 2368089760
+        }
+      }
+    }
+  ],
+  "_change_number": 39760645,
+  "_missing_token": false,
+  "_sha": "2f2bceda9cc4d25b2389f86b0a41d7cd18e08b58",
+  "_size": 4145,
   "appid": "4080520",
   "common": {
     "associations": {
@@ -34,7 +53,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4080520",
     "genres": {
       "0": "1",
@@ -102,14 +120,20 @@
       }
     },
     "name": "Horns of Deliverance",
+    "name_localized": {
+      "schinese": "救赎号角"
+    },
     "osarch": "",
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "85",
+    "review_score": "8",
     "small_capsule": {
       "english": "866648af73e2b28f71a7bb722953a8acf65f2ec9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791829054",
     "store_asset_mtime": "1791784735",
     "store_tags": {
       "0": "19",
@@ -119,8 +143,8 @@
       "12": "4182",
       "2": "1716",
       "3": "1663",
-      "4": "4191",
-      "5": "1714",
+      "4": "1714",
+      "5": "4191",
       "6": "3839",
       "7": "3993",
       "8": "492",
@@ -134,5 +158,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Horns of Deliverance",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "skull_game.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "skull_game.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4080521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2395596928",
+          "gid": "5211663932915681444",
+          "size": "11017941540"
+        }
+      }
+    },
+    "4080522": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2368089760",
+          "gid": "8515459559619207949",
+          "size": "10968753423"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25888893",
+        "timebuildupdated": "1791828002",
+        "timeupdated": "1791828942"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "schemesmith",
+    "publisher": "schemesmith"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791290247,
-  "_history": [],
-  "_change_number": 39535093,
-  "_missing_token": true,
-  "_sha": "727cae2e34391bfcfe3cc055f03fbfa7ae08d02a",
-  "_size": 3791,
+  "_lastChecked": 1791852270,
+  "_history": [
+    {
+      "buildId": "25755360",
+      "branch": "public",
+      "timeUpdated": 1791299741,
+      "firstSeen": 1791852270,
+      "manifests": {
+        "3250141": {
+          "gid": "6943793161936540834",
+          "size": 2108732058,
+          "download": 1863674368
+        }
+      }
+    }
+  ],
+  "_change_number": 39759464,
+  "_missing_token": false,
+  "_sha": "1357ffd86961d25906dc9ce8e883812923b1b024",
+  "_size": 5470,
   "appid": "3250140",
   "common": {
     "aicontenttype": "1",
@@ -36,8 +50,8 @@
     },
     "clienticon": "ed29522436ed71b7014378313beaa7ee50da5ff5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3250140",
     "genres": {
       "0": "25",
@@ -119,32 +133,33 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "434568531d15d577fe4c3b61c891c4d724f5e2b6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791827781",
     "store_asset_mtime": "1774817722",
     "store_tags": {
-      "0": "21",
-      "1": "599",
+      "0": "1352486",
+      "1": "97376",
       "10": "4252",
-      "11": "4305",
-      "12": "5350",
-      "13": "30358",
-      "14": "1654",
-      "15": "4136",
-      "16": "1643",
-      "17": "1719",
-      "18": "1695",
-      "19": "4835",
-      "2": "3810",
-      "3": "10235",
-      "4": "4486",
-      "5": "3834",
-      "6": "4191",
-      "7": "4726",
-      "8": "3839",
-      "9": "1697"
+      "11": "1643",
+      "12": "4136",
+      "13": "4305",
+      "14": "4835",
+      "15": "1654",
+      "16": "30358",
+      "17": "552282",
+      "18": "4747",
+      "19": "1759",
+      "2": "1719",
+      "3": "21",
+      "4": "10235",
+      "5": "599",
+      "6": "3810",
+      "7": "3834",
+      "8": "4191",
+      "9": "4726"
     },
     "supported_languages": {
       "english": {
@@ -179,5 +194,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Capybaria",
+    "launch": {
+      "0": {
+        "arguments": "-force-d3d11",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "DirectX 11",
+        "description_loc": {
+          "english": "DirectX 11"
+        },
+        "executable": "CAPYBARIA.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "-force-d3d12",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "DirectX 12",
+        "description_loc": {
+          "english": "DirectX 12"
+        },
+        "executable": "CAPYBARIA.exe",
+        "type": "option2"
+      },
+      "2": {
+        "arguments": "-force-vulkan",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Vulkan",
+        "description_loc": {
+          "english": "Vulkan"
+        },
+        "executable": "CAPYBARIA.exe",
+        "type": "option3"
+      }
+    }
+  },
+  "depots": {
+    "3250141": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1863674368",
+          "gid": "6943793161936540834",
+          "size": "2108732058"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25755360",
+        "timebuildupdated": "1791299701",
+        "timeupdated": "1791299741"
+      }
+    }
+  },
+  "extended": {
+    "developer": "CDA Games",
+    "publisher": "CDA Games"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "CAPYBARIA_Data\\StreamingAssets\\Saves",
+        "pattern": "*.save",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "CAPYBARIA_Data\\StreamingAssets\\Screenshots",
+        "pattern": "*.png",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

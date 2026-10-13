@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791809548,
-  "_history": [],
-  "_change_number": 39733056,
-  "_missing_token": true,
-  "_sha": "0f4e9e8edbd72b71775838bd0357ad45562b2a96",
-  "_size": 9631,
+  "_lastChecked": 1791852292,
+  "_history": [
+    {
+      "buildId": "25876525",
+      "branch": "public",
+      "timeUpdated": 1791788902,
+      "firstSeen": 1791852292,
+      "manifests": {
+        "4687351": {
+          "gid": "5761083639140766514",
+          "size": 6108932273,
+          "download": 797787840
+        },
+        "4687352": {
+          "gid": "1149095347091530372",
+          "size": 6127296811,
+          "download": 804484592
+        }
+      }
+    }
+  ],
+  "_change_number": 39759468,
+  "_missing_token": false,
+  "_sha": "667786636c49c75578205b7cc90d75d37bdf439d",
+  "_size": 11254,
   "appid": "4687350",
   "common": {
     "associations": {
@@ -26,6 +45,7 @@
     "clienticns": "3542c1f7232c39aab3dc6fa88ee09a56bb4c95ec",
     "clienticon": "dff70c12a9aaf3e4869ea60fafd5014fe62030c6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -39,7 +59,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4687350",
     "genres": {
       "0": "4",
@@ -151,7 +170,7 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "98b4dac6d78a539ce6962755ae6c13b4b82737bf/capsule_231x87.jpg"
@@ -164,10 +183,10 @@
       "11": "4182",
       "12": "599",
       "13": "9551",
-      "14": "3799",
-      "15": "492",
-      "16": "24003",
-      "17": "4085",
+      "14": "492",
+      "15": "3799",
+      "16": "4085",
+      "17": "24003",
       "18": "4562",
       "19": "4195",
       "2": "122",
@@ -524,5 +543,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CookingMaster",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CookingMaster.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "CookingMaster.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4687351": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "797787840",
+          "gid": "5761083639140766514",
+          "size": "6108932273"
+        }
+      }
+    },
+    "4687352": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "804484592",
+          "gid": "1149095347091530372",
+          "size": "6127296811"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "25876525",
+        "timebuildupdated": "1791788102",
+        "timeupdated": "1791788902"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Peach Fox Game",
+    "homepage": "https://www.sharksharkgame.com",
+    "publisher": "Shark Shark Game"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "300000000",
+    "savefiles": {
+      "0": {
+        "path": "save",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "save",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacHome"
+      }
+    }
+  }
 }

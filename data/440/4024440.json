@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791679446,
-  "_history": [],
-  "_change_number": 39702973,
-  "_missing_token": true,
-  "_sha": "3a02eea903ff45fac2490f39ffe0bd49b00cb89a",
-  "_size": 4281,
+  "_lastChecked": 1791852279,
+  "_history": [
+    {
+      "buildId": "25873326",
+      "branch": "public",
+      "timeUpdated": 1791774159,
+      "firstSeen": 1791852279,
+      "manifests": {
+        "4024441": {
+          "gid": "2074608320198558581",
+          "size": 1309632355,
+          "download": 865661808
+        },
+        "4024442": {
+          "gid": "6305080538923972182",
+          "size": 1421819068,
+          "download": 899321904
+        }
+      }
+    }
+  ],
+  "_change_number": 39756846,
+  "_missing_token": false,
+  "_sha": "cf92089eb2b78c56140f7d89207372c689d13058",
+  "_size": 6539,
   "appid": "4024440",
   "common": {
     "associations": {
@@ -42,6 +61,7 @@
     },
     "clienticon": "d8338377546296c0351a52243fa3556b65d83708",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -50,7 +70,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4024440",
     "genres": {
       "0": "1",
@@ -123,15 +142,18 @@
     },
     "osarch": "64",
     "oscpu": "",
-    "osextended": "macos64,macosapplesilicon",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "ab9001bb1f70b895aa84db581e49fc19b9acef11/capsule_231x87.jpg",
       "schinese": "d1a4e5c0ec7417bf56cadfd23cb06cb348cb65de/capsule_231x87_schinese.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/4024440/announcements/detail/675132259300278982",
+    "steam_release_date": "1791824427",
     "store_asset_mtime": "1791528850",
     "store_tags": {
       "0": "5711",
@@ -168,6 +190,12 @@
       "german": {
         "supported": "true"
       },
+      "italian": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
       "koreana": {
         "supported": "true"
       },
@@ -195,5 +223,102 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Haunted Heist",
+    "launch": {
+      "2": {
+        "arguments": "--rendering-driver vulkan --rendering-method forward_plus",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Haunted Heist (Default - Vulkan)",
+        "description_loc": {
+          "english": "Haunted Heist (Default - Vulkan)"
+        },
+        "executable": "HauntedHeist.exe",
+        "type": "option1"
+      },
+      "4": {
+        "arguments": "--rendering-driver d3d12 --rendering-method forward_plus",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Haunted Heist (DirectX 12)",
+        "description_loc": {
+          "english": "Haunted Heist (DirectX 12)"
+        },
+        "executable": "HauntedHeist.exe",
+        "type": "option2"
+      },
+      "5": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "HauntedHeist.app/Contents/MacOS/HauntedHeist",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4024441": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "865661808",
+          "gid": "2074608320198558581",
+          "size": "1309632355"
+        }
+      }
+    },
+    "4024442": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "899321904",
+          "gid": "6305080538923972182",
+          "size": "1421819068"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25873326",
+        "timebuildupdated": "1791771022",
+        "timeupdated": "1791774159"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "autotroph games",
+    "homepage": "https://www.autotrophgames.com/",
+    "publisher": "autotroph games"
+  },
+  "ufs": {
+    "maxnumfiles": "16",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "AutotrophGames/steam_cloud",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "AutotrophGames/steam_cloud",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

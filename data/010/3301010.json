@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1791809532,
-  "_history": [],
-  "_change_number": 39737933,
-  "_missing_token": true,
-  "_sha": "f6a309f9a1f1567801a1581a15522875bddb2bf1",
-  "_size": 4806,
+  "_lastChecked": 1791852270,
+  "_history": [
+    {
+      "buildId": "25885073",
+      "branch": "external-testing",
+      "timeUpdated": 1791816933,
+      "firstSeen": 1791852270,
+      "manifests": {
+        "3301011": {
+          "gid": "8838333865722055824",
+          "size": 22698736234,
+          "download": 21035318560
+        }
+      }
+    },
+    {
+      "buildId": "25885073",
+      "branch": "public",
+      "timeUpdated": 1791816933,
+      "firstSeen": 1791852270,
+      "manifests": {
+        "3301011": {
+          "gid": "8838333865722055824",
+          "size": 22698736234,
+          "download": 21035318560
+        }
+      }
+    }
+  ],
+  "_change_number": 39746976,
+  "_missing_token": false,
+  "_sha": "dc5c25ac75bd0e32a727be7e939ef168b22eaa47",
+  "_size": 6339,
   "appid": "3301010",
   "common": {
     "associations": {
@@ -32,6 +59,7 @@
     "clienticon": "5cd22a229c7cad5c24ae72f1fca611f6c352f453",
     "clienttga": "ff81dee875c1a1ac15451d09a39b0f01dbd10d10",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -41,7 +69,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3301010",
     "genres": {
       "0": "25",
@@ -123,12 +150,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2cd7d53f06324f7d8afc55db809cc359bdac537b/capsule_231x87.jpg",
       "japanese": "79e3572fdba0d57e2b454da6b89cc351f1bac879/capsule_231x87_japanese.jpg"
     },
-    "store_asset_mtime": "1788861019",
+    "steam_release_date": "1791811370",
+    "store_asset_mtime": "1791818422",
     "store_tags": {
       "0": "1667",
       "1": "122",
@@ -200,5 +228,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Den-Den Tokyo Horror",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DenDenTokyoHorror.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3301011": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "external-testing": {
+          "download": "21035318560",
+          "gid": "8838333865722055824",
+          "size": "22698736234"
+        },
+        "public": {
+          "download": "21035318560",
+          "gid": "8838333865722055824",
+          "size": "22698736234"
+        }
+      }
+    },
+    "branches": {
+      "external-testing": {
+        "buildid": "25885073",
+        "description": "Used for external testing pre-launch",
+        "timebuildupdated": "1791816873",
+        "timeupdated": "1791816933"
+      },
+      "public": {
+        "buildid": "25885073",
+        "timebuildupdated": "1791816873",
+        "timeupdated": "1791816933"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Frozen Lake Software",
+    "homepage": "https://frozenlakesoftware.com/",
+    "publisher": "Frozen Lake Software"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "300000000",
+    "savefiles": {
+      "0": {
+        "path": "DenDenTokyoHorror/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

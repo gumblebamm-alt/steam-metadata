@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791506702,
-  "_history": [],
-  "_change_number": 39213404,
-  "_missing_token": true,
-  "_sha": "8e151c842c52c6ae9f71ba822b544368e12cebb3",
-  "_size": 4244,
+  "_lastChecked": 1791852277,
+  "_history": [
+    {
+      "buildId": "25895661",
+      "branch": "public",
+      "timeUpdated": 1791851973,
+      "firstSeen": 1791852277,
+      "manifests": {
+        "3906461": {
+          "gid": "6492678305193495187",
+          "size": 2436511788,
+          "download": 1469000544
+        }
+      }
+    }
+  ],
+  "_change_number": 39761029,
+  "_missing_token": false,
+  "_sha": "9f19dcb042d4338a981b6f25fb51710cab3b820f",
+  "_size": 5472,
   "appid": "3906460",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +47,8 @@
     },
     "clienticon": "36789c855cff0a4ef00bc46045e53a58dce3d011",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3906460",
     "genres": {
       "0": "1",
@@ -109,10 +123,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "90",
+    "review_score": "7",
     "small_capsule": {
       "english": "531cb3d948275de5e8e59e1452cfd48831fb3daf/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791824262",
     "store_asset_mtime": "1780267165",
     "store_tags": {
       "0": "599",
@@ -205,5 +222,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Last Flight",
+    "launch": {
+      "0": {
+        "executable": "The Last Flight.exe"
+      }
+    }
+  },
+  "depots": {
+    "3906461": {
+      "manifests": {
+        "public": {
+          "download": "1469000544",
+          "gid": "6492678305193495187",
+          "size": "2436511788"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25895661",
+        "timebuildupdated": "1791851831",
+        "timeupdated": "1791851973"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Christor",
+    "publisher": "Christor"
+  },
+  "ufs": {
+    "maxnumfiles": "150",
+    "quota": "150000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "ChristorGames/The Last Flight/SaveData",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": ".config/unity3d/ChristorGames/The Last Flight/SaveData",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ChristorGames\\The Last Flight\\SaveData",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1791506688,
-  "_history": [],
-  "_change_number": 39621044,
-  "_missing_token": true,
-  "_sha": "9d5f2c0ae19555f4ac418fe8c9b52ad99030e00d",
-  "_size": 8074,
+  "_lastChecked": 1791852266,
+  "_history": [
+    {
+      "buildId": "24369438",
+      "branch": "local",
+      "timeUpdated": 1784878917,
+      "firstSeen": 1791852266,
+      "manifests": {
+        "2509871": {
+          "gid": "2342100471159925484",
+          "size": 13979425152,
+          "download": 5460273344
+        }
+      }
+    },
+    {
+      "buildId": "25862903",
+      "branch": "public",
+      "timeUpdated": 1791805897,
+      "firstSeen": 1791852266,
+      "manifests": {
+        "2509871": {
+          "gid": "3074163502155502608",
+          "size": 14182623426,
+          "download": 5726501872
+        }
+      }
+    }
+  ],
+  "_change_number": 39753792,
+  "_missing_token": false,
+  "_sha": "e928b1203bda48071b8633272916ef61e2226cc7",
+  "_size": 9609,
   "appid": "2509870",
   "common": {
     "associations": {
@@ -44,6 +71,7 @@
     "clienticon": "1d3cf19e7a6ebdac637891b142491b14b9adb862",
     "clienttga": "76f3b95cce04942105468371d2effb1da128d617",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -52,7 +80,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2509870",
     "genres": {
       "0": "25",
@@ -182,7 +209,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "37df805c07ce8887d91bfc6aa4cd78c0248e0cff/capsule_231x87.jpg",
       "japanese": "b6bbb16d1cd9a91f6244c23031c1a0b1548b9660/capsule_231x87_japanese.jpg",
@@ -190,7 +219,8 @@
       "schinese": "f19464b98705845245080d7a57ebe75e682edbcf/capsule_231x87_schinese.jpg",
       "tchinese": "b31c31ba588f3aef76c63f2a6e4dde53f3ee1727/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1789408921",
+    "steam_release_date": "1791810014",
+    "store_asset_mtime": "1791818504",
     "store_tags": {
       "0": "1742",
       "1": "4166",
@@ -239,5 +269,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Time To Wake Up",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ttwu.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2509871": {
+      "manifests": {
+        "local": {
+          "download": "5460273344",
+          "gid": "2342100471159925484",
+          "size": "13979425152"
+        },
+        "public": {
+          "download": "5726501872",
+          "gid": "3074163502155502608",
+          "size": "14182623426"
+        }
+      }
+    },
+    "baselanguages": "dutch,english,japanese,koreana,schinese,tchinese",
+    "branches": {
+      "local": {
+        "buildid": "24369438",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1784878917",
+        "timeupdated": "1784878917"
+      },
+      "public": {
+        "buildid": "25862903",
+        "timebuildupdated": "1791716945",
+        "timeupdated": "1791805897"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Eye Blink Twice",
+    "publisher": "Eye Blink Twice"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".config/unity3d/Eye Blink Twice/Time To Wake Up/{64BitSteamID}/Saves/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Eye Blink Twice/Time To Wake Up/{64BitSteamID}/Saves/",
+        "pattern": "*.dat",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

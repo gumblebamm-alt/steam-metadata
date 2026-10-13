@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1790728816,
-  "_history": [],
-  "_change_number": 39309458,
-  "_missing_token": true,
-  "_sha": "21ee287c0d38affd670e309e309e6dabdddb316a",
-  "_size": 3286,
+  "_lastChecked": 1791852307,
+  "_history": [
+    {
+      "buildId": "25894936",
+      "branch": "public",
+      "timeUpdated": 1791849052,
+      "firstSeen": 1791852307,
+      "manifests": {
+        "5203371": {
+          "gid": "491848580923676622",
+          "size": 148330376,
+          "download": 58849232
+        }
+      }
+    }
+  ],
+  "_change_number": 39760136,
+  "_missing_token": false,
+  "_sha": "9baaf9496d2e654bb928146910899d52dbba4b64",
+  "_size": 4315,
   "appid": "5203370",
   "common": {
     "aicontenttype": "1",
@@ -29,6 +43,7 @@
     },
     "clienticon": "484f8f8bda5d948900781f1cc6cb176a9fb71f84",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -36,7 +51,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5203370",
     "genres": {
       "0": "23",
@@ -115,10 +129,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d949f61ec0025530fcec54c24c4b212df2e794f1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791817274",
     "store_asset_mtime": "1789323946",
     "store_tags": {
       "0": "9",
@@ -152,5 +167,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "smoke.exe",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "smoke.exe"
+      }
+    }
+  },
+  "depots": {
+    "5203371": {
+      "manifests": {
+        "public": {
+          "download": "58849232",
+          "gid": "491848580923676622",
+          "size": "148330376"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "25894936",
+        "timebuildupdated": "1791848942",
+        "timeupdated": "1791849052"
+      }
+    }
+  },
+  "extended": {
+    "developer": "usasan3",
+    "publisher": "usasan3"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/smoke.exe",
+        "pattern": "savedata.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/smoke.exe",
+        "pattern": "settings.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

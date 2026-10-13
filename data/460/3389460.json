@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791376807,
+  "_lastChecked": 1791852271,
   "_history": [
     {
       "buildId": "24862847",
@@ -39,12 +39,25 @@
           "download": 457010672
         }
       }
+    },
+    {
+      "buildId": "25883127",
+      "branch": "public",
+      "timeUpdated": 1791811568,
+      "firstSeen": 1791852271,
+      "manifests": {
+        "3389461": {
+          "gid": "4148951872616171323",
+          "size": 1265155672,
+          "download": 488080944
+        }
+      }
     }
   ],
-  "_change_number": 39535361,
+  "_change_number": 39743015,
   "_missing_token": false,
-  "_sha": "801dcf7154ab471dd4b5d3e1538677a3b6625ae8",
-  "_size": 5989,
+  "_sha": "8b3cf2a73976c67af06d18707922aec0c8ceadd1",
+  "_size": 6688,
   "appid": "3389460",
   "common": {
     "associations": {
@@ -265,8 +278,29 @@
     "installdir": "Red Tears",
     "launch": {
       "0": {
+        "arguments": "--rendering-method forward_plus",
+        "description": "Default (Vulkan)",
+        "description_loc": {
+          "english": "Default (Vulkan)"
+        },
         "executable": "RedTears.exe",
         "type": "default"
+      },
+      "1": {
+        "arguments": "--rendering-method mobile",
+        "description": "Red Tears (Compatibility) improved performance on low-end devices.",
+        "description_loc": {
+          "english": "Red Tears (Compatibility) improved performance on low-end devices."
+        },
+        "executable": "RedTears.exe"
+      },
+      "2": {
+        "arguments": "--rendering-method forward_plus --rendering-driver d3d12",
+        "description": "Red tears (DirectX)",
+        "description_loc": {
+          "english": "Red tears (DirectX)"
+        },
+        "executable": "RedTears.exe"
       }
     }
   },
@@ -274,17 +308,17 @@
     "3389461": {
       "manifests": {
         "public": {
-          "download": "457010672",
-          "gid": "2714555525305551653",
-          "size": "1223200848"
+          "download": "488080944",
+          "gid": "4148951872616171323",
+          "size": "1265155672"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25547017",
-        "timebuildupdated": "1790426361",
-        "timeupdated": "1790426426"
+        "buildid": "25883127",
+        "timebuildupdated": "1791811473",
+        "timeupdated": "1791811568"
       }
     },
     "privatebranches": "1"

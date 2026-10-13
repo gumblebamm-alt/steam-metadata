@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791463219,
-  "_history": [],
-  "_change_number": 39405595,
-  "_missing_token": true,
-  "_sha": "7bb5a5a84c1a4fdd2400b469f4f49ec95ea55ec2",
-  "_size": 3388,
+  "_lastChecked": 1791852269,
+  "_history": [
+    {
+      "buildId": "25888334",
+      "branch": "public",
+      "timeUpdated": 1791826165,
+      "firstSeen": 1791852269,
+      "manifests": {
+        "3032971": {
+          "gid": "3359876736731525524",
+          "size": 382471326,
+          "download": 248836016
+        },
+        "3032972": {
+          "gid": "4688334771282639639",
+          "size": 534457638,
+          "download": 289857072
+        }
+      }
+    }
+  ],
+  "_change_number": 39750994,
+  "_missing_token": false,
+  "_sha": "51fcf3c023919bac04a705da3a61216b064e6cb3",
+  "_size": 4952,
   "appid": "3032970",
   "common": {
     "associations": {
@@ -42,7 +61,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3032970",
     "genres": {
       "0": "1",
@@ -115,32 +133,33 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f8711e64f6f1d9cc4285ebec4dc3676d8e88ecf9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791821187",
     "store_asset_mtime": "1776463403",
     "store_tags": {
       "0": "4736",
       "1": "1743",
-      "10": "4878",
-      "11": "4085",
-      "12": "4305",
-      "13": "6815",
-      "14": "4252",
-      "15": "1719",
-      "16": "4726",
-      "17": "4562",
-      "18": "4004",
-      "19": "4182",
-      "2": "1775",
-      "3": "1773",
-      "4": "3964",
-      "5": "3859",
-      "6": "7368",
-      "7": "19",
-      "8": "3871",
-      "9": "4136"
+      "10": "6915",
+      "11": "3964",
+      "12": "3871",
+      "13": "4085",
+      "14": "4305",
+      "15": "4136",
+      "16": "6815",
+      "17": "4252",
+      "18": "1719",
+      "19": "4004",
+      "2": "1773",
+      "3": "3859",
+      "4": "19",
+      "5": "1775",
+      "6": "3878",
+      "7": "7368",
+      "8": "7481",
+      "9": "4182"
     },
     "supported_languages": {
       "english": {
@@ -150,5 +169,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HYPERFIGHT 2",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "HYPERFIGHT 2.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "HYPERFIGHT 2.app"
+      }
+    }
+  },
+  "depots": {
+    "3032971": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "248836016",
+          "gid": "3359876736731525524",
+          "size": "382471326"
+        }
+      }
+    },
+    "3032972": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "289857072",
+          "gid": "4688334771282639639",
+          "size": "534457638"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25888334",
+        "timebuildupdated": "1791826164",
+        "timeupdated": "1791826165"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "studio joh",
+    "homepage": "https://www.studiojoh.com/",
+    "publisher": "studio joh"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "64000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "HYPERFIGHT 2",
+            "replace": ".local/share/HYPERFIGHT 2"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "HYPERFIGHT 2",
+        "pattern": "*.sav",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

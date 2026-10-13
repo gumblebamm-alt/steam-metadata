@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791085601,
-  "_history": [],
-  "_change_number": 39459656,
-  "_missing_token": true,
-  "_sha": "5d57daedbb41e541810c9e2235f80601f7bb6952",
-  "_size": 4715,
+  "_lastChecked": 1791852307,
+  "_history": [
+    {
+      "buildId": "25312679",
+      "branch": "public",
+      "timeUpdated": 1789436234,
+      "firstSeen": 1791852307,
+      "manifests": {
+        "5191881": {
+          "gid": "2865591503328645478",
+          "size": 94817171,
+          "download": 35798064
+        }
+      }
+    }
+  ],
+  "_change_number": 39757841,
+  "_missing_token": false,
+  "_sha": "1e556bdb68a54dfe91638fbe1badd5f29684989e",
+  "_size": 5890,
   "appid": "5191880",
   "common": {
     "aicontenttype": "1",
@@ -25,8 +39,8 @@
     },
     "clienticon": "04787b50f7735d169961a971547b597d37482750",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5191880",
     "genres": {
       "0": "4"
@@ -128,10 +142,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e2972469aa2a8bb531b63135b41f76f555db0a19/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791842513",
     "store_asset_mtime": "1789975324",
     "store_tags": {
       "0": "1320952",
@@ -244,5 +259,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Magic Cursor",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MagicCursor.exe"
+      }
+    }
+  },
+  "depots": {
+    "5191881": {
+      "manifests": {
+        "public": {
+          "download": "35798064",
+          "gid": "2865591503328645478",
+          "size": "94817171"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "25312679",
+        "timebuildupdated": "1789435705",
+        "timeupdated": "1789436234"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Magic Cursor",
+    "publisher": "Magic Cursor"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "savefiles": {
+      "0": {
+        "path": "MagicCursor/cloud/{64BitSteamID}",
+        "pattern": "favorites.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
