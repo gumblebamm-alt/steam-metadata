@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1791809531,
-  "_history": [],
-  "_change_number": 39741586,
-  "_missing_token": true,
-  "_sha": "dc8b4878eac58dcee351186b8b8d6e771ac6068d",
-  "_size": 9241,
+  "_lastChecked": 1791940036,
+  "_history": [
+    {
+      "buildId": "25680674",
+      "branch": "public",
+      "timeUpdated": 1791367350,
+      "firstSeen": 1791939286,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "3219031": {
+          "gid": "5380792020854711496",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39796895,
+  "_missing_token": false,
+  "_sha": "075036522176fed72024404658c08796f42bee54",
+  "_size": 12040,
   "appid": "3219030",
   "common": {
     "associations": {
@@ -15,10 +35,6 @@
       "1": {
         "name": "Frontier Developments",
         "type": "publisher"
-      },
-      "2": {
-        "name": "Frontier Developments",
-        "type": "franchise"
       }
     },
     "category": {
@@ -45,9 +61,17 @@
     },
     "clienticon": "f55eec0771f05796dcd1e16caab1fed426aa9199",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
+    "eulas": {
+      "0": {
+        "id": "3219030_eula_0",
+        "name": "Planet Zoo 2 EULA",
+        "url": "https://store.steampowered.com/eula/3219030_eula_0",
+        "version": "1"
+      }
+    },
     "gameid": "3219030",
     "genres": {
       "0": "28",
@@ -144,7 +168,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "73",
+    "review_score": "6",
     "small_capsule": {
       "english": "d4ea06b2e49dbf8c9b3b2f96540613de960b48e1/capsule_231x87.jpg",
       "japanese": "ae52f1c72eca36a8a72eaef5fdd9b9f49625125c/capsule_231x87_japanese.jpg",
@@ -225,14 +251,15 @@
         }
       }
     },
-    "store_asset_mtime": "1788453287",
+    "steam_release_date": "1791899915",
+    "store_asset_mtime": "1791889924",
     "store_tags": {
       "0": "599",
       "1": "9",
       "10": "4175",
-      "11": "5350",
+      "11": "4695",
       "12": "30358",
-      "13": "4695",
+      "13": "5350",
       "14": "1654",
       "15": "4136",
       "16": "3859",
@@ -242,8 +269,8 @@
       "2": "597",
       "3": "3810",
       "4": "4328",
-      "5": "1643",
-      "6": "46348",
+      "5": "46348",
+      "6": "1643",
       "7": "4726",
       "8": "12472",
       "9": "9626"
@@ -330,5 +357,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Planet Zoo 2",
+    "launch": {
+      "0": {
+        "executable": "PlanetZoo2.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "build_branch_profile, build_mainline_release_profile, qa_staging, build_mainline2_release_profile, build_branch2_release_profile, build_branch_release_profile, external_02, external_01, internal_01, external_03, outsource_lqa, external_04, external_05, internal_02, external_06, build_branch3_release_profile, external_07, build_branch4_release_profile"
+        },
+        "description": "Profile Build",
+        "description_loc": {
+          "english": "Profile Build"
+        },
+        "executable": "Wallace.Profile.exe",
+        "type": "option1"
+      },
+      "2": {
+        "config": {
+          "betakey": "build_branch_profile, build_branch_release, build_mainline_release_profile, qa_staging, build_mainline2_release_profile, build_branch2_release_profile, build_branch_release_profile, internal_01, external_01, external_02, external_04, external_05, internal_02, build_branch3_release_profile, build_branch4_release_profile"
+        },
+        "description": "Release Build",
+        "description_loc": {
+          "english": "Release Build"
+        },
+        "executable": "Wallace.release.exe",
+        "type": "option2"
+      },
+      "3": {
+        "config": {
+          "betakey": "internal_02,",
+          "oslist": "windows"
+        },
+        "executable": "wallace.cmd",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3219031": {
+      "manifests": {
+        "public": {
+          "download": "21327040368",
+          "gid": "5380792020854711496",
+          "size": "45473089475"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,danish,dutch,english,french,german,italian,japanese,koreana,latam,polish,russian,schinese,spanish,tchinese,thai",
+    "branches": {
+      "public": {
+        "buildid": "25680674",
+        "timebuildupdated": "1790955310",
+        "timeupdated": "1791367350"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Frontier Developments",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.planetzoogame.com/",
+    "listofdlc": "4515760,4515770",
+    "publisher": "Frontier Developments"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "Frontier Developments/Planet Zoo 2/{64BitSteamID}/Saves",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinSavedGames"
+      },
+      "1": {
+        "path": "Frontier Developments/Planet Zoo 2/{64BitSteamID}/Config",
+        "pattern": "*_remote.config.xml",
+        "root": "WinSavedGames"
+      }
+    }
+  }
 }

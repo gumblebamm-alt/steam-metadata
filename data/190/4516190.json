@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1791852287,
-  "_history": [],
-  "_change_number": 39606058,
-  "_missing_token": true,
-  "_sha": "257c0cdaf101a00fd4c165747f1899307bf8a315",
-  "_size": 4254,
+  "_lastChecked": 1791940035,
+  "_history": [
+    {
+      "buildId": "25906427",
+      "branch": "public",
+      "timeUpdated": 1791897377,
+      "firstSeen": 1791939269,
+      "manifests": {
+        "4516191": {
+          "gid": "5459105435481676375",
+          "size": null,
+          "download": null
+        },
+        "4516192": {
+          "gid": "923784218778015176",
+          "size": null,
+          "download": null
+        },
+        "4516193": {
+          "gid": "8487424319850005117",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39786601,
+  "_missing_token": false,
+  "_sha": "871552f9fb3ed5a8dc7c55d8b9d07a8866a33c85",
+  "_size": 6282,
   "appid": "4516190",
   "common": {
     "associations": {
@@ -35,6 +60,7 @@
     },
     "clienticon": "ab4c3317c964e7ab87031c43a4bdd2d7b1bbf78c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -43,7 +69,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4516190",
     "genres": {
       "0": "25",
@@ -128,10 +153,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "024e508da3d589fa7e25236832f751ef08855549/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791910757",
     "store_asset_mtime": "1791265871",
     "store_tags": {
       "0": "21",
@@ -202,5 +228,109 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "My Beautiful Faraway, Please Don't Be Cruel To Me",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MyBeautifulFaraway.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MyBeautifulFaraway.app\\Contents\\MacOS\\MyBeautifulFaraway"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "MyBeautifulFaraway.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4516191": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "897871040",
+          "gid": "5459105435481676375",
+          "size": "1437728568"
+        }
+      }
+    },
+    "4516192": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "878606928",
+          "gid": "923784218778015176",
+          "size": "1467607024"
+        }
+      }
+    },
+    "4516193": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "892476944",
+          "gid": "8487424319850005117",
+          "size": "1407158264"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25906427",
+        "timebuildupdated": "1791892490",
+        "timeupdated": "1791897377"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "arch1t3ct",
+    "publisher": "arch1t3ct"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "500000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/MyBeautifulFaraway",
+            "replace": "godot/app_userdata/MyBeautifulFaraway"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/MyBeautifulFaraway",
+        "pattern": "savegame.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

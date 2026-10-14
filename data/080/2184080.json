@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791592975,
+  "_lastChecked": 1791940048,
   "_history": [
     {
       "buildId": "25809290",
@@ -36,12 +36,30 @@
           "download": 820345552
         }
       }
+    },
+    {
+      "buildId": "25919660",
+      "branch": "public",
+      "timeUpdated": 1791934035,
+      "firstSeen": 1791940048,
+      "manifests": {
+        "2184081": {
+          "gid": "4787315850790229367",
+          "size": 1203776989,
+          "download": 827133552
+        },
+        "2184082": {
+          "gid": "3491096522966845200",
+          "size": 1192429464,
+          "download": 822912416
+        }
+      }
     }
   ],
-  "_change_number": 39675529,
+  "_change_number": 39797209,
   "_missing_token": false,
-  "_sha": "73a14dcab404841ff7a0143baabd4b2a1cd3abad",
-  "_size": 8043,
+  "_sha": "0ea7a634319facedbf31d955aba76879ffe125da",
+  "_size": 8086,
   "appid": "2184080",
   "common": {
     "associations": {
@@ -155,14 +173,17 @@
         }
       }
     },
+    "metacritic_fullurl": "https://www.metacritic.com/game/pc/echo-weaver?ftag=MCD-06-10aaa1f",
+    "metacritic_name": "Echo Weaver",
+    "metacritic_score": "82",
     "name": "Echo Weaver",
     "osarch": "",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "25",
     "releasestate": "released",
-    "review_percentage": "95",
-    "review_score": "7",
+    "review_percentage": "96",
+    "review_score": "8",
     "small_capsule": {
       "english": "d553c1ebb59c20ff4d253f7a177c851ea9896bc2/capsule_231x87.jpg"
     },
@@ -328,9 +349,9 @@
       },
       "manifests": {
         "public": {
-          "download": "824591104",
-          "gid": "799600316366424611",
-          "size": "1201167980"
+          "download": "827133552",
+          "gid": "4787315850790229367",
+          "size": "1203776989"
         }
       }
     },
@@ -340,17 +361,17 @@
       },
       "manifests": {
         "public": {
-          "download": "820345552",
-          "gid": "1730034786751410542",
-          "size": "1189834368"
+          "download": "822912416",
+          "gid": "3491096522966845200",
+          "size": "1192429464"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25818569",
-        "timebuildupdated": "1791509714",
-        "timeupdated": "1791566049"
+        "buildid": "25919660",
+        "timebuildupdated": "1791930944",
+        "timeupdated": "1791934035"
       }
     },
     "privatebranches": "1"
@@ -363,38 +384,30 @@
   "ufs": {
     "maxnumfiles": "50",
     "quota": "16777216",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Moonlight Kids/Echo Weaver",
+            "replace": "Moonlight Kids/Echo Weaver"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "Moonlight Kids/Echo Weaver",
         "pattern": "*.dat",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocalLow"
       },
       "2": {
         "path": "Moonlight Kids/Echo Weaver",
         "pattern": "*.json",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocalLow"
-      },
-      "3": {
-        "path": "Moonlight Kids/Echo Weaver",
-        "pattern": "*.dat",
-        "platforms": {
-          "1": "MacOS"
-        },
-        "root": "MacAppSupport"
-      },
-      "4": {
-        "path": "Moonlight Kids/Echo Weaver",
-        "pattern": "*.json",
-        "platforms": {
-          "1": "MacOS"
-        },
-        "root": "MacAppSupport"
       }
     }
   }

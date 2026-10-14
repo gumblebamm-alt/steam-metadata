@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1791549416,
-  "_history": [],
-  "_change_number": 39657636,
-  "_missing_token": true,
-  "_sha": "2db1dece74eac14a69ee4d1d30f015d9a7164980",
-  "_size": 8035,
+  "_lastChecked": 1791940036,
+  "_history": [
+    {
+      "buildId": "25902716",
+      "branch": "public",
+      "timeUpdated": 1791881987,
+      "firstSeen": 1791939277,
+      "manifests": {
+        "2871521": {
+          "gid": "2596163180596376720",
+          "size": null,
+          "download": null
+        },
+        "2871522": {
+          "gid": "8402024109801646671",
+          "size": 710519840,
+          "download": 318740048
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39796888,
+  "_missing_token": false,
+  "_sha": "a8ba0cbd58903c9017e4d5e6ca363d2ec6f7590b",
+  "_size": 10007,
   "appid": "2871520",
   "common": {
     "associations": {
@@ -41,9 +61,9 @@
     "clienticon": "8d0a5220fea18f6083988092506a2564c3458aad",
     "clienttga": "0af7949543fe1879add26b8a8b1256bc3e17cc1c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2871520",
     "genres": {
       "0": "1",
@@ -151,7 +171,9 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "80",
+    "review_score": "8",
     "small_capsule": {
       "english": "01a5c5c3b43274025baaa3a6a152effc417dc091/capsule_231x87.jpg",
       "schinese": "d5136d6d76cb7e76e5f4370dd22ce16a400d85e1/capsule_231x87_schinese.jpg",
@@ -218,11 +240,12 @@
         }
       }
     },
-    "store_asset_mtime": "1791548922",
+    "steam_release_date": "1791899995",
+    "store_asset_mtime": "1791881125",
     "store_tags": {
       "0": "1720",
       "1": "3843",
-      "10": "4191",
+      "10": "6730",
       "11": "3978",
       "12": "1684",
       "13": "1702",
@@ -239,7 +262,7 @@
       "6": "3920",
       "7": "4057",
       "8": "4136",
-      "9": "6730"
+      "9": "4191"
     },
     "supported_languages": {
       "brazilian": {
@@ -289,5 +312,100 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Deep Dish Dungeon",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Deep Dish Dungeon.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Deep Dish Dungeon.app",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "5",
+    "steaminputmanifestpath": "steam_input_manifest.vdf",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "2871521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "393134768",
+          "gid": "2596163180596376720",
+          "size": "671985213"
+        }
+      }
+    },
+    "2871522": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "318740048",
+          "gid": "8402024109801646671",
+          "size": "710519840"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25902716",
+        "timebuildupdated": "1791881207",
+        "timeupdated": "1791881987"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Behold Studios",
+    "homepage": "http://www.beholdstudios.com.br",
+    "publisher": "Raw Fury"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Behold Studios/Deep Dish Dungeon/",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Library/Application Support/Behold Studios/Deep Dish Dungeon/",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacHome"
+      },
+      "2": {
+        "path": "unity3d/Behold Studios/Deep Dish Dungeon/",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxXdgConfigHome"
+      }
+    }
+  }
 }

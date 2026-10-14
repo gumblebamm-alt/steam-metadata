@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791549426,
+  "_lastChecked": 1791940061,
   "_history": [
     {
       "buildId": "25782199",
@@ -32,12 +32,25 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "25885117",
+      "branch": "public",
+      "timeUpdated": 1791819606,
+      "firstSeen": 1791940061,
+      "manifests": {
+        "3883571": {
+          "gid": "9100685055966075000",
+          "size": 4580384143,
+          "download": 4162370944
+        }
+      }
     }
   ],
-  "_change_number": 39657638,
+  "_change_number": 39747531,
   "_missing_token": false,
-  "_sha": "4ab5ca5c03790bdecdce2f14570d7248b2fb508d",
-  "_size": 7675,
+  "_sha": "91d7f27cd86ea0a66250d31e0aebe757115daa58",
+  "_size": 8185,
   "appid": "3883570",
   "common": {
     "associations": {
@@ -179,7 +192,7 @@
     "oslist": "windows",
     "primary_genre": "70",
     "releasestate": "released",
-    "review_percentage": "95",
+    "review_percentage": "94",
     "review_score": "8",
     "small_capsule": {
       "english": "5af07df8afce5c9e5feb755c2b47a277f679399a/capsule_231x87.jpg",
@@ -276,18 +289,18 @@
     "3883571": {
       "manifests": {
         "public": {
-          "download": "4160192848",
-          "gid": "4377286557687822386",
-          "size": "4578113535"
+          "download": "4162370944",
+          "gid": "9100685055966075000",
+          "size": "4580384143"
         }
       }
     },
     "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,polish,russian,schinese,spanish,ukrainian",
     "branches": {
       "public": {
-        "buildid": "25814454",
-        "timebuildupdated": "1791493988",
-        "timeupdated": "1791497973"
+        "buildid": "25885117",
+        "timebuildupdated": "1791817019",
+        "timeupdated": "1791819606"
       }
     },
     "privatebranches": "1"
@@ -296,5 +309,31 @@
     "developer": "Ludogram",
     "homepage": "https://ludogram.io/",
     "publisher": "Ludogram"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Ludogram/Invokyr/saves",
+            "replace": ".config/unity3d/Ludogram/Invokyr/saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Ludogram/Invokyr/saves",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

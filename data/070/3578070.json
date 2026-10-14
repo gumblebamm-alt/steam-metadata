@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1791549423,
+  "_lastChecked": 1791940057,
   "_history": [
+    {
+      "buildId": "25908488",
+      "branch": "public",
+      "timeUpdated": 1791900261,
+      "firstSeen": 1791940057,
+      "manifests": {
+        "3578071": {
+          "gid": "2488324966657773511",
+          "size": 214026854,
+          "download": 95637184
+        },
+        "3578072": {
+          "gid": "3651861614378646774",
+          "size": 232469681,
+          "download": 103438192
+        }
+      }
+    },
     {
       "buildId": "25823629",
       "branch": "public",
@@ -52,25 +70,12 @@
           "download": 96244768
         }
       }
-    },
-    {
-      "buildId": "25262907",
-      "branch": "public",
-      "timeUpdated": 1789163428,
-      "firstSeen": 1789169346,
-      "manifests": {
-        "3578071": {
-          "gid": "7906000570364972326",
-          "size": 207579838,
-          "download": 93062880
-        }
-      }
     }
   ],
-  "_change_number": 39650177,
+  "_change_number": 39793378,
   "_missing_token": false,
-  "_sha": "0aad8f1f330f06e249d34c6c35666ddc067a83c9",
-  "_size": 4777,
+  "_sha": "8d9bb7db944d41a6421fa5bad9cefbedd8e84ad9",
+  "_size": 7012,
   "appid": "3578070",
   "common": {
     "associations": {
@@ -173,14 +178,76 @@
     },
     "name": "Shake it Co!",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos",
     "primary_genre": "23",
     "releasestate": "released",
     "review_percentage": "98",
     "review_score": "8",
     "small_capsule": {
       "english": "b7f6b8cca181955e81fb4d3724f77c07bd576da7/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1791317624",
+      "tested_build_id": "25745980",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
     },
     "steam_release_date": "1787155323",
     "store_asset_mtime": "1790919531",
@@ -258,26 +325,51 @@
     "installdir": "Shake it Co!",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "Shake it Co!.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Shake it Co!.app",
         "type": "default"
       }
     }
   },
   "depots": {
     "3578071": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "95564528",
-          "gid": "1751514509036689290",
-          "size": "213773638"
+          "download": "95637184",
+          "gid": "2488324966657773511",
+          "size": "214026854"
+        }
+      }
+    },
+    "3578072": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "103438192",
+          "gid": "3651861614378646774",
+          "size": "232469681"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25823629",
-        "timebuildupdated": "1791532966",
-        "timeupdated": "1791534004"
+        "buildid": "25908488",
+        "timebuildupdated": "1791898329",
+        "timeupdated": "1791900261"
       }
     },
     "privatebranches": "1"

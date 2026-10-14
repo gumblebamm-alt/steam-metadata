@@ -1,10 +1,40 @@
 {
-  "_lastChecked": 1791852267,
-  "_history": [],
-  "_change_number": 39760374,
-  "_missing_token": true,
-  "_sha": "45dc281ad9443fb1294d8e570b2958aa8bc9dd5c",
-  "_size": 5925,
+  "_lastChecked": 1791940035,
+  "_history": [
+    {
+      "buildId": "25907482",
+      "branch": "public",
+      "timeUpdated": 1791907430,
+      "firstSeen": 1791939271,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "229007": {
+          "gid": "4477590687906973371",
+          "size": null,
+          "download": null
+        },
+        "2828711": {
+          "gid": "3604628958963660819",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39794040,
+  "_missing_token": false,
+  "_sha": "59b2139daf9b828651cf68d86e7fcd9c8db42657",
+  "_size": 7838,
   "appid": "2828710",
   "common": {
     "associations": {
@@ -42,6 +72,7 @@
     "clienticon": "70a93921f41dce73a7691d5b2ebd90a00959b14b",
     "clienttga": "70b78036e0123a61086fcb958a736a5321bcdca9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -60,7 +91,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "2828710",
     "genres": {
       "0": "1",
@@ -161,12 +191,15 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "81",
+    "review_score": "8",
     "small_capsule": {
       "english": "c845c26a71524fa38b25c3b3da23a384de7d1436/capsule_231x87.jpg",
       "schinese": "a51a07ceacf190c1916ddba761e70916daefd01f/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1791496686",
+    "steam_release_date": "1791910304",
+    "store_asset_mtime": "1791888247",
     "store_tags": {
       "0": "29482",
       "1": "3839",
@@ -175,8 +208,8 @@
       "12": "4191",
       "13": "3993",
       "14": "1667",
-      "15": "4608",
-      "16": "4598",
+      "15": "4598",
+      "16": "4608",
       "17": "7481",
       "18": "4166",
       "19": "5372",
@@ -250,5 +283,99 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Valor Mortis",
+    "launch": {
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ValorMortis.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2828711": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "41544502992",
+          "gid": "3604628958963660819",
+          "size": "45965871052"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25907482",
+        "timebuildupdated": "1791895562",
+        "timeupdated": "1791907430"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "One More Level",
+    "dlcavailableonstore": "1",
+    "homepage": "https://valormortis.com",
+    "listofdlc": "5250300",
+    "publisher": "Lyrical Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1500",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "ValorMortis/Saved/SaveGames",
+        "pattern": "Autosave0.sav",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "ValorMortis/Saved/SaveGames",
+        "pattern": "*.bak",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "ValorMortis/Saved/SaveGames",
+        "pattern": "*.sig",
+        "root": "WinAppDataLocal"
+      },
+      "3": {
+        "path": "ValorMortis/Saved/SaveGames",
+        "pattern": "AchievementsSaveGame.sav",
+        "root": "WinAppDataLocal"
+      },
+      "4": {
+        "path": "ValorMortis/Saved/SaveGames",
+        "pattern": "UserSettingsSaveGame.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

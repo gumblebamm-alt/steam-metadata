@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1791895282,
-  "_history": [],
-  "_change_number": 39775941,
-  "_missing_token": true,
-  "_sha": "7dd0eeb8724a34d32934ad91b2aa1b7cbf393707",
-  "_size": 3346,
+  "_lastChecked": 1791940066,
+  "_history": [
+    {
+      "buildId": "25898889",
+      "branch": "public",
+      "timeUpdated": 1791864964,
+      "firstSeen": 1791940066,
+      "manifests": {
+        "4274731": {
+          "gid": "5194817596199531350",
+          "size": 1105067987,
+          "download": 761504112
+        },
+        "4274732": {
+          "gid": "1767347073344290159",
+          "size": 1246869526,
+          "download": 826151328
+        },
+        "4274733": {
+          "gid": "8220362214781290835",
+          "size": 1057799454,
+          "download": 740706464
+        }
+      }
+    }
+  ],
+  "_change_number": 39790706,
+  "_missing_token": false,
+  "_sha": "e8d222b0cf1519d029fc58fea90bed7ceb7e7759",
+  "_size": 5377,
   "appid": "4274730",
   "common": {
     "associations": {
@@ -34,9 +58,9 @@
     "clienticns": "3944b3f25a0cbee0355d5ee16ee98ee3abb72da9",
     "clienticon": "1ffa993729772161ee71c7585d1511fda6fa723b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4274730",
     "genres": {
       "0": "3",
@@ -108,10 +132,13 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "4aad59b7ae3b92ab773aa2da8ac89cc79355023d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791896433",
     "store_asset_mtime": "1791892256",
     "store_tags": {
       "0": "454187",
@@ -143,5 +170,113 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Roguefort",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "roguefort.app"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "roguefort.exe"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "roguefort-launch.sh"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4274731": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "761504112",
+          "gid": "5194817596199531350",
+          "size": "1105067987"
+        }
+      }
+    },
+    "4274732": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "826151328",
+          "gid": "1767347073344290159",
+          "size": "1246869526"
+        }
+      }
+    },
+    "4274733": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "740706464",
+          "gid": "8220362214781290835",
+          "size": "1057799454"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25898889",
+        "timebuildupdated": "1791864874",
+        "timeupdated": "1791864964"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Timothy Graham",
+    "homepage": "https://playroguefort.com/",
+    "publisher": "Timothy Graham"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "5000000000",
+    "savefiles": {
+      "0": {
+        "path": "roguefort\\saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "roguefort/saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": "roguefort/saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxXdgConfigHome"
+      }
+    }
+  }
 }
