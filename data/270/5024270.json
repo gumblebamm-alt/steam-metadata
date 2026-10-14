@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791895298,
-  "_history": [],
-  "_change_number": 39736982,
-  "_missing_token": true,
-  "_sha": "f6c50570826472f2d7d8588642e415be95129ed5",
-  "_size": 4440,
+  "_lastChecked": 1791982446,
+  "_history": [
+    {
+      "buildId": "25921985",
+      "branch": "public",
+      "timeUpdated": 1791940213,
+      "firstSeen": 1791982446,
+      "manifests": {
+        "5024271": {
+          "gid": "7225296744066240794",
+          "size": 184706724,
+          "download": 119367472
+        }
+      }
+    }
+  ],
+  "_change_number": 39817467,
+  "_missing_token": false,
+  "_sha": "f15c0a265f8cb09c899cb638005ba4ca9683c3c4",
+  "_size": 6821,
   "appid": "5024270",
   "common": {
     "associations": {
@@ -24,7 +38,6 @@
     "clienticon": "1dadb49642a73f986f533dacdea164d70cb92bf7",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5024270",
     "genres": {
       "0": "28",
@@ -113,11 +126,74 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "92",
+    "review_score": "7",
     "small_capsule": {
       "english": "d4cc17accc43345c0d887cb18a8c07a0e6bc4f00/capsule_231x87.jpg",
       "schinese": "ac178b0d618840c501ca52ff7ee7f0f60d23f126/capsule_231x87_schinese.jpg",
       "tchinese": "9b37ed48a39aac33eb04d7a9b323a8e4441bfa50/capsule_231x87_tchinese.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1788198228",
+      "tested_build_id": "24544345",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
     },
     "store_asset_mtime": "1786333175",
     "store_tags": {
@@ -151,5 +227,40 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "末日包租公",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5024271": {
+      "manifests": {
+        "public": {
+          "download": "119367472",
+          "gid": "7225296744066240794",
+          "size": "184706724"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25921985",
+        "timebuildupdated": "1791939562",
+        "timeupdated": "1791940213"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "包租公",
+    "publisher": "包租公"
+  }
 }

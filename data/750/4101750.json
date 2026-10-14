@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791040080,
-  "_history": [],
-  "_change_number": 39105917,
-  "_missing_token": true,
-  "_sha": "c6549e6538fd348d0e775aeaec371f5a6ea66ad0",
-  "_size": 3718,
+  "_lastChecked": 1791982432,
+  "_history": [
+    {
+      "buildId": "25926922",
+      "branch": "public",
+      "timeUpdated": 1791960078,
+      "firstSeen": 1791982432,
+      "manifests": {
+        "4101751": {
+          "gid": "5703476457489376375",
+          "size": 1730314864,
+          "download": 351453888
+        },
+        "4101752": {
+          "gid": "4367634639775247499",
+          "size": 1736654544,
+          "download": 353896912
+        }
+      }
+    }
+  ],
+  "_change_number": 39807474,
+  "_missing_token": false,
+  "_sha": "88e139667615e0c2506b5fb2d65a2e1cf62514d5",
+  "_size": 5220,
   "appid": "4101750",
   "common": {
     "associations": {
@@ -32,7 +51,6 @@
     "clienticon": "97c850cab295af2527d84b3d38df26ca02b14d6e",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4101750",
     "genres": {
       "0": "1",
@@ -104,10 +122,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "94df39da9c7b07702d16da30c4ece7742ae0ce02/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791961270",
     "store_asset_mtime": "1790105053",
     "store_tags": {
       "0": "3843",
@@ -175,5 +194,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Phobos",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "phobos_windows_64bit.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "phobos_linux_64bit.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "--rendering-driver d3d12",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "PHOBOS (DirectX 12)",
+        "description_loc": {
+          "english": "PHOBOS (DirectX 12)"
+        },
+        "executable": "phobos_windows_64bit.exe",
+        "type": "option3"
+      }
+    }
+  },
+  "depots": {
+    "4101751": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "351453888",
+          "gid": "5703476457489376375",
+          "size": "1730314864"
+        }
+      }
+    },
+    "4101752": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "353896912",
+          "gid": "4367634639775247499",
+          "size": "1736654544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25926922",
+        "timebuildupdated": "1791960039",
+        "timeupdated": "1791960078"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "FourDots",
+    "publisher": "FourDots"
+  }
 }

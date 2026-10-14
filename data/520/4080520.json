@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791940036,
+  "_lastChecked": 1791982417,
   "_history": [
     {
       "buildId": "25888893",
@@ -20,13 +20,32 @@
       }
     },
     {
-      "buildId": "",
+      "buildId": "25928321",
       "branch": "public",
-      "timeUpdated": 1791880729,
+      "timeUpdated": 1791967546,
       "firstSeen": 1791939287,
       "manifests": {
         "4080521": {
           "gid": "5211663932915681444",
+          "size": null,
+          "download": null
+        },
+        "4080522": {
+          "gid": "5948462275967426801",
+          "size": 10968758018,
+          "download": 2368095008
+        }
+      },
+      "_source": "hubcap"
+    },
+    {
+      "buildId": "",
+      "branch": "public",
+      "timeUpdated": 1791962330,
+      "firstSeen": 1791982363,
+      "manifests": {
+        "4080521": {
+          "gid": "6098317941002397663",
           "size": null,
           "download": null
         }
@@ -34,10 +53,10 @@
       "_source": "hubcap"
     }
   ],
-  "_change_number": 39796907,
+  "_change_number": 39810352,
   "_missing_token": false,
-  "_sha": "d765b4190ad712be209523415d3a32976d2ddb52",
-  "_size": 4145,
+  "_sha": "1472a9849cf520113d9df114583da3941fd2cb48",
+  "_size": 4607,
   "appid": "4080520",
   "common": {
     "associations": {
@@ -142,7 +161,7 @@
     "oslist": "windows,linux",
     "primary_genre": "1",
     "releasestate": "released",
-    "review_percentage": "87",
+    "review_percentage": "85",
     "review_score": "8",
     "small_capsule": {
       "english": "866648af73e2b28f71a7bb722953a8acf65f2ec9/capsule_231x87.jpg"
@@ -179,6 +198,10 @@
         "config": {
           "oslist": "windows"
         },
+        "description": "Use Vulkan Rendering (default)",
+        "description_loc": {
+          "english": "Use Vulkan Rendering (default)"
+        },
         "executable": "skull_game.exe",
         "type": "default"
       },
@@ -189,6 +212,18 @@
         },
         "executable": "skull_game.x86_64",
         "type": "default"
+      },
+      "2": {
+        "arguments": "--rendering-driver d3d12",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "using Direct3d12 Rendering (compatibility)",
+        "description_loc": {
+          "english": "using Direct3d12 Rendering (compatibility)"
+        },
+        "executable": "skull_game.exe",
+        "type": "option1"
       }
     }
   },
@@ -199,9 +234,9 @@
       },
       "manifests": {
         "public": {
-          "download": "2395596928",
-          "gid": "5211663932915681444",
-          "size": "11017941540"
+          "download": "2379653904",
+          "gid": "6098317941002397663",
+          "size": "10998689771"
         }
       }
     },
@@ -212,17 +247,17 @@
       },
       "manifests": {
         "public": {
-          "download": "2368089760",
-          "gid": "8515459559619207949",
-          "size": "10968753423"
+          "download": "2368095008",
+          "gid": "5948462275967426801",
+          "size": "10968758018"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25888893",
-        "timebuildupdated": "1791828002",
-        "timeupdated": "1791828942"
+        "buildid": "25928321",
+        "timebuildupdated": "1791965461",
+        "timeupdated": "1791967546"
       }
     },
     "privatebranches": "1"

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791376844,
+  "_lastChecked": 1791982452,
   "_history": [
     {
       "buildId": "25652907",
@@ -39,12 +39,30 @@
           "download": 906949504
         }
       }
+    },
+    {
+      "buildId": "25932464",
+      "branch": "public",
+      "timeUpdated": 1791978830,
+      "firstSeen": 1791982452,
+      "manifests": {
+        "5230221": {
+          "gid": "8942185227469138490",
+          "size": 1302853106,
+          "download": 1064229840
+        },
+        "5230222": {
+          "gid": "1118494151725739926",
+          "size": 1454309923,
+          "download": 1132177216
+        }
+      }
     }
   ],
-  "_change_number": 39500456,
+  "_change_number": 39816929,
   "_missing_token": false,
-  "_sha": "18bc5e63930e0159d4bdcf22f74ef3dd7fc7b212",
-  "_size": 7860,
+  "_sha": "f6ab5eccc0ed0dff5b6b756ec860ab0981d426f6",
+  "_size": 8485,
   "appid": "5230220",
   "common": {
     "aicontenttype": "1",
@@ -65,6 +83,8 @@
       "category_23": "1",
       "category_25": "1",
       "category_28": "1",
+      "category_36": "1",
+      "category_49": "1",
       "category_55": "1",
       "category_62": "1",
       "category_67": "1",
@@ -166,11 +186,12 @@
       "tchinese": "言葉遠征 ~~日語學習RPG~~"
     },
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "90",
+    "review_percentage": "87",
     "review_score": "8",
     "small_capsule": {
       "english": "4c6a9bedae05200fb0c92ebabb022e957db8efc4/capsule_231x87.jpg",
@@ -287,25 +308,49 @@
     "installdir": "Kotoba",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "kotoba.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "言葉遠征.app"
       }
     }
   },
   "depots": {
     "5230221": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "906949504",
-          "gid": "8323764122912850299",
-          "size": "1145680684"
+          "download": "1064229840",
+          "gid": "8942185227469138490",
+          "size": "1302853106"
+        }
+      }
+    },
+    "5230222": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1132177216",
+          "gid": "1118494151725739926",
+          "size": "1454309923"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25712551",
-        "timebuildupdated": "1791133621",
-        "timeupdated": "1791133838"
+        "buildid": "25932464",
+        "timebuildupdated": "1791978047",
+        "timeupdated": "1791978830"
       }
     },
     "privatebranches": "1"
@@ -317,13 +362,19 @@
   "ufs": {
     "maxnumfiles": "100",
     "quota": "536870912",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "言葉遠征/saves",
         "pattern": "save-*.json",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataRoaming"
       }
     }

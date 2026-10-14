@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791333780,
-  "_history": [],
-  "_change_number": 39471714,
-  "_missing_token": true,
-  "_sha": "54c004c4ce18ada2affa2f870786d80cf953955c",
-  "_size": 3692,
+  "_lastChecked": 1791982452,
+  "_history": [
+    {
+      "buildId": "25916582",
+      "branch": "public",
+      "timeUpdated": 1791941967,
+      "firstSeen": 1791982452,
+      "manifests": {
+        "5268461": {
+          "gid": "3075228997912412972",
+          "size": 435884672,
+          "download": 301574096
+        }
+      }
+    }
+  ],
+  "_change_number": 39800250,
+  "_missing_token": false,
+  "_sha": "0f81b3d53fe644c8718a1468e60e919d7160c751",
+  "_size": 4814,
   "appid": "5268460",
   "common": {
     "aicontenttype": "1",
@@ -33,6 +47,7 @@
     },
     "clienticon": "668c83fc791bd678de069ba62e0a652a4fce7b13",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -42,7 +57,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5268460",
     "genres": {
       "0": "23",
@@ -123,12 +137,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8c370dacb681d2c611296ddc819e525d2551a216/capsule_231x87.jpg",
       "schinese": "8c370dacb681d2c611296ddc819e525d2551a216/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1789798387",
+    "steam_release_date": "1791330703",
+    "store_asset_mtime": "1791942211",
     "store_tags": {
       "0": "791774",
       "1": "9",
@@ -166,5 +181,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "三国 · 烽火尖塔",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Fenghuota.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5268461": {
+      "manifests": {
+        "public": {
+          "download": "301574096",
+          "gid": "3075228997912412972",
+          "size": "435884672"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25916582",
+        "timebuildupdated": "1791920626",
+        "timeupdated": "1791941967"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Yang",
+    "publisher": "Yang"
+  },
+  "ufs": {
+    "maxnumfiles": "8",
+    "quota": "67108864",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Fenghuota/steam/{64BitSteamID}",
+        "pattern": "run.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Fenghuota/steam/{64BitSteamID}",
+        "pattern": "run.json.profile.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

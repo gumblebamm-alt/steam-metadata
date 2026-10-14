@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791852304,
-  "_history": [],
-  "_change_number": 39760163,
-  "_missing_token": true,
-  "_sha": "932b8bcd751ebf54a890bd3125e811ccedb3b841",
-  "_size": 3319,
+  "_lastChecked": 1791982449,
+  "_history": [
+    {
+      "buildId": "25919470",
+      "branch": "public",
+      "timeUpdated": 1791930298,
+      "firstSeen": 1791982449,
+      "manifests": {
+        "5128281": {
+          "gid": "8656520772249624820",
+          "size": 4890171259,
+          "download": 3347351344
+        }
+      }
+    }
+  ],
+  "_change_number": 39815752,
+  "_missing_token": false,
+  "_sha": "ca06d6426bef37e41eb14d05abfeb0f0d138d4e1",
+  "_size": 4470,
   "appid": "5128280",
   "common": {
     "aicontenttype": "1",
@@ -29,7 +43,6 @@
     "clienticon": "2512348e997318bee5504d351eccdfbc0c3032d9",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5128280",
     "genres": {
       "0": "25",
@@ -103,11 +116,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "298b62ea3c13cf39f1e2c204ba905734d43ab961/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791849038",
+    "steam_release_date": "1791975093",
+    "store_asset_mtime": "1791976594",
     "store_tags": {
       "0": "701",
       "1": "15564",
@@ -155,5 +169,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Halley's Big Catch",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play",
+        "description_loc": {
+          "english": "Play"
+        },
+        "executable": "HalleysBigCatch.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5128281": {
+      "manifests": {
+        "public": {
+          "download": "3347351344",
+          "gid": "8656520772249624820",
+          "size": "4890171259"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25919470",
+        "timebuildupdated": "1791930177",
+        "timeupdated": "1791930298"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "ACCDevWorks",
+    "homepage": "https://accdevworks.com/halleys-big-catch.html",
+    "publisher": "ACCDevWorks"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Halley's Big Catch",
+        "pattern": "halleys_big_catch_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

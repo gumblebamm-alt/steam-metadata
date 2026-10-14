@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791247331,
-  "_history": [],
-  "_change_number": 39473482,
-  "_missing_token": true,
-  "_sha": "5378feb97cdca752ffc29bc7f7ee1eb99c143369",
-  "_size": 3766,
+  "_lastChecked": 1791982437,
+  "_history": [
+    {
+      "buildId": "25932806",
+      "branch": "public",
+      "timeUpdated": 1791979041,
+      "firstSeen": 1791982437,
+      "manifests": {
+        "4519511": {
+          "gid": "3979724066650771751",
+          "size": 754704472,
+          "download": 493845040
+        }
+      }
+    }
+  ],
+  "_change_number": 39816924,
+  "_missing_token": false,
+  "_sha": "1afbcd780eb63036567a77773f4bac4597d9ccc3",
+  "_size": 4983,
   "appid": "4519510",
   "common": {
     "associations": {
@@ -28,6 +42,7 @@
     },
     "clienticon": "1595ed8b11a9d2b9d54fc846029ca1f8debfd7d8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -35,7 +50,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4519510",
     "genres": {
       "0": "1",
@@ -106,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9ae6221b49f61a8675d720fc1682c9492d556a3f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791950704",
     "store_asset_mtime": "1791120840",
     "store_tags": {
       "0": "3978",
@@ -177,5 +192,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Keysaster",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Keysaster.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4519511": {
+      "manifests": {
+        "public": {
+          "download": "493845040",
+          "gid": "3979724066650771751",
+          "size": "754704472"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,indonesian,italian,japanese,koreana,portuguese,russian,schinese,spanish,tchinese,thai",
+    "branches": {
+      "public": {
+        "buildid": "25932806",
+        "timebuildupdated": "1791978989",
+        "timeupdated": "1791979041"
+      }
+    }
+  },
+  "extended": {
+    "developer": "xoquloz",
+    "publisher": "xoquloz"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "100000",
+    "savefiles": {
+      "0": {
+        "path": "Keysaster\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
