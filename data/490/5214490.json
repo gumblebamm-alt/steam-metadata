@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792025690,
-  "_history": [],
-  "_change_number": 39821726,
-  "_missing_token": true,
-  "_sha": "699d8d6979fef07522d8805e35e5f4e9dace27a2",
-  "_size": 3050,
+  "_lastChecked": 1792069034,
+  "_history": [
+    {
+      "buildId": "25577165",
+      "branch": "public",
+      "timeUpdated": 1790596325,
+      "firstSeen": 1792069034,
+      "manifests": {
+        "5214491": {
+          "gid": "5250406054259181767",
+          "size": 202527936,
+          "download": 80208624
+        },
+        "5214492": {
+          "gid": "5076680365701663753",
+          "size": 166926344,
+          "download": 70854768
+        }
+      }
+    }
+  ],
+  "_change_number": 39847214,
+  "_missing_token": false,
+  "_sha": "5e3ae697906441cdd2d0e3d2d7652b2030dd5453",
+  "_size": 4912,
   "appid": "5214490",
   "common": {
     "associations": {
@@ -31,9 +50,9 @@
     },
     "clienticon": "cf59c7621efc04e169ce2e4edad99cd158adcd33",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5214490",
     "genres": {
       "0": "1",
@@ -104,7 +123,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fecd201cf85e9e5d1ff466b7cbab9a68e4376ee0/capsule_231x87.jpg"
     },
@@ -134,5 +153,101 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Colors Of V",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ColorsOfV.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "ColorsOfV.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5214491": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "80208624",
+          "gid": "5250406054259181767",
+          "size": "202527936"
+        }
+      }
+    },
+    "5214492": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "70854768",
+          "gid": "5076680365701663753",
+          "size": "166926344"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25577165",
+        "timebuildupdated": "1790596278",
+        "timeupdated": "1790596325"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Ioannis Tzanellis",
+    "homepage": "https://www.7towersoft-games.com/blank",
+    "publisher": "7 Towers Soft Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Colors Of V",
+            "replace": "godot/app_userdata/Colors Of V"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Colors Of V",
+        "pattern": "save.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Colors Of V",
+        "pattern": "scores.txt ",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Colors Of V",
+        "pattern": "player.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1792025654,
-  "_history": [],
-  "_change_number": 39831006,
-  "_missing_token": true,
-  "_sha": "b13085e2125851ffc4302ac7a90772cfa11b1d6d",
-  "_size": 10051,
+  "_lastChecked": 1792068985,
+  "_history": [
+    {
+      "buildId": "25042025",
+      "branch": "public",
+      "timeUpdated": 1788284133,
+      "firstSeen": 1792068924,
+      "manifests": {
+        "228988": {
+          "gid": "6645201662696499616",
+          "size": null,
+          "download": null
+        },
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "3591181": {
+          "gid": "6716772951648559248",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39856968,
+  "_missing_token": false,
+  "_sha": "ea99867406b5409c3824236e6690f2358de8cfe8",
+  "_size": 11943,
   "appid": "3591180",
   "common": {
     "associations": {
@@ -34,9 +59,9 @@
     },
     "clienticon": "893c749870c7da3ee2e24de2cb8b515e5ef5f4fe",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3591180",
     "genres": {
       "0": "25",
@@ -168,7 +193,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f186640fe1f7043cb99d029f5daada3b925a75b6/capsule_231x87.jpg",
       "french": "f186640fe1f7043cb99d029f5daada3b925a75b6/capsule_231x87_french.jpg",
@@ -238,6 +263,7 @@
         }
       }
     },
+    "steam_release_date": "1792036830",
     "store_asset_mtime": "1787247341",
     "store_tags": {
       "0": "21",
@@ -281,5 +307,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Harvest Moon Echoes of Teradea",
+    "launch": {
+      "0": {
+        "executable": "Harvest Moon Echoes of Teradea.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "15",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3591181": {
+      "manifests": {
+        "public": {
+          "download": "3238404496",
+          "gid": "6716772951648559248",
+          "size": "3920700761"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,japanese,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25042025",
+        "timebuildupdated": "1788199801",
+        "timeupdated": "1788284133"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Natsume Inc.",
+    "dlcavailableonstore": "1",
+    "listofdlc": "4590370",
+    "publisher": "Natsume Inc."
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "128000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "{64BitSteamID}",
+            "replace": "Natsume Inc_\\Harvest Moon_ Echoes of Teradea\\{64BitSteamID}"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "WinAppDataLocalLow"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "/{64BitSteamID}",
+            "replace": "Natsume Inc_\\Harvest Moon Echoes of Teradea"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "{64BitSteamID}",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

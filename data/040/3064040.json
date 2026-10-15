@@ -1,10 +1,45 @@
 {
-  "_lastChecked": 1791982424,
-  "_history": [],
-  "_change_number": 39787264,
-  "_missing_token": true,
-  "_sha": "19e2cf02984670fdcf647cad724b4aca0aebe692",
-  "_size": 7055,
+  "_lastChecked": 1792068983,
+  "_history": [
+    {
+      "buildId": "25432912",
+      "branch": "public",
+      "timeUpdated": 1790947614,
+      "firstSeen": 1792068903,
+      "manifests": {
+        "228988": {
+          "gid": "6645201662696499616",
+          "size": null,
+          "download": null
+        },
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "3064041": {
+          "gid": "8386733729171821290",
+          "size": null,
+          "download": null
+        },
+        "3064042": {
+          "gid": "2651290240370805660",
+          "size": 2698751028,
+          "download": 2293683088
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39849971,
+  "_missing_token": false,
+  "_sha": "08daf17463a519112eab8d80f65f1ee437200390",
+  "_size": 8706,
   "appid": "3064040",
   "common": {
     "associations": {
@@ -29,6 +64,7 @@
     "clienticon": "c14f9bfd916daa95f465f49555c8c3338d71e89b",
     "clienttga": "c9df7a9cc0ec9ca5d07c3bcee8c9a49656e3e265",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -36,10 +72,9 @@
         "id": "3064040_eula_0",
         "name": "Bluey's Happy Snaps EULA",
         "url": "https://store.steampowered.com//eula/3064040_eula_0",
-        "version": "3"
+        "version": "4"
       }
     },
-    "exfgls": "8",
     "gameid": "3064040",
     "genres": {
       "0": "25",
@@ -132,7 +167,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7f338bfe5d8365eff6cd9bd72e644be0b34c9e43/capsule_231x87.jpg",
       "japanese": "25132cc852042ed81b7658e322ac37f421d07b0f/capsule_231x87_japanese.jpg"
@@ -206,7 +241,8 @@
         }
       }
     },
-    "store_asset_mtime": "1791352783",
+    "steam_release_date": "1792047530",
+    "store_asset_mtime": "1791969265",
     "store_tags": {
       "0": "21",
       "1": "597",
@@ -270,5 +306,93 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BMC",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BMC.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "7",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3064041": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2879749616",
+          "gid": "8386733729171821290",
+          "size": "3486861427"
+        }
+      }
+    },
+    "3064042": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2293683088",
+          "gid": "2651290240370805660",
+          "size": "2698751028"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25432912",
+        "timebuildupdated": "1789981112",
+        "timeupdated": "1790947614"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Gameloft",
+    "homepage": "http://gameloft.com/game/bluey",
+    "listofdlc": "4573490",
+    "publisher": "Gameloft"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "2000000000",
+    "savefiles": {
+      "0": {
+        "path": "BMC\\Saved\\SaveGames\\{64BitSteamID}",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
