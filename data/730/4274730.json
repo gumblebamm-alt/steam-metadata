@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791940066,
+  "_lastChecked": 1792025628,
   "_history": [
     {
       "buildId": "25898889",
@@ -23,12 +23,36 @@
           "download": 740706464
         }
       }
+    },
+    {
+      "buildId": "25947889",
+      "branch": "public",
+      "timeUpdated": 1792025183,
+      "firstSeen": 1792025568,
+      "manifests": {
+        "4274731": {
+          "gid": "269342245730142030",
+          "size": null,
+          "download": null
+        },
+        "4274732": {
+          "gid": "8706469676089748470",
+          "size": null,
+          "download": null
+        },
+        "4274733": {
+          "gid": "7474671746321736804",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
     }
   ],
-  "_change_number": 39790706,
+  "_change_number": 39841583,
   "_missing_token": false,
-  "_sha": "e8d222b0cf1519d029fc58fea90bed7ceb7e7759",
-  "_size": 5377,
+  "_sha": "3d21c1f566004539a93b559c05238472ddbb55f3",
+  "_size": 5415,
   "appid": "4274730",
   "common": {
     "associations": {
@@ -133,8 +157,8 @@
     "oslist": "windows,macos,linux",
     "primary_genre": "3",
     "releasestate": "released",
-    "review_percentage": "100",
-    "review_score": "7",
+    "review_percentage": "95",
+    "review_score": "8",
     "small_capsule": {
       "english": "4aad59b7ae3b92ab773aa2da8ac89cc79355023d/capsule_231x87.jpg"
     },
@@ -171,6 +195,12 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "Roguefort",
     "launch": {
       "0": {
@@ -203,9 +233,9 @@
       },
       "manifests": {
         "public": {
-          "download": "761504112",
-          "gid": "5194817596199531350",
-          "size": "1105067987"
+          "download": "761479984",
+          "gid": "237440997430204458",
+          "size": "1105075060"
         }
       }
     },
@@ -215,9 +245,9 @@
       },
       "manifests": {
         "public": {
-          "download": "826151328",
-          "gid": "1767347073344290159",
-          "size": "1246869526"
+          "download": "826119952",
+          "gid": "3889791944776912934",
+          "size": "1246876599"
         }
       }
     },
@@ -227,17 +257,17 @@
       },
       "manifests": {
         "public": {
-          "download": "740706464",
-          "gid": "8220362214781290835",
-          "size": "1057799454"
+          "download": "740673024",
+          "gid": "3149682292594816172",
+          "size": "1057806433"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25898889",
-        "timebuildupdated": "1791864874",
-        "timeupdated": "1791864964"
+        "buildid": "25947889",
+        "timebuildupdated": "1792024920",
+        "timeupdated": "1792025183"
       }
     }
   },
@@ -249,33 +279,28 @@
   "ufs": {
     "maxnumfiles": "500",
     "quota": "5000000000",
-    "savefiles": {
+    "rootoverrides": {
       "0": {
-        "path": "roguefort\\saves",
-        "pattern": "*",
-        "platforms": {
-          "1": "Windows"
-        },
-        "recursive": "1",
-        "root": "WinAppDataRoaming"
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
       },
       "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
         "path": "roguefort/saves",
         "pattern": "*",
-        "platforms": {
-          "1": "MacOS"
-        },
         "recursive": "1",
-        "root": "MacAppSupport"
-      },
-      "2": {
-        "path": "roguefort/saves",
-        "pattern": "*",
-        "platforms": {
-          "1": "Linux"
-        },
-        "recursive": "1",
-        "root": "LinuxXdgConfigHome"
+        "root": "WinAppDataRoaming"
       }
     }
   }

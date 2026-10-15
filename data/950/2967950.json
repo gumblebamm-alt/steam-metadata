@@ -1,10 +1,25 @@
 {
-  "_lastChecked": 1791982424,
-  "_history": [],
-  "_change_number": 39818642,
-  "_missing_token": true,
-  "_sha": "2738f66ee159a4e4a9818aa5b2d6480eba944fd5",
-  "_size": 3608,
+  "_lastChecked": 1792025627,
+  "_history": [
+    {
+      "buildId": "25756850",
+      "branch": "public",
+      "timeUpdated": 1791532589,
+      "firstSeen": 1792025536,
+      "manifests": {
+        "2967951": {
+          "gid": "8674536197429423828",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39839525,
+  "_missing_token": false,
+  "_sha": "c66cbcf3a28a8edc43296c433e9cf386156d14c9",
+  "_size": 6391,
   "appid": "2967950",
   "common": {
     "associations": {
@@ -31,9 +46,9 @@
     "clienticon": "166a34d213473f3020d327008a0a7f0f02f5a47e",
     "clienttga": "daa4b6cbd27e0488c30810ac2137e563a3ec76e6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2967950",
     "genres": {
       "0": "25",
@@ -109,16 +124,80 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "97",
+    "review_score": "7",
     "small_capsule": {
       "english": "af8db0d80cbbaed8db31580689945d9abaa904aa/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791967501",
+    "steam_deck_compatibility": {
+      "category": "3",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1790363058",
+      "tested_build_id": "25509397",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1791986177",
+    "store_asset_mtime": "1791986231",
     "store_tags": {
       "0": "97376",
       "1": "1742",
-      "10": "3799",
-      "11": "552282",
+      "10": "552282",
+      "11": "3799",
       "12": "44868",
       "13": "4305",
       "14": "3920",
@@ -172,5 +251,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Witch's Bakery",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "The Witch's Bakery.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2967951": {
+      "manifests": {
+        "public": {
+          "download": "2682157696",
+          "gid": "8674536197429423828",
+          "size": "6342263168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25756850",
+        "timebuildupdated": "1791303809",
+        "timeupdated": "1791532589"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Sunny Lab",
+    "homepage": "https://sunnylabgames.com/",
+    "publisher": "Silver Lining Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Sunny Lab/The Witch's Bakery/GameFiles/Slot_0/",
+        "pattern": "*.lunne",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791940058,
-  "_history": [],
-  "_change_number": 39784425,
-  "_missing_token": true,
-  "_sha": "1106a178b51383c8baf7cc39cb0fa85b3acd5506",
-  "_size": 3159,
+  "_lastChecked": 1792025655,
+  "_history": [
+    {
+      "buildId": "25936438",
+      "branch": "public",
+      "timeUpdated": 1791988837,
+      "firstSeen": 1792025655,
+      "manifests": {
+        "3701211": {
+          "gid": "3001187186155741081",
+          "size": 641353842,
+          "download": 305603920
+        },
+        "3701212": {
+          "gid": "6642574124645799796",
+          "size": 609097449,
+          "download": 297793952
+        }
+      }
+    }
+  ],
+  "_change_number": 39825771,
+  "_missing_token": false,
+  "_sha": "09ac4f0502572fa2b053b1c54523ada5132459a6",
+  "_size": 5223,
   "appid": "3701210",
   "common": {
     "associations": {
@@ -33,9 +52,9 @@
     },
     "clienticon": "0d550e945120d0afae5451bcdf714ec1ec107cff",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3701210",
     "genres": {
       "0": "23",
@@ -110,10 +129,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e2c93dfbae5cba5052e08a41179055b51d05be1f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791993598",
     "store_asset_mtime": "1791906826",
     "store_tags": {
       "0": "3834",
@@ -142,5 +162,107 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "FerryGoodDay",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch with DX12",
+        "description_loc": {
+          "english": "Launch with DX12"
+        },
+        "executable": "FerryGoodDay.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "FerryGoodDay.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "--rendering-driver vulkan",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "with Vulkan graphics",
+        "description_loc": {
+          "english": "with Vulkan graphics"
+        },
+        "executable": "FerryGoodDay.exe",
+        "type": "option1"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3701211": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "305603920",
+          "gid": "3001187186155741081",
+          "size": "641353842"
+        }
+      }
+    },
+    "3701212": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "297793952",
+          "gid": "6642574124645799796",
+          "size": "609097449"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "25936438",
+        "timebuildupdated": "1791988702",
+        "timeupdated": "1791988837"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "AstroTechnician",
+    "publisher": "AstroTechnician"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "FerryGoodDay/saves",
+        "pattern": "progress.dat",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "FerryGoodDay/saves",
+        "pattern": "progress_backup.dat",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

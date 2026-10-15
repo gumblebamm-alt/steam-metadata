@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791593011,
+  "_lastChecked": 1792025680,
   "_history": [
     {
       "buildId": "25805984",
@@ -20,10 +20,10 @@
       }
     }
   ],
-  "_change_number": 39661920,
+  "_change_number": 39826611,
   "_missing_token": false,
-  "_sha": "083c993d875bba71d884baeff37cbd28c5587180",
-  "_size": 4944,
+  "_sha": "90c9320d02c1d3e38e2386bd11aa3b22ec24dd96",
+  "_size": 5455,
   "appid": "4959180",
   "common": {
     "associations": {
@@ -122,7 +122,7 @@
     "osarch": "",
     "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "1",
     "releasestate": "released",
     "small_capsule": {
@@ -178,6 +178,9 @@
     "installdir": "Blaster!",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "description": "launch game",
         "description_loc": {
           "english": "launch game"
@@ -187,6 +190,7 @@
       },
       "1": {
         "config": {
+          "oslist": "windows",
           "ownsdlc": "5173900"
         },
         "description": "Wallpapers",
@@ -194,11 +198,25 @@
           "english": "Wallpapers"
         },
         "executable": "ddc.cmd"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Play Blaster! (Linux)",
+        "description_loc": {
+          "english": "Play Blaster! (Linux)"
+        },
+        "executable": "Start_BLASTER.sh",
+        "type": "default"
       }
     }
   },
   "depots": {
     "4959181": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "download": "2235953200",
@@ -206,6 +224,12 @@
           "size": "3079494757"
         }
       }
+    },
+    "4959182": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {}
     },
     "5173900": {
       "dlcappid": "5173900",
@@ -217,13 +241,15 @@
         }
       }
     },
+    "baselanguages": "english",
     "branches": {
       "public": {
         "buildid": "25805984",
         "timebuildupdated": "1791469056",
         "timeupdated": "1791469057"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Metropolis",

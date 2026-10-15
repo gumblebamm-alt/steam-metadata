@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1791982444,
-  "_history": [],
-  "_change_number": 39811746,
-  "_missing_token": true,
-  "_sha": "083cfca91ce3145f749db678436a9d7c7b47f699",
-  "_size": 3664,
+  "_lastChecked": 1792025627,
+  "_history": [
+    {
+      "buildId": "25934438",
+      "branch": "public",
+      "timeUpdated": 1791983632,
+      "firstSeen": 1792025518,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "4938791": {
+          "gid": "2121491205039017368",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39840229,
+  "_missing_token": false,
+  "_sha": "b077ea190360370e617619154cb5d8c6dfe97dea",
+  "_size": 5985,
   "appid": "4938790",
   "common": {
     "associations": {
@@ -34,9 +59,9 @@
     },
     "clienticon": "818a767652bd0ffe399c9d11435e7c0aab4374cc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4938790",
     "genres": {
       "0": "4",
@@ -118,11 +143,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fbfa803490807229abfcbf7d60e3758b97586e39/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791940865",
+    "steam_release_date": "1792019064",
+    "store_asset_mtime": "1792021581",
     "store_tags": {
       "0": "1239876",
       "1": "97376",
@@ -171,5 +197,121 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gallery Organizer",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "GalleryOrganizer.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4938791": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "download": "1954045568",
+          "gid": "2121491205039017368",
+          "size": "2117137687"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,japanese,koreana,russian,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25934438",
+        "timebuildupdated": "1791983576",
+        "timeupdated": "1791983632"
+      }
+    }
+  },
+  "extended": {
+    "developer": "7D Games Studio",
+    "homepage": "https://7dgames.studio/",
+    "publisher": "7D Games Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "CZSM1\\Saved\\SaveGames",
+        "pattern": "Slots.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "CZSM1\\Saved\\SaveGames",
+        "pattern": "CompletedGameStats.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "CZSM1\\Saved\\SaveGames",
+        "pattern": "GlobalTutorialStatus.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "3": {
+        "path": "CZSM1\\Saved\\SaveGames\\Levels",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "4": {
+        "path": "CZSM1\\Saved\\SaveGames\\Levels",
+        "pattern": "*.jpg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "5": {
+        "path": "CZSM1\\Saved\\SaveGames\\Checkpoints",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "6": {
+        "path": "CZSM1\\Saved\\SaveGames\\Checkpoints",
+        "pattern": "*.jpg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

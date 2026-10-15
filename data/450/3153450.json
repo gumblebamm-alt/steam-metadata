@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1791982425,
-  "_history": [],
-  "_change_number": 39816188,
-  "_missing_token": true,
-  "_sha": "0a2138d82c3a19ac1e7e6d5c6b4a893b925a3af8",
-  "_size": 3314,
+  "_lastChecked": 1792025649,
+  "_history": [
+    {
+      "buildId": "25935910",
+      "branch": "public",
+      "timeUpdated": 1791987464,
+      "firstSeen": 1792025649,
+      "manifests": {
+        "3153452": {
+          "gid": "117539786526948704",
+          "size": 1191252946,
+          "download": 233853712
+        },
+        "3153453": {
+          "gid": "8820914478336537837",
+          "size": 1240488611,
+          "download": 249028704
+        },
+        "3153454": {
+          "gid": "7542964944980038450",
+          "size": 1252123873,
+          "download": 254552048
+        }
+      }
+    }
+  ],
+  "_change_number": 39823114,
+  "_missing_token": false,
+  "_sha": "bcf24c8b1a3a71167552b91ad28b007e7f439d34",
+  "_size": 5742,
   "appid": "3153450",
   "common": {
     "associations": {
@@ -42,9 +66,9 @@
     },
     "clienticon": "ed4bc791eb2371b4b24202b92224233aa2a65f99",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3153450",
     "genres": {
       "0": "23",
@@ -115,10 +139,11 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9a7c8fe55fe229b07245a8639bd075ea1101f8e9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1791989411",
     "store_asset_mtime": "1786634098",
     "store_tags": {
       "0": "4094",
@@ -147,5 +172,131 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Parallel Park",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ParallelPark.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ParallelPark.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "ParallelPark.x86_64",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input_manifest.vdf",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3153451": {},
+    "3153452": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "233853712",
+          "gid": "117539786526948704",
+          "size": "1191252946"
+        }
+      }
+    },
+    "3153453": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "249028704",
+          "gid": "8820914478336537837",
+          "size": "1240488611"
+        }
+      }
+    },
+    "3153454": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "254552048",
+          "gid": "7542964944980038450",
+          "size": "1252123873"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25935910",
+        "timebuildupdated": "1791987449",
+        "timeupdated": "1791987464"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "3153450"
+  },
+  "extended": {
+    "developer": "Pouchmouse Studios",
+    "publisher": "Pouchmouse Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "5000000000",
+    "savefiles": {
+      "0": {
+        "path": "Pouchmouse\\ParallelPark\\SavesDir\\",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Pouchmouse/ParallelPark/SavesDir/",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": "unity3d/Pouchmouse/ParallelPark/SavesDir/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxXdgConfigHome"
+      }
+    }
+  }
 }

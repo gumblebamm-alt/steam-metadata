@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791333778,
+  "_lastChecked": 1792025690,
   "_history": [
     {
       "buildId": "25083381",
@@ -40,12 +40,43 @@
           "download": 84650752
         }
       }
+    },
+    {
+      "buildId": "25904756",
+      "branch": "linux-beta",
+      "timeUpdated": 1791887682,
+      "firstSeen": 1792025690,
+      "manifests": {
+        "5189091": {
+          "gid": "5072730409480328572",
+          "size": 88032920,
+          "download": 84796768
+        },
+        "5189092": {
+          "gid": "245000710295137490",
+          "size": 378538445,
+          "download": 177692176
+        }
+      }
+    },
+    {
+      "buildId": "25894684",
+      "branch": "public",
+      "timeUpdated": 1791887737,
+      "firstSeen": 1792025690,
+      "manifests": {
+        "5189091": {
+          "gid": "5072730409480328572",
+          "size": 88032920,
+          "download": 84796768
+        }
+      }
     }
   ],
-  "_change_number": 39534108,
+  "_change_number": 39773810,
   "_missing_token": false,
-  "_sha": "06ab3542190796bb3b26b9a1c1b55e940944cc3a",
-  "_size": 3933,
+  "_sha": "3f9fee9e2a7b5f4df9927e56d692ecc3e80964ed",
+  "_size": 4609,
   "appid": "5189090",
   "common": {
     "associations": {
@@ -149,7 +180,7 @@
     "small_capsule": {
       "english": "6e9ddcfe83c248605c33b561b7e8178c950bef2d/capsule_231x87.jpg"
     },
-    "steam_release_date": "1793430000",
+    "steam_release_date": "1790983169",
     "store_asset_mtime": "1787911962",
     "store_tags": {
       "0": "599",
@@ -189,6 +220,13 @@
         },
         "executable": "forkbomb.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "linux-beta",
+          "oslist": "linux"
+        },
+        "executable": "forkbomb.sh"
       }
     }
   },
@@ -198,23 +236,48 @@
         "oslist": "windows"
       },
       "manifests": {
+        "linux-beta": {
+          "download": "84796768",
+          "gid": "5072730409480328572",
+          "size": "88032920"
+        },
         "public": {
-          "download": "84650752",
-          "gid": "2538870556465395353",
-          "size": "87912600"
+          "download": "84796768",
+          "gid": "5072730409480328572",
+          "size": "88032920"
+        }
+      }
+    },
+    "5189092": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "linux-beta": {
+          "download": "177692176",
+          "gid": "245000710295137490",
+          "size": "378538445"
         }
       }
     },
     "branches": {
+      "linux-beta": {
+        "buildid": "25904756",
+        "description": "Fork Bomb Linux",
+        "timebuildupdated": "1791887542",
+        "timeupdated": "1791887682"
+      },
       "public": {
-        "buildid": "25750740",
-        "timebuildupdated": "1791286728",
-        "timeupdated": "1791286917"
+        "buildid": "25894684",
+        "timebuildupdated": "1791847894",
+        "timeupdated": "1791887737"
       }
     }
   },
   "extended": {
     "developer": "Quiet Machines",
+    "homepage": "https://quietmachines.net/fork-bomb/",
     "publisher": "Quiet Machines"
   },
   "ufs": {

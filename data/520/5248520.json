@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791420132,
-  "_history": [],
-  "_change_number": 39593195,
-  "_missing_token": true,
-  "_sha": "b702276a6c10666a6ec40ddde08169daa0db821b",
-  "_size": 9763,
+  "_lastChecked": 1792025691,
+  "_history": [
+    {
+      "buildId": "25928565",
+      "branch": "public",
+      "timeUpdated": 1791968514,
+      "firstSeen": 1792025691,
+      "manifests": {
+        "5248521": {
+          "gid": "5881512694943982914",
+          "size": 219269362,
+          "download": 137868768
+        },
+        "5248522": {
+          "gid": "8881921257823354169",
+          "size": 184325843,
+          "download": 129413856
+        }
+      }
+    }
+  ],
+  "_change_number": 39839177,
+  "_missing_token": false,
+  "_sha": "69cf034a19e3eb9ce5ff52cc83eccd213b0def81",
+  "_size": 11970,
   "appid": "5248520",
   "common": {
     "aicontenttype": "1",
@@ -39,9 +58,9 @@
     },
     "clienticon": "eee64bf30c7951700d6d371a75e1944df5855774",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5248520",
     "genres": {
       "0": "23",
@@ -190,7 +209,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "brazilian": "75932a9979e27a5c375ef7a2734deffb894e7d71/capsule_231x87_brazilian.jpg",
       "english": "603674eec527161e52f52fa0aed8645e9ba0f9a4/capsule_231x87.jpg",
@@ -203,6 +222,7 @@
       "spanish": "75932a9979e27a5c375ef7a2734deffb894e7d71/capsule_231x87_spanish.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/5248520/announcements/detail/697652160492470936",
+    "steam_release_date": "1791986561",
     "store_asset_mtime": "1791330017",
     "store_tags": {
       "0": "1091588",
@@ -257,5 +277,121 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ÓRBITA · La gran tirada",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "orbita.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "orbita.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "betakey": "beta",
+          "osarch": "64",
+          "oslist": "macos"
+        },
+        "executable": "Orbita.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "13",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5248521": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "137868768",
+          "gid": "5881512694943982914",
+          "size": "219269362"
+        }
+      }
+    },
+    "5248522": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "129413856",
+          "gid": "8881921257823354169",
+          "size": "184325843"
+        }
+      }
+    },
+    "5248523": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {}
+    },
+    "branches": {
+      "public": {
+        "buildid": "25928565",
+        "timebuildupdated": "1791966238",
+        "timeupdated": "1791968514"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "BeriaLabs Games",
+    "publisher": "BeriaLabs Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Orbita-Bingo-V4",
+        "pattern": "vitrina.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Orbita-Bingo-V4",
+        "pattern": "partida.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Orbita-Bingo-V4",
+        "pattern": "partida_tutorial.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

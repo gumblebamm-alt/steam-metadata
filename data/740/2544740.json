@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791809527,
-  "_history": [],
-  "_change_number": 39732423,
-  "_missing_token": true,
-  "_sha": "93a34b6e16488d885d25c8a1bfaded4337995ac6",
-  "_size": 7130,
+  "_lastChecked": 1792025643,
+  "_history": [
+    {
+      "buildId": "25944881",
+      "branch": "public",
+      "timeUpdated": 1792013783,
+      "firstSeen": 1792025643,
+      "manifests": {
+        "2544741": {
+          "gid": "5611361248126703584",
+          "size": 8369102630,
+          "download": 7929313008
+        }
+      }
+    }
+  ],
+  "_change_number": 39836986,
+  "_missing_token": false,
+  "_sha": "108300fd44e63bebb2e7fc82dedbd1dd84601620",
+  "_size": 8687,
   "appid": "2544740",
   "common": {
     "aicontenttype": "1",
@@ -34,6 +48,7 @@
     "clienticon": "40a167e7f05522edf2110d74f9a884864d77d222",
     "clienttga": "026dc3557ccb5d18e8159a8b36402a40a02f85b3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
     "eulas": {
@@ -44,7 +59,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "2544740",
     "genres": {
       "0": "25",
@@ -138,7 +152,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b31fc27a83fa707560ac8024ba3ea1d723c6fa35/capsule_231x87.jpg"
     },
@@ -211,7 +225,8 @@
         }
       }
     },
-    "store_asset_mtime": "1791787726",
+    "steam_release_date": "1791990022",
+    "store_asset_mtime": "1792012823",
     "store_tags": {
       "0": "492",
       "1": "5395",
@@ -323,5 +338,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "THANKSLIGHT",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "THANKSLIGHT.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2544741": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "7929313008",
+          "gid": "5611361248126703584",
+          "size": "8369102630"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25944881",
+        "timebuildupdated": "1792013757",
+        "timeupdated": "1792013783"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Lightersgames",
+    "homepage": "https://www.lightersgames.com/",
+    "publisher": "Game Source Entertainment"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "ThanksLight/Saved/SaveGames",
+        "pattern": "*Progression*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "ThanksLight/Saved/SaveGames",
+        "pattern": "*Achievement*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

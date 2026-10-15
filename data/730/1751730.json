@@ -1,10 +1,53 @@
 {
-  "_lastChecked": 1791940047,
-  "_history": [],
-  "_change_number": 39791699,
-  "_missing_token": true,
-  "_sha": "74ef4da0fbbc8b5b2fb01607e3f5f65572f702a6",
-  "_size": 4333,
+  "_lastChecked": 1792025627,
+  "_history": [
+    {
+      "buildId": "25647585",
+      "branch": "public",
+      "timeUpdated": 1790842495,
+      "firstSeen": 1792025529,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "1751731": {
+          "gid": "2389304258877436860",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    },
+    {
+      "buildId": "25647589",
+      "branch": "press",
+      "timeUpdated": 1791219020,
+      "firstSeen": 1792025627,
+      "manifests": {
+        "1751731": {
+          "gid": "3755608191292238097",
+          "size": 19105179930,
+          "download": 18485187152
+        },
+        "1751732": {
+          "gid": "1829214544236182042",
+          "size": 28821215192,
+          "download": 27811433616
+        }
+      }
+    }
+  ],
+  "_change_number": 39837995,
+  "_missing_token": false,
+  "_sha": "1e35b9b133ccb9e0d4788445772a2d6f13677123",
+  "_size": 6061,
   "appid": "1751730",
   "common": {
     "associations": {
@@ -35,6 +78,7 @@
     "clienticon": "b7861097d4e82e7a0229605ebdd97a7f2dbe72d7",
     "clienttga": "aad5ba141a14a4a99f34175c3665ca0e11d0bd5b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -47,7 +91,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1751730",
     "genres": {
       "0": "1",
@@ -126,11 +169,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "96",
+    "review_score": "7",
     "small_capsule": {
       "english": "1d5c41f72ccd7ecb4ea4e664a768df939efc48e9/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791921031",
+    "steam_release_date": "1791993436",
+    "store_asset_mtime": "1791993460",
     "store_tags": {
       "0": "19",
       "1": "1721",
@@ -199,5 +245,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "FireAndAshes",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "FireAndAshes.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1751731": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "press": {
+          "download": "18485187152",
+          "gid": "3755608191292238097",
+          "size": "19105179930"
+        },
+        "public": {
+          "download": "27793270176",
+          "gid": "2389304258877436860",
+          "size": "28821215192"
+        }
+      }
+    },
+    "1751732": {
+      "manifests": {
+        "press": {
+          "download": "27811433616",
+          "gid": "1829214544236182042",
+          "size": "28821215192"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "baselanguages": "english,french,german,italian,russian,schinese,spanish",
+    "branches": {
+      "press": {
+        "buildid": "25647589",
+        "description": "press",
+        "timebuildupdated": "1790842486",
+        "timeupdated": "1791219020"
+      },
+      "public": {
+        "buildid": "25647585",
+        "timebuildupdated": "1790842466",
+        "timeupdated": "1790842495"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "developer": "ASDstudio",
+    "homepage": "https://asdstudiogame.com/",
+    "publisher": "Antelus Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

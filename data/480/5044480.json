@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791809557,
-  "_history": [],
-  "_change_number": 39711352,
-  "_missing_token": true,
-  "_sha": "20de8ed2ba055450a3c429d2583af1c675776487",
-  "_size": 4518,
+  "_lastChecked": 1792025683,
+  "_history": [
+    {
+      "buildId": "25945417",
+      "branch": "public",
+      "timeUpdated": 1792015688,
+      "firstSeen": 1792025683,
+      "manifests": {
+        "5044481": {
+          "gid": "1772475179884087157",
+          "size": 2733700702,
+          "download": 2350193696
+        }
+      }
+    }
+  ],
+  "_change_number": 39837895,
+  "_missing_token": false,
+  "_sha": "97d8b0867efb31700117bf5b6c290743cd5030f7",
+  "_size": 6024,
   "appid": "5044480",
   "common": {
     "aicontenttype": "1",
@@ -29,6 +43,7 @@
     },
     "clienticon": "8cfa0fe400839905972dac5af469eec7932d0cfa",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -46,7 +61,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "5044480",
     "genres": {
       "0": "23",
@@ -128,11 +142,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b18906e10ef267f839ba2c94769205b74e40b215/capsule_231x87.jpg",
       "schinese": "39029abfd0d520b24677e72a89017e29216cf9fa/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1792015740",
     "store_asset_mtime": "1791713437",
     "store_tags": {
       "0": "9",
@@ -172,5 +187,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TIANMIN_THREE_KING",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Launch TIANMING: Three Kingdoms",
+        "description_loc": {
+          "english": "Launch TIANMING: Three Kingdoms"
+        },
+        "executable": "tianming-duel-sanguo.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5044481": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2350193696",
+          "gid": "1772475179884087157",
+          "size": "2733700702"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25945417",
+        "timebuildupdated": "1792015537",
+        "timeupdated": "1792015688"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "小华哥游戏工厂",
+    "publisher": "小华哥游戏工厂"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "2000000",
+    "savefiles": {
+      "0": {
+        "path": "TianmingDuelThreeKingdoms/steam",
+        "pattern": "profiles.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "TianmingDuelThreeKingdoms/steam",
+        "pattern": "savegame.tres",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

@@ -1,10 +1,38 @@
 {
-  "_lastChecked": 1791722235,
-  "_history": [],
-  "_change_number": 39712458,
-  "_missing_token": true,
-  "_sha": "c221f50b6aef52ecab932fb6f84d59e4aca5484a",
-  "_size": 3587,
+  "_lastChecked": 1792025627,
+  "_history": [
+    {
+      "buildId": "25911033",
+      "branch": "public",
+      "timeUpdated": 1791905034,
+      "firstSeen": 1792025531,
+      "manifests": {
+        "5262491": {
+          "gid": "2342864937907176912",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    },
+    {
+      "buildId": "25911033",
+      "branch": "internal",
+      "timeUpdated": 1791905023,
+      "firstSeen": 1792025627,
+      "manifests": {
+        "5262491": {
+          "gid": "2342864937907176912",
+          "size": 412843092,
+          "download": 164011152
+        }
+      }
+    }
+  ],
+  "_change_number": 39834866,
+  "_missing_token": false,
+  "_sha": "cc5e39a31013504dbc7a6d09e940cb905e4d3c16",
+  "_size": 4720,
   "appid": "5262490",
   "common": {
     "aicontenttype": "1",
@@ -27,8 +55,10 @@
       }
     },
     "category": {
+      "category_1": "1",
       "category_17": "1",
       "category_2": "1",
+      "category_22": "1",
       "category_35": "1",
       "category_62": "1",
       "category_68": "1",
@@ -36,8 +66,8 @@
     },
     "clienticon": "7a52a43deba4787a764e07a91368f826618f1582",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5262490",
     "genres": {
       "0": "4",
@@ -132,10 +162,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9954dd0261049789f6e2846e3b03da7dbd7336a3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792000958",
     "store_asset_mtime": "1789359566",
     "store_tags": {
       "0": "699",
@@ -171,5 +202,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Poco Loco",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "poco-loco.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5262491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "internal": {
+          "download": "164011152",
+          "gid": "2342864937907176912",
+          "size": "412843092"
+        },
+        "public": {
+          "download": "164011152",
+          "gid": "2342864937907176912",
+          "size": "412843092"
+        }
+      }
+    },
+    "5262492": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "branches": {
+      "internal": {
+        "buildid": "25911033",
+        "description": "Poco Loco 1.8.0",
+        "timebuildupdated": "1791904738",
+        "timeupdated": "1791905023"
+      },
+      "public": {
+        "buildid": "25911033",
+        "timebuildupdated": "1791904738",
+        "timeupdated": "1791905034"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "MindZone",
+    "homepage": "https://pocoloco.app",
+    "isfreeapp": "1",
+    "publisher": "BrokenChairMedia"
+  }
 }

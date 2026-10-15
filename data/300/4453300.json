@@ -1,6 +1,29 @@
 {
-  "_lastChecked": 1791247330,
+  "_lastChecked": 1792025666,
   "_history": [
+    {
+      "buildId": "25936388",
+      "branch": "public",
+      "timeUpdated": 1791988981,
+      "firstSeen": 1792025666,
+      "manifests": {
+        "4453301": {
+          "gid": "8961079875089849374",
+          "size": 4060559036,
+          "download": 1807572176
+        },
+        "4453302": {
+          "gid": "9164159787879029644",
+          "size": 3381648727,
+          "download": 1231606688
+        },
+        "4453303": {
+          "gid": "3692603509528547047",
+          "size": 3526083491,
+          "download": 1342413856
+        }
+      }
+    },
     {
       "buildId": "25727522",
       "branch": "public",
@@ -87,30 +110,12 @@
           "download": 861650544
         }
       }
-    },
-    {
-      "buildId": "25187943",
-      "branch": "public",
-      "timeUpdated": 1788873861,
-      "firstSeen": 1788878958,
-      "manifests": {
-        "4453301": {
-          "gid": "6721446349629024255",
-          "size": 2738549336,
-          "download": 1204609712
-        },
-        "4453302": {
-          "gid": "1655183354848825146",
-          "size": 2325530033,
-          "download": 861650544
-        }
-      }
     }
   ],
-  "_change_number": 39518658,
+  "_change_number": 39823519,
   "_missing_token": false,
-  "_sha": "f8b2ec35ab44e7f7986611294d67c2421129709a",
-  "_size": 8065,
+  "_sha": "335731615400543ba17755f245d051f9b89355af",
+  "_size": 8457,
   "appid": "4453300",
   "common": {
     "associations": {
@@ -166,6 +171,7 @@
       "italian": "1",
       "japanese": "1",
       "koreana": "1",
+      "polish": "1",
       "russian": "1",
       "schinese": "1",
       "spanish": "1",
@@ -347,6 +353,10 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "polish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "russian": {
         "subtitles": "true",
         "supported": "true"
@@ -374,9 +384,9 @@
           "osarch": "64",
           "oslist": "windows"
         },
-        "description": "Launch (DX11)",
+        "description": "Launch (DX12)",
         "description_loc": {
-          "english": "Launch (DX11)"
+          "english": "Launch (DX12)"
         },
         "executable": "Cup and Counter.exe",
         "type": "default"
@@ -389,14 +399,14 @@
         "type": "default"
       },
       "2": {
-        "arguments": "-force-d3d12",
+        "arguments": "-force-d3d11",
         "config": {
           "osarch": "64",
           "oslist": "windows"
         },
-        "description": "Cup and Counter (DX12)",
+        "description": "Cup and Counter (DX11)",
         "description_loc": {
-          "english": "Cup and Counter (DX12)"
+          "english": "Cup and Counter (DX11)"
         },
         "executable": "Cup and Counter.exe",
         "type": "option2"
@@ -408,6 +418,19 @@
         },
         "executable": "Cup and Counter.x86_64",
         "type": "default"
+      },
+      "4": {
+        "arguments": "-force-vulkan",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Cup and Counter (Vulkan)",
+        "description_loc": {
+          "english": "Cup and Counter (Vulkan)"
+        },
+        "executable": "Cup and Counter.exe",
+        "type": "option3"
       }
     },
     "steamcontrollertemplateindex": "2",
@@ -420,9 +443,9 @@
       },
       "manifests": {
         "public": {
-          "download": "1601475360",
-          "gid": "7014374589288598357",
-          "size": "3832642870"
+          "download": "1807572176",
+          "gid": "8961079875089849374",
+          "size": "4060559036"
         }
       }
     },
@@ -433,9 +456,9 @@
       },
       "manifests": {
         "public": {
-          "download": "1105346640",
-          "gid": "5715657147744070876",
-          "size": "3245699207"
+          "download": "1231606688",
+          "gid": "9164159787879029644",
+          "size": "3381648727"
         }
       }
     },
@@ -446,17 +469,17 @@
       },
       "manifests": {
         "public": {
-          "download": "1202548208",
-          "gid": "5937722340958985818",
-          "size": "3378826531"
+          "download": "1342413856",
+          "gid": "3692603509528547047",
+          "size": "3526083491"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25727522",
-        "timebuildupdated": "1791204999",
-        "timeupdated": "1791205062"
+        "buildid": "25936388",
+        "timebuildupdated": "1791988584",
+        "timeupdated": "1791988981"
       }
     },
     "privatebranches": "1"

@@ -1,10 +1,48 @@
 {
-  "_lastChecked": 1791247309,
-  "_history": [],
-  "_change_number": 39508696,
-  "_missing_token": true,
-  "_sha": "617f1851774afd97923659b46c4af32878044b9e",
-  "_size": 4673,
+  "_lastChecked": 1792025627,
+  "_history": [
+    {
+      "buildId": "25910683",
+      "branch": "public",
+      "timeUpdated": 1791981807,
+      "firstSeen": 1792025530,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "1675261": {
+          "gid": "5890975090727026596",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    },
+    {
+      "buildId": "10100325",
+      "branch": "staging",
+      "timeUpdated": 1670446428,
+      "firstSeen": 1792025627,
+      "manifests": {
+        "1675261": {
+          "gid": "2309668826720103926",
+          "size": 24029180336,
+          "download": 14237316624
+        }
+      }
+    }
+  ],
+  "_change_number": 39837991,
+  "_missing_token": false,
+  "_sha": "c6256c3d6091a31e8d645b25788b4e9ba04f4a4d",
+  "_size": 6643,
   "appid": "1675260",
   "common": {
     "associations": {
@@ -26,10 +64,10 @@
       }
     },
     "category": {
-      "category_18": "1",
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_28": "1",
       "category_45": "1",
       "category_46": "1",
       "category_62": "1",
@@ -44,9 +82,9 @@
     "clienticon": "10bf813d15ef0ace4dd659fa441d7001b35d55e1",
     "clienttga": "536f81b152f3e165e2c19cc658044368b54c98d1",
     "community_hub_visible": "1",
-    "controller_support": "partial",
+    "community_visible_stats": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1675260",
     "genres": {
       "0": "1",
@@ -137,11 +175,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "45",
+    "review_score": "5",
     "small_capsule": {
       "english": "c5330f1a59469d521953cf821a9efeebc6fab2f7/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1779177416",
+    "steam_release_date": "1791989867",
+    "store_asset_mtime": "1791994883",
     "store_tags": {
       "0": "4106",
       "1": "1742",
@@ -213,5 +254,97 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Among the Trolls",
+    "launch": {
+      "0": {
+        "arguments": "-NOSPLASH",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Avantgarden Games Build",
+        "description_loc": {
+          "english": "Avantgarden Games Build"
+        },
+        "executable": "Among_the_Trolls.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "1675261": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "11879863600",
+          "gid": "5890975090727026596",
+          "size": "14084910830"
+        },
+        "staging": {
+          "download": "14237316624",
+          "gid": "2309668826720103926",
+          "size": "24029180336"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25910683",
+        "timebuildupdated": "1791903907",
+        "timeupdated": "1791981807"
+      },
+      "staging": {
+        "buildid": "10100325",
+        "description": "-",
+        "timebuildupdated": "1670446392",
+        "timeupdated": "1670446428"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Avantgarden SRL",
+    "homepage": "https://amongthetrolls.com/",
+    "publisher": "505 Pulse"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "Among_the_Trolls/Saved/SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Among_the_Trolls/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

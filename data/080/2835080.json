@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791982423,
-  "_history": [],
-  "_change_number": 39818202,
-  "_missing_token": true,
-  "_sha": "263b958dd166f4cdc448f47056c2f83ab8049f7c",
-  "_size": 3453,
+  "_lastChecked": 1792025646,
+  "_history": [
+    {
+      "buildId": "25944446",
+      "branch": "public",
+      "timeUpdated": 1792012574,
+      "firstSeen": 1792025646,
+      "manifests": {
+        "2835081": {
+          "gid": "6082381118221453975",
+          "size": 1745077481,
+          "download": 1473116064
+        },
+        "2835082": {
+          "gid": "8323058204130067252",
+          "size": 2666631931,
+          "download": 1481700336
+        }
+      }
+    }
+  ],
+  "_change_number": 39839216,
+  "_missing_token": false,
+  "_sha": "af2ba80a40082b4f8fa8e8505b610055a6ca8c00",
+  "_size": 4978,
   "appid": "2835080",
   "common": {
     "associations": {
@@ -31,6 +50,7 @@
     "clienticon": "811f637107eceaea5e2d57606a3a9eba3682a855",
     "clienttga": "18eaae5493ea711d61713b176ecbde50d0051318",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -41,7 +61,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2835080",
     "genres": {
       "0": "1",
@@ -117,23 +136,25 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4ea409486de4f61dc9919f119b3c8b146eacd060/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792013933",
     "store_asset_mtime": "1788643590",
     "store_tags": {
-      "0": "4182",
-      "1": "19",
+      "0": "4026",
+      "1": "4182",
       "10": "6426",
       "11": "4166",
       "12": "4191",
       "13": "1697",
       "14": "4085",
       "15": "4791",
-      "2": "492",
-      "3": "1773",
-      "4": "4026",
+      "16": "4252",
+      "2": "19",
+      "3": "492",
+      "4": "1773",
       "5": "4637",
       "6": "4667",
       "7": "7250",
@@ -152,5 +173,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SLOWBURN",
+    "launch": {
+      "0": {
+        "executable": "SLOWBURN.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "SLOWBURN.sh"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2835081": {
+      "manifests": {
+        "public": {
+          "download": "1473116064",
+          "gid": "6082381118221453975",
+          "size": "1745077481"
+        }
+      }
+    },
+    "2835082": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1481700336",
+          "gid": "8323058204130067252",
+          "size": "2666631931"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25944446",
+        "timebuildupdated": "1792012522",
+        "timeupdated": "1792012574"
+      }
+    }
+  },
+  "extended": {
+    "developer": "studio nocto",
+    "publisher": "studio nocto"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "20000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "\\SLOWBURN\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
