@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1791085572,
-  "_history": [],
-  "_change_number": 39460245,
-  "_missing_token": true,
-  "_sha": "0420e32ebda87dfc5b5c82b6e372cab4594318de",
-  "_size": 3075,
+  "_lastChecked": 1792155350,
+  "_history": [
+    {
+      "buildId": "25610947",
+      "branch": "development",
+      "timeUpdated": 1790709839,
+      "firstSeen": 1792155350,
+      "manifests": {
+        "2425721": {
+          "gid": "3849973728801563979",
+          "size": 0,
+          "download": 0
+        },
+        "2425722": {
+          "gid": "3829436935074277092",
+          "size": 5044352927,
+          "download": 4819097200
+        }
+      }
+    },
+    {
+      "buildId": "25977495",
+      "branch": "public",
+      "timeUpdated": 1792123601,
+      "firstSeen": 1792155350,
+      "manifests": {
+        "2425721": {
+          "gid": "1071612562616893151",
+          "size": 5044200606,
+          "download": 4828105856
+        },
+        "2425722": {
+          "gid": "5974099080960788794",
+          "size": 0,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 39901808,
+  "_missing_token": false,
+  "_sha": "335873c8df5a605f1bb67cb73b3cde5c15aa7dfb",
+  "_size": 5245,
   "appid": "2425720",
   "common": {
     "associations": {
@@ -27,6 +64,7 @@
     "clienticon": "ff041d3dccf3fd122bfd5a1737780618880c0dfa",
     "clienttga": "d32b1853742d980b6f3e1ea74b25a5a5be9f33f4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -42,7 +80,6 @@
       "4": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2425720",
     "genres": {
       "0": "25",
@@ -106,11 +143,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
     },
+    "steam_release_date": "1792153097",
     "store_asset_mtime": "1791060706",
     "store_tags": {
       "0": "12095",
@@ -122,8 +160,8 @@
       "14": "3942",
       "15": "6971",
       "16": "4182",
-      "17": "492",
-      "18": "493",
+      "17": "493",
+      "18": "492",
       "19": "4345",
       "2": "21",
       "3": "1742",
@@ -162,5 +200,114 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Shards of the Past",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "ShardsOfThePast.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "ShardsOfThePast.sh",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "ShardsOfThePast.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2425721": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "development": {
+          "download": "0",
+          "gid": "3849973728801563979",
+          "size": "0"
+        },
+        "public": {
+          "download": "4828105856",
+          "gid": "1071612562616893151",
+          "size": "5044200606"
+        }
+      }
+    },
+    "2425722": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "development": {
+          "download": "4819097200",
+          "gid": "3829436935074277092",
+          "size": "5044352927"
+        },
+        "public": {
+          "download": "0",
+          "gid": "5974099080960788794",
+          "size": "0"
+        }
+      }
+    },
+    "branches": {
+      "development": {
+        "buildid": "25610947",
+        "description": "Private testing branch",
+        "timebuildupdated": "1790709757",
+        "timeupdated": "1790709839"
+      },
+      "public": {
+        "buildid": "25977495",
+        "timebuildupdated": "1792123489",
+        "timeupdated": "1792123601"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Garou24",
+    "homepage": "https://www.g24.games/",
+    "publisher": "G24 Games"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "game/saves",
+        "pattern": "*",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1790815100,
-  "_history": [],
-  "_change_number": 39352817,
-  "_missing_token": true,
-  "_sha": "14a2353998e02f470d11a309ad183fd41f05c401",
-  "_size": 3839,
+  "_lastChecked": 1792155353,
+  "_history": [
+    {
+      "buildId": "25943612",
+      "branch": "public",
+      "timeUpdated": 1792009927,
+      "firstSeen": 1792155353,
+      "manifests": {
+        "2934661": {
+          "gid": "1753383609681702380",
+          "size": 554611694,
+          "download": 302115280
+        },
+        "2934662": {
+          "gid": "3861957844716772549",
+          "size": 555682747,
+          "download": 301672832
+        },
+        "2934663": {
+          "gid": "2657861220008806744",
+          "size": 546856033,
+          "download": 298755088
+        }
+      }
+    }
+  ],
+  "_change_number": 39891483,
+  "_missing_token": false,
+  "_sha": "2213328e6a9de8431a6cf82ea4074c12aff7a2f5",
+  "_size": 5604,
   "appid": "2934660",
   "common": {
     "associations": {
@@ -37,9 +61,9 @@
     "clienticon": "4210b2cda92e0a4cf237fef8e7cda101d92e29cd",
     "clienttga": "c40e13af5fd7db76aec5872c4af4473cba12eaea",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2934660",
     "genres": {
       "0": "1",
@@ -112,10 +136,11 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "087b4eb872b6c6b19bec9d6cb0aca2b386e7ae2f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792134022",
     "store_asset_mtime": "1788129630",
     "store_tags": {
       "0": "3877",
@@ -173,5 +198,98 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Ducking Grenades",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DuckingGrenades.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "DuckingGrenades.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "DuckingGrenades.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "11",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2934661": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "302115280",
+          "gid": "1753383609681702380",
+          "size": "554611694"
+        }
+      }
+    },
+    "2934662": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "301672832",
+          "gid": "3861957844716772549",
+          "size": "555682747"
+        }
+      }
+    },
+    "2934663": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "298755088",
+          "gid": "2657861220008806744",
+          "size": "546856033"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25943612",
+        "timebuildupdated": "1792009893",
+        "timeupdated": "1792009927"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Maik Schmidt",
+    "publisher": "Maik Schmidt"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000",
+    "savefiles": {
+      "0": {
+        "path": "DuckingGrenades_Data/SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

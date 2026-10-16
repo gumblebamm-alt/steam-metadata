@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792112022,
-  "_history": [],
-  "_change_number": 39882206,
-  "_missing_token": true,
-  "_sha": "83c18f2fe4dacdcec6e19a708e4c2835ba486c12",
-  "_size": 4126,
+  "_lastChecked": 1792155349,
+  "_history": [
+    {
+      "buildId": "25979691",
+      "branch": "public",
+      "timeUpdated": 1792133680,
+      "firstSeen": 1792155349,
+      "manifests": {
+        "2069071": {
+          "gid": "6304515992847632472",
+          "size": 2462126703,
+          "download": 2111141392
+        }
+      }
+    }
+  ],
+  "_change_number": 39902415,
+  "_missing_token": false,
+  "_sha": "712efe93073d3ebd9e04849c83afa853040315d0",
+  "_size": 5709,
   "appid": "2069070",
   "common": {
     "associations": {
@@ -30,9 +44,9 @@
     },
     "clienticon": "a0dfefbda17106cf2fa77de787b3b18370323a6e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2069070",
     "genres": {
       "0": "23"
@@ -102,10 +116,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "61",
+    "review_score": "5",
     "small_capsule": {
       "english": "404cad7d19f7441ee9b3cb6f489126927ba6ef62/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792134281",
     "store_asset_mtime": "1791694826",
     "store_tags": {
       "0": "560542",
@@ -194,5 +211,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HayOneBillion",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "- DirectX 12",
+        "description_loc": {
+          "english": "- DirectX 12"
+        },
+        "executable": "HayOneBillion.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": " --rendering-driver vulkan",
+        "description": "- Vulkan (Steam Deck or if DirectX 12 doesn't work)",
+        "description_loc": {
+          "english": "- Vulkan (Steam Deck or if DirectX 12 doesn't work)"
+        },
+        "executable": "HayOneBillion.exe",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "2069071": {
+      "manifests": {
+        "public": {
+          "download": "2111141392",
+          "gid": "6304515992847632472",
+          "size": "2462126703"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25979691",
+        "timebuildupdated": "1792133672",
+        "timeupdated": "1792133680"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Team 1B",
+    "publisher": "Team 1B"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "5000000000",
+    "savefiles": {
+      "0": {
+        "path": "hayonebillion/saves/cloud",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

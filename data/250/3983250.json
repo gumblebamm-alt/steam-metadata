@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792069005,
-  "_history": [],
-  "_change_number": 39853961,
-  "_missing_token": true,
-  "_sha": "51fb5a243bcd6a390f3b936eda74f29930bdd994",
-  "_size": 4097,
+  "_lastChecked": 1792155362,
+  "_history": [
+    {
+      "buildId": "25980206",
+      "branch": "public",
+      "timeUpdated": 1792135839,
+      "firstSeen": 1792155362,
+      "manifests": {
+        "3983251": {
+          "gid": "8595556176329220837",
+          "size": 187116781,
+          "download": 180658816
+        },
+        "3983252": {
+          "gid": "4114545945858258844",
+          "size": 479995700,
+          "download": 297467680
+        }
+      }
+    }
+  ],
+  "_change_number": 39895774,
+  "_missing_token": false,
+  "_sha": "bb37eb487f28d2018fa28b47c7085675900dabd0",
+  "_size": 5917,
   "appid": "3983250",
   "common": {
     "aicontenttype": "1",
@@ -40,6 +59,7 @@
     },
     "clienticon": "6a34382603701242107f62de7fe6bfe141c9770d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -49,7 +69,6 @@
         "version": "3"
       }
     },
-    "exfgls": "8",
     "gameid": "3983250",
     "genres": {
       "0": "23",
@@ -120,10 +139,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c1fc36db5d6fdd60baf7e17b557ca9d03ebb03df/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792142233",
     "store_asset_mtime": "1790700734",
     "store_tags": {
       "0": "9",
@@ -195,5 +215,107 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "Shadows of War 2",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "x64\\Shadows of War II.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Shadows of War II"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Shadows of War II",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3983251": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "180658816",
+          "gid": "8595556176329220837",
+          "size": "187116781"
+        }
+      }
+    },
+    "3983252": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "297467680",
+          "gid": "4114545945858258844",
+          "size": "479995700"
+        }
+      }
+    },
+    "baselanguages": "english,german,danish",
+    "branches": {
+      "public": {
+        "buildid": "25980206",
+        "timebuildupdated": "1792135694",
+        "timeupdated": "1792135839"
+      }
+    }
+  },
+  "extended": {
+    "developer": "TRI.G",
+    "publisher": "TRI.G"
+  },
+  "ufs": {
+    "maxnumfiles": "512",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Shadows of War II",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Shadows of War II",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

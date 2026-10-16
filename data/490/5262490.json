@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792025627,
+  "_lastChecked": 1792155388,
   "_history": [
     {
       "buildId": "25911033",
@@ -27,12 +27,48 @@
           "download": 164011152
         }
       }
+    },
+    {
+      "buildId": "25967153",
+      "branch": "internal",
+      "timeUpdated": 1792087589,
+      "firstSeen": 1792155388,
+      "manifests": {
+        "5262491": {
+          "gid": "8895184895899425655",
+          "size": 414284693,
+          "download": 164326640
+        },
+        "5262492": {
+          "gid": "4445368877362213499",
+          "size": 359562602,
+          "download": 146068368
+        }
+      }
+    },
+    {
+      "buildId": "25967153",
+      "branch": "public",
+      "timeUpdated": 1792133558,
+      "firstSeen": 1792155388,
+      "manifests": {
+        "5262491": {
+          "gid": "8895184895899425655",
+          "size": 414284693,
+          "download": 164326640
+        },
+        "5262492": {
+          "gid": "4445368877362213499",
+          "size": 359562602,
+          "download": 146068368
+        }
+      }
     }
   ],
-  "_change_number": 39834866,
+  "_change_number": 39891324,
   "_missing_token": false,
-  "_sha": "cc5e39a31013504dbc7a6d09e940cb905e4d3c16",
-  "_size": 4720,
+  "_sha": "87e39ccb0d59f0bff75150202b5aa285bbaa1d65",
+  "_size": 5563,
   "appid": "5262490",
   "common": {
     "aicontenttype": "1",
@@ -159,8 +195,9 @@
     },
     "name": "Poco Loco",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos",
     "primary_genre": "37",
     "releasestate": "released",
     "small_capsule": {
@@ -193,7 +230,19 @@
       "english": {
         "supported": "true"
       },
+      "french": {
+        "supported": "true"
+      },
       "german": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      },
+      "schinese": {
         "supported": "true"
       },
       "spanish": {
@@ -212,6 +261,22 @@
         },
         "executable": "poco-loco.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Poco Loco.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "betakey": "internal",
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "poco-loco",
+        "type": "default"
       }
     }
   },
@@ -222,33 +287,50 @@
       },
       "manifests": {
         "internal": {
-          "download": "164011152",
-          "gid": "2342864937907176912",
-          "size": "412843092"
+          "download": "164326640",
+          "gid": "8895184895899425655",
+          "size": "414284693"
         },
         "public": {
-          "download": "164011152",
-          "gid": "2342864937907176912",
-          "size": "412843092"
+          "download": "164326640",
+          "gid": "8895184895899425655",
+          "size": "414284693"
         }
       }
     },
     "5262492": {
       "config": {
         "oslist": "macos"
+      },
+      "manifests": {
+        "internal": {
+          "download": "146068368",
+          "gid": "4445368877362213499",
+          "size": "359562602"
+        },
+        "public": {
+          "download": "146068368",
+          "gid": "4445368877362213499",
+          "size": "359562602"
+        }
+      }
+    },
+    "5262493": {
+      "config": {
+        "oslist": "linux"
       }
     },
     "branches": {
       "internal": {
-        "buildid": "25911033",
-        "description": "Poco Loco 1.8.0",
-        "timebuildupdated": "1791904738",
-        "timeupdated": "1791905023"
+        "buildid": "25967153",
+        "description": "Poco Loco 1.9.0",
+        "timebuildupdated": "1792087370",
+        "timeupdated": "1792087589"
       },
       "public": {
-        "buildid": "25911033",
-        "timebuildupdated": "1791904738",
-        "timeupdated": "1791905034"
+        "buildid": "25967153",
+        "timebuildupdated": "1792087370",
+        "timeupdated": "1792133558"
       }
     },
     "nocommonredists": "1"

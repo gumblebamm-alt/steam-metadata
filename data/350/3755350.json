@@ -1,10 +1,25 @@
 {
-  "_lastChecked": 1791982429,
-  "_history": [],
-  "_change_number": 39807142,
-  "_missing_token": true,
-  "_sha": "dc5ee5b99d8b55b5f3c0cab495fb8257b71f03dc",
-  "_size": 5892,
+  "_lastChecked": 1792155342,
+  "_history": [
+    {
+      "buildId": "25985307",
+      "branch": "public",
+      "timeUpdated": 1792150190,
+      "firstSeen": 1792155239,
+      "manifests": {
+        "3755351": {
+          "gid": "3010606066117159621",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39902945,
+  "_missing_token": false,
+  "_sha": "70a5747763238a99fbf37c4bd9d8f310e609e4f5",
+  "_size": 7107,
   "appid": "3755350",
   "common": {
     "associations": {
@@ -32,8 +47,8 @@
     "clienticon": "9c71b0d2830d6a59d9ae58e7bbfe4a84c64b0906",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3755350",
     "genres": {
       "0": "25",
@@ -48,6 +63,12 @@
       "tchinese": "2e7fceab2fc96dc29ef578e3fe7686dc25cce614/header_tchinese.jpg"
     },
     "icon": "9c71b0d2830d6a59d9ae58e7bbfe4a84c64b0906",
+    "languages": {
+      "english": "1",
+      "japanese": "1",
+      "schinese": "1",
+      "tchinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en,zh-cn,zh-tw,ja",
       "library_header": "en,zh-cn,zh-tw,ja",
@@ -135,13 +156,16 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "66837b696270d4f8e2c5f3e239c22b044eefb9d9/capsule_231x87.jpg",
       "japanese": "896e2fdd504d589b95027f887591c980332fafc4/capsule_231x87_japanese.jpg",
       "schinese": "0e8c47e6f87faecf164671afb19e26334d17fb98/capsule_231x87_schinese.jpg",
       "tchinese": "4418a55951b934c59ddbe960847bc4191c35f6d8/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1792115970",
     "store_asset_mtime": "1791949471",
     "store_tags": {
       "0": "1666",
@@ -152,10 +176,10 @@
       "13": "8369",
       "14": "1770",
       "15": "6815",
-      "16": "9",
-      "17": "4726",
+      "16": "4726",
+      "17": "9",
       "18": "3871",
-      "19": "44868",
+      "19": "1721",
       "2": "7208",
       "3": "21",
       "4": "11014",
@@ -185,5 +209,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "alicenation",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "alicenation.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3755351": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "518148208",
+          "gid": "3010606066117159621",
+          "size": "650352652"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25985307",
+        "timebuildupdated": "1792150082",
+        "timeupdated": "1792150190"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Hanamiriro",
+    "publisher": "2P Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "1000",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "liluoailuoli/alicenation",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

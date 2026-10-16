@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791463251,
-  "_history": [],
-  "_change_number": 39606196,
-  "_missing_token": true,
-  "_sha": "233aa5fa39fd135b7240eb4eedc7a69ef89d51b3",
-  "_size": 3389,
+  "_lastChecked": 1792155374,
+  "_history": [
+    {
+      "buildId": "25984294",
+      "branch": "public",
+      "timeUpdated": 1792147595,
+      "firstSeen": 1792155374,
+      "manifests": {
+        "4719361": {
+          "gid": "4089695015293799454",
+          "size": 345723639,
+          "download": 251257952
+        }
+      }
+    }
+  ],
+  "_change_number": 39899098,
+  "_missing_token": false,
+  "_sha": "f4f573b743df07b6fc5d8c90c9cd2e172603f2bb",
+  "_size": 4597,
   "appid": "4719360",
   "common": {
     "associations": {
@@ -30,7 +44,6 @@
     "clienticon": "429c3e601a160187d56fd01e0b999aecd848f9e9",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4719360",
     "genres": {
       "0": "2",
@@ -109,11 +122,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "80563be52df2eff46c767f790621f9f609a31798/capsule_231x87.jpg",
       "schinese": "80563be52df2eff46c767f790621f9f609a31798/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1791433250",
     "store_tags": {
       "0": "9",
@@ -133,5 +147,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Duel Mahjong",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DuelMahjong.exe"
+      }
+    }
+  },
+  "depots": {
+    "4719361": {
+      "manifests": {
+        "public": {
+          "download": "251257952",
+          "gid": "4089695015293799454",
+          "size": "345723639"
+        }
+      }
+    },
+    "baselanguages": "schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25984294",
+        "timebuildupdated": "1792147357",
+        "timeupdated": "1792147595"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "SHMaliceStudio",
+    "isfreeapp": "1",
+    "publisher": "SHMaliceStudio"
+  },
+  "ufs": {
+    "appidredirect": "4762460",
+    "maxnumfiles": "1000",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/DuelMahjong",
+        "pattern": "*.tres",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/DuelMahjong",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "copied_from_parent": "1"
+    },
+    "sync_while_suspended": "1"
+  }
 }

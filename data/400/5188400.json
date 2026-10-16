@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791593023,
-  "_history": [],
-  "_change_number": 39664183,
-  "_missing_token": true,
-  "_sha": "dc26e5f6e50804b455f8e18120a1f7e3fb901e24",
-  "_size": 3732,
+  "_lastChecked": 1792155386,
+  "_history": [
+    {
+      "buildId": "25969779",
+      "branch": "public",
+      "timeUpdated": 1792150047,
+      "firstSeen": 1792155386,
+      "manifests": {
+        "5188401": {
+          "gid": "4385596523972616837",
+          "size": 285984657,
+          "download": 234449872
+        },
+        "5188402": {
+          "gid": "6809285755510694563",
+          "size": 283004459,
+          "download": 233359024
+        }
+      }
+    }
+  ],
+  "_change_number": 39900182,
+  "_missing_token": false,
+  "_sha": "c518c5574188d020bb093feb25d2465745b2de62",
+  "_size": 5735,
   "appid": "5188400",
   "common": {
     "aicontenttype": "1",
@@ -31,9 +50,9 @@
     },
     "clienticon": "2d410b631f9bf36183b1a83e54c7ce57ee49b4cd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5188400",
     "genres": {
       "0": "4",
@@ -105,7 +124,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "de151086508a3ab5d1d7e7bfc50910e8d4ef9822/capsule_231x87.jpg"
     },
@@ -181,5 +200,104 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "TCG Collectors Mess",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "tcg_collectors_mess.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "tcg_collectors_mess",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5188401": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "234449872",
+          "gid": "4385596523972616837",
+          "size": "285984657"
+        }
+      }
+    },
+    "5188402": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "233359024",
+          "gid": "6809285755510694563",
+          "size": "283004459"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,latam,polish,russian,schinese,spanish,tchinese,thai,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "25969779",
+        "timebuildupdated": "1792095279",
+        "timeupdated": "1792150047"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "JaceDev",
+    "homepage": "https://www.ironstacksoftware.com/",
+    "publisher": "IronStack LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "2147483648",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "JaceDev/TCGCollectorsMess",
+        "pattern": "savegame.tcg",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "JaceDev/TCGCollectorsMess",
+        "pattern": "savegame.tcg.bak",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "JaceDev/TCGCollectorsMess/saves",
+        "pattern": "metadata.json*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792068998,
-  "_history": [],
-  "_change_number": 39852538,
-  "_missing_token": true,
-  "_sha": "85ccf78419f44a59409436f55faa40402ff5d418",
-  "_size": 6219,
+  "_lastChecked": 1792155356,
+  "_history": [
+    {
+      "buildId": "25954891",
+      "branch": "public",
+      "timeUpdated": 1792053153,
+      "firstSeen": 1792155356,
+      "manifests": {
+        "3318211": {
+          "gid": "8397771759799862611",
+          "size": 936345820,
+          "download": 473540320
+        },
+        "3318212": {
+          "gid": "8504058550098770620",
+          "size": 964465946,
+          "download": 483749664
+        }
+      }
+    }
+  ],
+  "_change_number": 39888935,
+  "_missing_token": false,
+  "_sha": "dca0bdc856f7b1dd65e20ebff3ceb0ed744788da",
+  "_size": 8254,
   "appid": "3318210",
   "common": {
     "associations": {
@@ -36,9 +55,9 @@
     "clienticon": "2992dd056ad42bc5b9e627a2e7a7e070ecd53865",
     "clienttga": "fe4aeb96b2bd2d63048adcc8723b45d074849fec",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3318210",
     "genres": {
       "0": "25",
@@ -148,13 +167,14 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7b90da1d75535cddc861c8e4428ce441465c5ed7/capsule_231x87.jpg",
       "japanese": "7baebe0e5870e85d9ac8144040fcb4074b362b14/capsule_231x87_japanese.jpg",
       "koreana": "2b8f5b4e27c6137749487ea46ecb2b84f354acc8/capsule_231x87_koreana.jpg",
       "schinese": "b7b6cc36e4262714ac8e18aaa4e932195e5e6c18/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1792126836",
     "store_asset_mtime": "1790925172",
     "store_tags": {
       "0": "1742",
@@ -198,5 +218,105 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DV",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Windows",
+        "description_loc": {
+          "english": "Windows"
+        },
+        "executable": "Doomed Otaku.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "macOS",
+        "description_loc": {
+          "english": "macOS"
+        },
+        "executable": "Doomed Otaku.app"
+      }
+    }
+  },
+  "depots": {
+    "3318211": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "473540320",
+          "gid": "8397771759799862611",
+          "size": "936345820"
+        }
+      }
+    },
+    "3318212": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "483749664",
+          "gid": "8504058550098770620",
+          "size": "964465946"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25954891",
+        "timebuildupdated": "1792053064",
+        "timeupdated": "1792053153"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "KiwiSaurus",
+    "homepage": "http://kiwi-saurus.com/",
+    "publisher": "KiwiSaurus"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Kiwisaurus\\Doomed Otaku\\fullgame",
+            "replace": "Kiwisaurus/Doomed Otaku/fullgame"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Kiwisaurus\\Doomed Otaku\\fullgame",
+        "pattern": "data*_*.dat",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Kiwisaurus\\Doomed Otaku\\fullgame",
+        "pattern": "MetaProgressData.dat",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Kiwisaurus\\Doomed Otaku\\fullgame",
+        "pattern": "GameOptionData.dat",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
