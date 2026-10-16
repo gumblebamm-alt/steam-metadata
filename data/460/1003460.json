@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792068988,
-  "_history": [],
-  "_change_number": 39846444,
-  "_missing_token": true,
-  "_sha": "8ba32a3d9c5f50a4e5370fae1aff0531f6efce6d",
-  "_size": 7736,
+  "_lastChecked": 1792112018,
+  "_history": [
+    {
+      "buildId": "25962349",
+      "branch": "public",
+      "timeUpdated": 1792080896,
+      "firstSeen": 1792112018,
+      "manifests": {
+        "1003461": {
+          "gid": "1933597278831070436",
+          "size": 3549329766,
+          "download": 1112722048
+        },
+        "1003462": {
+          "gid": "1129770411583470005",
+          "size": 3558064024,
+          "download": 1158972752
+        }
+      }
+    }
+  ],
+  "_change_number": 39868597,
+  "_missing_token": false,
+  "_sha": "25f8ee6000d5eb2d5029e32a45fac4ea40ba0337",
+  "_size": 9664,
   "appid": "1003460",
   "common": {
     "associations": {
@@ -37,9 +56,9 @@
     "clienticon": "9177e3f83f8df14f1402d8ac94965473f8bcaf29",
     "clienttga": "7fe054f3385fd0bbdeeb68f73ae8dd38b6c0d0c1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1003460",
     "genres": {
       "0": "25",
@@ -146,7 +165,7 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5cd489b958a1b8ad4b362c3e6bfe66eb4525dea8/capsule_231x87.jpg"
     },
@@ -211,6 +230,7 @@
         }
       }
     },
+    "steam_release_date": "1792072816",
     "store_asset_mtime": "1792001152",
     "store_tags": {
       "0": "1664",
@@ -354,5 +374,93 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Desolus",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Desolus.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Desolus.app",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "1003461": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1112722048",
+          "gid": "1933597278831070436",
+          "size": "3549329766"
+        }
+      }
+    },
+    "1003462": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1158972752",
+          "gid": "1129770411583470005",
+          "size": "3558064024"
+        }
+      }
+    },
+    "baselanguages": "brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "25962349",
+        "timebuildupdated": "1792074582",
+        "timeupdated": "1792080896"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Mark J. Mayers",
+    "homepage": "http://www.desolus.com/",
+    "publisher": "The Quantum Astrophysicists Guild"
+  },
+  "ufs": {
+    "maxnumfiles": "15",
+    "quota": "40000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataLocalLow"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "The Quantum Astrophysicists Guild/DESOLUS",
+        "pattern": "*Save*",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

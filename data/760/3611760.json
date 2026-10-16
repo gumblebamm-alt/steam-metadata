@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792069001,
-  "_history": [],
-  "_change_number": 39849833,
-  "_missing_token": true,
-  "_sha": "7437ce19c6d46838439c6eaeeceee315c748f4f0",
-  "_size": 5454,
+  "_lastChecked": 1792112032,
+  "_history": [
+    {
+      "buildId": "25974100",
+      "branch": "public",
+      "timeUpdated": 1792110699,
+      "firstSeen": 1792112032,
+      "manifests": {
+        "3611761": {
+          "gid": "4335975839718156753",
+          "size": 1839306247,
+          "download": 1140069312
+        }
+      }
+    }
+  ],
+  "_change_number": 39883046,
+  "_missing_token": false,
+  "_sha": "0ec9992d062f066930b28de81d09897a72f01006",
+  "_size": 7261,
   "appid": "3611760",
   "common": {
     "associations": {
@@ -37,6 +51,7 @@
     "clienticon": "48ef0cc7dab96bff2ee973ec0706bc82ef3cecc1",
     "clienttga": "a715fe1c36222073e97081f3669862de49924fb9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -47,7 +62,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3611760",
     "genres": {
       "0": "1",
@@ -61,6 +75,14 @@
       "tchinese": "9fe40d663fbed9cbc9d5108a2d02d9bd60669b20/header_tchinese.jpg"
     },
     "icon": "48ef0cc7dab96bff2ee973ec0706bc82ef3cecc1",
+    "languages": {
+      "english": "1",
+      "japanese": "1",
+      "polish": "1",
+      "russian": "1",
+      "schinese": "1",
+      "tchinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en,zh-cn,zh-tw,ja",
       "library_header": "en,zh-cn,zh-tw,ja",
@@ -139,13 +161,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7e5f2993e56e0b51140df35a44cc77f2badfca8b/capsule_231x87.jpg",
       "japanese": "d21e1a58215dde8554db1ab2a3e02af9b5c0e9cd/capsule_231x87_japanese.jpg",
       "schinese": "22fc658d74e091812d1c7b6c191ae673dafdf2b1/capsule_231x87_schinese.jpg",
       "tchinese": "fe17339e680012b8bfbe0503fdbc51b651540a53/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1792080100",
     "store_asset_mtime": "1787017039",
     "store_tags": {
       "0": "1721",
@@ -197,5 +220,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hypnostasis",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "hypnostasis/hypnostasis.exe"
+      }
+    }
+  },
+  "depots": {
+    "3611761": {
+      "manifests": {
+        "public": {
+          "download": "1140069312",
+          "gid": "4335975839718156753",
+          "size": "1839306247"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,polish,russian,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25974100",
+        "timebuildupdated": "1792110026",
+        "timeupdated": "1792110699"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "TPX500",
+    "publisher": "Rollover"
+  },
+  "ufs": {
+    "maxnumfiles": "30",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Hypnostasis",
+        "pattern": "data*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Hypnostasis",
+        "pattern": "global.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Hypnostasis",
+        "pattern": "inventory*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Hypnostasis",
+        "pattern": "external_inventory*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Hypnostasis",
+        "pattern": "gehenna_pending.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

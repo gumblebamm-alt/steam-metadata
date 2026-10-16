@@ -1,16 +1,70 @@
 {
-  "_lastChecked": 1791420071,
+  "_lastChecked": 1792112017,
   "_history": [
     {
-      "buildId": "24701973",
+      "buildId": "25949425",
       "branch": "public",
-      "timeUpdated": 1786646930,
-      "firstSeen": 1788615361,
+      "timeUpdated": 1792086184,
+      "firstSeen": 1792112017,
       "manifests": {
         "216151": {
-          "gid": "601457347208319046",
-          "size": 68210152996,
-          "download": 63730890480
+          "gid": "4047221908726018487",
+          "size": 72693476393,
+          "download": 67106840224
+        },
+        "216154": {
+          "gid": "3213138572025744974",
+          "size": 1155163751,
+          "download": 269504048
+        }
+      }
+    },
+    {
+      "buildId": "25764477",
+      "branch": "public",
+      "timeUpdated": 1791328605,
+      "firstSeen": 1791420071,
+      "manifests": {
+        "216151": {
+          "gid": "8553355024543907674",
+          "size": 72686573139,
+          "download": 67104161488
+        },
+        "216154": {
+          "gid": "3213138572025744974",
+          "size": 1155163751,
+          "download": 269504048
+        }
+      }
+    },
+    {
+      "buildId": "25359751",
+      "branch": "public",
+      "timeUpdated": 1789671710,
+      "firstSeen": 1789682563,
+      "manifests": {
+        "216151": {
+          "gid": "9001603416006597442",
+          "size": 71052937884,
+          "download": 66473101008
+        },
+        "216154": {
+          "gid": "3111356240782095962",
+          "size": 1073057690,
+          "download": 246278944
+        }
+      }
+    },
+    {
+      "buildId": "25241679",
+      "branch": "public",
+      "timeUpdated": 1789081350,
+      "firstSeen": 1789083120,
+      "manifests": {
+        "216151": {
+          "gid": "3134339718738723399",
+          "size": 71052398748,
+          "download": 66472536192
         },
         "216154": {
           "gid": "5717167105760697862",
@@ -36,66 +90,12 @@
           "download": 246286000
         }
       }
-    },
-    {
-      "buildId": "25241679",
-      "branch": "public",
-      "timeUpdated": 1789081350,
-      "firstSeen": 1789083120,
-      "manifests": {
-        "216151": {
-          "gid": "3134339718738723399",
-          "size": 71052398748,
-          "download": 66472536192
-        },
-        "216154": {
-          "gid": "5717167105760697862",
-          "size": 1073057690,
-          "download": 246286000
-        }
-      }
-    },
-    {
-      "buildId": "25359751",
-      "branch": "public",
-      "timeUpdated": 1789671710,
-      "firstSeen": 1789682563,
-      "manifests": {
-        "216151": {
-          "gid": "9001603416006597442",
-          "size": 71052937884,
-          "download": 66473101008
-        },
-        "216154": {
-          "gid": "3111356240782095962",
-          "size": 1073057690,
-          "download": 246278944
-        }
-      }
-    },
-    {
-      "buildId": "25764477",
-      "branch": "public",
-      "timeUpdated": 1791328605,
-      "firstSeen": 1791420071,
-      "manifests": {
-        "216151": {
-          "gid": "8553355024543907674",
-          "size": 72686573139,
-          "download": 67104161488
-        },
-        "216154": {
-          "gid": "3213138572025744974",
-          "size": 1155163751,
-          "download": 269504048
-        }
-      }
     }
   ],
-  "_change_number": 39595285,
+  "_change_number": 39883424,
   "_missing_token": false,
-  "_sha": "8fc9f24f34fdd76f81a2f4437abaecd3bad29da2",
-  "_size": 13579,
+  "_sha": "5d8214ecb96d43b29ede12468bfe5a778b62b6a6",
+  "_size": 14537,
   "appid": "216150",
   "common": {
     "aicontenttype": "2",
@@ -253,7 +253,7 @@
       }
     },
     "steam_release_date": "1344546240",
-    "store_asset_mtime": "1790191925",
+    "store_asset_mtime": "1792111533",
     "store_tags": {
       "0": "1754",
       "1": "5379",
@@ -324,14 +324,14 @@
         "executable": "MapleStory Launcher.app/Contents/SharedSupport/maplestoryna/MapleStory Launcher/steam_launcher"
       },
       "12": {
-        "arguments": "--mscw:MSCW/MapleStory.exe --gms:MapleStory.exe SteamStart {passport} {country_code} {cloud_platform} 34.208.247.177 8484 --nx:env=live",
+        "arguments": "--mscw:MSCW/MapleStory.exe --gms:MapleStory.exe SteamStart {passport} {country_code} {cloud_platform} --gms:44.234.170.29 --mscw:44.234.167.163  8484 --nx:env=live",
         "config": {
-          "betakey": "pts2_macos",
+          "betakey": "test_macos",
           "oslist": "macos"
         },
-        "description": "ms macOS server PTS2",
+        "description": "macOS: MS-PTS2 | MSCW-Test",
         "description_loc": {
-          "english": "ms macOS server PTS2"
+          "english": "macOS: MS-PTS2 | MSCW-Test"
         },
         "executable": "MapleStory Launcher.app/Contents/SharedSupport/maplestoryna/MapleStory Launcher/steam_launcher"
       },
@@ -411,6 +411,30 @@
         "description": "MS Launcher macOS Live",
         "description_loc": {
           "english": "MS Launcher macOS Live"
+        },
+        "executable": "MapleStory Launcher.app/Contents/SharedSupport/maplestoryna/MapleStory Launcher/steam_launcher"
+      },
+      "20": {
+        "arguments": "--mscw:MSCW\\MapleStory.exe --gms:MapleStory.exe SteamStart {passport} {country_code} {cloud_platform} --gms:44.234.170.29 --mscw:44.234.181.229 8484",
+        "config": {
+          "betakey": "mscw_staging",
+          "oslist": "windows"
+        },
+        "description": "MSCW WinOS Staging",
+        "description_loc": {
+          "english": "MSCW WinOS Staging"
+        },
+        "executable": "mslauncher\\ms-launcher.exe"
+      },
+      "21": {
+        "arguments": "--mscw:MSCW/MapleStory.exe --gms:MapleStory.exe SteamStart {passport} {country_code} {cloud_platform} --gms:44.234.170.29 --mscw:44.234.181.229 8484",
+        "config": {
+          "betakey": "mscw_staging",
+          "oslist": "macos"
+        },
+        "description": "MSCW macOS Staging",
+        "description_loc": {
+          "english": "MSCW macOS Staging"
         },
         "executable": "MapleStory Launcher.app/Contents/SharedSupport/maplestoryna/MapleStory Launcher/steam_launcher"
       },
@@ -513,9 +537,9 @@
       },
       "manifests": {
         "public": {
-          "download": "67104161488",
-          "gid": "8553355024543907674",
-          "size": "72686573139"
+          "download": "67106840224",
+          "gid": "4047221908726018487",
+          "size": "72693476393"
         }
       },
       "systemdefined": "1"
@@ -555,9 +579,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "25764477",
-        "timebuildupdated": "1791327942",
-        "timeupdated": "1791328605"
+        "buildid": "25949425",
+        "timebuildupdated": "1792031005",
+        "timeupdated": "1792086184"
       }
     },
     "hasdepotsindlc": "1",

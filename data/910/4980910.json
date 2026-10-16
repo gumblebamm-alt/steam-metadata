@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791852299,
-  "_history": [],
-  "_change_number": 39757211,
-  "_missing_token": true,
-  "_sha": "f71f447ceca2182a0016449cb9f406712348c415",
-  "_size": 3122,
+  "_lastChecked": 1792112058,
+  "_history": [
+    {
+      "buildId": "25951134",
+      "branch": "public",
+      "timeUpdated": 1792038567,
+      "firstSeen": 1792112058,
+      "manifests": {
+        "4980911": {
+          "gid": "5545092730223469218",
+          "size": 221833712,
+          "download": 175621040
+        }
+      }
+    }
+  ],
+  "_change_number": 39874717,
+  "_missing_token": false,
+  "_sha": "77fa64de5feddb2e5b4470073df735f1509a1a4c",
+  "_size": 4592,
   "appid": "4980910",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +45,8 @@
     },
     "clienticon": "03eb1b4e6f464ea8ba62931b238421dcfd864546",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4980910",
     "genres": {
       "0": "4",
@@ -101,15 +115,17 @@
       }
     },
     "name": "Project RedTeam: Contract Offensive",
-    "osarch": "",
+    "osarch": "64",
+    "oscpu": "",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b038207a1a90c4dd759d0fa0760b30c4cbd5a7ae/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791840076",
+    "steam_release_date": "1792091793",
+    "store_asset_mtime": "1792091162",
     "store_tags": {
       "0": "5502",
       "1": "3959",
@@ -139,5 +155,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Project RedTeam Contract Offensive",
+    "launch": {
+      "0": {
+        "executable": "ProjectRedTeam.exe"
+      }
+    }
+  },
+  "depots": {
+    "4980911": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "175621040",
+          "gid": "5545092730223469218",
+          "size": "221833712"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25951134",
+        "timebuildupdated": "1792037884",
+        "timeupdated": "1792038567"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "HomeOfTheDev",
+    "publisher": "HomeOfTheDev"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "2000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": ".local/share",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ProjectRedTeam",
+        "pattern": "agency_save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "ProjectRedTeam/saves/{64BitSteamID}",
+        "pattern": "agency_save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "ProjectRedTeam/saves/{64BitSteamID}",
+        "pattern": "career_log.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

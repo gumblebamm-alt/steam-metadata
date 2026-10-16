@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792069013,
-  "_history": [],
-  "_change_number": 39845218,
-  "_missing_token": true,
-  "_sha": "1c214a80d2e7863ba3b2ccfa4b809a9d680815cb",
-  "_size": 3997,
+  "_lastChecked": 1792112045,
+  "_history": [
+    {
+      "buildId": "25949935",
+      "branch": "public",
+      "timeUpdated": 1792033111,
+      "firstSeen": 1792112045,
+      "manifests": {
+        "4461871": {
+          "gid": "2235785068970017",
+          "size": 212394616,
+          "download": 115668032
+        },
+        "4461872": {
+          "gid": "1041187617874266462",
+          "size": 255725546,
+          "download": 118828768
+        },
+        "4461873": {
+          "gid": "6099917786332663530",
+          "size": 157847960,
+          "download": 92379488
+        }
+      }
+    }
+  ],
+  "_change_number": 39874703,
+  "_missing_token": false,
+  "_sha": "e56cd579721872fc9542a22fa2ce7d63b64de78b",
+  "_size": 6241,
   "appid": "4461870",
   "common": {
     "associations": {
@@ -34,11 +58,11 @@
       "category_79": "1",
       "category_9": "1"
     },
-    "clienticon": "07dae95b406f520cd83d0f82613ed58ca7abac68",
+    "clienticon": "4621ad5349868e98bbbf5b3f1de941990ef11063",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4461870",
     "genres": {
       "0": "25"
@@ -46,7 +70,7 @@
     "header_image": {
       "english": "939d44642fe13ce1d2180adc49aa3caba32425a3/header.jpg"
     },
-    "icon": "07dae95b406f520cd83d0f82613ed58ca7abac68",
+    "icon": "4621ad5349868e98bbbf5b3f1de941990ef11063",
     "languages": {
       "brazilian": "1",
       "english": "1",
@@ -122,11 +146,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
-      "english": "22b7946ef00dbe88cba08e81b2eacf4672d07ff2/capsule_231x87.jpg"
+      "english": "3bdfd239fba91856c2866672913d88be4f27f7fa/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1789166435",
+    "steam_deck_blog_url": "https://steamcommunity.com/games/4461870/announcements/detail/668379396558553791",
+    "steam_release_date": "1792076539",
+    "store_asset_mtime": "1792091742",
     "store_tags": {
       "0": "21",
       "1": "1664",
@@ -189,5 +215,116 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ReasonAndRhyme",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "windows/reason_and_rhyme.exe",
+        "type": "default",
+        "workingdir": "windows"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "linux/reason_and_rhyme.x86_64",
+        "type": "default",
+        "workingdir": "linux"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "macos/reason_and_rhyme.app/Contents/MacOS/ReasonAndRhyme",
+        "type": "default",
+        "workingdir": "macos/"
+      }
+    }
+  },
+  "depots": {
+    "4461871": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "115668032",
+          "gid": "2235785068970017",
+          "size": "212394616"
+        }
+      }
+    },
+    "4461872": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "118828768",
+          "gid": "1041187617874266462",
+          "size": "255725546"
+        }
+      }
+    },
+    "4461873": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "92379488",
+          "gid": "6099917786332663530",
+          "size": "157847960"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25949935",
+        "timebuildupdated": "1792033111",
+        "timeupdated": "1792033111"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Toyful Games",
+    "homepage": "https://www.toyfulgames.com/reason-rhyme",
+    "publisher": "Toyful Games"
+  },
+  "ufs": {
+    "maxnumfiles": "60",
+    "quota": "50000000",
+    "rootoverrides": {
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "2": {
+        "addpath": ".local/share/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ReasonAndRhyme",
+        "pattern": "*.dat",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "ReasonAndRhyme",
+        "pattern": "*.album",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

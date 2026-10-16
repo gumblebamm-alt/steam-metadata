@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791765783,
-  "_history": [],
-  "_change_number": 39722283,
-  "_missing_token": true,
-  "_sha": "54cff12a3127762258a6001a2aed1f1db96a7a86",
-  "_size": 3684,
+  "_lastChecked": 1792112032,
+  "_history": [
+    {
+      "buildId": "25973753",
+      "branch": "public",
+      "timeUpdated": 1792109482,
+      "firstSeen": 1792112032,
+      "manifests": {
+        "3525941": {
+          "gid": "5810844416136206929",
+          "size": 6382984139,
+          "download": 5423719472
+        }
+      }
+    }
+  ],
+  "_change_number": 39882627,
+  "_missing_token": false,
+  "_sha": "23c1f12d6724e0b678eb2dcc251b97802f89ad11",
+  "_size": 4889,
   "appid": "3525940",
   "common": {
     "associations": {
@@ -30,6 +44,7 @@
     "clienticon": "3520f153833dbfe9f865c6b9b2566506287572f7",
     "clienttga": "50357a6b845d2ee70f08ee9921234749b5f1f6a3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -39,7 +54,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3525940",
     "genres": {
       "0": "25",
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "43464937f2cd687b03245c688807a79bb3bb86c5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792085431",
     "store_asset_mtime": "1791749938",
     "store_tags": {
       "0": "1721",
@@ -170,5 +185,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pestilence",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Pestilence.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3525941": {
+      "manifests": {
+        "public": {
+          "download": "5423719472",
+          "gid": "5810844416136206929",
+          "size": "6382984139"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25973753",
+        "timebuildupdated": "1792108798",
+        "timeupdated": "1792109482"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kooky Studios",
+    "homepage": "https://www.kookystudios.com",
+    "publisher": "Kooky Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Pestilence/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

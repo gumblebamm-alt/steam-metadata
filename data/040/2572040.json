@@ -1,6 +1,29 @@
 {
-  "_lastChecked": 1791203930,
+  "_lastChecked": 1792112025,
   "_history": [
+    {
+      "buildId": "25780165",
+      "branch": "public",
+      "timeUpdated": 1792076198,
+      "firstSeen": 1792112025,
+      "manifests": {
+        "2572041": {
+          "gid": "6106326607403625225",
+          "size": 2689019595,
+          "download": 1210999904
+        },
+        "2572042": {
+          "gid": "4547702567891192820",
+          "size": 2922739977,
+          "download": 1289820880
+        },
+        "4795600": {
+          "gid": "7550260466705471757",
+          "size": 1063202175,
+          "download": 573027120
+        }
+      }
+    },
     {
       "buildId": "25517094",
       "branch": "public",
@@ -110,10 +133,10 @@
       }
     }
   ],
-  "_change_number": 39433679,
+  "_change_number": 39865423,
   "_missing_token": false,
-  "_sha": "1edf07751aa2ede83c3b54215fb6c09c8236b8e9",
-  "_size": 10847,
+  "_sha": "a24ecbca322318f0c427d83a143105fa2021dfb0",
+  "_size": 12445,
   "appid": "2572040",
   "common": {
     "associations": {
@@ -258,8 +281,9 @@
       "tchinese": "木木屋 - Woodo"
     },
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "23",
     "releasestate": "released",
     "review_percentage": "98",
@@ -330,6 +354,48 @@
         }
       }
     },
+    "steam_frame_compatibility": {
+      "category": "3",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1790966191",
+      "tested_build_id": "25368170",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
     "steam_release_date": "1789570147",
     "store_asset_mtime": "1790067271",
     "store_tags": {
@@ -348,8 +414,8 @@
       "2": "4726",
       "3": "4182",
       "4": "4191",
-      "5": "5350",
-      "6": "1654",
+      "5": "1654",
+      "6": "5350",
       "7": "1664",
       "8": "597",
       "9": "5608"
@@ -455,7 +521,6 @@
       },
       "1": {
         "config": {
-          "betakey": "experimental, testing",
           "oslist": "macos"
         },
         "executable": "Woodo.app",
@@ -496,7 +561,13 @@
         "osarch": "64",
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "1289820880",
+          "gid": "4547702567891192820",
+          "size": "2922739977"
+        }
+      }
     },
     "4795600": {
       "config": {
@@ -525,9 +596,9 @@
         "timeupdated": "1789647319"
       },
       "public": {
-        "buildid": "25517094",
-        "timebuildupdated": "1790292864",
-        "timeupdated": "1790607028"
+        "buildid": "25780165",
+        "timebuildupdated": "1791383488",
+        "timeupdated": "1792076198"
       }
     },
     "privatebranches": "1"
@@ -542,6 +613,20 @@
   "ufs": {
     "maxnumfiles": "300",
     "quota": "300000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "TinyMonksTales/Woodo",
+            "replace": "TinyMonksTales/Woodo"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "TinyMonksTales/Woodo",

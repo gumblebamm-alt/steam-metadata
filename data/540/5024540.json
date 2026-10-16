@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1792025682,
-  "_history": [],
-  "_change_number": 39827638,
-  "_missing_token": true,
-  "_sha": "34524ef6b27e3e0b8ebe3d09dc2145f1b199222b",
-  "_size": 4238,
+  "_lastChecked": 1792112059,
+  "_history": [
+    {
+      "buildId": "25974298",
+      "branch": "experimental",
+      "timeUpdated": 1792111028,
+      "firstSeen": 1792112059,
+      "manifests": {
+        "5024541": {
+          "gid": "3641471815429948387",
+          "size": 1846494120,
+          "download": 1090172544
+        },
+        "5024542": {
+          "gid": "174595147441332845",
+          "size": 1810476248,
+          "download": 1080912224
+        }
+      }
+    },
+    {
+      "buildId": "25974298",
+      "branch": "public",
+      "timeUpdated": 1792111058,
+      "firstSeen": 1792112059,
+      "manifests": {
+        "5024541": {
+          "gid": "3641471815429948387",
+          "size": 1846494120,
+          "download": 1090172544
+        },
+        "5024542": {
+          "gid": "174595147441332845",
+          "size": 1810476248,
+          "download": 1080912224
+        }
+      }
+    }
+  ],
+  "_change_number": 39883334,
+  "_missing_token": false,
+  "_sha": "443bb35efb2b1b068fc74fc253fdd884a9bc5420",
+  "_size": 6040,
   "appid": "5024540",
   "common": {
     "aicontenttype": "1",
@@ -38,6 +75,7 @@
     },
     "clienticon": "33c314a07804efbfdd5830a7e7b9962a9a945e49",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -46,7 +84,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5024540",
     "genres": {
       "0": "1",
@@ -120,10 +157,13 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "81",
+    "review_score": "7",
     "small_capsule": {
       "english": "43a50040d0a58a788ed1c62e502d4efaf2cd7767/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792078406",
     "store_asset_mtime": "1791995741",
     "store_tags": {
       "0": "699",
@@ -200,5 +240,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "LIMP MODE",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "LIMP-MODE.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "LIMP-MODE.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5024541": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "experimental": {
+          "download": "1090172544",
+          "gid": "3641471815429948387",
+          "size": "1846494120"
+        },
+        "public": {
+          "download": "1090172544",
+          "gid": "3641471815429948387",
+          "size": "1846494120"
+        }
+      }
+    },
+    "5024542": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "experimental": {
+          "download": "1080912224",
+          "gid": "174595147441332845",
+          "size": "1810476248"
+        },
+        "public": {
+          "download": "1080912224",
+          "gid": "174595147441332845",
+          "size": "1810476248"
+        }
+      }
+    },
+    "branches": {
+      "experimental": {
+        "buildid": "25974298",
+        "description": "Experimental newer version",
+        "timebuildupdated": "1792110939",
+        "timeupdated": "1792111028"
+      },
+      "public": {
+        "buildid": "25974298",
+        "timebuildupdated": "1792110939",
+        "timeupdated": "1792111058"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "5024540"
+  },
+  "extended": {
+    "developer": "StreetMarkers Games",
+    "publisher": "StreetMarkers Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/LIMP MODE",
+        "pattern": "save_*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

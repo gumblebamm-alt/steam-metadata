@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791203954,
-  "_history": [],
-  "_change_number": 39496597,
-  "_missing_token": true,
-  "_sha": "9565a7002983ef3cc177c4289ce195235a6dfb85",
-  "_size": 2966,
+  "_lastChecked": 1792112062,
+  "_history": [
+    {
+      "buildId": "25705299",
+      "branch": "public",
+      "timeUpdated": 1791545034,
+      "firstSeen": 1792112062,
+      "manifests": {
+        "5100341": {
+          "gid": "3980742738544241425",
+          "size": 14968031,
+          "download": 5592112
+        }
+      }
+    }
+  ],
+  "_change_number": 39879616,
+  "_missing_token": false,
+  "_sha": "47f80ce9b1585d9b11decfbeeb176b91aa10dbea",
+  "_size": 4410,
   "appid": "5100340",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +47,8 @@
     },
     "clienticon": "ddbf32b45e06771b0cbb9b456ac770b9287b3a50",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5100340",
     "genres": {
       "0": "4",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "51f386f15cc1e98c7c461c81fdfdeabbab7c61ff/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792102440",
     "store_asset_mtime": "1788655442",
     "store_tags": {
       "0": "1664",
@@ -129,5 +144,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sudoku University",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "sudoku-university.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5100341": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "5592112",
+          "gid": "3980742738544241425",
+          "size": "14968031"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25705299",
+        "timebuildupdated": "1791086312",
+        "timeupdated": "1791545034"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Driftwood Forge",
+    "homepage": "https://driftwoodforge.com/sudoku-university/",
+    "publisher": "Driftwood Forge"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "com.driftwoodforge.sudokuuniversity",
+        "pattern": "in-progress.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "com.driftwoodforge.sudokuuniversity",
+        "pattern": "settings.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "com.driftwoodforge.sudokuuniversity",
+        "pattern": "stats.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

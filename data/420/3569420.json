@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1792069000,
-  "_history": [],
-  "_change_number": 39860670,
-  "_missing_token": true,
-  "_sha": "75b1aba84c87e3f294d633d2ee7744a801be28ed",
-  "_size": 5297,
+  "_lastChecked": 1792112015,
+  "_history": [
+    {
+      "buildId": "25950801",
+      "branch": "public",
+      "timeUpdated": 1792036446,
+      "firstSeen": 1792111935,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "3569421": {
+          "gid": "7405823306894005284",
+          "size": null,
+          "download": null
+        },
+        "3569422": {
+          "gid": "6253062225097583813",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39882132,
+  "_missing_token": false,
+  "_sha": "ee9494f3e7f1b6cc18c0bebdc5ee9ca866d12cd1",
+  "_size": 7274,
   "appid": "3569420",
   "common": {
     "associations": {
@@ -39,6 +64,7 @@
     "clienticon": "e197814bc89241f20bd4aa8cf43b346b1bc300ea",
     "clienttga": "fd8fea16b31e8d33f28c6c5e5443359b88f877b6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -49,7 +75,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3569420",
     "genres": {
       "0": "1"
@@ -143,13 +168,16 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "97",
+    "review_score": "8",
     "small_capsule": {
       "english": "37a1f130512c4537b4a2b556bd104adb710bb0c5/capsule_231x87.jpg",
       "schinese": "f447e958e62118aa7e3bbc0e26fc795c9d8edacb/capsule_231x87_schinese.jpg",
       "tchinese": "f447e958e62118aa7e3bbc0e26fc795c9d8edacb/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1791783410",
+    "steam_release_date": "1792082628",
+    "store_asset_mtime": "1792055375",
     "store_tags": {
       "0": "42804",
       "1": "1685",
@@ -225,5 +253,103 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Chained Beasts",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ChainedBeasts.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ChainedBeasts.app"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3569421": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "971324960",
+          "gid": "7405823306894005284",
+          "size": "3129141775"
+        }
+      }
+    },
+    "3569422": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1027731440",
+          "gid": "6253062225097583813",
+          "size": "3512076032"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25950801",
+        "timebuildupdated": "1792036446",
+        "timeupdated": "1792036446"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Featherweight Games",
+    "publisher": "Featherweight Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Featherweight Games/ChainedBeasts/",
+            "replace": ".config/unity3d/Featherweight Games/ChainedBeasts/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Featherweight Games/ChainedBeasts/",
+            "replace": "unity.Featherweight Games.ChainedBeasts/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Featherweight Games/ChainedBeasts/",
+        "pattern": "SaveData",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

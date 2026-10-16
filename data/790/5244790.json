@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792025691,
-  "_history": [],
-  "_change_number": 39823658,
-  "_missing_token": true,
-  "_sha": "583b62ebfc5728f8af39657f34a545220662e0df",
-  "_size": 3250,
+  "_lastChecked": 1792112068,
+  "_history": [
+    {
+      "buildId": "25885031",
+      "branch": "public",
+      "timeUpdated": 1791817157,
+      "firstSeen": 1792112068,
+      "manifests": {
+        "5244791": {
+          "gid": "6992280441379277094",
+          "size": 158952428,
+          "download": 81102800
+        }
+      }
+    }
+  ],
+  "_change_number": 39862819,
+  "_missing_token": false,
+  "_sha": "59e145ed24d75bc223040a29b0d249ceee56fd9d",
+  "_size": 4354,
   "appid": "5244790",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +45,8 @@
     },
     "clienticon": "e88aeb99dd544f393240b0ca49276a60ea7d9959",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5244790",
     "genres": {
       "0": "28"
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0a01a0c835bc412aa915d93cd934fc7245a235bb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792072230",
     "store_asset_mtime": "1791976739",
     "store_tags": {
       "0": "12472",
@@ -151,5 +166,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Print Shop Manager",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Print-Shop-Manager.exe"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "5244791": {
+      "manifests": {
+        "public": {
+          "download": "81102800",
+          "gid": "6992280441379277094",
+          "size": "158952428"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25885031",
+        "timebuildupdated": "1791816724",
+        "timeupdated": "1791817157"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Whatsayer Studio",
+    "homepage": "https://whatsayerstudio.com/",
+    "publisher": "Whatsayer Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Print Shop Manager",
+        "pattern": "print_shop_manager_save_slot_*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Print Shop Manager",
+        "pattern": "print_shop_manager_save_slot_*.json.bak",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

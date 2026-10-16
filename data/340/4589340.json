@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792025669,
-  "_history": [],
-  "_change_number": 39832306,
-  "_missing_token": true,
-  "_sha": "1bfcde82dff77312e4b9fe3418e3d2aa3e48c30f",
-  "_size": 2876,
+  "_lastChecked": 1792112048,
+  "_history": [
+    {
+      "buildId": "25942009",
+      "branch": "public",
+      "timeUpdated": 1792004875,
+      "firstSeen": 1792112048,
+      "manifests": {
+        "4589341": {
+          "gid": "3653380365416549142",
+          "size": 130403670,
+          "download": 50538336
+        },
+        "4589342": {
+          "gid": "5764892499093265026",
+          "size": 108594374,
+          "download": 45584304
+        }
+      }
+    }
+  ],
+  "_change_number": 39862077,
+  "_missing_token": false,
+  "_sha": "01d7b020277168a1acee503fae8f1e1cef625227",
+  "_size": 3942,
   "appid": "4589340",
   "common": {
     "associations": {
@@ -26,9 +45,9 @@
     },
     "clienticon": "7049f751280c0105fd257ddc63dd01c596efdda7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4589340",
     "genres": {
       "0": "23",
@@ -100,10 +119,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b0c49a6b9980d213dafc58527e5b99bc370d5c04/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792071036",
     "store_asset_mtime": "1791754944",
     "store_tags": {
       "0": "5390",
@@ -130,5 +150,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Melon Rally",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "melon_rally.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "melon_rally.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4589341": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "50538336",
+          "gid": "3653380365416549142",
+          "size": "130403670"
+        }
+      }
+    },
+    "4589342": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "45584304",
+          "gid": "5764892499093265026",
+          "size": "108594374"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25942009",
+        "timebuildupdated": "1792004874",
+        "timeupdated": "1792004875"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "dimitars",
+    "homepage": "https://www.dimitars.dev/",
+    "publisher": "dimitars"
+  }
 }
