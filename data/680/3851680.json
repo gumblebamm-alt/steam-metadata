@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791982429,
+  "_lastChecked": 1792241286,
   "_history": [
     {
       "buildId": "25868400",
@@ -37,12 +37,30 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "25990983",
+      "branch": "public",
+      "timeUpdated": 1792229622,
+      "firstSeen": 1792241286,
+      "manifests": {
+        "3851681": {
+          "gid": "4071508564195781406",
+          "size": 756330813,
+          "download": 355737568
+        },
+        "3851682": {
+          "gid": "5389726347868467602",
+          "size": 784043122,
+          "download": 371687968
+        }
+      }
     }
   ],
-  "_change_number": 39816813,
+  "_change_number": 39934459,
   "_missing_token": false,
-  "_sha": "97acdb50fb528700e4c510a48e824a0fa714e636",
-  "_size": 4492,
+  "_sha": "f8f2e76c6d37ac2d7682dc2503e936a73f9a7f55",
+  "_size": 6447,
   "appid": "3851680",
   "common": {
     "associations": {
@@ -58,6 +76,7 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_62": "1",
       "category_68": "1",
       "category_74": "1",
@@ -147,10 +166,71 @@
     "oslist": "windows",
     "primary_genre": "25",
     "releasestate": "released",
-    "review_percentage": "92",
+    "review_percentage": "93",
     "review_score": "7",
     "small_capsule": {
       "english": "fdb991601b0cefc2a1d8f7e968197c5df6286e1d/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "3",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1792175251",
+      "tested_build_id": "25903576",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
     },
     "steam_release_date": "1791795644",
     "store_asset_mtime": "1791967428",
@@ -221,9 +301,9 @@
       },
       "manifests": {
         "public": {
-          "download": "369994496",
-          "gid": "4028171237058445738",
-          "size": "773502426"
+          "download": "355737568",
+          "gid": "4071508564195781406",
+          "size": "756330813"
         }
       }
     },
@@ -241,9 +321,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "25903576",
-        "timebuildupdated": "1791883912",
-        "timeupdated": "1791884688"
+        "buildid": "25990983",
+        "timebuildupdated": "1792164924",
+        "timeupdated": "1792229622"
       }
     },
     "privatebranches": "1"
@@ -252,5 +332,16 @@
     "developer": "Atelier Sentô",
     "homepage": "https://ateliersento.com/",
     "publisher": "Atelier Sentô"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Atelier Sento/TheDollShop",
+        "pattern": "*.save",
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

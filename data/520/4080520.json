@@ -1,6 +1,25 @@
 {
-  "_lastChecked": 1792112016,
+  "_lastChecked": 1792241288,
   "_history": [
+    {
+      "buildId": "25985948",
+      "branch": "public",
+      "timeUpdated": 1792155827,
+      "firstSeen": 1792111957,
+      "manifests": {
+        "4080521": {
+          "gid": "122727655550305162",
+          "size": null,
+          "download": null
+        },
+        "4080522": {
+          "gid": "4710594939900564352",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    },
     {
       "buildId": "25961941",
       "branch": "public",
@@ -16,25 +35,6 @@
           "gid": "4710594939900564352",
           "size": 10968791543,
           "download": 2368144512
-        }
-      },
-      "_source": "hubcap"
-    },
-    {
-      "buildId": "",
-      "branch": "public",
-      "timeUpdated": 1792070962,
-      "firstSeen": 1792111957,
-      "manifests": {
-        "4080521": {
-          "gid": "122727655550305162",
-          "size": null,
-          "download": null
-        },
-        "4080522": {
-          "gid": "4710594939900564352",
-          "size": null,
-          "download": null
         }
       },
       "_source": "hubcap"
@@ -96,6 +96,24 @@
       }
     },
     {
+      "buildId": "25961941",
+      "branch": "previous-version",
+      "timeUpdated": 1792074792,
+      "firstSeen": 1792241288,
+      "manifests": {
+        "4080521": {
+          "gid": "122727655550305162",
+          "size": 11015774944,
+          "download": 2392314368
+        },
+        "4080522": {
+          "gid": "4710594939900564352",
+          "size": 10968791543,
+          "download": 2368144512
+        }
+      }
+    },
+    {
       "buildId": "25928321",
       "branch": "previous-version",
       "timeUpdated": 1791967546,
@@ -112,12 +130,30 @@
           "download": 2368095008
         }
       }
+    },
+    {
+      "buildId": "25928321",
+      "branch": "previous-previous-version",
+      "timeUpdated": 1791967546,
+      "firstSeen": 1792241288,
+      "manifests": {
+        "4080521": {
+          "gid": "6098317941002397663",
+          "size": 10998689771,
+          "download": 2379653904
+        },
+        "4080522": {
+          "gid": "5948462275967426801",
+          "size": 10968758018,
+          "download": 2368095008
+        }
+      }
     }
   ],
-  "_change_number": 39876983,
+  "_change_number": 39935838,
   "_missing_token": false,
-  "_sha": "77135224685e80ab4b236ce3f0efe156d8826dc6",
-  "_size": 5091,
+  "_sha": "9d33ec1a6d6ca18905020e33ef789468a31eeacf",
+  "_size": 5761,
   "appid": "4080520",
   "common": {
     "associations": {
@@ -222,13 +258,13 @@
     "oslist": "windows,linux",
     "primary_genre": "1",
     "releasestate": "released",
-    "review_percentage": "87",
+    "review_percentage": "86",
     "review_score": "8",
     "small_capsule": {
       "english": "866648af73e2b28f71a7bb722953a8acf65f2ec9/capsule_231x87.jpg"
     },
     "steam_release_date": "1791829054",
-    "store_asset_mtime": "1792075113",
+    "store_asset_mtime": "1792221109",
     "store_tags": {
       "0": "19",
       "1": "42804",
@@ -248,6 +284,18 @@
       "english": {
         "full_audio": "true",
         "supported": "true"
+      },
+      "polish": {
+        "full_audio": "true",
+        "supported": "true"
+      },
+      "russian": {
+        "full_audio": "true",
+        "supported": "true"
+      },
+      "schinese": {
+        "full_audio": "true",
+        "supported": "true"
       }
     },
     "type": "Game"
@@ -256,15 +304,16 @@
     "installdir": "Horns of Deliverance",
     "launch": {
       "0": {
+        "arguments": "--rendering-driver vulkan",
         "config": {
           "oslist": "windows"
         },
-        "description": "Use Vulkan Rendering (default)",
+        "description": "using Vulkan Rendering",
         "description_loc": {
-          "english": "Use Vulkan Rendering (default)"
+          "english": "using Vulkan Rendering"
         },
         "executable": "skull_game.exe",
-        "type": "default"
+        "type": "option1"
       },
       "1": {
         "config": {
@@ -279,12 +328,12 @@
         "config": {
           "oslist": "windows"
         },
-        "description": "using Direct3d12 Rendering (compatibility if game crashes)",
+        "description": "using Direct3d12 Rendering (recommended)",
         "description_loc": {
-          "english": "using Direct3d12 Rendering (compatibility if game crashes)"
+          "english": "using Direct3d12 Rendering (recommended)"
         },
         "executable": "skull_game.exe",
-        "type": "option1"
+        "type": "option2"
       }
     }
   },
@@ -294,15 +343,20 @@
         "oslist": "windows"
       },
       "manifests": {
-        "previous-version": {
+        "previous-previous-version": {
           "download": "2379653904",
           "gid": "6098317941002397663",
           "size": "10998689771"
         },
-        "public": {
+        "previous-version": {
           "download": "2392314368",
           "gid": "122727655550305162",
           "size": "11015774944"
+        },
+        "public": {
+          "download": "1594580384",
+          "gid": "2081977510665070887",
+          "size": "5009456824"
         }
       }
     },
@@ -312,29 +366,40 @@
         "oslist": "linux"
       },
       "manifests": {
-        "previous-version": {
+        "previous-previous-version": {
           "download": "2368095008",
           "gid": "5948462275967426801",
           "size": "10968758018"
         },
-        "public": {
+        "previous-version": {
           "download": "2368144512",
           "gid": "4710594939900564352",
           "size": "10968791543"
+        },
+        "public": {
+          "download": "1553876144",
+          "gid": "6043379720257302337",
+          "size": "4953547515"
         }
       }
     },
     "branches": {
-      "previous-version": {
+      "previous-previous-version": {
         "buildid": "25928321",
-        "description": "last version in case the new version breaks anything",
+        "description": "look at the date to see which patch",
         "timebuildupdated": "1791965461",
         "timeupdated": "1791967546"
       },
-      "public": {
+      "previous-version": {
         "buildid": "25961941",
+        "description": "last version in case the new version breaks anything",
         "timebuildupdated": "1792073595",
         "timeupdated": "1792074792"
+      },
+      "public": {
+        "buildid": "25985948",
+        "timebuildupdated": "1792151942",
+        "timeupdated": "1792155827"
       }
     },
     "privatebranches": "1"

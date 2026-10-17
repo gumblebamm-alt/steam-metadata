@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788618635,
+  "_lastChecked": 1792241277,
   "_history": [
     {
       "buildId": "24793490",
@@ -13,42 +13,43 @@
           "download": 0
         }
       }
+    },
+    {
+      "buildId": "25214958",
+      "branch": "public",
+      "timeUpdated": 1788978022,
+      "firstSeen": 1792241182,
+      "manifests": {
+        "1057911": {
+          "gid": "5844183717580258452",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
     }
   ],
-  "_change_number": 38600589,
+  "_change_number": 39882483,
   "_missing_token": false,
-  "_sha": "9d4f7602c80960a322cb50489f1671493c6131ee",
-  "_size": 1853,
+  "_sha": "159416d4f41a0042138f01adc3eb5d6c513fa281",
+  "_size": 1763,
   "appid": "1057910",
   "common": {
     "associations": {},
     "clienticns": "ad5e1bc6c29c05a9f8241c61cb5bffae3e0e1d92",
-    "clienticon": "af5ebfa2a5fbedcbb6ede5a0c75abc9505b8fc63",
+    "clienticon": "277491b419dedbe211493ab94f2b3d9cd95de45f",
     "clienttga": "204a22287787a61d849019b383f13d062273c0cb",
+    "community_hub_visible": "1",
     "community_visible_stats": "1",
-    "eulas": {
-      "0": {
-        "id": "1057910_eula_0",
-        "name": "hackerone_test_app3 (application created without prepayment) EULA",
-        "url": "https://store.steampowered.com//eula/1057910_eula_0",
-        "version": "36"
-      },
-      "1": {
-        "id": "1057910_eula_1",
-        "name": "hackerone_test_app3 (application created without prepayment) EULA",
-        "url": "https://store.steampowered.com//eula/1057910_eula_1",
-        "version": "6"
-      }
-    },
     "gameid": "1057910",
-    "icon": "c0bdc48e8f6805a4193fcf948686dd373152c099",
+    "icon": "9b146dd562ebdadd8fa22046d52fac654361580c",
     "linuxclienticon": "ad5e1bc6c29c05a9f8241c61cb5bffae3e0e1d92",
     "logo": "78f7e60c4668b9cd388b7e88dcf407cf4633bc9a",
     "logo_small": "78f7e60c4668b9cd388b7e88dcf407cf4633bc9a_thumb",
     "name": "hackerone_test_app3 (application created without prepayment)",
-    "osarch": "",
-    "osextended": "macosapplesilicon",
-    "oslist": "windows,macos",
+    "osarch": "64",
+    "osextended": "",
+    "oslist": "windows",
     "releasestate": "released",
     "type": "Tool",
     "workshop_visible": "1"
@@ -60,11 +61,13 @@
         "tool": "SteamLinuxRuntime_sniper"
       }
     },
-    "installdir": "hackerone_test_app3",
+    "installdir": "OFF-BY-ONE",
     "launch": {
       "0": {
-        "arguments": "-c \"open -a Calculator\"",
-        "executable": "game.exe",
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "off-by-one.exe",
         "type": "default"
       }
     }
@@ -73,21 +76,38 @@
     "1057911": {
       "manifests": {
         "public": {
-          "download": "0",
-          "gid": "6460435983465717919",
-          "size": "0"
+          "download": "35722976",
+          "gid": "5844183717580258452",
+          "size": "111539376"
         }
       }
     },
+    "baselanguages": "english,russian",
     "branches": {
       "public": {
-        "buildid": "24793490",
-        "timebuildupdated": "1787045666",
-        "timeupdated": "1787045794"
+        "buildid": "25214958",
+        "timebuildupdated": "1788978001",
+        "timeupdated": "1788978022"
       }
     }
   },
   "extended": {
     "anti_cheat_support_url": "https://test.com"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "OFF-BY-ONE",
+        "pattern": "progress.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

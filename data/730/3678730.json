@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792069002,
+  "_lastChecked": 1792241285,
   "_history": [
     {
       "buildId": "25936144",
@@ -18,12 +18,30 @@
           "download": 3413936672
         }
       }
+    },
+    {
+      "buildId": "26004741",
+      "branch": "public",
+      "timeUpdated": 1792215473,
+      "firstSeen": 1792241285,
+      "manifests": {
+        "3678731": {
+          "gid": "3816741146820186529",
+          "size": 3670830154,
+          "download": 3394871760
+        },
+        "3678732": {
+          "gid": "5365007122956825730",
+          "size": 4400216037,
+          "download": 3475017920
+        }
+      }
     }
   ],
-  "_change_number": 39857280,
+  "_change_number": 39930568,
   "_missing_token": false,
-  "_sha": "b8a774390fa3afa9d7ca60a109bbdbe6a673fe47",
-  "_size": 6956,
+  "_sha": "11c6f4363a7671aca1d8549bffc5df49cec6992f",
+  "_size": 7266,
   "appid": "3678730",
   "common": {
     "associations": {
@@ -44,14 +62,21 @@
       "category_23": "1",
       "category_24": "1",
       "category_25": "1",
+      "category_28": "1",
       "category_30": "1",
       "category_39": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_59": "1",
       "category_62": "1",
       "category_9": "1"
     },
     "clienticon": "0d70b289cfc277ac8738976f1dfce6a82da3e18d",
     "clienttga": "71cee08221490650005ee84bb800bfcc8d1fcd97",
     "community_hub_visible": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
     "gameid": "3678730",
     "genres": {
@@ -268,9 +293,9 @@
       },
       "manifests": {
         "public": {
-          "download": "3348788608",
-          "gid": "6373026872618619002",
-          "size": "3598453856"
+          "download": "3394871760",
+          "gid": "3816741146820186529",
+          "size": "3670830154"
         }
       }
     },
@@ -280,18 +305,18 @@
       },
       "manifests": {
         "public": {
-          "download": "3413936672",
-          "gid": "354261851464814356",
-          "size": "4273813835"
+          "download": "3475017920",
+          "gid": "5365007122956825730",
+          "size": "4400216037"
         }
       }
     },
     "baselanguages": "brazilian,english,french,german,japanese,koreana,polish,russian,schinese,spanish,tchinese",
     "branches": {
       "public": {
-        "buildid": "25936144",
-        "timebuildupdated": "1791988003",
-        "timeupdated": "1791988003"
+        "buildid": "26004741",
+        "timebuildupdated": "1792215473",
+        "timeupdated": "1792215473"
       }
     },
     "privatebranches": "1",
@@ -307,16 +332,21 @@
     "quota": "5000000",
     "rootoverrides": {
       "0": {
-        "addpath": "",
+        "addpath": "Epic/",
         "os": "MacOS",
         "oscompare": "=",
         "root": "WinAppDataLocal",
-        "useinstead": "MacHome"
+        "useinstead": "MacAppSupport"
       }
     },
     "savefiles": {
       "0": {
         "path": "BallMaze/Saved/SaveGames",
+        "pattern": "Save01.sav",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "BallMaze/Saved/SaveGames/Steam/{64BitSteamID}",
         "pattern": "Save01.sav",
         "root": "WinAppDataLocal"
       }
