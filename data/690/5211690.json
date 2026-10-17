@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1791895305,
-  "_history": [],
-  "_change_number": 39777360,
-  "_missing_token": true,
-  "_sha": "fa208d7cc4317e56bd834138f04f8ce0f2472b02",
-  "_size": 3478,
+  "_lastChecked": 1792198545,
+  "_history": [
+    {
+      "buildId": "25998244",
+      "branch": "eac-validation",
+      "timeUpdated": 1792186200,
+      "firstSeen": 1792198545,
+      "manifests": {
+        "5211691": {
+          "gid": "769097365107134402",
+          "size": 3594551900,
+          "download": 1805884288
+        }
+      }
+    },
+    {
+      "buildId": "25998244",
+      "branch": "public",
+      "timeUpdated": 1792186822,
+      "firstSeen": 1792198545,
+      "manifests": {
+        "5211691": {
+          "gid": "769097365107134402",
+          "size": 3594551900,
+          "download": 1805884288
+        }
+      }
+    }
+  ],
+  "_change_number": 39921527,
+  "_missing_token": false,
+  "_sha": "418c08ad858709bb49a25e8a7a7bfab87e14b994",
+  "_size": 4848,
   "appid": "5211690",
   "common": {
     "associations": {
@@ -26,7 +53,6 @@
     "clienticon": "dfffe59877e4cea9cbb195cb38bbc3aefbe87fe4",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5211690",
     "genres": {
       "0": "1",
@@ -99,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "93fcd2defd8f69bfecaf10035bc6962e68511273/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793430000",
     "store_asset_mtime": "1790473684",
     "store_tags": {
       "0": "7423",
@@ -166,5 +193,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Ghillie Wars",
+    "launch": {
+      "0": {
+        "config": {
+          "betakey": "private-test",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "GhillieWars.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "default,public,eac-validation",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "with Easy Anti-Cheat (validation)",
+        "description_loc": {
+          "english": "with Easy Anti-Cheat (validation)"
+        },
+        "executable": "EACLauncher.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5211691": {
+      "manifests": {
+        "eac-validation": {
+          "download": "1805884288",
+          "gid": "769097365107134402",
+          "size": "3594551900"
+        },
+        "public": {
+          "download": "1805884288",
+          "gid": "769097365107134402",
+          "size": "3594551900"
+        }
+      }
+    },
+    "branches": {
+      "eac-validation": {
+        "buildid": "25998244",
+        "description": "eac-validation",
+        "timebuildupdated": "1792186162",
+        "timeupdated": "1792186200"
+      },
+      "public": {
+        "buildid": "25998244",
+        "timebuildupdated": "1792186162",
+        "timeupdated": "1792186822"
+      }
+    }
+  },
+  "extended": {
+    "developer": "J2LRG Games",
+    "publisher": "J2Large Games LLC"
+  }
 }

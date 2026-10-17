@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1792155356,
-  "_history": [],
-  "_change_number": 39902550,
-  "_missing_token": true,
-  "_sha": "5affd096f90c9b2572eddc28edbf1a6dff7a25af",
-  "_size": 3923,
+  "_lastChecked": 1792198499,
+  "_history": [
+    {
+      "buildId": "25988552",
+      "branch": "public",
+      "timeUpdated": 1792159895,
+      "firstSeen": 1792198442,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "3327121": {
+          "gid": "933400680800340736",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39915793,
+  "_missing_token": false,
+  "_sha": "410cec54395504c51c1791619ab2a3fc8b692d1d",
+  "_size": 5529,
   "appid": "3327120",
   "common": {
     "associations": {
@@ -32,6 +52,7 @@
     "clienticon": "eba6f806a2439aa67e5a09238566da5b36e3a555",
     "clienttga": "9ed46c2c329a02e323ddd6ebfdf380223ff327cb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -40,7 +61,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3327120",
     "genres": {
       "0": "25",
@@ -115,11 +135,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "a88a57d31c86366df7e188883c7ea05dfc5aa6e0/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791651634",
+    "steam_release_date": "1792155659",
+    "store_asset_mtime": "1792158336",
     "store_tags": {
       "0": "3835",
       "1": "1721",
@@ -182,5 +205,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DreadlineExpress",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DreadlineExpress.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65528",
+    "steamcontrollertemplateindex": "2",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3327121": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "471265712",
+          "gid": "933400680800340736",
+          "size": "1475477442"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,english,japanese,russian,schinese,spanish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "25988552",
+        "timebuildupdated": "1792158816",
+        "timeupdated": "1792159895"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "David Konecny",
+    "homepage": "https://dreadline.express/",
+    "publisher": "Shoreline Games"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "DavidKonecny/DreadlineExpress/steam{64BitSteamID}/Saves",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "DavidKonecny/DreadlineExpress/steam{64BitSteamID}/Saves",
+        "pattern": "*.data",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

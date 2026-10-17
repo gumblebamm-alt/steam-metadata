@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791138123,
+  "_lastChecked": 1792198530,
   "_history": [
     {
       "buildId": "24743713",
@@ -15,9 +15,9 @@
       }
     },
     {
-      "buildId": "",
+      "buildId": "25941829",
       "branch": "public",
-      "timeUpdated": 1790841966,
+      "timeUpdated": 1792188362,
       "firstSeen": 1791138035,
       "manifests": {
         "4706651": {
@@ -27,12 +27,25 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "24743713",
+      "branch": "tyw4.06.4",
+      "timeUpdated": 1786745316,
+      "firstSeen": 1792198530,
+      "manifests": {
+        "4706651": {
+          "gid": "5295382711722100767",
+          "size": 761128159,
+          "download": 643476080
+        }
+      }
     }
   ],
-  "_change_number": 38043180,
+  "_change_number": 39924897,
   "_missing_token": false,
-  "_sha": "d853e436a9616939746f5ac4c4035cb8a11f9ce2",
-  "_size": 5235,
+  "_sha": "30c36265f7f879e0e608877617e2b9e93525c5b2",
+  "_size": 5890,
   "appid": "4706650",
   "common": {
     "associations": {
@@ -47,9 +60,11 @@
     },
     "category": {
       "category_1": "1",
+      "category_17": "1",
       "category_2": "1",
       "category_23": "1",
       "category_24": "1",
+      "category_30": "1",
       "category_37": "1",
       "category_47": "1",
       "category_49": "1",
@@ -170,7 +185,8 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
   "config": {
     "installdir": "Thirty Years War",
@@ -233,6 +249,18 @@
         },
         "executable": "mpsub.exe",
         "type": "editor"
+      },
+      "5": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "the Workshop Publishing tool",
+        "description_loc": {
+          "english": "the Workshop Publishing tool"
+        },
+        "executable": "WDSWorkshop.exe",
+        "type": "editor"
       }
     }
   },
@@ -240,6 +268,11 @@
     "4706651": {
       "manifests": {
         "public": {
+          "download": "643494480",
+          "gid": "8109148467949217806",
+          "size": "761842259"
+        },
+        "tyw4.06.4": {
           "download": "643476080",
           "gid": "5295382711722100767",
           "size": "761128159"
@@ -248,11 +281,18 @@
     },
     "branches": {
       "public": {
+        "buildid": "25941829",
+        "timebuildupdated": "1792004231",
+        "timeupdated": "1792188362"
+      },
+      "tyw4.06.4": {
         "buildid": "24743713",
+        "description": "Thirty Years War 4.06.4",
         "timebuildupdated": "1786745166",
         "timeupdated": "1786745316"
       }
-    }
+    },
+    "workshopdepot": "4706650"
   },
   "extended": {
     "developer": "Wargame Design Studio",

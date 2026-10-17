@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792155386,
-  "_history": [],
-  "_change_number": 39898121,
-  "_missing_token": true,
-  "_sha": "f038d6481b7277efb49ade39463198a68f4dc34c",
-  "_size": 3040,
+  "_lastChecked": 1792198544,
+  "_history": [
+    {
+      "buildId": "25987546",
+      "branch": "public",
+      "timeUpdated": 1792156166,
+      "firstSeen": 1792198544,
+      "manifests": {
+        "5175951": {
+          "gid": "2322114235095059164",
+          "size": 34011991,
+          "download": 18416864
+        },
+        "5175952": {
+          "gid": "2993299919855198053",
+          "size": 36243191,
+          "download": 18785200
+        }
+      }
+    }
+  ],
+  "_change_number": 39916808,
+  "_missing_token": false,
+  "_sha": "a6cac861373eaf24c556590a5e570a7f61eef16e",
+  "_size": 4458,
   "appid": "5175950",
   "common": {
     "associations": {
@@ -32,9 +51,9 @@
     },
     "clienticon": "d664498117bbd00603e8bde81d246cd18f6c3893",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5175950",
     "genres": {
       "0": "25",
@@ -109,24 +128,30 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fa8c9be86bffc003ca4804894b878c9b0d2b83a1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792166413",
     "store_asset_mtime": "1792135702",
     "store_tags": {
       "0": "3834",
       "1": "1664",
-      "10": "4182",
-      "11": "492",
+      "10": "21",
+      "11": "6869",
+      "12": "3993",
+      "13": "4182",
+      "14": "492",
+      "15": "4975",
+      "16": "4791",
       "2": "4106",
       "3": "4191",
       "4": "5851",
       "5": "7481",
       "6": "6971",
       "7": "5716",
-      "8": "21",
-      "9": "3993"
+      "8": "10679",
+      "9": "8369"
     },
     "supported_languages": {
       "english": {
@@ -138,5 +163,79 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Manorbound",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Manorbound.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Manorbound",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5175951": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "18416864",
+          "gid": "2322114235095059164",
+          "size": "34011991"
+        }
+      }
+    },
+    "5175952": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "18785200",
+          "gid": "2993299919855198053",
+          "size": "36243191"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "25987546",
+        "timebuildupdated": "1792156164",
+        "timeupdated": "1792156166"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Team Nutshell",
+    "publisher": "Team Nutshell"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "8192",
+    "savefiles": {
+      "0": {
+        "path": "",
+        "pattern": "*.mnbd",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

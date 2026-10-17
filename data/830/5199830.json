@@ -1,10 +1,25 @@
 {
-  "_lastChecked": 1790987729,
-  "_history": [],
-  "_change_number": 39436566,
-  "_missing_token": true,
-  "_sha": "99deca85b612caa3a0ac77b8913a160b691134dc",
-  "_size": 3472,
+  "_lastChecked": 1792198499,
+  "_history": [
+    {
+      "buildId": "25988441",
+      "branch": "public",
+      "timeUpdated": 1792158541,
+      "firstSeen": 1792198443,
+      "manifests": {
+        "5199831": {
+          "gid": "2365906941607017759",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39905260,
+  "_missing_token": false,
+  "_sha": "a76514413d69ca2601a90be3d222cfcaa782db8f",
+  "_size": 4868,
   "appid": "5199830",
   "common": {
     "aicontenttype": "1",
@@ -35,8 +50,8 @@
     },
     "clienticon": "90aef22ade2250b611df1ece1f357eb9fb6ac6d0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5199830",
     "genres": {
       "0": "23",
@@ -119,10 +134,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "aeb85e8afa5f28c52a022c5b3f173f4017705d5c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792155598",
     "store_asset_mtime": "1790940246",
     "store_tags": {
       "0": "599",
@@ -165,5 +181,79 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dynastia FC",
+    "launch": {
+      "0": {
+        "executable": "DynastiaFC.exe"
+      }
+    }
+  },
+  "depots": {
+    "5199831": {
+      "manifests": {
+        "public": {
+          "download": "92742560",
+          "gid": "2365906941607017759",
+          "size": "176688940"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english",
+    "branches": {
+      "public": {
+        "buildid": "25988441",
+        "timebuildupdated": "1792158520",
+        "timeupdated": "1792158541"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Conni'co",
+    "isfreeapp": "1",
+    "publisher": "Conni'co"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "5000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Dynastia FC",
+            "replace": "Dynastia FC"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Dynastia FC",
+            "replace": "Dynastia FC"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Dynastia FC",
+        "pattern": "save.sav",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Dynastia FC",
+        "pattern": "save.bak",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

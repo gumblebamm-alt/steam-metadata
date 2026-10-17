@@ -1,10 +1,25 @@
 {
-  "_lastChecked": 1792155360,
-  "_history": [],
-  "_change_number": 39898633,
-  "_missing_token": true,
-  "_sha": "5ca7e4204a0781b87aca337ab904ca3455f24727",
-  "_size": 5033,
+  "_lastChecked": 1792198499,
+  "_history": [
+    {
+      "buildId": "25982618",
+      "branch": "public",
+      "timeUpdated": 1792143184,
+      "firstSeen": 1792198429,
+      "manifests": {
+        "3826671": {
+          "gid": "8958769941912459930",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39926009,
+  "_missing_token": false,
+  "_sha": "86e8698b59145fda345e8577118b42dcfd1782c5",
+  "_size": 7036,
   "appid": "3826670",
   "common": {
     "associations": {
@@ -49,9 +64,9 @@
     "clienticon": "aafee0272af24c4141498cbbf1340706f0e25c9c",
     "clienttga": "bfcc2fb9bf1b224eb4fcba749120b588a3224d1d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3826670",
     "genres": {
       "0": "1",
@@ -63,6 +78,16 @@
       "schinese": "bb58a55e6b89f3bd9e7de378f4950c9c76bc56b7/header_schinese.jpg"
     },
     "icon": "aafee0272af24c4141498cbbf1340706f0e25c9c",
+    "languages": {
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "polish": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1",
+      "tchinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en,zh-cn",
       "library_header": "en,zh-cn",
@@ -134,11 +159,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "89",
+    "review_score": "7",
     "small_capsule": {
       "english": "7f7154ac5d94310c1e493b6819f2ab63ad8aca6e/capsule_231x87.jpg",
       "schinese": "663e5829bffcb292fe70dd1f5601c859c9cc47f4/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1792169992",
     "store_asset_mtime": "1791952960",
     "store_tags": {
       "0": "1721",
@@ -207,5 +235,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Flipping is Hard",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Flipping is Hard.exe"
+      }
+    }
+  },
+  "depots": {
+    "3826671": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1183796592",
+          "gid": "8958769941912459930",
+          "size": "1532470447"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,japanese,koreana,russian,schinese",
+    "branches": {
+      "public": {
+        "buildid": "25982618",
+        "timebuildupdated": "1792142779",
+        "timeupdated": "1792143184"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Elegant Horse Studios",
+    "dlcavailableonstore": "1",
+    "homepage": "https://eleganthorsestudios.com/flipping-is-hard/",
+    "listofdlc": "5323470",
+    "publisher": "Elegant Horse Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "524288",
+    "savefiles": {
+      "0": {
+        "path": "ElegantHorseStudios/Flipping is Hard/Data/Synced",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "ElegantHorseStudios/Flipping is Hard/Data/SaveSlots",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "ElegantHorseStudios/Flipping is Hard/Data/Synced",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxXdgConfigHome"
+      },
+      "3": {
+        "path": "ElegantHorseStudios/Flipping is Hard/Data/SaveSlots",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxXdgConfigHome"
+      }
+    }
+  }
 }

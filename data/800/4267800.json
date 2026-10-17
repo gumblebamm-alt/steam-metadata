@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1792155366,
+  "_lastChecked": 1792198522,
   "_history": [
+    {
+      "buildId": "26001380",
+      "branch": "public",
+      "timeUpdated": 1792198359,
+      "firstSeen": 1792198522,
+      "manifests": {
+        "4267801": {
+          "gid": "8358452674099980682",
+          "size": 464449461,
+          "download": 303792992
+        },
+        "4267802": {
+          "gid": "1485554873370703016",
+          "size": 400249965,
+          "download": 284597488
+        }
+      }
+    },
     {
       "buildId": "25975458",
       "branch": "public",
@@ -86,6 +104,19 @@
       }
     },
     {
+      "buildId": "25992323",
+      "branch": "test",
+      "timeUpdated": 1792168328,
+      "firstSeen": 1792198522,
+      "manifests": {
+        "4267801": {
+          "gid": "721361259785824047",
+          "size": 464514995,
+          "download": 303853424
+        }
+      }
+    },
+    {
       "buildId": "25983059",
       "branch": "test",
       "timeUpdated": 1792144046,
@@ -138,6 +169,19 @@
       }
     },
     {
+      "buildId": "26001304",
+      "branch": "win11stable",
+      "timeUpdated": 1792198022,
+      "firstSeen": 1792198522,
+      "manifests": {
+        "4267801": {
+          "gid": "5395905814631352131",
+          "size": 527905783,
+          "download": 329771760
+        }
+      }
+    },
+    {
       "buildId": "25975299",
       "branch": "win11stable",
       "timeUpdated": 1792114843,
@@ -186,6 +230,24 @@
           "gid": "7975669401140139175",
           "size": 514151750,
           "download": 316017456
+        }
+      }
+    },
+    {
+      "buildId": "26001374",
+      "branch": "win7compat",
+      "timeUpdated": 1792198321,
+      "firstSeen": 1792198522,
+      "manifests": {
+        "4267801": {
+          "gid": "8684370639512010894",
+          "size": 429325753,
+          "download": 290300112
+        },
+        "4267802": {
+          "gid": "1485554873370703016",
+          "size": 400249965,
+          "download": 284597488
         }
       }
     },
@@ -262,10 +324,10 @@
       }
     }
   ],
-  "_change_number": 39896695,
+  "_change_number": 39925963,
   "_missing_token": false,
-  "_sha": "03cb0cf550a9ecd2e4998fb9f083606ba4440d3a",
-  "_size": 6861,
+  "_sha": "1bdcf817ca64122a69312ca6d8c795491d6566e2",
+  "_size": 8728,
   "appid": "4267800",
   "common": {
     "aicontenttype": "1",
@@ -393,6 +455,71 @@
       "schinese": "6b045358b3eee9a9285f122bccabf332e48dfdcb/capsule_231x87_schinese.jpg",
       "tchinese": "6b045358b3eee9a9285f122bccabf332e48dfdcb/capsule_231x87_tchinese.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1792082982",
+      "tested_build_id": "25949286",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
     "steam_release_date": "1791770322",
     "store_asset_mtime": "1791697135",
     "store_tags": {
@@ -452,14 +579,14 @@
           "size": "464449461"
         },
         "test": {
-          "download": "303841696",
-          "gid": "7563115095678517054",
-          "size": "464497644"
+          "download": "303853424",
+          "gid": "721361259785824047",
+          "size": "464514995"
         },
         "win11stable": {
-          "download": "329687312",
-          "gid": "1879858637019084005",
-          "size": "527815923"
+          "download": "329771760",
+          "gid": "5395905814631352131",
+          "size": "527905783"
         },
         "win7compat": {
           "download": "290300112",
@@ -475,40 +602,40 @@
       },
       "manifests": {
         "public": {
-          "download": "284502880",
-          "gid": "741905430956888048",
-          "size": "400160105"
+          "download": "284597488",
+          "gid": "1485554873370703016",
+          "size": "400249965"
         },
         "win7compat": {
-          "download": "284502880",
-          "gid": "741905430956888048",
-          "size": "400160105"
+          "download": "284597488",
+          "gid": "1485554873370703016",
+          "size": "400249965"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25975458",
-        "timebuildupdated": "1792115366",
-        "timeupdated": "1792115366"
+        "buildid": "26001380",
+        "timebuildupdated": "1792198359",
+        "timeupdated": "1792198359"
       },
       "test": {
-        "buildid": "25983059",
+        "buildid": "25992323",
         "description": "测试专用分支for test",
-        "timebuildupdated": "1792144044",
-        "timeupdated": "1792144046"
+        "timebuildupdated": "1792168327",
+        "timeupdated": "1792168328"
       },
       "win11stable": {
-        "buildid": "25975299",
+        "buildid": "26001304",
         "description": "Crash or Windows 11 Compatible",
-        "timebuildupdated": "1792114841",
-        "timeupdated": "1792114843"
+        "timebuildupdated": "1792198021",
+        "timeupdated": "1792198022"
       },
       "win7compat": {
-        "buildid": "25975525",
+        "buildid": "26001374",
         "description": "Windows 7 Compatible",
-        "timebuildupdated": "1792115559",
-        "timeupdated": "1792115559"
+        "timebuildupdated": "1792198321",
+        "timeupdated": "1792198321"
       }
     },
     "hasdepotsindlc": "1"

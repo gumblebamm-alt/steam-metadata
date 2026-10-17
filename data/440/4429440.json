@@ -1,10 +1,48 @@
 {
-  "_lastChecked": 1792155368,
-  "_history": [],
-  "_change_number": 39900470,
-  "_missing_token": true,
-  "_sha": "12f429624722de2f48a83c4f9a005de25419cea8",
-  "_size": 3860,
+  "_lastChecked": 1792198498,
+  "_history": [
+    {
+      "buildId": "25999416",
+      "branch": "public",
+      "timeUpdated": 1792190244,
+      "firstSeen": 1792198427,
+      "manifests": {
+        "4429441": {
+          "gid": "7704078171716491553",
+          "size": null,
+          "download": null
+        },
+        "4429442": {
+          "gid": "2607450724106766860",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    },
+    {
+      "buildId": "25876424",
+      "branch": "mac-test",
+      "timeUpdated": 1791787624,
+      "firstSeen": 1792198498,
+      "manifests": {
+        "4429441": {
+          "gid": "7419362985437222499",
+          "size": 62726136,
+          "download": 35060272
+        },
+        "4429442": {
+          "gid": "8387190929685188076",
+          "size": 77355178,
+          "download": 40302512
+        }
+      }
+    }
+  ],
+  "_change_number": 39922610,
+  "_missing_token": false,
+  "_sha": "13b5455d4d1c933a6922d3f48bd73ded19540f90",
+  "_size": 5460,
   "appid": "4429440",
   "common": {
     "aicontenttype": "1",
@@ -25,8 +63,8 @@
     },
     "clienticon": "a18cbfe874f5592bf0dd8e6c82922a3661f3cebc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4429440",
     "genres": {
       "0": "4",
@@ -99,10 +137,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c6184ec963d6333211ff43c6c4abff5c78148247/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792162810",
     "store_asset_mtime": "1790925138",
     "store_tags": {
       "0": "615955",
@@ -184,5 +223,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Void Core",
+    "launch": {
+      "0": {
+        "arguments": "--fused game.love",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "VoidCore.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "mac-test",
+          "oslist": "macos"
+        },
+        "executable": "VoidCore.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4429441": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "mac-test": {
+          "download": "35060272",
+          "gid": "7419362985437222499",
+          "size": "62726136"
+        },
+        "public": {
+          "download": "36824656",
+          "gid": "7704078171716491553",
+          "size": "66737744"
+        }
+      }
+    },
+    "4429442": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "mac-test": {
+          "download": "40302512",
+          "gid": "8387190929685188076",
+          "size": "77355178"
+        },
+        "public": {
+          "download": "40123008",
+          "gid": "2607450724106766860",
+          "size": "76812846"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,polish,russian,schinese,spanish,tchinese,turkish",
+    "branches": {
+      "mac-test": {
+        "buildid": "25876424",
+        "description": "macOS testing - v1.0.0",
+        "timebuildupdated": "1791787624",
+        "timeupdated": "1791787624"
+      },
+      "public": {
+        "buildid": "25999416",
+        "timebuildupdated": "1792190244",
+        "timeupdated": "1792190244"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Badgertainment",
+    "publisher": "Badgertainment"
+  }
 }

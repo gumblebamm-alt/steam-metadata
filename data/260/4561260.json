@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1791420108,
-  "_history": [],
-  "_change_number": 39595572,
-  "_missing_token": true,
-  "_sha": "190edfb30cfdf591fb0bbf2f12f7411a99a7fc81",
-  "_size": 2893,
+  "_lastChecked": 1792198527,
+  "_history": [
+    {
+      "buildId": "24561851",
+      "branch": "beta",
+      "timeUpdated": 1785890420,
+      "firstSeen": 1792198527,
+      "manifests": {
+        "4561261": {
+          "gid": "1260865316088485123",
+          "size": 476779684,
+          "download": 173838784
+        },
+        "4561262": {
+          "gid": "6725508548151349",
+          "size": 533147708,
+          "download": 195813088
+        },
+        "4561263": {
+          "gid": "8861021767107261978",
+          "size": 495061890,
+          "download": 177410688
+        }
+      }
+    },
+    {
+      "buildId": "24561851",
+      "branch": "public",
+      "timeUpdated": 1785890420,
+      "firstSeen": 1792198527,
+      "manifests": {
+        "4561261": {
+          "gid": "1260865316088485123",
+          "size": 476779684,
+          "download": 173838784
+        },
+        "4561262": {
+          "gid": "6725508548151349",
+          "size": 533147708,
+          "download": 195813088
+        },
+        "4561263": {
+          "gid": "8861021767107261978",
+          "size": 495061890,
+          "download": 177410688
+        }
+      }
+    }
+  ],
+  "_change_number": 39920171,
+  "_missing_token": false,
+  "_sha": "a1c4963c18935dcec28df4d2a99c07568dd075cb",
+  "_size": 4756,
   "appid": "4561260",
   "common": {
     "aicontenttype": "1",
@@ -26,7 +73,6 @@
     "clienticon": "ef1fb93ed9769fa1521c28e3217e3a09e52e3a99",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4561260",
     "genres": {
       "0": "1",
@@ -99,7 +145,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "650c73b26ff22b82b7d5f429b7d3534c565e4c7a/capsule_231x87.jpg"
     },
@@ -126,5 +172,104 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Open Sourcerer",
+    "launch": {
+      "0": {
+        "config": {
+          "betakey": "Beta",
+          "oslist": "macos"
+        },
+        "executable": "Open Sourcerer.app",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Open Sourcerer.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Open Sourcerer",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4561261": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "173838784",
+          "gid": "1260865316088485123",
+          "size": "476779684"
+        },
+        "public": {
+          "download": "173838784",
+          "gid": "1260865316088485123",
+          "size": "476779684"
+        }
+      }
+    },
+    "4561262": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "195813088",
+          "gid": "6725508548151349",
+          "size": "533147708"
+        },
+        "public": {
+          "download": "195813088",
+          "gid": "6725508548151349",
+          "size": "533147708"
+        }
+      }
+    },
+    "4561263": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "177410688",
+          "gid": "8861021767107261978",
+          "size": "495061890"
+        },
+        "public": {
+          "download": "177410688",
+          "gid": "8861021767107261978",
+          "size": "495061890"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "24561851",
+        "description": "This is our upcoming feature branch",
+        "timebuildupdated": "1785885656",
+        "timeupdated": "1785890420"
+      },
+      "public": {
+        "buildid": "24561851",
+        "timebuildupdated": "1785885656",
+        "timeupdated": "1785890420"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Gnarled Helix LLC",
+    "homepage": "https://open-sourcerer.com/",
+    "isfreeapp": "1",
+    "publisher": "Self Published"
+  }
 }

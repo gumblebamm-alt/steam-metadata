@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1792155368,
-  "_history": [],
-  "_change_number": 39891708,
-  "_missing_token": true,
-  "_sha": "5248c81f7ce59610ebc0de24a88881ad41e579de",
-  "_size": 3178,
+  "_lastChecked": 1792198499,
+  "_history": [
+    {
+      "buildId": "25979897",
+      "branch": "public",
+      "timeUpdated": 1792134468,
+      "firstSeen": 1792198433,
+      "manifests": {
+        "4365791": {
+          "gid": "6884321341552081498",
+          "size": null,
+          "download": null
+        },
+        "4365792": {
+          "gid": "3473667573464110996",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39912245,
+  "_missing_token": false,
+  "_sha": "34290c997b1adc4ebefa3b30623b0c3b3cfa053d",
+  "_size": 4946,
   "appid": "4365790",
   "common": {
     "associations": {
@@ -31,6 +51,7 @@
     },
     "clienticon": "4e709625cf43b523294afabee20b4c37a8294f72",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -39,7 +60,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4365790",
     "genres": {
       "0": "1",
@@ -113,10 +133,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0a51929cdbc6ad80c99c24b4a53534cabca6a308/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792169923",
     "store_asset_mtime": "1792128779",
     "store_tags": {
       "0": "122",
@@ -146,5 +167,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fated Flatline DX",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Fated Flatline DX.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Fated Flatline DX.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4365791": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "66370832",
+          "gid": "6884321341552081498",
+          "size": "204264426"
+        }
+      }
+    },
+    "4365792": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "74300176",
+          "gid": "3473667573464110996",
+          "size": "221754225"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25979897",
+        "timebuildupdated": "1792134468",
+        "timeupdated": "1792134468"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Chopbusters",
+    "homepage": "https://chopbusters.dev/",
+    "isfreeapp": "1",
+    "publisher": "Chopbusters"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "\\Chopbusters\\Fated Flatline",
+            "replace": ".config/unity3d/\\Chopbusters\\Fated Flatline DX"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "addpath": "com.Chopbusters.Fated-Flatline",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "MacAppSupport",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "\\Chopbusters\\Fated Flatline DX",
+        "pattern": "*.fated",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

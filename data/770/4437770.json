@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791247330,
-  "_history": [],
-  "_change_number": 39510554,
-  "_missing_token": true,
-  "_sha": "9ca80c6226843657b428b75fed31f3e5916ba673",
-  "_size": 3211,
+  "_lastChecked": 1792198524,
+  "_history": [
+    {
+      "buildId": "25993549",
+      "branch": "public",
+      "timeUpdated": 1792171814,
+      "firstSeen": 1792198524,
+      "manifests": {
+        "4437772": {
+          "gid": "54965970999148961",
+          "size": 1162820695,
+          "download": 957069552
+        },
+        "4437773": {
+          "gid": "5997986942108138894",
+          "size": 1145353793,
+          "download": 951113456
+        }
+      }
+    }
+  ],
+  "_change_number": 39913588,
+  "_missing_token": false,
+  "_sha": "0f7c13de1fec457731a249f78bd586750f6333c5",
+  "_size": 4787,
   "appid": "4437770",
   "common": {
     "associations": {
@@ -31,6 +50,7 @@
     },
     "clienticon": "eb195829e25bd763d8b53437ad6af2a9b8ae7b91",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -40,7 +60,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4437770",
     "genres": {
       "0": "25",
@@ -112,10 +131,11 @@
     "osextended": "macos64,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e5097a3721343ce0b2610f082df84147e237f78b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1789079527",
     "store_tags": {
       "0": "11014",
@@ -145,5 +165,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "迷失综合征",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "newcomer-1.0-pc/newcomer.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "newcomer.app/Contents/MacOS/newcomer",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4437772": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "957069552",
+          "gid": "54965970999148961",
+          "size": "1162820695"
+        }
+      }
+    },
+    "4437773": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "951113456",
+          "gid": "5997986942108138894",
+          "size": "1145353793"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25993549",
+        "timebuildupdated": "1792171810",
+        "timeupdated": "1792171814"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "不稳定流质",
+    "isfreeapp": "1",
+    "publisher": "Liquid336Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1001",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "RenPy/newcomer-1721768833",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Library/RenPy/newcomer-1721768833",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacDocuments"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

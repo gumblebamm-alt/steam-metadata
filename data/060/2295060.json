@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1791592975,
-  "_history": [],
-  "_change_number": 39644538,
-  "_missing_token": true,
-  "_sha": "3427a5898a5773e9f74fc5c3dd82fba79039128c",
-  "_size": 10213,
+  "_lastChecked": 1792198499,
+  "_history": [
+    {
+      "buildId": "25972788",
+      "branch": "public",
+      "timeUpdated": 1792118120,
+      "firstSeen": 1792198430,
+      "manifests": {
+        "228988": {
+          "gid": "6645201662696499616",
+          "size": null,
+          "download": null
+        },
+        "2295061": {
+          "gid": "7234391454598233599",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 39925995,
+  "_missing_token": false,
+  "_sha": "21819a7b4430810864bfe7b153334433ee128615",
+  "_size": 11803,
   "appid": "2295060",
   "common": {
     "associations": {
@@ -25,6 +45,7 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_29": "1",
       "category_45": "1",
       "category_46": "1",
       "category_62": "1",
@@ -42,8 +63,8 @@
     "clienticon": "cfce37f8945ff30c7155c4e9a93299fb15c9a85d",
     "clienttga": "ff2f83084b47f842fe066c723526ef01b485633a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2295060",
     "genres": {
       "0": "28",
@@ -165,7 +186,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "82",
+    "review_score": "7",
     "small_capsule": {
       "english": "c060f4df90e23f39db22875fcf89d40a73a82e8f/capsule_231x87.jpg",
       "japanese": "c26b59351891cf00758c4ad4816a168e4eb0e9d2/capsule_231x87_japanese.jpg",
@@ -258,28 +281,29 @@
         }
       }
     },
-    "store_asset_mtime": "1790677244",
+    "steam_release_date": "1792173668",
+    "store_asset_mtime": "1792185185",
     "store_tags": {
       "0": "9",
       "1": "599",
-      "10": "3871",
+      "10": "4695",
       "11": "255534",
       "12": "1695",
       "13": "3942",
       "14": "4182",
       "15": "1669",
-      "16": "4711",
-      "17": "5125",
+      "16": "3871",
+      "17": "4711",
       "18": "492",
-      "19": "4166",
-      "2": "7332",
-      "3": "220585",
-      "4": "4328",
-      "5": "8945",
-      "6": "1662",
+      "19": "1702",
+      "2": "4328",
+      "3": "7332",
+      "4": "220585",
+      "5": "1643",
+      "6": "12472",
       "7": "3810",
-      "8": "12472",
-      "9": "1643"
+      "8": "8945",
+      "9": "1662"
     },
     "supported_languages": {
       "brazilian": {
@@ -346,5 +370,72 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Beyond These Stars",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Beyond These Stars.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollerconfigdetails": {
+      "3820497940": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1"
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2295061": {
+      "manifests": {
+        "public": {
+          "download": "5293891936",
+          "gid": "7234391454598233599",
+          "size": "5907845888"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,english,french,german,italian,japanese,koreana,polish,russian,schinese,spanish,tchinese,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "25972788",
+        "timebuildupdated": "1792105220",
+        "timeupdated": "1792118120"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Balancing Monkey Games",
+    "homepage": "https://www.balancingmonkeygames.com/games/beyond-these-stars",
+    "publisher": "Hooded Horse"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "5000000000",
+    "savefiles": {
+      "0": {
+        "path": "Balancing Monkey Games/Beyond These Stars/Saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

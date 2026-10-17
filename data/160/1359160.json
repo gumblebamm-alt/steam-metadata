@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792025635,
+  "_lastChecked": 1792198502,
   "_history": [
     {
       "buildId": "22961260",
@@ -36,12 +36,30 @@
           "download": 71354256
         }
       }
+    },
+    {
+      "buildId": "25995100",
+      "branch": "public",
+      "timeUpdated": 1792176008,
+      "firstSeen": 1792198502,
+      "manifests": {
+        "1359161": {
+          "gid": "5609825192795887226",
+          "size": 199582968,
+          "download": 92314656
+        },
+        "1359162": {
+          "gid": "6001722603361877337",
+          "size": 192645384,
+          "download": 90183088
+        }
+      }
     }
   ],
-  "_change_number": 39832109,
+  "_change_number": 39915952,
   "_missing_token": false,
-  "_sha": "45a21eda1e74e6c3afacad610ef306052dd34d90",
-  "_size": 5031,
+  "_sha": "125d93d519759ca334935ace53657b040c1353f1",
+  "_size": 6136,
   "appid": "1359160",
   "common": {
     "associations": {
@@ -63,6 +81,7 @@
       "category_2": "1",
       "category_22": "1",
       "category_25": "1",
+      "category_27": "1",
       "category_62": "1",
       "category_68": "1",
       "category_69": "1",
@@ -85,6 +104,7 @@
     "icon": "57569d7e0148193f22e89af2851054e55b595f8d",
     "languages": {
       "english": "1",
+      "japanese": "1",
       "russian": "1"
     },
     "library_assets": {
@@ -180,7 +200,17 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "japanese": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
       "russian": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "tatar": {
         "full_audio": "true",
         "subtitles": "true",
         "supported": "true"
@@ -199,6 +229,7 @@
         "description": "Play Rocket Bots",
         "description_loc": {
           "english": "Play Rocket Bots",
+          "japanese": "Rocket Bots をプレイ",
           "russian": "Играть в Rocket Bots"
         },
         "executable": "rb.exe",
@@ -212,6 +243,7 @@
         "description": "Play Rocket Bots",
         "description_loc": {
           "english": "Play Rocket Bots",
+          "japanese": "Rocket Bots をプレイ",
           "russian": "Играть в Rocket Bots"
         },
         "executable": "rb.x86_64",
@@ -228,9 +260,9 @@
       },
       "manifests": {
         "public": {
-          "download": "73485824",
-          "gid": "3041463370081036401",
-          "size": "225513784"
+          "download": "92314656",
+          "gid": "5609825192795887226",
+          "size": "199582968"
         }
       }
     },
@@ -241,18 +273,18 @@
       },
       "manifests": {
         "public": {
-          "download": "71354256",
-          "gid": "8670303315159604201",
-          "size": "218576200"
+          "download": "90183088",
+          "gid": "6001722603361877337",
+          "size": "192645384"
         }
       }
     },
-    "baselanguages": "english,russian",
+    "baselanguages": "english,japanese,russian",
     "branches": {
       "public": {
-        "buildid": "25939664",
-        "timebuildupdated": "1791997582",
-        "timeupdated": "1791997759"
+        "buildid": "25995100",
+        "timebuildupdated": "1792175974",
+        "timeupdated": "1792176008"
       }
     },
     "hasdepotsindlc": "1",
@@ -266,7 +298,43 @@
     "publisher": "ic3bug"
   },
   "ufs": {
-    "maxnumfiles": "100",
-    "quota": "100000000"
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Rocket Bots 1.0.7",
+        "pattern": "rb107.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Rocket Bots 1.0.7",
+        "pattern": "waves.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": ".local/share/godot/app_userdata/Rocket Bots 1.0.7",
+        "pattern": "rb107.cfg",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      },
+      "3": {
+        "path": ".local/share/godot/app_userdata/Rocket Bots 1.0.7",
+        "pattern": "waves.cfg",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
   }
 }
