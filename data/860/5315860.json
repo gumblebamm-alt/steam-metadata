@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791420132,
-  "_history": [],
-  "_change_number": 39585687,
-  "_missing_token": true,
-  "_sha": "ebc794ef16025ee27e8c967f56e03e95a4af5f2f",
-  "_size": 3169,
+  "_lastChecked": 1792327768,
+  "_history": [
+    {
+      "buildId": "25480052",
+      "branch": "public",
+      "timeUpdated": 1790161944,
+      "firstSeen": 1792327768,
+      "manifests": {
+        "5315861": {
+          "gid": "4296830348721366855",
+          "size": 147310776,
+          "download": 108561904
+        },
+        "5315862": {
+          "gid": "6392912896463240693",
+          "size": 124357132,
+          "download": 104356368
+        }
+      }
+    }
+  ],
+  "_change_number": 39962771,
+  "_missing_token": false,
+  "_sha": "ac485f4f14e8c59b6c4fba93c92218a7aa50c9cf",
+  "_size": 4438,
   "appid": "5315860",
   "common": {
     "aicontenttype": "1",
@@ -30,7 +49,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5315860",
     "genres": {
       "0": "1",
@@ -103,10 +121,11 @@
     "osextended": "macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "88893263e504a20907591ef8476281472f3827c1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793430000",
     "store_asset_mtime": "1790172158",
     "store_tags": {
       "0": "13276",
@@ -140,5 +159,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Scribble Tanks",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Play Scribble Tanks",
+        "description_loc": {
+          "english": "Play Scribble Tanks"
+        },
+        "executable": "ScribbleTanks.app",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Scribble Tanks (Windows)",
+        "description_loc": {
+          "english": "Play Scribble Tanks (Windows)"
+        },
+        "executable": "ScribbleTanks.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5315861": {
+      "manifests": {
+        "public": {
+          "download": "108561904",
+          "gid": "4296830348721366855",
+          "size": "147310776"
+        }
+      }
+    },
+    "5315862": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "104356368",
+          "gid": "6392912896463240693",
+          "size": "124357132"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25480052",
+        "timebuildupdated": "1790161944",
+        "timeupdated": "1790161944"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Alexander Komissarov",
+    "homepage": "https://shortaktien.de",
+    "publisher": "shortaktien"
+  }
 }
