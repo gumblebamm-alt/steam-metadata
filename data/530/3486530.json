@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1792068999,
-  "_history": [],
-  "_change_number": 39856196,
-  "_missing_token": true,
-  "_sha": "979f131f9b4c4a3ccebad1e28a79beb64faa455c",
-  "_size": 6886,
+  "_lastChecked": 1792414541,
+  "_history": [
+    {
+      "buildId": "25355156",
+      "branch": "public",
+      "timeUpdated": 1790208081,
+      "firstSeen": 1792414541,
+      "manifests": {
+        "3486531": {
+          "gid": "2138524340958952718",
+          "size": 23053390448,
+          "download": 22436945520
+        },
+        "3486532": {
+          "gid": "3798762990232377021",
+          "size": 608840,
+          "download": 540704
+        },
+        "3486535": {
+          "gid": "3755688644126122827",
+          "size": 608840,
+          "download": 540704
+        },
+        "4228930": {
+          "gid": "8896064025396123544",
+          "size": 37752234,
+          "download": 37304528
+        }
+      }
+    }
+  ],
+  "_change_number": 39992702,
+  "_missing_token": false,
+  "_sha": "e075629a9d2d83f776885292da13f1375f168597",
+  "_size": 10489,
   "appid": "3486530",
   "common": {
     "associations": {
@@ -51,7 +80,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "3486530",
     "genres": {
       "0": "1",
@@ -143,7 +171,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "preloadonly",
     "small_capsule": {
       "english": "6ecaf52004ceb92cc994f3c0d452688056f7a231/capsule_231x87.jpg"
     },
@@ -296,5 +324,178 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "StupidNeverDies",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Default",
+        "description_loc": {
+          "english": "Default"
+        },
+        "executable": "StupidNeverDies.exe",
+        "type": "default"
+      },
+      "10": {
+        "arguments": "-ExecCmds=\"Automation RunTests GPT.Pkg.SequentialTest.BootTest;Quit\" -log -logpso",
+        "config": {
+          "betakey": "main_ci",
+          "oslist": "windows"
+        },
+        "description": "BootTest",
+        "description_loc": {
+          "english": "BootTest"
+        },
+        "executable": "StupidNeverDies.exe",
+        "type": "option1"
+      },
+      "11": {
+        "arguments": "-ExecCmds=DisableAllScreenMessages",
+        "config": {
+          "betakey": "for_event_2"
+        },
+        "description": "for Event",
+        "description_loc": {
+          "english": "for Event"
+        },
+        "executable": "StupidNeverDies.exe",
+        "type": "option1"
+      },
+      "8": {
+        "config": {
+          "betakey": "ut-2,ut2_debug,ut2_test_debug",
+          "oslist": "windows"
+        },
+        "description": "UT2",
+        "description_loc": {
+          "english": "UT2"
+        },
+        "executable": "Romeo.exe",
+        "type": "option1"
+      },
+      "9": {
+        "config": {
+          "betakey": "0204_shooting",
+          "oslist": "windows"
+        },
+        "description": "0204_shooting",
+        "description_loc": {
+          "english": "0204_shooting"
+        },
+        "executable": "Romeo.exe",
+        "type": "option1"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": ".\\StupidNeverDies\\Content\\Platform\\PC\\Steam\\steam_input_manifest.vdf"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3486531": {
+      "manifests": {
+        "public": {
+          "download": "22436945520",
+          "gid": "2138524340958952718",
+          "size": "23053390448"
+        }
+      }
+    },
+    "3486532": {
+      "manifests": {
+        "public": {
+          "download": "540704",
+          "gid": "3798762990232377021",
+          "size": "608840"
+        }
+      }
+    },
+    "3486534": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "3486535": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "540704",
+          "gid": "3755688644126122827",
+          "size": "608840"
+        }
+      }
+    },
+    "4228930": {
+      "config": {
+        "optionaldlc": "4228930"
+      },
+      "dlcappid": "4228930",
+      "manifests": {
+        "public": {
+          "download": "37304528",
+          "gid": "8896064025396123544",
+          "size": "37752234"
+        }
+      }
+    },
+    "appmanagesdlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "25355156",
+        "timebuildupdated": "1789592169",
+        "timeupdated": "1790208081"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "GPTRACK50 Inc.",
+    "homepage": "https://stupidneverdies.sega.com",
+    "publisher": "GPTRACK50 Inc."
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "6000000000",
+    "savefiles": {
+      "0": {
+        "path": "StupidNeverDies/Saved/SaveGames/{64BitSteamID}",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "StupidNeverDies/Saved/SaveGames/{64BitSteamID}",
+        "pattern": "*.json",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "StupidNeverDies/Saved/SaveGames/{64BitSteamID}",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      },
+      "3": {
+        "path": "StupidNeverDies/Saved/SaveGames/{64BitSteamID}",
+        "pattern": "*.json",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

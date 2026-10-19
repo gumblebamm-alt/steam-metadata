@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792198514,
+  "_lastChecked": 1792414542,
   "_history": [
     {
       "buildId": "24652848",
@@ -26,12 +26,30 @@
           "download": 536390640
         }
       }
+    },
+    {
+      "buildId": "26048377",
+      "branch": "public",
+      "timeUpdated": 1792412112,
+      "firstSeen": 1792414542,
+      "manifests": {
+        "3617621": {
+          "gid": "577147551888517928",
+          "size": 661227274,
+          "download": 536390640
+        },
+        "3617622": {
+          "gid": "4081355604265732277",
+          "size": 819576608,
+          "download": 585823312
+        }
+      }
     }
   ],
-  "_change_number": 39902665,
+  "_change_number": 39997753,
   "_missing_token": false,
-  "_sha": "1a8d54757eca440b740b6b7e8bd7901e994d32e6",
-  "_size": 10824,
+  "_sha": "b6eb63a179e769fa8fb3d14bf9f4b8b8c5d80f58",
+  "_size": 14754,
   "appid": "3617620",
   "common": {
     "associations": {
@@ -152,8 +170,9 @@
       "tchinese": "我的牌更好！"
     },
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "2",
     "releasestate": "released",
     "review_percentage": "94",
@@ -323,6 +342,9 @@
       },
       "1": {
         "arguments": "--rendering-method gl_compatibility --scene \"res://Core/LanguageSelectionScreen/LanguageSelectionScreen.tscn\"",
+        "config": {
+          "oslist": "windows"
+        },
         "description": "My Card Is Better Than Your Card! (Recommended for laptops, use this if you have any technical issues with the game or input lag)",
         "description_loc": {
           "brazilian": "My Card Is Better Than Your Card! (Use essa opção se você está tendo problemas com o jogo)",
@@ -340,6 +362,54 @@
           "tchinese": "我的牌更好！（如果你在遊戲中遇到技術問題或輸入延遲，請使用此版本）"
         },
         "executable": "MyCardIsBetterThanYourCard.exe",
+        "type": "option2"
+      },
+      "2": {
+        "arguments": "--rendering-method mobile --scene \"res://Core/LanguageSelectionScreen/LanguageSelectionScreen.tscn\"",
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "My Card Is Better Than Your Card! (Recommended)",
+        "description_loc": {
+          "brazilian": "My Card Is Better Than Your Card! (Recomendado)",
+          "english": "My Card Is Better Than Your Card! (Recommended)",
+          "french": "My Card Is Better Than Your Card! (Conseillé)",
+          "german": "My Card Is Better Than Your Card! (Empfohlen)",
+          "japanese": "ぼくのカードのほーがきみのよりすごいもん！ (おすすめ)",
+          "koreana": "My Card Is Better Than Your Card! (추천)",
+          "latam": "My Card Is Better Than Your Card! (Recomendado)",
+          "polish": "My Card Is Better Than Your Card! (Zalecany)",
+          "portuguese": "My Card Is Better Than Your Card! (Recomendado)",
+          "russian": "My Card Is Better Than Your Card! (рекомендуется)",
+          "schinese": "我的牌更好！ (推荐)",
+          "spanish": "My Card Is Better Than Your Card! (Recomendado)",
+          "tchinese": "我的牌更好！（推薦使用）"
+        },
+        "executable": "My Card Is Better Than Your Card!.app",
+        "type": "option1"
+      },
+      "3": {
+        "arguments": "--rendering-method gl_compatibility --scene \"res://Core/LanguageSelectionScreen/LanguageSelectionScreen.tscn\"",
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "My Card Is Better Than Your Card! (Recommended for laptops, use this if you have any technical issues with the game or input lag)",
+        "description_loc": {
+          "brazilian": "My Card Is Better Than Your Card! (Use essa opção se você está tendo problemas com o jogo)",
+          "english": "My Card Is Better Than Your Card! (Recommended for laptops, use this if you have any technical issues with the game or input lag)",
+          "french": "My Card Is Better Than Your Card! (Utilisez cette version si vous rencontrez des problèmes avec le jeu)",
+          "german": "My Card Is Better Than Your Card! (Benutze diese Option, falls Probleme auftreten sollten)",
+          "japanese": "ぼくのカードのほーがきみのよりすごいもん！ (ラグや問題が起こる場合こちらを使用してください)",
+          "koreana": "My Card Is Better Than Your Card! (게임에 기술적인 문제가 있거나 인풋랙이 발생할 경우 사용하세요)",
+          "latam": "My Card Is Better Than Your Card! (OpenGL)",
+          "polish": "My Card Is Better Than Your Card! (Użyj tych ustawień, jeśli napotkasz problemy z grą lub opóźnienia sterowania)",
+          "portuguese": "My Card Is Better Than Your Card! (Use essa opção se você está tendo problemas com o jogo)",
+          "russian": "My Card Is Better Than Your Card! (используйте в случае возникновения технических проблем в игре или задержки ввода)",
+          "schinese": "我的牌更好！ (如果您在游戏或输入延迟上遇到任何问题，请使用此版本)",
+          "spanish": "My Card Is Better Than Your Card! (Usa esta opción si experimentas problemas con el juego)",
+          "tchinese": "我的牌更好！（如果你在遊戲中遇到技術問題或輸入延遲，請使用此版本）"
+        },
+        "executable": "My Card Is Better Than Your Card!.app",
         "type": "option2"
       }
     },
@@ -359,11 +429,23 @@
         }
       }
     },
+    "3617622": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "585823312",
+          "gid": "4081355604265732277",
+          "size": "819576608"
+        }
+      }
+    },
     "branches": {
       "public": {
-        "buildid": "25363363",
-        "timebuildupdated": "1789630882",
-        "timeupdated": "1789640874"
+        "buildid": "26048377",
+        "timebuildupdated": "1792412112",
+        "timeupdated": "1792412112"
       }
     },
     "privatebranches": "1"
@@ -388,6 +470,18 @@
         },
         "root": "gameinstall",
         "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SaveData-EA/",
+            "replace": "Godot/app_userdata/My Card Is Better Than Your Card!/SaveData-EA/"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
       }
     },
     "savefiles": {

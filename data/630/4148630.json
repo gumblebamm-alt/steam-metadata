@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791506706,
+  "_lastChecked": 1792414524,
   "_history": [
     {
       "buildId": "25730891",
@@ -13,12 +13,36 @@
           "download": 948475792
         }
       }
+    },
+    {
+      "buildId": "25826159",
+      "branch": "public",
+      "timeUpdated": 1791557991,
+      "firstSeen": 1792414429,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "4148631": {
+          "gid": "1094377653044847455",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
     }
   ],
-  "_change_number": 39622154,
+  "_change_number": 39995417,
   "_missing_token": false,
-  "_sha": "7cfc1a873ae2047905c6533c5eb1ec05f0a157cc",
-  "_size": 4848,
+  "_sha": "627710e70c47cea95ded3bc2ebf71d9e7ca4d266",
+  "_size": 7138,
   "appid": "4148630",
   "common": {
     "associations": {
@@ -135,8 +159,79 @@
     "oslist": "windows",
     "primary_genre": "28",
     "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "7e1165a179962c92f90875e6f36bd71e0efe2bf0/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1791489346",
+      "tested_build_id": "25730891",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      }
     },
     "steam_release_date": "1791467557",
     "store_asset_mtime": "1791465200",
@@ -213,20 +308,34 @@
     "steamdecktouchscreen": "1"
   },
   "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
     "4148631": {
       "manifests": {
         "public": {
-          "download": "948475792",
-          "gid": "1761449241601891742",
-          "size": "2058259557"
+          "download": "948452864",
+          "gid": "1094377653044847455",
+          "size": "2058253429"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25730891",
-        "timebuildupdated": "1791214693",
-        "timeupdated": "1791383920"
+        "buildid": "25826159",
+        "timebuildupdated": "1791540940",
+        "timeupdated": "1791557991"
       }
     },
     "privatebranches": "1"

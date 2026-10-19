@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792112015,
+  "_lastChecked": 1792414547,
   "_history": [
     {
       "buildId": "25967152",
@@ -14,12 +14,58 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26032202",
+      "branch": "beta",
+      "timeUpdated": 1792354034,
+      "firstSeen": 1792414547,
+      "manifests": {
+        "4022531": {
+          "gid": "7507683554928592986",
+          "size": 390053808,
+          "download": 151233488
+        },
+        "4022532": {
+          "gid": "9002031639433531412",
+          "size": 556585024,
+          "download": 215013552
+        },
+        "4022533": {
+          "gid": "2587885932132719293",
+          "size": 300734601,
+          "download": 116743952
+        }
+      }
+    },
+    {
+      "buildId": "26032202",
+      "branch": "public",
+      "timeUpdated": 1792401118,
+      "firstSeen": 1792414547,
+      "manifests": {
+        "4022531": {
+          "gid": "7507683554928592986",
+          "size": 390053808,
+          "download": 151233488
+        },
+        "4022532": {
+          "gid": "9002031639433531412",
+          "size": 556585024,
+          "download": 215013552
+        },
+        "4022533": {
+          "gid": "2587885932132719293",
+          "size": 300734601,
+          "download": 116743952
+        }
+      }
     }
   ],
-  "_change_number": 39882224,
+  "_change_number": 39991527,
   "_missing_token": false,
-  "_sha": "a19d130a1acb258a3cdea3a95872827a5ec20e1f",
-  "_size": 3919,
+  "_sha": "dd5434354fcde85901165c5f8f484f84aa47f802",
+  "_size": 5139,
   "appid": "4022530",
   "common": {
     "associations": {
@@ -126,8 +172,9 @@
     },
     "name": "Genesis",
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,macos,linux",
     "primary_genre": "37",
     "releasestate": "released",
     "small_capsule": {
@@ -168,24 +215,86 @@
         },
         "executable": "GenesisClient.exe",
         "type": "default"
+      },
+      "1": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "GenesisClient"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "GenesisClient.app"
       }
     }
   },
   "depots": {
     "4022531": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
+        "beta": {
+          "download": "151233488",
+          "gid": "7507683554928592986",
+          "size": "390053808"
+        },
         "public": {
-          "download": "120038768",
-          "gid": "9095742894772570567",
-          "size": "317270935"
+          "download": "151233488",
+          "gid": "7507683554928592986",
+          "size": "390053808"
         }
       }
     },
+    "4022532": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "215013552",
+          "gid": "9002031639433531412",
+          "size": "556585024"
+        },
+        "public": {
+          "download": "215013552",
+          "gid": "9002031639433531412",
+          "size": "556585024"
+        }
+      }
+    },
+    "4022533": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "116743952",
+          "gid": "2587885932132719293",
+          "size": "300734601"
+        },
+        "public": {
+          "download": "116743952",
+          "gid": "2587885932132719293",
+          "size": "300734601"
+        }
+      }
+    },
+    "baselanguages": "english",
     "branches": {
+      "beta": {
+        "buildid": "26032202",
+        "description": "Beta branch",
+        "timebuildupdated": "1792354034",
+        "timeupdated": "1792354034"
+      },
       "public": {
-        "buildid": "25967152",
-        "timebuildupdated": "1792087366",
-        "timeupdated": "1792087568"
+        "buildid": "26032202",
+        "timebuildupdated": "1792354034",
+        "timeupdated": "1792401118"
       }
     },
     "nocommonredists": "1"

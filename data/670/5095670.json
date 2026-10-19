@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791722232,
+  "_lastChecked": 1792414580,
   "_history": [
     {
       "buildId": "25855204",
@@ -26,12 +26,25 @@
           "download": 478616032
         }
       }
+    },
+    {
+      "buildId": "26047460",
+      "branch": "public",
+      "timeUpdated": 1792410085,
+      "firstSeen": 1792414580,
+      "manifests": {
+        "5095671": {
+          "gid": "787196404126191719",
+          "size": 964664828,
+          "download": 803876064
+        }
+      }
     }
   ],
-  "_change_number": 39712429,
+  "_change_number": 39996612,
   "_missing_token": false,
-  "_sha": "472326b724d23a8f02ab74f86147622101754b34",
-  "_size": 3659,
+  "_sha": "80bf002649bbf8644f807a2e7f49ebded6f8d17e",
+  "_size": 3971,
   "appid": "5095670",
   "common": {
     "aicontenttype": "1",
@@ -61,7 +74,8 @@
     "gameid": "5095670",
     "genres": {
       "0": "23",
-      "1": "28"
+      "1": "28",
+      "2": "2"
     },
     "header_image": {
       "english": "9f83e83bc6d0c354179c8bc74d1f4f6095fdc2d0/header.jpg"
@@ -147,6 +161,7 @@
     },
     "supported_languages": {
       "english": {
+        "subtitles": "true",
         "supported": "true"
       }
     },
@@ -178,23 +193,39 @@
     "5095671": {
       "manifests": {
         "public": {
-          "download": "478616032",
-          "gid": "6323451638313643956",
-          "size": "634525786"
+          "download": "803876064",
+          "gid": "787196404126191719",
+          "size": "964664828"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25860696",
-        "timebuildupdated": "1791700147",
-        "timeupdated": "1791700190"
+        "buildid": "26047460",
+        "timebuildupdated": "1792409878",
+        "timeupdated": "1792410085"
       }
     }
   },
   "extended": {
     "developer": "Laurentiu Raducu",
-    "homepage": "https://bitheap.ch/chipbuilder.html",
+    "homepage": "https://chipbuilder.org",
     "publisher": "bitheap.ch"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "20",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "ChipBuilder/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
   }
 }
