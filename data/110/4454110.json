@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792112044,
-  "_history": [],
-  "_change_number": 39881060,
-  "_missing_token": true,
-  "_sha": "c68c37534b8a629074dbd3bbbc22bb453927f514",
-  "_size": 3629,
+  "_lastChecked": 1792457854,
+  "_history": [
+    {
+      "buildId": "25640079",
+      "branch": "public",
+      "timeUpdated": 1790810103,
+      "firstSeen": 1792457854,
+      "manifests": {
+        "4454111": {
+          "gid": "3327807686953206120",
+          "size": 1444817597,
+          "download": 1159210176
+        }
+      }
+    }
+  ],
+  "_change_number": 40023062,
+  "_missing_token": false,
+  "_sha": "8cb7d20863fe44120727a7376de3370c8e039a45",
+  "_size": 4812,
   "appid": "4454110",
   "common": {
     "associations": {
@@ -30,9 +44,9 @@
     },
     "clienticon": "c81d0bf9b5d7d825959942b7e7c1dbdf6ebfc708",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4454110",
     "genres": {
       "0": "1",
@@ -117,10 +131,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ec5bbdba0ef5f9acf9dc3fa802b200a290232b01/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792449846",
     "store_asset_mtime": "1775421826",
     "store_tags": {
       "0": "3877",
@@ -173,5 +188,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Softboiled1.0",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SoftboiledDemo.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4454111": {
+      "manifests": {
+        "public": {
+          "download": "1159210176",
+          "gid": "3327807686953206120",
+          "size": "1444817597"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,japanese,koreana,portuguese,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25640079",
+        "timebuildupdated": "1790810043",
+        "timeupdated": "1790810103"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Slimak Software",
+    "publisher": "Slimak Software"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "SoftboiledDemo/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791895305,
-  "_history": [],
-  "_change_number": 39773306,
-  "_missing_token": true,
-  "_sha": "1cec0ce75b85aba5a8bd45abbe6a882025677000",
-  "_size": 5065,
+  "_lastChecked": 1792457893,
+  "_history": [
+    {
+      "buildId": "26062505",
+      "branch": "public",
+      "timeUpdated": 1792446040,
+      "firstSeen": 1792457893,
+      "manifests": {
+        "5228821": {
+          "gid": "631771987628504709",
+          "size": 278805616,
+          "download": 172101328
+        }
+      }
+    }
+  ],
+  "_change_number": 40020826,
+  "_missing_token": false,
+  "_sha": "694f20c24385b2b510cb3dabfd709a9a46d0c500",
+  "_size": 6656,
   "appid": "5228820",
   "common": {
     "associations": {
@@ -24,6 +38,7 @@
       "category_22": "1",
       "category_23": "1",
       "category_25": "1",
+      "category_30": "1",
       "category_36": "1",
       "category_49": "1",
       "category_62": "1",
@@ -36,8 +51,8 @@
     },
     "clienticon": "546884d547a72b39c5ada29f709f7394311999ab",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5228820",
     "genres": {
       "0": "1",
@@ -127,12 +142,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d609fe608062c0a7d23e96729154d99d730db409/capsule_231x87.jpg",
       "latam": "d609fe608062c0a7d23e96729154d99d730db409/capsule_231x87_latam.jpg",
       "spanish": "d609fe608062c0a7d23e96729154d99d730db409/capsule_231x87_spanish.jpg"
     },
+    "steam_release_date": "1792437127",
     "store_asset_mtime": "1791135790",
     "store_tags": {
       "0": "1023537",
@@ -194,7 +210,81 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BitVoid",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "bitvoid.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamdecktouchscreen": "1",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "5228821": {
+      "manifests": {
+        "public": {
+          "download": "172101328",
+          "gid": "631771987628504709",
+          "size": "278805616"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26062505",
+        "timebuildupdated": "1792446007",
+        "timeupdated": "1792446040"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1",
+    "workshopdepot": "5228820"
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "Eguzkilore Games",
+    "homepage": "https://eguzkilore-games.pages.dev/",
+    "publisher": "Eguzkilore Games",
+    "steammachineresolutionoverride": "Default"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "5000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot\\app_userdata\\BitVoid\\saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot\\app_userdata\\BitVoid",
+        "pattern": "*_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot\\app_userdata\\BitVoid",
+        "pattern": "pvp_stats.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

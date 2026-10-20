@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791506732,
-  "_history": [],
-  "_change_number": 39638035,
-  "_missing_token": true,
-  "_sha": "926af90849db12a79267fdcc0a957ff6b909ddba",
-  "_size": 3458,
+  "_lastChecked": 1792457883,
+  "_history": [
+    {
+      "buildId": "26061616",
+      "branch": "public",
+      "timeUpdated": 1792443296,
+      "firstSeen": 1792457883,
+      "manifests": {
+        "5068501": {
+          "gid": "773723858824846599",
+          "size": 544641999,
+          "download": 222771360
+        }
+      }
+    }
+  ],
+  "_change_number": 40019560,
+  "_missing_token": false,
+  "_sha": "d12b2d8430d02af3d0abf4ec23c9c00581c3a600",
+  "_size": 4573,
   "appid": "5068500",
   "common": {
     "aicontenttype": "1",
@@ -21,13 +35,18 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_30": "1",
-      "category_62": "1"
+      "category_62": "1",
+      "category_67": "1",
+      "category_74": "1",
+      "category_76": "1",
+      "category_80": "1"
     },
     "clienticon": "19ca3a586e22eee986cefc4122458c781259dff4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5068500",
     "genres": {
       "0": "28",
@@ -100,7 +119,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "13cfff52cf835a24396e307ce0645dd2ccdd70e0/capsule_231x87.jpg"
     },
@@ -159,5 +178,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Headshot Manager",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Headshot Manager.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5068501": {
+      "manifests": {
+        "public": {
+          "download": "222771360",
+          "gid": "773723858824846599",
+          "size": "544641999"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26061616",
+        "timebuildupdated": "1792443226",
+        "timeupdated": "1792443296"
+      }
+    },
+    "workshopdepot": "5068500"
+  },
+  "extended": {
+    "developer": "Shrouded Pharaoh Games",
+    "publisher": "Shrouded Pharaoh"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1073741824",
+    "savefiles": {
+      "0": {
+        "path": "Headshot Manager/saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

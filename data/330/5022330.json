@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1790815130,
-  "_history": [],
-  "_change_number": 39359123,
-  "_missing_token": true,
-  "_sha": "c640e3a1f67f9ce5ea6fdf811b1b468361115cc7",
-  "_size": 3352,
+  "_lastChecked": 1792457879,
+  "_history": [
+    {
+      "buildId": "25791572",
+      "branch": "public",
+      "timeUpdated": 1791496930,
+      "firstSeen": 1792457879,
+      "manifests": {
+        "5022331": {
+          "gid": "686483244419868754",
+          "size": 559681391,
+          "download": 216277648
+        },
+        "5022332": {
+          "gid": "3587738798607340459",
+          "size": 437782103,
+          "download": 169270256
+        },
+        "5022333": {
+          "gid": "9006343042546603697",
+          "size": 55272934,
+          "download": 50363808
+        },
+        "5022334": {
+          "gid": "5072985734012202295",
+          "size": 1910217803,
+          "download": 1729997216
+        }
+      }
+    }
+  ],
+  "_change_number": 40016534,
+  "_missing_token": false,
+  "_sha": "21addd6d836c8247e086c450eaa3d04fa9eead68",
+  "_size": 5115,
   "appid": "5022330",
   "common": {
     "aicontenttype": "1",
@@ -32,7 +61,6 @@
     "clienticon": "22e40a51da05745a83fb79544ed8793d97aded10",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5022330",
     "genres": {
       "0": "1",
@@ -104,10 +132,11 @@
     "linuxclienticon": "86c2c73a163f63b4772e0f40e78ec594b4684734",
     "name": "Abraxas Online",
     "osarch": "",
-    "osextended": "macosapplesilicon",
+    "oscpu": "",
+    "osextended": "macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7e56afa231b7622f39b1d8ff397b8229ba13c4af/capsule_231x87.jpg"
     },
@@ -153,5 +182,102 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Abraxas Online",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "AbraxasOnline/bin/launcher.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Abraxas Online.app/Contents/MacOS/launcher",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "AbraxasOnline/bin/launcher",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5022331": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "216277648",
+          "gid": "686483244419868754",
+          "size": "559681391"
+        }
+      }
+    },
+    "5022332": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "169270256",
+          "gid": "3587738798607340459",
+          "size": "437782103"
+        }
+      }
+    },
+    "5022333": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "50363808",
+          "gid": "9006343042546603697",
+          "size": "55272934"
+        }
+      }
+    },
+    "5022334": {
+      "manifests": {
+        "public": {
+          "download": "1729997216",
+          "gid": "5072985734012202295",
+          "size": "1910217803"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25791572",
+        "timebuildupdated": "1791418457",
+        "timeupdated": "1791496930"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Juan Micheli",
+    "homepage": "https://abraxas-online.com/",
+    "publisher": "Juan Micheli"
+  }
 }
