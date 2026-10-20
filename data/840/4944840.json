@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792457874,
-  "_history": [],
-  "_change_number": 40008073,
-  "_missing_token": true,
-  "_sha": "71165ec34f9c9581650305a771c4864e75253b2e",
-  "_size": 4456,
+  "_lastChecked": 1792501379,
+  "_history": [
+    {
+      "buildId": "26054813",
+      "branch": "public",
+      "timeUpdated": 1792426458,
+      "firstSeen": 1792501379,
+      "manifests": {
+        "4944841": {
+          "gid": "8349728050624847482",
+          "size": 145106080,
+          "download": 67916336
+        },
+        "4944842": {
+          "gid": "5594526264066996049",
+          "size": 229579244,
+          "download": 92276000
+        }
+      }
+    }
+  ],
+  "_change_number": 40027215,
+  "_missing_token": false,
+  "_sha": "d894d9559c7cc5a31848efd0625b686b2e5bb99e",
+  "_size": 5782,
   "appid": "4944840",
   "common": {
     "associations": {
@@ -26,8 +45,8 @@
     "clienticns": "8699c8f22683072acbaac9b2814c606c3a3e033e",
     "clienticon": "8699c8f22683072acbaac9b2814c606c3a3e033e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4944840",
     "genres": {
       "0": "4"
@@ -120,12 +139,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1c4e024bef23973330db5ed1b78ea3a156ebb963/capsule_231x87.jpg",
       "japanese": "964209b6033967ff53a3c26887b5b433ee1bce9b/capsule_231x87_japanese.jpg",
       "tchinese": "2c286944f76c737f96a861d7d7124773f28958fd/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1792461567",
     "store_asset_mtime": "1792340126",
     "store_tags": {
       "0": "597",
@@ -147,5 +167,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "What Have My Cats Done",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "WhatHaveMyCatsDone.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "WhatHaveMyCatsDone.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4944841": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "67916336",
+          "gid": "8349728050624847482",
+          "size": "145106080"
+        }
+      }
+    },
+    "4944842": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "92276000",
+          "gid": "5594526264066996049",
+          "size": "229579244"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26054813",
+        "timebuildupdated": "1792426458",
+        "timeupdated": "1792426458"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "GODNASK",
+    "publisher": "GODNASK"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "",
+        "pattern": "save.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    }
+  }
 }

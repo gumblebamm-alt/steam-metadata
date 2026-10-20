@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791203926,
-  "_history": [],
-  "_change_number": 39487085,
-  "_missing_token": true,
-  "_sha": "c309f671885c096f91619f5d28d4a5a5b316771b",
-  "_size": 3475,
+  "_lastChecked": 1792501334,
+  "_history": [
+    {
+      "buildId": "26059312",
+      "branch": "public",
+      "timeUpdated": 1792446789,
+      "firstSeen": 1792501334,
+      "manifests": {
+        "552742": {
+          "gid": "5697895746592905476",
+          "size": 1433078562,
+          "download": 425493696
+        }
+      }
+    }
+  ],
+  "_change_number": 40044420,
+  "_missing_token": false,
+  "_sha": "ce2d55a3a92088ef0cd5e1c24ebb40139463f057",
+  "_size": 5011,
   "appid": "552740",
   "common": {
     "associations": {
@@ -29,6 +43,7 @@
     "clienticon": "a7be0ff2c24e24caba244825ea8f63b6ca7cb7a7",
     "clienttga": "153cafa43670ed1981297eeb42df6ef07abaffab",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -38,7 +53,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "552740",
     "genres": {
       "0": "23",
@@ -114,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a6c619843dccf75b28b425ec34fdfb24e140daed/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792460761",
     "store_asset_mtime": "1789078660",
     "store_tags": {
       "0": "9204",
@@ -149,5 +164,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Marquee",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "The Marquee.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "marquee"
+        },
+        "executable": "TheMarqueeGame.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229020": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "552742": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "425493696",
+          "gid": "5697895746592905476",
+          "size": "1433078562"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26059312",
+        "timebuildupdated": "1792436737",
+        "timeupdated": "1792446789"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "PGF Entertainment",
+    "publisher": "PGF Entertainment",
+    "remoteplaytogethertestingbranches": "default,beta,unstablebeta",
+    "vrheadsetstreaming": "0"
+  },
+  "ufs": {
+    "appidredirect": "552740",
+    "maxnumfiles": "100",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

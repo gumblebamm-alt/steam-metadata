@@ -1,43 +1,34 @@
 {
-  "_lastChecked": 1792241304,
+  "_lastChecked": 1792501389,
   "_history": [
     {
-      "buildId": "25801208",
+      "buildId": "26056664",
       "branch": "public",
-      "timeUpdated": 1791560961,
-      "firstSeen": 1791722144,
+      "timeUpdated": 1792465286,
+      "firstSeen": 1792501389,
       "manifests": {
         "5129431": {
-          "gid": "4753856353489116885",
-          "size": null,
-          "download": null
-        }
-      },
-      "_source": "hubcap"
-    },
-    {
-      "buildId": "25895978",
-      "branch": "public",
-      "timeUpdated": 1791856753,
-      "firstSeen": 1791895302,
-      "manifests": {
-        "5129431": {
-          "gid": "3299107796912980836",
-          "size": 6318744,
-          "download": 4215120
+          "gid": "9075035153972665798",
+          "size": 8583217,
+          "download": 6435264
+        },
+        "5129432": {
+          "gid": "2279932629562261550",
+          "size": 295639156,
+          "download": 99427616
         }
       }
     },
     {
-      "buildId": "25917291",
+      "buildId": "26002163",
       "branch": "public",
-      "timeUpdated": 1791922964,
-      "firstSeen": 1791940087,
+      "timeUpdated": 1792205952,
+      "firstSeen": 1792241304,
       "manifests": {
         "5129431": {
-          "gid": "4205383843302480637",
-          "size": 6426776,
-          "download": 4328576
+          "gid": "601506132061211951",
+          "size": 8527921,
+          "download": 6382160
         }
       }
     },
@@ -55,23 +46,36 @@
       }
     },
     {
-      "buildId": "26002163",
+      "buildId": "25917291",
       "branch": "public",
-      "timeUpdated": 1792205952,
-      "firstSeen": 1792241304,
+      "timeUpdated": 1791922964,
+      "firstSeen": 1791940087,
       "manifests": {
         "5129431": {
-          "gid": "601506132061211951",
-          "size": 8527921,
-          "download": 6382160
+          "gid": "4205383843302480637",
+          "size": 6426776,
+          "download": 4328576
+        }
+      }
+    },
+    {
+      "buildId": "25895978",
+      "branch": "public",
+      "timeUpdated": 1791856753,
+      "firstSeen": 1791895302,
+      "manifests": {
+        "5129431": {
+          "gid": "3299107796912980836",
+          "size": 6318744,
+          "download": 4215120
         }
       }
     }
   ],
-  "_change_number": 39928033,
+  "_change_number": 40028699,
   "_missing_token": false,
-  "_sha": "409860d0cd73fb410bf285dff919ea3d44ad78dc",
-  "_size": 4545,
+  "_sha": "37ed147dd8b64681cbcb899c14617f00f7d006fb",
+  "_size": 5223,
   "appid": "5129430",
   "common": {
     "aicontenttype": "1",
@@ -240,29 +244,62 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "Arcanum Idle",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "arcanum.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "arcanum",
+        "type": "default"
       }
     }
   },
   "depots": {
     "5129431": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "6382160",
-          "gid": "601506132061211951",
-          "size": "8527921"
+          "download": "6435264",
+          "gid": "9075035153972665798",
+          "size": "8583217"
+        }
+      }
+    },
+    "5129432": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "99427616",
+          "gid": "2279932629562261550",
+          "size": "295639156"
         }
       }
     },
     "baselanguages": "brazilian,english,french,german,japanese,koreana,latam,russian,schinese",
     "branches": {
       "public": {
-        "buildid": "26002163",
-        "timebuildupdated": "1792202202",
-        "timeupdated": "1792205952"
+        "buildid": "26056664",
+        "timebuildupdated": "1792429962",
+        "timeupdated": "1792465286"
       }
     }
   },
@@ -273,13 +310,19 @@
   "ufs": {
     "maxnumfiles": "64",
     "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "dev.rior.arcanum",
         "pattern": "save.json",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataRoaming"
       }
     }
