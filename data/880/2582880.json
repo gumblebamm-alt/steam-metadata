@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792025644,
-  "_history": [],
-  "_change_number": 39836148,
-  "_missing_token": true,
-  "_sha": "228ffaa38b1283fce60e4feb6a24b6ed1b4ae161",
-  "_size": 3244,
+  "_lastChecked": 1792558057,
+  "_history": [
+    {
+      "buildId": "26089602",
+      "branch": "public",
+      "timeUpdated": 1792528584,
+      "firstSeen": 1792558057,
+      "manifests": {
+        "2582881": {
+          "gid": "1727343559114386343",
+          "size": 793379333,
+          "download": 645880992
+        },
+        "2582883": {
+          "gid": "7441095153958992504",
+          "size": 813817968,
+          "download": 606705936
+        }
+      }
+    }
+  ],
+  "_change_number": 40059905,
+  "_missing_token": false,
+  "_sha": "d4e3d149b5bc0aaa93e24432eba76ad401ea6ee2",
+  "_size": 4622,
   "appid": "2582880",
   "common": {
     "aicontenttype": "1",
@@ -31,6 +50,7 @@
     "clienticon": "654dfba9e166a2675989edc6ebb5a85c9dc2bf23",
     "clienttga": "7fd4b23d06d97cc04c05f5ad4e979c0a0ee27962",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -40,7 +60,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "2582880",
     "genres": {
       "0": "4",
@@ -116,7 +135,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b804d163496c540039028c046e88e51ed0fcf7d6/capsule_231x87.jpg"
     },
@@ -144,5 +163,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Northrealm Tribes",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "NorthrealmTribes.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "NorthrealmTribes.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2582881": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "645880992",
+          "gid": "1727343559114386343",
+          "size": "793379333"
+        }
+      }
+    },
+    "2582883": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "606705936",
+          "gid": "7441095153958992504",
+          "size": "813817968"
+        }
+      }
+    },
+    "baselanguages": "english,german,russian",
+    "branches": {
+      "public": {
+        "buildid": "26089602",
+        "timebuildupdated": "1792528552",
+        "timeupdated": "1792528584"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DevSanja",
+    "isfreeapp": "1",
+    "publisher": "DevSanja"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "sync_while_suspended": "1"
+  }
 }

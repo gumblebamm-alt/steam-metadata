@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792155385,
-  "_history": [],
-  "_change_number": 39802594,
-  "_missing_token": true,
-  "_sha": "c50c7a7c81eb361b2056121b2f48bde4eba14877",
-  "_size": 3214,
+  "_lastChecked": 1792558118,
+  "_history": [
+    {
+      "buildId": "25856622",
+      "branch": "public",
+      "timeUpdated": 1791671538,
+      "firstSeen": 1792558118,
+      "manifests": {
+        "5165301": {
+          "gid": "1732654453729463953",
+          "size": 633317213,
+          "download": 261577136
+        },
+        "5165302": {
+          "gid": "166066904217953271",
+          "size": 575705881,
+          "download": 234746736
+        }
+      }
+    }
+  ],
+  "_change_number": 40050882,
+  "_missing_token": false,
+  "_sha": "4eab43c27900358735b458d900ad5324c609528f",
+  "_size": 4902,
   "appid": "5165300",
   "common": {
     "associations": {
@@ -35,7 +54,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5165300",
     "genres": {
       "0": "25",
@@ -107,10 +125,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3cc5b09dc6a66805a3e12a8bc73e0fa9f424358d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792512016",
     "store_asset_mtime": "1791847741",
     "store_tags": {
       "0": "1721",
@@ -143,5 +162,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Passage Zero",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Passage Zero.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Passage Zero.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5165301": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "261577136",
+          "gid": "1732654453729463953",
+          "size": "633317213"
+        }
+      }
+    },
+    "5165302": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "234746736",
+          "gid": "166066904217953271",
+          "size": "575705881"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25856622",
+        "timebuildupdated": "1791671525",
+        "timeupdated": "1791671538"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Vossel",
+    "gamemanualurl": "https://store.steampowered.com/manual/5165300/",
+    "publisher": "Vossel"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Passage Zero",
+            "replace": "godot/app_userdata/Passage Zero"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Passage Zero",
+        "pattern": "save.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

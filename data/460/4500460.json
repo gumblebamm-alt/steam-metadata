@@ -1,10 +1,56 @@
 {
-  "_lastChecked": 1792457855,
-  "_history": [],
-  "_change_number": 40025521,
-  "_missing_token": true,
-  "_sha": "689ad1b548b4c6c28b06d6c1a4316132cbcd1139",
-  "_size": 4293,
+  "_lastChecked": 1792558045,
+  "_history": [
+    {
+      "buildId": "26095543",
+      "branch": "public",
+      "timeUpdated": 1792548397,
+      "firstSeen": 1792557964,
+      "manifests": {
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "4500461": {
+          "gid": "6523690288437502363",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    },
+    {
+      "buildId": "26095543",
+      "branch": "alpha",
+      "timeUpdated": 1792548389,
+      "firstSeen": 1792558045,
+      "manifests": {
+        "4500461": {
+          "gid": "6523690288437502363",
+          "size": 216071707,
+          "download": 91089024
+        }
+      }
+    },
+    {
+      "buildId": "24276258",
+      "branch": "development",
+      "timeUpdated": 1784399894,
+      "firstSeen": 1792558045,
+      "manifests": {
+        "4500461": {
+          "gid": "7376783478443314251",
+          "size": 204217038,
+          "download": 98457104
+        }
+      }
+    }
+  ],
+  "_change_number": 40068352,
+  "_missing_token": false,
+  "_sha": "43f8e3420489c08fcff6773d370a41f19cb3ec6b",
+  "_size": 5942,
   "appid": "4500460",
   "common": {
     "associations": {
@@ -33,6 +79,7 @@
     },
     "clienticon": "3bee66693b02396c2f69e35f022cec5c3968871c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -43,7 +90,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4500460",
     "genres": {
       "0": "23",
@@ -120,10 +166,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a11da38fb1cbb99988ccf28725dab021a4c70ab7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792549440",
     "store_asset_mtime": "1781209487",
     "store_tags": {
       "0": "1721",
@@ -207,5 +254,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "What The Dog Remembers",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "WhatTheDogRemembers.exe",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4500461": {
+      "manifests": {
+        "alpha": {
+          "download": "91089024",
+          "gid": "6523690288437502363",
+          "size": "216071707"
+        },
+        "development": {
+          "download": "98457104",
+          "gid": "7376783478443314251",
+          "size": "204217038"
+        },
+        "public": {
+          "download": "91089024",
+          "gid": "6523690288437502363",
+          "size": "216071707"
+        }
+      }
+    },
+    "branches": {
+      "alpha": {
+        "buildid": "26095543",
+        "description": "Very buggy, but contains newer content.",
+        "timebuildupdated": "1792548389",
+        "timeupdated": "1792548389"
+      },
+      "development": {
+        "buildid": "24276258",
+        "description": "Experimental features and lot of bugs.",
+        "timebuildupdated": "1784399894",
+        "timeupdated": "1784399894"
+      },
+      "public": {
+        "buildid": "26095543",
+        "timebuildupdated": "1792548389",
+        "timeupdated": "1792548397"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Null Comma",
+    "homepage": "https://nullcomma.com/project/what-the-dog-remembers",
+    "publisher": "Null Comma"
+  },
+  "ufs": {
+    "maxnumfiles": "256",
+    "quota": "256000000",
+    "savefiles": {
+      "0": {
+        "path": "NullComma/WhatTheDogRemembers/save",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

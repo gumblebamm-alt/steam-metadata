@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792457834,
-  "_history": [],
-  "_change_number": 40011807,
-  "_missing_token": true,
-  "_sha": "32c2a4ce1ae305c04e9ab2609df00a84d3f539d0",
-  "_size": 3217,
+  "_lastChecked": 1792558065,
+  "_history": [
+    {
+      "buildId": "26087142",
+      "branch": "public",
+      "timeUpdated": 1792521337,
+      "firstSeen": 1792558065,
+      "manifests": {
+        "3331852": {
+          "gid": "3878977382577323906",
+          "size": 203063845,
+          "download": 93587680
+        },
+        "3331853": {
+          "gid": "7040894422966868981",
+          "size": 327765194,
+          "download": 124646576
+        }
+      }
+    }
+  ],
+  "_change_number": 40056345,
+  "_missing_token": false,
+  "_sha": "bdb967c151a877326f8ae8ecc055e0e5fccc6467",
+  "_size": 4592,
   "appid": "3331850",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +50,8 @@
     "clienticns": "610baba6d4eff8d01cea030803a065fabf5673bf",
     "clienticon": "7c35f90a846280caae815e7e46f32819caca6268",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3331850",
     "genres": {
       "0": "4",
@@ -105,10 +124,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7df53c80fbdeb382c4ff6957e81682123e933ae6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792521828",
     "store_asset_mtime": "1792424671",
     "store_tags": {
       "0": "597",
@@ -144,5 +164,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BrushDuel",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BrushDuel.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "BrushDuel.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3331852": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "93587680",
+          "gid": "3878977382577323906",
+          "size": "203063845"
+        }
+      }
+    },
+    "3331853": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "124646576",
+          "gid": "7040894422966868981",
+          "size": "327765194"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26087142",
+        "timebuildupdated": "1792521337",
+        "timeupdated": "1792521337"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Goltech",
+    "publisher": "Goltech"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "GOLTECH STUDIO/CanvasBrush",
+        "pattern": "save.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

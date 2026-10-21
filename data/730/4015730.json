@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791940062,
-  "_history": [],
-  "_change_number": 39793356,
-  "_missing_token": true,
-  "_sha": "2087a740d5fac5c21c95cfdf9bd1cdbca8576b1d",
-  "_size": 4159,
+  "_lastChecked": 1792558076,
+  "_history": [
+    {
+      "buildId": "26077800",
+      "branch": "public",
+      "timeUpdated": 1792496777,
+      "firstSeen": 1792558076,
+      "manifests": {
+        "4015731": {
+          "gid": "9113518251489186396",
+          "size": 920118614,
+          "download": 326252656
+        }
+      }
+    }
+  ],
+  "_change_number": 40063779,
+  "_missing_token": false,
+  "_sha": "c73888181f359329a82a8632dfc172e4bc3a3c8c",
+  "_size": 6923,
   "appid": "4015730",
   "common": {
     "aicontenttype": "1",
@@ -21,20 +35,20 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_62": "1",
       "category_68": "1",
       "category_74": "1"
     },
     "clienticon": "b0dde6d9b674b1280adc248ece98c4011e2a9670",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4015730",
     "genres": {
       "0": "1",
-      "1": "25",
-      "2": "4",
-      "3": "23"
+      "1": "4",
+      "2": "23"
     },
     "header_image": {
       "english": "f33718d2ec2ccc0624838ebb14f275c0adc9b3a9/header.jpg"
@@ -105,32 +119,94 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b36846494f18e5161443aad3f46216c33db77d76/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "gamepad"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1770336000",
+      "tested_build_id": "19882663",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1757172563",
     "store_tags": {
-      "0": "6730",
-      "1": "5752",
-      "10": "3968",
-      "11": "8666",
-      "12": "1663",
-      "13": "4036",
-      "14": "1625",
-      "15": "19",
-      "16": "1774",
-      "17": "1773",
-      "18": "597",
-      "19": "4191",
-      "2": "5363",
-      "3": "7481",
-      "4": "3993",
-      "5": "5154",
-      "6": "4835",
-      "7": "5547",
-      "8": "3877",
-      "9": "5395"
+      "0": "5395",
+      "1": "3877",
+      "10": "4191",
+      "11": "4182",
+      "12": "4295",
+      "13": "3942",
+      "14": "4305",
+      "15": "597",
+      "16": "5154",
+      "17": "7481",
+      "18": "492",
+      "19": "21",
+      "2": "19",
+      "3": "1625",
+      "4": "8666",
+      "5": "1773",
+      "6": "3839",
+      "7": "1774",
+      "8": "4835",
+      "9": "5752"
     },
     "supported_languages": {
       "czech": {
@@ -200,5 +276,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bunny Hopper",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BunnyHopper.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4015731": {
+      "manifests": {
+        "public": {
+          "download": "326252656",
+          "gid": "9113518251489186396",
+          "size": "920118614"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26077800",
+        "timebuildupdated": "1792496426",
+        "timeupdated": "1792496777"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Whale Rock Games",
+    "homepage": "https://sites.google.com/whalerockgames.com/site/home",
+    "publisher": "Whale Rock Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000"
+  }
 }

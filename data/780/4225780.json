@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791463238,
-  "_history": [],
-  "_change_number": 39522438,
-  "_missing_token": true,
-  "_sha": "2fcc7391c80b4a52d0f32e08129bec2d6b7a75af",
-  "_size": 3331,
+  "_lastChecked": 1792558080,
+  "_history": [
+    {
+      "buildId": "26092670",
+      "branch": "public",
+      "timeUpdated": 1792538005,
+      "firstSeen": 1792558080,
+      "manifests": {
+        "4225782": {
+          "gid": "6736091304996940489",
+          "size": 823876894,
+          "download": 223769136
+        },
+        "4225783": {
+          "gid": "2896687809386738724",
+          "size": 806600393,
+          "download": 218384032
+        }
+      }
+    }
+  ],
+  "_change_number": 40063918,
+  "_missing_token": false,
+  "_sha": "55053198ccc0f182b3250f32432cfbb30216a4f0",
+  "_size": 4604,
   "appid": "4225780",
   "common": {
     "associations": {
@@ -37,9 +56,9 @@
     },
     "clienticon": "236cf99dfbabe567623c4ae01fec2c36be838bb5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4225780",
     "genres": {
       "0": "25",
@@ -113,11 +132,12 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ef842da63b7f186d8cd86b06a74955dee3d7fb27/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1790649155",
+    "steam_release_date": "1792517138",
+    "store_asset_mtime": "1792532793",
     "store_tags": {
       "0": "492",
       "1": "6869",
@@ -149,5 +169,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "All Eyes on Me",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "All Eyes on Me.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "All Eyes on Me.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4225781": {},
+    "4225782": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "223769136",
+          "gid": "6736091304996940489",
+          "size": "823876894"
+        }
+      }
+    },
+    "4225783": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "218384032",
+          "gid": "2896687809386738724",
+          "size": "806600393"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26092670",
+        "timebuildupdated": "1792537935",
+        "timeupdated": "1792538005"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "zzzkull",
+    "publisher": "zzzkull"
+  },
+  "ufs": {
+    "maxnumfiles": "3",
+    "quota": "5000000",
+    "savefiles": {
+      "0": {
+        "path": "zzzkull/All Eyes on Me",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

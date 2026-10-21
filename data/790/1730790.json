@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1792068990,
-  "_history": [],
-  "_change_number": 39852924,
-  "_missing_token": true,
-  "_sha": "50a06758bd8817fbf4b59600dd02993da2d2d55f",
-  "_size": 3432,
+  "_lastChecked": 1792558046,
+  "_history": [
+    {
+      "buildId": "26080078",
+      "branch": "public",
+      "timeUpdated": 1792502817,
+      "firstSeen": 1792557979,
+      "manifests": {
+        "229020": {
+          "gid": "5799761707845834510",
+          "size": null,
+          "download": null
+        },
+        "1730791": {
+          "gid": "5414782460253219353",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40070861,
+  "_missing_token": false,
+  "_sha": "ea25797e811a3dc482360be8f383327f88f39da0",
+  "_size": 4742,
   "appid": "1730790",
   "common": {
     "associations": {
@@ -38,9 +58,9 @@
     "clienticon": "f66c59530294a2eca20157e191f9f902ec89b661",
     "clienttga": "6360b94129fc0d0bebcd02bd3b68053acc7891f1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1730790",
     "genres": {
       "0": "1",
@@ -52,7 +72,12 @@
     },
     "icon": "c124b58d4c096e608b5be7a840e0ea73dc54a278",
     "languages": {
-      "english": "1"
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "portuguese": "1",
+      "russian": "1",
+      "spanish": "1"
     },
     "library_assets": {
       "library_capsule": "en",
@@ -111,10 +136,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "72",
+    "review_score": "6",
     "small_capsule": {
       "english": "7cf4df9a84b80880bfab343d440b9cb209419e05/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792504834",
     "store_asset_mtime": "1792053910",
     "store_tags": {
       "0": "1628",
@@ -166,5 +194,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "A Sister's Journey",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Game\\ASistersJourney.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4"
+  },
+  "depots": {
+    "1730791": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "835937280",
+          "gid": "5414782460253219353",
+          "size": "2135230791"
+        }
+      }
+    },
+    "229020": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "26080078",
+        "timebuildupdated": "1792502799",
+        "timeupdated": "1792502817"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Florian Lackner",
+    "publisher": "Florian Lackner"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "A Sister's Journey\\saves\\cloud",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

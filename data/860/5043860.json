@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1791809557,
-  "_history": [],
-  "_change_number": 39732807,
-  "_missing_token": true,
-  "_sha": "3e59c0f7839f72538a4202ab943048280e765048",
-  "_size": 3600,
+  "_lastChecked": 1792558045,
+  "_history": [
+    {
+      "buildId": "26097169",
+      "branch": "public",
+      "timeUpdated": 1792554843,
+      "firstSeen": 1792557968,
+      "manifests": {
+        "5043861": {
+          "gid": "3010396323075610890",
+          "size": null,
+          "download": null
+        },
+        "5043862": {
+          "gid": "4598936096332298022",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40070391,
+  "_missing_token": false,
+  "_sha": "cf49bb4dcf967364c12f8d2802a4186e4c49dab2",
+  "_size": 4856,
   "appid": "5043860",
   "common": {
     "associations": {
@@ -50,9 +70,9 @@
     },
     "clienticon": "4636569b11f4472cf3486afb1079d4871cee5ba4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5043860",
     "genres": {
       "0": "1",
@@ -130,10 +150,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ce3204347638e24c9b44b72aa3ae68456dfa771a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792536096",
     "store_asset_mtime": "1789628490",
     "store_tags": {
       "0": "1676",
@@ -165,5 +186,67 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Aether.Garden",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Aether.exe"
+      },
+      "1": {
+        "arguments": "--enable-unsafe-webgpu --enable-features=Vulkan,DefaultANGLEVulkan,VulkanFromANGLE --use-angle=vulkan --ignore-gpu-blocklist --ozone-platform=x11",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Aether"
+      }
+    }
+  },
+  "depots": {
+    "5043861": {
+      "manifests": {
+        "public": {
+          "download": "251811136",
+          "gid": "1506701812063440929",
+          "size": "692562685"
+        }
+      }
+    },
+    "5043862": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "227255456",
+          "gid": "4256211497484155177",
+          "size": "657465785"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26097169",
+        "timebuildupdated": "1792554757",
+        "timeupdated": "1792554843"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "5043860"
+  },
+  "extended": {
+    "developer": "Acquire",
+    "dlcavailableonstore": "1",
+    "isfreeapp": "1",
+    "listofdlc": "5217980",
+    "publisher": "Fire",
+    "vrheadsetstreaming": "1"
+  },
+  "ufs": {
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792025669,
-  "_history": [],
-  "_change_number": 39712266,
-  "_missing_token": true,
-  "_sha": "223715b6cc414ea04796bd5a89b9485bdc9b8be5",
-  "_size": 5436,
+  "_lastChecked": 1792558089,
+  "_history": [
+    {
+      "buildId": "26040841",
+      "branch": "public",
+      "timeUpdated": 1792389259,
+      "firstSeen": 1792558089,
+      "manifests": {
+        "4587951": {
+          "gid": "7865317442159621492",
+          "size": 5693036715,
+          "download": 642844960
+        }
+      }
+    }
+  ],
+  "_change_number": 40055181,
+  "_missing_token": false,
+  "_sha": "ceca83296f950182492fb992e21a775f2495e6b9",
+  "_size": 6742,
   "appid": "4587950",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +43,8 @@
     },
     "clienticon": "17f533a63ed20cea0c02a0a4a013ae5f7d7b10f6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4587950",
     "genres": {
       "0": "1",
@@ -135,7 +149,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a2a8ac22d71e551b194242dbcf97621eb6b3968f/capsule_231x87.jpg"
     },
@@ -262,5 +276,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Kill Through",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "KillThrough.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4587951": {
+      "manifests": {
+        "public": {
+          "download": "642844960",
+          "gid": "7865317442159621492",
+          "size": "5693036715"
+        }
+      }
+    },
+    "baselanguages": "brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26040841",
+        "timebuildupdated": "1792389151",
+        "timeupdated": "1792389259"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Holy Terra team",
+    "publisher": "Holy Terra team"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "HolyTerra/KillThrough/Saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
