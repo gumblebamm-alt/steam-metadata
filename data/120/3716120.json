@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791138134,
-  "_history": [],
-  "_change_number": 39173571,
-  "_missing_token": true,
-  "_sha": "a9b6f2e349cd5fd1b4a7f668ada507220ec159b8",
-  "_size": 3565,
+  "_lastChecked": 1792603007,
+  "_history": [
+    {
+      "buildId": "26106524",
+      "branch": "public",
+      "timeUpdated": 1792586207,
+      "firstSeen": 1792603007,
+      "manifests": {
+        "3716121": {
+          "gid": "8612400585026516163",
+          "size": 928163056,
+          "download": 770054976
+        }
+      }
+    }
+  ],
+  "_change_number": 40086460,
+  "_missing_token": false,
+  "_sha": "29e8065bb400e5c298b02831e7d00be974333ff3",
+  "_size": 4727,
   "appid": "3716120",
   "common": {
     "associations": {
@@ -31,14 +45,13 @@
     "clienticon": "bdbf597e6dd3ce54e76bbc9373e15c8f3e2ea045",
     "clienttga": "c1e209e9eb803a4e0f6110977eabecd689641583",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3716120",
     "genres": {
       "0": "25",
       "1": "4",
-      "2": "23",
-      "3": "37"
+      "2": "23"
     },
     "header_image": {
       "english": "ca610b1e87274e8ce80e63c8a7fd085968f9149c/header.jpg"
@@ -106,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d8b51dace7914d7a5cba0d54e95b845f5d8bc1eb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792586525",
     "store_asset_mtime": "1785837211",
     "store_tags": {
       "0": "21",
@@ -157,5 +171,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Truth Beneath the Shadows",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TruthBeneaththeShadows.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3716121": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "770054976",
+          "gid": "8612400585026516163",
+          "size": "928163056"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26106524",
+        "timebuildupdated": "1792586172",
+        "timeupdated": "1792586207"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "developer": "Eros Game Studio 79",
+    "publisher": "Eros Game Studio 79"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

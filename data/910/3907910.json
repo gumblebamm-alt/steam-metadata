@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792558073,
-  "_history": [],
-  "_change_number": 39853081,
-  "_missing_token": true,
-  "_sha": "37e276f9fd68da488f80491caea749fd69f41188",
-  "_size": 3835,
+  "_lastChecked": 1792603010,
+  "_history": [
+    {
+      "buildId": "25749682",
+      "branch": "public",
+      "timeUpdated": 1791283476,
+      "firstSeen": 1792603010,
+      "manifests": {
+        "3907911": {
+          "gid": "921899792081183643",
+          "size": 1442535420,
+          "download": 263544064
+        },
+        "3907912": {
+          "gid": "3077810550295140639",
+          "size": 1533378009,
+          "download": 285683904
+        }
+      }
+    }
+  ],
+  "_change_number": 40090832,
+  "_missing_token": false,
+  "_sha": "48e58a5ddcec7c40ab75651842c83dfac7cfbe1e",
+  "_size": 5050,
   "appid": "3907910",
   "common": {
     "associations": {
@@ -37,9 +56,9 @@
     "clienticon": "6795976b5ba95c5850cc375377f54ca5a6e753f4",
     "clienttga": "7271536888fec61d8dfd6c35f0d20ba27697bf36",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3907910",
     "genres": {
       "0": "4",
@@ -112,10 +131,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e4f58cbb493eadc54a2ecb610f16bfcb763f02f0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792593422",
     "store_asset_mtime": "1789724373",
     "store_tags": {
       "0": "1220528",
@@ -175,5 +195,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cutout Village",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CutoutVillage.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "CutoutVillage.app/Contents/MacOS/CutoutVillage"
+      }
+    }
+  },
+  "depots": {
+    "3907911": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "263544064",
+          "gid": "921899792081183643",
+          "size": "1442535420"
+        }
+      }
+    },
+    "3907912": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "285683904",
+          "gid": "3077810550295140639",
+          "size": "1533378009"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25749682",
+        "timebuildupdated": "1791283447",
+        "timeupdated": "1791283476"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "DevilishGames",
+    "homepage": "https://www.devilishgames.com/",
+    "publisher": "DevilishGames"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "saved",
+        "pattern": "*",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

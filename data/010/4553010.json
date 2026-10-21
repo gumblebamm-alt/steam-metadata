@@ -1,10 +1,42 @@
 {
-  "_lastChecked": 1792241292,
-  "_history": [],
-  "_change_number": 39807613,
-  "_missing_token": true,
-  "_sha": "2a41f81d873d09a2435e5ddc9a0a8f2b08e4d405",
-  "_size": 3057,
+  "_lastChecked": 1792603025,
+  "_history": [
+    {
+      "buildId": "22560333",
+      "branch": "local",
+      "timeUpdated": 1774832069,
+      "firstSeen": 1792603025,
+      "manifests": {
+        "4553011": {
+          "gid": "3980337282596825587",
+          "size": 553820699,
+          "download": 535434256
+        }
+      }
+    },
+    {
+      "buildId": "26098762",
+      "branch": "public",
+      "timeUpdated": 1792562015,
+      "firstSeen": 1792603025,
+      "manifests": {
+        "4553011": {
+          "gid": "1334077496561713531",
+          "size": 824606851,
+          "download": 796070624
+        },
+        "4553012": {
+          "gid": "6019948315354737919",
+          "size": 584984101,
+          "download": 558817600
+        }
+      }
+    }
+  ],
+  "_change_number": 40074364,
+  "_missing_token": false,
+  "_sha": "922fe3b2f5ebf4ceeafec692b9d5c66f4b556ea3",
+  "_size": 4459,
   "appid": "4553010",
   "common": {
     "associations": {
@@ -31,7 +63,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4553010",
     "genres": {
       "0": "3",
@@ -102,7 +133,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ce85d45685549ae6e3aa04aa78cda109f6741fae/capsule_231x87.jpg"
     },
@@ -137,5 +168,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Another Ark",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Another Ark Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4553011": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "local": {
+          "download": "535434256",
+          "gid": "3980337282596825587",
+          "size": "553820699"
+        },
+        "public": {
+          "download": "796070624",
+          "gid": "1334077496561713531",
+          "size": "824606851"
+        }
+      }
+    },
+    "4553012": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "558817600",
+          "gid": "6019948315354737919",
+          "size": "584984101"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "local": {
+        "buildid": "22560333",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1774832024",
+        "timeupdated": "1774832069"
+      },
+      "public": {
+        "buildid": "26098762",
+        "timebuildupdated": "1792562015",
+        "timeupdated": "1792562015"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Eschaton Software Inc.",
+    "publisher": "Eschaton Software Inc."
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "6000000",
+    "savefiles": {
+      "0": {
+        "path": "Save",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    }
+  }
 }

@@ -1,6 +1,19 @@
 {
-  "_lastChecked": 1791506695,
+  "_lastChecked": 1792603001,
   "_history": [
+    {
+      "buildId": "25906984",
+      "branch": "public",
+      "timeUpdated": 1791900850,
+      "firstSeen": 1792603001,
+      "manifests": {
+        "3276051": {
+          "gid": "9171255692478231672",
+          "size": 18695683891,
+          "download": 8786519472
+        }
+      }
+    },
     {
       "buildId": "25809403",
       "branch": "public",
@@ -52,25 +65,12 @@
           "download": 8264814608
         }
       }
-    },
-    {
-      "buildId": "25342473",
-      "branch": "public",
-      "timeUpdated": 1789560722,
-      "firstSeen": 1789567056,
-      "manifests": {
-        "3276051": {
-          "gid": "2875405222649382745",
-          "size": 17412132912,
-          "download": 8262729200
-        }
-      }
     }
   ],
-  "_change_number": 39625917,
+  "_change_number": 40090925,
   "_missing_token": false,
-  "_sha": "5d8f81ee0c2153f6a8406b42a65bb2254f6b3c39",
-  "_size": 6102,
+  "_sha": "38a8ef5dc50754f22953f81d494f6ce2ad5803e9",
+  "_size": 6467,
   "appid": "3276050",
   "common": {
     "associations": {
@@ -188,7 +188,7 @@
         "hdr_support": "0",
         "non_deck_display_glyphs": "1",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-11.0-beta",
+        "recommended_runtime": "proton-stable",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -197,35 +197,44 @@
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "0",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
       "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
           "display": "3",
           "token": "#SteamOS_TestResult_GameStartupFunctional"
-        },
-        "1": {
-          "display": "1",
-          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
         }
       },
-      "test_timestamp": "1780963200",
-      "tested_build_id": "23408914",
+      "test_timestamp": "1791297611",
+      "tested_build_id": "25457038",
       "tests": {
         "0": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
         },
         "1": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
         },
         "2": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "3": {
           "display": "4",
@@ -279,6 +288,14 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "russian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "schinese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "spanish": {
         "subtitles": "true",
         "supported": "true"
@@ -305,17 +322,17 @@
     "3276051": {
       "manifests": {
         "public": {
-          "download": "8748760864",
-          "gid": "8159952887108271959",
-          "size": "18605601105"
+          "download": "8786519472",
+          "gid": "9171255692478231672",
+          "size": "18695683891"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25809403",
-        "timebuildupdated": "1791478095",
-        "timeupdated": "1791478511"
+        "buildid": "25906984",
+        "timebuildupdated": "1791894128",
+        "timeupdated": "1791900850"
       }
     },
     "hasdepotsindlc": "0",

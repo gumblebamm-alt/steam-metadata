@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792501383,
+  "_lastChecked": 1792603045,
   "_history": [
     {
       "buildId": "25978791",
@@ -72,12 +72,30 @@
           "download": 270810496
         }
       }
+    },
+    {
+      "buildId": "26102846",
+      "branch": "public",
+      "timeUpdated": 1792590931,
+      "firstSeen": 1792603045,
+      "manifests": {
+        "5025951": {
+          "gid": "4686265360226559971",
+          "size": 333971128,
+          "download": 247678848
+        },
+        "5025952": {
+          "gid": "529957623014195438",
+          "size": 416618832,
+          "download": 270766784
+        }
+      }
     }
   ],
-  "_change_number": 40043195,
+  "_change_number": 40089423,
   "_missing_token": false,
-  "_sha": "f939c71775bcea4c2a99b28b77009d651bdfa059",
-  "_size": 5636,
+  "_sha": "aeec9b563cacb04890b378874b40d6bccb0fa383",
+  "_size": 5989,
   "appid": "5025950",
   "common": {
     "aicontenttype": "1",
@@ -246,6 +264,9 @@
       "german": {
         "supported": "true"
       },
+      "greek": {
+        "supported": "true"
+      },
       "hungarian": {
         "supported": "true"
       },
@@ -301,6 +322,12 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
     "installdir": "Giblings",
     "launch": {
       "0": {
@@ -317,6 +344,14 @@
         },
         "executable": "Giblings.exe",
         "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Giblings.x86_64",
+        "type": "default"
       }
     }
   },
@@ -327,9 +362,9 @@
       },
       "manifests": {
         "public": {
-          "download": "247636928",
-          "gid": "1999603938436815391",
-          "size": "333517092"
+          "download": "247678848",
+          "gid": "4686265360226559971",
+          "size": "333971128"
         }
       }
     },
@@ -339,17 +374,22 @@
       },
       "manifests": {
         "public": {
-          "download": "270810496",
-          "gid": "83720370977266320",
-          "size": "416100668"
+          "download": "270766784",
+          "gid": "529957623014195438",
+          "size": "416618832"
         }
+      }
+    },
+    "5025953": {
+      "config": {
+        "oslist": "linux"
       }
     },
     "branches": {
       "public": {
-        "buildid": "26071340",
-        "timebuildupdated": "1792475260",
-        "timeupdated": "1792475646"
+        "buildid": "26102846",
+        "timebuildupdated": "1792576178",
+        "timeupdated": "1792590931"
       }
     },
     "nocommonredists": "1",

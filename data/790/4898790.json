@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1792558102,
-  "_history": [],
-  "_change_number": 40053797,
-  "_missing_token": true,
-  "_sha": "1c9c3a1d96f35120f93e474a8f911216d72f2d02",
-  "_size": 3802,
+  "_lastChecked": 1792602984,
+  "_history": [
+    {
+      "buildId": "25528217",
+      "branch": "public",
+      "timeUpdated": 1792394430,
+      "firstSeen": 1792602894,
+      "manifests": {
+        "4898791": {
+          "gid": "2038949096230320032",
+          "size": null,
+          "download": null
+        },
+        "4898792": {
+          "gid": "7947070576852344896",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40074566,
+  "_missing_token": false,
+  "_sha": "6fbdc5b2bc94115e15fe047e6ee51b615ebc06e4",
+  "_size": 5698,
   "appid": "4898790",
   "common": {
     "associations": {
@@ -55,7 +75,6 @@
         "version": "5"
       }
     },
-    "exfgls": "8",
     "gameid": "4898790",
     "genres": {
       "0": "23",
@@ -130,10 +149,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9a91c10a19cba2bdc9775d87ac3c525ddd8e19df/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792565861",
     "store_asset_mtime": "1787963614",
     "store_tags": {
       "0": "603297",
@@ -167,5 +187,101 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "crosstalk",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "crosstalk.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "crosstalk",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4898791": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "566738768",
+          "gid": "2038949096230320032",
+          "size": "1012979370"
+        }
+      }
+    },
+    "4898792": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "585551200",
+          "gid": "7947070576852344896",
+          "size": "1261160996"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25528217",
+        "timebuildupdated": "1790339091",
+        "timeupdated": "1792394430"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "4898790"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Ongakken",
+    "dlcavailableonstore": "1",
+    "isfreeapp": "1",
+    "listofdlc": "4912630,4912640,5101420,5158190,5170410,5170760,5173920,5182600,5182610,5188110,5188120,5204060,5210440,5298170,5466650",
+    "publisher": "Ongakken",
+    "remoteplaytogethertestingbranches": "experimental"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Ongakken/Crosstalk/savefiles",
+        "pattern": "*.xtlk",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": ".local/share/ongakken/crosstalk/savefiles",
+        "pattern": "*.xtlk",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

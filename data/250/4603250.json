@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792558090,
-  "_history": [],
-  "_change_number": 40068535,
-  "_missing_token": true,
-  "_sha": "9f9431e09a55f879a45bab8bf05acfefb4c5e5a2",
-  "_size": 3327,
+  "_lastChecked": 1792603027,
+  "_history": [
+    {
+      "buildId": "26095928",
+      "branch": "public",
+      "timeUpdated": 1792549890,
+      "firstSeen": 1792603027,
+      "manifests": {
+        "4603251": {
+          "gid": "8564171971923550377",
+          "size": 228955808,
+          "download": 123398752
+        }
+      }
+    }
+  ],
+  "_change_number": 40096320,
+  "_missing_token": false,
+  "_sha": "2f727bea8956c26095e17fd12ede7e05341a7bc9",
+  "_size": 4506,
   "appid": "4603250",
   "common": {
     "associations": {
@@ -35,9 +49,9 @@
     },
     "clienticon": "fd0174ff6cef33ab10e5d187bebb529aa03c103d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4603250",
     "genres": {
       "0": "1",
@@ -109,11 +123,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "148d24530ddebd27c1db89133e36d7ffd00d1e66/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/4603250/eventcomments/570426339809740627?snr=1_2108_9__2107",
+    "steam_release_date": "1792602372",
     "store_asset_mtime": "1791406179",
     "store_tags": {
       "0": "42804",
@@ -146,5 +161,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "One Dumb Wizard",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "one_dumb_wizard.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "3",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4603251": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "123398752",
+          "gid": "8564171971923550377",
+          "size": "228955808"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26095928",
+        "timebuildupdated": "1792549855",
+        "timeupdated": "1792549890"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Mixel",
+    "publisher": "Mixel"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "4000000",
+    "savefiles": {
+      "0": {
+        "path": "One Dumb Wizard",
+        "pattern": "SaveFile.tres",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "One Dumb Wizard",
+        "pattern": "SaveFile.tres",
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

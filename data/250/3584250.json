@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792025653,
-  "_history": [],
-  "_change_number": 39830219,
-  "_missing_token": true,
-  "_sha": "b6727ab86870e9cbe0545b3cd47cb9f7dd59e3c6",
-  "_size": 3249,
+  "_lastChecked": 1792603005,
+  "_history": [
+    {
+      "buildId": "26013407",
+      "branch": "public",
+      "timeUpdated": 1792259802,
+      "firstSeen": 1792603005,
+      "manifests": {
+        "3584251": {
+          "gid": "8460539878563032969",
+          "size": 1522230282,
+          "download": 1212734304
+        }
+      }
+    }
+  ],
+  "_change_number": 40095250,
+  "_missing_token": false,
+  "_sha": "39b34ec31db3b8dc355f7a4ee7df26e34bfe2b8f",
+  "_size": 4431,
   "appid": "3584250",
   "common": {
     "associations": {
@@ -38,9 +52,9 @@
     "clienticon": "c5568e7cb84c8d32bf7b211790cd68cd4744298d",
     "clienttga": "6bcb37161bd86ef9ac49b904e51734721d7de50c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3584250",
     "genres": {
       "0": "1",
@@ -113,10 +127,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7d3bee531f8b0998e7ce66443055173a676dee4b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1792000948",
     "store_tags": {
       "0": "599",
@@ -147,5 +162,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Off the Shelf!",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Off the Shelf!.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3584251": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1212734304",
+          "gid": "8460539878563032969",
+          "size": "1522230282"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26013407",
+        "timebuildupdated": "1792259768",
+        "timeupdated": "1792259802"
+      }
+    }
+  },
+  "extended": {
+    "developer": "NEVERUS",
+    "publisher": "NEVERUS"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "NEVERUS/Off the Shelf!",
+        "pattern": "GameData_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

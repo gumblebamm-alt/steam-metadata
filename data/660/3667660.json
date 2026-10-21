@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792241285,
+  "_lastChecked": 1792603006,
   "_history": [
     {
       "buildId": "21746195",
@@ -36,12 +36,48 @@
           "download": 125116304
         }
       }
+    },
+    {
+      "buildId": "26104703",
+      "branch": "beta",
+      "timeUpdated": 1792581180,
+      "firstSeen": 1792603006,
+      "manifests": {
+        "3667661": {
+          "gid": "2591407011716385035",
+          "size": 376577772,
+          "download": 201347824
+        },
+        "3667662": {
+          "gid": "5392830956044899719",
+          "size": 344182612,
+          "download": 192997056
+        }
+      }
+    },
+    {
+      "buildId": "26104703",
+      "branch": "public",
+      "timeUpdated": 1792593392,
+      "firstSeen": 1792603006,
+      "manifests": {
+        "3667661": {
+          "gid": "2591407011716385035",
+          "size": 376577772,
+          "download": 201347824
+        },
+        "3667662": {
+          "gid": "5392830956044899719",
+          "size": 344182612,
+          "download": 192997056
+        }
+      }
     }
   ],
-  "_change_number": 39931492,
+  "_change_number": 40091623,
   "_missing_token": false,
-  "_sha": "508d375d8e8daabd6dc7ffbcc908b0f4b55b0650",
-  "_size": 5911,
+  "_sha": "2f40026a3d1bddb6d35c3a4761b0d651d3a5493a",
+  "_size": 6371,
   "appid": "3667660",
   "common": {
     "aicontenttype": "1",
@@ -63,6 +99,7 @@
       "category_15": "1",
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_25": "1",
       "category_28": "1",
       "category_55": "1",
@@ -71,6 +108,7 @@
       "category_58": "1",
       "category_59": "1",
       "category_62": "1",
+      "category_68": "1",
       "category_69": "1",
       "category_74": "1"
     },
@@ -91,6 +129,22 @@
       "english": "df62a77a0f527669362e532048cd3794c5b0cbc3/header.jpg"
     },
     "icon": "5bf57fa863e7ce4c371dd8ff412be5cbd15d1a8f",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "polish": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1",
+      "tchinese": "1",
+      "thai": "1",
+      "turkish": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -260,14 +314,14 @@
       },
       "manifests": {
         "beta": {
-          "download": "131821584",
-          "gid": "2658376870693432602",
-          "size": "261353404"
+          "download": "201347824",
+          "gid": "2591407011716385035",
+          "size": "376577772"
         },
         "public": {
-          "download": "131821584",
-          "gid": "2658376870693432602",
-          "size": "261353404"
+          "download": "201347824",
+          "gid": "2591407011716385035",
+          "size": "376577772"
         }
       }
     },
@@ -277,29 +331,29 @@
       },
       "manifests": {
         "beta": {
-          "download": "125116304",
-          "gid": "5088495468310653535",
-          "size": "235612572"
+          "download": "192997056",
+          "gid": "5392830956044899719",
+          "size": "344182612"
         },
         "public": {
-          "download": "125116304",
-          "gid": "5088495468310653535",
-          "size": "235612572"
+          "download": "192997056",
+          "gid": "5392830956044899719",
+          "size": "344182612"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "beta": {
-        "buildid": "21746195",
+        "buildid": "26104703",
         "description": "Upcoming release",
-        "timebuildupdated": "1770029760",
-        "timeupdated": "1770029760"
+        "timebuildupdated": "1792581180",
+        "timeupdated": "1792581180"
       },
       "public": {
-        "buildid": "21746195",
-        "timebuildupdated": "1770029760",
-        "timeupdated": "1770046102"
+        "buildid": "26104703",
+        "timebuildupdated": "1792581180",
+        "timeupdated": "1792593392"
       }
     }
   },
@@ -308,18 +362,26 @@
     "publisher": "Siar Games"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "3",
     "quota": "5000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "BugOff",
+            "replace": ".local/share/BugOff"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "BugOff",
-        "pattern": "*.save",
-        "platforms": {
-          "1": "Windows"
-        },
-        "recursive": "1",
+        "pattern": "*.json",
         "root": "WinAppDataRoaming"
       }
     }

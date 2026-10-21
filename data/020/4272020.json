@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792327752,
-  "_history": [],
-  "_change_number": 39864643,
-  "_missing_token": true,
-  "_sha": "b7c80a5dc7f38ac4cc1d63e7f13548b2ca7425ee",
-  "_size": 3865,
+  "_lastChecked": 1792603018,
+  "_history": [
+    {
+      "buildId": "26110194",
+      "branch": "public",
+      "timeUpdated": 1792596022,
+      "firstSeen": 1792603018,
+      "manifests": {
+        "4272021": {
+          "gid": "2804303427316209951",
+          "size": 273501204,
+          "download": 161506096
+        },
+        "4272023": {
+          "gid": "6431276407340506727",
+          "size": 250506852,
+          "download": 157078768
+        },
+        "4272024": {
+          "gid": "1358019594512779032",
+          "size": 308785993,
+          "download": 172335760
+        }
+      }
+    }
+  ],
+  "_change_number": 40092441,
+  "_missing_token": false,
+  "_sha": "794e7c9f0296c1287a35a4201f1d00c34a6d827a",
+  "_size": 5862,
   "appid": "4272020",
   "common": {
     "associations": {
@@ -31,9 +55,9 @@
     },
     "clienticon": "09d63069ab39ca56c1e3b5783f3b268825c31d21",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4272020",
     "genres": {
       "0": "25",
@@ -105,10 +129,11 @@
     "osextended": "macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "113c56a124c08b6842c20e07525e7adffe8a3b85/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792583943",
     "store_asset_mtime": "1791365410",
     "store_tags": {
       "0": "1664",
@@ -176,5 +201,111 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "woim",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "worm.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "worm.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "woim.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4272021": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "161506096",
+          "gid": "2804303427316209951",
+          "size": "273501204"
+        }
+      }
+    },
+    "4272023": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "157078768",
+          "gid": "6431276407340506727",
+          "size": "250506852"
+        }
+      }
+    },
+    "4272024": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "172335760",
+          "gid": "1358019594512779032",
+          "size": "308785993"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,latam,portuguese,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26110194",
+        "timebuildupdated": "1792595970",
+        "timeupdated": "1792596022"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "1920x1080",
+    "developer": "dogspawn.net",
+    "publisher": "dogspawn.net"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "woim/saves",
+        "pattern": "slot_*.tres",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792284925,
+  "_lastChecked": 1792603044,
   "_history": [
     {
       "buildId": "25970512",
@@ -42,12 +42,30 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26093546",
+      "branch": "public",
+      "timeUpdated": 1792541405,
+      "firstSeen": 1792603044,
+      "manifests": {
+        "4995031": {
+          "gid": "7349307582640035593",
+          "size": 878574769,
+          "download": 311874176
+        },
+        "4995032": {
+          "gid": "2050300790283306819",
+          "size": 800563075,
+          "download": 284927584
+        }
+      }
     }
   ],
-  "_change_number": 39951320,
+  "_change_number": 40090795,
   "_missing_token": false,
-  "_sha": "5a5b39c128cd74da33ad0022ea82139237ad1b18",
-  "_size": 4042,
+  "_sha": "85f451c0692cb288bfc2e9bd9522e978d8b17995",
+  "_size": 6108,
   "appid": "4995030",
   "common": {
     "associations": {
@@ -147,10 +165,71 @@
     "oslist": "windows",
     "primary_genre": "28",
     "releasestate": "released",
-    "review_percentage": "96",
+    "review_percentage": "97",
     "review_score": "8",
     "small_capsule": {
       "english": "46010711ee2cfae6bb6245feeb69f4bdc8973808/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "3",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1792588706",
+      "tested_build_id": "26093546",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
     },
     "steam_release_date": "1792083550",
     "store_asset_mtime": "1792069842",
@@ -192,28 +271,47 @@
         },
         "executable": "FoldedFables.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "FoldedFables.app",
+        "type": "default"
       }
     },
     "steamdecktouchscreen": "1"
   },
   "depots": {
+    "4995031": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "311874176",
+          "gid": "7349307582640035593",
+          "size": "878574769"
+        }
+      }
+    },
     "4995032": {
       "config": {
         "oslist": "windows"
       },
       "manifests": {
         "public": {
-          "download": "284754384",
-          "gid": "2293171774447009836",
-          "size": "801196096"
+          "download": "284927584",
+          "gid": "2050300790283306819",
+          "size": "800563075"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26015459",
-        "timebuildupdated": "1792268955",
-        "timeupdated": "1792269292"
+        "buildid": "26093546",
+        "timebuildupdated": "1792541116",
+        "timeupdated": "1792541405"
       }
     },
     "hasdepotsindlc": "1",
