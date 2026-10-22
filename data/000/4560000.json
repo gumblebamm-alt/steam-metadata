@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792644430,
-  "_history": [],
-  "_change_number": 40091681,
-  "_missing_token": true,
-  "_sha": "dbea96ad13f7ca269ca03c5b2cbdb94b204e00a2",
-  "_size": 3953,
+  "_lastChecked": 1792689397,
+  "_history": [
+    {
+      "buildId": "26138195",
+      "branch": "public",
+      "timeUpdated": 1792685312,
+      "firstSeen": 1792689397,
+      "manifests": {
+        "4560001": {
+          "gid": "907812207569865174",
+          "size": 1215050589,
+          "download": 675456848
+        },
+        "4560002": {
+          "gid": "2681098310059523981",
+          "size": 1217905510,
+          "download": 677239248
+        },
+        "4560003": {
+          "gid": "4745972559209265900",
+          "size": 1245597508,
+          "download": 687345328
+        }
+      }
+    }
+  ],
+  "_change_number": 40135459,
+  "_missing_token": false,
+  "_sha": "6dee84ef8f9dceb48d18ef2670725c3d6d74c31e",
+  "_size": 5575,
   "appid": "4560000",
   "common": {
     "associations": {
@@ -32,9 +56,9 @@
     "clienticns": "bd472eabf6bc99010c7477bb40c70849b9ab0a13",
     "clienticon": "c15c305735e32f5df21e533497aad0707b6c6c7d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4560000",
     "genres": {
       "0": "1",
@@ -121,10 +145,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5536bea536b101929a338077fb9449a835249455/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792661388",
     "store_asset_mtime": "1790858180",
     "store_tags": {
       "0": "4758",
@@ -183,5 +208,99 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Battle Nap",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Battle Nap.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "BattleNap.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "BattleNap.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4560001": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "675456848",
+          "gid": "907812207569865174",
+          "size": "1215050589"
+        }
+      }
+    },
+    "4560002": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "677239248",
+          "gid": "2681098310059523981",
+          "size": "1217905510"
+        }
+      }
+    },
+    "4560003": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "687345328",
+          "gid": "4745972559209265900",
+          "size": "1245597508"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26138195",
+        "timebuildupdated": "1792685211",
+        "timeupdated": "1792685312"
+      }
+    }
+  },
+  "extended": {
+    "developer": "1050 Studio",
+    "publisher": "1050 Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "2000000",
+    "savefiles": {
+      "0": {
+        "path": "Saves",
+        "pattern": "*.nap",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

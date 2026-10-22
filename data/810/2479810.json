@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791040069,
+  "_lastChecked": 1792689369,
   "_history": [
     {
       "buildId": "24960613",
@@ -26,12 +26,25 @@
           "download": 20413637472
         }
       }
+    },
+    {
+      "buildId": "26118723",
+      "branch": "public",
+      "timeUpdated": 1792680587,
+      "firstSeen": 1792689369,
+      "manifests": {
+        "2479811": {
+          "gid": "4970906435234985650",
+          "size": 27613992275,
+          "download": 22852259440
+        }
+      }
     }
   ],
-  "_change_number": 39448342,
+  "_change_number": 40135135,
   "_missing_token": false,
-  "_sha": "d57798d5ea54e79b616450f55c060c7ccba620c3",
-  "_size": 12979,
+  "_sha": "88c2d5e08a1eeed12641bd3967d096fdb3d2889b",
+  "_size": 13145,
   "appid": "2479810",
   "common": {
     "associations": {
@@ -52,6 +65,7 @@
       "category_45": "1",
       "category_46": "1",
       "category_49": "1",
+      "category_61": "1",
       "category_66": "1",
       "category_68": "1",
       "category_69": "1",
@@ -233,7 +247,7 @@
       }
     },
     "steam_release_date": "1714469880",
-    "store_asset_mtime": "1791019568",
+    "store_asset_mtime": "1792680867",
     "store_tags": {
       "0": "1663",
       "1": "1708",
@@ -314,7 +328,7 @@
     "launch": {
       "0": {
         "config": {
-          "betakey": "default,staging",
+          "betakey": "default",
           "osarch": "64",
           "oslist": "windows"
         },
@@ -322,11 +336,11 @@
         "type": "default"
       },
       "14": {
-        "arguments": "-MatchmakingGroup=marketing -noEAC -noAnybrain -NakamaEndpoint=MFGReleaseNightly",
+        "arguments": "-steam",
         "config": {
           "betakey": "marketing,marketing-temp"
         },
-        "executable": "GZWClient.exe",
+        "executable": "GZWClientEAC.exe",
         "type": "default"
       },
       "24": {
@@ -422,7 +436,6 @@
         "type": "default"
       },
       "43": {
-        "arguments": "-MFGSupporterPreview -NakamaEndpoint=HeroicCloudSupporters",
         "config": {
           "betakey": "supporter-preview"
         },
@@ -440,6 +453,22 @@
       "45": {
         "config": {
           "betakey": "external-review"
+        },
+        "executable": "GZWClientEAC.exe",
+        "type": "default"
+      },
+      "46": {
+        "config": {
+          "betakey": "qa-test"
+        },
+        "executable": "GZWClientEAC.exe",
+        "type": "default"
+      },
+      "47": {
+        "config": {
+          "betakey": "staging",
+          "osarch": "64",
+          "oslist": "windows"
         },
         "executable": "GZWClientEAC.exe",
         "type": "default"
@@ -469,18 +498,18 @@
       },
       "manifests": {
         "public": {
-          "download": "20413637472",
-          "gid": "4240291362629339521",
-          "size": "24897545750"
+          "download": "22852259440",
+          "gid": "4970906435234985650",
+          "size": "27613992275"
         }
       }
     },
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,japanese,polish,czech,turkish,brazilian",
     "branches": {
       "public": {
-        "buildid": "25295329",
-        "timebuildupdated": "1789373892",
-        "timeupdated": "1789461927"
+        "buildid": "26118723",
+        "timebuildupdated": "1792620502",
+        "timeupdated": "1792680587"
       }
     },
     "privatebranches": "1"

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791333753,
+  "_lastChecked": 1792689385,
   "_history": [
     {
       "buildId": "22766394",
@@ -39,12 +39,38 @@
           "download": 2407302784
         }
       }
+    },
+    {
+      "buildId": "26136923",
+      "branch": "public",
+      "timeUpdated": 1792686408,
+      "firstSeen": 1792689385,
+      "manifests": {
+        "3994611": {
+          "gid": "6272779929771923601",
+          "size": 5922513591,
+          "download": 2487560800
+        }
+      }
+    },
+    {
+      "buildId": "26136923",
+      "branch": "publicbeta",
+      "timeUpdated": 1792682019,
+      "firstSeen": 1792689385,
+      "manifests": {
+        "3994611": {
+          "gid": "6272779929771923601",
+          "size": 5922513591,
+          "download": 2487560800
+        }
+      }
     }
   ],
-  "_change_number": 39547492,
+  "_change_number": 40136765,
   "_missing_token": false,
-  "_sha": "e1afb1c4af8e05aaca8fafef09151059e391577f",
-  "_size": 8681,
+  "_sha": "c3178288eb7fe87e9e7c76abfaee58038e3601be",
+  "_size": 9238,
   "appid": "3994610",
   "common": {
     "aicontenttype": "1",
@@ -244,7 +270,7 @@
       }
     },
     "steam_release_date": "1771005631",
-    "store_asset_mtime": "1772301819",
+    "store_asset_mtime": "1792687515",
     "store_tags": {
       "0": "493",
       "1": "916648",
@@ -332,38 +358,57 @@
     "installdir": "Monster Lab Simulator",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "Monster Lab Simulator.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Monster Lab Simulator.app"
       }
     }
   },
   "depots": {
     "3994611": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "2407305360",
-          "gid": "1505677302014341092",
-          "size": "5776957223"
+          "download": "2487560800",
+          "gid": "6272779929771923601",
+          "size": "5922513591"
         },
         "publicbeta": {
-          "download": "2407302784",
-          "gid": "6436415954746894053",
-          "size": "5776957239"
+          "download": "2487560800",
+          "gid": "6272779929771923601",
+          "size": "5922513591"
         }
       }
     },
+    "3994612": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {}
+    },
     "branches": {
       "public": {
-        "buildid": "25754655",
-        "timebuildupdated": "1791297943",
-        "timeupdated": "1791299343"
+        "buildid": "26136923",
+        "timebuildupdated": "1792681973",
+        "timeupdated": "1792686408"
       },
       "publicbeta": {
-        "buildid": "25753071",
+        "buildid": "26136923",
         "description": "Public beta branch",
-        "timebuildupdated": "1791293849",
-        "timeupdated": "1791294338"
+        "timebuildupdated": "1792681973",
+        "timeupdated": "1792682019"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Round 3 Studios",
@@ -373,21 +418,29 @@
   "ufs": {
     "maxnumfiles": "2000",
     "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Round 3 Studios\\Monster Lab Simulator\\Saves\\",
+            "replace": "Round 3 Studios/Monster Lab Simulator/Saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "Round 3 Studios\\Monster Lab Simulator\\Saves\\",
         "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocalLow"
       },
       "1": {
         "path": "Round 3 Studios\\Monster Lab Simulator\\Saves\\",
         "pattern": "*.meta",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocalLow"
       }
     },

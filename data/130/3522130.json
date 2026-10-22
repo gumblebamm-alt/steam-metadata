@@ -1,10 +1,25 @@
 {
-  "_lastChecked": 1791679442,
-  "_history": [],
-  "_change_number": 39692725,
-  "_missing_token": true,
-  "_sha": "85ae38d3172059466a3684c3f9ae99f9ad52e822",
-  "_size": 3801,
+  "_lastChecked": 1792689356,
+  "_history": [
+    {
+      "buildId": "26111089",
+      "branch": "public",
+      "timeUpdated": 1792598328,
+      "firstSeen": 1792689201,
+      "manifests": {
+        "3522131": {
+          "gid": "4874782190410105435",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40128989,
+  "_missing_token": false,
+  "_sha": "28ecca68ceee2abde7015a09d083780496617b77",
+  "_size": 4737,
   "appid": "3522130",
   "common": {
     "aicontenttype": "1",
@@ -33,6 +48,7 @@
     "clienticon": "61408da30a3410ff02d3646c957670587fad89a6",
     "clienttga": "d66a324ed0e476d5780dc0d68442da0279bd4eb3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -42,7 +58,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "3522130",
     "genres": {
       "0": "1",
@@ -117,10 +132,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4d56058f2a0ca3c611988c9ef2012d24a6e18afb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792675180",
     "store_asset_mtime": "1790335085",
     "store_tags": {
       "0": "1645",
@@ -181,5 +197,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dunthera",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "dunthera.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3522131": {
+      "manifests": {
+        "public": {
+          "download": "226750912",
+          "gid": "4874782190410105435",
+          "size": "304340683"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26111089",
+        "timebuildupdated": "1792598327",
+        "timeupdated": "1792598328"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Vyralide",
+    "isfreeapp": "1",
+    "publisher": "Vyralide"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Dunthera - Tower Defense",
+        "pattern": "DuntheraSaveFile*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791635773,
-  "_history": [],
-  "_change_number": 39686248,
-  "_missing_token": true,
-  "_sha": "4d439b3e2cee99233342176ff12f10785f78d0e0",
-  "_size": 5488,
+  "_lastChecked": 1792689423,
+  "_history": [
+    {
+      "buildId": "26124944",
+      "branch": "public",
+      "timeUpdated": 1792644143,
+      "firstSeen": 1792689423,
+      "manifests": {
+        "5269281": {
+          "gid": "8971551786283647978",
+          "size": 3652683533,
+          "download": 1171095696
+        }
+      }
+    }
+  ],
+  "_change_number": 40130989,
+  "_missing_token": false,
+  "_sha": "afaf20eb9f164e30e11194913c182c6d9ccfe405",
+  "_size": 7246,
   "appid": "5269280",
   "common": {
     "aicontenttype": "1",
@@ -33,9 +47,9 @@
     },
     "clienticon": "887a8c576553ff00141c36adb7eda6549195e6cb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5269280",
     "genres": {
       "0": "25",
@@ -114,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "30d9dcc5f204a8939b4d5eb158cec3794faeee54/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792678285",
     "store_asset_mtime": "1791364006",
     "store_tags": {
       "0": "1721",
@@ -269,5 +284,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The 31st Student",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play in Desktop",
+        "description_loc": {
+          "english": "Play in Desktop"
+        },
+        "executable": "The31stStudent.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-vr",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play in VR",
+        "description_loc": {
+          "english": "Play in VR"
+        },
+        "executable": "The31stStudent.exe",
+        "type": "openxr"
+      }
+    }
+  },
+  "depots": {
+    "5269281": {
+      "manifests": {
+        "public": {
+          "download": "1171095696",
+          "gid": "8971551786283647978",
+          "size": "3652683533"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "26124944",
+        "timebuildupdated": "1792643894",
+        "timeupdated": "1792644143"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Threshold Echo",
+    "publisher": "Threshold Echo"
+  },
+  "ufs": {
+    "maxnumfiles": "16",
+    "quota": "33554432",
+    "savefiles": {
+      "0": {
+        "path": "ThresholdEcho/The31stStudent/The31stStudent",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "ThresholdEcho/The31stStudent/The31stStudent",
+        "pattern": "*.save.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

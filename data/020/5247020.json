@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791852308,
+  "_lastChecked": 1792689423,
   "_history": [
     {
       "buildId": "25774618",
@@ -36,12 +36,30 @@
           "download": 94990512
         }
       }
+    },
+    {
+      "buildId": "26136311",
+      "branch": "public",
+      "timeUpdated": 1792680613,
+      "firstSeen": 1792689423,
+      "manifests": {
+        "5247021": {
+          "gid": "2577453294582391336",
+          "size": 175066766,
+          "download": 94395344
+        },
+        "5247022": {
+          "gid": "8356199172648351962",
+          "size": 179468235,
+          "download": 82127344
+        }
+      }
     }
   ],
-  "_change_number": 39744094,
+  "_change_number": 40137016,
   "_missing_token": false,
-  "_sha": "f6396ae548858c4c757944d2eeeed1b90a84238d",
-  "_size": 4794,
+  "_sha": "23ea5c575bc084014786e1f072ae4fd4f248c457",
+  "_size": 5358,
   "appid": "5247020",
   "common": {
     "aicontenttype": "1",
@@ -139,8 +157,8 @@
     "name": "Calcio Totale",
     "osarch": "64",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows,linux",
+    "osextended": "macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos,linux",
     "primary_genre": "28",
     "releasestate": "released",
     "small_capsule": {
@@ -212,6 +230,17 @@
           "italian": "Avvia CalcioTotale"
         },
         "executable": "CalcioTotale"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch Calcio Totale",
+        "description_loc": {
+          "english": "Launch Calcio Totale"
+        },
+        "executable": "launch-calciototale.sh",
+        "type": "default"
       }
     }
   },
@@ -222,9 +251,9 @@
       },
       "manifests": {
         "public": {
-          "download": "81056688",
-          "gid": "7326471029952015366",
-          "size": "161979715"
+          "download": "94395344",
+          "gid": "2577453294582391336",
+          "size": "175066766"
         }
       }
     },
@@ -234,20 +263,27 @@
       },
       "manifests": {
         "public": {
-          "download": "94990512",
-          "gid": "5568962493599986844",
-          "size": "201936335"
+          "download": "82127344",
+          "gid": "8356199172648351962",
+          "size": "179468235"
         }
+      }
+    },
+    "5247023": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
       }
     },
     "baselanguages": "english,italian,spanish",
     "branches": {
       "public": {
-        "buildid": "25857505",
-        "timebuildupdated": "1791677272",
-        "timeupdated": "1791677478"
+        "buildid": "26136311",
+        "timebuildupdated": "1792680294",
+        "timeupdated": "1792680613"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Eleòra",
@@ -257,6 +293,15 @@
   "ufs": {
     "maxnumfiles": "100",
     "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "CalcioTotale/",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "user",

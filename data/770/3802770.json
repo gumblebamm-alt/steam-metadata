@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792457841,
-  "_history": [],
-  "_change_number": 40022924,
-  "_missing_token": true,
-  "_sha": "1345d6689698fc0ce499af56adc158e9d1c1f17d",
-  "_size": 3319,
+  "_lastChecked": 1792689382,
+  "_history": [
+    {
+      "buildId": "26119235",
+      "branch": "public",
+      "timeUpdated": 1792622272,
+      "firstSeen": 1792689382,
+      "manifests": {
+        "3802771": {
+          "gid": "6077229690674656209",
+          "size": 1674741469,
+          "download": 1502510224
+        }
+      }
+    }
+  ],
+  "_change_number": 40131505,
+  "_missing_token": false,
+  "_sha": "154c61e5345339220b4aa84ae826a3514a755060",
+  "_size": 4451,
   "appid": "3802770",
   "common": {
     "associations": {
@@ -31,6 +45,7 @@
     "clienticon": "f9628e833d2e3670accf0271ca2294fea247b97d",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -41,7 +56,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3802770",
     "genres": {
       "0": "1",
@@ -113,10 +127,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "47d688e187fbfd0fcfd101bff09b2c22f49cd333/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792679139",
     "store_asset_mtime": "1791555431",
     "store_tags": {
       "0": "1023537",
@@ -149,5 +164,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BLOODVILLE",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64"
+        },
+        "executable": "BLOODVILLE.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3802771": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "download": "1502510224",
+          "gid": "6077229690674656209",
+          "size": "1674741469"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26119235",
+        "timebuildupdated": "1792622239",
+        "timeupdated": "1792622272"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Horia Andrei",
+    "publisher": "Horia Andrei"
+  },
+  "ufs": {
+    "maxnumfiles": "15",
+    "quota": "3000000",
+    "savefiles": {
+      "0": {
+        "path": "\\BLOODVILLE\\Saved\\SaveGames\\",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

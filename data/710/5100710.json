@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792644446,
-  "_history": [],
-  "_change_number": 40097332,
-  "_missing_token": true,
-  "_sha": "b928ad832e8877d29111efcb4a38f3a86bc12770",
-  "_size": 3763,
+  "_lastChecked": 1792689417,
+  "_history": [
+    {
+      "buildId": "26086809",
+      "branch": "public",
+      "timeUpdated": 1792520477,
+      "firstSeen": 1792689417,
+      "manifests": {
+        "5100711": {
+          "gid": "1385950628731963764",
+          "size": 638279972,
+          "download": 130533184
+        },
+        "5100712": {
+          "gid": "7529880769556198011",
+          "size": 638279972,
+          "download": 130470640
+        }
+      }
+    }
+  ],
+  "_change_number": 40130486,
+  "_missing_token": false,
+  "_sha": "2fb595bfc90ac731e560cc83de42af41115d1287",
+  "_size": 4951,
   "appid": "5100710",
   "common": {
     "associations": {
@@ -25,8 +44,8 @@
     },
     "clienticon": "b627bd145b25fb501cc7e773e61a5a615ca9dc25",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5100710",
     "genres": {
       "0": "4",
@@ -98,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "22f5ac9d0fb4ccc0c00cff4a2d57c9449e369de6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792677614",
     "store_asset_mtime": "1791812927",
     "store_tags": {
       "0": "597",
@@ -177,5 +197,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Orbital Madness",
+    "launch": {
+      "0": {
+        "executable": "Orbital Madness.exe"
+      }
+    }
+  },
+  "depots": {
+    "5100711": {
+      "manifests": {
+        "public": {
+          "download": "130533184",
+          "gid": "1385950628731963764",
+          "size": "638279972"
+        }
+      }
+    },
+    "5100712": {
+      "dlcappid": "5480500",
+      "manifests": {
+        "public": {
+          "download": "130470640",
+          "gid": "7529880769556198011",
+          "size": "638279972"
+        }
+      }
+    },
+    "5480500": {
+      "dlcappid": "5480500"
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26086809",
+        "timebuildupdated": "1792520431",
+        "timeupdated": "1792520477"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "EagleEye Games",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5480500",
+    "publisher": "EagleEye Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "EagleEye Games/Orbital Madness",
+        "pattern": "data.saveOrbitalMadnessData",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

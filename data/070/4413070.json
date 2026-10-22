@@ -1,10 +1,51 @@
 {
-  "_lastChecked": 1792644427,
-  "_history": [],
-  "_change_number": 40113719,
-  "_missing_token": true,
-  "_sha": "9ed5702688cc8939a6725b711b6f1f0bdca1b49c",
-  "_size": 5023,
+  "_lastChecked": 1792689356,
+  "_history": [
+    {
+      "buildId": "25985790",
+      "branch": "public",
+      "timeUpdated": 1792153269,
+      "firstSeen": 1792689198,
+      "manifests": {
+        "4413071": {
+          "gid": "8959465270729493044",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    },
+    {
+      "buildId": "24986131",
+      "branch": "event",
+      "timeUpdated": 1787897639,
+      "firstSeen": 1792689356,
+      "manifests": {
+        "4413071": {
+          "gid": "8435798723652333174",
+          "size": 849156998,
+          "download": 591878688
+        }
+      }
+    },
+    {
+      "buildId": "24488841",
+      "branch": "media",
+      "timeUpdated": 1785486777,
+      "firstSeen": 1792689356,
+      "manifests": {
+        "4413071": {
+          "gid": "1297675197413896537",
+          "size": 851980488,
+          "download": 452455088
+        }
+      }
+    }
+  ],
+  "_change_number": 40136256,
+  "_missing_token": false,
+  "_sha": "a8dd11395ef675737db6c8ef3e5ec89d05c2bf51",
+  "_size": 6722,
   "appid": "4413070",
   "common": {
     "associations": {
@@ -23,10 +64,13 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
+      "category_42": "1",
       "category_62": "1"
     },
     "clienticon": "f138a17eb20685fa0b4500442784a39700f3b5d4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -36,7 +80,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4413070",
     "genres": {
       "0": "25",
@@ -132,12 +175,15 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "29",
+    "review_score": "4",
     "small_capsule": {
       "english": "583cbbbb6d2df85ac3b149207d01c79fcb361036/capsule_231x87.jpg",
       "japanese": "c24729cf4fab7458545a966e344c12405294e63a/capsule_231x87_japanese.jpg",
       "schinese": "8eefb4c26a294b89dd1e7dd36b11a0e5227c3bdb/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1792664107",
     "store_asset_mtime": "1788776316",
     "store_tags": {
       "0": "1667",
@@ -145,8 +191,8 @@
       "10": "3964",
       "11": "3871",
       "12": "31275",
-      "13": "6426",
-      "14": "1721",
+      "13": "1721",
+      "14": "6426",
       "15": "4726",
       "16": "492",
       "17": "4085",
@@ -167,6 +213,7 @@
         "supported": "true"
       },
       "japanese": {
+        "full_audio": "true",
         "subtitles": "true",
         "supported": "true"
       },
@@ -181,5 +228,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "tsumimi",
+    "launch": {
+      "0": {
+        "executable": "Tsumimijikan.exe"
+      }
+    },
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4413071": {
+      "manifests": {
+        "event": {
+          "download": "591878688",
+          "gid": "8435798723652333174",
+          "size": "849156998"
+        },
+        "media": {
+          "download": "452455088",
+          "gid": "1297675197413896537",
+          "size": "851980488"
+        },
+        "public": {
+          "download": "792442816",
+          "gid": "8959465270729493044",
+          "size": "932304210"
+        }
+      }
+    },
+    "branches": {
+      "event": {
+        "buildid": "24986131",
+        "description": "demo",
+        "timebuildupdated": "1787897627",
+        "timeupdated": "1787897639"
+      },
+      "media": {
+        "buildid": "24488841",
+        "description": "media",
+        "timebuildupdated": "1785486618",
+        "timeupdated": "1785486777"
+      },
+      "public": {
+        "buildid": "25985790",
+        "timebuildupdated": "1792151477",
+        "timeupdated": "1792153269"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Tohakusha Inc.",
+    "publisher": "Tohakusha Inc."
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "Tohakusha/Tsumimijikan/Tsumimi/SaveSlots",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Tohakusha/Tsumimijikan/Tsumimi/Global",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

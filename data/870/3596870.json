@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791138133,
-  "_history": [],
-  "_change_number": 39473204,
-  "_missing_token": true,
-  "_sha": "5e64f889ceea56917a747c593cfca05b82c10075",
-  "_size": 3947,
+  "_lastChecked": 1792689379,
+  "_history": [
+    {
+      "buildId": "25620797",
+      "branch": "public",
+      "timeUpdated": 1790752370,
+      "firstSeen": 1792689379,
+      "manifests": {
+        "3596871": {
+          "gid": "7395250833191645867",
+          "size": 213006131,
+          "download": 90599376
+        },
+        "3601090": {
+          "gid": "4425701794698270214",
+          "size": 297113290,
+          "download": 128496960
+        }
+      }
+    }
+  ],
+  "_change_number": 40119329,
+  "_missing_token": false,
+  "_sha": "110b4885096a154fc913f902b4a0da127a93bc2b",
+  "_size": 5480,
   "appid": "3596870",
   "common": {
     "associations": {
@@ -31,6 +50,7 @@
     "clienticon": "e8f155d5e9e092287ad3205bf9416e2687063345",
     "clienttga": "8d65c2cb39bdb00a5e03221d90b425fe1c8b99fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -42,7 +62,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3596870",
     "genres": {
       "0": "4",
@@ -126,10 +145,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "da0acf6b1860ffa54aec062fe96ce9a4e2276e69/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792656716",
     "store_asset_mtime": "1788932713",
     "store_tags": {
       "0": "597",
@@ -138,9 +158,9 @@
       "11": "492",
       "12": "17894",
       "13": "7208",
-      "14": "4182",
-      "15": "6650",
-      "16": "9130",
+      "14": "9130",
+      "15": "4182",
+      "16": "6650",
       "17": "12095",
       "2": "122",
       "3": "9551",
@@ -187,5 +207,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sakura Hime 7",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Sakura Hime 7.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "4",
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3596871": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "90599376",
+          "gid": "7395250833191645867",
+          "size": "213006131"
+        }
+      }
+    },
+    "3601090": {
+      "dlcappid": "3601090",
+      "manifests": {
+        "public": {
+          "download": "128496960",
+          "gid": "4425701794698270214",
+          "size": "297113290"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25620797",
+        "timebuildupdated": "1790750234",
+        "timeupdated": "1790752370"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "GirlGames",
+    "dlcavailableonstore": "1",
+    "listofdlc": "3601090",
+    "publisher": "GirlGames"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1048576000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Sakura Hime 7_Data/Save",
+            "replace": "Sakura Hime 7_Data/Save"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Sakura Hime 7_Data/Save",
+        "pattern": "*",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

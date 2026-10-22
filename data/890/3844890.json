@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792501350,
-  "_history": [],
-  "_change_number": 40042152,
-  "_missing_token": true,
-  "_sha": "09d07dcc409b5ed731e68f9070794638c245eca1",
-  "_size": 4029,
+  "_lastChecked": 1792689383,
+  "_history": [
+    {
+      "buildId": "25980503",
+      "branch": "public",
+      "timeUpdated": 1792136780,
+      "firstSeen": 1792689383,
+      "manifests": {
+        "3844891": {
+          "gid": "6926860518281171573",
+          "size": 122847932,
+          "download": 66222960
+        }
+      }
+    }
+  ],
+  "_change_number": 40123381,
+  "_missing_token": false,
+  "_sha": "6451ae505f587e8c35849aeff2c875273b7ba9ca",
+  "_size": 5572,
   "appid": "3844890",
   "common": {
     "associations": {
@@ -37,9 +51,9 @@
     "clienticon": "dee38f843e2562aaa753cba0483b8221abb46fc2",
     "clienttga": "32bdbea99bd1e9f589feac434d8b4c79776ef3a2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3844890",
     "genres": {
       "0": "4",
@@ -121,10 +135,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d2cce97d1c81b6c612e98929f11c567a42c0b22c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792664229",
     "store_asset_mtime": "1792142425",
     "store_tags": {
       "0": "5379",
@@ -184,5 +199,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lost Jelly",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Laynch Lost Jelly",
+        "description_loc": {
+          "english": "Laynch Lost Jelly",
+          "russian": "Запустить Lost Jelly Remaster"
+        },
+        "executable": "LostJelly.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3844891": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "66222960",
+          "gid": "6926860518281171573",
+          "size": "122847932"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,spanish,schinese,russian,japanese",
+    "branches": {
+      "public": {
+        "buildid": "25980503",
+        "timebuildupdated": "1792136720",
+        "timeupdated": "1792136780"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "developer": "Karpusha Nikolai",
+    "gamemanualurl": "https://store.steampowered.com/manual/3844890/",
+    "homepage": "https://redleggames.com/main/lostjellyremastered/",
+    "publisher": "Karpusha Nikolai"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "RedLegGames/LostJelly",
+        "pattern": "progress.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

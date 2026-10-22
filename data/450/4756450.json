@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1792644434,
-  "_history": [],
-  "_change_number": 40111090,
-  "_missing_token": true,
-  "_sha": "90f148cf60a4468d501c21ffa6e43a727e582aa9",
-  "_size": 3222,
+  "_lastChecked": 1792689351,
+  "_history": [
+    {
+      "buildId": "26137424",
+      "branch": "public",
+      "timeUpdated": 1792683249,
+      "firstSeen": 1792689060,
+      "manifests": {
+        "4756451": {
+          "gid": "3361566204612016337",
+          "size": null,
+          "download": null
+        },
+        "5421700": {
+          "gid": "9056993265503456991",
+          "size": 190537832,
+          "download": 187731232
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40135115,
+  "_missing_token": false,
+  "_sha": "09adc4d23bcc989592b461e5478a16f07910418e",
+  "_size": 4745,
   "appid": "4756450",
   "common": {
     "associations": {
@@ -30,6 +50,7 @@
     },
     "clienticon": "29521dbc1b66c2a995dc4795bb0b6ace19f8dad4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -38,7 +59,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4756450",
     "genres": {
       "0": "23",
@@ -110,10 +130,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ac2835ca4624367490202f69baa2a3e410a0c0b0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792684817",
     "store_asset_mtime": "1792634720",
     "store_tags": {
       "0": "1667",
@@ -145,5 +166,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Evercursed Act I",
+    "launch": {
+      "0": {
+        "executable": "Evercursed Act I.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4756451": {
+      "manifests": {
+        "public": {
+          "download": "221447456",
+          "gid": "3361566204612016337",
+          "size": "463183792"
+        }
+      }
+    },
+    "5421700": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "dlcappid": "5421700",
+      "manifests": {
+        "public": {
+          "download": "187731232",
+          "gid": "9056993265503456991",
+          "size": "190537832"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26137424",
+        "timebuildupdated": "1792683249",
+        "timeupdated": "1792683249"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Silversun Games",
+    "dlcavailableonstore": "1",
+    "homepage": "https://silversun.games/",
+    "isfreeapp": "1",
+    "listofdlc": "5421700",
+    "publisher": "Silversun Games"
+  },
+  "ufs": {
+    "maxnumfiles": "60",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": ".config/unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Silversun Games/Evercursed Act I/Saves",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

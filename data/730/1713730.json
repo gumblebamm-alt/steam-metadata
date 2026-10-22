@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1790858200,
-  "_history": [],
-  "_change_number": 39372208,
-  "_missing_token": true,
-  "_sha": "296ab84944e0781c3f48a2e572802170b493eed0",
-  "_size": 4656,
+  "_lastChecked": 1792689356,
+  "_history": [
+    {
+      "buildId": "26085765",
+      "branch": "public",
+      "timeUpdated": 1792584890,
+      "firstSeen": 1792689199,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "1713731": {
+          "gid": "7057300562270938458",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40136201,
+  "_missing_token": false,
+  "_sha": "643f31edaefe21be90d9dcbc86de910e162d559c",
+  "_size": 7746,
   "appid": "1713730",
   "common": {
     "associations": {
@@ -35,6 +60,7 @@
     "clienticon": "f4c2c125e800866dc1f98f6f49e37d8650faf1ab",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -53,7 +79,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "1713730",
     "genres": {
       "0": "1",
@@ -149,11 +174,75 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "93",
+    "review_score": "7",
     "small_capsule": {
       "english": "c2ef0d707a2c0e85c208c0341f979bdadf1de90d/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1790838460",
+    "steam_deck_compatibility": {
+      "category": "3",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1792001025",
+      "tested_build_id": "25389913",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1792652435",
+    "store_asset_mtime": "1792612238",
     "store_tags": {
       "0": "1628",
       "1": "19",
@@ -216,5 +305,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Moadra",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Moadra.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65532",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "1713731": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "5096437504",
+          "gid": "7057300562270938458",
+          "size": "8817089037"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26085765",
+        "timebuildupdated": "1792517651",
+        "timeupdated": "1792584890"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Gloomsoft",
+    "homepage": "https://www.gloomsoft.com/games",
+    "publisher": "Gloomsoft"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Moadra/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
