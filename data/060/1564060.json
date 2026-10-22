@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792457821,
-  "_history": [],
-  "_change_number": 40009484,
-  "_missing_token": true,
-  "_sha": "2a6e038f720a42a368d5ca5bfcc08b657b12efde",
-  "_size": 4662,
+  "_lastChecked": 1792644407,
+  "_history": [
+    {
+      "buildId": "26115283",
+      "branch": "public",
+      "timeUpdated": 1792610396,
+      "firstSeen": 1792644407,
+      "manifests": {
+        "1564061": {
+          "gid": "5199251885371199807",
+          "size": 9041487348,
+          "download": 8463606528
+        },
+        "1564062": {
+          "gid": "337666411581245835",
+          "size": 9041487348,
+          "download": 8454947824
+        }
+      }
+    }
+  ],
+  "_change_number": 40100717,
+  "_missing_token": false,
+  "_sha": "5de0ec435c2a74130d59eb903b5beed08f99a510",
+  "_size": 6725,
   "appid": "1564060",
   "common": {
     "associations": {
@@ -33,6 +52,7 @@
     "clienticon": "eb1c9195634d8347362d25af86ffec56e1eef9d0",
     "clienttga": "f3db9149d5bbd0e198755edc42790ef5399428a0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -41,7 +61,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1564060",
     "genres": {
       "0": "25",
@@ -53,6 +72,12 @@
       "tchinese": "2d256e06b9afe714e281ef45dbc95b18ddf50cf9/header_tchinese.jpg"
     },
     "icon": "35791385328fbdafdde6096619ccfd012d848fb1",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "schinese": "1",
+      "tchinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en,zh-cn,zh-tw",
       "library_header": "en",
@@ -128,12 +153,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0078d6059547f833d6d111cc96a535cbc48cb464/capsule_231x87.jpg",
       "schinese": "470778a8a2e35f7fc6a05e8196260cf700ef2886/capsule_231x87_schinese.jpg",
       "tchinese": "e963e7a464722121d4b9c1314f280beb624dda85/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1792610976",
     "store_asset_mtime": "1791577910",
     "store_tags": {
       "0": "1664",
@@ -178,5 +204,99 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lighthouse of Madness",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Lighthouse of Madness (DirectX 12)",
+        "description_loc": {
+          "english": "Lighthouse of Madness (DirectX 12)"
+        },
+        "executable": "LOM3D.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Lighthouse of Madness (DirectX 11)",
+        "description_loc": {
+          "english": "Lighthouse of Madness (DirectX 11)"
+        },
+        "executable": "LOM3D.exe",
+        "type": "option1"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "2",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "1564061": {
+      "manifests": {
+        "public": {
+          "download": "8463606528",
+          "gid": "5199251885371199807",
+          "size": "9041487348"
+        }
+      }
+    },
+    "1564062": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "8454947824",
+          "gid": "337666411581245835",
+          "size": "9041487348"
+        }
+      }
+    },
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "baselanguages": "brazilian",
+    "branches": {
+      "public": {
+        "buildid": "26115283",
+        "timebuildupdated": "1792610297",
+        "timeupdated": "1792610396"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Flying Jack Studios",
+    "homepage": "https://lighthouseofmadness.com",
+    "publisher": "Flying Jack Productions"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "LOM3D/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

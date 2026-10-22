@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792602977,
+  "_lastChecked": 1792644417,
   "_history": [
     {
       "buildId": "26093556",
@@ -19,12 +19,35 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26125028",
+      "branch": "public",
+      "timeUpdated": 1792644222,
+      "firstSeen": 1792644417,
+      "manifests": {
+        "3665701": {
+          "gid": "3030031009488155522",
+          "size": 188964096,
+          "download": 111119616
+        },
+        "3665702": {
+          "gid": "1053560986219523757",
+          "size": 389413505,
+          "download": 265954528
+        },
+        "3665703": {
+          "gid": "8622015788808240030",
+          "size": 306814536,
+          "download": 103067424
+        }
+      }
     }
   ],
-  "_change_number": 40093830,
+  "_change_number": 40114301,
   "_missing_token": false,
-  "_sha": "30a369463da525da4d67cf5e86f666efbb114c7f",
-  "_size": 4543,
+  "_sha": "583afd673028901904bc9b1c95050eb69bbca10a",
+  "_size": 4908,
   "appid": "3665700",
   "common": {
     "aicontenttype": "1",
@@ -137,8 +160,9 @@
     },
     "name": "Myrridon",
     "osarch": "64",
+    "oscpu": "",
     "osextended": "macos64,macosapplesilicon",
-    "oslist": "windows,macos",
+    "oslist": "windows,macos,linux",
     "primary_genre": "37",
     "releasestate": "released",
     "small_capsule": {
@@ -191,6 +215,12 @@
           "oslist": "macos"
         },
         "executable": "Myrridon/Myrridon.app"
+      },
+      "3": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Myrridon/MyrridonClient.x86_64"
       }
     }
   },
@@ -202,9 +232,9 @@
       },
       "manifests": {
         "public": {
-          "download": "111099904",
-          "gid": "3811215982231042348",
-          "size": "188942064"
+          "download": "111119616",
+          "gid": "3030031009488155522",
+          "size": "188964096"
         }
       }
     },
@@ -215,17 +245,30 @@
       },
       "manifests": {
         "public": {
-          "download": "129640784",
-          "gid": "858555931288823198",
-          "size": "252885239"
+          "download": "265954528",
+          "gid": "1053560986219523757",
+          "size": "389413505"
+        }
+      }
+    },
+    "3665703": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "103067424",
+          "gid": "8622015788808240030",
+          "size": "306814536"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26093556",
-        "timebuildupdated": "1792541147",
-        "timeupdated": "1792541177"
+        "buildid": "26125028",
+        "timebuildupdated": "1792644180",
+        "timeupdated": "1792644222"
       }
     },
     "nocommonredists": "1"

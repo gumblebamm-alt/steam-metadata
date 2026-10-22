@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792112035,
-  "_history": [],
-  "_change_number": 39861640,
-  "_missing_token": true,
-  "_sha": "2bdbf33b8c1dbf80d26f238ec9a18b765a8a2651",
-  "_size": 4138,
+  "_lastChecked": 1792644419,
+  "_history": [
+    {
+      "buildId": "26122814",
+      "branch": "public",
+      "timeUpdated": 1792635160,
+      "firstSeen": 1792644419,
+      "manifests": {
+        "3874161": {
+          "gid": "76972935507047113",
+          "size": 51723057,
+          "download": 44730480
+        },
+        "3874162": {
+          "gid": "3767532230145384999",
+          "size": 68862461,
+          "download": 50872816
+        }
+      }
+    }
+  ],
+  "_change_number": 40111041,
+  "_missing_token": false,
+  "_sha": "81298261202ee01dbddcb13fe2bbfdd9e159dc05",
+  "_size": 5187,
   "appid": "3874160",
   "common": {
     "associations": {
@@ -42,9 +61,9 @@
     "clienticon": "1abab7f900dc255451c92a5307b9c7f65bee99ac",
     "clienttga": "e7d8370232de0f8a91187796c06b261ddc882af5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3874160",
     "genres": {
       "0": "1",
@@ -114,14 +133,16 @@
     },
     "name": "NIPH",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2d2b15b48a09c54984002455c0c0bb67b75d358a/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1781803240",
+    "steam_release_date": "1792616798",
+    "store_asset_mtime": "1792614615",
     "store_tags": {
       "0": "5379",
       "1": "3959",
@@ -199,5 +220,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "NIPH",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "NIPH.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "NIPH.app"
+      }
+    }
+  },
+  "depots": {
+    "3874161": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "44730480",
+          "gid": "76972935507047113",
+          "size": "51723057"
+        }
+      }
+    },
+    "3874162": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "50872816",
+          "gid": "3767532230145384999",
+          "size": "68862461"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26122814",
+        "timebuildupdated": "1792635160",
+        "timeupdated": "1792635160"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Soda Studios",
+    "publisher": "Soda Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "3",
+    "quota": "1000000"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792558070,
-  "_history": [],
-  "_change_number": 40064682,
-  "_missing_token": true,
-  "_sha": "750b4441fcea2ad2567d8800e441f5d94560bc0d",
-  "_size": 3016,
+  "_lastChecked": 1792644417,
+  "_history": [
+    {
+      "buildId": "26121543",
+      "branch": "public",
+      "timeUpdated": 1792630529,
+      "firstSeen": 1792644417,
+      "manifests": {
+        "3685311": {
+          "gid": "4638798499785995640",
+          "size": 1913065999,
+          "download": 1758850880
+        }
+      }
+    }
+  ],
+  "_change_number": 40109226,
+  "_missing_token": false,
+  "_sha": "47b18dc0952a5349f542cfaf66b0cf590d459a82",
+  "_size": 4130,
   "appid": "3685310",
   "common": {
     "associations": {
@@ -21,15 +35,14 @@
       "category_18": "1",
       "category_2": "1",
       "category_22": "1",
-      "category_23": "1",
       "category_62": "1"
     },
     "clienticon": "4ba90ebdd52670cffa3eb0b50358b88c43333ec8",
     "clienttga": "81cbd98767af3280626e0fd1dd3e5dbedf20be6c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3685310",
     "genres": {
       "0": "1",
@@ -101,7 +114,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9c3639070b29875c56905ae8464a6e1b8ff61763/capsule_231x87.jpg"
     },
@@ -132,5 +145,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mega Mouse",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch Mega Mouse",
+        "description_loc": {
+          "english": "Launch Mega Mouse"
+        },
+        "executable": "MegaMouse.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3685311": {
+      "manifests": {
+        "public": {
+          "download": "1758850880",
+          "gid": "4638798499785995640",
+          "size": "1913065999"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26121543",
+        "timebuildupdated": "1792630447",
+        "timeupdated": "1792630529"
+      }
+    }
+  },
+  "extended": {
+    "developer": "OMEGABYTE",
+    "publisher": "OMEGABYTE"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "MegaMouseSave",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

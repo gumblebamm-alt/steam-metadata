@@ -1,10 +1,42 @@
 {
-  "_lastChecked": 1791247330,
-  "_history": [],
-  "_change_number": 39519280,
-  "_missing_token": true,
-  "_sha": "77884f777fc65a287e0f1c47f6eb7985f674a2a3",
-  "_size": 3087,
+  "_lastChecked": 1792644428,
+  "_history": [
+    {
+      "buildId": "25673609",
+      "branch": "local",
+      "timeUpdated": 1790933303,
+      "firstSeen": 1792644428,
+      "manifests": {
+        "4437142": {
+          "gid": "7410633814322841960",
+          "size": 87736,
+          "download": 3136
+        }
+      }
+    },
+    {
+      "buildId": "25894466",
+      "branch": "public",
+      "timeUpdated": 1791847031,
+      "firstSeen": 1792644428,
+      "manifests": {
+        "4437142": {
+          "gid": "6834105518055806162",
+          "size": 231777372,
+          "download": 86298096
+        },
+        "5374840": {
+          "gid": "8598188862540123896",
+          "size": 77629923,
+          "download": 75964928
+        }
+      }
+    }
+  ],
+  "_change_number": 40113411,
+  "_missing_token": false,
+  "_sha": "3e7b134c57476fe91a8b8812df738d9a7606e2a2",
+  "_size": 4574,
   "appid": "4437140",
   "common": {
     "associations": {
@@ -24,6 +56,7 @@
     },
     "clienticon": "5dfde224cd740e83dc94ae001abbbcd3dda668f2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -31,7 +64,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4437140",
     "genres": {
       "0": "25",
@@ -105,11 +137,12 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "03ebd9cfc8ecdeebf8879d841058ad6de3e2ca02/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791246288",
+    "steam_release_date": "1793430000",
+    "store_asset_mtime": "1791419792",
     "store_tags": {
       "0": "3799",
       "1": "4947",
@@ -140,5 +173,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ifyoustay",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ifyoustay.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "ifyoustay.sh"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ifyoustay.app"
+      }
+    }
+  },
+  "depots": {
+    "4437142": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "local": {
+          "download": "3136",
+          "gid": "7410633814322841960",
+          "size": "87736"
+        },
+        "public": {
+          "download": "86298096",
+          "gid": "6834105518055806162",
+          "size": "231777372"
+        }
+      }
+    },
+    "5374840": {
+      "config": {
+        "optionaldlc": "5374840"
+      },
+      "dlcappid": "5374840",
+      "manifests": {
+        "public": {
+          "download": "75964928",
+          "gid": "8598188862540123896",
+          "size": "77629923"
+        }
+      }
+    },
+    "appmanagesdlc": "1",
+    "branches": {
+      "local": {
+        "buildid": "25673609",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1790933302",
+        "timeupdated": "1790933303"
+      },
+      "public": {
+        "buildid": "25894466",
+        "timebuildupdated": "1791847031",
+        "timeupdated": "1791847031"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "YukimiSoft",
+    "dlcavailableonstore": "1",
+    "isfreeapp": "1",
+    "listofdlc": "5374840",
+    "publisher": "YukimiSoft"
+  }
 }

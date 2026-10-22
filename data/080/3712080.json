@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790901429,
+  "_lastChecked": 1792644417,
   "_history": [
     {
       "buildId": "25107874",
@@ -67,10 +67,10 @@
       }
     }
   ],
-  "_change_number": 39405021,
+  "_change_number": 40111540,
   "_missing_token": false,
-  "_sha": "e0eb8d3c37abd9d4c0c58f85a939ed97ff575b55",
-  "_size": 6631,
+  "_sha": "9c1bf0f524eaa121aa242f2668856d7788d75d4d",
+  "_size": 6844,
   "appid": "3712080",
   "common": {
     "associations": {
@@ -196,19 +196,32 @@
         "hdr_support": "0",
         "non_deck_display_glyphs": "1",
         "primary_player_is_controller_slot_0": "1",
-        "recommended_runtime": "proton-11.0-beta",
-        "requires_h264": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "1",
         "requires_internet_for_setup": "0",
-        "requires_internet_for_singleplayer": "1",
-        "requires_manual_keyboard_invoke": "1",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "1",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
       "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
@@ -217,19 +230,11 @@
         },
         "1": {
           "display": "1",
-          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-        },
-        "2": {
-          "display": "1",
-          "token": "#SteamOS_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
-        },
-        "3": {
-          "display": "1",
           "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
-      "test_timestamp": "1783382400",
-      "tested_build_id": "24034280",
+      "test_timestamp": "1791292269",
+      "tested_build_id": "25658893",
       "tests": {
         "0": {
           "display": "2",
@@ -238,7 +243,7 @@
       }
     },
     "steam_release_date": "1784214035",
-    "store_asset_mtime": "1790869887",
+    "store_asset_mtime": "1792610617",
     "store_tags": {
       "0": "3978",
       "1": "3834",
@@ -348,6 +353,11 @@
       "0": {
         "path": "StormEscape/Saved/SaveGames",
         "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "StormEscape/Saved/SaveGames/Backups",
+        "pattern": "*.bak",
         "root": "WinAppDataLocal"
       }
     }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792371607,
-  "_history": [],
-  "_change_number": 39978002,
-  "_missing_token": true,
-  "_sha": "a59ad3caab03eff9797dd5709c7e10d5d8ab8137",
-  "_size": 3357,
+  "_lastChecked": 1792644415,
+  "_history": [
+    {
+      "buildId": "26036768",
+      "branch": "public",
+      "timeUpdated": 1792375076,
+      "firstSeen": 1792644415,
+      "manifests": {
+        "3472071": {
+          "gid": "7801406366540926345",
+          "size": 7474752294,
+          "download": 6638827360
+        }
+      }
+    }
+  ],
+  "_change_number": 40104095,
+  "_missing_token": false,
+  "_sha": "58f227c5c94a8c4cd5fafc0b8601f56ef3656fe1",
+  "_size": 4856,
   "appid": "3472070",
   "common": {
     "associations": {
@@ -46,7 +60,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3472070",
     "genres": {
       "0": "1",
@@ -119,11 +132,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c1396ae91011ffa118cc522b5ab6acaf49ce1dfd/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792359144",
+    "steam_release_date": "1792615493",
+    "store_asset_mtime": "1792617927",
     "store_tags": {
       "0": "3978",
       "1": "1721",
@@ -153,5 +167,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PROJECT_CORRUPTION",
+    "launch": {
+      "0": {
+        "executable": "PROJECT_CORRUPTION.exe",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3472071": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "6638827360",
+          "gid": "7801406366540926345",
+          "size": "7474752294"
+        }
+      }
+    },
+    "3472072": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26036768",
+        "timebuildupdated": "1792372289",
+        "timeupdated": "1792375076"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "Native",
+    "developer": "Over Scope Games",
+    "publisher": "Over Scope Games",
+    "steammachineresolutionoverride": "Native"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "100000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "\\PROJECT_CORRUPTION\\Saved\\SaveGames",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }
