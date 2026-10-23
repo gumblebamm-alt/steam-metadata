@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792457843,
-  "_history": [],
-  "_change_number": 40022001,
-  "_missing_token": true,
-  "_sha": "f86f17a7c6fe3b8f8602be123884eb3672c639f1",
-  "_size": 2942,
+  "_lastChecked": 1792731001,
+  "_history": [
+    {
+      "buildId": "26150016",
+      "branch": "public",
+      "timeUpdated": 1792724198,
+      "firstSeen": 1792731001,
+      "manifests": {
+        "3923151": {
+          "gid": "8719478837829480670",
+          "size": 344056871,
+          "download": 121938192
+        }
+      }
+    }
+  ],
+  "_change_number": 40154343,
+  "_missing_token": false,
+  "_sha": "93ee07da7f3016d34695c1f755b490bec3dc2ac6",
+  "_size": 4095,
   "appid": "3923150",
   "common": {
     "associations": {
@@ -27,8 +41,8 @@
     },
     "clienticon": "91fadc52e204bfceb1f593873e352525eb4c963e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3923150",
     "genres": {
       "0": "23"
@@ -102,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b11617a3840361f3024a7e66282152c6e4f2fbd7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792726214",
     "store_asset_mtime": "1792422573",
     "store_tags": {
       "0": "3877",
@@ -131,5 +146,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Climb King",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Climb King.exe"
+      }
+    }
+  },
+  "depots": {
+    "3923151": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "121938192",
+          "gid": "8719478837829480670",
+          "size": "344056871"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26150016",
+        "timebuildupdated": "1792723477",
+        "timeupdated": "1792724198"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Athyr Games",
+    "publisher": "Athyr Games"
+  },
+  "ufs": {
+    "maxnumfiles": "30",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Athyr Games/Climb King",
+        "pattern": "savegame.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Athyr Games/Climb King",
+        "pattern": "achievements.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

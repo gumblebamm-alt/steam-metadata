@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792558054,
+  "_lastChecked": 1792730992,
   "_history": [
     {
       "buildId": "25530480",
@@ -26,12 +26,30 @@
           "download": 1804961376
         }
       }
+    },
+    {
+      "buildId": "26144233",
+      "branch": "public",
+      "timeUpdated": 1792706186,
+      "firstSeen": 1792730992,
+      "manifests": {
+        "2228721": {
+          "gid": "5592075419996859385",
+          "size": 6705670363,
+          "download": 1804961376
+        },
+        "2228722": {
+          "gid": "7730098582407457841",
+          "size": 4773484150,
+          "download": 1656364432
+        }
+      }
     }
   ],
-  "_change_number": 40059410,
+  "_change_number": 40146622,
   "_missing_token": false,
-  "_sha": "ebf9e047e60f10dbc508497e0d51a16d09e31b44",
-  "_size": 7287,
+  "_sha": "2ba0b1770b58c959852d5bad10791bc7cc9bbaa2",
+  "_size": 7783,
   "appid": "2228720",
   "common": {
     "associations": {
@@ -183,8 +201,9 @@
       "tchinese": "砍砍疊疊"
     },
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
     "small_capsule": {
@@ -261,7 +280,17 @@
     "installdir": "HnS",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "HnS.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "HnS_32867_Steam.app",
+        "type": "default"
       }
     },
     "steamconfigurator3rdpartynative": "4",
@@ -269,6 +298,9 @@
   },
   "depots": {
     "2228721": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "download": "1804961376",
@@ -277,13 +309,26 @@
         }
       }
     },
-    "branches": {
-      "public": {
-        "buildid": "25832366",
-        "timebuildupdated": "1791558335",
-        "timeupdated": "1792526864"
+    "2228722": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1656364432",
+          "gid": "7730098582407457841",
+          "size": "4773484150"
+        }
       }
     },
+    "branches": {
+      "public": {
+        "buildid": "26144233",
+        "timebuildupdated": "1792702555",
+        "timeupdated": "1792706186"
+      }
+    },
+    "hasdepotsindlc": "0",
     "privatebranches": "1"
   },
   "extended": {

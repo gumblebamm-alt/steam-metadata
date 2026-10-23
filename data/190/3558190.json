@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1791506698,
+  "_lastChecked": 1792730997,
   "_history": [
+    {
+      "buildId": "26143008",
+      "branch": "public",
+      "timeUpdated": 1792700044,
+      "firstSeen": 1792730997,
+      "manifests": {
+        "3558191": {
+          "gid": "6981846805691797608",
+          "size": 712338804,
+          "download": 508047024
+        },
+        "3558192": {
+          "gid": "531363667224909180",
+          "size": 875485720,
+          "download": 585293104
+        }
+      }
+    },
     {
       "buildId": "25772676",
       "branch": "public",
@@ -54,19 +72,6 @@
       }
     },
     {
-      "buildId": "25286736",
-      "branch": "public",
-      "timeUpdated": 1789335159,
-      "firstSeen": 1789336500,
-      "manifests": {
-        "3558191": {
-          "gid": "8877521675822516561",
-          "size": 710732050,
-          "download": 507499232
-        }
-      }
-    },
-    {
       "buildId": "24052346",
       "branch": "v2.x",
       "timeUpdated": 1783172060,
@@ -80,10 +85,10 @@
       }
     }
   ],
-  "_change_number": 39619445,
+  "_change_number": 40143768,
   "_missing_token": false,
-  "_sha": "1c8f02be5eafa8c647ce1bb9bc80f1b3173790f4",
-  "_size": 4706,
+  "_sha": "ee5dfa54b7b03273af37d8f753581bc8decc6d88",
+  "_size": 4836,
   "appid": "3558190",
   "common": {
     "aicontenttype": "2",
@@ -180,8 +185,9 @@
     },
     "name": "GnollHack",
     "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "37",
     "releasestate": "released",
     "review_percentage": "90",
@@ -221,24 +227,43 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
     "installdir": "GnollHack",
     "launch": {
       "0": {
         "config": {
+          "osarch": "64",
           "oslist": "windows"
         },
         "executable": "GnollHackM.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "GnollHackM",
         "type": "default"
       }
     }
   },
   "depots": {
     "3558191": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "507917888",
-          "gid": "1425905652690979260",
-          "size": "711963012"
+          "download": "508047024",
+          "gid": "6981846805691797608",
+          "size": "712338804"
         },
         "v2.x": {
           "download": "502826464",
@@ -247,11 +272,24 @@
         }
       }
     },
+    "3558192": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "585293104",
+          "gid": "531363667224909180",
+          "size": "875485720"
+        }
+      }
+    },
     "branches": {
       "public": {
-        "buildid": "25772676",
-        "timebuildupdated": "1791361854",
-        "timeupdated": "1791371924"
+        "buildid": "26143008",
+        "timebuildupdated": "1792698952",
+        "timeupdated": "1792700044"
       },
       "v2.x": {
         "buildid": "24052346",
@@ -269,25 +307,7 @@
     "publisher": "Hyvän mielen pelit ry"
   },
   "ufs": {
-    "maxnumfiles": "1500",
-    "quota": "5000000000",
-    "savefiles": {
-      "0": {
-        "path": "Hyvän mielen pelit ry/Hyvnmielenpelitry.889864DD5340.Steam/Data/save",
-        "pattern": "*",
-        "platforms": {
-          "1": "Windows"
-        },
-        "root": "WinAppDataLocal"
-      },
-      "2": {
-        "path": "Hyvän mielen pelit ry/Hyvnmielenpelitry.889864DD5340.Steam/Data/usrdata",
-        "pattern": "*",
-        "platforms": {
-          "1": "Windows"
-        },
-        "root": "WinAppDataLocal"
-      }
-    }
+    "maxnumfiles": "0",
+    "quota": "0"
   }
 }

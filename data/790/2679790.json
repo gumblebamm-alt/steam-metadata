@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1792558058,
-  "_history": [],
-  "_change_number": 40065654,
-  "_missing_token": true,
-  "_sha": "c6b9671f4f2368233e8bb03daf7d050887261da3",
-  "_size": 5718,
+  "_lastChecked": 1792730987,
+  "_history": [
+    {
+      "buildId": "26141786",
+      "branch": "public",
+      "timeUpdated": 1792695422,
+      "firstSeen": 1792730921,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "2679791": {
+          "gid": "1325906571700867671",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40155838,
+  "_missing_token": false,
+  "_sha": "64448aa758bcd72627b4c95e1c3197e78330f887",
+  "_size": 7138,
   "appid": "2679790",
   "common": {
     "associations": {
@@ -36,6 +61,7 @@
     "clienticon": "058c14243b527ee0d74f45bd8ae696aaa1126495",
     "clienttga": "b7e68c509ff81f4823475f77b28e65d4dcd92347",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -54,7 +80,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "2679790",
     "genres": {
       "0": "1",
@@ -142,7 +167,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "66",
+    "review_score": "5",
     "small_capsule": {
       "arabic": "ed65dfd8395a748f03259847d72e52cb793000ce/capsule_231x87_arabic.jpg",
       "english": "ed65dfd8395a748f03259847d72e52cb793000ce/capsule_231x87.jpg",
@@ -153,6 +180,7 @@
       "spanish": "ed65dfd8395a748f03259847d72e52cb793000ce/capsule_231x87_spanish.jpg",
       "turkish": "ed65dfd8395a748f03259847d72e52cb793000ce/capsule_231x87_turkish.jpg"
     },
+    "steam_release_date": "1792699347",
     "store_asset_mtime": "1791570256",
     "store_tags": {
       "0": "6378",
@@ -213,5 +241,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Baron",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Baron.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2679791": {
+      "manifests": {
+        "public": {
+          "download": "33385802976",
+          "gid": "1325906571700867671",
+          "size": "35957801773"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,japanese,russian,schinese,tchinese,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26141786",
+        "timebuildupdated": "1792695402",
+        "timeupdated": "1792695422"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Storm Rise Studio",
+    "homepage": "https://www.youtube.com/@stormrisegaming",
+    "publisher": "Storm Rise Studio"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "20",
+    "quota": "2073741824",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "\\Baron\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
