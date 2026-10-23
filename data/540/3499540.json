@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792241284,
+  "_lastChecked": 1792775328,
   "_history": [
     {
       "buildId": "19036411",
@@ -84,12 +84,45 @@
           "download": 72453360
         }
       }
+    },
+    {
+      "buildId": "26162979",
+      "branch": "beta",
+      "timeUpdated": 1792766453,
+      "firstSeen": 1792775328,
+      "manifests": {
+        "3499541": {
+          "gid": "8801422525773730",
+          "size": 182071040,
+          "download": 79736000
+        },
+        "3499542": {
+          "gid": "3339186543457021696",
+          "size": 143461672,
+          "download": 71403360
+        },
+        "3499543": {
+          "gid": "3247184399738252959",
+          "size": 186574864,
+          "download": 82886112
+        },
+        "3499544": {
+          "gid": "8138716153393245870",
+          "size": 144816888,
+          "download": 72487456
+        },
+        "3499546": {
+          "gid": "5615587215310389438",
+          "size": 354701244,
+          "download": 210469264
+        }
+      }
     }
   ],
-  "_change_number": 39786983,
+  "_change_number": 40174186,
   "_missing_token": false,
-  "_sha": "a8499758b012db0e348e3bc2b4e990c74bdb7686",
-  "_size": 8527,
+  "_sha": "ea89b9b043f8fbef3bc9562a84120ff3b6a41a69",
+  "_size": 9422,
   "appid": "3499540",
   "common": {
     "associations": {
@@ -123,7 +156,8 @@
       "category_75": "1",
       "category_76": "1",
       "category_78": "1",
-      "category_79": "1"
+      "category_79": "1",
+      "category_80": "1"
     },
     "clienticon": "ba53e49633dc7a361e58fd0fe4fa5934d3c9fdad",
     "clienttga": "9c187fefe46586ab0ed09edcf9aaac82e4877405",
@@ -133,11 +167,8 @@
     "controllertagwizard": "1",
     "gameid": "3499540",
     "genres": {
-      "0": "1",
-      "1": "4",
-      "2": "23",
-      "3": "28",
-      "4": "2"
+      "0": "23",
+      "1": "2"
     },
     "header_image": {
       "english": "header.jpg"
@@ -287,25 +318,25 @@
     "store_asset_mtime": "1755437492",
     "store_tags": {
       "0": "1716",
-      "1": "1084988",
-      "10": "3959",
-      "11": "4711",
-      "12": "32322",
-      "13": "599",
-      "14": "4191",
-      "15": "492",
-      "16": "4094",
-      "17": "4400",
-      "18": "4195",
+      "1": "560542",
+      "10": "1654",
+      "11": "615955",
+      "12": "597",
+      "13": "4191",
+      "14": "492",
+      "15": "4094",
+      "16": "4400",
+      "17": "4195",
+      "18": "599",
       "19": "4182",
-      "2": "597",
-      "3": "615955",
-      "4": "1773",
-      "5": "13782",
+      "2": "1084988",
+      "3": "13782",
+      "4": "5154",
+      "5": "32322",
       "6": "9",
-      "7": "560542",
-      "8": "1654",
-      "9": "5154"
+      "7": "3959",
+      "8": "4711",
+      "9": "1773"
     },
     "supported_languages": {
       "english": {
@@ -332,6 +363,12 @@
         },
         "executable": "COMBOLITE.x86_64",
         "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "COMBOLITE.app"
       }
     }
   },
@@ -376,9 +413,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "82853552",
-          "gid": "1567259850136010476",
-          "size": "185856952"
+          "download": "82886112",
+          "gid": "3247184399738252959",
+          "size": "186574864"
         },
         "public": {
           "download": "74469680",
@@ -393,9 +430,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "72453360",
-          "gid": "3228088051213541115",
-          "size": "144098976"
+          "download": "72487456",
+          "gid": "8138716153393245870",
+          "size": "144816888"
         },
         "public": {
           "download": "70549600",
@@ -404,12 +441,29 @@
         }
       }
     },
+    "3499545": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "3499546": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "210469264",
+          "gid": "5615587215310389438",
+          "size": "354701244"
+        }
+      }
+    },
     "branches": {
       "beta": {
-        "buildid": "25913377",
+        "buildid": "26162979",
         "description": "Combolite beta for testing purposes",
-        "timebuildupdated": "1791911222",
-        "timeupdated": "1791911223"
+        "timebuildupdated": "1792766452",
+        "timeupdated": "1792766453"
       },
       "public": {
         "buildid": "19036414",
@@ -450,6 +504,30 @@
         },
         "root": "WinAppDataRoaming",
         "useinstead": "LinuxHome"
+      },
+      "2": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/COMBOLITE",
+            "replace": "Godot/app_userdata/COMBOLITE"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "3": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": ".local/share/godot/app_userdata/COMBOLITE",
+            "replace": "Godot/app_userdata/COMBOLITE"
+          }
+        },
+        "root": "LinuxHome",
+        "useinstead": "MacAppSupport"
       }
     },
     "savefiles": {

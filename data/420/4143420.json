@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792731003,
-  "_history": [],
-  "_change_number": 40153840,
-  "_missing_token": true,
-  "_sha": "8d8ec51985705be2686f2045ecd97e226e261821",
-  "_size": 4293,
+  "_lastChecked": 1792775335,
+  "_history": [
+    {
+      "buildId": "26149656",
+      "branch": "public",
+      "timeUpdated": 1792722202,
+      "firstSeen": 1792775335,
+      "manifests": {
+        "4143421": {
+          "gid": "1564879811086276048",
+          "size": 58493632,
+          "download": 26400352
+        },
+        "4143422": {
+          "gid": "4903216240156381829",
+          "size": 64904727,
+          "download": 28902192
+        }
+      }
+    }
+  ],
+  "_change_number": 40178045,
+  "_missing_token": false,
+  "_sha": "686ac5f3798df6601d0ecaa55746a730425ed811",
+  "_size": 6162,
   "appid": "4143420",
   "common": {
     "associations": {
@@ -39,9 +58,9 @@
     "clienticns": "349ecd38e43a3a7a4f69e3d6e5c3c4db0049e59a",
     "clienticon": "fee9f85601cee7306ca6adaceee5d18c7dd7150e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4143420",
     "genres": {
       "0": "4",
@@ -129,11 +148,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "460fb1c3cc02a940258fe31faba34b51b37df09c/capsule_231x87.jpg",
       "schinese": "e14c73b2d058b9b2c08cb376f023324f48830c4f/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1792774817",
     "store_asset_mtime": "1790079046",
     "store_tags": {
       "0": "9",
@@ -168,5 +188,99 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Flecto",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Flecto.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Flecto.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input_manifest.vdf"
+  },
+  "depots": {
+    "4143421": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "26400352",
+          "gid": "1564879811086276048",
+          "size": "58493632"
+        }
+      }
+    },
+    "4143422": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "28902192",
+          "gid": "4903216240156381829",
+          "size": "64904727"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26149656",
+        "timebuildupdated": "1792722129",
+        "timeupdated": "1792722202"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Nightfox Digital",
+    "homepage": "https://nightfoxdigital.com",
+    "publisher": "Nightfox Digital"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "data",
+            "replace": ".local/share/Nightfox Digital/Flecto/"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Nightfox Digital/Flecto/data/",
+        "pattern": "*.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

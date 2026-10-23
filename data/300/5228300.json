@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791138125,
+  "_lastChecked": 1792775359,
   "_history": [
     {
       "buildId": "25573134",
@@ -28,12 +28,30 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26156768",
+      "branch": "public",
+      "timeUpdated": 1792748489,
+      "firstSeen": 1792775359,
+      "manifests": {
+        "5228301": {
+          "gid": "188856977287627800",
+          "size": 401086847,
+          "download": 204918992
+        },
+        "5228302": {
+          "gid": "2930877201920031083",
+          "size": 589695399,
+          "download": 258934336
+        }
+      }
     }
   ],
-  "_change_number": 39347332,
+  "_change_number": 40166201,
   "_missing_token": false,
-  "_sha": "f636e0ce0587686a0b6d0cfe868e270dae4fdd20",
-  "_size": 5574,
+  "_sha": "e135160dd95e0237021b6523a3b8c81614622589",
+  "_size": 6121,
   "appid": "5228300",
   "common": {
     "aicontenttype": "1",
@@ -48,14 +66,17 @@
       }
     },
     "category": {
+      "category_1": "1",
       "category_2": "1",
       "category_22": "1",
+      "category_38": "1",
       "category_62": "1",
       "category_68": "1",
       "category_74": "1",
       "category_76": "1",
       "category_79": "1",
-      "category_80": "1"
+      "category_80": "1",
+      "category_9": "1"
     },
     "clienticon": "ed711dedadea85ec93abeb42400b5b4f124ab08b",
     "community_hub_visible": "1",
@@ -128,8 +149,9 @@
     },
     "name": "Raw Egg Peeling",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
     "small_capsule": {
@@ -140,11 +162,15 @@
     "store_tags": {
       "0": "597",
       "1": "599",
+      "10": "3859",
       "2": "4191",
       "3": "4175",
       "4": "1654",
       "5": "97376",
-      "6": "4182"
+      "6": "4182",
+      "7": "1220528",
+      "8": "1685",
+      "9": "3843"
     },
     "supported_languages": {
       "brazilian": {
@@ -279,24 +305,46 @@
         },
         "executable": "Raw Egg Peeling.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Raw Egg Peeling.app",
+        "type": "default"
       }
     }
   },
   "depots": {
     "5228301": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "204859680",
-          "gid": "7651499953243973758",
-          "size": "400981241"
+          "download": "204918992",
+          "gid": "188856977287627800",
+          "size": "401086847"
+        }
+      }
+    },
+    "5228302": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "258934336",
+          "gid": "2930877201920031083",
+          "size": "589695399"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25630334",
-        "timebuildupdated": "1790779004",
-        "timeupdated": "1790779057"
+        "buildid": "26156768",
+        "timebuildupdated": "1792748461",
+        "timeupdated": "1792748489"
       }
     }
   },

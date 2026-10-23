@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792603044,
+  "_lastChecked": 1792775353,
   "_history": [
     {
       "buildId": "26105849",
@@ -13,12 +13,25 @@
           "download": 854331664
         }
       }
+    },
+    {
+      "buildId": "26120910",
+      "branch": "public",
+      "timeUpdated": 1792695443,
+      "firstSeen": 1792775353,
+      "manifests": {
+        "4996961": {
+          "gid": "4804890134198801329",
+          "size": 1066938948,
+          "download": 854338240
+        }
+      }
     }
   ],
-  "_change_number": 40096645,
+  "_change_number": 40171979,
   "_missing_token": false,
-  "_sha": "57eb16909fdc26919c58f8bf02628ca52068d389",
-  "_size": 5249,
+  "_sha": "a0db3dde71f01e8f7520a512814d8b29be7df384",
+  "_size": 5963,
   "appid": "4996960",
   "common": {
     "associations": {
@@ -150,7 +163,7 @@
       "english": "ff20292ec7496d40ad4d114682c6b64ae3058ae9/capsule_231x87.jpg"
     },
     "steam_release_date": "1792587686",
-    "store_asset_mtime": "1792585182",
+    "store_asset_mtime": "1792688158",
     "store_tags": {
       "0": "3843",
       "1": "3859",
@@ -207,13 +220,38 @@
       }
     },
     "timeline_marker_svg": "439b3807ef50f9b4df35557e8dfc58d893315756/markers.svg",
-    "timeline_marker_updated": "1792587685",
+    "timeline_marker_updated": "1792746941",
     "type": "Game"
   },
   "config": {
     "installdir": "Handle with Care",
     "launch": {
       "0": {
+        "config": {
+          "betakey": "default,nightly_release_shipping,nightly_release_test,prerelease"
+        },
+        "executable": "HWC.exe"
+      },
+      "1": {
+        "arguments": "-saveddirsuffix=Dev -SaveToUserDir",
+        "config": {
+          "betakey": "development,nightly_dev_development,nightly_dev_test"
+        },
+        "description": "Handle with Care (Dev save)",
+        "description_loc": {
+          "english": "Handle with Care (Dev save)"
+        },
+        "executable": "HWC.exe"
+      },
+      "2": {
+        "arguments": "-saveddirsuffix=Qa -SaveToUserDir",
+        "config": {
+          "betakey": "qa-1,qa-2"
+        },
+        "description": "Handle with Care (Qa save)",
+        "description_loc": {
+          "english": "Handle with Care (Qa save)"
+        },
         "executable": "HWC.exe"
       }
     },
@@ -239,17 +277,17 @@
     "4996961": {
       "manifests": {
         "public": {
-          "download": "854331664",
-          "gid": "2645024280337777069",
-          "size": "1067420922"
+          "download": "854338240",
+          "gid": "4804890134198801329",
+          "size": "1066938948"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26105849",
-        "timebuildupdated": "1792584312",
-        "timeupdated": "1792587633"
+        "buildid": "26120910",
+        "timebuildupdated": "1792628062",
+        "timeupdated": "1792695443"
       }
     },
     "privatebranches": "1"
@@ -268,7 +306,7 @@
         "platforms": {
           "1": "Windows"
         },
-        "root": "gameinstall"
+        "root": "WinAppDataLocal"
       }
     }
   }

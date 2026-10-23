@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1791290247,
+  "_lastChecked": 1792775327,
   "_history": [
+    {
+      "buildId": "26106351",
+      "branch": "public",
+      "timeUpdated": 1792603483,
+      "firstSeen": 1792775327,
+      "manifests": {
+        "3407391": {
+          "gid": "3981177684087957313",
+          "size": 13390008775,
+          "download": 8946406976
+        },
+        "3760760": {
+          "gid": "5216237887105663831",
+          "size": 3590295559,
+          "download": 3422705984
+        }
+      }
+    },
     {
       "buildId": "25725410",
       "branch": "public",
@@ -74,24 +92,6 @@
       }
     },
     {
-      "buildId": "25368698",
-      "branch": "public",
-      "timeUpdated": 1789650043,
-      "firstSeen": 1789654891,
-      "manifests": {
-        "3407391": {
-          "gid": "1097682014633704280",
-          "size": 13258802175,
-          "download": 8946820000
-        },
-        "3760760": {
-          "gid": "5216237887105663831",
-          "size": 3590295559,
-          "download": 3422705984
-        }
-      }
-    },
-    {
       "buildId": "25191031",
       "branch": "public-test-branch",
       "timeUpdated": 1788944904,
@@ -126,12 +126,30 @@
           "download": 2042624432
         }
       }
+    },
+    {
+      "buildId": "25777732",
+      "branch": "rollback-update-44",
+      "timeUpdated": 1791443379,
+      "firstSeen": 1792775327,
+      "manifests": {
+        "3407391": {
+          "gid": "2832692402149498425",
+          "size": 13390101688,
+          "download": 8946819360
+        },
+        "3760760": {
+          "gid": "5216237887105663831",
+          "size": 3590295559,
+          "download": 3422705984
+        }
+      }
     }
   ],
-  "_change_number": 39527454,
+  "_change_number": 40132390,
   "_missing_token": false,
-  "_sha": "7a3db8d530f28dc10f1f7447f1fcf84f911c9850",
-  "_size": 11766,
+  "_sha": "86d53bd152db7f2e530d95753a423e52fc1ab993",
+  "_size": 13572,
   "appid": "3407390",
   "common": {
     "associations": {
@@ -186,10 +204,10 @@
     "controllertagwizard": "1",
     "eulas": {
       "0": {
-        "id": "3407390_eula_0",
-        "name": " ENDLESS™ Legend 2 EULA",
-        "url": "https://store.steampowered.com//eula/3407390_eula_0",
-        "version": "2"
+        "id": "3407390_eula_1",
+        "name": "ENDLESS Legend™ 2 EULA",
+        "url": "https://store.steampowered.com/eula/3407390_eula_1",
+        "version": "1"
       }
     },
     "gameid": "3407390",
@@ -298,7 +316,7 @@
     },
     "metacritic_fullurl": "https://www.metacritic.com/game/pc/endless-legend-2?ftag=MCD-06-10aaa1f",
     "metacritic_name": "ENDLESS Legend 2",
-    "metacritic_score": "77",
+    "metacritic_score": "76",
     "name": "ENDLESS Legend™ 2",
     "name_localized": {
       "japanese": "ENDLESS Legend™ 2 エンドレス・レジェンド 2",
@@ -311,7 +329,7 @@
     "oslist": "windows",
     "primary_genre": "2",
     "releasestate": "released",
-    "review_percentage": "83",
+    "review_percentage": "82",
     "review_score": "8",
     "small_capsule": {
       "english": "9f2ee6ecca69fa997206c328e095d77b431b0501/capsule_231x87.jpg",
@@ -484,6 +502,33 @@
           "oslist": "windows"
         },
         "executable": "Endless Legend 2.exe"
+      },
+      "1": {
+        "arguments": "-force-d3d11",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play ENDLESS Legend™ 2 using DirectX 11",
+        "description_loc": {
+          "brazilian": "Jogar ENDLESS Legend™ 2 usando DirectX 11",
+          "czech": "Spustit ENDLESS Legend™ 2 pomocí DirectX 11",
+          "english": "Play ENDLESS Legend™ 2 using DirectX 11",
+          "french": "Jouer à ENDLESS Legend™ 2 avec DirectX 11",
+          "german": "ENDLESS Legend™ 2 mit DirectX 11 spielen",
+          "hungarian": "Az ENDLESS Legend™ 2 indítása DirectX 11 használatával",
+          "italian": "Gioca a ENDLESS Legend™ 2 utilizzando DirectX 11",
+          "japanese": "DirectX 11を使用してENDLESS Legend™ 2を起動",
+          "koreana": "DirectX 11을 사용하여 ENDLESS Legend™ 2 실행",
+          "polish": "Uruchom ENDLESS Legend™ 2 przy użyciu DirectX 11",
+          "russian": "Запустить ENDLESS Legend™ 2 с использованием DirectX 11",
+          "schinese": "使用 DirectX 11 启动 ENDLESS Legend™ 2",
+          "spanish": "Jugar a ENDLESS Legend™ 2 con DirectX 11",
+          "tchinese": "使用 DirectX 11 啟動 ENDLESS Legend™ 2",
+          "turkish": "ENDLESS Legend™ 2'yi DirectX 11 kullanarak oyna",
+          "ukrainian": "Запустити ENDLESS Legend™ 2 за допомогою DirectX 11"
+        },
+        "executable": "Endless Legend 2.exe"
       }
     },
     "steamcontrollertemplateindex": "3",
@@ -515,9 +560,14 @@
     "3407391": {
       "manifests": {
         "public": {
-          "download": "8946837824",
-          "gid": "7797318474010378706",
-          "size": "13390102182"
+          "download": "8946406976",
+          "gid": "3981177684087957313",
+          "size": "13390008775"
+        },
+        "rollback-update-44": {
+          "download": "8946819360",
+          "gid": "2832692402149498425",
+          "size": "13390101688"
         }
       }
     },
@@ -528,15 +578,26 @@
           "download": "3422705984",
           "gid": "5216237887105663831",
           "size": "3590295559"
+        },
+        "rollback-update-44": {
+          "download": "3422705984",
+          "gid": "5216237887105663831",
+          "size": "3590295559"
         }
       }
     },
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,hungarian,czech,turkish,brazilian,ukrainian",
     "branches": {
       "public": {
-        "buildid": "25725410",
-        "timebuildupdated": "1791197816",
-        "timeupdated": "1791272689"
+        "buildid": "26106351",
+        "timebuildupdated": "1792585675",
+        "timeupdated": "1792603483"
+      },
+      "rollback-update-44": {
+        "buildid": "25777732",
+        "description": "Rollback to update 44",
+        "timebuildupdated": "1791376964",
+        "timeupdated": "1791443379"
       }
     },
     "privatebranches": "1",

@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1792689374,
-  "_history": [],
-  "_change_number": 40130923,
-  "_missing_token": true,
-  "_sha": "825aaac665cec880f78763933035e9c7fa133f81",
-  "_size": 4446,
+  "_lastChecked": 1792775311,
+  "_history": [
+    {
+      "buildId": "26158332",
+      "branch": "public",
+      "timeUpdated": 1792753366,
+      "firstSeen": 1792775217,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "3129421": {
+          "gid": "1412358446089625075",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40174018,
+  "_missing_token": false,
+  "_sha": "868fa3fd7bc92955ded33c1695af9839ca4f06a7",
+  "_size": 5740,
   "appid": "3129420",
   "common": {
     "aicontenttype": "1",
@@ -32,6 +57,7 @@
     "clienticon": "c1d39e94f6b381ceb7de6929ff4967f0f24675b1",
     "clienttga": "15d34cabced06b1b669a905146333d26507a9321",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -42,7 +68,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3129420",
     "genres": {
       "0": "1",
@@ -128,12 +153,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
-      "english": "0138b315d447ef4fccd452fb9c16d948fd4443c0/capsule_231x87.jpg",
-      "russian": "0f184846f01f7f57780df70173b6bc27be086484/capsule_231x87_russian.jpg"
+      "english": "a7026ec2367f8d5594a2965bbe5a597e298b329d/capsule_231x87.jpg",
+      "russian": "07e7902c5d5e24b5494c4065a144e89c98a836b5/capsule_231x87_russian.jpg"
     },
-    "store_asset_mtime": "1792484946",
+    "steam_release_date": "1792767696",
+    "store_asset_mtime": "1792760634",
     "store_tags": {
       "0": "4064",
       "1": "3834",
@@ -182,5 +208,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ASPIS",
+    "launch": {
+      "0": {
+        "arguments": "-SaveToUserDir",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Aspis.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3129421": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "18823310160",
+          "gid": "1412358446089625075",
+          "size": "19405361661"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26158332",
+        "timebuildupdated": "1792753350",
+        "timeupdated": "1792753366"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Dream Wire Games",
+    "homepage": "https://dreamwiregames.su/",
+    "publisher": "Dream Wire Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "4000000",
+    "savefiles": {
+      "0": {
+        "path": "ASPIS\\Saved\\SaveGames\\",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

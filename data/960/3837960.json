@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792644419,
-  "_history": [],
-  "_change_number": 40101519,
-  "_missing_token": true,
-  "_sha": "cd72660f1815581e0de2a746826ea852b7d7cc41",
-  "_size": 4866,
+  "_lastChecked": 1792775332,
+  "_history": [
+    {
+      "buildId": "26157714",
+      "branch": "public",
+      "timeUpdated": 1792751539,
+      "firstSeen": 1792775332,
+      "manifests": {
+        "3837961": {
+          "gid": "3090336922154345979",
+          "size": 3926148058,
+          "download": 2622276816
+        },
+        "3837962": {
+          "gid": "3857003537999080895",
+          "size": 3891157821,
+          "download": 2613713568
+        },
+        "3837963": {
+          "gid": "2713497562734017579",
+          "size": 2751542212,
+          "download": 2750360112
+        }
+      }
+    }
+  ],
+  "_change_number": 40174370,
+  "_missing_token": false,
+  "_sha": "4cbb3f1edd61604bccfe71109e73a8ff4aaf0017",
+  "_size": 6312,
   "appid": "3837960",
   "common": {
     "associations": {
@@ -37,9 +61,9 @@
     "clienticon": "ff550ff3373e3b02e78af8cbc127976f66f26064",
     "clienttga": "c7ff2a51468a2ad60e896bf9a847f1c13b193cf0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3837960",
     "genres": {
       "0": "25",
@@ -130,7 +154,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "283821b814dac0653ed6015252aebb40f931e6b9/capsule_231x87.jpg",
       "german": "c023514559bf12e90e7dc3649ca2c1618fd95db0/capsule_231x87_german.jpg",
@@ -173,5 +197,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "The story of Noah",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "StoryofNoah.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "StoryofNoah.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3837961": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2622276816",
+          "gid": "3090336922154345979",
+          "size": "3926148058"
+        }
+      }
+    },
+    "3837962": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2613713568",
+          "gid": "3857003537999080895",
+          "size": "3891157821"
+        }
+      }
+    },
+    "3837963": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "2750360112",
+          "gid": "2713497562734017579",
+          "size": "2751542212"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26157714",
+        "timebuildupdated": "1792751396",
+        "timeupdated": "1792751539"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Compass-Game-Studio",
+    "homepage": "https://compassgamestudio.com/",
+    "publisher": "Compass-Game-Studio"
+  }
 }

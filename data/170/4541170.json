@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792603025,
-  "_history": [],
-  "_change_number": 40080230,
-  "_missing_token": true,
-  "_sha": "792b8901c14373517fb2412626012ef847732d8d",
-  "_size": 3258,
+  "_lastChecked": 1792775342,
+  "_history": [
+    {
+      "buildId": "26152316",
+      "branch": "public",
+      "timeUpdated": 1792733047,
+      "firstSeen": 1792775342,
+      "manifests": {
+        "4541172": {
+          "gid": "6953775362001120905",
+          "size": 847164381,
+          "download": 693693104
+        },
+        "4541173": {
+          "gid": "2599518504914329418",
+          "size": 858854504,
+          "download": 696548224
+        }
+      }
+    }
+  ],
+  "_change_number": 40161605,
+  "_missing_token": false,
+  "_sha": "900673cc1bed5e49621129a220b4ccb6dbc61aa4",
+  "_size": 4760,
   "appid": "4541170",
   "common": {
     "aicontenttype": "2",
@@ -34,7 +53,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4541170",
     "genres": {
       "0": "4",
@@ -108,10 +126,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9d51f47fb48fbd865186a6864cddf8e76a83b558/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792744817",
     "store_asset_mtime": "1792577684",
     "store_tags": {
       "0": "599",
@@ -144,5 +163,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Retro Pond",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Retro Pond.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Retro Pond",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4541172": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "693693104",
+          "gid": "6953775362001120905",
+          "size": "847164381"
+        }
+      }
+    },
+    "4541173": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "696548224",
+          "gid": "2599518504914329418",
+          "size": "858854504"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26152316",
+        "timebuildupdated": "1792732965",
+        "timeupdated": "1792733047"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "msky",
+    "homepage": "https://www.msky.dev/retropond",
+    "publisher": "msky"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "save",
+        "pattern": "*.rp",
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "save",
+        "pattern": "achievements",
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "save",
+        "pattern": "*.properties",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }
