@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790987684,
+  "_lastChecked": 1792857586,
   "_history": [
     {
       "buildId": "24944425",
@@ -67,12 +67,30 @@
           "download": 240
         }
       }
+    },
+    {
+      "buildId": "26177043",
+      "branch": "public",
+      "timeUpdated": 1792815510,
+      "firstSeen": 1792857586,
+      "manifests": {
+        "1327921": {
+          "gid": "3555445526764190983",
+          "size": 16207687079,
+          "download": 8669556992
+        },
+        "3293890": {
+          "gid": "4713975193994720378",
+          "size": 298,
+          "download": 240
+        }
+      }
     }
   ],
-  "_change_number": 39426828,
+  "_change_number": 40199759,
   "_missing_token": false,
-  "_sha": "e59deec6abffd6916634440bc28b1b140d16f45d",
-  "_size": 6233,
+  "_sha": "e33e3c6cbd0bbf87c84d7c6a34febf3ab503439b",
+  "_size": 6605,
   "appid": "1327920",
   "common": {
     "associations": {
@@ -296,7 +314,8 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
   "config": {
     "installdir": "MaestroVR",
@@ -318,9 +337,9 @@
       },
       "manifests": {
         "public": {
-          "download": "7857260912",
-          "gid": "2477428348794440073",
-          "size": "14675062000"
+          "download": "8669556992",
+          "gid": "3555445526764190983",
+          "size": "16207687079"
         }
       }
     },
@@ -339,9 +358,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "25653744",
-        "timebuildupdated": "1790861458",
-        "timeupdated": "1790861458"
+        "buildid": "26177043",
+        "timebuildupdated": "1792815510",
+        "timeupdated": "1792815510"
       }
     },
     "workshopdepot": "1327920"
@@ -369,6 +388,22 @@
       "1": {
         "path": "Symphonic Games/Maestro VR",
         "pattern": "*.sav.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Symphonic Games/Maestro VR",
+        "pattern": "SkillTree.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Symphonic Games/Maestro VR/ScoreNotes",
+        "pattern": "*.notes",
         "platforms": {
           "1": "Windows"
         },
