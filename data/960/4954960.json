@@ -1,6 +1,34 @@
 {
-  "_lastChecked": 1792558105,
+  "_lastChecked": 1792816678,
   "_history": [
+    {
+      "buildId": "26162560",
+      "branch": "public",
+      "timeUpdated": 1792765303,
+      "firstSeen": 1792816678,
+      "manifests": {
+        "4954961": {
+          "gid": "5905358584892127023",
+          "size": 10177634675,
+          "download": 8946828224
+        },
+        "4954962": {
+          "gid": "5801586973751797041",
+          "size": 10604391312,
+          "download": 8760800464
+        },
+        "4954963": {
+          "gid": "5688916631381781837",
+          "size": 11254810489,
+          "download": 8936863664
+        },
+        "4954964": {
+          "gid": "4933297546965822614",
+          "size": 9426566023,
+          "download": 8154378320
+        }
+      }
+    },
     {
       "buildId": "26080757",
       "branch": "public",
@@ -82,25 +110,12 @@
           "download": 6509362944
         }
       }
-    },
-    {
-      "buildId": "25265569",
-      "branch": "public",
-      "timeUpdated": 1789177374,
-      "firstSeen": 1789177800,
-      "manifests": {
-        "4954961": {
-          "gid": "2059462974501812498",
-          "size": 6969807404,
-          "download": 5867914384
-        }
-      }
     }
   ],
-  "_change_number": 40046524,
+  "_change_number": 40172427,
   "_missing_token": false,
-  "_sha": "304079c2ee1235c76f6e6997260bfe19158d1f17",
-  "_size": 8522,
+  "_sha": "9e4cd744710ffc243e8eca2aa36ea92adccdfbba",
+  "_size": 9853,
   "appid": "4954960",
   "common": {
     "aicontenttype": "2",
@@ -137,7 +152,8 @@
       "category_80": "1",
       "category_9": "1"
     },
-    "clienticon": "5d44b24401ef401434c2dfa4d8441642c96f224f",
+    "clienticns": "ef1f3843afdfec96ea81484949968bf49f6a3bc0",
+    "clienticon": "f199390b7a6e090679c70c8716c180de20e73c7c",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
     "controllertagwizard": "1",
@@ -152,7 +168,7 @@
     "header_image": {
       "english": "7467bf0c16cb3be61d96aca2ccafda0952a2f37f/header.jpg"
     },
-    "icon": "4da8e780bcb5193f366d4a92b40b52a6c23e9e4f",
+    "icon": "a3926179de995d801f9aac346e3c3309a0b3ba6a",
     "languages": {
       "arabic": "1",
       "brazilian": "1",
@@ -237,12 +253,13 @@
         }
       }
     },
+    "linuxclienticon": "95211c167e0f40d31e0f4e5ef670853c952923ef",
     "name": "Train Trek",
     "openvrsupport": "1",
     "osarch": "64",
     "oscpu": "",
     "osextended": "macos64,macosapplesilicon",
-    "oslist": "windows,macos,linux",
+    "oslist": "windows,macos,linux,android",
     "primary_genre": "1",
     "releasestate": "released",
     "small_capsule": {
@@ -449,6 +466,43 @@
         },
         "executable": "TrainTrek.sh",
         "type": "vr"
+      },
+      "5": {
+        "config": {
+          "osarch": "64",
+          "oslist": "android"
+        },
+        "description": "Train Trek Android (Steam Frame)",
+        "description_loc": {
+          "english": "Train Trek Android (Steam Frame)"
+        },
+        "executable": "TrainTrek.apk",
+        "type": "default"
+      },
+      "6": {
+        "arguments": "-vr -mrc",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Launch in VR with mixed reality capture (webcam)",
+        "description_loc": {
+          "english": "Launch in VR with mixed reality capture (webcam)"
+        },
+        "executable": "TrainTrek.exe",
+        "type": "vr"
+      },
+      "7": {
+        "arguments": "-vr -mrccalibrate",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Launch in VR to calibrate the webcam(s) for mixed reality capture first",
+        "description_loc": {
+          "english": "Launch in VR to calibrate the webcam(s) for mixed reality capture first"
+        },
+        "executable": "TrainTrek.exe"
       }
     }
   },
@@ -470,9 +524,9 @@
     "4954961": {
       "manifests": {
         "public": {
-          "download": "8967752832",
-          "gid": "3726906035006439674",
-          "size": "10196981827"
+          "download": "8946828224",
+          "gid": "5905358584892127023",
+          "size": "10177634675"
         }
       }
     },
@@ -483,9 +537,9 @@
       },
       "manifests": {
         "public": {
-          "download": "8779530640",
-          "gid": "3384690587299065584",
-          "size": "10624392527"
+          "download": "8760800464",
+          "gid": "5801586973751797041",
+          "size": "10604391312"
         }
       }
     },
@@ -496,18 +550,30 @@
       },
       "manifests": {
         "public": {
-          "download": "8956130032",
-          "gid": "2284334954863266927",
-          "size": "11270722340"
+          "download": "8936863664",
+          "gid": "5688916631381781837",
+          "size": "11254810489"
+        }
+      }
+    },
+    "4954964": {
+      "config": {
+        "oslist": "android"
+      },
+      "manifests": {
+        "public": {
+          "download": "8154378320",
+          "gid": "4933297546965822614",
+          "size": "9426566023"
         }
       }
     },
     "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,indonesian,italian,japanese,koreana,polish,romanian,russian,schinese,spanish,swedish,turkish,ukrainian,vietnamese",
     "branches": {
       "public": {
-        "buildid": "26080757",
-        "timebuildupdated": "1792504464",
-        "timeupdated": "1792504617"
+        "buildid": "26162560",
+        "timebuildupdated": "1792765253",
+        "timeupdated": "1792765303"
       }
     }
   },

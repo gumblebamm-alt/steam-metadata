@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1792730995,
-  "_history": [],
-  "_change_number": 40153998,
-  "_missing_token": true,
-  "_sha": "cbb4762709d84231c639c878dd46710cac9922cb",
-  "_size": 3384,
+  "_lastChecked": 1792816660,
+  "_history": [
+    {
+      "buildId": "26162205",
+      "branch": "public",
+      "timeUpdated": 1792764748,
+      "firstSeen": 1792816660,
+      "manifests": {
+        "3168521": {
+          "gid": "8871801490882323999",
+          "size": 491993197,
+          "download": 369613392
+        },
+        "3168522": {
+          "gid": "8491701936255424421",
+          "size": 503097193,
+          "download": 372142752
+        },
+        "3168523": {
+          "gid": "6883731314807244862",
+          "size": 491993197,
+          "download": 375253920
+        },
+        "3168524": {
+          "gid": "5040881638968934518",
+          "size": 503097193,
+          "download": 379241024
+        }
+      }
+    }
+  ],
+  "_change_number": 40190243,
+  "_missing_token": false,
+  "_sha": "0a8f33fe880fb6f8ab20ba1a6fb3bfbd7a049bb8",
+  "_size": 5750,
   "appid": "3168520",
   "common": {
     "associations": {
@@ -28,8 +57,8 @@
     "clienticon": "21894c05634e9b5da639ad7bd0a4a4df0e0e9a4e",
     "clienttga": "3dc04d41fa57fc275a044bf5a6955f5631a800b5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3168520",
     "genres": {
       "0": "4"
@@ -110,10 +139,13 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "fd0e06da69f58bb9531bff8fecf362aa6ee419df/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792782023",
     "store_asset_mtime": "1792725262",
     "store_tags": {
       "0": "597",
@@ -174,5 +206,121 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BloomTale",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BloomTale.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "BloomTale.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3168521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "369613392",
+          "gid": "8871801490882323999",
+          "size": "491993197"
+        }
+      }
+    },
+    "3168522": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "372142752",
+          "gid": "8491701936255424421",
+          "size": "503097193"
+        }
+      }
+    },
+    "3168523": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "375253920",
+          "gid": "6883731314807244862",
+          "size": "491993197"
+        }
+      }
+    },
+    "3168524": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "379241024",
+          "gid": "5040881638968934518",
+          "size": "503097193"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,dutch,english,french,german,italian,latam,russian,schinese,spanish,swedish,tchinese,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26162205",
+        "timebuildupdated": "1792764383",
+        "timeupdated": "1792764748"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Floralia Games",
+    "publisher": "Floralia Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Floralia Games/BloomTale/ProgressV2",
+            "replace": "Floralia Games/BloomTale/ProgressV2"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Floralia Games/BloomTale/ProgressV2",
+        "pattern": "savefile0",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Floralia Games/BloomTale/ProgressV2",
+        "pattern": "savefile1",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Floralia Games/BloomTale/ProgressV2",
+        "pattern": "savefile2",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

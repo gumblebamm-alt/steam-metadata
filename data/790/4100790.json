@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791592991,
-  "_history": [],
-  "_change_number": 39666909,
-  "_missing_token": true,
-  "_sha": "0efa3c11614c2ac973e378bf722502d0caf75833",
-  "_size": 3143,
+  "_lastChecked": 1792816665,
+  "_history": [
+    {
+      "buildId": "26167369",
+      "branch": "public",
+      "timeUpdated": 1792778816,
+      "firstSeen": 1792816665,
+      "manifests": {
+        "4100791": {
+          "gid": "4067019257699120542",
+          "size": 1083888409,
+          "download": 908279360
+        }
+      }
+    }
+  ],
+  "_change_number": 40183086,
+  "_missing_token": false,
+  "_sha": "b6acd12ae1df7098e6606222b958eae863fbf21d",
+  "_size": 4684,
   "appid": "4100790",
   "common": {
     "associations": {
@@ -34,8 +48,8 @@
     },
     "clienticon": "21f7c19b9ab183c6d9150f20108e94070f74fcd0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4100790",
     "genres": {
       "0": "23"
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cf569b8e47bbd4b7b110980061e9f494416db552/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792784571",
     "store_asset_mtime": "1771947581",
     "store_tags": {
       "0": "3799",
@@ -139,5 +154,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Echoes of Pinebridge",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "EchoesofPinebridge.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "EchoesofPinebridge.app"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "EchoesofPinebridge.sh"
+      }
+    }
+  },
+  "depots": {
+    "4100791": {
+      "manifests": {
+        "public": {
+          "download": "908279360",
+          "gid": "4067019257699120542",
+          "size": "1083888409"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26167369",
+        "timebuildupdated": "1792778784",
+        "timeupdated": "1792778816"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Koalu Studio",
+    "publisher": "Koalu Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "addpath": "Library/RenPy/",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacHome"
+      },
+      "1": {
+        "addpath": ".renpy/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RenPy/EchoesofPinebridge-1732837754",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "RenPy/EchoesofPinebridge-1732837754",
+        "pattern": "persistent",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

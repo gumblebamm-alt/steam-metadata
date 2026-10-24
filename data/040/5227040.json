@@ -1,6 +1,39 @@
 {
-  "_lastChecked": 1792644450,
+  "_lastChecked": 1792816684,
   "_history": [
+    {
+      "buildId": "26175397",
+      "branch": "public",
+      "timeUpdated": 1792807842,
+      "firstSeen": 1792816684,
+      "manifests": {
+        "5227042": {
+          "gid": "558602675314243837",
+          "size": 2845647512,
+          "download": 2437106464
+        },
+        "5240130": {
+          "gid": "5543841475211078939",
+          "size": 180215892,
+          "download": 180079696
+        },
+        "5244530": {
+          "gid": "1995147133746081340",
+          "size": 274780337,
+          "download": 270580880
+        },
+        "5246360": {
+          "gid": "5812689177951523805",
+          "size": 209016374,
+          "download": 208589728
+        },
+        "5365600": {
+          "gid": "527820581659806577",
+          "size": 92259781,
+          "download": 92256080
+        }
+      }
+    },
     {
       "buildId": "26123809",
       "branch": "public",
@@ -134,39 +167,6 @@
       }
     },
     {
-      "buildId": "25642953",
-      "branch": "public",
-      "timeUpdated": 1790822881,
-      "firstSeen": 1790858238,
-      "manifests": {
-        "5227042": {
-          "gid": "4092233573148616712",
-          "size": 2055977181,
-          "download": 1843234720
-        },
-        "5240130": {
-          "gid": "2863423504728175823",
-          "size": 172167917,
-          "download": 172057680
-        },
-        "5244530": {
-          "gid": "5398189314718174690",
-          "size": 92615640,
-          "download": 92564128
-        },
-        "5246360": {
-          "gid": "6849732243983372600",
-          "size": 190128574,
-          "download": 189821968
-        },
-        "5365600": {
-          "gid": "1383373434302133881",
-          "size": 80693931,
-          "download": 80692960
-        }
-      }
-    },
-    {
       "buildId": "26117079",
       "branch": "coop-test",
       "timeUpdated": 1792615354,
@@ -233,10 +233,10 @@
       }
     }
   ],
-  "_change_number": 40113306,
+  "_change_number": 40192082,
   "_missing_token": false,
-  "_sha": "54e107ed4c52109f4e8e5f37e93cf60ec62eb455",
-  "_size": 6762,
+  "_sha": "ec0cb6295168962f6cd15584eedcb90ee8837050",
+  "_size": 7886,
   "appid": "5227040",
   "common": {
     "aicontenttype": "1",
@@ -253,6 +253,7 @@
     "category": {
       "category_1": "1",
       "category_2": "1",
+      "category_23": "1",
       "category_38": "1",
       "category_62": "1",
       "category_9": "1"
@@ -455,9 +456,9 @@
           "size": "2844875585"
         },
         "public": {
-          "download": "2436882816",
-          "gid": "5914559666273207428",
-          "size": "2844883381"
+          "download": "2437106464",
+          "gid": "558602675314243837",
+          "size": "2845647512"
         }
       }
     },
@@ -530,9 +531,9 @@
         "timeupdated": "1792615354"
       },
       "public": {
-        "buildid": "26123809",
-        "timebuildupdated": "1792639059",
-        "timeupdated": "1792639978"
+        "buildid": "26175397",
+        "timebuildupdated": "1792807564",
+        "timeupdated": "1792807842"
       }
     }
   },
@@ -543,15 +544,57 @@
     "publisher": "LiliVale"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
-    "maxnumfiles": "1000",
-    "quota": "2000000000",
+    "maxnumfiles": "10000",
+    "quota": "2147483648",
     "savefiles": {
       "0": {
+        "path": "DefaultCompany/FreePuzzles/CloudProgress",
+        "pattern": "progress.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "DefaultCompany/FreePuzzles/Progress",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "DefaultCompany/FreePuzzles/CompletedPuzzles",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "DefaultCompany/FreePuzzles/CoopProgress",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": "DefaultCompany/FreePuzzles/CoopSlots",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "5": {
+        "path": "DefaultCompany/FreePuzzles/CoopRecords",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "6": {
+        "path": "DefaultCompany/FreePuzzles/RaceResults",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "7": {
+        "path": "DefaultCompany/FreePuzzles/CustomPuzzles",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "8": {
+        "path": "DefaultCompany/FreePuzzles/CustomPuzzles",
+        "pattern": "*.png",
+        "root": "WinAppDataLocalLow"
+      },
+      "9": {
         "path": "DefaultCompany/FreePuzzles",
-        "pattern": "*",
-        "recursive": "1",
+        "pattern": "pet-companion.json",
         "root": "WinAppDataLocalLow"
       }
     }

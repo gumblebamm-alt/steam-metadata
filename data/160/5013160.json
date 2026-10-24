@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792731017,
-  "_history": [],
-  "_change_number": 40149746,
-  "_missing_token": true,
-  "_sha": "8bdc539b093807103cb727eecbe3ef416dde9f21",
-  "_size": 4368,
+  "_lastChecked": 1792816679,
+  "_history": [
+    {
+      "buildId": "26176658",
+      "branch": "public",
+      "timeUpdated": 1792813638,
+      "firstSeen": 1792816679,
+      "manifests": {
+        "5013161": {
+          "gid": "5478425297786221929",
+          "size": 465265410,
+          "download": 140214320
+        }
+      }
+    }
+  ],
+  "_change_number": 40193649,
+  "_missing_token": false,
+  "_sha": "0ac06110e8f2b0037e9722a2d291bdf712d59007",
+  "_size": 5575,
   "appid": "5013160",
   "common": {
     "aicontenttype": "1",
@@ -31,6 +45,7 @@
     },
     "clienticon": "5aaceb53a3a67a6a81ec8f1d63b29bb76d89985f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -38,7 +53,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5013160",
     "genres": {
       "0": "1",
@@ -131,10 +145,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "96",
+    "review_score": "7",
     "small_capsule": {
       "english": "0210b12921ce7504da34565b950664c033be494e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792775359",
     "store_asset_mtime": "1792633770",
     "store_tags": {
       "0": "3859",
@@ -219,5 +236,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hubble Bubble",
+    "launch": {
+      "0": {
+        "arguments": "-force-d3d11",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Hubble Bubble.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5013161": {
+      "manifests": {
+        "public": {
+          "download": "140214320",
+          "gid": "5478425297786221929",
+          "size": "465265410"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,english,french,german,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,tchinese,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "26176658",
+        "timebuildupdated": "1792813591",
+        "timeupdated": "1792813638"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Parita Games",
+    "homepage": "https://paritagames.com/",
+    "publisher": "Parita Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "savefiles": {
+      "0": {
+        "path": "Parita Games/Hubble Bubble/saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

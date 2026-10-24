@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792689356,
+  "_lastChecked": 1792816684,
   "_history": [
     {
       "buildId": "26095131",
@@ -14,12 +14,30 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26175542",
+      "branch": "public",
+      "timeUpdated": 1792812378,
+      "firstSeen": 1792816684,
+      "manifests": {
+        "5206611": {
+          "gid": "3424850276418600215",
+          "size": 373337765,
+          "download": 201547696
+        },
+        "5206612": {
+          "gid": "1810577948200891868",
+          "size": 627408112,
+          "download": 251644944
+        }
+      }
     }
   ],
-  "_change_number": 40067701,
+  "_change_number": 40193313,
   "_missing_token": false,
-  "_sha": "fc3b2b2d65d743fa258ba0411c131ca6597776f0",
-  "_size": 4844,
+  "_sha": "63c5176026e976d7522fb851cd69ce239fba4e88",
+  "_size": 5341,
   "appid": "5206610",
   "common": {
     "associations": {
@@ -135,14 +153,15 @@
     },
     "name": "Revenant Dawn",
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "3",
     "releasestate": "released",
     "small_capsule": {
       "english": "4adb01801a951c52f596c7778a3255602293b10f/capsule_231x87.jpg"
     },
-    "steam_release_date": "1793430000",
+    "steam_release_date": "1792547120",
     "store_asset_mtime": "1789578692",
     "store_tags": {
       "0": "122",
@@ -199,6 +218,12 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "Revenant Dawn",
     "launch": {
       "0": {
@@ -206,6 +231,12 @@
           "oslist": "windows"
         },
         "executable": "Game.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "revenant-dawn"
       }
     },
     "steamconfigurator3rdpartynative": "65535",
@@ -215,22 +246,35 @@
   "depots": {
     "5206611": {
       "config": {
-        "language": "english",
         "oslist": "windows"
       },
       "manifests": {
         "public": {
-          "download": "201509280",
-          "gid": "3198144553017253706",
-          "size": "373190529"
+          "download": "201547696",
+          "gid": "3424850276418600215",
+          "size": "373337765"
         }
       }
     },
+    "5206612": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "251644944",
+          "gid": "1810577948200891868",
+          "size": "627408112"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,german,japanese,latam,russian,schinese",
     "branches": {
       "public": {
-        "buildid": "26095131",
-        "timebuildupdated": "1792546846",
-        "timeupdated": "1792546886"
+        "buildid": "26175542",
+        "timebuildupdated": "1792808137",
+        "timeupdated": "1792812378"
       }
     },
     "nocommonredists": "1"

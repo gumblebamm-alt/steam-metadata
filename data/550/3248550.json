@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792603001,
+  "_lastChecked": 1792816660,
   "_history": [
     {
       "buildId": "24288571",
@@ -39,12 +39,30 @@
           "download": 85963328
         }
       }
+    },
+    {
+      "buildId": "26166750",
+      "branch": "public",
+      "timeUpdated": 1792776985,
+      "firstSeen": 1792816660,
+      "manifests": {
+        "3248551": {
+          "gid": "6038165678312246881",
+          "size": 132360656,
+          "download": 53497024
+        },
+        "3248552": {
+          "gid": "46522480708173100",
+          "size": 105401768,
+          "download": 46702688
+        }
+      }
     }
   ],
-  "_change_number": 40076047,
+  "_change_number": 40179996,
   "_missing_token": false,
-  "_sha": "4e3b439cc155b0509f5963dac741bf9a00591f4a",
-  "_size": 5785,
+  "_sha": "824fe0ef4e255cbc686ddb906215c94dbbde42ee",
+  "_size": 6467,
   "appid": "3248550",
   "common": {
     "associations": {
@@ -79,6 +97,10 @@
       "english": "1d690ceeda6b41affd15183d1f7af224c92ae1d6/header.jpg"
     },
     "icon": "a4492d77770bb0789662ca550611d1b36281f9e3",
+    "languages": {
+      "english": "1",
+      "schinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -139,8 +161,9 @@
     "market_presence": "1",
     "name": "Pizza Empire",
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "4",
     "releasestate": "released",
     "review_percentage": "74",
@@ -151,26 +174,26 @@
     "steam_release_date": "1772874000",
     "store_asset_mtime": "1792472494",
     "store_tags": {
-      "0": "4182",
-      "1": "113",
-      "10": "4305",
-      "11": "4845",
-      "12": "3920",
-      "13": "1654",
-      "14": "12472",
-      "15": "4136",
-      "16": "4004",
-      "17": "255534",
-      "18": "5154",
-      "19": "8945",
-      "2": "597",
-      "3": "560542",
-      "4": "1698",
-      "5": "615955",
-      "6": "5900",
-      "7": "3871",
-      "8": "4085",
-      "9": "3964"
+      "0": "615955",
+      "1": "560542",
+      "10": "3920",
+      "11": "1654",
+      "12": "12472",
+      "13": "4136",
+      "14": "4004",
+      "15": "255534",
+      "16": "5154",
+      "17": "8945",
+      "18": "7250",
+      "19": "4559",
+      "2": "4182",
+      "3": "113",
+      "4": "597",
+      "5": "1698",
+      "6": "3871",
+      "7": "4305",
+      "8": "3964",
+      "9": "4845"
     },
     "supported_languages": {
       "croatian": {
@@ -262,41 +285,75 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "Pizza Empire",
     "launch": {
       "1": {
+        "config": {
+          "oslist": "windows"
+        },
         "description_loc": {
           "french": "French"
         },
-        "executable": "pizza-empire.exe"
+        "executable": "pizza-empire.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "pizza-empire.x86_64",
+        "type": "default"
       }
     },
     "uselaunchcommandline": "1"
   },
   "depots": {
     "3248551": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "85963328",
-          "gid": "8565618158922720733",
-          "size": "168639344"
+          "download": "53497024",
+          "gid": "6038165678312246881",
+          "size": "132360656"
+        }
+      }
+    },
+    "3248552": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "46702688",
+          "gid": "46522480708173100",
+          "size": "105401768"
         }
       }
     },
     "baselanguages": "brazilian,dutch,english,finnish,french,german,hungarian,italian,japanese,koreana,latam,norwegian,polish,portuguese,russian,schinese,spanish,turkish",
     "branches": {
       "public": {
-        "buildid": "26071236",
-        "timebuildupdated": "1792474906",
-        "timeupdated": "1792474920"
+        "buildid": "26166750",
+        "timebuildupdated": "1792776861",
+        "timeupdated": "1792776985"
       }
     },
     "privatebranches": "1"
   },
   "extended": {
     "developer": "Bando Corp",
+    "dlcavailableonstore": "1",
     "homepage": "https://pizzaempire.store",
     "isfreeapp": "1",
+    "listofdlc": "5483980",
     "publisher": "Bando Corp"
   },
   "ufs": {
