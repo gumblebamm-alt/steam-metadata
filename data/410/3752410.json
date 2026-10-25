@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1792775331,
-  "_history": [],
-  "_change_number": 40164386,
-  "_missing_token": true,
-  "_sha": "c2371e88be6cecfcdf57d4a7ca327a99ccd73be4",
-  "_size": 3266,
+  "_lastChecked": 1792903309,
+  "_history": [
+    {
+      "buildId": "25774315",
+      "branch": "public",
+      "timeUpdated": 1791367209,
+      "firstSeen": 1792903309,
+      "manifests": {
+        "3752411": {
+          "gid": "6294577699195885873",
+          "size": 4747851285,
+          "download": 4587326032
+        }
+      }
+    },
+    {
+      "buildId": "25774315",
+      "branch": "public-beta",
+      "timeUpdated": 1791366794,
+      "firstSeen": 1792903309,
+      "manifests": {
+        "3752411": {
+          "gid": "6294577699195885873",
+          "size": 4747851285,
+          "download": 4587326032
+        }
+      }
+    }
+  ],
+  "_change_number": 40213877,
+  "_missing_token": false,
+  "_sha": "fbc2e15fd6fd98e472b9a9e70e84e8457ddbc49b",
+  "_size": 5526,
   "appid": "3752410",
   "common": {
     "associations": {
@@ -36,8 +63,8 @@
     "clienticon": "95c825d1f786467965aa19f9ca40a9cea7bc0822",
     "clienttga": "23955e2485b97943015e5e7db039ef2a6b618a65",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3752410",
     "genres": {
       "0": "28",
@@ -108,10 +135,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "540cb29f21fd96b3719f165788242c6104d472d9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792881728",
     "store_asset_mtime": "1792739605",
     "store_tags": {
       "0": "599",
@@ -144,5 +172,109 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DispatchControl",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DispatchControl.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3752411": {
+      "manifests": {
+        "public": {
+          "download": "4587326032",
+          "gid": "6294577699195885873",
+          "size": "4747851285"
+        },
+        "public-beta": {
+          "download": "4587326032",
+          "gid": "6294577699195885873",
+          "size": "4747851285"
+        }
+      }
+    },
+    "baselanguages": "german",
+    "branches": {
+      "public": {
+        "buildid": "25774315",
+        "timebuildupdated": "1791366794",
+        "timeupdated": "1791367209"
+      },
+      "public-beta": {
+        "buildid": "25774315",
+        "description": "public beta with latest development releases",
+        "timebuildupdated": "1791366794",
+        "timeupdated": "1791366794"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Tom Holscher",
+    "dlcavailableonstore": "1",
+    "listofdlc": "3753300",
+    "publisher": "Tom Holscher"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "DefaultCompany/DispatchControlUnity",
+        "pattern": "schicht*.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "DefaultCompany/DispatchControlUnity",
+        "pattern": "region-profle.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "DefaultCompany/DispatchControlUnity",
+        "pattern": "SpielerProfil.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "DefaultCompany/DispatchControlUnity",
+        "pattern": "Errungenschaften.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": "DefaultCompany/DispatchControlUnity",
+        "pattern": "Kampagne.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

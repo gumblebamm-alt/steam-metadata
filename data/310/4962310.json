@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792775351,
+  "_lastChecked": 1792903321,
   "_history": [
     {
       "buildId": "25101581",
@@ -46,12 +46,35 @@
           "download": 71883840
         }
       }
+    },
+    {
+      "buildId": "26187931",
+      "branch": "public",
+      "timeUpdated": 1792874881,
+      "firstSeen": 1792903321,
+      "manifests": {
+        "4962311": {
+          "gid": "8596814254042726235",
+          "size": 70497323,
+          "download": 70042512
+        },
+        "4962312": {
+          "gid": "3017193147264909263",
+          "size": 80764107,
+          "download": 79217552
+        },
+        "4962313": {
+          "gid": "7933823953525471783",
+          "size": 72820053,
+          "download": 72216928
+        }
+      }
     }
   ],
-  "_change_number": 40160758,
+  "_change_number": 40212609,
   "_missing_token": false,
-  "_sha": "085470f144b54749a2c9b44948e50853944d4690",
-  "_size": 4582,
+  "_sha": "f42119b0500e1ff2c3ea9058a419d293962b5c03",
+  "_size": 5430,
   "appid": "4962310",
   "common": {
     "aicontenttype": "1",
@@ -67,6 +90,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_23": "1",
       "category_28": "1",
       "category_62": "1"
     },
@@ -220,9 +244,9 @@
       },
       "manifests": {
         "public": {
-          "download": "69659248",
-          "gid": "480149550363389117",
-          "size": "69851442"
+          "download": "70042512",
+          "gid": "8596814254042726235",
+          "size": "70497323"
         }
       }
     },
@@ -232,9 +256,9 @@
       },
       "manifests": {
         "public": {
-          "download": "78801664",
-          "gid": "163803433271980844",
-          "size": "80175523"
+          "download": "79217552",
+          "gid": "3017193147264909263",
+          "size": "80764107"
         }
       }
     },
@@ -244,23 +268,66 @@
       },
       "manifests": {
         "public": {
-          "download": "71883840",
-          "gid": "765871838597981451",
-          "size": "72127092"
+          "download": "72216928",
+          "gid": "7933823953525471783",
+          "size": "72820053"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25837240",
-        "timebuildupdated": "1791573117",
-        "timeupdated": "1792531422"
+        "buildid": "26187931",
+        "timebuildupdated": "1792873938",
+        "timeupdated": "1792874881"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Denis Salanta",
     "publisher": "Denis Salanta"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "LinuxHome",
+        "useinstead": "WindowsHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "LinuxHome",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": ".caribbean_prospector",
+        "pattern": "savegame*.json",
+        "root": "LinuxHome"
+      },
+      "1": {
+        "path": ".caribbean_prospector",
+        "pattern": "short_voyage*.json",
+        "root": "LinuxHome"
+      },
+      "2": {
+        "path": ".caribbean_prospector",
+        "pattern": "legacy.json",
+        "root": "LinuxHome"
+      },
+      "3": {
+        "path": ".caribbean_prospector/tales",
+        "pattern": "*.txt",
+        "root": "LinuxHome"
+      }
+    }
   }
 }

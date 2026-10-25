@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792689365,
+  "_lastChecked": 1792903303,
   "_history": [
     {
       "buildId": "18926375",
@@ -13,12 +13,30 @@
           "download": 919207312
         }
       }
+    },
+    {
+      "buildId": "26183747",
+      "branch": "public",
+      "timeUpdated": 1792856771,
+      "firstSeen": 1792903303,
+      "manifests": {
+        "1608401": {
+          "gid": "1767822790208370646",
+          "size": 2520451279,
+          "download": 1071542320
+        },
+        "1608402": {
+          "gid": "6274428536270932001",
+          "size": 779385836,
+          "download": 703612176
+        }
+      }
     }
   ],
-  "_change_number": 40134764,
+  "_change_number": 40205818,
   "_missing_token": false,
-  "_sha": "51e92cb0025c9603763a9d4e771fb5e7d5062da8",
-  "_size": 6991,
+  "_sha": "5cd084d8d18846fb194d649ca20a1dd2b4b07783",
+  "_size": 7450,
   "appid": "1608400",
   "common": {
     "associations": {
@@ -272,9 +290,9 @@
     "1608401": {
       "manifests": {
         "public": {
-          "download": "919207312",
-          "gid": "134354351278910671",
-          "size": "2336791728"
+          "download": "1071542320",
+          "gid": "1767822790208370646",
+          "size": "2520451279"
         }
       }
     },
@@ -282,7 +300,13 @@
       "config": {
         "oslist": "android"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "703612176",
+          "gid": "6274428536270932001",
+          "size": "779385836"
+        }
+      }
     },
     "228988": {
       "config": {
@@ -300,9 +324,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "18926375",
-        "timebuildupdated": "1750334529",
-        "timeupdated": "1750337985"
+        "buildid": "26183747",
+        "timebuildupdated": "1792854448",
+        "timeupdated": "1792856771"
       }
     },
     "privatebranches": "1",
@@ -314,29 +338,44 @@
     "vrheadsetstreaming": "1"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "10000",
     "quota": "10000000000",
     "rootoverrides": {
       "0": {
-        "addpath": "",
         "os": "Android",
         "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "The Aviary\\Vermillion",
+            "replace": "Android/data/xyz.TheAviary.Vermillion/files"
+          }
+        },
         "root": "WinAppDataLocalLow",
         "useinstead": "AndroidExternalData"
       }
     },
     "savefiles": {
       "0": {
-        "path": "The Aviary\\Vermillion\\Paintings",
-        "pattern": "*",
+        "path": "The Aviary\\Vermillion",
+        "pattern": "*.json",
         "recursive": "1",
         "root": "WinAppDataLocalLow"
       },
       "1": {
-        "path": "The Aviary\\Vermillion\\Palettes",
-        "pattern": "*",
+        "path": "The Aviary/Vermillion",
+        "pattern": "*.vrmln",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "The Aviary/Vermillion",
+        "pattern": "*.jpg",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "The Aviary/Vermillion",
+        "pattern": "*.vrmlnmtp",
         "recursive": "1",
         "root": "WinAppDataLocalLow"
       }
