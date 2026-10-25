@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1791290256,
+  "_lastChecked": 1792945199,
   "_history": [
+    {
+      "buildId": "26194631",
+      "branch": "public",
+      "timeUpdated": 1792916541,
+      "firstSeen": 1792945199,
+      "manifests": {
+        "4359151": {
+          "gid": "1460892337601085739",
+          "size": 1292668121,
+          "download": 710283008
+        },
+        "4359152": {
+          "gid": "5622820624738524316",
+          "size": 1276993158,
+          "download": 573280032
+        }
+      }
+    },
     {
       "buildId": "25741211",
       "branch": "public",
@@ -52,25 +70,12 @@
           "download": 638205152
         }
       }
-    },
-    {
-      "buildId": "25320369",
-      "branch": "public",
-      "timeUpdated": 1789468134,
-      "firstSeen": 1789471942,
-      "manifests": {
-        "4359151": {
-          "gid": "2480194609735354796",
-          "size": 1121677737,
-          "download": 635703680
-        }
-      }
     }
   ],
-  "_change_number": 39520357,
+  "_change_number": 40221200,
   "_missing_token": false,
-  "_sha": "a6a672be42dd24f8d7d303fafffec696d075a218",
-  "_size": 4492,
+  "_sha": "7633db20c94ff482e7603641f70fe98de367766e",
+  "_size": 4980,
   "appid": "4359150",
   "common": {
     "aicontenttype": "2",
@@ -172,8 +177,9 @@
       "schinese": "TradingLife：交易人生"
     },
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "28",
     "releasestate": "released",
     "review_percentage": "100",
@@ -233,27 +239,53 @@
           "oslist": "windows"
         },
         "executable": "trading-life.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "TradingLife.app",
+        "type": "default"
       }
     }
   },
   "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
     "4359151": {
       "config": {
         "oslist": "windows"
       },
       "manifests": {
         "public": {
-          "download": "599739216",
-          "gid": "1517533724111042990",
-          "size": "1157989779"
+          "download": "710283008",
+          "gid": "1460892337601085739",
+          "size": "1292668121"
+        }
+      }
+    },
+    "4359152": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "573280032",
+          "gid": "5622820624738524316",
+          "size": "1276993158"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25741211",
-        "timebuildupdated": "1791249705",
-        "timeupdated": "1791249738"
+        "buildid": "26194631",
+        "timebuildupdated": "1792916541",
+        "timeupdated": "1792916541"
       }
     },
     "workshopdepot": "4359150"

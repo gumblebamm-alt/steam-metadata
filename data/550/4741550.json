@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1792241276,
+  "_lastChecked": 1792945205,
   "_history": [
+    {
+      "buildId": "26199473",
+      "branch": "public",
+      "timeUpdated": 1792944851,
+      "firstSeen": 1792945205,
+      "manifests": {
+        "4741551": {
+          "gid": "4040591900159655636",
+          "size": 7358989127,
+          "download": 6233346160
+        },
+        "4741552": {
+          "gid": "4333450618987003633",
+          "size": 7275684383,
+          "download": 6206604704
+        }
+      }
+    },
     {
       "buildId": "26004083",
       "branch": "public",
@@ -73,30 +91,12 @@
           "download": 3941661152
         }
       }
-    },
-    {
-      "buildId": "25858960",
-      "branch": "public",
-      "timeUpdated": 1791687069,
-      "firstSeen": 1791765796,
-      "manifests": {
-        "4741551": {
-          "gid": "4270907772405778370",
-          "size": 4471855280,
-          "download": 3744933856
-        },
-        "4741552": {
-          "gid": "48832637928443364",
-          "size": 4388549683,
-          "download": 3718231952
-        }
-      }
     }
   ],
-  "_change_number": 39929602,
+  "_change_number": 40229418,
   "_missing_token": false,
-  "_sha": "27a3092a1700c14485ec1d3f5bf16b1b52d3960d",
-  "_size": 5296,
+  "_sha": "f94d064b00340bb115b54f47f3d4fa6eaccefb87",
+  "_size": 5508,
   "appid": "4741550",
   "common": {
     "aicontenttype": "1",
@@ -304,9 +304,9 @@
       },
       "manifests": {
         "public": {
-          "download": "5365888832",
-          "gid": "8174370261397496777",
-          "size": "6311145057"
+          "download": "6233346160",
+          "gid": "4040591900159655636",
+          "size": "7358989127"
         }
       }
     },
@@ -317,18 +317,18 @@
       },
       "manifests": {
         "public": {
-          "download": "5339187040",
-          "gid": "5102323972050860363",
-          "size": "6227839400"
+          "download": "6206604704",
+          "gid": "4333450618987003633",
+          "size": "7275684383"
         }
       }
     },
     "baselanguages": "english,japanese,koreana",
     "branches": {
       "public": {
-        "buildid": "26004083",
-        "timebuildupdated": "1792211764",
-        "timeupdated": "1792211886"
+        "buildid": "26199473",
+        "timebuildupdated": "1792944821",
+        "timeupdated": "1792944851"
       }
     },
     "workshopdepot": "4741550"
@@ -339,13 +339,22 @@
     "publisher": "GM2SOFT"
   },
   "ufs": {
-    "maxnumfiles": "40",
-    "quota": "30000000",
+    "maxnumfiles": "8",
+    "quota": "268435456",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
-        "path": "SavesDir",
-        "pattern": "*.sav",
-        "root": "gameinstall"
+        "path": "bgamer-electron/SteamSaves/{64BitSteamID}",
+        "pattern": "savegame.sav",
+        "root": "WinAppDataRoaming"
       }
     }
   }

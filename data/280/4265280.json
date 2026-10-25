@@ -1,10 +1,67 @@
 {
-  "_lastChecked": 1791506708,
-  "_history": [],
-  "_change_number": 39629691,
-  "_missing_token": true,
-  "_sha": "c66ab653f5dc07fe407ba979903824c9847134f4",
-  "_size": 3034,
+  "_lastChecked": 1792945198,
+  "_history": [
+    {
+      "buildId": "26181287",
+      "branch": "nightly",
+      "timeUpdated": 1792841495,
+      "firstSeen": 1792945198,
+      "manifests": {
+        "4265281": {
+          "gid": "7497337231405664063",
+          "size": 110408224,
+          "download": 73718240
+        },
+        "4265282": {
+          "gid": "7650007495864258354",
+          "size": 214861490,
+          "download": 56211296
+        },
+        "4265283": {
+          "gid": "1077160703365365740",
+          "size": 156303729,
+          "download": 50471408
+        },
+        "4265284": {
+          "gid": "6877269978056614405",
+          "size": 482139950,
+          "download": 157146816
+        }
+      }
+    },
+    {
+      "buildId": "26181287",
+      "branch": "public",
+      "timeUpdated": 1792912065,
+      "firstSeen": 1792945198,
+      "manifests": {
+        "4265281": {
+          "gid": "7497337231405664063",
+          "size": 110408224,
+          "download": 73718240
+        },
+        "4265282": {
+          "gid": "7650007495864258354",
+          "size": 214861490,
+          "download": 56211296
+        },
+        "4265283": {
+          "gid": "1077160703365365740",
+          "size": 156303729,
+          "download": 50471408
+        },
+        "4265284": {
+          "gid": "6877269978056614405",
+          "size": 482139950,
+          "download": 157146816
+        }
+      }
+    }
+  ],
+  "_change_number": 40221722,
+  "_missing_token": false,
+  "_sha": "dede0b575c0e6bb337c45f774ab07a86bde49266",
+  "_size": 5867,
   "appid": "4265280",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +82,6 @@
     "clienticon": "34645c5768c06609ceff3a77c5c4c587783308e5",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4265280",
     "genres": {
       "0": "23",
@@ -97,7 +153,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b82a74475592ba09e985b49cf061f66606806d58/capsule_231x87.jpg"
     },
@@ -138,5 +194,158 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "NileExpress",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "nile_express.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "nile_express.sh",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "NileExpress.app"
+      }
+    }
+  },
+  "depots": {
+    "4265281": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "nightly": {
+          "download": "73718240",
+          "gid": "7497337231405664063",
+          "size": "110408224"
+        },
+        "public": {
+          "download": "73718240",
+          "gid": "7497337231405664063",
+          "size": "110408224"
+        }
+      }
+    },
+    "4265282": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "nightly": {
+          "download": "56211296",
+          "gid": "7650007495864258354",
+          "size": "214861490"
+        },
+        "public": {
+          "download": "56211296",
+          "gid": "7650007495864258354",
+          "size": "214861490"
+        }
+      }
+    },
+    "4265283": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "nightly": {
+          "download": "50471408",
+          "gid": "1077160703365365740",
+          "size": "156303729"
+        },
+        "public": {
+          "download": "50471408",
+          "gid": "1077160703365365740",
+          "size": "156303729"
+        }
+      }
+    },
+    "4265284": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "nightly": {
+          "download": "157146816",
+          "gid": "6877269978056614405",
+          "size": "482139950"
+        },
+        "public": {
+          "download": "157146816",
+          "gid": "6877269978056614405",
+          "size": "482139950"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "nightly": {
+        "buildid": "26181287",
+        "description": "Nightly Builds",
+        "timebuildupdated": "1792841495",
+        "timeupdated": "1792841495"
+      },
+      "public": {
+        "buildid": "26181287",
+        "timebuildupdated": "1792841495",
+        "timeupdated": "1792912065"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Roland Mueller",
+    "publisher": "Roland Mueller"
+  },
+  "ufs": {
+    "maxnumfiles": "150",
+    "quota": "300000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "NileExpress/data/",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "NileExpress/config/",
+        "pattern": "shared.cfg",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

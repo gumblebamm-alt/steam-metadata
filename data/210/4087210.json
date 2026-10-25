@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1792558077,
-  "_history": [],
-  "_change_number": 40063895,
-  "_missing_token": true,
-  "_sha": "fa3a5496857b55b2f2dbed150f32df8cb0c17e08",
-  "_size": 2973,
+  "_lastChecked": 1792945179,
+  "_history": [
+    {
+      "buildId": "26117338",
+      "branch": "public",
+      "timeUpdated": 1792616462,
+      "firstSeen": 1792945048,
+      "manifests": {
+        "4087211": {
+          "gid": "1607507951038506176",
+          "size": null,
+          "download": null
+        },
+        "4087212": {
+          "gid": "2015529466365486691",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40229121,
+  "_missing_token": false,
+  "_sha": "59defdc1ee7bf5ba60cbe3be4f45d06e568e7b36",
+  "_size": 4256,
   "appid": "4087210",
   "common": {
     "associations": {
@@ -29,7 +49,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4087210",
     "genres": {
       "0": "23",
@@ -101,10 +120,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1919fe7f45f8c72dbab6b89d30d95ae5f6b98859/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792944025",
     "store_asset_mtime": "1792537916",
     "store_tags": {
       "0": "492",
@@ -128,5 +148,72 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Red Rain",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "RedRain.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--appimage-extract-and-run",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "RedRain.AppImage",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "15",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4087211": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "168693744",
+          "gid": "1607507951038506176",
+          "size": "203287181"
+        }
+      }
+    },
+    "4087212": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "181589968",
+          "gid": "2015529466365486691",
+          "size": "182303224"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26117338",
+        "timebuildupdated": "1792616144",
+        "timeupdated": "1792616462"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Small Loan Studio",
+    "isfreeapp": "1",
+    "publisher": "Small Loan Studio"
+  }
 }
