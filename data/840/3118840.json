@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792816660,
-  "_history": [],
-  "_change_number": 40164867,
-  "_missing_token": true,
-  "_sha": "f2c7e7d52ed90130fcc71206688bcad1dd49c1d2",
-  "_size": 5614,
+  "_lastChecked": 1792989936,
+  "_history": [
+    {
+      "buildId": "26206311",
+      "branch": "public",
+      "timeUpdated": 1792975791,
+      "firstSeen": 1792989936,
+      "manifests": {
+        "3118841": {
+          "gid": "4798116998928784986",
+          "size": 1608940306,
+          "download": 1522766608
+        },
+        "3118842": {
+          "gid": "1216039524440755811",
+          "size": 1607326485,
+          "download": 1525426432
+        }
+      }
+    }
+  ],
+  "_change_number": 40240536,
+  "_missing_token": false,
+  "_sha": "8ce4a015a83b62001432a65f24b6fa13866f6b79",
+  "_size": 7170,
   "appid": "3118840",
   "common": {
     "associations": {
@@ -42,6 +61,7 @@
     "clienticon": "bc211ee21bdd4b27d342ecd3dcaee0ab8b6f351c",
     "clienttga": "ed95497231cd26f593c5332abdc0ed138a82dade",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -50,7 +70,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3118840",
     "genres": {
       "0": "25",
@@ -157,10 +176,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ab4a22a75b3fd09a56dbb2a9bc47e4a0461e1c56/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792980094",
     "store_asset_mtime": "1792750989",
     "store_tags": {
       "0": "5125",
@@ -286,5 +306,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sibir",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Sibir.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Sibir.sh",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3118841": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1522766608",
+          "gid": "4798116998928784986",
+          "size": "1608940306"
+        }
+      }
+    },
+    "3118842": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1525426432",
+          "gid": "1216039524440755811",
+          "size": "1607326485"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26206311",
+        "timebuildupdated": "1792975774",
+        "timeupdated": "1792975791"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "AFB Studios",
+    "publisher": "AFB Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Sibir/saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "godot/app_userdata/Sibir/saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

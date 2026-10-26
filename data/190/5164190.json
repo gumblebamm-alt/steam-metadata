@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792558118,
-  "_history": [],
-  "_change_number": 40057987,
-  "_missing_token": true,
-  "_sha": "57b315a2f7a9ffd7efc2575e03e0df57b66349cb",
-  "_size": 3583,
+  "_lastChecked": 1792989966,
+  "_history": [
+    {
+      "buildId": "26204233",
+      "branch": "public",
+      "timeUpdated": 1792965810,
+      "firstSeen": 1792989966,
+      "manifests": {
+        "5164191": {
+          "gid": "4870579308936165919",
+          "size": 1089879815,
+          "download": 805534800
+        }
+      }
+    }
+  ],
+  "_change_number": 40236548,
+  "_missing_token": false,
+  "_sha": "73e984dc07dd60f0222e6e13173e6cf007ee2635",
+  "_size": 4583,
   "appid": "5164190",
   "common": {
     "aicontenttype": "1",
@@ -45,10 +59,9 @@
         "id": "5164190_eula_0",
         "name": "A Journey Rediscovered - Intro Version EULA",
         "url": "https://store.steampowered.com//eula/5164190_eula_0",
-        "version": "3"
+        "version": "4"
       }
     },
-    "exfgls": "8",
     "gameid": "5164190",
     "genres": {
       "0": "1",
@@ -123,10 +136,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8dc30d0dadcb97c8dc75238dafe4b519b43d1ae4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792965402",
     "store_asset_mtime": "1790704392",
     "store_tags": {
       "0": "1752",
@@ -159,5 +173,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "A Journey Rediscovered - Intro Version",
+    "launch": {
+      "0": {
+        "executable": "AJourneyRediscovered.exe",
+        "type": "vr"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5164191": {
+      "manifests": {
+        "public": {
+          "download": "805534800",
+          "gid": "4870579308936165919",
+          "size": "1089879815"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26204233",
+        "timebuildupdated": "1792965657",
+        "timeupdated": "1792965810"
+      }
+    }
+  },
+  "extended": {
+    "developer": "NotARealGameDev",
+    "publisher": "NotARealGameDev"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "5000000000",
+    "savefiles": {
+      "0": {
+        "path": "Saved",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

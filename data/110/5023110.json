@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1791593014,
-  "_history": [],
-  "_change_number": 39666308,
-  "_missing_token": true,
-  "_sha": "610ffc4c96ec7a582c313a909f87ce5c02657988",
-  "_size": 6647,
+  "_lastChecked": 1792989961,
+  "_history": [
+    {
+      "buildId": "26191341",
+      "branch": "public",
+      "timeUpdated": 1792894216,
+      "firstSeen": 1792989961,
+      "manifests": {
+        "5023112": {
+          "gid": "3005388520767757390",
+          "size": 1165773722,
+          "download": 986273152
+        },
+        "5023113": {
+          "gid": "4935373642507482186",
+          "size": 1165773722,
+          "download": 986275392
+        },
+        "5023114": {
+          "gid": "6657671464998452165",
+          "size": 1026641819,
+          "download": 934975600
+        }
+      }
+    }
+  ],
+  "_change_number": 40241711,
+  "_missing_token": false,
+  "_sha": "b4b1d6d51cb3a60f70b8d2343a08be95be54c3c8",
+  "_size": 8485,
   "appid": "5023110",
   "common": {
     "aicontenttype": "1",
@@ -56,7 +80,6 @@
         "version": "7"
       }
     },
-    "exfgls": "8",
     "gameid": "5023110",
     "genres": {
       "0": "1",
@@ -128,7 +151,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "23165ae21950ada46d250c5e621a5a25cac8089f/capsule_231x87.jpg"
     },
@@ -353,5 +376,102 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "default",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_scout"
+      }
+    },
+    "installdir": "Galactiball",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Galactiball.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Galactiball.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "4",
+    "steaminputmanifestpath": "SteamInputDefault.vdf"
+  },
+  "depots": {
+    "5023112": {
+      "config": {
+        "oslist": "linux",
+        "steamdeck": "1"
+      },
+      "manifests": {
+        "public": {
+          "download": "986273152",
+          "gid": "3005388520767757390",
+          "size": "1165773722"
+        }
+      }
+    },
+    "5023113": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "986275392",
+          "gid": "4935373642507482186",
+          "size": "1165773722"
+        }
+      }
+    },
+    "5023114": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "934975600",
+          "gid": "6657671464998452165",
+          "size": "1026641819"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26191341",
+        "timebuildupdated": "1792893016",
+        "timeupdated": "1792894216"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Badgerworks Studios",
+    "homepage": "http://badgerworks.ca",
+    "publisher": "Badgerworks Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "2000000000",
+    "savefiles": {
+      "0": {
+        "path": "Game/Replays",
+        "pattern": "*.replay",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

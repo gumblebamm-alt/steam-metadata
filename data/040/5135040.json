@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792371645,
-  "_history": [],
-  "_change_number": 39928172,
-  "_missing_token": true,
-  "_sha": "ee0cb47f393c0a8cf2c2ccd7f7146ec7c4bfae96",
-  "_size": 3607,
+  "_lastChecked": 1792989964,
+  "_history": [
+    {
+      "buildId": "26200733",
+      "branch": "public",
+      "timeUpdated": 1792983363,
+      "firstSeen": 1792989964,
+      "manifests": {
+        "5135041": {
+          "gid": "7177955981383624331",
+          "size": 256514781,
+          "download": 182989952
+        },
+        "5135042": {
+          "gid": "3461719479078373285",
+          "size": 291469501,
+          "download": 191421296
+        }
+      }
+    }
+  ],
+  "_change_number": 40241629,
+  "_missing_token": false,
+  "_sha": "c35725347a648727ca46e077e015426d647cc15f",
+  "_size": 5428,
   "appid": "5135040",
   "common": {
     "aicontenttype": "1",
@@ -35,9 +54,9 @@
     },
     "clienticon": "09bc5cf9dfc9376df6968fa1caef48878cc4e612",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5135040",
     "genres": {
       "0": "1",
@@ -112,10 +131,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7992d9b2e245a53ea22d831485f22ffa074b1c19/capsule_231x87.jpg"
     },
+    "steam_release_date": "1792983307",
     "store_asset_mtime": "1792206305",
     "store_tags": {
       "0": "19",
@@ -169,5 +189,99 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Aftergrowth",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Aftergrowth.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "aftergrowth.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5135041": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "182989952",
+          "gid": "7177955981383624331",
+          "size": "256514781"
+        }
+      }
+    },
+    "5135042": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "191421296",
+          "gid": "3461719479078373285",
+          "size": "291469501"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26200733",
+        "timebuildupdated": "1792950697",
+        "timeupdated": "1792983363"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "pl0xuee",
+    "homepage": "https://pl0xuee.com/aftergrowth/",
+    "publisher": "pl0xuee"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "200000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": " Aftergrowth\\saves",
+            "replace": "Aftergrowth/saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Aftergrowth\\saves",
+        "pattern": "*.dat",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Aftergrowth\\saves",
+        "pattern": "world.json",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
