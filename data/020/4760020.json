@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791722208,
+  "_lastChecked": 1793040161,
   "_history": [
     {
       "buildId": "25139839",
@@ -54,24 +54,29 @@
       }
     },
     {
-      "buildId": "",
+      "buildId": "26210302",
       "branch": "public",
-      "timeUpdated": 1791703955,
+      "timeUpdated": 1793008680,
       "firstSeen": 1791722136,
       "manifests": {
         "4760021": {
           "gid": "5949255312684725302",
           "size": null,
           "download": null
+        },
+        "4760022": {
+          "gid": "7055993427244174841",
+          "size": 949021004,
+          "download": 722579296
         }
       },
       "_source": "hubcap"
     }
   ],
-  "_change_number": 39624586,
+  "_change_number": 40250277,
   "_missing_token": false,
-  "_sha": "504e94ccbc1f17e85a16f0a2ce5e6be7c7b95f85",
-  "_size": 4863,
+  "_sha": "5fa5a9b6d7014bd897d40c78ef94db028ab293a9",
+  "_size": 5382,
   "appid": "4760020",
   "common": {
     "associations": {
@@ -167,17 +172,18 @@
     },
     "name": "Operation: Outbreak Idle",
     "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "86",
-    "review_score": "7",
+    "review_percentage": "79",
+    "review_score": "6",
     "small_capsule": {
       "english": "9080c13653bb2bbe58ef9d066a6328f9109aca4e/capsule_231x87.jpg"
     },
     "steam_release_date": "1788537572",
-    "store_asset_mtime": "1788539732",
+    "store_asset_mtime": "1793005197",
     "store_tags": {
       "0": "1645",
       "1": "1659",
@@ -260,25 +266,53 @@
     "installdir": "Operation Outbreak Idle",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "Operation Outbreak Idle.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Linux",
+        "description_loc": {
+          "english": "Linux"
+        },
+        "executable": "Operation Outbreak Idle.x86_64"
       }
     }
   },
   "depots": {
     "4760021": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "582942880",
-          "gid": "5949255312684725302",
-          "size": "1188605377"
+          "download": "838502496",
+          "gid": "7455676959080277131",
+          "size": "1459384295"
+        }
+      }
+    },
+    "4760022": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "722579296",
+          "gid": "7055993427244174841",
+          "size": "949021004"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25378020",
-        "timebuildupdated": "1789680834",
-        "timeupdated": "1789747309"
+        "buildid": "26210302",
+        "timebuildupdated": "1792994614",
+        "timeupdated": "1793008680"
       }
     },
     "privatebranches": "1"

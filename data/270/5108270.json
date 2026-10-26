@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792603050,
-  "_history": [],
-  "_change_number": 40095382,
-  "_missing_token": true,
-  "_sha": "1a2a8cd5ed84e5875e396b3f1ff7c5432c451630",
-  "_size": 5386,
+  "_lastChecked": 1793040173,
+  "_history": [
+    {
+      "buildId": "26215035",
+      "branch": "public",
+      "timeUpdated": 1793012362,
+      "firstSeen": 1793040173,
+      "manifests": {
+        "5108271": {
+          "gid": "649608008287082375",
+          "size": 279748876,
+          "download": 107883520
+        },
+        "5108272": {
+          "gid": "679058582560016953",
+          "size": 280999493,
+          "download": 101134288
+        },
+        "5108273": {
+          "gid": "3887050557020431886",
+          "size": 264564786,
+          "download": 98275872
+        }
+      }
+    }
+  ],
+  "_change_number": 40264684,
+  "_missing_token": false,
+  "_sha": "64f46a6816f4bfb4341233824ec865d19cccd9d0",
+  "_size": 7643,
   "appid": "5108270",
   "common": {
     "associations": {
@@ -41,9 +65,9 @@
     "clienticns": "243fc4cadec143ec5c155ec8d08fb1a3e9bbad18",
     "clienticon": "c5a9e812d3c5de16d4928875ebccddb91639994d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5108270",
     "genres": {
       "0": "4",
@@ -147,10 +171,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "77dd2a9af7c1bfe01647ea1b6d82d1f7f1cfa355/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793033943",
     "store_asset_mtime": "1788290876",
     "store_tags": {
       "0": "1664",
@@ -268,5 +293,131 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SUMOO",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SUMOO.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "SUMOO.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "SUMOO.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5108271": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "107883520",
+          "gid": "649608008287082375",
+          "size": "279748876"
+        }
+      }
+    },
+    "5108272": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "101134288",
+          "gid": "679058582560016953",
+          "size": "280999493"
+        }
+      }
+    },
+    "5108273": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "98275872",
+          "gid": "3887050557020431886",
+          "size": "264564786"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "26215035",
+        "timebuildupdated": "1793012361",
+        "timeupdated": "1793012362"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Duck Tile",
+    "homepage": "https://ducktile.games/",
+    "publisher": "Mindlabor"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SUMOO/",
+            "replace": "SUMOO/"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SUMOO/",
+            "replace": ".config/SUMOO/"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "gameinstall"
+      },
+      "2": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SUMOO/",
+            "replace": "SUMOO/"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SUMOO/",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

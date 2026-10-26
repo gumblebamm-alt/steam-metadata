@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1792989963,
-  "_history": [],
-  "_change_number": 40238489,
-  "_missing_token": true,
-  "_sha": "8b6c1e8622eec98ba9ff226b7a33a5fd86970903",
-  "_size": 6575,
+  "_lastChecked": 1793040172,
+  "_history": [
+    {
+      "buildId": "24743998",
+      "branch": "debug",
+      "timeUpdated": 1786746508,
+      "firstSeen": 1793040172,
+      "manifests": {
+        "5076511": {
+          "gid": "4894919055194870226",
+          "size": 1414148943,
+          "download": 935679360
+        }
+      }
+    },
+    {
+      "buildId": "26222164",
+      "branch": "public",
+      "timeUpdated": 1793032576,
+      "firstSeen": 1793040172,
+      "manifests": {
+        "5076511": {
+          "gid": "6783828063293635036",
+          "size": 1029706635,
+          "download": 782119408
+        }
+      }
+    }
+  ],
+  "_change_number": 40264794,
+  "_missing_token": false,
+  "_sha": "a239d8fb69a7228320e79cebab92435ad1ec331c",
+  "_size": 7989,
   "appid": "5076510",
   "common": {
     "aicontenttype": "1",
@@ -41,9 +68,9 @@
     },
     "clienticon": "199cf995d033f14b53d38d3187469a9158275c70",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5076510",
     "genres": {
       "0": "4",
@@ -157,7 +184,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0b49efa5f276e9e293aaf3f12592211518ba3f25/capsule_231x87.jpg",
       "japanese": "1a9d2edbc484757838d2624a98565026a5e1a024/capsule_231x87_japanese.jpg",
@@ -165,6 +192,7 @@
       "schinese": "e4208c4ab4ac628fda3a8f52f8efd4efcce16c23/capsule_231x87_schinese.jpg",
       "tchinese": "db92b891066064fd5f104ac6d280fec8d5a2f277/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1793034045",
     "store_asset_mtime": "1792972737",
     "store_tags": {
       "0": "1084988",
@@ -207,5 +235,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MonmusuRush",
+    "launch": {
+      "0": {
+        "executable": "MonmusuRush.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "0"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5076511": {
+      "manifests": {
+        "debug": {
+          "download": "935679360",
+          "gid": "4894919055194870226",
+          "size": "1414148943"
+        },
+        "public": {
+          "download": "782119408",
+          "gid": "6783828063293635036",
+          "size": "1029706635"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,schinese,tchinese",
+    "branches": {
+      "debug": {
+        "buildid": "24743998",
+        "description": "デバッグ用ビルド",
+        "timebuildupdated": "1786746377",
+        "timeupdated": "1786746508"
+      },
+      "public": {
+        "buildid": "26222164",
+        "timebuildupdated": "1793032380",
+        "timeupdated": "1793032576"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "あとらそふと",
+    "publisher": "あとらそふと"
+  },
+  "ufs": {
+    "maxnumfiles": "12",
+    "quota": "1500000000",
+    "savefiles": {
+      "0": {
+        "path": "MonmusuMaster/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

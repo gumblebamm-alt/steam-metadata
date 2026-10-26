@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1790987721,
-  "_history": [],
-  "_change_number": 39439638,
-  "_missing_token": true,
-  "_sha": "43baea8ee7c87e4940ae3fe2e6f8c35b3c782756",
-  "_size": 3307,
+  "_lastChecked": 1793040169,
+  "_history": [
+    {
+      "buildId": "25688014",
+      "branch": "beta",
+      "timeUpdated": 1790981612,
+      "firstSeen": 1793040169,
+      "manifests": {
+        "5012791": {
+          "gid": "4070867029366298972",
+          "size": 1069060094,
+          "download": 570300608
+        },
+        "5012792": {
+          "gid": "8924477193562572476",
+          "size": 1032975267,
+          "download": 561287696
+        }
+      }
+    },
+    {
+      "buildId": "25688014",
+      "branch": "public",
+      "timeUpdated": 1790983852,
+      "firstSeen": 1793040169,
+      "manifests": {
+        "5012791": {
+          "gid": "4070867029366298972",
+          "size": 1069060094,
+          "download": 570300608
+        },
+        "5012792": {
+          "gid": "8924477193562572476",
+          "size": 1032975267,
+          "download": 561287696
+        }
+      }
+    }
+  ],
+  "_change_number": 40263812,
+  "_missing_token": false,
+  "_sha": "8fb4c5e572f4f867ddbbb9e6a5202f5f502ccf90",
+  "_size": 5289,
   "appid": "5012790",
   "common": {
     "aicontenttype": "1",
@@ -39,9 +76,9 @@
     },
     "clienticon": "d8ce2d99cce3dc03d949640e0040ce1c86efd5c6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5012790",
     "genres": {
       "0": "1",
@@ -113,10 +150,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9a77be928d73012e2630c8c6b0aa539b236c0671/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793032723",
     "store_asset_mtime": "1790984520",
     "store_tags": {
       "0": "42804",
@@ -148,5 +186,104 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DET-33",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DET-33.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "DET-33.x86_64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "game_actions_5012790.vdf"
+  },
+  "depots": {
+    "5012791": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "570300608",
+          "gid": "4070867029366298972",
+          "size": "1069060094"
+        },
+        "public": {
+          "download": "570300608",
+          "gid": "4070867029366298972",
+          "size": "1069060094"
+        }
+      }
+    },
+    "5012792": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "561287696",
+          "gid": "8924477193562572476",
+          "size": "1032975267"
+        },
+        "public": {
+          "download": "561287696",
+          "gid": "8924477193562572476",
+          "size": "1032975267"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "25688014",
+        "description": "beta",
+        "timebuildupdated": "1790981612",
+        "timeupdated": "1790981612"
+      },
+      "public": {
+        "buildid": "25688014",
+        "timebuildupdated": "1790981612",
+        "timeupdated": "1790983852"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Twinspear",
+    "publisher": "Twinspear"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/DET-33",
+        "pattern": "save_data.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "godot/app_userdata/DET-33",
+        "pattern": "save_data.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

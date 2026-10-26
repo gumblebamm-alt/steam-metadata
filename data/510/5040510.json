@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791203952,
-  "_history": [],
-  "_change_number": 39496017,
-  "_missing_token": true,
-  "_sha": "f3b62c13c26c5f7ac6f49781ec89fa1b3f4485b6",
-  "_size": 4642,
+  "_lastChecked": 1793040170,
+  "_history": [
+    {
+      "buildId": "26212671",
+      "branch": "public",
+      "timeUpdated": 1793004645,
+      "firstSeen": 1793040170,
+      "manifests": {
+        "5040511": {
+          "gid": "4273510014297365858",
+          "size": 1024219865,
+          "download": 879377024
+        }
+      }
+    }
+  ],
+  "_change_number": 40249755,
+  "_missing_token": false,
+  "_sha": "e2581e198c2c767b44a6ef554a21b1dc9ed6ff3b",
+  "_size": 5706,
   "appid": "5040510",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +44,7 @@
     },
     "clienticon": "dd6e4cb517caee223593d25f3e5d9e8ad55085d3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -39,7 +54,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5040510",
     "genres": {
       "0": "25"
@@ -123,12 +137,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6e693f9ed604d7504d965fa85bf2c21fd1c11a9b/capsule_231x87.jpg",
       "french": "6e693f9ed604d7504d965fa85bf2c21fd1c11a9b/capsule_231x87_french.jpg",
       "japanese": "6e693f9ed604d7504d965fa85bf2c21fd1c11a9b/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1786652931",
     "store_tags": {
       "0": "1721",
@@ -164,5 +179,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "In Silent Walls  Inside The House",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "InSilentWallsInsideTheHouse.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5040511": {
+      "manifests": {
+        "public": {
+          "download": "879377024",
+          "gid": "4273510014297365858",
+          "size": "1024219865"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26212671",
+        "timebuildupdated": "1793004604",
+        "timeupdated": "1793004645"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hollow Signal Games",
+    "publisher": "Hollow Signal Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "300000000",
+    "savefiles": {
+      "0": {
+        "path": "HollowSignalGames/InSilentWallsInsideTheHouse",
+        "pattern": "inside_the_house_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

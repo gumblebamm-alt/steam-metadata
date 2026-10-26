@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792775338,
-  "_history": [],
-  "_change_number": 40176969,
-  "_missing_token": true,
-  "_sha": "7f101bf1ede8dafe588fbbfa4868a31c5e0cfa9e",
-  "_size": 7616,
+  "_lastChecked": 1793040150,
+  "_history": [
+    {
+      "buildId": "26206229",
+      "branch": "public",
+      "timeUpdated": 1792975607,
+      "firstSeen": 1793040150,
+      "manifests": {
+        "4312191": {
+          "gid": "5430774432381596525",
+          "size": 1807856388,
+          "download": 814857760
+        },
+        "4312192": {
+          "gid": "1255603036654346037",
+          "size": 1806046264,
+          "download": 826094304
+        },
+        "4312193": {
+          "gid": "2689086339142666183",
+          "size": 1809173414,
+          "download": 824977888
+        }
+      }
+    }
+  ],
+  "_change_number": 40265939,
+  "_missing_token": false,
+  "_sha": "2f5f412d4142fce491393a6f4dd08a315ffeb393",
+  "_size": 10349,
   "appid": "4312190",
   "common": {
     "associations": {
@@ -35,9 +59,9 @@
     "clienticns": "b4d4d275d16d7982645c2584cd6ef4024fadd705",
     "clienticon": "326c763316939c0cc9f865a0f2a8eec87de4d8a8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4312190",
     "genres": {
       "0": "25",
@@ -49,6 +73,24 @@
       "tchinese": "bcfa50e8e2605fa4b7b55f25ec44a4e6fabeafb5/header_tchinese.jpg"
     },
     "icon": "7231993f9ebb642d084d4481b826c1a15e28952b",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "latam": "1",
+      "polish": "1",
+      "portuguese": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1",
+      "tchinese": "1",
+      "turkish": "1",
+      "ukrainian": "1"
+    },
     "library_assets": {
       "library_capsule": "en,zh-tw,zh-cn",
       "library_header": "en,zh-tw,zh-cn",
@@ -128,7 +170,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b15bda06f34e27dfacfb1ac5f240d126375de8d4/capsule_231x87.jpg",
       "schinese": "7556b78dfc4f5ba675d8ddae6670be2a69b7eb1c/capsule_231x87_schinese.jpg",
@@ -195,7 +237,8 @@
         }
       }
     },
-    "store_asset_mtime": "1792674056",
+    "steam_release_date": "1793032260",
+    "store_asset_mtime": "1793035661",
     "store_tags": {
       "0": "21",
       "1": "1685",
@@ -287,5 +330,132 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CRACK",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CRACK.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "CRACK.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "CRACK.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4312191": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "814857760",
+          "gid": "5430774432381596525",
+          "size": "1807856388"
+        }
+      }
+    },
+    "4312192": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "826094304",
+          "gid": "1255603036654346037",
+          "size": "1806046264"
+        }
+      }
+    },
+    "4312193": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "824977888",
+          "gid": "2689086339142666183",
+          "size": "1809173414"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26206229",
+        "timebuildupdated": "1792975451",
+        "timeupdated": "1792975607"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Rafoli",
+    "publisher": "Rafoli"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".config/unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "addpath": "/Library/Application Support/",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Rafoli/CRACK/",
+        "pattern": "world_slot*",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Rafoli/CRACK/world_slot0_timelapse",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Rafoli/CRACK/world_slot1_timelapse",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Rafoli/CRACK/world_slot2_timelapse",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

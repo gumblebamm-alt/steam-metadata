@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792644411,
-  "_history": [],
-  "_change_number": 40110325,
-  "_missing_token": true,
-  "_sha": "2ad508167b42de21a05810d1a046c9ed82c46822",
-  "_size": 3502,
+  "_lastChecked": 1793040130,
+  "_history": [
+    {
+      "buildId": "26222938",
+      "branch": "public",
+      "timeUpdated": 1793034412,
+      "firstSeen": 1793040130,
+      "manifests": {
+        "2764821": {
+          "gid": "4103010648028773992",
+          "size": 891319805,
+          "download": 746951488
+        },
+        "2764822": {
+          "gid": "4676114447049803408",
+          "size": 1605765534,
+          "download": 879680368
+        }
+      }
+    }
+  ],
+  "_change_number": 40265465,
+  "_missing_token": false,
+  "_sha": "901fcbbc9b1dd6cffc726d62ecf7b7ad0180748d",
+  "_size": 5986,
   "appid": "2764820",
   "common": {
     "associations": {
@@ -43,7 +62,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "2764820",
     "genres": {
       "0": "1",
@@ -118,7 +136,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "614fd458d7a127061149f58eb7ea860e409248a9/capsule_231x87.jpg"
     },
@@ -152,5 +170,123 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Project Jump Scare",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Windows Version",
+        "description_loc": {
+          "english": "Windows Version"
+        },
+        "executable": "ProjectJumpScare\\Binaries\\Win64\\ProjectJumpScare-Win64-Shipping.exe",
+        "type": "default",
+        "workingdir": "ProjectJumpScare\\Binaries\\Win64"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Mac Version",
+        "description_loc": {
+          "english": "Mac Version"
+        },
+        "executable": "ProjectJumpScare-Mac-Shipping.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2764821": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "746951488",
+          "gid": "4103010648028773992",
+          "size": "891319805"
+        }
+      }
+    },
+    "2764822": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "879680368",
+          "gid": "4676114447049803408",
+          "size": "1605765534"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26222938",
+        "timebuildupdated": "1793034368",
+        "timeupdated": "1793034412"
+      }
+    }
+  },
+  "extended": {
+    "developer": "First Rule Studios LLC",
+    "homepage": "https://www.ProjectJumpScare.com",
+    "publisher": "First Rule Studios LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ProjectJumpScare/Saved/SaveGames",
+            "replace": ".config/Epic/ProjectJumpScare/Saved/SaveGames"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ProjectJumpScare/Saved/SaveGames",
+            "replace": "Library/Containers/com.firstrulestudios.projectjumpscare.mac/Data/Library/Application Support/Epic/ProjectJumpScare/Saved/SaveGames"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ProjectJumpScare/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

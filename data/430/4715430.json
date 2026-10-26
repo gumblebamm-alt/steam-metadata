@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792644433,
-  "_history": [],
-  "_change_number": 40056707,
-  "_missing_token": true,
-  "_sha": "2c986fe5606b3d0641f343f0b3e0a09d7b13173d",
-  "_size": 4167,
+  "_lastChecked": 1793040160,
+  "_history": [
+    {
+      "buildId": "26072845",
+      "branch": "public",
+      "timeUpdated": 1792481547,
+      "firstSeen": 1793040160,
+      "manifests": {
+        "4715431": {
+          "gid": "5824701320989827195",
+          "size": 2224664582,
+          "download": 1869507392
+        }
+      }
+    }
+  ],
+  "_change_number": 40260750,
+  "_missing_token": false,
+  "_sha": "94d9276e87ac05802498aebd58697b13fbdc129c",
+  "_size": 5544,
   "appid": "4715430",
   "common": {
     "associations": {
@@ -26,6 +40,7 @@
     "clienticns": "5222a6de41b04d892e353c0dc05407c62e614b5b",
     "clienticon": "172504406833861774c95e2ace393426fb174c7e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -34,7 +49,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4715430",
     "genres": {
       "0": "25",
@@ -107,10 +121,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3778d29620889fdfe4dfcd67a14ba71a8809c6a3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793028027",
     "store_asset_mtime": "1778900614",
     "store_tags": {
       "0": "3799",
@@ -194,5 +209,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "River Secret",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Run",
+        "description_loc": {
+          "english": "Run"
+        },
+        "executable": "River Secret\\RiverSecret.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Run",
+        "description_loc": {
+          "english": "Run"
+        },
+        "executable": "River Secret\\RiverSecret.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Run",
+        "description_loc": {
+          "english": "Run"
+        },
+        "executable": "River Secret\\RiverSecret.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4715431": {
+      "manifests": {
+        "public": {
+          "download": "1869507392",
+          "gid": "5824701320989827195",
+          "size": "2224664582"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26072845",
+        "timebuildupdated": "1792481362",
+        "timeupdated": "1792481547"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hard2Scream",
+    "publisher": "Hard2Scream"
+  }
 }

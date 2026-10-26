@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792857623,
-  "_history": [],
-  "_change_number": 40192926,
-  "_missing_token": true,
-  "_sha": "5cb6205fc6ac23e53c2afa290761e0c0bfe786ec",
-  "_size": 3288,
+  "_lastChecked": 1793040176,
+  "_history": [
+    {
+      "buildId": "25807395",
+      "branch": "public",
+      "timeUpdated": 1792802558,
+      "firstSeen": 1793040176,
+      "manifests": {
+        "5224911": {
+          "gid": "1359082046722959153",
+          "size": 4182577165,
+          "download": 2078652768
+        }
+      }
+    }
+  ],
+  "_change_number": 40262324,
+  "_missing_token": false,
+  "_sha": "ce701fa20d03025ed342743b9f756b20843b684a",
+  "_size": 4368,
   "appid": "5224910",
   "common": {
     "aicontenttype": "1",
@@ -32,6 +46,7 @@
     },
     "clienticon": "a09f8d9cc84c5d17bc913cc22758fe40e5d7d564",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -40,7 +55,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5224910",
     "genres": {
       "0": "25",
@@ -111,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3a6bd628d1a99414116d349fc8f871ea04e0d636/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793030456",
     "store_asset_mtime": "1792811135",
     "store_tags": {
       "0": "21",
@@ -147,5 +162,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Backwards",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Backwards.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5224911": {
+      "manifests": {
+        "public": {
+          "download": "2078652768",
+          "gid": "1359082046722959153",
+          "size": "4182577165"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25807395",
+        "timebuildupdated": "1791472613",
+        "timeupdated": "1792802558"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Still Mile Studios LLC",
+    "homepage": "https://stillmilestudios.com",
+    "publisher": "Still Mile Studios LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Still Mile Studios LLC/Backwards",
+        "pattern": "BackwardsProgress.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

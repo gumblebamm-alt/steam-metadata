@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792501374,
-  "_history": [],
-  "_change_number": 40033345,
-  "_missing_token": true,
-  "_sha": "14ccf8d516564b20a815dcd226e77ffbdc22b3b8",
-  "_size": 4003,
+  "_lastChecked": 1793040163,
+  "_history": [
+    {
+      "buildId": "26222706",
+      "branch": "public",
+      "timeUpdated": 1793033812,
+      "firstSeen": 1793040163,
+      "manifests": {
+        "4834841": {
+          "gid": "2982338144863242187",
+          "size": 1567987080,
+          "download": 1490454544
+        },
+        "5418140": {
+          "gid": "6378747162454838028",
+          "size": 8587409755,
+          "download": 8530893136
+        },
+        "5418150": {
+          "gid": "103505090348005989",
+          "size": 130641689,
+          "download": 36287264
+        }
+      }
+    }
+  ],
+  "_change_number": 40266797,
+  "_missing_token": false,
+  "_sha": "436a375e3323e93ed3695a74e7f6a54c09967538",
+  "_size": 6945,
   "appid": "4834840",
   "common": {
     "associations": {
@@ -37,6 +61,7 @@
     },
     "clienticon": "02cf80cbf22251b0ef098ae26ee98429e7fb7a10",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -49,7 +74,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4834840",
     "genres": {
       "0": "1",
@@ -59,6 +83,18 @@
       "english": "17aba8526e3eb715c45c89ca8a43637963f8b20b/header.jpg"
     },
     "icon": "02cf80cbf22251b0ef098ae26ee98429e7fb7a10",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "japanese": "1",
+      "polish": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -120,10 +156,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0116597fdbef85d98817862dd28d786e566eedbc/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793036467",
     "store_asset_mtime": "1792430601",
     "store_tags": {
       "0": "3834",
@@ -191,5 +228,127 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Ecstatica",
+    "launch": {
+      "0": {
+        "executable": "Ecstatica.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-noconsole -conf \"ecstatica-1-base.conf\" -conf \"ecstatica-1-graphics.conf\" -conf \"ecstatica-1-game-combined.conf\"",
+        "config": {
+          "oslist": "windows",
+          "ownsdlc": "5418150"
+        },
+        "description": "Play Original Game (DOSBox)",
+        "description_loc": {
+          "english": "Play Original Game (DOSBox)"
+        },
+        "executable": "DOSBox/DOSBOX/DOSBox.exe",
+        "workingdir": "DOSBox"
+      },
+      "2": {
+        "arguments": "-conf ecstatica-1-graphics.conf",
+        "config": {
+          "oslist": "windows",
+          "ownsdlc": "5418150"
+        },
+        "description": "Configure Original Game Graphics (DOSBox)",
+        "description_loc": {
+          "english": "Configure Original Game Graphics (DOSBox)"
+        },
+        "executable": "DOSBox/DOSBOX/ConfigTool.exe",
+        "type": "config",
+        "workingdir": "DOSBox"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65524",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4834841": {
+      "manifests": {
+        "public": {
+          "download": "1490454544",
+          "gid": "2982338144863242187",
+          "size": "1567987080"
+        }
+      }
+    },
+    "5418140": {
+      "config": {
+        "optionaldlc": "5418140"
+      },
+      "dlcappid": "5418140",
+      "manifests": {
+        "public": {
+          "download": "8530893136",
+          "gid": "6378747162454838028",
+          "size": "8587409755"
+        }
+      }
+    },
+    "5418150": {
+      "config": {
+        "optionaldlc": "5418150"
+      },
+      "dlcappid": "5418150",
+      "manifests": {
+        "public": {
+          "download": "36287264",
+          "gid": "103505090348005989",
+          "size": "130641689"
+        }
+      }
+    },
+    "appmanagesdlc": "1",
+    "branches": {
+      "public": {
+        "buildid": "26222706",
+        "timebuildupdated": "1793033744",
+        "timeupdated": "1793033812"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Andrew Spencer Studios",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5418140,5418150",
+    "publisher": "SNEG"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "8388608",
+    "savefiles": {
+      "0": {
+        "path": "SNEG/Ecstatica/Save Slots",
+        "pattern": "000*.ecs",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "SNEG/Ecstatica",
+        "pattern": "controls.bin",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "SNEG/Ecstatica",
+        "pattern": "settings.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "SNEG/Ecstatica",
+        "pattern": "store.bin",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "SNEG/Ecstatica/Save Slots",
+        "pattern": "000*.png",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

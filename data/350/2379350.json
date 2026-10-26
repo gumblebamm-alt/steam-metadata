@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1792989932,
-  "_history": [],
-  "_change_number": 40240316,
-  "_missing_token": true,
-  "_sha": "2664a1960449fedb2e2c4890b1f8948041854f86",
-  "_size": 4548,
+  "_lastChecked": 1793040128,
+  "_history": [
+    {
+      "buildId": "26222346",
+      "branch": "playtest",
+      "timeUpdated": 1793035317,
+      "firstSeen": 1793040128,
+      "manifests": {
+        "2379351": {
+          "gid": "5740013780987003714",
+          "size": 15607224975,
+          "download": 11638701744
+        },
+        "2379352": {
+          "gid": "3744489666311498625",
+          "size": 15775760239,
+          "download": 11759611664
+        }
+      }
+    },
+    {
+      "buildId": "26222346",
+      "branch": "public",
+      "timeUpdated": 1793035344,
+      "firstSeen": 1793040128,
+      "manifests": {
+        "2379351": {
+          "gid": "5740013780987003714",
+          "size": 15607224975,
+          "download": 11638701744
+        },
+        "2379352": {
+          "gid": "3744489666311498625",
+          "size": 15775760239,
+          "download": 11759611664
+        }
+      }
+    }
+  ],
+  "_change_number": 40268172,
+  "_missing_token": false,
+  "_sha": "ead77129484078a7ea16246fe9154d5e1a90a593",
+  "_size": 7168,
   "appid": "2379350",
   "common": {
     "associations": {
@@ -46,9 +83,9 @@
     "clienticon": "7669521168dffbc56d314ff1b43c3f156b9e5b45",
     "clienttga": "63bfa58c4d6d9a8ec1d36ebeea52da44cbd9397f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2379350",
     "genres": {
       "0": "1",
@@ -129,10 +166,13 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "75",
+    "review_score": "6",
     "small_capsule": {
       "english": "911bd591ad9d21f7f9a7e189faeb883e815a0d57/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793033796",
     "store_asset_mtime": "1792963200",
     "store_tags": {
       "0": "3843",
@@ -209,5 +249,124 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "ScrambleKnights",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Scramble Knights Online (Linux)",
+        "description_loc": {
+          "english": "Scramble Knights Online (Linux)"
+        },
+        "executable": "Game\\eac_launcher",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Scramble Knights Online (Windows)",
+        "description_loc": {
+          "english": "Scramble Knights Online (Windows)"
+        },
+        "executable": "ScrambleKnightsBootstrapper.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2379351": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "playtest": {
+          "download": "11638701744",
+          "gid": "5740013780987003714",
+          "size": "15607224975"
+        },
+        "public": {
+          "download": "11638701744",
+          "gid": "5740013780987003714",
+          "size": "15607224975"
+        }
+      }
+    },
+    "2379352": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "playtest": {
+          "download": "11759611664",
+          "gid": "3744489666311498625",
+          "size": "15775760239"
+        },
+        "public": {
+          "download": "11759611664",
+          "gid": "3744489666311498625",
+          "size": "15775760239"
+        }
+      }
+    },
+    "branches": {
+      "playtest": {
+        "buildid": "26222346",
+        "description": "playtesting early builds",
+        "timebuildupdated": "1793032824",
+        "timeupdated": "1793035317"
+      },
+      "public": {
+        "buildid": "26222346",
+        "timebuildupdated": "1793032824",
+        "timeupdated": "1793035344"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "1",
+    "anti_cheat_support_url": "https://www.easy.ac/r/steam/gamebans/?steamAppId=2379350",
+    "deckresolutionoverride": "1920x1080",
+    "developer": "Funktronic Labs",
+    "homepage": "https://scrambleknights.com",
+    "publisher": "Funktronic Labs"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "saves/{64BitSteamID}/",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

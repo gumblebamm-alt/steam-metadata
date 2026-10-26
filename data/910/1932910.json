@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792989931,
-  "_history": [],
-  "_change_number": 40242464,
-  "_missing_token": true,
-  "_sha": "115abffa095ea4b713175f37b4438ced01e53fc6",
-  "_size": 9978,
+  "_lastChecked": 1793040125,
+  "_history": [
+    {
+      "buildId": "26203451",
+      "branch": "public",
+      "timeUpdated": 1792962201,
+      "firstSeen": 1793040125,
+      "manifests": {
+        "1932911": {
+          "gid": "1849785631140342458",
+          "size": 176313523,
+          "download": 47396240
+        },
+        "1932912": {
+          "gid": "7803082796425982733",
+          "size": 209618695,
+          "download": 55156704
+        }
+      }
+    }
+  ],
+  "_change_number": 40257599,
+  "_missing_token": false,
+  "_sha": "0e4c5883a1626b57b8323f704d195a960750b477",
+  "_size": 11634,
   "appid": "1932910",
   "common": {
     "associations": {
@@ -38,8 +57,8 @@
     "clienticon": "d0000d19bee7907da0908f477ce4d34e75c48ec4",
     "clienttga": "6efdf3b56e580103c457b354e496f063a6a03dcd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1932910",
     "genres": {
       "0": "4",
@@ -174,7 +193,9 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "95",
+    "review_score": "7",
     "small_capsule": {
       "english": "df129bad035cbbbb07c54113e347420a72386a63/capsule_231x87.jpg",
       "japanese": "53df794eae977a011fe3b067b6334cea65a40113/capsule_231x87_japanese.jpg",
@@ -243,7 +264,8 @@
         }
       }
     },
-    "store_asset_mtime": "1788511159",
+    "steam_release_date": "1793007944",
+    "store_asset_mtime": "1793008003",
     "store_tags": {
       "0": "9",
       "1": "4328",
@@ -312,5 +334,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cardopolis",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Cardopolis.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Cardopolis.app",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "1932911": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "47396240",
+          "gid": "1849785631140342458",
+          "size": "176313523"
+        }
+      }
+    },
+    "1932912": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "55156704",
+          "gid": "7803082796425982733",
+          "size": "209618695"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26203451",
+        "timebuildupdated": "1792962201",
+        "timeupdated": "1792962201"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "PULSERIDER",
+    "homepage": "https://pulserider.dev/",
+    "publisher": "Rogue Duck Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "3",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "PULSERIDER/Cardopolis",
+            "replace": "PULSERIDER/Cardopolis"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "PULSERIDER/Cardopolis",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

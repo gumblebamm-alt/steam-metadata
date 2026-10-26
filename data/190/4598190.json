@@ -1,57 +1,39 @@
 {
-  "_lastChecked": 1792241292,
+  "_lastChecked": 1793040157,
   "_history": [
     {
-      "buildId": "25170903",
+      "buildId": "26218016",
       "branch": "public",
-      "timeUpdated": 1788798040,
-      "firstSeen": 1788879116,
+      "timeUpdated": 1793022789,
+      "firstSeen": 1793040157,
       "manifests": {
         "4598191": {
-          "gid": "5838533159748108981",
-          "size": 1439904023,
-          "download": 319850304
+          "gid": "2550752049529056242",
+          "size": 1439991885,
+          "download": 319868656
         },
         "4598192": {
-          "gid": "2846118412936172894",
-          "size": 1458504890,
-          "download": 329194304
+          "gid": "4284368049421532137",
+          "size": 1458592176,
+          "download": 329213776
         }
       }
     },
     {
-      "buildId": "25255083",
+      "buildId": "25322535",
       "branch": "public",
-      "timeUpdated": 1789135570,
-      "firstSeen": 1789140920,
+      "timeUpdated": 1789475239,
+      "firstSeen": 1789478728,
       "manifests": {
         "4598191": {
-          "gid": "3531897397605738512",
-          "size": 1439922951,
-          "download": 319854960
+          "gid": "1263582077056350494",
+          "size": 1439928103,
+          "download": 319856016
         },
         "4598192": {
-          "gid": "3782342533657869678",
-          "size": 1458523818,
-          "download": 329199008
-        }
-      }
-    },
-    {
-      "buildId": "25283393",
-      "branch": "public",
-      "timeUpdated": 1789306882,
-      "firstSeen": 1789309839,
-      "manifests": {
-        "4598191": {
-          "gid": "4522807094868788058",
-          "size": 1439924471,
-          "download": 319856000
-        },
-        "4598192": {
-          "gid": "1494227206681255056",
-          "size": 1458525338,
-          "download": 329199888
+          "gid": "8013808699926455919",
+          "size": 1458528970,
+          "download": 329199872
         }
       }
     },
@@ -74,28 +56,46 @@
       }
     },
     {
-      "buildId": "25322535",
+      "buildId": "25283393",
       "branch": "public",
-      "timeUpdated": 1789475239,
-      "firstSeen": 1789478728,
+      "timeUpdated": 1789306882,
+      "firstSeen": 1789309839,
       "manifests": {
         "4598191": {
-          "gid": "1263582077056350494",
-          "size": 1439928103,
-          "download": 319856016
+          "gid": "4522807094868788058",
+          "size": 1439924471,
+          "download": 319856000
         },
         "4598192": {
-          "gid": "8013808699926455919",
-          "size": 1458528970,
-          "download": 329199872
+          "gid": "1494227206681255056",
+          "size": 1458525338,
+          "download": 329199888
+        }
+      }
+    },
+    {
+      "buildId": "25255083",
+      "branch": "public",
+      "timeUpdated": 1789135570,
+      "firstSeen": 1789140920,
+      "manifests": {
+        "4598191": {
+          "gid": "3531897397605738512",
+          "size": 1439922951,
+          "download": 319854960
+        },
+        "4598192": {
+          "gid": "3782342533657869678",
+          "size": 1458523818,
+          "download": 329199008
         }
       }
     }
   ],
-  "_change_number": 38895081,
+  "_change_number": 40257381,
   "_missing_token": false,
-  "_sha": "40c60bd5027c9766485e61a739099a96d0f7bed2",
-  "_size": 5420,
+  "_sha": "2b5867e70a99fc4193a1ff57c7f69c5abeca05e5",
+  "_size": 6364,
   "appid": "4598190",
   "common": {
     "associations": {
@@ -201,8 +201,6 @@
     "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "100",
-    "review_score": "7",
     "small_capsule": {
       "english": "c6ab39dc3785fc5c5def078323524044e7a2b8ab/capsule_231x87.jpg"
     },
@@ -231,6 +229,9 @@
       "9": "560542"
     },
     "supported_languages": {
+      "brazilian": {
+        "supported": "true"
+      },
       "english": {
         "supported": "true"
       },
@@ -247,9 +248,6 @@
         "supported": "true"
       },
       "koreana": {
-        "supported": "true"
-      },
-      "portuguese": {
         "supported": "true"
       },
       "russian": {
@@ -281,6 +279,54 @@
           "oslist": "macos"
         },
         "executable": "Fill The Void.app"
+      },
+      "2": {
+        "arguments": "-windowed",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Windowed",
+        "description_loc": {
+          "english": "Windowed"
+        },
+        "executable": "Fill The Void.exe",
+        "type": "option1"
+      },
+      "3": {
+        "arguments": "-windowed",
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Windowed",
+        "description_loc": {
+          "english": "Windowed"
+        },
+        "executable": "Fill The Void.app",
+        "type": "option1"
+      },
+      "4": {
+        "arguments": "-fullscreen",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Fullscreen",
+        "description_loc": {
+          "english": "Fullscreen"
+        },
+        "executable": "Fill The Void.exe",
+        "type": "option2"
+      },
+      "5": {
+        "arguments": "-fullscreen",
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Fullscreen",
+        "description_loc": {
+          "english": "Fullscreen"
+        },
+        "executable": "Fill The Void.app",
+        "type": "option2"
       }
     }
   },
@@ -291,9 +337,9 @@
       },
       "manifests": {
         "public": {
-          "download": "319856016",
-          "gid": "1263582077056350494",
-          "size": "1439928103"
+          "download": "319868656",
+          "gid": "2550752049529056242",
+          "size": "1439991885"
         }
       }
     },
@@ -303,18 +349,18 @@
       },
       "manifests": {
         "public": {
-          "download": "329199872",
-          "gid": "8013808699926455919",
-          "size": "1458528970"
+          "download": "329213776",
+          "gid": "4284368049421532137",
+          "size": "1458592176"
         }
       }
     },
     "baselanguages": "english,french,german,italian,japanese,koreana,russian,schinese,spanish",
     "branches": {
       "public": {
-        "buildid": "25322535",
-        "timebuildupdated": "1789475133",
-        "timeupdated": "1789475239"
+        "buildid": "26218016",
+        "timebuildupdated": "1793021973",
+        "timeupdated": "1793022789"
       }
     },
     "workshopdepot": "4598190"

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792816684,
-  "_history": [],
-  "_change_number": 40163884,
-  "_missing_token": true,
-  "_sha": "ca990f64d778d854238930334748d407389faba5",
-  "_size": 3783,
+  "_lastChecked": 1793040175,
+  "_history": [
+    {
+      "buildId": "26223651",
+      "branch": "public",
+      "timeUpdated": 1793036213,
+      "firstSeen": 1793040175,
+      "manifests": {
+        "5179421": {
+          "gid": "1933394210360852850",
+          "size": 2133516464,
+          "download": 1696518080
+        }
+      }
+    }
+  ],
+  "_change_number": 40266311,
+  "_missing_token": false,
+  "_sha": "22ac550b5c4f7d924908b93c0112ea4c9832ccfc",
+  "_size": 5179,
   "appid": "5179420",
   "common": {
     "associations": {
@@ -38,6 +52,7 @@
     "clienticns": "7b31b9e43b4bff801c95b39e23cc6b1b914fcceb",
     "clienticon": "7b31b9e43b4bff801c95b39e23cc6b1b914fcceb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -48,7 +63,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5179420",
     "genres": {
       "0": "23"
@@ -119,10 +133,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bc97c6d315e1f52a6e57a159de60589103eb9ac9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793430000",
     "store_asset_mtime": "1789077202",
     "store_tags": {
       "0": "3843",
@@ -175,5 +190,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Project Screams",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ProjectScreams.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5179421": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1696518080",
+          "gid": "1933394210360852850",
+          "size": "2133516464"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26223651",
+        "timebuildupdated": "1793036133",
+        "timeupdated": "1793036213"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "The Aura Farming Games",
+    "publisher": "The Aura Farming Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "ProjectScreams/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "ProjectScreams/Config",
+        "pattern": "UserSettings.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    }
+  }
 }

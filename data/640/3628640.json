@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792603005,
-  "_history": [],
-  "_change_number": 40094462,
-  "_missing_token": true,
-  "_sha": "ffd7b0d7408d89500af943d2641ce8c11854ff0d",
-  "_size": 3700,
+  "_lastChecked": 1793040139,
+  "_history": [
+    {
+      "buildId": "26209676",
+      "branch": "public",
+      "timeUpdated": 1792991457,
+      "firstSeen": 1793040139,
+      "manifests": {
+        "3628641": {
+          "gid": "8028121948563757937",
+          "size": 520591728,
+          "download": 435329648
+        },
+        "3628642": {
+          "gid": "1272045875499757211",
+          "size": 520591728,
+          "download": 434391840
+        },
+        "3628643": {
+          "gid": "3370818008270417890",
+          "size": 507991950,
+          "download": 428877376
+        }
+      }
+    }
+  ],
+  "_change_number": 40244337,
+  "_missing_token": false,
+  "_sha": "50a1fac09d4deb31ac486402834080e193f240e2",
+  "_size": 5025,
   "appid": "3628640",
   "common": {
     "aicontenttype": "1",
@@ -27,6 +51,7 @@
     "clienticon": "775f7233fa1e04ed71a2ce9906502576e35d831d",
     "clienttga": "a4cf5c2b34cfbe0b408b2143cb233f95915e1269",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -36,7 +61,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3628640",
     "genres": {
       "0": "25",
@@ -117,11 +141,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "dbc381e630244a0391ee89ead59d72fa7b5cb5d0/capsule_231x87.jpg",
       "sc_schinese": "59ec1338d4a0a6e48b5ec1032bcc3e37fd2ad30c/capsule_231x87_sc_schinese.jpg"
     },
+    "steam_release_date": "1792992375",
     "store_asset_mtime": "1792599278",
     "store_tags": {
       "0": "1721",
@@ -164,5 +189,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Marked Souls",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MarkedSouls.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "MarkedSouls.sh"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MarkedSouls.app"
+      }
+    }
+  },
+  "depots": {
+    "3628641": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "435329648",
+          "gid": "8028121948563757937",
+          "size": "520591728"
+        }
+      }
+    },
+    "3628642": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "434391840",
+          "gid": "1272045875499757211",
+          "size": "520591728"
+        }
+      }
+    },
+    "3628643": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "428877376",
+          "gid": "3370818008270417890",
+          "size": "507991950"
+        }
+      }
+    },
+    "baselanguages": "english,german,russian,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26209676",
+        "timebuildupdated": "1792991257",
+        "timeupdated": "1792991457"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Marked Boy",
+    "publisher": "Marked Boy"
+  }
 }

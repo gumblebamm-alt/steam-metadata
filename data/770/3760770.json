@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792644418,
-  "_history": [],
-  "_change_number": 40068245,
-  "_missing_token": true,
-  "_sha": "e5e3b4596c1c52d0a7642ef5c58e1a9af9adcb31",
-  "_size": 4582,
+  "_lastChecked": 1793040141,
+  "_history": [
+    {
+      "buildId": "26199590",
+      "branch": "public",
+      "timeUpdated": 1792945478,
+      "firstSeen": 1793040141,
+      "manifests": {
+        "3760771": {
+          "gid": "3484576530071185881",
+          "size": 1581004002,
+          "download": 1420516928
+        }
+      }
+    }
+  ],
+  "_change_number": 40267165,
+  "_missing_token": false,
+  "_sha": "23275765fbf0b00fbea873b05e52d88c95329ae4",
+  "_size": 5726,
   "appid": "3760770",
   "common": {
     "associations": {
@@ -27,8 +41,8 @@
     "clienticon": "400b12ef17489d3b2a71d1b1e21a6b07c269af30",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3760770",
     "genres": {
       "0": "4",
@@ -118,11 +132,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6f0c619bccf6d3f66d99315cb01b8d33bb0e21fd/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/3760770/discussions/0/597402406560488938/",
+    "steam_release_date": "1793037640",
     "store_asset_mtime": "1790571746",
     "store_tags": {
       "0": "3871",
@@ -211,5 +226,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Space Savory",
+    "launch": {
+      "0": {
+        "executable": "SpaceSavoryMain.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3760771": {
+      "manifests": {
+        "public": {
+          "download": "1420516928",
+          "gid": "3484576530071185881",
+          "size": "1581004002"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26199590",
+        "timebuildupdated": "1792945456",
+        "timeupdated": "1792945478"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": " DelusionArt Studio",
+    "homepage": "https://www.delusionartstudio.com/",
+    "publisher": " DelusionArt Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "SpaceSavoryMain/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

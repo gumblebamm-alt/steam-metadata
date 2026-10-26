@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792644433,
-  "_history": [],
-  "_change_number": 40101056,
-  "_missing_token": true,
-  "_sha": "7ec085c97868a4c7a62b94bd75668cdef1b1fc04",
-  "_size": 3982,
+  "_lastChecked": 1793040160,
+  "_history": [
+    {
+      "buildId": "26224969",
+      "branch": "public",
+      "timeUpdated": 1793039966,
+      "firstSeen": 1793040160,
+      "manifests": {
+        "4719391": {
+          "gid": "27514550293416962",
+          "size": 3199899788,
+          "download": 2956737776
+        }
+      }
+    }
+  ],
+  "_change_number": 40268477,
+  "_missing_token": false,
+  "_sha": "16b1c1c3dc83b809ca6a6566c8678c0a82b2f512",
+  "_size": 5127,
   "appid": "4719390",
   "common": {
     "aicontenttype": "1",
@@ -31,6 +45,7 @@
     },
     "clienticon": "485513943516c5f918398a7b4ede045064af043a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -40,7 +55,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4719390",
     "genres": {
       "0": "23",
@@ -125,11 +139,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8e932d33ae0db59a5e8e4e44a39842b6db82a737/capsule_231x87.jpg",
       "russian": "5338de78dda9dd33fa76daa79b496f4517223e14/capsule_231x87_russian.jpg"
     },
+    "steam_release_date": "1793019741",
     "store_asset_mtime": "1792611693",
     "store_tags": {
       "0": "599",
@@ -161,5 +176,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "GameChange",
+    "launch": {
+      "0": {
+        "executable": "GameChange.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4719391": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2956737776",
+          "gid": "27514550293416962",
+          "size": "3199899788"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "26224969",
+        "timebuildupdated": "1793039860",
+        "timeupdated": "1793039966"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Zarya61",
+    "homepage": "https://zarya61.ru/",
+    "publisher": "Zarya61"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "GameChange/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

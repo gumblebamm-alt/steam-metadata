@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792945190,
-  "_history": [],
-  "_change_number": 40067642,
-  "_missing_token": true,
-  "_sha": "dcfc37aaff5a148ba2744ca5d2a504e6b19ddf45",
-  "_size": 3349,
+  "_lastChecked": 1793040137,
+  "_history": [
+    {
+      "buildId": "26223004",
+      "branch": "public",
+      "timeUpdated": 1793034524,
+      "firstSeen": 1793040137,
+      "manifests": {
+        "3460541": {
+          "gid": "5612410248615453022",
+          "size": 4795302170,
+          "download": 1742240080
+        }
+      }
+    }
+  ],
+  "_change_number": 40266682,
+  "_missing_token": false,
+  "_sha": "84aff5ca48f37a3a61e6db3c02e05fe3a1b3ed85",
+  "_size": 4962,
   "appid": "3460540",
   "common": {
     "associations": {
@@ -31,11 +45,11 @@
       "category_62": "1",
       "category_9": "1"
     },
-    "clienticon": "9114e028c4e5817eefbc45dc21396376a78cd98e",
+    "clienticon": "d38df4a5fec22bfee74028f2092a458262a4a760",
     "clienttga": "f2b288141585db4efaef3a75f98593abfe7db007",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3460540",
     "genres": {
       "0": "23",
@@ -45,7 +59,7 @@
     "header_image": {
       "english": "85336a2b659dfef0ea72c32450c2730b2b9225dd/header.jpg"
     },
-    "icon": "2211ac6b85e335bb54de69b62d211d2c1e72f5bb",
+    "icon": "b3a6c3a43dd813b6a5ce982ca6ea05d205c69a68",
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "270cca717eb0a272f2946b1aee6b8daf45cc7db3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793036875",
     "store_asset_mtime": "1792547542",
     "store_tags": {
       "0": "1091588",
@@ -153,5 +168,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cardtographer",
+    "launch": {
+      "0": {
+        "executable": "Cardtographer.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3460541": {
+      "manifests": {
+        "public": {
+          "download": "1742240080",
+          "gid": "5612410248615453022",
+          "size": "4795302170"
+        }
+      }
+    },
+    "3460542": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26223004",
+        "timebuildupdated": "1793034514",
+        "timeupdated": "1793034524"
+      }
+    }
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "Tistic Games",
+    "homepage": "https://tistic-games.com/",
+    "publisher": "Tistic Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10239996",
+    "rootoverrides": {
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "2": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Tistic Games/Cardtographer/",
+        "pattern": "*.cgs",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Tistic Games/Cardtographer/",
+        "pattern": "*.CardtographerUser",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Tistic Games/Cardtographer/",
+        "pattern": "*.pref",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

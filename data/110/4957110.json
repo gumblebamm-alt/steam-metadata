@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791203949,
+  "_lastChecked": 1793040167,
   "_history": [
     {
       "buildId": "24888125",
@@ -26,12 +26,25 @@
           "download": 619948336
         }
       }
+    },
+    {
+      "buildId": "26222930",
+      "branch": "public",
+      "timeUpdated": 1793034499,
+      "firstSeen": 1793040167,
+      "manifests": {
+        "4957111": {
+          "gid": "6213678468167126147",
+          "size": 1519199864,
+          "download": 638526496
+        }
+      }
     }
   ],
-  "_change_number": 39498245,
+  "_change_number": 40265192,
   "_missing_token": false,
-  "_sha": "b746050eb7096b54f6628a733d559cec9950fe29",
-  "_size": 4019,
+  "_sha": "d5926afe214491a21c94518d1acc436e17bc6f40",
+  "_size": 6236,
   "appid": "4957110",
   "common": {
     "aicontenttype": "1",
@@ -48,6 +61,7 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "clienticon": "c9ac9bcf1c3bd698352e6eb7afd2f169bfa34e20",
@@ -127,17 +141,86 @@
     "oslist": "windows",
     "primary_genre": "37",
     "releasestate": "released",
-    "review_percentage": "96",
+    "review_percentage": "97",
     "review_score": "9",
     "small_capsule": {
       "english": "c6de1ede9cf87ceac56fc8181149131b919a30b1/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1791570408",
+      "tested_build_id": "25693904",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      }
     },
     "steam_release_date": "1786452725",
     "store_asset_mtime": "1786428074",
     "store_tags": {
       "0": "1716",
       "1": "19",
-      "10": "3959",
+      "10": "113",
       "11": "492",
       "12": "493",
       "13": "4975",
@@ -151,11 +234,19 @@
       "6": "597",
       "7": "4231",
       "8": "4885",
-      "9": "113"
+      "9": "3959"
     },
     "supported_languages": {
+      "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "schinese": {
         "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "tchinese": {
         "subtitles": "true",
         "supported": "true"
       }
@@ -177,17 +268,18 @@
     "4957111": {
       "manifests": {
         "public": {
-          "download": "619948336",
-          "gid": "4504123705188864107",
-          "size": "1437095324"
+          "download": "638526496",
+          "gid": "6213678468167126147",
+          "size": "1519199864"
         }
       }
     },
+    "baselanguages": "english,schinese,tchinese",
     "branches": {
       "public": {
-        "buildid": "25693904",
-        "timebuildupdated": "1791016407",
-        "timeupdated": "1791016872"
+        "buildid": "26222930",
+        "timebuildupdated": "1793034350",
+        "timeupdated": "1793034499"
       }
     },
     "privatebranches": "1"

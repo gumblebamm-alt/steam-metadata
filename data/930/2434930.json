@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792689368,
-  "_history": [],
-  "_change_number": 40127139,
-  "_missing_token": true,
-  "_sha": "66492fbafa558e40379149f23244f714492f7f6d",
-  "_size": 2765,
+  "_lastChecked": 1793040128,
+  "_history": [
+    {
+      "buildId": "26222757",
+      "branch": "public",
+      "timeUpdated": 1793033887,
+      "firstSeen": 1793040128,
+      "manifests": {
+        "2434931": {
+          "gid": "488469957548043879",
+          "size": 2661528152,
+          "download": 877748384
+        },
+        "2434932": {
+          "gid": "3537443060930649589",
+          "size": 2821875655,
+          "download": 961635808
+        }
+      }
+    }
+  ],
+  "_change_number": 40264797,
+  "_missing_token": false,
+  "_sha": "a9e05a23ef7c4c50f2fcff8f52b04d9bd1757eb4",
+  "_size": 4652,
   "appid": "2434930",
   "common": {
     "associations": {
@@ -32,6 +51,7 @@
     "clienticon": "ffdf11343724828980c3d7db46ab36546383439b",
     "clienttga": "8b7450f51dcb2c6e2c626ed1d8b232edb3990779",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -39,7 +59,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2434930",
     "genres": {
       "0": "1",
@@ -104,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1c027df56a0db97a46d6593f0db48abd52ddbe6d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793034045",
     "store_asset_mtime": "1791733410",
     "store_tags": {
       "0": "1667",
@@ -140,5 +160,101 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BlueRidgeHunting",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BlueRidgeHunting.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "BlueRidgeHunting.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2434931": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "877748384",
+          "gid": "488469957548043879",
+          "size": "2661528152"
+        }
+      }
+    },
+    "2434932": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "961635808",
+          "gid": "3537443060930649589",
+          "size": "2821875655"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26222757",
+        "timebuildupdated": "1793033871",
+        "timeupdated": "1793033887"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Jade Meadows",
+    "homepage": "https://blueridgehunting.com",
+    "publisher": "Jade &amp; Company"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Jade Meadows/BlueRidgeHunting",
+        "pattern": "*.dat",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Jade Meadows/BlueRidgeHunting",
+        "pattern": "*.png",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

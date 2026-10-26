@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792989961,
-  "_history": [],
-  "_change_number": 40229708,
-  "_missing_token": true,
-  "_sha": "30fdfa1cb00790012dbd3c55324f6ce5a50692e1",
-  "_size": 3885,
+  "_lastChecked": 1793040169,
+  "_history": [
+    {
+      "buildId": "26219501",
+      "branch": "public",
+      "timeUpdated": 1793026571,
+      "firstSeen": 1793040169,
+      "manifests": {
+        "5000551": {
+          "gid": "1027397407498344711",
+          "size": 446671412,
+          "download": 272202832
+        },
+        "5000552": {
+          "gid": "3507092904950757012",
+          "size": 432131172,
+          "download": 266200720
+        },
+        "5000553": {
+          "gid": "1299424407177674617",
+          "size": 347056560,
+          "download": 238195120
+        }
+      }
+    }
+  ],
+  "_change_number": 40260029,
+  "_missing_token": false,
+  "_sha": "3f73fa99b291b9dc81ac2517c41a2861e42eabfd",
+  "_size": 6405,
   "appid": "5000550",
   "common": {
     "associations": {
@@ -48,9 +72,9 @@
     "clienticns": "8a63e866db4997dec443bc503fada3a922d3ec51",
     "clienticon": "e0f97ca1ed2a2e09bc46ecbc0b1ef344bd0067de",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5000550",
     "genres": {
       "0": "4",
@@ -127,10 +151,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "089735782235429b47e3796ec1f26edb39e3c12b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793026850",
     "store_asset_mtime": "1791500740",
     "store_tags": {
       "0": "699",
@@ -173,5 +198,129 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Nitro Nonsense",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "NitroNonsense.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Nitro Nonsense.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "NitroNonsense.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam/input_manifest.vdf"
+  },
+  "depots": {
+    "5000551": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "272202832",
+          "gid": "1027397407498344711",
+          "size": "446671412"
+        }
+      }
+    },
+    "5000552": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "266200720",
+          "gid": "3507092904950757012",
+          "size": "432131172"
+        }
+      }
+    },
+    "5000553": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "238195120",
+          "gid": "1299424407177674617",
+          "size": "347056560"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26219501",
+        "timebuildupdated": "1793025974",
+        "timeupdated": "1793026571"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1",
+    "workshopdepot": "5000550"
+  },
+  "extended": {
+    "developer": "Laggy Lobster",
+    "homepage": "https://nitrononsense.com",
+    "publisher": "Laggy Lobster"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Nitro Nonsense/tracks",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Nitro Nonsense/home",
+        "pattern": "mine.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Nitro Nonsense/liveries",
+        "pattern": "*.png",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Nitro Nonsense/liveries",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

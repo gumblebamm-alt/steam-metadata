@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792198530,
-  "_history": [],
-  "_change_number": 39855753,
-  "_missing_token": true,
-  "_sha": "6885f045fcf9144293f3af1b3ab49e4c58ea5c41",
-  "_size": 4295,
+  "_lastChecked": 1793040160,
+  "_history": [
+    {
+      "buildId": "25853002",
+      "branch": "public",
+      "timeUpdated": 1791652242,
+      "firstSeen": 1793040160,
+      "manifests": {
+        "4704521": {
+          "gid": "4596653076751839553",
+          "size": 474775953,
+          "download": 149296688
+        },
+        "4704522": {
+          "gid": "3416074429685731630",
+          "size": 586674935,
+          "download": 176895344
+        }
+      }
+    }
+  ],
+  "_change_number": 40266868,
+  "_missing_token": false,
+  "_sha": "3854a20a81aabc8dd0c389bcfec7bbd24da223b4",
+  "_size": 6067,
   "appid": "4704520",
   "common": {
     "associations": {
@@ -29,9 +48,9 @@
     },
     "clienticon": "aede8af75c240c03385e382e4dc4b6bd520f03e5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4704520",
     "genres": {
       "0": "4",
@@ -120,10 +139,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fffe895f9ff83764fd437188ea0e7d93fe0d6848/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793034265",
     "store_asset_mtime": "1783632208",
     "store_tags": {
       "0": "560542",
@@ -140,8 +160,8 @@
       "2": "9",
       "3": "1084988",
       "4": "615955",
-      "5": "1654",
-      "6": "1659",
+      "5": "1659",
+      "6": "1654",
       "7": "3835",
       "8": "492",
       "9": "5851"
@@ -206,5 +226,99 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Shreddead",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ShredDead.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ShredDead.app"
+      }
+    },
+    "steamcontrollerconfigdetails": {
+      "3800845787": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4704521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "149296688",
+          "gid": "4596653076751839553",
+          "size": "474775953"
+        }
+      }
+    },
+    "4704522": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "176895344",
+          "gid": "3416074429685731630",
+          "size": "586674935"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25853002",
+        "timebuildupdated": "1791652242",
+        "timeupdated": "1791652242"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Weird Penguin Games",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5279660",
+    "publisher": "Weird Penguin Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Weird Penguin Games/ShredDead",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Weird Penguin Games/ShredDead",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

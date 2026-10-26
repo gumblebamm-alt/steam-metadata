@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1792689421,
-  "_history": [],
-  "_change_number": 40137100,
-  "_missing_token": true,
-  "_sha": "7afc263af356b853ba1e7f99cc727bae22b064ce",
-  "_size": 5033,
+  "_lastChecked": 1793040175,
+  "_history": [
+    {
+      "buildId": "25889342",
+      "branch": "mac-validation",
+      "timeUpdated": 1791829273,
+      "firstSeen": 1793040175,
+      "manifests": {
+        "5185581": {
+          "gid": "3353779381467899727",
+          "size": 172807104,
+          "download": 92489696
+        },
+        "5185582": {
+          "gid": "2664238511886093545",
+          "size": 137852776,
+          "download": 84027888
+        },
+        "5185583": {
+          "gid": "3794411586981367485",
+          "size": 235989202,
+          "download": 110895056
+        }
+      }
+    },
+    {
+      "buildId": "26032404",
+      "branch": "public",
+      "timeUpdated": 1792354840,
+      "firstSeen": 1793040175,
+      "manifests": {
+        "5185581": {
+          "gid": "439895812047811922",
+          "size": 175229296,
+          "download": 94412224
+        },
+        "5185582": {
+          "gid": "2664238511886093545",
+          "size": 137852776,
+          "download": 84027888
+        },
+        "5185583": {
+          "gid": "8072954696526995983",
+          "size": 238524998,
+          "download": 112884816
+        }
+      }
+    }
+  ],
+  "_change_number": 40266008,
+  "_missing_token": false,
+  "_sha": "23f6b013272d4232fff709e9c213eebb5fa8c568",
+  "_size": 8278,
   "appid": "5185580",
   "common": {
     "aicontenttype": "1",
@@ -38,9 +85,9 @@
     },
     "clienticon": "5fce127a8eb2b19d044d728353c69ca77f4a588c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5185580",
     "genres": {
       "0": "1",
@@ -112,10 +159,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "dca12c9e9cc90719c27df8a65071150304a98613/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793034111",
     "store_asset_mtime": "1791814095",
     "store_tags": {
       "0": "7178",
@@ -141,6 +189,7 @@
     },
     "supported_languages": {
       "arabic": {
+        "subtitles": "true",
         "supported": "true"
       },
       "brazilian": {
@@ -148,15 +197,19 @@
         "supported": "true"
       },
       "bulgarian": {
+        "subtitles": "true",
         "supported": "true"
       },
       "czech": {
+        "subtitles": "true",
         "supported": "true"
       },
       "danish": {
+        "subtitles": "true",
         "supported": "true"
       },
       "dutch": {
+        "subtitles": "true",
         "supported": "true"
       },
       "english": {
@@ -164,6 +217,7 @@
         "supported": "true"
       },
       "finnish": {
+        "subtitles": "true",
         "supported": "true"
       },
       "french": {
@@ -175,12 +229,15 @@
         "supported": "true"
       },
       "greek": {
+        "subtitles": "true",
         "supported": "true"
       },
       "hungarian": {
+        "subtitles": "true",
         "supported": "true"
       },
       "indonesian": {
+        "subtitles": "true",
         "supported": "true"
       },
       "italian": {
@@ -196,12 +253,15 @@
         "supported": "true"
       },
       "latam": {
+        "subtitles": "true",
         "supported": "true"
       },
       "malay": {
+        "subtitles": "true",
         "supported": "true"
       },
       "norwegian": {
+        "subtitles": "true",
         "supported": "true"
       },
       "polish": {
@@ -209,9 +269,11 @@
         "supported": "true"
       },
       "portuguese": {
+        "subtitles": "true",
         "supported": "true"
       },
       "romanian": {
+        "subtitles": "true",
         "supported": "true"
       },
       "russian": {
@@ -227,6 +289,7 @@
         "supported": "true"
       },
       "swedish": {
+        "subtitles": "true",
         "supported": "true"
       },
       "tchinese": {
@@ -246,10 +309,148 @@
         "supported": "true"
       },
       "vietnamese": {
+        "subtitles": "true",
         "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PARRYGON",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "PARRYGON.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "PARRYGON.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "PARRYGON.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5185581": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "mac-validation": {
+          "download": "92489696",
+          "gid": "3353779381467899727",
+          "size": "172807104"
+        },
+        "public": {
+          "download": "94412224",
+          "gid": "439895812047811922",
+          "size": "175229296"
+        }
+      }
+    },
+    "5185582": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "mac-validation": {
+          "download": "84027888",
+          "gid": "2664238511886093545",
+          "size": "137852776"
+        },
+        "public": {
+          "download": "84027888",
+          "gid": "2664238511886093545",
+          "size": "137852776"
+        }
+      }
+    },
+    "5185583": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "mac-validation": {
+          "download": "110895056",
+          "gid": "3794411586981367485",
+          "size": "235989202"
+        },
+        "public": {
+          "download": "112884816",
+          "gid": "8072954696526995983",
+          "size": "238524998"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "mac-validation": {
+        "buildid": "25889342",
+        "description": "macOS validation",
+        "timebuildupdated": "1791829273",
+        "timeupdated": "1791829273"
+      },
+      "public": {
+        "buildid": "26032404",
+        "timebuildupdated": "1792354840",
+        "timeupdated": "1792354840"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "OverLKD Studio",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.overlkd.com/",
+    "listofdlc": "5401020,5401030,5401040",
+    "publisher": "OverLKD Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "PARRYGON",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "PARRYGON",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "PARRYGON",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      },
+      "3": {
+        "path": "PARRYGON",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

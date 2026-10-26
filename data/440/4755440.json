@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792603033,
-  "_history": [],
-  "_change_number": 40081208,
-  "_missing_token": true,
-  "_sha": "9be4693954b236aba9c8aa77726ad6a464e40976",
-  "_size": 3350,
+  "_lastChecked": 1793040161,
+  "_history": [
+    {
+      "buildId": "26104093",
+      "branch": "public",
+      "timeUpdated": 1792579677,
+      "firstSeen": 1793040161,
+      "manifests": {
+        "4755441": {
+          "gid": "1890543925553398851",
+          "size": 709147071,
+          "download": 474209760
+        },
+        "4755442": {
+          "gid": "6250749766828512502",
+          "size": 665040722,
+          "download": 451468736
+        }
+      }
+    }
+  ],
+  "_change_number": 40264363,
+  "_missing_token": false,
+  "_sha": "7ee57cca5a17028681ac075f78419175160d6210",
+  "_size": 4486,
   "appid": "4755440",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +49,7 @@
     },
     "clienticon": "a230896e228fabe2ea5f726719f528a95fadb08d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -37,7 +57,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4755440",
     "genres": {
       "0": "25",
@@ -114,10 +133,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5633d2da5ecc5348f948cf8adf050521cdb94809/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793033519",
     "store_asset_mtime": "1782131085",
     "store_tags": {
       "0": "11014",
@@ -153,5 +173,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Maximilien",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Maximilien.exe"
+      },
+      "1": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "maximilien"
+      }
+    }
+  },
+  "depots": {
+    "4755441": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "474209760",
+          "gid": "1890543925553398851",
+          "size": "709147071"
+        }
+      }
+    },
+    "4755442": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "451468736",
+          "gid": "6250749766828512502",
+          "size": "665040722"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "26104093",
+        "timebuildupdated": "1792579612",
+        "timeupdated": "1792579677"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Yohan Dupuy",
+    "homepage": "https://maximilien-game.com",
+    "publisher": "Yohan Dupuy"
+  },
+  "ufs": {
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
 }

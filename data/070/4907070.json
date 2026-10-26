@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792816676,
-  "_history": [],
-  "_change_number": 40182069,
-  "_missing_token": true,
-  "_sha": "a66ab9b92dedc2c3d875048a4da9f2109dbfba29",
-  "_size": 3779,
+  "_lastChecked": 1793040165,
+  "_history": [
+    {
+      "buildId": "26218408",
+      "branch": "public",
+      "timeUpdated": 1793023176,
+      "firstSeen": 1793040165,
+      "manifests": {
+        "4907071": {
+          "gid": "8747629905198154053",
+          "size": 6465699322,
+          "download": 3654170848
+        }
+      }
+    }
+  ],
+  "_change_number": 40262769,
+  "_missing_token": false,
+  "_sha": "cc6abbfdb1c9257214eba8a0beaf428089962e94",
+  "_size": 4729,
   "appid": "4907070",
   "common": {
     "associations": {
@@ -26,9 +40,9 @@
     "clienticns": "8544dd1d540f698478aabc8dacb4ba4f175f4de8",
     "clienticon": "ed29ce9e6af76a823bc5e976f583a9dc4f3e5108",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4907070",
     "genres": {
       "0": "25"
@@ -100,11 +114,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "afaa570b5215d51bb20100d4cd442ea80b167d11/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791310596",
+    "steam_release_date": "1793028775",
+    "store_asset_mtime": "1793031120",
     "store_tags": {
       "0": "5900",
       "1": "1667",
@@ -175,5 +190,50 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "S T A R E",
+    "launch": {
+      "0": {
+        "arguments": "-force-d3d12",
+        "description": "S T A R E - DirectX 12",
+        "description_loc": {
+          "english": "S T A R E - DirectX 12"
+        },
+        "executable": "S T A R E.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "-force-vulkan",
+        "description": "S T A R E - Vulcan",
+        "description_loc": {
+          "english": "S T A R E - Vulcan"
+        },
+        "executable": "S T A R E.exe",
+        "type": "option2"
+      }
+    }
+  },
+  "depots": {
+    "4907071": {
+      "manifests": {
+        "public": {
+          "download": "3654170848",
+          "gid": "8747629905198154053",
+          "size": "6465699322"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26218408",
+        "timebuildupdated": "1793023155",
+        "timeupdated": "1793023176"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": " Jakub Flak",
+    "publisher": "Jakub Flak"
+  }
 }

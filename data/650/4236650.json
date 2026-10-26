@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791549432,
-  "_history": [],
-  "_change_number": 39651137,
-  "_missing_token": true,
-  "_sha": "3479bec4f4a8c50cc01cdca86bd65b655e2ad0c2",
-  "_size": 5898,
+  "_lastChecked": 1793040148,
+  "_history": [
+    {
+      "buildId": "25878518",
+      "branch": "public",
+      "timeUpdated": 1792855208,
+      "firstSeen": 1793040148,
+      "manifests": {
+        "4236651": {
+          "gid": "7821764589020939093",
+          "size": 2880049575,
+          "download": 1304451728
+        },
+        "4236652": {
+          "gid": "8241042006529856573",
+          "size": 1523889203,
+          "download": 1089576064
+        }
+      }
+    }
+  ],
+  "_change_number": 40268196,
+  "_missing_token": false,
+  "_sha": "f8bca803bbce413664041568962480a6a6aaf8cb",
+  "_size": 7593,
   "appid": "4236650",
   "common": {
     "associations": {
@@ -30,6 +49,7 @@
     "clienticns": "7dcee70f0f98182d8ff1d563a31d972ec0ab7aed",
     "clienticon": "9c3daef87ba984d714462a7c12328e49746ae1db",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -37,7 +57,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4236650",
     "genres": {
       "0": "25",
@@ -144,13 +163,16 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "91",
+    "review_score": "8",
     "small_capsule": {
       "english": "b71c4f06872b411e134236dbefbeb09668c19619/capsule_231x87.jpg",
       "japanese": "c5bd9580980fc00ea1a6932e2ea9662bf486a155/capsule_231x87_japanese.jpg",
       "schinese": "46ccc07d1bde2ce1a1943d8573f1c57ee8e96188/capsule_231x87_schinese.jpg",
       "tchinese": "0d4b1f34043d011f99a62a9a4b7e66e5d5bea1a9/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1793000671",
     "store_asset_mtime": "1784655102",
     "store_tags": {
       "0": "12095",
@@ -169,8 +191,8 @@
       "3": "122",
       "4": "599",
       "5": "1742",
-      "6": "9204",
-      "7": "3799",
+      "6": "3799",
+      "7": "9204",
       "8": "6971",
       "9": "597"
     },
@@ -194,5 +216,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "AdulteryMarriagePunisher",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "AdulteryMarriagePunisher.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "AdulteryMarriagePunisher.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4236651": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1304451728",
+          "gid": "7821764589020939093",
+          "size": "2880049575"
+        }
+      }
+    },
+    "4236652": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1089576064",
+          "gid": "8241042006529856573",
+          "size": "1523889203"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25878518",
+        "timebuildupdated": "1791796164",
+        "timeupdated": "1792855208"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "風紋探偵事務所",
+    "publisher": "風紋探偵事務所"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "InvestigationAgency/AdulteryMarriagePunisher",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "com.InvestigationAgency.AdulteryMarriagePunisher",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

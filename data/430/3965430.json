@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792816664,
-  "_history": [],
-  "_change_number": 40141944,
-  "_missing_token": true,
-  "_sha": "b015aa2bca995af9adf5ee2621a93521786d1cc0",
-  "_size": 6000,
+  "_lastChecked": 1793040144,
+  "_history": [
+    {
+      "buildId": "26137605",
+      "branch": "public",
+      "timeUpdated": 1792683961,
+      "firstSeen": 1793040144,
+      "manifests": {
+        "3965432": {
+          "gid": "1907291281873099505",
+          "size": 534605641,
+          "download": 391419120
+        },
+        "3965433": {
+          "gid": "6069358799961954092",
+          "size": 518704660,
+          "download": 358941952
+        },
+        "3965434": {
+          "gid": "1103858411857812844",
+          "size": 599961080,
+          "download": 381241088
+        }
+      }
+    }
+  ],
+  "_change_number": 40268193,
+  "_missing_token": false,
+  "_sha": "ddadf4a1c343ecb30fb6d36665125c2e64767b58",
+  "_size": 8693,
   "appid": "3965430",
   "common": {
     "associations": {
@@ -33,9 +57,9 @@
     "clienticon": "530d1cccb9f571a6bfc4c34e3a551b74cebc8f02",
     "clienttga": "e33f91abd22298ca9345364ec3389eb5bee48a65",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3965430",
     "genres": {
       "0": "23",
@@ -106,7 +130,9 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "06d429dc7981615e3e174c2bd03510707dfeaff8/capsule_231x87.jpg"
     },
@@ -171,7 +197,8 @@
         }
       }
     },
-    "store_asset_mtime": "1791915554",
+    "steam_release_date": "1793026940",
+    "store_asset_mtime": "1793038205",
     "store_tags": {
       "0": "1667",
       "1": "1721",
@@ -263,5 +290,139 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Mailroom",
+    "launch": {
+      "0": {
+        "arguments": "--rendering-driver d3d12",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "using DirectX 12",
+        "description_loc": {
+          "english": "using DirectX 12"
+        },
+        "executable": "mailroom.exe",
+        "type": "option1"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "mailroom.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "mailroom.app",
+        "type": "default"
+      },
+      "3": {
+        "arguments": "--rendering-driver vulkan",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "using Vulkan",
+        "description_loc": {
+          "english": "using Vulkan"
+        },
+        "executable": "mailroom.exe",
+        "type": "option2"
+      }
+    }
+  },
+  "depots": {
+    "3965431": {},
+    "3965432": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "391419120",
+          "gid": "1907291281873099505",
+          "size": "534605641"
+        }
+      }
+    },
+    "3965433": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "358941952",
+          "gid": "6069358799961954092",
+          "size": "518704660"
+        }
+      }
+    },
+    "3965434": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "381241088",
+          "gid": "1103858411857812844",
+          "size": "599961080"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26137605",
+        "timebuildupdated": "1792683673",
+        "timeupdated": "1792683961"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Crowfriend",
+    "homepage": "https://crowfriend.com/themailroom",
+    "publisher": "Vendetta"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": ".local/share/godot/app_userdata/mailroom",
+            "replace": "Godot/app_userdata/mailroom"
+          }
+        },
+        "root": "LinuxHome",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": ".local/share/godot/app_userdata/mailroom",
+            "replace": "Godot/app_userdata/mailroom"
+          }
+        },
+        "root": "LinuxHome",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": ".local/share/godot/app_userdata/mailroom",
+        "pattern": "*",
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

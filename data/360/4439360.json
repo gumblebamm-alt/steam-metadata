@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792689394,
-  "_history": [],
-  "_change_number": 40081610,
-  "_missing_token": true,
-  "_sha": "f19bb5abe646e51d100f7d50886614a186bf62fb",
-  "_size": 3097,
+  "_lastChecked": 1793040153,
+  "_history": [
+    {
+      "buildId": "26221952",
+      "branch": "public",
+      "timeUpdated": 1793031805,
+      "firstSeen": 1793040153,
+      "manifests": {
+        "4439361": {
+          "gid": "1623050420299199190",
+          "size": 569605787,
+          "download": 148030048
+        }
+      }
+    }
+  ],
+  "_change_number": 40263197,
+  "_missing_token": false,
+  "_sha": "8d123582f0feaa54892f1d8a5b1688cdb526e587",
+  "_size": 4120,
   "appid": "4439360",
   "common": {
     "associations": {
@@ -31,9 +45,9 @@
     },
     "clienticon": "b69d5e1352b0277afbb9ef8e3b25b100f9ab496c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4439360",
     "genres": {
       "0": "1",
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "74391b444e68ef40f75a393c94d4fe0db51e7fd4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793026624",
     "store_asset_mtime": "1789059765",
     "store_tags": {
       "0": "1716",
@@ -138,5 +153,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Chain of Command",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ChainOfCommand.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4439361": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "148030048",
+          "gid": "1623050420299199190",
+          "size": "569605787"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26221952",
+        "timebuildupdated": "1793031772",
+        "timeupdated": "1793031805"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Blinkstrike",
+    "homepage": "https://www.blinkstrike.co.uk",
+    "publisher": "Blinkstrike"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Blinkstrike/ChainOfCommand",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792989934,
-  "_history": [],
-  "_change_number": 40234293,
-  "_missing_token": true,
-  "_sha": "c150080993d46e8453ebec59de93bb5d2730b10c",
-  "_size": 3674,
+  "_lastChecked": 1793040131,
+  "_history": [
+    {
+      "buildId": "26210950",
+      "branch": "public",
+      "timeUpdated": 1792997572,
+      "firstSeen": 1793040131,
+      "manifests": {
+        "2831171": {
+          "gid": "7130274619586476857",
+          "size": 25022747094,
+          "download": 24269596176
+        }
+      }
+    }
+  ],
+  "_change_number": 40265635,
+  "_missing_token": false,
+  "_sha": "0f70abb41deafdfadc883ab01701f23cb1901675",
+  "_size": 5518,
   "appid": "2831170",
   "common": {
     "associations": {
@@ -36,7 +50,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2831170",
     "genres": {
       "0": "1",
@@ -110,10 +123,47 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "99da02b283944cafd5f5dfa7348a39dcf2c40c36/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "gamepad"
+      },
+      "steam_machine_compatibility": "0",
+      "steam_machine_tests": {},
+      "steamos_compatibility": "1",
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "test_timestamp": "1772236800",
+      "tested_build_id": "19619659",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+        }
+      }
+    },
+    "steam_release_date": "1793033711",
     "store_asset_mtime": "1767688946",
     "store_tags": {
       "0": "4191",
@@ -170,5 +220,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Color Fear",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ColorFear.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2831171": {
+      "manifests": {
+        "public": {
+          "download": "24269596176",
+          "gid": "7130274619586476857",
+          "size": "25022747094"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26210950",
+        "timebuildupdated": "1792997554",
+        "timeupdated": "1792997572"
+      }
+    }
+  },
+  "extended": {
+    "developer": "West View",
+    "publisher": "West View"
+  }
 }

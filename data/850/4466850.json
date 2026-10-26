@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792989949,
-  "_history": [],
-  "_change_number": 40242496,
-  "_missing_token": true,
-  "_sha": "f13769eb685c7b74cdf3e625a9d7aa3aefe09e7e",
-  "_size": 8380,
+  "_lastChecked": 1793040154,
+  "_history": [
+    {
+      "buildId": "26157679",
+      "branch": "public",
+      "timeUpdated": 1792769128,
+      "firstSeen": 1793040154,
+      "manifests": {
+        "4466852": {
+          "gid": "7043616971266410456",
+          "size": 265667075,
+          "download": 162636032
+        },
+        "4466854": {
+          "gid": "757478326508847031",
+          "size": 441905148,
+          "download": 155135888
+        }
+      }
+    }
+  ],
+  "_change_number": 40258313,
+  "_missing_token": false,
+  "_sha": "2e32f86cf9f5b27daca6cf94a3cbde1b93b5ed81",
+  "_size": 10234,
   "appid": "4466850",
   "common": {
     "associations": {
@@ -36,8 +55,8 @@
     },
     "clienticon": "99d5060b2f4c9462d6bfe5be5da2c6933f19e37a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4466850",
     "genres": {
       "0": "4",
@@ -170,7 +189,9 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "97d41adf2cdfbb4da75b3cd60ba509f28a95fe63/capsule_231x87.jpg",
       "japanese": "511101bdcc104497e0b83c5722d77b2e196632cb/capsule_231x87_japanese.jpg",
@@ -178,7 +199,8 @@
       "schinese": "5807d7e1af02d1c802db0d8763f300c18dc4c030/capsule_231x87_schinese.jpg",
       "tchinese": "b97e912ad38073af382d958dae60ebe31e268dc9/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1789443420",
+    "steam_release_date": "1793009679",
+    "store_asset_mtime": "1793007284",
     "store_tags": {
       "0": "35079",
       "1": "1738",
@@ -257,5 +279,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Where is My Pet",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Where is My Pet.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "WhereIsMyPet.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "SteamInput/steam_input_manifest.vdf"
+  },
+  "depots": {
+    "4466851": {},
+    "4466852": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "162636032",
+          "gid": "7043616971266410456",
+          "size": "265667075"
+        }
+      }
+    },
+    "4466854": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "155135888",
+          "gid": "757478326508847031",
+          "size": "441905148"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26157679",
+        "timebuildupdated": "1792751267",
+        "timeupdated": "1792769128"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "QorSoft",
+    "homepage": "https://rogueduck.net",
+    "publisher": "Rogue Duck Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "QorSoft Games/Where is My Pet_",
+            "replace": "com.qorsoftgames.whereismypet"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "QorSoft Games/Where is My Pet_",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }
