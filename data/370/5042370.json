@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793040170,
-  "_history": [],
-  "_change_number": 40243587,
-  "_missing_token": true,
-  "_sha": "be9e3b56c50eb6f910eb257b005f9a35da8f6c18",
-  "_size": 4131,
+  "_lastChecked": 1793124089,
+  "_history": [
+    {
+      "buildId": "26204645",
+      "branch": "public",
+      "timeUpdated": 1792967549,
+      "firstSeen": 1793124089,
+      "manifests": {
+        "5042371": {
+          "gid": "8337725381313175892",
+          "size": 3227567612,
+          "download": 1766557104
+        },
+        "5042372": {
+          "gid": "5975253986190811943",
+          "size": 3346458077,
+          "download": 1794600064
+        }
+      }
+    }
+  ],
+  "_change_number": 40306083,
+  "_missing_token": false,
+  "_sha": "57bd5715fec33b27e1c1f0ba78ca4f73f777f2d4",
+  "_size": 5731,
   "appid": "5042370",
   "common": {
     "associations": {
@@ -44,9 +63,9 @@
     },
     "clienticon": "e76d9ee2a2ea94e894136b2c4c1195ca27b2901f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5042370",
     "genres": {
       "0": "4",
@@ -126,11 +145,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ff054ed5dc8262a00a0c4ec2ce37becf69dbfb4e/capsule_231x87.jpg",
       "schinese": "a298abd7a3a616bf4c4ab2fc447ec352a03891b0/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1793120406",
     "store_asset_mtime": "1792989508",
     "store_tags": {
       "0": "1239876",
@@ -165,5 +185,88 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "OCTBUSTER",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Octbuster.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Octbuster.app"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5042371": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1766557104",
+          "gid": "8337725381313175892",
+          "size": "3227567612"
+        }
+      }
+    },
+    "5042372": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1794600064",
+          "gid": "5975253986190811943",
+          "size": "3346458077"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26204645",
+        "timebuildupdated": "1792967549",
+        "timeupdated": "1792967549"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "5042370"
+  },
+  "extended": {
+    "developer": "Alex",
+    "homepage": "https://discord.gg/GFgKZWRNDk",
+    "publisher": "I love my friends"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "com.octbuster.octbuster",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Octbuster/Octbuster",
+        "pattern": "*.save",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Octbuster/Octbuster/mods",
+        "pattern": "mytapes.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

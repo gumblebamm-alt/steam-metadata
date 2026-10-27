@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793040123,
-  "_history": [],
-  "_change_number": 40252862,
-  "_missing_token": true,
-  "_sha": "68218f2c47c8105f5ed111eaa35e7f8c3ff67e0a",
-  "_size": 3270,
+  "_lastChecked": 1793124045,
+  "_history": [
+    {
+      "buildId": "26214596",
+      "branch": "public",
+      "timeUpdated": 1793011951,
+      "firstSeen": 1793124045,
+      "manifests": {
+        "1336911": {
+          "gid": "8788158438357500144",
+          "size": 2535315597,
+          "download": 2322122320
+        }
+      }
+    }
+  ],
+  "_change_number": 40302370,
+  "_missing_token": false,
+  "_sha": "8f9d43c76220ef772b0a213a03c3ccda609e8f59",
+  "_size": 4405,
   "appid": "1336910",
   "common": {
     "aicontenttype": "1",
@@ -29,6 +43,7 @@
     "clienticon": "f55b228ce16e68430da09e552e974ee48aac0005",
     "clienttga": "ac3408f6291d689dde2f9cd32278941e1c9f2a55",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -36,7 +51,14 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
+    "eulas": {
+      "0": {
+        "id": "1336910_eula_0",
+        "name": "ASTRODIGGER: SPACE SIM & ASTEROID DIGGING EULA",
+        "url": "https://store.steampowered.com/eula/1336910_eula_0",
+        "version": "1"
+      }
+    },
     "gameid": "1336910",
     "genres": {
       "0": "1",
@@ -110,7 +132,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a813d28ef7c3614649f29fccdf1cf2cc03a47670/capsule_231x87.jpg"
     },
@@ -141,5 +163,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "AstroDigger",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MoonSim.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1336911": {
+      "config": {
+        "language": "",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2322122320",
+          "gid": "8788158438357500144",
+          "size": "2535315597"
+        }
+      }
+    },
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "26214596",
+        "timebuildupdated": "1793010984",
+        "timeupdated": "1793011951"
+      }
+    }
+  },
+  "extended": {
+    "developer": "The trampoline is working",
+    "publisher": "Kavkaz Sila Games"
+  }
 }

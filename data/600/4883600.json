@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792558101,
-  "_history": [],
-  "_change_number": 40051547,
-  "_missing_token": true,
-  "_sha": "a47ae4a0adbc14fb66e3bce46b595502f2a09724",
-  "_size": 2891,
+  "_lastChecked": 1793124083,
+  "_history": [
+    {
+      "buildId": "26248193",
+      "branch": "public",
+      "timeUpdated": 1793117507,
+      "firstSeen": 1793124083,
+      "manifests": {
+        "4883601": {
+          "gid": "8067069967010025650",
+          "size": 646383602,
+          "download": 275176448
+        }
+      }
+    }
+  ],
+  "_change_number": 40307251,
+  "_missing_token": false,
+  "_sha": "5d6f67b3e9cd7f477175163874a16effc1024ccf",
+  "_size": 4109,
   "appid": "4883600",
   "common": {
     "aicontenttype": "1",
@@ -20,6 +34,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_23": "1",
       "category_62": "1",
       "category_67": "1",
       "category_74": "1",
@@ -28,7 +43,6 @@
     "clienticon": "0ce05883fca64e9545897dcabd921a036cc98467",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4883600",
     "genres": {
       "0": "1",
@@ -99,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e3e728224f3cf49a24d3666cc6719ab9b758448f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793122224",
     "store_asset_mtime": "1792513191",
     "store_tags": {
       "0": "4604",
@@ -131,5 +146,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Necromancer Ash & Bone",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Necromancer Ash & Bone.exe"
+      }
+    }
+  },
+  "depots": {
+    "4883601": {
+      "manifests": {
+        "public": {
+          "download": "275176448",
+          "gid": "8067069967010025650",
+          "size": "646383602"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26248193",
+        "timebuildupdated": "1793117505",
+        "timeupdated": "1793117507"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Binx.tv",
+    "publisher": "Binx.tv"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "20000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Binx Games\\Necromancer_ Ash & Bone",
+            "replace": ".local/share/Steam/steamapps/compatdata/4883600/pfx/drive_c/users/steamuser/AppData/LocalLow/Binx Games/Necromancer_ Ash & Bone"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Binx Games\\Necromancer_ Ash & Bone",
+        "pattern": "game_save",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

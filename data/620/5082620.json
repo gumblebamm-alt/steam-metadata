@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791160868,
-  "_history": [],
-  "_change_number": 39481637,
-  "_missing_token": true,
-  "_sha": "6229d748096e25a0b035280b533ee586810aa54d",
-  "_size": 3235,
+  "_lastChecked": 1793124091,
+  "_history": [
+    {
+      "buildId": "25718354",
+      "branch": "public",
+      "timeUpdated": 1791162660,
+      "firstSeen": 1793124091,
+      "manifests": {
+        "5082621": {
+          "gid": "7611226568144069742",
+          "size": 214609461,
+          "download": 156708912
+        },
+        "5082623": {
+          "gid": "6098782927498497349",
+          "size": 360937634,
+          "download": 199463728
+        }
+      }
+    }
+  ],
+  "_change_number": 40305245,
+  "_missing_token": false,
+  "_sha": "91104fd1372909cf368640547508db1826ac510c",
+  "_size": 4598,
   "appid": "5082620",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +49,7 @@
     },
     "clienticon": "ccd93571610b0cf4e88cff6a81bcf9dff301328b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -38,7 +58,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5082620",
     "genres": {
       "0": "4",
@@ -110,32 +129,32 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "086a934269af27560cec4904301e47a18f7c7fdb/capsule_231x87.jpg"
     },
     "store_asset_mtime": "1791147498",
     "store_tags": {
       "0": "6426",
-      "1": "8369",
-      "10": "5613",
-      "11": "9541",
-      "12": "5923",
-      "13": "4182",
-      "14": "597",
-      "15": "9",
-      "16": "1664",
-      "17": "91114",
-      "18": "4136",
-      "19": "1698",
-      "2": "1742",
-      "3": "3854",
-      "4": "19995",
-      "5": "5186",
-      "6": "16689",
-      "7": "6971",
-      "8": "12472",
-      "9": "4166"
+      "1": "6971",
+      "10": "9",
+      "11": "1664",
+      "12": "4136",
+      "13": "1698",
+      "14": "35079",
+      "15": "3871",
+      "16": "4562",
+      "17": "4094",
+      "18": "4252",
+      "19": "4975",
+      "2": "8369",
+      "3": "1742",
+      "4": "3854",
+      "5": "16689",
+      "6": "5613",
+      "7": "5923",
+      "8": "4182",
+      "9": "597"
     },
     "supported_languages": {
       "english": {
@@ -145,5 +164,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Rules for Thee",
+    "launch": {
+      "0": {
+        "description": "Play Rules For Thee (Win)",
+        "description_loc": {
+          "english": "Play Rules For Thee (Win)"
+        },
+        "executable": "RulesForThee.exe"
+      },
+      "1": {
+        "description": "Play Rules for Thee (Linux)",
+        "description_loc": {
+          "english": "Play Rules for Thee (Linux)"
+        },
+        "executable": "RulesForThee"
+      }
+    }
+  },
+  "depots": {
+    "5082621": {
+      "manifests": {
+        "public": {
+          "download": "156708912",
+          "gid": "7611226568144069742",
+          "size": "214609461"
+        }
+      }
+    },
+    "5082623": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "199463728",
+          "gid": "6098782927498497349",
+          "size": "360937634"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25718354",
+        "timebuildupdated": "1791162660",
+        "timeupdated": "1791162660"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "LackToesNTolerant",
+    "homepage": "https://lessprep.org/games",
+    "publisher": "LackToesNTolerant"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "RulesForThee",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792903305,
-  "_history": [],
-  "_change_number": 40213130,
-  "_missing_token": true,
-  "_sha": "677f8af102f1406137cf65d35ef94b52115c94b5",
-  "_size": 4271,
+  "_lastChecked": 1793124051,
+  "_history": [
+    {
+      "buildId": "26232831",
+      "branch": "public",
+      "timeUpdated": 1793113798,
+      "firstSeen": 1793124051,
+      "manifests": {
+        "2562391": {
+          "gid": "6443518621638046934",
+          "size": 7987050474,
+          "download": 3713053136
+        },
+        "2562392": {
+          "gid": "4673217608226581653",
+          "size": 12506216735,
+          "download": 3680397152
+        }
+      }
+    }
+  ],
+  "_change_number": 40307869,
+  "_missing_token": false,
+  "_sha": "4e936ef1ae2e037ac790bf36b243013c3f1f8ea4",
+  "_size": 5636,
   "appid": "2562390",
   "common": {
     "associations": {
@@ -33,6 +52,7 @@
     "clienticon": "064b84638f8604aa32432113cbfc57d4d0edd077",
     "clienttga": "e8bc629e75dd1d2913616f7e3931733d51cd0dce",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
     "eulas": {
@@ -43,7 +63,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "2562390",
     "genres": {
       "0": "1",
@@ -130,10 +149,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "309760aec135dfc88271d92a8562a39dfdca0330/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793116930",
     "store_asset_mtime": "1792862497",
     "store_tags": {
       "0": "3843",
@@ -197,5 +217,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bennys Backrooms",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Windows",
+        "description_loc": {
+          "english": "Windows"
+        },
+        "executable": "BennysBackrooms.exe"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "2562391": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3713053136",
+          "gid": "6443518621638046934",
+          "size": "7987050474"
+        }
+      }
+    },
+    "2562392": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "3680397152",
+          "gid": "4673217608226581653",
+          "size": "12506216735"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26232831",
+        "timebuildupdated": "1793066383",
+        "timeupdated": "1793113798"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "GameName",
+    "homepage": "https://www.gamename.live/",
+    "publisher": "GameName"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "0",
+    "quota": "0",
+    "savefiles": {
+      "0": {
+        "path": "GameName\\BennysBackrooms",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1792457878,
-  "_history": [],
-  "_change_number": 40011902,
-  "_missing_token": true,
-  "_sha": "6ddd6fc713657f819dc566855dbb04b5d220c897",
-  "_size": 3295,
+  "_lastChecked": 1793124087,
+  "_history": [
+    {
+      "buildId": "25278415",
+      "branch": "private_test",
+      "timeUpdated": 1789266896,
+      "firstSeen": 1793124087,
+      "manifests": {
+        "4999001": {
+          "gid": "6066204719039151145",
+          "size": 748155219,
+          "download": 430649696
+        }
+      }
+    },
+    {
+      "buildId": "25737396",
+      "branch": "public",
+      "timeUpdated": 1791235243,
+      "firstSeen": 1793124087,
+      "manifests": {
+        "4999001": {
+          "gid": "4878949048432688110",
+          "size": 531489047,
+          "download": 362477472
+        }
+      }
+    }
+  ],
+  "_change_number": 40303334,
+  "_missing_token": false,
+  "_sha": "c874db60541b686177bb6221b50bf0c7bf40ca20",
+  "_size": 4784,
   "appid": "4999000",
   "common": {
     "associations": {
@@ -37,8 +64,8 @@
     "clienticns": "1fe70c701817f4f2b50054cda3c906064678c2bb",
     "clienticon": "b392ab37fd3d5754ce1de168db74c7011599f067",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4999000",
     "genres": {
       "0": "1",
@@ -112,10 +139,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ee79825de257d2556d193894b3efaea7d626c523/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793115980",
     "store_asset_mtime": "1791223569",
     "store_tags": {
       "0": "1720",
@@ -148,5 +176,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gnomes Vs Knights",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "GnomesVsKnights.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4999001": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "private_test": {
+          "download": "430649696",
+          "gid": "6066204719039151145",
+          "size": "748155219"
+        },
+        "public": {
+          "download": "362477472",
+          "gid": "4878949048432688110",
+          "size": "531489047"
+        }
+      }
+    },
+    "branches": {
+      "private_test": {
+        "buildid": "25278415",
+        "description": "private",
+        "timebuildupdated": "1789266896",
+        "timeupdated": "1789266896"
+      },
+      "public": {
+        "buildid": "25737396",
+        "timebuildupdated": "1791235102",
+        "timeupdated": "1791235243"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Arête Studios",
+    "publisher": "Arête Studios"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "GnomesVsKnights/Saved/SaveGames",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

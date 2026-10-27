@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793077379,
-  "_history": [],
-  "_change_number": 40271655,
-  "_missing_token": true,
-  "_sha": "3871b72410727572d838db4d9027325d18089f94",
-  "_size": 3624,
+  "_lastChecked": 1793124078,
+  "_history": [
+    {
+      "buildId": "26229693",
+      "branch": "public",
+      "timeUpdated": 1793054704,
+      "firstSeen": 1793124078,
+      "manifests": {
+        "4709491": {
+          "gid": "4729542455549504086",
+          "size": 120186600,
+          "download": 45007200
+        },
+        "4709492": {
+          "gid": "6947707770691937117",
+          "size": 86841368,
+          "download": 36972912
+        }
+      }
+    }
+  ],
+  "_change_number": 40301856,
+  "_missing_token": false,
+  "_sha": "24755dcee42cfdd6b0c836f8452a56590c09f619",
+  "_size": 4705,
   "appid": "4709490",
   "common": {
     "aicontenttype": "1",
@@ -22,6 +41,7 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_25": "1",
       "category_28": "1",
       "category_62": "1",
       "category_67": "1",
@@ -35,9 +55,9 @@
     "clienticns": "9a323b33246c98d171b61814dd1b77647cf4d364",
     "clienticon": "b2543c60311f0ac581cce70ca15c46758aaa63cc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4709490",
     "genres": {
       "0": "4",
@@ -110,21 +130,25 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "71b430ed506bb54b52cab2ca90a387c3858d4046/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793094544",
     "store_asset_mtime": "1791492463",
     "store_tags": {
-      "0": "9",
-      "1": "597",
-      "2": "1716",
+      "0": "1716",
+      "1": "32322",
+      "10": "4182",
+      "11": "8093",
+      "2": "560542",
       "3": "3964",
-      "4": "32322",
-      "5": "16250",
-      "6": "3871",
-      "7": "492",
-      "8": "4182"
+      "4": "16250",
+      "5": "1091588",
+      "6": "9",
+      "7": "597",
+      "8": "492",
+      "9": "3871"
     },
     "supported_languages": {
       "arabic": {
@@ -166,5 +190,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Minatro",
+    "launch": {
+      "0": {
+        "executable": "Minatro.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Minatro.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4709491": {
+      "manifests": {
+        "public": {
+          "download": "45007200",
+          "gid": "4729542455549504086",
+          "size": "120186600"
+        }
+      }
+    },
+    "4709492": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "36972912",
+          "gid": "6947707770691937117",
+          "size": "86841368"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26229693",
+        "timebuildupdated": "1793054702",
+        "timeupdated": "1793054704"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "zoxii",
+    "publisher": "RFT"
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "70000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

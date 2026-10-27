@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792155382,
-  "_history": [],
-  "_change_number": 39899180,
-  "_missing_token": true,
-  "_sha": "718d200f3aa8d188e3eadf012b11c32e1eb792b6",
-  "_size": 3241,
+  "_lastChecked": 1793124091,
+  "_history": [
+    {
+      "buildId": "26245299",
+      "branch": "public",
+      "timeUpdated": 1793110008,
+      "firstSeen": 1793124091,
+      "manifests": {
+        "5084232": {
+          "gid": "2139951150182510523",
+          "size": 173631909,
+          "download": 62510976
+        },
+        "5084233": {
+          "gid": "7262576630582977236",
+          "size": 188810614,
+          "download": 70427280
+        },
+        "5084234": {
+          "gid": "3801193689743922842",
+          "size": 173976258,
+          "download": 59810896
+        }
+      }
+    }
+  ],
+  "_change_number": 40307302,
+  "_missing_token": false,
+  "_sha": "2f249d64bf6d291510ddfce739fcaf0ee19109cc",
+  "_size": 5616,
   "appid": "5084230",
   "common": {
     "associations": {
@@ -20,7 +44,6 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
-      "category_23": "1",
       "category_28": "1",
       "category_55": "1",
       "category_57": "1",
@@ -28,6 +51,7 @@
     },
     "clienticon": "616a7f720415adb5e5c11cf0a1aa0052443877ee",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -38,7 +62,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "5084230",
     "genres": {
       "0": "25",
@@ -110,10 +133,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cfa50aabd9c1410671e2daf35662ad142c434c73/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793122282",
     "store_asset_mtime": "1789305214",
     "store_tags": {
       "0": "1719",
@@ -137,12 +161,138 @@
       "9": "3871"
     },
     "supported_languages": {
+      "arabic": {
+        "supported": "true"
+      },
+      "brazilian": {
+        "supported": "true"
+      },
       "english": {
-        "subtitles": "true",
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "spanish": {
         "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bathroom Please!",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BathroomPlease_win64/Bathroom Please.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "BathroomPlease_macOSNotarization.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "BathroomPlease_Linux/BathroomPlease_Linux.x86_64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65524",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "5084232": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "62510976",
+          "gid": "2139951150182510523",
+          "size": "173631909"
+        }
+      }
+    },
+    "5084233": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "70427280",
+          "gid": "7262576630582977236",
+          "size": "188810614"
+        }
+      }
+    },
+    "5084234": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "59810896",
+          "gid": "3801193689743922842",
+          "size": "173976258"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26245299",
+        "timebuildupdated": "1793109988",
+        "timeupdated": "1793110008"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Istikan Studio",
+    "homepage": "https://istikan.studio",
+    "publisher": "Istikan Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "IstikanStudio/Bathroom Please/BathroomPlease",
+        "pattern": "progress.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792112043,
-  "_history": [],
-  "_change_number": 39881041,
-  "_missing_token": true,
-  "_sha": "a428e6dd6d149076d52969d334681854b198e32d",
-  "_size": 3055,
+  "_lastChecked": 1793124072,
+  "_history": [
+    {
+      "buildId": "26250547",
+      "branch": "public",
+      "timeUpdated": 1793123863,
+      "firstSeen": 1793124072,
+      "manifests": {
+        "4435951": {
+          "gid": "4695849444857251961",
+          "size": 123827856,
+          "download": 49639328
+        },
+        "4435953": {
+          "gid": "1468439401034947714",
+          "size": 90353600,
+          "download": 41569200
+        },
+        "4435955": {
+          "gid": "1398387249179999058",
+          "size": 207897701,
+          "download": 72909968
+        }
+      }
+    }
+  ],
+  "_change_number": 40308106,
+  "_missing_token": false,
+  "_sha": "7f36546fe6db1043e9cb99bf2cef28529798923b",
+  "_size": 4449,
   "appid": "4435950",
   "common": {
     "associations": {
@@ -28,7 +52,6 @@
     "clienticon": "17b063f6752489ca99982167e617d87e14dc2066",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4435950",
     "genres": {
       "0": "4",
@@ -99,13 +122,15 @@
     },
     "name": "Formation Builder Idle",
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows,macos,linux,android",
+    "oslist": "windows,macos,linux",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e570dffb8be6725e7312ae09eb9ea0d5a39b6ccf/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793108289",
     "store_asset_mtime": "1790633319",
     "store_tags": {
       "0": "122",
@@ -136,5 +161,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Formation Builder Idle",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "idle_rpg.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "idle_rpg.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "formation_builder_idle.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4435951": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "49639328",
+          "gid": "4695849444857251961",
+          "size": "123827856"
+        }
+      }
+    },
+    "4435953": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "41569200",
+          "gid": "1468439401034947714",
+          "size": "90353600"
+        }
+      }
+    },
+    "4435955": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "72909968",
+          "gid": "1398387249179999058",
+          "size": "207897701"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26250547",
+        "timebuildupdated": "1793123766",
+        "timeupdated": "1793123863"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Idle Games LLC",
+    "homepage": "https://formationbuilderidle.com/",
+    "isfreeapp": "1",
+    "publisher": "Idle Games LLC"
+  }
 }

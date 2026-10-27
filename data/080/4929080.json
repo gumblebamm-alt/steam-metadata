@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792558103,
-  "_history": [],
-  "_change_number": 40062237,
-  "_missing_token": true,
-  "_sha": "823ba80dc0d82f5a45929aaad2bd96ab9e0e6088",
-  "_size": 3612,
+  "_lastChecked": 1793124085,
+  "_history": [
+    {
+      "buildId": "26247392",
+      "branch": "public",
+      "timeUpdated": 1793115416,
+      "firstSeen": 1793124085,
+      "manifests": {
+        "4929081": {
+          "gid": "6523720992842454928",
+          "size": 398974092,
+          "download": 200612944
+        },
+        "4929082": {
+          "gid": "3190942092341427867",
+          "size": 340321683,
+          "download": 152958496
+        }
+      }
+    }
+  ],
+  "_change_number": 40303916,
+  "_missing_token": false,
+  "_sha": "30709eed56dacffb1099e55f72e1e3ecca7e0fd5",
+  "_size": 5184,
   "appid": "4929080",
   "common": {
     "associations": {
@@ -38,9 +57,9 @@
     },
     "clienticon": "a685b38bb3f16a7d6145b9f14fc0cd5d7a4c2b0f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4929080",
     "genres": {
       "0": "25",
@@ -54,6 +73,8 @@
     "languages": {
       "english": "1",
       "german": "1",
+      "japanese": "1",
+      "russian": "1",
       "spanish": "1"
     },
     "library_assets": {
@@ -118,10 +139,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "95ea3721dad45f0f044f273c3200f8d5d9764303/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793112019",
     "store_asset_mtime": "1792405695",
     "store_tags": {
       "0": "492",
@@ -157,6 +179,10 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "russian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "spanish": {
         "subtitles": "true",
         "supported": "true"
@@ -164,5 +190,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Carcelera",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "carcelera.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "carcelera",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4929081": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "200612944",
+          "gid": "6523720992842454928",
+          "size": "398974092"
+        }
+      }
+    },
+    "4929082": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "152958496",
+          "gid": "3190942092341427867",
+          "size": "340321683"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26247392",
+        "timebuildupdated": "1793115332",
+        "timeupdated": "1793115416"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Benjamin Grosse",
+    "homepage": "https://qdice.wtf/carcelera-feedback",
+    "publisher": "Benjamin Grosse"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "carcelera",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

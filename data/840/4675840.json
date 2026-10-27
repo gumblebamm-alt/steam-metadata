@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1792731010,
-  "_history": [],
-  "_change_number": 40095384,
-  "_missing_token": true,
-  "_sha": "6439edcdc1fc06d03c807dc29fb9b336d4c0769e",
-  "_size": 4013,
+  "_lastChecked": 1793124077,
+  "_history": [
+    {
+      "buildId": "23647850",
+      "branch": "linux_beta",
+      "timeUpdated": 1781033532,
+      "firstSeen": 1793124077,
+      "manifests": {
+        "4675841": {
+          "gid": "1738912644586151216",
+          "size": 132743872,
+          "download": 56812800
+        },
+        "4675842": {
+          "gid": "6365574318537347905",
+          "size": 99753536,
+          "download": 48729680
+        }
+      }
+    },
+    {
+      "buildId": "26215251",
+      "branch": "public",
+      "timeUpdated": 1793013006,
+      "firstSeen": 1793124077,
+      "manifests": {
+        "4675841": {
+          "gid": "5189332815083102599",
+          "size": 221394036,
+          "download": 129402880
+        },
+        "4675842": {
+          "gid": "1460036107999905649",
+          "size": 100552424,
+          "download": 49393840
+        }
+      }
+    }
+  ],
+  "_change_number": 40299766,
+  "_missing_token": false,
+  "_sha": "e9bd32f942feff851f143ddac71cfb4249acef03",
+  "_size": 5702,
   "appid": "4675840",
   "common": {
     "aicontenttype": "1",
@@ -28,6 +65,7 @@
     },
     "clienticon": "06a8d22f9528975d41da28c1c6659eac6427bd93",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -35,7 +73,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4675840",
     "genres": {
       "0": "25",
@@ -46,6 +83,21 @@
       "english": "06ed2e4b479df8be942a5071bf621a91ffa293a7/header.jpg"
     },
     "icon": "06a8d22f9528975d41da28c1c6659eac6427bd93",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "latam": "1",
+      "polish": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1",
+      "tchinese": "1",
+      "turkish": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -108,10 +160,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1e908714fa8b6c75007fd286c35a3b9b381916d3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793110336",
     "store_asset_mtime": "1792100750",
     "store_tags": {
       "0": "745697",
@@ -191,5 +244,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Deep Frost",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DeepFrost.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4675841": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "linux_beta": {
+          "download": "56812800",
+          "gid": "1738912644586151216",
+          "size": "132743872"
+        },
+        "public": {
+          "download": "129402880",
+          "gid": "5189332815083102599",
+          "size": "221394036"
+        }
+      }
+    },
+    "4675842": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "linux_beta": {
+          "download": "48729680",
+          "gid": "6365574318537347905",
+          "size": "99753536"
+        },
+        "public": {
+          "download": "49393840",
+          "gid": "1460036107999905649",
+          "size": "100552424"
+        }
+      }
+    },
+    "branches": {
+      "linux_beta": {
+        "buildid": "23647850",
+        "description": "linux_beta",
+        "timebuildupdated": "1781033462",
+        "timeupdated": "1781033532"
+      },
+      "public": {
+        "buildid": "26215251",
+        "timebuildupdated": "1793013006",
+        "timeupdated": "1793013006"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Aeon Games Canada",
+    "homepage": "https://aeongames.ca",
+    "publisher": "Aeon Games Canada"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "52428800"
+  }
 }

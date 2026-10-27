@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793040146,
-  "_history": [],
-  "_change_number": 40262043,
-  "_missing_token": true,
-  "_sha": "3b1cf2566b30b364d421c504564f854785762aec",
-  "_size": 3741,
+  "_lastChecked": 1793124066,
+  "_history": [
+    {
+      "buildId": "26246591",
+      "branch": "public",
+      "timeUpdated": 1793113306,
+      "firstSeen": 1793124066,
+      "manifests": {
+        "4065182": {
+          "gid": "8891649799820589270",
+          "size": 1940963533,
+          "download": 1480634656
+        }
+      }
+    }
+  ],
+  "_change_number": 40308097,
+  "_missing_token": false,
+  "_sha": "0d352b2cf2f6458a98aa433c9c68146e41243396",
+  "_size": 5967,
   "appid": "4065180",
   "common": {
     "aicontenttype": "1",
@@ -20,10 +34,18 @@
     },
     "category": {
       "category_2": "1",
-      "category_62": "1"
+      "category_22": "1",
+      "category_23": "1",
+      "category_62": "1",
+      "category_64": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_79": "1",
+      "category_80": "1"
     },
     "clienticon": "1dc22b7ff483f2f830de9e635ce374810ec13280",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -37,7 +59,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4065180",
     "genres": {
       "0": "25",
@@ -47,6 +68,17 @@
       "english": "fa59c70d975bd97635705841e98b68f93c0f4ccd/header.jpg"
     },
     "icon": "1dc22b7ff483f2f830de9e635ce374810ec13280",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1",
+      "tchinese": "1",
+      "turkish": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -109,12 +141,13 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "79514adf8482a936ef64a59af042b8e0813166e9/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792577570",
+    "steam_release_date": "1798704000",
+    "store_asset_mtime": "1793123756",
     "store_tags": {
       "0": "3799",
       "1": "1254552",
@@ -176,5 +209,97 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "footballtemptationsfinal2",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "footballtemptations.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "footballtemptations.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "footballtemptations.sh"
+      }
+    }
+  },
+  "depots": {
+    "4065182": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "download": "1480634656",
+          "gid": "8891649799820589270",
+          "size": "1940963533"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26246591",
+        "timebuildupdated": "1793113304",
+        "timeupdated": "1793113306"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Strategic Desires",
+    "publisher": "Strategic Desires"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/footballtemptations-1760016080",
+            "replace": "Library/RenPy/footballtemptations-1760016080"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacHome"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/footballtemptations-1760016080",
+            "replace": ".renpy/footballtemptations-1760016080"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RenPy/footballtemptations-1760016080",
+        "pattern": "persistent",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "RenPy/footballtemptations-1760016080",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

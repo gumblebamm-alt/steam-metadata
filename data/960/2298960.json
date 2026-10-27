@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1792602992,
-  "_history": [],
-  "_change_number": 39812854,
-  "_missing_token": true,
-  "_sha": "3fb6f819100cb98a81a4e3e100df9fd7322e761e",
-  "_size": 3136,
+  "_lastChecked": 1793124049,
+  "_history": [
+    {
+      "buildId": "25863470",
+      "branch": "public",
+      "timeUpdated": 1791720805,
+      "firstSeen": 1793124049,
+      "manifests": {
+        "2298961": {
+          "gid": "8668064186075056501",
+          "size": 1091278829,
+          "download": 779760944
+        }
+      }
+    },
+    {
+      "buildId": "25863470",
+      "branch": "test_mimic",
+      "timeUpdated": 1791720805,
+      "firstSeen": 1793124049,
+      "manifests": {
+        "2298961": {
+          "gid": "8668064186075056501",
+          "size": 1091278829,
+          "download": 779760944
+        }
+      }
+    }
+  ],
+  "_change_number": 40306102,
+  "_missing_token": false,
+  "_sha": "b0ea9d7c305f701e59c56db327bf7fab96639a09",
+  "_size": 4248,
   "appid": "2298960",
   "common": {
     "associations": {
@@ -33,7 +60,6 @@
     "clienttga": "7e5e22508c2ee900dd79d9d6647067efa64e6f13",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2298960",
     "genres": {
       "0": "1",
@@ -107,7 +133,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5b61a913578cae06e315517741055c73f924e32c/capsule_231x87.jpg"
     },
@@ -141,5 +167,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Mimics Magic Prop Hunt",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Windows/The_Mimic.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2298961": {
+      "manifests": {
+        "public": {
+          "download": "779760944",
+          "gid": "8668064186075056501",
+          "size": "1091278829"
+        },
+        "test_mimic": {
+          "download": "779760944",
+          "gid": "8668064186075056501",
+          "size": "1091278829"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25863470",
+        "timebuildupdated": "1791720607",
+        "timeupdated": "1791720805"
+      },
+      "test_mimic": {
+        "buildid": "25863470",
+        "description": "betatest",
+        "timebuildupdated": "1791720607",
+        "timeupdated": "1791720805"
+      }
+    }
+  },
+  "extended": {
+    "developer": "BullXGames",
+    "publisher": "BullXGames"
+  }
 }

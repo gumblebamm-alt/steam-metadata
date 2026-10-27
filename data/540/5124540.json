@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792644447,
-  "_history": [],
-  "_change_number": 40096711,
-  "_missing_token": true,
-  "_sha": "07a47027b58ccfba19d8b380aeb284bcf803ca2d",
-  "_size": 3314,
+  "_lastChecked": 1793124093,
+  "_history": [
+    {
+      "buildId": "26243584",
+      "branch": "public",
+      "timeUpdated": 1793105242,
+      "firstSeen": 1793124093,
+      "manifests": {
+        "5124541": {
+          "gid": "7969560901515240230",
+          "size": 380962707,
+          "download": 289536608
+        },
+        "5124542": {
+          "gid": "5969915291966987830",
+          "size": 497505941,
+          "download": 322352864
+        },
+        "5124543": {
+          "gid": "8664221685655923616",
+          "size": 414669027,
+          "download": 299319184
+        }
+      }
+    }
+  ],
+  "_change_number": 40303579,
+  "_missing_token": false,
+  "_sha": "0c2d496f81ee9ae1a9dad09e6ea072716e366f7d",
+  "_size": 5720,
   "appid": "5124540",
   "common": {
     "associations": {
@@ -18,9 +42,12 @@
       }
     },
     "category": {
+      "category_1": "1",
       "category_2": "1",
       "category_23": "1",
+      "category_27": "1",
       "category_28": "1",
+      "category_38": "1",
       "category_55": "1",
       "category_56": "1",
       "category_57": "1",
@@ -32,18 +59,19 @@
       "category_76": "1",
       "category_78": "1",
       "category_79": "1",
-      "category_80": "1"
+      "category_80": "1",
+      "category_9": "1"
     },
     "clienticns": "9e9a24cb5c3142f52264a899ef290fcbb66bf4ec",
     "clienticon": "544cf0865923f0612977238b0290a7201864a94c",
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5124540",
     "genres": {
-      "0": "28",
-      "1": "2"
+      "0": "4",
+      "1": "28",
+      "2": "2"
     },
     "header_image": {
       "english": "1a43f5b0aea26ecdc4395a3b41a4edf49dec3e6a/header.jpg"
@@ -111,11 +139,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3ca2ff9d40cf68fb4392657ee0268dce792f43d2/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792602977",
+    "steam_release_date": "1793106483",
+    "store_asset_mtime": "1793106316",
     "store_tags": {
       "0": "599",
       "1": "9",
@@ -144,5 +173,124 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Too Much Baggage",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "too-much-baggage.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Too Much Baggage.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "too-much-baggage.x86_64",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5124541": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "289536608",
+          "gid": "7969560901515240230",
+          "size": "380962707"
+        }
+      }
+    },
+    "5124542": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "322352864",
+          "gid": "5969915291966987830",
+          "size": "497505941"
+        }
+      }
+    },
+    "5124543": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "299319184",
+          "gid": "8664221685655923616",
+          "size": "414669027"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26243584",
+        "timebuildupdated": "1793105206",
+        "timeupdated": "1793105242"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Turbo Moth Games",
+    "homepage": "https://turbomothgames.com",
+    "publisher": "Turbo Moth Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Too Much Baggage",
+            "replace": "godot/app_userdata/Too Much Baggage"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Too Much Baggage",
+        "pattern": "progress.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Too Much Baggage",
+        "pattern": "run_*.sav",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

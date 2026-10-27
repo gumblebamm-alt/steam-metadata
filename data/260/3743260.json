@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792689381,
-  "_history": [],
-  "_change_number": 40113300,
-  "_missing_token": true,
-  "_sha": "a99ccce805a94ca409425b7510de874b32624e20",
-  "_size": 5917,
+  "_lastChecked": 1793124061,
+  "_history": [
+    {
+      "buildId": "26242019",
+      "branch": "public",
+      "timeUpdated": 1793100627,
+      "firstSeen": 1793124061,
+      "manifests": {
+        "3743261": {
+          "gid": "3533415126802006396",
+          "size": 4551293389,
+          "download": 3931513648
+        },
+        "5442190": {
+          "gid": "1136068491673910269",
+          "size": 77259670,
+          "download": 70310608
+        }
+      }
+    }
+  ],
+  "_change_number": 40306809,
+  "_missing_token": false,
+  "_sha": "8ac656902afa5aaaf2eefb389b8311fecbea5466",
+  "_size": 7358,
   "appid": "3743260",
   "common": {
     "associations": {
@@ -32,6 +51,7 @@
     },
     "clienticon": "6222c6e625184c89d63d97a8c8286a223d2a85aa",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -42,7 +62,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3743260",
     "genres": {
       "0": "1",
@@ -126,7 +145,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "93440a9d2ff2cca22f527ee639ff7d2dae512c73/capsule_231x87.jpg"
     },
@@ -199,20 +218,21 @@
         }
       }
     },
-    "store_asset_mtime": "1789915556",
+    "steam_release_date": "1793115961",
+    "store_asset_mtime": "1793114286",
     "store_tags": {
       "0": "19",
       "1": "21",
-      "10": "4305",
-      "11": "7208",
+      "10": "4252",
+      "11": "4305",
       "12": "3993",
       "13": "4145",
       "14": "4667",
       "15": "7481",
       "16": "4182",
-      "17": "1742",
-      "18": "3834",
-      "19": "44868",
+      "17": "44868",
+      "18": "1742",
+      "19": "3834",
       "2": "4191",
       "3": "4166",
       "4": "4342",
@@ -220,7 +240,7 @@
       "6": "5608",
       "7": "5900",
       "8": "1697",
-      "9": "4252"
+      "9": "7208"
     },
     "supported_languages": {
       "brazilian": {
@@ -254,5 +274,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Virtue and a Sledgehammer",
+    "launch": {
+      "0": {
+        "arguments": "-UserDir=\".\\UserDir\"",
+        "executable": "Virtue and a Sledgehammer.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3743261": {
+      "manifests": {
+        "public": {
+          "download": "3931513648",
+          "gid": "3533415126802006396",
+          "size": "4551293389"
+        }
+      }
+    },
+    "5442190": {
+      "dlcappid": "5442190",
+      "manifests": {
+        "public": {
+          "download": "70310608",
+          "gid": "1136068491673910269",
+          "size": "77259670"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26242019",
+        "timebuildupdated": "1793100627",
+        "timeupdated": "1793100627"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": " Deconstructeam",
+    "homepage": "https://www.virtueandasledgehammer.com/",
+    "publisher": "Devolver Digital"
+  },
+  "ufs": {
+    "maxnumfiles": "64",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": "Sledgehammer/UserDir/Saved/SaveGames/{64BitSteamID}",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

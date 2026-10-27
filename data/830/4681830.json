@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793040159,
+  "_lastChecked": 1793124077,
   "_history": [
     {
       "buildId": "23708478",
@@ -39,12 +39,35 @@
           "download": 131335728
         }
       }
+    },
+    {
+      "buildId": "26248852",
+      "branch": "public",
+      "timeUpdated": 1793119227,
+      "firstSeen": 1793124077,
+      "manifests": {
+        "4681831": {
+          "gid": "4658290373499551098",
+          "size": 207633464,
+          "download": 131335728
+        },
+        "4681832": {
+          "gid": "73721009218401779",
+          "size": 290493329,
+          "download": 156482528
+        },
+        "4681833": {
+          "gid": "6458943675659398893",
+          "size": 174054504,
+          "download": 123181600
+        }
+      }
     }
   ],
-  "_change_number": 40267561,
+  "_change_number": 40305466,
   "_missing_token": false,
-  "_sha": "c70e1031351b6879cc0e7650f077516dbd730472",
-  "_size": 3750,
+  "_sha": "c8cadbe6d256d24126c6845de05c391d4aed76e7",
+  "_size": 4525,
   "appid": "4681830",
   "common": {
     "associations": {
@@ -142,8 +165,9 @@
     },
     "name": "Election: Run for President",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos,linux",
     "primary_genre": "2",
     "releasestate": "released",
     "small_capsule": {
@@ -154,15 +178,14 @@
     "store_tags": {
       "0": "599",
       "1": "1036",
-      "10": "4305",
-      "11": "4175",
-      "12": "492",
-      "13": "4598",
-      "14": "1775",
-      "15": "6730",
-      "16": "17389",
-      "17": "3859",
-      "18": "4182",
+      "10": "492",
+      "11": "4598",
+      "12": "1775",
+      "13": "6730",
+      "14": "17389",
+      "15": "3859",
+      "16": "4182",
+      "17": "7368",
       "2": "9",
       "3": "1770",
       "4": "3987",
@@ -170,7 +193,7 @@
       "6": "1666",
       "7": "26921",
       "8": "3871",
-      "9": "4195"
+      "9": "4175"
     },
     "supported_languages": {
       "english": {
@@ -187,11 +210,29 @@
           "oslist": "windows"
         },
         "executable": "RunForPresident.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "RunForPresident.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "RunForPresident.x86_64",
+        "type": "default"
       }
     }
   },
   "depots": {
     "4681831": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "download": "131335728",
@@ -200,11 +241,35 @@
         }
       }
     },
+    "4681832": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "156482528",
+          "gid": "73721009218401779",
+          "size": "290493329"
+        }
+      }
+    },
+    "4681833": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "123181600",
+          "gid": "6458943675659398893",
+          "size": "174054504"
+        }
+      }
+    },
     "branches": {
       "public": {
-        "buildid": "26221092",
-        "timebuildupdated": "1793029757",
-        "timeupdated": "1793030088"
+        "buildid": "26248852",
+        "timebuildupdated": "1793119227",
+        "timeupdated": "1793119227"
       }
     },
     "privatebranches": "1"

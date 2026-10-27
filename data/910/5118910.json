@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791333775,
-  "_history": [],
-  "_change_number": 39539634,
-  "_missing_token": true,
-  "_sha": "0a383b57f9df6558d223ad147bc9c21a0919c166",
-  "_size": 3163,
+  "_lastChecked": 1793124093,
+  "_history": [
+    {
+      "buildId": "26250122",
+      "branch": "public",
+      "timeUpdated": 1793123739,
+      "firstSeen": 1793124093,
+      "manifests": {
+        "5118911": {
+          "gid": "5313225455386585055",
+          "size": 129613469,
+          "download": 47454032
+        }
+      }
+    }
+  ],
+  "_change_number": 40308017,
+  "_missing_token": false,
+  "_sha": "f4bdd92d65a045c7218488a37f5bc04610d4502e",
+  "_size": 4288,
   "appid": "5118910",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +45,8 @@
     },
     "clienticon": "d881f9395a9e34699c7400663b610e3e87fc869f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5118910",
     "genres": {
       "0": "4",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "eaf41efdaf54a864bdf0ebc546e02dd11bcd3ef5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793106022",
     "store_asset_mtime": "1787949161",
     "store_tags": {
       "0": "597",
@@ -141,5 +156,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Junkpot",
+    "launch": {
+      "0": {
+        "executable": "Junkpot.exe"
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5118911": {
+      "manifests": {
+        "public": {
+          "download": "47454032",
+          "gid": "5313225455386585055",
+          "size": "129613469"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26250122",
+        "timebuildupdated": "1793122509",
+        "timeupdated": "1793123739"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Velum Games",
+    "publisher": "Velum Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "Velum Games/Junkpot/{64BitSteamID}",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": ".config/unity3d/Velum Games/Junkpot/{64BitSteamID}",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

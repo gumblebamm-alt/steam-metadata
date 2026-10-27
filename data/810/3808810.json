@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793040142,
-  "_history": [],
-  "_change_number": 40267809,
-  "_missing_token": true,
-  "_sha": "65d23e2e08b40851c69531f796188a4d7016d0df",
-  "_size": 3077,
+  "_lastChecked": 1793124061,
+  "_history": [
+    {
+      "buildId": "26236004",
+      "branch": "public",
+      "timeUpdated": 1793079474,
+      "firstSeen": 1793124061,
+      "manifests": {
+        "3808811": {
+          "gid": "1964074333061693816",
+          "size": 2947696257,
+          "download": 1101683120
+        },
+        "3808813": {
+          "gid": "3327313836247607974",
+          "size": 2925401777,
+          "download": 1081484304
+        },
+        "3808819": {
+          "gid": "6280593447985958189",
+          "size": 4849031815,
+          "download": 1722315248
+        }
+      }
+    }
+  ],
+  "_change_number": 40303858,
+  "_missing_token": false,
+  "_sha": "e16e4589b5dbb5e1966f2b4000c1fd0144f0d476",
+  "_size": 4749,
   "appid": "3808810",
   "common": {
     "associations": {
@@ -29,8 +53,8 @@
     },
     "clienticon": "3a3b9a2d7a56fed1157faa3cda1834504cbfee2b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3808810",
     "genres": {
       "0": "1",
@@ -102,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "64d363604b1d6f5ccb89ae1ed3d0308db735045f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793116831",
     "store_asset_mtime": "1793038666",
     "store_tags": {
       "0": "4184",
@@ -138,5 +163,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Prismarch",
+    "launch": {
+      "0": {
+        "executable": "Prismarch.exe"
+      }
+    }
+  },
+  "depots": {
+    "3808811": {
+      "manifests": {
+        "public": {
+          "download": "1101683120",
+          "gid": "1964074333061693816",
+          "size": "2947696257"
+        }
+      }
+    },
+    "3808813": {
+      "manifests": {
+        "public": {
+          "download": "1081484304",
+          "gid": "3327313836247607974",
+          "size": "2925401777"
+        }
+      }
+    },
+    "3808819": {
+      "manifests": {
+        "public": {
+          "download": "1722315248",
+          "gid": "6280593447985958189",
+          "size": "4849031815"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26236004",
+        "timebuildupdated": "1793079474",
+        "timeupdated": "1793079474"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Noah Magner",
+    "publisher": "Noah Magner"
+  },
+  "ufs": {
+    "maxnumfiles": "2500",
+    "quota": "2000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Noah Magner/Prismarch",
+            "replace": "unity.Noah Magner.Prismarch"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Noah Magner/Prismarch",
+            "replace": ".config/unity3d/Noah Magner/Prismarch"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Noah Magner/Prismarch",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

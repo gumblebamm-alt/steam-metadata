@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792457866,
-  "_history": [],
-  "_change_number": 39511526,
-  "_missing_token": true,
-  "_sha": "4997ea1f895d6d50d340b672cfe3e7dc978ccfce",
-  "_size": 3034,
+  "_lastChecked": 1793124079,
+  "_history": [
+    {
+      "buildId": "23565505",
+      "branch": "public",
+      "timeUpdated": 1780575962,
+      "firstSeen": 1793124079,
+      "manifests": {
+        "4746361": {
+          "gid": "7298120916452778114",
+          "size": 335075559,
+          "download": 88711328
+        },
+        "4746362": {
+          "gid": "8520719220505452800",
+          "size": 351780425,
+          "download": 96489168
+        }
+      }
+    }
+  ],
+  "_change_number": 40297873,
+  "_missing_token": false,
+  "_sha": "f8742c68f9be3c952764e67371bb1fe78ad7acd6",
+  "_size": 4432,
   "appid": "4746360",
   "common": {
     "associations": {
@@ -30,8 +49,8 @@
     },
     "clienticon": "188811dd42886194d98634f70680e295d97529bb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4746360",
     "genres": {
       "0": "4"
@@ -101,10 +120,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "12a32d4021ac9d4e293adfc42451210372eea794/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793107137",
     "store_asset_mtime": "1781032247",
     "store_tags": {
       "0": "24003",
@@ -135,5 +155,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Wordventures",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Wordventures.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "wordventures.app"
+      }
+    }
+  },
+  "depots": {
+    "4746361": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "88711328",
+          "gid": "7298120916452778114",
+          "size": "335075559"
+        }
+      }
+    },
+    "4746362": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "96489168",
+          "gid": "8520719220505452800",
+          "size": "351780425"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "23565505",
+        "timebuildupdated": "1780575912",
+        "timeupdated": "1780575962"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "PuzzleNation",
+    "homepage": "https://puzzlenation.com/",
+    "publisher": "PuzzleNation"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "PuzzleNation/Wordventures",
+        "pattern": "The Vampire Pirate",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

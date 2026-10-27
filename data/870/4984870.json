@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792644440,
-  "_history": [],
-  "_change_number": 40114164,
-  "_missing_token": true,
-  "_sha": "df2b99f524ade69bec3e3d783158b20dc486769a",
-  "_size": 2988,
+  "_lastChecked": 1793124087,
+  "_history": [
+    {
+      "buildId": "26213196",
+      "branch": "public",
+      "timeUpdated": 1793006317,
+      "firstSeen": 1793124087,
+      "manifests": {
+        "4984871": {
+          "gid": "8867039416868775804",
+          "size": 188834212,
+          "download": 92551664
+        }
+      }
+    }
+  ],
+  "_change_number": 40301509,
+  "_missing_token": false,
+  "_sha": "69d37241d59598bd7410daaa93c9d09f13a41289",
+  "_size": 4250,
   "appid": "4984870",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "766e545267a532458c4730756e8a89413b4c1f2c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4984870",
     "genres": {
       "0": "4",
@@ -100,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2abf64a7cfd904aaa1778d0c39ab2ac743b8a30d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793113021",
     "store_asset_mtime": "1790696179",
     "store_tags": {
       "0": "560542",
@@ -135,5 +150,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SelkieSalvage&Co",
+    "launch": {
+      "0": {
+        "description": "Launch using Vulkan",
+        "description_loc": {
+          "english": "Launch using Vulkan"
+        },
+        "executable": "Selkie.exe"
+      },
+      "1": {
+        "arguments": "--rendering-driver opengl3",
+        "description": "Launch Using OpenGL (Use if your computer is old or game is crashing)",
+        "description_loc": {
+          "english": "Launch Using OpenGL (Use if your computer is old or game is crashing)"
+        },
+        "executable": "Selkie.exe"
+      },
+      "2": {
+        "arguments": "--rendering-driver d3d12",
+        "description": "Launch Using DirectX12",
+        "description_loc": {
+          "english": "Launch Using DirectX12"
+        },
+        "executable": "Selkie.exe"
+      }
+    }
+  },
+  "depots": {
+    "4984871": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "92551664",
+          "gid": "8867039416868775804",
+          "size": "188834212"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26213196",
+        "timebuildupdated": "1793006316",
+        "timeupdated": "1793006317"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "uglycoal",
+    "publisher": "uglycoal"
+  }
 }

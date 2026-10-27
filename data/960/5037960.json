@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793077386,
-  "_history": [],
-  "_change_number": 39022979,
-  "_missing_token": true,
-  "_sha": "4e349b4f700cdb1d6bd94a1b2639140d530a4bd6",
-  "_size": 4136,
+  "_lastChecked": 1793124089,
+  "_history": [
+    {
+      "buildId": "26231815",
+      "branch": "public",
+      "timeUpdated": 1793062418,
+      "firstSeen": 1793124089,
+      "manifests": {
+        "5037961": {
+          "gid": "7988697869114854931",
+          "size": 15491434,
+          "download": 7261024
+        }
+      }
+    }
+  ],
+  "_change_number": 40304983,
+  "_missing_token": false,
+  "_sha": "4d6577bade0551f2e55880f8b0cb397268f5c127",
+  "_size": 5107,
   "appid": "5037960",
   "common": {
     "aicontenttype": "1",
@@ -16,20 +30,21 @@
       "1": {
         "name": "INDIE-SQUID",
         "type": "publisher"
-      },
-      "2": {
-        "name": "INDIE-SQUID",
-        "type": "franchise"
       }
     },
     "category": {
       "category_2": "1",
-      "category_62": "1"
+      "category_22": "1",
+      "category_62": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_79": "1",
+      "category_80": "1"
     },
     "clienticon": "3316a18876d891d3b5754648b1d230f4fba78e6c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5037960",
     "genres": {
       "0": "1",
@@ -101,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d5671e038ba3629a28f2f7111f48282d3512dcd5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793118610",
     "store_asset_mtime": "1788855092",
     "store_tags": {
       "0": "9",
@@ -195,5 +211,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Get Outta My Gut",
+    "launch": {
+      "0": {
+        "executable": "get-outta-my-gut.exe"
+      }
+    }
+  },
+  "depots": {
+    "5037961": {
+      "manifests": {
+        "public": {
+          "download": "7261024",
+          "gid": "7988697869114854931",
+          "size": "15491434"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26231815",
+        "timebuildupdated": "1793062294",
+        "timeupdated": "1793062418"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "INDIE-SQUID",
+    "publisher": "INDIE-SQUID"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791506704,
-  "_history": [],
-  "_change_number": 39633198,
-  "_missing_token": true,
-  "_sha": "dd90f7bd5b2067d97835d2a4ef8e4944e5b5cee2",
-  "_size": 3097,
+  "_lastChecked": 1793124065,
+  "_history": [
+    {
+      "buildId": "26222191",
+      "branch": "public",
+      "timeUpdated": 1793032522,
+      "firstSeen": 1793124065,
+      "manifests": {
+        "4024471": {
+          "gid": "1445041137370159997",
+          "size": 275439368,
+          "download": 108136496
+        },
+        "4024472": {
+          "gid": "2095893035710617968",
+          "size": 357878293,
+          "download": 129494112
+        }
+      }
+    }
+  ],
+  "_change_number": 40299374,
+  "_missing_token": false,
+  "_sha": "e43a5e80e6e7b2b3c7699018436e1a09bf33ab20",
+  "_size": 4832,
   "appid": "4024470",
   "common": {
     "associations": {
@@ -31,9 +50,9 @@
     },
     "clienticon": "82152e3272d3143093dd826e517d9a8c29553d75",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4024470",
     "genres": {
       "0": "4",
@@ -106,10 +125,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8f56a165ea59dddf0b611494086491a6e1bcde3e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793109727",
     "store_asset_mtime": "1790203321",
     "store_tags": {
       "0": "1091588",
@@ -138,5 +158,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Iskabon",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Iskabon.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Iskabon.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "15",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4024471": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "108136496",
+          "gid": "1445041137370159997",
+          "size": "275439368"
+        }
+      }
+    },
+    "4024472": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "129494112",
+          "gid": "2095893035710617968",
+          "size": "357878293"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26222191",
+        "timebuildupdated": "1793032435",
+        "timeupdated": "1793032522"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "POi interactive",
+    "publisher": "POi interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "6",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot\\app_userdata\\Iskabon",
+            "replace": "/Library/Application Support/Godot/app_userdata/Iskabon"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot\\app_userdata\\Iskabon",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

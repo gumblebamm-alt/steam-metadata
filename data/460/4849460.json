@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792414568,
-  "_history": [],
-  "_change_number": 39993059,
-  "_missing_token": true,
-  "_sha": "023fb3020d649b1133ee8a8f2e22bcc7292d06c2",
-  "_size": 3748,
+  "_lastChecked": 1793124082,
+  "_history": [
+    {
+      "buildId": "25844295",
+      "branch": "public",
+      "timeUpdated": 1791602757,
+      "firstSeen": 1793124082,
+      "manifests": {
+        "4849461": {
+          "gid": "575084839263010169",
+          "size": 230523557,
+          "download": 89670480
+        },
+        "4849462": {
+          "gid": "7260773773216164599",
+          "size": 223938214,
+          "download": 82611712
+        }
+      }
+    }
+  ],
+  "_change_number": 40302351,
+  "_missing_token": false,
+  "_sha": "cd39d0052d607b4770cfa21913a8d94e38d9aeec",
+  "_size": 5375,
   "appid": "4849460",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +50,8 @@
     },
     "clienticon": "0d2bc51049c2aaa8e401d9781c060f7d450a4c75",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4849460",
     "genres": {
       "0": "4",
@@ -116,10 +135,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b359cb9625fa4e150318f4fd5262a59b225fe544/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793113204",
     "store_asset_mtime": "1788469312",
     "store_tags": {
       "0": "597",
@@ -177,5 +197,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pickie Grappy",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Pickie Grappy.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Pickie Grappy.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4849461": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "89670480",
+          "gid": "575084839263010169",
+          "size": "230523557"
+        }
+      }
+    },
+    "4849462": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "82611712",
+          "gid": "7260773773216164599",
+          "size": "223938214"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "25844295",
+        "timebuildupdated": "1791602519",
+        "timeupdated": "1791602757"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Orlando Frozo",
+    "publisher": "Orlando Frozo"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "20000000",
+    "savefiles": {
+      "0": {
+        "path": "Orlando Frozo\\Pickie Grappy\\",
+        "pattern": "savedata.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Orlando Frozo/Pickie Grappy/",
+        "pattern": "savedata.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

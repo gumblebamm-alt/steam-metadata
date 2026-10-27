@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792457884,
-  "_history": [],
-  "_change_number": 39590857,
-  "_missing_token": true,
-  "_sha": "79379d4d3ed33ae21ad4aef04b778b3174126fed",
-  "_size": 3259,
+  "_lastChecked": 1793124091,
+  "_history": [
+    {
+      "buildId": "26244036",
+      "branch": "public",
+      "timeUpdated": 1793106613,
+      "firstSeen": 1793124091,
+      "manifests": {
+        "5089281": {
+          "gid": "2470424615332982416",
+          "size": 1223277798,
+          "download": 667054368
+        }
+      }
+    }
+  ],
+  "_change_number": 40303634,
+  "_missing_token": false,
+  "_sha": "70959170bebb201c37bc608c15abbccee8a20253",
+  "_size": 4580,
   "appid": "5089280",
   "common": {
     "associations": {
@@ -25,6 +39,7 @@
     },
     "clienticon": "d4d6de18030247fcf009d98fdfe5c249876dea03",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -32,7 +47,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5089280",
     "genres": {
       "0": "23",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0357e66c03f3e674b53709df8bdbc83e691d6b7b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793116469",
     "store_asset_mtime": "1787175439",
     "store_tags": {
       "0": "1721",
@@ -148,5 +163,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Anomaly Center",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Anomaly Center",
+        "description_loc": {
+          "english": "Play Anomaly Center"
+        },
+        "executable": "Anomaly Center.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5089281": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "667054368",
+          "gid": "2470424615332982416",
+          "size": "1223277798"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26244036",
+        "timebuildupdated": "1793106589",
+        "timeupdated": "1793106613"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Liminal Doors Studios",
+    "publisher": "Liminal Doors Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "LiminalDoorsStudios/Anomaly Center",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

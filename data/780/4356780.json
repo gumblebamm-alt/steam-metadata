@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793040151,
-  "_history": [],
-  "_change_number": 40215464,
-  "_missing_token": true,
-  "_sha": "5caf5af15fe81b409c835ad4f1ed278ba3d0d484",
-  "_size": 6895,
+  "_lastChecked": 1793124071,
+  "_history": [
+    {
+      "buildId": "26250196",
+      "branch": "public",
+      "timeUpdated": 1793122708,
+      "firstSeen": 1793124071,
+      "manifests": {
+        "4356781": {
+          "gid": "1200869575086323542",
+          "size": 194801426,
+          "download": 116993968
+        },
+        "4356782": {
+          "gid": "8427145956092745402",
+          "size": 226818862,
+          "download": 128697136
+        }
+      }
+    }
+  ],
+  "_change_number": 40307527,
+  "_missing_token": false,
+  "_sha": "5c18a393f5617544ad4b81e191218f2b413cb2ee",
+  "_size": 8339,
   "appid": "4356780",
   "common": {
     "associations": {
@@ -31,6 +50,7 @@
     },
     "clienticon": "278b481a14f2fc4e7576ac6518d4a92c5ffa33b7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -40,7 +60,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "4356780",
     "genres": {
       "0": "28",
@@ -156,10 +175,12 @@
     },
     "osarch": "64",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "97",
+    "review_score": "7",
     "small_capsule": {
       "english": "ecb04aaaa79c41ad8e8062bf795249f7d3cca491/capsule_231x87.jpg",
       "japanese": "58b5b46c3f95c6fc89b20bef22d6aa8ae8036b5a/capsule_231x87_japanese.jpg",
@@ -167,6 +188,7 @@
       "schinese": "ad1f7fbf4284fbdff7e496b5d002c1a4d3aa8061/capsule_231x87_schinese.jpg",
       "tchinese": "ad1f7fbf4284fbdff7e496b5d002c1a4d3aa8061/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1793091431",
     "store_asset_mtime": "1790600199",
     "store_tags": {
       "0": "560542",
@@ -226,5 +248,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Screen Stocks",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Screen Stocks.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Screen Stocks.app"
+      }
+    }
+  },
+  "depots": {
+    "4356781": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "116993968",
+          "gid": "1200869575086323542",
+          "size": "194801426"
+        }
+      }
+    },
+    "4356782": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "128697136",
+          "gid": "8427145956092745402",
+          "size": "226818862"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26250196",
+        "timebuildupdated": "1793122708",
+        "timeupdated": "1793122708"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Conradical Games",
+    "homepage": "https://www.conradicalgames.com/",
+    "publisher": "Oro Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Conradical Games/Screen Stocks",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Conradical Games/Screen Stocks",
+        "pattern": "*.bak",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

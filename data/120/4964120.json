@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791290266,
-  "_history": [],
-  "_change_number": 39522011,
-  "_missing_token": true,
-  "_sha": "cf5bf65d82d57c65dba401a088d307feae7b2320",
-  "_size": 3501,
+  "_lastChecked": 1793124086,
+  "_history": [
+    {
+      "buildId": "25179953",
+      "branch": "public",
+      "timeUpdated": 1788842179,
+      "firstSeen": 1793124086,
+      "manifests": {
+        "4964121": {
+          "gid": "3053884804268292921",
+          "size": 291557307,
+          "download": 113530272
+        },
+        "4964122": {
+          "gid": "2274053826566125050",
+          "size": 437676975,
+          "download": 171215936
+        }
+      }
+    }
+  ],
+  "_change_number": 40306661,
+  "_missing_token": false,
+  "_sha": "437f5f8368b9d27faa95398e621e0a7d6c585a2c",
+  "_size": 4858,
   "appid": "4964120",
   "common": {
     "associations": {
@@ -26,8 +45,8 @@
     "clienticns": "2814da34159cc148469625c935aec8839688eed6",
     "clienticon": "2e4e3c24fefbf87f1feab727a7b356577165dd3d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4964120",
     "genres": {
       "0": "4",
@@ -99,10 +118,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8cc3e6d3c97f621a29771e8e37ebcf630cf72ca0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793121255",
     "store_asset_mtime": "1791254855",
     "store_tags": {
       "0": "597",
@@ -163,5 +183,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fantasy Idle RPG",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "/fantasy-idle-rpg-win32-x64/fantasy-idle-rpg.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "fantasy-idle-rpg.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4964121": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "113530272",
+          "gid": "3053884804268292921",
+          "size": "291557307"
+        }
+      }
+    },
+    "4964122": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "171215936",
+          "gid": "2274053826566125050",
+          "size": "437676975"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25179953",
+        "timebuildupdated": "1788842179",
+        "timeupdated": "1788842179"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "The Slanted Room",
+    "homepage": "https://www.theslantedroom.ca/games/fantasyIdleRPG",
+    "publisher": "The Slanted Room"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "fantasy-idle-rpg/Local Storage/leveldb/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

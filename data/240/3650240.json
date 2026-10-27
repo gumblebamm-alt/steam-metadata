@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792069001,
-  "_history": [],
-  "_change_number": 39849836,
-  "_missing_token": true,
-  "_sha": "d6ddd444f35c4c1afad6440edf7be2193bdbeee7",
-  "_size": 3164,
+  "_lastChecked": 1793124059,
+  "_history": [
+    {
+      "buildId": "26244181",
+      "branch": "public",
+      "timeUpdated": 1793107273,
+      "firstSeen": 1793124059,
+      "manifests": {
+        "3650241": {
+          "gid": "1812172545558014037",
+          "size": 1630175574,
+          "download": 1524064640
+        }
+      }
+    }
+  ],
+  "_change_number": 40301695,
+  "_missing_token": false,
+  "_sha": "e3c068259ea1120b642ffce19dec6b69876f3073",
+  "_size": 4233,
   "appid": "3650240",
   "common": {
     "aicontenttype": "1",
@@ -26,6 +40,7 @@
     "clienticon": "6e642b064c2c24043d6453e3d6ce8f0e14caa32b",
     "clienttga": "ffd321613c3d8f7619be4fb5ae4b49d703e8c718",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -37,7 +52,14 @@
       "2": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
+    "eulas": {
+      "0": {
+        "id": "3650240_eula_0",
+        "name": "Hole Digging Simulator EULA",
+        "url": "https://store.steampowered.com/eula/3650240_eula_0",
+        "version": "1"
+      }
+    },
     "gameid": "3650240",
     "genres": {
       "0": "1",
@@ -110,10 +132,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b33eac2d64ce3fd91ef437b4e67fe1669a07f54a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793108465",
     "store_asset_mtime": "1791146529",
     "store_tags": {
       "0": "10397",
@@ -143,5 +166,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HoleSim",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Simulatoria.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3650241": {
+      "manifests": {
+        "public": {
+          "download": "1524064640",
+          "gid": "1812172545558014037",
+          "size": "1630175574"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26244181",
+        "timebuildupdated": "1793107010",
+        "timeupdated": "1793107273"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Knights of the Round Hole",
+    "publisher": "Kavkaz Sila Games"
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792457887,
-  "_history": [],
-  "_change_number": 40009798,
-  "_missing_token": true,
-  "_sha": "bff7e2e78c36b467dc2712bbda186acf9bc6a497",
-  "_size": 2837,
+  "_lastChecked": 1793124093,
+  "_history": [
+    {
+      "buildId": "26247888",
+      "branch": "public",
+      "timeUpdated": 1793116659,
+      "firstSeen": 1793124093,
+      "manifests": {
+        "5129851": {
+          "gid": "8495749709170014286",
+          "size": 142562515,
+          "download": 61291840
+        },
+        "5129852": {
+          "gid": "507458005149785890",
+          "size": 189015290,
+          "download": 62730368
+        }
+      }
+    }
+  ],
+  "_change_number": 40304016,
+  "_missing_token": false,
+  "_sha": "06bdda52840eb829eb89b0c2dff7aa9e321743bf",
+  "_size": 4497,
   "appid": "5129850",
   "common": {
     "associations": {
@@ -19,12 +38,12 @@
     },
     "category": {
       "category_2": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "clienticon": "c6d576284968c01153a504f532457ad2450fe694",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5129850",
     "genres": {
       "0": "23",
@@ -97,10 +116,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "22b5cc251841af49f17bdaa2e335c0e05cfb135c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793117066",
     "store_asset_mtime": "1792427110",
     "store_tags": {
       "0": "599",
@@ -120,11 +140,105 @@
       "english": {
         "supported": "true"
       },
+      "finnish": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
       "ukrainian": {
         "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Rate & State",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Rate & State.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "RateAndState.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5129851": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "61291840",
+          "gid": "8495749709170014286",
+          "size": "142562515"
+        }
+      }
+    },
+    "5129852": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "62730368",
+          "gid": "507458005149785890",
+          "size": "189015290"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "26247888",
+        "timebuildupdated": "1793116644",
+        "timeupdated": "1793116659"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "DalvSync",
+    "homepage": "https://dalvsync.com/",
+    "publisher": "DalvSync"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "500000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "Documents/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinMyDocuments",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Rate & State/Saves",
+        "pattern": "*.dat",
+        "root": "WinMyDocuments"
+      }
+    }
+  }
 }

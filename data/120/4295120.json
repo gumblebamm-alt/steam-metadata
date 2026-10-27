@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1791592994,
-  "_history": [],
-  "_change_number": 39676666,
-  "_missing_token": true,
-  "_sha": "244e788562eead4d987de16a9e9032c220ea6f8c",
-  "_size": 3547,
+  "_lastChecked": 1793124070,
+  "_history": [
+    {
+      "buildId": "25280011",
+      "branch": "public",
+      "timeUpdated": 1789281133,
+      "firstSeen": 1793124070,
+      "manifests": {
+        "4295121": {
+          "gid": "8148748212264160031",
+          "size": 10940116415,
+          "download": 10446125088
+        },
+        "4295122": {
+          "gid": "7455209538132164475",
+          "size": 10933000190,
+          "download": 10444259872
+        },
+        "4295123": {
+          "gid": "5236392057236044996",
+          "size": 10409759841,
+          "download": 9900251152
+        }
+      }
+    }
+  ],
+  "_change_number": 40303481,
+  "_missing_token": false,
+  "_sha": "7c48027e066d69a0be8f1f69bb451060f8bec8f5",
+  "_size": 5673,
   "appid": "4295120",
   "common": {
     "aicontenttype": "2",
@@ -31,6 +55,7 @@
     },
     "clienticon": "29a384b55ba971cd1bf7a7cb108b862aa17efd38",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -46,7 +71,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "4295120",
     "genres": {
       "0": "25",
@@ -122,10 +146,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "50b3c3353a5f4bc1fba17810928f2bdde73832c7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1789171062",
     "store_tags": {
       "0": "599",
@@ -161,5 +186,117 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "s[TOR-Y]telling Closed Loop",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "sTORYtelling_Closed_Loop.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "sTORYtelling_Closed_Loop.sh"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "sTORYtelling_Closed_Loop.app"
+      }
+    }
+  },
+  "depots": {
+    "4295121": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "10446125088",
+          "gid": "8148748212264160031",
+          "size": "10940116415"
+        }
+      }
+    },
+    "4295122": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "10444259872",
+          "gid": "7455209538132164475",
+          "size": "10933000190"
+        }
+      }
+    },
+    "4295123": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "9900251152",
+          "gid": "5236392057236044996",
+          "size": "10409759841"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25280011",
+        "timebuildupdated": "1789280943",
+        "timeupdated": "1789281133"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Curious Biped",
+    "publisher": "Curious Biped"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "RenPy/sTORYtelling-1743698401",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "RenPy/sTORYtelling-1743698401",
+        "pattern": "*.png",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "RenPy/sTORYtelling-1743698401",
+        "pattern": "persistent",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

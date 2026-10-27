@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792457882,
-  "_history": [],
-  "_change_number": 40025406,
-  "_missing_token": true,
-  "_sha": "1255acd85048d22a7493b444a112824f1cfca418",
-  "_size": 3291,
+  "_lastChecked": 1793124090,
+  "_history": [
+    {
+      "buildId": "26116729",
+      "branch": "public",
+      "timeUpdated": 1792614891,
+      "firstSeen": 1793124090,
+      "manifests": {
+        "5059911": {
+          "gid": "7228915683715188149",
+          "size": 160112832,
+          "download": 69853680
+        },
+        "5059912": {
+          "gid": "3136779565991870882",
+          "size": 125129832,
+          "download": 61382688
+        }
+      }
+    }
+  ],
+  "_change_number": 40298207,
+  "_missing_token": false,
+  "_sha": "ee248bb0a72ad4663aa6b926048100e620fa1e16",
+  "_size": 5992,
   "appid": "5059910",
   "common": {
     "associations": {
@@ -35,9 +54,9 @@
     },
     "clienticon": "80d45a870c9b5ac0c3a29941a1d648c4a667cff1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5059910",
     "genres": {
       "0": "1",
@@ -110,10 +129,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "36a8a978bab0d037eef932edecb1ddab680338c9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793107769",
     "store_asset_mtime": "1792457194",
     "store_tags": {
       "0": "7038",
@@ -147,5 +167,133 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "default",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "Rogue Links",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Rogue Links.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Rogue Links.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5059911": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "69853680",
+          "gid": "7228915683715188149",
+          "size": "160112832"
+        }
+      }
+    },
+    "5059912": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "61382688",
+          "gid": "3136779565991870882",
+          "size": "125129832"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26116729",
+        "timebuildupdated": "1792614392",
+        "timeupdated": "1792614891"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "5059910"
+  },
+  "extended": {
+    "developer": "DoorPost Games",
+    "publisher": "DoorPost Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "250000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Rogue Links",
+            "replace": "godot/app_userdata/Rogue Links"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "Godot/app_userdata/Rogue Links",
+        "pattern": "run_save_account_*.json*",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Rogue Links/mycourses",
+        "pattern": "*.png",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Rogue Links",
+        "pattern": "meta.json",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Godot/app_userdata/Rogue Links",
+        "pattern": "run_save.json*",
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Godot/app_userdata/Rogue Links",
+        "pattern": "course_draft.png",
+        "root": "WinAppDataRoaming"
+      },
+      "7": {
+        "path": "Godot/app_userdata/Rogue Links",
+        "pattern": "course_name.txt",
+        "root": "WinAppDataRoaming"
+      },
+      "8": {
+        "path": "Godot/app_userdata/Rogue Links",
+        "pattern": "meta.json.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "9": {
+        "path": "Godot/app_userdata/Rogue Links",
+        "pattern": "meta.json.tmp",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

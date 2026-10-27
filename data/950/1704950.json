@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793077360,
-  "_history": [],
-  "_change_number": 40272542,
-  "_missing_token": true,
-  "_sha": "33aed22e121a702ccd7b7c4b78d883c6360f9179",
-  "_size": 3423,
+  "_lastChecked": 1793124046,
+  "_history": [
+    {
+      "buildId": "26228772",
+      "branch": "public",
+      "timeUpdated": 1793051837,
+      "firstSeen": 1793124046,
+      "manifests": {
+        "1704951": {
+          "gid": "519196997888274453",
+          "size": 2761578035,
+          "download": 2355181264
+        }
+      }
+    }
+  ],
+  "_change_number": 40300113,
+  "_missing_token": false,
+  "_sha": "57d015e2f354dec390ad0cef3f5293af07c7a4fc",
+  "_size": 4579,
   "appid": "1704950",
   "common": {
     "associations": {
@@ -29,6 +43,7 @@
     "clienticon": "cd3ce9cddce16646e895c345f9b22af39344aaf3",
     "clienttga": "2b3091e1bca658b54fad79ebfe567e41af50eb7c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -37,7 +52,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1704950",
     "genres": {
       "0": "23",
@@ -110,12 +124,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "65d73ccd1643c58be5a1fad29aabf90d8c9e8e28/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/1704950/",
-    "store_asset_mtime": "1791758101",
+    "steam_release_date": "1793073716",
+    "store_asset_mtime": "1793110805",
     "store_tags": {
       "0": "1710",
       "1": "1721",
@@ -146,5 +161,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bateyd",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BATEYD.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1704951": {
+      "manifests": {
+        "public": {
+          "download": "2355181264",
+          "gid": "519196997888274453",
+          "size": "2761578035"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "26228772",
+        "timebuildupdated": "1793051812",
+        "timeupdated": "1793051837"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "QUIRKIGAMI",
+    "homepage": "https://quirkigami.io/",
+    "publisher": "QUIRKIGAMI"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Theseus/Saved/SaveGames",
+        "pattern": "Save_*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

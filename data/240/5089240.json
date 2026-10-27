@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792069029,
-  "_history": [],
-  "_change_number": 39827526,
-  "_missing_token": true,
-  "_sha": "5a5956666d03f9710bafb878e65e366ac72aacb1",
-  "_size": 4220,
+  "_lastChecked": 1793124091,
+  "_history": [
+    {
+      "buildId": "26240637",
+      "branch": "public",
+      "timeUpdated": 1793114758,
+      "firstSeen": 1793124091,
+      "manifests": {
+        "5089241": {
+          "gid": "673412936517524555",
+          "size": 313879824,
+          "download": 232982736
+        },
+        "5089242": {
+          "gid": "2773892439938175175",
+          "size": 400374766,
+          "download": 258865072
+        }
+      }
+    }
+  ],
+  "_change_number": 40302604,
+  "_missing_token": false,
+  "_sha": "49fc72fd357f6bf8ad754fcade75da06066473ac",
+  "_size": 5382,
   "appid": "5089240",
   "common": {
     "aicontenttype": "1",
@@ -31,6 +50,7 @@
     },
     "clienticon": "582bf9b5d1d26951a2940a59a7992eb5b3f95c80",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -38,7 +58,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5089240",
     "genres": {
       "0": "4",
@@ -123,11 +142,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "39875fc306e5773ae33703888262b8306f95da2f/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791996334",
+    "steam_release_date": "1793113854",
+    "store_asset_mtime": "1792677004",
     "store_tags": {
       "0": "1721",
       "1": "3978",
@@ -200,5 +220,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Kritsana",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "kritsana.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Kritsana.app/Contents/MacOS/Kritsana",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5089241": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "232982736",
+          "gid": "673412936517524555",
+          "size": "313879824"
+        }
+      }
+    },
+    "5089242": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "258865072",
+          "gid": "2773892439938175175",
+          "size": "400374766"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26240637",
+        "timebuildupdated": "1793096710",
+        "timeupdated": "1793114758"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Debuz Studio",
+    "publisher": "Debuz Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000"
+  }
 }

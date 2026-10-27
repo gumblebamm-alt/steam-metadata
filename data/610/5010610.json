@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792457879,
-  "_history": [],
-  "_change_number": 39977964,
-  "_missing_token": true,
-  "_sha": "9ede3470525a5b2a56ee1b192b8c6423ee6071b6",
-  "_size": 4430,
+  "_lastChecked": 1793124088,
+  "_history": [
+    {
+      "buildId": "25474105",
+      "branch": "public",
+      "timeUpdated": 1790138219,
+      "firstSeen": 1793124088,
+      "manifests": {
+        "5010611": {
+          "gid": "8389111078444054409",
+          "size": 75484951,
+          "download": 59182784
+        }
+      }
+    }
+  ],
+  "_change_number": 40300271,
+  "_missing_token": false,
+  "_sha": "a5f9d3b801440e19764171fb22d7a21f93572f67",
+  "_size": 5868,
   "appid": "5010610",
   "common": {
     "associations": {
@@ -28,9 +42,9 @@
     },
     "clienticon": "de6a1c26ff6ec0f6e71ad4bc7cb2305f1fa0c8bb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5010610",
     "genres": {
       "0": "1",
@@ -125,7 +139,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6e65b31e9302fc886c6479c5110ea2eaaae2b22e/capsule_231x87.jpg",
       "schinese": "1f6af0ac881ae9ca5dda0bd6d567fd7f5a60fff6/capsule_231x87_schinese.jpg"
@@ -187,5 +201,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Trash Raccoon",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Trash_Raccoon.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "7",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5010611": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "59182784",
+          "gid": "8389111078444054409",
+          "size": "75484951"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,latam,russian,spanish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "25474105",
+        "timebuildupdated": "1790138162",
+        "timeupdated": "1790138219"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Xeneder Team",
+    "homepage": "https://xeneder.team",
+    "publisher": "Xeneder Team"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000",
+    "savefiles": {
+      "0": {
+        "path": "Trash_Raccoon/asyncsavegroup",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Trash_Raccoon/asyncsavegroup",
+        "pattern": "settings.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

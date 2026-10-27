@@ -1,20 +1,51 @@
 {
-  "_lastChecked": 1793040165,
-  "_history": [],
-  "_change_number": 40254540,
-  "_missing_token": true,
-  "_sha": "72bb8b8265bb6ee7710b410d738111c4225f69e0",
-  "_size": 2973,
+  "_lastChecked": 1793124084,
+  "_history": [
+    {
+      "buildId": "25456804",
+      "branch": "playtests",
+      "timeUpdated": 1790072820,
+      "firstSeen": 1793124084,
+      "manifests": {
+        "4911051": {
+          "gid": "3186597828442918416",
+          "size": 75694755,
+          "download": 65857088
+        }
+      }
+    },
+    {
+      "buildId": "26249390",
+      "branch": "public",
+      "timeUpdated": 1793120659,
+      "firstSeen": 1793124084,
+      "manifests": {
+        "4911051": {
+          "gid": "5855027570634402841",
+          "size": 76780712,
+          "download": 66256960
+        }
+      }
+    }
+  ],
+  "_change_number": 40306302,
+  "_missing_token": false,
+  "_sha": "3ce1762d5ac9d07a748973dc5c2476ff30f708c2",
+  "_size": 3871,
   "appid": "4911050",
   "common": {
     "associations": {
       "0": {
-        "name": "Digital Deer Studio",
+        "name": "Digital Deer",
         "type": "developer"
       },
       "1": {
         "name": "Mad Octopus",
         "type": "publisher"
+      },
+      "2": {
+        "name": "MadOctopus Incremental",
+        "type": "franchise"
       }
     },
     "category": {
@@ -24,8 +55,8 @@
     },
     "clienticon": "2599c364104694070bb64061c96f4302e82d286c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4911050",
     "genres": {
       "0": "23",
@@ -96,10 +127,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d169c2d137120c378771395ec7bc146044dbc67f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793100303",
     "store_asset_mtime": "1793017374",
     "store_tags": {
       "0": "560542",
@@ -132,5 +164,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Horde of Gorak",
+    "launch": {
+      "0": {
+        "executable": "THOG.exe"
+      }
+    }
+  },
+  "depots": {
+    "4911051": {
+      "manifests": {
+        "playtests": {
+          "download": "65857088",
+          "gid": "3186597828442918416",
+          "size": "75694755"
+        },
+        "public": {
+          "download": "66256960",
+          "gid": "5855027570634402841",
+          "size": "76780712"
+        }
+      }
+    },
+    "branches": {
+      "playtests": {
+        "buildid": "25456804",
+        "description": "playtests",
+        "timebuildupdated": "1790072727",
+        "timeupdated": "1790072820"
+      },
+      "public": {
+        "buildid": "26249390",
+        "timebuildupdated": "1793120608",
+        "timeupdated": "1793120659"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Digital Deer",
+    "publisher": "Mad Octopus"
+  }
 }

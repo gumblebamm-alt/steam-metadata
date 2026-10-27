@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1791940071,
-  "_history": [],
-  "_change_number": 39729714,
-  "_missing_token": true,
-  "_sha": "14727f3fadb0c31e4d47fde63f2c8d32b1a1e3a7",
-  "_size": 3010,
+  "_lastChecked": 1793124074,
+  "_history": [
+    {
+      "buildId": "26196862",
+      "branch": "public",
+      "timeUpdated": 1793023134,
+      "firstSeen": 1793124074,
+      "manifests": {
+        "4535371": {
+          "gid": "5958471140728449031",
+          "size": 237753344,
+          "download": 183041888
+        },
+        "4535372": {
+          "gid": "6881716815416293664",
+          "size": 351573688,
+          "download": 212202800
+        },
+        "4535373": {
+          "gid": "5497360442074648114",
+          "size": 270441352,
+          "download": 190755872
+        }
+      }
+    }
+  ],
+  "_change_number": 40297319,
+  "_missing_token": false,
+  "_sha": "e2f8a828216f9e3113b44df821d08ac446d7f2e4",
+  "_size": 4853,
   "appid": "4535370",
   "common": {
     "associations": {
@@ -25,8 +49,8 @@
     },
     "clienticon": "dfbaacae5e7880f32734947598f422b100c8646a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4535370",
     "genres": {
       "0": "23",
@@ -96,14 +120,16 @@
     },
     "linuxclienticon": "e87e5cd69592cd5a1f4c44dc0deb5c42e9979727",
     "name": "Throughput",
-    "osarch": "",
+    "osarch": "64",
+    "oscpu": "",
     "osextended": "macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "37641b02bb56f209d86af1b82b0f9cf76e27e955/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793106132",
     "store_asset_mtime": "1791435016",
     "store_tags": {
       "0": "4328",
@@ -134,5 +160,106 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Throughput",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Throughput.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Throughput.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Throughput.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4535371": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "183041888",
+          "gid": "5958471140728449031",
+          "size": "237753344"
+        }
+      }
+    },
+    "4535372": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "212202800",
+          "gid": "6881716815416293664",
+          "size": "351573688"
+        }
+      }
+    },
+    "4535373": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "190755872",
+          "gid": "5497360442074648114",
+          "size": "270441352"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26196862",
+        "timebuildupdated": "1792930900",
+        "timeupdated": "1793023134"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "uuqstrings",
+    "homepage": "https://www.throughput.gg/",
+    "publisher": "Entanglement"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Throughput/saves",
+        "pattern": "*.tres",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

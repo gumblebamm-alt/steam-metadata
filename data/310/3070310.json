@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793077365,
-  "_history": [],
-  "_change_number": 39986691,
-  "_missing_token": true,
-  "_sha": "7d5b015d11e0071bc043163dd45d3412b2628fee",
-  "_size": 4672,
+  "_lastChecked": 1793124054,
+  "_history": [
+    {
+      "buildId": "26248740",
+      "branch": "public",
+      "timeUpdated": 1793118939,
+      "firstSeen": 1793124054,
+      "manifests": {
+        "3070311": {
+          "gid": "6770515746499433820",
+          "size": 468436138,
+          "download": 229882512
+        },
+        "3070312": {
+          "gid": "5630848443673469541",
+          "size": 500368933,
+          "download": 222822640
+        }
+      }
+    }
+  ],
+  "_change_number": 40305181,
+  "_missing_token": false,
+  "_sha": "41e2dbe22ed0cc9c53d2aa2054fcd3eccd84b576",
+  "_size": 6099,
   "appid": "3070310",
   "common": {
     "aicontenttype": "1",
@@ -35,6 +54,7 @@
     "clienticon": "7cb0271c856abb148ab4bcf2eae81ccd6f1b5a02",
     "clienttga": "ee0f966c4e5a124ee20285e40e664ace409fd478",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "exfgls": "1",
     "gameid": "3070310",
@@ -106,13 +126,15 @@
     "market_presence": "1",
     "name": "Tiny Fishing Club",
     "osarch": "64",
-    "osextended": "macos64,macosapplesilicon",
+    "oscpu": "",
+    "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ba3ce839d3f9b5f9a8470c317cd0f6c49559992e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793070021",
     "store_asset_mtime": "1788151761",
     "store_tags": {
       "0": "1320952",
@@ -231,5 +253,79 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tiny Fishing Club",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Tiny Fishing Club.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Play Tiny Fishing Club",
+        "description_loc": {
+          "english": "Play Tiny Fishing Club"
+        },
+        "executable": "Tiny Fishing Club.app"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3070311": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "229882512",
+          "gid": "6770515746499433820",
+          "size": "468436138"
+        }
+      }
+    },
+    "3070312": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "222822640",
+          "gid": "5630848443673469541",
+          "size": "500368933"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26248740",
+        "timebuildupdated": "1793118939",
+        "timeupdated": "1793118939"
+      }
+    }
+  },
+  "extended": {
+    "developer": "GoldWorks",
+    "homepage": "https://goldworks.net",
+    "publisher": "GoldWorks"
+  },
+  "ufs": {
+    "maxnumfiles": "32",
+    "quota": "512000",
+    "sync_while_suspended": "1"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792857615,
-  "_history": [],
-  "_change_number": 40200488,
-  "_missing_token": true,
-  "_sha": "7a53476e9f2b5a3dccf5517b3dbcd333da9e4ef7",
-  "_size": 4165,
+  "_lastChecked": 1793124083,
+  "_history": [
+    {
+      "buildId": "26227181",
+      "branch": "public",
+      "timeUpdated": 1793118433,
+      "firstSeen": 1793124083,
+      "manifests": {
+        "4882241": {
+          "gid": "7842957834378617441",
+          "size": 583513851,
+          "download": 240047248
+        }
+      }
+    }
+  ],
+  "_change_number": 40304994,
+  "_missing_token": false,
+  "_sha": "6dde75f1c7b1675cdb7e7581b2746001441c34e6",
+  "_size": 5339,
   "appid": "4882240",
   "common": {
     "associations": {
@@ -33,8 +47,8 @@
     },
     "clienticon": "33b45da19e2f19c2fb269f58319279a2cdb5ddab",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4882240",
     "genres": {
       "0": "25",
@@ -118,12 +132,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1b1442d8d7a51cda3888d980bfafb247cd7d36e7/capsule_231x87.jpg",
       "japanese": "148eb77e94f705aee883a05b5525b8cb1ddcc373/capsule_231x87_japanese.jpg",
       "schinese": "aba00a013727ac95dc72671ac23ae215bf830861/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1793118624",
     "store_asset_mtime": "1791544834",
     "store_tags": {
       "0": "560542",
@@ -191,5 +206,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "A Dark Cave",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "A Dark Cave.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4882241": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "240047248",
+          "gid": "7842957834378617441",
+          "size": "583513851"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26227181",
+        "timebuildupdated": "1793046456",
+        "timeupdated": "1793118433"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Julian Bauer",
+    "homepage": "https://a-dark-cave.com/press",
+    "publisher": "Julian Bauer"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "5000000",
+    "savefiles": {
+      "0": {
+        "path": "A Dark Cave",
+        "pattern": "adc-steam-save.dat",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "A Dark Cave",
+        "pattern": "adc-steam-demo-save.dat",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "A Dark Cave Demo",
+        "pattern": "adc-steam-demo-save.dat",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

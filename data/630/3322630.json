@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792501344,
-  "_history": [],
-  "_change_number": 40030158,
-  "_missing_token": true,
-  "_sha": "811bb8c1f453d71a2e1488b5306f3d005ff908cb",
-  "_size": 9345,
+  "_lastChecked": 1793124056,
+  "_history": [
+    {
+      "buildId": "25930789",
+      "branch": "public",
+      "timeUpdated": 1792024992,
+      "firstSeen": 1793124056,
+      "manifests": {
+        "3322631": {
+          "gid": "7678773020626789091",
+          "size": 2745481039,
+          "download": 2371084272
+        }
+      }
+    }
+  ],
+  "_change_number": 40302673,
+  "_missing_token": false,
+  "_sha": "ab4751bdb2991c4d9e353adc83c50f8f00e23423",
+  "_size": 11858,
   "appid": "3322630",
   "common": {
     "associations": {
@@ -38,9 +52,9 @@
     },
     "clienticon": "c44a7610e7641d24aa4f3cf40019bd6fa65f10ee",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3322630",
     "genres": {
       "0": "25",
@@ -156,13 +170,15 @@
     },
     "name": "Culdcept BEGINS",
     "name_localized": {
-      "japanese": "カルドセプト ビギンズ"
+      "japanese": "カルドセプト ビギンズ",
+      "schinese": "Culdcept BEGINS（卡片召唤师 起源）",
+      "tchinese": "Culdcept BEGINS（卡爾朵聖譜 起源）"
     },
     "osarch": "",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "99b06320f63645eacb74f190b6b937992df7450e/capsule_231x87.jpg",
       "japanese": "2407e385d5d20307c818a3b97d37351f603a0b38/capsule_231x87_japanese.jpg",
@@ -231,6 +247,49 @@
         }
       }
     },
+    "steam_frame_compatibility": {
+      "category": "3",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1790261150",
+      "tested_build_id": "25205136",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1793111633",
     "store_asset_mtime": "1789607840",
     "store_tags": {
       "0": "21",
@@ -276,5 +335,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Culdcept BEGINS",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Culdcept BEGINS.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3322631": {
+      "manifests": {
+        "public": {
+          "download": "2371084272",
+          "gid": "7678773020626789091",
+          "size": "2745481039"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25930789",
+        "timebuildupdated": "1791972875",
+        "timeupdated": "1792024992"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Neos Corporation",
+    "dlcavailableonstore": "1",
+    "homepage": "https://game.neoscorp.jp/culdcept_begins/index.html",
+    "listofdlc": "4467140",
+    "publisher": "Neos Corporation"
+  },
+  "ufs": {
+    "maxnumfiles": "30",
+    "quota": "2000000",
+    "savefiles": {
+      "0": {
+        "path": "Neos Corporation/Culdcept BEGINS/{64BitSteamID}",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
