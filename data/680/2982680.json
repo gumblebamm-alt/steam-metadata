@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1792816659,
-  "_history": [],
-  "_change_number": 40190845,
-  "_missing_token": true,
-  "_sha": "86b69656df92f0a75101346ee65db0cf46c381f5",
-  "_size": 2434,
+  "_lastChecked": 1793077364,
+  "_history": [
+    {
+      "buildId": "26034722",
+      "branch": "prototype",
+      "timeUpdated": 1792368289,
+      "firstSeen": 1793077364,
+      "manifests": {
+        "2982682": {
+          "gid": "338505100653621845",
+          "size": 101415464,
+          "download": 53637440
+        }
+      }
+    },
+    {
+      "buildId": "26031084",
+      "branch": "public",
+      "timeUpdated": 1792349809,
+      "firstSeen": 1793077364,
+      "manifests": {
+        "2982682": {
+          "gid": "8047896626751483449",
+          "size": 790933592,
+          "download": 394065104
+        }
+      }
+    }
+  ],
+  "_change_number": 40273599,
+  "_missing_token": false,
+  "_sha": "e547644e412ff6e78f2a3b5831cb6c6ac8cf8b86",
+  "_size": 3757,
   "appid": "2982680",
   "common": {
     "associations": {
@@ -25,8 +52,8 @@
     "clienticon": "d88f82b8e3f89eeb62df4d8a437c34719b4678a0",
     "clienttga": "d6cf57e0d833f9683cba594a16a54963204791e6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2982680",
     "genres": {
       "0": "1",
@@ -93,7 +120,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "530ee3d4738579aceedb7a8a305ec8d9d717c21e/capsule_231x87.jpg"
     },
@@ -124,5 +151,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Light Out of Sight",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Windows",
+        "description_loc": {
+          "english": "Windows"
+        },
+        "executable": "Light Out of Sight Windows.exe"
+      },
+      "2": {
+        "config": {
+          "betakey": "prototype",
+          "oslist": "windows"
+        },
+        "description": "Prototype Version",
+        "description_loc": {
+          "english": "Prototype Version"
+        },
+        "executable": "LOS Prototype V1.exe"
+      }
+    }
+  },
+  "depots": {
+    "2982682": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "prototype": {
+          "download": "53637440",
+          "gid": "338505100653621845",
+          "size": "101415464"
+        },
+        "public": {
+          "download": "394065104",
+          "gid": "8047896626751483449",
+          "size": "790933592"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "prototype": {
+        "buildid": "26034722",
+        "description": "prototype version of the game",
+        "timebuildupdated": "1792363833",
+        "timeupdated": "1792368289"
+      },
+      "public": {
+        "buildid": "26031084",
+        "timebuildupdated": "1792349809",
+        "timeupdated": "1792349809"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Chicken Cognition",
+    "isfreeapp": "1",
+    "publisher": "Chicken Cognition"
+  }
 }

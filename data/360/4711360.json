@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792731010,
-  "_history": [],
-  "_change_number": 40138806,
-  "_missing_token": true,
-  "_sha": "8f458f5c05f7f0648a581e0f2560e222590e31fb",
-  "_size": 4247,
+  "_lastChecked": 1793077379,
+  "_history": [
+    {
+      "buildId": "26013447",
+      "branch": "public",
+      "timeUpdated": 1792259958,
+      "firstSeen": 1793077379,
+      "manifests": {
+        "4711361": {
+          "gid": "4501411109353814833",
+          "size": 770290472,
+          "download": 639028624
+        },
+        "4711362": {
+          "gid": "2549669197844568553",
+          "size": 760487098,
+          "download": 634935936
+        },
+        "4711363": {
+          "gid": "1011765176735989434",
+          "size": 793266331,
+          "download": 646937296
+        }
+      }
+    }
+  ],
+  "_change_number": 40274498,
+  "_missing_token": false,
+  "_sha": "7f54f5d8274a56bfa61f107c9433b11789b0601d",
+  "_size": 6545,
   "appid": "4711360",
   "common": {
     "associations": {
@@ -36,8 +60,8 @@
     },
     "clienticon": "d766d8522a14da5b649c9dc8d89f4ae7b71f9196",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4711360",
     "genres": {
       "0": "25",
@@ -108,10 +132,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d1114159d846fc602ec96a05dcc35f0e61eeee0f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793051194",
     "store_asset_mtime": "1792691066",
     "store_tags": {
       "0": "3799",
@@ -199,5 +224,124 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Where Control Ends",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "WhereControlEnds.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "WhereControlEnds.sh"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "WhereControlEnds.app"
+      }
+    }
+  },
+  "depots": {
+    "4711361": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "639028624",
+          "gid": "4501411109353814833",
+          "size": "770290472"
+        }
+      }
+    },
+    "4711362": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "634935936",
+          "gid": "2549669197844568553",
+          "size": "760487098"
+        }
+      }
+    },
+    "4711363": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "646937296",
+          "gid": "1011765176735989434",
+          "size": "793266331"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26013447",
+        "timebuildupdated": "1792259943",
+        "timeupdated": "1792259958"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Softveil Studio",
+    "publisher": "Softveil"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/WhereControlEnds-1763468376",
+            "replace": ".renpy/WhereControlEnds-1763468376"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/WhereControlEnds-1763468376",
+            "replace": "Library/RenPy/WhereControlEnds-1763468376"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RenPy/WhereControlEnds-1763468376",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "RenPy/WhereControlEnds-1763468376",
+        "pattern": "persistent",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
