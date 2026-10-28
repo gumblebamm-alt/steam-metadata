@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791506735,
-  "_history": [],
-  "_change_number": 39618637,
-  "_missing_token": true,
-  "_sha": "d86fa577b98eaf15e91f42699d73e40fb8ec27f0",
-  "_size": 4118,
+  "_lastChecked": 1793166299,
+  "_history": [
+    {
+      "buildId": "25803681",
+      "branch": "public",
+      "timeUpdated": 1791462957,
+      "firstSeen": 1793166299,
+      "manifests": {
+        "5129581": {
+          "gid": "7031143669520625112",
+          "size": 189606122,
+          "download": 80912320
+        }
+      }
+    }
+  ],
+  "_change_number": 40322337,
+  "_missing_token": false,
+  "_sha": "d3314cbecab87925e60a1f641e2d7abbfb6f182e",
+  "_size": 5148,
   "appid": "5129580",
   "common": {
     "associations": {
@@ -34,9 +48,9 @@
     },
     "clienticon": "f407e72586cb6d0366feedb35c40b7dda5747706",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5129580",
     "genres": {
       "0": "1",
@@ -123,7 +137,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0724890738876ee468f9bb1b9de64d1624328d62/capsule_231x87.jpg",
       "japanese": "3d2e21cf090c773508826a715917addfe6c4d34b/capsule_231x87_japanese.jpg"
@@ -163,5 +177,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Block Planet Frontier",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "game.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input/action_manifest.vdf"
+  },
+  "depots": {
+    "5129581": {
+      "manifests": {
+        "public": {
+          "download": "80912320",
+          "gid": "7031143669520625112",
+          "size": "189606122"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "25803681",
+        "timebuildupdated": "1791462915",
+        "timeupdated": "1791462957"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "watacra",
+    "publisher": "watacra"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "watacra/BlockPlanetFrontier",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

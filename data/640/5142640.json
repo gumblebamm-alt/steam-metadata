@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1792414584,
-  "_history": [],
-  "_change_number": 39983401,
-  "_missing_token": true,
-  "_sha": "ad744f0243b7e05eb0ed58f824fda0fc092109bf",
-  "_size": 3253,
+  "_lastChecked": 1793166299,
+  "_history": [
+    {
+      "buildId": "26233338",
+      "branch": "beta",
+      "timeUpdated": 1793068245,
+      "firstSeen": 1793166299,
+      "manifests": {
+        "5142642": {
+          "gid": "8288826472702782068",
+          "size": 551120616,
+          "download": 230360976
+        },
+        "5142643": {
+          "gid": "3961471098652734851",
+          "size": 396825928,
+          "download": 160410000
+        },
+        "5142644": {
+          "gid": "3059125092902465105",
+          "size": 359955609,
+          "download": 142071520
+        }
+      }
+    },
+    {
+      "buildId": "26233338",
+      "branch": "public",
+      "timeUpdated": 1793068412,
+      "firstSeen": 1793166299,
+      "manifests": {
+        "5142642": {
+          "gid": "8288826472702782068",
+          "size": 551120616,
+          "download": 230360976
+        },
+        "5142643": {
+          "gid": "3961471098652734851",
+          "size": 396825928,
+          "download": 160410000
+        },
+        "5142644": {
+          "gid": "3059125092902465105",
+          "size": 359955609,
+          "download": 142071520
+        }
+      }
+    }
+  ],
+  "_change_number": 40323715,
+  "_missing_token": false,
+  "_sha": "149e70fc9f5de45c330b9424f308a3932fdb9a6b",
+  "_size": 5796,
   "appid": "5142640",
   "common": {
     "associations": {
@@ -40,9 +87,9 @@
     },
     "clienticon": "7759136043fb1decab6731adb921342fd50801cd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5142640",
     "genres": {
       "0": "4",
@@ -114,10 +161,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "57b5e7e894ff1a2e71baeb653f1a375245cc3e52/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793157993",
     "store_asset_mtime": "1792382387",
     "store_tags": {
       "0": "1091588",
@@ -143,5 +191,139 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sortalis",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Sortalis.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Sortalis.app",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "sortalis",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5142641": {},
+    "5142642": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "230360976",
+          "gid": "8288826472702782068",
+          "size": "551120616"
+        },
+        "public": {
+          "download": "230360976",
+          "gid": "8288826472702782068",
+          "size": "551120616"
+        }
+      }
+    },
+    "5142643": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "160410000",
+          "gid": "3961471098652734851",
+          "size": "396825928"
+        },
+        "public": {
+          "download": "160410000",
+          "gid": "3961471098652734851",
+          "size": "396825928"
+        }
+      }
+    },
+    "5142644": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "142071520",
+          "gid": "3059125092902465105",
+          "size": "359955609"
+        },
+        "public": {
+          "download": "142071520",
+          "gid": "3059125092902465105",
+          "size": "359955609"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26233338",
+        "description": "Beta",
+        "timebuildupdated": "1793068245",
+        "timeupdated": "1793068245"
+      },
+      "public": {
+        "buildid": "26233338",
+        "timebuildupdated": "1793068245",
+        "timeupdated": "1793068412"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Mike Schmoyer",
+    "homepage": "https://playsortalis.com",
+    "publisher": "Mike Schmoyer"
+  },
+  "ufs": {
+    "maxnumfiles": "6",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "sortalis",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "addpath": "sortalis",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      },
+      "2": {
+        "addpath": ".config/sortalis",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "",
+        "pattern": "sortalis-profile*.json",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

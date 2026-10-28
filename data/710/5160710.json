@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791593021,
-  "_history": [],
-  "_change_number": 39606959,
-  "_missing_token": true,
-  "_sha": "1cb67cdaf8ba6f2d4b2a7eb76227a80f0974ea27",
-  "_size": 3637,
+  "_lastChecked": 1793166300,
+  "_history": [
+    {
+      "buildId": "25798098",
+      "branch": "public",
+      "timeUpdated": 1791445517,
+      "firstSeen": 1793166300,
+      "manifests": {
+        "5160711": {
+          "gid": "6754730550385159756",
+          "size": 221746412,
+          "download": 111982224
+        },
+        "5160712": {
+          "gid": "8357502350423537394",
+          "size": 209897190,
+          "download": 101037936
+        }
+      }
+    }
+  ],
+  "_change_number": 40318132,
+  "_missing_token": false,
+  "_sha": "eae0c63e3c51b64cd825236dc9fa07a7c7fde995",
+  "_size": 5328,
   "appid": "5160710",
   "common": {
     "associations": {
@@ -32,6 +51,7 @@
     },
     "clienticon": "28dcb869e17e064c2f7a8324388838e0714ad8df",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -41,7 +61,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "5160710",
     "genres": {
       "0": "25",
@@ -118,7 +137,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ca8caefc0556fd77e5ae2234dd03349b0b716efc/capsule_231x87.jpg"
     },
@@ -165,5 +184,99 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DITY Origins",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DITY Origins.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "DITYOrigins.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "DITY Origins.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5160711": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "111982224",
+          "gid": "6754730550385159756",
+          "size": "221746412"
+        }
+      }
+    },
+    "5160712": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "101037936",
+          "gid": "8357502350423537394",
+          "size": "209897190"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25798098",
+        "timebuildupdated": "1791445517",
+        "timeupdated": "1791445517"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Merkel Games",
+    "homepage": "https://merkel.games/",
+    "publisher": "Merkel Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "DITY",
+        "pattern": "profile.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "DITY",
+        "pattern": "profile.bak.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

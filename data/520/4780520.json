@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793077381,
-  "_history": [],
-  "_change_number": 40270010,
-  "_missing_token": true,
-  "_sha": "4d6cc973256e7fd17cab9f0d3c8a7f6f4aff595e",
-  "_size": 3688,
+  "_lastChecked": 1793166291,
+  "_history": [
+    {
+      "buildId": "26254217",
+      "branch": "public",
+      "timeUpdated": 1793134660,
+      "firstSeen": 1793166291,
+      "manifests": {
+        "4780521": {
+          "gid": "8990160391605523941",
+          "size": 88900200,
+          "download": 37149696
+        },
+        "4780522": {
+          "gid": "1001916312780935619",
+          "size": 123917392,
+          "download": 45644608
+        },
+        "4780523": {
+          "gid": "2328925930214359399",
+          "size": 186505195,
+          "download": 63737088
+        }
+      }
+    }
+  ],
+  "_change_number": 40313964,
+  "_missing_token": false,
+  "_sha": "3f977d8276caef67950ed31bbf403d1a2fcc94d0",
+  "_size": 6029,
   "appid": "4780520",
   "common": {
     "aicontenttype": "1",
@@ -52,9 +76,9 @@
     },
     "clienticon": "028025ee98e5550b3555e80724f9e6d858e63ade",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4780520",
     "genres": {
       "0": "4",
@@ -126,11 +150,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "20f260b4e0117ce6c28e4e28e516e3a3451ea253/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/4780520?snr=2_9_100000_",
+    "steam_release_date": "1793124344",
     "store_asset_mtime": "1792939259",
     "store_tags": {
       "0": "1770",
@@ -164,5 +189,124 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MaMills",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "mamills.x86_64",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MaMills.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MaMills.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4780521": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "37149696",
+          "gid": "8990160391605523941",
+          "size": "88900200"
+        }
+      }
+    },
+    "4780522": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "45644608",
+          "gid": "1001916312780935619",
+          "size": "123917392"
+        }
+      }
+    },
+    "4780523": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "63737088",
+          "gid": "2328925930214359399",
+          "size": "186505195"
+        }
+      }
+    },
+    "baselanguages": "english,hungarian",
+    "branches": {
+      "public": {
+        "buildid": "26254217",
+        "timebuildupdated": "1793134622",
+        "timeupdated": "1793134660"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Department of Ducks",
+    "publisher": "Department of Ducks",
+    "remoteplaytogethertestingbranches": "default"
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "4194304",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/MaMills",
+            "replace": "godot/app_userdata/MaMills"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/MaMills",
+        "pattern": "*.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

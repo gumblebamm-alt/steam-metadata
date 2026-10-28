@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1792558058,
-  "_history": [],
-  "_change_number": 40068862,
-  "_missing_token": true,
-  "_sha": "68394cfcaee56c0b22a403b948c4edede81a0e8c",
-  "_size": 3129,
+  "_lastChecked": 1793166261,
+  "_history": [
+    {
+      "buildId": "26258059",
+      "branch": "public",
+      "timeUpdated": 1793147525,
+      "firstSeen": 1793166088,
+      "manifests": {
+        "2622102": {
+          "gid": "6213864187447692248",
+          "size": null,
+          "download": null
+        },
+        "2622103": {
+          "gid": "6941433614920335541",
+          "size": null,
+          "download": null
+        },
+        "2622104": {
+          "gid": "815743240736944667",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40323863,
+  "_missing_token": false,
+  "_sha": "880772d074d743f1f4933bebd74c1ce95f7f740f",
+  "_size": 5120,
   "appid": "2622100",
   "common": {
     "associations": {
@@ -24,7 +49,6 @@
       "category_23": "1",
       "category_24": "1",
       "category_28": "1",
-      "category_36": "1",
       "category_37": "1",
       "category_44": "1",
       "category_47": "1",
@@ -39,9 +63,9 @@
     "clienticon": "2a3bdbd045eebdbc4116a5e671d99cb20fa96a13",
     "clienttga": "9c92c58ae675b52a161aa947c248793a40e13715",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2622100",
     "genres": {
       "0": "23",
@@ -109,10 +133,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8a4e52967714386db9ee3e9f695ec25b92ab29c2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793149808",
     "store_asset_mtime": "1792543536",
     "store_tags": {
       "0": "701",
@@ -145,5 +170,108 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "FootyBash",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Footy Bash.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Footy Bash.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "2622102": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "676962032",
+          "gid": "6213864187447692248",
+          "size": "2722218036"
+        }
+      }
+    },
+    "2622103": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "702279168",
+          "gid": "6941433614920335541",
+          "size": "2785800436"
+        }
+      }
+    },
+    "2622104": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "677969952",
+          "gid": "815743240736944667",
+          "size": "2766405931"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26258059",
+        "timebuildupdated": "1793147396",
+        "timeupdated": "1793147525"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Danger Thumbs",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.dangerthumbs.com",
+    "isfreeapp": "1",
+    "listofdlc": "5431730",
+    "publisher": "Danger Thumbs"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "100000",
+    "savefiles": {
+      "0": {
+        "path": "Danger Thumbs/Footy Bash/SaveData/",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Danger Thumbs/Footy Bash/SaveData/",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": ".config/unity3d/Danger Thumbs/Footy Bash/SaveData",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "LinuxHome"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

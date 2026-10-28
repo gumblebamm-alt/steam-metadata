@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792558105,
-  "_history": [],
-  "_change_number": 40062943,
-  "_missing_token": true,
-  "_sha": "a1e5468fcdf65ae2f68de8e302bd4caf7af99a89",
-  "_size": 3481,
+  "_lastChecked": 1793166295,
+  "_history": [
+    {
+      "buildId": "26150958",
+      "branch": "public",
+      "timeUpdated": 1792726945,
+      "firstSeen": 1793166295,
+      "manifests": {
+        "4963531": {
+          "gid": "4020120529904333847",
+          "size": 526531316,
+          "download": 303678544
+        }
+      }
+    }
+  ],
+  "_change_number": 40322549,
+  "_missing_token": false,
+  "_sha": "97a143af2e073a694e2f40d62639c5a8df381660",
+  "_size": 4944,
   "appid": "4963530",
   "common": {
     "associations": {
@@ -47,9 +61,9 @@
     },
     "clienticon": "42aec94a7eca2711a6ff0c8431b955320d732002",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4963530",
     "genres": {
       "0": "1"
@@ -119,10 +133,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "66b29268d51eaab6cd7b11ae969cd2cd41aac9e4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793154974",
     "store_asset_mtime": "1792013162",
     "store_tags": {
       "0": "42804",
@@ -155,5 +170,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Phosphor",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "PHOSPHOR.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65527",
+    "steamcontrollerconfigdetails": {},
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4963531": {
+      "manifests": {
+        "public": {
+          "download": "303678544",
+          "gid": "4020120529904333847",
+          "size": "526531316"
+        }
+      }
+    },
+    "5007500": {
+      "dlcappid": "5007500"
+    },
+    "5409520": {
+      "dlcappid": "5409520"
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26150958",
+        "timebuildupdated": "1792726943",
+        "timeupdated": "1792726945"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Manawave",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5007500,5409520",
+    "publisher": "Manawave Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "500",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1788622388,
+  "_lastChecked": 1793166272,
   "_history": [
     {
       "buildId": "10323573",
@@ -7,16 +7,32 @@
       "timeUpdated": 1740514737,
       "firstSeen": 1788622388,
       "manifests": {}
+    },
+    {
+      "buildId": "25789897",
+      "branch": "public",
+      "timeUpdated": 1791412044,
+      "firstSeen": 1793166272,
+      "manifests": {
+        "2015141": {
+          "gid": "4149955799031359997",
+          "size": 3384348946,
+          "download": 2946373360
+        },
+        "2015147": {
+          "gid": "1410897519545967518",
+          "size": 4110011502,
+          "download": 3575421616
+        }
+      }
     }
   ],
-  "_change_number": 37128009,
+  "_change_number": 40315708,
   "_missing_token": false,
-  "_sha": "745040ddf81c3662a456b2645b430612cec9344b",
-  "_size": 3391,
+  "_sha": "04f73166cbdaff719e48210b4421e7d26ff49ae5",
+  "_size": 3695,
   "appid": "2015140",
   "common": {
-    "app_retired_publisher_request": "1",
-    "app_retired_was_free": "1",
     "associations": {
       "0": {
         "name": "Cody Williams",
@@ -32,7 +48,8 @@
       }
     },
     "category": {
-      "category_2": "1"
+      "category_2": "1",
+      "category_62": "1"
     },
     "clienticns": "f129c7c40cb9c75435e9fb846778895ca798c2b8",
     "clienticon": "e64b63324acbcede2e5754a8c0a9fceaeba8d5d7",
@@ -94,11 +111,8 @@
     "osarch": "64",
     "osextended": "",
     "oslist": "windows",
-    "parent": "87104",
     "primary_genre": "1",
     "releasestate": "released",
-    "review_percentage": "42",
-    "review_score": "5",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
     },
@@ -135,12 +149,30 @@
           "osarch": "64",
           "oslist": "windows"
         },
-        "executable": "Overdrive.exe",
+        "executable": "game.exe",
         "type": "default"
       }
     }
   },
   "depots": {
+    "2015141": {
+      "manifests": {
+        "public": {
+          "download": "2946373360",
+          "gid": "4149955799031359997",
+          "size": "3384348946"
+        }
+      }
+    },
+    "2015147": {
+      "manifests": {
+        "public": {
+          "download": "3575421616",
+          "gid": "1410897519545967518",
+          "size": "4110011502"
+        }
+      }
+    },
     "228989": {
       "config": {
         "oslist": "windows"
@@ -155,12 +187,11 @@
       "depotfromapp": "228980",
       "sharedinstall": "1"
     },
-    "2320949": {},
     "branches": {
       "public": {
-        "buildid": "10323573",
-        "timebuildupdated": "1673724315",
-        "timeupdated": "1740514737"
+        "buildid": "25789897",
+        "timebuildupdated": "1791412044",
+        "timeupdated": "1791412044"
       }
     },
     "hasdepotsindlc": "1"
@@ -168,13 +199,21 @@
   "extended": {
     "anti_cheat_support_url": "",
     "developer": "Cody Williams",
+    "isfreeapp": "1",
     "publisher": "Dynamite Games"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "10000",
-    "quota": "100000000",
+    "quota": "100000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "\\OverdriveSeason1\\Saved\\SaveGames",

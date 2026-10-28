@@ -1,10 +1,48 @@
 {
-  "_lastChecked": 1793124051,
-  "_history": [],
-  "_change_number": 40237329,
-  "_missing_token": true,
-  "_sha": "74fa589415fdc3d2182927571148c78df8e24012",
-  "_size": 3421,
+  "_lastChecked": 1793166261,
+  "_history": [
+    {
+      "buildId": "26258248",
+      "branch": "public",
+      "timeUpdated": 1793148261,
+      "firstSeen": 1793166090,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "2606851": {
+          "gid": "770715443607676449",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    },
+    {
+      "buildId": "25378978",
+      "branch": "local",
+      "timeUpdated": 1789684525,
+      "firstSeen": 1793166261,
+      "manifests": {
+        "2606851": {
+          "gid": "8588789964995813723",
+          "size": 10288094712,
+          "download": 5659749584
+        }
+      }
+    }
+  ],
+  "_change_number": 40319817,
+  "_missing_token": false,
+  "_sha": "8e7395bafd4912e59a08c1507b8ac1f3dfe210a5",
+  "_size": 4559,
   "appid": "2606850",
   "common": {
     "associations": {
@@ -30,6 +68,7 @@
     "clienticon": "62398c8e34b183c1a3d2fdc29f5edd6daf8b4a90",
     "clienttga": "2d99f1d5c286332ad6271511de1f5ea45fc7f5a0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -48,7 +87,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "2606850",
     "genres": {
       "0": "1",
@@ -121,10 +159,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a46cfbbf1a514173f814a4713fed52ee8aa58722/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793089337",
     "store_asset_mtime": "1786309006",
     "store_tags": {
       "0": "3978",
@@ -157,5 +196,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mimic",
+    "launch": {
+      "0": {
+        "executable": "ProjectMimic.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2606851": {
+      "manifests": {
+        "local": {
+          "download": "5659749584",
+          "gid": "8588789964995813723",
+          "size": "10288094712"
+        },
+        "public": {
+          "download": "4459477856",
+          "gid": "770715443607676449",
+          "size": "4731077844"
+        }
+      }
+    },
+    "branches": {
+      "local": {
+        "buildid": "25378978",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1789684525",
+        "timeupdated": "1789684525"
+      },
+      "public": {
+        "buildid": "26258248",
+        "timebuildupdated": "1793148115",
+        "timeupdated": "1793148261"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Ryan Laley Games",
+    "homepage": "https://www.playmimic.com",
+    "publisher": "Ryan Laley Games"
+  }
 }

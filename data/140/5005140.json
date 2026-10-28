@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1792945212,
-  "_history": [],
-  "_change_number": 40225917,
-  "_missing_token": true,
-  "_sha": "1808251f5548594af2b3608a04fd1b9d9b915eed",
-  "_size": 4675,
+  "_lastChecked": 1793166296,
+  "_history": [
+    {
+      "buildId": "26218602",
+      "branch": "alphatest",
+      "timeUpdated": 1793070151,
+      "firstSeen": 1793166296,
+      "manifests": {
+        "5005141": {
+          "gid": "8199783933562536254",
+          "size": 676038689,
+          "download": 426987232
+        }
+      }
+    },
+    {
+      "buildId": "26218602",
+      "branch": "public",
+      "timeUpdated": 1793070167,
+      "firstSeen": 1793166296,
+      "manifests": {
+        "5005141": {
+          "gid": "8199783933562536254",
+          "size": 676038689,
+          "download": 426987232
+        }
+      }
+    }
+  ],
+  "_change_number": 40310545,
+  "_missing_token": false,
+  "_sha": "942317a8c22a17e0d9753cac30e05e0c4145f21e",
+  "_size": 5782,
   "appid": "5005140",
   "common": {
     "aicontenttype": "1",
@@ -31,6 +58,7 @@
     },
     "clienticon": "2cc965e6a38089a674bcb57ab91dc0ad988fa0c5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -40,7 +68,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5005140",
     "genres": {
       "0": "25",
@@ -135,10 +162,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5c7ba78929e09f2aa17c60827e7a7dd6de527bfa/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793128438",
     "store_asset_mtime": "1792934137",
     "store_tags": {
       "0": "122",
@@ -196,5 +224,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Undermoon",
+    "launch": {
+      "0": {
+        "executable": "Undermoon.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5005141": {
+      "manifests": {
+        "alphatest": {
+          "download": "426987232",
+          "gid": "8199783933562536254",
+          "size": "676038689"
+        },
+        "public": {
+          "download": "426987232",
+          "gid": "8199783933562536254",
+          "size": "676038689"
+        }
+      }
+    },
+    "branches": {
+      "alphatest": {
+        "buildid": "26218602",
+        "description": "测试版本",
+        "timebuildupdated": "1793023606",
+        "timeupdated": "1793070151"
+      },
+      "public": {
+        "buildid": "26218602",
+        "timebuildupdated": "1793023606",
+        "timeupdated": "1793070167"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "momorange",
+    "homepage": "https://gamingdove.com",
+    "publisher": "Gamingdove"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791982434,
-  "_history": [],
-  "_change_number": 39817635,
-  "_missing_token": true,
-  "_sha": "c382f8c6906d41d15d3066acacbd29eb986789c5",
-  "_size": 4314,
+  "_lastChecked": 1793166285,
+  "_history": [
+    {
+      "buildId": "26240835",
+      "branch": "public",
+      "timeUpdated": 1793097379,
+      "firstSeen": 1793166285,
+      "manifests": {
+        "4326821": {
+          "gid": "7791838395172588854",
+          "size": 907071264,
+          "download": 342097744
+        },
+        "4326822": {
+          "gid": "47160860344369695",
+          "size": 874128008,
+          "download": 334093008
+        }
+      }
+    }
+  ],
+  "_change_number": 40310591,
+  "_missing_token": false,
+  "_sha": "82e57cb97a0b4c89dd9664950f59080afba07ea6",
+  "_size": 6281,
   "appid": "4326820",
   "common": {
     "associations": {
@@ -47,9 +66,9 @@
     },
     "clienticon": "74cfe6b9ba249f1cec845584ee4fda76d75bef22",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4326820",
     "genres": {
       "0": "4"
@@ -136,32 +155,29 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a370433b741bcf7e43f4b7f00a6534e4e2032d6b/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791367110",
+    "steam_release_date": "1793124033",
+    "store_asset_mtime": "1793125909",
     "store_tags": {
-      "0": "3859",
-      "1": "3843",
-      "10": "7178",
-      "11": "4191",
-      "12": "7481",
-      "13": "5350",
-      "14": "16689",
-      "15": "10383",
-      "16": "4562",
-      "17": "4252",
-      "18": "1239876",
-      "19": "4195",
+      "0": "3843",
+      "1": "3968",
+      "10": "4136",
+      "11": "1685",
+      "12": "3859",
+      "13": "4182",
+      "14": "4305",
+      "15": "4166",
       "2": "1664",
-      "3": "3968",
-      "4": "1719",
-      "5": "1685",
-      "6": "3839",
-      "7": "1616",
-      "8": "4136",
-      "9": "597"
+      "3": "4252",
+      "4": "4191",
+      "5": "3839",
+      "6": "7481",
+      "7": "7250",
+      "8": "597",
+      "9": "5350"
     },
     "supported_languages": {
       "danish": {
@@ -206,5 +222,112 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Rolling Stock",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ProjectLaundromat.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "ProjectLaundromat",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4326821": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "342097744",
+          "gid": "7791838395172588854",
+          "size": "907071264"
+        }
+      }
+    },
+    "4326822": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "334093008",
+          "gid": "47160860344369695",
+          "size": "874128008"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26240835",
+        "timebuildupdated": "1793097272",
+        "timeupdated": "1793097379"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Cassidy Constantin",
+    "publisher": "Cassidy Constantin"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "20000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".local/share/Rolling Stock",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "addpath": "Rolling Stock",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "2": {
+        "addpath": "/Library/Application Support/Godot/app_userdata/Rolling Stock",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792775327,
-  "_history": [],
-  "_change_number": 40133087,
-  "_missing_token": true,
-  "_sha": "f72e538ca7cd3b98824860c792c67ca4de7ffb7d",
-  "_size": 4829,
+  "_lastChecked": 1793166277,
+  "_history": [
+    {
+      "buildId": "26258805",
+      "branch": "public",
+      "timeUpdated": 1793150076,
+      "firstSeen": 1793166277,
+      "manifests": {
+        "3375991": {
+          "gid": "6449586219525910079",
+          "size": 8054060365,
+          "download": 7253410976
+        }
+      }
+    }
+  ],
+  "_change_number": 40321764,
+  "_missing_token": false,
+  "_sha": "752f58717f978b4b9300985059cdaf294a70f3fe",
+  "_size": 6336,
   "appid": "3375990",
   "common": {
     "aicontenttype": "1",
@@ -40,7 +54,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3375990",
     "genres": {
       "0": "4",
@@ -124,11 +137,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cbe849bdadeadd536a3c7ab8ef07c68bf4b7f8ee/capsule_231x87.jpg",
       "koreana": "2ad3d91baf130ffe15bac7de9f2b42851a1da709/capsule_231x87_koreana.jpg"
     },
+    "steam_release_date": "1793152805",
     "store_asset_mtime": "1792204094",
     "store_tags": {
       "0": "599",
@@ -208,5 +222,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PC Cafe Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "PCCafeSimulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3375991": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "7253410976",
+          "gid": "6449586219525910079",
+          "size": "8054060365"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26258805",
+        "timebuildupdated": "1793149967",
+        "timeupdated": "1793150076"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Sangwoon Jin",
+    "publisher": "FLUXJIN"
+  },
+  "ufs": {
+    "maxnumfiles": "250",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "PCCafeSimulator/Saved/SaveGames",
+        "pattern": "PCCafeSave_*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "PCCafeSimulator/Saved/Config/Windows",
+        "pattern": "Input.ini",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "PCCafeSimulator/Saved/SaveGames",
+        "pattern": "PCCafeUserSettings_Cloud.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

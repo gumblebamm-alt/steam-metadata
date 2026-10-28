@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1792989935,
-  "_history": [],
-  "_change_number": 40236157,
-  "_missing_token": true,
-  "_sha": "0ee5f788f0ff9ace3873bbce9f3557c7f0ee1cd4",
-  "_size": 3775,
+  "_lastChecked": 1793166275,
+  "_history": [
+    {
+      "buildId": "26256692",
+      "branch": "beta",
+      "timeUpdated": 1793142648,
+      "firstSeen": 1793166275,
+      "manifests": {
+        "3028381": {
+          "gid": "8106787885023007580",
+          "size": 647761049,
+          "download": 420325216
+        }
+      }
+    },
+    {
+      "buildId": "26256692",
+      "branch": "public",
+      "timeUpdated": 1793142908,
+      "firstSeen": 1793166275,
+      "manifests": {
+        "3028381": {
+          "gid": "8106787885023007580",
+          "size": 647761049,
+          "download": 420325216
+        }
+      }
+    }
+  ],
+  "_change_number": 40317618,
+  "_missing_token": false,
+  "_sha": "3fc0aca4a9ffcadf9f482dedcef2371c6138ac5e",
+  "_size": 5130,
   "appid": "3028380",
   "common": {
     "associations": {
@@ -35,9 +62,9 @@
     },
     "clienticon": "716eadf1c204c828a2edabc9903d26a767637f2c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3028380",
     "genres": {
       "0": "1",
@@ -110,11 +137,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "763bc752371dd0f13c4151680da8125d8e376a77/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/3028380/eventcomments/565923440615384260/",
+    "steam_release_date": "1793124083",
     "store_asset_mtime": "1791027227",
     "store_tags": {
       "0": "19",
@@ -174,5 +202,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Isles of Arcana",
+    "launch": {
+      "0": {
+        "executable": "Isles of Arcana.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3028381": {
+      "manifests": {
+        "beta": {
+          "download": "420325216",
+          "gid": "8106787885023007580",
+          "size": "647761049"
+        },
+        "public": {
+          "download": "420325216",
+          "gid": "8106787885023007580",
+          "size": "647761049"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "beta": {
+        "buildid": "26256692",
+        "description": "Public beta branch",
+        "timebuildupdated": "1793142647",
+        "timeupdated": "1793142648"
+      },
+      "public": {
+        "buildid": "26256692",
+        "timebuildupdated": "1793142647",
+        "timeupdated": "1793142908"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Dynamic Zero",
+    "homepage": "http://islesofarcana.com/",
+    "publisher": " Dynamic Zero"
+  },
+  "ufs": {
+    "maxnumfiles": "999",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "isles_of_arcana/default/save_data/",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

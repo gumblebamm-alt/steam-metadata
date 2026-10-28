@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793124084,
-  "_history": [],
-  "_change_number": 40303989,
-  "_missing_token": true,
-  "_sha": "49ed5ffff96dae7d38a81d3af91ab9a56af58f1a",
-  "_size": 4278,
+  "_lastChecked": 1793166293,
+  "_history": [
+    {
+      "buildId": "26254576",
+      "branch": "public",
+      "timeUpdated": 1793135832,
+      "firstSeen": 1793166293,
+      "manifests": {
+        "4898891": {
+          "gid": "8244789189091814832",
+          "size": 159971952,
+          "download": 77343424
+        }
+      }
+    }
+  ],
+  "_change_number": 40314484,
+  "_missing_token": false,
+  "_sha": "16821deb577d06745adfb3e6a2ec50e95da8f1b6",
+  "_size": 5662,
   "appid": "4898890",
   "common": {
     "aicontenttype": "1",
@@ -31,6 +45,7 @@
     },
     "clienticon": "f584d13839fe176b352bcffd92ecfed2da6882f5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -38,7 +53,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4898890",
     "genres": {
       "0": "1",
@@ -127,12 +141,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b846ed212b4a3a4b95e0380530b8b5a56d612c22/capsule_231x87.jpg",
       "schinese": "2b740cb485d67b0803681df53468fcbb5dac5f42/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1793050133",
+    "steam_release_date": "1793124171",
+    "store_asset_mtime": "1793126236",
     "store_tags": {
       "0": "1320952",
       "1": "597",
@@ -195,5 +210,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "FireHoldRepeat",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "F.H.R.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4898891": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "77343424",
+          "gid": "8244789189091814832",
+          "size": "159971952"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26254576",
+        "timebuildupdated": "1793135794",
+        "timeupdated": "1793135832"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SLICEMENICE",
+    "publisher": "SLICER777"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "FireHoldRepeat",
+        "pattern": "save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "FireHoldRepeat",
+        "pattern": "save.json.sig",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "FireHoldRepeat",
+        "pattern": "achievements.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

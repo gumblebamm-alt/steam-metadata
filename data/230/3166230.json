@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793040134,
-  "_history": [],
-  "_change_number": 40268252,
-  "_missing_token": true,
-  "_sha": "db567cdff8f88eafcfa86997954b3e626ad4ad62",
-  "_size": 3340,
+  "_lastChecked": 1793166276,
+  "_history": [
+    {
+      "buildId": "26261093",
+      "branch": "public",
+      "timeUpdated": 1793158329,
+      "firstSeen": 1793166276,
+      "manifests": {
+        "3166231": {
+          "gid": "927167159028187441",
+          "size": 9527312975,
+          "download": 9104448496
+        }
+      }
+    }
+  ],
+  "_change_number": 40323833,
+  "_missing_token": false,
+  "_sha": "219c0880f3417f86d79460aaf57fc9c499312837",
+  "_size": 4469,
   "appid": "3166230",
   "common": {
     "associations": {
@@ -34,6 +48,7 @@
     },
     "clienticon": "807e94a9932384b69a4f0f2ec7f65c1e23f6b21d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -42,7 +57,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3166230",
     "genres": {
       "0": "1",
@@ -115,10 +129,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d765433a9c3c4b04af97e10d244fb5aafa8391fd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793133641",
     "store_asset_mtime": "1793039450",
     "store_tags": {
       "0": "1721",
@@ -150,5 +165,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "That Which Remains",
+    "launch": {
+      "0": {
+        "executable": "Remains.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3166231": {
+      "manifests": {
+        "public": {
+          "download": "9104448496",
+          "gid": "927167159028187441",
+          "size": "9527312975"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26261093",
+        "timebuildupdated": "1793158114",
+        "timeupdated": "1793158329"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Remaining Games",
+    "homepage": "https://www.idgi1.ca/thatwhichremains",
+    "publisher": "Interdimensional Games Inc"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "Remains/Saved/SaveGames",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
