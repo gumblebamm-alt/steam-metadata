@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792731020,
-  "_history": [],
-  "_change_number": 40145345,
-  "_missing_token": true,
-  "_sha": "3a23a3ef557712340224cd480e2b9422fdb0f417",
-  "_size": 10397,
+  "_lastChecked": 1793211949,
+  "_history": [
+    {
+      "buildId": "26278042",
+      "branch": "public",
+      "timeUpdated": 1793210269,
+      "firstSeen": 1793211949,
+      "manifests": {
+        "5109831": {
+          "gid": "4863808072787507753",
+          "size": 4950725581,
+          "download": 683535872
+        },
+        "5109832": {
+          "gid": "8976788555927651819",
+          "size": 5040705939,
+          "download": 745840592
+        }
+      }
+    }
+  ],
+  "_change_number": 40350392,
+  "_missing_token": false,
+  "_sha": "24c1b1971d3b82a9a3a29ec19454fc1df9e26442",
+  "_size": 12162,
   "appid": "5109830",
   "common": {
     "associations": {
@@ -46,9 +65,9 @@
     },
     "clienticon": "cd0f7b45ea4fbc1e10eb6d365dccaef1ded11860",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5109830",
     "genres": {
       "0": "1",
@@ -185,7 +204,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "dutch": "2a8e0985200882bd4a2ca7fc8e4b8b4235bce349/capsule_231x87_dutch.jpg",
       "english": "7c427cacd1f4c2f20c164d89eb2c6348cfa1cccc/capsule_231x87.jpg",
@@ -198,7 +217,8 @@
       "schinese": "fadec27fb90de6be05c98f903ffebe90d7f4e492/capsule_231x87_schinese.jpg",
       "spanish": "54c8bad8eda4e67edd329f0463e3b6b7c6a89955/capsule_231x87_spanish.jpg"
     },
-    "store_asset_mtime": "1792520470",
+    "steam_release_date": "1793210415",
+    "store_asset_mtime": "1793211445",
     "store_tags": {
       "0": "3859",
       "1": "1774",
@@ -275,5 +295,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Brush Rush",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Brush Rush.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Brush Rush.x86_64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5109831": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "683535872",
+          "gid": "4863808072787507753",
+          "size": "4950725581"
+        }
+      }
+    },
+    "5109832": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "745840592",
+          "gid": "8976788555927651819",
+          "size": "5040705939"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26278042",
+        "timebuildupdated": "1793210219",
+        "timeupdated": "1793210269"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "5109830"
+  },
+  "extended": {
+    "developer": "Zac Marvin",
+    "homepage": "https://moonlightergames.com/",
+    "publisher": "Moonlighter Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Moonlighter Games/Brush Rush",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "unity.Moonlighter Games.Brush Rush",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": ".config/unity3d/Moonlighter Games/Brush Rush",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792603038,
-  "_history": [],
-  "_change_number": 40053826,
-  "_missing_token": true,
-  "_sha": "dad8eb01ea039a1f4dcb41cce8b60072ad317722",
-  "_size": 4567,
+  "_lastChecked": 1793211941,
+  "_history": [
+    {
+      "buildId": "26269171",
+      "branch": "public",
+      "timeUpdated": 1793189881,
+      "firstSeen": 1793211941,
+      "manifests": {
+        "4881371": {
+          "gid": "4793563175212424211",
+          "size": 810883595,
+          "download": 675432592
+        }
+      }
+    }
+  ],
+  "_change_number": 40347573,
+  "_missing_token": false,
+  "_sha": "795ea5e68cccaf2353bf4ad84cd8228b31a0dcfe",
+  "_size": 5838,
   "appid": "4881370",
   "common": {
     "aicontenttype": "1",
@@ -34,9 +48,9 @@
     "clienticns": "cbbe8455c0bb0f487e460dad9888920723257238",
     "clienticon": "285751beb8faf21647977836c6561c5a31ec2cfa",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4881370",
     "genres": {
       "0": "23",
@@ -128,11 +142,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "eed2d61c2078e033268fda707f232d4bb2d63695/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792343225",
+    "steam_release_date": "1793206817",
+    "store_asset_mtime": "1792669909",
     "store_tags": {
       "0": "4975",
       "1": "14139",
@@ -219,5 +234,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "RiftRaiders",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "RiftRaiders\\Binaries\\Win64\\RiftRaiders.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4881371": {
+      "manifests": {
+        "public": {
+          "download": "675432592",
+          "gid": "4793563175212424211",
+          "size": "810883595"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,dutch,english,french,german,italian,japanese,koreana,polish,russian,schinese,spanish,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26269171",
+        "timebuildupdated": "1793187622",
+        "timeupdated": "1793189881"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Gooder Games",
+    "homepage": "https://www.gooder.games/",
+    "publisher": "Gooder Games"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": "RiftRaiders/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

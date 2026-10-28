@@ -1,10 +1,25 @@
 {
-  "_lastChecked": 1792603019,
-  "_history": [],
-  "_change_number": 40078716,
-  "_missing_token": true,
-  "_sha": "afd6dcb8ffccbc4797313a44048e134152f8b821",
-  "_size": 7112,
+  "_lastChecked": 1793211898,
+  "_history": [
+    {
+      "buildId": "26274380",
+      "branch": "public",
+      "timeUpdated": 1793201913,
+      "firstSeen": 1793211800,
+      "manifests": {
+        "4348911": {
+          "gid": "6546530046581025484",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40344253,
+  "_missing_token": false,
+  "_sha": "5527f79e683abf85259ef6b7184b3453ee49638b",
+  "_size": 9401,
   "appid": "4348910",
   "common": {
     "associations": {
@@ -31,6 +46,7 @@
     },
     "clienticon": "63d2172e624b8a6df1a81b98ed9869d1b8bbcb54",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -38,7 +54,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4348910",
     "genres": {
       "0": "23",
@@ -132,7 +147,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "95",
+    "review_score": "8",
     "small_capsule": {
       "english": "b34bac92cd37260ecead20b181eda3d0f928a373/capsule_231x87.jpg",
       "schinese": "fa8d94817dd60c2f7c019d996c2615059081cc90/capsule_231x87_schinese.jpg"
@@ -210,7 +227,54 @@
         }
       }
     },
-    "store_asset_mtime": "1792411118",
+    "steam_frame_compatibility": {
+      "category": "2",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1789413222",
+      "tested_build_id": "24832753",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamFrame_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1793192020",
+    "store_asset_mtime": "1793192084",
     "store_tags": {
       "0": "91114",
       "1": "599",
@@ -220,17 +284,17 @@
       "13": "3942",
       "14": "6378",
       "15": "5030",
-      "16": "3964",
-      "17": "4845",
+      "16": "4845",
+      "17": "3964",
       "18": "6971",
       "19": "4182",
       "2": "4202",
       "3": "12472",
-      "4": "1702",
-      "5": "4115",
+      "4": "4115",
+      "5": "1702",
       "6": "35079",
-      "7": "4695",
-      "8": "6276",
+      "7": "6276",
+      "8": "4695",
       "9": "6426"
     },
     "supported_languages": {
@@ -267,7 +331,54 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Probably Stolen",
+    "launch": {
+      "0": {
+        "executable": "Probably Stolen.exe"
+      }
+    }
+  },
+  "depots": {
+    "4348911": {
+      "manifests": {
+        "public": {
+          "download": "378927168",
+          "gid": "6546530046581025484",
+          "size": "1088871216"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26274380",
+        "timebuildupdated": "1793201087",
+        "timeupdated": "1793201913"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "4348910"
+  },
+  "extended": {
+    "developer": "Questing Goose Studio",
+    "publisher": "tinyBuild"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": "Questing Goose Studio/Probably Stolen",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792903326,
-  "_history": [],
-  "_change_number": 40206248,
-  "_missing_token": true,
-  "_sha": "7049f2d0c24d6ef578b048548f040107748eba4b",
-  "_size": 3513,
+  "_lastChecked": 1793211952,
+  "_history": [
+    {
+      "buildId": "26205582",
+      "branch": "public",
+      "timeUpdated": 1792973306,
+      "firstSeen": 1793211952,
+      "manifests": {
+        "5179671": {
+          "gid": "3375869020255942679",
+          "size": 937941886,
+          "download": 863487120
+        },
+        "5179672": {
+          "gid": "4418161561754732215",
+          "size": 944964902,
+          "download": 866129408
+        }
+      }
+    }
+  ],
+  "_change_number": 40341389,
+  "_missing_token": false,
+  "_sha": "919657b9b56d4996a46516c16522e0adfdd206d5",
+  "_size": 5510,
   "appid": "5179670",
   "common": {
     "aicontenttype": "1",
@@ -46,9 +65,9 @@
     },
     "clienticon": "bd46bc4096b2806c463533c4600de88c5306b47d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5179670",
     "genres": {
       "0": "1",
@@ -121,10 +140,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cbd13813e0929a844984314139bb1af5643894a7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793197524",
     "store_asset_mtime": "1792098906",
     "store_tags": {
       "0": "699",
@@ -157,5 +177,101 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Synapse Grid",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "synapse_grid.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "synapse_grid.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5179671": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "863487120",
+          "gid": "3375869020255942679",
+          "size": "937941886"
+        }
+      }
+    },
+    "5179672": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "866129408",
+          "gid": "4418161561754732215",
+          "size": "944964902"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26205582",
+        "timebuildupdated": "1792972322",
+        "timeupdated": "1792973306"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "AlluringCoffee",
+    "gamemanualurl": "https://store.steampowered.com/manual/5179670/",
+    "homepage": "https://alluring.coffee/synapse-grid/",
+    "publisher": "AlluringCoffee"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "godot/app_userdata/Synapse Grid",
+        "pattern": "profile.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "godot/app_userdata/Synapse Grid",
+        "pattern": "missions_fog.dat",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "godot/app_userdata/Synapse Grid/ghosts",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "godot/app_userdata/Synapse Grid/maps",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

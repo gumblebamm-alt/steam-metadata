@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793166270,
-  "_history": [],
-  "_change_number": 40319441,
-  "_missing_token": true,
-  "_sha": "30465961b60505b3c21bad3e22874af641b1460a",
-  "_size": 4281,
+  "_lastChecked": 1793211903,
+  "_history": [
+    {
+      "buildId": "26276412",
+      "branch": "public",
+      "timeUpdated": 1793206804,
+      "firstSeen": 1793211903,
+      "manifests": {
+        "940231": {
+          "gid": "8463691961103036981",
+          "size": 4017064385,
+          "download": 2995625552
+        }
+      }
+    }
+  ],
+  "_change_number": 40350213,
+  "_missing_token": false,
+  "_sha": "526061da8286bf7877614fe204eeb28867486452",
+  "_size": 5876,
   "appid": "940230",
   "common": {
     "aicontenttype": "1",
@@ -33,7 +47,6 @@
     "clienttga": "c55aba3bd35ba7b300508a21872a7b2ebd0b4eba",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "940230",
     "genres": {
       "0": "23",
@@ -107,10 +120,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "82",
+    "review_score": "7",
     "small_capsule": {
       "english": "6e3956627688798bce9bc42d06a2fc882eafc647/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793199294",
     "store_asset_mtime": "1793147165",
     "store_tags": {
       "0": "26921",
@@ -199,5 +215,88 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Geoplanetical",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Geoplanetical.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Geoplanetical.app/Contents/MacOS/Geoplanetical"
+      }
+    },
+    "steamcontrollertemplateindex": "3",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "940231": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2995625552",
+          "gid": "8463691961103036981",
+          "size": "4017064385"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "26276412",
+        "timebuildupdated": "1793206125",
+        "timeupdated": "1793206804"
+      }
+    },
+    "workshopdepot": "940230"
+  },
+  "extended": {
+    "developer": "Polytale Games",
+    "homepage": "https://polytale.games/",
+    "publisher": "Polytale Games"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "6500000000",
+    "savefiles": {
+      "0": {
+        "path": "Geoplanetical/saves",
+        "pattern": "*.gsav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Geoplanetical/saves",
+        "pattern": "*.gsav",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791247351,
-  "_history": [],
-  "_change_number": 39507195,
-  "_missing_token": true,
-  "_sha": "1feaa06b3705ed899bc4ebcc8233e4c26b2caabd",
-  "_size": 3974,
+  "_lastChecked": 1793211952,
+  "_history": [
+    {
+      "buildId": "26114261",
+      "branch": "public",
+      "timeUpdated": 1792607316,
+      "firstSeen": 1793211952,
+      "manifests": {
+        "5186421": {
+          "gid": "5126785883162370743",
+          "size": 303034327,
+          "download": 123471776
+        },
+        "5186422": {
+          "gid": "6385839157227724851",
+          "size": 279637748,
+          "download": 116168128
+        }
+      }
+    }
+  ],
+  "_change_number": 40340748,
+  "_missing_token": false,
+  "_sha": "8f7fd45b9fab77cc980f762d7aaf72f300436f26",
+  "_size": 5313,
   "appid": "5186420",
   "common": {
     "aicontenttype": "1",
@@ -37,6 +56,7 @@
     "clienticns": "509543280bb9bd28d376c462282fbb2d7bf0d150",
     "clienticon": "41247367616293672ea796a78811e54b9d0898df",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -47,7 +67,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5186420",
     "genres": {
       "0": "28",
@@ -120,10 +139,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5bf0f441537b3b68764612fb5112e7ccf3bed5f0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793196444",
     "store_asset_mtime": "1790096654",
     "store_tags": {
       "0": "599",
@@ -185,5 +205,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tapout - MMA Tactics",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "/MMATactics-win32-x64/MMATactics.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MMATactics.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5186421": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "123471776",
+          "gid": "5126785883162370743",
+          "size": "303034327"
+        }
+      }
+    },
+    "5186422": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "116168128",
+          "gid": "6385839157227724851",
+          "size": "279637748"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26114261",
+        "timebuildupdated": "1792607315",
+        "timeupdated": "1792607316"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "The Slanted Room",
+    "homepage": "https://www.theslantedroom.ca/games/MMATactics",
+    "publisher": "The Slanted Room"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "MMATactics/Local Storage/leveldb/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

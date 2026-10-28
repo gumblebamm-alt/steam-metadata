@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793040145,
-  "_history": [],
-  "_change_number": 40182681,
-  "_missing_token": true,
-  "_sha": "ab6131c718718c6fda148d8b0b88b244962475b1",
-  "_size": 3928,
+  "_lastChecked": 1793211923,
+  "_history": [
+    {
+      "buildId": "26263390",
+      "branch": "public",
+      "timeUpdated": 1793168405,
+      "firstSeen": 1793211923,
+      "manifests": {
+        "3978111": {
+          "gid": "7460109100146579487",
+          "size": 2256818853,
+          "download": 1867979008
+        },
+        "3978112": {
+          "gid": "5637619835148296668",
+          "size": 2281016388,
+          "download": 1866919696
+        }
+      }
+    }
+  ],
+  "_change_number": 40344989,
+  "_missing_token": false,
+  "_sha": "a4195c7569c70d7be1c1ce7a5a00d83debfc5645",
+  "_size": 5564,
   "appid": "3978110",
   "common": {
     "associations": {
@@ -36,8 +55,8 @@
     },
     "clienticon": "66f3cc005c1588558c8f487168bfc8f826d22adf",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3978110",
     "genres": {
       "0": "25",
@@ -123,11 +142,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "10b821ea43eae17a74381d5cc2cb5f776091af19/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792551641",
+    "steam_release_date": "1793203157",
+    "store_asset_mtime": "1793202313",
     "store_tags": {
       "0": "597",
       "1": "5154",
@@ -187,5 +207,93 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Neuron Activation",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Neuron Activation.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "neuron-activation-full",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "betakey": "mac",
+          "oslist": "macos"
+        },
+        "executable": "Neuron Activation.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3978111": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1867979008",
+          "gid": "7460109100146579487",
+          "size": "2256818853"
+        }
+      }
+    },
+    "3978112": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1866919696",
+          "gid": "5637619835148296668",
+          "size": "2281016388"
+        }
+      }
+    },
+    "3978113": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26263390",
+        "timebuildupdated": "1793167999",
+        "timeupdated": "1793168405"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "DR Studio",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5450240",
+    "publisher": "Pretty Soon"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Neuron Activation/",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

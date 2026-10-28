@@ -1,6 +1,19 @@
 {
-  "_lastChecked": 1792775311,
+  "_lastChecked": 1793211922,
   "_history": [
+    {
+      "buildId": "26269612",
+      "branch": "public",
+      "timeUpdated": 1793206707,
+      "firstSeen": 1793211922,
+      "manifests": {
+        "3899231": {
+          "gid": "2639664454473196667",
+          "size": 70361658,
+          "download": 53094464
+        }
+      }
+    },
     {
       "buildId": "26104299",
       "branch": "public",
@@ -55,6 +68,19 @@
       }
     },
     {
+      "buildId": "26104299",
+      "branch": "previous",
+      "timeUpdated": 1792601911,
+      "firstSeen": 1793211922,
+      "manifests": {
+        "3899231": {
+          "gid": "1289395524238028418",
+          "size": 408441216,
+          "download": 254532704
+        }
+      }
+    },
+    {
       "buildId": "25936280",
       "branch": "previous",
       "timeUpdated": 1791999112,
@@ -81,10 +107,10 @@
       }
     }
   ],
-  "_change_number": 40095992,
+  "_change_number": 40347442,
   "_missing_token": false,
-  "_sha": "387693bece2d21012910a5b0b061770ff3269b3f",
-  "_size": 4429,
+  "_sha": "7b406f8b97e153fe9a3043f520f082bc5032772a",
+  "_size": 4863,
   "appid": "3899230",
   "common": {
     "associations": {
@@ -100,6 +126,7 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_62": "1",
       "category_67": "1",
       "category_74": "1",
@@ -252,28 +279,28 @@
     "3899231": {
       "manifests": {
         "previous": {
-          "download": "253299424",
-          "gid": "258892315202908986",
-          "size": "407165131"
-        },
-        "public": {
           "download": "254532704",
           "gid": "1289395524238028418",
           "size": "408441216"
+        },
+        "public": {
+          "download": "53094464",
+          "gid": "2639664454473196667",
+          "size": "70361658"
         }
       }
     },
     "branches": {
       "previous": {
-        "buildid": "25936280",
-        "description": "Previous version – use if the latest update breaks your game",
-        "timebuildupdated": "1791988365",
-        "timeupdated": "1791999112"
-      },
-      "public": {
         "buildid": "26104299",
+        "description": "Previous version – use if the latest update breaks your game",
         "timebuildupdated": "1792580109",
         "timeupdated": "1792601911"
+      },
+      "public": {
+        "buildid": "26269612",
+        "timebuildupdated": "1793188836",
+        "timeupdated": "1793206707"
       }
     },
     "privatebranches": "1"
@@ -283,5 +310,28 @@
     "developer": "Yago Arribas Miguel",
     "homepage": "https://sites.google.com/view/yaarmi-tycoon/inicio",
     "publisher": "Yago Arribas Miguel"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "5242880",
+    "savefiles": {
+      "0": {
+        "path": "YaarmiTycoon/Saved Game",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "YaarmiTycoon/Saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

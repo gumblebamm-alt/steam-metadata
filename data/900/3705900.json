@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792603007,
-  "_history": [],
-  "_change_number": 40004556,
-  "_missing_token": true,
-  "_sha": "1f545487af4f1cfcca4b98a5a53239e8f9704398",
-  "_size": 3299,
+  "_lastChecked": 1793211920,
+  "_history": [
+    {
+      "buildId": "26269669",
+      "branch": "public",
+      "timeUpdated": 1793190669,
+      "firstSeen": 1793211920,
+      "manifests": {
+        "3705901": {
+          "gid": "3511970818012658354",
+          "size": 2560780699,
+          "download": 1040669664
+        }
+      }
+    }
+  ],
+  "_change_number": 40350004,
+  "_missing_token": false,
+  "_sha": "2cc4017237c309c56a710405e2c6f0122075b97a",
+  "_size": 4546,
   "appid": "3705900",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     "clienticon": "e5614d514e4bd695e68ee4d3007c3fcb97586903",
     "clienttga": "1c853ea8e65a17cb3fcc87a49c00689071e8101e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3705900",
     "genres": {
       "0": "28",
@@ -107,11 +121,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a033f29b32d8d1976099fd3f9cb2c7e95c972b90/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792403236",
+    "steam_release_date": "1793206852",
+    "store_asset_mtime": "1793209068",
     "store_tags": {
       "0": "9204",
       "1": "26921",
@@ -150,5 +165,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "POTUS Simulator",
+    "launch": {
+      "0": {
+        "executable": "PresidentSim.exe"
+      }
+    }
+  },
+  "depots": {
+    "3705901": {
+      "manifests": {
+        "public": {
+          "download": "1040669664",
+          "gid": "3511970818012658354",
+          "size": "2560780699"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26269669",
+        "timebuildupdated": "1793188980",
+        "timeupdated": "1793190669"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Studio 14b",
+    "publisher": "Studio 14b"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Studio14b/PresidentSim/{64BitSteamID}",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "unity.Studio14b.PresidentSim/{64BitSteamID}",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": "unity3d/Studio14b/PresidentSim/{64BitSteamID}",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxXdgConfigHome"
+      }
+    }
+  }
 }

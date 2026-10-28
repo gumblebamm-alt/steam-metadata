@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792644440,
-  "_history": [],
-  "_change_number": 40097900,
-  "_missing_token": true,
-  "_sha": "afdc6d1a517434ce766096915865935b5bb4258c",
-  "_size": 3471,
+  "_lastChecked": 1793211944,
+  "_history": [
+    {
+      "buildId": "26275125",
+      "branch": "public",
+      "timeUpdated": 1793203020,
+      "firstSeen": 1793211944,
+      "manifests": {
+        "4974821": {
+          "gid": "3724712631880027975",
+          "size": 405027192,
+          "download": 128004944
+        },
+        "4974822": {
+          "gid": "4333613114161060207",
+          "size": 372113008,
+          "download": 120069440
+        }
+      }
+    }
+  ],
+  "_change_number": 40345048,
+  "_missing_token": false,
+  "_sha": "66bc436e81936e42678d657f9b758d927908ada6",
+  "_size": 4943,
   "appid": "4974820",
   "common": {
     "associations": {
@@ -31,8 +50,8 @@
     },
     "clienticon": "0441e45db57b5cf24a93e0d47392256f1680b1e4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4974820",
     "genres": {
       "0": "1",
@@ -104,10 +123,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "356e2c2fa32eb1105e10634b8df9282f26c1995d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793203214",
     "store_asset_mtime": "1791832960",
     "store_tags": {
       "0": "3978",
@@ -165,5 +185,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "No ESC",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "No ESC.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "No ESC.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4974821": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "128004944",
+          "gid": "3724712631880027975",
+          "size": "405027192"
+        }
+      }
+    },
+    "4974822": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "120069440",
+          "gid": "4333613114161060207",
+          "size": "372113008"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26275125",
+        "timebuildupdated": "1793203003",
+        "timeupdated": "1793203020"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Seedborne",
+    "homepage": "https://www.seedbornegames.com/",
+    "publisher": "Seedborne"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "200000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/No ESC",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

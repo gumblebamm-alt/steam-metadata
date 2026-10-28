@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793124066,
-  "_history": [],
-  "_change_number": 40263228,
-  "_missing_token": true,
-  "_sha": "498957ddfe3b0e2e4ddc7dbafe70c7b4d94f6fa7",
-  "_size": 3856,
+  "_lastChecked": 1793211925,
+  "_history": [
+    {
+      "buildId": "26277452",
+      "branch": "public",
+      "timeUpdated": 1793208933,
+      "firstSeen": 1793211925,
+      "manifests": {
+        "4060641": {
+          "gid": "521210720896218803",
+          "size": 801828433,
+          "download": 586476704
+        },
+        "4060642": {
+          "gid": "1532759639718521082",
+          "size": 1001379648,
+          "download": 629977664
+        }
+      }
+    }
+  ],
+  "_change_number": 40349031,
+  "_missing_token": false,
+  "_sha": "efcc0cbcc971314dcf54dd086fb0167fc040eadd",
+  "_size": 5746,
   "appid": "4060640",
   "common": {
     "associations": {
@@ -33,6 +52,7 @@
     },
     "clienticon": "df696fe975dbe7956aea2edd92801dc5c6df1598",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -41,7 +61,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4060640",
     "genres": {
       "0": "23",
@@ -125,11 +144,12 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9e9007d03740520f333f19ee39486bee90fed730/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1790405564",
+    "steam_release_date": "1793199616",
+    "store_asset_mtime": "1793187635",
     "store_tags": {
       "0": "3959",
       "1": "9",
@@ -153,6 +173,9 @@
       "9": "4166"
     },
     "supported_languages": {
+      "brazilian": {
+        "supported": "true"
+      },
       "english": {
         "supported": "true"
       },
@@ -171,9 +194,6 @@
       "polish": {
         "supported": "true"
       },
-      "portuguese": {
-        "supported": "true"
-      },
       "russian": {
         "supported": "true"
       },
@@ -183,5 +203,103 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hoosegow Prison Survival",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Hoosegow Prison Survival.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Hoosegow Prison Survival.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4060641": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "586476704",
+          "gid": "521210720896218803",
+          "size": "801828433"
+        }
+      }
+    },
+    "4060642": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "629977664",
+          "gid": "1532759639718521082",
+          "size": "1001379648"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "26277452",
+        "timebuildupdated": "1793208667",
+        "timeupdated": "1793208933"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "D.Dream games",
+    "homepage": "https://ddream.games",
+    "publisher": "D.Dream games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "ddreamgames/Hoosegow Prison Survival"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "WinAppDataLocalLow"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "ddreamgames/Hoosegow Prison Survival"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "",
+        "pattern": "UserContextStore.save*",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

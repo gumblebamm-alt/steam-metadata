@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1790901426,
-  "_history": [],
-  "_change_number": 39179619,
-  "_missing_token": true,
-  "_sha": "893fb61d9af27bc71b41040d07ca67202fa408e4",
-  "_size": 3311,
+  "_lastChecked": 1793211918,
+  "_history": [
+    {
+      "buildId": "26017142",
+      "branch": "public",
+      "timeUpdated": 1792277518,
+      "firstSeen": 1793211918,
+      "manifests": {
+        "3548552": {
+          "gid": "9128728282761707353",
+          "size": 1555098716,
+          "download": 741109632
+        },
+        "3548553": {
+          "gid": "9102522738937156494",
+          "size": 1529069251,
+          "download": 734141280
+        }
+      }
+    }
+  ],
+  "_change_number": 40344928,
+  "_missing_token": false,
+  "_sha": "3d96d12205061960ede0cff31dbde5da30301f31",
+  "_size": 5239,
   "appid": "3548550",
   "common": {
     "associations": {
@@ -38,6 +57,7 @@
     "clienticon": "080a522be5b018f772d8bcc7fad65d9640ade665",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -46,7 +66,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3548550",
     "genres": {
       "0": "25"
@@ -116,10 +135,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e3b4c9953c73b59407f4e6ae2328e1f477262f02/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793203081",
     "store_asset_mtime": "1789773683",
     "store_tags": {
       "0": "5900",
@@ -145,5 +165,101 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Charity Shop",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "The Charity Shop.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "The Charity Shop.x86_64",
+        "type": "default"
+      }
+    },
+    "steamcontrollerconfigdetails": {
+      "3612412618": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3548552": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "741109632",
+          "gid": "9128728282761707353",
+          "size": "1555098716"
+        }
+      }
+    },
+    "3548553": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "734141280",
+          "gid": "9102522738937156494",
+          "size": "1529069251"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26017142",
+        "timebuildupdated": "1792277485",
+        "timeupdated": "1792277518"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Figglewatts",
+    "homepage": "https://figglewatts.co.uk",
+    "publisher": "Figglewatts"
+  },
+  "ufs": {
+    "maxnumfiles": "400",
+    "quota": "300000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/The Charity Shop/",
+            "replace": "godot/app_userdata/The Charity Shop/"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/The Charity Shop/",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

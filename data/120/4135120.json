@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793124067,
-  "_history": [],
-  "_change_number": 40300910,
-  "_missing_token": true,
-  "_sha": "4a71be674870ebdcfb85da0d25ac3ab63a3bb863",
-  "_size": 4173,
+  "_lastChecked": 1793211926,
+  "_history": [
+    {
+      "buildId": "26222242",
+      "branch": "public",
+      "timeUpdated": 1793032580,
+      "firstSeen": 1793211926,
+      "manifests": {
+        "4135121": {
+          "gid": "7181411548510026427",
+          "size": 1903454465,
+          "download": 523135120
+        },
+        "4135122": {
+          "gid": "8684794989396754268",
+          "size": 2035542635,
+          "download": 552205968
+        }
+      }
+    }
+  ],
+  "_change_number": 40350039,
+  "_missing_token": false,
+  "_sha": "5038e5a8fd6215fb8adfdb74c49b3499c0de2fab",
+  "_size": 6031,
   "appid": "4135120",
   "common": {
     "aicontenttype": "1",
@@ -43,9 +62,9 @@
     },
     "clienticon": "7860a92f705b8474921f5774fcaec224af5ba115",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4135120",
     "genres": {
       "0": "4",
@@ -119,10 +138,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e46a87c66d6e3c818e477836f42065fe76217d00/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793210788",
     "store_asset_mtime": "1791026112",
     "store_tags": {
       "0": "1685",
@@ -199,5 +219,94 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Speed Rivals - Model Trains",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SRModelTrains.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "SpeedRivals_ModelTrains.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4135121": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "523135120",
+          "gid": "7181411548510026427",
+          "size": "1903454465"
+        }
+      }
+    },
+    "4135122": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "552205968",
+          "gid": "8684794989396754268",
+          "size": "2035542635"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26222242",
+        "timebuildupdated": "1793032580",
+        "timeupdated": "1793032580"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "4135120"
+  },
+  "extended": {
+    "absolutemousecoordinates": "1",
+    "developer": "BabelGames",
+    "homepage": "https://speedrivals.es",
+    "publisher": "Speed Rivals",
+    "remoteplaytogethertestingbranches": "default"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "BabelGames/SRModelTrains/SpeedRivalsModelTrains",
+            "replace": "unity.BabelGames.SRModelTrains/SpeedRivalsModelTrains"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "BabelGames/SRModelTrains/SpeedRivalsModelTrains",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

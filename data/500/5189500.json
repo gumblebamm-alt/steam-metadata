@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793040175,
-  "_history": [],
-  "_change_number": 40257528,
-  "_missing_token": true,
-  "_sha": "0a67603fbcdd2daf6874366d28716db74f01ea94",
-  "_size": 4196,
+  "_lastChecked": 1793211952,
+  "_history": [
+    {
+      "buildId": "26252470",
+      "branch": "public",
+      "timeUpdated": 1793129443,
+      "firstSeen": 1793211952,
+      "manifests": {
+        "5189501": {
+          "gid": "7167066424447716801",
+          "size": 632054791,
+          "download": 475458656
+        },
+        "5189502": {
+          "gid": "4855747717983114091",
+          "size": 627121755,
+          "download": 477878272
+        }
+      }
+    }
+  ],
+  "_change_number": 40345038,
+  "_missing_token": false,
+  "_sha": "14bf671e36be479082f1e6eca445a3b37e9fffc6",
+  "_size": 6109,
   "appid": "5189500",
   "common": {
     "aicontenttype": "1",
@@ -36,9 +55,9 @@
     },
     "clienticon": "1b3146bbf95a190d1e8be18f2f8337224a59a896",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5189500",
     "genres": {
       "0": "4",
@@ -123,17 +142,18 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ee17cb7e54e8227784b7a935ae944a4f6454c2ea/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793203206",
     "store_asset_mtime": "1793004521",
     "store_tags": {
       "0": "1239876",
       "1": "97376",
       "10": "4191",
-      "11": "492",
-      "12": "3839",
+      "11": "3839",
+      "12": "492",
       "13": "4305",
       "14": "4252",
       "15": "1684",
@@ -198,5 +218,98 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "A Place for Every Potion",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "A Place for Every Potion.app",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "A Place for Every Potion.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5189501": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "475458656",
+          "gid": "7167066424447716801",
+          "size": "632054791"
+        }
+      }
+    },
+    "5189502": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "477878272",
+          "gid": "4855747717983114091",
+          "size": "627121755"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26252470",
+        "timebuildupdated": "1793129347",
+        "timeupdated": "1793129443"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "CubeQuad Games",
+    "homepage": "https://cubequad.net/aplaceforeverypotion/",
+    "publisher": "CubeQuad Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "CubeQuad/A Place for Every Potion",
+        "pattern": "PlayerProgress",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "CubeQuad/A Place for Every Potion",
+        "pattern": "PlayerSettings",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "CubeQuad/A Place for Every Potion",
+        "pattern": "GlobalProgress",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "CubeQuad/A Place for Every Potion",
+        "pattern": "PotionsPersistentData_*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

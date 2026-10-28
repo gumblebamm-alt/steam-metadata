@@ -1,10 +1,52 @@
 {
-  "_lastChecked": 1792816663,
-  "_history": [],
-  "_change_number": 40192988,
-  "_missing_token": true,
-  "_sha": "0ab47550f84d7a333ca8fe3ff46c15768e91ac7e",
-  "_size": 3538,
+  "_lastChecked": 1793211921,
+  "_history": [
+    {
+      "buildId": "26277004",
+      "branch": "public",
+      "timeUpdated": 1793207581,
+      "firstSeen": 1793211921,
+      "manifests": {
+        "3818451": {
+          "gid": "941715480325070639",
+          "size": 12804941905,
+          "download": 10282213408
+        },
+        "3818452": {
+          "gid": "9071229311731442936",
+          "size": 12920364814,
+          "download": 10295406464
+        },
+        "3818453": {
+          "gid": "3427565457642246020",
+          "size": 13164804529,
+          "download": 10501899568
+        }
+      }
+    },
+    {
+      "buildId": "25190815",
+      "branch": "test",
+      "timeUpdated": 1788883139,
+      "firstSeen": 1793211921,
+      "manifests": {
+        "3818451": {
+          "gid": "4812150082291174776",
+          "size": 12210253177,
+          "download": 9645661456
+        },
+        "3818452": {
+          "gid": "174626770566794009",
+          "size": 8710464389,
+          "download": 7319837232
+        }
+      }
+    }
+  ],
+  "_change_number": 40348220,
+  "_missing_token": false,
+  "_sha": "75b59c95e06903fe5a397f059a0da142d39df28b",
+  "_size": 5469,
   "appid": "3818450",
   "common": {
     "associations": {
@@ -33,7 +75,7 @@
       "category_9": "1"
     },
     "clienticns": "de0d032ba72e739d62e25936e77f2b575eeb2496",
-    "clienticon": "de0d032ba72e739d62e25936e77f2b575eeb2496",
+    "clienticon": "f6a5d00926bb703dea99a8913d14bc701e905faa",
     "clienttga": "e514d81313a870fb3f4559a64eecae658771ebfd",
     "community_hub_visible": "1",
     "content_descriptors": {
@@ -46,7 +88,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3818450",
     "genres": {
       "0": "1",
@@ -57,7 +98,7 @@
     "header_image": {
       "english": "2f283a0917a86e331fbce0a891bc3a0788e3c939/header.jpg"
     },
-    "icon": "44a876f746bac10d7da280fd91b4f63aa91628c5",
+    "icon": "f6a5d00926bb703dea99a8913d14bc701e905faa",
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -114,17 +155,18 @@
         }
       }
     },
-    "linuxclienticon": "de0d032ba72e739d62e25936e77f2b575eeb2496",
+    "linuxclienticon": "a8a80beda38345b2a2726efaa0c3f067ff825664",
     "name": "Everlast",
     "osarch": "64",
     "oscpu": "",
     "osextended": "macosapplesilicon",
-    "oslist": "windows,macos",
+    "oslist": "windows,macos,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6893fa227d7e0aed9b3291de84269b39a4db981c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793207667",
     "store_asset_mtime": "1792805536",
     "store_tags": {
       "0": "4231",
@@ -157,5 +199,105 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Everlast",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Everlast.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Everlast.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Everlast.x86_64",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "0"
+  },
+  "depots": {
+    "3818451": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "10282213408",
+          "gid": "941715480325070639",
+          "size": "12804941905"
+        },
+        "test": {
+          "download": "9645661456",
+          "gid": "4812150082291174776",
+          "size": "12210253177"
+        }
+      }
+    },
+    "3818452": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "10295406464",
+          "gid": "9071229311731442936",
+          "size": "12920364814"
+        },
+        "test": {
+          "download": "7319837232",
+          "gid": "174626770566794009",
+          "size": "8710464389"
+        }
+      }
+    },
+    "3818453": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "10501899568",
+          "gid": "3427565457642246020",
+          "size": "13164804529"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26277004",
+        "timebuildupdated": "1793207541",
+        "timeupdated": "1793207581"
+      },
+      "test": {
+        "buildid": "25190815",
+        "description": "arnas testing branch",
+        "timebuildupdated": "1788883139",
+        "timeupdated": "1788883139"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "InSpades",
+    "gamedir": "Everlast Dedicated Server",
+    "homepage": "https://www.inspades.net/",
+    "publisher": "InSpades",
+    "serverbrowsername": "Everlast: Undying Tale"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "104857600"
+  }
 }

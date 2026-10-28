@@ -1,20 +1,44 @@
 {
-  "_lastChecked": 1792731022,
-  "_history": [],
-  "_change_number": 40106195,
-  "_missing_token": true,
-  "_sha": "de654c0222adda84b1b1e7df49ab2f6e45f934e5",
-  "_size": 3758,
+  "_lastChecked": 1793211953,
+  "_history": [
+    {
+      "buildId": "26119416",
+      "branch": "public",
+      "timeUpdated": 1792622866,
+      "firstSeen": 1793211953,
+      "manifests": {
+        "5215391": {
+          "gid": "8046586000196124287",
+          "size": 946795064,
+          "download": 855768992
+        },
+        "5215392": {
+          "gid": "2601211580548064196",
+          "size": 911842260,
+          "download": 847308512
+        },
+        "5215393": {
+          "gid": "2312824274672495524",
+          "size": 1011308015,
+          "download": 875467760
+        }
+      }
+    }
+  ],
+  "_change_number": 40348470,
+  "_missing_token": false,
+  "_sha": "30bfb071ad649ac48ae86e6844d90924e4f5acdd",
+  "_size": 6117,
   "appid": "5215390",
   "common": {
     "aicontenttype": "1",
     "associations": {
       "0": {
-        "name": "Hispagames Estudios",
+        "name": "Exile.games",
         "type": "developer"
       },
       "1": {
-        "name": "Hispagames Estudios",
+        "name": "exile.games",
         "type": "publisher"
       }
     },
@@ -36,8 +60,8 @@
     },
     "clienticon": "bd168e4a2d79ec4d546b77551e198dba6aabc681",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5215390",
     "genres": {
       "0": "23"
@@ -112,10 +136,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fbc8a054f06f0d61e906c6dead22acade527bbe7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793205995",
     "store_asset_mtime": "1792569389",
     "store_tags": {
       "0": "1645",
@@ -176,5 +201,124 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "UNCOUNTED",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Uncounted.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Uncounted.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "macos"
+        },
+        "executable": "Uncounted.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5215391": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "855768992",
+          "gid": "8046586000196124287",
+          "size": "946795064"
+        }
+      }
+    },
+    "5215392": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "847308512",
+          "gid": "2601211580548064196",
+          "size": "911842260"
+        }
+      }
+    },
+    "5215393": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "875467760",
+          "gid": "2312824274672495524",
+          "size": "1011308015"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26119416",
+        "timebuildupdated": "1792622865",
+        "timeupdated": "1792622866"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Exile.games",
+    "publisher": "exile.games"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "200000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "~/.local/share/godot/app_userdata/Uncounted",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Uncounted",
+        "pattern": "fluid_meta_v1.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Uncounted",
+        "pattern": "fluid_stats_v1.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Uncounted",
+        "pattern": "fluid_custom_maps_v1.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Uncounted",
+        "pattern": "fluid_coop_profiles_v3.json",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Uncounted",
+        "pattern": "fluid_music_v1.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

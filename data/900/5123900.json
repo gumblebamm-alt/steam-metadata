@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792501388,
-  "_history": [],
-  "_change_number": 40005781,
-  "_missing_token": true,
-  "_sha": "c5dbd1b6cf30876c4f3560919b935b4bcc885810",
-  "_size": 4277,
+  "_lastChecked": 1793211950,
+  "_history": [
+    {
+      "buildId": "26274210",
+      "branch": "public",
+      "timeUpdated": 1793206414,
+      "firstSeen": 1793211950,
+      "manifests": {
+        "5123901": {
+          "gid": "7470758259346727853",
+          "size": 1240040761,
+          "download": 963831952
+        }
+      }
+    }
+  ],
+  "_change_number": 40347511,
+  "_missing_token": false,
+  "_sha": "0fbe58237f4052c6f21b5ba6bc8236b902fc5c1c",
+  "_size": 5399,
   "appid": "5123900",
   "common": {
     "associations": {
@@ -23,16 +37,19 @@
       "category_23": "1",
       "category_28": "1",
       "category_62": "1",
+      "category_67": "1",
       "category_68": "1",
       "category_69": "1",
+      "category_70": "1",
       "category_74": "1",
+      "category_79": "1",
       "category_80": "1"
     },
     "clienticon": "4d010c3e4405ad56a192b6f2090246c919efff12",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5123900",
     "genres": {
       "0": "4",
@@ -104,11 +121,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f01aa7fb0a1d0bc9618b244c26254df2f4b196b9/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792069457",
+    "steam_release_date": "1793206781",
+    "store_asset_mtime": "1793191439",
     "store_tags": {
       "0": "599",
       "1": "597",
@@ -200,5 +218,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PackAPlush",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "PackAPlush.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5123901": {
+      "manifests": {
+        "public": {
+          "download": "963831952",
+          "gid": "7470758259346727853",
+          "size": "1240040761"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26274210",
+        "timebuildupdated": "1793200752",
+        "timeupdated": "1793206414"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Slappy Inc.",
+    "publisher": "Slappy Inc."
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "PackAPlush/Saved/Savegames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

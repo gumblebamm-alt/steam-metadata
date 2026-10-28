@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792327759,
-  "_history": [],
-  "_change_number": 39959917,
-  "_missing_token": true,
-  "_sha": "cad90346c358a89af4e669628e405599b90f7c54",
-  "_size": 4995,
+  "_lastChecked": 1793211941,
+  "_history": [
+    {
+      "buildId": "26246852",
+      "branch": "public",
+      "timeUpdated": 1793128006,
+      "firstSeen": 1793211941,
+      "manifests": {
+        "4894802": {
+          "gid": "1839473249806259693",
+          "size": 728256355,
+          "download": 463735712
+        },
+        "4894803": {
+          "gid": "8030797042757898186",
+          "size": 692464987,
+          "download": 446898432
+        }
+      }
+    }
+  ],
+  "_change_number": 40338303,
+  "_missing_token": false,
+  "_sha": "eb09fa4ea0d69033b7137e7f1519a20f3421c0a2",
+  "_size": 6516,
   "appid": "4894800",
   "common": {
     "associations": {
@@ -42,9 +61,9 @@
     "clienticns": "b205e90c63c0f479c45d009acfc25d5f5f3843ab",
     "clienticon": "a25d64c5e02012d9b52b5c7d9ad0126e961bed17",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4894800",
     "genres": {
       "0": "23",
@@ -135,13 +154,14 @@
     "osarch": "",
     "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "018998046493fbf79a16da05b1f0632c399bffc8/capsule_231x87.jpg",
       "schinese": "7389a10d62653c5ff29b356cf08de6ca7787c206/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1793192358",
     "store_asset_mtime": "1790997045",
     "store_tags": {
       "0": "32322",
@@ -210,5 +230,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "NeoRunners",
+    "launch": {
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "NeoRunners.exe"
+      },
+      "2": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "NeoRunners"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "resources/steam_input/neorunners_actions.vdf"
+  },
+  "depots": {
+    "4894801": {},
+    "4894802": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "463735712",
+          "gid": "1839473249806259693",
+          "size": "728256355"
+        }
+      }
+    },
+    "4894803": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "446898432",
+          "gid": "8030797042757898186",
+          "size": "692464987"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26246852",
+        "timebuildupdated": "1793113922",
+        "timeupdated": "1793128006"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "VanHawk",
+    "homepage": "https://vanhawk.games",
+    "publisher": "VanHawk Games"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "39999975",
+    "sync_while_suspended": "1"
+  }
 }

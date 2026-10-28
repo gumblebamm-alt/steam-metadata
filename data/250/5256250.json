@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1790728819,
-  "_history": [],
-  "_change_number": 39325311,
-  "_missing_token": true,
-  "_sha": "01cc4bb926b2ac3628ee779d7101026b89e63b91",
-  "_size": 3866,
+  "_lastChecked": 1793211953,
+  "_history": [
+    {
+      "buildId": "26249607",
+      "branch": "public",
+      "timeUpdated": 1793207462,
+      "firstSeen": 1793211953,
+      "manifests": {
+        "5256251": {
+          "gid": "7114673859728988910",
+          "size": 461741927,
+          "download": 208004192
+        },
+        "5256252": {
+          "gid": "6961020958607607840",
+          "size": 609353668,
+          "download": 273435616
+        }
+      }
+    }
+  ],
+  "_change_number": 40348579,
+  "_missing_token": false,
+  "_sha": "1b6e91880e1dacb2771f717d3bdbb388b847d011",
+  "_size": 5062,
   "appid": "5256250",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +48,8 @@
     },
     "clienticon": "bd720182cc2959ac64696521511eab013589f682",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5256250",
     "genres": {
       "0": "23",
@@ -103,10 +122,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5e497e3241fdc34d685efe2c31c40c317204e994/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793208239",
     "store_asset_mtime": "1789332605",
     "store_tags": {
       "0": "1084988",
@@ -190,5 +210,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "FableBrawl",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "FableBrawl.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "FableBrawl.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5256251": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "208004192",
+          "gid": "7114673859728988910",
+          "size": "461741927"
+        }
+      }
+    },
+    "5256252": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "273435616",
+          "gid": "6961020958607607840",
+          "size": "609353668"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26249607",
+        "timebuildupdated": "1793121184",
+        "timeupdated": "1793207462"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "FableBrawl",
+    "homepage": "https://fablebrawl.com",
+    "isfreeapp": "1",
+    "publisher": "FableBrawl"
+  }
 }

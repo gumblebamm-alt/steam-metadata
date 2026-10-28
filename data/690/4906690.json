@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793124084,
-  "_history": [],
-  "_change_number": 40264219,
-  "_missing_token": true,
-  "_sha": "f10c191065eb35177690fd2382d3782537354f0b",
-  "_size": 3388,
+  "_lastChecked": 1793211942,
+  "_history": [
+    {
+      "buildId": "26221846",
+      "branch": "public",
+      "timeUpdated": 1793031719,
+      "firstSeen": 1793211942,
+      "manifests": {
+        "4906691": {
+          "gid": "3620574441392935815",
+          "size": 228647824,
+          "download": 64689488
+        }
+      }
+    }
+  ],
+  "_change_number": 40338331,
+  "_missing_token": false,
+  "_sha": "3500f80efa56409ea3165949685fd8f1daef5a9c",
+  "_size": 4582,
   "appid": "4906690",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +43,8 @@
     },
     "clienticon": "e7d2779f7d1f9a145b80b179dc5ad5e77c3b3cf2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4906690",
     "genres": {
       "0": "4"
@@ -111,11 +125,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e46e1295106053294635dd22b6c0f590b497bd26/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1787833146",
+    "steam_release_date": "1793192398",
+    "store_asset_mtime": "1793188830",
     "store_tags": {
       "0": "1674",
       "1": "1036",
@@ -157,5 +172,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Type the World",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "typetheworld.exe"
+      }
+    }
+  },
+  "depots": {
+    "4906691": {
+      "manifests": {
+        "public": {
+          "download": "64689488",
+          "gid": "3620574441392935815",
+          "size": "228647824"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26221846",
+        "timebuildupdated": "1793031545",
+        "timeupdated": "1793031719"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Groundpoint Games",
+    "publisher": "Groundpoint Games"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "TypeTheWorld",
+        "pattern": "settings.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "TypeTheWorld",
+        "pattern": "achievements.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "TypeTheWorld/profiles",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

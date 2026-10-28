@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1792689389,
-  "_history": [],
-  "_change_number": 40125074,
-  "_missing_token": true,
-  "_sha": "3da9bea058a8eb6cc07666b0e48b59eb7b5fcae6",
-  "_size": 3502,
+  "_lastChecked": 1793211898,
+  "_history": [
+    {
+      "buildId": "26222990",
+      "branch": "public",
+      "timeUpdated": 1793034615,
+      "firstSeen": 1793211798,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "4202431": {
+          "gid": "6796157146176161314",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40341589,
+  "_missing_token": false,
+  "_sha": "85041579aaafe63caa5c43bef6f66847d8945275",
+  "_size": 6907,
   "appid": "4202430",
   "common": {
     "associations": {
@@ -35,7 +55,6 @@
     "clienticon": "b3e6a64c9488bd0269023b47d05195c73c8cca02",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4202430",
     "genres": {
       "0": "23",
@@ -107,11 +126,85 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "eddaf1e426f0fcfab65953b9a109e6e62a60edd5/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792501311",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-11.0-beta",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        }
+      },
+      "test_timestamp": "1783468800",
+      "tested_build_id": "23255676",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1793192382",
+    "store_asset_mtime": "1793197842",
     "store_tags": {
       "0": "1723",
       "1": "4684",
@@ -159,5 +252,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Veterans Napoleonic Wars",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Veterans.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4202431": {
+      "manifests": {
+        "public": {
+          "download": "1826913088",
+          "gid": "6796157146176161314",
+          "size": "2182888512"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26222990",
+        "timebuildupdated": "1793034482",
+        "timeupdated": "1793034615"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Tactical Boar",
+    "homepage": "https://tacticalboar.com/",
+    "publisher": "Tactical Boar"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": "Team175/VeteransNapoleonicWars/Saves",
+        "pattern": "BattleSaves_*.txt",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Team175/VeteransNapoleonicWars/Saves",
+        "pattern": "CampaignAuto_*.txt",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Team175/VeteransNapoleonicWars/Saves",
+        "pattern": "CampaignManual_*.txt",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

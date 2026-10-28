@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792857618,
-  "_history": [],
-  "_change_number": 40204413,
-  "_missing_token": true,
-  "_sha": "caa91b4e331f41768fe79331ffe23d459b7cbdc2",
-  "_size": 2863,
+  "_lastChecked": 1793211947,
+  "_history": [
+    {
+      "buildId": "26271204",
+      "branch": "public",
+      "timeUpdated": 1793194164,
+      "firstSeen": 1793211947,
+      "manifests": {
+        "5058411": {
+          "gid": "4482137255994444376",
+          "size": 480881056,
+          "download": 398651152
+        }
+      }
+    }
+  ],
+  "_change_number": 40339378,
+  "_missing_token": false,
+  "_sha": "cb065f66bf95ef1ee96005cf222ce2c3670859f6",
+  "_size": 3946,
   "appid": "5058410",
   "common": {
     "aicontenttype": "1",
@@ -28,9 +42,9 @@
     },
     "clienticon": "74af8242071cfee914dbae1b6796d771d85e3863",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5058410",
     "genres": {
       "0": "23"
@@ -100,24 +114,26 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5ad0dde432fca619c9fe0fc89f5403bdc7393354/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791045125",
+    "steam_release_date": "1793188585",
+    "store_asset_mtime": "1793185317",
     "store_tags": {
       "0": "492",
       "1": "1084988",
-      "10": "791774",
-      "11": "7926",
-      "2": "122",
-      "3": "32322",
-      "4": "9",
-      "5": "3871",
-      "6": "4085",
-      "7": "1684",
-      "8": "6971",
-      "9": "4182"
+      "10": "4182",
+      "11": "791774",
+      "12": "7926",
+      "2": "32322",
+      "3": "3959",
+      "4": "122",
+      "5": "9",
+      "6": "3871",
+      "7": "4085",
+      "8": "1684",
+      "9": "6971"
     },
     "supported_languages": {
       "english": {
@@ -127,5 +143,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Draftfall",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Draftfall.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "3",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5058411": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "398651152",
+          "gid": "4482137255994444376",
+          "size": "480881056"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26271204",
+        "timebuildupdated": "1793193113",
+        "timeupdated": "1793194164"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "JJ Battlelokit",
+    "homepage": "https://draftfallgame.com",
+    "publisher": "JJ Battlelokit"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Draftfall",
+        "pattern": "draftfall_*.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

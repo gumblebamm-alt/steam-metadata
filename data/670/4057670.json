@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793040146,
-  "_history": [],
-  "_change_number": 40256485,
-  "_missing_token": true,
-  "_sha": "1b3b026ba98403f5ec155b45593406a896b4bfdd",
-  "_size": 4483,
+  "_lastChecked": 1793211925,
+  "_history": [
+    {
+      "buildId": "26273100",
+      "branch": "public",
+      "timeUpdated": 1793198023,
+      "firstSeen": 1793211925,
+      "manifests": {
+        "4057671": {
+          "gid": "2625607427433320182",
+          "size": 7723386950,
+          "download": 7491376256
+        }
+      }
+    }
+  ],
+  "_change_number": 40345011,
+  "_missing_token": false,
+  "_sha": "b70f18972f2f447ee1ce9d7677172410e1a95098",
+  "_size": 5873,
   "appid": "4057670",
   "common": {
     "associations": {
@@ -35,6 +49,7 @@
     "clienticns": "5eb5c8886c9650fdb5d76262081fc3f87ade0f4f",
     "clienticon": "ed9e6482972880cc5e3a3d75e0b4ca09b58a81d2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -44,7 +59,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4057670",
     "genres": {
       "0": "1",
@@ -122,10 +136,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "92acb5983e383884484603c0629192e7b958a330/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793203179",
     "store_asset_mtime": "1792156649",
     "store_tags": {
       "0": "3843",
@@ -213,5 +228,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TheMidnighter_Windows",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TheMidnighters.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4057671": {
+      "manifests": {
+        "public": {
+          "download": "7491376256",
+          "gid": "2625607427433320182",
+          "size": "7723386950"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26273100",
+        "timebuildupdated": "1793197986",
+        "timeupdated": "1793198023"
+      }
+    }
+  },
+  "extended": {
+    "developer": "OTTO Games",
+    "homepage": "https://www.ottogamesstudio.com",
+    "publisher": "OTTO Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "TheMidnighters/Saved/SaveGames",
+        "pattern": "ServerWorldProgress*.sav",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "TheMidnighters/Saved/SaveGames",
+        "pattern": "SteamAchievements_*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

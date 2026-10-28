@@ -1,10 +1,25 @@
 {
-  "_lastChecked": 1793040137,
-  "_history": [],
-  "_change_number": 40202890,
-  "_missing_token": true,
-  "_sha": "7ab3b4544a1e3ce3e073a36efd09fc1400655e1e",
-  "_size": 4350,
+  "_lastChecked": 1793211897,
+  "_history": [
+    {
+      "buildId": "26269026",
+      "branch": "public",
+      "timeUpdated": 1793187267,
+      "firstSeen": 1793211793,
+      "manifests": {
+        "3447281": {
+          "gid": "3401555749017313636",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40350250,
+  "_missing_token": false,
+  "_sha": "fa5ea58c6021d97407ae58e9d1ed2722e3d9b7a3",
+  "_size": 6319,
   "appid": "3447280",
   "common": {
     "associations": {
@@ -27,7 +42,6 @@
     "clienttga": "c19e37a0ca9b41d611a747b5c88dfbadc3aad539",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3447280",
     "genres": {
       "0": "23",
@@ -100,10 +114,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "92",
+    "review_score": "7",
     "small_capsule": {
       "english": "1b099b21185c4f04402c9ff55588ae8b0fab423d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793199633",
     "store_asset_mtime": "1780672870",
     "store_tags": {
       "0": "5300",
@@ -124,8 +141,8 @@
       "5": "1684",
       "6": "3871",
       "7": "5125",
-      "8": "10235",
-      "9": "3964"
+      "8": "3964",
+      "9": "10235"
     },
     "supported_languages": {
       "arabic": {
@@ -221,5 +238,98 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fantasy World Manager",
+    "launch": {
+      "0": {
+        "executable": "Fantasy World Manager.exe"
+      },
+      "1": {
+        "arguments": "--rendering-driver opengl3",
+        "description": "OPENGL3 Renderer (Crash Fix)",
+        "description_loc": {
+          "english": "OPENGL3 Renderer (Crash Fix)"
+        },
+        "executable": "Fantasy World Manager.exe",
+        "type": "option2"
+      }
+    }
+  },
+  "depots": {
+    "3447281": {
+      "manifests": {
+        "public": {
+          "download": "185241600",
+          "gid": "3401555749017313636",
+          "size": "229368024"
+        }
+      }
+    },
+    "3447282": {},
+    "branches": {
+      "public": {
+        "buildid": "26269026",
+        "timebuildupdated": "1793187248",
+        "timeupdated": "1793187267"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "3447280"
+  },
+  "extended": {
+    "developer": "Florian Alushaj",
+    "publisher": "Legendary Pixels"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "Fantasy World Manager/worlds",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Fantasy World Manager/mods",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Fantasy World Manager/content_prefabs",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Fantasy World Manager/content/interiors",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Fantasy World Manager/settings",
+        "pattern": "onboarding_state.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
