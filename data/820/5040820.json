@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793077386,
+  "_lastChecked": 1793298807,
   "_history": [
     {
       "buildId": "26182240",
@@ -26,12 +26,30 @@
           "download": 392336720
         }
       }
+    },
+    {
+      "buildId": "26300414",
+      "branch": "public",
+      "timeUpdated": 1793286466,
+      "firstSeen": 1793298807,
+      "manifests": {
+        "5040821": {
+          "gid": "6271045089054232087",
+          "size": 905321991,
+          "download": 393027568
+        },
+        "5040822": {
+          "gid": "4130767624498372469",
+          "size": 936663155,
+          "download": 402810784
+        }
+      }
     }
   ],
-  "_change_number": 40271373,
+  "_change_number": 40386744,
   "_missing_token": false,
-  "_sha": "80d8fe7c230648121f97df0f247d8edaaff41195",
-  "_size": 5157,
+  "_sha": "9fefdf7b7860fc4a9f636197a809276643339950",
+  "_size": 5594,
   "appid": "5040820",
   "common": {
     "associations": {
@@ -140,8 +158,9 @@
       "schinese": "藏好私房钱"
     },
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
     "small_capsule": {
@@ -217,6 +236,14 @@
         },
         "executable": "HideYourCash.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "macos"
+        },
+        "executable": "HideYourCash.app",
+        "type": "default"
       }
     },
     "steamcontrollertemplateindex": "13",
@@ -225,20 +252,35 @@
   },
   "depots": {
     "5040821": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "392336720",
-          "gid": "6440525833880183226",
-          "size": "902763884"
+          "download": "393027568",
+          "gid": "6271045089054232087",
+          "size": "905321991"
+        }
+      }
+    },
+    "5040822": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "402810784",
+          "gid": "4130767624498372469",
+          "size": "936663155"
         }
       }
     },
     "baselanguages": "english,schinese",
     "branches": {
       "public": {
-        "buildid": "26194803",
-        "timebuildupdated": "1792917708",
-        "timeupdated": "1792917878"
+        "buildid": "26300414",
+        "timebuildupdated": "1793286419",
+        "timeupdated": "1793286466"
       }
     },
     "nocommonredists": "1"

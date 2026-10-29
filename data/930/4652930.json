@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792025671,
-  "_history": [],
-  "_change_number": 39820875,
-  "_missing_token": true,
-  "_sha": "8b1afb8eb52a362ebe543c16e7209533aaa62614",
-  "_size": 3192,
+  "_lastChecked": 1793298793,
+  "_history": [
+    {
+      "buildId": "26271525",
+      "branch": "public",
+      "timeUpdated": 1793194599,
+      "firstSeen": 1793298793,
+      "manifests": {
+        "4652931": {
+          "gid": "9001785044617821338",
+          "size": 7935289164,
+          "download": 2544468800
+        }
+      }
+    }
+  ],
+  "_change_number": 40374285,
+  "_missing_token": false,
+  "_sha": "9ada80e4bc2e920915f8e205ed757d53cc233f89",
+  "_size": 4790,
   "appid": "4652930",
   "common": {
     "associations": {
@@ -38,7 +52,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4652930",
     "genres": {
       "0": "1",
@@ -109,11 +122,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0fff1ca48713bfcb83c794a99e388dcab5a833e9/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791903652",
+    "steam_release_date": "1793263193",
+    "store_asset_mtime": "1793264654",
     "store_tags": {
       "0": "7178",
       "1": "3841",
@@ -144,5 +158,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Knuckle Creek",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "KnuckleCreek.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4652931": {
+      "manifests": {
+        "public": {
+          "download": "2544468800",
+          "gid": "9001785044617821338",
+          "size": "7935289164"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26271525",
+        "timebuildupdated": "1793193987",
+        "timeupdated": "1793194599"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Claymatic Games Ltd",
+    "homepage": "https://claymatic.games/",
+    "publisher": "Claymatic Games Ltd"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Claymatic Games/Knuckle Creek",
+        "pattern": "*.bin",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Claymatic Games/Knuckle Creek/Snapshots",
+        "pattern": "*.png",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Claymatic Games/Knuckle Creek/{64BitSteamID}",
+        "pattern": "*.bin",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Claymatic Games/Knuckle Creek/{64BitSteamID}/Snapshots",
+        "pattern": "*.png",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

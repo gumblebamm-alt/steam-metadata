@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793040164,
-  "_history": [],
-  "_change_number": 40188452,
-  "_missing_token": true,
-  "_sha": "e5367ea2bbf6e962f1adcfb2154f1c66e1de12c5",
-  "_size": 3554,
+  "_lastChecked": 1793298800,
+  "_history": [
+    {
+      "buildId": "26276622",
+      "branch": "public",
+      "timeUpdated": 1793206694,
+      "firstSeen": 1793298800,
+      "manifests": {
+        "4889031": {
+          "gid": "5029458442681347516",
+          "size": 194607088,
+          "download": 177699936
+        },
+        "4889032": {
+          "gid": "8374044072150905128",
+          "size": 199300050,
+          "download": 179526880
+        }
+      }
+    }
+  ],
+  "_change_number": 40383703,
+  "_missing_token": false,
+  "_sha": "7b8252f537a73386009da19543b08c34730ff931",
+  "_size": 5280,
   "appid": "4889030",
   "common": {
     "associations": {
@@ -32,8 +51,8 @@
     },
     "clienticon": "a029a541e0819f393064cdb725cb99867e447ac7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4889030",
     "genres": {
       "0": "4",
@@ -45,6 +64,16 @@
       "english": "00098cef62dec6d19a7803bf82f6da99774422ea/header.jpg"
     },
     "icon": "a029a541e0819f393064cdb725cb99867e447ac7",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "japanese": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -106,10 +135,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f06b093710011ff28e9df81dd70f1735890a9aab/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793282196",
     "store_asset_mtime": "1791498402",
     "store_tags": {
       "0": "91114",
@@ -163,5 +193,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Grombo Card Shop",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "GromboCardShop.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "GromboCardShop.app/Contents/MacOS/GromboCardShop",
+        "workingdir": "GromboCardShop.app/Contents/MacOS"
+      }
+    }
+  },
+  "depots": {
+    "4889031": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "177699936",
+          "gid": "5029458442681347516",
+          "size": "194607088"
+        }
+      }
+    },
+    "4889032": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "179526880",
+          "gid": "8374044072150905128",
+          "size": "199300050"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26276622",
+        "timebuildupdated": "1793206683",
+        "timeupdated": "1793206694"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Paparajote Games",
+    "publisher": "Paparajote Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "2000000000",
+    "savefiles": {
+      "0": {
+        "path": "com.paparajotegames.grombocardshop/saves",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "1": {
+        "path": "com.paparajotegames.grombocardshop\\saves",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

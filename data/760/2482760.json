@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1792602994,
-  "_history": [],
-  "_change_number": 40085456,
-  "_missing_token": true,
-  "_sha": "c0bf0e0ded47f58d0f5d8dc31d7fcaf1e02b5915",
-  "_size": 4468,
+  "_lastChecked": 1793298742,
+  "_history": [
+    {
+      "buildId": "26267130",
+      "branch": "public",
+      "timeUpdated": 1793203350,
+      "firstSeen": 1793298629,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "2482761": {
+          "gid": "6083762843052060327",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40393412,
+  "_missing_token": false,
+  "_sha": "fc96c6b6515c8717aaa14073b39e3f3a873161c6",
+  "_size": 5782,
   "appid": "2482760",
   "common": {
     "aicontenttype": "1",
@@ -40,6 +65,7 @@
     "clienticon": "ae10f7b0b50e688efe8a7e23ad2d9794faea6506",
     "clienttga": "ee83e0f0033bc6b70bd9062e9465745ccc909c96",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -50,7 +76,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "2482760",
     "genres": {
       "0": "28"
@@ -133,19 +158,22 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "77",
+    "review_score": "6",
     "small_capsule": {
       "english": "25c3d0f0ff13dc2459fa69b2292887e21c519585/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792570103",
+    "steam_release_date": "1793264385",
+    "store_asset_mtime": "1793285039",
     "store_tags": {
       "0": "9564",
       "1": "1695",
       "10": "1663",
       "11": "1654",
       "12": "701",
-      "13": "4166",
-      "14": "3859",
+      "13": "3859",
+      "14": "4166",
       "15": "1774",
       "16": "10235",
       "17": "5900",
@@ -209,5 +237,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HS3",
+    "launch": {
+      "0": {
+        "arguments": "-Installed",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "HS3.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65532",
+    "steamcontrollertemplateindex": "3",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2482761": {
+      "manifests": {
+        "public": {
+          "download": "20045732352",
+          "gid": "6083762843052060327",
+          "size": "25227972497"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26267130",
+        "timebuildupdated": "1793181683",
+        "timeupdated": "1793203350"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Nacon Studio Ghent",
+    "dlcavailableonstore": "1",
+    "listofdlc": "4693960,4693970",
+    "publisher": "Nacon"
+  },
+  "ufs": {
+    "maxnumfiles": "8",
+    "quota": "157286400",
+    "savefiles": {
+      "0": {
+        "path": "HS3/Saved/SaveGames/steam{64BitSteamID}",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1793124084,
-  "_history": [],
-  "_change_number": 40037039,
-  "_missing_token": true,
-  "_sha": "7ee8c16ddc9d6c5c1bc5f8de1b5a032297977c9c",
-  "_size": 3519,
+  "_lastChecked": 1793298801,
+  "_history": [
+    {
+      "buildId": "24729000",
+      "branch": "d3d11",
+      "timeUpdated": 1786690914,
+      "firstSeen": 1793298801,
+      "manifests": {
+        "4907861": {
+          "gid": "2740287664235689419",
+          "size": 501648236,
+          "download": 327915584
+        },
+        "4907862": {
+          "gid": "7067806016782124234",
+          "size": 468355693,
+          "download": 344281936
+        }
+      }
+    },
+    {
+      "buildId": "25282062",
+      "branch": "public",
+      "timeUpdated": 1789305608,
+      "firstSeen": 1793298801,
+      "manifests": {
+        "4907861": {
+          "gid": "3767171748070440516",
+          "size": 573126008,
+          "download": 399265136
+        },
+        "4907862": {
+          "gid": "4893911133916589238",
+          "size": 539859666,
+          "download": 415630800
+        }
+      }
+    }
+  ],
+  "_change_number": 40385505,
+  "_missing_token": false,
+  "_sha": "200c032f6bf4c0ef0a46801ca50f3ae0d118f651",
+  "_size": 5452,
   "appid": "4907860",
   "common": {
     "associations": {
@@ -40,9 +77,9 @@
     },
     "clienticon": "be8370c69411fa90efcce002909ea9df49f872bc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4907860",
     "genres": {
       "0": "1",
@@ -115,16 +152,17 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "438ff04d947023d680d70053ec03609fa454603b/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1783711629",
+    "steam_release_date": "1793094045",
+    "store_asset_mtime": "1793285143",
     "store_tags": {
       "0": "8666",
       "1": "19",
-      "10": "42804",
-      "11": "1773",
+      "10": "1773",
+      "11": "42804",
       "12": "3959",
       "2": "4975",
       "3": "4191",
@@ -159,5 +197,96 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "default",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "YakkoTako",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "run.sh",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--fullscreen",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "yakko.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input/action_manifest.vdf"
+  },
+  "depots": {
+    "4907861": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "d3d11": {
+          "download": "327915584",
+          "gid": "2740287664235689419",
+          "size": "501648236"
+        },
+        "public": {
+          "download": "399265136",
+          "gid": "3767171748070440516",
+          "size": "573126008"
+        }
+      }
+    },
+    "4907862": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "d3d11": {
+          "download": "344281936",
+          "gid": "7067806016782124234",
+          "size": "468355693"
+        },
+        "public": {
+          "download": "415630800",
+          "gid": "4893911133916589238",
+          "size": "539859666"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,russian,schinese,spanish",
+    "branches": {
+      "d3d11": {
+        "buildid": "24729000",
+        "description": "d3d11 renderer",
+        "timebuildupdated": "1786690838",
+        "timeupdated": "1786690914"
+      },
+      "public": {
+        "buildid": "25282062",
+        "timebuildupdated": "1789297791",
+        "timeupdated": "1789305608"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "moimart",
+    "homepage": "https://martinez.sh/yakko-tako",
+    "publisher": "muffler"
+  }
 }

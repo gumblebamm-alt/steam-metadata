@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792775354,
-  "_history": [],
-  "_change_number": 40157778,
-  "_missing_token": true,
-  "_sha": "984765454b754c862b14820c3484f0624716d899",
-  "_size": 3520,
+  "_lastChecked": 1793298807,
+  "_history": [
+    {
+      "buildId": "26276530",
+      "branch": "public",
+      "timeUpdated": 1793206771,
+      "firstSeen": 1793298807,
+      "manifests": {
+        "5035701": {
+          "gid": "3270088906236407446",
+          "size": 621565126,
+          "download": 457091088
+        }
+      }
+    }
+  ],
+  "_change_number": 40370341,
+  "_missing_token": false,
+  "_sha": "e8939ebd8653f87e8a564aa112f90e664aed478c",
+  "_size": 5112,
   "appid": "5035700",
   "common": {
     "associations": {
@@ -29,6 +43,7 @@
     },
     "clienticon": "f60275dbaeedfa5e9ee4a42bb7eb454babb05406",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -42,7 +57,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5035700",
     "genres": {
       "0": "28"
@@ -121,11 +135,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "15519ccbfe79ea5d68fc8c8e4fe0d563f104dbd6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793255489",
     "store_asset_mtime": "1785741174",
     "store_tags": {
       "0": "4486",
@@ -162,5 +177,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The day it Rained Blood",
+    "launch": {
+      "0": {
+        "executable": "The day it Rained Blood.exe"
+      }
+    }
+  },
+  "depots": {
+    "5035701": {
+      "manifests": {
+        "public": {
+          "download": "457091088",
+          "gid": "3270088906236407446",
+          "size": "621565126"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26276530",
+        "timebuildupdated": "1793206479",
+        "timeupdated": "1793206771"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "REDXZONE",
+    "publisher": "RPLAY GAMES"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "262144000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RplayGames\\The day it Rained Blood\\Save",
+            "replace": "unity.RplayGames.The day it Rained Blood/Save"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RplayGames\\The day it Rained Blood\\Save",
+            "replace": ".config/unity3d/RplayGames/The day it Rained Blood/Save"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RplayGames\\The day it Rained Blood\\Save",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "RplayGames\\The day it Rained Blood\\Save",
+        "pattern": "*.jpg",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793211940,
-  "_history": [],
-  "_change_number": 40338174,
-  "_missing_token": true,
-  "_sha": "22cc051e2bf9e8e31569f9d088bcaddf0d981e13",
-  "_size": 2909,
+  "_lastChecked": 1793298799,
+  "_history": [
+    {
+      "buildId": "26269771",
+      "branch": "public",
+      "timeUpdated": 1793192164,
+      "firstSeen": 1793298799,
+      "manifests": {
+        "4822601": {
+          "gid": "2558095322497266522",
+          "size": 20242053,
+          "download": 3863024
+        },
+        "4822602": {
+          "gid": "6755158119130765114",
+          "size": 27066043,
+          "download": 6545344
+        },
+        "4822604": {
+          "gid": "6581417892297245785",
+          "size": 23011157,
+          "download": 21374400
+        }
+      }
+    }
+  ],
+  "_change_number": 40377802,
+  "_missing_token": false,
+  "_sha": "2788e193d24820a1c1bc195bf95ca191d50cc8c6",
+  "_size": 4880,
   "appid": "4822600",
   "common": {
     "associations": {
@@ -30,8 +54,8 @@
     },
     "clienticon": "fe8e94affe2325cd67139dd703ae70c6cd134eef",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4822600",
     "genres": {
       "0": "4",
@@ -103,7 +127,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b715f8ef5e8bbbb68262b68eb972fdbed612260b/capsule_231x87.jpg"
     },
@@ -128,5 +152,114 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "Drive Mad",
+    "launch": {
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "desktop/fancade",
+        "type": "default",
+        "workingdir": "desktop"
+      },
+      "3": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "fancade.exe",
+        "type": "default"
+      },
+      "4": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "desktop/fancade",
+        "type": "default",
+        "workingdir": "desktop"
+      }
+    }
+  },
+  "depots": {
+    "4822601": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "3863024",
+          "gid": "2558095322497266522",
+          "size": "20242053"
+        }
+      }
+    },
+    "4822602": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "6545344",
+          "gid": "6755158119130765114",
+          "size": "27066043"
+        }
+      }
+    },
+    "4822604": {
+      "manifests": {
+        "public": {
+          "download": "21374400",
+          "gid": "6581417892297245785",
+          "size": "23011157"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26269771",
+        "timebuildupdated": "1793189354",
+        "timeupdated": "1793192164"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Fancade",
+    "homepage": "https://www.fancade.com/",
+    "publisher": "Fancade"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "desktop/sandbox/{64BitSteamID}",
+            "replace": "sandbox/{64BitSteamID}"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "desktop/sandbox/{64BitSteamID}",
+        "pattern": "db",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

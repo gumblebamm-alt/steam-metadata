@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791420125,
-  "_history": [],
-  "_change_number": 39580679,
-  "_missing_token": true,
-  "_sha": "9c0a8cf7576347bc2e9d8895ee0b33c93ccdb9cd",
-  "_size": 3411,
+  "_lastChecked": 1793298809,
+  "_history": [
+    {
+      "buildId": "25768350",
+      "branch": "public",
+      "timeUpdated": 1791346282,
+      "firstSeen": 1793298809,
+      "manifests": {
+        "5074021": {
+          "gid": "8583807149733123172",
+          "size": 741492445,
+          "download": 433983552
+        },
+        "5074022": {
+          "gid": "2365903996170130905",
+          "size": 707495685,
+          "download": 426854240
+        }
+      }
+    }
+  ],
+  "_change_number": 40370969,
+  "_missing_token": false,
+  "_sha": "8b16588816435ef9ff17a31994b82f3daa3feae5",
+  "_size": 5082,
   "appid": "5074020",
   "common": {
     "aicontenttype": "1",
@@ -40,9 +59,9 @@
     },
     "clienticon": "1b3632384f7546287280317dbcfdcfdd35c2e673",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5074020",
     "genres": {
       "0": "23",
@@ -118,10 +137,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1f9ca4d4b25f005b13a75867e7d8ef8240bd48e5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793257327",
     "store_asset_mtime": "1789398916",
     "store_tags": {
       "0": "9",
@@ -153,5 +173,93 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "CHECKBORNE - A CHESS ADVENTURE",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "CHECKBORNE.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "CHECKBORNE.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5074021": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "433983552",
+          "gid": "8583807149733123172",
+          "size": "741492445"
+        }
+      }
+    },
+    "5074022": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "426854240",
+          "gid": "2365903996170130905",
+          "size": "707495685"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "25768350",
+        "timebuildupdated": "1791343550",
+        "timeupdated": "1791346282"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Dadzio Software Solutions",
+    "publisher": "Dadzio Software Solutions"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/CHECKBORNE",
+        "pattern": "story.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/CHECKBORNE",
+        "pattern": "saved_match.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792603017,
-  "_history": [],
-  "_change_number": 40095744,
-  "_missing_token": true,
-  "_sha": "4d06830cd732be0abd3d05b530d28ed810c0874c",
-  "_size": 3357,
+  "_lastChecked": 1793298783,
+  "_history": [
+    {
+      "buildId": "26304958",
+      "branch": "public",
+      "timeUpdated": 1793298591,
+      "firstSeen": 1793298783,
+      "manifests": {
+        "4247681": {
+          "gid": "7076963774773947651",
+          "size": 1779058430,
+          "download": 1092064896
+        }
+      }
+    }
+  ],
+  "_change_number": 40393956,
+  "_missing_token": false,
+  "_sha": "d2d44414f3740173953c40e1f50082993658e71b",
+  "_size": 4369,
   "appid": "4247680",
   "common": {
     "associations": {
@@ -35,8 +49,8 @@
     "clienticns": "4ce4ee42dbd713d5f85c3b8593f0bcd11333a20e",
     "clienticon": "2733dc6755cc911f9c1d1f7b37d6e3cd93ad37ba",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4247680",
     "genres": {
       "0": "1",
@@ -111,11 +125,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9529fb7e8f5b83803ad8607c4cfffc08aa01f063/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792273923",
+    "steam_release_date": "1793286023",
+    "store_asset_mtime": "1792617923",
     "store_tags": {
       "0": "3920",
       "1": "12472",
@@ -147,5 +162,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "FirstPlate",
+    "launch": {
+      "0": {
+        "executable": "FirstPlate.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4247681": {
+      "manifests": {
+        "public": {
+          "download": "1092064896",
+          "gid": "7076963774773947651",
+          "size": "1779058430"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26304958",
+        "timebuildupdated": "1793298566",
+        "timeupdated": "1793298591"
+      }
+    }
+  },
+  "extended": {
+    "developer": "TwinkleToes Studios",
+    "publisher": "TwinkleToes Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "firstplate/Local Storage/leveldb",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "firstplate/saves",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

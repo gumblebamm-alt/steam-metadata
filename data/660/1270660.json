@@ -1,10 +1,40 @@
 {
-  "_lastChecked": 1793166271,
-  "_history": [],
-  "_change_number": 40321539,
-  "_missing_token": true,
-  "_sha": "d2b4aa1c006209919bdd1747d47fb451f4027292",
-  "_size": 4856,
+  "_lastChecked": 1793298739,
+  "_history": [
+    {
+      "buildId": "26220230",
+      "branch": "public",
+      "timeUpdated": 1793038292,
+      "firstSeen": 1793298584,
+      "manifests": {
+        "228988": {
+          "gid": "6645201662696499616",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "1270661": {
+          "gid": "4855200384406825187",
+          "size": null,
+          "download": null
+        },
+        "1270662": {
+          "gid": "5995625018487292666",
+          "size": 5966517928,
+          "download": 2118385632
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40391160,
+  "_missing_token": false,
+  "_sha": "2faa93d65aa16bc478c208d9c8594865b83f7a77",
+  "_size": 8226,
   "appid": "1270660",
   "common": {
     "associations": {
@@ -37,9 +67,9 @@
     "clienticon": "7fe44f747f6e94fd4f64982b5fd54bc8d2328407",
     "clienttga": "cd9fa268af875ac5ce740109c105c38fdbe9aeeb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1270660",
     "genres": {
       "0": "1",
@@ -133,12 +163,82 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "969a971b6327a63404757e744232d3c10fa19051/capsule_231x87.jpg",
       "schinese": "146fd4c6e4b33119a3a273c1b09936a8886a1089/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1792613411",
+    "steam_deck_compatibility": {
+      "category": "3",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1793127255",
+      "tested_build_id": "26220230",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      }
+    },
+    "steam_release_date": "1793292869",
+    "store_asset_mtime": "1793291168",
     "store_tags": {
       "0": "3859",
       "1": "4195",
@@ -202,5 +302,79 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dead Party",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DeadParty.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1270661": {
+      "manifests": {
+        "public": {
+          "download": "1957279696",
+          "gid": "4855200384406825187",
+          "size": "5966517928"
+        }
+      }
+    },
+    "1270662": {
+      "manifests": {
+        "public": {
+          "download": "2118385632",
+          "gid": "5995625018487292666",
+          "size": "5966517928"
+        }
+      }
+    },
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "26220230",
+        "timebuildupdated": "1793027551",
+        "timeupdated": "1793038292"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Radiation Blue",
+    "publisher": "Snail Games USA",
+    "remoteplaytogethertestingbranches": "development"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "DeadParty/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793211949,
-  "_history": [],
-  "_change_number": 40337837,
-  "_missing_token": true,
-  "_sha": "8893e6c891ce0e40dafaf00c640b4f8634daee5f",
-  "_size": 3546,
+  "_lastChecked": 1793298810,
+  "_history": [
+    {
+      "buildId": "26270513",
+      "branch": "public",
+      "timeUpdated": 1793191593,
+      "firstSeen": 1793298810,
+      "manifests": {
+        "5100931": {
+          "gid": "8120416050942161886",
+          "size": 126498471,
+          "download": 113304560
+        }
+      }
+    }
+  ],
+  "_change_number": 40376901,
+  "_missing_token": false,
+  "_sha": "7b034d5c7cb09a751bb40b69ea2037f71a94c7b3",
+  "_size": 5136,
   "appid": "5100930",
   "common": {
     "aicontenttype": "1",
@@ -29,9 +43,9 @@
     },
     "clienticon": "3fb55985fca001599691b9cc88f6c2c370c2163c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5100930",
     "genres": {
       "0": "4"
@@ -101,11 +115,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "df4872af178bf224a04993599a880cb297ee9893/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793189088",
+    "steam_release_date": "1793269887",
+    "store_asset_mtime": "1793269732",
     "store_tags": {
       "0": "597",
       "1": "1664",
@@ -165,5 +180,91 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "REOGUNA",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "REOGUNA.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5100931": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "113304560",
+          "gid": "8120416050942161886",
+          "size": "126498471"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26270513",
+        "timebuildupdated": "1793191425",
+        "timeupdated": "1793191593"
+      }
+    },
+    "workshopdepot": "5100930"
+  },
+  "extended": {
+    "developer": "MUU2 Products.",
+    "publisher": "MUU2 Products."
+  },
+  "ufs": {
+    "maxnumfiles": "2040",
+    "quota": "16000000",
+    "savefiles": {
+      "0": {
+        "path": "reoguna",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "reoguna/replays",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "reoguna/my_stages",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "reoguna/packs",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,65 @@
 {
-  "_lastChecked": 1791940053,
-  "_history": [],
-  "_change_number": 39793003,
-  "_missing_token": true,
-  "_sha": "d8ee61924382055fab94b733016812dec403daa6",
-  "_size": 9994,
+  "_lastChecked": 1793298765,
+  "_history": [
+    {
+      "buildId": "23931225",
+      "branch": "forinternaltest",
+      "timeUpdated": 1782476992,
+      "firstSeen": 1793298765,
+      "manifests": {
+        "3077541": {
+          "gid": "6625180381836176033",
+          "size": 21711303362,
+          "download": 20247656848
+        },
+        "3077542": {
+          "gid": "890167217144371558",
+          "size": 20665679639,
+          "download": 18841787328
+        }
+      }
+    },
+    {
+      "buildId": "26304006",
+      "branch": "public",
+      "timeUpdated": 1793295868,
+      "firstSeen": 1793298765,
+      "manifests": {
+        "3077541": {
+          "gid": "2961243187075532654",
+          "size": 22097019997,
+          "download": 21713018112
+        },
+        "3077542": {
+          "gid": "890167217144371558",
+          "size": 20665679639,
+          "download": 18841787328
+        }
+      }
+    },
+    {
+      "buildId": "26304279",
+      "branch": "test",
+      "timeUpdated": 1793296707,
+      "firstSeen": 1793298765,
+      "manifests": {
+        "3077541": {
+          "gid": "2961243187075532654",
+          "size": 22097019997,
+          "download": 21713018112
+        },
+        "3077542": {
+          "gid": "890167217144371558",
+          "size": 20665679639,
+          "download": 18841787328
+        }
+      }
+    }
+  ],
+  "_change_number": 40392878,
+  "_missing_token": false,
+  "_sha": "635012981fd02cf411b87151aa4ce16cebe9754d",
+  "_size": 11988,
   "appid": "3077540",
   "common": {
     "associations": {
@@ -26,12 +81,13 @@
     "clienticon": "74b9c3b0c33a7dd95517e35d550e02f6ef68e6f3",
     "clienttga": "e1e89690a56492eb19f233cda40a5795a283789d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
-      "0": "2",
+      "0": "1",
       "1": "5"
     },
     "content_descriptors_including_dlc": {
-      "0": "2",
+      "0": "1",
       "1": "5"
     },
     "controllertagwizard": "1",
@@ -43,7 +99,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "3077540",
     "genres": {
       "0": "25",
@@ -183,7 +238,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "brazilian": "c078c24eb88b0017d5bfc41824f140c30cbcc936/capsule_231x87_brazilian.jpg",
       "english": "ea714463c706ce2f8791efd3187761d2fd1cc3cc/capsule_231x87.jpg",
@@ -193,6 +248,7 @@
       "spanish": "fdde9763a9a091f31aba851ebc9c66c42d5c0806/capsule_231x87_spanish.jpg",
       "turkish": "1561a12a01dc7b417dd9e6563db6b6f46b619307/capsule_231x87_turkish.jpg"
     },
+    "steam_release_date": "1793283430",
     "store_asset_mtime": "1791923416",
     "store_tags": {
       "0": "4486",
@@ -334,5 +390,101 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Love Fall in Death",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Love Fall in Death.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3077541": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "forinternaltest": {
+          "download": "20247656848",
+          "gid": "6625180381836176033",
+          "size": "21711303362"
+        },
+        "public": {
+          "download": "21713018112",
+          "gid": "2961243187075532654",
+          "size": "22097019997"
+        },
+        "test": {
+          "download": "21713018112",
+          "gid": "2961243187075532654",
+          "size": "22097019997"
+        }
+      }
+    },
+    "3077542": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "forinternaltest": {
+          "download": "18841787328",
+          "gid": "890167217144371558",
+          "size": "20665679639"
+        },
+        "public": {
+          "download": "18841787328",
+          "gid": "890167217144371558",
+          "size": "20665679639"
+        },
+        "test": {
+          "download": "18841787328",
+          "gid": "890167217144371558",
+          "size": "20665679639"
+        }
+      }
+    },
+    "branches": {
+      "forinternaltest": {
+        "buildid": "23931225",
+        "description": "internal test branch",
+        "timebuildupdated": "1782476992",
+        "timeupdated": "1782476992"
+      },
+      "public": {
+        "buildid": "26304006",
+        "timebuildupdated": "1793295868",
+        "timeupdated": "1793295868"
+      },
+      "test": {
+        "buildid": "26304279",
+        "description": "Test for ismail",
+        "timebuildupdated": "1793296707",
+        "timeupdated": "1793296707"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "SNR Interactive",
+    "homepage": "https://snrinteractive.com/",
+    "publisher": "SNR Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "SNR/Love Fall in Death",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

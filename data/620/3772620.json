@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793211921,
-  "_history": [],
-  "_change_number": 40315021,
-  "_missing_token": true,
-  "_sha": "bada4222c090cefd86368d324e4587d7f02c52b1",
-  "_size": 3132,
+  "_lastChecked": 1793298776,
+  "_history": [
+    {
+      "buildId": "26254899",
+      "branch": "public",
+      "timeUpdated": 1793136858,
+      "firstSeen": 1793298776,
+      "manifests": {
+        "3772621": {
+          "gid": "1965452235596835341",
+          "size": 543611431,
+          "download": 128758192
+        },
+        "3772622": {
+          "gid": "5682909389369959556",
+          "size": 566329384,
+          "download": 135358816
+        }
+      }
+    }
+  ],
+  "_change_number": 40379318,
+  "_missing_token": false,
+  "_sha": "37a18799bd0cc5a157b19c5027a69f2d67c13282",
+  "_size": 4671,
   "appid": "3772620",
   "common": {
     "associations": {
@@ -30,9 +49,9 @@
     "clienticon": "45276432727fde0b63ce14cfcd822f1971828042",
     "clienttga": "a8cfa347a0b9188cfa3b0c22f62ff60093cfb978",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3772620",
     "genres": {
       "0": "25",
@@ -106,10 +125,11 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e0fdeaf3acb808deeeb45c0a37511214d1cb6c4c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793274518",
     "store_asset_mtime": "1791982305",
     "store_tags": {
       "0": "916648",
@@ -140,5 +160,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CryptidCam",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CryptidCam.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "CryptidCam.app",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3772621": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "128758192",
+          "gid": "1965452235596835341",
+          "size": "543611431"
+        }
+      }
+    },
+    "3772622": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "135358816",
+          "gid": "5682909389369959556",
+          "size": "566329384"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26254899",
+        "timebuildupdated": "1793136858",
+        "timeupdated": "1793136858"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Mothman Mothman Studios",
+    "publisher": "Mothman Mothman Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "200000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Mothman Mothman Studios/CryptidCam",
+        "pattern": "*.save",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

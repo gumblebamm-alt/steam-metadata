@@ -1,10 +1,78 @@
 {
-  "_lastChecked": 1792989939,
-  "_history": [],
-  "_change_number": 40240711,
-  "_missing_token": true,
-  "_sha": "90b8b58f1c08fd533c4a15bf517c0d370d9a4585",
-  "_size": 3011,
+  "_lastChecked": 1793298772,
+  "_history": [
+    {
+      "buildId": "26201055",
+      "branch": "beta",
+      "timeUpdated": 1792952120,
+      "firstSeen": 1793298772,
+      "manifests": {
+        "3613552": {
+          "gid": "8797306815884176357",
+          "size": 180287976,
+          "download": 91119728
+        },
+        "3613553": {
+          "gid": "8389632029587222841",
+          "size": 154683652,
+          "download": 84863744
+        }
+      }
+    },
+    {
+      "buildId": "26201055",
+      "branch": "debug",
+      "timeUpdated": 1792952120,
+      "firstSeen": 1793298772,
+      "manifests": {
+        "3613552": {
+          "gid": "8797306815884176357",
+          "size": 180287976,
+          "download": 91119728
+        },
+        "3613553": {
+          "gid": "8389632029587222841",
+          "size": 154683652,
+          "download": 84863744
+        }
+      }
+    },
+    {
+      "buildId": "18251670",
+      "branch": "local",
+      "timeUpdated": 1745701748,
+      "firstSeen": 1793298772,
+      "manifests": {
+        "3613551": {
+          "gid": "3481459700274629409",
+          "size": 138611537,
+          "download": 47776032
+        }
+      }
+    },
+    {
+      "buildId": "26304864",
+      "branch": "public",
+      "timeUpdated": 1793298332,
+      "firstSeen": 1793298772,
+      "manifests": {
+        "3613552": {
+          "gid": "651550384249318849",
+          "size": 191491384,
+          "download": 99338224
+        },
+        "3613553": {
+          "gid": "1119724877861523732",
+          "size": 159612980,
+          "download": 90763648
+        }
+      }
+    }
+  ],
+  "_change_number": 40393808,
+  "_missing_token": false,
+  "_sha": "cba403135863d9d8a625d9674f59af90773b727b",
+  "_size": 5355,
   "appid": "3613550",
   "common": {
     "associations": {
@@ -26,8 +94,8 @@
     "clienticon": "295222597b5a7631a3cd61fd6aee560933968a96",
     "clienttga": "462b97e531996fbbe582bce5753a7559225fac6f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3613550",
     "genres": {
       "0": "4",
@@ -100,11 +168,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b67ac8b28be7f20396c522d5d564906a8fa174f6/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1780762494",
+    "steam_release_date": "1793293208",
+    "store_asset_mtime": "1793257589",
     "store_tags": {
       "0": "9",
       "1": "597",
@@ -134,5 +203,125 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Checkmage",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "checkmage.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "checkmage.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3613551": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "local": {
+          "download": "47776032",
+          "gid": "3481459700274629409",
+          "size": "138611537"
+        }
+      }
+    },
+    "3613552": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "91119728",
+          "gid": "8797306815884176357",
+          "size": "180287976"
+        },
+        "debug": {
+          "download": "91119728",
+          "gid": "8797306815884176357",
+          "size": "180287976"
+        },
+        "public": {
+          "download": "99338224",
+          "gid": "651550384249318849",
+          "size": "191491384"
+        }
+      }
+    },
+    "3613553": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "84863744",
+          "gid": "8389632029587222841",
+          "size": "154683652"
+        },
+        "debug": {
+          "download": "84863744",
+          "gid": "8389632029587222841",
+          "size": "154683652"
+        },
+        "public": {
+          "download": "90763648",
+          "gid": "1119724877861523732",
+          "size": "159612980"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26201055",
+        "description": "Beta branch",
+        "timebuildupdated": "1792951987",
+        "timeupdated": "1792952120"
+      },
+      "debug": {
+        "buildid": "26201055",
+        "description": "debug",
+        "timebuildupdated": "1792951987",
+        "timeupdated": "1792952120"
+      },
+      "local": {
+        "buildid": "18251670",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1745696677",
+        "timeupdated": "1745701748"
+      },
+      "public": {
+        "buildid": "26304864",
+        "timebuildupdated": "1793298279",
+        "timeupdated": "1793298332"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "posshydra",
+    "homepage": "https://www.checkmage.net",
+    "publisher": "posshydra"
+  },
+  "ufs": {
+    "appidredirect": "3613550",
+    "maxnumfiles": "40",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "saves",
+        "pattern": "*.tres",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

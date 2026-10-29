@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792816683,
-  "_history": [],
-  "_change_number": 40192605,
-  "_missing_token": true,
-  "_sha": "04db7556a74623ae50d5d901342f68d6bf0003eb",
-  "_size": 6654,
+  "_lastChecked": 1793298813,
+  "_history": [
+    {
+      "buildId": "26289199",
+      "branch": "public",
+      "timeUpdated": 1793261506,
+      "firstSeen": 1793298813,
+      "manifests": {
+        "5164421": {
+          "gid": "6073257450673853438",
+          "size": 1612819788,
+          "download": 1474375888
+        }
+      }
+    }
+  ],
+  "_change_number": 40374549,
+  "_missing_token": false,
+  "_sha": "c8f504a8656e98ab8dc3c7b83874c3031d991b80",
+  "_size": 8087,
   "appid": "5164420",
   "common": {
     "aicontenttype": "1",
@@ -26,6 +40,7 @@
     },
     "clienticon": "f4d020f131c15eb0e9f1ec553c9ec27e2ce07b55",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -33,7 +48,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5164420",
     "genres": {
       "0": "2"
@@ -145,7 +159,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "47dc812c1c5d1bab8bf762e9f81d4b5a58332df9/capsule_231x87.jpg",
       "japanese": "deb505d7b758af5e4e96a74fa1afdd8f291a54d1/capsule_231x87_japanese.jpg",
@@ -153,6 +167,7 @@
       "schinese": "2203d8e28fa506fc281e1646268a67a921c9037d/capsule_231x87_schinese.jpg",
       "tchinese": "deb505d7b758af5e4e96a74fa1afdd8f291a54d1/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1793261577",
     "store_asset_mtime": "1792550639",
     "store_tags": {
       "0": "9",
@@ -205,5 +220,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fate Candle Three Kingdoms - Chronicle Restored",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "LostSan.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5164421": {
+      "manifests": {
+        "public": {
+          "download": "1474375888",
+          "gid": "6073257450673853438",
+          "size": "1612819788"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26289199",
+        "timebuildupdated": "1793249429",
+        "timeupdated": "1793261506"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "XIA WANWAN",
+    "publisher": "XIA WANWAN"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "XWW/LostSan/Profiles/Steam/{Steam3AccountID}",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinSavedGames"
+      },
+      "1": {
+        "path": "XWW/LostSan/Profiles/Steam/{Steam3AccountID}",
+        "pattern": "*.sav.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinSavedGames"
+      },
+      "2": {
+        "path": "XWW/LostSan/Profiles/Steam/{Steam3AccountID}",
+        "pattern": "profile.meta",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinSavedGames"
+      }
+    }
+  }
 }

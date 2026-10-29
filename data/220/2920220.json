@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792198508,
-  "_history": [],
-  "_change_number": 39889573,
-  "_missing_token": true,
-  "_sha": "0d5b7c16115cad6dd086b0d59f15af40e1645c65",
-  "_size": 4039,
+  "_lastChecked": 1793298763,
+  "_history": [
+    {
+      "buildId": "26293172",
+      "branch": "public",
+      "timeUpdated": 1793272004,
+      "firstSeen": 1793298763,
+      "manifests": {
+        "2920221": {
+          "gid": "5349572329529697831",
+          "size": 16978849281,
+          "download": 16475120896
+        }
+      }
+    }
+  ],
+  "_change_number": 40390351,
+  "_missing_token": false,
+  "_sha": "43cb32fbeeeebbc6d119b4725b6eb40fe843a601",
+  "_size": 5621,
   "appid": "2920220",
   "common": {
     "associations": {
@@ -30,14 +44,18 @@
     "clienticon": "20be05e0c7734dbad7fbbb37e0788fb2e4f857fd",
     "clienttga": "216bb361ea949d0c58cbfa30dd8e528c97baa6ac",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2920220",
     "genres": {
       "0": "1",
       "1": "25",
-      "2": "23"
+      "2": "4",
+      "3": "23",
+      "4": "28",
+      "5": "2",
+      "6": "37"
     },
     "header_image": {
       "english": "4b19bf2cbb1c1ef26cc0e898fc6e727776845b73/header.jpg",
@@ -119,11 +137,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "00930acd910bb7a999e48dd37222fd2d444e90f5/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791484834",
+    "steam_release_date": "1793292733",
+    "store_asset_mtime": "1793126330",
     "store_tags": {
       "0": "1667",
       "1": "5160",
@@ -139,12 +158,12 @@
       "19": "1742",
       "2": "1625",
       "3": "4166",
-      "4": "3834",
-      "5": "6691",
-      "6": "1721",
-      "7": "3978",
-      "8": "5537",
-      "9": "4106"
+      "4": "4106",
+      "5": "3834",
+      "6": "6691",
+      "7": "1721",
+      "8": "3978",
+      "9": "5537"
     },
     "supported_languages": {
       "brazilian": {
@@ -187,5 +206,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Terrible Lizards",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "with DirectX 12 (Recommended)",
+        "description_loc": {
+          "english": "with DirectX 12 (Recommended)"
+        },
+        "executable": "Windows\\terrible_lizards.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "with DirectX 11",
+        "description_loc": {
+          "english": "with DirectX 11"
+        },
+        "executable": "Windows\\terrible_lizards.exe",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2920221": {
+      "manifests": {
+        "public": {
+          "download": "16475120896",
+          "gid": "5349572329529697831",
+          "size": "16978849281"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26293172",
+        "timebuildupdated": "1793265551",
+        "timeupdated": "1793272004"
+      }
+    }
+  },
+  "extended": {
+    "developer": "WDR Studios LLC",
+    "homepage": "https://www.terriblelizardsgame.com/",
+    "publisher": "Digital Pajamas"
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "20000000",
+    "savefiles": {
+      "0": {
+        "path": "Windows\\terrible_lizards\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

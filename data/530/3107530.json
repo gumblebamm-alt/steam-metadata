@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1792989935,
-  "_history": [],
-  "_change_number": 40239898,
-  "_missing_token": true,
-  "_sha": "344ab7e16db91e75c5fece5d2fada8e1a4c0d3e3",
-  "_size": 6584,
+  "_lastChecked": 1793298739,
+  "_history": [
+    {
+      "buildId": "26266214",
+      "branch": "public",
+      "timeUpdated": 1793178858,
+      "firstSeen": 1793298587,
+      "manifests": {
+        "3107531": {
+          "gid": "1571647083495966151",
+          "size": null,
+          "download": null
+        },
+        "3107532": {
+          "gid": "3420992323302046884",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40385612,
+  "_missing_token": false,
+  "_sha": "289b273739fd5a14fddb7b7ca9f0604203c99685",
+  "_size": 8212,
   "appid": "3107530",
   "common": {
     "associations": {
@@ -46,12 +66,12 @@
       "category_75": "1",
       "category_79": "1"
     },
-    "clienticon": "82a4d5817f1ebe1f3f5918f4ad75ebd7db276093",
+    "clienticon": "a16eef89eec80695edaacb2bdfe9d4e5f70be273",
     "clienttga": "5beff6045228da79fa3c8fe6a99b8d1352d37fa2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3107530",
     "genres": {
       "0": "25",
@@ -63,7 +83,7 @@
       "schinese": "ae5266738b5aa9666fe9c8ef7c89c359972f59eb/header_schinese.jpg",
       "tchinese": "ae5266738b5aa9666fe9c8ef7c89c359972f59eb/header_tchinese.jpg"
     },
-    "icon": "82a4d5817f1ebe1f3f5918f4ad75ebd7db276093",
+    "icon": "a16eef89eec80695edaacb2bdfe9d4e5f70be273",
     "languages": {
       "english": "1",
       "japanese": "1",
@@ -142,7 +162,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2987e2c8c2e08eed6bc5c909b3795387e011d3d9/capsule_231x87.jpg",
       "schinese": "5e739769c779d8cb1210cf255f7acc3b0bfdf66f/capsule_231x87_schinese.jpg",
@@ -209,6 +229,7 @@
         }
       }
     },
+    "steam_release_date": "1793285344",
     "store_asset_mtime": "1792977400",
     "store_tags": {
       "0": "1742",
@@ -248,5 +269,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Danchi Days",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Danchi Days.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Danchi Days.app/Contents/MacOS/Danchi Days",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3107531": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "194565744",
+          "gid": "1571647083495966151",
+          "size": "427931570"
+        }
+      }
+    },
+    "3107532": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "201679056",
+          "gid": "3420992323302046884",
+          "size": "442931670"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26266214",
+        "timebuildupdated": "1793178736",
+        "timeupdated": "1793178858"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "sandy powder",
+    "homepage": "https://danchidays.com/",
+    "publisher": "Analgesic Productions"
+  },
+  "ufs": {
+    "maxnumfiles": "30",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "gingham games\\Danchi Days",
+            "replace": "com.gingham-games.Danchi-Days"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "gingham games/Danchi Days",
+        "pattern": "*.txt",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

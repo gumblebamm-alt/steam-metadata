@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792558056,
-  "_history": [],
-  "_change_number": 40058026,
-  "_missing_token": true,
-  "_sha": "32198af9eb32e641559d5b6400cfefc51f3e7b65",
-  "_size": 3313,
+  "_lastChecked": 1793298758,
+  "_history": [
+    {
+      "buildId": "26301377",
+      "branch": "public",
+      "timeUpdated": 1793289058,
+      "firstSeen": 1793298758,
+      "manifests": {
+        "2431921": {
+          "gid": "7344500123127453634",
+          "size": 732733709,
+          "download": 637886688
+        },
+        "2431922": {
+          "gid": "2127228093377895062",
+          "size": 737680028,
+          "download": 637668496
+        },
+        "2431923": {
+          "gid": "5921321706872375295",
+          "size": 741059206,
+          "download": 641596912
+        }
+      }
+    }
+  ],
+  "_change_number": 40387933,
+  "_missing_token": false,
+  "_sha": "a4b1bf711c336d415dbf9e2afbed0128a4422ddd",
+  "_size": 5630,
   "appid": "2431920",
   "common": {
     "associations": {
@@ -32,9 +56,9 @@
     "clienticon": "5cc0f6ae785216bdf66d9062bb41b89625f8ce4a",
     "clienttga": "9268d48236abd5f4a18563da0f6724a154fef068",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2431920",
     "genres": {
       "0": "25"
@@ -106,10 +130,11 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "faab93c7a441355b157c019bd2e8d5d14826faa5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793275214",
     "store_asset_mtime": "1791209212",
     "store_tags": {
       "0": "3834",
@@ -158,5 +183,124 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Heir of the Dog",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "data.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "start",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Heir_of_the_Dog.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2431921": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "637886688",
+          "gid": "7344500123127453634",
+          "size": "732733709"
+        }
+      }
+    },
+    "2431922": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "637668496",
+          "gid": "2127228093377895062",
+          "size": "737680028"
+        }
+      }
+    },
+    "2431923": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "641596912",
+          "gid": "5921321706872375295",
+          "size": "741059206"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26301377",
+        "timebuildupdated": "1793289021",
+        "timeupdated": "1793289058"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Tall Story Games Ltd",
+    "homepage": "https://heirofthedog.co.uk/",
+    "publisher": "Tall Story Games Ltd"
+  },
+  "ufs": {
+    "maxnumfiles": "150",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Tall Story Games/Heir_of_the_Dog_v1_04",
+            "replace": "Tall Story Games/Heir_of_the_Dog_v1_04"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Tall Story Games/Heir_of_the_Dog_v1_04",
+            "replace": ".local/Share/Tall Story Games/Heir_of_the_Dog_v1_04"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Tall Story Games/Heir_of_the_Dog_v1_04",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

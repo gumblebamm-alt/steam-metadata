@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1793124055,
-  "_history": [],
-  "_change_number": 40303062,
-  "_missing_token": true,
-  "_sha": "b1672240dd8ce3b912c8b8f952bfec0d53abc659",
-  "_size": 4040,
+  "_lastChecked": 1793298740,
+  "_history": [
+    {
+      "buildId": "26301932",
+      "branch": "public",
+      "timeUpdated": 1793290609,
+      "firstSeen": 1793298597,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "3257151": {
+          "gid": "8903146597793016390",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40389017,
+  "_missing_token": false,
+  "_sha": "aced66e9cb6f4540e117c84a7a109c233ec86127",
+  "_size": 4980,
   "appid": "3257150",
   "common": {
     "associations": {
@@ -43,9 +63,9 @@
     "clienticon": "60aaa096ee90da69b201a83daf95d9d2dbf11a66",
     "clienttga": "1934f549e3ab4137bface12890c20e474d2252ef",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3257150",
     "genres": {
       "0": "1",
@@ -123,11 +143,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f838aa1e7a0f46faa3f951dfeacc75ff9cb14deb/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1780775414",
+    "steam_release_date": "1793277025",
+    "store_asset_mtime": "1793281418",
     "store_tags": {
       "0": "3964",
       "1": "7208",
@@ -178,5 +199,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "RoboGAL",
+    "launch": {
+      "0": {
+        "executable": "RoboGAL.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "7",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3257151": {
+      "manifests": {
+        "public": {
+          "download": "164181408",
+          "gid": "8903146597793016390",
+          "size": "227240737"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26301932",
+        "timebuildupdated": "1793290404",
+        "timeupdated": "1793290609"
+      }
+    }
+  },
+  "extended": {
+    "developer": "TwinkleSoft",
+    "publisher": "Nuntius Games"
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "\\RoboGAL\\savegame",
+        "pattern": "*.json",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,44 @@
 {
-  "_lastChecked": 1793211946,
-  "_history": [],
-  "_change_number": 40350514,
-  "_missing_token": true,
-  "_sha": "e67b3be53388dff060046f3fb825375cba6843da",
-  "_size": 5297,
+  "_lastChecked": 1793298807,
+  "_history": [
+    {
+      "buildId": "26299521",
+      "branch": "public",
+      "timeUpdated": 1793284098,
+      "firstSeen": 1793298807,
+      "manifests": {
+        "5031211": {
+          "gid": "7389690137246032072",
+          "size": 5215066333,
+          "download": 3136964752
+        },
+        "5031212": {
+          "gid": "7132590004155798338",
+          "size": 5170111289,
+          "download": 3113175328
+        },
+        "5031213": {
+          "gid": "3423877769691598988",
+          "size": 5358260577,
+          "download": 3198658848
+        },
+        "5438990": {
+          "gid": "7119890641090412160",
+          "size": 98399919,
+          "download": 86054864
+        },
+        "5439000": {
+          "gid": "2680694341463001018",
+          "size": 32742834,
+          "download": 30846464
+        }
+      }
+    }
+  ],
+  "_change_number": 40390338,
+  "_missing_token": false,
+  "_sha": "e0eb588cd1f6cc08f39c6c4c39674bf5adf12b75",
+  "_size": 7293,
   "appid": "5031210",
   "common": {
     "associations": {
@@ -37,9 +71,9 @@
     },
     "clienticon": "d091d33c4164ce50b4d783610ee23784fd87bf52",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5031210",
     "genres": {
       "0": "28",
@@ -136,14 +170,15 @@
     },
     "osarch": "64",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows,linux",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "31778eaa21b915c8de05308c07bc16338dcb3470/capsule_231x87.jpg",
       "german": "6c7cd0c0a71c975d27b73678c6fe6cddda5b56b7/capsule_231x87_german.jpg"
     },
+    "steam_release_date": "1793292623",
     "store_asset_mtime": "1792787011",
     "store_tags": {
       "0": "9",
@@ -233,5 +268,109 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Rise of the Merchants",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "rotm.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--no-sandbox --ozone-platform=x11",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "rotm",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5031211": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3136964752",
+          "gid": "7389690137246032072",
+          "size": "5215066333"
+        }
+      }
+    },
+    "5031212": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "3113175328",
+          "gid": "7132590004155798338",
+          "size": "5170111289"
+        }
+      }
+    },
+    "5031213": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "3198658848",
+          "gid": "3423877769691598988",
+          "size": "5358260577"
+        }
+      }
+    },
+    "5438990": {
+      "dlcappid": "5438990",
+      "manifests": {
+        "public": {
+          "download": "86054864",
+          "gid": "7119890641090412160",
+          "size": "98399919"
+        }
+      }
+    },
+    "5439000": {
+      "dlcappid": "5439000",
+      "manifests": {
+        "public": {
+          "download": "30846464",
+          "gid": "2680694341463001018",
+          "size": "32742834"
+        }
+      }
+    },
+    "5522280": {
+      "dlcappid": "5522280"
+    },
+    "branches": {
+      "public": {
+        "buildid": "26299521",
+        "timebuildupdated": "1793284098",
+        "timeupdated": "1793284098"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Black Duke Games",
+    "dlcavailableonstore": "1",
+    "homepage": "https://blackdukegames.com",
+    "listofdlc": "5438990,5439000",
+    "publisher": "Black Duke Games"
+  }
 }

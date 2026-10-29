@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793040160,
+  "_lastChecked": 1793298795,
   "_history": [
     {
       "buildId": "25853002",
@@ -18,12 +18,48 @@
           "download": 176895344
         }
       }
+    },
+    {
+      "buildId": "26295069",
+      "branch": "beta",
+      "timeUpdated": 1793271522,
+      "firstSeen": 1793298795,
+      "manifests": {
+        "4704521": {
+          "gid": "947396507763555345",
+          "size": 474828909,
+          "download": 149301104
+        },
+        "4704522": {
+          "gid": "4903655017207563499",
+          "size": 586726867,
+          "download": 176813984
+        }
+      }
+    },
+    {
+      "buildId": "26295069",
+      "branch": "public",
+      "timeUpdated": 1793271791,
+      "firstSeen": 1793298795,
+      "manifests": {
+        "4704521": {
+          "gid": "947396507763555345",
+          "size": 474828909,
+          "download": 149301104
+        },
+        "4704522": {
+          "gid": "4903655017207563499",
+          "size": 586726867,
+          "download": 176813984
+        }
+      }
     }
   ],
-  "_change_number": 40266868,
+  "_change_number": 40393432,
   "_missing_token": false,
-  "_sha": "3854a20a81aabc8dd0c389bcfec7bbd24da223b4",
-  "_size": 6067,
+  "_sha": "bf236908287a429246691ce63a7abd39efbdabe3",
+  "_size": 8236,
   "appid": "4704520",
   "common": {
     "associations": {
@@ -140,15 +176,78 @@
     "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
+    "review_percentage": "73",
+    "review_score": "6",
     "small_capsule": {
       "english": "fffe895f9ff83764fd437188ea0e7d93fe0d6848/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1792682722",
+      "tested_build_id": "25853002",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
     },
     "steam_release_date": "1793034265",
     "store_asset_mtime": "1783632208",
     "store_tags": {
       "0": "560542",
       "1": "597",
-      "10": "1645",
+      "10": "5851",
       "11": "3964",
       "12": "6276",
       "13": "8945",
@@ -157,14 +256,14 @@
       "16": "1773",
       "17": "4711",
       "18": "4234",
-      "2": "9",
+      "2": "615955",
       "3": "1084988",
-      "4": "615955",
+      "4": "9",
       "5": "1659",
       "6": "1654",
       "7": "3835",
       "8": "492",
-      "9": "5851"
+      "9": "1645"
     },
     "supported_languages": {
       "brazilian": {
@@ -264,10 +363,15 @@
         "oslist": "windows"
       },
       "manifests": {
+        "beta": {
+          "download": "149301104",
+          "gid": "947396507763555345",
+          "size": "474828909"
+        },
         "public": {
-          "download": "149296688",
-          "gid": "4596653076751839553",
-          "size": "474775953"
+          "download": "149301104",
+          "gid": "947396507763555345",
+          "size": "474828909"
         }
       }
     },
@@ -276,18 +380,29 @@
         "oslist": "macos"
       },
       "manifests": {
+        "beta": {
+          "download": "176813984",
+          "gid": "4903655017207563499",
+          "size": "586726867"
+        },
         "public": {
-          "download": "176895344",
-          "gid": "3416074429685731630",
-          "size": "586674935"
+          "download": "176813984",
+          "gid": "4903655017207563499",
+          "size": "586726867"
         }
       }
     },
     "branches": {
+      "beta": {
+        "buildid": "26295069",
+        "description": "Beta version",
+        "timebuildupdated": "1793271522",
+        "timeupdated": "1793271522"
+      },
       "public": {
-        "buildid": "25853002",
-        "timebuildupdated": "1791652242",
-        "timeupdated": "1791652242"
+        "buildid": "26295069",
+        "timebuildupdated": "1793271522",
+        "timeupdated": "1793271791"
       }
     }
   },

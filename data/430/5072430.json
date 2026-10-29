@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1793252976,
-  "_history": [],
-  "_change_number": 40351295,
-  "_missing_token": true,
-  "_sha": "c9d6d957286fee4814b46b5f3c05748ac41420d0",
-  "_size": 6746,
+  "_lastChecked": 1793298739,
+  "_history": [
+    {
+      "buildId": "26273627",
+      "branch": "public",
+      "timeUpdated": 1793199365,
+      "firstSeen": 1793298589,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "5072431": {
+          "gid": "3443976773713993947",
+          "size": null,
+          "download": null
+        },
+        "5072432": {
+          "gid": "6304742641903327833",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40393436,
+  "_missing_token": false,
+  "_sha": "434befd9270ed7c54c196d8778d6e07546301356",
+  "_size": 8471,
   "appid": "5072430",
   "common": {
     "aicontenttype": "1",
@@ -42,9 +67,9 @@
     },
     "clienticon": "6e549b223c4e68027c05f3f1cf92f34e7a00b2e3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5072430",
     "genres": {
       "0": "28",
@@ -115,7 +140,9 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "82",
+    "review_score": "7",
     "small_capsule": {
       "english": "68f0d273de2d8da9c13f6cf314089ec320eb377d/capsule_231x87.jpg"
     },
@@ -204,6 +231,7 @@
         }
       }
     },
+    "steam_release_date": "1793260233",
     "store_asset_mtime": "1793206175",
     "store_tags": {
       "0": "5613",
@@ -282,5 +310,91 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Ghost in the SQL Data",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Ghost in the SQL Data.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Ghost in the SQL Data.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "4",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5072431": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "165512992",
+          "gid": "3443976773713993947",
+          "size": "398906721"
+        }
+      }
+    },
+    "5072432": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "224220624",
+          "gid": "6304742641903327833",
+          "size": "554079773"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26273627",
+        "timebuildupdated": "1793199343",
+        "timeupdated": "1793199365"
+      }
+    },
+    "privatebranches": "1",
+    "workshopdepot": "5072430"
+  },
+  "extended": {
+    "developer": "Isaac MENARD",
+    "homepage": "https://isaacmenard.github.io/presskit/",
+    "publisher": "Isaac MENARD"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "2": {
+        "path": "sql-case-game",
+        "pattern": "sql_game_save_premium.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792644438,
-  "_history": [],
-  "_change_number": 40114273,
-  "_missing_token": true,
-  "_sha": "7c4be832666ba343f2911403d1e8db71d07f459e",
-  "_size": 3172,
+  "_lastChecked": 1793298801,
+  "_history": [
+    {
+      "buildId": "26017784",
+      "branch": "public",
+      "timeUpdated": 1792281116,
+      "firstSeen": 1793298801,
+      "manifests": {
+        "4918831": {
+          "gid": "8063441084120213164",
+          "size": 120102544,
+          "download": 42553904
+        }
+      }
+    }
+  ],
+  "_change_number": 40391736,
+  "_missing_token": false,
+  "_sha": "b8b7bf34477766eabcba798ae2fee610f4104dab",
+  "_size": 4952,
   "appid": "4918830",
   "common": {
     "associations": {
@@ -31,8 +45,8 @@
     "clienticns": "ead584d23133c702ee27970479738e39ca4edce8",
     "clienticon": "ead584d23133c702ee27970479738e39ca4edce8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4918830",
     "genres": {
       "0": "23",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "10edbb2bee5b08607f146bb4ce97091eca65b279/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793294579",
     "store_asset_mtime": "1792624440",
     "store_tags": {
       "0": "21725",
@@ -118,11 +133,11 @@
       "10": "6730",
       "11": "599",
       "12": "17305",
-      "13": "4736",
-      "14": "4231",
-      "15": "3871",
-      "16": "492",
-      "17": "493",
+      "13": "492",
+      "14": "493",
+      "15": "4736",
+      "16": "4231",
+      "17": "3871",
       "18": "4136",
       "19": "1667",
       "2": "1645",
@@ -142,5 +157,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Market at Moonfall",
+    "launch": {
+      "0": {
+        "executable": "MarketAtMoonfall.exe",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4918831": {
+      "manifests": {
+        "public": {
+          "download": "42553904",
+          "gid": "8063441084120213164",
+          "size": "120102544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26017784",
+        "timebuildupdated": "1792281029",
+        "timeupdated": "1792281116"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "RexLucifer",
+    "publisher": "RexLucifer"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "[Steam Install]\\SteamApps\\common\\[Game Folder]",
+        "pattern": "*",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "%USERPROFILE%\\My Documents\\",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinMyDocuments"
+      },
+      "3": {
+        "path": "%USERPROFILE%\\AppData\\Local\\",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "4": {
+        "path": "%USERPROFILE%\\AppData\\LocalLow\\",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "5": {
+        "path": "%USERPROFILE%\\AppData\\Roaming\\",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "%USERPROFILE%\\Saved Games\\",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinSavedGames"
+      },
+      "7": {
+        "path": "Godot/app_userdata/MarketAtMoonfall",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

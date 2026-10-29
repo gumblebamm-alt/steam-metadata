@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1790858212,
-  "_history": [],
-  "_change_number": 39370601,
-  "_missing_token": true,
-  "_sha": "0790b3e567a8ecdd10d0ca305374aa825c5a1e99",
-  "_size": 7913,
+  "_lastChecked": 1793298776,
+  "_history": [
+    {
+      "buildId": "25744985",
+      "branch": "public",
+      "timeUpdated": 1791266784,
+      "firstSeen": 1793298776,
+      "manifests": {
+        "3832381": {
+          "gid": "2129184015044688669",
+          "size": 616275252,
+          "download": 331782016
+        },
+        "3832382": {
+          "gid": "1209008093693524342",
+          "size": 619220163,
+          "download": 328147584
+        },
+        "3832383": {
+          "gid": "9040542651034774058",
+          "size": 621445388,
+          "download": 334202144
+        }
+      }
+    }
+  ],
+  "_change_number": 40370784,
+  "_missing_token": false,
+  "_sha": "458651fcac51cc69058203f372124707e65f9a2e",
+  "_size": 10564,
   "appid": "3832380",
   "common": {
     "associations": {
@@ -46,9 +70,9 @@
     "clienticon": "d540f82c5b4a8771187eab31340c2069e7bab2af",
     "clienttga": "dd8d33458e258b36bc583522ebbf4b081b755144",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3832380",
     "genres": {
       "0": "4",
@@ -176,7 +200,7 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d4f3396e6cbdc3e98fad7a4629831922e78cfb8f/capsule_231x87.jpg",
       "japanese": "6cec585921d3f972c36926a11e90b0452018ba3c/capsule_231x87_japanese.jpg",
@@ -184,6 +208,7 @@
       "schinese": "ea8c5a0ab442eb51ea186daf86d7c5c3212b9ccd/capsule_231x87_schinese.jpg",
       "tchinese": "0e6b281edee206d5c73cd3869d3c24efe8f5f9b1/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1793256814",
     "store_asset_mtime": "1789966421",
     "store_tags": {
       "0": "597",
@@ -280,5 +305,125 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bao Bao's Cozy Cleaning Services",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "BaoBao-Linux-Build\\BaoBao-Linux-Build.x86_64",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "BaoBao-Mac-Build.app\\Contents\\MacOS\\BaoBao's Cozy Cleaning Services",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BaoBao-Win-Build/BaoBao's Cozy Cleaning Services.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3832381": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "331782016",
+          "gid": "2129184015044688669",
+          "size": "616275252"
+        }
+      }
+    },
+    "3832382": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux",
+        "steamdeck": "1"
+      },
+      "manifests": {
+        "public": {
+          "download": "328147584",
+          "gid": "1209008093693524342",
+          "size": "619220163"
+        }
+      }
+    },
+    "3832383": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "334202144",
+          "gid": "9040542651034774058",
+          "size": "621445388"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25744985",
+        "timebuildupdated": "1791266784",
+        "timeupdated": "1791266784"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Destroyer Doggo",
+    "homepage": "https://prateekjadhwani.github.io/DestroyerDoggoPressKit/baobaopresskit/press-cleaning-services.html",
+    "publisher": "Destroyer Doggo"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "DestroyerDoggo/BaoBao's Cozy Cleaning Services/saves/",
+            "replace": "com.DestroyerDoggo.BaoBaosCozyCleaningService/saves/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Destroyer Doggo/BaoBao's Cozy Cleaning Services/saves/",
+            "replace": ".config/unity3d/Destroyer Doggo/BaoBao's Cozy Cleaning Services/saves/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Destroyer Doggo/BaoBao's Cozy Cleaning Services/saves/",
+        "pattern": "*.save",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

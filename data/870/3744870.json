@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792603008,
-  "_history": [],
-  "_change_number": 40088688,
-  "_missing_token": true,
-  "_sha": "e4b3fe96186b68bf89b2eaa3dcebc7460ca3787c",
-  "_size": 3204,
+  "_lastChecked": 1793298775,
+  "_history": [
+    {
+      "buildId": "26287644",
+      "branch": "public",
+      "timeUpdated": 1793243100,
+      "firstSeen": 1793298775,
+      "manifests": {
+        "3744871": {
+          "gid": "134912429991832823",
+          "size": 334589550,
+          "download": 156621952
+        },
+        "3744872": {
+          "gid": "1846044761001365240",
+          "size": 215938040,
+          "download": 135958016
+        }
+      }
+    }
+  ],
+  "_change_number": 40382457,
+  "_missing_token": false,
+  "_sha": "29094cb55f908788b7812dd0022ce326101d27d4",
+  "_size": 4677,
   "appid": "3744870",
   "common": {
     "associations": {
@@ -36,9 +55,9 @@
     "clienticon": "9c62d2e4c84571866d2761ecba5a640e0edeaf64",
     "clienttga": "24012f1664d47877a9076c425456c7244f2eeba2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3744870",
     "genres": {
       "0": "1",
@@ -110,10 +129,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ccdc68c7c1f0f6a941275b63e8a96f76ee6abb47/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793279944",
     "store_asset_mtime": "1792583742",
     "store_tags": {
       "0": "1628",
@@ -140,5 +160,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Croakspire",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "croakspire.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "croakspire.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "3744871": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "156621952",
+          "gid": "134912429991832823",
+          "size": "334589550"
+        }
+      }
+    },
+    "3744872": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "135958016",
+          "gid": "1846044761001365240",
+          "size": "215938040"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26287644",
+        "timebuildupdated": "1793242938",
+        "timeupdated": "1793243100"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Lotus Wave Arcade",
+    "publisher": "Lotus Wave Arcade"
+  },
+  "ufs": {
+    "maxnumfiles": "65",
+    "quota": "9144000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Croakspire/",
+            "replace": "godot/app_userdata/Croakspire/"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Croakspire/",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

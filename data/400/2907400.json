@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792112026,
-  "_history": [],
-  "_change_number": 39861026,
-  "_missing_token": true,
-  "_sha": "28567acbaab96219c6a850a7667e2ab63a8fb3d8",
-  "_size": 4595,
+  "_lastChecked": 1793298763,
+  "_history": [
+    {
+      "buildId": "25904589",
+      "branch": "public",
+      "timeUpdated": 1793098581,
+      "firstSeen": 1793298763,
+      "manifests": {
+        "2907401": {
+          "gid": "8072073927290873989",
+          "size": 1235071629,
+          "download": 285555904
+        }
+      }
+    }
+  ],
+  "_change_number": 40390890,
+  "_missing_token": false,
+  "_sha": "97c5cc9aef95525add18ed23e9000531c25eedd9",
+  "_size": 7586,
   "appid": "2907400",
   "common": {
     "associations": {
@@ -36,9 +50,9 @@
     },
     "clienticon": "8d295ab4f62586e7ad8f40b3e813269c6b8407f3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2907400",
     "genres": {
       "0": "4",
@@ -132,12 +146,74 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "299ca4203525d46b5c4dae720756df728560496f/capsule_231x87.jpg",
       "schinese": "f2cda56ad0b8a1f16432a1e4737009cbcd462247/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1792069218",
+    "steam_deck_compatibility": {
+      "category": "3",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1792431857",
+      "tested_build_id": "25904589",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1793293197",
+    "store_asset_mtime": "1793293163",
     "store_tags": {
       "0": "597",
       "1": "97376",
@@ -194,5 +270,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hokko Spaces",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "HokkoSpaces.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2907401": {
+      "manifests": {
+        "public": {
+          "download": "285555904",
+          "gid": "8072073927290873989",
+          "size": "1235071629"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25904589",
+        "timebuildupdated": "1791887053",
+        "timeupdated": "1793098581"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Wonderscope Games Ltd",
+    "dlcavailableonstore": "1",
+    "homepage": "https://hokko.games/hokko_spaces",
+    "listofdlc": "4940010",
+    "publisher": "Team17"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": "Wonderscope Games/Hokko Spaces/SaveData/{64BitSteamID}",
+        "pattern": "*.xml",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Wonderscope Games/Hokko Spaces/SaveData/{64BitSteamID}",
+        "pattern": "*.png",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

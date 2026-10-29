@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1792602999,
-  "_history": [],
-  "_change_number": 40072869,
-  "_missing_token": true,
-  "_sha": "a480e90cf7abc4c51823fde0318bd0dda992dee8",
-  "_size": 3770,
+  "_lastChecked": 1793298739,
+  "_history": [
+    {
+      "buildId": "26288120",
+      "branch": "public",
+      "timeUpdated": 1793245052,
+      "firstSeen": 1793298583,
+      "manifests": {
+        "3144011": {
+          "gid": "1239081884164505932",
+          "size": null,
+          "download": null
+        },
+        "3144012": {
+          "gid": "3814324979202070582",
+          "size": null,
+          "download": null
+        },
+        "3144013": {
+          "gid": "1664563086850950702",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40386609,
+  "_missing_token": false,
+  "_sha": "4072c926d4a278388a780434205218f29e16c738",
+  "_size": 6084,
   "appid": "3144010",
   "common": {
     "associations": {
@@ -31,8 +56,8 @@
     "clienticon": "39c97c2ad39c35a7a6422798c32df05dd235af2f",
     "clienttga": "82a5a90f18ae337bd5f9be3fad57638dc36326ef",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3144010",
     "genres": {
       "0": "4",
@@ -117,10 +142,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
     },
+    "steam_release_date": "1793278329",
     "store_asset_mtime": "1792561874",
     "store_tags": {
       "0": "4726",
@@ -196,5 +224,122 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Usagi Shima Bunny Island",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Usagi Shima.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Usagi Shima.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Usagi Shima.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "3144011": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "565704464",
+          "gid": "1239081884164505932",
+          "size": "731551956"
+        }
+      }
+    },
+    "3144012": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "574417856",
+          "gid": "3814324979202070582",
+          "size": "755054923"
+        }
+      }
+    },
+    "3144013": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "563989808",
+          "gid": "1664563086850950702",
+          "size": "729529957"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26288120",
+        "timebuildupdated": "1793245024",
+        "timeupdated": "1793245052"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "studio rabbiko",
+    "homepage": "https://usagishima.net/",
+    "publisher": "studio rabbiko"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "studio rabbiko/Usagi Shima",
+            "replace": "studio rabbiko/Usagi Shima"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "studio rabbiko/Usagi Shima",
+            "replace": ".config/unity3d/studio rabbiko/Usagi Shima"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "studio rabbiko/Usagi Shima",
+        "pattern": "usagi.shima",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "studio rabbiko/Usagi Shima",
+        "pattern": "*.jpg",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

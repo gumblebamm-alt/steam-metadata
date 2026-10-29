@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1791333758,
-  "_history": [],
-  "_change_number": 39539660,
-  "_missing_token": true,
-  "_sha": "a4087f707c8150243e2a3e10b606e798ef1f951f",
-  "_size": 3472,
+  "_lastChecked": 1793298786,
+  "_history": [
+    {
+      "buildId": "26279694",
+      "branch": "public",
+      "timeUpdated": 1793215154,
+      "firstSeen": 1793298786,
+      "manifests": {
+        "4367661": {
+          "gid": "2712074026624182935",
+          "size": 296132914,
+          "download": 161758688
+        },
+        "4367662": {
+          "gid": "3779545956148149907",
+          "size": 214070028,
+          "download": 140449808
+        },
+        "4367663": {
+          "gid": "3867812259150839574",
+          "size": 186937428,
+          "download": 133848368
+        }
+      }
+    }
+  ],
+  "_change_number": 40382495,
+  "_missing_token": false,
+  "_sha": "9d9b26cbdb17d41e9bb52c85fa98006e36ad49a7",
+  "_size": 5659,
   "appid": "4367660",
   "common": {
     "associations": {
@@ -33,9 +57,9 @@
     "clienticns": "abeba8235b07cc9b21c73b69cb1b622b346fb9d4",
     "clienticon": "11887d91193e0c69a7edb1547a43197203381b66",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4367660",
     "genres": {
       "0": "1"
@@ -107,10 +131,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fca101a85df2ff88b0bac74cfc70c432bf69bc17/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793280032",
     "store_asset_mtime": "1785528541",
     "store_tags": {
       "0": "30358",
@@ -153,5 +178,125 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sacred Land",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Sacred Land.app"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "sacredland.exe"
+      }
+    }
+  },
+  "depots": {
+    "4367661": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "161758688",
+          "gid": "2712074026624182935",
+          "size": "296132914"
+        }
+      }
+    },
+    "4367662": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "140449808",
+          "gid": "3779545956148149907",
+          "size": "214070028"
+        }
+      }
+    },
+    "4367663": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "133848368",
+          "gid": "3867812259150839574",
+          "size": "186937428"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26279694",
+        "timebuildupdated": "1793214984",
+        "timeupdated": "1793215154"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Why Not Interactive",
+    "publisher": "Why Not Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "saves",
+            "replace": "Sacred Land/saves"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "saves",
+            "replace": "Sacred Land/saves"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "2": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "saves",
+            "replace": ".local/share/Sacred Land/saves"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "saves",
+        "pattern": "meta_progression.json",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "saves",
+        "pattern": "run_info.json",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

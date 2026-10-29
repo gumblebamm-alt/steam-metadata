@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792414533,
-  "_history": [],
-  "_change_number": 39541570,
-  "_missing_token": true,
-  "_sha": "ad116cb5676d481e0fb7c9ef022de367347614c9",
-  "_size": 6001,
+  "_lastChecked": 1793298760,
+  "_history": [
+    {
+      "buildId": "25755413",
+      "branch": "public",
+      "timeUpdated": 1791299948,
+      "firstSeen": 1793298760,
+      "manifests": {
+        "2645201": {
+          "gid": "7450534492934282339",
+          "size": 3108627854,
+          "download": 2620280656
+        }
+      }
+    }
+  ],
+  "_change_number": 40388246,
+  "_missing_token": false,
+  "_sha": "f6d9385893fc2451390b48430b26c36fba16b399",
+  "_size": 7384,
   "appid": "2645200",
   "common": {
     "associations": {
@@ -40,6 +54,7 @@
     "clienticon": "56b0732970cf0b60ed3cbaa6293597ac17e78228",
     "clienttga": "1a0d069ecee614bcfa578d9427c509e3b50fcc6a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -50,7 +65,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2645200",
     "genres": {
       "0": "1",
@@ -126,7 +140,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4275d6c08f34efe121d9c28c557598d71012d227/capsule_231x87.jpg"
     },
@@ -200,6 +214,7 @@
         }
       }
     },
+    "steam_release_date": "1793289467",
     "store_asset_mtime": "1790830623",
     "store_tags": {
       "0": "769306",
@@ -253,5 +268,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Transference",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TheTransference.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2645201": {
+      "manifests": {
+        "public": {
+          "download": "2620280656",
+          "gid": "7450534492934282339",
+          "size": "3108627854"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25755413",
+        "timebuildupdated": "1791299830",
+        "timeupdated": "1791299948"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Kuraishisama",
+    "homepage": "https://www.kuraishisama.com/the-transference/",
+    "publisher": "JanduSoft"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "TheTransference/Saved/SaveGames",
+        "pattern": "GAMEDATASAVED.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "TheTransference/Saved/SaveGames",
+        "pattern": "CONFIGDATASAVED.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

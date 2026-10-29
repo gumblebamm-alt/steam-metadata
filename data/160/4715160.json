@@ -1,10 +1,40 @@
 {
-  "_lastChecked": 1793252968,
-  "_history": [],
-  "_change_number": 40358549,
-  "_missing_token": true,
-  "_sha": "b7315a680cc0848c15bbde621476babd5f42dbbc",
-  "_size": 4691,
+  "_lastChecked": 1793298739,
+  "_history": [
+    {
+      "buildId": "26298162",
+      "branch": "public",
+      "timeUpdated": 1793280404,
+      "firstSeen": 1793298584,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "4715161": {
+          "gid": "8352451479461856590",
+          "size": null,
+          "download": null
+        },
+        "4715162": {
+          "gid": "3371380245987660399",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40393432,
+  "_missing_token": false,
+  "_sha": "cd447bd726925b8a05126e28f7ef55d2be88bfc4",
+  "_size": 6050,
   "appid": "4715160",
   "common": {
     "associations": {
@@ -37,8 +67,8 @@
     },
     "clienticon": "86605667456ef48c02857c55320f7d142c2b38ac",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4715160",
     "genres": {
       "0": "1",
@@ -135,11 +165,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "92",
+    "review_score": "7",
     "small_capsule": {
       "english": "a358dec96fe91e2f79089db31cd2b8278d95cbc9/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793018466",
+    "steam_release_date": "1793289619",
+    "store_asset_mtime": "1793289959",
     "store_tags": {
       "0": "3859",
       "1": "5711",
@@ -172,9 +205,11 @@
         "supported": "true"
       },
       "french": {
+        "subtitles": "true",
         "supported": "true"
       },
       "german": {
+        "subtitles": "true",
         "supported": "true"
       },
       "italian": {
@@ -224,5 +259,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "FinalsWeek",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "CopyGirls.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4715161": {
+      "manifests": {
+        "public": {
+          "download": "1301529024",
+          "gid": "8352451479461856590",
+          "size": "1549668445"
+        }
+      }
+    },
+    "4715162": {
+      "manifests": {
+        "public": {
+          "download": "1291842560",
+          "gid": "3371380245987660399",
+          "size": "1542760765"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26298162",
+        "timebuildupdated": "1793280404",
+        "timeupdated": "1793280404"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "DESTINYbit",
+    "publisher": "Pretty Soon"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "CopyGirls\\Saved\\SaveGames\\",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

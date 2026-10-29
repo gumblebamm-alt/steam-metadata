@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793211918,
-  "_history": [],
-  "_change_number": 40345567,
-  "_missing_token": true,
-  "_sha": "6a05f8bd82bc831360b7fa2ca5b7bf94d94a04d8",
-  "_size": 3237,
+  "_lastChecked": 1793298772,
+  "_history": [
+    {
+      "buildId": "26254944",
+      "branch": "dlc_test",
+      "timeUpdated": 1793137027,
+      "firstSeen": 1793298772,
+      "manifests": {
+        "3549391": {
+          "gid": "7297235881590242769",
+          "size": 3891853549,
+          "download": 3412376640
+        }
+      }
+    },
+    {
+      "buildId": "26256051",
+      "branch": "public",
+      "timeUpdated": 1793204005,
+      "firstSeen": 1793298772,
+      "manifests": {
+        "3549391": {
+          "gid": "2661593606314688952",
+          "size": 3625986741,
+          "download": 3269829632
+        }
+      }
+    }
+  ],
+  "_change_number": 40391189,
+  "_missing_token": false,
+  "_sha": "02ae5294f318b9e953d383f2f4fa55b7bb8af35f",
+  "_size": 4734,
   "appid": "3549390",
   "common": {
     "associations": {
@@ -38,7 +65,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3549390",
     "genres": {
       "0": "1",
@@ -111,11 +137,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3dbcd968dd47e6d9422bd0e43d9c02fd5414dfee/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792545807",
+    "steam_release_date": "1793293077",
+    "store_asset_mtime": "1793293627",
     "store_tags": {
       "0": "1663",
       "1": "1774",
@@ -146,5 +173,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "EXOSHOCK",
+    "launch": {
+      "0": {
+        "description": "VR Only",
+        "description_loc": {
+          "english": "VR Only"
+        },
+        "executable": "VRExpPluginExample.exe",
+        "type": "vr"
+      },
+      "1": {
+        "arguments": "-nonvr",
+        "description": "Flat-Screen (IN-DEVELOPMENT)",
+        "description_loc": {
+          "english": "Flat-Screen (IN-DEVELOPMENT)"
+        },
+        "executable": "VRExpPluginExample.exe",
+        "type": "option1"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3549391": {
+      "manifests": {
+        "dlc_test": {
+          "download": "3412376640",
+          "gid": "7297235881590242769",
+          "size": "3891853549"
+        },
+        "public": {
+          "download": "3269829632",
+          "gid": "2661593606314688952",
+          "size": "3625986741"
+        }
+      }
+    },
+    "branches": {
+      "dlc_test": {
+        "buildid": "26254944",
+        "description": "dlc_test",
+        "timebuildupdated": "1793137011",
+        "timeupdated": "1793137027"
+      },
+      "public": {
+        "buildid": "26256051",
+        "timebuildupdated": "1793140528",
+        "timeupdated": "1793204005"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "POLARITYONE",
+    "homepage": "https://exoshockgame.com/founders-edition/",
+    "publisher": "VRAL Games",
+    "vrheadsetstreaming": "1"
+  }
 }

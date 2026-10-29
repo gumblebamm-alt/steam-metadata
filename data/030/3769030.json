@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791138134,
-  "_history": [],
-  "_change_number": 38934894,
-  "_missing_token": true,
-  "_sha": "60a28d523b6f163ce98d230c429a406ad284e762",
-  "_size": 8087,
+  "_lastChecked": 1793298775,
+  "_history": [
+    {
+      "buildId": "26300706",
+      "branch": "public",
+      "timeUpdated": 1793287406,
+      "firstSeen": 1793298775,
+      "manifests": {
+        "3769031": {
+          "gid": "3191207619723015063",
+          "size": 328808952,
+          "download": 71452000
+        },
+        "3769032": {
+          "gid": "4350804756586171181",
+          "size": 347069299,
+          "download": 79306784
+        }
+      }
+    }
+  ],
+  "_change_number": 40386934,
+  "_missing_token": false,
+  "_sha": "a255af10ced68977054ab0ebf0a2b2e1f3751e6e",
+  "_size": 9617,
   "appid": "3769030",
   "common": {
     "aicontenttype": "1",
@@ -35,9 +54,9 @@
     "clienticon": "01650f77ea24322bdf6481f31c7e63484bf6986c",
     "clienttga": "30ef49302a1791fd5c6184a1952d37005c969cd7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3769030",
     "genres": {
       "0": "1"
@@ -111,10 +130,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d9e13b9f2e1484ba5bd9e0dffec86aa82b526ea1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793257275",
     "store_asset_mtime": "1786359164",
     "store_tags": {
       "0": "5537",
@@ -451,5 +471,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tama In-Between",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Tama In-Between.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Tama In-Between.app"
+      }
+    }
+  },
+  "depots": {
+    "3769031": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "71452000",
+          "gid": "3191207619723015063",
+          "size": "328808952"
+        }
+      }
+    },
+    "3769032": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "79306784",
+          "gid": "4350804756586171181",
+          "size": "347069299"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26300706",
+        "timebuildupdated": "1793287223",
+        "timeupdated": "1793287406"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Masagomi Studio",
+    "homepage": "https://masagomi-studio.com/",
+    "publisher": "Fruitbat Factory"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "MasagomiStudio/Tama In-Between",
+            "replace": "com.MasagomiStudio.TamaInBetween"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "MasagomiStudio/Tama In-Between",
+        "pattern": "tama.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

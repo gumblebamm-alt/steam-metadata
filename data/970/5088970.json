@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1790815133,
-  "_history": [],
-  "_change_number": 39362550,
-  "_missing_token": true,
-  "_sha": "258a5da94b1d154f7f36e3b1c31e10c85953ab7f",
-  "_size": 3053,
+  "_lastChecked": 1793298809,
+  "_history": [
+    {
+      "buildId": "26200459",
+      "branch": "public",
+      "timeUpdated": 1792949510,
+      "firstSeen": 1793298809,
+      "manifests": {
+        "5088971": {
+          "gid": "3380063737349018168",
+          "size": 4102993949,
+          "download": 3910764032
+        }
+      }
+    }
+  ],
+  "_change_number": 40390850,
+  "_missing_token": false,
+  "_sha": "57e87f74a01e54c9ffe4d5acb077b0d1c1eaea2b",
+  "_size": 4201,
   "appid": "5088970",
   "common": {
     "associations": {
@@ -32,7 +46,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5088970",
     "genres": {
       "0": "1",
@@ -103,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b34c9a47f452d6511c582d2ce12e5c0a636ae6a7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793293255",
     "store_asset_mtime": "1790803350",
     "store_tags": {
       "0": "19",
@@ -137,5 +151,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Soul Finders",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "SoulFinder.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5088971": {
+      "manifests": {
+        "public": {
+          "download": "3910764032",
+          "gid": "3380063737349018168",
+          "size": "4102993949"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26200459",
+        "timebuildupdated": "1792949463",
+        "timeupdated": "1792949510"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "October &amp; Bowie Games LLC",
+    "publisher": "October &amp; Bowie Games LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "SoulFinder/Saved/SaveGames",
+        "pattern": "SoulFinder_Save*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

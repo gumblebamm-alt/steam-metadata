@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793166296,
-  "_history": [],
-  "_change_number": 40310318,
-  "_missing_token": true,
-  "_sha": "cd9f8c2423416ad787a4884cfab1e928f0b22c83",
-  "_size": 2921,
+  "_lastChecked": 1793298807,
+  "_history": [
+    {
+      "buildId": "25994548",
+      "branch": "public",
+      "timeUpdated": 1792174486,
+      "firstSeen": 1793298807,
+      "manifests": {
+        "5038622": {
+          "gid": "4873691953862859800",
+          "size": 1093477862,
+          "download": 740311248
+        },
+        "5038623": {
+          "gid": "8834355516885878113",
+          "size": 1258656978,
+          "download": 804650144
+        },
+        "5038624": {
+          "gid": "3805120152711824907",
+          "size": 1056951008,
+          "download": 720412448
+        }
+      }
+    }
+  ],
+  "_change_number": 40393372,
+  "_missing_token": false,
+  "_sha": "f5c40cc309c416e4fb507522ea9a7320d8aad0b4",
+  "_size": 4890,
   "appid": "5038620",
   "common": {
     "associations": {
@@ -27,7 +51,6 @@
     "clienticon": "1ea8452437916a79a26dacace58c1c706467fa42",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5038620",
     "genres": {
       "0": "2",
@@ -99,7 +122,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9bd7562accdd4fdbc93d4239b32f5220bb1f7870/capsule_231x87.jpg"
     },
@@ -129,5 +152,117 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "default",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "Duelyst Legends",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Duelyst-Legends.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Duelyst-Legends.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Duelyst-Legends"
+      }
+    }
+  },
+  "depots": {
+    "5038622": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "740311248",
+          "gid": "4873691953862859800",
+          "size": "1093477862"
+        }
+      }
+    },
+    "5038623": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "804650144",
+          "gid": "8834355516885878113",
+          "size": "1258656978"
+        }
+      }
+    },
+    "5038624": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "720412448",
+          "gid": "3805120152711824907",
+          "size": "1056951008"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25994548",
+        "timebuildupdated": "1792174378",
+        "timeupdated": "1792174486"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Void Rat Games",
+    "isfreeapp": "1",
+    "publisher": "Void Rat Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "DuelystLegends",
+            "replace": ".local/share/DuelystLegends"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "DuelystLegends",
+        "pattern": "duelyst.sqlite",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

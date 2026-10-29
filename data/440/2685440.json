@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793252948,
-  "_history": [],
-  "_change_number": 40339835,
-  "_missing_token": true,
-  "_sha": "572d3f0c01531740487d586a67391e30c690461a",
-  "_size": 6343,
+  "_lastChecked": 1793298761,
+  "_history": [
+    {
+      "buildId": "26261562",
+      "branch": "public",
+      "timeUpdated": 1793194989,
+      "firstSeen": 1793298761,
+      "manifests": {
+        "2685441": {
+          "gid": "5158634998161332639",
+          "size": 347596313,
+          "download": 296663472
+        }
+      }
+    }
+  ],
+  "_change_number": 40383055,
+  "_missing_token": false,
+  "_sha": "107830721672d86bb46bb4e5722b4cc98ce0f097",
+  "_size": 9306,
   "appid": "2685440",
   "common": {
     "associations": {
@@ -38,7 +52,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2685440",
     "genres": {
       "0": "4"
@@ -144,7 +157,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "1a8e4a1c19999424da917a50bc4e8f302451c428/capsule_231x87.jpg",
@@ -152,6 +165,80 @@
       "schinese": "c21c6c2470ee00231a31e560d4baf5ef5d0f4d4b/capsule_231x87_schinese.jpg",
       "tchinese": "a63a633198428c953d03ef9bdc2ef5eb1c2919a5/capsule_231x87_tchinese.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        }
+      },
+      "test_timestamp": "1792672822",
+      "tested_build_id": "26044222",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1793268002",
     "store_asset_mtime": "1793090231",
     "store_tags": {
       "0": "597",
@@ -187,5 +274,50 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "LaurasSecretDiary",
+    "launch": {
+      "0": {
+        "executable": "LaurasSecretDiary.exe"
+      }
+    }
+  },
+  "depots": {
+    "2685441": {
+      "manifests": {
+        "public": {
+          "download": "296663472",
+          "gid": "5158634998161332639",
+          "size": "347596313"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26261562",
+        "timebuildupdated": "1793159821",
+        "timeupdated": "1793194989"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Alopex-Mania",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5317630",
+    "publisher": "Mango Party"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "AlopexMania\\LaurasSecretDiary",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

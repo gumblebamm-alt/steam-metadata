@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792775319,
-  "_history": [],
-  "_change_number": 40165685,
-  "_missing_token": true,
-  "_sha": "6fb4b4f4dadc0335f0ffa6e44aef38a5bab4f36a",
-  "_size": 6027,
+  "_lastChecked": 1793298756,
+  "_history": [
+    {
+      "buildId": "26213941",
+      "branch": "public",
+      "timeUpdated": 1793053278,
+      "firstSeen": 1793298756,
+      "manifests": {
+        "2257441": {
+          "gid": "7657179647508394665",
+          "size": 1754430830,
+          "download": 1366195840
+        },
+        "2257442": {
+          "gid": "5090121396419344609",
+          "size": 1767284187,
+          "download": 1372030624
+        }
+      }
+    }
+  ],
+  "_change_number": 40393406,
+  "_missing_token": false,
+  "_sha": "204186d861c2ef5c4de9e30f63cefec5d9932dc9",
+  "_size": 8046,
   "appid": "2257440",
   "common": {
     "associations": {
@@ -46,6 +65,7 @@
     "clienticon": "696afcf8cfb1581cfd7c030d54229388771f69ca",
     "clienttga": "c3bc205370b124e201b894da3eac1e81aaa21622",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -56,7 +76,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2257440",
     "genres": {
       "0": "25",
@@ -152,18 +171,22 @@
     "name_localized": {
       "schinese": "快递员汤姆"
     },
-    "osarch": "64",
+    "osarch": "",
+    "oscpu": "",
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "2ad25380851446787a1b861845af3962dabda7ff/capsule_231x87.jpg",
       "japanese": "4f7f86fbd95eb494832301f289eab55baa4510b0/capsule_231x87_japanese.jpg",
       "koreana": "a93e20c9cc081248172fe6511c1bb76cb410c069/capsule_231x87_koreana.jpg",
       "schinese": "b5f4a36230499072554bd842ca6c07714d625e61/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1792752626",
+    "steam_release_date": "1793289245",
+    "store_asset_mtime": "1793289206",
     "store_tags": {
       "0": "1742",
       "1": "5923",
@@ -234,5 +257,96 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tom the postgirl",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TomThePostgirl.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "TomThePostgirl.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2257441": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1366195840",
+          "gid": "7657179647508394665",
+          "size": "1754430830"
+        }
+      }
+    },
+    "2257442": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1372030624",
+          "gid": "5090121396419344609",
+          "size": "1767284187"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,polish,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26213941",
+        "timebuildupdated": "1793008890",
+        "timeupdated": "1793053278"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Oopsie Daisies",
+    "dlcavailableonstore": "1",
+    "homepage": "https://oopsiedaisiesstudio.com",
+    "listofdlc": "5445770",
+    "publisher": "ARTE France"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "50000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "OopsieDaisies\\TomThePostgirl\\Saves\\{64BitSteamID}",
+            "replace": "com.OopsieDaisies.TomThePostgirl/Saves/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "OopsieDaisies\\TomThePostgirl\\Saves\\{64BitSteamID}",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

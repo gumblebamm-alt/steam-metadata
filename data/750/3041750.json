@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792284933,
-  "_history": [],
-  "_change_number": 39940277,
-  "_missing_token": true,
-  "_sha": "bd92947295f2059cd6d2404a958d3ff30cec8eaa",
-  "_size": 2951,
+  "_lastChecked": 1793298765,
+  "_history": [
+    {
+      "buildId": "26304596",
+      "branch": "public",
+      "timeUpdated": 1793297542,
+      "firstSeen": 1793298765,
+      "manifests": {
+        "3041751": {
+          "gid": "8902318512707805524",
+          "size": 71412505,
+          "download": 61455584
+        },
+        "3041752": {
+          "gid": "6408132478458856334",
+          "size": 69958010,
+          "download": 60639024
+        },
+        "3041753": {
+          "gid": "3897078400462173368",
+          "size": 80882325,
+          "download": 63290288
+        }
+      }
+    }
+  ],
+  "_change_number": 40393408,
+  "_missing_token": false,
+  "_sha": "776451efaa6f62574a41d3790a20d44760cca395",
+  "_size": 6984,
   "appid": "3041750",
   "common": {
     "associations": {
@@ -34,9 +58,9 @@
     "clienticon": "3402746a1072998294bf33b8deeae1e3043ef881",
     "clienttga": "e053b5bdc6415315fec86d2dd7764441e69184c0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3041750",
     "genres": {
       "0": "23"
@@ -106,10 +130,80 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1dbf745aebdb23593c4e404ec29880e559209902/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "3",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "native",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1792067043",
+      "tested_build_id": "25911023",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      }
+    },
+    "steam_release_date": "1793282476",
     "store_asset_mtime": "1792179544",
     "store_tags": {
       "0": "597",
@@ -133,5 +227,115 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Hot Wax",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "hotwax.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "hotwax.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "hotwax",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3041751": {
+      "manifests": {
+        "public": {
+          "download": "61455584",
+          "gid": "8902318512707805524",
+          "size": "71412505"
+        }
+      }
+    },
+    "3041752": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "60639024",
+          "gid": "6408132478458856334",
+          "size": "69958010"
+        }
+      }
+    },
+    "3041753": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "63290288",
+          "gid": "3897078400462173368",
+          "size": "80882325"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26304596",
+        "timebuildupdated": "1793297508",
+        "timeupdated": "1793297542"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "PUNKCAKE Delicieux",
+    "publisher": "PUNKCAKE Delicieux"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "PUNKCAKE Delicieux/Hot Wax/",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": ".local/share/PUNKCAKE Delicieux/Hot Wax/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "save",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

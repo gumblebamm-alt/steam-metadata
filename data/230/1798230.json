@@ -1,10 +1,48 @@
 {
-  "_lastChecked": 1793166271,
-  "_history": [],
-  "_change_number": 40326266,
-  "_missing_token": true,
-  "_sha": "6af70e2ed54852af7ed8e4827dfb46ce6a3cd501",
-  "_size": 3831,
+  "_lastChecked": 1793298739,
+  "_history": [
+    {
+      "buildId": "26298396",
+      "branch": "public",
+      "timeUpdated": 1793286327,
+      "firstSeen": 1793298593,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "1798231": {
+          "gid": "4307225285385986647",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    },
+    {
+      "buildId": "26286741",
+      "branch": "experimental",
+      "timeUpdated": 1793239422,
+      "firstSeen": 1793298739,
+      "manifests": {
+        "1798231": {
+          "gid": "2766676729420967387",
+          "size": 13002472192,
+          "download": 12621810640
+        }
+      }
+    }
+  ],
+  "_change_number": 40393401,
+  "_missing_token": false,
+  "_sha": "c9a5045e6a319cfd348f30eeac180a57bb33ac9f",
+  "_size": 7847,
   "appid": "1798230",
   "common": {
     "associations": {
@@ -37,7 +75,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1798230",
     "genres": {
       "0": "1",
@@ -115,10 +152,94 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "52",
+    "review_score": "5",
     "small_capsule": {
       "english": "82597517be4e2548281437ff740983653f7a4d16/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-11.0-beta",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "gamepad"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1778544000",
+      "tested_build_id": "23070588",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "5": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      }
+    },
+    "steam_release_date": "1793289164",
     "store_asset_mtime": "1793125262",
     "store_tags": {
       "0": "493",
@@ -179,5 +300,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ATMOSFAR",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ProjectVenus.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1798231": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "experimental": {
+          "download": "12621810640",
+          "gid": "2766676729420967387",
+          "size": "13002472192"
+        },
+        "public": {
+          "download": "12666764304",
+          "gid": "4307225285385986647",
+          "size": "13044739711"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "baselanguages": "english,german,french,spanish,schinese,tchinese,japanese,brazilian",
+    "branches": {
+      "experimental": {
+        "buildid": "26286741",
+        "description": "Public unstable branch",
+        "timebuildupdated": "1793239422",
+        "timeupdated": "1793239422"
+      },
+      "public": {
+        "buildid": "26298396",
+        "timebuildupdated": "1793281093",
+        "timeupdated": "1793286327"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Apog Labs",
+    "homepage": "https://www.atmosfar.game/",
+    "publisher": "SHUEISHA GAMES"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "ProjectVenus/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

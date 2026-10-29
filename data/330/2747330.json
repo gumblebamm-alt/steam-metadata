@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1792689371,
+  "_lastChecked": 1793298761,
   "_history": [
+    {
+      "buildId": "26293638",
+      "branch": "previous-version",
+      "timeUpdated": 1793278916,
+      "firstSeen": 1793298761,
+      "manifests": {
+        "2747331": {
+          "gid": "1618511385517508498",
+          "size": 7078381547,
+          "download": 6848662160
+        },
+        "4030871": {
+          "gid": "4540881685802346080",
+          "size": 119570096,
+          "download": 119576112
+        }
+      }
+    },
     {
       "buildId": "25365262",
       "branch": "previous-version",
@@ -47,6 +65,24 @@
           "gid": "8573433730169420988",
           "size": 5032012838,
           "download": 4826516288
+        },
+        "4030871": {
+          "gid": "4540881685802346080",
+          "size": 119570096,
+          "download": 119576112
+        }
+      }
+    },
+    {
+      "buildId": "26293638",
+      "branch": "public",
+      "timeUpdated": 1793279437,
+      "firstSeen": 1793298761,
+      "manifests": {
+        "2747331": {
+          "gid": "1618511385517508498",
+          "size": 7078381547,
+          "download": 6848662160
         },
         "4030871": {
           "gid": "4540881685802346080",
@@ -110,10 +146,10 @@
       }
     }
   ],
-  "_change_number": 40129979,
+  "_change_number": 40383843,
   "_missing_token": false,
-  "_sha": "c9b1d6cb930e77e3a2065bf010b048031fd56c7d",
-  "_size": 7669,
+  "_sha": "96fb4ab47cf0d258e8b820eb308325855e43a634",
+  "_size": 7999,
   "appid": "2747330",
   "common": {
     "associations": {
@@ -138,6 +174,7 @@
     "clienticon": "a92c14dbaaec12fd2ef5086e0375913c6ee2fdbc",
     "clienttga": "4c2d10bc2c626dcdacbbf86959e59ada1536b1ab",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -166,6 +203,19 @@
       "english": "7ace5e7b6e062e635c577464f25d847467f0c6c3/header.jpg"
     },
     "icon": "42a2d5aa6bfe0170123a18653ddd2de359960765",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "polish": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -189,10 +239,10 @@
       },
       "library_header": {
         "image": {
-          "english": "73ee81a923681524a9228b2698636e6118dc31c7/library_header.jpg"
+          "english": "1b061b1199a44c7197e4943973f1ce592053cf3a/library_header.jpg"
         },
         "image2x": {
-          "english": "73ee81a923681524a9228b2698636e6118dc31c7/library_header_2x.jpg"
+          "english": "1b061b1199a44c7197e4943973f1ce592053cf3a/library_header_2x.jpg"
         }
       },
       "library_hero": {
@@ -284,7 +334,7 @@
       }
     },
     "steam_release_date": "1761220818",
-    "store_asset_mtime": "1790004670",
+    "store_asset_mtime": "1793282283",
     "store_tags": {
       "0": "1667",
       "1": "3843",
@@ -384,14 +434,14 @@
     "2747331": {
       "manifests": {
         "previous-version": {
-          "download": "4823748128",
-          "gid": "2200019218177479806",
-          "size": "5031466984"
+          "download": "6848662160",
+          "gid": "1618511385517508498",
+          "size": "7078381547"
         },
         "public": {
-          "download": "4823727856",
-          "gid": "1667136542347291170",
-          "size": "5031471080"
+          "download": "6848662160",
+          "gid": "1618511385517508498",
+          "size": "7078381547"
         }
       }
     },
@@ -412,15 +462,15 @@
     },
     "branches": {
       "previous-version": {
-        "buildid": "25365262",
+        "buildid": "26293638",
         "description": "This branch points to the previously shipped version",
-        "timebuildupdated": "1789637338",
-        "timeupdated": "1789655028"
+        "timebuildupdated": "1793267066",
+        "timeupdated": "1793278916"
       },
       "public": {
-        "buildid": "25827374",
-        "timebuildupdated": "1791544742",
-        "timeupdated": "1791549816"
+        "buildid": "26293638",
+        "timebuildupdated": "1793267066",
+        "timeupdated": "1793279437"
       }
     },
     "privatebranches": "1"
@@ -440,9 +490,11 @@
       "0": {
         "path": "SpeciesUnknown/Saved/SaveGames",
         "pattern": "SaveGame_Progress.sav",
-        "platforms": {
-          "1": "Windows"
-        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "SpeciesUnknown/Saved/SaveGames",
+        "pattern": "SideQuests.sav",
         "root": "WinAppDataLocal"
       }
     }

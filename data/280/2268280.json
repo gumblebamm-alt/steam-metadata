@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791040068,
+  "_lastChecked": 1793298756,
   "_history": [
     {
       "buildId": "18957911",
@@ -46,12 +46,35 @@
           "download": 29428016
         }
       }
+    },
+    {
+      "buildId": "26298953",
+      "branch": "public",
+      "timeUpdated": 1793295234,
+      "firstSeen": 1793298756,
+      "manifests": {
+        "2268281": {
+          "gid": "9166276676925401795",
+          "size": 77519667,
+          "download": 41116736
+        },
+        "2268282": {
+          "gid": "5766544271393404239",
+          "size": 105248852,
+          "download": 50744720
+        },
+        "2268284": {
+          "gid": "3233707901987256025",
+          "size": 58891379,
+          "download": 32164816
+        }
+      }
     }
   ],
-  "_change_number": 39444229,
+  "_change_number": 40392210,
   "_missing_token": false,
-  "_sha": "fbc25a3d9bbfc8ef6a008d61bc1afaee0b91b989",
-  "_size": 6277,
+  "_sha": "0d00f007ab26a78a6517eba9d359c5d7a97eff6f",
+  "_size": 7103,
   "appid": "2268280",
   "common": {
     "associations": {
@@ -68,8 +91,12 @@
       "category_1": "1",
       "category_17": "1",
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
       "category_24": "1",
       "category_28": "1",
+      "category_30": "1",
+      "category_36": "1",
       "category_37": "1",
       "category_44": "1",
       "category_49": "1",
@@ -261,7 +288,8 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
   "config": {
     "installdir": "Full Court Heroes",
@@ -293,9 +321,9 @@
       },
       "manifests": {
         "public": {
-          "download": "36017440",
-          "gid": "7245846308689365031",
-          "size": "66716891"
+          "download": "41116736",
+          "gid": "9166276676925401795",
+          "size": "77519667"
         }
       }
     },
@@ -305,9 +333,9 @@
       },
       "manifests": {
         "public": {
-          "download": "43340224",
-          "gid": "4499747392774629743",
-          "size": "88269190"
+          "download": "50744720",
+          "gid": "5766544271393404239",
+          "size": "105248852"
         }
       }
     },
@@ -317,17 +345,17 @@
       },
       "manifests": {
         "public": {
-          "download": "29428016",
-          "gid": "3458217579437677223",
-          "size": "53037436"
+          "download": "32164816",
+          "gid": "3233707901987256025",
+          "size": "58891379"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25690339",
-        "timebuildupdated": "1790993179",
-        "timeupdated": "1791000537"
+        "buildid": "26298953",
+        "timebuildupdated": "1793282675",
+        "timeupdated": "1793295234"
       }
     },
     "privatebranches": "1",
@@ -339,6 +367,39 @@
   },
   "ufs": {
     "maxnumfiles": "100",
-    "quota": "50000000"
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Full Court Heroes/franchises",
+            "replace": "Full Court Heroes/franchises"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Full Court Heroes/franchises",
+            "replace": "full-court-heroes/franchises"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Full Court Heroes/franchises",
+        "pattern": "*.fchfranchise",
+        "root": "WinAppDataLocal"
+      }
+    }
   }
 }

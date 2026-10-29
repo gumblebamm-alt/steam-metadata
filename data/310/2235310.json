@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793211908,
-  "_history": [],
-  "_change_number": 40350125,
-  "_missing_token": true,
-  "_sha": "a8c227fa604dda7c565b096aa510f4273d37391c",
-  "_size": 4039,
+  "_lastChecked": 1793298756,
+  "_history": [
+    {
+      "buildId": "26300860",
+      "branch": "public",
+      "timeUpdated": 1793287633,
+      "firstSeen": 1793298756,
+      "manifests": {
+        "2235311": {
+          "gid": "8357190499185051356",
+          "size": 1736297634,
+          "download": 879294224
+        },
+        "2235312": {
+          "gid": "5419774071298415553",
+          "size": 1798400366,
+          "download": 658919952
+        },
+        "2235313": {
+          "gid": "8200475253982369812",
+          "size": 605288634,
+          "download": 525805008
+        }
+      }
+    }
+  ],
+  "_change_number": 40392888,
+  "_missing_token": false,
+  "_sha": "9559b21b784800a9d4754a20961921fc1378d3c5",
+  "_size": 5773,
   "appid": "2235310",
   "common": {
     "aicontenttype": "2",
@@ -43,6 +67,7 @@
     },
     "clienticon": "ce105cac8d79b01ed29229e3291f61ec33724f49",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -52,7 +77,6 @@
         "version": "5"
       }
     },
-    "exfgls": "8",
     "gameid": "2235310",
     "genres": {
       "0": "25",
@@ -129,11 +153,12 @@
     "osextended": "",
     "oslist": "windows,android",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "57e6db72aad7254aebe1e23d7298002c3a97d5de/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792363049",
+    "steam_release_date": "1793293246",
+    "store_asset_mtime": "1793282245",
     "store_tags": {
       "0": "597",
       "1": "5502",
@@ -191,5 +216,93 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PatchWorld",
+    "launch": {
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "PatchWorld VR",
+        "description_loc": {
+          "english": "PatchWorld VR"
+        },
+        "executable": "patchworld.exe",
+        "type": "vr"
+      },
+      "3": {
+        "config": {
+          "oslist": "android"
+        },
+        "description": "Steam Frame",
+        "description_loc": {
+          "english": "Steam Frame"
+        },
+        "executable": "PatchWorld.apk",
+        "type": "openxr"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "2235311": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "879294224",
+          "gid": "8357190499185051356",
+          "size": "1736297634"
+        }
+      }
+    },
+    "2235312": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "658919952",
+          "gid": "5419774071298415553",
+          "size": "1798400366"
+        }
+      }
+    },
+    "2235313": {
+      "config": {
+        "oslist": "android"
+      },
+      "manifests": {
+        "public": {
+          "download": "525805008",
+          "gid": "8200475253982369812",
+          "size": "605288634"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26300860",
+        "timebuildupdated": "1793287633",
+        "timeupdated": "1793287633"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "PatchXR",
+    "homepage": "https://patchxr.com/",
+    "publisher": "PatchXR",
+    "vrheadsetstreaming": "1"
+  }
 }
