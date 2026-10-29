@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792603006,
+  "_lastChecked": 1793252954,
   "_history": [
     {
       "buildId": "20349699",
@@ -13,12 +13,48 @@
           "download": 1795280848
         }
       }
+    },
+    {
+      "buildId": "26285464",
+      "branch": "beta",
+      "timeUpdated": 1793234419,
+      "firstSeen": 1793252954,
+      "manifests": {
+        "3631851": {
+          "gid": "7811632066457210181",
+          "size": 3690392360,
+          "download": 1751101840
+        },
+        "3631852": {
+          "gid": "1581185556918505721",
+          "size": 3694236049,
+          "download": 1865559776
+        }
+      }
+    },
+    {
+      "buildId": "26285464",
+      "branch": "public",
+      "timeUpdated": 1793234500,
+      "firstSeen": 1793252954,
+      "manifests": {
+        "3631851": {
+          "gid": "7811632066457210181",
+          "size": 3690392360,
+          "download": 1751101840
+        },
+        "3631852": {
+          "gid": "1581185556918505721",
+          "size": 3694236049,
+          "download": 1865559776
+        }
+      }
     }
   ],
-  "_change_number": 39205428,
+  "_change_number": 40361588,
   "_missing_token": false,
-  "_sha": "99a79f23f64adf735175b5fd06390aa7e625fd04",
-  "_size": 5187,
+  "_sha": "b2ff5677b34f5bb15d84e9695f997af8b6414f5c",
+  "_size": 6263,
   "appid": "3631850",
   "common": {
     "associations": {
@@ -226,6 +262,13 @@
           "oslist": "windows"
         },
         "executable": "Kyoto Anomaly.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Kyoto Anomaly.app",
+        "type": "default"
       }
     },
     "steamcontrollertemplateindex": "2",
@@ -238,18 +281,47 @@
         "oslist": "windows"
       },
       "manifests": {
+        "beta": {
+          "download": "1751101840",
+          "gid": "7811632066457210181",
+          "size": "3690392360"
+        },
         "public": {
-          "download": "1795280848",
-          "gid": "6183188703102998820",
-          "size": "3805178109"
+          "download": "1751101840",
+          "gid": "7811632066457210181",
+          "size": "3690392360"
+        }
+      }
+    },
+    "3631852": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "1865559776",
+          "gid": "1581185556918505721",
+          "size": "3694236049"
+        },
+        "public": {
+          "download": "1865559776",
+          "gid": "1581185556918505721",
+          "size": "3694236049"
         }
       }
     },
     "branches": {
+      "beta": {
+        "buildid": "26285464",
+        "description": "beta",
+        "timebuildupdated": "1793234419",
+        "timeupdated": "1793234419"
+      },
       "public": {
-        "buildid": "20349699",
-        "timebuildupdated": "1760183957",
-        "timeupdated": "1760183986"
+        "buildid": "26285464",
+        "timebuildupdated": "1793234419",
+        "timeupdated": "1793234500"
       }
     }
   },
@@ -259,7 +331,25 @@
     "publisher": "BiteMe Games"
   },
   "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
     "maxnumfiles": "100",
-    "quota": "5000000000"
+    "quota": "5000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "BiteMe Games/Kyoto Anomaly",
+        "pattern": "kyoto.anomaly",
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

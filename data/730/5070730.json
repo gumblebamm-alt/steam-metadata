@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792241302,
-  "_history": [],
-  "_change_number": 39935968,
-  "_missing_token": true,
-  "_sha": "4b936d7c6054acbc39f65741b5bd02923af18801",
-  "_size": 7635,
+  "_lastChecked": 1793252976,
+  "_history": [
+    {
+      "buildId": "26288706",
+      "branch": "public",
+      "timeUpdated": 1793248561,
+      "firstSeen": 1793252976,
+      "manifests": {
+        "5070731": {
+          "gid": "6086488489420467095",
+          "size": 564825604,
+          "download": 446396560
+        }
+      }
+    }
+  ],
+  "_change_number": 40368587,
+  "_missing_token": false,
+  "_sha": "363a563b7470266ba16ffbd9b725b84b21822f1a",
+  "_size": 8809,
   "appid": "5070730",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     },
     "clienticon": "f3a74b6423fb369bef19dc7c58744c985584b4b3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5070730",
     "genres": {
       "0": "4"
@@ -96,16 +110,21 @@
       }
     },
     "name": "Blossoms of Light",
+    "name_localized": {
+      "schinese": "琉光花影",
+      "tchinese": "琉光花影"
+    },
     "osarch": "64",
     "oscpu": "",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1d7e31aa403e9e91db4c5179fd0135a83ecacfa6/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792221413",
+    "steam_release_date": "1793250400",
+    "store_asset_mtime": "1792242344",
     "store_tags": {
       "0": "1664",
       "1": "597",
@@ -434,5 +453,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blossoms of Light",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BlossomsOfLight.exe"
+      }
+    }
+  },
+  "depots": {
+    "5070731": {
+      "manifests": {
+        "public": {
+          "download": "446396560",
+          "gid": "6086488489420467095",
+          "size": "564825604"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26288706",
+        "timebuildupdated": "1793247274",
+        "timeupdated": "1793248561"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Catnip studio",
+    "homepage": "https://store.steampowered.com/curator/44786890-Catnip-studio/",
+    "publisher": "Catnip studio"
+  },
+  "ufs": {
+    "maxnumfiles": "128",
+    "quota": "8388608",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Blossoms of Light",
+        "pattern": "blossoms_of_light_progress.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Blossoms of Light",
+        "pattern": "level_*_save.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

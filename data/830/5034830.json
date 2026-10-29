@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791376837,
-  "_history": [],
-  "_change_number": 38682898,
-  "_missing_token": true,
-  "_sha": "ea4aebdd769515cc5e1d2c10abc3ae54d49526c4",
-  "_size": 4013,
+  "_lastChecked": 1793252975,
+  "_history": [
+    {
+      "buildId": "25178661",
+      "branch": "public",
+      "timeUpdated": 1788835027,
+      "firstSeen": 1793252975,
+      "manifests": {
+        "5034831": {
+          "gid": "7675198292532135949",
+          "size": 133785511,
+          "download": 58821568
+        }
+      }
+    }
+  ],
+  "_change_number": 40368461,
+  "_missing_token": false,
+  "_sha": "3f90342ac1cb8e0f7709f9480ef19ceec9abc7bd",
+  "_size": 4947,
   "appid": "5034830",
   "common": {
     "aicontenttype": "1",
@@ -28,8 +42,8 @@
     },
     "clienticon": "f6d05ed381743837e357fdbba8c8c3e443e56c5f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5034830",
     "genres": {
       "0": "4"
@@ -116,11 +130,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a0fb05fa24d5bd01a4a697ca0a70426b3bc13224/capsule_231x87.jpg",
       "schinese": "d784985b4f199fa419624efb825e9eee81d32af5/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1793430000",
     "store_asset_mtime": "1788716032",
     "store_tags": {
       "0": "16689",
@@ -159,5 +174,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BeBalance",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BeBalance.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5034831": {
+      "manifests": {
+        "public": {
+          "download": "58821568",
+          "gid": "7675198292532135949",
+          "size": "133785511"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25178661",
+        "timebuildupdated": "1788834888",
+        "timeupdated": "1788835027"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Starray",
+    "publisher": "Starray"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/BeBalance- Broomstick",
+        "pattern": "bebalance_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

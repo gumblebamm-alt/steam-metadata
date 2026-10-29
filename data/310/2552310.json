@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792730993,
+  "_lastChecked": 1793252948,
   "_history": [
     {
       "buildId": "24667081",
@@ -36,12 +36,48 @@
           "download": 370324160
         }
       }
+    },
+    {
+      "buildId": "26162905",
+      "branch": "dibugtest",
+      "timeUpdated": 1792766300,
+      "firstSeen": 1793252948,
+      "manifests": {
+        "2552311": {
+          "gid": "1095853293904664714",
+          "size": 1617417838,
+          "download": 343308928
+        },
+        "2552312": {
+          "gid": "6215054159075019710",
+          "size": 1642553809,
+          "download": 370324896
+        }
+      }
+    },
+    {
+      "buildId": "26265654",
+      "branch": "public",
+      "timeUpdated": 1793241104,
+      "firstSeen": 1793252948,
+      "manifests": {
+        "2552311": {
+          "gid": "7650071902298533133",
+          "size": 1442140989,
+          "download": 328477664
+        },
+        "2552312": {
+          "gid": "2601828330559522929",
+          "size": 1467277948,
+          "download": 354719776
+        }
+      }
     }
   ],
-  "_change_number": 40154642,
+  "_change_number": 40364419,
   "_missing_token": false,
-  "_sha": "9b0f89d91ea8930ddf7c1c765d2f103e3ca522ea",
-  "_size": 9035,
+  "_sha": "5e62b69754b20d8145e82f20bfb495c1ac18c927",
+  "_size": 9430,
   "appid": "2552310",
   "common": {
     "associations": {
@@ -178,7 +214,7 @@
     "oslist": "windows,macos",
     "primary_genre": "2",
     "releasestate": "released",
-    "review_percentage": "92",
+    "review_percentage": "91",
     "review_score": "8",
     "small_capsule": {
       "english": "capsule_231x87.jpg",
@@ -186,13 +222,13 @@
       "tchinese": "081e9c8ad3e83c0526487a3e4d4865ab4a814e9a/capsule_231x87_tchinese.jpg"
     },
     "steam_deck_compatibility": {
-      "category": "2",
+      "category": "3",
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
         "non_deck_display_glyphs": "0",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-10.0-beta",
+        "recommended_runtime": "proton-stable",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -200,8 +236,8 @@
         "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
-        "small_text": "1",
-        "supported_input": "gamepad"
+        "small_text": "0",
+        "supported_input": "other"
       },
       "steam_machine_compatibility": "3",
       "steam_machine_tests": {
@@ -225,20 +261,20 @@
           "token": "#SteamOS_TestResult_GameStartupFunctional"
         }
       },
-      "test_timestamp": "1758326400",
-      "tested_build_id": "19392080",
+      "test_timestamp": "1792769184",
+      "tested_build_id": "2552310",
       "tests": {
         "0": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
-        },
-        "1": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
-        "2": {
+        "1": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
         },
         "3": {
           "display": "4",
@@ -330,10 +366,15 @@
         "oslist": "windows"
       },
       "manifests": {
+        "dibugtest": {
+          "download": "343308928",
+          "gid": "1095853293904664714",
+          "size": "1617417838"
+        },
         "public": {
-          "download": "343304448",
-          "gid": "3265636367870324616",
-          "size": "1617411718"
+          "download": "328477664",
+          "gid": "7650071902298533133",
+          "size": "1442140989"
         }
       }
     },
@@ -342,19 +383,30 @@
         "oslist": "macos"
       },
       "manifests": {
+        "dibugtest": {
+          "download": "370324896",
+          "gid": "6215054159075019710",
+          "size": "1642553809"
+        },
         "public": {
-          "download": "370324160",
-          "gid": "58727077902367955",
-          "size": "1642549713"
+          "download": "354719776",
+          "gid": "2601828330559522929",
+          "size": "1467277948"
         }
       }
     },
     "baselanguages": "english,koreana,schinese,tchinese,japanese",
     "branches": {
+      "dibugtest": {
+        "buildid": "26162905",
+        "description": "for DI 1.0 release bugtest",
+        "timebuildupdated": "1792766215",
+        "timeupdated": "1792766300"
+      },
       "public": {
-        "buildid": "26124485",
-        "timebuildupdated": "1792642051",
-        "timeupdated": "1792722738"
+        "buildid": "26265654",
+        "timebuildupdated": "1793176848",
+        "timeupdated": "1793241104"
       }
     },
     "privatebranches": "1"

@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1793166271,
-  "_history": [],
-  "_change_number": 40319399,
-  "_missing_token": true,
-  "_sha": "31970b3fbb1b170afb0f585f66679cbbf59ae8f0",
-  "_size": 3218,
+  "_lastChecked": 1793252944,
+  "_history": [
+    {
+      "buildId": "26257983",
+      "branch": "public",
+      "timeUpdated": 1793147139,
+      "firstSeen": 1793252944,
+      "manifests": {
+        "1149053": {
+          "gid": "1963401498184995289",
+          "size": 231765641,
+          "download": 162071552
+        },
+        "1149054": {
+          "gid": "552040197096407424",
+          "size": 249552498,
+          "download": 168455872
+        },
+        "1149055": {
+          "gid": "3056466710378037770",
+          "size": 222836105,
+          "download": 159802352
+        },
+        "1149056": {
+          "gid": "8919779047917362873",
+          "size": 297724175,
+          "download": 179848272
+        }
+      }
+    }
+  ],
+  "_change_number": 40357336,
+  "_missing_token": false,
+  "_sha": "dc31f7630050c217418d775ee7804b1210eeb382",
+  "_size": 5833,
   "appid": "1149050",
   "common": {
     "associations": {
@@ -35,7 +64,6 @@
     "controllervr": {
       "oculus": "1"
     },
-    "exfgls": "8",
     "gameid": "1149050",
     "genres": {
       "0": "1",
@@ -116,7 +144,7 @@
       "standing": "1"
     },
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "29834c773e8c5613c8f5215c7c0ea0378785f90a/capsule_231x87.jpg"
     },
@@ -146,5 +174,144 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Slime Jump",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "32",
+          "oslist": "windows"
+        },
+        "executable": "Slime Jump (Windows x32)/Slime Jump.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Slime Jump (Windows x64)/Slime Jump.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Slime Jump (Linux x64)/Slime Jump.x86_64",
+        "type": "default"
+      },
+      "3": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Slime Jump (Mac)/Slime Jump.app/Contents/MacOS/Slime Jump"
+      }
+    },
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "1149053": {
+      "config": {
+        "language": "english",
+        "osarch": "32",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "162071552",
+          "gid": "1963401498184995289",
+          "size": "231765641"
+        }
+      }
+    },
+    "1149054": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "168455872",
+          "gid": "552040197096407424",
+          "size": "249552498"
+        }
+      }
+    },
+    "1149055": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "159802352",
+          "gid": "3056466710378037770",
+          "size": "222836105"
+        }
+      }
+    },
+    "1149056": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "179848272",
+          "gid": "8919779047917362873",
+          "size": "297724175"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26257983",
+        "timebuildupdated": "1793147138",
+        "timeupdated": "1793147139"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Dawnbreaker Games",
+    "isfreeapp": "1",
+    "publisher": "Dawnbreaker Games",
+    "vrheadsetstreaming": "1"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "20000000",
+    "savefiles": {
+      "0": {
+        "path": "Slime Jump",
+        "pattern": "Save Data",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Slime Jump",
+        "pattern": "Save Data",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": "Slime Jump",
+        "pattern": "Save Data",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

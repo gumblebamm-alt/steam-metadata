@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1792689364,
-  "_history": [],
-  "_change_number": 39965412,
-  "_missing_token": true,
-  "_sha": "d8bd4d6f135669227fda25a8f359679f138297c2",
-  "_size": 3100,
+  "_lastChecked": 1793252941,
+  "_history": [
+    {
+      "buildId": "26027211",
+      "branch": "public",
+      "timeUpdated": 1792334744,
+      "firstSeen": 1793252872,
+      "manifests": {
+        "1319991": {
+          "gid": "3781944127140165287",
+          "size": null,
+          "download": null
+        },
+        "1319992": {
+          "gid": "4246450380265592070",
+          "size": null,
+          "download": null
+        },
+        "1319993": {
+          "gid": "5736117879821459011",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40356330,
+  "_missing_token": false,
+  "_sha": "93c734ad648f4c0f8885697c3bfb1822dfa2a6e9",
+  "_size": 5218,
   "appid": "1319990",
   "common": {
     "associations": {
@@ -31,8 +56,8 @@
     "clienticon": "b004ef5328a760375ea44fb2fe5492446b9cd916",
     "clienttga": "eda1dd5e5d45796387f5e7d2dec2795de88e901b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1319990",
     "genres": {
       "0": "1",
@@ -106,11 +131,12 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b70ced014eca5490a6a748a923d0dc695348cfe7/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792095419",
+    "steam_release_date": "1793223479",
+    "store_asset_mtime": "1792687360",
     "store_tags": {
       "0": "19",
       "1": "492",
@@ -130,5 +156,118 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Stellar Swing",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Stellar Swing.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "StellarSwing.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "StellarSwing.app\\Contents\\MacOS\\Stellar Swing",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1319991": {
+      "config": {
+        "language": "",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "257305472",
+          "gid": "3781944127140165287",
+          "size": "1013581345"
+        }
+      }
+    },
+    "1319992": {
+      "config": {
+        "language": "",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "255256128",
+          "gid": "4246450380265592070",
+          "size": "1012703817"
+        }
+      }
+    },
+    "1319993": {
+      "config": {
+        "language": "",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "265680544",
+          "gid": "5736117879821459011",
+          "size": "1032303645"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26027211",
+        "timebuildupdated": "1792334632",
+        "timeupdated": "1792334744"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Pillowdrift Games",
+    "homepage": "https://pillowdrift.com",
+    "isfreeapp": "1",
+    "publisher": "Pillowdrift Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Pillowdrift/Stellar Swing/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Pillowdrift/Stellar Swing",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": "unity3d/Pillowdrift/Stellar Swing",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxXdgConfigHome"
+      }
+    }
+  }
 }

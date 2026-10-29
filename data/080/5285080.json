@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793166302,
+  "_lastChecked": 1793252980,
   "_history": [
     {
       "buildId": "26041904",
@@ -40,12 +40,30 @@
           "download": 398402768
         }
       }
+    },
+    {
+      "buildId": "26288638",
+      "branch": "public",
+      "timeUpdated": 1793247012,
+      "firstSeen": 1793252980,
+      "manifests": {
+        "5285081": {
+          "gid": "7111180907653361706",
+          "size": 516778796,
+          "download": 399836336
+        },
+        "5285082": {
+          "gid": "1121800801825116433",
+          "size": 581277287,
+          "download": 419371392
+        }
+      }
     }
   ],
-  "_change_number": 40322382,
+  "_change_number": 40367562,
   "_missing_token": false,
-  "_sha": "cff8e823a5ab3031a3b7c1113c8ab313d79022e1",
-  "_size": 4581,
+  "_sha": "7817a1339b926369812f25e72102c104d607dd1d",
+  "_size": 5052,
   "appid": "5285080",
   "common": {
     "aicontenttype": "1",
@@ -147,8 +165,8 @@
     "name": "Stick Life: The Daily Grind",
     "osarch": "64",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "28",
     "releasestate": "released",
     "small_capsule": {
@@ -213,6 +231,13 @@
         },
         "executable": "Stick Life.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Stick Life.app",
+        "type": "default"
       }
     },
     "steamconfigurator3rdpartynative": "12",
@@ -221,19 +246,34 @@
   },
   "depots": {
     "5285081": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "398402768",
-          "gid": "8646097407968806197",
-          "size": "512280648"
+          "download": "399836336",
+          "gid": "7111180907653361706",
+          "size": "516778796"
+        }
+      }
+    },
+    "5285082": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "419371392",
+          "gid": "1121800801825116433",
+          "size": "581277287"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26171214",
-        "timebuildupdated": "1792791138",
-        "timeupdated": "1792791161"
+        "buildid": "26288638",
+        "timebuildupdated": "1793246978",
+        "timeupdated": "1793247012"
       }
     }
   },
@@ -244,21 +284,24 @@
   "ufs": {
     "maxnumfiles": "100",
     "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "stick-life",
         "pattern": "saves.json",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataRoaming"
       },
       "1": {
         "path": "stick-life",
         "pattern": "saves.backup.json",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataRoaming"
       }
     }

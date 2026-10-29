@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793040132,
-  "_history": [],
-  "_change_number": 40252927,
-  "_missing_token": true,
-  "_sha": "b76738d0196bdca3f82fb58455844425cab678ff",
-  "_size": 4190,
+  "_lastChecked": 1793252950,
+  "_history": [
+    {
+      "buildId": "26272887",
+      "branch": "public",
+      "timeUpdated": 1793197522,
+      "firstSeen": 1793252950,
+      "manifests": {
+        "2990191": {
+          "gid": "6717285532821145544",
+          "size": 1242065413,
+          "download": 935377712
+        }
+      }
+    }
+  ],
+  "_change_number": 40363316,
+  "_missing_token": false,
+  "_sha": "da62fa7794976b3e27086a8c400177b4c7a4b0be",
+  "_size": 5366,
   "appid": "2990190",
   "common": {
     "aicontenttype": "2",
@@ -34,8 +48,8 @@
     "clienticon": "4af0db0626ff77c1de72bd7a20d73c2c4c056c87",
     "clienttga": "ff23fa9e87b7658262b70bf6061b0e70acfc4549",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2990190",
     "genres": {
       "0": "25",
@@ -125,11 +139,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2e161bef8523673742e3f4d1f087f50542d4a6b0/capsule_231x87.jpg",
       "schinese": "1e1759a7d47dafc7a39e61eebb4cbbd73125ee02/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1793239133",
     "store_asset_mtime": "1793014144",
     "store_tags": {
       "0": "10235",
@@ -167,5 +182,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Magi Scapes",
+    "launch": {
+      "0": {
+        "executable": "GenerativeGame.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2990191": {
+      "manifests": {
+        "public": {
+          "download": "935377712",
+          "gid": "6717285532821145544",
+          "size": "1242065413"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26272887",
+        "timebuildupdated": "1793197468",
+        "timeupdated": "1793197522"
+      }
+    }
+  },
+  "extended": {
+    "developer": "AutoGame",
+    "dlcavailableonstore": "1",
+    "homepage": "http://autogame.ai",
+    "listofdlc": "4967310",
+    "publisher": "AutoGame"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "GenerativeGame/Saved/SaveGames",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

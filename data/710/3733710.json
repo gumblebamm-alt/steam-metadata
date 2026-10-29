@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1791376811,
-  "_history": [],
-  "_change_number": 39574482,
-  "_missing_token": true,
-  "_sha": "2ba4ba722a1ee2f3012dd53ae635dd6ce5110f91",
-  "_size": 3378,
+  "_lastChecked": 1793252955,
+  "_history": [
+    {
+      "buildId": "26280565",
+      "branch": "public",
+      "timeUpdated": 1793217897,
+      "firstSeen": 1793252955,
+      "manifests": {
+        "3733711": {
+          "gid": "5079065952982412341",
+          "size": 774054829,
+          "download": 564248496
+        }
+      }
+    },
+    {
+      "buildId": "26280565",
+      "branch": "public-debug",
+      "timeUpdated": 1793217579,
+      "firstSeen": 1793252955,
+      "manifests": {
+        "3733711": {
+          "gid": "5079065952982412341",
+          "size": 774054829,
+          "download": 564248496
+        }
+      }
+    }
+  ],
+  "_change_number": 40363811,
+  "_missing_token": false,
+  "_sha": "09768de1dc90a78f907279e1fca1d4c88160df9d",
+  "_size": 4486,
   "appid": "3733710",
   "common": {
     "associations": {
@@ -31,6 +58,7 @@
     },
     "clienticon": "b2a140e1f39884edbd17b31fc711b58369ed2b1b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -40,7 +68,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3733710",
     "genres": {
       "0": "1",
@@ -112,11 +139,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "27b24cfe7cfda91cd3800489ed068acd544660be/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1790222257",
+    "steam_release_date": "1793213057",
+    "store_asset_mtime": "1793224654",
     "store_tags": {
       "0": "5547",
       "1": "1663",
@@ -155,5 +185,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Firestarters",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "KerosenePlayer.exe",
+        "type": "default",
+        "workingdir": "."
+      }
+    }
+  },
+  "depots": {
+    "3733711": {
+      "manifests": {
+        "public": {
+          "download": "564248496",
+          "gid": "5079065952982412341",
+          "size": "774054829"
+        },
+        "public-debug": {
+          "download": "564248496",
+          "gid": "5079065952982412341",
+          "size": "774054829"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26280565",
+        "timebuildupdated": "1793217539",
+        "timeupdated": "1793217897"
+      },
+      "public-debug": {
+        "buildid": "26280565",
+        "description": "Public debugging branch.",
+        "timebuildupdated": "1793217539",
+        "timeupdated": "1793217579"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Studio Kerosene",
+    "publisher": "Studio Kerosene"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "1000000"
+  }
 }

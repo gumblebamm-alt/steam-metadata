@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793124063,
-  "_history": [],
-  "_change_number": 40171037,
-  "_missing_token": true,
-  "_sha": "80136b83d86e77f04bf807bfbd9f71d469181ea0",
-  "_size": 6345,
+  "_lastChecked": 1793252957,
+  "_history": [
+    {
+      "buildId": "26267843",
+      "branch": "public",
+      "timeUpdated": 1793184297,
+      "firstSeen": 1793252957,
+      "manifests": {
+        "3938711": {
+          "gid": "882430993195253652",
+          "size": 3188001776,
+          "download": 2152515744
+        }
+      }
+    }
+  ],
+  "_change_number": 40364609,
+  "_missing_token": false,
+  "_sha": "4a6933b5790a255f1585a1adb61bce890b2640ce",
+  "_size": 9593,
   "appid": "3938710",
   "common": {
     "associations": {
@@ -38,7 +52,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3938710",
     "genres": {
       "0": "25",
@@ -145,7 +158,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "b9472d363adfca13dec15272ef52546d77497d67/capsule_231x87.jpg",
@@ -153,7 +166,69 @@
       "schinese": "9f2a32215d8bf37f9ce9a297e6077da36fce1fd6/capsule_231x87_schinese.jpg",
       "tchinese": "c526cc9508707ff3e99d11391134819fac1966ca/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1760593826",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1792437051",
+      "tested_build_id": "25648673",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1793239278",
+    "store_asset_mtime": "1793088804",
     "store_tags": {
       "0": "21",
       "1": "122",
@@ -185,5 +260,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tail of Desire",
+    "launch": {
+      "0": {
+        "arguments": "art=remastered",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play Remastered Version",
+        "description_loc": {
+          "english": "Play Remastered Version",
+          "japanese": "リマスター版を起動",
+          "schinese": "启动 Remastered 版",
+          "tchinese": "啟動 Remastered 版"
+        },
+        "executable": "Game.exe"
+      },
+      "1": {
+        "arguments": "art=original",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play Original Version",
+        "description_loc": {
+          "english": "Play Original Version",
+          "japanese": "オリジナル版を起動",
+          "schinese": "启动原始版",
+          "tchinese": "啟動原始版"
+        },
+        "executable": "Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "3938711": {
+      "manifests": {
+        "public": {
+          "download": "2152515744",
+          "gid": "882430993195253652",
+          "size": "3188001776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26267843",
+        "timebuildupdated": "1793184012",
+        "timeupdated": "1793184297"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "BlueBone",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5257330",
+    "publisher": "Mango Party"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "www/save",
+        "pattern": "*.rpgsave",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

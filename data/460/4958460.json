@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793166261,
+  "_lastChecked": 1793252942,
   "_history": [
     {
       "buildId": "26208089",
@@ -14,12 +14,26 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26275127",
+      "branch": "public",
+      "timeUpdated": 1793203175,
+      "firstSeen": 1793252887,
+      "manifests": {
+        "4958461": {
+          "gid": "6527908404033057544",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
     }
   ],
-  "_change_number": 40317722,
+  "_change_number": 40362333,
   "_missing_token": false,
-  "_sha": "299a22a312d2817f7e3d904f0e04f18673fd10ac",
-  "_size": 7188,
+  "_sha": "cdc7d12a1743f9889d52f58404929608938af238",
+  "_size": 7761,
   "appid": "4958460",
   "common": {
     "aicontenttype": "1",
@@ -156,7 +170,7 @@
     "oslist": "windows",
     "primary_genre": "23",
     "releasestate": "released",
-    "review_percentage": "83",
+    "review_percentage": "80",
     "review_score": "7",
     "small_capsule": {
       "english": "d120a99c6f8f9610b3aba579ac75351e996dd6c0/capsule_231x87.jpg",
@@ -217,6 +231,30 @@
           "oslist": "windows"
         },
         "executable": "Touhou Bansho Cards.exe"
+      },
+      "1": {
+        "arguments": "--rendering-driver vulkan",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play with Vulkan",
+        "description_loc": {
+          "english": "Play with Vulkan"
+        },
+        "executable": "Touhou Bansho Cards.exe"
+      },
+      "2": {
+        "arguments": "--rendering-driver d3d12",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play with DirectX 12",
+        "description_loc": {
+          "english": "Play with DirectX 12"
+        },
+        "executable": "Touhou Bansho Cards.exe"
       }
     }
   },
@@ -224,17 +262,17 @@
     "4958461": {
       "manifests": {
         "public": {
-          "download": "1428574816",
-          "gid": "8110829280550193402",
-          "size": "1568765848"
+          "download": "1428388576",
+          "gid": "6527908404033057544",
+          "size": "1568744356"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26208089",
-        "timebuildupdated": "1792983755",
-        "timeupdated": "1792986310"
+        "buildid": "26275127",
+        "timebuildupdated": "1793203016",
+        "timeupdated": "1793203175"
       }
     },
     "nocommonredists": "1"

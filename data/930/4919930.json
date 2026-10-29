@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1792857615,
-  "_history": [],
-  "_change_number": 40069646,
-  "_missing_token": true,
-  "_sha": "6060a87c32b86ecfd16fb1e237c086d7e3fe567c",
-  "_size": 4269,
+  "_lastChecked": 1793252972,
+  "_history": [
+    {
+      "buildId": "25953680",
+      "branch": "beta",
+      "timeUpdated": 1792434442,
+      "firstSeen": 1793252972,
+      "manifests": {
+        "4919932": {
+          "gid": "4373492421222705877",
+          "size": 160654084,
+          "download": 100798192
+        },
+        "4919933": {
+          "gid": "2792252136022392464",
+          "size": 146392648,
+          "download": 93223504
+        }
+      }
+    },
+    {
+      "buildId": "25953680",
+      "branch": "public",
+      "timeUpdated": 1792434442,
+      "firstSeen": 1793252972,
+      "manifests": {
+        "4919932": {
+          "gid": "4373492421222705877",
+          "size": 160654084,
+          "download": 100798192
+        },
+        "4919933": {
+          "gid": "2792252136022392464",
+          "size": 146392648,
+          "download": 93223504
+        }
+      }
+    }
+  ],
+  "_change_number": 40363369,
+  "_missing_token": false,
+  "_sha": "15a94d4e5018b1134916397ac5991f3c7978482d",
+  "_size": 6218,
   "appid": "4919930",
   "common": {
     "associations": {
@@ -28,8 +65,8 @@
     },
     "clienticon": "e7cddd5baa7ee62ecaefadf8740d18d1e7517666",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4919930",
     "genres": {
       "0": "4",
@@ -120,11 +157,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "65d22cc8410c2f88434fd4fd71b83fea82e1275e/capsule_231x87.jpg",
       "schinese": "510847faf18d558c8c2d2789ed2542b9837cf17d/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1793239211",
     "store_asset_mtime": "1792552594",
     "store_tags": {
       "0": "3959",
@@ -155,5 +193,103 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "WillyAndCharlieSolitaire",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "WillyAndCharlieSolitaire\\WillyAndCharlieSolitaire.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "WillyAndCharlieSolitaire/WillyAndCharlieSolitaire.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4919931": {},
+    "4919932": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "100798192",
+          "gid": "4373492421222705877",
+          "size": "160654084"
+        },
+        "public": {
+          "download": "100798192",
+          "gid": "4373492421222705877",
+          "size": "160654084"
+        }
+      }
+    },
+    "4919933": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "93223504",
+          "gid": "2792252136022392464",
+          "size": "146392648"
+        },
+        "public": {
+          "download": "93223504",
+          "gid": "2792252136022392464",
+          "size": "146392648"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "beta": {
+        "buildid": "25953680",
+        "description": "测试线",
+        "timebuildupdated": "1792048906",
+        "timeupdated": "1792434442"
+      },
+      "public": {
+        "buildid": "25953680",
+        "timebuildupdated": "1792048906",
+        "timeupdated": "1792434442"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "WAOWL",
+    "publisher": "Azura Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "WillyAndCharlieSolitaire",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": ".local/share/WillyAndCharlieSolitaire",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
+  }
 }
