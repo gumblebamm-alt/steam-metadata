@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792644418,
+  "_lastChecked": 1793384008,
   "_history": [
     {
       "buildId": "26090346",
@@ -18,12 +18,30 @@
           "download": 465347136
         }
       }
+    },
+    {
+      "buildId": "26324935",
+      "branch": "public",
+      "timeUpdated": 1793368533,
+      "firstSeen": 1793384008,
+      "manifests": {
+        "3740091": {
+          "gid": "1883869861624657239",
+          "size": 548219760,
+          "download": 469015168
+        },
+        "3740092": {
+          "gid": "1557611229049968885",
+          "size": 570272480,
+          "download": 473891952
+        }
+      }
     }
   ],
-  "_change_number": 40114064,
+  "_change_number": 40424396,
   "_missing_token": false,
-  "_sha": "4ed3c9e7249e23e9f525646cd8e7e1a4122c63c7",
-  "_size": 7045,
+  "_sha": "585ae79a4edc245101af2ef43a130fde8d389e89",
+  "_size": 7948,
   "appid": "3740090",
   "common": {
     "aicontenttype": "1",
@@ -145,8 +163,8 @@
     "oslist": "windows,macos",
     "primary_genre": "18",
     "releasestate": "released",
-    "review_percentage": "75",
-    "review_score": "6",
+    "review_percentage": "91",
+    "review_score": "8",
     "small_capsule": {
       "english": "db5d22d8757333ada8766d60bc287e515e920742/capsule_231x87.jpg"
     },
@@ -260,10 +278,28 @@
       "italian": {
         "supported": "true"
       },
+      "japanese": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      },
       "latam": {
         "supported": "true"
       },
+      "russian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
       "spanish": {
+        "supported": "true"
+      },
+      "tchinese": {
+        "supported": "true"
+      },
+      "turkish": {
         "supported": "true"
       }
     },
@@ -293,9 +329,9 @@
       },
       "manifests": {
         "public": {
-          "download": "460193856",
-          "gid": "5427546251374400575",
-          "size": "537153194"
+          "download": "469015168",
+          "gid": "1883869861624657239",
+          "size": "548219760"
         }
       }
     },
@@ -305,17 +341,17 @@
       },
       "manifests": {
         "public": {
-          "download": "465347136",
-          "gid": "6915495376544800986",
-          "size": "559458358"
+          "download": "473891952",
+          "gid": "1557611229049968885",
+          "size": "570272480"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26090346",
-        "timebuildupdated": "1792530546",
-        "timeupdated": "1792530546"
+        "buildid": "26324935",
+        "timebuildupdated": "1793368464",
+        "timeupdated": "1793368533"
       }
     },
     "nocommonredists": "1",
@@ -326,5 +362,35 @@
     "gamemanualurl": "https://store.steampowered.com/manual/3740090/",
     "homepage": "https://discord.gg/cPrjaRNg5Q",
     "publisher": "Halfbrick Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "new_boxing_game_0_1/savedata",
+            "replace": "com.halfbrick.bruisers/savedata"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "new_boxing_game_0_1/savedata",
+        "pattern": "slot_*",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "new_boxing_game_0_1/savedata",
+        "pattern": "pugilist_memory_*",
+        "root": "WinAppDataLocal"
+      }
+    }
   }
 }

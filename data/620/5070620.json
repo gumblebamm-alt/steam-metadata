@@ -1,12 +1,27 @@
 {
-  "_lastChecked": 1791635768,
-  "_history": [],
-  "_change_number": 39685377,
-  "_missing_token": true,
-  "_sha": "2d30d85418ee36a26a631e66498fb77778a4b9f3",
-  "_size": 4199,
+  "_lastChecked": 1793384033,
+  "_history": [
+    {
+      "buildId": "25654002",
+      "branch": "public",
+      "timeUpdated": 1790862221,
+      "firstSeen": 1793384033,
+      "manifests": {
+        "5070621": {
+          "gid": "8365642492582201994",
+          "size": 290699388,
+          "download": 213063824
+        }
+      }
+    }
+  ],
+  "_change_number": 40419608,
+  "_missing_token": false,
+  "_sha": "44d0aafe60433158327de6225ffb8fdbac8cb3c9",
+  "_size": 5457,
   "appid": "5070620",
   "common": {
+    "aicontenttype": "1",
     "associations": {
       "0": {
         "name": "Catnip studio",
@@ -25,8 +40,8 @@
     },
     "clienticon": "1379d6a990683a4f2aa1c22be3a817d1e48d988c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5070620",
     "genres": {
       "0": "4",
@@ -98,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "818d63ba847667e8ca36b1f1d0b0f13f4b0c3013/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793359627",
     "store_asset_mtime": "1791613536",
     "store_tags": {
       "0": "597",
@@ -215,5 +231,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SnapDogs",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "SnapDogs",
+        "description_loc": {
+          "english": "SnapDogs"
+        },
+        "executable": "SnapDogs.exe"
+      }
+    }
+  },
+  "depots": {
+    "5070621": {
+      "manifests": {
+        "public": {
+          "download": "213063824",
+          "gid": "8365642492582201994",
+          "size": "290699388"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25654002",
+        "timebuildupdated": "1790862186",
+        "timeupdated": "1790862221"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Catnip studio",
+    "homepage": "https://store.steampowered.com/curator/44786890-Catnip-studio/",
+    "publisher": "Catnip studio"
+  },
+  "ufs": {
+    "maxnumfiles": "64",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/SnapDogs",
+        "pattern": "snapcats_progress.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/SnapDogs",
+        "pattern": "dog_level_*_save.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

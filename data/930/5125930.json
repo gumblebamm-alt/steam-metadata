@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791593019,
-  "_history": [],
-  "_change_number": 39663752,
-  "_missing_token": true,
-  "_sha": "581e01831c43a188d73f4d8ded2833fcdc70947a",
-  "_size": 3250,
+  "_lastChecked": 1793384035,
+  "_history": [
+    {
+      "buildId": "26155303",
+      "branch": "public",
+      "timeUpdated": 1792744881,
+      "firstSeen": 1793384035,
+      "manifests": {
+        "5125931": {
+          "gid": "7263891627074871279",
+          "size": 123998268,
+          "download": 45485344
+        }
+      }
+    }
+  ],
+  "_change_number": 40429106,
+  "_missing_token": false,
+  "_sha": "8b55d139d9433e9e9ccb9541a416f7faf02cdac3",
+  "_size": 4727,
   "appid": "5125930",
   "common": {
     "associations": {
@@ -38,9 +52,9 @@
     },
     "clienticon": "1c46fc2d8348bdc315aeb77d779cfefdf79df418",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5125930",
     "genres": {
       "0": "23",
@@ -112,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ab8afc427d1f605632dd91d3198ddcf06e282f21/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793376015",
     "store_asset_mtime": "1790267605",
     "store_tags": {
       "0": "3959",
@@ -145,5 +160,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Clawstral",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Clawstral.exe"
+      }
+    }
+  },
+  "depots": {
+    "5125931": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "45485344",
+          "gid": "7263891627074871279",
+          "size": "123998268"
+        }
+      }
+    },
+    "5125932": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "5125933": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26155303",
+        "timebuildupdated": "1792744374",
+        "timeupdated": "1792744881"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "DadeLight",
+    "publisher": "DadeLight"
+  },
+  "ufs": {
+    "maxnumfiles": "64",
+    "quota": "8000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "Clawstral",
+        "pattern": "profile.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Clawstral",
+        "pattern": "run_slot_*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Clawstral",
+        "pattern": "settings.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

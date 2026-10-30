@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793040174,
-  "_history": [],
-  "_change_number": 40244939,
-  "_missing_token": true,
-  "_sha": "a7b9189a75bb5ae409a9966ce7490622c63e987a",
-  "_size": 3987,
+  "_lastChecked": 1793384035,
+  "_history": [
+    {
+      "buildId": "26329356",
+      "branch": "public",
+      "timeUpdated": 1793380065,
+      "firstSeen": 1793384035,
+      "manifests": {
+        "5135071": {
+          "gid": "2561114255421345231",
+          "size": 2096276962,
+          "download": 1926923104
+        }
+      }
+    }
+  ],
+  "_change_number": 40432115,
+  "_missing_token": false,
+  "_sha": "36e569ad6ee5e31302656cfd7de31ad57cf24c0b",
+  "_size": 5404,
   "appid": "5135070",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +44,7 @@
     },
     "clienticon": "494a275c8ca3dad2c1b47aac78e31ba8824640c5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -38,7 +53,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5135070",
     "genres": {
       "0": "1",
@@ -109,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e81e2dd04c119fbcbd71ca1d0467692d587e5a85/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793380688",
     "store_asset_mtime": "1792461956",
     "store_tags": {
       "0": "3978",
@@ -189,5 +204,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Nightshift; Nowhere",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "DirectX 12 (Recommended)",
+        "description_loc": {
+          "english": "DirectX 12 (Recommended)"
+        },
+        "executable": "NightShift; Nowhere.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-d3d11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "DirectX 11 (Compatibility Mode — use if the game crashes or won't start)",
+        "description_loc": {
+          "english": "DirectX 11 (Compatibility Mode — use if the game crashes or won't start)"
+        },
+        "executable": "NightShift; Nowhere.exe",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5135071": {
+      "manifests": {
+        "public": {
+          "download": "1926923104",
+          "gid": "2561114255421345231",
+          "size": "2096276962"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26329356",
+        "timebuildupdated": "1793380018",
+        "timeupdated": "1793380065"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Blue Screen of Tuxedo, LLC",
+    "publisher": "Blue Screen of Tuxedo, LLC"
+  }
 }

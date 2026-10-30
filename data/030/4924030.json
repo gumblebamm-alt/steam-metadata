@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793298802,
-  "_history": [],
-  "_change_number": 40392742,
-  "_missing_token": true,
-  "_sha": "154a44042146e2a17d368262bc02e9f39d233a81",
-  "_size": 2908,
+  "_lastChecked": 1793384028,
+  "_history": [
+    {
+      "buildId": "24948486",
+      "branch": "internal-test",
+      "timeUpdated": 1787744522,
+      "firstSeen": 1793384028,
+      "manifests": {
+        "4924031": {
+          "gid": "5302693927655021227",
+          "size": 2190227973,
+          "download": 553966256
+        }
+      }
+    },
+    {
+      "buildId": "26253848",
+      "branch": "public",
+      "timeUpdated": 1793133572,
+      "firstSeen": 1793384028,
+      "manifests": {
+        "4924031": {
+          "gid": "5426964775215021014",
+          "size": 2448340782,
+          "download": 620655328
+        }
+      }
+    }
+  ],
+  "_change_number": 40423670,
+  "_missing_token": false,
+  "_sha": "cae8d743bc9b33c82f95336a36b3381a15e8006a",
+  "_size": 3946,
   "appid": "4924030",
   "common": {
     "associations": {
@@ -28,9 +55,9 @@
     },
     "clienticon": "814b3bd3f775003f9e125b05e77802fa406a3cdd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4924030",
     "genres": {
       "0": "4",
@@ -101,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e0ee0c7a1429a9752604e5e1a9e1a602fd7a5155/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793367220",
     "store_asset_mtime": "1787818128",
     "store_tags": {
       "0": "3959",
@@ -126,5 +154,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Malleus",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Malleus.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4924031": {
+      "manifests": {
+        "internal-test": {
+          "download": "553966256",
+          "gid": "5302693927655021227",
+          "size": "2190227973"
+        },
+        "public": {
+          "download": "620655328",
+          "gid": "5426964775215021014",
+          "size": "2448340782"
+        }
+      }
+    },
+    "branches": {
+      "internal-test": {
+        "buildid": "24948486",
+        "description": "Testing branch",
+        "timebuildupdated": "1787744479",
+        "timeupdated": "1787744522"
+      },
+      "public": {
+        "buildid": "26253848",
+        "timebuildupdated": "1793133534",
+        "timeupdated": "1793133572"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Arkspire Studios",
+    "homepage": "https://sites.google.com/view/malleusgame/home",
+    "publisher": "Arkspire Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "2000000"
+  }
 }

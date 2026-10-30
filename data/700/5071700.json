@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792903324,
-  "_history": [],
-  "_change_number": 39910621,
-  "_missing_token": true,
-  "_sha": "0ca569dc4c009ca6a2bc2ef397fc2df35ad82c3d",
-  "_size": 3276,
+  "_lastChecked": 1793384033,
+  "_history": [
+    {
+      "buildId": "26323682",
+      "branch": "public",
+      "timeUpdated": 1793364982,
+      "firstSeen": 1793384033,
+      "manifests": {
+        "5071703": {
+          "gid": "5899561462381067482",
+          "size": 342930392,
+          "download": 272418944
+        },
+        "5071704": {
+          "gid": "95840304449899897",
+          "size": 317262000,
+          "download": 265778272
+        }
+      }
+    }
+  ],
+  "_change_number": 40423493,
+  "_missing_token": false,
+  "_sha": "157bc088c295798c383d5c577ef2ff4e340dc07f",
+  "_size": 5276,
   "appid": "5071700",
   "common": {
     "associations": {
@@ -35,7 +54,6 @@
     "clienticon": "c9b7c494c6ec79d6f50a5969a7c6f048f4368590",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5071700",
     "genres": {
       "0": "4",
@@ -111,7 +129,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "95304e0dcdeee9125b8c24e50cb6e4dd25e8cdb2/capsule_231x87.jpg"
     },
@@ -146,5 +164,111 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Bankshot!",
+    "launch": {
+      "0": {
+        "executable": "Bankshot.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65524",
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5071701": {},
+    "5071703": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "272418944",
+          "gid": "5899561462381067482",
+          "size": "342930392"
+        }
+      }
+    },
+    "5071704": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "265778272",
+          "gid": "95840304449899897",
+          "size": "317262000"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26323682",
+        "timebuildupdated": "1793364952",
+        "timeupdated": "1793364982"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Corvid Creative",
+    "publisher": "Corvid Creative"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "CorvidCreative/Bankshot/saves",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "CorvidCreative/Bankshot",
+        "pattern": "settings.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": ".local/share/CorvidCreative/Bankshot/saves",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      },
+      "3": {
+        "path": ".local/share/CorvidCreative/Bankshot",
+        "pattern": "settings.cfg",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

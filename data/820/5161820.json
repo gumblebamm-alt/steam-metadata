@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792945217,
-  "_history": [],
-  "_change_number": 40222177,
-  "_missing_token": true,
-  "_sha": "1bdf324b2aa6e83f7c45d33b87fac03356889841",
-  "_size": 4004,
+  "_lastChecked": 1793384036,
+  "_history": [
+    {
+      "buildId": "26325251",
+      "branch": "public",
+      "timeUpdated": 1793369409,
+      "firstSeen": 1793384036,
+      "manifests": {
+        "5161823": {
+          "gid": "730131684039232731",
+          "size": 172064152,
+          "download": 93511792
+        },
+        "5161824": {
+          "gid": "1417188882100175877",
+          "size": 136545512,
+          "download": 84831968
+        }
+      }
+    }
+  ],
+  "_change_number": 40424967,
+  "_missing_token": false,
+  "_sha": "086875e52213f6ddb5460da384c97053c5676a2e",
+  "_size": 5532,
   "appid": "5161820",
   "common": {
     "aicontenttype": "1",
@@ -39,9 +58,9 @@
     },
     "clienticon": "317a13c03ad6a3d62c5dfa98768efc23350745eb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5161820",
     "genres": {
       "0": "1",
@@ -112,10 +131,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9d89135aec1c65bc4b6e30b1bd32839d10ab3237/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793365247",
     "store_asset_mtime": "1792920972",
     "store_tags": {
       "0": "5363",
@@ -186,5 +206,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TRENCHWORMS",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Trenchworms.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Trenchworms.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5161823": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "93511792",
+          "gid": "730131684039232731",
+          "size": "172064152"
+        }
+      }
+    },
+    "5161824": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "84831968",
+          "gid": "1417188882100175877",
+          "size": "136545512"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26325251",
+        "timebuildupdated": "1793369339",
+        "timeupdated": "1793369409"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Walus Game Studio",
+    "publisher": "Walus Game Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Trenchworms",
+            "replace": "godot/app_userdata/Trenchworms"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Trenchworms",
+        "pattern": "vengeance_campaign.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

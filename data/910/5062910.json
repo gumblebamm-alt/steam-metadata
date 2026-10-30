@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1793077387,
-  "_history": [],
-  "_change_number": 40262192,
-  "_missing_token": true,
-  "_sha": "ab7d54bfe77c00b5bac84778a43d739bf46d01cd",
-  "_size": 3945,
+  "_lastChecked": 1793383985,
+  "_history": [
+    {
+      "buildId": "26317672",
+      "branch": "public",
+      "timeUpdated": 1793350341,
+      "firstSeen": 1793383919,
+      "manifests": {
+        "5062911": {
+          "gid": "7991275009578997106",
+          "size": null,
+          "download": null
+        },
+        "5062912": {
+          "gid": "8627377961485168489",
+          "size": 1540974291,
+          "download": 1523164544
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40414925,
+  "_missing_token": false,
+  "_sha": "eaa6453343aa614790b12472b8ecddc86a2db3e0",
+  "_size": 5658,
   "appid": "5062910",
   "common": {
     "aicontenttype": "1",
@@ -32,7 +52,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5062910",
     "genres": {
       "0": "1",
@@ -106,11 +125,14 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "89",
+    "review_score": "7",
     "small_capsule": {
       "english": "8714e1b21957889e61a1bcf4089e814af7ffe89c/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1788708282",
+    "steam_release_date": "1793055607",
+    "store_asset_mtime": "1792982020",
     "store_tags": {
       "0": "1720",
       "1": "3959",
@@ -119,6 +141,7 @@
       "12": "492",
       "13": "12057",
       "14": "1646",
+      "15": "7926",
       "2": "42804",
       "3": "4231",
       "4": "3964",
@@ -174,5 +197,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Life Is a Dungeon Lean into It",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "LifeIsADungeon.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "LifeIsADungeon.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5062911": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1515638496",
+          "gid": "7991275009578997106",
+          "size": "1523218102"
+        }
+      }
+    },
+    "5062912": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1523164544",
+          "gid": "8627377961485168489",
+          "size": "1540974291"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26317672",
+        "timebuildupdated": "1793345556",
+        "timeupdated": "1793350341"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Anonymous Works",
+    "publisher": "syn Sophia, Inc."
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "LifeIsADungeon/save",
+        "pattern": "*.lua",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

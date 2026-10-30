@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793252972,
-  "_history": [],
-  "_change_number": 40161549,
-  "_missing_token": true,
-  "_sha": "929663ad60c37cb610911eb60aed478187cf582d",
-  "_size": 3467,
+  "_lastChecked": 1793384029,
+  "_history": [
+    {
+      "buildId": "24763785",
+      "branch": "onlinetest",
+      "timeUpdated": 1786899059,
+      "firstSeen": 1793384029,
+      "manifests": {
+        "4956451": {
+          "gid": "1473276230101615460",
+          "size": 1207667644,
+          "download": 916442176
+        }
+      }
+    },
+    {
+      "buildId": "26298703",
+      "branch": "public",
+      "timeUpdated": 1793378116,
+      "firstSeen": 1793384029,
+      "manifests": {
+        "4956451": {
+          "gid": "5511417977349179739",
+          "size": 1655441188,
+          "download": 1348755072
+        }
+      }
+    }
+  ],
+  "_change_number": 40430454,
+  "_missing_token": false,
+  "_sha": "105fda8a49704553dda23587fb551e986deda541",
+  "_size": 5749,
   "appid": "4956450",
   "common": {
     "associations": {
@@ -46,9 +73,9 @@
     },
     "clienticon": "a95a336235db5202274b1a5aef00242f7ff2656b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4956450",
     "genres": {
       "0": "1",
@@ -122,10 +149,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "46d8d40aee96fada64441a70ed69b4d66561ebea/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1792412689",
     "store_tags": {
       "0": "3841",
@@ -157,5 +185,111 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lanelord",
+    "launch": {
+      "0": {
+        "executable": "ProjectR_2.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "1",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4956451": {
+      "manifests": {
+        "onlinetest": {
+          "download": "916442176",
+          "gid": "1473276230101615460",
+          "size": "1207667644"
+        },
+        "public": {
+          "download": "1348755072",
+          "gid": "5511417977349179739",
+          "size": "1655441188"
+        }
+      }
+    },
+    "branches": {
+      "onlinetest": {
+        "buildid": "24763785",
+        "description": "Lobby and Friend Invite Test",
+        "timebuildupdated": "1786899044",
+        "timeupdated": "1786899059"
+      },
+      "public": {
+        "buildid": "26298703",
+        "timebuildupdated": "1793281915",
+        "timeupdated": "1793378116"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Arctic Cabin Games",
+    "publisher": "Arctic Cabin Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "30",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "ProjectR_2/Saved/SaveGames",
+        "pattern": "CarCustomizations.sav",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "ProjectR_2/Saved/SaveGames",
+        "pattern": "CoinShop.sav",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "ProjectR_2/Saved/SaveGames",
+        "pattern": "ChaseRun.sav",
+        "root": "gameinstall"
+      },
+      "3": {
+        "path": "ProjectR_2/Saved/SaveGames",
+        "pattern": "AllTimeHighscore.sav",
+        "root": "gameinstall"
+      },
+      "4": {
+        "path": "ProjectR_2/Saved/SaveGames",
+        "pattern": "CarCustomizations.sav",
+        "root": "WinAppDataLocal"
+      },
+      "5": {
+        "path": "ProjectR_2/Saved/SaveGames",
+        "pattern": "CoinShop.sav",
+        "root": "WinAppDataLocal"
+      },
+      "6": {
+        "path": "ProjectR_2/Saved/SaveGames",
+        "pattern": "ChaseRun.sav",
+        "root": "WinAppDataLocal"
+      },
+      "7": {
+        "path": "ProjectR_2/Saved/SaveGames",
+        "pattern": "AllTimeHighscore.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

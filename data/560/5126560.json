@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792558115,
-  "_history": [],
-  "_change_number": 39970287,
-  "_missing_token": true,
-  "_sha": "25056ab2a7857691efc53f57ea21802011c8202d",
-  "_size": 3313,
+  "_lastChecked": 1793384035,
+  "_history": [
+    {
+      "buildId": "25772509",
+      "branch": "public",
+      "timeUpdated": 1791361374,
+      "firstSeen": 1793384035,
+      "manifests": {
+        "5126561": {
+          "gid": "737070500418649736",
+          "size": 194138336,
+          "download": 116042000
+        },
+        "5126563": {
+          "gid": "1933473547914159181",
+          "size": 159147136,
+          "download": 107544896
+        }
+      }
+    }
+  ],
+  "_change_number": 40425705,
+  "_missing_token": false,
+  "_sha": "079a8781cf01c9b54583a4ad4ca070bae457360a",
+  "_size": 4722,
   "appid": "5126560",
   "common": {
     "associations": {
@@ -23,8 +42,8 @@
     },
     "clienticon": "d6f8356f582b02d130e9eaa37c8a04fc000d3e47",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5126560",
     "genres": {
       "0": "4"
@@ -107,10 +126,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "215412424c24b2e9425b6a65832f65204f6cb535/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793370607",
     "store_asset_mtime": "1788856334",
     "store_tags": {
       "0": "597",
@@ -157,5 +177,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Knick",
+    "launch": {
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "knick.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "knick.x86_64",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5126561": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "116042000",
+          "gid": "737070500418649736",
+          "size": "194138336"
+        }
+      }
+    },
+    "5126563": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "107544896",
+          "gid": "1933473547914159181",
+          "size": "159147136"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25772509",
+        "timebuildupdated": "1791361345",
+        "timeupdated": "1791361374"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Proud Labs",
+    "publisher": "Proud Labs"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "KNICK",
+        "pattern": "knick-progress.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

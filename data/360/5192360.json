@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792284967,
-  "_history": [],
-  "_change_number": 39951437,
-  "_missing_token": true,
-  "_sha": "942aac0c600a05277b6a36a361d9b7488b8af7a3",
-  "_size": 10850,
+  "_lastChecked": 1793384037,
+  "_history": [
+    {
+      "buildId": "26022787",
+      "branch": "public",
+      "timeUpdated": 1792848422,
+      "firstSeen": 1793384037,
+      "manifests": {
+        "5192361": {
+          "gid": "4114262477771711073",
+          "size": 303274489,
+          "download": 120446336
+        },
+        "5192362": {
+          "gid": "3770623377995802253",
+          "size": 281926357,
+          "download": 109484016
+        },
+        "5192363": {
+          "gid": "2501239937999688079",
+          "size": 296824220,
+          "download": 111033264
+        }
+      }
+    }
+  ],
+  "_change_number": 40427314,
+  "_missing_token": false,
+  "_sha": "ec628bce63f0017d3105f26d45719102d31dd03b",
+  "_size": 12961,
   "appid": "5192360",
   "common": {
     "aicontenttype": "1",
@@ -20,12 +44,20 @@
     },
     "category": {
       "category_2": "1",
-      "category_62": "1"
+      "category_22": "1",
+      "category_23": "1",
+      "category_62": "1",
+      "category_67": "1",
+      "category_68": "1",
+      "category_69": "1",
+      "category_74": "1",
+      "category_78": "1",
+      "category_79": "1"
     },
     "clienticon": "bc79f30c4095f9f383a2980633aea384c3adeba3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5192360",
     "genres": {
       "0": "1",
@@ -47,6 +79,21 @@
       "vietnamese": "e02bc87c2e7dbfd360b533f4af94763e81f92aff/header_vietnamese.jpg"
     },
     "icon": "f0d8dcd2ed2d279729aac27d8687cd3dd65ef0df",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "indonesian": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1",
+      "tchinese": "1",
+      "thai": "1",
+      "vietnamese": "1"
+    },
     "library_assets": {
       "library_capsule": "en,ar,pt-br,fr,de,ja,ko,ru,zh-cn,es,zh-tw,vi",
       "library_header": "en,ar,pt-br,fr,de,ja,ko,ru,zh-cn,es,zh-tw,vi",
@@ -174,7 +221,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "arabic": "46a1bbd0510d84e578d08200141d6a568ddfe74e/capsule_231x87_arabic.jpg",
       "brazilian": "46a1bbd0510d84e578d08200141d6a568ddfe74e/capsule_231x87_brazilian.jpg",
@@ -245,5 +292,96 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lead the Charge",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "LeadTheCharge.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Lead the Charge.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "LeadTheCharge.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5192361": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "120446336",
+          "gid": "4114262477771711073",
+          "size": "303274489"
+        }
+      }
+    },
+    "5192362": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "109484016",
+          "gid": "3770623377995802253",
+          "size": "281926357"
+        }
+      }
+    },
+    "5192363": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "111033264",
+          "gid": "2501239937999688079",
+          "size": "296824220"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,english,french,german,japanese,koreana,russian,schinese,spanish,tchinese,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "26022787",
+        "timebuildupdated": "1792312094",
+        "timeupdated": "1792848422"
+      }
+    }
+  },
+  "extended": {
+    "developer": "BT Studio",
+    "publisher": "BT Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000"
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792603057,
-  "_history": [],
-  "_change_number": 39944907,
-  "_missing_token": true,
-  "_sha": "7b74a6f0a943d60ad7f067330e46ebb633f3e292",
-  "_size": 3375,
+  "_lastChecked": 1793384038,
+  "_history": [
+    {
+      "buildId": "26329861",
+      "branch": "public",
+      "timeUpdated": 1793381439,
+      "firstSeen": 1793384038,
+      "manifests": {
+        "5230771": {
+          "gid": "3229109184463131705",
+          "size": 219401168,
+          "download": 109877824
+        },
+        "5230772": {
+          "gid": "2956357756254494545",
+          "size": 223688078,
+          "download": 80106448
+        }
+      }
+    }
+  ],
+  "_change_number": 40432504,
+  "_missing_token": false,
+  "_sha": "bc1d21787ec3d6e971d0ebdc27a2fd414ceb8b90",
+  "_size": 5022,
   "appid": "5230770",
   "common": {
     "associations": {
@@ -31,6 +50,7 @@
     },
     "clienticon": "969e267f9358fa688ba6ec9f81b8cb89f7ed4700",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -46,7 +66,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "5230770",
     "genres": {
       "0": "4",
@@ -120,30 +139,32 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "625c70af7b99094f39aea36201eea56a178f8f23/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793378025",
     "store_asset_mtime": "1792260618",
     "store_tags": {
-      "0": "9626",
-      "1": "4845",
-      "10": "5923",
-      "11": "492",
-      "12": "493",
-      "13": "597",
+      "0": "255534",
+      "1": "3810",
+      "10": "4191",
+      "11": "3839",
+      "12": "597",
+      "13": "493",
       "14": "4195",
       "15": "4252",
       "16": "8945",
       "17": "4182",
-      "2": "12472",
-      "3": "599",
-      "4": "255534",
-      "5": "3810",
-      "6": "3968",
-      "7": "87918",
-      "8": "4191",
-      "9": "3839"
+      "18": "35079",
+      "2": "9626",
+      "3": "492",
+      "4": "12472",
+      "5": "3968",
+      "6": "5923",
+      "7": "599",
+      "8": "4845",
+      "9": "87918"
     },
     "supported_languages": {
       "english": {
@@ -152,5 +173,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mr Chicken's Totally Ethical Farm!",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MCTEF.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MCTEF.app"
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5230771": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "109877824",
+          "gid": "3229109184463131705",
+          "size": "219401168"
+        }
+      }
+    },
+    "5230772": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "80106448",
+          "gid": "2956357756254494545",
+          "size": "223688078"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26329861",
+        "timebuildupdated": "1793381371",
+        "timeupdated": "1793381439"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Mr. Chicken",
+    "homepage": "https://totallyethicalfarm.com",
+    "publisher": "Mr. Chicken"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Mr. Chicken's Totally Ethical Farm",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Mr. Chicken's Totally Ethical Farm",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

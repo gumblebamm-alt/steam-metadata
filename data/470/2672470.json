@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1792501339,
+  "_lastChecked": 1793383997,
   "_history": [
+    {
+      "buildId": "26318654",
+      "branch": "public",
+      "timeUpdated": 1793357790,
+      "firstSeen": 1793383997,
+      "manifests": {
+        "2672471": {
+          "gid": "8291072116418636324",
+          "size": 1841592732,
+          "download": 1412292048
+        },
+        "2672472": {
+          "gid": "8433024163545508498",
+          "size": 956201156,
+          "download": 938560800
+        }
+      }
+    },
     {
       "buildId": "25915737",
       "branch": "public",
@@ -80,10 +98,10 @@
       }
     }
   ],
-  "_change_number": 40039111,
+  "_change_number": 40421703,
   "_missing_token": false,
-  "_sha": "9f3b25aeb4d69b354f31928ff1271cc1131d95e9",
-  "_size": 5837,
+  "_sha": "da4491e4ee5b1928bcd2be1cbac59c8f61f6a357",
+  "_size": 6843,
   "appid": "2672470",
   "common": {
     "associations": {
@@ -100,7 +118,7 @@
       "category_2": "1",
       "category_22": "1",
       "category_25": "1",
-      "category_53": "1",
+      "category_54": "1",
       "category_62": "1",
       "category_67": "1",
       "category_68": "1",
@@ -187,8 +205,9 @@
     "onlyvrsupport": "1",
     "openxrsupport": "1",
     "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,android",
     "primary_genre": "1",
     "releasestate": "released",
     "review_percentage": "98",
@@ -223,6 +242,48 @@
         "0": {
           "display": "2",
           "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+        }
+      }
+    },
+    "steam_frame_compatibility": {
+      "category": "3",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "lepton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1792075059",
+      "tested_build_id": "25257007",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsPerformant"
         }
       }
     },
@@ -288,7 +349,6 @@
       },
       "1": {
         "config": {
-          "betakey": "beta-frame",
           "oslist": "android"
         },
         "executable": "Unloop.apk",
@@ -313,36 +373,30 @@
     },
     "2672471": {
       "manifests": {
-        "beta_test": {
-          "download": "1412273648",
-          "gid": "4750526647705785129",
-          "size": "1841586588"
-        },
         "public": {
-          "download": "1546754112",
-          "gid": "7179909875388572705",
-          "size": "1977727378"
+          "download": "1412292048",
+          "gid": "8291072116418636324",
+          "size": "1841592732"
         }
       }
     },
     "2672472": {
       "config": {
-        "osarch": "64",
         "oslist": "android"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "938560800",
+          "gid": "8433024163545508498",
+          "size": "956201156"
+        }
+      }
     },
     "branches": {
-      "beta_test": {
-        "buildid": "25295489",
-        "description": "Release Candidate",
-        "timebuildupdated": "1789374459",
-        "timeupdated": "1789548575"
-      },
       "public": {
-        "buildid": "25915737",
-        "timebuildupdated": "1791918142",
-        "timeupdated": "1791918427"
+        "buildid": "26318654",
+        "timebuildupdated": "1793349422",
+        "timeupdated": "1793357790"
       }
     },
     "privatebranches": "1"

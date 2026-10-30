@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793077387,
-  "_history": [],
-  "_change_number": 40072272,
-  "_missing_token": true,
-  "_sha": "0a43dbedb60b6fa0bc7273eb6476447b21a5ad15",
-  "_size": 3103,
+  "_lastChecked": 1793384033,
+  "_history": [
+    {
+      "buildId": "26317202",
+      "branch": "public",
+      "timeUpdated": 1793348279,
+      "firstSeen": 1793384033,
+      "manifests": {
+        "5069991": {
+          "gid": "9197287305726955546",
+          "size": 425576578,
+          "download": 230939856
+        }
+      }
+    }
+  ],
+  "_change_number": 40415983,
+  "_missing_token": false,
+  "_sha": "08dcf78015c0d5d297d14948f9dc78866dbefaa5",
+  "_size": 4158,
   "appid": "5069990",
   "common": {
     "aicontenttype": "2",
@@ -34,7 +48,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5069990",
     "genres": {
       "0": "4",
@@ -110,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bc3b340acc5709f9635fddadccad72c4e340f8d9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793352635",
     "store_asset_mtime": "1791645251",
     "store_tags": {
       "0": "597",
@@ -138,5 +152,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "古今東西ダービー",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "kondabi.exe",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5069991": {
+      "config": {
+        "language": "japanese",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "230939856",
+          "gid": "9197287305726955546",
+          "size": "425576578"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "26317202",
+        "timebuildupdated": "1793343650",
+        "timeupdated": "1793348279"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Neo Enigmaniax",
+    "publisher": "Neo Enigmaniax"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "kondabi",
+        "pattern": "save.dat",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

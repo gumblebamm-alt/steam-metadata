@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792816680,
-  "_history": [],
-  "_change_number": 40188457,
-  "_missing_token": true,
-  "_sha": "ee63f55a8e100cf9bce06ed69986f0d6028b8f39",
-  "_size": 4932,
+  "_lastChecked": 1793384033,
+  "_history": [
+    {
+      "buildId": "26326540",
+      "branch": "public",
+      "timeUpdated": 1793372664,
+      "firstSeen": 1793384033,
+      "manifests": {
+        "5056391": {
+          "gid": "6446958669217304543",
+          "size": 211707237,
+          "download": 136214848
+        },
+        "5056392": {
+          "gid": "6528360263429915893",
+          "size": 233451029,
+          "download": 143226800
+        },
+        "5056393": {
+          "gid": "229559782637450516",
+          "size": 201592533,
+          "download": 131971232
+        }
+      }
+    }
+  ],
+  "_change_number": 40431361,
+  "_missing_token": false,
+  "_sha": "d8a93dcf6c141b90164cb68d4045cdfc8c5244a9",
+  "_size": 7559,
   "appid": "5056390",
   "common": {
     "associations": {
@@ -32,6 +56,7 @@
     "clienticns": "55d5c58b3eea4d96822aa037cd44d2eff1da1dd4",
     "clienticon": "2c0b9ea6aaff761b1065f534be37a9b79ded67f1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -41,7 +66,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5056390",
     "genres": {
       "0": "25"
@@ -132,12 +156,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d4211d5d14419edf492ea24ec48484fb278cf151/capsule_231x87.jpg",
       "japanese": "1168485bf4c8a4936e5dcf152d5b384c1e7df9c1/capsule_231x87_japanese.jpg",
       "schinese": "683243f37e531a9e3065b8b386ca1f7f6a60aa44/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1793379610",
     "store_asset_mtime": "1792633216",
     "store_tags": {
       "0": "1667",
@@ -177,5 +202,141 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dead of the Brain",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Dead of the Brain.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Dead of the Brain.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Dead of the Brain.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5056391": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "136214848",
+          "gid": "6446958669217304543",
+          "size": "211707237"
+        }
+      }
+    },
+    "5056392": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "143226800",
+          "gid": "6528360263429915893",
+          "size": "233451029"
+        }
+      }
+    },
+    "5056393": {
+      "manifests": {
+        "public": {
+          "download": "131971232",
+          "gid": "229559782637450516",
+          "size": "201592533"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26326540",
+        "timebuildupdated": "1793372664",
+        "timeupdated": "1793372664"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "FairyTale",
+    "publisher": "FAKKU"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "PCX/DeadoftheBrain",
+            "replace": "Library/PCX/DeadoftheBrain"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacHome"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "PCX/DeadoftheBrain",
+            "replace": ".pcx/DeadoftheBrain"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "PCX/DeadoftheBrain",
+        "pattern": "*.sav",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "PCX/DeadoftheBrain",
+        "pattern": "persistent",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "PCX/DeadoftheBrain",
+        "pattern": "FLAG*",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "PCX/DeadoftheBrain",
+        "pattern": "NAME.DEF",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "PCX/DeadoftheBrain",
+        "pattern": "pcx-save-keys.txt",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "PCX/DeadoftheBrain",
+        "pattern": "*.bin",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

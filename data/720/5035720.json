@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791982446,
-  "_history": [],
-  "_change_number": 39683621,
-  "_missing_token": true,
-  "_sha": "4206f327c3097bbd4d0584e96bc8da1b66cfc9ed",
-  "_size": 4322,
+  "_lastChecked": 1793384032,
+  "_history": [
+    {
+      "buildId": "26297601",
+      "branch": "public",
+      "timeUpdated": 1793332617,
+      "firstSeen": 1793384032,
+      "manifests": {
+        "5035721": {
+          "gid": "7556636762475728118",
+          "size": 334449398,
+          "download": 173743664
+        }
+      }
+    }
+  ],
+  "_change_number": 40410821,
+  "_missing_token": false,
+  "_sha": "87c34a42d5e3d54aacbac260fcc7068d3a038fc6",
+  "_size": 5629,
   "appid": "5035720",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "562e5286b62ff0086cb3278b49542242e47d6260",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5035720",
     "genres": {
       "0": "4",
@@ -115,15 +129,20 @@
       }
     },
     "name": "开缸大吉",
+    "name_localized": {
+      "english": "Tank of the Fittest",
+      "schinese": " 开缸大吉"
+    },
     "osarch": "",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "120873c1191b696e9b75c94deec0ac7a240c80d0/capsule_231x87.jpg",
       "schinese": "2f20a76fc20a17431605adc3351afc0fbf4eaa2a/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1791602695",
     "store_tags": {
       "0": "597",
@@ -181,5 +200,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "开缸大吉",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Tank of the Fittest.exe"
+      }
+    }
+  },
+  "depots": {
+    "5035721": {
+      "manifests": {
+        "public": {
+          "download": "173743664",
+          "gid": "7556636762475728118",
+          "size": "334449398"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26297601",
+        "timebuildupdated": "1793278782",
+        "timeupdated": "1793332617"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Wuhan Wind Tunnel Network Technology Co., Ltd.",
+    "publisher": "Wuhan Wind Tunnel Network Technology Co., Ltd."
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "30485760",
+    "savefiles": {
+      "0": {
+        "path": "FengdongNetwork/Tank of the Fittest/SaveData/{64BitSteamID}",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "FengdongNetwork/Tank of the Fittest/SaveData/{64BitSteamID}",
+        "pattern": "save.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

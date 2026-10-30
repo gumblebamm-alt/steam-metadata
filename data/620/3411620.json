@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793339309,
-  "_history": [],
-  "_change_number": 40400650,
-  "_missing_token": true,
-  "_sha": "cfbfb020ddb6b2e2f666f7174516c4120b89e73d",
-  "_size": 3223,
+  "_lastChecked": 1793384004,
+  "_history": [
+    {
+      "buildId": "26322832",
+      "branch": "public",
+      "timeUpdated": 1793364532,
+      "firstSeen": 1793384004,
+      "manifests": {
+        "3411621": {
+          "gid": "1374455992293438013",
+          "size": 769008678,
+          "download": 163669744
+        },
+        "3411622": {
+          "gid": "3762564177922503330",
+          "size": 766151958,
+          "download": 160950704
+        },
+        "3411623": {
+          "gid": "6369939860769917332",
+          "size": 805871626,
+          "download": 170062224
+        }
+      }
+    }
+  ],
+  "_change_number": 40433648,
+  "_missing_token": false,
+  "_sha": "ca61d260ba550b3fee68d9051fdcc1724ced86a1",
+  "_size": 5423,
   "appid": "3411620",
   "common": {
     "associations": {
@@ -31,8 +55,8 @@
     "clienticns": "dafd372416a62c97605966d4f014e0af0cf041bb",
     "clienticon": "dafd372416a62c97605966d4f014e0af0cf041bb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3411620",
     "genres": {
       "0": "23",
@@ -104,10 +128,11 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "62ee91de1d62f2fd53a8f7488f08b2a8162cbd3a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793383236",
     "store_asset_mtime": "1793312102",
     "store_tags": {
       "0": "1091588",
@@ -144,5 +169,119 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TilesOfGrimmwoods",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TilesOfGrimmwoods.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "TilesOfGrimmwoods.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "TilesOfGrimmwoods.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3411621": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "163669744",
+          "gid": "1374455992293438013",
+          "size": "769008678"
+        }
+      }
+    },
+    "3411622": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "160950704",
+          "gid": "3762564177922503330",
+          "size": "766151958"
+        }
+      }
+    },
+    "3411623": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "170062224",
+          "gid": "6369939860769917332",
+          "size": "805871626"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26322832",
+        "timebuildupdated": "1793362501",
+        "timeupdated": "1793364532"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "ArchLevel",
+    "homepage": "https://www.archlevel.ch/",
+    "publisher": "ArchLevel"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ArchLevel/TilesOfGrimmwoods",
+            "replace": ".config/unity3d/ArchLevel/TilesOfGrimmwoods"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ArchLevel/TilesOfGrimmwoods",
+            "replace": "ArchLevel/TilesOfGrimmwoods"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ArchLevel/TilesOfGrimmwoods",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

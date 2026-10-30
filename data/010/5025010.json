@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793339327,
-  "_history": [],
-  "_change_number": 40403311,
-  "_missing_token": true,
-  "_sha": "0fa5f7d5d22439a6f31de7b9a64e0557184341ca",
-  "_size": 5955,
+  "_lastChecked": 1793384031,
+  "_history": [
+    {
+      "buildId": "26329902",
+      "branch": "beta",
+      "timeUpdated": 1793382527,
+      "firstSeen": 1793384031,
+      "manifests": {
+        "5025011": {
+          "gid": "2848143736468861524",
+          "size": 493807067,
+          "download": 192612208
+        }
+      }
+    },
+    {
+      "buildId": "26327056",
+      "branch": "public",
+      "timeUpdated": 1793374163,
+      "firstSeen": 1793384031,
+      "manifests": {
+        "5025011": {
+          "gid": "8652613592046460277",
+          "size": 493802699,
+          "download": 192612480
+        }
+      }
+    }
+  ],
+  "_change_number": 40433173,
+  "_missing_token": false,
+  "_sha": "cea1d56a654fff05b93879970db306aa65f6eeb6",
+  "_size": 7137,
   "appid": "5025010",
   "common": {
     "aicontenttype": "1",
@@ -19,6 +46,7 @@
       }
     },
     "category": {
+      "category_15": "1",
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
@@ -41,9 +69,9 @@
     },
     "clienticon": "d631a3629368da638ecfdb78a5466ce3cf60a014",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5025010",
     "genres": {
       "0": "4",
@@ -147,11 +175,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "ff1d08c428a563cbc8cf4dc0a87fe8b06f0ae802/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793315414",
+    "steam_release_date": "1793363374",
+    "store_asset_mtime": "1793347602",
     "store_tags": {
       "0": "87918",
       "1": "599",
@@ -298,5 +329,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Farm to Fortune",
+    "launch": {
+      "0": {
+        "executable": "FarmToFortune.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5025011": {
+      "manifests": {
+        "beta": {
+          "download": "192612208",
+          "gid": "2848143736468861524",
+          "size": "493807067"
+        },
+        "public": {
+          "download": "192612480",
+          "gid": "8652613592046460277",
+          "size": "493802699"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26329902",
+        "description": "beta",
+        "timebuildupdated": "1793381463",
+        "timeupdated": "1793382527"
+      },
+      "public": {
+        "buildid": "26327056",
+        "timebuildupdated": "1793373950",
+        "timeupdated": "1793374163"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Ctrl Alt Defeat",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5128060",
+    "publisher": "Delayed Victory"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Farm to Fortune",
+        "pattern": "*",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

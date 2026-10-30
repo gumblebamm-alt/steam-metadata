@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793040147,
-  "_history": [],
-  "_change_number": 40251460,
-  "_missing_token": true,
-  "_sha": "c87aa4d79008daf8999aa1f69402a47b8d4df239",
-  "_size": 3709,
+  "_lastChecked": 1793384013,
+  "_history": [
+    {
+      "buildId": "26329191",
+      "branch": "public",
+      "timeUpdated": 1793379564,
+      "firstSeen": 1793384013,
+      "manifests": {
+        "4149591": {
+          "gid": "179718236494362083",
+          "size": 1693573105,
+          "download": 1264446576
+        }
+      }
+    }
+  ],
+  "_change_number": 40433633,
+  "_missing_token": false,
+  "_sha": "0ece16073891ec563afb1b245a0207f31aeb712b",
+  "_size": 4879,
   "appid": "4149590",
   "common": {
     "associations": {
@@ -33,6 +47,7 @@
     },
     "clienticon": "3bdd8dfef3c4e94694e6da5a7dd4d6fb3947f9b9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -42,7 +57,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "4149590",
     "genres": {
       "0": "1",
@@ -116,10 +130,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d686c844c84e4e88fd80807bd2b48f122698af41/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793430000",
     "store_asset_mtime": "1791204442",
     "store_tags": {
       "0": "1667",
@@ -177,5 +192,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Project Exodus",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ProjectM.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4149591": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1264446576",
+          "gid": "179718236494362083",
+          "size": "1693573105"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26329191",
+        "timebuildupdated": "1793379531",
+        "timeupdated": "1793379564"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Astrox",
+    "publisher": "Astrox"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "ProjectM/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

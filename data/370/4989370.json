@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793211944,
-  "_history": [],
-  "_change_number": 40342989,
-  "_missing_token": true,
-  "_sha": "e9bce92b4fd54cd2e9bdafda71026bcedf532052",
-  "_size": 3436,
+  "_lastChecked": 1793384030,
+  "_history": [
+    {
+      "buildId": "26160673",
+      "branch": "public",
+      "timeUpdated": 1792760283,
+      "firstSeen": 1793384030,
+      "manifests": {
+        "4989371": {
+          "gid": "4457310416606987548",
+          "size": 250164133,
+          "download": 159100048
+        }
+      }
+    }
+  ],
+  "_change_number": 40421077,
+  "_missing_token": false,
+  "_sha": "dfc2002ecfe8deda653acc953813708e6ce6a524",
+  "_size": 4831,
   "appid": "4989370",
   "common": {
     "aicontenttype": "1",
@@ -41,6 +55,7 @@
     },
     "clienticon": "27aa17c110b55e4191be4eb01b2703c326adfca3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -49,7 +64,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4989370",
     "genres": {
       "0": "23",
@@ -120,10 +134,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6a5f602eac7e928fbb39c63e599c4a76277e286c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793362547",
     "store_asset_mtime": "1789676750",
     "store_tags": {
       "0": "11014",
@@ -155,5 +170,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Witch's Last Curse",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "WitchsLastCurse.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4989371": {
+      "manifests": {
+        "public": {
+          "download": "159100048",
+          "gid": "4457310416606987548",
+          "size": "250164133"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26160673",
+        "timebuildupdated": "1792760115",
+        "timeupdated": "1792760283"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Granitefire Games",
+    "publisher": "Granitefire Games"
+  },
+  "ufs": {
+    "maxnumfiles": "256",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "WitchsLastCurse/saves",
+        "pattern": "autosave.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "WitchsLastCurse",
+        "pattern": "achievements.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "WitchsLastCurse/saves",
+        "pattern": "slot_*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "WitchsLastCurse",
+        "pattern": "scoreboard.json",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "WitchsLastCurse",
+        "pattern": "\tprogress.json",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793166266,
+  "_lastChecked": 1793384033,
   "_history": [
     {
       "buildId": "26199117",
@@ -27,12 +27,38 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26327234",
+      "branch": "public",
+      "timeUpdated": 1793374519,
+      "firstSeen": 1793384033,
+      "manifests": {
+        "5074471": {
+          "gid": "2034170072248907876",
+          "size": 224686690,
+          "download": 70533264
+        }
+      }
+    },
+    {
+      "buildId": "26324526",
+      "branch": "test",
+      "timeUpdated": 1793367353,
+      "firstSeen": 1793384033,
+      "manifests": {
+        "5074471": {
+          "gid": "5825103449937030519",
+          "size": 223587175,
+          "download": 70512400
+        }
+      }
     }
   ],
-  "_change_number": 40299791,
+  "_change_number": 40428165,
   "_missing_token": false,
-  "_sha": "2e217651ee3e68b676e8ebabc2b2637d304ee88a",
-  "_size": 10471,
+  "_sha": "c181a78b54834bc994bd5ebadf6995396941034b",
+  "_size": 10938,
   "appid": "5074470",
   "common": {
     "aicontenttype": "1",
@@ -54,6 +80,7 @@
       "category_1": "1",
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_36": "1",
       "category_38": "1",
       "category_47": "1",
@@ -212,7 +239,7 @@
     "oslist": "windows",
     "primary_genre": "25",
     "releasestate": "released",
-    "review_percentage": "100",
+    "review_percentage": "97",
     "review_score": "7",
     "small_capsule": {
       "english": "731126c6285620656f0e72e8fead6f0c8b96142f/capsule_231x87.jpg",
@@ -301,17 +328,28 @@
     "5074471": {
       "manifests": {
         "public": {
-          "download": "70327952",
-          "gid": "8895275082137048644",
-          "size": "222044962"
+          "download": "70533264",
+          "gid": "2034170072248907876",
+          "size": "224686690"
+        },
+        "test": {
+          "download": "70512400",
+          "gid": "5825103449937030519",
+          "size": "223587175"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26245423",
-        "timebuildupdated": "1793110343",
-        "timeupdated": "1793110362"
+        "buildid": "26327234",
+        "timebuildupdated": "1793374498",
+        "timeupdated": "1793374519"
+      },
+      "test": {
+        "buildid": "26324526",
+        "description": "测试版本",
+        "timebuildupdated": "1793367346",
+        "timeupdated": "1793367353"
       }
     },
     "nocommonredists": "1"
@@ -322,6 +360,16 @@
   },
   "ufs": {
     "maxnumfiles": "20",
-    "quota": "1000000"
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "DefaultCompany/StellarEmbers",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

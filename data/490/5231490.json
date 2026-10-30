@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793339332,
-  "_history": [],
-  "_change_number": 40400499,
-  "_missing_token": true,
-  "_sha": "7263ab4c751346b95262864afe74d39bd59c9303",
-  "_size": 3564,
+  "_lastChecked": 1793384038,
+  "_history": [
+    {
+      "buildId": "26321091",
+      "branch": "public",
+      "timeUpdated": 1793357257,
+      "firstSeen": 1793384038,
+      "manifests": {
+        "5231491": {
+          "gid": "7135447570281509973",
+          "size": 834081449,
+          "download": 254646176
+        },
+        "5231492": {
+          "gid": "1188900316252843324",
+          "size": 854776165,
+          "download": 264157152
+        }
+      }
+    }
+  ],
+  "_change_number": 40419751,
+  "_missing_token": false,
+  "_sha": "44f9573f4add902237f099322323c925b94597da",
+  "_size": 5011,
   "appid": "5231490",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +49,8 @@
     },
     "clienticon": "a99dfa0b75add146f58abef4a1539f0c6841ef47",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5231490",
     "genres": {
       "0": "4",
@@ -114,11 +133,12 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "155a69e5e87e70262a15283cb6d2c3359d00c6ec/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793310402",
+    "steam_release_date": "1793358090",
+    "store_asset_mtime": "1793359885",
     "store_tags": {
       "0": "1643",
       "1": "1702",
@@ -166,5 +186,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bloom Above",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Wanderisles.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Wanderisles.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5231491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "254646176",
+          "gid": "7135447570281509973",
+          "size": "834081449"
+        }
+      }
+    },
+    "5231492": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "264157152",
+          "gid": "1188900316252843324",
+          "size": "854776165"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26321091",
+        "timebuildupdated": "1793357185",
+        "timeupdated": "1793357257"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Krabbe Studios",
+    "homepage": "https://www.krabbestudios.com",
+    "publisher": "Krabbe Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Krabbe Studios/Bloom Above",
+        "pattern": "garden-v1.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

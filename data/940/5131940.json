@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792371645,
-  "_history": [],
-  "_change_number": 39355075,
-  "_missing_token": true,
-  "_sha": "85a1e407d91e318a96fb78bc11b8dbc71034a6d3",
-  "_size": 4318,
+  "_lastChecked": 1793384035,
+  "_history": [
+    {
+      "buildId": "26303432",
+      "branch": "public",
+      "timeUpdated": 1793294344,
+      "firstSeen": 1793384035,
+      "manifests": {
+        "5131941": {
+          "gid": "8156237560527080865",
+          "size": 294364627,
+          "download": 230787040
+        }
+      }
+    }
+  ],
+  "_change_number": 40431496,
+  "_missing_token": false,
+  "_sha": "9c69cb3711d4fcc43bf506d2f5e2a5210cd92171",
+  "_size": 5366,
   "appid": "5131940",
   "common": {
     "aicontenttype": "1",
@@ -36,8 +50,8 @@
     },
     "clienticon": "6c79a703f1d5abcaf50db21fa0fe39c55e6781e8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5131940",
     "genres": {
       "0": "4",
@@ -122,10 +136,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "977fcbfdac51894c7c9bffd77ea4a4478f8ba46d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793379676",
     "store_asset_mtime": "1788859939",
     "store_tags": {
       "0": "5652",
@@ -202,5 +217,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HarvestExitPlan",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "HarvestExitPlan.exe"
+      }
+    }
+  },
+  "depots": {
+    "5131941": {
+      "manifests": {
+        "public": {
+          "download": "230787040",
+          "gid": "8156237560527080865",
+          "size": "294364627"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26303432",
+        "timebuildupdated": "1793294325",
+        "timeupdated": "1793294344"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Nicholas Schmitz",
+    "publisher": "Nicholas Schmitz"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "20000000",
+    "savefiles": {
+      "0": {
+        "path": "HarvestExitPlan",
+        "pattern": "savegame.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "HarvestExitPlan",
+        "pattern": "savegame.dat.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

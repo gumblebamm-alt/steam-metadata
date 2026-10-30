@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793298804,
-  "_history": [],
-  "_change_number": 40393641,
-  "_missing_token": true,
-  "_sha": "bd061ce89d16e52911af739817aebf3fec48b0f7",
-  "_size": 4758,
+  "_lastChecked": 1793384030,
+  "_history": [
+    {
+      "buildId": "26328053",
+      "branch": "public",
+      "timeUpdated": 1793376652,
+      "firstSeen": 1793384030,
+      "manifests": {
+        "4967581": {
+          "gid": "956169768181482179",
+          "size": 252439247,
+          "download": 136416064
+        },
+        "4967582": {
+          "gid": "1605134266816990875",
+          "size": 429224497,
+          "download": 243995056
+        }
+      }
+    }
+  ],
+  "_change_number": 40429532,
+  "_missing_token": false,
+  "_sha": "213958f04fb9ac63e1429e52e2db058d869445ae",
+  "_size": 6968,
   "appid": "4967580",
   "common": {
     "aicontenttype": "1",
@@ -38,8 +57,8 @@
     "clienticns": "eef5743f997cdd9928d71fb208b5eadaaf425d42",
     "clienticon": "4a99e6537a6a4131e1aed36b121c818add0c1fd0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4967580",
     "genres": {
       "0": "23",
@@ -134,11 +153,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c09a9ddaaf6f107a50ff9ceddb09565e10d69975/capsule_231x87.jpg",
       "schinese": "3638aab90249acceb46ae52b142d034f28965583/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1793370074",
     "store_asset_mtime": "1792069237",
     "store_tags": {
       "0": "9",
@@ -187,5 +207,112 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Battle Bot Tactics",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Battle Bot Tactics.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Battle Bot Tactics.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4967581": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "136416064",
+          "gid": "956169768181482179",
+          "size": "252439247"
+        }
+      }
+    },
+    "4967582": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "243995056",
+          "gid": "1605134266816990875",
+          "size": "429224497"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26328053",
+        "timebuildupdated": "1793376652",
+        "timeupdated": "1793376652"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "OddEngine",
+    "homepage": "https://battlebottactics.odd-engine.com/",
+    "publisher": "OddEngine"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "BattleBotTactics",
+        "pattern": "battle_bot_tactics_save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "BattleBotTactics",
+        "pattern": "battle_bot_tactics_save.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "BattleBotTactics",
+        "pattern": "battle_bot_tactics_profile.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "BattleBotTactics",
+        "pattern": "demo_import_done",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "BattleBotTacticsDemo",
+        "pattern": "battle_bot_tactics_save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "BattleBotTacticsDemo",
+        "pattern": "battle_bot_tactics_save.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "BattleBotTacticsDemo",
+        "pattern": "battle_bot_tactics_profile.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

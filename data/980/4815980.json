@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792603035,
-  "_history": [],
-  "_change_number": 40075527,
-  "_missing_token": true,
-  "_sha": "c03fac6a297566cef1958bc0787fba4b1265ed31",
-  "_size": 5922,
+  "_lastChecked": 1793384025,
+  "_history": [
+    {
+      "buildId": "26317488",
+      "branch": "public",
+      "timeUpdated": 1793344769,
+      "firstSeen": 1793384025,
+      "manifests": {
+        "4815981": {
+          "gid": "1410459922603520149",
+          "size": 1085765335,
+          "download": 414505840
+        }
+      }
+    }
+  ],
+  "_change_number": 40412942,
+  "_missing_token": false,
+  "_sha": "77be4a68c9d782b1590ce3cda20b854fee1274b8",
+  "_size": 6996,
   "appid": "4815980",
   "common": {
     "associations": {
@@ -38,9 +52,9 @@
     },
     "clienticon": "bfb57deab1f543eb916417d633f8b5e880327116",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4815980",
     "genres": {
       "0": "4",
@@ -145,10 +159,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "659a6bfa52cc42979c3a920caa301328746bee8d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793345565",
     "store_asset_mtime": "1788168827",
     "store_tags": {
       "0": "560542",
@@ -294,5 +309,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Return to Planet Zoveka",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Return to Planet Zoveka.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4815981": {
+      "manifests": {
+        "public": {
+          "download": "414505840",
+          "gid": "1410459922603520149",
+          "size": "1085765335"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26317488",
+        "timebuildupdated": "1793344704",
+        "timeupdated": "1793344769"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Invantage Studios",
+    "homepage": "https://impress.games/press-kit/invantage-studios/return-to-planet-zoveka",
+    "publisher": "Invantage Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "Invantage/Return to Planet Zoveka/ReleaseVariants/full_game/Saves",
+        "pattern": "save_slot_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

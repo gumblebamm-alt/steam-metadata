@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793211916,
-  "_history": [],
-  "_change_number": 40258908,
-  "_missing_token": true,
-  "_sha": "e4e25e79775479b642ab00986265e3c64dd50581",
-  "_size": 3878,
+  "_lastChecked": 1793384003,
+  "_history": [
+    {
+      "buildId": "26322063",
+      "branch": "public",
+      "timeUpdated": 1793361724,
+      "firstSeen": 1793384003,
+      "manifests": {
+        "3347911": {
+          "gid": "7631868582676072378",
+          "size": 1130626087,
+          "download": 245338656
+        },
+        "3347912": {
+          "gid": "933742392695652460",
+          "size": 1150100681,
+          "download": 251748192
+        }
+      }
+    }
+  ],
+  "_change_number": 40422617,
+  "_missing_token": false,
+  "_sha": "6ca45b2cacd11785012bc3c1e5a721d09473577b",
+  "_size": 5616,
   "appid": "3347910",
   "common": {
     "associations": {
@@ -39,9 +58,9 @@
     },
     "clienticon": "eba3583b4b678a1d9428142bfce5bc025e53803f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3347910",
     "genres": {
       "0": "1",
@@ -125,11 +144,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "198ca56fb49080fb6d2fa715396bde4dfe063785/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792575809",
+    "steam_release_date": "1793365215",
+    "store_asset_mtime": "1793363809",
     "store_tags": {
       "0": "1719",
       "1": "19",
@@ -181,5 +201,98 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "rat game",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Rat Game.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Rat Game.app"
+      }
+    }
+  },
+  "depots": {
+    "3347911": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "245338656",
+          "gid": "7631868582676072378",
+          "size": "1130626087"
+        }
+      }
+    },
+    "3347912": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "251748192",
+          "gid": "933742392695652460",
+          "size": "1150100681"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26322063",
+        "timebuildupdated": "1793360134",
+        "timeupdated": "1793361724"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Sokpop Collective",
+    "homepage": "https://sokpop.co",
+    "publisher": "Sokpop Collective"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "sokpop/Rat Game",
+            "replace": "sokpop/Rat Game"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "sokpop/Rat Game",
+            "replace": ".config/unity3d/sokpop/Rat Game"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "sokpop/Rat Game",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

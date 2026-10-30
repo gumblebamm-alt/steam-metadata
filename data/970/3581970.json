@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793252954,
-  "_history": [],
-  "_change_number": 40355522,
-  "_missing_token": true,
-  "_sha": "7bea360854d5db4772b376e9f5e56bc8504d8477",
-  "_size": 3405,
+  "_lastChecked": 1793384006,
+  "_history": [
+    {
+      "buildId": "26281984",
+      "branch": "public",
+      "timeUpdated": 1793221777,
+      "firstSeen": 1793384006,
+      "manifests": {
+        "3581972": {
+          "gid": "6522849980094004060",
+          "size": 225430042,
+          "download": 79672608
+        }
+      }
+    }
+  ],
+  "_change_number": 40431844,
+  "_missing_token": false,
+  "_sha": "edfd7248c4671a87f6685b74e00e0aab77031faf",
+  "_size": 4626,
   "appid": "3581970",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "8b77a8ac062bbe042faa0f34950232d88bf68ba3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3581970",
     "genres": {
       "0": "1",
@@ -102,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fa0887d2f4498316e6ea93a7551ee111d3773242/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793380230",
     "store_asset_mtime": "1792347559",
     "store_tags": {
       "0": "1645",
@@ -164,5 +179,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Nest Egg",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Swarm Slasher.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3581972": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "79672608",
+          "gid": "6522849980094004060",
+          "size": "225430042"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,japanese,koreana,portuguese,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26281984",
+        "timebuildupdated": "1793221755",
+        "timeupdated": "1793221777"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Elusor Games",
+    "publisher": "Elusor Games"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "400000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "WinAppDataLocalLow"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ElusorGames/Swarm Slasher",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

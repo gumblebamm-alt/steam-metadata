@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790858213,
+  "_lastChecked": 1793383985,
   "_history": [
     {
       "buildId": "25522866",
@@ -13,12 +13,26 @@
           "download": 379003808
         }
       }
+    },
+    {
+      "buildId": "",
+      "branch": "public",
+      "timeUpdated": 1793340262,
+      "firstSeen": 1793383915,
+      "manifests": {
+        "3901611": {
+          "gid": "233358174495241656",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
     }
   ],
-  "_change_number": 39379176,
+  "_change_number": 40314927,
   "_missing_token": false,
-  "_sha": "f3e410f9458fa084437c29717639b876f18cd875",
-  "_size": 4493,
+  "_sha": "b620824cd247c289cf14e835160439884eea9d6a",
+  "_size": 5378,
   "appid": "3901610",
   "common": {
     "associations": {
@@ -120,6 +134,8 @@
     "oslist": "windows",
     "primary_genre": "28",
     "releasestate": "released",
+    "review_percentage": "81",
+    "review_score": "7",
     "small_capsule": {
       "english": "8bad37ae0461c7db785c498a3251007fe5e1c76a/capsule_231x87.jpg"
     },
@@ -127,18 +143,18 @@
     "store_asset_mtime": "1790852085",
     "store_tags": {
       "0": "599",
-      "1": "4695",
-      "10": "4182",
-      "11": "4191",
-      "12": "35079",
-      "2": "492",
-      "3": "1702",
-      "4": "10383",
-      "5": "8945",
-      "6": "1643",
-      "7": "4202",
-      "8": "9",
-      "9": "493"
+      "1": "492",
+      "10": "4695",
+      "11": "1702",
+      "12": "4202",
+      "2": "10383",
+      "3": "8945",
+      "4": "1643",
+      "5": "9",
+      "6": "493",
+      "7": "4182",
+      "8": "4191",
+      "9": "35079"
     },
     "supported_languages": {
       "english": {
@@ -154,8 +170,36 @@
         "config": {
           "oslist": "windows"
         },
+        "description": "Factory Default (Vulkan - Recommended)",
+        "description_loc": {
+          "english": "Factory Default (Vulkan - Recommended)"
+        },
         "executable": "FDBTR.exe",
-        "type": "default"
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "--rendering-driver d3d12",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Factory Default (DirectX 12 - Try if experiencing graphical issues)",
+        "description_loc": {
+          "english": "Factory Default (DirectX 12 - Try if experiencing graphical issues)"
+        },
+        "executable": "FDBTR.exe",
+        "type": "option2"
+      },
+      "2": {
+        "arguments": "--rendering-driver opengl3",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Factory Default (OpenGL - Safe Mode)",
+        "description_loc": {
+          "english": "Factory Default (OpenGL - Safe Mode)"
+        },
+        "executable": "FDBTR.exe",
+        "type": "option3"
       }
     }
   },

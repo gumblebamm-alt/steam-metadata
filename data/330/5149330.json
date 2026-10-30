@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792857621,
-  "_history": [],
-  "_change_number": 40205911,
-  "_missing_token": true,
-  "_sha": "d5849706fb6d1efd752122b30b971d3616936a11",
-  "_size": 3105,
+  "_lastChecked": 1793384036,
+  "_history": [
+    {
+      "buildId": "26330363",
+      "branch": "public",
+      "timeUpdated": 1793382764,
+      "firstSeen": 1793384036,
+      "manifests": {
+        "5149331": {
+          "gid": "9177514445782724828",
+          "size": 341761776,
+          "download": 223018528
+        }
+      }
+    }
+  ],
+  "_change_number": 40433356,
+  "_missing_token": false,
+  "_sha": "ee6d25382b6a38005362ac5b92e38692507010db",
+  "_size": 4178,
   "appid": "5149330",
   "common": {
     "aicontenttype": "1",
@@ -31,9 +45,9 @@
     },
     "clienticon": "5f4acde4707f2bb2a6ccaf848fc762dbc7432e7d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5149330",
     "genres": {
       "0": "1",
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d0369acad156387a51166ef24ab4a4c37c8fee8a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793382851",
     "store_asset_mtime": "1788732173",
     "store_tags": {
       "0": "19",
@@ -138,5 +153,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "UFO Survival",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "UFO Survival.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5149331": {
+      "manifests": {
+        "public": {
+          "download": "223018528",
+          "gid": "9177514445782724828",
+          "size": "341761776"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26330363",
+        "timebuildupdated": "1793382743",
+        "timeupdated": "1793382764"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Coppolo Studios",
+    "publisher": "Coppolo Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/UFO Survival",
+        "pattern": "profile.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/UFO Survival",
+        "pattern": "custom_ships.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

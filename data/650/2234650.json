@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793166273,
-  "_history": [],
-  "_change_number": 40310191,
-  "_missing_token": true,
-  "_sha": "7783dc2af1fcc5827eef420e87241af91352f5c2",
-  "_size": 3698,
+  "_lastChecked": 1793383994,
+  "_history": [
+    {
+      "buildId": "26322070",
+      "branch": "public",
+      "timeUpdated": 1793373773,
+      "firstSeen": 1793383994,
+      "manifests": {
+        "2234651": {
+          "gid": "1842700451639713830",
+          "size": 2500471584,
+          "download": 1555874224
+        },
+        "2234652": {
+          "gid": "2086519850449218878",
+          "size": 2556954150,
+          "download": 1558637776
+        }
+      }
+    }
+  ],
+  "_change_number": 40429216,
+  "_missing_token": false,
+  "_sha": "a6607f2aebc449bb071878c6d47320cc5afd7d4e",
+  "_size": 6512,
   "appid": "2234650",
   "common": {
     "aicontenttype": "1",
@@ -41,6 +60,7 @@
     "clienticon": "fe18db41b68aa91f001d663a1c5512841a5d0380",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -51,7 +71,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2234650",
     "genres": {
       "0": "1",
@@ -127,11 +146,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7f20a38d005c9cada8b2577021462b77cf2c3e84/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793064150",
+    "steam_release_date": "1793376169",
+    "store_asset_mtime": "1793373875",
     "store_tags": {
       "0": "42804",
       "1": "3843",
@@ -161,5 +181,138 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Zotenhold",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Zotenhold.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "macos"
+        },
+        "executable": "Zotenhold.app",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2234651": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1555874224",
+          "gid": "1842700451639713830",
+          "size": "2500471584"
+        }
+      }
+    },
+    "2234652": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1558637776",
+          "gid": "2086519850449218878",
+          "size": "2556954150"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "26322070",
+        "timebuildupdated": "1793360157",
+        "timeupdated": "1793373773"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Jakob &quot;Jake&quot; Seilkop",
+    "dlcavailableonstore": "1",
+    "homepage": "https://Clyxiusgames.com",
+    "listofdlc": "5423210",
+    "publisher": "Clyxius Game Studios L.L.C."
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/ZotenholdGodot",
+        "pattern": "profile_progression.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/ZotenholdGodot",
+        "pattern": "account_talents.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/ZotenholdGodot",
+        "pattern": "input_settings.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/ZotenholdGodot",
+        "pattern": "hud_layout.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/ZotenholdGodot",
+        "pattern": "ui_look_options.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Godot/app_userdata/ZotenholdGodot",
+        "pattern": "chat_blocked_accounts.json",
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Godot/app_userdata/ZotenholdGodot",
+        "pattern": "account_skins.json",
+        "root": "WinAppDataRoaming"
+      },
+      "7": {
+        "path": "Godot/app_userdata/ZotenholdGodot",
+        "pattern": "account_title.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

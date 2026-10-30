@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793211942,
-  "_history": [],
-  "_change_number": 40334217,
-  "_missing_token": true,
-  "_sha": "57648dab2f0cbe015282dbf1bb2205c1ea7ff060",
-  "_size": 3535,
+  "_lastChecked": 1793384028,
+  "_history": [
+    {
+      "buildId": "26327859",
+      "branch": "public",
+      "timeUpdated": 1793376316,
+      "firstSeen": 1793384028,
+      "manifests": {
+        "4928441": {
+          "gid": "3163911652799940349",
+          "size": 68390221,
+          "download": 25087296
+        }
+      }
+    }
+  ],
+  "_change_number": 40432551,
+  "_missing_token": false,
+  "_sha": "fb569022fa07c4cce339c4aaea6c3058ffa7563c",
+  "_size": 4952,
   "appid": "4928440",
   "common": {
     "associations": {
@@ -36,9 +50,9 @@
     },
     "clienticon": "09da4fa5558808104cfb68062398636e936f2bd1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4928440",
     "genres": {
       "0": "1",
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "00f511493b4c5e2803f09a5a6a450a4cca5a9325/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793381510",
     "store_asset_mtime": "1790168286",
     "store_tags": {
       "0": "19",
@@ -161,5 +176,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "A Tiny Ghost Game",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "A Tiny Ghost Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4928441": {
+      "manifests": {
+        "public": {
+          "download": "25087296",
+          "gid": "3163911652799940349",
+          "size": "68390221"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,german,latam,russian",
+    "branches": {
+      "public": {
+        "buildid": "26327859",
+        "timebuildupdated": "1793376177",
+        "timeupdated": "1793376316"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Paul Nasdalack",
+    "homepage": "https://paul-nasdalack.com/press/a-tiny-ghost-game/",
+    "publisher": "Paul Nasdalack"
+  },
+  "ufs": {
+    "maxnumfiles": "30",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "A-Tiny-Ghost-Game",
+        "pattern": "*.sol",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": ".local/share/A-Tiny-Ghost-Game/",
+        "pattern": "*.sol",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

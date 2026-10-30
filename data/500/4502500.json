@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793040154,
-  "_history": [],
-  "_change_number": 40244484,
-  "_missing_token": true,
-  "_sha": "7710865bb6b2f5cf195266221932b9d2ddf77fe4",
-  "_size": 5565,
+  "_lastChecked": 1793384018,
+  "_history": [
+    {
+      "buildId": "25879814",
+      "branch": "public",
+      "timeUpdated": 1791800714,
+      "firstSeen": 1793384018,
+      "manifests": {
+        "4502502": {
+          "gid": "5832549285845445603",
+          "size": 228771306,
+          "download": 130102896
+        },
+        "4502503": {
+          "gid": "3843652962898330602",
+          "size": 249358931,
+          "download": 138375920
+        }
+      }
+    }
+  ],
+  "_change_number": 40422667,
+  "_missing_token": false,
+  "_sha": "bdab28f8303810436dcb84438ff467b4b7ac49cd",
+  "_size": 7325,
   "appid": "4502500",
   "common": {
     "associations": {
@@ -41,6 +60,7 @@
     },
     "clienticon": "0456c78a89f108fc669ccbda2e4ea9932b6a368a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
     "eulas": {
@@ -57,7 +77,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "4502500",
     "genres": {
       "0": "4",
@@ -157,11 +176,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "dc1706374dc09f314085652bc8c4345de2fabb6f/capsule_231x87.jpg",
       "japanese": "98249e111f3694f2b2aacd5c811c452e0f5a6423/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1777159299",
     "store_tags": {
       "0": "597",
@@ -227,5 +247,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "モノクロルートクリエイター",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ReMonocre.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ReMonocre.app"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4502501": {},
+    "4502502": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "130102896",
+          "gid": "5832549285845445603",
+          "size": "228771306"
+        }
+      }
+    },
+    "4502503": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "138375920",
+          "gid": "3843652962898330602",
+          "size": "249358931"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,polish,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25879814",
+        "timebuildupdated": "1791800714",
+        "timeupdated": "1791800714"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Monogames",
+    "homepage": "https://sites.google.com/view/monogamesjp",
+    "publisher": "Monogames"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Monogames/ReMonocre",
+            "replace": "com.Monogames.Monocre"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Monogames/ReMonocre",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

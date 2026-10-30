@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792558081,
+  "_lastChecked": 1793384015,
   "_history": [
     {
       "buildId": "24756358",
@@ -11,6 +11,37 @@
           "gid": "2121389586582144443",
           "size": 2515793871,
           "download": 1517633920
+        }
+      }
+    },
+    {
+      "buildId": "26330706",
+      "branch": "public",
+      "timeUpdated": 1793383597,
+      "firstSeen": 1793384015,
+      "manifests": {
+        "4270501": {
+          "gid": "3687472392192765006",
+          "size": 6669408950,
+          "download": 3733410736
+        },
+        "4270502": {
+          "gid": "3906449797143512690",
+          "size": 6714804758,
+          "download": 3747138064
+        }
+      }
+    },
+    {
+      "buildId": "26079570",
+      "branch": "public",
+      "timeUpdated": 1792506803,
+      "firstSeen": 1792558081,
+      "manifests": {
+        "4270501": {
+          "gid": "7184619634173532623",
+          "size": 6123009222,
+          "download": 3552754416
         }
       }
     },
@@ -28,6 +59,19 @@
       }
     },
     {
+      "buildId": "26314330",
+      "branch": "beta",
+      "timeUpdated": 1793331781,
+      "firstSeen": 1793384015,
+      "manifests": {
+        "4270501": {
+          "gid": "3687472392192765006",
+          "size": 6669408950,
+          "download": 3733410736
+        }
+      }
+    },
+    {
       "buildId": "26079570",
       "branch": "beta",
       "timeUpdated": 1792503716,
@@ -37,6 +81,24 @@
           "gid": "7184619634173532623",
           "size": 6123009222,
           "download": 3552754416
+        }
+      }
+    },
+    {
+      "buildId": "26330549",
+      "branch": "macos",
+      "timeUpdated": 1793383210,
+      "firstSeen": 1793384015,
+      "manifests": {
+        "4270501": {
+          "gid": "9008034763077854770",
+          "size": 5606642055,
+          "download": 3240343920
+        },
+        "4270502": {
+          "gid": "3906449797143512690",
+          "size": 6714804758,
+          "download": 3747138064
         }
       }
     },
@@ -57,25 +119,12 @@
           "download": 3342635504
         }
       }
-    },
-    {
-      "buildId": "26079570",
-      "branch": "public",
-      "timeUpdated": 1792506803,
-      "firstSeen": 1792558081,
-      "manifests": {
-        "4270501": {
-          "gid": "7184619634173532623",
-          "size": 6123009222,
-          "download": 3552754416
-        }
-      }
     }
   ],
-  "_change_number": 40048786,
+  "_change_number": 40433857,
   "_missing_token": false,
-  "_sha": "6e65a1bd5b70b4536064f2ff941bbc2ac133fc2e",
-  "_size": 5252,
+  "_sha": "a47bd91531a892ddb407f1695c6c921baae1c314",
+  "_size": 5403,
   "appid": "4270500",
   "common": {
     "aicontenttype": "1",
@@ -185,11 +234,12 @@
     },
     "name": "Infinite Orienteering: The Hiker's Path",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos",
     "primary_genre": "28",
     "releasestate": "released",
-    "review_percentage": "80",
+    "review_percentage": "81",
     "review_score": "7",
     "small_capsule": {
       "english": "7fddd46db25d679eee779857c4cd5aaca478784a/capsule_231x87.jpg"
@@ -236,7 +286,6 @@
       },
       "1": {
         "config": {
-          "betakey": "macos",
           "oslist": "macos"
         },
         "description": "Play Infinite Orienteering: The Hiker's Path",
@@ -254,9 +303,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "3552754416",
-          "gid": "7184619634173532623",
-          "size": "6123009222"
+          "download": "3733410736",
+          "gid": "3687472392192765006",
+          "size": "6669408950"
         },
         "macos": {
           "download": "3240343920",
@@ -264,9 +313,9 @@
           "size": "5606642055"
         },
         "public": {
-          "download": "3552754416",
-          "gid": "7184619634173532623",
-          "size": "6123009222"
+          "download": "3733410736",
+          "gid": "3687472392192765006",
+          "size": "6669408950"
         }
       }
     },
@@ -276,29 +325,34 @@
       },
       "manifests": {
         "macos": {
-          "download": "3342635504",
-          "gid": "2899252998641841989",
-          "size": "5804389402"
+          "download": "3747138064",
+          "gid": "3906449797143512690",
+          "size": "6714804758"
+        },
+        "public": {
+          "download": "3747138064",
+          "gid": "3906449797143512690",
+          "size": "6714804758"
         }
       }
     },
     "branches": {
       "beta": {
-        "buildid": "26079570",
+        "buildid": "26314330",
         "description": "Experimental features and testing before release. Broken featrues may occur.",
-        "timebuildupdated": "1792501471",
-        "timeupdated": "1792503716"
+        "timebuildupdated": "1793330882",
+        "timeupdated": "1793331781"
       },
       "macos": {
-        "buildid": "25949187",
+        "buildid": "26330549",
         "description": "Experimental build for mac",
-        "timebuildupdated": "1792030034",
-        "timeupdated": "1792030034"
+        "timebuildupdated": "1793383210",
+        "timeupdated": "1793383210"
       },
       "public": {
-        "buildid": "26079570",
-        "timebuildupdated": "1792501471",
-        "timeupdated": "1792506803"
+        "buildid": "26330706",
+        "timebuildupdated": "1793383597",
+        "timeupdated": "1793383597"
       }
     }
   },

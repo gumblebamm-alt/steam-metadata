@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793040172,
-  "_history": [],
-  "_change_number": 40246787,
-  "_missing_token": true,
-  "_sha": "a741228b1eda7b149722f01fbf3ea3c73a1503e3",
-  "_size": 3211,
+  "_lastChecked": 1793384034,
+  "_history": [
+    {
+      "buildId": "26291522",
+      "branch": "public",
+      "timeUpdated": 1793259930,
+      "firstSeen": 1793384034,
+      "manifests": {
+        "5088391": {
+          "gid": "8248879612579425067",
+          "size": 392338400,
+          "download": 154017328
+        },
+        "5088392": {
+          "gid": "940570895116075314",
+          "size": 303834474,
+          "download": 119920704
+        },
+        "5088393": {
+          "gid": "5075043822282778964",
+          "size": 561931388,
+          "download": 219414208
+        }
+      }
+    }
+  ],
+  "_change_number": 40427297,
+  "_missing_token": false,
+  "_sha": "216b80c3b83acacd7b5ccf39690e8f782f74163a",
+  "_size": 5455,
   "appid": "5088390",
   "common": {
     "aicontenttype": "1",
@@ -29,6 +53,7 @@
     },
     "clienticon": "adbb49179915dac692cd48e41c188e7c0389470d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -36,7 +61,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5088390",
     "genres": {
       "0": "23",
@@ -110,10 +134,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "42cc62e66a28c92b0c17eec4f56d6deac93d25d4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793373063",
     "store_asset_mtime": "1793000524",
     "store_tags": {
       "0": "1254546",
@@ -143,5 +168,123 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "The Gaffer",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "The Gaffer.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "thegaffer",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "The Gaffer.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "12",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5088391": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "154017328",
+          "gid": "8248879612579425067",
+          "size": "392338400"
+        }
+      }
+    },
+    "5088392": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "119920704",
+          "gid": "940570895116075314",
+          "size": "303834474"
+        }
+      }
+    },
+    "5088393": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "219414208",
+          "gid": "5075043822282778964",
+          "size": "561931388"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26291522",
+        "timebuildupdated": "1793259817",
+        "timeupdated": "1793259930"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Pitchwork Studios Ltd",
+    "homepage": "https://pitchworkstudios.com",
+    "publisher": "Pitchwork Studios Ltd"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "PitchworkStudios/TheGaffer/saves",
+        "pattern": "*.gaffer",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "PitchworkStudios/TheGaffer/saves",
+        "pattern": "*.meta.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792989963,
-  "_history": [],
-  "_change_number": 40237008,
-  "_missing_token": true,
-  "_sha": "c2776903d905315b79b4340e36d9310e6df028f6",
-  "_size": 3226,
+  "_lastChecked": 1793384033,
+  "_history": [
+    {
+      "buildId": "26253795",
+      "branch": "public",
+      "timeUpdated": 1793133352,
+      "firstSeen": 1793384033,
+      "manifests": {
+        "5075541": {
+          "gid": "8728631282530521228",
+          "size": 763175017,
+          "download": 533375744
+        },
+        "5075542": {
+          "gid": "1935325229449585897",
+          "size": 763372351,
+          "download": 532349488
+        }
+      }
+    }
+  ],
+  "_change_number": 40412549,
+  "_missing_token": false,
+  "_sha": "e8671bcd5f684af4612620777f1cbd5f39b50fc7",
+  "_size": 4913,
   "appid": "5075540",
   "common": {
     "associations": {
@@ -31,6 +50,7 @@
     },
     "clienticon": "b98015385878b83cca3e59244beec2dfd54f94b5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -38,7 +58,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5075540",
     "genres": {
       "0": "1",
@@ -111,10 +130,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e30262c8c52a0230542939fbf5cd45d4ba1afa33/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793344382",
     "store_asset_mtime": "1792698657",
     "store_tags": {
       "0": "1773",
@@ -146,5 +166,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "In that case",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "In that Case.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "inthatcase.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5075541": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "533375744",
+          "gid": "8728631282530521228",
+          "size": "763175017"
+        }
+      }
+    },
+    "5075542": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "532349488",
+          "gid": "1935325229449585897",
+          "size": "763372351"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26253795",
+        "timebuildupdated": "1793133352",
+        "timeupdated": "1793133352"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Studio MontaiL",
+    "publisher": "Studio MontaiL"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "5242880",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Studio MontaiL/In that Case",
+            "replace": ".config/unity3d/Studio MontaiL/In that Case"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Studio MontaiL/In that Case",
+        "pattern": "InThatCase.profile.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793077369,
-  "_history": [],
-  "_change_number": 40106048,
-  "_missing_token": true,
-  "_sha": "13caba642147d03fa161b3de6074a2f0598867c0",
-  "_size": 3095,
+  "_lastChecked": 1793384009,
+  "_history": [
+    {
+      "buildId": "26326832",
+      "branch": "public",
+      "timeUpdated": 1793374990,
+      "firstSeen": 1793384009,
+      "manifests": {
+        "3871801": {
+          "gid": "1818747410489226975",
+          "size": 534624539,
+          "download": 141972432
+        },
+        "3871802": {
+          "gid": "5187451621876151602",
+          "size": 544110851,
+          "download": 144012064
+        }
+      }
+    }
+  ],
+  "_change_number": 40428449,
+  "_missing_token": false,
+  "_sha": "3d0e022179c0cd30705d666725bcbfe246210928",
+  "_size": 4342,
   "appid": "3871800",
   "common": {
     "associations": {
@@ -30,9 +49,9 @@
     },
     "clienticon": "94f798d8c10c60abb1462f5b3e6f2e1e595fd631",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3871800",
     "genres": {
       "0": "1",
@@ -104,11 +123,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "64f0be1bde67ba9eb0920029eb878fc0120658f4/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792008969",
+    "steam_release_date": "1793359055",
+    "store_asset_mtime": "1793315370",
     "store_tags": {
       "0": "42804",
       "1": "4885",
@@ -139,5 +159,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Oathguard",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "StandaloneWindows64.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "StandaloneLinux64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3871801": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "141972432",
+          "gid": "1818747410489226975",
+          "size": "534624539"
+        }
+      }
+    },
+    "3871802": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "144012064",
+          "gid": "5187451621876151602",
+          "size": "544110851"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26326832",
+        "timebuildupdated": "1793373389",
+        "timeupdated": "1793374990"
+      }
+    }
+  },
+  "extended": {
+    "developer": "gimu",
+    "publisher": "gimu"
+  }
 }

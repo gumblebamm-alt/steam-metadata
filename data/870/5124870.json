@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792945216,
-  "_history": [],
-  "_change_number": 40008137,
-  "_missing_token": true,
-  "_sha": "c33a2a955105ede792540526d671ba2af47c9654",
-  "_size": 3390,
+  "_lastChecked": 1793384035,
+  "_history": [
+    {
+      "buildId": "26324536",
+      "branch": "public",
+      "timeUpdated": 1793369063,
+      "firstSeen": 1793384035,
+      "manifests": {
+        "5124871": {
+          "gid": "475487937501885914",
+          "size": 394990560,
+          "download": 95367456
+        },
+        "5124872": {
+          "gid": "5275503752337825029",
+          "size": 393201070,
+          "download": 93217440
+        }
+      }
+    }
+  ],
+  "_change_number": 40424829,
+  "_missing_token": false,
+  "_sha": "82ec2f816b9a92933d756d9d04f3a87d0d4c5f89",
+  "_size": 5189,
   "appid": "5124870",
   "common": {
     "aicontenttype": "1",
@@ -27,7 +46,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5124870",
     "genres": {
       "0": "1"
@@ -97,10 +115,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d0542f32fc3639358ac66ac2470f2b166bead19b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793369172",
     "store_asset_mtime": "1792191502",
     "store_tags": {
       "0": "42804",
@@ -156,5 +175,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Confined Space - Module Madness",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Confined Space Module Madness.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "ConfinedSpaceModuleMadness.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5124871": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "95367456",
+          "gid": "475487937501885914",
+          "size": "394990560"
+        }
+      }
+    },
+    "5124872": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "93217440",
+          "gid": "5275503752337825029",
+          "size": "393201070"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "26324536",
+        "timebuildupdated": "1793367372",
+        "timeupdated": "1793369063"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Confined Space Crew",
+    "homepage": "https://confined-space.de",
+    "publisher": "Confined Space Crew"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ConfinedSpaceCrew/Confined Space Module Madness",
+            "replace": ".config/unity3d/ConfinedSpaceCrew/Confined Space Module Madness"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ConfinedSpaceCrew/Confined Space Module Madness",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

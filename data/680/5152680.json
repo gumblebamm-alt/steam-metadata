@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793339330,
-  "_history": [],
-  "_change_number": 40409080,
-  "_missing_token": true,
-  "_sha": "df6ae14a9f24dcdac22473a25c7700032b733b73",
-  "_size": 3785,
+  "_lastChecked": 1793384036,
+  "_history": [
+    {
+      "buildId": "26319140",
+      "branch": "public",
+      "timeUpdated": 1793351328,
+      "firstSeen": 1793384036,
+      "manifests": {
+        "5152681": {
+          "gid": "2048477895903736095",
+          "size": 449390880,
+          "download": 355161472
+        },
+        "5152682": {
+          "gid": "3459139714344958715",
+          "size": 533625834,
+          "download": 378939680
+        }
+      }
+    }
+  ],
+  "_change_number": 40424913,
+  "_missing_token": false,
+  "_sha": "ed605129e6b48d16c068fc4dbd2d2e104ed5bc64",
+  "_size": 4832,
   "appid": "5152680",
   "common": {
     "aicontenttype": "1",
@@ -26,6 +45,7 @@
     "clienticns": "dcae3ac81b9a6647fa3761b8dc7d09c8f6651c53",
     "clienticon": "14ab43770dd577353b386b0dbcf55de2acf269b2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -33,7 +53,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5152680",
     "genres": {
       "0": "23",
@@ -116,13 +135,15 @@
       "schinese": "哭到天荒 (Cry Me a Cosmos)"
     },
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "69be122746acd28aa87b5a3ee12fa744d2999cc5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793348795",
     "store_asset_mtime": "1793327224",
     "store_tags": {
       "0": "1091588",
@@ -178,5 +199,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cry Me a Cosmos",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CryMeACosmos.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Cry Me a Cosmos.app"
+      }
+    }
+  },
+  "depots": {
+    "5152681": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "355161472",
+          "gid": "2048477895903736095",
+          "size": "449390880"
+        }
+      }
+    },
+    "5152682": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "378939680",
+          "gid": "3459139714344958715",
+          "size": "533625834"
+        }
+      }
+    },
+    "baselanguages": "english,koreana",
+    "branches": {
+      "public": {
+        "buildid": "26319140",
+        "timebuildupdated": "1793351102",
+        "timeupdated": "1793351328"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "OVERDOOR",
+    "publisher": "OVERDOOR"
+  }
 }

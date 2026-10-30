@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793124089,
-  "_history": [],
-  "_change_number": 40307883,
-  "_missing_token": true,
-  "_sha": "39b968a2dae78006c2e1d0de9343d6395018496f",
-  "_size": 3215,
+  "_lastChecked": 1793384031,
+  "_history": [
+    {
+      "buildId": "24490332",
+      "branch": "public",
+      "timeUpdated": 1785491801,
+      "firstSeen": 1793384031,
+      "manifests": {
+        "5024401": {
+          "gid": "3481151282324062888",
+          "size": 164461254,
+          "download": 63678592
+        }
+      }
+    }
+  ],
+  "_change_number": 40412632,
+  "_missing_token": false,
+  "_sha": "15d91a1045a79dcce8f53ddab3cbf75f691a7967",
+  "_size": 4321,
   "appid": "5024400",
   "common": {
     "aicontenttype": "1",
@@ -34,8 +48,8 @@
     },
     "clienticon": "cbb5888feccc55bfe22dacc6b260aba013a2cfc5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5024400",
     "genres": {
       "0": "1",
@@ -107,11 +121,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5b5f7526c35d72f729f3380a4887b35b86203b97/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1786686814",
+    "steam_release_date": "1793344638",
+    "store_asset_mtime": "1793123375",
     "store_tags": {
       "0": "42804",
       "1": "3959",
@@ -141,5 +156,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Chronoseum",
+    "launch": {
+      "0": {
+        "executable": "Chronoseum.exe",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "5024401": {
+      "manifests": {
+        "public": {
+          "download": "63678592",
+          "gid": "3481151282324062888",
+          "size": "164461254"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24490332",
+        "timebuildupdated": "1785491721",
+        "timeupdated": "1785491801"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "TaraPsych",
+    "publisher": "TaraPsych"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "TaraPsych/Chronoseum",
+            "replace": "unity3d/TaraPsych/Chronoseum"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "TaraPsych/Chronoseum",
+        "pattern": "chronoseum_save.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793124055,
-  "_history": [],
-  "_change_number": 40143083,
-  "_missing_token": true,
-  "_sha": "882ae6b47298373e8420bf38d3f110900a3c0715",
-  "_size": 3402,
+  "_lastChecked": 1793384002,
+  "_history": [
+    {
+      "buildId": "25908484",
+      "branch": "public",
+      "timeUpdated": 1791898318,
+      "firstSeen": 1793384002,
+      "manifests": {
+        "3169671": {
+          "gid": "6790455680597051367",
+          "size": 360662976,
+          "download": 255508384
+        },
+        "3169672": {
+          "gid": "2701358436175974192",
+          "size": 336332516,
+          "download": 246084368
+        }
+      }
+    }
+  ],
+  "_change_number": 40416888,
+  "_missing_token": false,
+  "_sha": "7757c721e73162aead29f4500c460c11fa4d543c",
+  "_size": 5303,
   "appid": "3169670",
   "common": {
     "associations": {
@@ -27,7 +46,6 @@
     "clienttga": "52c7a818cbcb3f51224b0ddccc61b5874dfd3d57",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3169670",
     "genres": {
       "0": "4",
@@ -101,10 +119,11 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "486a22ab9974fd544906476da6402ab44f12bd36/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793354426",
     "store_asset_mtime": "1782468101",
     "store_tags": {
       "0": "1716",
@@ -156,5 +175,103 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Golden Caravan",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "The Golden Caravan.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Play The Golden Caravan",
+        "description_loc": {
+          "english": "Play The Golden Caravan"
+        },
+        "executable": "The Golden Caravan.app"
+      },
+      "2": {
+        "config": {
+          "betakey": "testing",
+          "oslist": "macos"
+        },
+        "description": "Play The Golden Caravan (testing)",
+        "description_loc": {
+          "english": "Play The Golden Caravan (testing)"
+        },
+        "executable": "The Golden Caravan.app"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3169671": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "255508384",
+          "gid": "6790455680597051367",
+          "size": "360662976"
+        }
+      }
+    },
+    "3169672": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "246084368",
+          "gid": "2701358436175974192",
+          "size": "336332516"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25908484",
+        "timebuildupdated": "1791898318",
+        "timeupdated": "1791898318"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Bigfoot Gaming",
+    "homepage": "http://bigfootgaming.net/golden-caravan/",
+    "publisher": "Pixel Doors"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "2000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Bigfoot/The Golden Caravan",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

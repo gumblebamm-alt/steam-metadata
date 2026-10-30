@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793298815,
-  "_history": [],
-  "_change_number": 40393077,
-  "_missing_token": true,
-  "_sha": "98e487392c04cd5a674dbfa2031bde32ac7ff0da",
-  "_size": 5406,
+  "_lastChecked": 1793384038,
+  "_history": [
+    {
+      "buildId": "26322469",
+      "branch": "public",
+      "timeUpdated": 1793361644,
+      "firstSeen": 1793384038,
+      "manifests": {
+        "5263461": {
+          "gid": "3662954677544246358",
+          "size": 1015073481,
+          "download": 291145904
+        }
+      }
+    }
+  ],
+  "_change_number": 40420566,
+  "_missing_token": false,
+  "_sha": "73cf6f730bd6e4ed44249cfa38600063ac4bbb1f",
+  "_size": 7088,
   "appid": "5263460",
   "common": {
     "aicontenttype": "1",
@@ -36,9 +50,9 @@
     },
     "clienticon": "7f2d222f49cbeebd7837bc98a9e40ff7831b3c77",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5263460",
     "genres": {
       "0": "4",
@@ -115,10 +129,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "abdc4b0c1fad3b1aa43ac97d12cb3d5d40fe6e2d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793357104",
     "store_asset_mtime": "1792756678",
     "store_tags": {
       "0": "1239876",
@@ -270,5 +285,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sort Them Cats",
+    "launch": {
+      "0": {
+        "executable": "Sort Them Cats.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5263461": {
+      "manifests": {
+        "public": {
+          "download": "291145904",
+          "gid": "3662954677544246358",
+          "size": "1015073481"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26322469",
+        "timebuildupdated": "1793361405",
+        "timeupdated": "1793361644"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Deneysel Games",
+    "publisher": "Deneysel Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1073741824",
+    "savefiles": {
+      "0": {
+        "path": "Deneysel Games/Sort Them Cats/Saves",
+        "pattern": "slot-*.es3",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Deneysel Games/Sort Them Cats/Saves",
+        "pattern": "slot-*.es3.bak*",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Deneysel Games/Sort Them Cats/steam-achievements/5263460/{64BitSteamID}",
+        "pattern": "ledger.es3",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Deneysel Games/Sort Them Cats/steam-achievements/5263460/{64BitSteamID}",
+        "pattern": "ledger.es3.bak",
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": "Deneysel Games/Sort Them Cats/Saves/Postcards",
+        "pattern": "*.png",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "5": {
+        "path": "Deneysel Games/Sort Them Cats/Saves/Postcards",
+        "pattern": "frame.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791549437,
-  "_history": [],
-  "_change_number": 39656363,
-  "_missing_token": true,
-  "_sha": "0be4344c4a4df0523724ae078509f6fbf914f580",
-  "_size": 3546,
+  "_lastChecked": 1793384019,
+  "_history": [
+    {
+      "buildId": "26199086",
+      "branch": "public",
+      "timeUpdated": 1792942949,
+      "firstSeen": 1793384019,
+      "manifests": {
+        "4539411": {
+          "gid": "4231408580014452971",
+          "size": 241912742,
+          "download": 114074480
+        },
+        "4539412": {
+          "gid": "6073694859649688893",
+          "size": 206697798,
+          "download": 105452624
+        }
+      }
+    }
+  ],
+  "_change_number": 40431323,
+  "_missing_token": false,
+  "_sha": "6bd1645174ae01574a7ffab4ecc163ec0d11535b",
+  "_size": 5541,
   "appid": "4539410",
   "common": {
     "aicontenttype": "1",
@@ -37,9 +56,9 @@
     },
     "clienticon": "ce01afb52af7de04bf9f1c544515740af22a8656",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4539410",
     "genres": {
       "0": "23"
@@ -110,7 +129,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "08d3a99cb110decf568362897b6214c25a6231b3/capsule_231x87.jpg"
     },
@@ -163,5 +182,109 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Cubie",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Cubie.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "cubie.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "229006": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4539411": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "114074480",
+          "gid": "4231408580014452971",
+          "size": "241912742"
+        }
+      }
+    },
+    "4539412": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "105452624",
+          "gid": "6073694859649688893",
+          "size": "206697798"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26199086",
+        "timebuildupdated": "1792942882",
+        "timeupdated": "1792942949"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Radvi Games",
+    "homepage": "https://linktr.ee/cubieofficial",
+    "publisher": "Radvi Games",
+    "remoteplaytogethertestingbranches": "coop"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Cubie/sync",
+            "replace": ".local/share/godot/app_userdata/Cubie/sync"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Cubie/sync",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

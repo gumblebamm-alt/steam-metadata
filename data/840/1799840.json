@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1793166272,
-  "_history": [],
-  "_change_number": 40318947,
-  "_missing_token": true,
-  "_sha": "ef5b330b1d9b34325fbb7e9f0f2f03181ab57ff3",
-  "_size": 6012,
+  "_lastChecked": 1793383984,
+  "_history": [
+    {
+      "buildId": "26316541",
+      "branch": "public",
+      "timeUpdated": 1793341663,
+      "firstSeen": 1793383904,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "1799841": {
+          "gid": "3246678327683626121",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40431164,
+  "_missing_token": false,
+  "_sha": "eaeef2873f7a730a61a69452264e728a6bfc4ac1",
+  "_size": 7198,
   "appid": "1799840",
   "common": {
     "associations": {
@@ -37,6 +62,7 @@
     "clienticon": "f0d35cc3baef5e3e8f81ee3a82acdda0cbb024ce",
     "clienttga": "2b4d5e0dbca5206cf25d2e34f4d30cc1b85ae986",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -55,7 +81,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "1799840",
     "genres": {
       "0": "1",
@@ -132,7 +157,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a6f01f7863ee0be19fa710061f41799b84c1f371/capsule_231x87.jpg"
     },
@@ -205,7 +230,8 @@
         }
       }
     },
-    "store_asset_mtime": "1793123901",
+    "steam_release_date": "1793379344",
+    "store_asset_mtime": "1793375816",
     "store_tags": {
       "0": "4231",
       "1": "3839",
@@ -214,8 +240,8 @@
       "12": "1684",
       "13": "7481",
       "14": "4236",
-      "15": "4057",
-      "16": "4172",
+      "15": "4172",
+      "16": "4057",
       "17": "4166",
       "18": "19",
       "19": "21",
@@ -264,5 +290,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "QueensDomain",
+    "launch": {
+      "0": {
+        "executable": "QueensDomain.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "1799841": {
+      "manifests": {
+        "public": {
+          "download": "980433744",
+          "gid": "3246678327683626121",
+          "size": "2217988094"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "26316541",
+        "timebuildupdated": "1793340800",
+        "timeupdated": "1793341663"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Freshly Baked Games LLC",
+    "publisher": "Future Friends Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "QueensDomain/Saved/SaveGames/{64BitSteamID}",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

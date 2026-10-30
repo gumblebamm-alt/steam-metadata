@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792457880,
-  "_history": [],
-  "_change_number": 39945066,
-  "_missing_token": true,
-  "_sha": "32eff5c17591bac7e82c1a9520111365db45ebfc",
-  "_size": 4601,
+  "_lastChecked": 1793384032,
+  "_history": [
+    {
+      "buildId": "26298657",
+      "branch": "public",
+      "timeUpdated": 1793282132,
+      "firstSeen": 1793384032,
+      "manifests": {
+        "5033271": {
+          "gid": "5634603268027559761",
+          "size": 13035510719,
+          "download": 6855530288
+        },
+        "5033272": {
+          "gid": "2209183923019702856",
+          "size": 14268088819,
+          "download": 7568127712
+        }
+      }
+    }
+  ],
+  "_change_number": 40426516,
+  "_missing_token": false,
+  "_sha": "134422e7af430d827eeaefd20e41073ddd8cdff0",
+  "_size": 6186,
   "appid": "5033270",
   "common": {
     "associations": {
@@ -38,9 +57,9 @@
     },
     "clienticon": "a9577dfe1ca975be6209c190937c20289f932d74",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5033270",
     "genres": {
       "0": "1",
@@ -145,10 +164,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "681d258238ed4c25fd3b7c549216874d64f10dc6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793371942",
     "store_asset_mtime": "1788881787",
     "store_tags": {
       "0": "19",
@@ -222,5 +242,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Five Signals",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "FiveSignals.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "FiveSignals.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5033271": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "6855530288",
+          "gid": "5634603268027559761",
+          "size": "13035510719"
+        }
+      }
+    },
+    "5033272": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "7568127712",
+          "gid": "2209183923019702856",
+          "size": "14268088819"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26298657",
+        "timebuildupdated": "1793281763",
+        "timeupdated": "1793282132"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Dark Games DGG",
+    "publisher": "Dark Games DGG"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Setone Dark DGG Games\\FiveSignals\\Saves",
+            "replace": ".config/unity3d/Setone Dark DGG Games/FiveSignals/Saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Setone Dark DGG Games\\FiveSignals\\Saves",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

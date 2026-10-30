@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793339330,
-  "_history": [],
-  "_change_number": 40398291,
-  "_missing_token": true,
-  "_sha": "eff8c15378a57f295f1aab76a4d7d302aedecca6",
-  "_size": 4279,
+  "_lastChecked": 1793384035,
+  "_history": [
+    {
+      "buildId": "26307806",
+      "branch": "public",
+      "timeUpdated": 1793307393,
+      "firstSeen": 1793384035,
+      "manifests": {
+        "5137981": {
+          "gid": "1602340108315914513",
+          "size": 3152446753,
+          "download": 3014428496
+        }
+      }
+    }
+  ],
+  "_change_number": 40412193,
+  "_missing_token": false,
+  "_sha": "f905160ec630d5c6d8e3eb00b99730b91fe6125f",
+  "_size": 5990,
   "appid": "5137980",
   "common": {
     "aicontenttype": "1",
@@ -32,8 +46,8 @@
     },
     "clienticon": "e60126f3bd86a41d3d916e093e60eff0da02f3da",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5137980",
     "genres": {
       "0": "23",
@@ -122,11 +136,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "64b093c3f3ad4470158c6c17543bbd27ff41c9bf/capsule_231x87.jpg",
       "schinese": "4c00030f2cb2874e414107ab9d26a74ad542f334/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1793343683",
     "store_asset_mtime": "1792774775",
     "store_tags": {
       "0": "1666",
@@ -160,5 +175,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "古玩掌柜",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "AntiqueDealer.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5137981": {
+      "manifests": {
+        "public": {
+          "download": "3014428496",
+          "gid": "1602340108315914513",
+          "size": "3152446753"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26307806",
+        "timebuildupdated": "1793307156",
+        "timeupdated": "1793307393"
+      }
+    }
+  },
+  "extended": {
+    "developer": "卜算子工作室",
+    "publisher": "卜算子工作室"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "1073741824",
+    "savefiles": {
+      "0": {
+        "path": "GuWanZhangGuiSteamFull",
+        "pattern": "*.json",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "GuWanZhangGuiSteamFull",
+        "pattern": "*.json.bak",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "GuWanZhangGuiSteamFull/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataLocal"
+      },
+      "3": {
+        "path": "GuWanZhangGuiSteamFull/saves/classic",
+        "pattern": "*.gwslot",
+        "root": "WinAppDataLocal"
+      },
+      "4": {
+        "path": "GuWanZhangGuiSteamFull/saves/tournament",
+        "pattern": "*.gwslot",
+        "root": "WinAppDataLocal"
+      },
+      "5": {
+        "path": "GuWanZhangGuiSteamFull/saves/tutorial",
+        "pattern": "*.gwslot",
+        "root": "WinAppDataLocal"
+      },
+      "6": {
+        "path": "GuWanZhangGuiSteamFull/ladder",
+        "pattern": "*.json",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

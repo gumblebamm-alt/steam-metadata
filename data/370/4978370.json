@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792775352,
-  "_history": [],
-  "_change_number": 40173950,
-  "_missing_token": true,
-  "_sha": "f9a0d94b73cb33bbe7055fc5a14b24c201154c1b",
-  "_size": 3195,
+  "_lastChecked": 1793384030,
+  "_history": [
+    {
+      "buildId": "25653783",
+      "branch": "public",
+      "timeUpdated": 1790861689,
+      "firstSeen": 1793384030,
+      "manifests": {
+        "4978371": {
+          "gid": "102999644429643498",
+          "size": 249288416,
+          "download": 143749312
+        },
+        "4978372": {
+          "gid": "1601709263996149921",
+          "size": 256271088,
+          "download": 144121840
+        },
+        "4978373": {
+          "gid": "8053491638949256085",
+          "size": 232418664,
+          "download": 138226432
+        }
+      }
+    }
+  ],
+  "_change_number": 40429118,
+  "_missing_token": false,
+  "_sha": "c4afc7cf3099952e65fe022ea9b6c31d046ea531",
+  "_size": 5485,
   "appid": "4978370",
   "common": {
     "associations": {
@@ -29,8 +53,8 @@
     "clienticns": "69d4e2c7a4a512bd9045fac316333aaa83a3cae1",
     "clienticon": "c6953b1e75982da8aa08eadca2f02b8d05c2070d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4978370",
     "genres": {
       "0": "23"
@@ -102,11 +126,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ac3ac48cbbf79ee8f8f0f35e44bd144fa50b8bb2/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/4978370/partnerevents/edit/713416027239617191",
+    "steam_release_date": "1793376025",
     "store_asset_mtime": "1791819322",
     "store_tags": {
       "0": "916648",
@@ -136,5 +161,119 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Big FIshin World Ocean Voyager",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "32",
+          "oslist": "windows"
+        },
+        "executable": "Big_Fishin_World_Ocean_Voyager.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Big_Fishin_World_Ocean_Voyager.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Big_Fishin_World_Ocean_Voyager.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4978371": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "143749312",
+          "gid": "102999644429643498",
+          "size": "249288416"
+        }
+      }
+    },
+    "4978372": {
+      "config": {
+        "language": "english",
+        "osarch": "32",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "144121840",
+          "gid": "1601709263996149921",
+          "size": "256271088"
+        }
+      }
+    },
+    "4978373": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "138226432",
+          "gid": "8053491638949256085",
+          "size": "232418664"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25653783",
+        "timebuildupdated": "1790861569",
+        "timeupdated": "1790861689"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Big Salty",
+    "homepage": "https://www.bigfishinworld.com",
+    "publisher": "Big Salty"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Big Fishin World- Ocean Voyager",
+            "replace": ".local/share/godot/app_userdata/Big Fishin World- Ocean Voyager"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Big Fishin World- Ocean Voyager",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791895265,
-  "_history": [],
-  "_change_number": 39774920,
-  "_missing_token": true,
-  "_sha": "38ba47b6b3efa5c1f84423648c2241bc07037ea1",
-  "_size": 3226,
+  "_lastChecked": 1793383994,
+  "_history": [
+    {
+      "buildId": "26283070",
+      "branch": "public",
+      "timeUpdated": 1793225329,
+      "firstSeen": 1793383994,
+      "manifests": {
+        "2352851": {
+          "gid": "5333256698922637996",
+          "size": 419790915,
+          "download": 87140416
+        },
+        "2352852": {
+          "gid": "1652670992574546833",
+          "size": 444158404,
+          "download": 96834896
+        }
+      }
+    }
+  ],
+  "_change_number": 40424485,
+  "_missing_token": false,
+  "_sha": "b037a03ec13d62d1d3f034f922198f8c449fbc79",
+  "_size": 4968,
   "appid": "2352850",
   "common": {
     "associations": {
@@ -38,9 +57,9 @@
     "clienticon": "970441846e543db9c6bd7c7101f83fafb57bc756",
     "clienttga": "4f8337cef9f2f0bb1985078bef38f29ba704d2f0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2352850",
     "genres": {
       "0": "1",
@@ -113,10 +132,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "25ce83d51559e476677a6db8209815b0dac10187/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793368688",
     "store_asset_mtime": "1788439503",
     "store_tags": {
       "0": "723991",
@@ -147,5 +167,97 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Rogue Jungle",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Start Rogue Jungle.exe",
+        "description_loc": {
+          "english": "Start Rogue Jungle.exe"
+        },
+        "executable": "Rogue Jungle.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Rogue Jungle.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2352851": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "87140416",
+          "gid": "5333256698922637996",
+          "size": "419790915"
+        }
+      }
+    },
+    "2352852": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "96834896",
+          "gid": "1652670992574546833",
+          "size": "444158404"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26283070",
+        "timebuildupdated": "1793225329",
+        "timeupdated": "1793225329"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Zoroarts",
+    "homepage": "https://zoroarts.com/RogueJungle/",
+    "publisher": "Zoroarts"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Zoroarts/Rogue Jungle",
+            "replace": "Zoroarts/Rogue Jungle"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Zoroarts/Rogue Jungle",
+        "pattern": "SaveFile.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

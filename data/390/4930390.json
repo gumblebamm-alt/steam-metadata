@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791549448,
-  "_history": [],
-  "_change_number": 39656205,
-  "_missing_token": true,
-  "_sha": "0483db3c3f0fc4229ca1b498279b3575aafd7fcb",
-  "_size": 2940,
+  "_lastChecked": 1793384028,
+  "_history": [
+    {
+      "buildId": "26304544",
+      "branch": "public",
+      "timeUpdated": 1793297380,
+      "firstSeen": 1793384028,
+      "manifests": {
+        "4930391": {
+          "gid": "8746470244578911913",
+          "size": 284186447,
+          "download": 47405136
+        }
+      }
+    }
+  ],
+  "_change_number": 40413441,
+  "_missing_token": false,
+  "_sha": "252cf16f5e651e080d681b3f3cc8e299ff5d94af",
+  "_size": 3906,
   "appid": "4930390",
   "common": {
     "aicontenttype": "1",
@@ -30,7 +44,6 @@
     "clienticon": "f86ccceedbde9c6e154aad04f4599d937ac97772",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4930390",
     "genres": {
       "0": "4",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d162955f6cb29b7c6dc71e2262e2c60b911ede5a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793346931",
     "store_asset_mtime": "1784917124",
     "store_tags": {
       "0": "9",
@@ -131,5 +145,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "FerzGate",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "v1.1/FerzGate.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4930391": {
+      "manifests": {
+        "public": {
+          "download": "47405136",
+          "gid": "8746470244578911913",
+          "size": "284186447"
+        }
+      }
+    },
+    "4930392": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26304544",
+        "timebuildupdated": "1793297377",
+        "timeupdated": "1793297380"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "FirconED",
+    "publisher": "FirconED"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "FirconED/FerzGate/{64BitSteamID}",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

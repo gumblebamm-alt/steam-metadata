@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792603014,
-  "_history": [],
-  "_change_number": 40075664,
-  "_missing_token": true,
-  "_sha": "d0c6c2122550dd0b2ffda2650e2345b26fbdade9",
-  "_size": 3991,
+  "_lastChecked": 1793384012,
+  "_history": [
+    {
+      "buildId": "26327048",
+      "branch": "public",
+      "timeUpdated": 1793373930,
+      "firstSeen": 1793384012,
+      "manifests": {
+        "4110671": {
+          "gid": "3302802264825918445",
+          "size": 543982464,
+          "download": 456000688
+        },
+        "4110672": {
+          "gid": "1726050342429957158",
+          "size": 627746632,
+          "download": 479647952
+        }
+      }
+    }
+  ],
+  "_change_number": 40427820,
+  "_missing_token": false,
+  "_sha": "55128e5227813b9c9dbd943ea1c790dfb0f75af4",
+  "_size": 5240,
   "appid": "4110670",
   "common": {
     "associations": {
@@ -37,9 +56,9 @@
     },
     "clienticon": "d1d62b017b4c255dde5857076965356300a9304f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4110670",
     "genres": {
       "0": "4",
@@ -124,11 +143,12 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "acdade3a1533097bec6c639a5761e8ef7f5370cd/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792569125",
+    "steam_release_date": "1793344009",
+    "store_asset_mtime": "1793345975",
     "store_tags": {
       "0": "560542",
       "1": "1773",
@@ -191,5 +211,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Veinrider",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Veinrider.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Veinrider.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4110671": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "456000688",
+          "gid": "3302802264825918445",
+          "size": "543982464"
+        }
+      }
+    },
+    "4110672": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "479647952",
+          "gid": "1726050342429957158",
+          "size": "627746632"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26327048",
+        "timebuildupdated": "1793373930",
+        "timeupdated": "1793373930"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Frog Hammer",
+    "publisher": "Frog Hammer"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Veinrider",
+        "pattern": "savegame.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

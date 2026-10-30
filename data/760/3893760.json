@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793077369,
-  "_history": [],
-  "_change_number": 40251059,
-  "_missing_token": true,
-  "_sha": "0442d9b549fe9ff980baaabe1d0ca2f9cde38682",
-  "_size": 4911,
+  "_lastChecked": 1793384009,
+  "_history": [
+    {
+      "buildId": "26321622",
+      "branch": "beta",
+      "timeUpdated": 1793358964,
+      "firstSeen": 1793384009,
+      "manifests": {
+        "3893761": {
+          "gid": "6688809888816837400",
+          "size": 540899927,
+          "download": 368943008
+        }
+      }
+    },
+    {
+      "buildId": "26321622",
+      "branch": "public",
+      "timeUpdated": 1793372300,
+      "firstSeen": 1793384009,
+      "manifests": {
+        "3893761": {
+          "gid": "6688809888816837400",
+          "size": 540899927,
+          "download": 368943008
+        }
+      }
+    }
+  ],
+  "_change_number": 40426780,
+  "_missing_token": false,
+  "_sha": "c2d01a769f654b0a76a277b7b94eef0a266917b1",
+  "_size": 6402,
   "appid": "3893760",
   "common": {
     "associations": {
@@ -41,9 +68,9 @@
     },
     "clienticon": "e9ff7bdf6694a39a4ace682464b55ad72c56a870",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3893760",
     "genres": {
       "0": "2"
@@ -114,10 +141,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "752afbd6cdb3eaa70ee5c7de8a88324dfd1019bf/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793372331",
     "store_asset_mtime": "1791223016",
     "store_tags": {
       "0": "1645",
@@ -233,5 +261,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Anvilium Forge Defense",
+    "launch": {
+      "0": {
+        "executable": "Anvira.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "Anvira_Data/StreamingAssets/SteamInput/steam_input_manifest.vdf"
+  },
+  "depots": {
+    "3893761": {
+      "manifests": {
+        "beta": {
+          "download": "368943008",
+          "gid": "6688809888816837400",
+          "size": "540899927"
+        },
+        "public": {
+          "download": "368943008",
+          "gid": "6688809888816837400",
+          "size": "540899927"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26321622",
+        "description": "beta",
+        "timebuildupdated": "1793358822",
+        "timeupdated": "1793358964"
+      },
+      "public": {
+        "buildid": "26321622",
+        "timebuildupdated": "1793358822",
+        "timeupdated": "1793372300"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "SakrSoft",
+    "homepage": "https://anvira.sakrsoft.com/",
+    "publisher": "SakrSoft"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "~/.local/share",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SakrSoft/Anvira/Saves",
+        "pattern": "SaveFile.dat*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

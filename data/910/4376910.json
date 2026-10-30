@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1792857606,
-  "_history": [],
-  "_change_number": 40204015,
-  "_missing_token": true,
-  "_sha": "e26950d1abef3cd2235047dfb9bc1933c4880b32",
-  "_size": 2981,
+  "_lastChecked": 1793384017,
+  "_history": [
+    {
+      "buildId": "26290733",
+      "branch": "beta",
+      "timeUpdated": 1793256498,
+      "firstSeen": 1793384017,
+      "manifests": {
+        "4376911": {
+          "gid": "699299169489367654",
+          "size": 148555580,
+          "download": 61663328
+        },
+        "4376912": {
+          "gid": "3708418787539760691",
+          "size": 215173987,
+          "download": 82248784
+        },
+        "4376913": {
+          "gid": "5613148324807093546",
+          "size": 112893820,
+          "download": 53176128
+        }
+      }
+    },
+    {
+      "buildId": "26328443",
+      "branch": "public",
+      "timeUpdated": 1793377808,
+      "firstSeen": 1793384017,
+      "manifests": {
+        "4376911": {
+          "gid": "8892611642596921389",
+          "size": 148582348,
+          "download": 61690112
+        },
+        "4376912": {
+          "gid": "6145020211457086943",
+          "size": 215200753,
+          "download": 82289984
+        },
+        "4376913": {
+          "gid": "8561609175674674440",
+          "size": 112920588,
+          "download": 53202928
+        }
+      }
+    }
+  ],
+  "_change_number": 40430237,
+  "_missing_token": false,
+  "_sha": "16973143b8035b47949c60abd7ef5b76143ee31c",
+  "_size": 5674,
   "appid": "4376910",
   "common": {
     "associations": {
@@ -26,9 +73,9 @@
     },
     "clienticon": "5a301e1c02bff349b4800fdc371080fdd9faf3da",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4376910",
     "genres": {
       "0": "1",
@@ -104,10 +151,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8bfa01dc265bc064cdfde0b5c51d674c22c0eb09/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793372439",
     "store_asset_mtime": "1792701733",
     "store_tags": {
       "0": "19",
@@ -132,5 +180,145 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "shiftomino",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "shiftomino_windows.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "shiftomino_macos.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "shiftomino_linux.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4376911": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "61663328",
+          "gid": "699299169489367654",
+          "size": "148555580"
+        },
+        "public": {
+          "download": "61690112",
+          "gid": "8892611642596921389",
+          "size": "148582348"
+        }
+      }
+    },
+    "4376912": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "82248784",
+          "gid": "3708418787539760691",
+          "size": "215173987"
+        },
+        "public": {
+          "download": "82289984",
+          "gid": "6145020211457086943",
+          "size": "215200753"
+        }
+      }
+    },
+    "4376913": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "53176128",
+          "gid": "5613148324807093546",
+          "size": "112893820"
+        },
+        "public": {
+          "download": "53202928",
+          "gid": "8561609175674674440",
+          "size": "112920588"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "beta": {
+        "buildid": "26290733",
+        "description": "beta branch",
+        "timebuildupdated": "1793256498",
+        "timeupdated": "1793256498"
+      },
+      "public": {
+        "buildid": "26328443",
+        "timebuildupdated": "1793377700",
+        "timeupdated": "1793377808"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "aramaa",
+    "publisher": "aramaa"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      },
+      "2": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/shiftomino",
+            "replace": ".local/share/godot/app_userdata/Shiftomino"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Shiftomino",
+        "pattern": "*.tres",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

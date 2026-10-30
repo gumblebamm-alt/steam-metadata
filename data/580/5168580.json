@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793211951,
-  "_history": [],
-  "_change_number": 40034487,
-  "_missing_token": true,
-  "_sha": "c6d969e3a36dd4daa6b0c0487cb868708048da2b",
-  "_size": 3399,
+  "_lastChecked": 1793384037,
+  "_history": [
+    {
+      "buildId": "26326947",
+      "branch": "public",
+      "timeUpdated": 1793373659,
+      "firstSeen": 1793384037,
+      "manifests": {
+        "5168581": {
+          "gid": "4269042861056590010",
+          "size": 150567160,
+          "download": 70757920
+        }
+      }
+    }
+  ],
+  "_change_number": 40433235,
+  "_missing_token": false,
+  "_sha": "87cca3097825121480e26be3414b11922467e574",
+  "_size": 4556,
   "appid": "5168580",
   "common": {
     "associations": {
@@ -21,6 +35,7 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_25": "1",
       "category_62": "1",
       "category_68": "1",
       "category_74": "1",
@@ -29,17 +44,31 @@
     },
     "clienticon": "c0c8d0d5642b1a4d6f72454a9254bf9d900e1f6d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5168580",
     "genres": {
       "0": "1",
-      "1": "23"
+      "1": "23",
+      "2": "37"
     },
     "header_image": {
       "english": "a1334c84e288c010429905af7899ad31bf7eba55/header.jpg"
     },
     "icon": "d367a64dbebf85d326f47dc6cfafa3f9a217a2de",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1",
+      "turkish": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -47,9 +76,9 @@
       "library_hero_blur": "en",
       "library_logo": "en",
       "logo_position": {
-        "height_pct": "87.23404082630282",
-        "pinned_position": "CenterCenter",
-        "width_pct": "52.84046804606592"
+        "height_pct": "100",
+        "pinned_position": "BottomLeft",
+        "width_pct": "24.343685015963445"
       }
     },
     "library_assets_full": {
@@ -90,21 +119,23 @@
           "english": "a632f9b1a69d9a268c09591a43d907814ade56ce/logo_2x.png"
         },
         "logo_position": {
-          "height_pct": "87.23404082630282",
-          "pinned_position": "CenterCenter",
-          "width_pct": "52.84046804606592"
+          "height_pct": "100",
+          "pinned_position": "BottomLeft",
+          "width_pct": "24.343685015963445"
         }
       }
     },
+    "market_presence": "1",
     "name": "Blooby Idle",
     "osarch": "64",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fb7997b5d05e26e0516cab45409a725004f6fad0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793377204",
     "store_asset_mtime": "1792481408",
     "store_tags": {
       "0": "1320952",
@@ -159,5 +190,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Booby Idle",
+    "launch": {
+      "0": {
+        "executable": "BloobyIdle.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5168581": {
+      "manifests": {
+        "public": {
+          "download": "70757920",
+          "gid": "4269042861056590010",
+          "size": "150567160"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26326947",
+        "timebuildupdated": "1793373656",
+        "timeupdated": "1793373659"
+      }
+    }
+  },
+  "extended": {
+    "developer": "K-nette",
+    "isfreeapp": "1",
+    "publisher": "K-nette"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/MALMORT",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1792857588,
-  "_history": [],
-  "_change_number": 40203630,
-  "_missing_token": true,
-  "_sha": "6e52a887a9c809306bbf45137c55a93f553ce5c8",
-  "_size": 3765,
+  "_lastChecked": 1793383992,
+  "_history": [
+    {
+      "buildId": "26160434",
+      "branch": "beta",
+      "timeUpdated": 1792759700,
+      "firstSeen": 1793383992,
+      "manifests": {
+        "1918851": {
+          "gid": "4641794701540281544",
+          "size": 8480380755,
+          "download": 2104374336
+        },
+        "1918852": {
+          "gid": "802631153266105614",
+          "size": 8502485558,
+          "download": 2113294352
+        },
+        "1918853": {
+          "gid": "7482505222419916535",
+          "size": 8477767115,
+          "download": 2102922896
+        }
+      }
+    },
+    {
+      "buildId": "26322711",
+      "branch": "public",
+      "timeUpdated": 1793362192,
+      "firstSeen": 1793383992,
+      "manifests": {
+        "1918851": {
+          "gid": "360858913145801650",
+          "size": 8207915072,
+          "download": 2127698800
+        },
+        "1918852": {
+          "gid": "8933184008758327091",
+          "size": 8230021523,
+          "download": 2136517584
+        },
+        "1918853": {
+          "gid": "8335432082325661276",
+          "size": 8205238089,
+          "download": 2126172816
+        }
+      }
+    }
+  ],
+  "_change_number": 40420880,
+  "_missing_token": false,
+  "_sha": "4b9ac252b566dcf8e42c071905a2f7883160a07b",
+  "_size": 6292,
   "appid": "1918850",
   "common": {
     "associations": {
@@ -37,6 +84,7 @@
     "clienticon": "b15ac99a4ce86ab4ac4cc7c03f7dd49c2d771fc6",
     "clienttga": "b3393d371c534a07fff8c21bb66de927bc308ea7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -44,7 +92,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1918850",
     "genres": {
       "0": "25"
@@ -53,6 +100,11 @@
       "english": "7733047872b5dff4690a9d0e1474708038811e10/header.jpg"
     },
     "icon": "b15ac99a4ce86ab4ac4cc7c03f7dd49c2d771fc6",
+    "languages": {
+      "english": "1",
+      "german": "1",
+      "latam": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -117,10 +169,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f691f3ae002fe2bb90ee18a65a3cd68c3d0032ad/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793362216",
     "store_asset_mtime": "1792562451",
     "store_tags": {
       "0": "1698",
@@ -161,5 +214,130 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sleepytime Village",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Sleepytime Village.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Sleepytime Village.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Sleepytime Village.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1918851": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "2104374336",
+          "gid": "4641794701540281544",
+          "size": "8480380755"
+        },
+        "public": {
+          "download": "2127698800",
+          "gid": "360858913145801650",
+          "size": "8207915072"
+        }
+      }
+    },
+    "1918852": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "2113294352",
+          "gid": "802631153266105614",
+          "size": "8502485558"
+        },
+        "public": {
+          "download": "2136517584",
+          "gid": "8933184008758327091",
+          "size": "8230021523"
+        }
+      }
+    },
+    "1918853": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "2102922896",
+          "gid": "7482505222419916535",
+          "size": "8477767115"
+        },
+        "public": {
+          "download": "2126172816",
+          "gid": "8335432082325661276",
+          "size": "8205238089"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26160434",
+        "description": "testing",
+        "timebuildupdated": "1792759351",
+        "timeupdated": "1792759700"
+      },
+      "public": {
+        "buildid": "26322711",
+        "timebuildupdated": "1793362123",
+        "timeupdated": "1793362192"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Lightfoot Bros Games",
+    "homepage": "https://www.lightfootbrosgames.com/",
+    "publisher": "Dionous Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "MacAppSupport",
+        "useinstead": "WinAppDataLocalLow"
+      },
+      "1": {
+        "addpath": "unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "MacAppSupport",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "Lightfoot Bros Games/Sleepytime Village",
+        "pattern": "*.save",
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793298807,
-  "_history": [],
-  "_change_number": 40385445,
-  "_missing_token": true,
-  "_sha": "a6beb9a3944cc305c34807734f878bb8970b2904",
-  "_size": 6832,
+  "_lastChecked": 1793384032,
+  "_history": [
+    {
+      "buildId": "26323691",
+      "branch": "public",
+      "timeUpdated": 1793365441,
+      "firstSeen": 1793384032,
+      "manifests": {
+        "5041531": {
+          "gid": "1632345325749538880",
+          "size": 2807253775,
+          "download": 2519777584
+        }
+      }
+    }
+  ],
+  "_change_number": 40429941,
+  "_missing_token": false,
+  "_sha": "cd1cda25a5a028d652a2e76d248c0c434f0fea76",
+  "_size": 8422,
   "appid": "5041530",
   "common": {
     "associations": {
@@ -44,9 +58,9 @@
     },
     "clienticon": "51220c6ae24924c5cd5c4b196f639f39950e8b80",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5041530",
     "genres": {
       "0": "4",
@@ -159,14 +173,15 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "531aec3b1e54590e829c912690ad7bb624072a97/capsule_231x87.jpg",
       "japanese": "7151197e5df505a2b585e2c6e878d11e376789ef/capsule_231x87_japanese.jpg",
       "koreana": "95a8bf17645585aba4f583afe115c412f93469aa/capsule_231x87_koreana.jpg",
       "schinese": "39f1d58b2c77c98c4a4a6f9feae7867bd69921cb/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1793183919",
+    "steam_release_date": "1793375405",
+    "store_asset_mtime": "1793377276",
     "store_tags": {
       "0": "23491",
       "1": "1239876",
@@ -249,5 +264,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Put Your Toys Away Together!",
+    "launch": {
+      "0": {
+        "arguments": "-SaveToUserDir",
+        "executable": "MyToyStore.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5041531": {
+      "manifests": {
+        "public": {
+          "download": "2519777584",
+          "gid": "1632345325749538880",
+          "size": "2807253775"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26323691",
+        "timebuildupdated": "1793364964",
+        "timeupdated": "1793365441"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": " Toxic Studio",
+    "dlcavailableonstore": "1",
+    "homepage": "https://toxicstudio.games/",
+    "listofdlc": "5398660",
+    "publisher": "Polden Publishing"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "30000000",
+    "savefiles": {
+      "0": {
+        "path": "MyToyStore/Saved/SaveGames",
+        "pattern": "ToxicSettingsShared.sav",
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "MyToyStore/Saved/SaveGames",
+        "pattern": "EditorSave_*.sav",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "MyToyStore/Saved/SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

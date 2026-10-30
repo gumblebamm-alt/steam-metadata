@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1792644445,
-  "_history": [],
-  "_change_number": 40109000,
-  "_missing_token": true,
-  "_sha": "c09550abcb1700cd470815ca886f240950e8ea74",
-  "_size": 3413,
+  "_lastChecked": 1793384034,
+  "_history": [
+    {
+      "buildId": "26326419",
+      "branch": "beta",
+      "timeUpdated": 1793372455,
+      "firstSeen": 1793384034,
+      "manifests": {
+        "5092121": {
+          "gid": "9269856676084875",
+          "size": 321623996,
+          "download": 68514464
+        },
+        "5092122": {
+          "gid": "6692149694552759076",
+          "size": 339644758,
+          "download": 76825696
+        },
+        "5092123": {
+          "gid": "6818739780318260799",
+          "size": 326220072,
+          "download": 71010928
+        }
+      }
+    },
+    {
+      "buildId": "26326419",
+      "branch": "public",
+      "timeUpdated": 1793372455,
+      "firstSeen": 1793384034,
+      "manifests": {
+        "5092121": {
+          "gid": "9269856676084875",
+          "size": 321623996,
+          "download": 68514464
+        },
+        "5092122": {
+          "gid": "6692149694552759076",
+          "size": 339644758,
+          "download": 76825696
+        },
+        "5092123": {
+          "gid": "6818739780318260799",
+          "size": 326220072,
+          "download": 71010928
+        }
+      }
+    }
+  ],
+  "_change_number": 40429201,
+  "_missing_token": false,
+  "_sha": "1d0cb3b9a19052d52474339f9e9a66386e7e1dd8",
+  "_size": 5938,
   "appid": "5092120",
   "common": {
     "associations": {
@@ -46,9 +93,9 @@
     },
     "clienticon": "d099fc636b7f6481d845b5463a2f98140cc977eb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5092120",
     "genres": {
       "0": "4",
@@ -121,10 +168,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "648424d61e470aa806f77178099255c03f25658f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793376146",
     "store_asset_mtime": "1792629951",
     "store_tags": {
       "0": "597",
@@ -155,5 +203,136 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Samly's Bookly",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Bookly.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Bookly.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Bookly.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5092121": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "68514464",
+          "gid": "9269856676084875",
+          "size": "321623996"
+        },
+        "public": {
+          "download": "68514464",
+          "gid": "9269856676084875",
+          "size": "321623996"
+        }
+      }
+    },
+    "5092122": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "76825696",
+          "gid": "6692149694552759076",
+          "size": "339644758"
+        },
+        "public": {
+          "download": "76825696",
+          "gid": "6692149694552759076",
+          "size": "339644758"
+        }
+      }
+    },
+    "5092123": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "71010928",
+          "gid": "6818739780318260799",
+          "size": "326220072"
+        },
+        "public": {
+          "download": "71010928",
+          "gid": "6818739780318260799",
+          "size": "326220072"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26326419",
+        "description": "Public beta branch",
+        "timebuildupdated": "1793372417",
+        "timeupdated": "1793372455"
+      },
+      "public": {
+        "buildid": "26326419",
+        "timebuildupdated": "1793372417",
+        "timeupdated": "1793372455"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Samly",
+    "publisher": "Samly"
+  },
+  "ufs": {
+    "maxnumfiles": "300",
+    "quota": "300000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Samly/Bookly/Saves/Shared",
+            "replace": ".config/unity3d/Samly/Bookly/Saves/Shared"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Samly/Bookly/Saves/Shared",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

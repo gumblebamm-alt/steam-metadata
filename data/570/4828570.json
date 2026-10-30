@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793077381,
-  "_history": [],
-  "_change_number": 40274064,
-  "_missing_token": true,
-  "_sha": "f44d5fecb1680dcd5e14a188b5003f28c2087a63",
-  "_size": 3634,
+  "_lastChecked": 1793384026,
+  "_history": [
+    {
+      "buildId": "26324853",
+      "branch": "public",
+      "timeUpdated": 1793368225,
+      "firstSeen": 1793384026,
+      "manifests": {
+        "4828571": {
+          "gid": "6424098280080186740",
+          "size": 237920144,
+          "download": 152461360
+        },
+        "4828572": {
+          "gid": "1222567258366074982",
+          "size": 204296456,
+          "download": 144386544
+        }
+      }
+    }
+  ],
+  "_change_number": 40424579,
+  "_missing_token": false,
+  "_sha": "95555e6cb50f69a9fad962e8f6ee99a97b348fad",
+  "_size": 5038,
   "appid": "4828570",
   "common": {
     "associations": {
@@ -23,6 +42,7 @@
       "category_22": "1",
       "category_23": "1",
       "category_24": "1",
+      "category_25": "1",
       "category_28": "1",
       "category_36": "1",
       "category_37": "1",
@@ -45,6 +65,7 @@
     },
     "clienticon": "0e791d7d82e298018cac106bfe2c3e718b4b8591",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -55,7 +76,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4828570",
     "genres": {
       "0": "1",
@@ -124,13 +144,15 @@
     "linuxclienticon": "0e791d7d82e298018cac106bfe2c3e718b4b8591",
     "name": "Shanking Simulator",
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b2ef8c0a5f2f5b770588e4a1ecf126443335c83c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793368811",
     "store_asset_mtime": "1793049707",
     "store_tags": {
       "0": "19",
@@ -163,5 +185,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Shanking Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "shankingsimulator.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "shankingsimulator.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4828571": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "152461360",
+          "gid": "6424098280080186740",
+          "size": "237920144"
+        }
+      }
+    },
+    "4828572": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "144386544",
+          "gid": "1222567258366074982",
+          "size": "204296456"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26324853",
+        "timebuildupdated": "1793368224",
+        "timeupdated": "1793368225"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Eternal Eclipse Oy",
+    "publisher": "Eternal Eclipse Oy"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Shanking Simulator/SaveData",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

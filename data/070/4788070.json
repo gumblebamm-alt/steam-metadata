@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793040162,
-  "_history": [],
-  "_change_number": 40260240,
-  "_missing_token": true,
-  "_sha": "7eb85f88f8cab8ef011c7eec15287961278e47b7",
-  "_size": 3488,
+  "_lastChecked": 1793384025,
+  "_history": [
+    {
+      "buildId": "26198541",
+      "branch": "public",
+      "timeUpdated": 1792940601,
+      "firstSeen": 1793384025,
+      "manifests": {
+        "4788071": {
+          "gid": "2934450136078349939",
+          "size": 9404745530,
+          "download": 4139092080
+        },
+        "4788072": {
+          "gid": "1238938387388108670",
+          "size": 9657272953,
+          "download": 4343704336
+        }
+      }
+    }
+  ],
+  "_change_number": 40425931,
+  "_missing_token": false,
+  "_sha": "c9f004007830156563f1bc600d0fd2f3862f6029",
+  "_size": 5208,
   "appid": "4788070",
   "common": {
     "associations": {
@@ -36,7 +55,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4788070",
     "genres": {
       "0": "1",
@@ -108,10 +126,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "022082d879619ef33a325b182cb55406a040c451/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793370957",
     "store_asset_mtime": "1784867265",
     "store_tags": {
       "0": "3834",
@@ -166,5 +185,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "NaughtyNurse",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "NaughtyNurse.x86_64",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Naughty Nurse.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4788071": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "4139092080",
+          "gid": "2934450136078349939",
+          "size": "9404745530"
+        }
+      }
+    },
+    "4788072": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "4343704336",
+          "gid": "1238938387388108670",
+          "size": "9657272953"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26198541",
+        "timebuildupdated": "1792940336",
+        "timeupdated": "1792940601"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "D13 Games",
+    "homepage": "https://d13games.com/naughty-nurse.html",
+    "publisher": "D13 Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".config/unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "D13 Games/Naughty Nurse",
+        "pattern": "player_exp.dat",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "D13 Games/Naughty Nurse",
+        "pattern": "settings.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "D13 Games/Naughty Nurse",
+        "pattern": "best_times.dat",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

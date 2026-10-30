@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793298792,
-  "_history": [],
-  "_change_number": 40378822,
-  "_missing_token": true,
-  "_sha": "24b1f8bc1323ccead4af9978fbf98e7318d5bf97",
-  "_size": 3740,
+  "_lastChecked": 1793384020,
+  "_history": [
+    {
+      "buildId": "26324402",
+      "branch": "public",
+      "timeUpdated": 1793367069,
+      "firstSeen": 1793384020,
+      "manifests": {
+        "4600131": {
+          "gid": "6010599635903962254",
+          "size": 949003693,
+          "download": 379500832
+        },
+        "4600133": {
+          "gid": "3379125947669298235",
+          "size": 903447578,
+          "download": 366466896
+        }
+      }
+    }
+  ],
+  "_change_number": 40433409,
+  "_missing_token": false,
+  "_sha": "71649f904fe0a043cb0f204e35b84f5178fd287d",
+  "_size": 5373,
   "appid": "4600130",
   "common": {
     "aicontenttype": "1",
@@ -21,7 +40,6 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
-      "category_23": "1",
       "category_62": "1",
       "category_74": "1",
       "category_76": "1",
@@ -30,8 +48,8 @@
     "clienticns": "bd8faefa84619d2c5b7f4da875ee495e3e7901b1",
     "clienticon": "4370714bd96e9ec03e9461052d42f453811a72f3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4600130",
     "genres": {
       "0": "4",
@@ -117,10 +135,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "847c0b9f22b9a7668700c616d0c7fbb2a8de0fec/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793382924",
     "store_asset_mtime": "1790200431",
     "store_tags": {
       "0": "560542",
@@ -172,5 +191,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Harvest Looper",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Harvest Looper.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "HarvestLooper.app"
+      }
+    }
+  },
+  "depots": {
+    "4600131": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "379500832",
+          "gid": "6010599635903962254",
+          "size": "949003693"
+        }
+      }
+    },
+    "4600133": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "366466896",
+          "gid": "3379125947669298235",
+          "size": "903447578"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,polish,russian,spanish,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26324402",
+        "timebuildupdated": "1793366917",
+        "timeupdated": "1793367069"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Unbelievable Games",
+    "publisher": "Unbelievable Games"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "5000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "UnbelieveableGames/Harvest Looper",
+            "replace": "UnbelieveableGames/HarvestLooper"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "UnbelieveableGames/Harvest Looper",
+        "pattern": "fullsave.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

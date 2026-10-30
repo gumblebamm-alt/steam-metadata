@@ -1,12 +1,27 @@
 {
-  "_lastChecked": 1793211929,
-  "_history": [],
-  "_change_number": 40340579,
-  "_missing_token": true,
-  "_sha": "85a9037abc5c2706e1c6617dd34d91fc1b08c998",
-  "_size": 4455,
+  "_lastChecked": 1793384016,
+  "_history": [
+    {
+      "buildId": "26326189",
+      "branch": "public",
+      "timeUpdated": 1793371984,
+      "firstSeen": 1793384016,
+      "manifests": {
+        "4339681": {
+          "gid": "3877994594132472623",
+          "size": 1158203236,
+          "download": 241306672
+        }
+      }
+    }
+  ],
+  "_change_number": 40426546,
+  "_missing_token": false,
+  "_sha": "9371f53f8533a1affea4306feaf8938b7c538391",
+  "_size": 5640,
   "appid": "4339680",
   "common": {
+    "aicontenttype": "1",
     "associations": {
       "0": {
         "name": "Fake Moon",
@@ -30,8 +45,8 @@
     },
     "clienticon": "faff6d319caee13bcd1090e18bba51e3a42c7170",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4339680",
     "genres": {
       "0": "28"
@@ -110,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "da2ad81b639ea08d498890219ded30592f9f9bf5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793368812",
     "store_asset_mtime": "1793196194",
     "store_tags": {
       "0": "3859",
@@ -183,5 +199,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Totally Safe Moon Project",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Totally Safe Moon Project.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4339681": {
+      "manifests": {
+        "public": {
+          "download": "241306672",
+          "gid": "3877994594132472623",
+          "size": "1158203236"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26326189",
+        "timebuildupdated": "1793371867",
+        "timeupdated": "1793371984"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Fake Moon",
+    "homepage": "https://www.rokaplay.com/",
+    "publisher": "rokaplay select"
+  },
+  "ufs": {
+    "maxnumfiles": "700",
+    "quota": "80000000",
+    "savefiles": {
+      "0": {
+        "path": "Fake Moon Studio/Totally Safe Moon Project/SessionSaves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

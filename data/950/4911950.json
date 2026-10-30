@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792558102,
-  "_history": [],
-  "_change_number": 40046639,
-  "_missing_token": true,
-  "_sha": "03946b8634e37b987684c2a2c295a0c3d8e7842e",
-  "_size": 3279,
+  "_lastChecked": 1793384028,
+  "_history": [
+    {
+      "buildId": "25651984",
+      "branch": "public",
+      "timeUpdated": 1790856246,
+      "firstSeen": 1793384028,
+      "manifests": {
+        "4911951": {
+          "gid": "6842574240983621649",
+          "size": 260536206,
+          "download": 176379664
+        }
+      }
+    }
+  ],
+  "_change_number": 40422900,
+  "_missing_token": false,
+  "_sha": "2ff2b5bf62cdd38f1ec4d97ce6298fe52871893c",
+  "_size": 4857,
   "appid": "4911950",
   "common": {
     "associations": {
@@ -39,9 +53,9 @@
     },
     "clienticon": "2a2d6eb10cc9756bbeea32a5b28776dad4677b9d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4911950",
     "genres": {
       "0": "1",
@@ -118,10 +132,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c7c7d627787d0fb061d5097e62cdda1b500c6411/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793365733",
     "store_asset_mtime": "1790754780",
     "store_tags": {
       "0": "19",
@@ -149,5 +164,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pinballoid Crush",
+    "launch": {
+      "0": {
+        "executable": "Pinballoid Crush.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4911951": {
+      "manifests": {
+        "public": {
+          "download": "176379664",
+          "gid": "6842574240983621649",
+          "size": "260536206"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25651984",
+        "timebuildupdated": "1790856138",
+        "timeupdated": "1790856246"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Pixel Bones",
+    "publisher": "Super PowerUp Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Super PowerUp Games/PinballoidCrush",
+            "replace": "unity.Super PowerUp Games.PinballoidCrush"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Super PowerUp Games/PinballoidCrush",
+            "replace": ".config/unity3d/Super PowerUp Games/PinballoidCrush"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Super PowerUp Games/PinballoidCrush",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

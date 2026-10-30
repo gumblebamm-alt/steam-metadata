@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1790772029,
-  "_history": [],
-  "_change_number": 39340852,
-  "_missing_token": true,
-  "_sha": "912007f52b85776557bf315967ea78f22433e6ee",
-  "_size": 4393,
+  "_lastChecked": 1793384005,
+  "_history": [
+    {
+      "buildId": "26324917",
+      "branch": "public",
+      "timeUpdated": 1793368405,
+      "firstSeen": 1793384005,
+      "manifests": {
+        "3471292": {
+          "gid": "1359266235586203955",
+          "size": 2041644322,
+          "download": 1868014096
+        },
+        "3471293": {
+          "gid": "8571456740310588072",
+          "size": 1938191385,
+          "download": 1693672400
+        }
+      }
+    }
+  ],
+  "_change_number": 40434034,
+  "_missing_token": false,
+  "_sha": "84384ff5ebef1c4be4b21be60db5a49dca3cc23f",
+  "_size": 8051,
   "appid": "3471290",
   "common": {
     "associations": {
@@ -15,10 +34,6 @@
       "1": {
         "name": "Growfall Games",
         "type": "publisher"
-      },
-      "2": {
-        "name": "Growfall Games",
-        "type": "franchise"
       }
     },
     "category": {
@@ -36,9 +51,9 @@
     },
     "clienticon": "bfd1b228c3c3e5583911c76b686ad02a5ed92330",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3471290",
     "genres": {
       "0": "25",
@@ -112,11 +127,81 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a520ef87bbb3c210fd0d85d825392620e954c4b0/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1770198550",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1793029652",
+      "tested_build_id": "25886598",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      }
+    },
+    "steam_release_date": "1793373784",
+    "store_asset_mtime": "1793347816",
     "store_tags": {
       "0": "597",
       "1": "21",
@@ -128,6 +213,7 @@
       "15": "5716",
       "16": "1702",
       "17": "4182",
+      "18": "560542",
       "2": "599",
       "3": "3810",
       "4": "3834",
@@ -219,5 +305,102 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "IAWBID",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "IAWBID.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "IAWBID.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3471292": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1868014096",
+          "gid": "1359266235586203955",
+          "size": "2041644322"
+        }
+      }
+    },
+    "3471293": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1693672400",
+          "gid": "8571456740310588072",
+          "size": "1938191385"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26324917",
+        "timebuildupdated": "1793368405",
+        "timeupdated": "1793368405"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Growfall Games",
+    "publisher": "Growfall Games"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "300000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".config/Epic/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "IAWBID/Saved/SaveGames",
+        "pattern": "iawbid_save.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
