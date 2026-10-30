@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792945219,
-  "_history": [],
-  "_change_number": 40228109,
-  "_missing_token": true,
-  "_sha": "0228d5eae9bcf2bed916e2dec002626df0266243",
-  "_size": 3709,
+  "_lastChecked": 1793339332,
+  "_history": [
+    {
+      "buildId": "26220924",
+      "branch": "public",
+      "timeUpdated": 1793031596,
+      "firstSeen": 1793339332,
+      "manifests": {
+        "5226291": {
+          "gid": "2918659742396629330",
+          "size": 619711703,
+          "download": 167059664
+        }
+      }
+    }
+  ],
+  "_change_number": 40410342,
+  "_missing_token": false,
+  "_sha": "2da0a93c7669a9fe0494664f34b0bbfec436bed0",
+  "_size": 4873,
   "appid": "5226290",
   "common": {
     "associations": {
@@ -33,12 +47,13 @@
     },
     "clienticon": "c9c3f1f4a48055c857fcab2ddbb581eda43c28c7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5226290",
     "genres": {
       "0": "4",
-      "1": "23"
+      "1": "23",
+      "2": "2"
     },
     "header_image": {
       "english": "eecc2bbf8efbf2ff97dfb8a67a1ea7ecd828c9ba/header.jpg"
@@ -105,32 +120,33 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bded9a6d51344c144560f9fdf5b05e60b0a9a606/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793338001",
     "store_asset_mtime": "1791309547",
     "store_tags": {
-      "0": "1664",
-      "1": "12057",
-      "10": "4305",
-      "11": "6815",
-      "12": "3964",
-      "13": "4252",
-      "14": "4085",
-      "15": "4094",
-      "16": "1643",
-      "17": "5350",
-      "18": "17894",
-      "19": "1654",
-      "2": "4726",
-      "3": "4975",
-      "4": "5851",
-      "5": "97376",
-      "6": "552282",
-      "7": "6869",
-      "8": "5125",
-      "9": "597"
+      "0": "97376",
+      "1": "1664",
+      "10": "5125",
+      "11": "597",
+      "12": "4305",
+      "13": "6815",
+      "14": "4252",
+      "15": "4085",
+      "16": "5350",
+      "17": "17894",
+      "18": "12057",
+      "19": "4094",
+      "2": "1654",
+      "3": "1643",
+      "4": "552282",
+      "5": "5851",
+      "6": "4726",
+      "7": "4975",
+      "8": "3964",
+      "9": "6869"
     },
     "supported_languages": {
       "brazilian": {
@@ -178,5 +194,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Zenden",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Zenden.exe"
+      }
+    }
+  },
+  "depots": {
+    "5226291": {
+      "manifests": {
+        "public": {
+          "download": "167059664",
+          "gid": "2918659742396629330",
+          "size": "619711703"
+        }
+      }
+    },
+    "5226292": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26220924",
+        "timebuildupdated": "1793029334",
+        "timeupdated": "1793031596"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Fair Sky Studios LLC",
+    "publisher": "Fair Sky Studios LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "536870912",
+    "savefiles": {
+      "0": {
+        "path": "Zenden/Steam/{64BitSteamID}",
+        "pattern": "zenden_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Zenden/Steam/{64BitSteamID}",
+        "pattern": "zenden_save.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

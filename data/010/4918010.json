@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793298801,
-  "_history": [],
-  "_change_number": 40391628,
-  "_missing_token": true,
-  "_sha": "c59586510cd759d253dde05a2e7b82e3b8d0dd16",
-  "_size": 3878,
+  "_lastChecked": 1793339325,
+  "_history": [
+    {
+      "buildId": "26300929",
+      "branch": "public",
+      "timeUpdated": 1793287959,
+      "firstSeen": 1793339325,
+      "manifests": {
+        "4918011": {
+          "gid": "514146536373319757",
+          "size": 166143984,
+          "download": 103483216
+        }
+      }
+    }
+  ],
+  "_change_number": 40407664,
+  "_missing_token": false,
+  "_sha": "a8f2441e4cc34e76b26be8cd7dadc8ec86620aab",
+  "_size": 4965,
   "appid": "4918010",
   "common": {
     "aicontenttype": "1",
@@ -28,9 +42,9 @@
     "clienticns": "27861eca02bbdcfcf25fbb26e0346a4aa63321ef",
     "clienticon": "2dcc9346b38be8ba26fdb286e531bb2c08005c93",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4918010",
     "genres": {
       "0": "4"
@@ -115,10 +129,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "adb5cf0a06668afcf9954e82cd5594afe142e8d7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793330010",
     "store_asset_mtime": "1787588536",
     "store_tags": {
       "0": "597",
@@ -185,5 +200,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sudokiller",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Sudokiller.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4918011": {
+      "manifests": {
+        "public": {
+          "download": "103483216",
+          "gid": "514146536373319757",
+          "size": "166143984"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26300929",
+        "timebuildupdated": "1793287835",
+        "timeupdated": "1793287959"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Tranqui Games",
+    "homepage": "https://tranquigames.github.io/sudokiller",
+    "publisher": "Tranqui Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "TranquiGames/Sudokiller",
+        "pattern": "save.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "TranquiGames/Sudokiller",
+        "pattern": "save.bak",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

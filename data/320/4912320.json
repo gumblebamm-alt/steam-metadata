@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793077383,
-  "_history": [],
-  "_change_number": 40259593,
-  "_missing_token": true,
-  "_sha": "c92df0560455e0150be7a6e1991b29223446a997",
-  "_size": 5500,
+  "_lastChecked": 1793339324,
+  "_history": [
+    {
+      "buildId": "26291489",
+      "branch": "public",
+      "timeUpdated": 1793259742,
+      "firstSeen": 1793339324,
+      "manifests": {
+        "4912321": {
+          "gid": "7835295888189507255",
+          "size": 687378605,
+          "download": 519396016
+        },
+        "4912322": {
+          "gid": "2568310201995893968",
+          "size": 721038212,
+          "download": 534715152
+        }
+      }
+    }
+  ],
+  "_change_number": 40403909,
+  "_missing_token": false,
+  "_sha": "f18f7f804e8a21c75e16d270d084c0db928ac88f",
+  "_size": 7048,
   "appid": "4912320",
   "common": {
     "aicontenttype": "1",
@@ -47,9 +66,9 @@
     "clienticns": "c665924a2c4a96684d5901f6985d918a3e5ad153",
     "clienticon": "c665924a2c4a96684d5901f6985d918a3e5ad153",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4912320",
     "genres": {
       "0": "4",
@@ -150,11 +169,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "435c7a7108e533239a858cecc68d8145ade0328f/capsule_231x87.jpg",
       "japanese": "5adf7458bfcfc46997b4b88322ae9c93087e1b33/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1793055617",
     "store_asset_mtime": "1791596433",
     "store_tags": {
       "0": "599",
@@ -202,5 +222,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Forturia Trade Route Pioneers",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Forturia Trade Route Pioneers.app",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Forturia Trade Route Pioneers.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4912321": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "519396016",
+          "gid": "7835295888189507255",
+          "size": "687378605"
+        }
+      }
+    },
+    "4912322": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "534715152",
+          "gid": "2568310201995893968",
+          "size": "721038212"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "26291489",
+        "timebuildupdated": "1793259676",
+        "timeupdated": "1793259742"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "SHUNSUKE KATSUMATA",
+    "publisher": "FUJIYAMA ENTERTAINMENT"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Forturia Trade Route Pioneers",
+        "pattern": "forturia_*_save.json",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

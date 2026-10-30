@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793211914,
+  "_lastChecked": 1793339308,
   "_history": [
     {
       "buildId": "26271224",
@@ -13,12 +13,30 @@
           "download": 98259120
         }
       }
+    },
+    {
+      "buildId": "26308312",
+      "branch": "public",
+      "timeUpdated": 1793308831,
+      "firstSeen": 1793339308,
+      "manifests": {
+        "3211181": {
+          "gid": "8464348499099553970",
+          "size": 287326592,
+          "download": 98259120
+        },
+        "3211182": {
+          "gid": "5580598414066921104",
+          "size": 267212853,
+          "download": 90907376
+        }
+      }
     }
   ],
-  "_change_number": 40339410,
+  "_change_number": 40407447,
   "_missing_token": false,
-  "_sha": "cc09999de2c6921258550a6af7405e0999bb91c5",
-  "_size": 3600,
+  "_sha": "7a6f942576dc81849204a27a22af0f45cf112b81",
+  "_size": 4039,
   "appid": "3211180",
   "common": {
     "associations": {
@@ -110,8 +128,8 @@
     "name": "Wildwood",
     "osarch": "64",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "23",
     "releasestate": "released",
     "small_capsule": {
@@ -122,24 +140,24 @@
     "store_tags": {
       "0": "597",
       "1": "1773",
-      "10": "1697",
-      "11": "1659",
-      "12": "4791",
-      "13": "4057",
-      "14": "4172",
-      "15": "10808",
-      "16": "1702",
-      "17": "4106",
-      "18": "3993",
-      "19": "7481",
+      "10": "1659",
+      "11": "4791",
+      "12": "4057",
+      "13": "10808",
+      "14": "3993",
+      "15": "7481",
+      "16": "19",
+      "17": "4255",
+      "18": "97376",
+      "19": "4604",
       "2": "4637",
       "3": "5350",
       "4": "4252",
-      "5": "4885",
-      "6": "1684",
-      "7": "4191",
-      "8": "4305",
-      "9": "4726"
+      "5": "1684",
+      "6": "4191",
+      "7": "4305",
+      "8": "4726",
+      "9": "1697"
     },
     "supported_languages": {
       "english": {
@@ -152,13 +170,26 @@
     "installdir": "Wildwood",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "Wildwood.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Wildwood.app",
         "type": "default"
       }
     }
   },
   "depots": {
     "3211181": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "download": "98259120",
@@ -167,11 +198,23 @@
         }
       }
     },
+    "3211182": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "90907376",
+          "gid": "5580598414066921104",
+          "size": "267212853"
+        }
+      }
+    },
     "branches": {
       "public": {
-        "buildid": "26271224",
-        "timebuildupdated": "1793193173",
-        "timeupdated": "1793193175"
+        "buildid": "26308312",
+        "timebuildupdated": "1793308831",
+        "timeupdated": "1793308831"
       }
     },
     "nocommonredists": "1"

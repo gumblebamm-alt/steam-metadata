@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793040149,
+  "_lastChecked": 1793339316,
   "_history": [
     {
       "buildId": "24760329",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 40138463,
+  "_change_number": 40342952,
   "_missing_token": false,
-  "_sha": "e5a687c505d206a7e20b0f2f3732954350d848cb",
-  "_size": 9205,
+  "_sha": "8dfa1a373106f573b6be8a22dad0237fa889f844",
+  "_size": 9925,
   "appid": "4243690",
   "common": {
     "aicontenttype": "1",
@@ -164,10 +164,31 @@
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "1",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
       "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
@@ -183,8 +204,8 @@
           "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
         }
       },
-      "test_timestamp": "1774051200",
-      "tested_build_id": "22341201",
+      "test_timestamp": "1792593560",
+      "tested_build_id": "25649651",
       "tests": {
         "0": {
           "display": "3",
@@ -205,6 +226,10 @@
         "4": {
           "display": "3",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+        },
+        "5": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         }
       }
     },

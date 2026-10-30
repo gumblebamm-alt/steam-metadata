@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792198539,
-  "_history": [],
-  "_change_number": 39909470,
-  "_missing_token": true,
-  "_sha": "c15b983a328fbd29c4f09fe3a14f374314b616f8",
-  "_size": 3420,
+  "_lastChecked": 1793339327,
+  "_history": [
+    {
+      "buildId": "25990867",
+      "branch": "public",
+      "timeUpdated": 1792165450,
+      "firstSeen": 1793339327,
+      "manifests": {
+        "5033391": {
+          "gid": "6598404841031009640",
+          "size": 5010149932,
+          "download": 4190109024
+        },
+        "5033392": {
+          "gid": "4316464092510595045",
+          "size": 5026389974,
+          "download": 4198241824
+        }
+      }
+    }
+  ],
+  "_change_number": 40395309,
+  "_missing_token": false,
+  "_sha": "ab3c43a208e043e6bf8a236fc280f12bc9d7ddcd",
+  "_size": 4718,
   "appid": "5033390",
   "common": {
     "aicontenttype": "1",
@@ -32,6 +51,7 @@
     },
     "clienticon": "bb6cfc8d296a9f687bf64a59e04d07166f7b9d60",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -46,7 +66,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5033390",
     "genres": {
       "0": "1",
@@ -118,11 +137,12 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "f6400b86e784d7a016f81abdcbab3a1831ceeb1e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793301229",
     "store_asset_mtime": "1792131028",
     "store_tags": {
       "0": "19",
@@ -134,8 +154,8 @@
       "14": "4305",
       "15": "5851",
       "16": "7743",
-      "17": "6691",
-      "18": "4166",
+      "17": "4166",
+      "18": "6691",
       "19": "4342",
       "2": "42804",
       "3": "4231",
@@ -155,5 +175,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Marrowlight",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Marrowlight.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Contents\\MacOS\\Marrowlight",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5033391": {
+      "manifests": {
+        "public": {
+          "download": "4190109024",
+          "gid": "6598404841031009640",
+          "size": "5010149932"
+        }
+      }
+    },
+    "5033392": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "4198241824",
+          "gid": "4316464092510595045",
+          "size": "5026389974"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25990867",
+        "timebuildupdated": "1792164628",
+        "timeupdated": "1792165450"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Entropy Digital Entertainment",
+    "homepage": "https://www.entropyadultgames.com/",
+    "publisher": "Entropy Digital Entertainment"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Entropy Digital Entertainment\\Marrowlight",
+        "pattern": "game_save",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

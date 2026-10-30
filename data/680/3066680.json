@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793252950,
-  "_history": [],
-  "_change_number": 40365601,
-  "_missing_token": true,
-  "_sha": "11a17f42cbbde359e6f540f046dfc8919014d742",
-  "_size": 3347,
+  "_lastChecked": 1793339307,
+  "_history": [
+    {
+      "buildId": "26313894",
+      "branch": "public",
+      "timeUpdated": 1793329130,
+      "firstSeen": 1793339307,
+      "manifests": {
+        "3066681": {
+          "gid": "2899992076294504888",
+          "size": 149562498,
+          "download": 122700672
+        },
+        "3066682": {
+          "gid": "311731995444564621",
+          "size": 147903618,
+          "download": 122204144
+        }
+      }
+    }
+  ],
+  "_change_number": 40408808,
+  "_missing_token": false,
+  "_sha": "b973f2c70a71c65f9b3ed51ba2de8b0a5fd72858",
+  "_size": 4986,
   "appid": "3066680",
   "common": {
     "associations": {
@@ -34,6 +53,7 @@
     "clienticon": "6caa0b941875e76ec44a0938ad5a470829805118",
     "clienttga": "b111f1e076a04c05ecaa5e193fd7dd50b9554419",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -42,7 +62,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3066680",
     "genres": {
       "0": "1",
@@ -114,12 +133,13 @@
     "osarch": "",
     "oscpu": "",
     "osextended": "",
-    "oslist": "windows,linux",
+    "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c206bb779d702d2e2c9342567250ecf7cf5f751a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793333229",
     "store_asset_mtime": "1793234735",
     "store_tags": {
       "0": "3834",
@@ -151,5 +171,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Solar Voltage",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SolarVoltage.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input/action_manifest.vdf"
+  },
+  "depots": {
+    "3066681": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "122700672",
+          "gid": "2899992076294504888",
+          "size": "149562498"
+        }
+      }
+    },
+    "3066682": {
+      "config": {
+        "osarch": "32",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "122204144",
+          "gid": "311731995444564621",
+          "size": "147903618"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26313894",
+        "timebuildupdated": "1793329121",
+        "timeupdated": "1793329130"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "3066680"
+  },
+  "extended": {
+    "developer": "Cosmic Lighthouse Games",
+    "publisher": "Cosmic Lighthouse Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "CosmicLighthouseGames\\SolarVoltage\\Saves",
+        "pattern": "*.isosav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "CosmicLighthouseGames\\SolarVoltage",
+        "pattern": "settings.yaml",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

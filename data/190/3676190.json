@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793166279,
-  "_history": [],
-  "_change_number": 40320262,
-  "_missing_token": true,
-  "_sha": "d92e821614a65dbbfe6c2b18a0de49a98ad59cbd",
-  "_size": 18259,
+  "_lastChecked": 1793339311,
+  "_history": [
+    {
+      "buildId": "26258351",
+      "branch": "public",
+      "timeUpdated": 1793148612,
+      "firstSeen": 1793339311,
+      "manifests": {
+        "3676191": {
+          "gid": "945546317429296301",
+          "size": 22101087972,
+          "download": 19324462160
+        }
+      }
+    }
+  ],
+  "_change_number": 40402713,
+  "_missing_token": false,
+  "_sha": "1f992cffd9e98426827d01ec3ab3f81fe9ff8275",
+  "_size": 19518,
   "appid": "3676190",
   "common": {
     "aicontenttype": "1",
@@ -32,6 +46,7 @@
     "clienticon": "84b068460a8fbb0e2172104e0a3cdd113be25392",
     "clienttga": "52428b74acd110ffec1c1bbbc1245f4129c208f3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -43,7 +58,6 @@
       "2": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3676190",
     "genres": {
       "0": "1",
@@ -287,7 +301,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "brazilian": "f4032f93b0b47edca470d89eeb6231fce66528b9/capsule_231x87_brazilian.jpg",
       "english": "e6345d1fb17dd81bc7e896d51ce84f8cf3b9936c/capsule_231x87.jpg",
@@ -305,6 +319,7 @@
       "turkish": "af7b16ba8985417ace451e3cbcaae73b8c8b8fb1/capsule_231x87_turkish.jpg",
       "vietnamese": "c12579499d09cd9608865d67e8e00f67bf757dc5/capsule_231x87_vietnamese.jpg"
     },
+    "steam_release_date": "1793317054",
     "store_asset_mtime": "1787132276",
     "store_tags": {
       "0": "4231",
@@ -373,5 +388,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DarkRune",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DarkRune\\DarkRune.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3676191": {
+      "manifests": {
+        "public": {
+          "download": "19324462160",
+          "gid": "945546317429296301",
+          "size": "22101087972"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26258351",
+        "timebuildupdated": "1793148517",
+        "timeupdated": "1793148612"
+      }
+    }
+  },
+  "extended": {
+    "developer": "暴风雨",
+    "publisher": "暴风雨"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "DarkRune",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

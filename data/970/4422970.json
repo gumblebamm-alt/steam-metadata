@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792945199,
-  "_history": [],
-  "_change_number": 40223130,
-  "_missing_token": true,
-  "_sha": "c203a7e107971c5e635aeec808cb7dcb3b5ce8ac",
-  "_size": 4210,
+  "_lastChecked": 1793339318,
+  "_history": [
+    {
+      "buildId": "26315065",
+      "branch": "public",
+      "timeUpdated": 1793334031,
+      "firstSeen": 1793339318,
+      "manifests": {
+        "4422971": {
+          "gid": "5006705463515346581",
+          "size": 1187130152,
+          "download": 1077516688
+        },
+        "5408900": {
+          "gid": "1860754104871651755",
+          "size": 252626060,
+          "download": 41054496
+        }
+      }
+    }
+  ],
+  "_change_number": 40410226,
+  "_missing_token": false,
+  "_sha": "7011e2ff3d6b6586e95903667c39f8938bc66189",
+  "_size": 5951,
   "appid": "4422970",
   "common": {
     "associations": {
@@ -30,9 +49,9 @@
     },
     "clienticon": "02f0fef634ac0b5f526124ce0fe013685a775071",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4422970",
     "genres": {
       "0": "1",
@@ -123,10 +142,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b8f790823811c037dd0748e210d4a7672a5a6240/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793334776",
     "store_asset_mtime": "1792924587",
     "store_tags": {
       "0": "9",
@@ -202,5 +222,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Morse Depths WWII",
+    "launch": {
+      "0": {
+        "executable": "morse_depths_wwii.exe"
+      }
+    }
+  },
+  "depots": {
+    "4422971": {
+      "manifests": {
+        "public": {
+          "download": "1077516688",
+          "gid": "5006705463515346581",
+          "size": "1187130152"
+        }
+      }
+    },
+    "5408900": {
+      "dlcappid": "5408900",
+      "manifests": {
+        "public": {
+          "download": "41054496",
+          "gid": "1860754104871651755",
+          "size": "252626060"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26315065",
+        "timebuildupdated": "1793334031",
+        "timeupdated": "1793334031"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Sasunia Game Studio",
+    "dlcavailableonstore": "1",
+    "listofdlc": "4793360,5408900",
+    "publisher": "Sasunia Game Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "32",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/MORSE DEPTHS- WWII/steam/{64BitSteamID}",
+        "pattern": "save_slot_*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/MORSE DEPTHS- WWII/steam/{64BitSteamID}",
+        "pattern": "save_slot_*.save.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/MORSE DEPTHS- WWII/steam/{64BitSteamID}",
+        "pattern": "achievements.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/MORSE DEPTHS- WWII/steam/{64BitSteamID}",
+        "pattern": "arcade_highscore.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

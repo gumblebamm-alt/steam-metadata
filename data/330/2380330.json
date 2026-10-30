@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791085572,
-  "_history": [],
-  "_change_number": 39460881,
-  "_missing_token": true,
-  "_sha": "37db84c11877a21cbfa3d8fcf05173d75e70178c",
-  "_size": 3315,
+  "_lastChecked": 1793339305,
+  "_history": [
+    {
+      "buildId": "26197489",
+      "branch": "public",
+      "timeUpdated": 1792934635,
+      "firstSeen": 1793339305,
+      "manifests": {
+        "2380331": {
+          "gid": "873518726963522335",
+          "size": 858917831,
+          "download": 258362336
+        },
+        "2380332": {
+          "gid": "1325772333865069249",
+          "size": 908459774,
+          "download": 262584704
+        }
+      }
+    }
+  ],
+  "_change_number": 40399132,
+  "_missing_token": false,
+  "_sha": "54f3b61ce3b1c61a41f2c95ed8039725d3253ed0",
+  "_size": 4967,
   "appid": "2380330",
   "common": {
     "associations": {
@@ -38,9 +57,9 @@
     "clienticon": "878ed65d2ecc3bc01286aa28c6d4259ba5f4064e",
     "clienttga": "14d1030a938e2be73eb36f670f7b14ac8257b484",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2380330",
     "genres": {
       "0": "1",
@@ -113,10 +132,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5c2a3f2ed62a3b98387df3845a423133a45449b3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793308838",
     "store_asset_mtime": "1787176966",
     "store_tags": {
       "0": "42804",
@@ -147,5 +167,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lethal Justice",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Lethal Justice.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "lj_linux.x86_64",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2380331": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "258362336",
+          "gid": "873518726963522335",
+          "size": "858917831"
+        }
+      }
+    },
+    "2380332": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "262584704",
+          "gid": "1325772333865069249",
+          "size": "908459774"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26197489",
+        "timebuildupdated": "1792934484",
+        "timeupdated": "1792934635"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Cabbit Labs",
+    "homepage": "https://www.lethaljusticegame.com",
+    "publisher": "Cabbit Labs"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Cabbit Labs/Lethal Justice",
+            "replace": ".config/unity3d/Cabbit Labs/Lethal Justice"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Cabbit Labs/Lethal Justice",
+        "pattern": "SaveFile.es3",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

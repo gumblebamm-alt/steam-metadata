@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1792644442,
-  "_history": [],
-  "_change_number": 40113362,
-  "_missing_token": true,
-  "_sha": "3f837080578f95a9bbbd886ecc9bda7af3fac5aa",
-  "_size": 4106,
+  "_lastChecked": 1793339327,
+  "_history": [
+    {
+      "buildId": "26311802",
+      "branch": "openbeta",
+      "timeUpdated": 1793321083,
+      "firstSeen": 1793339327,
+      "manifests": {
+        "5030171": {
+          "gid": "95656434361964441",
+          "size": 218141175,
+          "download": 71991440
+        },
+        "5030172": {
+          "gid": "1641054152886183230",
+          "size": 342906079,
+          "download": 105805856
+        }
+      }
+    },
+    {
+      "buildId": "26311731",
+      "branch": "public",
+      "timeUpdated": 1793320764,
+      "firstSeen": 1793339327,
+      "manifests": {
+        "5030171": {
+          "gid": "4515593529909519811",
+          "size": 218141175,
+          "download": 71991504
+        },
+        "5030172": {
+          "gid": "5019196586593969028",
+          "size": 338707023,
+          "download": 105764848
+        }
+      }
+    }
+  ],
+  "_change_number": 40407164,
+  "_missing_token": false,
+  "_sha": "804a4f99ee6c3d717434af9e07040f95756eb96d",
+  "_size": 6484,
   "appid": "5030170",
   "common": {
     "associations": {
@@ -46,9 +83,9 @@
     },
     "clienticon": "5c3d2ae25d49204d03c545ebc0b5d8f338e26cdc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5030170",
     "genres": {
       "0": "1",
@@ -132,10 +169,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "48d27db88f88188a9b72682a643d0cb43e39bb63/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793328855",
     "store_asset_mtime": "1792641474",
     "store_tags": {
       "0": "19",
@@ -193,5 +231,116 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Super Froppings",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "superfroppings.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "superfroppings.app"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5030171": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "openbeta": {
+          "download": "71991440",
+          "gid": "95656434361964441",
+          "size": "218141175"
+        },
+        "public": {
+          "download": "71991504",
+          "gid": "4515593529909519811",
+          "size": "218141175"
+        }
+      }
+    },
+    "5030172": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "openbeta": {
+          "download": "105805856",
+          "gid": "1641054152886183230",
+          "size": "342906079"
+        },
+        "public": {
+          "download": "105764848",
+          "gid": "5019196586593969028",
+          "size": "338707023"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "openbeta": {
+        "buildid": "26311802",
+        "description": "This is a beta version with online play.",
+        "timebuildupdated": "1793321075",
+        "timeupdated": "1793321083"
+      },
+      "public": {
+        "buildid": "26311731",
+        "timebuildupdated": "1793320764",
+        "timeupdated": "1793320764"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Wonderland Kazakiri inc.",
+    "homepage": "https://wl-kz.com/superfroppings/",
+    "publisher": "Wonderland Kazakiri inc.",
+    "remoteplaytogethertestingbranches": "default,beta,publicbeta,networkcheck"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "20000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Wonderland Kazakiri inc_\\superfroppings\\",
+            "replace": "Wonderland Kazakiri inc_/superfroppings"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Wonderland Kazakiri inc_\\superfroppings\\",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

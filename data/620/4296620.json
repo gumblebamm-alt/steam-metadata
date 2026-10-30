@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792775337,
-  "_history": [],
-  "_change_number": 40168264,
-  "_missing_token": true,
-  "_sha": "2fb7fbd3aebc2b0b2777c36603e4c6c699a485aa",
-  "_size": 3111,
+  "_lastChecked": 1793339316,
+  "_history": [
+    {
+      "buildId": "26292272",
+      "branch": "public",
+      "timeUpdated": 1793262606,
+      "firstSeen": 1793339316,
+      "manifests": {
+        "4296621": {
+          "gid": "8408781751965829364",
+          "size": 12034895,
+          "download": 8703552
+        },
+        "4296622": {
+          "gid": "3824249988132609021",
+          "size": 25901647,
+          "download": 12216848
+        }
+      }
+    }
+  ],
+  "_change_number": 40394299,
+  "_missing_token": false,
+  "_sha": "e775d91285ca705d04b9975df45c3c5f48907d7f",
+  "_size": 4070,
   "appid": "4296620",
   "common": {
     "associations": {
@@ -29,7 +48,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4296620",
     "genres": {
       "0": "1",
@@ -102,7 +120,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5ed417d139ed5f28388b558b0a54b90c615a5ad9/capsule_231x87.jpg"
     },
@@ -138,5 +156,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Nano Dash",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "nano-dash.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "nano-dash"
+      }
+    }
+  },
+  "depots": {
+    "4296621": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "8703552",
+          "gid": "8408781751965829364",
+          "size": "12034895"
+        }
+      }
+    },
+    "4296622": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "12216848",
+          "gid": "3824249988132609021",
+          "size": "25901647"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26292272",
+        "timebuildupdated": "1793262606",
+        "timeupdated": "1793262606"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Andreas Hefti",
+    "publisher": "Andreas Hefti"
+  }
 }

@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793211947,
-  "_history": [],
-  "_change_number": 40334660,
-  "_missing_token": true,
-  "_sha": "c6cccce3aa1c1615dd67a2d110692cc23c766628",
-  "_size": 3935,
+  "_lastChecked": 1793339328,
+  "_history": [
+    {
+      "buildId": "25641105",
+      "branch": "beta",
+      "timeUpdated": 1790814186,
+      "firstSeen": 1793339328,
+      "manifests": {
+        "5057381": {
+          "gid": "3797903752785696095",
+          "size": 13602602,
+          "download": 13600000
+        }
+      }
+    },
+    {
+      "buildId": "26291135",
+      "branch": "public",
+      "timeUpdated": 1793258229,
+      "firstSeen": 1793339328,
+      "manifests": {
+        "5057381": {
+          "gid": "354111355246109781",
+          "size": 3347358680,
+          "download": 3167762912
+        }
+      }
+    }
+  ],
+  "_change_number": 40401284,
+  "_missing_token": false,
+  "_sha": "c30b569429cce85a17e156a8e5f4b0e5955a3184",
+  "_size": 5364,
   "appid": "5057380",
   "common": {
     "aicontenttype": "1",
@@ -29,6 +56,7 @@
     },
     "clienticon": "10f17993bc74aeb9e8a4c37e9755f0649abc4f69",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -38,7 +66,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5057380",
     "genres": {
       "0": "1",
@@ -111,10 +138,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "64f9b50970901df56fee750f77c3f19b6b09b17b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793313587",
     "store_asset_mtime": "1793178343",
     "store_tags": {
       "0": "3834",
@@ -187,5 +215,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gloomy Tavern Stories",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "LifeofNPC.exe"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5057381": {
+      "manifests": {
+        "beta": {
+          "download": "13600000",
+          "gid": "3797903752785696095",
+          "size": "13602602"
+        },
+        "public": {
+          "download": "3167762912",
+          "gid": "354111355246109781",
+          "size": "3347358680"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "25641105",
+        "description": "save file",
+        "timebuildupdated": "1790814184",
+        "timeupdated": "1790814186"
+      },
+      "public": {
+        "buildid": "26291135",
+        "timebuildupdated": "1793258199",
+        "timeupdated": "1793258229"
+      }
+    }
+  },
+  "extended": {
+    "developer": "52Koph",
+    "publisher": "52Koph"
+  },
+  "ufs": {
+    "maxnumfiles": "220",
+    "quota": "60000000",
+    "savefiles": {
+      "0": {
+        "path": "LifeofNPC/Saved/SaveGames/Game",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

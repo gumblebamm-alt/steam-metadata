@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793298803,
-  "_history": [],
-  "_change_number": 40392525,
-  "_missing_token": true,
-  "_sha": "482b27de5254c799cfca456ece507316477170f2",
-  "_size": 4099,
+  "_lastChecked": 1793339325,
+  "_history": [
+    {
+      "buildId": "26310391",
+      "branch": "public",
+      "timeUpdated": 1793326633,
+      "firstSeen": 1793339325,
+      "manifests": {
+        "4953671": {
+          "gid": "2407230419098488360",
+          "size": 1639529760,
+          "download": 1367569744
+        },
+        "4953672": {
+          "gid": "9014523453261265431",
+          "size": 1973672163,
+          "download": 1611059824
+        }
+      }
+    }
+  ],
+  "_change_number": 40408858,
+  "_missing_token": false,
+  "_sha": "c002b6e20880fc9ad92a4c78769550ceff68a155",
+  "_size": 6256,
   "appid": "4953670",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +52,8 @@
     "clienticns": "655a3d9dbfcff0f3df2783763c26516c9bf1c230",
     "clienticon": "bc6371bb5366e4ad7244f407d34416f25dcdbd9f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4953670",
     "genres": {
       "0": "4",
@@ -124,10 +143,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "88e5bccb089f77e9851052600d2ebca94a046767/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793322020",
     "store_asset_mtime": "1792987959",
     "store_tags": {
       "0": "745697",
@@ -190,5 +210,109 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "WAZATO",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "WAZATO.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "WAZATO.app"
+      }
+    }
+  },
+  "depots": {
+    "4953671": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1367569744",
+          "gid": "2407230419098488360",
+          "size": "1639529760"
+        }
+      }
+    },
+    "4953672": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1611059824",
+          "gid": "9014523453261265431",
+          "size": "1973672163"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,polish,russian,schinese,spanish,tchinese,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26310391",
+        "timebuildupdated": "1793315901",
+        "timeupdated": "1793326633"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Nichicoma LLC",
+    "homepage": "https://games.nichicoma.co.jp/wazato/",
+    "publisher": "Nichicoma LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/WAZATO",
+        "pattern": "unlocks.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/WAZATO",
+        "pattern": "actor_gear.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/WAZATO",
+        "pattern": "achievements_*.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/WAZATO",
+        "pattern": "favorite_minigame.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/WAZATO",
+        "pattern": "room_minigames.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
