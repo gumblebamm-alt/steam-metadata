@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793252947,
+  "_lastChecked": 1793467088,
   "_history": [
     {
       "buildId": "23842641",
@@ -26,12 +26,30 @@
           "download": 5533983184
         }
       }
+    },
+    {
+      "buildId": "26345976",
+      "branch": "public",
+      "timeUpdated": 1793453954,
+      "firstSeen": 1793467088,
+      "manifests": {
+        "2214221": {
+          "gid": "8071651260589547920",
+          "size": 6325207299,
+          "download": 5748743904
+        },
+        "2214222": {
+          "gid": "6014835409843477878",
+          "size": 5182736274,
+          "download": 4736559488
+        }
+      }
     }
   ],
-  "_change_number": 40194785,
+  "_change_number": 40456484,
   "_missing_token": false,
-  "_sha": "0fd33327c1ffc046bdd7ace96efaa91fbeaa3860",
-  "_size": 5226,
+  "_sha": "c1647851d1a27614268a15157b96b1e06b9d45f2",
+  "_size": 5820,
   "appid": "2214220",
   "common": {
     "associations": {
@@ -60,6 +78,7 @@
     "clienticon": "d92578be7a487ed741b0369caaa037b97598d08b",
     "clienttga": "fdf68db8b4f032bc8ed87ad219aa3e50a9528e7b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -131,8 +150,9 @@
     "linuxclienticon": "52ea55b4682542b3a342a6a5bb3d74cef263a508",
     "name": "Trench Tales",
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "1",
     "releasestate": "released",
     "review_percentage": "69",
@@ -215,6 +235,13 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "default",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "Trench Tales",
     "launch": {
       "0": {
@@ -222,6 +249,14 @@
           "oslist": "windows"
         },
         "executable": "Verden.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Verden.sh",
         "type": "default"
       }
     },
@@ -231,11 +266,26 @@
   },
   "depots": {
     "2214221": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "5533983184",
-          "gid": "2666887729730026791",
-          "size": "5987301686"
+          "download": "5748743904",
+          "gid": "8071651260589547920",
+          "size": "6325207299"
+        }
+      }
+    },
+    "2214222": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "4736559488",
+          "gid": "6014835409843477878",
+          "size": "5182736274"
         }
       }
     },
@@ -255,11 +305,12 @@
     },
     "branches": {
       "public": {
-        "buildid": "26177456",
-        "timebuildupdated": "1792818472",
-        "timeupdated": "1792818529"
+        "buildid": "26345976",
+        "timebuildupdated": "1793453649",
+        "timeupdated": "1793453954"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Talking Drums",

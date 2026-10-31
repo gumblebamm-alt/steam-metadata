@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1793040152,
-  "_history": [],
-  "_change_number": 40247979,
-  "_missing_token": true,
-  "_sha": "59e9c8d6ed28cf05860254b00f086e17d5bb434f",
-  "_size": 3478,
+  "_lastChecked": 1793467085,
+  "_history": [
+    {
+      "buildId": "26345081",
+      "branch": "public",
+      "timeUpdated": 1793448988,
+      "firstSeen": 1793467004,
+      "manifests": {
+        "4374511": {
+          "gid": "7331830946721039242",
+          "size": null,
+          "download": null
+        },
+        "4374512": {
+          "gid": "7086033699629990164",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40454945,
+  "_missing_token": false,
+  "_sha": "4a861e2f9ca6adc9a7490ba23cea3fe016f658bc",
+  "_size": 5053,
   "appid": "4374510",
   "common": {
     "associations": {
@@ -33,6 +53,7 @@
     },
     "clienticon": "075686740d74ce96df5acdc95b17ef9124d1a1b3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -42,7 +63,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4374510",
     "genres": {
       "0": "25",
@@ -120,10 +140,11 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "dc7c54959a4b571e53c75a8c7bdfe2f8d43893b3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793430292",
     "store_asset_mtime": "1781627700",
     "store_tags": {
       "0": "5186",
@@ -163,5 +184,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "WithoutEyes Chapter1",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "electron-for-mz.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Game.app",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4374511": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "666911904",
+          "gid": "7331830946721039242",
+          "size": "3623920897"
+        }
+      }
+    },
+    "4374512": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "785864832",
+          "gid": "7086033699629990164",
+          "size": "2538108920"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "26345081",
+        "timebuildupdated": "1793448863",
+        "timeupdated": "1793448988"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "Furutsuki",
+    "isfreeapp": "1",
+    "publisher": "100000polygon"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "200",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "save",
+        "pattern": "*.rmmzsave",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

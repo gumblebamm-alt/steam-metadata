@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793211915,
-  "_history": [],
-  "_change_number": 40332494,
-  "_missing_token": true,
-  "_sha": "742ab8b43d5c390a4488d4d5cbb3bbb9acf5a105",
-  "_size": 4789,
+  "_lastChecked": 1793467091,
+  "_history": [
+    {
+      "buildId": "26200160",
+      "branch": "public",
+      "timeUpdated": 1792949026,
+      "firstSeen": 1793467091,
+      "manifests": {
+        "3235391": {
+          "gid": "7539001075720065066",
+          "size": 14265520797,
+          "download": 4213405008
+        },
+        "3235392": {
+          "gid": "4407294380013213175",
+          "size": 14340886686,
+          "download": 4137254800
+        }
+      }
+    }
+  ],
+  "_change_number": 40454641,
+  "_missing_token": false,
+  "_sha": "e7b8bba4e0f71962f7fecc8ac266b1a6d129161a",
+  "_size": 6082,
   "appid": "3235390",
   "common": {
     "aicontenttype": "1",
@@ -32,6 +51,7 @@
     "clienticon": "cb0a1967bb2203b194ce8f68b91747fe8c668277",
     "clienttga": "1add89bf08889a83acf544f22d469371fc364a40",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
     "eulas": {
@@ -42,7 +62,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "3235390",
     "genres": {
       "0": "1",
@@ -113,10 +132,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "25a74e2d7bc1e61e116421fab493e81d7b1c53ee/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793448046",
     "store_asset_mtime": "1793181140",
     "store_tags": {
       "0": "3814",
@@ -239,5 +259,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Ballerspiel",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Ballern.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Ballern.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3235391": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "4213405008",
+          "gid": "7539001075720065066",
+          "size": "14265520797"
+        }
+      }
+    },
+    "3235392": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "4137254800",
+          "gid": "4407294380013213175",
+          "size": "14340886686"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26200160",
+        "timebuildupdated": "1792948168",
+        "timeupdated": "1792949026"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Luckywood Studios UG",
+    "homepage": "https://ballerspiel.org",
+    "publisher": "Luckywood Studios UG"
+  }
 }

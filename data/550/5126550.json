@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792558115,
-  "_history": [],
-  "_change_number": 39972352,
-  "_missing_token": true,
-  "_sha": "d721b034e96024ae1718db5f8e07c484f285687d",
-  "_size": 3403,
+  "_lastChecked": 1793467108,
+  "_history": [
+    {
+      "buildId": "26341465",
+      "branch": "public",
+      "timeUpdated": 1793426639,
+      "firstSeen": 1793467108,
+      "manifests": {
+        "5126551": {
+          "gid": "6578336668811799881",
+          "size": 310093815,
+          "download": 175383776
+        },
+        "5126552": {
+          "gid": "6842893629620006368",
+          "size": 282068480,
+          "download": 167863872
+        }
+      }
+    }
+  ],
+  "_change_number": 40460284,
+  "_missing_token": false,
+  "_sha": "66923698e90b8b51f88c90e709a2674d86b89c18",
+  "_size": 4712,
   "appid": "5126550",
   "common": {
     "associations": {
@@ -42,7 +61,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5126550",
     "genres": {
       "0": "3",
@@ -115,11 +133,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9b564dec63c0cab6adc3666a9db24d4a557a3c11/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1790302283",
+    "steam_release_date": "1793462408",
+    "store_asset_mtime": "1793412798",
     "store_tags": {
       "0": "122",
       "1": "4434",
@@ -149,5 +168,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Passion",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Passion.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Passion.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5126551": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "175383776",
+          "gid": "6578336668811799881",
+          "size": "310093815"
+        }
+      }
+    },
+    "5126552": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "167863872",
+          "gid": "6842893629620006368",
+          "size": "282068480"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26341465",
+        "timebuildupdated": "1793426596",
+        "timeupdated": "1793426639"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Moonside Games LLC",
+    "publisher": "Moonside Games LLC"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "4000",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "Moonside Games/Passion",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

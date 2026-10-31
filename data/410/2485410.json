@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793298758,
-  "_history": [],
-  "_change_number": 40342305,
-  "_missing_token": true,
-  "_sha": "3fd157e09c50339027e921d674d29df51961ae51",
-  "_size": 3769,
+  "_lastChecked": 1793467089,
+  "_history": [
+    {
+      "buildId": "12161347",
+      "branch": "local",
+      "timeUpdated": 1694452885,
+      "firstSeen": 1793467089,
+      "manifests": {
+        "2485411": {
+          "gid": "1794698962455797665",
+          "size": 220320269,
+          "download": 52597616
+        }
+      }
+    },
+    {
+      "buildId": "26273452",
+      "branch": "public",
+      "timeUpdated": 1793440889,
+      "firstSeen": 1793467089,
+      "manifests": {
+        "2485411": {
+          "gid": "1281437291333683961",
+          "size": 3031086502,
+          "download": 1810808048
+        }
+      }
+    }
+  ],
+  "_change_number": 40460969,
+  "_missing_token": false,
+  "_sha": "efddc4d946099ef95bc1c54031a04ad75ccf428a",
+  "_size": 4979,
   "appid": "2485410",
   "common": {
     "associations": {
@@ -33,9 +60,9 @@
     "clienticon": "e759ff0af9469e0874b178427c1df86ee6ea9fdd",
     "clienttga": "9d6f24e186923812ef199a1037a12508bba19876",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2485410",
     "genres": {
       "0": "1",
@@ -117,11 +144,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "88",
+    "review_score": "7",
     "small_capsule": {
       "english": "dd6a378206a61dc4753f1b6b20aae07ff0abad6f/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793187754",
+    "steam_release_date": "1793441028",
+    "store_asset_mtime": "1793442114",
     "store_tags": {
       "0": "597",
       "1": "3859",
@@ -190,5 +220,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Slowly Sliding Ducks",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SlowlySlidingDucks.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamdecktouchscreen": "1",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2485411": {
+      "manifests": {
+        "local": {
+          "download": "52597616",
+          "gid": "1794698962455797665",
+          "size": "220320269"
+        },
+        "public": {
+          "download": "1810808048",
+          "gid": "1281437291333683961",
+          "size": "3031086502"
+        }
+      }
+    },
+    "branches": {
+      "local": {
+        "buildid": "12161347",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1694452885",
+        "timeupdated": "1694452885"
+      },
+      "public": {
+        "buildid": "26273452",
+        "timebuildupdated": "1793198892",
+        "timeupdated": "1793440889"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "turbolento games",
+    "publisher": "turbolento publishing"
+  }
 }

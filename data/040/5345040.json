@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793425433,
+  "_lastChecked": 1793467110,
   "_history": [
     {
       "buildId": "26278774",
@@ -42,12 +42,30 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26342543",
+      "branch": "linux",
+      "timeUpdated": 1793433785,
+      "firstSeen": 1793467110,
+      "manifests": {
+        "5345041": {
+          "gid": "1690382436911198357",
+          "size": 241563371,
+          "download": 109619632
+        },
+        "5345042": {
+          "gid": "4783542592585241959",
+          "size": 280654369,
+          "download": 114411520
+        }
+      }
     }
   ],
-  "_change_number": 40447883,
+  "_change_number": 40450981,
   "_missing_token": false,
-  "_sha": "9d63bc4eec240ae7fc9bf46bb5c216ef480b61b5",
-  "_size": 5348,
+  "_sha": "c7604e3dfb63917d0ef49ac59fbf142f1268d62c",
+  "_size": 6328,
   "appid": "5345040",
   "common": {
     "aicontenttype": "1",
@@ -280,12 +298,26 @@
         },
         "executable": "stick a fork.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "linux",
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "StickAFork.x86_64",
+        "type": "default"
       }
     }
   },
   "depots": {
     "5345041": {
       "manifests": {
+        "linux": {
+          "download": "109619632",
+          "gid": "1690382436911198357",
+          "size": "241563371"
+        },
         "public": {
           "download": "109619632",
           "gid": "1690382436911198357",
@@ -293,7 +325,26 @@
         }
       }
     },
+    "5345042": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "linux": {
+          "download": "114411520",
+          "gid": "4783542592585241959",
+          "size": "280654369"
+        }
+      }
+    },
     "branches": {
+      "linux": {
+        "buildid": "26342543",
+        "description": "Native Linux and SteamOS build beta",
+        "timebuildupdated": "1793433725",
+        "timeupdated": "1793433785"
+      },
       "public": {
         "buildid": "26320431",
         "timebuildupdated": "1793355066",
@@ -310,6 +361,20 @@
   "ufs": {
     "maxnumfiles": "20",
     "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "FlowDot/Stick A Fork/saves",
+            "replace": ".config/unity3d/FlowDot/Stick A Fork/saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "FlowDot/Stick A Fork/saves",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791463196,
+  "_lastChecked": 1793467086,
   "_history": [
     {
       "buildId": "20680754",
@@ -69,12 +69,58 @@
           "download": 71495760
         }
       }
+    },
+    {
+      "buildId": "26303188",
+      "branch": "alpha",
+      "timeUpdated": 1793335357,
+      "firstSeen": 1793467086,
+      "manifests": {
+        "1147941": {
+          "gid": "3426915519434817588",
+          "size": 188281922,
+          "download": 72671200
+        },
+        "1147942": {
+          "gid": "2581530891213565602",
+          "size": 200437971,
+          "download": 77664608
+        },
+        "1147943": {
+          "gid": "8883110489568940886",
+          "size": 183249375,
+          "download": 69163744
+        }
+      }
+    },
+    {
+      "buildId": "26303188",
+      "branch": "public",
+      "timeUpdated": 1793339269,
+      "firstSeen": 1793467086,
+      "manifests": {
+        "1147941": {
+          "gid": "3426915519434817588",
+          "size": 188281922,
+          "download": 72671200
+        },
+        "1147942": {
+          "gid": "2581530891213565602",
+          "size": 200437971,
+          "download": 77664608
+        },
+        "1147943": {
+          "gid": "8883110489568940886",
+          "size": 183249375,
+          "download": 69163744
+        }
+      }
     }
   ],
-  "_change_number": 39601795,
+  "_change_number": 40411175,
   "_missing_token": false,
-  "_sha": "da892ba0cb7b234c017044e37025786bb0cfcb45",
-  "_size": 7563,
+  "_sha": "88999aa39603d46d4ccd1cc03005ad3f87b9ac5d",
+  "_size": 9229,
   "appid": "1147940",
   "common": {
     "associations": {
@@ -270,6 +316,48 @@
         }
       }
     },
+    "steam_frame_compatibility": {
+      "category": "3",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "native",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1792519481",
+      "tested_build_id": "25759945",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
     "steam_release_date": "1750352035",
     "store_asset_mtime": "1767850008",
     "store_tags": {
@@ -334,15 +422,20 @@
         "oslist": "windows"
       },
       "manifests": {
+        "alpha": {
+          "download": "72671200",
+          "gid": "3426915519434817588",
+          "size": "188281922"
+        },
         "beta": {
           "download": "75078336",
           "gid": "4878773586944788660",
           "size": "199990028"
         },
         "public": {
-          "download": "64286048",
-          "gid": "6611292034963042275",
-          "size": "204720881"
+          "download": "72671200",
+          "gid": "3426915519434817588",
+          "size": "188281922"
         }
       }
     },
@@ -352,15 +445,20 @@
         "oslist": "macos"
       },
       "manifests": {
+        "alpha": {
+          "download": "77664608",
+          "gid": "2581530891213565602",
+          "size": "200437971"
+        },
         "beta": {
           "download": "79934192",
           "gid": "4965969329799619800",
           "size": "212007297"
         },
         "public": {
-          "download": "72459600",
-          "gid": "1941725120070827417",
-          "size": "213796593"
+          "download": "77664608",
+          "gid": "2581530891213565602",
+          "size": "200437971"
         }
       }
     },
@@ -370,28 +468,39 @@
         "oslist": "linux"
       },
       "manifests": {
+        "alpha": {
+          "download": "69163744",
+          "gid": "8883110489568940886",
+          "size": "183249375"
+        },
         "beta": {
           "download": "71495760",
           "gid": "5978042851127993921",
           "size": "195008129"
         },
         "public": {
-          "download": "67851184",
-          "gid": "159990095401250188",
-          "size": "207284633"
+          "download": "69163744",
+          "gid": "8883110489568940886",
+          "size": "183249375"
         }
       }
     },
     "branches": {
+      "alpha": {
+        "buildid": "26303188",
+        "description": "alpha",
+        "timebuildupdated": "1793293645",
+        "timeupdated": "1793335357"
+      },
       "beta": {
         "buildid": "25759945",
         "timebuildupdated": "1791313279",
         "timeupdated": "1791313516"
       },
       "public": {
-        "buildid": "20680754",
-        "timebuildupdated": "1762355188",
-        "timeupdated": "1762356362"
+        "buildid": "26303188",
+        "timebuildupdated": "1793293645",
+        "timeupdated": "1793339269"
       }
     }
   },
