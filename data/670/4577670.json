@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792644430,
-  "_history": [],
-  "_change_number": 40101649,
-  "_missing_token": true,
-  "_sha": "0efb21797a2de11d262f89ac91e4dba0865d7e79",
-  "_size": 2969,
+  "_lastChecked": 1793425419,
+  "_history": [
+    {
+      "buildId": "26337752",
+      "branch": "public",
+      "timeUpdated": 1793407244,
+      "firstSeen": 1793425419,
+      "manifests": {
+        "4577671": {
+          "gid": "7931036450466571501",
+          "size": 263325138,
+          "download": 209582368
+        },
+        "4577672": {
+          "gid": "5224484241287502381",
+          "size": 291188196,
+          "download": 215566528
+        }
+      }
+    }
+  ],
+  "_change_number": 40445257,
+  "_missing_token": false,
+  "_sha": "8a7ba6a7a941253963447e8049e6df5f4ff0325d",
+  "_size": 5193,
   "appid": "4577670",
   "common": {
     "associations": {
@@ -27,7 +46,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4577670",
     "genres": {
       "0": "1",
@@ -99,10 +117,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "38c548eca419838e13a399c67b0d9604aa25ffa2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1792612910",
     "store_tags": {
       "0": "19",
@@ -133,5 +152,111 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Hail of Hexes",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Hail of Hexes/HoH.x86_64"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Hail of Hexes\\HoH.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4577671": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "209582368",
+          "gid": "7931036450466571501",
+          "size": "263325138"
+        }
+      }
+    },
+    "4577672": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "215566528",
+          "gid": "5224484241287502381",
+          "size": "291188196"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26337752",
+        "timebuildupdated": "1793407243",
+        "timeupdated": "1793407244"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Puffin Piling Games",
+    "homepage": "https://puffinpilinggames.itch.io/hail-of-hexes-demo",
+    "publisher": "Puffin Piling Games"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "2000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "godot/app_userdata/Hail of Hexes- Steam (4.6)",
+            "replace": "Godot/app_userdata/Hail of Hexes- Steam (4.6)"
+          }
+        },
+        "root": "LinuxXdgDataHome",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Hail of Hexes- Steam (4.6)",
+            "replace": "godot/app_userdata/Hail of Hexes- Steam (4.6)"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "godot/app_userdata/Hail of Hexes- Steam (4.6)",
+        "pattern": "*.save",
+        "root": "LinuxXdgDataHome"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Hail of Hexes- Steam (4.6)",
+        "pattern": "*.sav",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

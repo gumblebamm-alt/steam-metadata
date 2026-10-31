@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793384025,
-  "_history": [],
-  "_change_number": 39847804,
-  "_missing_token": true,
-  "_sha": "f954cbe489bce50cd110398c0725a7dc575b2955",
-  "_size": 3414,
+  "_lastChecked": 1793425423,
+  "_history": [
+    {
+      "buildId": "26332286",
+      "branch": "public",
+      "timeUpdated": 1793390652,
+      "firstSeen": 1793425423,
+      "manifests": {
+        "4795971": {
+          "gid": "4328457130157831024",
+          "size": 8989588185,
+          "download": 3447444640
+        }
+      }
+    }
+  ],
+  "_change_number": 40438250,
+  "_missing_token": false,
+  "_sha": "33a3426fa8adcf931402179e6cf517e9654fa93d",
+  "_size": 4616,
   "appid": "4795970",
   "common": {
     "aicontenttype": "1",
@@ -38,6 +52,7 @@
     },
     "clienticon": "2f2e72a007ac2a86192508c4cc8969c6843054d3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -48,7 +63,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "4795970",
     "genres": {
       "0": "23",
@@ -119,11 +133,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "35506dcbb627e01e0ff55f23c1b145807dc55012/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792037498",
+    "store_asset_mtime": "1793391994",
     "store_tags": {
       "0": "8369",
       "1": "8945",
@@ -154,5 +168,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blightened Relic Keeper",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Blightened-RelicKeeper.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "6",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4795971": {
+      "manifests": {
+        "public": {
+          "download": "3447444640",
+          "gid": "4328457130157831024",
+          "size": "8989588185"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26332286",
+        "timebuildupdated": "1793388036",
+        "timeupdated": "1793390652"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "xombis",
+    "homepage": "https://www.blightened.com",
+    "publisher": "xombis"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "xombis/Blightened-RelicKeeper/Save",
+        "pattern": "run.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "xombis/Blightened-RelicKeeper/Save",
+        "pattern": "progress.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

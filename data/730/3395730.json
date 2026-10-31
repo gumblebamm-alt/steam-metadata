@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793384004,
-  "_history": [],
-  "_change_number": 40430773,
-  "_missing_token": true,
-  "_sha": "58d2f9f5f8f390e49eb53d2542b0e2a39328ba3b",
-  "_size": 3199,
+  "_lastChecked": 1793425407,
+  "_history": [
+    {
+      "buildId": "21945388",
+      "branch": "alphatest",
+      "timeUpdated": 1771206412,
+      "firstSeen": 1793425407,
+      "manifests": {
+        "3395731": {
+          "gid": "1426996894021369731",
+          "size": 277550493,
+          "download": 134399200
+        }
+      }
+    },
+    {
+      "buildId": "21945388",
+      "branch": "public",
+      "timeUpdated": 1771206520,
+      "firstSeen": 1793425407,
+      "manifests": {
+        "3395731": {
+          "gid": "1426996894021369731",
+          "size": 277550493,
+          "download": 134399200
+        }
+      }
+    }
+  ],
+  "_change_number": 40440061,
+  "_missing_token": false,
+  "_sha": "05c57b824645228139a7423c9830b76bf1d800ae",
+  "_size": 4328,
   "appid": "3395730",
   "common": {
     "associations": {
@@ -36,9 +63,9 @@
     "clienticon": "5de348b17e97915bf0d539a73795bebe8d3d08dc",
     "clienttga": "a11f6eadb08421cf93de8601da2b8a0655a4489c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3395730",
     "genres": {
       "0": "1"
@@ -108,10 +135,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "30e9e9f501dedf55a09dbcb8dfbfda504b73a7d9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793396319",
     "store_asset_mtime": "1771194143",
     "store_tags": {
       "0": "19",
@@ -142,5 +170,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Banshee Bash",
+    "launch": {
+      "0": {
+        "executable": "bansheebash.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3395731": {
+      "manifests": {
+        "alphatest": {
+          "download": "134399200",
+          "gid": "1426996894021369731",
+          "size": "277550493"
+        },
+        "public": {
+          "download": "134399200",
+          "gid": "1426996894021369731",
+          "size": "277550493"
+        }
+      }
+    },
+    "branches": {
+      "alphatest": {
+        "buildid": "21945388",
+        "description": "beta",
+        "timebuildupdated": "1771206412",
+        "timeupdated": "1771206412"
+      },
+      "public": {
+        "buildid": "21945388",
+        "timebuildupdated": "1771206412",
+        "timeupdated": "1771206520"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Emptytxt",
+    "homepage": "https://emptytxt.io/",
+    "publisher": "Emptytxt"
+  },
+  "ufs": {
+    "maxnumfiles": "15",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/BansheeBash",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

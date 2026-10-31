@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792069034,
-  "_history": [],
-  "_change_number": 39843664,
-  "_missing_token": true,
-  "_sha": "6c4a53afca0b295cfa0315218fda14267d2681fb",
-  "_size": 3230,
+  "_lastChecked": 1793425432,
+  "_history": [
+    {
+      "buildId": "26129593",
+      "branch": "public",
+      "timeUpdated": 1792666184,
+      "firstSeen": 1793425432,
+      "manifests": {
+        "5224601": {
+          "gid": "8478899212277700310",
+          "size": 141351063,
+          "download": 58634672
+        },
+        "5224602": {
+          "gid": "1618629225403075818",
+          "size": 106351671,
+          "download": 50209600
+        }
+      }
+    }
+  ],
+  "_change_number": 40439961,
+  "_missing_token": false,
+  "_sha": "1b480f3bbb46e735645866e89c0cb0bfe5767235",
+  "_size": 5042,
   "appid": "5224600",
   "common": {
     "aicontenttype": "1",
@@ -32,8 +51,8 @@
     },
     "clienticon": "ddd5bdb8dfdad4b2e687a3ec2622da58b034cf2e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5224600",
     "genres": {
       "0": "25",
@@ -110,10 +129,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "82f08ec95f96044e7e1d907159709f238d4298f2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793430000",
     "store_asset_mtime": "1792030521",
     "store_tags": {
       "0": "597",
@@ -143,5 +163,101 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Delved Too Deep",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DelvedTooDeep.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "DelvedTooDeep.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5224601": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "58634672",
+          "gid": "8478899212277700310",
+          "size": "141351063"
+        }
+      }
+    },
+    "5224602": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "50209600",
+          "gid": "1618629225403075818",
+          "size": "106351671"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26129593",
+        "timebuildupdated": "1792660991",
+        "timeupdated": "1792666184"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Peter Kuna",
+    "publisher": "Peter Kuna"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "20000000",
+    "savefiles": {
+      "0": {
+        "path": "Delved Too Deep\\saves",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": ".local/share/Delved Too Deep/saves",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      },
+      "2": {
+        "path": "Godot\\app_userdata\\Delved Too Deep\\saves",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": ".local/share/godot/app_userdata/Delved Too Deep/saves",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793211939,
-  "_history": [],
-  "_change_number": 40340638,
-  "_missing_token": true,
-  "_sha": "6bb8e1e36770bca5f1cffa60105bf710628fb9d0",
-  "_size": 3968,
+  "_lastChecked": 1793425423,
+  "_history": [
+    {
+      "buildId": "26271412",
+      "branch": "public",
+      "timeUpdated": 1793196290,
+      "firstSeen": 1793425423,
+      "manifests": {
+        "4799681": {
+          "gid": "4480386708526836632",
+          "size": 313228125,
+          "download": 85875040
+        },
+        "4799682": {
+          "gid": "4664629945389704241",
+          "size": 332319895,
+          "download": 94162672
+        }
+      }
+    }
+  ],
+  "_change_number": 40436498,
+  "_missing_token": false,
+  "_sha": "ea3144339ac2cbe093448c8181a7a835368519bc",
+  "_size": 5616,
   "appid": "4799680",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +50,8 @@
     },
     "clienticon": "e38ac85bf39a40b18b9a90726c26704923d981f7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4799680",
     "genres": {
       "0": "4",
@@ -120,10 +139,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fd5e7457f5fdde8c92e0f91e483fd9abb050626e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793388631",
     "store_asset_mtime": "1790306160",
     "store_tags": {
       "0": "16689",
@@ -187,5 +207,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lifelines",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Lifelines.app"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Lifelines.exe"
+      }
+    }
+  },
+  "depots": {
+    "4799681": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "85875040",
+          "gid": "4480386708526836632",
+          "size": "313228125"
+        }
+      }
+    },
+    "4799682": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "94162672",
+          "gid": "4664629945389704241",
+          "size": "332319895"
+        }
+      }
+    },
+    "baselanguages": "brazilian,dutch,english,french,german,japanese,koreana,latam,russian,schinese,spanish,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26271412",
+        "timebuildupdated": "1793193679",
+        "timeupdated": "1793196290"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Toka Games",
+    "publisher": "CidQu Limited"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "61000000",
+    "savefiles": {
+      "1": {
+        "path": "Toka Games/Lifelines",
+        "pattern": "lifelines_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Toka Games/Lifelines",
+        "pattern": "lifelines_*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "3": {
+        "path": ".config/unity3d/Toka Games/Lifelines",
+        "pattern": "lifelines_*.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

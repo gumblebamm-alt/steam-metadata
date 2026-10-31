@@ -1,12 +1,40 @@
 {
-  "_lastChecked": 1793077366,
-  "_history": [],
-  "_change_number": 40268621,
-  "_missing_token": true,
-  "_sha": "3ad9cafca0616753eb590eea8d452d43c22c312a",
-  "_size": 3145,
+  "_lastChecked": 1793425407,
+  "_history": [
+    {
+      "buildId": "25163733",
+      "branch": "alpha_01",
+      "timeUpdated": 1788771242,
+      "firstSeen": 1793425407,
+      "manifests": {
+        "3419561": {
+          "gid": "2109432379741043057",
+          "size": 3277824108,
+          "download": 2928299376
+        }
+      }
+    },
+    {
+      "buildId": "26338582",
+      "branch": "public",
+      "timeUpdated": 1793410991,
+      "firstSeen": 1793425407,
+      "manifests": {
+        "3419561": {
+          "gid": "1303403408996300712",
+          "size": 3857303604,
+          "download": 3506145376
+        }
+      }
+    }
+  ],
+  "_change_number": 40445573,
+  "_missing_token": false,
+  "_sha": "7ead70bbc2df2d670f2d1c15ca34d3686a0ec0c9",
+  "_size": 4260,
   "appid": "3419560",
   "common": {
+    "aicontenttype": "1",
     "associations": {
       "0": {
         "name": "DISPLANT",
@@ -25,6 +53,7 @@
     "clienticon": "82470602041425dfc12ef87b3e6d8bed001cbebb",
     "clienttga": "17e6ec4d948beb1e26930af072ab727cdb058624",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -34,7 +63,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3419560",
     "genres": {
       "0": "1",
@@ -106,10 +134,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2a8d51937b201187ee3a882012b994b6c38e98a0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793409309",
     "store_asset_mtime": "1793040181",
     "store_tags": {
       "0": "1663",
@@ -136,5 +165,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "LATE 2 ESCAPE",
+    "launch": {
+      "0": {
+        "executable": "LateToEscape_Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3419561": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "alpha_01": {
+          "download": "2928299376",
+          "gid": "2109432379741043057",
+          "size": "3277824108"
+        },
+        "public": {
+          "download": "3506145376",
+          "gid": "1303403408996300712",
+          "size": "3857303604"
+        }
+      }
+    },
+    "branches": {
+      "alpha_01": {
+        "buildid": "25163733",
+        "description": "early test",
+        "timebuildupdated": "1788771194",
+        "timeupdated": "1788771242"
+      },
+      "public": {
+        "buildid": "26338582",
+        "timebuildupdated": "1793410928",
+        "timeupdated": "1793410991"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DISPLANT",
+    "publisher": "DISPLANT"
+  }
 }

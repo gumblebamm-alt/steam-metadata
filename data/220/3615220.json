@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1792155359,
-  "_history": [],
-  "_change_number": 39883724,
-  "_missing_token": true,
-  "_sha": "644287f42fa9202f0ab1591aed42218ecd2ae36a",
-  "_size": 3175,
+  "_lastChecked": 1793425409,
+  "_history": [
+    {
+      "buildId": "25536041",
+      "branch": "beta",
+      "timeUpdated": 1790363302,
+      "firstSeen": 1793425409,
+      "manifests": {
+        "3615221": {
+          "gid": "1192318226153595562",
+          "size": 225549510,
+          "download": 88251040
+        },
+        "3615222": {
+          "gid": "1418258062094757041",
+          "size": 230982269,
+          "download": 95727296
+        }
+      }
+    },
+    {
+      "buildId": "25536041",
+      "branch": "public",
+      "timeUpdated": 1790363329,
+      "firstSeen": 1793425409,
+      "manifests": {
+        "3615221": {
+          "gid": "1192318226153595562",
+          "size": 225549510,
+          "download": 88251040
+        },
+        "3615222": {
+          "gid": "1418258062094757041",
+          "size": 230982269,
+          "download": 95727296
+        }
+      }
+    }
+  ],
+  "_change_number": 40434536,
+  "_missing_token": false,
+  "_sha": "17dbc6945c5c910f3ff1136e2ce9f29d4bff47c9",
+  "_size": 4610,
   "appid": "3615220",
   "common": {
     "aicontenttype": "1",
@@ -32,10 +69,10 @@
       "0": {
         "id": "3615220_eula_0",
         "name": "Queen's Court: A Duel of Dignitaries EULA",
-        "url": "https://store.steampowered.com/eula/3615220_eula_0"
+        "url": "https://store.steampowered.com/eula/3615220_eula_0",
+        "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "3615220",
     "genres": {
       "0": "4",
@@ -107,7 +144,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "478f4f4e74efcaf6afb13eb2dd40b6e0984e5ae4/capsule_231x87.jpg"
     },
@@ -139,5 +176,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "QueensCourt",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "qct",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "qct.exe"
+      }
+    }
+  },
+  "depots": {
+    "3615221": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "88251040",
+          "gid": "1192318226153595562",
+          "size": "225549510"
+        },
+        "public": {
+          "download": "88251040",
+          "gid": "1192318226153595562",
+          "size": "225549510"
+        }
+      }
+    },
+    "3615222": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "95727296",
+          "gid": "1418258062094757041",
+          "size": "230982269"
+        },
+        "public": {
+          "download": "95727296",
+          "gid": "1418258062094757041",
+          "size": "230982269"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "25536041",
+        "description": "pre-release builds for testing",
+        "timebuildupdated": "1790363301",
+        "timeupdated": "1790363302"
+      },
+      "public": {
+        "buildid": "25536041",
+        "timebuildupdated": "1790363301",
+        "timeupdated": "1790363329"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "The Lady and Loaf Games Co.",
+    "publisher": "The Lady and Loaf Games Co."
+  }
 }

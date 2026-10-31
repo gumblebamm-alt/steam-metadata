@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792903316,
-  "_history": [],
-  "_change_number": 40206719,
-  "_missing_token": true,
-  "_sha": "447d6ab7e2d33b28c17ba7be03fdc7adff254a9a",
-  "_size": 2927,
+  "_lastChecked": 1793425420,
+  "_history": [
+    {
+      "buildId": "26339754",
+      "branch": "public",
+      "timeUpdated": 1793416800,
+      "firstSeen": 1793425420,
+      "manifests": {
+        "4633681": {
+          "gid": "7250810046117866701",
+          "size": 258912453,
+          "download": 209105264
+        }
+      }
+    }
+  ],
+  "_change_number": 40447249,
+  "_missing_token": false,
+  "_sha": "633c69d57e4a58f06287a8bd8c5827e9e6d07c5d",
+  "_size": 4234,
   "appid": "4633680",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +39,6 @@
     "clienticon": "fed69360498c6c841ad09f7e1b697eedb0b80220",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4633680",
     "genres": {
       "0": "3",
@@ -98,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "426e2b32977f4f3cf7c3650fd0a9aa4d95474705/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793399117",
     "store_asset_mtime": "1784916940",
     "store_tags": {
       "0": "14139",
@@ -128,5 +142,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mercenary Brotherhood",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MercenaryBrotherhood.exe",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4633681": {
+      "manifests": {
+        "public": {
+          "download": "209105264",
+          "gid": "7250810046117866701",
+          "size": "258912453"
+        }
+      }
+    },
+    "4633682": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26339754",
+        "timebuildupdated": "1793416672",
+        "timeupdated": "1793416800"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "SC Strategy Games",
+    "publisher": "SC Strategy Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "MercenaryBrotherhood/saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "MercenaryBrotherhood/custom_portraits",
+        "pattern": "*.webp",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "MercenaryBrotherhood",
+        "pattern": "settings.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

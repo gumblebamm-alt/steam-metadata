@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793077370,
-  "_history": [],
-  "_change_number": 40113191,
-  "_missing_token": true,
-  "_sha": "f90a4dd45a61fbb343115dc313587d233d42df47",
-  "_size": 3278,
+  "_lastChecked": 1793425411,
+  "_history": [
+    {
+      "buildId": "26340584",
+      "branch": "public",
+      "timeUpdated": 1793421279,
+      "firstSeen": 1793425411,
+      "manifests": {
+        "3919401": {
+          "gid": "6287749280852537298",
+          "size": 2901409381,
+          "download": 2784952864
+        }
+      }
+    }
+  ],
+  "_change_number": 40448303,
+  "_missing_token": false,
+  "_sha": "f88bc79ce0557a6ba8089a41f42cab42402ecb2c",
+  "_size": 4190,
   "appid": "3919400",
   "common": {
     "associations": {
@@ -32,9 +46,9 @@
     "clienticon": "58c94b503fcd5c531a224835e9a3921a2c35b1bc",
     "clienttga": "a0f291d33615abd2a5749fcd862c243add67164d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3919400",
     "genres": {
       "0": "25",
@@ -110,11 +124,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "44253651b4862872042ae384e188e1945af66d3a/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1781597819",
+    "steam_release_date": "1798704000",
+    "store_asset_mtime": "1792641120",
     "store_tags": {
       "0": "3799",
       "1": "122",
@@ -145,5 +160,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HuangmeiC",
+    "launch": {
+      "0": {
+        "executable": "HuangmeiC.exe"
+      }
+    }
+  },
+  "depots": {
+    "3919401": {
+      "manifests": {
+        "public": {
+          "download": "2784952864",
+          "gid": "6287749280852537298",
+          "size": "2901409381"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26340584",
+        "timebuildupdated": "1793421213",
+        "timeupdated": "1793421279"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "悖论软件（ParadoxSoft）",
+    "publisher": "悖论软件（ParadoxSoft）"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "255000000",
+    "savefiles": {
+      "0": {
+        "path": "game/saves",
+        "pattern": "*",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "RenPy/HuangmeiC",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

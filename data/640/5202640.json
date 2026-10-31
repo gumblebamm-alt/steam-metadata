@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792689422,
-  "_history": [],
-  "_change_number": 40123817,
-  "_missing_token": true,
-  "_sha": "32c14366548dfb2dfba7625510449a580bd359e4",
-  "_size": 3705,
+  "_lastChecked": 1793425432,
+  "_history": [
+    {
+      "buildId": "26130414",
+      "branch": "public",
+      "timeUpdated": 1792663566,
+      "firstSeen": 1793425432,
+      "manifests": {
+        "5202641": {
+          "gid": "559884917542651857",
+          "size": 181696080,
+          "download": 106126176
+        }
+      }
+    }
+  ],
+  "_change_number": 40446283,
+  "_missing_token": false,
+  "_sha": "144479ee2dd23c6a681eed2e33234d3a2f2c32e0",
+  "_size": 4444,
   "appid": "5202640",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     },
     "clienticon": "607627fcf4275bea849499321bb86982a70cb446",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5202640",
     "genres": {
       "0": "4",
@@ -115,7 +129,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8177b2b9e62251f8dc4670b1d155e9c7474454e7/capsule_231x87.jpg",
       "schinese": "b44d069a8cb99f1cc64f4701e1477e9e35b133da/capsule_231x87_schinese.jpg"
@@ -146,5 +160,50 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Spinstack",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Spinstack.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5202641": {
+      "manifests": {
+        "public": {
+          "download": "106126176",
+          "gid": "559884917542651857",
+          "size": "181696080"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26130414",
+        "timebuildupdated": "1792663454",
+        "timeupdated": "1792663566"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "WH",
+    "publisher": "WH"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "save",
+        "pattern": "*.dat",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

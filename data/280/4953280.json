@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791722228,
-  "_history": [],
-  "_change_number": 39711286,
-  "_missing_token": true,
-  "_sha": "719d8fde49abbaf990d7408b769a205531a47fed",
-  "_size": 4084,
+  "_lastChecked": 1793425426,
+  "_history": [
+    {
+      "buildId": "26240330",
+      "branch": "public",
+      "timeUpdated": 1793096032,
+      "firstSeen": 1793425426,
+      "manifests": {
+        "4953281": {
+          "gid": "8088171511268341408",
+          "size": 1282227870,
+          "download": 444441888
+        }
+      }
+    }
+  ],
+  "_change_number": 40435556,
+  "_missing_token": false,
+  "_sha": "3a22805c74abe4681056d6f218200657d18c5a5a",
+  "_size": 5680,
   "appid": "4953280",
   "common": {
     "aicontenttype": "1",
@@ -38,9 +52,9 @@
     },
     "clienticon": "3aa8c29d70062f4ceacb9c2238917d0f51f45971",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4953280",
     "genres": {
       "0": "4",
@@ -124,10 +138,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "58ab3002f2acafd12e3e721218008075ac60298d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793386813",
     "store_asset_mtime": "1785866406",
     "store_tags": {
       "0": "1239876",
@@ -195,5 +210,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Groovekeeper",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Groovekeeper.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4953281": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "444441888",
+          "gid": "8088171511268341408",
+          "size": "1282227870"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,russian,schinese,spanish,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26240330",
+        "timebuildupdated": "1793095803",
+        "timeupdated": "1793096032"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "NoRyte Studios",
+    "homepage": "https://groovekeeper.norytestudios.com",
+    "publisher": "NoRyte Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "64",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "NoRyte Studios/Groovekeeper",
+        "pattern": "save_slot_*.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "NoRyte Studios/Groovekeeper",
+        "pattern": "save_slot_*.es3.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "NoRyte Studios/Groovekeeper",
+        "pattern": "save_slot_*.es3.tmp.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

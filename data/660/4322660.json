@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792775338,
-  "_history": [],
-  "_change_number": 40175142,
-  "_missing_token": true,
-  "_sha": "f0fec152e04793008c6ffdc2185fa40fc2d8ca1a",
-  "_size": 3124,
+  "_lastChecked": 1793425416,
+  "_history": [
+    {
+      "buildId": "25403796",
+      "branch": "public",
+      "timeUpdated": 1789787791,
+      "firstSeen": 1793425416,
+      "manifests": {
+        "4322661": {
+          "gid": "7726174104903234560",
+          "size": 324676247,
+          "download": 104321104
+        }
+      }
+    }
+  ],
+  "_change_number": 40444206,
+  "_missing_token": false,
+  "_sha": "ec49d76d4ebc954f23834e10ed4575799e5eb937",
+  "_size": 4158,
   "appid": "4322660",
   "common": {
     "aicontenttype": "1",
@@ -25,8 +39,8 @@
     },
     "clienticon": "438d6482b8b8b3714397cdf5b036134d2b510853",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4322660",
     "genres": {
       "0": "4",
@@ -42,7 +56,12 @@
       "library_header": "en",
       "library_hero": "en",
       "library_hero_blur": "en",
-      "library_logo": "en"
+      "library_logo": "en",
+      "logo_position": {
+        "height_pct": "50",
+        "pinned_position": "BottomLeft",
+        "width_pct": "50"
+      }
     },
     "library_assets_full": {
       "library_capsule": {
@@ -80,6 +99,11 @@
         },
         "image2x": {
           "english": "7dbd65a8d4bd52bb705126d7f1396f33fd1d599a/logo_2x.png"
+        },
+        "logo_position": {
+          "height_pct": "50",
+          "pinned_position": "BottomLeft",
+          "width_pct": "50"
         }
       }
     },
@@ -88,10 +112,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ce0e015aa91c959e8eba77626b6ccf523c5c0a5d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793406753",
     "store_asset_mtime": "1789801889",
     "store_tags": {
       "0": "597",
@@ -150,5 +175,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Stackade",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Stackade.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Stackade.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4322661": {
+      "manifests": {
+        "public": {
+          "download": "104321104",
+          "gid": "7726174104903234560",
+          "size": "324676247"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25403796",
+        "timebuildupdated": "1789787260",
+        "timeupdated": "1789787791"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Game Bistro",
+    "homepage": "https://gamebistro.net",
+    "publisher": "Game Bistro"
+  }
 }

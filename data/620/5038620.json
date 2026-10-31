@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793339328,
+  "_lastChecked": 1793425399,
   "_history": [
     {
       "buildId": "25994548",
@@ -23,12 +23,59 @@
           "download": 720412448
         }
       }
+    },
+    {
+      "buildId": "26332389",
+      "branch": "public",
+      "timeUpdated": 1793389035,
+      "firstSeen": 1793425309,
+      "manifests": {
+        "5038622": {
+          "gid": "8637613337757787456",
+          "size": null,
+          "download": null
+        },
+        "5038623": {
+          "gid": "5247888322445286097",
+          "size": null,
+          "download": null
+        },
+        "5038624": {
+          "gid": "2297073648859905747",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    },
+    {
+      "buildId": "26332389",
+      "branch": "prerelease",
+      "timeUpdated": 1793388529,
+      "firstSeen": 1793425399,
+      "manifests": {
+        "5038622": {
+          "gid": "8637613337757787456",
+          "size": 1093519366,
+          "download": 740316784
+        },
+        "5038623": {
+          "gid": "5247888322445286097",
+          "size": 1258698482,
+          "download": 804655680
+        },
+        "5038624": {
+          "gid": "2297073648859905747",
+          "size": 1056992512,
+          "download": 720417984
+        }
+      }
     }
   ],
-  "_change_number": 40407555,
+  "_change_number": 40436686,
   "_missing_token": false,
-  "_sha": "9e6d3448fb05495f328b60492df95a292267f6a4",
-  "_size": 4927,
+  "_sha": "0cc287d03bc9eceb5754c3a005f5f3e926fbd60d",
+  "_size": 5566,
   "appid": "5038620",
   "common": {
     "associations": {
@@ -159,6 +206,11 @@
         "branch": "default",
         "platform": "linux",
         "tool": "SteamLinuxRuntime_4"
+      },
+      "1": {
+        "branch": "prerelease",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
       }
     },
     "installdir": "Duelyst Legends",
@@ -189,10 +241,15 @@
         "oslist": "windows"
       },
       "manifests": {
+        "prerelease": {
+          "download": "740316784",
+          "gid": "8637613337757787456",
+          "size": "1093519366"
+        },
         "public": {
-          "download": "740311248",
-          "gid": "4873691953862859800",
-          "size": "1093477862"
+          "download": "740316784",
+          "gid": "8637613337757787456",
+          "size": "1093519366"
         }
       }
     },
@@ -201,10 +258,15 @@
         "oslist": "macos"
       },
       "manifests": {
+        "prerelease": {
+          "download": "804655680",
+          "gid": "5247888322445286097",
+          "size": "1258698482"
+        },
         "public": {
-          "download": "804650144",
-          "gid": "8834355516885878113",
-          "size": "1258656978"
+          "download": "804655680",
+          "gid": "5247888322445286097",
+          "size": "1258698482"
         }
       }
     },
@@ -213,18 +275,29 @@
         "oslist": "linux"
       },
       "manifests": {
+        "prerelease": {
+          "download": "720417984",
+          "gid": "2297073648859905747",
+          "size": "1056992512"
+        },
         "public": {
-          "download": "720412448",
-          "gid": "3805120152711824907",
-          "size": "1056951008"
+          "download": "720417984",
+          "gid": "2297073648859905747",
+          "size": "1056992512"
         }
       }
     },
     "branches": {
+      "prerelease": {
+        "buildid": "26332389",
+        "description": "Dedicated branch for pre-release testing",
+        "timebuildupdated": "1793388295",
+        "timeupdated": "1793388529"
+      },
       "public": {
-        "buildid": "25994548",
-        "timebuildupdated": "1792174378",
-        "timeupdated": "1792174486"
+        "buildid": "26332389",
+        "timebuildupdated": "1793388295",
+        "timeupdated": "1793389035"
       }
     },
     "nocommonredists": "1"
