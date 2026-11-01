@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791376823,
-  "_history": [],
-  "_change_number": 38408459,
-  "_missing_token": true,
-  "_sha": "4e4101b01c11f402bad5a9118ddc029229030280",
-  "_size": 3471,
+  "_lastChecked": 1793513177,
+  "_history": [
+    {
+      "buildId": "24973032",
+      "branch": "public",
+      "timeUpdated": 1787842202,
+      "firstSeen": 1793513177,
+      "manifests": {
+        "4553451": {
+          "gid": "2364539547394585239",
+          "size": 241043796,
+          "download": 88644128
+        },
+        "4553452": {
+          "gid": "5797948058011619025",
+          "size": 257063479,
+          "download": 95504704
+        }
+      }
+    }
+  ],
+  "_change_number": 40471107,
+  "_missing_token": false,
+  "_sha": "f5f973d14ad582ba17fd3ca2e1ce562b03f6dda4",
+  "_size": 5029,
   "appid": "4553450",
   "common": {
     "associations": {
@@ -30,8 +49,8 @@
     "clienticns": "7bbb6f0de62076c5e3ee1a302b7f7764a1c9a0b3",
     "clienticon": "9d093898d5f922fb641a055d546e4dfe29a8f480",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4553450",
     "genres": {
       "0": "4",
@@ -102,7 +121,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d14f954363fa03586863735ed202920cae3f931b/capsule_231x87.jpg"
     },
@@ -158,5 +177,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Infinite Einstein Tiles3",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Infinite Einstein Tiles3.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Infinite Einstein Tiles3.app"
+      }
+    }
+  },
+  "depots": {
+    "4553451": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "88644128",
+          "gid": "2364539547394585239",
+          "size": "241043796"
+        }
+      }
+    },
+    "4553452": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "95504704",
+          "gid": "5797948058011619025",
+          "size": "257063479"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "24973032",
+        "timebuildupdated": "1787841419",
+        "timeupdated": "1787842202"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Mukai Systems",
+    "homepage": "https://github.com/mukaiizawa/InfiniteEinsteinTiles3",
+    "publisher": "Mukai Systems"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataLocalLow"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Mukai Systems/Infinite Einstein Tiles3/",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

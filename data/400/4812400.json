@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791376829,
-  "_history": [],
-  "_change_number": 38408423,
-  "_missing_token": true,
-  "_sha": "1627dc1a44f0b4a76bfe3264b74321aa865e4b1f",
-  "_size": 3649,
+  "_lastChecked": 1793513180,
+  "_history": [
+    {
+      "buildId": "24972702",
+      "branch": "public",
+      "timeUpdated": 1787840545,
+      "firstSeen": 1793513180,
+      "manifests": {
+        "4812401": {
+          "gid": "5199732175779494661",
+          "size": 572100906,
+          "download": 349098240
+        },
+        "4812402": {
+          "gid": "8061166808734786997",
+          "size": 588715187,
+          "download": 356366608
+        }
+      }
+    }
+  ],
+  "_change_number": 40470258,
+  "_missing_token": false,
+  "_sha": "d2d7e150cc00e299fa03cd9be98ed06ad40e2ad7",
+  "_size": 5314,
   "appid": "4812400",
   "common": {
     "associations": {
@@ -37,9 +56,9 @@
     "clienticns": "54a9c56ca6adccde4bd35484912dcdb5b3b12c8f",
     "clienticon": "4e5dabc9f46f5ec1141a1edfa66c247d2bdb9eb5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4812400",
     "genres": {
       "0": "4",
@@ -110,7 +129,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "797d1eb3c62c9b24e9c189f6f49d42b27f42ad7f/capsule_231x87.jpg"
     },
@@ -169,5 +188,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Infinite Einstein Tiles Together",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Infinite Einstein Tiles Together.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Infinite Einstein Tiles Together.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4812401": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "349098240",
+          "gid": "5199732175779494661",
+          "size": "572100906"
+        }
+      }
+    },
+    "4812402": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "356366608",
+          "gid": "8061166808734786997",
+          "size": "588715187"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24972702",
+        "timebuildupdated": "1787840477",
+        "timeupdated": "1787840545"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Mukai Systems",
+    "publisher": "Mukai Systems"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataLocalLow"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Mukai Systems/Infinite Einstein Tiles Together/",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

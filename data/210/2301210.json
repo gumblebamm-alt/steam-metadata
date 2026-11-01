@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792730992,
+  "_lastChecked": 1793513165,
   "_history": [
     {
       "buildId": "21284063",
@@ -13,12 +13,30 @@
           "download": 281777744
         }
       }
+    },
+    {
+      "buildId": "26352415",
+      "branch": "public",
+      "timeUpdated": 1793486734,
+      "firstSeen": 1793513165,
+      "manifests": {
+        "2301211": {
+          "gid": "3669564712841404362",
+          "size": 1021561787,
+          "download": 270055040
+        },
+        "2301212": {
+          "gid": "5077981082415092586",
+          "size": 1095596872,
+          "download": 323498592
+        }
+      }
     }
   ],
-  "_change_number": 37997862,
+  "_change_number": 40467329,
   "_missing_token": false,
-  "_sha": "56b186481c89b3dc570f5ec30bfce947ffd68ec7",
-  "_size": 5559,
+  "_sha": "7a8633f7c9d1d8029bd741713ab2ede45da56732",
+  "_size": 6680,
   "appid": "2301210",
   "common": {
     "associations": {
@@ -29,10 +47,6 @@
       "1": {
         "name": "Rising Moon Games",
         "type": "publisher"
-      },
-      "2": {
-        "name": "Rising Moon Games",
-        "type": "franchise"
       }
     },
     "category": {
@@ -96,12 +110,13 @@
     },
     "name": "Busway Islands - Puzzle",
     "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "78",
-    "review_score": "6",
+    "review_percentage": "85",
+    "review_score": "7",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
     },
@@ -193,6 +208,9 @@
       "brazilian": {
         "supported": "true"
       },
+      "czech": {
+        "supported": "true"
+      },
       "english": {
         "supported": "true"
       },
@@ -202,7 +220,22 @@
       "german": {
         "supported": "true"
       },
+      "hungarian": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
       "japanese": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      },
+      "polish": {
+        "supported": "true"
+      },
+      "romanian": {
         "supported": "true"
       },
       "russian": {
@@ -212,6 +245,15 @@
         "supported": "true"
       },
       "spanish": {
+        "supported": "true"
+      },
+      "tchinese": {
+        "supported": "true"
+      },
+      "thai": {
+        "supported": "true"
+      },
+      "turkish": {
         "supported": "true"
       },
       "ukrainian": {
@@ -230,6 +272,14 @@
         },
         "executable": "Busway Islands - Puzzle.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Busway Islands - Puzzle.x86_64",
+        "type": "default"
       }
     }
   },
@@ -241,18 +291,31 @@
       },
       "manifests": {
         "public": {
-          "download": "281777744",
-          "gid": "4447795660003693365",
-          "size": "1066949100"
+          "download": "270055040",
+          "gid": "3669564712841404362",
+          "size": "1021561787"
+        }
+      }
+    },
+    "2301212": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "323498592",
+          "gid": "5077981082415092586",
+          "size": "1095596872"
         }
       }
     },
     "baselanguages": "english,german,french,spanish,schinese,russian,japanese,brazilian,ukrainian",
     "branches": {
       "public": {
-        "buildid": "21284063",
-        "timebuildupdated": "1766411125",
-        "timeupdated": "1766411525"
+        "buildid": "26352415",
+        "timebuildupdated": "1793484895",
+        "timeupdated": "1793486734"
       }
     },
     "privatebranches": "1"
@@ -264,11 +327,25 @@
   "ufs": {
     "maxnumfiles": "100",
     "quota": "1073741824",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Rising Moon Games/Busway Islands - Puzzle/Levels",
+            "replace": "unity3d/Rising Moon Games/Busway Islands - Puzzle/Levels"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
     "savefiles": {
       "0": {
-        "path": "Busway Islands - Puzzle_Data/Saves",
-        "pattern": "*.dat",
-        "root": "gameinstall"
+        "path": "Rising Moon Games/Busway Islands - Puzzle/Levels",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
       }
     },
     "sync_while_suspended": "1"

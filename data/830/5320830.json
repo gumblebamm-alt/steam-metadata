@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1791765809,
-  "_history": [],
-  "_change_number": 39722802,
-  "_missing_token": true,
-  "_sha": "7d2b8a87295b4274c4df9faa41070b9a1d691b9b",
-  "_size": 3090,
+  "_lastChecked": 1793513189,
+  "_history": [
+    {
+      "buildId": "26332962",
+      "branch": "public",
+      "timeUpdated": 1793390436,
+      "firstSeen": 1793513189,
+      "manifests": {
+        "5320831": {
+          "gid": "4283986191734380019",
+          "size": 267277809,
+          "download": 212876128
+        },
+        "5320832": {
+          "gid": "7904527122795006348",
+          "size": 286110488,
+          "download": 213516336
+        },
+        "5320833": {
+          "gid": "2823480962855445714",
+          "size": 536942453,
+          "download": 222999168
+        }
+      }
+    },
+    {
+      "buildId": "26332962",
+      "branch": "test",
+      "timeUpdated": 1793390134,
+      "firstSeen": 1793513189,
+      "manifests": {
+        "5320831": {
+          "gid": "4283986191734380019",
+          "size": 267277809,
+          "download": 212876128
+        },
+        "5320832": {
+          "gid": "7904527122795006348",
+          "size": 286110488,
+          "download": 213516336
+        },
+        "5320833": {
+          "gid": "2823480962855445714",
+          "size": 536942453,
+          "download": 222999168
+        }
+      }
+    }
+  ],
+  "_change_number": 40472452,
+  "_missing_token": false,
+  "_sha": "a3d24d0fca25de6336b056397fdb762c55d24d6b",
+  "_size": 5904,
   "appid": "5320830",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +73,8 @@
     },
     "clienticon": "3926898d3d4557b5a255fd5ebd1f1803e721255d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5320830",
     "genres": {
       "0": "23",
@@ -100,7 +147,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fc6039395176c06bb6105a042c4d5279d7e59415/capsule_231x87.jpg"
     },
@@ -140,5 +187,150 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Beastforger Autobattle",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "beastforger-autobattle.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "beastforger-autobattle.sh",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Beastforger.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5320831": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "212876128",
+          "gid": "4283986191734380019",
+          "size": "267277809"
+        },
+        "test": {
+          "download": "212876128",
+          "gid": "4283986191734380019",
+          "size": "267277809"
+        }
+      }
+    },
+    "5320832": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "213516336",
+          "gid": "7904527122795006348",
+          "size": "286110488"
+        },
+        "test": {
+          "download": "213516336",
+          "gid": "7904527122795006348",
+          "size": "286110488"
+        }
+      }
+    },
+    "5320833": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "222999168",
+          "gid": "2823480962855445714",
+          "size": "536942453"
+        },
+        "test": {
+          "download": "222999168",
+          "gid": "2823480962855445714",
+          "size": "536942453"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian",
+    "branches": {
+      "public": {
+        "buildid": "26332962",
+        "timebuildupdated": "1793390134",
+        "timeupdated": "1793390436"
+      },
+      "test": {
+        "buildid": "26332962",
+        "description": "test",
+        "timebuildupdated": "1793390134",
+        "timeupdated": "1793390134"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Will ideas",
+    "publisher": "Will ideas"
+  },
+  "ufs": {
+    "maxnumfiles": "32",
+    "quota": "536870912",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "BeastforgerIdle/steam/{64BitSteamID}",
+        "pattern": "save.json",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "BeastforgerIdle/steam/{64BitSteamID}",
+        "pattern": "save.backup.json",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "BeastforgerIdle/steam/{64BitSteamID}",
+        "pattern": "save.deleted",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
