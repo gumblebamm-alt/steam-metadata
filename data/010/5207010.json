@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792775359,
+  "_lastChecked": 1793556054,
   "_history": [
     {
       "buildId": "26123820",
@@ -13,12 +13,25 @@
           "download": 1045571664
         }
       }
+    },
+    {
+      "buildId": "26269857",
+      "branch": "public",
+      "timeUpdated": 1793189709,
+      "firstSeen": 1793556054,
+      "manifests": {
+        "5207011": {
+          "gid": "2002076822902052038",
+          "size": 2887925812,
+          "download": 1045534992
+        }
+      }
     }
   ],
-  "_change_number": 40160245,
+  "_change_number": 40348350,
   "_missing_token": false,
-  "_sha": "39232ab6889d4f1eeeb4f2fb256106bcde87bd51",
-  "_size": 6228,
+  "_sha": "5c66414b398eab581254b3306d9aa4e98726172f",
+  "_size": 6793,
   "appid": "5207010",
   "common": {
     "associations": {
@@ -153,6 +166,8 @@
     "oslist": "windows",
     "primary_genre": "25",
     "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "6ea93065ba538e43bc5f4215248d3e9a8244f95d/capsule_231x87.jpg"
     },
@@ -272,10 +287,28 @@
     "installdir": "Gateholt",
     "launch": {
       "0": {
+        "arguments": "-force-d3d12",
         "config": {
           "oslist": "windows"
         },
-        "executable": "Gateholt.exe"
+        "description": "Gateholt (DirectX 12 - Recommended) ",
+        "description_loc": {
+          "english": "Gateholt (DirectX 12 - Recommended) "
+        },
+        "executable": "Gateholt.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "-force-d3d11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Gateholt (DirectX 11 - Compatibility Mode)",
+        "description_loc": {
+          "english": "Gateholt (DirectX 11 - Compatibility Mode)"
+        },
+        "executable": "Gateholt.exe",
+        "type": "option2"
       }
     },
     "uselaunchcommandline": "1"
@@ -291,18 +324,18 @@
     "5207011": {
       "manifests": {
         "public": {
-          "download": "1045571664",
-          "gid": "4395085035510667127",
-          "size": "2886964563"
+          "download": "1045534992",
+          "gid": "2002076822902052038",
+          "size": "2887925812"
         }
       }
     },
     "baselanguages": "brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,turkish,ukrainian,vietnamese",
     "branches": {
       "public": {
-        "buildid": "26123820",
-        "timebuildupdated": "1792639092",
-        "timeupdated": "1792639227"
+        "buildid": "26269857",
+        "timebuildupdated": "1793189595",
+        "timeupdated": "1793189709"
       }
     },
     "privatebranches": "1"

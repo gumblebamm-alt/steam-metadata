@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792945201,
-  "_history": [],
-  "_change_number": 40229147,
-  "_missing_token": true,
-  "_sha": "0fafea34a577838233b65c170d28e79ebe44ffba",
-  "_size": 2978,
+  "_lastChecked": 1793556041,
+  "_history": [
+    {
+      "buildId": "26363035",
+      "branch": "public",
+      "timeUpdated": 1793551631,
+      "firstSeen": 1793556041,
+      "manifests": {
+        "4567921": {
+          "gid": "3269595537887319892",
+          "size": 378525336,
+          "download": 283865376
+        },
+        "4567922": {
+          "gid": "4929521100201227667",
+          "size": 346286728,
+          "download": 276139088
+        }
+      }
+    }
+  ],
+  "_change_number": 40483090,
+  "_missing_token": false,
+  "_sha": "c4481ebb8c7fb54363a551419adb3dd3e3ac9b0d",
+  "_size": 4125,
   "appid": "4567920",
   "common": {
     "aicontenttype": "1",
@@ -34,8 +53,8 @@
     },
     "clienticon": "cc209b26c5ec77c08dfbf54340858b8ce368b33e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4567920",
     "genres": {
       "0": "4",
@@ -108,10 +127,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ed265b0b382e8895f62bb28e7824594fc89b4216/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793552260",
     "store_asset_mtime": "1792941735",
     "store_tags": {
       "0": "599",
@@ -131,5 +151,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bull Run",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BullRun.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "BullRun.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4567921": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "283865376",
+          "gid": "3269595537887319892",
+          "size": "378525336"
+        }
+      }
+    },
+    "4567922": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "276139088",
+          "gid": "4929521100201227667",
+          "size": "346286728"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26363035",
+        "timebuildupdated": "1793551597",
+        "timeupdated": "1793551631"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Steve Games",
+    "publisher": "Steve Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000"
+  }
 }

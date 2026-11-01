@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1793211952,
+  "_lastChecked": 1793556054,
   "_history": [
+    {
+      "buildId": "26357526",
+      "branch": "public",
+      "timeUpdated": 1793520399,
+      "firstSeen": 1793556054,
+      "manifests": {
+        "5189091": {
+          "gid": "9093117830554697985",
+          "size": 88414360,
+          "download": 85186512
+        },
+        "5189092": {
+          "gid": "5031001275941731156",
+          "size": 378956237,
+          "download": 178121472
+        }
+      }
+    },
     {
       "buildId": "26261685",
       "branch": "public",
@@ -55,15 +73,20 @@
       "_source": "hubcap"
     },
     {
-      "buildId": "25083381",
-      "branch": "public",
-      "timeUpdated": 1788364971,
-      "firstSeen": 1790987729,
+      "buildId": "26357526",
+      "branch": "linux-beta",
+      "timeUpdated": 1793520399,
+      "firstSeen": 1793556054,
       "manifests": {
         "5189091": {
-          "gid": "2071884635329187426",
-          "size": 73768088,
-          "download": 70541424
+          "gid": "9093117830554697985",
+          "size": 88414360,
+          "download": 85186512
+        },
+        "5189092": {
+          "gid": "5031001275941731156",
+          "size": 378956237,
+          "download": 178121472
         }
       }
     },
@@ -104,10 +127,10 @@
       }
     }
   ],
-  "_change_number": 40336554,
+  "_change_number": 40474625,
   "_missing_token": false,
-  "_sha": "0f719db99ce4aca50f6f33d7265951d05a268e16",
-  "_size": 4608,
+  "_sha": "c8c5b9ea1b1688b618f274a4196cbc520bd2a76a",
+  "_size": 4815,
   "appid": "5189090",
   "common": {
     "associations": {
@@ -254,7 +277,6 @@
       },
       "1": {
         "config": {
-          "betakey": "linux-beta",
           "oslist": "linux"
         },
         "executable": "forkbomb.sh"
@@ -268,13 +290,13 @@
       },
       "manifests": {
         "linux-beta": {
-          "download": "85184864",
-          "gid": "615486761088148489",
+          "download": "85186512",
+          "gid": "9093117830554697985",
           "size": "88414360"
         },
         "public": {
-          "download": "85184864",
-          "gid": "615486761088148489",
+          "download": "85186512",
+          "gid": "9093117830554697985",
           "size": "88414360"
         }
       }
@@ -286,23 +308,28 @@
       },
       "manifests": {
         "linux-beta": {
-          "download": "178106192",
-          "gid": "6908976581583789427",
-          "size": "378935757"
+          "download": "178121472",
+          "gid": "5031001275941731156",
+          "size": "378956237"
+        },
+        "public": {
+          "download": "178121472",
+          "gid": "5031001275941731156",
+          "size": "378956237"
         }
       }
     },
     "branches": {
       "linux-beta": {
-        "buildid": "26261696",
+        "buildid": "26357526",
         "description": "Fork Bomb Linux",
-        "timebuildupdated": "1793160334",
-        "timeupdated": "1793160503"
+        "timebuildupdated": "1793518750",
+        "timeupdated": "1793520399"
       },
       "public": {
-        "buildid": "26261685",
-        "timebuildupdated": "1793160292",
-        "timeupdated": "1793160543"
+        "buildid": "26357526",
+        "timebuildupdated": "1793518750",
+        "timeupdated": "1793520399"
       }
     }
   },
@@ -314,13 +341,19 @@
   "ufs": {
     "maxnumfiles": "100",
     "quota": "10000000",
+    "rootoverrides": {
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "ForkBomb",
         "pattern": "colony.json",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataRoaming"
       }
     }

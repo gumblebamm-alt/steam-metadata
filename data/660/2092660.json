@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792903304,
+  "_lastChecked": 1793556026,
   "_history": [
     {
       "buildId": "24626517",
@@ -13,12 +13,35 @@
           "download": 98749536
         }
       }
+    },
+    {
+      "buildId": "26358935",
+      "branch": "public",
+      "timeUpdated": 1793528988,
+      "firstSeen": 1793556026,
+      "manifests": {
+        "2092661": {
+          "gid": "4517933327717136969",
+          "size": 99930991,
+          "download": 96884160
+        },
+        "2092662": {
+          "gid": "4270864765533220147",
+          "size": 5715040,
+          "download": 2317712
+        },
+        "2092663": {
+          "gid": "2811329738013530841",
+          "size": 8780480,
+          "download": 3193040
+        }
+      }
     }
   ],
-  "_change_number": 37965298,
+  "_change_number": 40476100,
   "_missing_token": false,
-  "_sha": "e003c997ddeb2fb3555a7f6d6fb1f9c174e487a1",
-  "_size": 3980,
+  "_sha": "4bc7b52b62af827fefedc2f5531d41c795779b67",
+  "_size": 4824,
   "appid": "2092660",
   "common": {
     "associations": {
@@ -94,12 +117,13 @@
       }
     },
     "name": "Magnet Block",
-    "osarch": "",
+    "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "23",
     "releasestate": "released",
-    "review_percentage": "95",
+    "review_percentage": "96",
     "review_score": "7",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
@@ -139,11 +163,25 @@
     "type": "Game"
   },
   "config": {
-    "app_mappings": {},
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "Magnet Block",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "magnet_block.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "magnet_block"
       }
     },
     "steamconfigurator3rdpartynative": "3",
@@ -171,9 +209,33 @@
     "2092661": {
       "manifests": {
         "public": {
-          "download": "98749536",
-          "gid": "446281300623352956",
-          "size": "107384768"
+          "download": "96884160",
+          "gid": "4517933327717136969",
+          "size": "99930991"
+        }
+      }
+    },
+    "2092662": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2317712",
+          "gid": "4270864765533220147",
+          "size": "5715040"
+        }
+      }
+    },
+    "2092663": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "3193040",
+          "gid": "2811329738013530841",
+          "size": "8780480"
         }
       }
     },
@@ -186,11 +248,12 @@
     },
     "branches": {
       "public": {
-        "buildid": "24626517",
-        "timebuildupdated": "1786175049",
-        "timeupdated": "1786175066"
+        "buildid": "26358935",
+        "timebuildupdated": "1793528905",
+        "timeupdated": "1793528988"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Isaac Andrews",
@@ -199,6 +262,15 @@
   "ufs": {
     "maxnumfiles": "3",
     "quota": "10000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "Magnet_Block",

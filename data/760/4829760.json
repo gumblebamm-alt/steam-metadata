@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1790944551,
-  "_history": [],
-  "_change_number": 39420879,
-  "_missing_token": true,
-  "_sha": "5980a75fd8d043df28230ebb05235151b41c671f",
-  "_size": 3343,
+  "_lastChecked": 1793556045,
+  "_history": [
+    {
+      "buildId": "26363219",
+      "branch": "public",
+      "timeUpdated": 1793552594,
+      "firstSeen": 1793556045,
+      "manifests": {
+        "4829761": {
+          "gid": "6735874121903519830",
+          "size": 327347527,
+          "download": 74171504
+        }
+      }
+    }
+  ],
+  "_change_number": 40483253,
+  "_missing_token": false,
+  "_sha": "17c529f72aa8f0263d2e3e0616af2efd25ab3783",
+  "_size": 4332,
   "appid": "4829760",
   "common": {
     "associations": {
@@ -34,7 +48,6 @@
     "clienticon": "b1ed5daf89464b54ddfcf18e8b1a78532e8902ca",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4829760",
     "genres": {
       "0": "23",
@@ -110,7 +123,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b4a024ccec7476aefcbc8a2bb1e4b96620f9cbb5/capsule_231x87.jpg"
     },
@@ -149,5 +162,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SkullWarProvingGrounds",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SkullWarProvingGrounds.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4829761": {
+      "manifests": {
+        "public": {
+          "download": "74171504",
+          "gid": "6735874121903519830",
+          "size": "327347527"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26363219",
+        "timebuildupdated": "1793552516",
+        "timeupdated": "1793552594"
+      }
+    }
+  },
+  "extended": {
+    "developer": "FAKE_WINNER",
+    "publisher": "FAKE_WINNER"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "5000000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/SkullWar-ProvingGround",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

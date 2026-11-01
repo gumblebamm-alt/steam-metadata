@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791982450,
-  "_history": [],
-  "_change_number": 39815482,
-  "_missing_token": true,
-  "_sha": "5429456c54eda3dbbeb26040ed143b1fc0deb5d8",
-  "_size": 3009,
+  "_lastChecked": 1793556053,
+  "_history": [
+    {
+      "buildId": "26361286",
+      "branch": "public",
+      "timeUpdated": 1793544017,
+      "firstSeen": 1793556053,
+      "manifests": {
+        "5172271": {
+          "gid": "2501355045761060783",
+          "size": 156726000,
+          "download": 73566672
+        },
+        "5172272": {
+          "gid": "722735029021114771",
+          "size": 121781944,
+          "download": 65113744
+        }
+      }
+    }
+  ],
+  "_change_number": 40481920,
+  "_missing_token": false,
+  "_sha": "5c8711fff010b4f04b8270f4f22599820002cd8a",
+  "_size": 4886,
   "appid": "5172270",
   "common": {
     "aicontenttype": "1",
@@ -24,12 +43,16 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_28": "1",
       "category_62": "1"
     },
     "clienticon": "06776d3a8b9472b973a0f652d536f7efb116547f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5172270",
     "genres": {
       "0": "1",
@@ -105,11 +128,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cc49fcf287674e12acac4543f0911f60ed2397bb/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791500065",
+    "steam_release_date": "1793548866",
+    "store_asset_mtime": "1793537273",
     "store_tags": {
       "0": "3834",
       "1": "353880",
@@ -139,5 +163,97 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "John Whisk",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DungeonChef.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "DungeonChef.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65524",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5172271": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "73566672",
+          "gid": "2501355045761060783",
+          "size": "156726000"
+        }
+      }
+    },
+    "5172272": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "65113744",
+          "gid": "722735029021114771",
+          "size": "121781944"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26361286",
+        "timebuildupdated": "1793543047",
+        "timeupdated": "1793544017"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Magirush",
+    "publisher": "Magirush"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Dungeon Chef/saves",
+            "replace": "godot/app_userdata/Dungeon Chef/saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Dungeon Chef/saves",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

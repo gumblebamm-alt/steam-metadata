@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792731019,
-  "_history": [],
-  "_change_number": 40152045,
-  "_missing_token": true,
-  "_sha": "c652c95a21a24b9a038774080a6434cfd940782e",
-  "_size": 3988,
+  "_lastChecked": 1793556052,
+  "_history": [
+    {
+      "buildId": "26031159",
+      "branch": "public",
+      "timeUpdated": 1792350245,
+      "firstSeen": 1793556052,
+      "manifests": {
+        "5071271": {
+          "gid": "891134009429205089",
+          "size": 177038666,
+          "download": 85160368
+        },
+        "5071272": {
+          "gid": "353784743870007986",
+          "size": 161917082,
+          "download": 78010960
+        }
+      }
+    }
+  ],
+  "_change_number": 40477254,
+  "_missing_token": false,
+  "_sha": "b9e8ed3e1b2b7945c7b3fb0bda5d2db50e92bf0e",
+  "_size": 5498,
   "appid": "5071270",
   "common": {
     "associations": {
@@ -31,8 +50,8 @@
     },
     "clienticon": "999fbbc33ef1b8481a511ea25b28c4a251abd9b7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5071270",
     "genres": {
       "0": "4",
@@ -118,7 +137,7 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "56068b81969da6074fef7608019df87d97c804e7/capsule_231x87.jpg"
     },
@@ -187,5 +206,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PUNCHROCK",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "PUNCHROCK.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "PUNCHROCK.app"
+      }
+    }
+  },
+  "depots": {
+    "5071271": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "85160368",
+          "gid": "891134009429205089",
+          "size": "177038666"
+        }
+      }
+    },
+    "5071272": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "78010960",
+          "gid": "353784743870007986",
+          "size": "161917082"
+        }
+      }
+    },
+    "baselanguages": "brazilian,dutch,english,french,german,japanese,koreana,latam,schinese,spanish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26031159",
+        "timebuildupdated": "1792350129",
+        "timeupdated": "1792350245"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "lightlyhaunted",
+    "homepage": "https://punchrock.lightlyhaunted.com",
+    "publisher": "lightlyhaunted"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "1048576",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "lightlyhaunted/PUNCHROCK",
+        "pattern": "wanderer_save.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

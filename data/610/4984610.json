@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793513183,
-  "_history": [],
-  "_change_number": 40472598,
-  "_missing_token": true,
-  "_sha": "2d6a3cda567e35ad2ebb737fb78b8521dbbe606b",
-  "_size": 3187,
+  "_lastChecked": 1793556049,
+  "_history": [
+    {
+      "buildId": "26356838",
+      "branch": "public",
+      "timeUpdated": 1793513145,
+      "firstSeen": 1793556049,
+      "manifests": {
+        "4984611": {
+          "gid": "7148083267903951908",
+          "size": 1947050845,
+          "download": 1322179568
+        }
+      }
+    }
+  ],
+  "_change_number": 40472610,
+  "_missing_token": false,
+  "_sha": "537469f6b62160da62f5c31b42032b657af23bad",
+  "_size": 4646,
   "appid": "4984610",
   "common": {
     "associations": {
@@ -34,6 +48,7 @@
     },
     "clienticon": "bcfcc998bc28b4dbaf06339df21e64ab477dffd9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -43,7 +58,6 @@
         "version": "3"
       }
     },
-    "exfgls": "8",
     "gameid": "4984610",
     "genres": {
       "0": "23",
@@ -114,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5ca1c423eda1f38691ded9fc6db6ff7b313bfe4b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793513188",
     "store_asset_mtime": "1792860012",
     "store_tags": {
       "0": "21",
@@ -142,5 +157,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HazardCrew",
+    "launch": {
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "HazardCrew.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4984611": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1322179568",
+          "gid": "7148083267903951908",
+          "size": "1947050845"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26356838",
+        "timebuildupdated": "1793512948",
+        "timeupdated": "1793513145"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DopamineDreams",
+    "publisher": "DopamineDreams"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "6000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    }
+  }
 }

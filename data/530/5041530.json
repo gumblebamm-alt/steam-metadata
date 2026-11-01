@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793513184,
+  "_lastChecked": 1793556014,
   "_history": [
     {
       "buildId": "26323691",
@@ -26,12 +26,36 @@
           "download": 2519780896
         }
       }
+    },
+    {
+      "buildId": "",
+      "branch": "public",
+      "timeUpdated": 1793528799,
+      "firstSeen": 1793555849,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "5041531": {
+          "gid": "5645217852929532227",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
     }
   ],
-  "_change_number": 40466544,
+  "_change_number": 40477650,
   "_missing_token": false,
-  "_sha": "5e214e0e26a88d0a40cad9dc498efb3614ab8d1a",
-  "_size": 8516,
+  "_sha": "41a60065ba13a872efc206924bd9f3e070e7488b",
+  "_size": 11775,
   "appid": "5041530",
   "common": {
     "associations": {
@@ -42,10 +66,6 @@
       "1": {
         "name": "Polden Publishing",
         "type": "publisher"
-      },
-      "2": {
-        "name": "Toxic Studio",
-        "type": "franchise"
       }
     },
     "category": {
@@ -189,7 +209,7 @@
     "oslist": "windows",
     "primary_genre": "28",
     "releasestate": "released",
-    "review_percentage": "96",
+    "review_percentage": "100",
     "review_score": "7",
     "small_capsule": {
       "english": "531aec3b1e54590e829c912690ad7bb624072a97/capsule_231x87.jpg",
@@ -286,8 +306,82 @@
     "launch": {
       "0": {
         "arguments": "-SaveToUserDir",
+        "description": "Play",
+        "description_loc": {
+          "brazilian": "Jogar",
+          "bulgarian": "Играй",
+          "czech": "Hrát",
+          "danish": "Spil",
+          "dutch": "Spelen",
+          "english": "Play",
+          "finnish": "Pelaa",
+          "french": "Jouer",
+          "german": "Spielen",
+          "greek": "Παίξε",
+          "hungarian": "Játék",
+          "indonesian": "Main",
+          "italian": "Gioca",
+          "japanese": "プレイ",
+          "koreana": "플레이",
+          "latam": "Jugar",
+          "malay": "Main",
+          "norwegian": "Spill",
+          "polish": "Graj",
+          "portuguese": "Jogar",
+          "romanian": "Joacă",
+          "russian": "Играть",
+          "schinese": "开始游戏",
+          "spanish": "Jugar",
+          "swedish": "Spela",
+          "tchinese": "開始遊戲",
+          "thai": "เล่น",
+          "turkish": "Oyna",
+          "ukrainian": "Грати",
+          "vietnamese": "Chơi"
+        },
         "executable": "MyToyStore.exe",
         "type": "default"
+      },
+      "1": {
+        "arguments": "-SaveToUserDir -dx11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "DirectX 11 (try this if the game is crashing)",
+        "description_loc": {
+          "brazilian": "DirectX 11 (tente isto se o jogo estiver travando)",
+          "bulgarian": "DirectX 11 (опитайте това, ако играта се срива)",
+          "czech": "DirectX 11 (zkuste, pokud hra padá)",
+          "danish": "DirectX 11 (prøv dette, hvis spillet crasher)",
+          "dutch": "DirectX 11 (probeer dit als de game crasht)",
+          "english": "DirectX 11 (try this if the game is crashing)",
+          "finnish": "DirectX 11 (kokeile tätä, jos peli kaatuu)",
+          "french": "DirectX 11 (essayez ceci si le jeu plante)",
+          "german": "DirectX 11 (versuche dies, wenn das Spiel abstürzt)",
+          "greek": "DirectX 11 (δοκιμάστε το αν το παιχνίδι κρασάρει)",
+          "hungarian": "DirectX 11 (próbáld ezt, ha a játék összeomlik)",
+          "indonesian": "DirectX 11 (coba ini jika game mengalami crash)",
+          "italian": "DirectX 11 (prova questo se il gioco va in crash)",
+          "japanese": "DirectX 11（ゲームがクラッシュする場合はこちらをお試しください）",
+          "koreana": "DirectX 11 (게임이 충돌하면 이 옵션을 사용해 보세요)",
+          "latam": "DirectX 11 (prueba esto si el juego se cierra inesperadamente)",
+          "malay": "DirectX 11 (cuba ini jika permainan ranap)",
+          "norwegian": "DirectX 11 (prøv dette hvis spillet krasjer)",
+          "polish": "DirectX 11 (spróbuj, jeśli gra ulega awarii)",
+          "portuguese": "DirectX 11 (experimenta isto se o jogo estiver a bloquear)",
+          "romanian": "DirectX 11 (încearcă asta dacă jocul se blochează)",
+          "russian": "DirectX 11 (попробуйте, если игра вылетает)",
+          "schinese": "DirectX 11（如果游戏崩溃，请尝试此选项）",
+          "spanish": "DirectX 11 (prueba esto si el juego se bloquea)",
+          "swedish": "DirectX 11 (prova detta om spelet kraschar)",
+          "tchinese": "DirectX 11（如果遊戲當機，請嘗試此選項）",
+          "thai": "DirectX 11 (ลองใช้ตัวเลือกนี้หากเกมแครช)",
+          "turkish": "DirectX 11 (oyun çöküyorsa bunu deneyin)",
+          "ukrainian": "DirectX 11 (спробуйте, якщо гра вилітає)",
+          "vietnamese": "DirectX 11 (hãy thử nếu trò chơi bị văng)"
+        },
+        "executable": "MyToyStore.exe",
+        "type": "option1"
       }
     },
     "steamconfigurator3rdpartynative": "65533",

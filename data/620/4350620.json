@@ -1,10 +1,38 @@
 {
-  "_lastChecked": 1793124071,
-  "_history": [],
-  "_change_number": 40162509,
-  "_missing_token": true,
-  "_sha": "dcbe60f9b3871e0b7ccd3e23fc0ed973c88a2603",
-  "_size": 3147,
+  "_lastChecked": 1793556020,
+  "_history": [
+    {
+      "buildId": "26239223",
+      "branch": "public",
+      "timeUpdated": 1793092508,
+      "firstSeen": 1793555924,
+      "manifests": {
+        "4350621": {
+          "gid": "4964539833204001925",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    },
+    {
+      "buildId": "26320075",
+      "branch": "beta",
+      "timeUpdated": 1793354957,
+      "firstSeen": 1793556020,
+      "manifests": {
+        "4350621": {
+          "gid": "8978793361052226752",
+          "size": 1155252729,
+          "download": 514626512
+        }
+      }
+    }
+  ],
+  "_change_number": 40478488,
+  "_missing_token": false,
+  "_sha": "8805ef1afa57f5aaaad2ee9989b70b13afb5c09a",
+  "_size": 6366,
   "appid": "4350620",
   "common": {
     "associations": {
@@ -19,12 +47,14 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
       "category_52": "1",
       "category_53": "1",
       "category_62": "1"
     },
     "clienticon": "4f3c6b8b5ebad17bce0c8f6831198511f6a665e7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -34,7 +64,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4350620",
     "genres": {
       "0": "1",
@@ -108,10 +137,74 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "92",
+    "review_score": "7",
     "small_capsule": {
       "english": "f4d4ce953ebbf4be61613955393e57353119aa72/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-11.0-beta",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "gamepad"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1783123200",
+      "tested_build_id": "22428761",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1792635357",
     "store_tags": {
       "0": "21978",
@@ -144,5 +237,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "VoxelPlayground",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "VR",
+        "description_loc": {
+          "english": "VR"
+        },
+        "executable": "Voxel Playground.exe",
+        "type": "openxr"
+      },
+      "1": {
+        "arguments": " --flatscreen",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Flatscreen",
+        "description_loc": {
+          "english": "Flatscreen"
+        },
+        "executable": "Voxel Playground.exe",
+        "type": "config"
+      }
+    }
+  },
+  "depots": {
+    "4350621": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "514626512",
+          "gid": "8978793361052226752",
+          "size": "1155252729"
+        },
+        "public": {
+          "download": "514624576",
+          "gid": "4964539833204001925",
+          "size": "1155236225"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26320075",
+        "description": "beta",
+        "timebuildupdated": "1793353919",
+        "timeupdated": "1793354957"
+      },
+      "public": {
+        "buildid": "26239223",
+        "timebuildupdated": "1793092201",
+        "timeupdated": "1793092508"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Cydream",
+    "homepage": "https://voxelplayground.com/",
+    "publisher": "Cydream"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000"
+  }
 }
