@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793384015,
-  "_history": [],
-  "_change_number": 40426224,
-  "_missing_token": true,
-  "_sha": "a770ae41d744398869bba6b5f866107a86f3edc5",
-  "_size": 3906,
+  "_lastChecked": 1793656005,
+  "_history": [
+    {
+      "buildId": "26215175",
+      "branch": "public",
+      "timeUpdated": 1793013033,
+      "firstSeen": 1793656005,
+      "manifests": {
+        "4255642": {
+          "gid": "9171291319282830237",
+          "size": 854969908,
+          "download": 558054192
+        },
+        "4255644": {
+          "gid": "4406657688753713793",
+          "size": 971771378,
+          "download": 591072464
+        }
+      }
+    }
+  ],
+  "_change_number": 40512588,
+  "_missing_token": false,
+  "_sha": "742155ca2b667fbb38c3a713a5d2d2e22ac4947d",
+  "_size": 6200,
   "appid": "4255640",
   "common": {
     "associations": {
@@ -41,9 +60,9 @@
     "clienticns": "2595a5521be0dbfd32d3c53a75375a5f784735e7",
     "clienticon": "b2c4eeee0583ae35a7b7de79570dd07592983618",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4255640",
     "genres": {
       "0": "4",
@@ -125,10 +144,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "ad03736f95ae09570159060c23b809b76b9a3909/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793616822",
     "store_asset_mtime": "1791460880",
     "store_tags": {
       "0": "5608",
@@ -177,5 +199,108 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MyDearExe",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MyDear.exe"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MyDear.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollerconfigdetails": {
+      "3786838149": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default,develop",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4255642": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "558054192",
+          "gid": "9171291319282830237",
+          "size": "854969908"
+        }
+      }
+    },
+    "4255644": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "591072464",
+          "gid": "4406657688753713793",
+          "size": "971771378"
+        }
+      }
+    },
+    "baselanguages": "english,french,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26215175",
+        "timebuildupdated": "1793012775",
+        "timeupdated": "1793013033"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Falling Leaves Studio",
+    "publisher": "Falling Leaves Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "500000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/MyDearExe/saves/steam/{64BitSteamID}",
+            "replace": "Godot/app_userdata/MyDearExe/saves/steam/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/MyDearExe/saves/steam/{64BitSteamID}",
+            "replace": ".local/share/godot/app_userdata/MyDearExe/saves/steam/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "Godot/app_userdata/MyDearExe/saves/steam/{64BitSteamID}",
+        "pattern": "*.dear",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

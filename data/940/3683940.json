@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1793599364,
-  "_history": [],
-  "_change_number": 40496032,
-  "_missing_token": true,
-  "_sha": "9eaef7e5f9eef67e0df5d31aad7865dfb03f22dc",
-  "_size": 8738,
+  "_lastChecked": 1793655961,
+  "_history": [
+    {
+      "buildId": "26388194",
+      "branch": "public",
+      "timeUpdated": 1793649217,
+      "firstSeen": 1793655871,
+      "manifests": {
+        "3683941": {
+          "gid": "4556623128486827103",
+          "size": null,
+          "download": null
+        },
+        "3683942": {
+          "gid": "3187105414718109080",
+          "size": 4220346046,
+          "download": 683811248
+        },
+        "3683943": {
+          "gid": "5033989284304101915",
+          "size": 4199914242,
+          "download": 673780608
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40525005,
+  "_missing_token": false,
+  "_sha": "fcb32e28d65721a60606ba1c5aa0471f8f4bb8cb",
+  "_size": 13297,
   "appid": "3683940",
   "common": {
     "associations": {
@@ -40,8 +65,8 @@
     "clienticon": "0be44457b89c004f0a598bf66f1d915c427a4d95",
     "clienttga": "52b49079286cbe0f088b531d3d3b28155627c0ec",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3683940",
     "genres": {
       "0": "4",
@@ -86,14 +111,14 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "c3d577949f1ee4ba76e855bd2434493890b8e946/library_capsule.jpg",
+          "english": "556836cd1133cd9925bd99b82d17a0776ecd605a/library_capsule.jpg",
           "japanese": "45b22b5a96c8635eabcc148ee54dd7c94f4d1c23/library_capsule_japanese.jpg",
           "koreana": "e6b815d4f92bd1d76f25a6e8cebbf724905cba5e/library_capsule_koreana.jpg",
           "schinese": "b752cf74f9ae3442c5151cb9bfd56cd96eaab144/library_capsule_schinese.jpg",
           "tchinese": "2f45fc3cf34c07d00d9fadd4f09f877557d5e94a/library_capsule_tchinese.jpg"
         },
         "image2x": {
-          "english": "c3d577949f1ee4ba76e855bd2434493890b8e946/library_capsule_2x.jpg",
+          "english": "556836cd1133cd9925bd99b82d17a0776ecd605a/library_capsule_2x.jpg",
           "japanese": "45b22b5a96c8635eabcc148ee54dd7c94f4d1c23/library_capsule_japanese_2x.jpg",
           "koreana": "e6b815d4f92bd1d76f25a6e8cebbf724905cba5e/library_capsule_koreana_2x.jpg",
           "schinese": "b752cf74f9ae3442c5151cb9bfd56cd96eaab144/library_capsule_schinese_2x.jpg",
@@ -174,7 +199,9 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "90",
+    "review_score": "7",
     "small_capsule": {
       "english": "7827fc4e973976f8d798c50d48486a778abbaaa8/capsule_231x87.jpg",
       "japanese": "3e712e07f21be9b35a414be5f58ad2e4f85eb03b/capsule_231x87_japanese.jpg",
@@ -182,7 +209,89 @@
       "schinese": "a27102a8f1c95848cff5e6aafa39f3f2c7196f96/capsule_231x87_schinese.jpg",
       "tchinese": "85b36931ae759b0955e7308db96d3b9f1839607f/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1793550761",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DisplayOutputHasNonblockingIssues"
+        }
+      },
+      "test_timestamp": "1787758462",
+      "tested_build_id": "24888567",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DisplayOutputHasNonblockingIssues"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "5": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1793617701",
+    "store_asset_mtime": "1793633874",
     "store_tags": {
       "0": "35079",
       "1": "4202",
@@ -264,5 +373,116 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Replay Value",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Replay Value.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "mac.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "app.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "3683941": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "675878544",
+          "gid": "4556623128486827103",
+          "size": "4203551330"
+        }
+      }
+    },
+    "3683942": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "683811248",
+          "gid": "3187105414718109080",
+          "size": "4220346046"
+        }
+      }
+    },
+    "3683943": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "673780608",
+          "gid": "5033989284304101915",
+          "size": "4199914242"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26388194",
+        "timebuildupdated": "1793648137",
+        "timeupdated": "1793649217"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Rogue Duck Interactive",
+    "homepage": "https://rogueduck.net",
+    "publisher": "Rogue Duck Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Rogue Duck Interactive/Replay Value",
+            "replace": "Rogue Duck Interactive/Replay Value"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Rogue Duck Interactive/Replay Value",
+            "replace": ".config/unity3d/Rogue Duck Interactive/Replay Value"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Rogue Duck Interactive/Replay Value",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

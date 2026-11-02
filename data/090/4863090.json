@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793599375,
+  "_lastChecked": 1793655962,
   "_history": [
     {
       "buildId": "26373102",
@@ -26,12 +26,54 @@
           "download": 11056319280
         }
       }
+    },
+    {
+      "buildId": "26384244",
+      "branch": "public",
+      "timeUpdated": 1793640330,
+      "firstSeen": 1793655903,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "4863091": {
+          "gid": "6203726225421912664",
+          "size": null,
+          "download": null
+        },
+        "4863092": {
+          "gid": "7458865697878683268",
+          "size": 11935166122,
+          "download": 11299473248
+        }
+      },
+      "_source": "hubcap"
+    },
+    {
+      "buildId": "26389032",
+      "branch": "beta",
+      "timeUpdated": 1793650713,
+      "firstSeen": 1793655962,
+      "manifests": {
+        "4863091": {
+          "gid": "1376357319865008010",
+          "size": 11947461496,
+          "download": 11310481072
+        },
+        "4863092": {
+          "gid": "7528791897578008884",
+          "size": 11935186979,
+          "download": 11299478912
+        }
+      }
     }
   ],
-  "_change_number": 40497613,
+  "_change_number": 40525010,
   "_missing_token": false,
-  "_sha": "fce5dd984765a9c161256d00468103dcf99c54a7",
-  "_size": 5021,
+  "_sha": "a0f8a1017c3a53301454eb6d79f7614e644cf27a",
+  "_size": 5679,
   "appid": "4863090",
   "common": {
     "aicontenttype": "1",
@@ -141,10 +183,13 @@
     },
     "name": "Bravemech: The Century War",
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "1",
     "releasestate": "released",
+    "review_percentage": "66",
+    "review_score": "5",
     "small_capsule": {
       "english": "0415d45c406758f0dbbec8c26dee4c4c99092ddb/capsule_231x87.jpg"
     },
@@ -208,6 +253,12 @@
           "oslist": "windows"
         },
         "executable": "Bravemech.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "bravemech.sh"
       }
     }
   },
@@ -220,30 +271,50 @@
       "sharedinstall": "1"
     },
     "4863091": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "beta": {
-          "download": "11056319280",
-          "gid": "6238330653008826278",
-          "size": "11691387234"
+          "download": "11310481072",
+          "gid": "1376357319865008010",
+          "size": "11947461496"
         },
         "public": {
-          "download": "11056319280",
-          "gid": "6238330653008826278",
-          "size": "11691387234"
+          "download": "11310475408",
+          "gid": "6203726225421912664",
+          "size": "11947440639"
+        }
+      }
+    },
+    "4863092": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "11299478912",
+          "gid": "7528791897578008884",
+          "size": "11935186979"
+        },
+        "public": {
+          "download": "11299473248",
+          "gid": "7458865697878683268",
+          "size": "11935166122"
         }
       }
     },
     "branches": {
       "beta": {
-        "buildid": "26373102",
+        "buildid": "26389032",
         "description": "beta build",
-        "timebuildupdated": "1793598747",
-        "timeupdated": "1793598747"
+        "timebuildupdated": "1793650713",
+        "timeupdated": "1793650713"
       },
       "public": {
-        "buildid": "26373102",
-        "timebuildupdated": "1793598747",
-        "timeupdated": "1793598910"
+        "buildid": "26384244",
+        "timebuildupdated": "1793636951",
+        "timeupdated": "1793640330"
       }
     }
   },
@@ -255,13 +326,19 @@
   "ufs": {
     "maxnumfiles": "5000",
     "quota": "500000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "Bravemech\\cloud",
         "pattern": "save.json",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataRoaming"
       }
     }

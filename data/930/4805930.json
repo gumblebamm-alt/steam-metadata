@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792371630,
-  "_history": [],
-  "_change_number": 39979373,
-  "_missing_token": true,
-  "_sha": "77466816f882adc56aeb2539a6b5fb40e0442b12",
-  "_size": 3955,
+  "_lastChecked": 1793656022,
+  "_history": [
+    {
+      "buildId": "26366674",
+      "branch": "public",
+      "timeUpdated": 1793567972,
+      "firstSeen": 1793656022,
+      "manifests": {
+        "4805931": {
+          "gid": "8661852579040543108",
+          "size": 424218024,
+          "download": 71050016
+        },
+        "4805932": {
+          "gid": "8726253244976752623",
+          "size": 443360596,
+          "download": 79271536
+        },
+        "4805933": {
+          "gid": "665529357110705932",
+          "size": 419905399,
+          "download": 68784256
+        }
+      }
+    }
+  ],
+  "_change_number": 40523899,
+  "_missing_token": false,
+  "_sha": "55ff3f58c09dcc653b172aa4250a3d4494b56d27",
+  "_size": 5547,
   "appid": "4805930",
   "common": {
     "associations": {
@@ -30,8 +54,8 @@
     },
     "clienticon": "b5b2ba317dd791901c291a892006e231a7947177",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4805930",
     "genres": {
       "0": "25",
@@ -102,13 +126,14 @@
     },
     "name": "Marketfield Idle",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b85b6f3b96e88f0d9f2c90c5f1135933afc42a39/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793651592",
     "store_asset_mtime": "1792371066",
     "store_tags": {
       "0": "9",
@@ -188,5 +213,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Marketfield",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Marketfield.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Marketfield_Full_1.0.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Linux.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4805931": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "71050016",
+          "gid": "8661852579040543108",
+          "size": "424218024"
+        }
+      }
+    },
+    "4805932": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "79271536",
+          "gid": "8726253244976752623",
+          "size": "443360596"
+        }
+      }
+    },
+    "4805933": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "68784256",
+          "gid": "665529357110705932",
+          "size": "419905399"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26366674",
+        "timebuildupdated": "1793567945",
+        "timeupdated": "1793567972"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Pollikk Studios",
+    "publisher": "Pollikk Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "pollikk_studio\\Marketfield",
+        "pattern": "idleVillageSave_*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

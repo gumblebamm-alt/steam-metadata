@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792903316,
-  "_history": [],
-  "_change_number": 40210024,
-  "_missing_token": true,
-  "_sha": "6da32839ce6aa2059e2ad11d26fa3c099a0c7358",
-  "_size": 3265,
+  "_lastChecked": 1793656015,
+  "_history": [
+    {
+      "buildId": "26387516",
+      "branch": "public",
+      "timeUpdated": 1793646053,
+      "firstSeen": 1793656015,
+      "manifests": {
+        "4595461": {
+          "gid": "4411076004972047622",
+          "size": 7753512060,
+          "download": 7255836064
+        }
+      }
+    }
+  ],
+  "_change_number": 40520978,
+  "_missing_token": false,
+  "_sha": "f2bc829c1f1ede01d3ab062e886a894c6f61d213",
+  "_size": 4642,
   "appid": "4595460",
   "common": {
     "associations": {
@@ -32,6 +46,7 @@
     },
     "clienticon": "46972e83b2bcb8c1638a0a849bee0174b92c929a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -41,7 +56,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4595460",
     "genres": {
       "0": "23"
@@ -111,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9423cfcc1f36bd9b653bb7a0d89b2a4b1115c903/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793646353",
     "store_asset_mtime": "1792613438",
     "store_tags": {
       "0": "1667",
@@ -147,5 +162,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Make the World Great Again",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MakeTheWorldGreatAgain.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4595461": {
+      "manifests": {
+        "public": {
+          "download": "7255836064",
+          "gid": "4411076004972047622",
+          "size": "7753512060"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26387516",
+        "timebuildupdated": "1793646018",
+        "timeupdated": "1793646053"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Sumo Studio",
+    "homepage": "http://mwga-game.com/",
+    "publisher": "Sumo Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "8000000",
+    "savefiles": {
+      "0": {
+        "path": "MakeTheWorldGreatAgain/SteamCloud/{64BitSteamID}",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "MakeTheWorldGreatAgain/Saved/SaveGames",
+        "pattern": "SharedGameSettings.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

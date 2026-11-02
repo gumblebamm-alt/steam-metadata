@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792327753,
-  "_history": [],
-  "_change_number": 39952488,
-  "_missing_token": true,
-  "_sha": "29cc849cd096f02da8bbea39a9a6aa2c699bda35",
-  "_size": 4035,
+  "_lastChecked": 1793656007,
+  "_history": [
+    {
+      "buildId": "26387727",
+      "branch": "public",
+      "timeUpdated": 1793646678,
+      "firstSeen": 1793656007,
+      "manifests": {
+        "4331331": {
+          "gid": "6055122119760740086",
+          "size": 180062287,
+          "download": 118950368
+        },
+        "4331332": {
+          "gid": "5868974749807543931",
+          "size": 251155363,
+          "download": 143905776
+        },
+        "4331333": {
+          "gid": "2913726178590444393",
+          "size": 180798354,
+          "download": 118964096
+        }
+      }
+    }
+  ],
+  "_change_number": 40521195,
+  "_missing_token": false,
+  "_sha": "c58c33d9b171986384907d72ed46bcea28f34945",
+  "_size": 5884,
   "appid": "4331330",
   "common": {
     "aicontenttype": "1",
@@ -33,9 +57,9 @@
     "clienticns": "5f169ceb54c619e688289aa56591066420b458fb",
     "clienticon": "950502e840d0a906d73157d8b0eaf9911993e5cc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4331330",
     "genres": {
       "0": "1",
@@ -111,7 +135,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7746b2ada5dc9dccce6b3a0849a04ee0b7132cc8/capsule_231x87.jpg"
     },
@@ -185,5 +209,112 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Swarmfall",
+    "launch": {
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Swarmfall.exe"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Swarmfall"
+      },
+      "3": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Swarmfall"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4331331": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "118950368",
+          "gid": "6055122119760740086",
+          "size": "180062287"
+        }
+      }
+    },
+    "4331332": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "143905776",
+          "gid": "5868974749807543931",
+          "size": "251155363"
+        }
+      }
+    },
+    "4331333": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "118964096",
+          "gid": "2913726178590444393",
+          "size": "180798354"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26387727",
+        "timebuildupdated": "1793646600",
+        "timeupdated": "1793646678"
+      }
+    }
+  },
+  "extended": {
+    "developer": "grannyForge",
+    "publisher": "grannyForge"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Swarmfall",
+        "pattern": "savegame.json",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

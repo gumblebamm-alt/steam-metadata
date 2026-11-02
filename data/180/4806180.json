@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793599374,
-  "_history": [],
-  "_change_number": 40494505,
-  "_missing_token": true,
-  "_sha": "042e997aa738975cf7bf14b4bdaf28d20d1c17eb",
-  "_size": 6038,
+  "_lastChecked": 1793656022,
+  "_history": [
+    {
+      "buildId": "26379000",
+      "branch": "public",
+      "timeUpdated": 1793627267,
+      "firstSeen": 1793656022,
+      "manifests": {
+        "4806181": {
+          "gid": "3083083994078793236",
+          "size": 4163943998,
+          "download": 2183703680
+        },
+        "4806182": {
+          "gid": "1627692219689212002",
+          "size": 4257568544,
+          "download": 2210128832
+        },
+        "4806183": {
+          "gid": "120155305620524215",
+          "size": 4137318710,
+          "download": 2177800400
+        }
+      }
+    }
+  ],
+  "_change_number": 40521030,
+  "_missing_token": false,
+  "_sha": "c5512c226f995144d3886c55e40dd89c9da1baff",
+  "_size": 9498,
   "appid": "4806180",
   "common": {
     "aicontenttype": "1",
@@ -26,7 +50,6 @@
     "clienticon": "7afbd1d4b7de3bf6d8caf3e2f294be6d61d61fab",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4806180",
     "genres": {
       "0": "23",
@@ -128,19 +151,20 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ade3e939a01d4f1457a1914e931664b7e971afb4/capsule_231x87.jpg",
       "japanese": "794a3d58b03a5e899336933b63008d746fb73809/capsule_231x87_japanese.jpg",
       "russian": "10cc290ac581a20c999e948e0d6a7d584ce621ee/capsule_231x87_russian.jpg",
       "schinese": "ce053924c1ffd00f297017c6ba78b3688916392d/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1793635310",
     "store_asset_mtime": "1793479898",
     "store_tags": {
       "0": "9",
       "1": "1670",
-      "10": "1643",
-      "11": "7926",
+      "10": "4166",
+      "11": "1643",
       "12": "3942",
       "13": "599",
       "14": "1755",
@@ -156,7 +180,7 @@
       "6": "4975",
       "7": "5851",
       "8": "1673",
-      "9": "4166"
+      "9": "7926"
     },
     "supported_languages": {
       "brazilian": {
@@ -177,5 +201,166 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Imperium",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play Imperium",
+        "description_loc": {
+          "english": "Play Imperium"
+        },
+        "executable": "Imperium.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Play Imperium",
+        "description_loc": {
+          "english": "Play Imperium"
+        },
+        "executable": "Imperium.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Play Imperium",
+        "description_loc": {
+          "english": "Play Imperium"
+        },
+        "executable": "Imperium.x86_64",
+        "type": "default"
+      },
+      "3": {
+        "arguments": "--rendering-driver opengl3",
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "in compatibility mode (older Intel graphics)",
+        "description_loc": {
+          "english": "in compatibility mode (older Intel graphics)"
+        },
+        "executable": "Imperium.x86_64",
+        "type": "option3"
+      },
+      "4": {
+        "arguments": "--rendering-driver d3d12",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "with DirectX 12 (try this if the game crashes or flickers)",
+        "description_loc": {
+          "english": "with DirectX 12 (try this if the game crashes or flickers)"
+        },
+        "executable": "Imperium.exe",
+        "type": "option1"
+      },
+      "5": {
+        "arguments": "--rendering-driver opengl3",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "in compatibility mode (older graphics cards)",
+        "description_loc": {
+          "english": "in compatibility mode (older graphics cards)"
+        },
+        "executable": "Imperium.exe",
+        "type": "option2"
+      }
+    }
+  },
+  "depots": {
+    "4806181": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2183703680",
+          "gid": "3083083994078793236",
+          "size": "4163943998"
+        }
+      }
+    },
+    "4806182": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "2210128832",
+          "gid": "1627692219689212002",
+          "size": "4257568544"
+        }
+      }
+    },
+    "4806183": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2177800400",
+          "gid": "120155305620524215",
+          "size": "4137318710"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,russian,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26379000",
+        "timebuildupdated": "1793621562",
+        "timeupdated": "1793627267"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Petroff Games",
+    "homepage": "https://petroffltd.com/imperium",
+    "publisher": "Petroff Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Imperium/saves",
+            "replace": "godot/app_userdata/Imperium/saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "Godot/app_userdata/Imperium/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

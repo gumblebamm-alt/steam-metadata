@@ -1,10 +1,10 @@
 {
-  "_lastChecked": 1793166262,
+  "_lastChecked": 1793656032,
   "_history": [
     {
-      "buildId": "",
+      "buildId": "26295087",
       "branch": "public",
-      "timeUpdated": 1793080914,
+      "timeUpdated": 1793271681,
       "firstSeen": 1793166103,
       "manifests": {
         "5034421": {
@@ -16,10 +16,10 @@
       "_source": "hubcap"
     }
   ],
-  "_change_number": 40250561,
-  "_missing_token": true,
-  "_sha": "7f7879bd0d680e6756ec0c13f65bbbcae90bc4b3",
-  "_size": 3413,
+  "_change_number": 40505774,
+  "_missing_token": false,
+  "_sha": "7908751ffa5e2a2842b407e313a4464eb4e4d122",
+  "_size": 5004,
   "appid": "5034420",
   "common": {
     "aicontenttype": "1",
@@ -46,8 +46,8 @@
     },
     "clienticon": "7c6b37e80af3619e983cdf93824dbe239aaaaea7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5034420",
     "genres": {
       "0": "25",
@@ -129,11 +129,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ee9e934e04ef3907da1d4f977d5ccee504de47bf/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1790958855",
+    "steam_release_date": "1793098813",
+    "store_asset_mtime": "1793619071",
     "store_tags": {
       "0": "21",
       "1": "597",
@@ -173,5 +174,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Abyssal Moonlight-Chapter1",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Chapter1",
+        "description_loc": {
+          "english": "Chapter1",
+          "japanese": "第一章",
+          "koreana": "챕터1"
+        },
+        "executable": "chapter1.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows",
+          "ownsdlc": "5344010"
+        },
+        "description": "Digital Art Book",
+        "description_loc": {
+          "english": "Digital Art Book",
+          "japanese": "デジタルアートブック",
+          "koreana": "디지털 아트북"
+        },
+        "executable": "artbook\\chapter1_artbook.exe",
+        "type": "option1",
+        "workingdir": "artbook"
+      }
+    }
+  },
+  "depots": {
+    "5034421": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "657605376",
+          "gid": "4092257201760210337",
+          "size": "832330491"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana",
+    "branches": {
+      "public": {
+        "buildid": "26295087",
+        "timebuildupdated": "1793271570",
+        "timeupdated": "1793271681"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Garurai",
+    "dlcavailableonstore": "1",
+    "isfreeapp": "1",
+    "listofdlc": "5344010",
+    "publisher": "Garurai"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "savedata",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

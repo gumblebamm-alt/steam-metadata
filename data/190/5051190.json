@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792558110,
-  "_history": [],
-  "_change_number": 40053390,
-  "_missing_token": true,
-  "_sha": "1973cbb8bc630db951ed7cd572993c3d2de7991a",
-  "_size": 3563,
+  "_lastChecked": 1793656033,
+  "_history": [
+    {
+      "buildId": "26228621",
+      "branch": "public",
+      "timeUpdated": 1793051247,
+      "firstSeen": 1793656033,
+      "manifests": {
+        "5051191": {
+          "gid": "8784395170829757073",
+          "size": 408066033,
+          "download": 213598816
+        },
+        "5192240": {
+          "gid": "7895553846104786336",
+          "size": 55447,
+          "download": 15536
+        }
+      }
+    }
+  ],
+  "_change_number": 40518756,
+  "_missing_token": false,
+  "_sha": "71046fd2082f2e76351b38f519b6c8a2a6bf5f3e",
+  "_size": 5537,
   "appid": "5051190",
   "common": {
     "aicontenttype": "1",
@@ -37,9 +56,9 @@
     },
     "clienticon": "593b892caacb81ac1d9c6f0f3f0f927522068238",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5051190",
     "genres": {
       "0": "1",
@@ -111,10 +130,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0486471eb1c73849c2a3118b2a60923467e67eb9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793642567",
     "store_asset_mtime": "1786462600",
     "store_tags": {
       "0": "19",
@@ -164,5 +184,100 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Collapse Vector",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Collapse Vector.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5051191": {
+      "manifests": {
+        "public": {
+          "download": "213598816",
+          "gid": "8784395170829757073",
+          "size": "408066033"
+        }
+      }
+    },
+    "5192240": {
+      "dlcappid": "5192240",
+      "manifests": {
+        "public": {
+          "download": "15536",
+          "gid": "7895553846104786336",
+          "size": "55447"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26228621",
+        "timebuildupdated": "1793051247",
+        "timeupdated": "1793051247"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Starfuel Interactive",
+    "dlcavailableonstore": "1",
+    "homepage": "https://starfuelinteractive.com/",
+    "listofdlc": "5192240",
+    "publisher": "NineTwo Creations"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "StarfuelInteractive/Collapse Vector/saves",
+        "pattern": "*.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "StarfuelInteractive/Collapse Vector/archives",
+        "pattern": "*.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "StarfuelInteractive/Collapse Vector",
+        "pattern": "master-records.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "StarfuelInteractive/Collapse Vector",
+        "pattern": "resume-state.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "StarfuelInteractive/Collapse Vector",
+        "pattern": "cosmetics.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793166300,
-  "_history": [],
-  "_change_number": 40310895,
-  "_missing_token": true,
-  "_sha": "35ef851622caf30ea3779f7f3b2129e68ce974f8",
-  "_size": 6799,
+  "_lastChecked": 1793656039,
+  "_history": [
+    {
+      "buildId": "26388630",
+      "branch": "public",
+      "timeUpdated": 1793649508,
+      "firstSeen": 1793656039,
+      "manifests": {
+        "5170651": {
+          "gid": "6156840433105764664",
+          "size": 190428011,
+          "download": 135371424
+        },
+        "5170652": {
+          "gid": "3784687896583036495",
+          "size": 179879235,
+          "download": 132052480
+        }
+      }
+    }
+  ],
+  "_change_number": 40523852,
+  "_missing_token": false,
+  "_sha": "d283f32dab37bc2086f34b0770a61e906ee29add",
+  "_size": 8798,
   "appid": "5170650",
   "common": {
     "associations": {
@@ -41,9 +60,9 @@
     },
     "clienticon": "b57a69394a4d0ed6d9cda65c25315d9a27375f56",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5170650",
     "genres": {
       "0": "4",
@@ -149,11 +168,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5ef3bab6cb7bbedb01a9305e486ba638299b3a9d/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793129020",
+    "steam_release_date": "1793647970",
+    "store_asset_mtime": "1793650532",
     "store_tags": {
       "0": "597",
       "1": "560542",
@@ -335,5 +355,93 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fishcremental",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Fishcremental.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Fishcremental.x86_64"
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "controller_config/fishcremental.vdf"
+  },
+  "depots": {
+    "5170651": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "135371424",
+          "gid": "6156840433105764664",
+          "size": "190428011"
+        }
+      }
+    },
+    "5170652": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "132052480",
+          "gid": "3784687896583036495",
+          "size": "179879235"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "26388630",
+        "timebuildupdated": "1793649484",
+        "timeupdated": "1793649508"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Kyenia",
+    "publisher": "Kyenia"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Fishcremental",
+            "replace": "godot/app_userdata/Fishcremental"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Fishcremental",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "godot/app_userdata/Fishcremental",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

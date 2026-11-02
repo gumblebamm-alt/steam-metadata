@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793077387,
-  "_history": [],
-  "_change_number": 40194226,
-  "_missing_token": true,
-  "_sha": "e4a08084f57eb16cbe2c8b8050810c0c303276eb",
-  "_size": 3835,
+  "_lastChecked": 1793656033,
+  "_history": [
+    {
+      "buildId": "26357893",
+      "branch": "public",
+      "timeUpdated": 1793521525,
+      "firstSeen": 1793656033,
+      "manifests": {
+        "5054651": {
+          "gid": "947267648969584322",
+          "size": 361904940,
+          "download": 211544704
+        },
+        "5054652": {
+          "gid": "8695407380813937881",
+          "size": 334309983,
+          "download": 201994784
+        }
+      }
+    }
+  ],
+  "_change_number": 40519972,
+  "_missing_token": false,
+  "_sha": "bf782fa7234d7660cff1b2bb0396dc31b7697087",
+  "_size": 6018,
   "appid": "5054650",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +49,8 @@
       "category_38": "1",
       "category_39": "1",
       "category_44": "1",
+      "category_45": "1",
+      "category_46": "1",
       "category_55": "1",
       "category_56": "1",
       "category_57": "1",
@@ -50,9 +71,9 @@
     },
     "clienticon": "c2a8ae7730d636a828a2b1bb18124392c678b2cd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5054650",
     "genres": {
       "0": "1",
@@ -124,10 +145,11 @@
     "osextended": "macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a50ae5dbddc4ff116ce50edc16675b09df65de12/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793073032",
     "store_asset_mtime": "1792647487",
     "store_tags": {
       "0": "42804",
@@ -176,5 +198,120 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Neon Breaker",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "NeonBreaker.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Neon Breaker.app",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5054651": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "211544704",
+          "gid": "947267648969584322",
+          "size": "361904940"
+        }
+      }
+    },
+    "5054652": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "201994784",
+          "gid": "8695407380813937881",
+          "size": "334309983"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26357893",
+        "timebuildupdated": "1793521525",
+        "timeupdated": "1793521525"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Roy Massaad",
+    "homepage": "https://neonbreaker.pixel-hat.com/",
+    "publisher": "Roy Massaad"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "134217728",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Dropzoner",
+            "replace": "NeonBreaker"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Dropzoner",
+            "replace": "NeonBreaker"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "WinAppDataLocal"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Dropzoner",
+        "pattern": "profile.neonprofile",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Dropzoner",
+        "pattern": "profile.neonprofile.bak",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

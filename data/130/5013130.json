@@ -1,10 +1,30 @@
 {
-  "_lastChecked": 1793040169,
-  "_history": [],
-  "_change_number": 40257014,
-  "_missing_token": true,
-  "_sha": "1a1806945dd8ced682d875b1dc7f3563d9c537c6",
-  "_size": 4464,
+  "_lastChecked": 1793655957,
+  "_history": [
+    {
+      "buildId": "26387300",
+      "branch": "public",
+      "timeUpdated": 1793646770,
+      "firstSeen": 1793655827,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "5013131": {
+          "gid": "8936236449485692274",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40525553,
+  "_missing_token": false,
+  "_sha": "790d94c2e04a1f92a35d50002d5b809170286306",
+  "_size": 5730,
   "appid": "5013130",
   "common": {
     "aicontenttype": "1",
@@ -69,8 +89,8 @@
     },
     "clienticon": "6950edd40e7818a6db42aed58b94f46b7e64e1da",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5013130",
     "genres": {
       "0": "4",
@@ -142,10 +162,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c6f1ffb2dec69373724fe62c522be77ea6ca182d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793636409",
     "store_asset_mtime": "1793022056",
     "store_tags": {
       "0": "597",
@@ -218,5 +239,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CellarCleanupSimulator",
+    "launch": {
+      "0": {
+        "executable": "Cellar Cleanup Simulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5013131": {
+      "manifests": {
+        "public": {
+          "download": "453450928",
+          "gid": "8936236449485692274",
+          "size": "1355592645"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26387300",
+        "timebuildupdated": "1793645320",
+        "timeupdated": "1793646770"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Kiki Games",
+    "homepage": "https://www.kikigames.fun/",
+    "publisher": "Kiki Games"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "KikiGames\\Cellar Cleanup Simulator\\Saves\\",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "KikiGames\\Cellar Cleanup Simulator\\Settings\\",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

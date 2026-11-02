@@ -1,10 +1,25 @@
 {
-  "_lastChecked": 1793467101,
-  "_history": [],
-  "_change_number": 40449417,
-  "_missing_token": true,
-  "_sha": "17e0fbc537bd3760361609b3768a97f2326bf972",
-  "_size": 4205,
+  "_lastChecked": 1793655961,
+  "_history": [
+    {
+      "buildId": "26341476",
+      "branch": "public",
+      "timeUpdated": 1793426697,
+      "firstSeen": 1793655871,
+      "manifests": {
+        "4764421": {
+          "gid": "746213263191068783",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40508429,
+  "_missing_token": false,
+  "_sha": "525e0174ea4e9a42c50fb0f59dffa73361573eeb",
+  "_size": 5185,
   "appid": "4764420",
   "common": {
     "aicontenttype": "1",
@@ -32,9 +47,9 @@
     "clienticns": "8b21619b2d6aa3c96b4b0c85b9920f153472f024",
     "clienticon": "6e6c82c896de947da671235720cdb30df4e0130c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4764420",
     "genres": {
       "0": "4",
@@ -120,10 +135,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e45e0268aefe9f9c99af9cbd2527a247c911f1d6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793624415",
     "store_asset_mtime": "1791807391",
     "store_tags": {
       "0": "597",
@@ -201,5 +217,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tale Sweeper",
+    "launch": {
+      "0": {
+        "executable": "Tale Sweeper.exe"
+      }
+    }
+  },
+  "depots": {
+    "4764421": {
+      "manifests": {
+        "public": {
+          "download": "260244400",
+          "gid": "746213263191068783",
+          "size": "1148350552"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26341476",
+        "timebuildupdated": "1793426664",
+        "timeupdated": "1793426697"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "ASyun",
+    "publisher": "ASyun"
+  },
+  "ufs": {
+    "maxnumfiles": "6",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "DefaultCompany/Tale Sweeper",
+        "pattern": "save.dat",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

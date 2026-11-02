@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792689381,
-  "_history": [],
-  "_change_number": 40124296,
-  "_missing_token": true,
-  "_sha": "fffcc15e3188e974eac44833c5991455adc840b8",
-  "_size": 3026,
+  "_lastChecked": 1793655992,
+  "_history": [
+    {
+      "buildId": "26370976",
+      "branch": "public",
+      "timeUpdated": 1793588689,
+      "firstSeen": 1793655992,
+      "manifests": {
+        "3721021": {
+          "gid": "3257968687728592077",
+          "size": 6150515158,
+          "download": 2530850576
+        }
+      }
+    }
+  ],
+  "_change_number": 40519237,
+  "_missing_token": false,
+  "_sha": "5ab6ba20fef683f9d94f6ed87e38c19bbf403e87",
+  "_size": 4406,
   "appid": "3721020",
   "common": {
     "associations": {
@@ -26,8 +40,8 @@
     "clienticon": "71fa3ebedaf4d2d98394ff0e8a52ac011997e3e7",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3721020",
     "genres": {
       "0": "1",
@@ -99,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "176664e8cb66060aa614bc62e5be69cb6a01fcfc/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793642888",
     "store_asset_mtime": "1780018854",
     "store_tags": {
       "0": "1663",
@@ -134,5 +149,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Galactic Bounty",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Galactic Bounty",
+        "description_loc": {
+          "english": "Play Galactic Bounty"
+        },
+        "executable": "Galactic Bounty.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3721021": {
+      "manifests": {
+        "public": {
+          "download": "2530850576",
+          "gid": "3257968687728592077",
+          "size": "6150515158"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26370976",
+        "timebuildupdated": "1793588610",
+        "timeupdated": "1793588689"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Deadscripts Interactive",
+    "publisher": "Deadscripts Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Deadscripts Interactive/Galactic Bounty",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Deadscripts Interactive/Galactic Bounty",
+        "pattern": "settings.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Deadscripts Interactive/Galactic Bounty",
+        "pattern": "input_bindings.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

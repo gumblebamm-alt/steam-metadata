@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793467110,
+  "_lastChecked": 1793656042,
   "_history": [
     {
       "buildId": "26278774",
@@ -60,12 +60,30 @@
           "download": 114411520
         }
       }
+    },
+    {
+      "buildId": "26375369",
+      "branch": "public",
+      "timeUpdated": 1793610061,
+      "firstSeen": 1793656042,
+      "manifests": {
+        "5345041": {
+          "gid": "5113593009345615730",
+          "size": 242881699,
+          "download": 110033680
+        },
+        "5345043": {
+          "gid": "3778889023630543742",
+          "size": 331596917,
+          "download": 132754288
+        }
+      }
     }
   ],
-  "_change_number": 40450981,
+  "_change_number": 40501805,
   "_missing_token": false,
-  "_sha": "c7604e3dfb63917d0ef49ac59fbf142f1268d62c",
-  "_size": 6328,
+  "_sha": "9125016e230ca5e0b9b7c2279d62fea5ee8a139b",
+  "_size": 5953,
   "appid": "5345040",
   "common": {
     "aicontenttype": "1",
@@ -189,12 +207,12 @@
     "name": "Stick A Fork",
     "osarch": "64",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "97",
-    "review_score": "7",
+    "review_percentage": "98",
+    "review_score": "8",
     "small_capsule": {
       "english": "985990e0899707db91fcf4cfbcd7bbd89f61c241/capsule_231x87.jpg"
     },
@@ -301,11 +319,9 @@
       },
       "1": {
         "config": {
-          "betakey": "linux",
-          "osarch": "64",
-          "oslist": "linux"
+          "oslist": "macos"
         },
-        "executable": "StickAFork.x86_64",
+        "executable": "StickAFork.app",
         "type": "default"
       }
     }
@@ -313,15 +329,10 @@
   "depots": {
     "5345041": {
       "manifests": {
-        "linux": {
-          "download": "109619632",
-          "gid": "1690382436911198357",
-          "size": "241563371"
-        },
         "public": {
-          "download": "109619632",
-          "gid": "1690382436911198357",
-          "size": "241563371"
+          "download": "110033680",
+          "gid": "5113593009345615730",
+          "size": "242881699"
         }
       }
     },
@@ -329,26 +340,25 @@
       "config": {
         "osarch": "64",
         "oslist": "linux"
+      }
+    },
+    "5345043": {
+      "config": {
+        "oslist": "macos"
       },
       "manifests": {
-        "linux": {
-          "download": "114411520",
-          "gid": "4783542592585241959",
-          "size": "280654369"
+        "public": {
+          "download": "132754288",
+          "gid": "3778889023630543742",
+          "size": "331596917"
         }
       }
     },
     "branches": {
-      "linux": {
-        "buildid": "26342543",
-        "description": "Native Linux and SteamOS build beta",
-        "timebuildupdated": "1793433725",
-        "timeupdated": "1793433785"
-      },
       "public": {
-        "buildid": "26320431",
-        "timebuildupdated": "1793355066",
-        "timeupdated": "1793356137"
+        "buildid": "26375369",
+        "timebuildupdated": "1793609345",
+        "timeupdated": "1793610061"
       }
     },
     "nocommonredists": "1",
@@ -363,16 +373,11 @@
     "quota": "10000000",
     "rootoverrides": {
       "0": {
-        "os": "Linux",
+        "addpath": "",
+        "os": "MacOS",
         "oscompare": "=",
-        "pathtransforms": {
-          "0": {
-            "find": "FlowDot/Stick A Fork/saves",
-            "replace": ".config/unity3d/FlowDot/Stick A Fork/saves"
-          }
-        },
         "root": "WinAppDataLocalLow",
-        "useinstead": "LinuxHome"
+        "useinstead": "MacAppSupport"
       }
     },
     "savefiles": {

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793556046,
-  "_history": [],
-  "_change_number": 40475365,
-  "_missing_token": true,
-  "_sha": "05ee6310e338116aa9cdc32d9b7e6620e13abf57",
-  "_size": 3735,
+  "_lastChecked": 1793656024,
+  "_history": [
+    {
+      "buildId": "26386094",
+      "branch": "public",
+      "timeUpdated": 1793642151,
+      "firstSeen": 1793656024,
+      "manifests": {
+        "4878221": {
+          "gid": "7667556918358920590",
+          "size": 340942304,
+          "download": 319533984
+        }
+      }
+    }
+  ],
+  "_change_number": 40518602,
+  "_missing_token": false,
+  "_sha": "3dde96f3912b0bfbb9ed7bbc7d3282739ea90192",
+  "_size": 4780,
   "appid": "4878220",
   "common": {
     "aicontenttype": "1",
@@ -27,9 +41,9 @@
     },
     "clienticon": "6cac5447c842149062130371af0f2d5e93315c4c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4878220",
     "genres": {
       "0": "1",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "524901da29b4f552c041244158cd0b4c8bbab998/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793642458",
     "store_asset_mtime": "1792989709",
     "store_tags": {
       "0": "560542",
@@ -185,5 +200,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DashBreaker",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DashBreaker.exe"
+      }
+    }
+  },
+  "depots": {
+    "4878221": {
+      "manifests": {
+        "public": {
+          "download": "319533984",
+          "gid": "7667556918358920590",
+          "size": "340942304"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26386094",
+        "timebuildupdated": "1793642008",
+        "timeupdated": "1793642151"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "sagelab",
+    "publisher": "sagelab"
+  },
+  "ufs": {
+    "maxnumfiles": "8",
+    "quota": "1048576",
+    "savefiles": {
+      "0": {
+        "path": "DashBreaker/profiles/{64BitSteamID}/strike-v1/progression",
+        "pattern": "meta_progress.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "DashBreaker/profiles/{64BitSteamID}/strike-v1/progression",
+        "pattern": "meta_progress.json.bak",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792112050,
-  "_history": [],
-  "_change_number": 39870550,
-  "_missing_token": true,
-  "_sha": "576e9e9a1e970db91ad766251ebac5e5e90d29c0",
-  "_size": 3105,
+  "_lastChecked": 1793656017,
+  "_history": [
+    {
+      "buildId": "26293395",
+      "branch": "public",
+      "timeUpdated": 1793266287,
+      "firstSeen": 1793656017,
+      "manifests": {
+        "4653201": {
+          "gid": "7264282305485108067",
+          "size": 298788884,
+          "download": 141940000
+        }
+      }
+    }
+  ],
+  "_change_number": 40505060,
+  "_missing_token": false,
+  "_sha": "632284745a9f3d2eda630e06cbdaa8c8c53327ab",
+  "_size": 4048,
   "appid": "4653200",
   "common": {
     "associations": {
@@ -31,8 +45,8 @@
     },
     "clienticon": "de5663fb8200ad4fc78ff7b7122e3f78ed4288a2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4653200",
     "genres": {
       "0": "4",
@@ -109,27 +123,28 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4d81d85bb586cd479e30400fbd376e0665c8f2c6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793613419",
     "store_asset_mtime": "1790086917",
     "store_tags": {
       "0": "122",
       "1": "615955",
-      "10": "492",
+      "10": "220585",
       "11": "1084988",
       "12": "1684",
       "13": "8945",
       "14": "4182",
       "2": "597",
-      "3": "599",
-      "4": "1320952",
+      "3": "1320952",
+      "4": "599",
       "5": "560542",
       "6": "3993",
       "7": "3871",
       "8": "3964",
-      "9": "220585"
+      "9": "492"
     },
     "supported_languages": {
       "english": {
@@ -141,5 +156,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Background Warrior",
+    "launch": {
+      "0": {
+        "executable": "The Background Warrior.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4653201": {
+      "manifests": {
+        "public": {
+          "download": "141940000",
+          "gid": "7264282305485108067",
+          "size": "298788884"
+        }
+      }
+    },
+    "baselanguages": "english,italian",
+    "branches": {
+      "public": {
+        "buildid": "26293395",
+        "timebuildupdated": "1793266268",
+        "timeupdated": "1793266287"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Chotto Inc",
+    "publisher": "Chotto Inc"
+  },
+  "ufs": {
+    "maxnumfiles": "60",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "ChottoInc/The Background Warrior/Data",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792112059,
+  "_lastChecked": 1793655961,
   "_history": [
     {
       "buildId": "25909304",
@@ -26,12 +26,26 @@
           "download": 376683424
         }
       }
+    },
+    {
+      "buildId": "26250239",
+      "branch": "public",
+      "timeUpdated": 1793124519,
+      "firstSeen": 1793655882,
+      "manifests": {
+        "5011961": {
+          "gid": "3554210177249798386",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
     }
   ],
-  "_change_number": 39804797,
+  "_change_number": 40308487,
   "_missing_token": false,
-  "_sha": "a0438bdcaed367b0b9c99083d17eb28b087995c2",
-  "_size": 4310,
+  "_sha": "ae6fb066511a5feaf237f048e4072a1f3364f5b7",
+  "_size": 4985,
   "appid": "5011960",
   "common": {
     "aicontenttype": "1",
@@ -135,6 +149,8 @@
     "oslist": "windows",
     "primary_genre": "28",
     "releasestate": "released",
+    "review_percentage": "72",
+    "review_score": "6",
     "small_capsule": {
       "english": "64e529dacf3732a4dd1a5c259f300e8f804f5278/capsule_231x87.jpg"
     },
@@ -205,12 +221,32 @@
     "installdir": "Resonurgy",
     "launch": {
       "0": {
+        "arguments": "--rendering-driver vulkan",
         "config": {
           "osarch": "64",
           "oslist": "windows"
         },
+        "description": "Driver (Vulkan)",
+        "description_loc": {
+          "english": "Driver (Vulkan)",
+          "russian": "Драйвер (Vulkan)"
+        },
         "executable": "Resonurgy.exe",
-        "type": "default"
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "--rendering-driver d3d12",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Driver (DirectX 12 — if the game crashes)",
+        "description_loc": {
+          "english": "Driver (DirectX 12 — if the game crashes)",
+          "russian": "Драйвер (DirectX 12 — если игра вылетает)"
+        },
+        "executable": "Resonurgy.exe",
+        "type": "option1"
       }
     }
   },
@@ -218,17 +254,17 @@
     "5011961": {
       "manifests": {
         "public": {
-          "download": "376683424",
-          "gid": "5242023666287163381",
-          "size": "452229536"
+          "download": "474383504",
+          "gid": "3554210177249798386",
+          "size": "624461156"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25925636",
-        "timebuildupdated": "1791954018",
-        "timeupdated": "1791954055"
+        "buildid": "26250239",
+        "timebuildupdated": "1793122815",
+        "timeupdated": "1793124519"
       }
     },
     "hasdepotsindlc": "0",

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793599380,
-  "_history": [],
-  "_change_number": 40490285,
-  "_missing_token": true,
-  "_sha": "0e8a40230e43a44842fef7fc8950e527529e7e95",
-  "_size": 3332,
+  "_lastChecked": 1793656037,
+  "_history": [
+    {
+      "buildId": "26386990",
+      "branch": "public",
+      "timeUpdated": 1793644441,
+      "firstSeen": 1793656037,
+      "manifests": {
+        "5145271": {
+          "gid": "7378656990448410661",
+          "size": 177980562,
+          "download": 98294128
+        },
+        "5145272": {
+          "gid": "2973748151473261380",
+          "size": 142979626,
+          "download": 89863824
+        },
+        "5145273": {
+          "gid": "8181083580475884344",
+          "size": 243005601,
+          "download": 118829648
+        }
+      }
+    }
+  ],
+  "_change_number": 40519981,
+  "_missing_token": false,
+  "_sha": "86f3b4f27391cc2cd4d367b7672fcc829a05949e",
+  "_size": 5444,
   "appid": "5145270",
   "common": {
     "associations": {
@@ -31,8 +55,8 @@
     },
     "clienticon": "485791557f9f66c2fcfe7d02451cfed563fe4a35",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5145270",
     "genres": {
       "0": "4",
@@ -111,10 +135,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "342dae8c584713191666443f7e616ff88830044a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793642723",
     "store_asset_mtime": "1792457468",
     "store_tags": {
       "0": "560542",
@@ -148,5 +173,113 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Silicon Sprint",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Silicon_Sprint.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Silicon_Sprint.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Silicon Sprint.app"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5145271": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "98294128",
+          "gid": "7378656990448410661",
+          "size": "177980562"
+        }
+      }
+    },
+    "5145272": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "89863824",
+          "gid": "2973748151473261380",
+          "size": "142979626"
+        }
+      }
+    },
+    "5145273": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "118829648",
+          "gid": "8181083580475884344",
+          "size": "243005601"
+        }
+      }
+    },
+    "baselanguages": "english,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26386990",
+        "timebuildupdated": "1793644423",
+        "timeupdated": "1793644441"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Altuf Games",
+    "dlcavailableonstore": "1",
+    "homepage": "https://impress.games/app/kitty/press-kit/silicon-sprint-data-center-incremental",
+    "listofdlc": "5331590",
+    "publisher": "Altuf Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SiliconSprint/saves",
+        "pattern": "*.sav",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

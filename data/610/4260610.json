@@ -1,10 +1,52 @@
 {
-  "_lastChecked": 1792414552,
-  "_history": [],
-  "_change_number": 39982183,
-  "_missing_token": true,
-  "_sha": "593d441652eee07a4a99e7fc73e300ef37b15366",
-  "_size": 3074,
+  "_lastChecked": 1793656005,
+  "_history": [
+    {
+      "buildId": "25466217",
+      "branch": "local",
+      "timeUpdated": 1790102855,
+      "firstSeen": 1793656005,
+      "manifests": {
+        "4260611": {
+          "gid": "5773979319756035749",
+          "size": 69321445,
+          "download": 62380832
+        },
+        "4260612": {
+          "gid": "3396409668571036473",
+          "size": 616371466,
+          "download": 169104128
+        }
+      }
+    },
+    {
+      "buildId": "26354201",
+      "branch": "public",
+      "timeUpdated": 1793495314,
+      "firstSeen": 1793656005,
+      "manifests": {
+        "4260611": {
+          "gid": "3637483714461117526",
+          "size": 70382820,
+          "download": 63389408
+        },
+        "4260612": {
+          "gid": "3396409668571036473",
+          "size": 616371466,
+          "download": 169104128
+        },
+        "4260613": {
+          "gid": "2499639283283770661",
+          "size": 533172868,
+          "download": 178269440
+        }
+      }
+    }
+  ],
+  "_change_number": 40520418,
+  "_missing_token": false,
+  "_sha": "bf7497426d240021fc67472a9e465ab508c98d18",
+  "_size": 5032,
   "appid": "4260610",
   "common": {
     "associations": {
@@ -26,6 +68,7 @@
     },
     "clienticon": "d4aa9ec5e12e0270670481bbaac1e8afbc4cab5b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -33,7 +76,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4260610",
     "genres": {
       "0": "25",
@@ -104,10 +146,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "da17b2c1f412a5490dcf56cbe5e66841c4f1e800/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793645203",
     "store_asset_mtime": "1767819135",
     "store_tags": {
       "0": "1721",
@@ -138,5 +181,105 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Null Recall",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Linux default",
+        "description_loc": {
+          "english": "Linux default"
+        },
+        "executable": "null_recall",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Windows default",
+        "description_loc": {
+          "english": "Windows default"
+        },
+        "executable": "null_recall.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4260611": {
+      "config": {
+        "language": "english",
+        "osarch": "64"
+      },
+      "manifests": {
+        "local": {
+          "download": "62380832",
+          "gid": "5773979319756035749",
+          "size": "69321445"
+        },
+        "public": {
+          "download": "63389408",
+          "gid": "3637483714461117526",
+          "size": "70382820"
+        }
+      }
+    },
+    "4260612": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "local": {
+          "download": "169104128",
+          "gid": "3396409668571036473",
+          "size": "616371466"
+        },
+        "public": {
+          "download": "169104128",
+          "gid": "3396409668571036473",
+          "size": "616371466"
+        }
+      }
+    },
+    "4260613": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "178269440",
+          "gid": "2499639283283770661",
+          "size": "533172868"
+        }
+      }
+    },
+    "branches": {
+      "local": {
+        "buildid": "25466217",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1790102855",
+        "timeupdated": "1790102855"
+      },
+      "public": {
+        "buildid": "26354201",
+        "timebuildupdated": "1793495066",
+        "timeupdated": "1793495314"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "David Ly",
+    "publisher": "David Ly"
+  }
 }

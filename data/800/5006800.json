@@ -1,10 +1,48 @@
 {
-  "_lastChecked": 1792903323,
-  "_history": [],
-  "_change_number": 40207996,
-  "_missing_token": true,
-  "_sha": "a337e84a036a602c552bf70c674d0df89afa669d",
-  "_size": 3073,
+  "_lastChecked": 1793655961,
+  "_history": [
+    {
+      "buildId": "25701772",
+      "branch": "public",
+      "timeUpdated": 1791747613,
+      "firstSeen": 1793655881,
+      "manifests": {
+        "5006801": {
+          "gid": "3834813011149952211",
+          "size": null,
+          "download": null
+        },
+        "5006802": {
+          "gid": "2268213043368883527",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    },
+    {
+      "buildId": "25468505",
+      "branch": "testing",
+      "timeUpdated": 1790187020,
+      "firstSeen": 1793655961,
+      "manifests": {
+        "5006801": {
+          "gid": "4732630022078151603",
+          "size": 579739367,
+          "download": 415024320
+        },
+        "5006802": {
+          "gid": "3095983893622292286",
+          "size": 663602232,
+          "download": 439278112
+        }
+      }
+    }
+  ],
+  "_change_number": 40501546,
+  "_missing_token": false,
+  "_sha": "e17316275eb923367f68ecb6ecbf491d15e55847",
+  "_size": 5357,
   "appid": "5006800",
   "common": {
     "associations": {
@@ -30,9 +68,9 @@
     },
     "clienticon": "0c7c24a7edab1b2257f3c541a7e743fd8baeefbd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5006800",
     "genres": {
       "0": "1",
@@ -105,10 +143,11 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1f75d9d6f06168be24c5c76a23f2511193a87e27/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793610228",
     "store_asset_mtime": "1788995045",
     "store_tags": {
       "0": "19",
@@ -135,5 +174,118 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Freewill - Sci-Fi Music Platformer",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Freewill.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Freewill.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Freewill.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5006801": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "417977280",
+          "gid": "3834813011149952211",
+          "size": "583766678"
+        },
+        "testing": {
+          "download": "415024320",
+          "gid": "4732630022078151603",
+          "size": "579739367"
+        }
+      }
+    },
+    "5006802": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "443504384",
+          "gid": "2268213043368883527",
+          "size": "669590520"
+        },
+        "testing": {
+          "download": "439278112",
+          "gid": "3095983893622292286",
+          "size": "663602232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25701772",
+        "timebuildupdated": "1791062098",
+        "timeupdated": "1791747613"
+      },
+      "testing": {
+        "buildid": "25468505",
+        "description": "For testing builds before moving them to default",
+        "timebuildupdated": "1790111279",
+        "timeupdated": "1790187020"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "DQ IndieGames",
+    "isfreeapp": "1",
+    "publisher": "DQ IndieGames"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SaveData/{64BitSteamID}",
+            "replace": "Freewill.app/SaveData/{64BitSteamID}"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SaveData/{64BitSteamID}",
+        "pattern": "*.dat",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

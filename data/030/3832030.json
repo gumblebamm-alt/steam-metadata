@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793339312,
-  "_history": [],
-  "_change_number": 40399011,
-  "_missing_token": true,
-  "_sha": "c61bfd4397ccef1cb95b458a1f715154fde32784",
-  "_size": 3733,
+  "_lastChecked": 1793655995,
+  "_history": [
+    {
+      "buildId": "26373398",
+      "branch": "public",
+      "timeUpdated": 1793600428,
+      "firstSeen": 1793655995,
+      "manifests": {
+        "3832031": {
+          "gid": "2698274175521502941",
+          "size": 3008337669,
+          "download": 800986752
+        },
+        "3832032": {
+          "gid": "4159363551846118713",
+          "size": 3001088907,
+          "download": 796089680
+        },
+        "3832033": {
+          "gid": "3629746289440199885",
+          "size": 2997372142,
+          "download": 789669424
+        }
+      }
+    }
+  ],
+  "_change_number": 40523193,
+  "_missing_token": false,
+  "_sha": "a14b45d1f043c3149ca9edc43f3a661a483f619b",
+  "_size": 7771,
   "appid": "3832030",
   "common": {
     "associations": {
@@ -39,9 +63,9 @@
     "clienticns": "1d90a7a70fe00d4f6665fa5a1e7a9bbe5af8a6f3",
     "clienticon": "87f2441392eedde3c5b1dac9441fb548e912c41a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3832030",
     "genres": {
       "0": "1",
@@ -121,10 +145,72 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3ed69a1b63670a13fbed3e6bcf952ffea344856c/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "native",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1792670824",
+      "tested_build_id": "25952596",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1793648458",
     "store_asset_mtime": "1790410496",
     "store_tags": {
       "0": "699",
@@ -169,5 +255,115 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BVEX",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BVEX\\BVEX.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "BVEX\\BVEX.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "BVEX\\BVEX.x86_64"
+      },
+      "3": {
+        "arguments": "-force-vulkan",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play BOOST VECTOR EX (Vulkan)",
+        "description_loc": {
+          "english": "Play BOOST VECTOR EX (Vulkan)",
+          "french": "BOOST VECTOR EX (Vulkan)",
+          "german": "BOOST VECTOR EX (Vulkan)",
+          "indonesian": "BOOST VECTOR EX (Vulkan)",
+          "italian": "BOOST VECTOR EX (Vulkan)",
+          "japanese": "BOOST VECTOR EX (Vulkan)",
+          "koreana": "BOOST VECTOR EX (Vulkan)",
+          "latam": "BOOST VECTOR EX (Vulkan)",
+          "russian": "BOOST VECTOR EX (Vulkan)",
+          "schinese": "BOOST VECTOR EX (Vulkan)",
+          "spanish": "BOOST VECTOR EX (Vulkan)",
+          "tchinese": "BOOST VECTOR EX (Vulkan)"
+        },
+        "executable": "BVEX\\BVEX.exe"
+      }
+    }
+  },
+  "depots": {
+    "3832031": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "800986752",
+          "gid": "2698274175521502941",
+          "size": "3008337669"
+        }
+      }
+    },
+    "3832032": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "796089680",
+          "gid": "4159363551846118713",
+          "size": "3001088907"
+        }
+      }
+    },
+    "3832033": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "789669424",
+          "gid": "3629746289440199885",
+          "size": "2997372142"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26373398",
+        "timebuildupdated": "1793600416",
+        "timeupdated": "1793600428"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Blockage",
+    "homepage": "https://blockagegames.com/",
+    "publisher": "Blockage"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Blockage/BVEX",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

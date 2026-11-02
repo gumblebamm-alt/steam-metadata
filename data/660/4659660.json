@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1793211936,
-  "_history": [],
-  "_change_number": 40330866,
-  "_missing_token": true,
-  "_sha": "92738e4086ec2fded255b7d3fd583bcc1241afdc",
-  "_size": 3761,
+  "_lastChecked": 1793656017,
+  "_history": [
+    {
+      "buildId": "23252927",
+      "branch": "macos",
+      "timeUpdated": 1778851561,
+      "firstSeen": 1793656017,
+      "manifests": {
+        "4659661": {
+          "gid": "387824408169003294",
+          "size": 1388344495,
+          "download": 1243915296
+        },
+        "4659662": {
+          "gid": "4097693459652878037",
+          "size": 1826193746,
+          "download": 1294972848
+        }
+      }
+    },
+    {
+      "buildId": "26382031",
+      "branch": "public",
+      "timeUpdated": 1793630977,
+      "firstSeen": 1793656017,
+      "manifests": {
+        "4659661": {
+          "gid": "3962921571341046982",
+          "size": 1096732065,
+          "download": 730659344
+        },
+        "4659662": {
+          "gid": "7255824154812939049",
+          "size": 1133682516,
+          "download": 666110864
+        }
+      }
+    }
+  ],
+  "_change_number": 40520412,
+  "_missing_token": false,
+  "_sha": "7fc6b83abd7b5fecaab6f1fb010b4032612133cc",
+  "_size": 5450,
   "appid": "4659660",
   "common": {
     "associations": {
@@ -28,8 +65,8 @@
     },
     "clienticon": "9ba2cadd3f9f1baba47be9a3774eb9b9d7cbaf31",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4659660",
     "genres": {
       "0": "25",
@@ -117,10 +154,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1d880f92e40b321c53f78336ceae04a6b97a4d5b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793638245",
     "store_asset_mtime": "1779723520",
     "store_tags": {
       "0": "18594",
@@ -181,5 +219,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Graveyard Cabin",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "GraveyardCabin.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "GraveyardCabin-Mac-Shipping.app"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4659661": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "macos": {
+          "download": "1243915296",
+          "gid": "387824408169003294",
+          "size": "1388344495"
+        },
+        "public": {
+          "download": "730659344",
+          "gid": "3962921571341046982",
+          "size": "1096732065"
+        }
+      }
+    },
+    "4659662": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "macos": {
+          "download": "1294972848",
+          "gid": "4097693459652878037",
+          "size": "1826193746"
+        },
+        "public": {
+          "download": "666110864",
+          "gid": "7255824154812939049",
+          "size": "1133682516"
+        }
+      }
+    },
+    "4659663": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {}
+    },
+    "branches": {
+      "macos": {
+        "buildid": "23252927",
+        "description": "macbook build",
+        "timebuildupdated": "1778851561",
+        "timeupdated": "1778851561"
+      },
+      "public": {
+        "buildid": "26382031",
+        "timebuildupdated": "1793630977",
+        "timeupdated": "1793630977"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Room Games",
+    "publisher": "Room Games "
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793467100,
-  "_history": [],
-  "_change_number": 40456394,
-  "_missing_token": true,
-  "_sha": "7202297b3bf22ac2f2dc86ef4509197a08c23e3c",
-  "_size": 3312,
+  "_lastChecked": 1793656019,
+  "_history": [
+    {
+      "buildId": "26344311",
+      "branch": "public",
+      "timeUpdated": 1793444368,
+      "firstSeen": 1793656019,
+      "manifests": {
+        "4704531": {
+          "gid": "9008943426537632464",
+          "size": 2524718552,
+          "download": 2361701296
+        }
+      }
+    }
+  ],
+  "_change_number": 40500819,
+  "_missing_token": false,
+  "_sha": "f27649768fd568369ec40ef5c91c0b162c1ab7d5",
+  "_size": 4732,
   "appid": "4704530",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +43,8 @@
     },
     "clienticon": "f3b65afdedd8791030ddd2e8b98cb6d4f1a206f3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4704530",
     "genres": {
       "0": "4"
@@ -100,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "08e0f838ca062fed936a1cc662473b2e4a2ad103/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793608694",
     "store_asset_mtime": "1791101790",
     "store_tags": {
       "0": "597",
@@ -154,5 +169,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Roll to Riches",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "DirectX 12 (Standard)",
+        "description_loc": {
+          "english": "DirectX 12 (Standard)"
+        },
+        "executable": "DiceEmpire.exe"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "DirectX 11 (older hardware)",
+        "description_loc": {
+          "english": "DirectX 11 (older hardware)"
+        },
+        "executable": "DiceEmpire.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4704531": {
+      "manifests": {
+        "public": {
+          "download": "2361701296",
+          "gid": "9008943426537632464",
+          "size": "2524718552"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26344311",
+        "timebuildupdated": "1793444339",
+        "timeupdated": "1793444368"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Eddy",
+    "publisher": "Eddy"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "DiceEmpire/Saved/SaveGames",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

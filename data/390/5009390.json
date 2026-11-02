@@ -1,10 +1,35 @@
 {
-  "_lastChecked": 1793599377,
-  "_history": [],
-  "_change_number": 40483164,
-  "_missing_token": true,
-  "_sha": "547363f85c62bec08133d2d8abc01222058d69b5",
-  "_size": 4290,
+  "_lastChecked": 1793655960,
+  "_history": [
+    {
+      "buildId": "26377603",
+      "branch": "public",
+      "timeUpdated": 1793617585,
+      "firstSeen": 1793655867,
+      "manifests": {
+        "228989": {
+          "gid": "5753583882400741046",
+          "size": null,
+          "download": null
+        },
+        "228990": {
+          "gid": "1829726630299308803",
+          "size": null,
+          "download": null
+        },
+        "5009391": {
+          "gid": "3739121040783271721",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40510277,
+  "_missing_token": false,
+  "_sha": "5dfc49d333dcac204d689f690ca3f48bc9248269",
+  "_size": 5686,
   "appid": "5009390",
   "common": {
     "aicontenttype": "1",
@@ -34,9 +59,9 @@
     },
     "clienticon": "49ff11461bfdf5aed3f859cd53a84cd8f4e2e38f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5009390",
     "genres": {
       "0": "28"
@@ -121,11 +146,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "92722a0b3b84f4331827edea8cddad0bdbc9dc9e/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792126157",
+    "steam_release_date": "1793628075",
+    "store_asset_mtime": "1793628055",
     "store_tags": {
       "0": "35079",
       "1": "3839",
@@ -204,5 +230,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BOB LOGISTICS",
+    "launch": {
+      "0": {
+        "description": "Play BOB LOGISTICS",
+        "description_loc": {
+          "english": "Play BOB LOGISTICS"
+        },
+        "executable": "BOBLOGISTICS.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5009391": {
+      "manifests": {
+        "public": {
+          "download": "2120637360",
+          "gid": "3739121040783271721",
+          "size": "2324195284"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26377603",
+        "timebuildupdated": "1793616907",
+        "timeupdated": "1793617585"
+      }
+    }
+  },
+  "extended": {
+    "developer": "WINDUP",
+    "homepage": "https://Windup.world",
+    "publisher": "WINDUP"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "BOBLOGISTICS/Saved/SaveGames",
+        "pattern": "BOBLOGISTICS_Main.sav",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "BOBLOGISTICS/Saved/SaveGames",
+        "pattern": "BOBLOGISTICS_Main_Backup.sav",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "BOBLOGISTICS/Saved/SaveGames",
+        "pattern": "BOBLOGISTICS_Main_Branch.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

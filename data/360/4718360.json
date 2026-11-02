@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793599373,
-  "_history": [],
-  "_change_number": 40489307,
-  "_missing_token": true,
-  "_sha": "288a2606cb2aad2eda276f1345c4555a4da36626",
-  "_size": 4569,
+  "_lastChecked": 1793656019,
+  "_history": [
+    {
+      "buildId": "26384993",
+      "branch": "public",
+      "timeUpdated": 1793639081,
+      "firstSeen": 1793656019,
+      "manifests": {
+        "4718361": {
+          "gid": "6074038112167862147",
+          "size": 2444928189,
+          "download": 986807392
+        },
+        "4718362": {
+          "gid": "5554819720985984273",
+          "size": 2439127944,
+          "download": 985248896
+        }
+      }
+    }
+  ],
+  "_change_number": 40516463,
+  "_missing_token": false,
+  "_sha": "d533135bcb4a05175e5ee5e8fb49f3c900efe77e",
+  "_size": 5700,
   "appid": "4718360",
   "common": {
     "aicontenttype": "1",
@@ -27,11 +46,11 @@
       "category_23": "1",
       "category_24": "1",
       "category_25": "1",
-      "category_36": "1",
       "category_37": "1",
       "category_39": "1",
       "category_44": "1",
       "category_47": "1",
+      "category_48": "1",
       "category_49": "1",
       "category_62": "1",
       "category_9": "1"
@@ -39,6 +58,7 @@
     "clienticns": "67308cca6659ad11828816a1d22b2a88e4459292",
     "clienticon": "d19c99e8b32ff9f46eecb8f2e3aef96c7d17d30c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
     "eulas": {
@@ -49,7 +69,6 @@
         "version": "4"
       }
     },
-    "exfgls": "8",
     "gameid": "4718360",
     "genres": {
       "0": "1",
@@ -134,10 +153,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "33668f7707884742090fff7cd1731bd90562115a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793635468",
     "store_asset_mtime": "1789244474",
     "store_tags": {
       "0": "19",
@@ -210,5 +230,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Strike Wings",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "StrikeWings.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Strike Wings.app",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4718361": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "986807392",
+          "gid": "6074038112167862147",
+          "size": "2444928189"
+        }
+      }
+    },
+    "4718362": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "985248896",
+          "gid": "5554819720985984273",
+          "size": "2439127944"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26384993",
+        "timebuildupdated": "1793638992",
+        "timeupdated": "1793639081"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Strike Wings Games",
+    "publisher": "Strike Wings Games"
+  },
+  "ufs": {
+    "maxnumfiles": "32",
+    "quota": "10485760"
+  }
 }

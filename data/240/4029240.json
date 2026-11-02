@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1790987699,
-  "_history": [],
-  "_change_number": 39436089,
-  "_missing_token": true,
-  "_sha": "e0517fec882500552b5b5558b5274331372206c2",
-  "_size": 3167,
+  "_lastChecked": 1793655999,
+  "_history": [
+    {
+      "buildId": "26383177",
+      "branch": "public",
+      "timeUpdated": 1793634124,
+      "firstSeen": 1793655999,
+      "manifests": {
+        "4029241": {
+          "gid": "2891494868853950977",
+          "size": 135917852,
+          "download": 51071488
+        },
+        "4029242": {
+          "gid": "4563856866542198389",
+          "size": 226181902,
+          "download": 76579920
+        },
+        "4029243": {
+          "gid": "6471176865717809098",
+          "size": 102916476,
+          "download": 43126160
+        }
+      }
+    }
+  ],
+  "_change_number": 40514319,
+  "_missing_token": false,
+  "_sha": "ba1320aead44377b3fe8721c782e587489a42bb6",
+  "_size": 5689,
   "appid": "4029240",
   "common": {
     "associations": {
@@ -33,8 +57,8 @@
     "clienticns": "ad2d8b318fd11d7a3603b8b8b383f7a693ce9dc3",
     "clienticon": "71a45cd3ede7b296ff1480c25d7afe297db08a36",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4029240",
     "genres": {
       "0": "4",
@@ -106,10 +130,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "50833d7843e9f0af2f22468f4e3d0b0c1ec8b43b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793635226",
     "store_asset_mtime": "1790974589",
     "store_tags": {
       "0": "3968",
@@ -137,5 +162,135 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Shwoop",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Shwoop",
+        "description_loc": {
+          "english": "Play Shwoop"
+        },
+        "executable": "shwoop.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Shwoop.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Play Shwoop",
+        "description_loc": {
+          "english": "Play Shwoop"
+        },
+        "executable": "shwoop.x86_64"
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input_manifest.vdf"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4029241": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "51071488",
+          "gid": "2891494868853950977",
+          "size": "135917852"
+        }
+      }
+    },
+    "4029242": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "76579920",
+          "gid": "4563856866542198389",
+          "size": "226181902"
+        }
+      }
+    },
+    "4029243": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "43126160",
+          "gid": "6471176865717809098",
+          "size": "102916476"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26383177",
+        "timebuildupdated": "1793634087",
+        "timeupdated": "1793634124"
+      }
+    },
+    "workshopdepot": "4029240"
+  },
+  "extended": {
+    "developer": "Brobot",
+    "homepage": "https://brobotgames.com/",
+    "publisher": "Brobot"
+  },
+  "ufs": {
+    "maxnumfiles": "25",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot\\app_userdata\\Shwoop",
+            "replace": "Godot/app_userdata/Shwoop"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot\\app_userdata\\Shwoop",
+            "replace": "godot/app_userdata/Shwoop"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot\\app_userdata\\Shwoop",
+        "pattern": "save_data.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

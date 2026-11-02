@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793513181,
-  "_history": [],
-  "_change_number": 40465766,
-  "_missing_token": true,
-  "_sha": "7be56f5de81707904b4f54c99df5de24f4697da5",
-  "_size": 5190,
+  "_lastChecked": 1793656023,
+  "_history": [
+    {
+      "buildId": "26389312",
+      "branch": "public",
+      "timeUpdated": 1793651936,
+      "firstSeen": 1793656023,
+      "manifests": {
+        "4832771": {
+          "gid": "2796498621947936773",
+          "size": 1896930312,
+          "download": 1713600944
+        }
+      }
+    },
+    {
+      "buildId": "26376554",
+      "branch": "test",
+      "timeUpdated": 1793613622,
+      "firstSeen": 1793656023,
+      "manifests": {
+        "4832771": {
+          "gid": "9056143532372573394",
+          "size": 1896925704,
+          "download": 1713600096
+        }
+      }
+    }
+  ],
+  "_change_number": 40524077,
+  "_missing_token": false,
+  "_sha": "ea6283947c010828aae407836102c9fd1393c32f",
+  "_size": 6655,
   "appid": "4832770",
   "common": {
     "aicontenttype": "1",
@@ -36,6 +63,7 @@
     },
     "clienticon": "c8b4ea2a9374286da86b57c520c02e1268f357ef",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -46,7 +74,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4832770",
     "genres": {
       "0": "1",
@@ -143,10 +170,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "990c53df7be2d747748cb2ffa823161f116e2706/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793627602",
     "store_asset_mtime": "1793481729",
     "store_tags": {
       "0": "9564",
@@ -258,5 +286,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hunters Trial One Breath",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "HuntersTrial.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "3",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4832771": {
+      "manifests": {
+        "public": {
+          "download": "1713600944",
+          "gid": "2796498621947936773",
+          "size": "1896930312"
+        },
+        "test": {
+          "download": "1713600096",
+          "gid": "9056143532372573394",
+          "size": "1896925704"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26389312",
+        "timebuildupdated": "1793651529",
+        "timeupdated": "1793651936"
+      },
+      "test": {
+        "buildid": "26376554",
+        "description": "Internal test",
+        "timebuildupdated": "1793613622",
+        "timeupdated": "1793613622"
+      }
+    }
+  },
+  "extended": {
+    "developer": "White Iron Games",
+    "publisher": "White Iron Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "HuntersTrial\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,38 @@
 {
-  "_lastChecked": 1791247340,
-  "_history": [],
-  "_change_number": 39508843,
-  "_missing_token": true,
-  "_sha": "65cec734e166ca0d9aabaf133347757c76ffa8a1",
-  "_size": 3732,
+  "_lastChecked": 1793655959,
+  "_history": [
+    {
+      "buildId": "26366922",
+      "branch": "public",
+      "timeUpdated": 1793640454,
+      "firstSeen": 1793655857,
+      "manifests": {
+        "4895601": {
+          "gid": "1874733224114721247",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    },
+    {
+      "buildId": "26366922",
+      "branch": "beta",
+      "timeUpdated": 1793569096,
+      "firstSeen": 1793655959,
+      "manifests": {
+        "4895601": {
+          "gid": "1874733224114721247",
+          "size": 953137899,
+          "download": 438238384
+        }
+      }
+    }
+  ],
+  "_change_number": 40517268,
+  "_missing_token": false,
+  "_sha": "e8b84bf6126d3e4f4e3c79dbb834f6bc7f2e2e4a",
+  "_size": 4814,
   "appid": "4895600",
   "common": {
     "associations": {
@@ -42,6 +70,7 @@
     "clienticns": "2cd24493147557952eb2675030aad74390e9d61b",
     "clienticon": "64a6d61a34bf695d64a49d2133a99cefe6603ce9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -52,7 +81,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "4895600",
     "genres": {
       "0": "1",
@@ -131,10 +159,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2c4367b3290d29a5a530e5ba4e1a2de67bd3b037/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793640411",
     "store_asset_mtime": "1783198561",
     "store_tags": {
       "0": "1628",
@@ -169,5 +198,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CrimsonSpine",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CrimsonSpine.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "3",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "4895601": {
+      "manifests": {
+        "beta": {
+          "download": "438238384",
+          "gid": "1874733224114721247",
+          "size": "953137899"
+        },
+        "public": {
+          "download": "438238384",
+          "gid": "1874733224114721247",
+          "size": "953137899"
+        }
+      }
+    },
+    "baselanguages": "english,french,spanish",
+    "branches": {
+      "beta": {
+        "buildid": "26366922",
+        "description": "Beta test branch",
+        "timebuildupdated": "1793569096",
+        "timeupdated": "1793569096"
+      },
+      "public": {
+        "buildid": "26366922",
+        "timebuildupdated": "1793569096",
+        "timeupdated": "1793640454"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Crimson Spine Team",
+    "isfreeapp": "1",
+    "publisher": "Gamagora ICOM"
+  }
 }

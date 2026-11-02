@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793252974,
-  "_history": [],
-  "_change_number": 40357823,
-  "_missing_token": true,
-  "_sha": "01d2f18c0e1f1ee06b38972459d360b5d4d577e8",
-  "_size": 3594,
+  "_lastChecked": 1793656030,
+  "_history": [
+    {
+      "buildId": "26376415",
+      "branch": "public",
+      "timeUpdated": 1793614067,
+      "firstSeen": 1793656030,
+      "manifests": {
+        "5005571": {
+          "gid": "8546388712075070251",
+          "size": 289870382,
+          "download": 209044944
+        },
+        "5005572": {
+          "gid": "7561450264209307662",
+          "size": 262708214,
+          "download": 202483984
+        }
+      }
+    }
+  ],
+  "_change_number": 40518780,
+  "_missing_token": false,
+  "_sha": "36e0b962e766be34a54aaeb3027cbd6919bc82b1",
+  "_size": 6100,
   "appid": "5005570",
   "common": {
     "aicontenttype": "1",
@@ -40,6 +59,7 @@
     "clienticns": "3d87ce8d77a17c34a532b3187b10a81b4e191d6a",
     "clienticon": "cd41996b60f6ceb2704aa456129cc14ee3856841",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -50,7 +70,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5005570",
     "genres": {
       "0": "1",
@@ -122,11 +141,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "af7622b8125003077748e2684a8aec992e7c6b5a/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791284946",
+    "steam_release_date": "1793642513",
+    "store_asset_mtime": "1793642677",
     "store_tags": {
       "0": "4637",
       "1": "1708",
@@ -161,5 +181,134 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dynamic Breach",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DynamicBreach.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "DynamicBreach.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5005571": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "209044944",
+          "gid": "8546388712075070251",
+          "size": "289870382"
+        }
+      }
+    },
+    "5005572": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "202483984",
+          "gid": "7561450264209307662",
+          "size": "262708214"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26376415",
+        "timebuildupdated": "1793613191",
+        "timeupdated": "1793614067"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "CinetheZs",
+    "publisher": "CinetheZs"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Dynamic Breach",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Dynamic Breach",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Dynamic Breach",
+        "pattern": "*.key",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Dynamic Breach",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": ".local/share/godot/app_userdata/Dynamic Breach",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      },
+      "5": {
+        "path": ".local/share/godot/app_userdata/Dynamic Breach",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      },
+      "6": {
+        "path": ".local/share/godot/app_userdata/Dynamic Breach",
+        "pattern": "*.key",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      },
+      "7": {
+        "path": ".local/share/godot/app_userdata/Dynamic Breach",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793040136,
-  "_history": [],
-  "_change_number": 39997793,
-  "_missing_token": true,
-  "_sha": "a4c2e5fef04f6e6f0fd78101aea085ab48e10832",
-  "_size": 4346,
+  "_lastChecked": 1793655986,
+  "_history": [
+    {
+      "buildId": "25347582",
+      "branch": "public",
+      "timeUpdated": 1789566965,
+      "firstSeen": 1793655986,
+      "manifests": {
+        "3372041": {
+          "gid": "944055728406603344",
+          "size": 1051634564,
+          "download": 460285520
+        }
+      }
+    }
+  ],
+  "_change_number": 40518344,
+  "_missing_token": false,
+  "_sha": "3bc8f29361269f0ba1350828870d9169e4d4aa75",
+  "_size": 5518,
   "appid": "3372040",
   "common": {
     "associations": {
@@ -42,9 +56,9 @@
     "clienticon": "b2d44ad21e018dd6090e2f075f6c8633a47fc407",
     "clienttga": "e02dd299012c60326b058c380b6f4739e3cc77a3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3372040",
     "genres": {
       "0": "1",
@@ -121,10 +135,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "50d06cc69fa7b71d341345f5edce8c10a6823c63/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793642161",
     "store_asset_mtime": "1787134431",
     "store_tags": {
       "0": "597",
@@ -206,5 +221,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TRAUMATA",
+    "launch": {
+      "0": {
+        "executable": "TRAUMATA.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "consume"
+        },
+        "description": "Consume",
+        "description_loc": {
+          "english": "Consume"
+        },
+        "executable": "Consume\\TRAUMATA_consume.exe",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "3372041": {
+      "manifests": {
+        "public": {
+          "download": "460285520",
+          "gid": "944055728406603344",
+          "size": "1051634564"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25347582",
+        "timebuildupdated": "1789566936",
+        "timeupdated": "1789566965"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Siberian Mouse",
+    "dlcavailableonstore": "1",
+    "homepage": "https://store.steampowered.com/pub/SiberianMouse",
+    "listofdlc": "3386400",
+    "publisher": "Siberian Mouse"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "Siberian_Mouse/TRAUMATA/{Steam3AccountID}",
+        "pattern": "*.dat",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

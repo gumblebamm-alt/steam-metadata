@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1791138155,
-  "_history": [],
-  "_change_number": 39470619,
-  "_missing_token": true,
-  "_sha": "a5b55edd2562ea5d9d77d6f8f1e04f60558b7ee1",
-  "_size": 3224,
+  "_lastChecked": 1793656035,
+  "_history": [
+    {
+      "buildId": "26389024",
+      "branch": "public",
+      "timeUpdated": 1793651317,
+      "firstSeen": 1793656035,
+      "manifests": {
+        "5091341": {
+          "gid": "5504520266512636589",
+          "size": 268648200,
+          "download": 186648912
+        },
+        "5091342": {
+          "gid": "174118480609081973",
+          "size": 353440453,
+          "download": 211151216
+        },
+        "5091343": {
+          "gid": "3319412279633127145",
+          "size": 235724288,
+          "download": 178576160
+        }
+      }
+    }
+  ],
+  "_change_number": 40524074,
+  "_missing_token": false,
+  "_sha": "a86f1053c9816e0d33ad6add89f98ed99586aadd",
+  "_size": 5434,
   "appid": "5091340",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +57,8 @@
     },
     "clienticon": "246075cdd4dc756052b51f8f00d83e98a4dce8a8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5091340",
     "genres": {
       "0": "25",
@@ -60,18 +84,18 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "f77b9ed9ec0b2c3f6046f4a92bf30538efb2b88e/library_capsule.jpg"
+          "english": "00ce7c604f4711a22421fa064162328563182890/library_capsule.jpg"
         },
         "image2x": {
-          "english": "f77b9ed9ec0b2c3f6046f4a92bf30538efb2b88e/library_capsule_2x.jpg"
+          "english": "00ce7c604f4711a22421fa064162328563182890/library_capsule_2x.jpg"
         }
       },
       "library_header": {
         "image": {
-          "english": "7d2db06ff47a6369f8264283ad22928fa5d1f924/library_header.jpg"
+          "english": "ce97d3c4ef34b86385f3afc4f3e814aceb051218/library_header.jpg"
         },
         "image2x": {
-          "english": "7d2db06ff47a6369f8264283ad22928fa5d1f924/library_header_2x.jpg"
+          "english": "ce97d3c4ef34b86385f3afc4f3e814aceb051218/library_header_2x.jpg"
         }
       },
       "library_hero": {
@@ -106,11 +130,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0b9d6877ff605c1e12d01f4ef6712f5ff4c70262/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1786467405",
+    "steam_release_date": "1793612801",
+    "store_asset_mtime": "1793610142",
     "store_tags": {
       "0": "122",
       "1": "21",
@@ -142,5 +167,125 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Reveria Act 1",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "reveria.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "reveria.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Reveria.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5091341": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "186648912",
+          "gid": "5504520266512636589",
+          "size": "268648200"
+        }
+      }
+    },
+    "5091342": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "211151216",
+          "gid": "174118480609081973",
+          "size": "353440453"
+        }
+      }
+    },
+    "5091343": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "178576160",
+          "gid": "3319412279633127145",
+          "size": "235724288"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26389024",
+        "timebuildupdated": "1793650687",
+        "timeupdated": "1793651317"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Enefium Studios",
+    "publisher": "Enefium Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "30",
+    "quota": "600000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Reveria/saves",
+            "replace": "Reveria/saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Reveria/saves",
+            "replace": "Reveria/saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Reveria/saves",
+        "pattern": "*.json*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

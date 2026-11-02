@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793513184,
-  "_history": [],
-  "_change_number": 40465768,
-  "_missing_token": true,
-  "_sha": "be5e812d59b2383855283dfda875ae5105e27553",
-  "_size": 5014,
+  "_lastChecked": 1793656032,
+  "_history": [
+    {
+      "buildId": "26389325",
+      "branch": "public",
+      "timeUpdated": 1793651912,
+      "firstSeen": 1793656032,
+      "manifests": {
+        "5038721": {
+          "gid": "5100292543002472625",
+          "size": 3533605505,
+          "download": 3348506960
+        }
+      }
+    },
+    {
+      "buildId": "26376576",
+      "branch": "test",
+      "timeUpdated": 1793613690,
+      "firstSeen": 1793656032,
+      "manifests": {
+        "5038721": {
+          "gid": "7006362198321977370",
+          "size": 3533601473,
+          "download": 3348524496
+        }
+      }
+    }
+  ],
+  "_change_number": 40524068,
+  "_missing_token": false,
+  "_sha": "44db8db4c0cd4f264ef42d23a9913bd2a1071661",
+  "_size": 6469,
   "appid": "5038720",
   "common": {
     "associations": {
@@ -32,9 +59,9 @@
     },
     "clienticon": "f439ea9908588a2315c63eac7a03738ae70d44cc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5038720",
     "genres": {
       "0": "1",
@@ -130,10 +157,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "44625d183c5e2a3df1235e63b39c590d18806628/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793627636",
     "store_asset_mtime": "1793481725",
     "store_tags": {
       "0": "15045",
@@ -245,5 +273,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Iron Void Silent Space",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "IronVoid.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "3",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5038721": {
+      "manifests": {
+        "public": {
+          "download": "3348506960",
+          "gid": "5100292543002472625",
+          "size": "3533605505"
+        },
+        "test": {
+          "download": "3348524496",
+          "gid": "7006362198321977370",
+          "size": "3533601473"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26389325",
+        "timebuildupdated": "1793651556",
+        "timeupdated": "1793651912"
+      },
+      "test": {
+        "buildid": "26376576",
+        "description": "Internal test",
+        "timebuildupdated": "1793613690",
+        "timeupdated": "1793613690"
+      }
+    }
+  },
+  "extended": {
+    "developer": "White Iron Games",
+    "publisher": "White Iron Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "IronVoid\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

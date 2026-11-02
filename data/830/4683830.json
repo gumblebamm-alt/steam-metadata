@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792112051,
-  "_history": [],
-  "_change_number": 39875517,
-  "_missing_token": true,
-  "_sha": "946fe4cc21bb70ca9df97da995e077697de9366a",
-  "_size": 3121,
+  "_lastChecked": 1793656018,
+  "_history": [
+    {
+      "buildId": "26365572",
+      "branch": "public",
+      "timeUpdated": 1793562975,
+      "firstSeen": 1793656018,
+      "manifests": {
+        "4683831": {
+          "gid": "8823615288924676183",
+          "size": 1105141656,
+          "download": 826325200
+        }
+      }
+    }
+  ],
+  "_change_number": 40516131,
+  "_missing_token": false,
+  "_sha": "19c7f53855863b087d1af2756b61bf9fa139520b",
+  "_size": 4500,
   "appid": "4683830",
   "common": {
     "associations": {
@@ -18,17 +32,21 @@
       }
     },
     "category": {
+      "category_1": "1",
+      "category_15": "1",
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
       "category_25": "1",
+      "category_36": "1",
+      "category_49": "1",
       "category_62": "1",
       "category_68": "1"
     },
     "clienticon": "61b77dc38b288313235bc1eadb53232897c1bebf",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4683830",
     "genres": {
       "0": "1",
@@ -102,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "25c559c0839a04822ed65caf9f154f29fb97b809/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793638704",
     "store_asset_mtime": "1790606183",
     "store_tags": {
       "0": "1674",
@@ -141,5 +160,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Typenstein A Symphony of Keys",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Typenstein.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4683831": {
+      "manifests": {
+        "public": {
+          "download": "826325200",
+          "gid": "8823615288924676183",
+          "size": "1105141656"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26365572",
+        "timebuildupdated": "1793562907",
+        "timeupdated": "1793562975"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Funky Ferret",
+    "publisher": "Funky Ferret"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "\\Typenstein\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793556022,
+  "_lastChecked": 1793656041,
   "_history": [
     {
       "buildId": "26329861",
@@ -66,12 +66,48 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26387403",
+      "branch": "low_spec",
+      "timeUpdated": 1793646374,
+      "firstSeen": 1793656041,
+      "manifests": {
+        "5230771": {
+          "gid": "7792092831040150750",
+          "size": 179180440,
+          "download": 79551696
+        },
+        "5230772": {
+          "gid": "5008758841582924294",
+          "size": 243764946,
+          "download": 99377920
+        }
+      }
+    },
+    {
+      "buildId": "26375058",
+      "branch": "public",
+      "timeUpdated": 1793608249,
+      "firstSeen": 1793656041,
+      "manifests": {
+        "5230771": {
+          "gid": "1001761072974308947",
+          "size": 239477984,
+          "download": 128966080
+        },
+        "5230772": {
+          "gid": "2792849066819289682",
+          "size": 243764882,
+          "download": 99412624
+        }
+      }
     }
   ],
-  "_change_number": 40471844,
+  "_change_number": 40520994,
   "_missing_token": false,
-  "_sha": "fbe8722c3ae008c67a019d7563feaf0668823e4a",
-  "_size": 5022,
+  "_sha": "b70fa9b68bd9a573145b4f72e222cf3c50727ad6",
+  "_size": 6034,
   "appid": "5230770",
   "common": {
     "associations": {
@@ -89,6 +125,8 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_45": "1",
+      "category_46": "1",
       "category_62": "1",
       "category_67": "1",
       "category_68": "1",
@@ -236,6 +274,30 @@
           "oslist": "macos"
         },
         "executable": "MCTEF.app"
+      },
+      "2": {
+        "config": {
+          "betakey": "low_spec",
+          "oslist": "windows"
+        },
+        "description": "Low Performance (Experimental)",
+        "description_loc": {
+          "english": "Low Performance (Experimental)"
+        },
+        "executable": "MCTEF_LS.exe",
+        "type": "default"
+      },
+      "3": {
+        "config": {
+          "betakey": "low_spec",
+          "oslist": "macos"
+        },
+        "description": "Low Performance (Experimental)",
+        "description_loc": {
+          "english": "Low Performance (Experimental)"
+        },
+        "executable": "MCTEF_LS.app",
+        "type": "default"
       }
     }
   },
@@ -252,10 +314,15 @@
         "oslist": "windows"
       },
       "manifests": {
+        "low_spec": {
+          "download": "79551696",
+          "gid": "7792092831040150750",
+          "size": "179180440"
+        },
         "public": {
-          "download": "109865808",
-          "gid": "1933321804938375200",
-          "size": "219413504"
+          "download": "128966080",
+          "gid": "1001761072974308947",
+          "size": "239477984"
         }
       }
     },
@@ -264,18 +331,29 @@
         "oslist": "macos"
       },
       "manifests": {
+        "low_spec": {
+          "download": "99377920",
+          "gid": "5008758841582924294",
+          "size": "243764946"
+        },
         "public": {
-          "download": "80113696",
-          "gid": "6493018824344194008",
-          "size": "223700406"
+          "download": "99412624",
+          "gid": "2792849066819289682",
+          "size": "243764882"
         }
       }
     },
     "branches": {
+      "low_spec": {
+        "buildid": "26387403",
+        "description": "Low Performance PC (Experimental)",
+        "timebuildupdated": "1793645681",
+        "timeupdated": "1793646374"
+      },
       "public": {
-        "buildid": "26356335",
-        "timebuildupdated": "1793508962",
-        "timeupdated": "1793508984"
+        "buildid": "26375058",
+        "timebuildupdated": "1793608228",
+        "timeupdated": "1793608249"
       }
     }
   },

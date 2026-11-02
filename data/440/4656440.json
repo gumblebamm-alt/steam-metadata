@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793425421,
-  "_history": [],
-  "_change_number": 40438322,
-  "_missing_token": true,
-  "_sha": "ea53041630d728fe147f90f98fb125c178789163",
-  "_size": 3816,
+  "_lastChecked": 1793656017,
+  "_history": [
+    {
+      "buildId": "26378098",
+      "branch": "public",
+      "timeUpdated": 1793618567,
+      "firstSeen": 1793656017,
+      "manifests": {
+        "4656441": {
+          "gid": "2953876707116102833",
+          "size": 169547512,
+          "download": 92288272
+        }
+      }
+    }
+  ],
+  "_change_number": 40519161,
+  "_missing_token": false,
+  "_sha": "9fa29fb04cfdd61d51b5932a319ffc824b2fc329",
+  "_size": 4994,
   "appid": "4656440",
   "common": {
     "associations": {
@@ -36,9 +50,9 @@
     },
     "clienticon": "c1be62b0f9a36a235bf78868cdfd85a210986854",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4656440",
     "genres": {
       "0": "4",
@@ -122,10 +136,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f829e464f6a2f66286c89d7a98802ef1059d3e49/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793643061",
     "store_asset_mtime": "1787998367",
     "store_tags": {
       "0": "560542",
@@ -183,5 +198,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Drum Incremental",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DrumIncremental.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4656441": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "92288272",
+          "gid": "2953876707116102833",
+          "size": "169547512"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26378098",
+        "timebuildupdated": "1793618522",
+        "timeupdated": "1793618567"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Samuel Ruiz",
+    "homepage": "https://drumincremental.drumhazzard.net/",
+    "publisher": "Samuel Ruiz"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/DrumIncremental",
+        "pattern": "progress.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/DrumIncremental",
+        "pattern": "settings.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

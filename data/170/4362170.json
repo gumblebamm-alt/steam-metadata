@@ -1,10 +1,25 @@
 {
-  "_lastChecked": 1793556038,
-  "_history": [],
-  "_change_number": 40479360,
-  "_missing_token": true,
-  "_sha": "74560a979ba7a6af65873587bc51b6e40338fdd2",
-  "_size": 4042,
+  "_lastChecked": 1793655958,
+  "_history": [
+    {
+      "buildId": "26383455",
+      "branch": "public",
+      "timeUpdated": 1793636290,
+      "firstSeen": 1793655830,
+      "manifests": {
+        "4362171": {
+          "gid": "4073489275329865166",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    }
+  ],
+  "_change_number": 40525007,
+  "_missing_token": false,
+  "_sha": "15548a4d8b5e79a22df65589de0f73e80486587f",
+  "_size": 5660,
   "appid": "4362170",
   "common": {
     "associations": {
@@ -33,9 +48,9 @@
     "clienticns": "56d95d09c10c303923741ea66f72c2d319d6dcbe",
     "clienticon": "5406315b0c488a7d428a2401bf88d1e89622e46b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4362170",
     "genres": {
       "0": "28"
@@ -116,10 +131,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "90",
+    "review_score": "7",
     "small_capsule": {
       "english": "b75f4c14d7e951c216699f4e8c0cc06aaebe25df/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793620895",
     "store_asset_mtime": "1793476559",
     "store_tags": {
       "0": "560542",
@@ -182,5 +200,79 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Feed The Forest",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Feed the Forest.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4362171": {
+      "manifests": {
+        "public": {
+          "download": "226522432",
+          "gid": "4073489275329865166",
+          "size": "485154646"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26383455",
+        "timebuildupdated": "1793634738",
+        "timeupdated": "1793636290"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Indoor Sunglasses",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5374500",
+    "publisher": "Indoor Sunglasses"
+  },
+  "ufs": {
+    "maxnumfiles": "60",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Indoor Sunglasses/Feed the Forest/Saves",
+            "replace": "unity.Indoor Sunglasses.Feed the Forest/Saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Indoor Sunglasses/Feed the Forest/Saves",
+            "replace": ".config/unity3d/Indoor Sunglasses/Feed the Forest/Saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Indoor Sunglasses/Feed the Forest/Saves",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
