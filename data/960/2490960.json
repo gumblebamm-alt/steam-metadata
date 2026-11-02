@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792730993,
+  "_lastChecked": 1793599360,
   "_history": [
     {
       "buildId": "25900691",
@@ -52,12 +52,25 @@
           "download": 13206831808
         }
       }
+    },
+    {
+      "buildId": "26366740",
+      "branch": "public",
+      "timeUpdated": 1793569892,
+      "firstSeen": 1793599360,
+      "manifests": {
+        "2490961": {
+          "gid": "7288771028545850900",
+          "size": 13992153444,
+          "download": 13307125792
+        }
+      }
     }
   ],
-  "_change_number": 40155831,
+  "_change_number": 40495695,
   "_missing_token": false,
-  "_sha": "47cfbf7aeee1ab3af5f8ecc66ede72175cb757a3",
-  "_size": 13900,
+  "_sha": "13a55ad7c5e6dc5afed9ecd359667bec75ab754c",
+  "_size": 15242,
   "appid": "2490960",
   "common": {
     "associations": {
@@ -160,24 +173,48 @@
     "linuxclienticon": "8b3de78ae1eef88c66f16bbb3169dd0969365d15",
     "name": "驱灵天师",
     "name_localized": {
+      "arabic": "صائد الأشباح",
+      "brazilian": "Caçador de Fantasmas",
+      "bulgarian": "Ловец на привидения",
+      "czech": "Lovec duchů",
+      "danish": "Spøgelsesjæger",
+      "dutch": "Geestenjager",
       "english": "Ghost hunter",
-      "french": "Ghost hunters",
-      "japanese": "Ghost hunters",
+      "finnish": "Kummitusten Metsästäjä",
+      "french": "Chasseur de Fantômes",
+      "german": "Geisterjäger",
+      "greek": "Κυνηγός Φαντασμάτων",
+      "hungarian": "Szellemvadász",
+      "indonesian": "Pemburu Hantu",
+      "italian": "Cacciatore di Fantasmi",
+      "japanese": "ゴーストハンター",
+      "koreana": "고스트 헌터",
+      "norwegian": "Spøkelsesjeger",
+      "polish": "Łowca Duchów",
+      "portuguese": "Caçador de Fantasmas",
+      "romanian": "Vânător de Fantome",
+      "russian": "Охотник за привидениями",
       "schinese": "驱灵天师",
-      "tchinese": "驱灵天师"
+      "spanish": "Cazafantasmas",
+      "swedish": "Spökjägare",
+      "tchinese": "驅靈天師",
+      "thai": "นักล่าผี",
+      "turkish": "Hayalet Avcısı",
+      "ukrainian": "Мисливець на привидів",
+      "vietnamese": "Thợ Săn Ma"
     },
     "osarch": "64",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
     "releasestate": "released",
-    "review_percentage": "78",
+    "review_percentage": "76",
     "review_score": "6",
     "small_capsule": {
       "english": "bbdb8f822b6db4b89d1f05c8c54460c047bf8019/capsule_231x87.jpg"
     },
     "steam_release_date": "1791864240",
-    "store_asset_mtime": "1791814476",
+    "store_asset_mtime": "1793592030",
     "store_tags": {
       "0": "1754",
       "1": "16094",
@@ -333,7 +370,7 @@
     "installdir": "驱灵天师",
     "launch": {
       "0": {
-        "arguments": "-dx12",
+        "arguments": "-dx12 -gpucrashdebugging",
         "config": {
           "osarch": "64",
           "oslist": "windows"
@@ -429,6 +466,20 @@
         },
         "executable": "GhostHunterClientSteam.exe",
         "type": "config"
+      },
+      "3": {
+        "arguments": "-dx12 -flydlss5 -flyserver=118.24.31.127",
+        "config": {
+          "betakey": "test",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "DLSS5-社区版",
+        "description_loc": {
+          "english": "DLSS5-社区版"
+        },
+        "executable": "GhostHunterClientSteam.exe",
+        "type": "config"
       }
     }
   },
@@ -478,18 +529,18 @@
     "2490961": {
       "manifests": {
         "public": {
-          "download": "13206831808",
-          "gid": "1109969577289153606",
-          "size": "13837270229"
+          "download": "13307125792",
+          "gid": "7288771028545850900",
+          "size": "13992153444"
         }
       }
     },
     "baselanguages": "schinese",
     "branches": {
       "public": {
-        "buildid": "26147838",
-        "timebuildupdated": "1792715050",
-        "timeupdated": "1792728832"
+        "buildid": "26366740",
+        "timebuildupdated": "1793568291",
+        "timeupdated": "1793569892"
       }
     },
     "hasdepotsindlc": "0",
@@ -497,6 +548,8 @@
   },
   "extended": {
     "developer": "GKD工作室",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5463700",
     "publisher": "GKD工作室"
   }
 }

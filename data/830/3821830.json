@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791376812,
+  "_lastChecked": 1793599365,
   "_history": [
     {
       "buildId": "23878917",
@@ -44,12 +44,68 @@
           "download": 1695586912
         }
       }
+    },
+    {
+      "buildId": "25771380",
+      "branch": "beta_gallery",
+      "timeUpdated": 1791357675,
+      "firstSeen": 1793599365,
+      "manifests": {
+        "3821831": {
+          "gid": "7537556754156630013",
+          "size": 3740871764,
+          "download": 1690672144
+        },
+        "3821832": {
+          "gid": "5454341202057561081",
+          "size": 3740871764,
+          "download": 1692737872
+        },
+        "3821833": {
+          "gid": "3164624091731209569",
+          "size": 3915926597,
+          "download": 1733810544
+        },
+        "3821834": {
+          "gid": "2712805983168940296",
+          "size": 3915926597,
+          "download": 1733810544
+        }
+      }
+    },
+    {
+      "buildId": "25796932",
+      "branch": "public",
+      "timeUpdated": 1791441082,
+      "firstSeen": 1793599365,
+      "manifests": {
+        "3821831": {
+          "gid": "67704416551332888",
+          "size": 3741083076,
+          "download": 1690696912
+        },
+        "3821832": {
+          "gid": "1170205061395522899",
+          "size": 3741083076,
+          "download": 1692762736
+        },
+        "3821833": {
+          "gid": "3164624091731209569",
+          "size": 3915926597,
+          "download": 1733810544
+        },
+        "3821834": {
+          "gid": "2712805983168940296",
+          "size": 3915926597,
+          "download": 1733810544
+        }
+      }
     }
   ],
-  "_change_number": 38642917,
+  "_change_number": 39605055,
   "_missing_token": false,
-  "_sha": "10c11fef067d6d599e87ce9932949927907621f4",
-  "_size": 5550,
+  "_sha": "e1250a53f39c652a6018a64fe81ef601abb53d15",
+  "_size": 6595,
   "appid": "3821830",
   "common": {
     "aicontenttype": "1",
@@ -161,11 +217,12 @@
       "schinese": "3D剧本杀 焦黑的你"
     },
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "primary_genre": "25",
     "releasestate": "released",
-    "review_percentage": "76",
+    "review_percentage": "73",
     "review_score": "6",
     "small_capsule": {
       "english": "5c6b613e7346835fa62032fed5ebf81fac0502fb/capsule_231x87.jpg",
@@ -208,17 +265,29 @@
     "installdir": "TheAsenYou",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "TheAshenYou.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Kurokoge-no-Anata.app"
       }
     }
   },
   "depots": {
     "3821831": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "beta_gallery": {
-          "download": "1333305024",
-          "gid": "79490458888277083",
-          "size": "3159739295"
+          "download": "1690672144",
+          "gid": "7537556754156630013",
+          "size": "3740871764"
         },
         "beta_suicide": {
           "download": "1253170288",
@@ -226,30 +295,71 @@
           "size": "2988433569"
         },
         "public": {
-          "download": "1692965680",
-          "gid": "5726659555864515715",
-          "size": "3971711227"
+          "download": "1690696912",
+          "gid": "67704416551332888",
+          "size": "3741083076"
         }
       }
     },
     "3821832": {
       "config": {
-        "language": "schinese"
+        "language": "schinese",
+        "oslist": "windows"
       },
       "manifests": {
+        "beta_gallery": {
+          "download": "1692737872",
+          "gid": "5454341202057561081",
+          "size": "3740871764"
+        },
         "public": {
-          "download": "1695586912",
-          "gid": "5993721167061836122",
-          "size": "3971711227"
+          "download": "1692762736",
+          "gid": "1170205061395522899",
+          "size": "3741083076"
+        }
+      }
+    },
+    "3821833": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta_gallery": {
+          "download": "1733810544",
+          "gid": "3164624091731209569",
+          "size": "3915926597"
+        },
+        "public": {
+          "download": "1733810544",
+          "gid": "3164624091731209569",
+          "size": "3915926597"
+        }
+      }
+    },
+    "3821834": {
+      "config": {
+        "language": "schinese",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta_gallery": {
+          "download": "1733810544",
+          "gid": "2712805983168940296",
+          "size": "3915926597"
+        },
+        "public": {
+          "download": "1733810544",
+          "gid": "2712805983168940296",
+          "size": "3915926597"
         }
       }
     },
     "branches": {
       "beta_gallery": {
-        "buildid": "23878917",
+        "buildid": "25771380",
         "description": "Branch for verifying the Gallery feature",
-        "timebuildupdated": "1782233508",
-        "timeupdated": "1782233804"
+        "timebuildupdated": "1791357337",
+        "timeupdated": "1791357675"
       },
       "beta_suicide": {
         "buildid": "23878964",
@@ -258,9 +368,9 @@
         "timeupdated": "1782233899"
       },
       "public": {
-        "buildid": "24792406",
-        "timebuildupdated": "1787042200",
-        "timeupdated": "1787247529"
+        "buildid": "25796932",
+        "timebuildupdated": "1791441015",
+        "timeupdated": "1791441082"
       }
     }
   },

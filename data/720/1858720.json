@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793040125,
-  "_history": [],
-  "_change_number": 40248005,
-  "_missing_token": true,
-  "_sha": "1b55b582bdbd0c9b077d43037dda3ca3f9a2704c",
-  "_size": 7800,
+  "_lastChecked": 1793599359,
+  "_history": [
+    {
+      "buildId": "26372234",
+      "branch": "public",
+      "timeUpdated": 1793594440,
+      "firstSeen": 1793599359,
+      "manifests": {
+        "1858722": {
+          "gid": "5697736951663374013",
+          "size": 146747399,
+          "download": 49500960
+        }
+      }
+    }
+  ],
+  "_change_number": 40496399,
+  "_missing_token": false,
+  "_sha": "ae169e129b3f9052066de5d365c05303745192ca",
+  "_size": 8839,
   "appid": "1858720",
   "common": {
     "associations": {
@@ -19,13 +33,14 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
       "category_23": "1",
       "category_62": "1"
     },
     "clienticon": "435d62449d04eca78f00ded13068b60efe0cfbf1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1858720",
     "genres": {
       "0": "23",
@@ -100,19 +115,20 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4eb11f4fc1cd86b537e5580a8b2bb755e282c59b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793590725",
     "store_asset_mtime": "1793003568",
     "store_tags": {
       "0": "1673",
       "1": "3942",
       "10": "24003",
       "11": "597",
-      "12": "3871",
-      "13": "9",
-      "14": "5794",
+      "12": "5794",
+      "13": "3871",
+      "14": "9",
       "15": "492",
       "16": "8945",
       "17": "1666",
@@ -121,8 +137,8 @@
       "2": "31275",
       "3": "3854",
       "4": "1036",
-      "5": "4094",
-      "6": "4182",
+      "5": "4182",
+      "6": "4094",
       "7": "1755",
       "8": "1664",
       "9": "599"
@@ -440,5 +456,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Message From Aliens",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MessageFromAliens.exe"
+      }
+    }
+  },
+  "depots": {
+    "1858722": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "49500960",
+          "gid": "5697736951663374013",
+          "size": "146747399"
+        }
+      }
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "26372234",
+        "timebuildupdated": "1793594385",
+        "timeupdated": "1793594440"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Artless Games",
+    "publisher": "Artless Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Artless Games/MessageFromAliens",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

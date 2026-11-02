@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793467084,
+  "_lastChecked": 1793599358,
   "_history": [
     {
       "buildId": "26348286",
@@ -19,12 +19,31 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26364099",
+      "branch": "public",
+      "timeUpdated": 1793556518,
+      "firstSeen": 1793599300,
+      "manifests": {
+        "5365191": {
+          "gid": "2651041610709815639",
+          "size": null,
+          "download": null
+        },
+        "5365192": {
+          "gid": "672364045689642787",
+          "size": 3042127595,
+          "download": 2108579312
+        }
+      },
+      "_source": "hubcap"
     }
   ],
-  "_change_number": 40460186,
+  "_change_number": 40489020,
   "_missing_token": false,
-  "_sha": "79f5f3681f79de6ab21784c6801fc2dc8c955811",
-  "_size": 6693,
+  "_sha": "1805460e9f3df5c91c7b8ad0135ee3c5c6f90f5c",
+  "_size": 7238,
   "appid": "5365190",
   "common": {
     "aicontenttype": "1",
@@ -153,6 +172,8 @@
     "oslist": "windows,linux",
     "primary_genre": "4",
     "releasestate": "released",
+    "review_percentage": "92",
+    "review_score": "7",
     "small_capsule": {
       "english": "e22451dafd054beb3083eda72bb8a5850792d2d2/capsule_231x87.jpg"
     },
@@ -259,8 +280,12 @@
           "osarch": "64",
           "oslist": "windows"
         },
+        "description": "Tidy Tails (DirectX 12)",
+        "description_loc": {
+          "english": "Tidy Tails (DirectX 12)"
+        },
         "executable": "TidyTails.exe",
-        "type": "default"
+        "type": "option1"
       },
       "1": {
         "config": {
@@ -269,6 +294,21 @@
         },
         "executable": "TidyTails.x86_64",
         "type": "default"
+      },
+      "2": {
+        "arguments": "--rendering-driver vulkan",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Tidy Tails (Vulkan)",
+        "description_loc": {
+          "english": "Tidy Tails (Vulkan)",
+          "latam": "Tidy Tails (Vulkan)",
+          "spanish": "Tidy Tails (Vulkan)"
+        },
+        "executable": "TidyTails.exe",
+        "type": "option2"
       }
     },
     "steamconfigurator3rdpartynative": "65535",
@@ -284,9 +324,9 @@
       },
       "manifests": {
         "public": {
-          "download": "2117143008",
-          "gid": "4673072444962508717",
-          "size": "3077220746"
+          "download": "2117145792",
+          "gid": "2651041610709815639",
+          "size": "3077228355"
         }
       }
     },
@@ -297,17 +337,17 @@
       },
       "manifests": {
         "public": {
-          "download": "2108576528",
-          "gid": "6938421982241647626",
-          "size": "3042119986"
+          "download": "2108579312",
+          "gid": "672364045689642787",
+          "size": "3042127595"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26348286",
-        "timebuildupdated": "1793464642",
-        "timeupdated": "1793464693"
+        "buildid": "26364099",
+        "timebuildupdated": "1793556355",
+        "timeupdated": "1793556518"
       }
     },
     "nocommonredists": "1"

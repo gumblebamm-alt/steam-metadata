@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793513181,
-  "_history": [],
-  "_change_number": 40471858,
-  "_missing_token": true,
-  "_sha": "c51e7e81f3d31d266f945cc59c1d3e946f229d36",
-  "_size": 3766,
+  "_lastChecked": 1793599375,
+  "_history": [
+    {
+      "buildId": "26373102",
+      "branch": "beta",
+      "timeUpdated": 1793598747,
+      "firstSeen": 1793599375,
+      "manifests": {
+        "4863091": {
+          "gid": "6238330653008826278",
+          "size": 11691387234,
+          "download": 11056319280
+        }
+      }
+    },
+    {
+      "buildId": "26373102",
+      "branch": "public",
+      "timeUpdated": 1793598910,
+      "firstSeen": 1793599375,
+      "manifests": {
+        "4863091": {
+          "gid": "6238330653008826278",
+          "size": 11691387234,
+          "download": 11056319280
+        }
+      }
+    }
+  ],
+  "_change_number": 40497613,
+  "_missing_token": false,
+  "_sha": "fce5dd984765a9c161256d00468103dcf99c54a7",
+  "_size": 5021,
   "appid": "4863090",
   "common": {
     "aicontenttype": "1",
@@ -40,9 +67,9 @@
     },
     "clienticon": "d18af34dfec74a59fda4df60e876396a3b55a1ca",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4863090",
     "genres": {
       "0": "1",
@@ -50,8 +77,7 @@
       "2": "4",
       "3": "23",
       "4": "3",
-      "5": "2",
-      "6": "70"
+      "5": "2"
     },
     "header_image": {
       "english": "84411861c04db032e3e512cd65202c4c3250dcad/header.jpg"
@@ -118,11 +144,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0415d45c406758f0dbbec8c26dee4c4c99092ddb/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793493941",
+    "steam_release_date": "1793587779",
+    "store_asset_mtime": "1793588418",
     "store_tags": {
       "0": "4821",
       "1": "4231",
@@ -173,5 +200,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bravemech The Century War",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Bravemech.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4863091": {
+      "manifests": {
+        "beta": {
+          "download": "11056319280",
+          "gid": "6238330653008826278",
+          "size": "11691387234"
+        },
+        "public": {
+          "download": "11056319280",
+          "gid": "6238330653008826278",
+          "size": "11691387234"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26373102",
+        "description": "beta build",
+        "timebuildupdated": "1793598747",
+        "timeupdated": "1793598747"
+      },
+      "public": {
+        "buildid": "26373102",
+        "timebuildupdated": "1793598747",
+        "timeupdated": "1793598910"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Bravemech Studio",
+    "homepage": "https://bravemech.com",
+    "publisher": "Bravemech Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "Bravemech\\cloud",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

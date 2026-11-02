@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1793513182,
-  "_history": [],
-  "_change_number": 40470214,
-  "_missing_token": true,
-  "_sha": "89a5721bc6a664ec71c648ee53cf8eda6a575f89",
-  "_size": 3232,
+  "_lastChecked": 1793599375,
+  "_history": [
+    {
+      "buildId": "26367197",
+      "branch": "beta",
+      "timeUpdated": 1793570386,
+      "firstSeen": 1793599375,
+      "manifests": {
+        "4923371": {
+          "gid": "3201612721624382182",
+          "size": 634650669,
+          "download": 302019136
+        },
+        "4923372": {
+          "gid": "988998061022591252",
+          "size": 563744968,
+          "download": 280960576
+        }
+      }
+    },
+    {
+      "buildId": "26367197",
+      "branch": "public",
+      "timeUpdated": 1793570386,
+      "firstSeen": 1793599375,
+      "manifests": {
+        "4923371": {
+          "gid": "3201612721624382182",
+          "size": 634650669,
+          "download": 302019136
+        },
+        "4923372": {
+          "gid": "988998061022591252",
+          "size": 563744968,
+          "download": 280960576
+        }
+      }
+    }
+  ],
+  "_change_number": 40493884,
+  "_missing_token": false,
+  "_sha": "624bfb397aeb5d080a38802b7b3619efdc167b91",
+  "_size": 5884,
   "appid": "4923370",
   "common": {
     "associations": {
@@ -32,8 +69,8 @@
     "clienticns": "00b1e495a9e7eeedd58d9fdd186e3522de85c6a2",
     "clienticon": "646466c22cad580e68b8a3c0a9d75cca1eb4a5f8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4923370",
     "genres": {
       "0": "4",
@@ -106,11 +143,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c20a588825b9571cc0ee21c1d4bc286ade353739/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793488226",
+    "steam_release_date": "1793570505",
+    "store_asset_mtime": "1793586665",
     "store_tags": {
       "0": "1663",
       "1": "3959",
@@ -142,5 +180,137 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Studs Up",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "StudsUp.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "StudsUp.app"
+      }
+    }
+  },
+  "depots": {
+    "4923371": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "302019136",
+          "gid": "3201612721624382182",
+          "size": "634650669"
+        },
+        "public": {
+          "download": "302019136",
+          "gid": "3201612721624382182",
+          "size": "634650669"
+        }
+      }
+    },
+    "4923372": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "280960576",
+          "gid": "988998061022591252",
+          "size": "563744968"
+        },
+        "public": {
+          "download": "280960576",
+          "gid": "988998061022591252",
+          "size": "563744968"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26367197",
+        "description": "Beta",
+        "timebuildupdated": "1793570376",
+        "timeupdated": "1793570386"
+      },
+      "public": {
+        "buildid": "26367197",
+        "timebuildupdated": "1793570376",
+        "timeupdated": "1793570386"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Dextra Games",
+    "publisher": "Dextra Games"
+  },
+  "ufs": {
+    "maxnumfiles": "60",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "Godot/app_userdata/Kickoff",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "MacAppSupport",
+        "useinstead": "gameinstall"
+      },
+      "1": {
+        "addpath": "godot/app_userdata/Kickoff",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "LinuxXdgDataHome",
+        "useinstead": "gameinstall"
+      },
+      "2": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Kickoff",
+            "replace": "Godot/app_userdata/Kickoff"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Kickoff",
+        "pattern": "*.sav",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Kickoff",
+        "pattern": "match_history.jason",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Kickoff",
+        "pattern": "career_stats.cfg",
+        "root": "gameinstall"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Kickoff",
+        "pattern": "profile.cfg",
+        "root": "gameinstall"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Kickoff",
+        "pattern": "presets.cfg",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

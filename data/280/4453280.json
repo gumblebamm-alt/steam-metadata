@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793040154,
-  "_history": [],
-  "_change_number": 40244488,
-  "_missing_token": true,
-  "_sha": "c10147529d3d0569592f07ba172f649a4258b356",
-  "_size": 3401,
+  "_lastChecked": 1793599370,
+  "_history": [
+    {
+      "buildId": "26209566",
+      "branch": "public",
+      "timeUpdated": 1792990661,
+      "firstSeen": 1793599370,
+      "manifests": {
+        "4453281": {
+          "gid": "6958808072737535875",
+          "size": 157825274,
+          "download": 60119104
+        },
+        "4453282": {
+          "gid": "6727969190917230472",
+          "size": 176790203,
+          "download": 68638496
+        }
+      }
+    }
+  ],
+  "_change_number": 40490085,
+  "_missing_token": false,
+  "_sha": "b605cb543d76b2014cb95766d21a19e1c743a697",
+  "_size": 5239,
   "appid": "4453280",
   "common": {
     "aicontenttype": "1",
@@ -40,9 +59,9 @@
     "clienticns": "6d6ee599a95d68c5d3d36b3ab35f540ccc6c9f7e",
     "clienticon": "d1c04e0e167eac3fd15145db4ce6322c48b1c753",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4453280",
     "genres": {
       "0": "1",
@@ -118,10 +137,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "32c9e772898ad0752e500db774a65be604bf2d79/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793573552",
     "store_asset_mtime": "1792993080",
     "store_tags": {
       "0": "16250",
@@ -153,5 +173,99 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Compacted",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Compacted.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Compacted.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4453281": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "60119104",
+          "gid": "6958808072737535875",
+          "size": "157825274"
+        }
+      }
+    },
+    "4453282": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "68638496",
+          "gid": "6727969190917230472",
+          "size": "176790203"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26209566",
+        "timebuildupdated": "1792990661",
+        "timeupdated": "1792990661"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "GTGD",
+    "homepage": "https://www.gamertogamedeveloper.com/",
+    "publisher": "GTGD"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Gamer To Game Developer/Compacted",
+            "replace": "Gamer To Game Developer/Compacted"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Gamer To Game Developer/Compacted",
+            "replace": ".config/unity3d/Gamer To Game Developer/Compacted"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Gamer To Game Developer/Compacted",
+        "pattern": "*.es3",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

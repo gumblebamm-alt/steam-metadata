@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792603034,
-  "_history": [],
-  "_change_number": 40090353,
-  "_missing_token": true,
-  "_sha": "9b493b3c2c697aa51c4c91c6b21e36c409ffd5c3",
-  "_size": 3126,
+  "_lastChecked": 1793599373,
+  "_history": [
+    {
+      "buildId": "26365057",
+      "branch": "public",
+      "timeUpdated": 1793560676,
+      "firstSeen": 1793599373,
+      "manifests": {
+        "4769672": {
+          "gid": "324389494696473415",
+          "size": 258255768,
+          "download": 177912544
+        },
+        "4769673": {
+          "gid": "5515033402004752619",
+          "size": 222978360,
+          "download": 169389472
+        }
+      }
+    }
+  ],
+  "_change_number": 40497061,
+  "_missing_token": false,
+  "_sha": "f89bebcd0d54c7da796924cfe0c7d0fd90b0ee71",
+  "_size": 5155,
   "appid": "4769670",
   "common": {
     "aicontenttype": "1",
@@ -31,9 +50,9 @@
     },
     "clienticon": "57a9bf67804a34641456b16f57d44e77423d2959",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4769670",
     "genres": {
       "0": "1",
@@ -105,10 +124,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "128dbe9d78a2a40c4fad0b48f5153b302fd3be27/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793596765",
     "store_asset_mtime": "1792592597",
     "store_tags": {
       "0": "9",
@@ -136,5 +156,98 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hostile Takeover Inc",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Hostile Takeover Inc.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "HostileTakeoverInc.x86_64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4769672": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "177912544",
+          "gid": "324389494696473415",
+          "size": "258255768"
+        }
+      }
+    },
+    "4769673": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "169389472",
+          "gid": "5515033402004752619",
+          "size": "222978360"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26365057",
+        "timebuildupdated": "1793560639",
+        "timeupdated": "1793560676"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Aleksi White",
+    "publisher": "Aleksi White"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Hostile Takeover, Inc/saves/profiles/{64BitSteamID}",
+            "replace": "godot/app_userdata/Hostile Takeover, Inc/saves/profiles/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Hostile Takeover, Inc/saves/profiles/{64BitSteamID}",
+        "pattern": "progress.dat",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Hostile Takeover, Inc/saves/profiles/{64BitSteamID}",
+        "pattern": "progress.dat.bak",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

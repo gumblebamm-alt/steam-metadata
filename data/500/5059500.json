@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792457882,
-  "_history": [],
-  "_change_number": 40021753,
-  "_missing_token": true,
-  "_sha": "55f0e221ff85b5af4d6fbf0690a34f390a645b85",
-  "_size": 2893,
+  "_lastChecked": 1793599378,
+  "_history": [
+    {
+      "buildId": "26010361",
+      "branch": "public",
+      "timeUpdated": 1792245936,
+      "firstSeen": 1793599378,
+      "manifests": {
+        "5059501": {
+          "gid": "4148196381248676132",
+          "size": 518582223,
+          "download": 165027584
+        }
+      }
+    }
+  ],
+  "_change_number": 40496323,
+  "_missing_token": false,
+  "_sha": "4e0f0f60346313510912b3ac090fd76226c8e3db",
+  "_size": 3985,
   "appid": "5059500",
   "common": {
     "aicontenttype": "1",
@@ -26,9 +40,9 @@
     },
     "clienticon": "6bfeeb183f1569ed1d95a77f7af285b8becfc3f1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5059500",
     "genres": {
       "0": "1",
@@ -100,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "af7fc315e55bc7e8ceb7b1c7058c8cc563320ee9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793594168",
     "store_asset_mtime": "1792158046",
     "store_tags": {
       "0": "1773",
@@ -131,5 +146,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SpaceShooter",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play SpaceShooter",
+        "description_loc": {
+          "english": "Play SpaceShooter"
+        },
+        "executable": "Space shooter.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5059501": {
+      "manifests": {
+        "public": {
+          "download": "165027584",
+          "gid": "4148196381248676132",
+          "size": "518582223"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26010361",
+        "timebuildupdated": "1792245923",
+        "timeupdated": "1792245936"
+      }
+    }
+  },
+  "extended": {
+    "developer": "kbatzis",
+    "publisher": "kbatzis"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "savefiles": {
+      "0": {
+        "path": "KosBatzis/Space shooter",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
