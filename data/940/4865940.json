@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792558100,
-  "_history": [],
-  "_change_number": 40070225,
-  "_missing_token": true,
-  "_sha": "67cb518bd31b85a8bc849ca9e8ecd6c2ddef05ef",
-  "_size": 3234,
+  "_lastChecked": 1793688522,
+  "_history": [
+    {
+      "buildId": "25958195",
+      "branch": "public",
+      "timeUpdated": 1792266838,
+      "firstSeen": 1793688522,
+      "manifests": {
+        "4865941": {
+          "gid": "3036468916361392452",
+          "size": 369562120,
+          "download": 154620112
+        }
+      }
+    }
+  ],
+  "_change_number": 40534971,
+  "_missing_token": false,
+  "_sha": "05a5af27195d7322840bd2be2b978b783b1879b1",
+  "_size": 5888,
   "appid": "4865940",
   "common": {
     "associations": {
@@ -36,9 +50,9 @@
     },
     "clienticon": "d7ab88078d03a621b4287bc3ef9b10763e610bbe",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4865940",
     "genres": {
       "0": "1",
@@ -111,7 +125,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2145047f294cc0f2f0205197251603ae0a9b4d6b/capsule_231x87.jpg"
     },
@@ -145,5 +159,148 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Stash Grabber",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "StashGrabber.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "StashGrabber.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4865941": {
+      "manifests": {
+        "public": {
+          "download": "154620112",
+          "gid": "3036468916361392452",
+          "size": "369562120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25958195",
+        "timebuildupdated": "1792063026",
+        "timeupdated": "1792266838"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Alterr Games",
+    "publisher": "Alterr Games"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "StashGrabber",
+        "pattern": "settings.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "StashGrabber",
+        "pattern": "career_stats.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "10": {
+        "path": "StashGrabber/ghosts",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      },
+      "11": {
+        "path": "StashGrabber/maps",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      },
+      "2": {
+        "path": "StashGrabber",
+        "pattern": "achievements.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "StashGrabber",
+        "pattern": "highscore_cache.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "StashGrabber/ghosts",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "StashGrabber/maps",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "StashGrabber",
+        "pattern": "settings.cfg",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      },
+      "7": {
+        "path": "StashGrabber",
+        "pattern": "career_stats.cfg",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      },
+      "8": {
+        "path": "StashGrabber",
+        "pattern": "achievements.cfg",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      },
+      "9": {
+        "path": "StashGrabber",
+        "pattern": "highscore_cache.cfg",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

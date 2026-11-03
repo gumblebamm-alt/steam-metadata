@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793211941,
-  "_history": [],
-  "_change_number": 40335559,
-  "_missing_token": true,
-  "_sha": "3367d71e4a0a3c3278df790fdd3a5ab139e087a7",
-  "_size": 3755,
+  "_lastChecked": 1793688522,
+  "_history": [
+    {
+      "buildId": "26023298",
+      "branch": "public",
+      "timeUpdated": 1792315010,
+      "firstSeen": 1793688522,
+      "manifests": {
+        "4883061": {
+          "gid": "6073813665215829271",
+          "size": 9842364,
+          "download": 3872800
+        },
+        "4883062": {
+          "gid": "6942059900048225495",
+          "size": 10543428,
+          "download": 4434576
+        }
+      }
+    }
+  ],
+  "_change_number": 40527514,
+  "_missing_token": false,
+  "_sha": "ee66abe24f715e082879a2d047015037830e51a6",
+  "_size": 5349,
   "appid": "4883060",
   "common": {
     "associations": {
@@ -33,8 +52,8 @@
     },
     "clienticon": "bdb7803c003d31c9be6a043115fe70f3ddf5e9ee",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4883060",
     "genres": {
       "0": "4",
@@ -118,10 +137,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a3a40319b4685c84366eb6a30d9ac5efa9ee329f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793659504",
     "store_asset_mtime": "1791046099",
     "store_tags": {
       "0": "599",
@@ -179,5 +199,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Nanoquarium",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64"
+        },
+        "executable": "nanoquarium.exe",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4883061": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3872800",
+          "gid": "6073813665215829271",
+          "size": "9842364"
+        }
+      }
+    },
+    "4883062": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "4434576",
+          "gid": "6942059900048225495",
+          "size": "10543428"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,russian,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26023298",
+        "timebuildupdated": "1792315009",
+        "timeupdated": "1792315010"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "PGD Games",
+    "publisher": "PGD Games"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Nanoquarium",
+        "pattern": "slot*.txt",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Nanoquarium",
+        "pattern": "active.txt",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Nanoquarium",
+        "pattern": "scapes.txt",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

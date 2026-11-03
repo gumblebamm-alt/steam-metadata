@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793655961,
+  "_lastChecked": 1793688499,
   "_history": [
     {
       "buildId": "26379400",
@@ -14,12 +14,31 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26398040",
+      "branch": "public",
+      "timeUpdated": 1793682097,
+      "firstSeen": 1793688444,
+      "manifests": {
+        "5389121": {
+          "gid": "3973306635489935455",
+          "size": null,
+          "download": null
+        },
+        "5389122": {
+          "gid": "2345573961927493994",
+          "size": 211915186,
+          "download": 107034112
+        }
+      },
+      "_source": "hubcap"
     }
   ],
-  "_change_number": 40515078,
+  "_change_number": 40535844,
   "_missing_token": false,
-  "_sha": "80dc3666d8f83824aa70b08f20a92bd7b2e34da2",
-  "_size": 4945,
+  "_sha": "6044719b912e3c4dcd44713a6188b012c0affdd2",
+  "_size": 5256,
   "appid": "5389120",
   "common": {
     "aicontenttype": "1",
@@ -113,15 +132,15 @@
     "name": "Bongo VPet - Taskbar Buddy",
     "osarch": "",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
     "small_capsule": {
       "english": "5f0edf3becddd398ca5f8b3bd2c5226a105fb02b/capsule_231x87.jpg"
     },
     "steam_release_date": "1793623028",
-    "store_asset_mtime": "1791215667",
+    "store_asset_mtime": "1793639663",
     "store_tags": {
       "0": "113",
       "1": "1320952",
@@ -240,28 +259,45 @@
     "launch": {
       "0": {
         "config": {
-          "osarch": "64",
-          "oslist": "windows"
+          "oslist": "macos"
         },
+        "executable": "AvaPet.app"
+      },
+      "1": {
         "executable": "AvaPet.exe"
       }
     }
   },
   "depots": {
     "5389121": {
+      "config": {
+        "oslist": "windows,linux"
+      },
       "manifests": {
         "public": {
-          "download": "98894000",
-          "gid": "5867608866743680917",
-          "size": "195974067"
+          "download": "98907072",
+          "gid": "1420683434320686406",
+          "size": "196001746"
+        }
+      }
+    },
+    "5389122": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "107034112",
+          "gid": "2345573961927493994",
+          "size": "211915186"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26379400",
-        "timebuildupdated": "1793622792",
-        "timeupdated": "1793636638"
+        "buildid": "26398040",
+        "timebuildupdated": "1793681891",
+        "timeupdated": "1793682097"
       }
     },
     "nocommonredists": "1"

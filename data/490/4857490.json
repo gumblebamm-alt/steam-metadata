@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793077382,
-  "_history": [],
-  "_change_number": 38003898,
-  "_missing_token": true,
-  "_sha": "5d0fe007ccbc4bf33d2a75d4541a948d7b15e770",
-  "_size": 3873,
+  "_lastChecked": 1793688522,
+  "_history": [
+    {
+      "buildId": "26235216",
+      "branch": "public",
+      "timeUpdated": 1793075850,
+      "firstSeen": 1793688522,
+      "manifests": {
+        "4857491": {
+          "gid": "5449814242556401501",
+          "size": 178666327,
+          "download": 63782512
+        }
+      }
+    }
+  ],
+  "_change_number": 40535909,
+  "_missing_token": false,
+  "_sha": "f21fede224d3cee259b5d285f6822e296c65fb01",
+  "_size": 4884,
   "appid": "4857490",
   "common": {
     "aicontenttype": "1",
@@ -24,6 +38,8 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
       "category_62": "1",
       "category_74": "1",
       "category_76": "1",
@@ -32,8 +48,8 @@
     },
     "clienticon": "e8991720e2b0ccd53d0ef730454398a291e2289f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4857490",
     "genres": {
       "0": "4",
@@ -44,6 +60,12 @@
       "schinese": "97e71b2585ade69684664ff7eb355ed09e430418/header_schinese.jpg"
     },
     "icon": "e8991720e2b0ccd53d0ef730454398a291e2289f",
+    "languages": {
+      "english": "1",
+      "japanese": "1",
+      "schinese": "1",
+      "tchinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en,zh-cn",
       "library_header": "en,zh-cn",
@@ -114,12 +136,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5c6883a5cf0809efe153007145ac0239431c0dea/capsule_231x87.jpg",
       "schinese": "a1dfc775d4530ca6bb9c86883e11a814ae8ffd9c/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1786601338",
+    "steam_release_date": "1793682313",
+    "store_asset_mtime": "1793077286",
     "store_tags": {
       "0": "1320952",
       "1": "4726",
@@ -152,5 +175,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PlankTap",
+    "launch": {
+      "0": {
+        "executable": "PlankTap.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4857491": {
+      "manifests": {
+        "public": {
+          "download": "63782512",
+          "gid": "5449814242556401501",
+          "size": "178666327"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26235216",
+        "timebuildupdated": "1793075444",
+        "timeupdated": "1793075850"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "CrowZ Games",
+    "publisher": "CrowZ Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "CrowZ Games\\PlankTap",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

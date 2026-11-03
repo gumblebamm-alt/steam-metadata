@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793252962,
-  "_history": [],
-  "_change_number": 40360902,
-  "_missing_token": true,
-  "_sha": "09b43820b679b9d959ebcdb83bc56de5adc5fa7b",
-  "_size": 3052,
+  "_lastChecked": 1793688517,
+  "_history": [
+    {
+      "buildId": "26392458",
+      "branch": "public",
+      "timeUpdated": 1793664088,
+      "firstSeen": 1793688517,
+      "manifests": {
+        "4387612": {
+          "gid": "1472320806327319204",
+          "size": 238751661,
+          "download": 154212176
+        }
+      }
+    }
+  ],
+  "_change_number": 40529791,
+  "_missing_token": false,
+  "_sha": "388d717423f76fd71c51a17cfb12a42415ca6835",
+  "_size": 5032,
   "appid": "4387610",
   "common": {
     "associations": {
@@ -33,9 +47,9 @@
     },
     "clienticon": "2394f2c448cc3fdd5422a7eeccfb6f10b15f7c33",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4387610",
     "genres": {
       "0": "4",
@@ -106,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4ffb191b168ea4060d1c8ef3e0e1500c019b8dd3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1787089764",
     "store_tags": {
       "0": "9",
@@ -134,5 +149,103 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Clearance Defence",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "clearance-defence.exe"
+      }
+    }
+  },
+  "depots": {
+    "4387611": {},
+    "4387612": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "154212176",
+          "gid": "1472320806327319204",
+          "size": "238751661"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26392458",
+        "timebuildupdated": "1793661519",
+        "timeupdated": "1793664088"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Flat Frog",
+    "homepage": "https://flatfrog.games",
+    "publisher": "Flat Frog"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Clearance Defence/",
+        "pattern": "*.tres",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Clearance Defence/",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Clearance Defence/",
+        "pattern": "savegame.cfg.legacy",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Clearance Defence/saves/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Clearance Defence Demo/",
+        "pattern": "savegame.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Clearance Defence Demo/",
+        "pattern": "night_end.tres",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792731013,
-  "_history": [],
-  "_change_number": 40143647,
-  "_missing_token": true,
-  "_sha": "f6d2b3366761ac5cd0567cd32f30cc3ec3ee5c8e",
-  "_size": 3332,
+  "_lastChecked": 1793688522,
+  "_history": [
+    {
+      "buildId": "26393243",
+      "branch": "public",
+      "timeUpdated": 1793665574,
+      "firstSeen": 1793688522,
+      "manifests": {
+        "4884611": {
+          "gid": "6327992599715953754",
+          "size": 144138640,
+          "download": 90693328
+        },
+        "4884612": {
+          "gid": "3446052080289020695",
+          "size": 271137710,
+          "download": 125333984
+        }
+      }
+    }
+  ],
+  "_change_number": 40530091,
+  "_missing_token": false,
+  "_sha": "527b98e7f08f2535e0ea1f75a7d948bf40970849",
+  "_size": 4789,
   "appid": "4884610",
   "common": {
     "associations": {
@@ -38,9 +57,9 @@
     "clienticns": "cbeae639522f7b3d63d0862a4135ed4428d49631",
     "clienticon": "29839d1c6b2b74037013965d9476f584527d213c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4884610",
     "genres": {
       "0": "23",
@@ -112,10 +131,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7c8d643b695c7fad274ade201238d7d60f8169c8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793665958",
     "store_asset_mtime": "1792699785",
     "store_tags": {
       "0": "9",
@@ -147,5 +167,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Wend",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Wend.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Wend.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "4884611": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "90693328",
+          "gid": "6327992599715953754",
+          "size": "144138640"
+        }
+      }
+    },
+    "4884612": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "125333984",
+          "gid": "3446052080289020695",
+          "size": "271137710"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26393243",
+        "timebuildupdated": "1793664157",
+        "timeupdated": "1793665574"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "248 Studios",
+    "publisher": "248 Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Wend",
+        "pattern": "save.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

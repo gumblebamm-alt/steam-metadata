@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792731013,
-  "_history": [],
-  "_change_number": 40153461,
-  "_missing_token": true,
-  "_sha": "6ceb9042a8062f1a68c136b27d7e2028a9f872b2",
-  "_size": 2939,
+  "_lastChecked": 1793688522,
+  "_history": [
+    {
+      "buildId": "26150080",
+      "branch": "public",
+      "timeUpdated": 1792723781,
+      "firstSeen": 1793688522,
+      "manifests": {
+        "4866151": {
+          "gid": "7842436252454603760",
+          "size": 230302650,
+          "download": 63514048
+        },
+        "4866153": {
+          "gid": "6917873318940978954",
+          "size": 232789405,
+          "download": 66441664
+        },
+        "4866154": {
+          "gid": "1209900798975076201",
+          "size": 249947828,
+          "download": 72630880
+        }
+      }
+    }
+  ],
+  "_change_number": 40533167,
+  "_missing_token": false,
+  "_sha": "b7cce910b1f1efcfff920c82ca6a38957d7f2cc5",
+  "_size": 4743,
   "appid": "4866150",
   "common": {
     "associations": {
@@ -30,8 +54,8 @@
     },
     "clienticon": "540e0992f6c9514f30df85ce08f8948df86de6d7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4866150",
     "genres": {
       "0": "4",
@@ -103,10 +127,11 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cd3da3a325a21e048daef7ce78e8047d8f60979b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793674547",
     "store_asset_mtime": "1787455384",
     "store_tags": {
       "0": "597",
@@ -128,5 +153,108 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Pluricubus",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Pluricubus.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Pluricubus.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Pluricubus.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4866151": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "63514048",
+          "gid": "7842436252454603760",
+          "size": "230302650"
+        }
+      }
+    },
+    "4866152": {
+      "config": {
+        "osarch": "32",
+        "oslist": "windows"
+      }
+    },
+    "4866153": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "66441664",
+          "gid": "6917873318940978954",
+          "size": "232789405"
+        }
+      }
+    },
+    "4866154": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "72630880",
+          "gid": "1209900798975076201",
+          "size": "249947828"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26150080",
+        "timebuildupdated": "1792723710",
+        "timeupdated": "1792723781"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Integral Horse Domain",
+    "publisher": "Integral Horse Domain"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "50",
+    "quota": "100000",
+    "savefiles": {
+      "0": {
+        "path": "Data",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

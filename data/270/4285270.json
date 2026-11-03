@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792816667,
-  "_history": [],
-  "_change_number": 40145341,
-  "_missing_token": true,
-  "_sha": "26952f850d990216a1ae9b0f62f6030cca9ba674",
-  "_size": 3451,
+  "_lastChecked": 1793688516,
+  "_history": [
+    {
+      "buildId": "26399015",
+      "branch": "public",
+      "timeUpdated": 1793686622,
+      "firstSeen": 1793688516,
+      "manifests": {
+        "4285271": {
+          "gid": "7825430211815619693",
+          "size": 368434218,
+          "download": 140045440
+        }
+      }
+    }
+  ],
+  "_change_number": 40537266,
+  "_missing_token": false,
+  "_sha": "f9170433b43b63a0b1e38e33ba9acf4e5c6bb9ac",
+  "_size": 4601,
   "appid": "4285270",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "153816a685c5b81a7ee931c255dbba36887db546",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4285270",
     "genres": {
       "0": "4",
@@ -112,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2ca85df3714241614df2d18e19bcd26020688ff7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793660064",
     "store_asset_mtime": "1792440716",
     "store_tags": {
       "0": "3810",
@@ -162,5 +177,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "marblebuilds",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "marblebuilds.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4285271": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "140045440",
+          "gid": "7825430211815619693",
+          "size": "368434218"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26399015",
+        "timebuildupdated": "1793686517",
+        "timeupdated": "1793686622"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "4285270"
+  },
+  "extended": {
+    "developer": "Griz Studios",
+    "homepage": "https://marble.grizbuilds.com/",
+    "publisher": "The Bueno Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "200000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "marblebuilds/cloud",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

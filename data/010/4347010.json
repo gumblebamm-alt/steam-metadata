@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793656008,
-  "_history": [],
-  "_change_number": 40523857,
-  "_missing_token": true,
-  "_sha": "03e168575eff2ed6bc1372bc9b4e9ef7f1ed0199",
-  "_size": 3937,
+  "_lastChecked": 1793688516,
+  "_history": [
+    {
+      "buildId": "26388889",
+      "branch": "public",
+      "timeUpdated": 1793650355,
+      "firstSeen": 1793688516,
+      "manifests": {
+        "4347011": {
+          "gid": "8790443625912483052",
+          "size": 3416977409,
+          "download": 2994802096
+        }
+      }
+    }
+  ],
+  "_change_number": 40528107,
+  "_missing_token": false,
+  "_sha": "1fce75cc098ca93a57e10317b13cf57b48fa6748",
+  "_size": 5589,
   "appid": "4347010",
   "common": {
     "associations": {
@@ -32,6 +46,7 @@
     },
     "clienticon": "c80c5f62160ea3bc69b44bedeaadf7d30468fb47",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -41,7 +56,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "4347010",
     "genres": {
       "0": "1",
@@ -113,32 +127,33 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a674df56558a72e039ac245c9869a4e98362babe/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793660190",
     "store_asset_mtime": "1793635178",
     "store_tags": {
       "0": "3843",
       "1": "42804",
-      "10": "1716",
-      "11": "1697",
-      "12": "4191",
-      "13": "3978",
+      "10": "1687",
+      "11": "3959",
+      "12": "1759",
+      "13": "19",
       "14": "5125",
-      "15": "19",
-      "16": "3834",
-      "17": "4305",
-      "18": "1721",
-      "19": "3968",
+      "15": "1697",
+      "16": "4191",
+      "17": "3978",
+      "18": "3834",
+      "19": "3839",
       "2": "1667",
-      "3": "1720",
-      "4": "3959",
-      "5": "1685",
-      "6": "4342",
-      "7": "3859",
-      "8": "6730",
-      "9": "1759"
+      "3": "4342",
+      "4": "1685",
+      "5": "3968",
+      "6": "1720",
+      "7": "1716",
+      "8": "3859",
+      "9": "6730"
     },
     "supported_languages": {
       "brazilian": {
@@ -189,5 +204,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Just One Bite",
+    "launch": {
+      "0": {
+        "arguments": "-dx12",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "DirectX 12 (Recommended)",
+        "description_loc": {
+          "english": "DirectX 12 (Recommended)",
+          "koreana": "DirectX 12 (권장)"
+        },
+        "executable": "JustOneBite.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "DirectX 11 (For integrated/older GPUs)",
+        "description_loc": {
+          "english": "DirectX 11 (For integrated/older GPUs)",
+          "koreana": "DirectX 11 (내장/구형 GPU)"
+        },
+        "executable": "JustOneBite.exe",
+        "type": "option2"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4347011": {
+      "manifests": {
+        "public": {
+          "download": "2994802096",
+          "gid": "8790443625912483052",
+          "size": "3416977409"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26388889",
+        "timebuildupdated": "1793650251",
+        "timeupdated": "1793650355"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Opus Nine",
+    "publisher": "Opus Nine"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "JustOneBite/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

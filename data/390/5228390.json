@@ -1,6 +1,20 @@
 {
-  "_lastChecked": 1793467110,
+  "_lastChecked": 1793688496,
   "_history": [
+    {
+      "buildId": "26363089",
+      "branch": "public",
+      "timeUpdated": 1793552277,
+      "firstSeen": 1793688409,
+      "manifests": {
+        "5228391": {
+          "gid": "8428758935798144076",
+          "size": null,
+          "download": null
+        }
+      },
+      "_source": "hubcap"
+    },
     {
       "buildId": "26343308",
       "branch": "public",
@@ -52,25 +66,12 @@
           "download": 1739693760
         }
       }
-    },
-    {
-      "buildId": "25782376",
-      "branch": "public",
-      "timeUpdated": 1791389630,
-      "firstSeen": 1791420132,
-      "manifests": {
-        "5228391": {
-          "gid": "3932427169234149916",
-          "size": 1120784336,
-          "download": 1007303584
-        }
-      }
     }
   ],
-  "_change_number": 40452125,
+  "_change_number": 40483255,
   "_missing_token": false,
-  "_sha": "01c637a98570490acfec97f0a388890050f92be4",
-  "_size": 4678,
+  "_sha": "69c7147b8474317ffc9597c8696f4cba45655abf",
+  "_size": 5604,
   "appid": "5228390",
   "common": {
     "aicontenttype": "1",
@@ -221,7 +222,8 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
   "config": {
     "installdir": "PERSONAL COMPUTER SOCCER by David Minayo",
@@ -238,22 +240,62 @@
     "5228391": {
       "manifests": {
         "public": {
-          "download": "2355416960",
-          "gid": "5079644110035027441",
-          "size": "2554582438"
+          "download": "2532655872",
+          "gid": "8428758935798144076",
+          "size": "2737591646"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26343308",
-        "timebuildupdated": "1793438273",
-        "timeupdated": "1793438348"
+        "buildid": "26363089",
+        "timebuildupdated": "1793551849",
+        "timeupdated": "1793552277"
       }
-    }
+    },
+    "workshopdepot": "5228390"
   },
   "extended": {
     "developer": "David Minayo",
     "publisher": "David Minayo"
+  },
+  "ufs": {
+    "maxnumfiles": "4000",
+    "quota": "1610612736",
+    "savefiles": {
+      "0": {
+        "path": "Personal Computer Soccer/saves",
+        "pattern": "*.pcsleague",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Personal Computer Soccer/saves",
+        "pattern": "*.pcsmeta",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Personal Computer Soccer/mis_goles",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Personal Computer Soccer/pcs_editor",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Personal Computer Soccer/pcs_patches",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Personal Computer Soccer",
+        "pattern": "manager_careers*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

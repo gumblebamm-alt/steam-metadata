@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792775355,
-  "_history": [],
-  "_change_number": 40177666,
-  "_missing_token": true,
-  "_sha": "4c9372de64a10eac91fa799fd6335bca4d5271fb",
-  "_size": 4369,
+  "_lastChecked": 1793688525,
+  "_history": [
+    {
+      "buildId": "26192512",
+      "branch": "public",
+      "timeUpdated": 1792901013,
+      "firstSeen": 1793688525,
+      "manifests": {
+        "5076761": {
+          "gid": "558646309342360360",
+          "size": 151163023,
+          "download": 91483024
+        }
+      }
+    }
+  ],
+  "_change_number": 40531324,
+  "_missing_token": false,
+  "_sha": "9f40be1be76f22a400314238148c47cde2231f30",
+  "_size": 5937,
   "appid": "5076760",
   "common": {
     "aicontenttype": "1",
@@ -33,7 +47,14 @@
     "clienticon": "fdd642cd3728194e37e090fbfd8f88ccb313a8ec",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
+    "eulas": {
+      "0": {
+        "id": "5076760_eula_0",
+        "name": "TinSpring Soccer EULA",
+        "url": "https://store.steampowered.com/eula/5076760_eula_0",
+        "version": "1"
+      }
+    },
     "gameid": "5076760",
     "genres": {
       "0": "18"
@@ -104,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a05e8bdeef5ed682a87048401aa2129d18a41c2d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1791384499",
     "store_tags": {
       "0": "1773",
@@ -217,5 +239,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TinSpring Soccer",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TinSpringSoccer.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5076761": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "91483024",
+          "gid": "558646309342360360",
+          "size": "151163023"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,hungarian,italian,japanese,koreana,latam,norwegian,polish,portuguese,romanian,russian,schinese,spanish,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26192512",
+        "timebuildupdated": "1792900901",
+        "timeupdated": "1792901013"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Gaboo Arts Entertainment",
+    "homepage": "https://gabooarts.com/games/tinspring-soccer/",
+    "publisher": "Gaboo Arts Entertainment"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "TinSpring Soccer/saves/{Steam3AccountID}",
+        "pattern": "tournament.save",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "TinSpring Soccer/saves/{Steam3AccountID}",
+        "pattern": "tournament.save.bak",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

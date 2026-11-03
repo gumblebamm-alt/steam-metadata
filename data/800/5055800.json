@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793252975,
-  "_history": [],
-  "_change_number": 40366143,
-  "_missing_token": true,
-  "_sha": "09feed34c83e0030c9011f009942e10c590c110e",
-  "_size": 3278,
+  "_lastChecked": 1793688525,
+  "_history": [
+    {
+      "buildId": "26398067",
+      "branch": "public",
+      "timeUpdated": 1793683262,
+      "firstSeen": 1793688525,
+      "manifests": {
+        "5055801": {
+          "gid": "836501113354571140",
+          "size": 401219657,
+          "download": 156250336
+        },
+        "5055802": {
+          "gid": "6129656923892600150",
+          "size": 566189807,
+          "download": 221065632
+        }
+      }
+    }
+  ],
+  "_change_number": 40536896,
+  "_missing_token": false,
+  "_sha": "0272d52c16dff83ce4f8ed7bb1bc55e34174b776",
+  "_size": 4815,
   "appid": "5055800",
   "common": {
     "aicontenttype": "1",
@@ -41,8 +60,8 @@
     },
     "clienticon": "a121260d41ba8bcd0e7972dc801d5eab59889fab",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5055800",
     "genres": {
       "0": "4",
@@ -113,11 +132,12 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "48b1ff65b79b525694b012c6f790e4c163eaea2a/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793229390",
+    "steam_release_date": "1793685456",
+    "store_asset_mtime": "1793681408",
     "store_tags": {
       "0": "597",
       "1": "97376",
@@ -146,5 +166,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Verdreamia",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Verdreamia.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Verdreamia.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5055801": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "156250336",
+          "gid": "836501113354571140",
+          "size": "401219657"
+        }
+      }
+    },
+    "5055802": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "221065632",
+          "gid": "6129656923892600150",
+          "size": "566189807"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26398067",
+        "timebuildupdated": "1793682020",
+        "timeupdated": "1793683262"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "AtomicBorg Inc.",
+    "homepage": "https://verdreamia.com/",
+    "publisher": "AtomicBorg Inc."
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "671088640",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Verdreamia/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
