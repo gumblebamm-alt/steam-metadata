@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1793688518,
-  "_history": [],
-  "_change_number": 40534379,
-  "_missing_token": true,
-  "_sha": "9612aca368aa0fffa8bd210c04cb188088d0b17e",
-  "_size": 3305,
+  "_lastChecked": 1793734360,
+  "_history": [
+    {
+      "buildId": "26136670",
+      "branch": "internal",
+      "timeUpdated": 1792681264,
+      "firstSeen": 1793734360,
+      "manifests": {
+        "4459221": {
+          "gid": "3452416724101999562",
+          "size": 945316507,
+          "download": 882203376
+        },
+        "4459222": {
+          "gid": "5829030095241026857",
+          "size": 1015229215,
+          "download": 910728176
+        }
+      }
+    },
+    {
+      "buildId": "26373063",
+      "branch": "public",
+      "timeUpdated": 1793598491,
+      "firstSeen": 1793734360,
+      "manifests": {
+        "4459221": {
+          "gid": "385942001100439492",
+          "size": 945709577,
+          "download": 882614048
+        },
+        "4459222": {
+          "gid": "9004326915209110903",
+          "size": 970612604,
+          "download": 893138432
+        }
+      }
+    }
+  ],
+  "_change_number": 40551829,
+  "_missing_token": false,
+  "_sha": "6657e7cf30df1b03c64c03ad0f9d939b901be261",
+  "_size": 5715,
   "appid": "4459220",
   "common": {
     "aicontenttype": "1",
@@ -39,8 +76,8 @@
     },
     "clienticon": "2e2d237416243d96d690fde03dbf5fde1df14543",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4459220",
     "genres": {
       "0": "4",
@@ -113,10 +150,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5cc33bc53fa069c53b309d80cf1a249ffa014ee9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793717080",
     "store_asset_mtime": "1793677275",
     "store_tags": {
       "0": "597",
@@ -149,5 +187,130 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Agile Team",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "AgileTeam.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "AgileTeam.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228983": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4459221": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "internal": {
+          "download": "882203376",
+          "gid": "3452416724101999562",
+          "size": "945316507"
+        },
+        "public": {
+          "download": "882614048",
+          "gid": "385942001100439492",
+          "size": "945709577"
+        }
+      }
+    },
+    "4459222": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "internal": {
+          "download": "910728176",
+          "gid": "5829030095241026857",
+          "size": "1015229215"
+        },
+        "public": {
+          "download": "893138432",
+          "gid": "9004326915209110903",
+          "size": "970612604"
+        }
+      }
+    },
+    "branches": {
+      "internal": {
+        "buildid": "26136670",
+        "description": "Internal Release Candidate",
+        "timebuildupdated": "1792681263",
+        "timeupdated": "1792681264"
+      },
+      "public": {
+        "buildid": "26373063",
+        "timebuildupdated": "1793598491",
+        "timeupdated": "1793598491"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Agile Team",
+    "homepage": "https://www.agileteam.ca",
+    "publisher": "Agile Team"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "1000",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/AgileTeam-5317210",
+            "replace": "Library/RenPy/AgileTeam-5317210"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RenPy/AgileTeam-5317210",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "RenPy/AgileTeam-5317210",
+        "pattern": "persistent",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

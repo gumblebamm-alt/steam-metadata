@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793599381,
-  "_history": [],
-  "_change_number": 40490546,
-  "_missing_token": true,
-  "_sha": "6eb9416698e6a3440ed6d1ba11e4663ef4153d2b",
-  "_size": 3218,
+  "_lastChecked": 1793734379,
+  "_history": [
+    {
+      "buildId": "25738450",
+      "branch": "public",
+      "timeUpdated": 1791238872,
+      "firstSeen": 1793734379,
+      "manifests": {
+        "5209221": {
+          "gid": "975021026936282666",
+          "size": 130307692,
+          "download": 48640656
+        },
+        "5209222": {
+          "gid": "7240830139207521468",
+          "size": 95371284,
+          "download": 40208800
+        },
+        "5209223": {
+          "gid": "2838937808625886767",
+          "size": 193506612,
+          "download": 67225568
+        }
+      }
+    }
+  ],
+  "_change_number": 40555873,
+  "_missing_token": false,
+  "_sha": "9cb6df5d4d83a856e5b66ad17466a4c3bfbbc994",
+  "_size": 5281,
   "appid": "5209220",
   "common": {
     "aicontenttype": "1",
@@ -32,8 +56,8 @@
     "clienticns": "df5e09fb340e625f0637de7c0f20c1f0040177c0",
     "clienticon": "a737a09f6ea1a9d2eeb11bb5f21b05a2d14a46a3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5209220",
     "genres": {
       "0": "4",
@@ -106,10 +130,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1e27622362a547d94d5d63f427fdcaf35cbb964d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793723785",
     "store_asset_mtime": "1789917135",
     "store_tags": {
       "0": "599",
@@ -140,5 +165,114 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Atom By Atom",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "AtomByAtom.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "AtomByAtom.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Atom By Atom.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5209221": {
+      "manifests": {
+        "public": {
+          "download": "48640656",
+          "gid": "975021026936282666",
+          "size": "130307692"
+        }
+      }
+    },
+    "5209222": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "40208800",
+          "gid": "7240830139207521468",
+          "size": "95371284"
+        }
+      }
+    },
+    "5209223": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "67225568",
+          "gid": "2838937808625886767",
+          "size": "193506612"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25738450",
+        "timebuildupdated": "1791238872",
+        "timeupdated": "1791238872"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Inner Core Studios",
+    "homepage": "https://innercorestudios.com/games/atom-by-atom/",
+    "publisher": "Inner Core Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "64",
+    "quota": "536870912",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Atommatic/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Atommatic",
+        "pattern": "blueprints.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

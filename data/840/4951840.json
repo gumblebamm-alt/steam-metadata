@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793211943,
-  "_history": [],
-  "_change_number": 40340853,
-  "_missing_token": true,
-  "_sha": "2dbbaf01ec7d56d5c2794fd8be3fca4c072f97dd",
-  "_size": 3123,
+  "_lastChecked": 1793734371,
+  "_history": [
+    {
+      "buildId": "25716025",
+      "branch": "public",
+      "timeUpdated": 1791150244,
+      "firstSeen": 1793734371,
+      "manifests": {
+        "4951841": {
+          "gid": "1872576855880497783",
+          "size": 135392773,
+          "download": 43774128
+        },
+        "4951843": {
+          "gid": "625313836579171313",
+          "size": 108219333,
+          "download": 37106672
+        }
+      }
+    }
+  ],
+  "_change_number": 40560445,
+  "_missing_token": false,
+  "_sha": "4a160f3144f1c338857a64a06b5c6fed85b20dbb",
+  "_size": 4434,
   "appid": "4951840",
   "common": {
     "associations": {
@@ -32,8 +51,8 @@
     },
     "clienticon": "840cb3f08e5c4b7027d5d7bd42f3f2f3a43d2b80",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4951840",
     "genres": {
       "0": "4",
@@ -104,11 +123,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "91b1bc29cea57e82ebfb8b2234097bcfedf7da95/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793196595",
+    "steam_release_date": "1793728698",
+    "store_asset_mtime": "1793731830",
     "store_tags": {
       "0": "4604",
       "1": "1320952",
@@ -140,5 +160,79 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Infi-Knight",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Infiknight.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Infiknight.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4951841": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "43774128",
+          "gid": "1872576855880497783",
+          "size": "135392773"
+        }
+      }
+    },
+    "4951843": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "37106672",
+          "gid": "625313836579171313",
+          "size": "108219333"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25716025",
+        "timebuildupdated": "1791149966",
+        "timeupdated": "1791150244"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Vozmog",
+    "publisher": "Signal Filter"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "400000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Infiknight",
+        "pattern": "save_data.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

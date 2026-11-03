@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793384031,
-  "_history": [],
-  "_change_number": 40430234,
-  "_missing_token": true,
-  "_sha": "0c8c3bfa4500c2442ef2623dcbc50f99d7daddae",
-  "_size": 4009,
+  "_lastChecked": 1793734374,
+  "_history": [
+    {
+      "buildId": "26411629",
+      "branch": "public",
+      "timeUpdated": 1793726744,
+      "firstSeen": 1793734374,
+      "manifests": {
+        "5028051": {
+          "gid": "5201759496019207232",
+          "size": 415760547,
+          "download": 162803728
+        },
+        "5028052": {
+          "gid": "2150536156007576876",
+          "size": 542865151,
+          "download": 222210960
+        }
+      }
+    }
+  ],
+  "_change_number": 40560038,
+  "_missing_token": false,
+  "_sha": "e2ecf86c172798df8d813f5b119ee73f48cd9e3e",
+  "_size": 5805,
   "appid": "5028050",
   "common": {
     "associations": {
@@ -33,10 +52,11 @@
       "category_78": "1",
       "category_80": "1"
     },
-    "clienticon": "32bd336f3df156bb9df9f1b0d9029c80ac333c32",
+    "clienticns": "0171d743a9a998dd7cbf09514b7c2f70c07f8b50",
+    "clienticon": "427209a93c82168c80a0e56d8fc331e6c0cb82e4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5028050",
     "genres": {
       "0": "28",
@@ -45,7 +65,7 @@
     "header_image": {
       "english": "72607a0ad3009de80f6df2ffcceb6f889fb5cd9a/header.jpg"
     },
-    "icon": "32bd336f3df156bb9df9f1b0d9029c80ac333c32",
+    "icon": "427209a93c82168c80a0e56d8fc331e6c0cb82e4",
     "languages": {
       "brazilian": "1",
       "bulgarian": "1",
@@ -117,16 +137,18 @@
         }
       }
     },
+    "linuxclienticon": "b2147567e680b512bf2329ab5de817e46256c795",
     "name": "Traffic Architect",
     "osarch": "64",
     "oscpu": "",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2686e34a8054e65384b180d013b462cba588e708/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793728771",
     "store_asset_mtime": "1792593327",
     "store_tags": {
       "0": "4328",
@@ -190,5 +212,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Traffic Architect",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Traffic Architect.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Traffic Architect.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5028051": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "162803728",
+          "gid": "5201759496019207232",
+          "size": "415760547"
+        }
+      }
+    },
+    "5028052": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "222210960",
+          "gid": "2150536156007576876",
+          "size": "542865151"
+        }
+      }
+    },
+    "baselanguages": "brazilian,bulgarian,czech,english,french,german,italian,latam,polish,portuguese,russian,schinese,spanish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26411629",
+        "timebuildupdated": "1793726162",
+        "timeupdated": "1793726744"
+      }
+    },
+    "workshopdepot": "5028050"
+  },
+  "extended": {
+    "developer": "Green Signal Games",
+    "publisher": "Green Signal Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "TrafficArchitect/saves",
+        "pattern": "*.sav",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

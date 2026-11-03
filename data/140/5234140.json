@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793166302,
-  "_history": [],
-  "_change_number": 40324986,
-  "_missing_token": true,
-  "_sha": "fda5fd0f8280921a63eb7fc24ad26e31dcaa3ecd",
-  "_size": 3239,
+  "_lastChecked": 1793734379,
+  "_history": [
+    {
+      "buildId": "25985123",
+      "branch": "public",
+      "timeUpdated": 1792149596,
+      "firstSeen": 1793734379,
+      "manifests": {
+        "5234141": {
+          "gid": "5381482629386615198",
+          "size": 1452443973,
+          "download": 1056381344
+        },
+        "5234142": {
+          "gid": "5336103616942340358",
+          "size": 1291721063,
+          "download": 1147870864
+        }
+      }
+    }
+  ],
+  "_change_number": 40556042,
+  "_missing_token": false,
+  "_sha": "26208be4a1d83e64daecd9d05a0988d6912d0068",
+  "_size": 4784,
   "appid": "5234140",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +49,8 @@
     "clienticns": "cea80f73ea9ac4427b9ba80891a1687263fb39e7",
     "clienticon": "cea80f73ea9ac4427b9ba80891a1687263fb39e7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5234140",
     "genres": {
       "0": "23",
@@ -108,10 +127,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ef0de8fa71d43be9e6f66087a37e2cf6223d6280/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1789364918",
     "store_tags": {
       "0": "599",
@@ -140,5 +160,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "INTERSECTION I",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play INTERSECTION I",
+        "description_loc": {
+          "english": "Play INTERSECTION I"
+        },
+        "executable": "Intersection.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Play INTERSECTION I",
+        "description_loc": {
+          "english": "Play INTERSECTION I"
+        },
+        "executable": "INTERSECTION I.app"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5234141": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1056381344",
+          "gid": "5381482629386615198",
+          "size": "1452443973"
+        }
+      }
+    },
+    "5234142": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1147870864",
+          "gid": "5336103616942340358",
+          "size": "1291721063"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25985123",
+        "timebuildupdated": "1792149596",
+        "timeupdated": "1792149596"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Emile Lee",
+    "homepage": "https://emilelee.art",
+    "isfreeapp": "1",
+    "publisher": "Emile Lee"
+  }
 }

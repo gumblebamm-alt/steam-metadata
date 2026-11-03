@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793211951,
-  "_history": [],
-  "_change_number": 40345200,
-  "_missing_token": true,
-  "_sha": "afd95d444799d2a9eb1923b7a1569470f95820a9",
-  "_size": 3803,
+  "_lastChecked": 1793734378,
+  "_history": [
+    {
+      "buildId": "26413305",
+      "branch": "public",
+      "timeUpdated": 1793731308,
+      "firstSeen": 1793734378,
+      "manifests": {
+        "5163191": {
+          "gid": "7811842939940425627",
+          "size": 1192066695,
+          "download": 601624288
+        },
+        "5163192": {
+          "gid": "2867172990301253995",
+          "size": 1170587873,
+          "download": 586957088
+        }
+      }
+    }
+  ],
+  "_change_number": 40560276,
+  "_missing_token": false,
+  "_sha": "6711740ee0f8eee5f1b3fc13aefecba741263941",
+  "_size": 5595,
   "appid": "5163190",
   "common": {
     "aicontenttype": "1",
@@ -45,9 +64,9 @@
     },
     "clienticon": "c6607a6dd33a0ead01184aadbfbc8d7d56434833",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5163190",
     "genres": {
       "0": "4",
@@ -119,10 +138,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d0f0f616b3144d84a77a92e64f0ee45b3d90bef3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793731441",
     "store_asset_mtime": "1792587476",
     "store_tags": {
       "0": "1770",
@@ -180,5 +200,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tumble Tavern",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "TumbleTavern.x86_64",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TumbleTavern.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65532",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input/game_actions_5163190.vdf"
+  },
+  "depots": {
+    "5163191": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "601624288",
+          "gid": "7811842939940425627",
+          "size": "1192066695"
+        }
+      }
+    },
+    "5163192": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "586957088",
+          "gid": "2867172990301253995",
+          "size": "1170587873"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26413305",
+        "timebuildupdated": "1793731046",
+        "timeupdated": "1793731308"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Guildhelm Studios Ltd",
+    "homepage": "https://tumbletavern.com",
+    "publisher": "Guildhelm Studios Ltd"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Guildhelm Studios/Tumble Tavern/saves",
+            "replace": "unity3d/Guildhelm Studios/Tumble Tavern/saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Guildhelm Studios/Tumble Tavern/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

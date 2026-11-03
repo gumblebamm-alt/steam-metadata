@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793556041,
-  "_history": [],
-  "_change_number": 40479305,
-  "_missing_token": true,
-  "_sha": "49228c052e6a17467e8043607e2af989279f2382",
-  "_size": 5728,
+  "_lastChecked": 1793734363,
+  "_history": [
+    {
+      "buildId": "23168357",
+      "branch": "local",
+      "timeUpdated": 1778423881,
+      "firstSeen": 1793734363,
+      "manifests": {
+        "4564871": {
+          "gid": "6922056703157600370",
+          "size": 92674115,
+          "download": 38751984
+        }
+      }
+    },
+    {
+      "buildId": "26360823",
+      "branch": "public",
+      "timeUpdated": 1793540443,
+      "firstSeen": 1793734363,
+      "manifests": {
+        "4564871": {
+          "gid": "6557000653092751188",
+          "size": 101152210,
+          "download": 47134672
+        }
+      }
+    }
+  ],
+  "_change_number": 40546204,
+  "_missing_token": false,
+  "_sha": "c4be568c3b60b682bd8784296573727ffebb84e8",
+  "_size": 6874,
   "appid": "4564870",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +57,8 @@
     },
     "clienticon": "bb9f12d8f4d83ae3c97ec65c7303450c68c34798",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4564870",
     "genres": {
       "0": "4",
@@ -131,11 +158,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0a13824a1400c72e1f9f95a99abc549e736059ca/capsule_231x87.jpg",
       "schinese": "57ef49dbb2984ba5c579fecb4fd82a24582f0c56/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1785056389",
     "store_tags": {
       "0": "615955",
@@ -253,5 +281,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "production",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DesktopAnt.exe"
+      }
+    }
+  },
+  "depots": {
+    "4564871": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "local": {
+          "download": "38751984",
+          "gid": "6922056703157600370",
+          "size": "92674115"
+        },
+        "public": {
+          "download": "47134672",
+          "gid": "6557000653092751188",
+          "size": "101152210"
+        }
+      }
+    },
+    "branches": {
+      "local": {
+        "buildid": "23168357",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1778423881",
+        "timeupdated": "1778423881"
+      },
+      "public": {
+        "buildid": "26360823",
+        "timebuildupdated": "1793540441",
+        "timeupdated": "1793540443"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Slowly Crafted",
+    "publisher": "Slowly Crafted"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "GameData",
+        "pattern": "*.typ",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

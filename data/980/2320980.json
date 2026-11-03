@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793688504,
-  "_history": [],
-  "_change_number": 40534366,
-  "_missing_token": true,
-  "_sha": "442b5fbddd400432256fac983e759f9f22673fb4",
-  "_size": 4883,
+  "_lastChecked": 1793734339,
+  "_history": [
+    {
+      "buildId": "26395031",
+      "branch": "public",
+      "timeUpdated": 1793670562,
+      "firstSeen": 1793734339,
+      "manifests": {
+        "2320981": {
+          "gid": "3439798826887135417",
+          "size": 7700904795,
+          "download": 7001262960
+        },
+        "2320982": {
+          "gid": "4496727994514919859",
+          "size": 7944583322,
+          "download": 6940118768
+        }
+      }
+    }
+  ],
+  "_change_number": 40561422,
+  "_missing_token": false,
+  "_sha": "702aa54fe5c8f11423e57709b86c1556ccba4b76",
+  "_size": 6954,
   "appid": "2320980",
   "common": {
     "associations": {
@@ -35,7 +54,7 @@
       "category_9": "1"
     },
     "clienticns": "ad443198a5aaa186a85b6a6812fcf68b3d15a0b9",
-    "clienticon": "edac6065b6efad1256a2e65588df27c84bded33a",
+    "clienticon": "3eee8177deccec9c6725761af7e5107762590992",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
     "controller_support": "full",
@@ -48,7 +67,6 @@
         "version": "3"
       }
     },
-    "exfgls": "8",
     "gameid": "2320980",
     "genres": {
       "0": "25",
@@ -63,7 +81,7 @@
       "english": "header.jpg",
       "schinese": "8ab1a8e39d4b52574e150e62a58823832d217ef0/header_schinese.jpg"
     },
-    "icon": "edac6065b6efad1256a2e65588df27c84bded33a",
+    "icon": "f42c9f32e864d5ed0aefded453ffbbfcd7f7ab9e",
     "library_assets": {
       "library_capsule": "en,zh-cn",
       "library_header": "en,zh-cn",
@@ -131,15 +149,17 @@
       "schinese": "乐浮岛"
     },
     "osarch": "",
-    "osextended": "macos64,macosapplesilicon",
+    "oscpu": "",
+    "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6ff52a8a7a58aa161b11b838cb6f14abcb68f620/capsule_231x87.jpg",
       "schinese": "15667cc22153cd32b9e19a7d0a3c7b168897bb78/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1793663674",
+    "steam_release_date": "1793728614",
+    "store_asset_mtime": "1793723424",
     "store_tags": {
       "0": "10235",
       "1": "97376",
@@ -208,5 +228,112 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Loftia",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Default",
+        "description_loc": {
+          "english": "Default"
+        },
+        "executable": "Loftia.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Loftia.app",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "-dx11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Loftia (DirectX 11 - Low Performance Mode)",
+        "description_loc": {
+          "english": "Loftia (DirectX 11 - Low Performance Mode)"
+        },
+        "executable": "Loftia.exe",
+        "type": "option2"
+      },
+      "4": {
+        "arguments": "-dx11",
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Loftia (Low Performance Mode)",
+        "description_loc": {
+          "english": "Loftia (Low Performance Mode)"
+        },
+        "executable": "Loftia.app",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2320981": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "7001262960",
+          "gid": "3439798826887135417",
+          "size": "7700904795"
+        }
+      }
+    },
+    "2320982": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "6940118768",
+          "gid": "4496727994514919859",
+          "size": "7944583322"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26395031",
+        "timebuildupdated": "1793670562",
+        "timeupdated": "1793670562"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Qloud Games",
+    "dlcavailableonstore": "1",
+    "gamedir": "Loftia",
+    "homepage": "https://loftia.gg/",
+    "listofdlc": "5366160",
+    "publisher": "Qloud Games",
+    "serverbrowsername": "Loftia"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000"
+  }
 }

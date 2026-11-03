@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793599372,
-  "_history": [],
-  "_change_number": 40495361,
-  "_missing_token": true,
-  "_sha": "6677c83d5235d1146b10398f436d2ec68698279f",
-  "_size": 4769,
+  "_lastChecked": 1793734365,
+  "_history": [
+    {
+      "buildId": "26411828",
+      "branch": "public",
+      "timeUpdated": 1793726729,
+      "firstSeen": 1793734365,
+      "manifests": {
+        "4700281": {
+          "gid": "5506952212438952580",
+          "size": 3263408687,
+          "download": 2430864208
+        }
+      }
+    }
+  ],
+  "_change_number": 40558834,
+  "_missing_token": false,
+  "_sha": "201e8daab03e998e3351467cb5d04c8641169148",
+  "_size": 5796,
   "appid": "4700280",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +45,8 @@
     },
     "clienticon": "70b65a9ca0ce6b6471d6fe4c134cc3a55fd21535",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4700280",
     "genres": {
       "0": "23",
@@ -113,11 +127,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2e44cc3418357f4829e1210fd4a5b842f24ea7f8/capsule_231x87.jpg",
       "schinese": "6ad226d7e144586de492b07274a648e91a31f1a9/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1793728828",
     "store_asset_mtime": "1785083466",
     "store_tags": {
       "0": "1676",
@@ -196,5 +211,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Ironfields",
+    "launch": {
+      "0": {
+        "executable": "Ironfields.exe"
+      }
+    }
+  },
+  "depots": {
+    "4700281": {
+      "manifests": {
+        "public": {
+          "download": "2430864208",
+          "gid": "5506952212438952580",
+          "size": "3263408687"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26411828",
+        "timebuildupdated": "1793726709",
+        "timeupdated": "1793726729"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "4700280"
+  },
+  "extended": {
+    "developer": "Divis Studio",
+    "publisher": "Divis Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "Ironfields/saves",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Ironfields",
+        "pattern": "campaign_progress.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Ironfields",
+        "pattern": "skirmish_progress.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

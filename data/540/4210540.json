@@ -1,6 +1,29 @@
 {
-  "_lastChecked": 1791290254,
+  "_lastChecked": 1793734356,
   "_history": [
+    {
+      "buildId": "26413902",
+      "branch": "beta",
+      "timeUpdated": 1793732865,
+      "firstSeen": 1793734356,
+      "manifests": {
+        "4210541": {
+          "gid": "5882174044512097804",
+          "size": 3847467659,
+          "download": 1197032384
+        },
+        "4210542": {
+          "gid": "5050735776388880726",
+          "size": 3637577329,
+          "download": 1092779840
+        },
+        "4210543": {
+          "gid": "4534461453405413284",
+          "size": 1051509378,
+          "download": 276774848
+        }
+      }
+    },
     {
       "buildId": "25698160",
       "branch": "beta",
@@ -94,6 +117,29 @@
       }
     },
     {
+      "buildId": "26413902",
+      "branch": "public",
+      "timeUpdated": 1793734154,
+      "firstSeen": 1793734356,
+      "manifests": {
+        "4210541": {
+          "gid": "5882174044512097804",
+          "size": 3847467659,
+          "download": 1197032384
+        },
+        "4210542": {
+          "gid": "5050735776388880726",
+          "size": 3637577329,
+          "download": 1092779840
+        },
+        "4210543": {
+          "gid": "4534461453405413284",
+          "size": 1051509378,
+          "download": 276774848
+        }
+      }
+    },
+    {
       "buildId": "25698160",
       "branch": "public",
       "timeUpdated": 1791044412,
@@ -163,10 +209,10 @@
       }
     }
   ],
-  "_change_number": 39455466,
+  "_change_number": 40561639,
   "_missing_token": false,
-  "_sha": "9735f49411784ec564e83de5dd363972fbfc5107",
-  "_size": 6713,
+  "_sha": "c3c930e9fd7cf1c1893ff0316ab5d628b730dc3f",
+  "_size": 7403,
   "appid": "4210540",
   "common": {
     "aicontenttype": "1",
@@ -270,7 +316,7 @@
       "english": "e78d3840a4e23a92055ccc8c5b6b888ab8030fb5/capsule_231x87.jpg"
     },
     "steam_release_date": "1772028964",
-    "store_asset_mtime": "1790779157",
+    "store_asset_mtime": "1793715973",
     "store_tags": {
       "0": "9",
       "1": "1643",
@@ -377,10 +423,16 @@
         "type": "default"
       },
       "1": {
+        "arguments": "-force-d3d12",
         "config": {
           "oslist": "windows"
         },
-        "executable": "game/Apoikia.exe"
+        "description": "Apoikia (DX12)",
+        "description_loc": {
+          "english": "Apoikia (DX12)"
+        },
+        "executable": "game/Apoikia.exe",
+        "type": "default"
       },
       "2": {
         "config": {
@@ -388,6 +440,30 @@
         },
         "executable": "Apoikia.x86_64",
         "type": "default"
+      },
+      "3": {
+        "arguments": "-force-d3d11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Apoikia (DX11)",
+        "description_loc": {
+          "english": "Apoikia (DX11)"
+        },
+        "executable": "game/Apoikia.exe",
+        "type": "option1"
+      },
+      "4": {
+        "arguments": "-force-vulkan",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Apoikia (Vulkan)",
+        "description_loc": {
+          "english": "Apoikia (Vulkan)"
+        },
+        "executable": "game/Apoikia.exe",
+        "type": "option2"
       }
     }
   },
@@ -399,14 +475,14 @@
       },
       "manifests": {
         "beta": {
-          "download": "686488816",
-          "gid": "316934855493687483",
-          "size": "2110981142"
+          "download": "1197032384",
+          "gid": "5882174044512097804",
+          "size": "3847467659"
         },
         "public": {
-          "download": "686488816",
-          "gid": "316934855493687483",
-          "size": "2110981142"
+          "download": "1197032384",
+          "gid": "5882174044512097804",
+          "size": "3847467659"
         }
       }
     },
@@ -416,14 +492,14 @@
       },
       "manifests": {
         "beta": {
-          "download": "586578784",
-          "gid": "8781828559174301372",
-          "size": "1901135967"
+          "download": "1092779840",
+          "gid": "5050735776388880726",
+          "size": "3637577329"
         },
         "public": {
-          "download": "586578784",
-          "gid": "8781828559174301372",
-          "size": "1901135967"
+          "download": "1092779840",
+          "gid": "5050735776388880726",
+          "size": "3637577329"
         }
       }
     },
@@ -449,15 +525,15 @@
     "baselanguages": "english,schinese",
     "branches": {
       "beta": {
-        "buildid": "25698160",
+        "buildid": "26413902",
         "description": "Beta Version",
-        "timebuildupdated": "1791042556",
-        "timeupdated": "1791042556"
+        "timebuildupdated": "1793732865",
+        "timeupdated": "1793732865"
       },
       "public": {
-        "buildid": "25698160",
-        "timebuildupdated": "1791042556",
-        "timeupdated": "1791044412"
+        "buildid": "26413902",
+        "timebuildupdated": "1793732865",
+        "timeupdated": "1793734154"
       }
     }
   },

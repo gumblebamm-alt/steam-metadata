@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793298792,
-  "_history": [],
-  "_change_number": 40372642,
-  "_missing_token": true,
-  "_sha": "d6612af6996de7f1bbcea8787dd03ba290cceb0a",
-  "_size": 4250,
+  "_lastChecked": 1793734363,
+  "_history": [
+    {
+      "buildId": "26310936",
+      "branch": "public",
+      "timeUpdated": 1793318294,
+      "firstSeen": 1793734363,
+      "manifests": {
+        "4608851": {
+          "gid": "6673536092582387659",
+          "size": 764096374,
+          "download": 673547472
+        }
+      }
+    }
+  ],
+  "_change_number": 40559715,
+  "_missing_token": false,
+  "_sha": "83589abca33f672643fe307bf24418f3b0eba89e",
+  "_size": 5820,
   "appid": "4608850",
   "common": {
     "aicontenttype": "1",
@@ -33,9 +47,9 @@
     },
     "clienticon": "1f4d26ac6ae9eac1c6201dda06e9a977f8192637",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4608850",
     "genres": {
       "0": "1",
@@ -121,10 +135,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4aaf294bece757f19239ffd2800d809a6be7f669/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793730386",
     "store_asset_mtime": "1793261280",
     "store_tags": {
       "0": "723991",
@@ -205,5 +220,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Aetheris Core",
+    "launch": {
+      "0": {
+        "description": "Play Aetheris Core",
+        "description_loc": {
+          "english": "Play Aetheris Core"
+        },
+        "executable": "AetherisCore.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-- --reset-display",
+        "description": "Reset Display Settings (Safe Windowed)",
+        "description_loc": {
+          "english": "Reset Display Settings (Safe Windowed)"
+        },
+        "executable": "AetherisCore.exe",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "4608851": {
+      "manifests": {
+        "public": {
+          "download": "673547472",
+          "gid": "6673536092582387659",
+          "size": "764096374"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,polish,russian,schinese,spanish,turkish,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "26310936",
+        "timebuildupdated": "1793317898",
+        "timeupdated": "1793318294"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Kavik Studios",
+    "publisher": "Kavik Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "800",
+    "quota": "80000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Aetheris Core/saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Aetheris Core",
+        "pattern": "player_prefs.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791085601,
-  "_history": [],
-  "_change_number": 39378336,
-  "_missing_token": true,
-  "_sha": "d3801dec25634f209b5efe96ca9bc24178c15568",
-  "_size": 3446,
+  "_lastChecked": 1793734378,
+  "_history": [
+    {
+      "buildId": "26407981",
+      "branch": "public",
+      "timeUpdated": 1793716504,
+      "firstSeen": 1793734378,
+      "manifests": {
+        "5190491": {
+          "gid": "5591873625860878500",
+          "size": 167975984,
+          "download": 86607488
+        },
+        "5190492": {
+          "gid": "8710122483178263682",
+          "size": 231588370,
+          "download": 105302448
+        }
+      }
+    }
+  ],
+  "_change_number": 40556658,
+  "_missing_token": false,
+  "_sha": "21762592634e209ee6179d95400a1ec644394fe0",
+  "_size": 5323,
   "appid": "5190490",
   "common": {
     "associations": {
@@ -29,8 +48,8 @@
     "clienticns": "8f3a0e46c47cb5b82eda98ba8c7189f2131d412e",
     "clienticon": "f810f0e6879ed18a8d8d3cf5ec5b87576ec32f26",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5190490",
     "genres": {
       "0": "4",
@@ -99,12 +118,17 @@
       }
     },
     "name": "One More Floor",
+    "osarch": "64",
+    "oscpu": "",
+    "osextended": "macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ede2f7d5cc0580c803378d305668b854efff7a51/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1790801292",
+    "steam_release_date": "1793725204",
+    "store_asset_mtime": "1793722979",
     "store_tags": {
       "0": "560542",
       "1": "615955",
@@ -164,5 +188,97 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "One More Floor",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "One More Floor.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "One More Floor.app\\Contents\\MacOS\\One More Floor"
+      }
+    }
+  },
+  "depots": {
+    "5190491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "86607488",
+          "gid": "5591873625860878500",
+          "size": "167975984"
+        }
+      }
+    },
+    "5190492": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "105302448",
+          "gid": "8710122483178263682",
+          "size": "231588370"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26407981",
+        "timebuildupdated": "1793716504",
+        "timeupdated": "1793716504"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Confused Quark",
+    "homepage": "https://impress.games/press-kit/confused-quark/one-more-floor",
+    "publisher": "Confused Quark"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "One More Floor",
+            "replace": "One More Floor"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "One More Floor",
+            "replace": "One More Floor"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "One More Floor",
+        "pattern": "*.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

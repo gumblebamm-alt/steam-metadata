@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793077379,
-  "_history": [],
-  "_change_number": 40269982,
-  "_missing_token": true,
-  "_sha": "0ec56834ce3e67c438aa615cfd1fc34a5b7f8970",
-  "_size": 3338,
+  "_lastChecked": 1793734364,
+  "_history": [
+    {
+      "buildId": "26411791",
+      "branch": "public",
+      "timeUpdated": 1793727388,
+      "firstSeen": 1793734364,
+      "manifests": {
+        "4663731": {
+          "gid": "8697643858000056758",
+          "size": 1000485516,
+          "download": 868214192
+        },
+        "4663732": {
+          "gid": "2538844591657706680",
+          "size": 965441588,
+          "download": 859794848
+        },
+        "4663733": {
+          "gid": "161399961491868558",
+          "size": 1065739290,
+          "download": 888598720
+        }
+      }
+    }
+  ],
+  "_change_number": 40557941,
+  "_missing_token": false,
+  "_sha": "16acfdc716a7717cedc1e11d4a302e883caba835",
+  "_size": 4997,
   "appid": "4663730",
   "common": {
     "associations": {
@@ -29,8 +53,8 @@
     },
     "clienticon": "b7a302ab0f41dcc9fd5dc811caaf80da5e585202",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4663730",
     "genres": {
       "0": "4",
@@ -104,10 +128,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0dc83a0a37e1239a29f02a10ab9edf9d1c31059b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793719121",
     "store_asset_mtime": "1792069860",
     "store_tags": {
       "0": "9",
@@ -134,24 +159,110 @@
     "supported_languages": {
       "english": {
         "supported": "true"
-      },
-      "french": {
-        "supported": "true"
-      },
-      "german": {
-        "supported": "true"
-      },
-      "russian": {
-        "supported": "true"
-      },
-      "schinese": {
-        "supported": "true"
-      },
-      "spanish": {
-        "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "How Empires Work",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "HowEmpiresWork.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "HowEmpiresWork.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "How Empires Work.app\\Contents\\MacOS\\How Empires Work"
+      }
+    }
+  },
+  "depots": {
+    "4663731": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "868214192",
+          "gid": "8697643858000056758",
+          "size": "1000485516"
+        }
+      }
+    },
+    "4663732": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "859794848",
+          "gid": "2538844591657706680",
+          "size": "965441588"
+        }
+      }
+    },
+    "4663733": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "888598720",
+          "gid": "161399961491868558",
+          "size": "1065739290"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26411791",
+        "timebuildupdated": "1793726605",
+        "timeupdated": "1793727388"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Crow Cottage",
+    "publisher": "Crow Cottage"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "500000000",
+    "rootoverrides": {
+      "1": {
+        "addpath": ".local/share/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      },
+      "2": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/How Empires Work/saves",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

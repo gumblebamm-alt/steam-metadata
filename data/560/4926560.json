@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792457874,
-  "_history": [],
-  "_change_number": 39616064,
-  "_missing_token": true,
-  "_sha": "ca0e5449af0515c69a979eef71495788e54a1fed",
-  "_size": 3297,
+  "_lastChecked": 1793734370,
+  "_history": [
+    {
+      "buildId": "26277689",
+      "branch": "public",
+      "timeUpdated": 1793209991,
+      "firstSeen": 1793734370,
+      "manifests": {
+        "4926561": {
+          "gid": "2375957579437191323",
+          "size": 613065549,
+          "download": 526157504
+        }
+      }
+    }
+  ],
+  "_change_number": 40549367,
+  "_missing_token": false,
+  "_sha": "361892e782e94b9667b8486ec35400fc3794b7ab",
+  "_size": 4854,
   "appid": "4926560",
   "common": {
     "aicontenttype": "1",
@@ -32,8 +46,8 @@
     },
     "clienticon": "4b4cb92f62a4e47d6e9ab5b051b8dad468ffe52d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4926560",
     "genres": {
       "0": "23",
@@ -112,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "979f528ca2900684f7fcb01f3f4dfc1deae562ee/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793712642",
     "store_asset_mtime": "1787209691",
     "store_tags": {
       "0": "9",
@@ -148,5 +163,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Path to Power",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ptp.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4926561": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "526157504",
+          "gid": "2375957579437191323",
+          "size": "613065549"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "26277689",
+        "timebuildupdated": "1793209287",
+        "timeupdated": "1793209991"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Smiret Games",
+    "publisher": "Smiret Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "4000000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Path to Power",
+        "pattern": "savegame.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Path to Power",
+        "pattern": "savegame.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Path to Power/saves/full",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Path to Power/saves/full",
+        "pattern": "*.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

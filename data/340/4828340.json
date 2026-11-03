@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793656023,
-  "_history": [],
-  "_change_number": 40505257,
-  "_missing_token": true,
-  "_sha": "fe6c996dad61542a34367cfd96ca476de10bf541",
-  "_size": 4535,
+  "_lastChecked": 1793734368,
+  "_history": [
+    {
+      "buildId": "26376814",
+      "branch": "public",
+      "timeUpdated": 1793614519,
+      "firstSeen": 1793734368,
+      "manifests": {
+        "4828341": {
+          "gid": "5672077829639742646",
+          "size": 691009909,
+          "download": 383070736
+        },
+        "4828342": {
+          "gid": "1890027642530397373",
+          "size": 655854293,
+          "download": 374362112
+        }
+      }
+    }
+  ],
+  "_change_number": 40560952,
+  "_missing_token": false,
+  "_sha": "c336d272bcd3dfeb146a1860326a93677af827a5",
+  "_size": 6772,
   "appid": "4828340",
   "common": {
     "aicontenttype": "1",
@@ -45,9 +64,9 @@
     },
     "clienticon": "278570074a15f37c69d52de550229d8c9eac0758",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4828340",
     "genres": {
       "0": "1",
@@ -137,10 +156,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7daea29a580f6db4a471c067faaea5a41acc2bda/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793711550",
     "store_asset_mtime": "1793617968",
     "store_tags": {
       "0": "42804",
@@ -152,6 +172,7 @@
       "14": "4182",
       "15": "493",
       "16": "492",
+      "17": "7926",
       "2": "6730",
       "3": "4026",
       "4": "3871",
@@ -221,5 +242,102 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Snake Gridbreaker",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play Snake: Gridbreaker",
+        "description_loc": {
+          "english": "Play Snake: Gridbreaker"
+        },
+        "executable": "SnakeGridbreaker.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Play Snake: Gridbreaker",
+        "description_loc": {
+          "english": "Play Snake: Gridbreaker"
+        },
+        "executable": "SnakeGridbreaker.x86_64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam/input/action_manifest_4828340.vdf"
+  },
+  "depots": {
+    "4828341": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "383070736",
+          "gid": "5672077829639742646",
+          "size": "691009909"
+        }
+      }
+    },
+    "4828342": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "374362112",
+          "gid": "1890027642530397373",
+          "size": "655854293"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,polish,russian,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26376814",
+        "timebuildupdated": "1793614519",
+        "timeupdated": "1793614519"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "4828340"
+  },
+  "extended": {
+    "developer": "Arkadiusz Włodarczyk",
+    "homepage": "https://snake-gridbreaker.com/",
+    "publisher": "Arkadiusz Włodarczyk"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "209715200",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Snake- Gridbreaker/cloud_saves",
+            "replace": "godot/app_userdata/Snake- Gridbreaker/cloud_saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Snake- Gridbreaker/cloud_saves",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

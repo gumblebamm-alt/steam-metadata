@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791895264,
+  "_lastChecked": 1793734339,
   "_history": [
     {
       "buildId": "9967639",
@@ -187,12 +187,70 @@
           "download": 2959686352
         }
       }
+    },
+    {
+      "buildId": "26291228",
+      "branch": "public",
+      "timeUpdated": 1793696525,
+      "firstSeen": 1793734339,
+      "manifests": {
+        "2221491": {
+          "gid": "3992933962116312714",
+          "size": 103417621222,
+          "download": 94944903584
+        },
+        "2221493": {
+          "gid": "5518049164915673000",
+          "size": 3102640661,
+          "download": 2935689184
+        },
+        "2221494": {
+          "gid": "1834506913055746475",
+          "size": 3141347917,
+          "download": 2991639168
+        },
+        "2221495": {
+          "gid": "3115030342884144467",
+          "size": 3077003907,
+          "download": 2930267552
+        },
+        "2221496": {
+          "gid": "1957641746681572363",
+          "size": 3171873183,
+          "download": 3068332960
+        },
+        "2221497": {
+          "gid": "4675319282987514550",
+          "size": 3128532699,
+          "download": 2998805120
+        },
+        "2221498": {
+          "gid": "8124923613044027020",
+          "size": 3075201693,
+          "download": 2932554144
+        },
+        "2221499": {
+          "gid": "6788106484327841148",
+          "size": 3116281094,
+          "download": 2965489424
+        },
+        "2222561": {
+          "gid": "4370510006279080180",
+          "size": 3059170924,
+          "download": 2915758992
+        },
+        "2222562": {
+          "gid": "770631784853793938",
+          "size": 3203318663,
+          "download": 3054696928
+        }
+      }
     }
   ],
-  "_change_number": 39772484,
+  "_change_number": 40559710,
   "_missing_token": false,
-  "_sha": "2029f387e0beaa91e79360f456e8b91114541d99",
-  "_size": 17799,
+  "_sha": "9ab8627f81c21e9107708d366f3ac137b4122815",
+  "_size": 17856,
   "appid": "2221490",
   "common": {
     "associations": {
@@ -447,14 +505,14 @@
       }
     },
     "steam_release_date": "1673545980",
-    "store_asset_mtime": "1790669972",
+    "store_asset_mtime": "1793611561",
     "store_tags": {
       "0": "353880",
       "1": "1695",
       "10": "1685",
       "11": "3835",
-      "12": "4236",
-      "13": "6730",
+      "12": "6730",
+      "13": "4236",
       "14": "4747",
       "15": "128",
       "16": "1662",
@@ -587,7 +645,7 @@
         "type": "default"
       },
       "2": {
-        "arguments": " -public_key_store_address pks.pc.tctd2.ubisoft.com -public_key_store_port 27015 -proxylist pc-lima.tctd2.ubisoft.com -proxylist_port 51000 -online -sdfonly -login_ubiservices -uplay_launcher -retail_frontend -use_public_key_store -retail_certs -startgame -dnatracking -enable_client_tracking -uplay_steam_mode -force_enable_epicEOS -force_enable_eac_module -force_enable_eos_sdk -anticheat_settings=Settings_Release_PROD.json -allowclmismatch",
+        "arguments": " -public_key_store_address pks.pc.tctd2.ubisoft.com -public_key_store_port 27015 -proxylist pc-november.tctd2.ubisoft.com -proxylist_port 51000 -online -sdfonly -login_ubiservices -uplay_launcher -retail_frontend -use_public_key_store -retail_certs -startgame -dnatracking -enable_client_tracking -uplay_steam_mode -force_enable_epicEOS -force_enable_eac_module -force_enable_eos_sdk -anticheat_settings=Settings_Release_PROD.json -allowclmismatch",
         "config": {
           "betakey": "qc-rel",
           "osarch": "64",
@@ -655,7 +713,7 @@
         "executable": "Rogue_x64_Release.exe"
       },
       "9": {
-        "arguments": "-proxylist BUC-WKS-PR1596.ubisoft.org -force_enable_epicEOS -force_enable_eos_sdk -nofullscreentutorials -proxylist_port 11001 -online -noserver -startgame -nophysdatecheck -ssl -noAssetScanner -no_game_proxy -sdfonly -retail_frontend -enabledebugui -nolatency -allowcutsceneskip -performance_tracking -enable_client_tracking  -uplay_launcher -upc_enable_dev_console -login_ubiservices -enable_mps_debug -dnatracking -allowclmismatch -sdfonly -uplay_steam_mode -anticheat_settings=Settings_Release_PROD.json -force_enable_eac_module",
+        "arguments": "TheDivision2 --exe EACLaunch.exe -proxylist BUC-WKS-PR1596.ubisoft.org -force_enable_sen -force_enable_epiceos -force_enable_eos_sdk -force_enable_eac_module -nofullscreentutorials -proxylist_port 11001 -online -noserver -startgame -nophysdatecheck -ssl -noAssetScanner -no_game_proxy -sdfonly -retail_frontend -enabledebugui -nolatency -allowcutsceneskip -performance_tracking -enable_client_tracking -uplay_launcher -upc_enable_dev_console -login_ubiservices -enable_mps_debug -dnatracking -allowclmismatch -sdfonly -uplay_steam_mode -anticheat_settings=Settings_Release_UAT.json",
         "config": {
           "betakey": "eac-release",
           "osarch": "64",
@@ -665,7 +723,7 @@
         "description_loc": {
           "english": "eac-release"
         },
-        "executable": "EACLaunch.exe",
+        "executable": "sen_launcher.exe",
         "type": "default"
       }
     },
@@ -681,9 +739,9 @@
           "size": "97076592191"
         },
         "public": {
-          "download": "97786162144",
-          "gid": "9006543938536362773",
-          "size": "107058559955"
+          "download": "94944903584",
+          "gid": "3992933962116312714",
+          "size": "103417621222"
         }
       }
     },
@@ -693,9 +751,9 @@
       },
       "manifests": {
         "public": {
-          "download": "2796633088",
-          "gid": "96180634723303113",
-          "size": "3011001182"
+          "download": "2935689184",
+          "gid": "5518049164915673000",
+          "size": "3102640661"
         }
       }
     },
@@ -705,9 +763,9 @@
       },
       "manifests": {
         "public": {
-          "download": "2913839040",
-          "gid": "8968466930275126704",
-          "size": "3095665326"
+          "download": "2991639168",
+          "gid": "1834506913055746475",
+          "size": "3141347917"
         }
       }
     },
@@ -717,9 +775,9 @@
       },
       "manifests": {
         "public": {
-          "download": "2815014048",
-          "gid": "7486469999311124818",
-          "size": "2995331254"
+          "download": "2930267552",
+          "gid": "3115030342884144467",
+          "size": "3077003907"
         }
       }
     },
@@ -729,9 +787,9 @@
       },
       "manifests": {
         "public": {
-          "download": "2928743360",
-          "gid": "3296571286700393778",
-          "size": "3105604759"
+          "download": "3068332960",
+          "gid": "1957641746681572363",
+          "size": "3171873183"
         }
       }
     },
@@ -741,9 +799,9 @@
       },
       "manifests": {
         "public": {
-          "download": "2865061120",
-          "gid": "2790145177581673665",
-          "size": "3033508245"
+          "download": "2998805120",
+          "gid": "4675319282987514550",
+          "size": "3128532699"
         }
       }
     },
@@ -753,9 +811,9 @@
       },
       "manifests": {
         "public": {
-          "download": "2809606640",
-          "gid": "6565862831655951081",
-          "size": "2987077273"
+          "download": "2932554144",
+          "gid": "8124923613044027020",
+          "size": "3075201693"
         }
       }
     },
@@ -765,9 +823,9 @@
       },
       "manifests": {
         "public": {
-          "download": "2850848768",
-          "gid": "7763472264432696852",
-          "size": "3027445552"
+          "download": "2965489424",
+          "gid": "6788106484327841148",
+          "size": "3116281094"
         }
       }
     },
@@ -777,9 +835,9 @@
       },
       "manifests": {
         "public": {
-          "download": "2753155408",
-          "gid": "5177549223421450398",
-          "size": "2929511779"
+          "download": "2915758992",
+          "gid": "4370510006279080180",
+          "size": "3059170924"
         }
       }
     },
@@ -789,9 +847,9 @@
       },
       "manifests": {
         "public": {
-          "download": "2959686352",
-          "gid": "8428794834614899997",
-          "size": "3145256924"
+          "download": "3054696928",
+          "gid": "770631784853793938",
+          "size": "3203318663"
         }
       }
     },
@@ -833,9 +891,9 @@
         "timeupdated": "1668772734"
       },
       "public": {
-        "buildid": "25363100",
-        "timebuildupdated": "1789629800",
-        "timeupdated": "1790236862"
+        "buildid": "26291228",
+        "timebuildupdated": "1793258580",
+        "timeupdated": "1793696525"
       }
     },
     "privatebranches": "1"
@@ -853,7 +911,7 @@
     "dlcavailableonstore": "1",
     "homepage": "https://www.ubisoft.com/en-gb/game/the-division",
     "legacykeylinkedexternally": "1",
-    "listofdlc": "2222560,2222570,2222571,2222580,2222730,2225120,2225121,2424600,2424601,2560550,2560560,2927620,2927630,2928970,2928980,3182470,3182480,3182490,3182500,3268800,3268810,3398640,3398650,3398660,3398680,3572100,3572110,3572140,3572150,3572160,3572170,3588070,3588080,3588090,3588100,3827270,3827280,3827290,3827300,4064190,4064200,4064210,4064220,4351500,4351510,4351520,4351530,4351540,4351550,4378130,4378150,4661970,4661980,4661990,4662000,4662010,4662020,4973980,4973990,4974000,4974010,4974020,4974030,5109190",
+    "listofdlc": "2222560,2222570,2222571,2222580,2222730,2225120,2225121,2424600,2424601,2560550,2560560,2927620,2927630,2928970,2928980,3182470,3182480,3182490,3182500,3268800,3268810,3398640,3398650,3398660,3398680,3572100,3572110,3572140,3572150,3572160,3572170,3588070,3588080,3588090,3588100,3827270,3827280,3827290,3827300,4064190,4064200,4064210,4064220,4351500,4351510,4351520,4351530,4351540,4351550,4378130,4378150,4661970,4661980,4661990,4662000,4662010,4662020,4973980,4973990,4974000,4974010,4974020,4974030,5109160",
     "publisher": "Ubisoft"
   }
 }

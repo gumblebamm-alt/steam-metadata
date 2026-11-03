@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793688513,
-  "_history": [],
-  "_change_number": 40534199,
-  "_missing_token": true,
-  "_sha": "c1b28ad909de150891447a9cc968929491e671bb",
-  "_size": 3031,
+  "_lastChecked": 1793734353,
+  "_history": [
+    {
+      "buildId": "26413662",
+      "branch": "public",
+      "timeUpdated": 1793732316,
+      "firstSeen": 1793734353,
+      "manifests": {
+        "3950002": {
+          "gid": "350345347412417204",
+          "size": 360394376,
+          "download": 153854096
+        },
+        "3950003": {
+          "gid": "7361602657666591587",
+          "size": 360880865,
+          "download": 147606944
+        },
+        "3950004": {
+          "gid": "8118775641261553358",
+          "size": 513897945,
+          "download": 213225200
+        }
+      }
+    }
+  ],
+  "_change_number": 40560722,
+  "_missing_token": false,
+  "_sha": "d4f6e21a7164dc6a4169983e1178956238d97283",
+  "_size": 4693,
   "appid": "3950000",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +50,8 @@
     },
     "clienticon": "5d82a0681f9d8155dee89bff55edffa228476c9d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3950000",
     "genres": {
       "0": "4",
@@ -101,10 +125,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9ac7699d3dd7335378e612c3414382415d4f8120/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793715507",
     "store_asset_mtime": "1793675442",
     "store_tags": {
       "0": "560542",
@@ -132,5 +157,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_scout"
+      }
+    },
+    "installdir": "FactoryWorksIdle",
+    "launch": {
+      "0": {
+        "arguments": "--in-process-gpu --disable-direct-composition",
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "FactoryWorksIdle.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--no-sandbox --disable-gpu-sandbox --no-zygote",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "FactoryWorksIdle",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "FactoryWorksIdle.app/Contents/MacOS/FactoryWorksIdle",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3950002": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "153854096",
+          "gid": "350345347412417204",
+          "size": "360394376"
+        }
+      }
+    },
+    "3950003": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "147606944",
+          "gid": "7361602657666591587",
+          "size": "360880865"
+        }
+      }
+    },
+    "3950004": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "213225200",
+          "gid": "8118775641261553358",
+          "size": "513897945"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26413662",
+        "timebuildupdated": "1793732166",
+        "timeupdated": "1793732316"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "EnricoBC",
+    "publisher": "EnricoBC"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "1000000"
+  }
 }

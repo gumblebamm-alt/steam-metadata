@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1793298783,
-  "_history": [],
-  "_change_number": 40392688,
-  "_missing_token": true,
-  "_sha": "3541eba0c3649a94bbb7e382a567238e226adaca",
-  "_size": 7470,
+  "_lastChecked": 1793734357,
+  "_history": [
+    {
+      "buildId": "26299795",
+      "branch": "debug",
+      "timeUpdated": 1793284758,
+      "firstSeen": 1793734357,
+      "manifests": {
+        "4225282": {
+          "gid": "7740139978399328935",
+          "size": 656994893,
+          "download": 412909584
+        },
+        "4225283": {
+          "gid": "5898176991299494896",
+          "size": 609741583,
+          "download": 390029584
+        },
+        "5477300": {
+          "gid": "5405774391692217002",
+          "size": 510552860,
+          "download": 220842016
+        }
+      }
+    },
+    {
+      "buildId": "26402800",
+      "branch": "public",
+      "timeUpdated": 1793700851,
+      "firstSeen": 1793734357,
+      "manifests": {
+        "4225282": {
+          "gid": "3344257091715013822",
+          "size": 581980042,
+          "download": 331351664
+        },
+        "4225283": {
+          "gid": "2141250574807343510",
+          "size": 534726732,
+          "download": 308471664
+        },
+        "5477300": {
+          "gid": "5405774391692217002",
+          "size": 510552860,
+          "download": 220842016
+        }
+      }
+    }
+  ],
+  "_change_number": 40557795,
+  "_missing_token": false,
+  "_sha": "025c51b7a73f097396d9d309879ddac6f31fda67",
+  "_size": 9851,
   "appid": "4225280",
   "common": {
     "associations": {
@@ -31,7 +78,6 @@
     "clienticon": "cdcdc571cebe8941bfa56264cbb8bf909c534508",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4225280",
     "genres": {
       "0": "23",
@@ -149,7 +195,9 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "74ac7a90f91ec82f6dda65f6e623086fae1de3b5/capsule_231x87.jpg",
       "japanese": "4554bc5a9592c895c16a3d2d2dcc6d415105e2ae/capsule_231x87_japanese.jpg",
@@ -157,7 +205,8 @@
       "schinese": "c118a6966e4cb86f141da57086a4fd42c5b6e86c/capsule_231x87_schinese.jpg",
       "tchinese": "b9f4e4a69efda09f4d854bc5d00711aea41cd446/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1792416949",
+    "steam_release_date": "1793721248",
+    "store_asset_mtime": "1793706598",
     "store_tags": {
       "0": "32322",
       "1": "1741",
@@ -211,5 +260,119 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Corpus et Spiritus",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Corpus et Spiritus win32 x64",
+        "description_loc": {
+          "english": "Corpus et Spiritus win32 x64"
+        },
+        "executable": "Spiritus.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Corpus et Spiritus linux x64",
+        "description_loc": {
+          "english": "Corpus et Spiritus linux x64"
+        },
+        "executable": "Spiritus",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4225282": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "debug": {
+          "download": "412909584",
+          "gid": "7740139978399328935",
+          "size": "656994893"
+        },
+        "public": {
+          "download": "331351664",
+          "gid": "3344257091715013822",
+          "size": "581980042"
+        }
+      }
+    },
+    "4225283": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "debug": {
+          "download": "390029584",
+          "gid": "5898176991299494896",
+          "size": "609741583"
+        },
+        "public": {
+          "download": "308471664",
+          "gid": "2141250574807343510",
+          "size": "534726732"
+        }
+      }
+    },
+    "5477300": {
+      "dlcappid": "5477300",
+      "manifests": {
+        "debug": {
+          "download": "220842016",
+          "gid": "5405774391692217002",
+          "size": "510552860"
+        },
+        "public": {
+          "download": "220842016",
+          "gid": "5405774391692217002",
+          "size": "510552860"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "debug": {
+        "buildid": "26299795",
+        "description": "Debug options enabled",
+        "timebuildupdated": "1793284758",
+        "timeupdated": "1793284758"
+      },
+      "public": {
+        "buildid": "26402800",
+        "timebuildupdated": "1793700851",
+        "timeupdated": "1793700851"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Arpentor Studio",
+    "dlcavailableonstore": "1",
+    "homepage": "https://arpentor.studio/games/spiritus/",
+    "listofdlc": "5477300",
+    "publisher": "Firesquid"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000"
+  }
 }

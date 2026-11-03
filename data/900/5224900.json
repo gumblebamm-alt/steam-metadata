@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793599381,
-  "_history": [],
-  "_change_number": 40484422,
-  "_missing_token": true,
-  "_sha": "5636e71292d4b1d13952fef96efc778c66313865",
-  "_size": 3738,
+  "_lastChecked": 1793734379,
+  "_history": [
+    {
+      "buildId": "26389193",
+      "branch": "public",
+      "timeUpdated": 1793653049,
+      "firstSeen": 1793734379,
+      "manifests": {
+        "5224901": {
+          "gid": "2909229682375906450",
+          "size": 338982491,
+          "download": 80620368
+        },
+        "5224902": {
+          "gid": "4518024751566639100",
+          "size": 356991627,
+          "download": 89322944
+        }
+      }
+    }
+  ],
+  "_change_number": 40538488,
+  "_missing_token": false,
+  "_sha": "65ac2e3f0db8f4354f217379ee2a1986103120fe",
+  "_size": 5704,
   "appid": "5224900",
   "common": {
     "aicontenttype": "1",
@@ -30,7 +49,6 @@
     "clienticon": "c44e110df53a55de755159912e8db3a6277441bc",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5224900",
     "genres": {
       "0": "4",
@@ -106,10 +124,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "09a76c9c2f435403de7fdad9ae677ee02e737381/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1789718832",
     "store_tags": {
       "0": "1732",
@@ -169,5 +188,100 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Timberland",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Timberland.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Timberland.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input/timberland_mando.vdf"
+  },
+  "depots": {
+    "5224901": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "80620368",
+          "gid": "2909229682375906450",
+          "size": "338982491"
+        }
+      }
+    },
+    "5224902": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "89322944",
+          "gid": "4518024751566639100",
+          "size": "356991627"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,latam,portuguese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26389193",
+        "timebuildupdated": "1793651187",
+        "timeupdated": "1793653049"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "LSM Games Studio",
+    "publisher": "LSM Games Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "5000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "LSM Games Studio/Timberland/Saves",
+            "replace": "com.lsmgames.timberland/Saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "LSM Games Studio/Timberland/Saves",
+        "pattern": "save.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "LSM Games Studio/Timberland/Saves",
+        "pattern": "chunks.bin",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

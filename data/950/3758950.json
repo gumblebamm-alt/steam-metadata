@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793688512,
-  "_history": [],
-  "_change_number": 40519093,
-  "_missing_token": true,
-  "_sha": "ac222b21b4a82246d6bc38167acab9d0842b631d",
-  "_size": 10058,
+  "_lastChecked": 1793734351,
+  "_history": [
+    {
+      "buildId": "26414069",
+      "branch": "public",
+      "timeUpdated": 1793733880,
+      "firstSeen": 1793734351,
+      "manifests": {
+        "3758951": {
+          "gid": "7811060232253817185",
+          "size": 1101231075,
+          "download": 1069750912
+        },
+        "3758952": {
+          "gid": "3242962271289995698",
+          "size": 1181542493,
+          "download": 1088668576
+        }
+      }
+    }
+  ],
+  "_change_number": 40561717,
+  "_missing_token": false,
+  "_sha": "7f174eceb6869186befbf5210bcde5a7bc77ba6a",
+  "_size": 12147,
   "appid": "3758950",
   "common": {
     "associations": {
@@ -33,6 +52,7 @@
     "clienticon": "4657b4126e5770cb27cb6019bf70dbe32c11a70b",
     "clienttga": "ac8d2f53723d9b4db424e02b238961a86244656f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -40,7 +60,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3758950",
     "genres": {
       "0": "25",
@@ -167,7 +186,9 @@
     "osextended": "macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "65",
+    "review_score": "5",
     "small_capsule": {
       "english": "83494523e0439365557640726dc4e5f8aa56fa0e/capsule_231x87.jpg",
       "japanese": "be7fb7d1b086f1c85779b1994b4c55a58f393b98/capsule_231x87_japanese.jpg",
@@ -248,7 +269,8 @@
         }
       }
     },
-    "store_asset_mtime": "1791683332",
+    "steam_release_date": "1793692813",
+    "store_asset_mtime": "1793692537",
     "store_tags": {
       "0": "5716",
       "1": "5613",
@@ -295,5 +317,107 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Death At Fleming Manor",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Death At Fleming Manor/DeathAtFlemingManor.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "FlemingManor.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3758951": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1069750912",
+          "gid": "7811060232253817185",
+          "size": "1101231075"
+        }
+      }
+    },
+    "3758952": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1088668576",
+          "gid": "3242962271289995698",
+          "size": "1181542493"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26414069",
+        "timebuildupdated": "1793733306",
+        "timeupdated": "1793733880"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "SUPERTHUMb",
+    "homepage": "https://www.superthumb.net/flemingmanor",
+    "publisher": "SUPERTHUMb"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "20000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "FlemingManor",
+            "replace": "com.SUPERTHUMb.DeathAtFlemingManor"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "FlemingManor",
+        "pattern": "*",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

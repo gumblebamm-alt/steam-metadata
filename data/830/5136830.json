@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792689419,
-  "_history": [],
-  "_change_number": 40118851,
-  "_missing_token": true,
-  "_sha": "2b03dd06b29e9b37a340840b8c9e12072866183f",
-  "_size": 3461,
+  "_lastChecked": 1793734377,
+  "_history": [
+    {
+      "buildId": "26253166",
+      "branch": "public",
+      "timeUpdated": 1793131502,
+      "firstSeen": 1793734377,
+      "manifests": {
+        "5136832": {
+          "gid": "8804917741716794568",
+          "size": 112170954,
+          "download": 108473648
+        },
+        "5136833": {
+          "gid": "8340624823485894121",
+          "size": 112948303,
+          "download": 109984176
+        }
+      }
+    }
+  ],
+  "_change_number": 40546965,
+  "_missing_token": false,
+  "_sha": "a42e33050b76b84aef771547153f986c44d18941",
+  "_size": 4949,
   "appid": "5136830",
   "common": {
     "associations": {
@@ -37,14 +56,13 @@
     "clienticns": "c20b54feadd78928c2689b2cfcb55212d149251d",
     "clienticon": "13f9a7403f251486e48865d013b7a802021b026c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5136830",
     "genres": {
       "0": "4",
       "1": "29",
-      "2": "2",
-      "3": "70"
+      "2": "2"
     },
     "header_image": {
       "english": "7dbe07a5f5021f70219de0738dfa75ca83b04345/header.jpg"
@@ -116,10 +134,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "47a2ef8cd605ada23c32c91c9314cf77819ac1b1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793708060",
     "store_asset_mtime": "1792655863",
     "store_tags": {
       "0": "6129",
@@ -157,5 +176,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tile Blast - Puzzle Game",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Tile Blast.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Tile Blast.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5136832": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "108473648",
+          "gid": "8804917741716794568",
+          "size": "112170954"
+        }
+      }
+    },
+    "5136833": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "109984176",
+          "gid": "8340624823485894121",
+          "size": "112948303"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26253166",
+        "timebuildupdated": "1793131463",
+        "timeupdated": "1793131502"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "MURBUL",
+    "homepage": "https://playtileblast.iitu.edu.kz/en",
+    "publisher": "MURBUL Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "500",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791247322,
+  "_lastChecked": 1793734351,
   "_history": [
     {
       "buildId": "24445460",
@@ -46,12 +46,35 @@
           "download": 4561442816
         }
       }
+    },
+    {
+      "buildId": "26372736",
+      "branch": "public",
+      "timeUpdated": 1793597364,
+      "firstSeen": 1793734351,
+      "manifests": {
+        "3799561": {
+          "gid": "4529024324049515696",
+          "size": 5649015229,
+          "download": 4560143184
+        },
+        "3799562": {
+          "gid": "6874121063639532699",
+          "size": 5631808666,
+          "download": 4558531632
+        },
+        "3799563": {
+          "gid": "3034079982204904885",
+          "size": 5769026269,
+          "download": 4612461680
+        }
+      }
     }
   ],
-  "_change_number": 39516309,
+  "_change_number": 40516698,
   "_missing_token": false,
-  "_sha": "ef72df01e4df6224334a2ad92e24a0cd13dfce85",
-  "_size": 8412,
+  "_sha": "b99f15cab60288daddbe61bad731c3918cd9583a",
+  "_size": 9465,
   "appid": "3799560",
   "common": {
     "associations": {
@@ -159,7 +182,7 @@
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
     "releasestate": "released",
-    "review_percentage": "71",
+    "review_percentage": "75",
     "review_score": "6",
     "small_capsule": {
       "english": "0b10d63ef94de9a8c7a8ba1fa969d7d3556f1c0e/capsule_231x87.jpg"
@@ -391,9 +414,9 @@
       },
       "manifests": {
         "public": {
-          "download": "4126568944",
-          "gid": "2385892401910371155",
-          "size": "10375142832"
+          "download": "4560143184",
+          "gid": "4529024324049515696",
+          "size": "5649015229"
         }
       }
     },
@@ -403,9 +426,9 @@
       },
       "manifests": {
         "public": {
-          "download": "4118990928",
-          "gid": "8721283646228639334",
-          "size": "10352179741"
+          "download": "4558531632",
+          "gid": "6874121063639532699",
+          "size": "5631808666"
         }
       }
     },
@@ -415,17 +438,17 @@
       },
       "manifests": {
         "public": {
-          "download": "4561442816",
-          "gid": "1905791900269168271",
-          "size": "12346086758"
+          "download": "4612461680",
+          "gid": "3034079982204904885",
+          "size": "5769026269"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25738174",
-        "timebuildupdated": "1791237980",
-        "timeupdated": "1791238264"
+        "buildid": "26372736",
+        "timebuildupdated": "1793596731",
+        "timeupdated": "1793597364"
       }
     }
   },
@@ -434,23 +457,63 @@
     "publisher": "ThunderRam Studios"
   },
   "ufs": {
-    "maxnumfiles": "20",
-    "quota": "10000000",
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ThunderRam Studios/GrimsLair",
+            "replace": "unity3d/ThunderRam Studios/GrimsLair"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ThunderRam Studios/GrimsLair",
+            "replace": "unity.ThunderRam Studios.GrimsLair"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
-        "path": "ThunderRam Studios/Grimslair",
-        "pattern": "player_*.sav",
-        "platforms": {
-          "1": "Windows"
-        },
+        "path": "ThunderRam Studios/GrimsLair",
+        "pattern": "player_*.save",
         "root": "WinAppDataLocalLow"
       },
       "1": {
-        "path": "ThunderRam Studios/Grimslair",
+        "path": "ThunderRam Studios/GrimsLair",
         "pattern": "player_*.meta",
-        "platforms": {
-          "1": "Windows"
-        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "ThunderRam Studios/GrimsLair",
+        "pattern": "player_*.save.bak",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "ThunderRam Studios/GrimsLair",
+        "pattern": "player_*.meta.bak",
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": "ThunderRam Studios/GrimsLair",
+        "pattern": "chamber_of_time_paintings_player_*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "5": {
+        "path": "ThunderRam Studios/GrimsLair",
+        "pattern": "chamber_of_time_paintings_player_*.json.bak",
         "root": "WinAppDataLocalLow"
       }
     }

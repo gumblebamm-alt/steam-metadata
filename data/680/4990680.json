@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793656029,
-  "_history": [],
-  "_change_number": 40514794,
-  "_missing_token": true,
-  "_sha": "523bc1335cfbc500002f24c081517d3faa2fd35d",
-  "_size": 3063,
+  "_lastChecked": 1793734372,
+  "_history": [
+    {
+      "buildId": "26408602",
+      "branch": "public",
+      "timeUpdated": 1793733035,
+      "firstSeen": 1793734372,
+      "manifests": {
+        "4990681": {
+          "gid": "773941025521177740",
+          "size": 159987270,
+          "download": 74866096
+        },
+        "4990682": {
+          "gid": "9201631620092322001",
+          "size": 178923372,
+          "download": 83637632
+        }
+      }
+    }
+  ],
+  "_change_number": 40561094,
+  "_missing_token": false,
+  "_sha": "a2486f520de255f219b74fd3ce9e89b4a4b8d463",
+  "_size": 5433,
   "appid": "4990680",
   "common": {
     "associations": {
@@ -20,6 +39,7 @@
     "category": {
       "category_1": "1",
       "category_2": "1",
+      "category_23": "1",
       "category_25": "1",
       "category_36": "1",
       "category_38": "1",
@@ -33,8 +53,8 @@
     },
     "clienticon": "caefcbdfad344c56577f4bedbfa8b75905766809",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4990680",
     "genres": {
       "0": "4",
@@ -103,13 +123,14 @@
     "name": "Terminidle",
     "osarch": "",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4151786f3018deb644eac96a460670a77ca5ec0f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793700322",
     "store_asset_mtime": "1793635999",
     "store_tags": {
       "0": "597",
@@ -138,5 +159,127 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Terminidle",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Terminidle.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Terminidle.app"
+      }
+    }
+  },
+  "depots": {
+    "4990681": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "74866096",
+          "gid": "773941025521177740",
+          "size": "159987270"
+        }
+      }
+    },
+    "4990682": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "83637632",
+          "gid": "9201631620092322001",
+          "size": "178923372"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26408602",
+        "timebuildupdated": "1793718138",
+        "timeupdated": "1793733035"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Zero Task",
+    "homepage": "https://www.zerotaskstudios.com/",
+    "publisher": "Zero Task"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Zero Task/Terminidle",
+        "pattern": "terminidle_save*\t",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Zero Task/Terminidle",
+        "pattern": "terminidle_slots*\t",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Zero Task/Terminidle",
+        "pattern": "scripts*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "unity.Zero Task.Terminidle",
+        "pattern": "terminidle_save*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "4": {
+        "path": "unity.Zero Task.Terminidle",
+        "pattern": "terminidle_slots*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "5": {
+        "path": "unity.Zero Task.Terminidle",
+        "pattern": "scripts*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

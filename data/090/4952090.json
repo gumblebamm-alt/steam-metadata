@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793688523,
-  "_history": [],
-  "_change_number": 40537732,
-  "_missing_token": true,
-  "_sha": "deac2b16f525d196f6d5c56be5ae703df72c9255",
-  "_size": 4114,
+  "_lastChecked": 1793734371,
+  "_history": [
+    {
+      "buildId": "26405299",
+      "branch": "public",
+      "timeUpdated": 1793708713,
+      "firstSeen": 1793734371,
+      "manifests": {
+        "4952091": {
+          "gid": "5489328092837829117",
+          "size": 3960511711,
+          "download": 3689719648
+        },
+        "4952092": {
+          "gid": "2318287286743343223",
+          "size": 3951750607,
+          "download": 3690074336
+        }
+      }
+    }
+  ],
+  "_change_number": 40561358,
+  "_missing_token": false,
+  "_sha": "3bf4e98b8f12b5de08efc852c948cdf333dfd573",
+  "_size": 6456,
   "appid": "4952090",
   "common": {
     "aicontenttype": "1",
@@ -47,9 +66,9 @@
     },
     "clienticon": "34dd4acac9c730f16adbed0af468719328a47e58",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4952090",
     "genres": {
       "0": "4",
@@ -134,11 +153,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e09bbfdd2faef8e692cdd5686582204d08c70f68/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791832433",
+    "steam_release_date": "1793696420",
+    "store_asset_mtime": "1793710494",
     "store_tags": {
       "0": "1091588",
       "1": "3859",
@@ -188,9 +208,122 @@
       },
       "spanish": {
         "supported": "true"
+      },
+      "tchinese": {
+        "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "SOLITAIRE.EXE",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "solitaire-exe.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "solitaire-exe.x86_64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4952091": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3689719648",
+          "gid": "5489328092837829117",
+          "size": "3960511711"
+        }
+      }
+    },
+    "4952092": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "3690074336",
+          "gid": "2318287286743343223",
+          "size": "3951750607"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26405299",
+        "timebuildupdated": "1793708600",
+        "timeupdated": "1793708713"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "4952090"
+  },
+  "extended": {
+    "developer": "PhoenixDnB",
+    "publisher": "PhoenixDnB"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/SOLITAIRE.EXE",
+            "replace": "godot/app_userdata/SOLITAIRE.EXE"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/SOLITAIRE.EXE",
+        "pattern": "solitaire.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/SOLITAIRE.EXE",
+        "pattern": "run_*.save",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/SOLITAIRE.EXE/profiles",
+        "pattern": "solitaire.cfg",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/SOLITAIRE.EXE/profiles",
+        "pattern": "run_*.save",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

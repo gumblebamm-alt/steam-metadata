@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793556052,
-  "_history": [],
-  "_change_number": 40484416,
-  "_missing_token": true,
-  "_sha": "7a70f113936382a3e2c9488a155a73d639fea4e4",
-  "_size": 4529,
+  "_lastChecked": 1793734376,
+  "_history": [
+    {
+      "buildId": "26408497",
+      "branch": "public",
+      "timeUpdated": 1793721027,
+      "firstSeen": 1793734376,
+      "manifests": {
+        "5101961": {
+          "gid": "6144568545223918986",
+          "size": 19823661,
+          "download": 12807408
+        },
+        "5101962": {
+          "gid": "6883308132248805227",
+          "size": 101889343,
+          "download": 101013760
+        }
+      }
+    }
+  ],
+  "_change_number": 40558813,
+  "_missing_token": false,
+  "_sha": "b5fb10317d9b0d5870b25d28aee9d29a582fb63b",
+  "_size": 6086,
   "appid": "5101960",
   "common": {
     "aicontenttype": "1",
@@ -39,8 +58,8 @@
     },
     "clienticon": "5c60047e365f1d2f3d769ae880963664124c62ea",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5101960",
     "genres": {
       "0": "3",
@@ -132,10 +151,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "59efdb6296ab7a63966a4ef5ca0885c1ed59ef1a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793728815",
     "store_asset_mtime": "1791495061",
     "store_tags": {
       "0": "9",
@@ -155,8 +175,8 @@
       "5": "17305",
       "6": "5711",
       "7": "1741",
-      "8": "14139",
-      "9": "1720"
+      "8": "1720",
+      "9": "14139"
     },
     "supported_languages": {
       "brazilian": {
@@ -214,5 +234,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "Dungeons & Dynasties",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DungeonsAndDynasties.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "steam-launch.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5101961": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "12807408",
+          "gid": "6144568545223918986",
+          "size": "19823661"
+        }
+      }
+    },
+    "5101962": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "101013760",
+          "gid": "6883308132248805227",
+          "size": "101889343"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26408497",
+        "timebuildupdated": "1793717856",
+        "timeupdated": "1793721027"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Bretticus82",
+    "publisher": "Surefire.Games"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "io.itch.brettlittle.dungeons-and-dynasties/saves",
+        "pattern": "*.sav",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

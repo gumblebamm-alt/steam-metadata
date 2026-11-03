@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793077375,
-  "_history": [],
-  "_change_number": 40273399,
-  "_missing_token": true,
-  "_sha": "d04c9ad6649b02ffbadec63c108975001210de7c",
-  "_size": 3687,
+  "_lastChecked": 1793734359,
+  "_history": [
+    {
+      "buildId": "26305240",
+      "branch": "public",
+      "timeUpdated": 1793299487,
+      "firstSeen": 1793734359,
+      "manifests": {
+        "4349541": {
+          "gid": "6094607689001162603",
+          "size": 4057032819,
+          "download": 1161755360
+        }
+      }
+    }
+  ],
+  "_change_number": 40552364,
+  "_missing_token": false,
+  "_sha": "97494c5cc1ae6fd6a086248e08c39bffd5370fd0",
+  "_size": 5416,
   "appid": "4349540",
   "common": {
     "associations": {
@@ -35,8 +49,8 @@
     },
     "clienticon": "550c0bbba854d1938bda3277e7816cec7ebf0430",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4349540",
     "genres": {
       "0": "1",
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "36584c0819941a132824cf97548af0f27ed45e44/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793718013",
     "store_asset_mtime": "1793048020",
     "store_tags": {
       "0": "723991",
@@ -174,5 +189,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pillars of Pantheon",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Pillars of Pantheon.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4349541": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1161755360",
+          "gid": "6094607689001162603",
+          "size": "4057032819"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,russian,schinese,spanish,tchinese,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26305240",
+        "timebuildupdated": "1793299441",
+        "timeupdated": "1793299487"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "4349540"
+  },
+  "extended": {
+    "developer": "Orbital Whale Games",
+    "publisher": "Orbital Whale Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Orbital Whale/Pillars of Pantheon",
+        "pattern": "pillars_of_pantheon_slot_*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Orbital Whale/Pillars of Pantheon/TowerSaves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Orbital Whale/Pillars of Pantheon/TowerBlueprints",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Orbital Whale/Pillars of Pantheon",
+        "pattern": "InputBindingOverrides.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

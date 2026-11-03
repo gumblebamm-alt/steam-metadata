@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793656031,
-  "_history": [],
-  "_change_number": 40517892,
-  "_missing_token": true,
-  "_sha": "75371ae31c2c762527df6738f6c1d86f17adf674",
-  "_size": 3154,
+  "_lastChecked": 1793734373,
+  "_history": [
+    {
+      "buildId": "26404955",
+      "branch": "public",
+      "timeUpdated": 1793707624,
+      "firstSeen": 1793734373,
+      "manifests": {
+        "5015421": {
+          "gid": "4815374920380852408",
+          "size": 10721030068,
+          "download": 5108651280
+        }
+      }
+    }
+  ],
+  "_change_number": 40547379,
+  "_missing_token": false,
+  "_sha": "be16de20c8fe8190c8570ccd49a254cc5147a1ae",
+  "_size": 4347,
   "appid": "5015420",
   "common": {
     "associations": {
@@ -32,9 +46,9 @@
     },
     "clienticon": "7f4ab39d3bfd5a1a63ab1a574e4ea4e224c4ec3e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5015420",
     "genres": {
       "0": "1",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ecd8517db862340a3e91de8cdd5dfc8dc1fec4ca/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793708792",
     "store_asset_mtime": "1793625005",
     "store_tags": {
       "0": "19",
@@ -140,5 +155,72 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "RIA26",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "RIA26.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5015421": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "5108651280",
+          "gid": "4815374920380852408",
+          "size": "10721030068"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26404955",
+        "timebuildupdated": "1793707567",
+        "timeupdated": "1793707624"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hammerbuck Games",
+    "publisher": "Hammerbuck Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "1": {
+        "path": "RIA26\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

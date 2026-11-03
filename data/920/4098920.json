@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793384012,
-  "_history": [],
-  "_change_number": 40423860,
-  "_missing_token": true,
-  "_sha": "6114e291dd72d582448d652dca5b6df8f4bb3de2",
-  "_size": 3460,
+  "_lastChecked": 1793734355,
+  "_history": [
+    {
+      "buildId": "26405791",
+      "branch": "public",
+      "timeUpdated": 1793710492,
+      "firstSeen": 1793734355,
+      "manifests": {
+        "4098921": {
+          "gid": "6761261127960752434",
+          "size": 16744547699,
+          "download": 15721498528
+        }
+      }
+    }
+  ],
+  "_change_number": 40554971,
+  "_missing_token": false,
+  "_sha": "5aeb3619e0af6e3e9731299af4c881705e87821f",
+  "_size": 5389,
   "appid": "4098920",
   "common": {
     "aicontenttype": "1",
@@ -38,6 +52,7 @@
     },
     "clienticon": "e07f4bb6ad0acb8eca25a231e1580ca2f20601f8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -50,7 +65,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4098920",
     "genres": {
       "0": "1",
@@ -124,7 +138,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0b392a81f54bfc7851a908125070a0f5cf6eb369/capsule_231x87.jpg"
     },
@@ -160,5 +174,104 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BRICK 2",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BRICK_2.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input/brick2_gamepad.vdf"
+  },
+  "depots": {
+    "228983": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4098921": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "15721498528",
+          "gid": "6761261127960752434",
+          "size": "16744547699"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26405791",
+        "timebuildupdated": "1793710110",
+        "timeupdated": "1793710492"
+      }
+    }
+  },
+  "extended": {
+    "anti_cheat_support_url": "https://www.easy.ac/r/steam/gamebans/?steamAppId=4098920",
+    "developer": "UndaWirrld Arcade",
+    "homepage": "https://brick-2.com",
+    "publisher": "UndaWirrld Arcade"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "BRICK_2/Saved/SaveGames",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "BRICK_2/Saved/SaveGames",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

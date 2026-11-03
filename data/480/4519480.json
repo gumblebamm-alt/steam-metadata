@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793384018,
-  "_history": [],
-  "_change_number": 40413092,
-  "_missing_token": true,
-  "_sha": "a72cf05ea8339fc5a24ce7d9aaa1efd8541caf93",
-  "_size": 3827,
+  "_lastChecked": 1793734361,
+  "_history": [
+    {
+      "buildId": "26279128",
+      "branch": "public",
+      "timeUpdated": 1793213538,
+      "firstSeen": 1793734361,
+      "manifests": {
+        "4519481": {
+          "gid": "8273683343982255387",
+          "size": 1228972221,
+          "download": 900779808
+        },
+        "4519482": {
+          "gid": "4245037662247016270",
+          "size": 1814475829,
+          "download": 1294372640
+        }
+      }
+    }
+  ],
+  "_change_number": 40559159,
+  "_missing_token": false,
+  "_sha": "7f09dac297792cf1f1c0de2952ffe22e419638b5",
+  "_size": 5376,
   "appid": "4519480",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +49,8 @@
     },
     "clienticon": "8cd34841806a577aab11fd92b90744a4441c5e08",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4519480",
     "genres": {
       "0": "1"
@@ -106,10 +125,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1c72d1f057ecdb94747f0e8099c73f375309a665/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793729312",
     "store_asset_mtime": "1793345979",
     "store_tags": {
       "0": "1659",
@@ -177,5 +197,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Outposters",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Outposters.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Outposters.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4519481": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "900779808",
+          "gid": "8273683343982255387",
+          "size": "1228972221"
+        }
+      }
+    },
+    "4519482": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1294372640",
+          "gid": "4245037662247016270",
+          "size": "1814475829"
+        }
+      }
+    },
+    "baselanguages": "english,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26279128",
+        "timebuildupdated": "1793213238",
+        "timeupdated": "1793213538"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Capuchin Games",
+    "homepage": "https://www.capuchin.games/",
+    "publisher": "Capuchin Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "1048576",
+    "rootoverrides": {
+      "0": {
+        "addpath": "unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Capuchin Games/Outposters",
+        "pattern": "profil*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Capuchin Games/Outposters",
+        "pattern": "kayit*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

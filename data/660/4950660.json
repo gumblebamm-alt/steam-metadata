@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793339325,
+  "_lastChecked": 1793734371,
   "_history": [
     {
       "buildId": "26308178",
@@ -13,12 +13,30 @@
           "download": 1845592992
         }
       }
+    },
+    {
+      "buildId": "26414046",
+      "branch": "public",
+      "timeUpdated": 1793734042,
+      "firstSeen": 1793734371,
+      "manifests": {
+        "4950662": {
+          "gid": "5110540811907939664",
+          "size": 5445994134,
+          "download": 1845592992
+        },
+        "4950663": {
+          "gid": "1659790791816542895",
+          "size": 5424227211,
+          "download": 1844429392
+        }
+      }
     }
   ],
-  "_change_number": 40405625,
+  "_change_number": 40561590,
   "_missing_token": false,
-  "_sha": "37615a358bd8f9217da7c51dbb25da1d2e10232e",
-  "_size": 3808,
+  "_sha": "405ec3697eff5a35c93aa77cb7b6cae663eb60b2",
+  "_size": 4196,
   "appid": "4950660",
   "common": {
     "associations": {
@@ -113,7 +131,7 @@
     "osarch": "",
     "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "primary_genre": "23",
     "releasestate": "released",
     "small_capsule": {
@@ -155,7 +173,16 @@
     "installdir": "Eris One Stand",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "Eris One Stand.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ErisMacBuild.app"
       }
     }
   },
@@ -181,12 +208,25 @@
         }
       }
     },
+    "4950663": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1844429392",
+          "gid": "1659790791816542895",
+          "size": "5424227211"
+        }
+      }
+    },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "26308178",
-        "timebuildupdated": "1793308431",
-        "timeupdated": "1793308480"
+        "buildid": "26414046",
+        "timebuildupdated": "1793733245",
+        "timeupdated": "1793734042"
       }
     }
   },

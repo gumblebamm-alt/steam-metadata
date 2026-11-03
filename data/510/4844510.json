@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791940077,
-  "_history": [],
-  "_change_number": 39744905,
-  "_missing_token": true,
-  "_sha": "cea92242460f2b9958ad1023a09e939b77ff2bf6",
-  "_size": 3185,
+  "_lastChecked": 1793734368,
+  "_history": [
+    {
+      "buildId": "25814515",
+      "branch": "public",
+      "timeUpdated": 1791494193,
+      "firstSeen": 1793734368,
+      "manifests": {
+        "4844511": {
+          "gid": "869535540752418859",
+          "size": 674091723,
+          "download": 391411568
+        },
+        "4844512": {
+          "gid": "4034602297772707441",
+          "size": 516330560,
+          "download": 330008400
+        }
+      }
+    }
+  ],
+  "_change_number": 40550941,
+  "_missing_token": false,
+  "_sha": "c8dc7233a40df0043b2ecd91a5036a900c56085f",
+  "_size": 4654,
   "appid": "4844510",
   "common": {
     "aicontenttype": "1",
@@ -32,9 +51,9 @@
     "clienticns": "c8f29bff84e1ddf4b473cc80c950f3ce76ccc4d2",
     "clienticon": "ee9ac3d3bb3c3b4bc8f38e6852f2c6bbe5aebdc8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4844510",
     "genres": {
       "0": "1",
@@ -106,10 +125,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a4bfaf31419ee6d1757eff06abde6dfd2d53d9d8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793715557",
     "store_asset_mtime": "1790601836",
     "store_tags": {
       "0": "3959",
@@ -140,5 +160,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Wisp Elemental Conflict",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "WISP.app"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "WISP.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4844511": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "391411568",
+          "gid": "869535540752418859",
+          "size": "674091723"
+        }
+      }
+    },
+    "4844512": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "330008400",
+          "gid": "4034602297772707441",
+          "size": "516330560"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25814515",
+        "timebuildupdated": "1791494182",
+        "timeupdated": "1791494193"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Two MOTES STUDIOS LLC",
+    "homepage": "https://twomotesstudios.com/",
+    "publisher": "Two MOTES STUDIOS LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "WISP",
+        "pattern": "wisp-cloud-save.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

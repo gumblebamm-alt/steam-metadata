@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793556028,
-  "_history": [],
-  "_change_number": 40481760,
-  "_missing_token": true,
-  "_sha": "7e076a14f205800d3fd879b85dd5b739df733ef6",
-  "_size": 3889,
+  "_lastChecked": 1793734342,
+  "_history": [
+    {
+      "buildId": "26410886",
+      "branch": "public",
+      "timeUpdated": 1793724079,
+      "firstSeen": 1793734342,
+      "manifests": {
+        "2692741": {
+          "gid": "232596148311460911",
+          "size": 622398860,
+          "download": 304918816
+        }
+      }
+    }
+  ],
+  "_change_number": 40556847,
+  "_missing_token": false,
+  "_sha": "b3437800c6e6eff7c6facadaadbae88df1371078",
+  "_size": 5300,
   "appid": "2692740",
   "common": {
     "associations": {
@@ -29,9 +43,9 @@
     "clienticon": "93432f62500893a8cdfd163b77af608dd5475728",
     "clienttga": "a01d092be1fae69079dd2878835f1a1d33b2571e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2692740",
     "genres": {
       "0": "25",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "259ca1df654ae13e6912a5f28b6610b3a0439c23/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793725341",
     "store_asset_mtime": "1793548539",
     "store_tags": {
       "0": "1100689",
@@ -180,5 +195,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SwappyWorld",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SwappyWorld.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "6",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2692741": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "304918816",
+          "gid": "232596148311460911",
+          "size": "622398860"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26410886",
+        "timebuildupdated": "1793724025",
+        "timeupdated": "1793724079"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Awakening Games srls",
+    "homepage": "https://awakeningames.com/",
+    "publisher": "Awakening Games srls"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "200000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "AwakeningGames/SwappyWorld",
+            "replace": "AwakeningGames/SwappyWorld"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "AwakeningGames/SwappyWorld",
+        "pattern": "*.save",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

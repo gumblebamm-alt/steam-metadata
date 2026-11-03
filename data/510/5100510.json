@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793425430,
-  "_history": [],
-  "_change_number": 40441658,
-  "_missing_token": true,
-  "_sha": "cff165bc2cab0be007f65f55ce17ef631e4289aa",
-  "_size": 3372,
+  "_lastChecked": 1793734376,
+  "_history": [
+    {
+      "buildId": "26408251",
+      "branch": "development",
+      "timeUpdated": 1793717325,
+      "firstSeen": 1793734376,
+      "manifests": {
+        "5100511": {
+          "gid": "2042159865528158443",
+          "size": 355845852,
+          "download": 162289712
+        }
+      }
+    },
+    {
+      "buildId": "26408251",
+      "branch": "public",
+      "timeUpdated": 1793717336,
+      "firstSeen": 1793734376,
+      "manifests": {
+        "5100511": {
+          "gid": "2042159865528158443",
+          "size": 355845852,
+          "download": 162289712
+        }
+      }
+    }
+  ],
+  "_change_number": 40554586,
+  "_missing_token": false,
+  "_sha": "5ab9e9e35019214df89e8685a32b0534f9e94b70",
+  "_size": 4537,
   "appid": "5100510",
   "common": {
     "associations": {
@@ -20,7 +47,6 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
-      "category_23": "1",
       "category_62": "1",
       "category_68": "1",
       "category_69": "1",
@@ -31,6 +57,7 @@
     "clienticns": "7f3cb9da7ad9a33f0afb3ecabccc1ea2e7e82b9e",
     "clienticon": "7f3cb9da7ad9a33f0afb3ecabccc1ea2e7e82b9e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -40,7 +67,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5100510",
     "genres": {
       "0": "25",
@@ -114,10 +140,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7e73f93c16ce48699622ef211fb177e903a77f54/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793721751",
     "store_asset_mtime": "1792842772",
     "store_tags": {
       "0": "5613",
@@ -150,5 +177,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HeartHarvest",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "HeartHarvest.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5100511": {
+      "manifests": {
+        "development": {
+          "download": "162289712",
+          "gid": "2042159865528158443",
+          "size": "355845852"
+        },
+        "public": {
+          "download": "162289712",
+          "gid": "2042159865528158443",
+          "size": "355845852"
+        }
+      }
+    },
+    "branches": {
+      "development": {
+        "buildid": "26408251",
+        "description": "dev branch",
+        "timebuildupdated": "1793717323",
+        "timeupdated": "1793717325"
+      },
+      "public": {
+        "buildid": "26408251",
+        "timebuildupdated": "1793717323",
+        "timeupdated": "1793717336"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Thorn Spire Games",
+    "publisher": "Thorn Spire Games"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "Godot/app_userdata/HeartHarvest/save_slots",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataRoaming"
+      }
+    }
+  }
 }

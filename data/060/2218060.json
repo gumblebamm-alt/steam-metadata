@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791940048,
-  "_history": [],
-  "_change_number": 39787506,
-  "_missing_token": true,
-  "_sha": "c2260f2f69db29dc24cd4eb6b15a27c5ea6355fb",
-  "_size": 4089,
+  "_lastChecked": 1793734339,
+  "_history": [
+    {
+      "buildId": "26407200",
+      "branch": "public",
+      "timeUpdated": 1793714627,
+      "firstSeen": 1793734339,
+      "manifests": {
+        "2218061": {
+          "gid": "450132794339879094",
+          "size": 513743826,
+          "download": 349995696
+        },
+        "2218062": {
+          "gid": "5763792376203576706",
+          "size": 533980560,
+          "download": 352389552
+        }
+      }
+    }
+  ],
+  "_change_number": 40552510,
+  "_missing_token": false,
+  "_sha": "6d36fd2438f55493cb28e45544bd61126ece8474",
+  "_size": 5410,
   "appid": "2218060",
   "common": {
     "associations": {
@@ -31,9 +50,9 @@
     "clienticon": "405b00bba60111120bb8fb6898a7d794448b0b87",
     "clienttga": "7ede47310a0cf8366bb547429701244c7570bb12",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2218060",
     "genres": {
       "0": "23",
@@ -104,10 +123,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "515674cb88a7a4521e8944b8b6d95f8a425da839/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793718232",
     "store_asset_mtime": "1791911210",
     "store_tags": {
       "0": "1091588",
@@ -193,5 +213,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Backdraft",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Backdraft.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Backdraft.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2218061": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "349995696",
+          "gid": "450132794339879094",
+          "size": "513743826"
+        }
+      }
+    },
+    "2218062": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "352389552",
+          "gid": "5763792376203576706",
+          "size": "533980560"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26407200",
+        "timebuildupdated": "1793714335",
+        "timeupdated": "1793714627"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Legacy Labs",
+    "homepage": "https://backdraft.gg/",
+    "publisher": "Legacy Labs"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "20",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "LegacyLabs/Backdraft/{64BitSteamID}/saves",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

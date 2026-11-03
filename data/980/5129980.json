@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793211950,
-  "_history": [],
-  "_change_number": 40332135,
-  "_missing_token": true,
-  "_sha": "1bfdcdebd541909355ad06d98ac2e37d940ad180",
-  "_size": 3800,
+  "_lastChecked": 1793734377,
+  "_history": [
+    {
+      "buildId": "26156135",
+      "branch": "public",
+      "timeUpdated": 1792747153,
+      "firstSeen": 1793734377,
+      "manifests": {
+        "5129981": {
+          "gid": "995816070520474109",
+          "size": 88494393,
+          "download": 40107600
+        },
+        "5129982": {
+          "gid": "4950642591471505961",
+          "size": 86932668,
+          "download": 39575056
+        }
+      }
+    }
+  ],
+  "_change_number": 40540473,
+  "_missing_token": false,
+  "_sha": "a11dd5dd1cc0c761f6b2aa799d434a037969e22d",
+  "_size": 5366,
   "appid": "5129980",
   "common": {
     "aicontenttype": "1",
@@ -35,9 +54,9 @@
     },
     "clienticon": "d7b4869cab1e68395640a4be2c5a7700ece13519",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5129980",
     "genres": {
       "0": "1",
@@ -122,10 +141,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "662cb73cd46070552507c90307bd3ed774ea4459/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1789386523",
     "store_tags": {
       "0": "5379",
@@ -181,5 +201,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Heirs of the Fountains",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "fountains_launcher.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "fountains_launcher"
+      }
+    }
+  },
+  "depots": {
+    "5129981": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "40107600",
+          "gid": "995816070520474109",
+          "size": "88494393"
+        }
+      }
+    },
+    "5129982": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "39575056",
+          "gid": "4950642591471505961",
+          "size": "86932668"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26156135",
+        "timebuildupdated": "1792746693",
+        "timeupdated": "1792747153"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "AlexFu",
+    "publisher": "AlexFu"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Picotron\\exp\\shared\\drive\\appdata\\fountains",
+            "replace": ".lexaloffle/Picotron/exp/shared/drive/appdata/fountains"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Picotron\\exp\\shared\\drive\\appdata\\fountains",
+        "pattern": "globals.pod",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
