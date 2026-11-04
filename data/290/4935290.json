@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793124085,
-  "_history": [],
-  "_change_number": 40304906,
-  "_missing_token": true,
-  "_sha": "9f0408f99dde5887da4f7de46472e23ebdb60b85",
-  "_size": 3082,
+  "_lastChecked": 1793773150,
+  "_history": [
+    {
+      "buildId": "26319563",
+      "branch": "public",
+      "timeUpdated": 1793352349,
+      "firstSeen": 1793773150,
+      "manifests": {
+        "4935291": {
+          "gid": "6014023853789302896",
+          "size": 635364015,
+          "download": 489357904
+        },
+        "4950940": {
+          "gid": "43682647680364128",
+          "size": 444314,
+          "download": 318880
+        }
+      }
+    }
+  ],
+  "_change_number": 40577149,
+  "_missing_token": false,
+  "_sha": "27625931b2898ab2e451868f77dcf2cdcfe2783f",
+  "_size": 4765,
   "appid": "4935290",
   "common": {
     "associations": {
@@ -31,8 +50,8 @@
     },
     "clienticon": "447513ff7ee99aa2ca19b1b405998de975866dc2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4935290",
     "genres": {
       "0": "23",
@@ -103,7 +122,7 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e7c8bbbae1460cea810e4c4cbddf6fe9518ce182/capsule_231x87.jpg"
     },
@@ -137,5 +156,98 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Starfallen Strength",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "StrengthAct1DLC.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "StrengthAct1DLC.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "StrengthAct1DLC.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4935291": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "download": "489357904",
+          "gid": "6014023853789302896",
+          "size": "635364015"
+        }
+      }
+    },
+    "4935292": {
+      "config": {
+        "osarch": "64"
+      }
+    },
+    "4950940": {
+      "dlcappid": "4950940",
+      "manifests": {
+        "public": {
+          "download": "318880",
+          "gid": "43682647680364128",
+          "size": "444314"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26319563",
+        "timebuildupdated": "1793352349",
+        "timeupdated": "1793352349"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Meant to Bee Studios",
+    "dlcavailableonstore": "1",
+    "isfreeapp": "1",
+    "listofdlc": "4950940",
+    "publisher": "Meant to Bee Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "10000000",
+    "savefiles": {
+      "1": {
+        "path": "game/saves",
+        "pattern": "*",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

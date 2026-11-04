@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793384035,
-  "_history": [],
-  "_change_number": 40365802,
-  "_missing_token": true,
-  "_sha": "8a5317e6fa15951b84b8385e76e5bfb21ca92994",
-  "_size": 4474,
+  "_lastChecked": 1793773155,
+  "_history": [
+    {
+      "buildId": "26287755",
+      "branch": "public",
+      "timeUpdated": 1793243548,
+      "firstSeen": 1793773155,
+      "manifests": {
+        "5135031": {
+          "gid": "1670366959473054434",
+          "size": 505580727,
+          "download": 272239904
+        }
+      }
+    }
+  ],
+  "_change_number": 40574901,
+  "_missing_token": false,
+  "_sha": "32b9b5b6e02c414b67ff03c2b700f3987834a795",
+  "_size": 5774,
   "appid": "5135030",
   "common": {
     "aicontenttype": "1",
@@ -32,8 +46,8 @@
     },
     "clienticon": "5d16e7b1c78fffd82f0bdd2af9a21ed477534d5f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5135030",
     "genres": {
       "0": "4",
@@ -119,7 +133,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6524111998da894330a8fd758b338d4946b143c2/capsule_231x87.jpg",
       "japanese": "1286578af6ee38838eca00a1a3c1fd8d7af41264/capsule_231x87_japanese.jpg"
@@ -173,5 +187,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ねこ部屋日和",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "NekoRoomDays.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5135031": {
+      "manifests": {
+        "public": {
+          "download": "272239904",
+          "gid": "1670366959473054434",
+          "size": "505580727"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,japanese,koreana,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26287755",
+        "timebuildupdated": "1793243454",
+        "timeupdated": "1793243548"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Icycozy Games",
+    "homepage": "https://icycozy.com/",
+    "publisher": "Icycozy Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Icycozy/Neko Room Days/Users/steam_{64BitSteamID}",
+            "replace": "unity.Icycozy.Neko Room Days/Users/steam_{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Icycozy/Neko Room Days/Users/steam_{64BitSteamID}",
+        "pattern": "save*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

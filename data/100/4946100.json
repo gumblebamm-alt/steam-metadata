@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1792457875,
-  "_history": [],
-  "_change_number": 40021359,
-  "_missing_token": true,
-  "_sha": "605c33daa45755aeced5de60ab51e405b91acd11",
-  "_size": 3374,
+  "_lastChecked": 1793773151,
+  "_history": [
+    {
+      "buildId": "26419924",
+      "branch": "beta",
+      "timeUpdated": 1793752793,
+      "firstSeen": 1793773151,
+      "manifests": {
+        "4946101": {
+          "gid": "7095804638095484187",
+          "size": 120738603,
+          "download": 90513376
+        },
+        "4946102": {
+          "gid": "2517002384229094718",
+          "size": 135332610,
+          "download": 94167312
+        }
+      }
+    },
+    {
+      "buildId": "26419924",
+      "branch": "public",
+      "timeUpdated": 1793752808,
+      "firstSeen": 1793773151,
+      "manifests": {
+        "4946101": {
+          "gid": "7095804638095484187",
+          "size": 120738603,
+          "download": 90513376
+        },
+        "4946102": {
+          "gid": "2517002384229094718",
+          "size": 135332610,
+          "download": 94167312
+        }
+      }
+    }
+  ],
+  "_change_number": 40570714,
+  "_missing_token": false,
+  "_sha": "18b010c6241109a8f1e398a74e3ab621913f8367",
+  "_size": 5553,
   "appid": "4946100",
   "common": {
     "associations": {
@@ -40,11 +77,11 @@
       "category_78": "1",
       "category_9": "1"
     },
-    "clienticon": "1f617574a84dc74518251593d55df86f4f0a9664",
+    "clienticon": "190a6fc6ea480629cec3fe4db5f03cb26498b974",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4946100",
     "genres": {
       "0": "4",
@@ -54,7 +91,7 @@
     "header_image": {
       "english": "51e183046b9a67d219fc2d7357483f38cd84afb6/header.jpg"
     },
-    "icon": "1f617574a84dc74518251593d55df86f4f0a9664",
+    "icon": "6f675a8ad1f224fcd40239557ecf6b2db63ce019",
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -111,15 +148,17 @@
         }
       }
     },
+    "linuxclienticon": "aba0bd5d2309e6b08a0cd1b00f2a7bd2c39c9767",
     "name": "SIDExLINES",
     "osarch": "64",
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3fb6fbb42bd15a265f1dda5c9ad0281d77416dcd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793753990",
     "store_asset_mtime": "1786927736",
     "store_tags": {
       "0": "3859",
@@ -151,5 +190,115 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SIDExLINES",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "SIDExLINES.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "sidexlines.sh",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4946101": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "90513376",
+          "gid": "7095804638095484187",
+          "size": "120738603"
+        },
+        "public": {
+          "download": "90513376",
+          "gid": "7095804638095484187",
+          "size": "120738603"
+        }
+      }
+    },
+    "4946102": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "94167312",
+          "gid": "2517002384229094718",
+          "size": "135332610"
+        },
+        "public": {
+          "download": "94167312",
+          "gid": "2517002384229094718",
+          "size": "135332610"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "beta": {
+        "buildid": "26419924",
+        "description": "Beta, may contain bugs and other experimental features",
+        "timebuildupdated": "1793752793",
+        "timeupdated": "1793752793"
+      },
+      "public": {
+        "buildid": "26419924",
+        "timebuildupdated": "1793752793",
+        "timeupdated": "1793752808"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Rachimon",
+    "publisher": "Rachimon"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "SIDExLINES/saves/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "SIDExLINES/saves/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

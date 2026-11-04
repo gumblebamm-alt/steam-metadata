@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1790772036,
-  "_history": [],
-  "_change_number": 39335535,
-  "_missing_token": true,
-  "_sha": "daff46d75450b53b15379d1862e003951530c37b",
-  "_size": 4139,
+  "_lastChecked": 1793773141,
+  "_history": [
+    {
+      "buildId": "26420948",
+      "branch": "public",
+      "timeUpdated": 1793757409,
+      "firstSeen": 1793773141,
+      "manifests": {
+        "4286111": {
+          "gid": "3421029887791623384",
+          "size": 926684403,
+          "download": 749803200
+        }
+      }
+    },
+    {
+      "buildId": "26420948",
+      "branch": "review_beta",
+      "timeUpdated": 1793757037,
+      "firstSeen": 1793773141,
+      "manifests": {
+        "4286111": {
+          "gid": "3421029887791623384",
+          "size": 926684403,
+          "download": 749803200
+        }
+      }
+    }
+  ],
+  "_change_number": 40577043,
+  "_missing_token": false,
+  "_sha": "acc526de487f478c9a663432b410e6f282081f67",
+  "_size": 5295,
   "appid": "4286110",
   "common": {
     "associations": {
@@ -25,8 +52,8 @@
     "clienticns": "656b35e28cb08e24a5580a649f0fc899e62fca43",
     "clienticon": "97eb6d220c390282593c4809d2d3cf7f71073ad6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4286110",
     "genres": {
       "0": "3"
@@ -36,6 +63,10 @@
       "schinese": "27ab67e5dc92c281c6006b2036e0d17d5cdf9cb6/header_schinese.jpg"
     },
     "icon": "97eb6d220c390282593c4809d2d3cf7f71073ad6",
+    "languages": {
+      "english": "1",
+      "schinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en,zh-cn",
       "library_header": "en,zh-cn",
@@ -112,26 +143,29 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "80",
+    "review_score": "7",
     "small_capsule": {
       "english": "f5b550757963839c0123b2183e751d84f6887121/capsule_231x87.jpg",
       "schinese": "6e578cbd8ed20117f905b6d613e238ba49b90bd9/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1780734640",
     "store_tags": {
       "0": "122",
       "1": "597",
-      "10": "12095",
+      "10": "4182",
       "11": "1721",
       "12": "1667",
       "2": "11014",
       "3": "9551",
       "4": "3799",
-      "5": "4085",
-      "6": "4947",
-      "7": "31275",
-      "8": "6971",
-      "9": "4182"
+      "5": "12095",
+      "6": "4085",
+      "7": "4947",
+      "8": "31275",
+      "9": "6971"
     },
     "supported_languages": {
       "japanese": {
@@ -146,5 +180,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "imouto",
+    "launch": {
+      "0": {
+        "executable": "imouto.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4286111": {
+      "manifests": {
+        "public": {
+          "download": "749803200",
+          "gid": "3421029887791623384",
+          "size": "926684403"
+        },
+        "review_beta": {
+          "download": "749803200",
+          "gid": "3421029887791623384",
+          "size": "926684403"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26420948",
+        "timebuildupdated": "1793756996",
+        "timeupdated": "1793757409"
+      },
+      "review_beta": {
+        "buildid": "26420948",
+        "description": "review_beta",
+        "timebuildupdated": "1793756996",
+        "timeupdated": "1793757037"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "NANACAN",
+    "publisher": "TamaMako Gaming"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "game/saves",
+        "pattern": "*.*",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792689397,
-  "_history": [],
-  "_change_number": 40123857,
-  "_missing_token": true,
-  "_sha": "de0079887c84b7a2c0e419ae66484aa8f0053d2f",
-  "_size": 6860,
+  "_lastChecked": 1793773144,
+  "_history": [
+    {
+      "buildId": "26373564",
+      "branch": "public",
+      "timeUpdated": 1793601517,
+      "firstSeen": 1793773144,
+      "manifests": {
+        "4553781": {
+          "gid": "8611911972546619392",
+          "size": 917334881,
+          "download": 773392752
+        }
+      }
+    }
+  ],
+  "_change_number": 40571394,
+  "_missing_token": false,
+  "_sha": "b4701b97bb00bf23b8df23b454929aca44f90de7",
+  "_size": 8287,
   "appid": "4553780",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +47,8 @@
     },
     "clienticon": "a1cf1372a375d9daee8c24403a280ab1f919aea7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4553780",
     "genres": {
       "0": "4",
@@ -155,7 +169,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "72fc047f796d552d17f717bee3a412daeffbcf69/capsule_231x87.jpg",
       "japanese": "666d27b48ec99086057375497f3d5ab7a19a1a16/capsule_231x87_japanese.jpg",
@@ -163,6 +177,7 @@
       "schinese": "18790075eae062e2fef41e596d71ea54db950c29/capsule_231x87_schinese.jpg",
       "tchinese": "130e93bb173c5cacfac6dabcecb5c49a91a1aa8e/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1793755893",
     "store_asset_mtime": "1792660256",
     "store_tags": {
       "0": "560542",
@@ -226,5 +241,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Crystal Ascend",
+    "launch": {
+      "0": {
+        "executable": "ZodiacCrystal.exe"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "description": "Crystal Ascend (DX11)",
+        "description_loc": {
+          "english": "Crystal Ascend (DX11)",
+          "japanese": "クリスタル・アセンド (DX11)",
+          "koreana": "크리스탈 어센드 (DX11)",
+          "schinese": "晶灵觉醒 (DX11)",
+          "tchinese": "晶靈覺醒 (DX11)"
+        },
+        "executable": "ZodiacCrystal.exe",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4553781": {
+      "manifests": {
+        "public": {
+          "download": "773392752",
+          "gid": "8611911972546619392",
+          "size": "917334881"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26373564",
+        "timebuildupdated": "1793601261",
+        "timeupdated": "1793601517"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Zodiac GameLab",
+    "publisher": "Zodiac GameLab"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "ZodiacCrystal/Saved/SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

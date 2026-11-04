@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793467093,
-  "_history": [],
-  "_change_number": 40459277,
-  "_missing_token": true,
-  "_sha": "c59a2f9b0530c396ee37d0c375e0f563c43dbf2a",
-  "_size": 4097,
+  "_lastChecked": 1793773136,
+  "_history": [
+    {
+      "buildId": "26420567",
+      "branch": "public",
+      "timeUpdated": 1793755518,
+      "firstSeen": 1793773136,
+      "manifests": {
+        "3793801": {
+          "gid": "7948904542183772330",
+          "size": 2403579205,
+          "download": 2243668160
+        }
+      }
+    }
+  ],
+  "_change_number": 40571275,
+  "_missing_token": false,
+  "_sha": "0f6021e565ae90619fd00090856618fb0ac4b35f",
+  "_size": 6130,
   "appid": "3793800",
   "common": {
     "associations": {
@@ -36,9 +50,9 @@
     },
     "clienticon": "e437a83f3fad97c283342309acd62c876e5c597a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3793800",
     "genres": {
       "0": "23",
@@ -117,10 +131,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a00b7846f8e3ad6dd5b695ed170f1735d6295406/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793743068",
     "store_asset_mtime": "1793327663",
     "store_tags": {
       "0": "699",
@@ -179,7 +194,97 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pulse Drive",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play",
+        "description_loc": {
+          "english": "Play"
+        },
+        "executable": "PulseDrive.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-d3d11",
+        "description": "Pulse Drive - D3D11 Compatibility Mode",
+        "description_loc": {
+          "english": "Pulse Drive - D3D11 Compatibility Mode"
+        },
+        "executable": "PulseDrive.exe",
+        "type": "option1"
+      }
+    },
+    "steamconfigurator3rdpartynative": "9",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3793801": {
+      "manifests": {
+        "public": {
+          "download": "2243668160",
+          "gid": "7948904542183772330",
+          "size": "2403579205"
+        }
+      }
+    },
+    "baselanguages": "dutch,english,french,german,italian,japanese,koreana,latam,portuguese,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26420567",
+        "timebuildupdated": "1793755478",
+        "timeupdated": "1793755518"
+      }
+    },
+    "privatebranches": "1",
+    "workshopdepot": "3793800"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Nemi",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5265740",
+    "publisher": "Nemi's Brainworms",
+    "remoteplaytogethertestingbranches": "default,alpha"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "1": {
+        "path": "PulseDrive/Saved/SaveGames",
+        "pattern": "SaveSlot1.sav",
+        "root": "WinAppDataLocal"
+      },
+      "3": {
+        "path": "PulseDrive/Saved/GhostReplay/",
+        "pattern": "disabled.bin",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

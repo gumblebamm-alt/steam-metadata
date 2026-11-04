@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793425420,
+  "_lastChecked": 1793773145,
   "_history": [
     {
       "buildId": "26123251",
@@ -13,12 +13,30 @@
           "download": 346495936
         }
       }
+    },
+    {
+      "buildId": "26422932",
+      "branch": "public",
+      "timeUpdated": 1793765235,
+      "firstSeen": 1793773145,
+      "manifests": {
+        "4603281": {
+          "gid": "5267956026900964139",
+          "size": 419776478,
+          "download": 346934544
+        },
+        "4603282": {
+          "gid": "6199237338228187079",
+          "size": 500947262,
+          "download": 369827008
+        }
+      }
     }
   ],
-  "_change_number": 40448251,
+  "_change_number": 40575032,
   "_missing_token": false,
-  "_sha": "e4ec0b0c6c4e49abdcd0897ba1cf79cabe961fae",
-  "_size": 4541,
+  "_sha": "1a6968720e69bfdc446640071283f8dbcc02fe97",
+  "_size": 5578,
   "appid": "4603280",
   "common": {
     "aicontenttype": "1",
@@ -124,8 +142,9 @@
     "linuxclienticon": "5e070459e4d631cb2089cb990667db0c792fe5d0",
     "name": "Triad of Victory",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
     "small_capsule": {
@@ -144,11 +163,43 @@
       "7": "21"
     },
     "supported_languages": {
+      "brazilian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "english": {
         "subtitles": "true",
         "supported": "true"
       },
+      "french": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "german": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "japanese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "koreana": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "russian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "schinese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "spanish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "tchinese": {
         "subtitles": "true",
         "supported": "true"
       }
@@ -159,7 +210,16 @@
     "installdir": "Triad of Victory",
     "launch": {
       "0": {
-        "executable": "windows/Triad of Victory.exe"
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Triad of Victory.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Triad of Victory.app"
       }
     }
   },
@@ -170,18 +230,30 @@
       },
       "manifests": {
         "public": {
-          "download": "346495936",
-          "gid": "5460551099745689499",
-          "size": "417957874"
+          "download": "346934544",
+          "gid": "5267956026900964139",
+          "size": "419776478"
         }
       }
     },
-    "baselanguages": "english,schinese",
+    "4603282": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "369827008",
+          "gid": "6199237338228187079",
+          "size": "500947262"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,latam,russian,schinese,spanish,tchinese",
     "branches": {
       "public": {
-        "buildid": "26123251",
-        "timebuildupdated": "1792636887",
-        "timeupdated": "1792637146"
+        "buildid": "26422932",
+        "timebuildupdated": "1793764773",
+        "timeupdated": "1793765235"
       }
     },
     "hasdepotsindlc": "0",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793688499,
+  "_lastChecked": 1793773122,
   "_history": [
     {
       "buildId": "4794761",
@@ -61,12 +61,68 @@
           "download": 132189344
         }
       }
+    },
+    {
+      "buildId": "26418505",
+      "branch": "linuxbeta",
+      "timeUpdated": 1793747748,
+      "firstSeen": 1793773122,
+      "manifests": {
+        "372801": {
+          "gid": "3670577720981664589",
+          "size": 131266942,
+          "download": 95463968
+        },
+        "372802": {
+          "gid": "1694108760238525923",
+          "size": 456727641,
+          "download": 241524784
+        },
+        "372805": {
+          "gid": "2938567949688456752",
+          "size": 119933822,
+          "download": 88055760
+        },
+        "372806": {
+          "gid": "599944295240030800",
+          "size": 160649967,
+          "download": 132189040
+        }
+      }
+    },
+    {
+      "buildId": "26418505",
+      "branch": "public",
+      "timeUpdated": 1793751917,
+      "firstSeen": 1793773122,
+      "manifests": {
+        "372801": {
+          "gid": "3670577720981664589",
+          "size": 131266942,
+          "download": 95463968
+        },
+        "372802": {
+          "gid": "1694108760238525923",
+          "size": 456727641,
+          "download": 241524784
+        },
+        "372805": {
+          "gid": "2938567949688456752",
+          "size": 119933822,
+          "download": 88055760
+        },
+        "372806": {
+          "gid": "599944295240030800",
+          "size": 160649967,
+          "download": 132189040
+        }
+      }
     }
   ],
-  "_change_number": 40530568,
+  "_change_number": 40570340,
   "_missing_token": false,
-  "_sha": "b6ac0b8d688527fe719070a785ca2fa8a43c1ebe",
-  "_size": 7945,
+  "_sha": "220518903874f5000dba10f6484824b60adbd1c6",
+  "_size": 8760,
   "appid": "372800",
   "common": {
     "associations": {
@@ -173,7 +229,7 @@
     "osarch": "",
     "oscpu": "",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "oslist": "windows,macos",
+    "oslist": "windows,macos,linux",
     "primary_genre": "70",
     "releasestate": "released",
     "review_percentage": "78",
@@ -347,6 +403,12 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "contenttype": "3",
     "installdir": "RPG MO",
     "launch": {
@@ -357,19 +419,21 @@
         "description": "Launch",
         "executable": "nw.exe"
       },
-      "1": {
-        "config": {
-          "oslist": "linux"
-        },
-        "description": "Launch",
-        "executable": "nw"
-      },
       "2": {
         "config": {
           "oslist": "macos"
         },
         "description": "Launch",
         "executable": "RPG MO.app"
+      },
+      "3": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "rpgmo-electron",
+        "type": "default"
       }
     }
   },
@@ -380,6 +444,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "linuxbeta": {
+          "download": "95463968",
+          "gid": "3670577720981664589",
+          "size": "131266942"
+        },
         "public": {
           "download": "95463968",
           "gid": "3670577720981664589",
@@ -389,13 +458,19 @@
     },
     "372802": {
       "config": {
+        "osarch": "64",
         "oslist": "linux"
       },
       "manifests": {
+        "linuxbeta": {
+          "download": "241524784",
+          "gid": "1694108760238525923",
+          "size": "456727641"
+        },
         "public": {
-          "download": "91942080",
-          "gid": "4503083261770783990",
-          "size": "119429884"
+          "download": "241524784",
+          "gid": "1694108760238525923",
+          "size": "456727641"
         }
       }
     },
@@ -405,6 +480,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "linuxbeta": {
+          "download": "88055760",
+          "gid": "2938567949688456752",
+          "size": "119933822"
+        },
         "public": {
           "download": "88055760",
           "gid": "2938567949688456752",
@@ -418,19 +498,30 @@
         "oslist": "macos"
       },
       "manifests": {
+        "linuxbeta": {
+          "download": "132189040",
+          "gid": "599944295240030800",
+          "size": "160649967"
+        },
         "public": {
-          "download": "132189344",
-          "gid": "5274728756458685764",
-          "size": "160648044"
+          "download": "132189040",
+          "gid": "599944295240030800",
+          "size": "160649967"
         }
       }
     },
     "baselanguages": "english,german,french,italian,spanish,schinese,tchinese,russian,portuguese,polish,swedish,czech,brazilian,ukrainian,latam",
     "branches": {
+      "linuxbeta": {
+        "buildid": "26418505",
+        "description": "New Linux Client Testing",
+        "timebuildupdated": "1793747748",
+        "timeupdated": "1793747748"
+      },
       "public": {
-        "buildid": "26394132",
-        "timebuildupdated": "1793667192",
-        "timeupdated": "1793667283"
+        "buildid": "26418505",
+        "timebuildupdated": "1793747748",
+        "timeupdated": "1793751917"
       }
     },
     "privatebranches": "1"
