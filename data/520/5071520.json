@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793252976,
-  "_history": [],
-  "_change_number": 40352097,
-  "_missing_token": true,
-  "_sha": "a9ea01a2c878a248ba6c1f5f2f88b06d7021af1d",
-  "_size": 3577,
+  "_lastChecked": 1793821568,
+  "_history": [
+    {
+      "buildId": "26438666",
+      "branch": "public",
+      "timeUpdated": 1793815674,
+      "firstSeen": 1793821568,
+      "manifests": {
+        "5071521": {
+          "gid": "4124707094662536098",
+          "size": 473909754,
+          "download": 466910176
+        },
+        "5071522": {
+          "gid": "7126238787561460726",
+          "size": 952603045,
+          "download": 474860224
+        },
+        "5071523": {
+          "gid": "5797719188088805253",
+          "size": 910443281,
+          "download": 643240032
+        }
+      }
+    }
+  ],
+  "_change_number": 40600392,
+  "_missing_token": false,
+  "_sha": "6486edec8e881bb78725efdd3187a66a7a88c2e2",
+  "_size": 5677,
   "appid": "5071520",
   "common": {
     "aicontenttype": "1",
@@ -43,9 +67,9 @@
     "clienticns": "ccea9d9cf4bc877424c9d7dc59f1f4c91ab356a4",
     "clienticon": "915c750c7ba285fd80b9cb67169548c830f8f427",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5071520",
     "genres": {
       "0": "2"
@@ -116,10 +140,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "528b3c82ba3ad0ba3537981d4a2b028968e06d33/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793777793",
     "store_asset_mtime": "1792504383",
     "store_tags": {
       "0": "9",
@@ -160,5 +185,113 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Xenobiome Command",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "XenobiomeCommand.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Xenobiome Command.app"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "AppRun"
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input_manifest.vdf"
+  },
+  "depots": {
+    "5071521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "466910176",
+          "gid": "4124707094662536098",
+          "size": "473909754"
+        }
+      }
+    },
+    "5071522": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "474860224",
+          "gid": "7126238787561460726",
+          "size": "952603045"
+        }
+      }
+    },
+    "5071523": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "643240032",
+          "gid": "5797719188088805253",
+          "size": "910443281"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26438666",
+        "timebuildupdated": "1793815476",
+        "timeupdated": "1793815674"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Haroldware Games",
+    "homepage": "https://xenobiome.net/",
+    "publisher": "Haroldware Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "2000000",
+    "savefiles": {
+      "0": {
+        "path": "com.haroldwaresolutions.xenobiomecommand/saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "com.haroldwaresolutions.xenobiomecommand/saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": "com.haroldwaresolutions.xenobiomecommand/saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

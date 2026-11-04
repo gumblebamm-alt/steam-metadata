@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1792644445,
-  "_history": [],
-  "_change_number": 40107672,
-  "_missing_token": true,
-  "_sha": "2624b8d3f22d0b30b5fed6f02e488ae23a366e09",
-  "_size": 3662,
+  "_lastChecked": 1793821569,
+  "_history": [
+    {
+      "buildId": "26427797",
+      "branch": "betaforlinux",
+      "timeUpdated": 1793785384,
+      "firstSeen": 1793821569,
+      "manifests": {
+        "5091901": {
+          "gid": "6712596389083252083",
+          "size": 889695820,
+          "download": 790338640
+        },
+        "5091902": {
+          "gid": "4132381166544921445",
+          "size": 856789720,
+          "download": 782215488
+        }
+      }
+    },
+    {
+      "buildId": "26428482",
+      "branch": "public",
+      "timeUpdated": 1793787062,
+      "firstSeen": 1793821569,
+      "manifests": {
+        "5091901": {
+          "gid": "2069289287111231599",
+          "size": 889695820,
+          "download": 790497264
+        },
+        "5091902": {
+          "gid": "4132381166544921445",
+          "size": 856789720,
+          "download": 782215488
+        }
+      }
+    }
+  ],
+  "_change_number": 40600111,
+  "_missing_token": false,
+  "_sha": "8ca3bb9f85493a8e91917833e512ae0aab52f5e3",
+  "_size": 6017,
   "appid": "5091900",
   "common": {
     "aicontenttype": "1",
@@ -27,6 +64,7 @@
       "category_67": "1",
       "category_68": "1",
       "category_74": "1",
+      "category_76": "1",
       "category_77": "1",
       "category_78": "1",
       "category_79": "1",
@@ -34,8 +72,8 @@
     },
     "clienticon": "04a5ece0eafa27eeca51ab638b6213550c6394d3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5091900",
     "genres": {
       "0": "4",
@@ -118,10 +156,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3069985ba7478b85ff54f2de7cd4112d3f2f6f6a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793815221",
     "store_asset_mtime": "1792156166",
     "store_tags": {
       "0": "9",
@@ -173,5 +212,115 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Prigod Idle",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "PrigodIdle.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "betaforlinux",
+          "oslist": "linux"
+        },
+        "description": "Linux Beta, give feedback!",
+        "description_loc": {
+          "english": "Linux Beta, give feedback!"
+        },
+        "executable": "PrigodIdle.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5091901": {
+      "manifests": {
+        "betaforlinux": {
+          "download": "790338640",
+          "gid": "6712596389083252083",
+          "size": "889695820"
+        },
+        "public": {
+          "download": "790497264",
+          "gid": "2069289287111231599",
+          "size": "889695820"
+        }
+      }
+    },
+    "5091902": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "betaforlinux": {
+          "download": "782215488",
+          "gid": "4132381166544921445",
+          "size": "856789720"
+        },
+        "public": {
+          "download": "782215488",
+          "gid": "4132381166544921445",
+          "size": "856789720"
+        }
+      }
+    },
+    "branches": {
+      "betaforlinux": {
+        "buildid": "26427797",
+        "description": "betaforlinux",
+        "timebuildupdated": "1793784934",
+        "timeupdated": "1793785384"
+      },
+      "public": {
+        "buildid": "26428482",
+        "timebuildupdated": "1793787062",
+        "timeupdated": "1793787062"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Prigod Games",
+    "homepage": "https://prigodgames.de",
+    "publisher": "Prigod Games"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".local/share",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/PrigodotIdle",
+        "pattern": "prigodot_save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/PrigodotIdle",
+        "pattern": "active_profile.txt",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/PrigodotIdle/profiles",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/PrigodotIdle",
+        "pattern": "settings_cloud.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

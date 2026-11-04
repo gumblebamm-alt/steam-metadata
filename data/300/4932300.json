@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793599376,
-  "_history": [],
-  "_change_number": 40493526,
-  "_missing_token": true,
-  "_sha": "3f2996d6d8ab97287a35097dc97dd66312443799",
-  "_size": 3584,
+  "_lastChecked": 1793821563,
+  "_history": [
+    {
+      "buildId": "24940501",
+      "branch": "oldd",
+      "timeUpdated": 1791510066,
+      "firstSeen": 1793821563,
+      "manifests": {
+        "4932301": {
+          "gid": "3063362321394062864",
+          "size": 339514374,
+          "download": 160404080
+        }
+      }
+    },
+    {
+      "buildId": "26419872",
+      "branch": "public",
+      "timeUpdated": 1793752791,
+      "firstSeen": 1793821563,
+      "manifests": {
+        "4932301": {
+          "gid": "8557802581651078355",
+          "size": 5959465368,
+          "download": 5331878624
+        }
+      }
+    }
+  ],
+  "_change_number": 40600077,
+  "_missing_token": false,
+  "_sha": "b091ab1440fda6426c8f5e9d39028effe7a31bb3",
+  "_size": 4778,
   "appid": "4932300",
   "common": {
     "aicontenttype": "1",
@@ -29,6 +56,7 @@
     "clienticns": "7983948291f3da32d870f74802c461bbf6f5cab9",
     "clienticon": "7983948291f3da32d870f74802c461bbf6f5cab9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -42,7 +70,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4932300",
     "genres": {
       "0": "4"
@@ -113,11 +140,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "05a25d63ed47e3195420c98a2d16e5548c31d252/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793815206",
     "store_asset_mtime": "1790623212",
     "store_tags": {
       "0": "12095",
@@ -166,5 +194,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lust Tap",
+    "launch": {
+      "0": {
+        "executable": "LustTap.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4932301": {
+      "manifests": {
+        "oldd": {
+          "download": "160404080",
+          "gid": "3063362321394062864",
+          "size": "339514374"
+        },
+        "public": {
+          "download": "5331878624",
+          "gid": "8557802581651078355",
+          "size": "5959465368"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "oldd": {
+        "buildid": "24940501",
+        "description": "revisiones antiguas",
+        "timebuildupdated": "1787709690",
+        "timeupdated": "1791510066"
+      },
+      "public": {
+        "buildid": "26419872",
+        "timebuildupdated": "1793752571",
+        "timeupdated": "1793752791"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Muru Interactive",
+    "publisher": "Muru Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "LustTap_io/LustTap!",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

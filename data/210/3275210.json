@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793556030,
-  "_history": [],
-  "_change_number": 40473166,
-  "_missing_token": true,
-  "_sha": "793a4283917c09a2a70069c7f1d1f48a825fe339",
-  "_size": 4298,
+  "_lastChecked": 1793821536,
+  "_history": [
+    {
+      "buildId": "26440330",
+      "branch": "public",
+      "timeUpdated": 1793820537,
+      "firstSeen": 1793821536,
+      "manifests": {
+        "3275211": {
+          "gid": "7547386042512769452",
+          "size": 27036588399,
+          "download": 13057506512
+        }
+      }
+    }
+  ],
+  "_change_number": 40603096,
+  "_missing_token": false,
+  "_sha": "f53530a4604ab289824f694fa00791beafef04cc",
+  "_size": 5678,
   "appid": "3275210",
   "common": {
     "associations": {
@@ -35,8 +49,8 @@
     "clienticon": "c29ee29bf06e9735c49632dcdb27c251ed0e38a9",
     "clienttga": "5ceae00a930812d9d65472a5894a68c9254b940e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3275210",
     "genres": {
       "0": "28",
@@ -121,10 +135,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a770ca1947bbbc3d7bce4bbde218e6efbedfa589/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793820642",
     "store_asset_mtime": "1793515689",
     "store_tags": {
       "0": "12472",
@@ -200,5 +215,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pionero Capital",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "PioneroCapital.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3275211": {
+      "manifests": {
+        "public": {
+          "download": "13057506512",
+          "gid": "7547386042512769452",
+          "size": "27036588399"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26440330",
+        "timebuildupdated": "1793820526",
+        "timeupdated": "1793820537"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Metamodernity Games",
+    "homepage": "https://metamodernitygames.com",
+    "publisher": "Metamodernity Games"
+  },
+  "ufs": {
+    "appidredirect": "4228490",
+    "maxnumfiles": "50",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "PioneroCapital/Saved/LocalServer/Slots",
+        "pattern": "savegame.gz",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "PioneroCapital/Saved/LocalServer/Slots",
+        "pattern": "slot.json",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "copied_from_parent": "1"
+    }
+  }
 }

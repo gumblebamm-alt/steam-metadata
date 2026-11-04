@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1793773148,
-  "_history": [],
-  "_change_number": 40573102,
-  "_missing_token": true,
-  "_sha": "ed00cdffeb37621f2c77555a288495a205756925",
-  "_size": 4036,
+  "_lastChecked": 1793821560,
+  "_history": [
+    {
+      "buildId": "26421875",
+      "branch": "public",
+      "timeUpdated": 1793760534,
+      "firstSeen": 1793821560,
+      "manifests": {
+        "4811701": {
+          "gid": "6608267044568154151",
+          "size": 425768570,
+          "download": 209922112
+        },
+        "4811702": {
+          "gid": "3615296103433751255",
+          "size": 366874748,
+          "download": 187209888
+        },
+        "4811703": {
+          "gid": "3064902184070455282",
+          "size": 372005430,
+          "download": 184182896
+        },
+        "4811704": {
+          "gid": "584599835630833080",
+          "size": 363269329,
+          "download": 184513104
+        }
+      }
+    }
+  ],
+  "_change_number": 40585352,
+  "_missing_token": false,
+  "_sha": "f5f1ad8b8e80c87c8971d08c8ffbb62d85e86423",
+  "_size": 6839,
   "appid": "4811700",
   "common": {
     "aicontenttype": "1",
@@ -35,9 +64,9 @@
     "clienticns": "5f0dd222f996b950195ab2ba6015b08b546a9545",
     "clienticon": "ecd078518c754c3115ee6f80b8dd7a7ba432772b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4811700",
     "genres": {
       "0": "4",
@@ -124,11 +153,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "757fc65fb7989721c3c4305ba03668550323a16c/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793634948",
+    "steam_release_date": "1793789405",
+    "store_asset_mtime": "1793789457",
     "store_tags": {
       "0": "1091588",
       "1": "1770",
@@ -188,5 +218,149 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mancalero",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Windows Version",
+        "description_loc": {
+          "english": "Windows Version"
+        },
+        "executable": "Mancalero.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--no-sandbox --ozone-platform=x11",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Linux",
+        "description_loc": {
+          "english": "Linux"
+        },
+        "executable": "Mancalero",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "macOS (Intel)",
+        "description_loc": {
+          "english": "macOS (Intel)"
+        },
+        "executable": "Mancalero.app",
+        "type": "option2"
+      },
+      "3": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": " macOS (Apple Silicon)",
+        "description_loc": {
+          "english": " macOS (Apple Silicon)"
+        },
+        "executable": "arm64/Mancalero.app",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "4811701": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "209922112",
+          "gid": "6608267044568154151",
+          "size": "425768570"
+        }
+      }
+    },
+    "4811702": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "187209888",
+          "gid": "3615296103433751255",
+          "size": "366874748"
+        }
+      }
+    },
+    "4811703": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "184182896",
+          "gid": "3064902184070455282",
+          "size": "372005430"
+        }
+      }
+    },
+    "4811704": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "184513104",
+          "gid": "584599835630833080",
+          "size": "363269329"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,koreana,latam,russian,schinese,spanish,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26421875",
+        "timebuildupdated": "1793760431",
+        "timeupdated": "1793760534"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "ArchiusDev",
+    "publisher": "ArchiusDev"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Mancalero",
+        "pattern": "save.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

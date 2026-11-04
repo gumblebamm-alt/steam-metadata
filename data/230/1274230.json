@@ -1,6 +1,19 @@
 {
-  "_lastChecked": 1793599358,
+  "_lastChecked": 1793821521,
   "_history": [
+    {
+      "buildId": "26431889",
+      "branch": "public",
+      "timeUpdated": 1793797224,
+      "firstSeen": 1793821521,
+      "manifests": {
+        "1274232": {
+          "gid": "4120694575016040827",
+          "size": 255554231,
+          "download": 166078256
+        }
+      }
+    },
     {
       "buildId": "26364663",
       "branch": "public",
@@ -52,25 +65,12 @@
           "download": 164480192
         }
       }
-    },
-    {
-      "buildId": "26092071",
-      "branch": "public",
-      "timeUpdated": 1792536039,
-      "firstSeen": 1792558050,
-      "manifests": {
-        "1274232": {
-          "gid": "6107941699620748072",
-          "size": 252806549,
-          "download": 164444256
-        }
-      }
     }
   ],
-  "_change_number": 40490815,
+  "_change_number": 40589343,
   "_missing_token": false,
-  "_sha": "c4ca22c83384fb6dfad50d3f969b63bcdd867583",
-  "_size": 7197,
+  "_sha": "0f27b8adf6997d4dd6cbb74d34c97d2786720946",
+  "_size": 6227,
   "appid": "1274230",
   "common": {
     "associations": {
@@ -188,13 +188,13 @@
       "english": "capsule_231x87.jpg"
     },
     "steam_deck_compatibility": {
-      "category": "2",
+      "category": "1",
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
         "non_deck_display_glyphs": "0",
-        "primary_player_is_controller_slot_0": "1",
-        "recommended_runtime": "proton-stable",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-11.0-3RC",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -203,60 +203,28 @@
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "0",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "3",
+      "steam_machine_compatibility": "1",
       "steam_machine_tests": {
         "0": {
-          "display": "4",
-          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
-        },
-        "1": {
-          "display": "4",
-          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
-        },
-        "2": {
-          "display": "4",
-          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+          "display": "2",
+          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
         }
       },
-      "steamos_compatibility": "2",
+      "steamos_compatibility": "1",
       "steamos_tests": {
         "0": {
-          "display": "3",
-          "token": "#SteamOS_TestResult_GameStartupFunctional"
-        },
-        "1": {
-          "display": "1",
-          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
         }
       },
-      "test_timestamp": "1680048000",
-      "tested_build_id": "10624538",
+      "test_timestamp": "1793650560",
+      "tested_build_id": "26364663",
       "tests": {
         "0": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_NativeResolutionNotSupported"
-        },
-        "1": {
-          "display": "4",
-          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
-        },
-        "2": {
-          "display": "4",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
-        },
-        "3": {
-          "display": "4",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
-        },
-        "4": {
-          "display": "4",
-          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
-        },
-        "5": {
-          "display": "1",
-          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
         }
       }
     },
@@ -360,17 +328,17 @@
       },
       "manifests": {
         "public": {
-          "download": "166037360",
-          "gid": "8193903358318501338",
-          "size": "255460967"
+          "download": "166078256",
+          "gid": "4120694575016040827",
+          "size": "255554231"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26364663",
-        "timebuildupdated": "1793558723",
-        "timeupdated": "1793558755"
+        "buildid": "26431889",
+        "timebuildupdated": "1793797201",
+        "timeupdated": "1793797224"
       }
     }
   },

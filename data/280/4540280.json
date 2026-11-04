@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793734362,
-  "_history": [],
-  "_change_number": 40545323,
-  "_missing_token": true,
-  "_sha": "a5070fd9fc51c382a3e2feadd8b27000d718971f",
-  "_size": 5466,
+  "_lastChecked": 1793821554,
+  "_history": [
+    {
+      "buildId": "26429701",
+      "branch": "public",
+      "timeUpdated": 1793790752,
+      "firstSeen": 1793821554,
+      "manifests": {
+        "4540281": {
+          "gid": "1048220244149142388",
+          "size": 3874648007,
+          "download": 1958389344
+        },
+        "4540282": {
+          "gid": "590693433111759063",
+          "size": 3871733537,
+          "download": 1955875168
+        }
+      }
+    }
+  ],
+  "_change_number": 40596656,
+  "_missing_token": false,
+  "_sha": "176c49843ad2c1e365dc3d37839822afcc60f99d",
+  "_size": 7200,
   "appid": "4540280",
   "common": {
     "aicontenttype": "1",
@@ -30,10 +49,12 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_28": "1",
       "category_62": "1"
     },
     "clienticon": "a06240c256d6e6c5f9d19cc16f0efef98b1b77f9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -46,8 +67,8 @@
       "2": "4",
       "3": "5"
     },
+    "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4540280",
     "genres": {
       "0": "1"
@@ -114,15 +135,17 @@
     },
     "name": "Sinful Survivors",
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "99e16ed268aeed4b6ffef22da63bbe91744b875e/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793380035",
+    "steam_release_date": "1793797215",
+    "store_asset_mtime": "1793794209",
     "store_tags": {
       "0": "12095",
       "1": "9130",
@@ -274,5 +297,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SinfulSurvivors",
+    "launch": {
+      "0": {
+        "description": "Sinful Survivors PC",
+        "description_loc": {
+          "english": "Sinful Survivors PC"
+        },
+        "executable": "SinfulSurvivors.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Sinful Survivors Linux/SteamOS",
+        "description_loc": {
+          "english": "Sinful Survivors Linux/SteamOS"
+        },
+        "executable": "SinfulSurvivors_Linux_0.24.2.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4540281": {
+      "manifests": {
+        "public": {
+          "download": "1958389344",
+          "gid": "1048220244149142388",
+          "size": "3874648007"
+        }
+      }
+    },
+    "4540282": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1955875168",
+          "gid": "590693433111759063",
+          "size": "3871733537"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "26429701",
+        "timebuildupdated": "1793790469",
+        "timeupdated": "1793790752"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Aerisetta",
+    "publisher": "nonogames"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "400000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "nonogames/SinfulSurvivors",
+            "replace": "unity3d/nonogames/SinfulSurvivors"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "nonogames/SinfulSurvivors",
+        "pattern": "*.dat",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793384031,
-  "_history": [],
-  "_change_number": 40432013,
-  "_missing_token": true,
-  "_sha": "7577cb3a0d90ea97915bb60a34b35386d66eb9ee",
-  "_size": 3440,
+  "_lastChecked": 1793821566,
+  "_history": [
+    {
+      "buildId": "26403168",
+      "branch": "public",
+      "timeUpdated": 1793780131,
+      "firstSeen": 1793821566,
+      "manifests": {
+        "5010001": {
+          "gid": "2642192209735997884",
+          "size": 15509481055,
+          "download": 8771015936
+        }
+      }
+    }
+  ],
+  "_change_number": 40585263,
+  "_missing_token": false,
+  "_sha": "8c2ffeeb0db930a7661d67d0ce2311fe882ffc69",
+  "_size": 4628,
   "appid": "5010000",
   "common": {
     "associations": {
@@ -31,8 +45,8 @@
     },
     "clienticon": "5c435451c77b1720c7c57d949a17e1a863855b3a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5010000",
     "genres": {
       "0": "3",
@@ -110,7 +124,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1ef4c4361cf57910cebc9dac02ca9b10c779fbcd/capsule_231x87.jpg"
     },
@@ -158,5 +172,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Raid Lead - Echoes of Gaia",
+    "launch": {
+      "0": {
+        "executable": "Raid Lead - Echoes of Gaia.exe"
+      }
+    }
+  },
+  "depots": {
+    "5010001": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "8771015936",
+          "gid": "2642192209735997884",
+          "size": "15509481055"
+        }
+      }
+    },
+    "5010002": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26403168",
+        "timebuildupdated": "1793701988",
+        "timeupdated": "1793780131"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "AMK Games",
+    "publisher": "AMK Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "AMK Games/Raid Lead - Echoes of Gaia",
+        "pattern": "RaidLead_*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "AMK Games/Raid Lead - Echoes of Gaia",
+        "pattern": "Save*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

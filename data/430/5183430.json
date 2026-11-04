@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791040105,
-  "_history": [],
-  "_change_number": 39441925,
-  "_missing_token": true,
-  "_sha": "db6fffba15f35ef78788b145d08789ac901a0116",
-  "_size": 4290,
+  "_lastChecked": 1793821572,
+  "_history": [
+    {
+      "buildId": "26177467",
+      "branch": "public",
+      "timeUpdated": 1792818543,
+      "firstSeen": 1793821572,
+      "manifests": {
+        "5183431": {
+          "gid": "3718086358645585434",
+          "size": 861870931,
+          "download": 557958816
+        },
+        "5183432": {
+          "gid": "2038758324634164588",
+          "size": 1008580058,
+          "download": 621684272
+        }
+      }
+    }
+  ],
+  "_change_number": 40583548,
+  "_missing_token": false,
+  "_sha": "d5e2f6a25fad6ab421efd787947b48ca0b23de47",
+  "_size": 5921,
   "appid": "5183430",
   "common": {
     "aicontenttype": "1",
@@ -27,8 +46,8 @@
     },
     "clienticon": "549a47f33d25f3c43d285fb1d77bdf0811fc9cab",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5183430",
     "genres": {
       "0": "25",
@@ -119,11 +138,12 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6d3e47b00ade7a00f1053dabb0db9766908b2e65/capsule_231x87.jpg",
       "schinese": "614a6af4f7db7af49d519b234b1d3d48747680e1/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1793785953",
     "store_asset_mtime": "1789397189",
     "store_tags": {
       "0": "21",
@@ -163,5 +183,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Artifact Tracer",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ArtifactTracer.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ArtifactTracer.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5183431": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "557958816",
+          "gid": "3718086358645585434",
+          "size": "861870931"
+        }
+      }
+    },
+    "5183432": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "621684272",
+          "gid": "2038758324634164588",
+          "size": "1008580058"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26177467",
+        "timebuildupdated": "1792818543",
+        "timeupdated": "1792818543"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "RabbitHole",
+    "publisher": "RabbitHole"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RelicTracer/steam-cloud/{64BitSteamID}",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793425425,
-  "_history": [],
-  "_change_number": 40444686,
-  "_missing_token": true,
-  "_sha": "623d1ffe5eab511716601ac7e6eaa4263c6cef2d",
-  "_size": 4102,
+  "_lastChecked": 1793821563,
+  "_history": [
+    {
+      "buildId": "26437954",
+      "branch": "public",
+      "timeUpdated": 1793813466,
+      "firstSeen": 1793821563,
+      "manifests": {
+        "4920681": {
+          "gid": "3479682012872011071",
+          "size": 558689513,
+          "download": 339259008
+        }
+      }
+    }
+  ],
+  "_change_number": 40599578,
+  "_missing_token": false,
+  "_sha": "4b7c18f24fce8d14a156a9211e58bf8b82bbfb1b",
+  "_size": 5101,
   "appid": "4920680",
   "common": {
     "associations": {
@@ -33,8 +47,8 @@
     "clienticns": "3d8171fe571463e971e87c2c211a71f35d890fcb",
     "clienticon": "65c497c855dbae0111a1f107501acd45533a14b2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4920680",
     "genres": {
       "0": "23",
@@ -107,11 +121,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2e3b3d1fcf0a0fb25aa02c811e7d2d1485815519/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793408307",
+    "steam_release_date": "1793814319",
+    "store_asset_mtime": "1793813462",
     "store_tags": {
       "0": "9",
       "1": "1676",
@@ -188,7 +203,60 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Warlapse",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Warlapse.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4920681": {
+      "manifests": {
+        "public": {
+          "download": "339259008",
+          "gid": "3479682012872011071",
+          "size": "558689513"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26437954",
+        "timebuildupdated": "1793813454",
+        "timeupdated": "1793813466"
+      }
+    },
+    "workshopdepot": "4920680"
+  },
+  "extended": {
+    "developer": "Bad Engine Studio",
+    "publisher": "Bad Engine Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Bad Engine Studio/Warlapse/Full/Campaigns",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

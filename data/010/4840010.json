@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793556045,
-  "_history": [],
-  "_change_number": 40476884,
-  "_missing_token": true,
-  "_sha": "d278dc65f06b555752a987d1da5c66ed9bcdb8f5",
-  "_size": 4462,
+  "_lastChecked": 1793821561,
+  "_history": [
+    {
+      "buildId": "26394762",
+      "branch": "public",
+      "timeUpdated": 1793720418,
+      "firstSeen": 1793821561,
+      "manifests": {
+        "4840012": {
+          "gid": "1818118371631027352",
+          "size": 194889684,
+          "download": 99150336
+        },
+        "4840013": {
+          "gid": "9029673632234734996",
+          "size": 172903740,
+          "download": 93783696
+        },
+        "4840014": {
+          "gid": "3434435707925787368",
+          "size": 280171073,
+          "download": 126360272
+        }
+      }
+    }
+  ],
+  "_change_number": 40597407,
+  "_missing_token": false,
+  "_sha": "16814628cabe4af01bd8926b067c6dd5b385e19f",
+  "_size": 6455,
   "appid": "4840010",
   "common": {
     "associations": {
@@ -37,8 +61,8 @@
     },
     "clienticon": "2029158cf79858a7655417cbc189f4300d87c946",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4840010",
     "genres": {
       "0": "23",
@@ -126,10 +150,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "97fc24795a9d7dd7af04a9fcbeb158e7d9b148cb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793810789",
     "store_asset_mtime": "1793473322",
     "store_tags": {
       "0": "1091588",
@@ -209,5 +234,111 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "FathomReach",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "FathomReach.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "FathomReach.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Fathom Reach.app"
+      }
+    }
+  },
+  "depots": {
+    "4840012": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "99150336",
+          "gid": "1818118371631027352",
+          "size": "194889684"
+        }
+      }
+    },
+    "4840013": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "93783696",
+          "gid": "9029673632234734996",
+          "size": "172903740"
+        }
+      }
+    },
+    "4840014": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "126360272",
+          "gid": "3434435707925787368",
+          "size": "280171073"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26394762",
+        "timebuildupdated": "1793669547",
+        "timeupdated": "1793720418"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Feldsparc",
+    "homepage": "https://feldsparc.com/fathom-reach/",
+    "publisher": "Feldsparc"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Fathom Reach",
+            "replace": "godot/app_userdata/Fathom Reach"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Fathom Reach",
+        "pattern": "crushdepth.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

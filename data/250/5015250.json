@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792371639,
-  "_history": [],
-  "_change_number": 39966721,
-  "_missing_token": true,
-  "_sha": "ebfb9fb3adae99c29702e2d404032932ecad61b8",
-  "_size": 3894,
+  "_lastChecked": 1793821566,
+  "_history": [
+    {
+      "buildId": "26424826",
+      "branch": "public",
+      "timeUpdated": 1793775751,
+      "firstSeen": 1793821566,
+      "manifests": {
+        "5015251": {
+          "gid": "7792786315868177961",
+          "size": 295393216,
+          "download": 113545888
+        },
+        "5015252": {
+          "gid": "8478507337095818441",
+          "size": 450537358,
+          "download": 172543360
+        }
+      }
+    }
+  ],
+  "_change_number": 40584129,
+  "_missing_token": false,
+  "_sha": "74b6bce2fc95e69183e211d97a5de24f5fca665a",
+  "_size": 5289,
   "appid": "5015250",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +49,8 @@
     },
     "clienticon": "cd916127f4f7aeaec011a6cfb9eddcada43d7a02",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5015250",
     "genres": {
       "0": "4",
@@ -118,13 +137,15 @@
     },
     "name": "Hearts Extreme",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1692062452bc12e9e4f127093d635370caabe373/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793780950",
     "store_asset_mtime": "1790087889",
     "store_tags": {
       "0": "597",
@@ -192,5 +213,79 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hearts Extreme",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Hearts Extreme.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Hearts Extreme.app"
+      }
+    }
+  },
+  "depots": {
+    "5015251": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "113545888",
+          "gid": "7792786315868177961",
+          "size": "295393216"
+        }
+      }
+    },
+    "5015252": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "172543360",
+          "gid": "8478507337095818441",
+          "size": "450537358"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26424826",
+        "timebuildupdated": "1793773408",
+        "timeupdated": "1793775751"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Hwantastic Games",
+    "publisher": "Hwantastic Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "hearts-extreme/saves/{64BitSteamID}",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

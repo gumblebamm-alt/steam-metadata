@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793513184,
-  "_history": [],
-  "_change_number": 40466970,
-  "_missing_token": true,
-  "_sha": "ed25db2ab2bcd8c02e7f7df74b3735a585349a55",
-  "_size": 3196,
+  "_lastChecked": 1793821567,
+  "_history": [
+    {
+      "buildId": "26433315",
+      "branch": "public",
+      "timeUpdated": 1793801338,
+      "firstSeen": 1793821567,
+      "manifests": {
+        "5046851": {
+          "gid": "7709472997645385579",
+          "size": 532397167,
+          "download": 283495840
+        },
+        "5046852": {
+          "gid": "2758026410934842622",
+          "size": 447963361,
+          "download": 255635344
+        }
+      }
+    }
+  ],
+  "_change_number": 40599967,
+  "_missing_token": false,
+  "_sha": "baf087faebb393efe882c7c544ec0af2190358e0",
+  "_size": 4655,
   "appid": "5046850",
   "common": {
     "associations": {
@@ -31,8 +50,8 @@
     "clienticns": "9112ee21718e19da821ed8fb74b1616c3c79e533",
     "clienticon": "8f9c3d36209503a70824e118778237a5c079458f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5046850",
     "genres": {
       "0": "4",
@@ -104,10 +123,11 @@
     "osextended": "macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "90316ed55311b1f6b43d5fd9c85f2dbd630e78b9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793815006",
     "store_asset_mtime": "1793185755",
     "store_tags": {
       "0": "560542",
@@ -139,5 +159,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Stellar Nursery",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Stellar Nursery.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Stellar Nursery.app"
+      }
+    }
+  },
+  "depots": {
+    "5046851": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "283495840",
+          "gid": "7709472997645385579",
+          "size": "532397167"
+        }
+      }
+    },
+    "5046852": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "255635344",
+          "gid": "2758026410934842622",
+          "size": "447963361"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26433315",
+        "timebuildupdated": "1793801298",
+        "timeupdated": "1793801338"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Portia Plays",
+    "homepage": "https://portiaplays.com",
+    "publisher": "Portias Publishing LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "20000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Stellar Nursery",
+        "pattern": "stellar-save.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792816680,
-  "_history": [],
-  "_change_number": 40185239,
-  "_missing_token": true,
-  "_sha": "c435fffdef3514b7b17488359a17b372f62307c3",
-  "_size": 4217,
+  "_lastChecked": 1793821567,
+  "_history": [
+    {
+      "buildId": "26188320",
+      "branch": "public",
+      "timeUpdated": 1793653343,
+      "firstSeen": 1793821567,
+      "manifests": {
+        "5049001": {
+          "gid": "3308333329925571291",
+          "size": 477409318,
+          "download": 407262160
+        },
+        "5049002": {
+          "gid": "740068288863717586",
+          "size": 492809867,
+          "download": 415265264
+        }
+      }
+    }
+  ],
+  "_change_number": 40593689,
+  "_missing_token": false,
+  "_sha": "d413d7ce4a8fa3465e048e4bfb62bf6d854b974c",
+  "_size": 5949,
   "appid": "5049000",
   "common": {
     "aicontenttype": "1",
@@ -31,7 +50,6 @@
     "clienticon": "6efd16f03043c7b329762b01d10e4e0575a647ad",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5049000",
     "genres": {
       "0": "25",
@@ -115,11 +133,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5e65e7d8b99f52a5887e21378022d3ff6365c568/capsule_231x87.jpg",
       "japanese": "4726a545e4c6aa3e70146777d5bca875cf9ff1d9/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1793804596",
     "store_asset_mtime": "1786991461",
     "store_tags": {
       "0": "3799",
@@ -165,5 +184,97 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "雪月の星霜",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Yukizuki.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Yukizuki.app"
+      }
+    }
+  },
+  "depots": {
+    "5049001": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "407262160",
+          "gid": "3308333329925571291",
+          "size": "477409318"
+        }
+      }
+    },
+    "5049002": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "415265264",
+          "gid": "740068288863717586",
+          "size": "492809867"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26188320",
+        "timebuildupdated": "1792875898",
+        "timeupdated": "1793653343"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "VODALES",
+    "homepage": "https://www.vodales.com/",
+    "publisher": "VODALES"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "VODALES/Yukizuki",
+            "replace": "com.vodales.yukizuki"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "VODALES/Yukizuki",
+        "pattern": "save*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "VODALES/Yukizuki",
+        "pattern": "kidoku_*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "VODALES/Yukizuki",
+        "pattern": "global.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

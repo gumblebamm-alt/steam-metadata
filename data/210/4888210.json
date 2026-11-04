@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793734369,
-  "_history": [],
-  "_change_number": 40560486,
-  "_missing_token": true,
-  "_sha": "caf8760d54845fdfa03634ee5d1410b13fdb9b83",
-  "_size": 3649,
+  "_lastChecked": 1793821562,
+  "_history": [
+    {
+      "buildId": "26431780",
+      "branch": "beta",
+      "timeUpdated": 1793796879,
+      "firstSeen": 1793821562,
+      "manifests": {
+        "4888211": {
+          "gid": "5889382051673304659",
+          "size": 142510654,
+          "download": 64314416
+        }
+      }
+    },
+    {
+      "buildId": "26431780",
+      "branch": "public",
+      "timeUpdated": 1793796900,
+      "firstSeen": 1793821562,
+      "manifests": {
+        "4888211": {
+          "gid": "5889382051673304659",
+          "size": 142510654,
+          "download": 64314416
+        }
+      }
+    }
+  ],
+  "_change_number": 40590157,
+  "_missing_token": false,
+  "_sha": "dbdb6024c198f1191f47f4091bff19e693ad91ec",
+  "_size": 4635,
   "appid": "4888210",
   "common": {
     "associations": {
@@ -36,8 +63,8 @@
     },
     "clienticon": "e57be6bfbefbc1250be72903e69ba842112b6b20",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4888210",
     "genres": {
       "0": "1",
@@ -110,10 +137,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "85e725a76d893c2a36ad0321f8d966b0af89ce64/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793798710",
     "store_asset_mtime": "1788253794",
     "store_tags": {
       "0": "597",
@@ -177,5 +205,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fail Games",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "FailGames.exe"
+      }
+    }
+  },
+  "depots": {
+    "4888211": {
+      "manifests": {
+        "beta": {
+          "download": "64314416",
+          "gid": "5889382051673304659",
+          "size": "142510654"
+        },
+        "public": {
+          "download": "64314416",
+          "gid": "5889382051673304659",
+          "size": "142510654"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26431780",
+        "description": "Test release before public rollout",
+        "timebuildupdated": "1793796879",
+        "timeupdated": "1793796879"
+      },
+      "public": {
+        "buildid": "26431780",
+        "timebuildupdated": "1793796879",
+        "timeupdated": "1793796900"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "CROCFISH",
+    "homepage": "https://croc.fish/failgames/",
+    "publisher": "CROCFISH"
+  },
+  "ufs": {
+    "maxnumfiles": "32",
+    "quota": "10485760"
+  }
 }

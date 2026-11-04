@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792731014,
-  "_history": [],
-  "_change_number": 39886600,
-  "_missing_token": true,
-  "_sha": "3d8d1bf522c725e0deb4bf8eb1c397089fb375a1",
-  "_size": 3329,
+  "_lastChecked": 1793821562,
+  "_history": [
+    {
+      "buildId": "26430286",
+      "branch": "public",
+      "timeUpdated": 1793792397,
+      "firstSeen": 1793821562,
+      "manifests": {
+        "4904201": {
+          "gid": "4348040548698531903",
+          "size": 560425674,
+          "download": 292236912
+        },
+        "4904202": {
+          "gid": "5795405969833748578",
+          "size": 544214467,
+          "download": 176546512
+        },
+        "4904203": {
+          "gid": "3360444119782238328",
+          "size": 463773553,
+          "download": 149147040
+        }
+      }
+    }
+  ],
+  "_change_number": 40587731,
+  "_missing_token": false,
+  "_sha": "9c23d46712ee541cd6433a884e6396afebb0681f",
+  "_size": 5882,
   "appid": "4904200",
   "common": {
     "associations": {
@@ -24,6 +48,7 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_30": "1",
       "category_62": "1",
       "category_64": "1",
@@ -39,6 +64,7 @@
     },
     "clienticon": "736bdf1ebd34d0ebb0ef2f40887e1db357ae33d8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -46,7 +72,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4904200",
     "genres": {
       "0": "28",
@@ -117,10 +142,11 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f950ede40aeca01a3c9cbf7b829b2df54ebbb4e7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793793721",
     "store_asset_mtime": "1791606145",
     "store_tags": {
       "0": "3810",
@@ -147,10 +173,125 @@
     "supported_languages": {
       "english": {
         "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
       }
     },
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Civitas World Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Civitas World Simulator.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "CivitasMac.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "betakey": "macos",
+          "oslist": "linux"
+        },
+        "executable": "CivitasWorldSimLinux.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4904201": {
+      "manifests": {
+        "public": {
+          "download": "292236912",
+          "gid": "4348040548698531903",
+          "size": "560425674"
+        }
+      }
+    },
+    "4904202": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "176546512",
+          "gid": "5795405969833748578",
+          "size": "544214467"
+        }
+      }
+    },
+    "4904203": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "149147040",
+          "gid": "3360444119782238328",
+          "size": "463773553"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26430286",
+        "timebuildupdated": "1793792365",
+        "timeupdated": "1793792397"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "4904200"
+  },
+  "extended": {
+    "developer": "3-Storm Studios",
+    "homepage": "https://play-civitas.com/",
+    "publisher": "Wrenchy Productions"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Wrenchy Production/Civitas World Simulator/Saves",
+            "replace": "Wrenchy Production\\Civitas World SimulatorWrenchy Production\\Civitas World SimulatorWrenchy Production\\Civitas World Simulator\\Saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Wrenchy Production/Civitas World Simulator/Saves",
+            "replace": "Wrenchy Production\\Civitas World SimulatorWrenchy Production\\Civitas World SimulatorWrenchy Production\\Civitas World Simulator\\Saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Wrenchy Production/Civitas World Simulator/Saves",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

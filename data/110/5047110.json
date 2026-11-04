@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793252975,
-  "_history": [],
-  "_change_number": 40202643,
-  "_missing_token": true,
-  "_sha": "60a2a7331cd80f004974b8333822a7d62096949b",
-  "_size": 3328,
+  "_lastChecked": 1793821567,
+  "_history": [
+    {
+      "buildId": "26406619",
+      "branch": "public",
+      "timeUpdated": 1793712652,
+      "firstSeen": 1793821567,
+      "manifests": {
+        "5047111": {
+          "gid": "832851036326234866",
+          "size": 227006228,
+          "download": 148929280
+        },
+        "5047112": {
+          "gid": "6468698701976193692",
+          "size": 191990972,
+          "download": 140389808
+        }
+      }
+    }
+  ],
+  "_change_number": 40600093,
+  "_missing_token": false,
+  "_sha": "3a54e3a516c904eaa43ed54adb58ca723810ca48",
+  "_size": 5046,
   "appid": "5047110",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +52,8 @@
     },
     "clienticon": "b809346c8c87eeab22b3cb27bf9d4a35568aa930",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5047110",
     "genres": {
       "0": "23",
@@ -113,10 +132,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b540de574f19b12987c9ed82f6eb80b7786897c5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793815212",
     "store_asset_mtime": "1789495937",
     "store_tags": {
       "0": "1645",
@@ -156,5 +176,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Wardspire",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Wardspire.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Wardspire.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5047111": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "148929280",
+          "gid": "832851036326234866",
+          "size": "227006228"
+        }
+      }
+    },
+    "5047112": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "140389808",
+          "gid": "6468698701976193692",
+          "size": "191990972"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26406619",
+        "timebuildupdated": "1793712517",
+        "timeupdated": "1793712652"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "SoftForge IT Kft.",
+    "homepage": "https://wardspire.com/",
+    "publisher": "SoftForge IT Kft."
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Wardspire",
+            "replace": "godot/app_userdata/Wardspire"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Wardspire",
+        "pattern": "profile.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Wardspire",
+        "pattern": "savegame*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

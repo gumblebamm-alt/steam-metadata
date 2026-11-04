@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791635772,
-  "_history": [],
-  "_change_number": 39676914,
-  "_missing_token": true,
-  "_sha": "d036a21d7ac3b38f7c2201ebde5df18bd06cbe22",
-  "_size": 5730,
+  "_lastChecked": 1793821573,
+  "_history": [
+    {
+      "buildId": "26404136",
+      "branch": "public",
+      "timeUpdated": 1793704980,
+      "firstSeen": 1793821573,
+      "manifests": {
+        "5208781": {
+          "gid": "4832409737115016912",
+          "size": 917444465,
+          "download": 770309552
+        }
+      }
+    }
+  ],
+  "_change_number": 40596986,
+  "_missing_token": false,
+  "_sha": "6bf90e32729966f0b27832e9c2c140ac1350fda3",
+  "_size": 6805,
   "appid": "5208780",
   "common": {
     "associations": {
@@ -31,9 +45,9 @@
     },
     "clienticon": "3357f7459c909517404e553c2f62a90ea8bc2d8b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5208780",
     "genres": {
       "0": "4",
@@ -137,10 +151,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8c2ff38fbb97cb518a351f3db746bc23238446bb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793810005",
     "store_asset_mtime": "1791583637",
     "store_tags": {
       "0": "1654",
@@ -289,5 +304,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Find The Box",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "FINDIT.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5208781": {
+      "manifests": {
+        "public": {
+          "download": "770309552",
+          "gid": "4832409737115016912",
+          "size": "917444465"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26404136",
+        "timebuildupdated": "1793704966",
+        "timeupdated": "1793704980"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Taco Games",
+    "publisher": "Taco Games"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": "FINDIT\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792857620,
-  "_history": [],
-  "_change_number": 40203299,
-  "_missing_token": true,
-  "_sha": "deb03eadaa1737d9e80675f4827988b974a9dc38",
-  "_size": 3681,
+  "_lastChecked": 1793821569,
+  "_history": [
+    {
+      "buildId": "26436973",
+      "branch": "public",
+      "timeUpdated": 1793811008,
+      "firstSeen": 1793821569,
+      "manifests": {
+        "5094941": {
+          "gid": "4150826579004567991",
+          "size": 308255836,
+          "download": 116770368
+        },
+        "5094942": {
+          "gid": "765203403353021460",
+          "size": 372382894,
+          "download": 136252224
+        },
+        "5094943": {
+          "gid": "7593422007843992860",
+          "size": 273138180,
+          "download": 108171552
+        }
+      }
+    }
+  ],
+  "_change_number": 40598669,
+  "_missing_token": false,
+  "_sha": "79988e06a94ec9e163956f51a3b63d6b4260a9f7",
+  "_size": 5850,
   "appid": "5094940",
   "common": {
     "associations": {
@@ -36,8 +60,8 @@
     },
     "clienticon": "4de4c6a3e33323b9cb6915b02b2cd58c029c5588",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5094940",
     "genres": {
       "0": "1",
@@ -109,10 +133,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3dc8daf61d463fe10668b096ccd52ef00647af3a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793812650",
     "store_asset_mtime": "1792408999",
     "store_tags": {
       "0": "3839",
@@ -173,5 +198,115 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cardsharp",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Cardsharp.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Cardsharp.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Cardsharp.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5094941": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "116770368",
+          "gid": "4150826579004567991",
+          "size": "308255836"
+        }
+      }
+    },
+    "5094942": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "136252224",
+          "gid": "765203403353021460",
+          "size": "372382894"
+        }
+      }
+    },
+    "5094943": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "108171552",
+          "gid": "7593422007843992860",
+          "size": "273138180"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26436973",
+        "timebuildupdated": "1793810950",
+        "timeupdated": "1793811008"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Zandbox Studio Games",
+    "publisher": "Zandbox Studio Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Cardsharp",
+            "replace": "godot/app_userdata/Cardsharp"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Cardsharp",
+        "pattern": "diejack.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Cardsharp",
+        "pattern": "run.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793734359,
-  "_history": [],
-  "_change_number": 40559604,
-  "_missing_token": true,
-  "_sha": "aeed313f2c367e3c9d9499e7f0c0b966e4723998",
-  "_size": 7258,
+  "_lastChecked": 1793821551,
+  "_history": [
+    {
+      "buildId": "26431886",
+      "branch": "public",
+      "timeUpdated": 1793799942,
+      "firstSeen": 1793821551,
+      "manifests": {
+        "4358661": {
+          "gid": "4248668022269960262",
+          "size": 707409270,
+          "download": 397090544
+        },
+        "4358662": {
+          "gid": "2383816826914714974",
+          "size": 1037390362,
+          "download": 457145840
+        },
+        "4358663": {
+          "gid": "8474321537763342986",
+          "size": 846302991,
+          "download": 410836816
+        }
+      }
+    }
+  ],
+  "_change_number": 40602410,
+  "_missing_token": false,
+  "_sha": "f265208a09c86a8f11659f8dc341684558535b84",
+  "_size": 10002,
   "appid": "4358660",
   "common": {
     "associations": {
@@ -18,6 +42,7 @@
       }
     },
     "category": {
+      "category_15": "1",
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
@@ -26,8 +51,8 @@
     "clienticns": "a362967a6c0784c20da108ea21fc7a22412df70b",
     "clienticon": "fc211b35c465fcda6459de8a969e6f73400ce59f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4358660",
     "genres": {
       "0": "1",
@@ -132,7 +157,9 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "84",
+    "review_score": "7",
     "small_capsule": {
       "english": "d5b1440cf0f9fa0ec63edeaf03f05ac2fd708be1/capsule_231x87.jpg",
       "schinese": "3a72201f3ca8097bcf3b111a189fb33a1b7b09ee/capsule_231x87_schinese.jpg"
@@ -198,7 +225,8 @@
         }
       }
     },
-    "store_asset_mtime": "1793614310",
+    "steam_release_date": "1793800808",
+    "store_asset_mtime": "1793800937",
     "store_tags": {
       "0": "16689",
       "1": "9",
@@ -269,5 +297,132 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hull Rupture",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "HullRupture.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "HullRupture.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "HullRupture.x86_64",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4358661": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "397090544",
+          "gid": "4248668022269960262",
+          "size": "707409270"
+        }
+      }
+    },
+    "4358662": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "457145840",
+          "gid": "2383816826914714974",
+          "size": "1037390362"
+        }
+      }
+    },
+    "4358663": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "410836816",
+          "gid": "8474321537763342986",
+          "size": "846302991"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,polish,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26431886",
+        "timebuildupdated": "1793797179",
+        "timeupdated": "1793799942"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Konfa Games",
+    "homepage": "https://konfagames.com/",
+    "publisher": "tinyBuild"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Konfa Games/HullRupture/{64BitSteamID}/",
+            "replace": "com.KonfaGames.HullRupture/{64BitSteamID}/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Konfa Games/HullRupture/{64BitSteamID}/",
+            "replace": ".config/unity3d/Konfa Games/HullRupture/{64BitSteamID}/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Konfa Games/HullRupture/{64BitSteamID}/",
+        "pattern": "*.bin",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Konfa Games/HullRupture/{64BitSteamID}/",
+        "pattern": "*.bin.backup",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

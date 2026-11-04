@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792775339,
-  "_history": [],
-  "_change_number": 40171426,
-  "_missing_token": true,
-  "_sha": "7becbb347a22026c2d090cc0e98b87f97d7035e3",
-  "_size": 3055,
+  "_lastChecked": 1793821551,
+  "_history": [
+    {
+      "buildId": "26419064",
+      "branch": "public",
+      "timeUpdated": 1793749746,
+      "firstSeen": 1793821551,
+      "manifests": {
+        "4412411": {
+          "gid": "6445760072574452234",
+          "size": 795790218,
+          "download": 322942432
+        },
+        "4412412": {
+          "gid": "7641841686386969787",
+          "size": 789090416,
+          "download": 325767376
+        }
+      }
+    }
+  ],
+  "_change_number": 40594528,
+  "_missing_token": false,
+  "_sha": "432fcc8bcb6d774175fbb08569c5c1c52b449bc7",
+  "_size": 4686,
   "appid": "4412410",
   "common": {
     "associations": {
@@ -32,9 +51,9 @@
     },
     "clienticon": "4d46cd4ee48e11565a2302365fe90c65ae746d1f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4412410",
     "genres": {
       "0": "1",
@@ -107,7 +126,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "165da2cf8d30ec6e3c3c3c2790593099a0318651/capsule_231x87.jpg"
     },
@@ -133,5 +152,97 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Monked",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MonkedOSX_Build.app/Contents/MacOS/Monked"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Monked.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4412411": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "322942432",
+          "gid": "6445760072574452234",
+          "size": "795790218"
+        }
+      }
+    },
+    "4412412": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "325767376",
+          "gid": "7641841686386969787",
+          "size": "789090416"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26419064",
+        "timebuildupdated": "1793749746",
+        "timeupdated": "1793749746"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Syntaf Studios",
+    "publisher": "Syntaf Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Syntaf Studios/Monked",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Syntaf Studios/Monked",
+        "pattern": "save-epoch.txt",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

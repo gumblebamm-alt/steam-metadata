@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793384033,
-  "_history": [],
-  "_change_number": 40432620,
-  "_missing_token": true,
-  "_sha": "e3c3f4225f4804e112910cc04a8bd3d39384c8a0",
-  "_size": 3668,
+  "_lastChecked": 1793821568,
+  "_history": [
+    {
+      "buildId": "26273254",
+      "branch": "public",
+      "timeUpdated": 1793198918,
+      "firstSeen": 1793821568,
+      "manifests": {
+        "5072641": {
+          "gid": "4038383836080459079",
+          "size": 1454834239,
+          "download": 550801120
+        }
+      }
+    }
+  ],
+  "_change_number": 40582120,
+  "_missing_token": false,
+  "_sha": "f20d2777df22937f24250613e1438c2ee966f71b",
+  "_size": 5655,
   "appid": "5072640",
   "common": {
     "aicontenttype": "1",
@@ -35,8 +49,8 @@
     },
     "clienticon": "678edd219616966f6d78e837e39f9af3dd6ce408",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5072640",
     "genres": {
       "0": "23",
@@ -120,7 +134,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a927bea43cb02a8feab43b622f9214b3b6dfe5b9/capsule_231x87.jpg"
     },
@@ -175,5 +189,103 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fab.exe",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "windows/Fab.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "macos/Fab.exe.app/Contents/MacOS/Fab.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "linux/Fab.exe.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5072641": {
+      "manifests": {
+        "public": {
+          "download": "550801120",
+          "gid": "4038383836080459079",
+          "size": "1454834239"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26273254",
+        "timebuildupdated": "1793198396",
+        "timeupdated": "1793198918"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "BT Studio",
+    "publisher": "BT Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Fab.exe",
+            "replace": "godot/app_userdata/Fab.exe"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Fab.exe",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Fab.exe",
+        "pattern": "*.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Fab.exe",
+        "pattern": "*.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Fab.exe",
+        "pattern": "*_thumb.png",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792603020,
-  "_history": [],
-  "_change_number": 40009385,
-  "_missing_token": true,
-  "_sha": "f4565f3005d60bf4cb16207998b27f691c62a078",
-  "_size": 3826,
+  "_lastChecked": 1793821551,
+  "_history": [
+    {
+      "buildId": "25829791",
+      "branch": "public",
+      "timeUpdated": 1791551465,
+      "firstSeen": 1793821551,
+      "manifests": {
+        "4370031": {
+          "gid": "5922054588468494661",
+          "size": 994494616,
+          "download": 694786512
+        }
+      }
+    }
+  ],
+  "_change_number": 40586733,
+  "_missing_token": false,
+  "_sha": "727b6570aab3044e583f265f09a320bab6fb0018",
+  "_size": 4949,
   "appid": "4370030",
   "common": {
     "aicontenttype": "1",
@@ -38,6 +52,7 @@
     },
     "clienticon": "09257ad12e13638d1affaf9ebbda51c367b4e2d3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -52,7 +67,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4370030",
     "genres": {
       "0": "25",
@@ -126,7 +140,7 @@
     "osextended": "",
     "oslist": "windows,macos,linux,android",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "679e5dc1d3d8441c620d9757b5acbdaa34c75c47/capsule_231x87.jpg"
@@ -179,5 +193,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Red Siren Protocol",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "RedSirenProtocol.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "RedSirenProtocol.sh"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "RedSirenProtocol.app"
+      },
+      "3": {
+        "config": {
+          "oslist": "android"
+        },
+        "executable": "RedSirenProtocol.apk"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4370031": {
+      "manifests": {
+        "public": {
+          "download": "694786512",
+          "gid": "5922054588468494661",
+          "size": "994494616"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25829791",
+        "timebuildupdated": "1791551464",
+        "timeupdated": "1791551465"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Naughty Narratives",
+    "publisher": "Naughty Narratives"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "game/saves",
+        "pattern": "*.save",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

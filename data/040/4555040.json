@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1793656014,
-  "_history": [],
-  "_change_number": 40514632,
-  "_missing_token": true,
-  "_sha": "ad7067ab955be386dbd4e146fede27f8fcc59a4a",
-  "_size": 4011,
+  "_lastChecked": 1793821554,
+  "_history": [
+    {
+      "buildId": "26437304",
+      "branch": "beta",
+      "timeUpdated": 1793811767,
+      "firstSeen": 1793821554,
+      "manifests": {
+        "4555042": {
+          "gid": "4141365314284576059",
+          "size": 218573363,
+          "download": 138544176
+        },
+        "4555043": {
+          "gid": "2158948272226509334",
+          "size": 300412322,
+          "download": 160269792
+        }
+      }
+    },
+    {
+      "buildId": "26437304",
+      "branch": "public",
+      "timeUpdated": 1793811767,
+      "firstSeen": 1793821554,
+      "manifests": {
+        "4555042": {
+          "gid": "4141365314284576059",
+          "size": 218573363,
+          "download": 138544176
+        },
+        "4555043": {
+          "gid": "2158948272226509334",
+          "size": 300412322,
+          "download": 160269792
+        }
+      }
+    }
+  ],
+  "_change_number": 40599809,
+  "_missing_token": false,
+  "_sha": "691aeac8540cc87246c012993d9fc2a842a70180",
+  "_size": 6741,
   "appid": "4555040",
   "common": {
     "associations": {
@@ -41,9 +78,9 @@
     },
     "clienticon": "bb735626f6e4ff505f8f76c478b962f91dcae6a9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4555040",
     "genres": {
       "0": "4",
@@ -124,12 +161,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1bd7ae7c06f7a0fabfd40eb203cba75ae0eec785/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/4555040/discussions/0/573805391546412946/",
-    "store_asset_mtime": "1793306185",
+    "steam_release_date": "1793813379",
+    "store_asset_mtime": "1793814726",
     "store_tags": {
       "0": "9",
       "1": "1716",
@@ -184,5 +222,130 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sushiamo",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Sushiamo (Recommended)",
+        "description_loc": {
+          "english": "Sushiamo (Recommended)"
+        },
+        "executable": "Sushiamo.exe",
+        "type": "option1"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Sushiamo.app"
+      },
+      "2": {
+        "arguments": "--rendering-method gl_compatibility --rendering-driver opengl3",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "with OpenGL (Only if the first option fails)",
+        "description_loc": {
+          "english": "with OpenGL (Only if the first option fails)"
+        },
+        "executable": "Sushiamo.exe",
+        "type": "option2"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4555042": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "138544176",
+          "gid": "4141365314284576059",
+          "size": "218573363"
+        },
+        "public": {
+          "download": "138544176",
+          "gid": "4141365314284576059",
+          "size": "218573363"
+        }
+      }
+    },
+    "4555043": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "160269792",
+          "gid": "2158948272226509334",
+          "size": "300412322"
+        },
+        "public": {
+          "download": "160269792",
+          "gid": "2158948272226509334",
+          "size": "300412322"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,latam,spanish",
+    "branches": {
+      "beta": {
+        "buildid": "26437304",
+        "description": "Early versions (may contain bugs)",
+        "timebuildupdated": "1793811753",
+        "timeupdated": "1793811767"
+      },
+      "public": {
+        "buildid": "26437304",
+        "timebuildupdated": "1793811753",
+        "timeupdated": "1793811767"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Panello Games",
+    "dlcavailableonstore": "1",
+    "homepage": "https://panellogames.github.io/",
+    "listofdlc": "5027000",
+    "publisher": "Panello Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "4": {
+        "path": "Sushiamo/profiles/1",
+        "pattern": "*.*",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Sushiamo/profiles/2",
+        "pattern": "*.*",
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Sushiamo/profiles/3",
+        "pattern": "*.*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

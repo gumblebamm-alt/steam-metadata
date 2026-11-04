@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793040167,
-  "_history": [],
-  "_change_number": 40266554,
-  "_missing_token": true,
-  "_sha": "fb36744e66e847ee7b91fb1da7f3499f744a6c4c",
-  "_size": 4328,
+  "_lastChecked": 1793821565,
+  "_history": [
+    {
+      "buildId": "26346984",
+      "branch": "public",
+      "timeUpdated": 1793534848,
+      "firstSeen": 1793821565,
+      "manifests": {
+        "4966561": {
+          "gid": "4431122203133640671",
+          "size": 628358487,
+          "download": 463711344
+        }
+      }
+    }
+  ],
+  "_change_number": 40581876,
+  "_missing_token": false,
+  "_sha": "ed756e7f115629e186b30903c0cab9fd8836373f",
+  "_size": 5654,
   "appid": "4966560",
   "common": {
     "aicontenttype": "1",
@@ -35,6 +49,7 @@
     },
     "clienticon": "0d2c9251568ff561ef814793f3b3a23efdac469d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -45,7 +60,6 @@
         "version": "5"
       }
     },
-    "exfgls": "8",
     "gameid": "4966560",
     "genres": {
       "0": "4",
@@ -126,16 +140,18 @@
     },
     "name": "SUPER GAHAKU",
     "name_localized": {
-      "japanese": "スーパー画伯"
+      "japanese": "スーパー画伯",
+      "schinese": "3D灵魂画手：SUPER GAHAKU"
     },
     "osarch": "",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "06478358554d1d340895cd8fd19bb280a5adcfe8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793782830",
     "store_asset_mtime": "1793036643",
     "store_tags": {
       "0": "597",
@@ -207,5 +223,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SUPERGAHAKU",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SuperGAHAKU.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4966561": {
+      "manifests": {
+        "public": {
+          "download": "463711344",
+          "gid": "4431122203133640671",
+          "size": "628358487"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26346984",
+        "timebuildupdated": "1793458709",
+        "timeupdated": "1793534848"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "North Fox Games",
+    "homepage": "https://www.northfoxgames.com",
+    "publisher": "North Fox Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "MoriMoriGuessor/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

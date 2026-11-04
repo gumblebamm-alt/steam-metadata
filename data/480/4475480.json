@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793166286,
+  "_lastChecked": 1793821553,
   "_history": [
     {
       "buildId": "26256257",
@@ -13,12 +13,30 @@
           "download": 6343822880
         }
       }
+    },
+    {
+      "buildId": "26440241",
+      "branch": "public",
+      "timeUpdated": 1793820608,
+      "firstSeen": 1793821553,
+      "manifests": {
+        "4475481": {
+          "gid": "1122570248380922935",
+          "size": 8060243700,
+          "download": 7181034352
+        },
+        "4475482": {
+          "gid": "6915701849754448888",
+          "size": 8046145647,
+          "download": 7177067104
+        }
+      }
     }
   ],
-  "_change_number": 40317569,
+  "_change_number": 40603122,
   "_missing_token": false,
-  "_sha": "2e4887069b646854701b1f2699efb6063397e40e",
-  "_size": 3862,
+  "_sha": "7eaa0a8ae8bb9e43437c7495d3b43467c30952b3",
+  "_size": 4444,
   "appid": "4475480",
   "common": {
     "aicontenttype": "1",
@@ -120,13 +138,15 @@
     },
     "name": "Shattered Void Online",
     "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "37",
     "releasestate": "released",
     "small_capsule": {
       "english": "86aceb8593b91abdb7743466305b3e27bee25ae1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793142811",
     "store_asset_mtime": "1792096316",
     "store_tags": {
       "0": "599",
@@ -159,6 +179,12 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "Shattered Void Online",
     "launch": {
       "0": {
@@ -167,27 +193,51 @@
           "oslist": "windows"
         },
         "executable": "ShatteredVoid.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "ShatteredVoid.x86_64"
       }
     }
   },
   "depots": {
     "4475481": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "6343822880",
-          "gid": "3724575382034365706",
-          "size": "7178488261"
+          "download": "7181034352",
+          "gid": "1122570248380922935",
+          "size": "8060243700"
+        }
+      }
+    },
+    "4475482": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "7177067104",
+          "gid": "6915701849754448888",
+          "size": "8046145647"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26256257",
-        "timebuildupdated": "1793141180",
-        "timeupdated": "1793141227"
+        "buildid": "26440241",
+        "timebuildupdated": "1793820209",
+        "timeupdated": "1793820608"
       }
     },
-    "nocommonredists": "1"
+    "nocommonredists": "1",
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Woodland Software",

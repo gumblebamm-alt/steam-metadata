@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792457859,
-  "_history": [],
-  "_change_number": 40002577,
-  "_missing_token": true,
-  "_sha": "b182f4558c764d9b014c19f4178a45fc9778f9ff",
-  "_size": 3148,
+  "_lastChecked": 1793821555,
+  "_history": [
+    {
+      "buildId": "26388607",
+      "branch": "public",
+      "timeUpdated": 1793649413,
+      "firstSeen": 1793821555,
+      "manifests": {
+        "4589261": {
+          "gid": "3984462852331584681",
+          "size": 25214968,
+          "download": 16345280
+        },
+        "4589262": {
+          "gid": "554474725653445650",
+          "size": 26384968,
+          "download": 16563360
+        }
+      }
+    }
+  ],
+  "_change_number": 40592802,
+  "_missing_token": false,
+  "_sha": "791a8b7d0069a55fea7651c24c19aecc834ffaa4",
+  "_size": 4606,
   "appid": "4589260",
   "common": {
     "associations": {
@@ -33,8 +52,8 @@
     },
     "clienticon": "03a0430aaa359ff0db432127d162a55d571006a5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4589260",
     "genres": {
       "0": "23",
@@ -107,10 +126,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "45ca33255db6dda20bc92776851a737f0321a4bb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793803152",
     "store_asset_mtime": "1786802199",
     "store_tags": {
       "0": "4057",
@@ -142,5 +162,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Wizard School Dropout",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Wizard School Dropout.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "AppRun"
+      }
+    }
+  },
+  "depots": {
+    "4589261": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "16345280",
+          "gid": "3984462852331584681",
+          "size": "25214968"
+        }
+      }
+    },
+    "4589262": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "16563360",
+          "gid": "554474725653445650",
+          "size": "26384968"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26388607",
+        "timebuildupdated": "1793649413",
+        "timeupdated": "1793649413"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Weirdfellows",
+    "publisher": "Weirdfellows"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "wizardschooldropout",
+            "replace": "wizardschooldropout"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "wizardschooldropout",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

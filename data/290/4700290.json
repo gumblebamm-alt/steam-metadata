@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793773147,
-  "_history": [],
-  "_change_number": 40561888,
-  "_missing_token": true,
-  "_sha": "8e6e13cd848651657b63c3878fa2b2234c318067",
-  "_size": 3254,
+  "_lastChecked": 1793821558,
+  "_history": [
+    {
+      "buildId": "26413124",
+      "branch": "public",
+      "timeUpdated": 1793730891,
+      "firstSeen": 1793821558,
+      "manifests": {
+        "4700291": {
+          "gid": "6978512295527612809",
+          "size": 200699928,
+          "download": 84033520
+        }
+      }
+    }
+  ],
+  "_change_number": 40593430,
+  "_missing_token": false,
+  "_sha": "7d136df352c4e2526f7168a01587a727f016f644",
+  "_size": 4298,
   "appid": "4700290",
   "common": {
     "associations": {
@@ -33,9 +47,9 @@
     },
     "clienticon": "d89c1ed0d97fdab8eb960585c1c10adeea2c3736",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4700290",
     "genres": {
       "0": "25",
@@ -109,11 +123,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "76ed85b74ce87f58c32dfc3f47d85b93e255ce43/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/4700290/announcements/detail/668380665149919047",
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1793212990",
     "store_tags": {
       "0": "97376",
@@ -144,5 +159,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Under the Elm",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play Under the Elm",
+        "description_loc": {
+          "english": "Play Under the Elm"
+        },
+        "executable": "under-the-elm.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4700291": {
+      "manifests": {
+        "public": {
+          "download": "84033520",
+          "gid": "6978512295527612809",
+          "size": "200699928"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26413124",
+        "timebuildupdated": "1793730506",
+        "timeupdated": "1793730891"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Crooked Stone Studios",
+    "publisher": "Crooked Stone Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "com.crookedstone.undertheelm/saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

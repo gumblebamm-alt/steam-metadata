@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793734357,
-  "_history": [],
-  "_change_number": 40560986,
-  "_missing_token": true,
-  "_sha": "cd3e1289ee12a2b5dae7f47c5d44913913544a4c",
-  "_size": 3802,
+  "_lastChecked": 1793821549,
+  "_history": [
+    {
+      "buildId": "26435619",
+      "branch": "public",
+      "timeUpdated": 1793808924,
+      "firstSeen": 1793821549,
+      "manifests": {
+        "4262461": {
+          "gid": "7052143377368535768",
+          "size": 5080552057,
+          "download": 4420111072
+        }
+      }
+    }
+  ],
+  "_change_number": 40602407,
+  "_missing_token": false,
+  "_sha": "f4c5e02659f5279f4478c151528ede3028d5af9b",
+  "_size": 4972,
   "appid": "4262460",
   "common": {
     "aicontenttype": "1",
@@ -47,10 +61,9 @@
         "id": "4262460_eula_0",
         "name": "ROB RUN EULA",
         "url": "https://store.steampowered.com/eula/4262460_eula_0",
-        "version": "3"
+        "version": "4"
       }
     },
-    "exfgls": "8",
     "gameid": "4262460",
     "genres": {
       "0": "1",
@@ -125,10 +138,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "43",
+    "review_score": "5",
     "small_capsule": {
       "english": "0cef00dbfabf5f15adbf8b18e84cc8ef53dce963/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793811650",
     "store_asset_mtime": "1791276388",
     "store_tags": {
       "0": "3859",
@@ -182,5 +198,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Rob Run",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "start_protected_game.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4262461": {
+      "manifests": {
+        "public": {
+          "download": "4420111072",
+          "gid": "7052143377368535768",
+          "size": "5080552057"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26435619",
+        "timebuildupdated": "1793807392",
+        "timeupdated": "1793808924"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "anti_cheat_support_url": "https://www.easy.ac/r/steam/gamebans/?steamAppId=4262460",
+    "developer": "Kefir",
+    "isfreeapp": "1",
+    "publisher": "Kefir"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Kefir/ROB RUN/player_prefs",
+        "pattern": "*.dat",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Kefir/ROB RUN/settings",
+        "pattern": "*.dat",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

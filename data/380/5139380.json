@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793773155,
-  "_history": [],
-  "_change_number": 40572615,
-  "_missing_token": true,
-  "_sha": "f504e47df230eb9b7365e215fef75e17e86540ed",
-  "_size": 3510,
+  "_lastChecked": 1793821571,
+  "_history": [
+    {
+      "buildId": "26434001",
+      "branch": "public",
+      "timeUpdated": 1793803158,
+      "firstSeen": 1793821571,
+      "manifests": {
+        "5139381": {
+          "gid": "5664923368888274671",
+          "size": 774510395,
+          "download": 641058032
+        }
+      }
+    }
+  ],
+  "_change_number": 40600413,
+  "_missing_token": false,
+  "_sha": "d6ac57e7690a8544618b71432ac2179877d92f07",
+  "_size": 4615,
   "appid": "5139380",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     },
     "clienticon": "5e815443f69b63ff29b0b645ffd6e9957e2067ae",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5139380",
     "genres": {
       "0": "1",
@@ -104,11 +118,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0b67d8dc76b3378cec2e7a4494fc2ed854dc540f/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793759297",
+    "steam_release_date": "1793815713",
+    "store_asset_mtime": "1793811992",
     "store_tags": {
       "0": "5395",
       "1": "492",
@@ -171,5 +186,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Marble Stars",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Marble Stars (1.9)\\Windows\\Marble_Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5139381": {
+      "manifests": {
+        "public": {
+          "download": "641058032",
+          "gid": "5664923368888274671",
+          "size": "774510395"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26434001",
+        "timebuildupdated": "1793803157",
+        "timeupdated": "1793803158"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Scratch",
+    "publisher": "Scratch"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Marble_Game/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793773150,
-  "_history": [],
-  "_change_number": 40570210,
-  "_missing_token": true,
-  "_sha": "38d754d2a3ec67878ab47c8f48d016066ff984c3",
-  "_size": 4787,
+  "_lastChecked": 1793821563,
+  "_history": [
+    {
+      "buildId": "26417403",
+      "branch": "public",
+      "timeUpdated": 1793744597,
+      "firstSeen": 1793821563,
+      "manifests": {
+        "4917631": {
+          "gid": "3127072939101179481",
+          "size": 362176688,
+          "download": 283317136
+        },
+        "4917632": {
+          "gid": "7870202136360219511",
+          "size": 451134016,
+          "download": 307001344
+        }
+      }
+    }
+  ],
+  "_change_number": 40583206,
+  "_missing_token": false,
+  "_sha": "7697e19ca2f372581c83c31b6fce2efc98a36916",
+  "_size": 6312,
   "appid": "4917630",
   "common": {
     "aicontenttype": "1",
@@ -39,9 +58,9 @@
     "clienticns": "3e2bf160511f75f753496569cb53bfd4fb563192",
     "clienticon": "0528ff67424d438cb37d5016d4e6f92927c73fe5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4917630",
     "genres": {
       "0": "1",
@@ -50,7 +69,7 @@
       "3": "70"
     },
     "header_image": {
-      "english": "85e44e6a15b768249239472f009e2d99910f3631/header.jpg"
+      "english": "5986a40a756369f3881e3e67608ecfecce5ca6b7/header.jpg"
     },
     "icon": "37bfeb1a768b70dc00ddce133bd70f2d58e3151e",
     "languages": {
@@ -138,11 +157,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7fe4031df4e279a92f1f023557ec5424c83034fb/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793752549",
+    "steam_release_date": "1793779321",
+    "store_asset_mtime": "1793785244",
     "store_tags": {
       "0": "42804",
       "1": "723991",
@@ -232,5 +252,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ERLIK",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ERLIK.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "macos"
+        },
+        "executable": "ERLIK.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65524",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4917631": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "283317136",
+          "gid": "3127072939101179481",
+          "size": "362176688"
+        }
+      }
+    },
+    "4917632": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "307001344",
+          "gid": "7870202136360219511",
+          "size": "451134016"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26417403",
+        "timebuildupdated": "1793744010",
+        "timeupdated": "1793744597"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Ash &amp; Antler",
+    "publisher": "Ash &amp; Antler"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "5242880",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/ERLIK",
+        "pattern": "erlik_save.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

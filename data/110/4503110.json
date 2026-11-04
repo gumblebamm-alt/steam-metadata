@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793773144,
-  "_history": [],
-  "_change_number": 40566830,
-  "_missing_token": true,
-  "_sha": "9503215ba015d7a861b192dc8ac31f42b00705df",
-  "_size": 4146,
+  "_lastChecked": 1793821553,
+  "_history": [
+    {
+      "buildId": "26417515",
+      "branch": "public",
+      "timeUpdated": 1793744362,
+      "firstSeen": 1793821553,
+      "manifests": {
+        "4503111": {
+          "gid": "563266012701763420",
+          "size": 165260352,
+          "download": 84128128
+        },
+        "4503112": {
+          "gid": "4358142895357696765",
+          "size": 130213976,
+          "download": 75643856
+        }
+      }
+    }
+  ],
+  "_change_number": 40584316,
+  "_missing_token": false,
+  "_sha": "9d458c4549babb03df5fd17b9e18794d5659cc47",
+  "_size": 5740,
   "appid": "4503110",
   "common": {
     "aicontenttype": "1",
@@ -32,8 +51,8 @@
     },
     "clienticon": "34ae58b384d06783f994bb07a3400643499f4d01",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4503110",
     "genres": {
       "0": "4",
@@ -119,10 +138,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ea67486987d771f653ba13b61edc660afd984864/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793787503",
     "store_asset_mtime": "1793351449",
     "store_tags": {
       "0": "492",
@@ -198,5 +218,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Circuit Pulse",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "circuit_pulse.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "circuit_pulse.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4503111": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "84128128",
+          "gid": "563266012701763420",
+          "size": "165260352"
+        }
+      }
+    },
+    "4503112": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "75643856",
+          "gid": "4358142895357696765",
+          "size": "130213976"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26417515",
+        "timebuildupdated": "1793744352",
+        "timeupdated": "1793744362"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "ANICE",
+    "homepage": "https://anice.app/index.php?lang=en",
+    "publisher": "ANICE"
+  },
+  "ufs": {
+    "maxnumfiles": "256",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Circuit Pulse/saves",
+            "replace": "Circuit Pulse/saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Circuit Pulse/saves",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

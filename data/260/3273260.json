@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793124055,
-  "_history": [],
-  "_change_number": 40299270,
-  "_missing_token": true,
-  "_sha": "b9015113df80d8481446c4e9ccd6b15afb718073",
-  "_size": 6067,
+  "_lastChecked": 1793821535,
+  "_history": [
+    {
+      "buildId": "26168505",
+      "branch": "public",
+      "timeUpdated": 1792782484,
+      "firstSeen": 1793821535,
+      "manifests": {
+        "3273261": {
+          "gid": "1145499024371541725",
+          "size": 10162928069,
+          "download": 9252049168
+        }
+      }
+    }
+  ],
+  "_change_number": 40602391,
+  "_missing_token": false,
+  "_sha": "481298fa6dfcba36d360229ac188c184225af4e7",
+  "_size": 6995,
   "appid": "3273260",
   "common": {
     "associations": {
@@ -37,9 +51,9 @@
     "clienticon": "4af4233f6ec17e8deac8d8815d0d203cb9f2f67c",
     "clienttga": "5466a1a8f20039a9f67672263d4a72b22e31c492",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3273260",
     "genres": {
       "0": "1",
@@ -112,7 +126,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "92",
+    "review_score": "7",
     "small_capsule": {
       "english": "501d79938af1b854308cfa6490ced6d5c59ecfd4/capsule_231x87.jpg"
     },
@@ -178,6 +194,7 @@
         }
       }
     },
+    "steam_release_date": "1793797178",
     "store_asset_mtime": "1793095236",
     "store_tags": {
       "0": "5395",
@@ -190,8 +207,8 @@
       "15": "4182",
       "16": "1625",
       "17": "492",
-      "18": "1100687",
-      "19": "1667",
+      "18": "1667",
+      "19": "1100687",
       "2": "3834",
       "3": "1644",
       "4": "4166",
@@ -259,5 +276,50 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lost Host",
+    "launch": {
+      "0": {
+        "executable": "LostHost.exe"
+      }
+    }
+  },
+  "depots": {
+    "3273261": {
+      "manifests": {
+        "public": {
+          "download": "9252049168",
+          "gid": "1145499024371541725",
+          "size": "10162928069"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26168505",
+        "timebuildupdated": "1792782316",
+        "timeupdated": "1792782484"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Gest.LT",
+    "homepage": "https://gest.lt/projects/JvElVz",
+    "publisher": "Gest.LT"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "GestLT/LostHost",
+        "pattern": "save_slot_*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

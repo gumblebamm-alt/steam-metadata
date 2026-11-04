@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792816674,
-  "_history": [],
-  "_change_number": 40186417,
-  "_missing_token": true,
-  "_sha": "2f107b809b6c977844d1cab7d7bdfffee9c027e0",
-  "_size": 3472,
+  "_lastChecked": 1793821560,
+  "_history": [
+    {
+      "buildId": "25789545",
+      "branch": "public",
+      "timeUpdated": 1791411522,
+      "firstSeen": 1793821560,
+      "manifests": {
+        "4802431": {
+          "gid": "92385701079895016",
+          "size": 363506308,
+          "download": 156291440
+        },
+        "4802432": {
+          "gid": "4770781015191001264",
+          "size": 386873382,
+          "download": 157851712
+        }
+      }
+    }
+  ],
+  "_change_number": 40602169,
+  "_missing_token": false,
+  "_sha": "f62803c07daad6a393b5756fe5b0884be76378fd",
+  "_size": 4571,
   "appid": "4802430",
   "common": {
     "associations": {
@@ -32,9 +51,9 @@
     },
     "clienticon": "54df06d234f62e0754a0fe75583154914551ee7e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4802430",
     "genres": {
       "0": "25",
@@ -106,10 +125,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "22a928884b3614be2c34853a7b04f1994f7772d1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793818820",
     "store_asset_mtime": "1785030584",
     "store_tags": {
       "0": "21",
@@ -157,5 +177,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cubus Tower",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "CubusTower.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "CubusTower.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4802431": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "156291440",
+          "gid": "92385701079895016",
+          "size": "363506308"
+        }
+      }
+    },
+    "4802432": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "157851712",
+          "gid": "4770781015191001264",
+          "size": "386873382"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25789545",
+        "timebuildupdated": "1791410968",
+        "timeupdated": "1791411522"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Lekrieg Productions",
+    "publisher": "Lekrieg Productions"
+  }
 }

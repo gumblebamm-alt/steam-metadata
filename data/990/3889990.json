@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792603010,
-  "_history": [],
-  "_change_number": 40090763,
-  "_missing_token": true,
-  "_sha": "8cffb1aec9c9524199e120e57fdd8827c055bb8c",
-  "_size": 3313,
+  "_lastChecked": 1793821543,
+  "_history": [
+    {
+      "buildId": "26424844",
+      "branch": "public",
+      "timeUpdated": 1793773539,
+      "firstSeen": 1793821543,
+      "manifests": {
+        "3889991": {
+          "gid": "7667274993391517597",
+          "size": 929370854,
+          "download": 836114736
+        },
+        "3889992": {
+          "gid": "2893191536786352186",
+          "size": 912654834,
+          "download": 830576128
+        }
+      }
+    }
+  ],
+  "_change_number": 40600082,
+  "_missing_token": false,
+  "_sha": "f35160ce992b979ca76599aa9661f3b30bf018dc",
+  "_size": 4383,
   "appid": "3889990",
   "common": {
     "associations": {
@@ -38,7 +57,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3889990",
     "genres": {
       "0": "23"
@@ -109,10 +127,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f9d3e9db7da21a24c09efaca69f2fb6f0c3eab89/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793815210",
     "store_asset_mtime": "1792593316",
     "store_tags": {
       "0": "3799",
@@ -143,5 +162,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "rest in a dark room",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "rest.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "rest.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "rest.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3889991": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "836114736",
+          "gid": "7667274993391517597",
+          "size": "929370854"
+        }
+      }
+    },
+    "3889992": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "830576128",
+          "gid": "2893191536786352186",
+          "size": "912654834"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26424844",
+        "timebuildupdated": "1793773499",
+        "timeupdated": "1793773539"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "regular glove",
+    "publisher": "regular glove"
+  }
 }

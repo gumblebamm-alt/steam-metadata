@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793513177,
-  "_history": [],
-  "_change_number": 40472235,
-  "_missing_token": true,
-  "_sha": "1a926854acded1055e0bc8f50ecdce8261f4b831",
-  "_size": 5015,
+  "_lastChecked": 1793821554,
+  "_history": [
+    {
+      "buildId": "26378317",
+      "branch": "public",
+      "timeUpdated": 1793623246,
+      "firstSeen": 1793821554,
+      "manifests": {
+        "4553491": {
+          "gid": "8474354698072690513",
+          "size": 919119292,
+          "download": 600323168
+        }
+      }
+    }
+  ],
+  "_change_number": 40591409,
+  "_missing_token": false,
+  "_sha": "6dfb4f22fd0637442a5a90089412969499e3591d",
+  "_size": 7046,
   "appid": "4553490",
   "common": {
     "associations": {
@@ -34,6 +48,7 @@
     },
     "clienticon": "1fd306487e9f88469da7698b609ceb86ba069f63",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -44,7 +59,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "4553490",
     "genres": {
       "0": "4",
@@ -137,12 +151,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4592385bc930514f02f13f538be51a9cfa8a3303/capsule_231x87.jpg",
       "schinese": "008ff573d3875c1f4a8aa0722805cd677f05286d/capsule_231x87_schinese.jpg",
       "tchinese": "d203b93c35d5a048b500f1ad9515126682c2ce44/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1793511028",
     "store_tags": {
       "0": "3920",
@@ -184,5 +199,98 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Ape-tite",
+    "launch": {
+      "0": {
+        "description": "Play Ape‑tite (top is default)",
+        "description_loc": {
+          "english": "Play Ape‑tite (top is default)"
+        },
+        "executable": "Ape_tite/Binaries/Win64/Ape_tite-Win64-Shipping.exe",
+        "type": "default",
+        "workingdir": "Ape_tite/Binaries/Win64/"
+      },
+      "1": {
+        "arguments": "-d3d11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Ape‑tite (with Direct3D 11)",
+        "description_loc": {
+          "english": "Ape‑tite (with Direct3D 11)"
+        },
+        "executable": "Ape_tite/Binaries/Win64/Ape_tite-Win64-Shipping.exe",
+        "type": "option1",
+        "workingdir": "Ape_tite/Binaries/Win64/"
+      }
+    },
+    "steamconfigurator3rdpartynative": "15",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4553491": {
+      "manifests": {
+        "public": {
+          "download": "600323168",
+          "gid": "8474354698072690513",
+          "size": "919119292"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26378317",
+        "timebuildupdated": "1793619331",
+        "timeupdated": "1793623246"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": " Ki-nodes Studio",
+    "homepage": "https://www.ki-nodes.com/games",
+    "publisher": " Ki-nodes Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "12",
+    "quota": "20000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "SteamCloudDocuments",
+        "useinstead": "WinAppDataLocal"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "SteamCloudDocuments",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Ape_tite/Saved/SaveGames/",
+        "pattern": "*.sav",
+        "root": "SteamCloudDocuments"
+      }
+    }
+  }
 }

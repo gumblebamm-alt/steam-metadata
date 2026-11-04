@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793656008,
-  "_history": [],
-  "_change_number": 40525929,
-  "_missing_token": true,
-  "_sha": "364bc8a84dc1f0aa446317854168c14454c44ec3",
-  "_size": 4095,
+  "_lastChecked": 1793821550,
+  "_history": [
+    {
+      "buildId": "26418312",
+      "branch": "public",
+      "timeUpdated": 1793747176,
+      "firstSeen": 1793821550,
+      "manifests": {
+        "4334531": {
+          "gid": "3148968665453776778",
+          "size": 512787534,
+          "download": 170520928
+        },
+        "4334532": {
+          "gid": "3744918038387454979",
+          "size": 609367767,
+          "download": 196138336
+        },
+        "4334533": {
+          "gid": "3281207337942687573",
+          "size": 555972317,
+          "download": 177718944
+        }
+      }
+    }
+  ],
+  "_change_number": 40590663,
+  "_missing_token": false,
+  "_sha": "3fb32b57953d7fdda5cb2a47d3927df58fcd1c9c",
+  "_size": 6038,
   "appid": "4334530",
   "common": {
     "associations": {
@@ -33,6 +57,7 @@
     },
     "clienticon": "ebe7aa8e2212e0a4666dab88fe525d4967811c90",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -43,7 +68,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4334530",
     "genres": {
       "0": "25"
@@ -113,10 +137,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "641c5dca2a45c062917b6644cd20499c2196e38b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793799629",
     "store_asset_mtime": "1792445895",
     "store_tags": {
       "0": "1667",
@@ -196,5 +221,112 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cold Rails",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Cold Rails.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Cold Rails.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Cold Rails.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4334531": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "170520928",
+          "gid": "3148968665453776778",
+          "size": "512787534"
+        }
+      }
+    },
+    "4334532": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "196138336",
+          "gid": "3744918038387454979",
+          "size": "609367767"
+        }
+      }
+    },
+    "4334533": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "177718944",
+          "gid": "3281207337942687573",
+          "size": "555972317"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26418312",
+        "timebuildupdated": "1793747176",
+        "timeupdated": "1793747176"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Vivi",
+    "publisher": "Vivi"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "200000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ViviGames/Cold Rails",
+            "replace": "unity3d/ViviGames/Cold Rails"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "ViviGames/Cold Rails",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
