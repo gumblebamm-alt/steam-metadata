@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792603026,
-  "_history": [],
-  "_change_number": 40076370,
-  "_missing_token": true,
-  "_sha": "70ba27f87eedb01aabfb01b419c8abeec05ef8cf",
-  "_size": 4102,
+  "_lastChecked": 1793908647,
+  "_history": [
+    {
+      "buildId": "26459600",
+      "branch": "public",
+      "timeUpdated": 1793886568,
+      "firstSeen": 1793908647,
+      "manifests": {
+        "4586231": {
+          "gid": "4982336737567313975",
+          "size": 22624704321,
+          "download": 10234554128
+        },
+        "4586232": {
+          "gid": "3106118263970778761",
+          "size": 25454090847,
+          "download": 11383139040
+        }
+      }
+    }
+  ],
+  "_change_number": 40637938,
+  "_missing_token": false,
+  "_sha": "8dc6158e610020d664fad1bb0bc3369d6a320f84",
+  "_size": 5752,
   "appid": "4586230",
   "common": {
     "associations": {
@@ -38,9 +57,9 @@
     },
     "clienticon": "1daeb87a08a33531dcb6f0117648a907177af6ac",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4586230",
     "genres": {
       "0": "1",
@@ -113,10 +132,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5785744ed60c8754e703f4cbae6cfbe9950c26e5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793890307",
     "store_asset_mtime": "1792570578",
     "store_tags": {
       "0": "599",
@@ -194,5 +214,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Last Inspection",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "LastInspection.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "LastInspection.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4586231": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "10234554128",
+          "gid": "4982336737567313975",
+          "size": "22624704321"
+        }
+      }
+    },
+    "4586232": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "11383139040",
+          "gid": "3106118263970778761",
+          "size": "25454090847"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26459600",
+        "timebuildupdated": "1793886568",
+        "timeupdated": "1793886568"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Dark Games DGG",
+    "publisher": "Dark Games DGG"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Setone Dark DGG Games/LastInspection/Saves",
+            "replace": "unity3d/Setone Dark DGG Games/LastInspection/Saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Setone Dark DGG Games/LastInspection/Saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

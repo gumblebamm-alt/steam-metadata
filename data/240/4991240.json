@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792155379,
+  "_lastChecked": 1793908658,
   "_history": [
     {
       "buildId": "25893552",
@@ -74,12 +74,25 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26097116",
+      "branch": "public",
+      "timeUpdated": 1792554594,
+      "firstSeen": 1793908658,
+      "manifests": {
+        "4991241": {
+          "gid": "1371776505133116278",
+          "size": 2981492181,
+          "download": 2719590576
+        }
+      }
     }
   ],
-  "_change_number": 39899339,
+  "_change_number": 40643668,
   "_missing_token": false,
-  "_sha": "302be96052d3943ed4c669d5f9b088ada0efa19f",
-  "_size": 5064,
+  "_sha": "4d8f82edfcd3e1869da43568bfac5b4d5c3e34c2",
+  "_size": 8408,
   "appid": "4991240",
   "common": {
     "associations": {
@@ -95,6 +108,7 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_28": "1",
       "category_55": "1",
       "category_56": "1",
@@ -183,6 +197,113 @@
     "small_capsule": {
       "english": "9d4ee50f365bf6ebab706495e7765a9e759bacde/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1792524164",
+      "tested_build_id": "25928140",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_frame_compatibility": {
+      "category": "2",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1793119343",
+      "tested_build_id": "26097116",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamFrame_TestResult_DisplayOutputHasNonblockingIssues"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
     "steam_release_date": "1791844905",
     "store_asset_mtime": "1792148735",
     "store_tags": {
@@ -196,11 +317,11 @@
       "2": "1664",
       "3": "5900",
       "4": "5652",
-      "5": "1738",
-      "6": "1239876",
-      "7": "4191",
-      "8": "9204",
-      "9": "23491"
+      "5": "1239876",
+      "6": "1738",
+      "7": "23491",
+      "8": "4191",
+      "9": "9204"
     },
     "supported_languages": {
       "brazilian": {
@@ -287,7 +408,9 @@
         },
         "executable": "WCC.exe"
       }
-    }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "228989": {
@@ -307,22 +430,33 @@
     "4991241": {
       "manifests": {
         "public": {
-          "download": "2728938288",
-          "gid": "4997035202019677516",
-          "size": "2990727261"
+          "download": "2719590576",
+          "gid": "1371776505133116278",
+          "size": "2981492181"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25951914",
-        "timebuildupdated": "1792041473",
-        "timeupdated": "1792041546"
+        "buildid": "26097116",
+        "timebuildupdated": "1792554528",
+        "timeupdated": "1792554594"
       }
     }
   },
   "extended": {
     "developer": "Cleanup Crew!",
     "publisher": "Cleanup Crew!"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": "TUE_WitchCabin/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
   }
 }

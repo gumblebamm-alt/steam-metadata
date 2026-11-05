@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793298806,
-  "_history": [],
-  "_change_number": 40373409,
-  "_missing_token": true,
-  "_sha": "e11521d8771b39ff051fd183cc1ab4bf36a33678",
-  "_size": 3699,
+  "_lastChecked": 1793908659,
+  "_history": [
+    {
+      "buildId": "26457788",
+      "branch": "public",
+      "timeUpdated": 1793881930,
+      "firstSeen": 1793908659,
+      "manifests": {
+        "5017811": {
+          "gid": "4204473459038522697",
+          "size": 1423027943,
+          "download": 1248236960
+        }
+      }
+    }
+  ],
+  "_change_number": 40636047,
+  "_missing_token": false,
+  "_sha": "1319d007078d033630ce08e439e32da63b49039b",
+  "_size": 5215,
   "appid": "5017810",
   "common": {
     "associations": {
@@ -30,9 +44,9 @@
     },
     "clienticon": "abc87f80e800da09c7d23c4da4de0005d3cd326a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5017810",
     "genres": {
       "0": "25",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b646969acc18bfccc3669e96ddb47fe6cfd1b982/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793894729",
     "store_asset_mtime": "1788198978",
     "store_tags": {
       "0": "597",
@@ -178,5 +193,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gildoria - Organize a Dragon's Hoard",
+    "launch": {
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play Gildoria",
+        "description_loc": {
+          "english": "Play Gildoria"
+        },
+        "executable": "Gildoria.exe",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "-dx11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch in DirectX 11 mode (use this if the game crashes)",
+        "description_loc": {
+          "english": "Launch in DirectX 11 mode (use this if the game crashes)"
+        },
+        "executable": "Gildoria.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5017811": {
+      "manifests": {
+        "public": {
+          "download": "1248236960",
+          "gid": "4204473459038522697",
+          "size": "1423027943"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26457788",
+        "timebuildupdated": "1793881406",
+        "timeupdated": "1793881930"
+      }
+    }
+  },
+  "extended": {
+    "developer": "LoudScream",
+    "publisher": "LoudScream"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Gildoria/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

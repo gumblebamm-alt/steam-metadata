@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793425399,
+  "_lastChecked": 1793908666,
   "_history": [
     {
       "buildId": "26272375",
@@ -42,12 +42,30 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26459578",
+      "branch": "public",
+      "timeUpdated": 1793886531,
+      "firstSeen": 1793908666,
+      "manifests": {
+        "5380211": {
+          "gid": "895948517750232161",
+          "size": 71014365,
+          "download": 65997968
+        },
+        "5380213": {
+          "gid": "1620023745154122089",
+          "size": 357923658,
+          "download": 177328032
+        }
+      }
     }
   ],
-  "_change_number": 40437169,
+  "_change_number": 40631110,
   "_missing_token": false,
-  "_sha": "392312e0b49c8b626f71590a87efcb58ebc575a3",
-  "_size": 4497,
+  "_sha": "b1f938f5141b658d47a210b7238dc709a76b1a6b",
+  "_size": 5411,
   "appid": "5380210",
   "common": {
     "aicontenttype": "1",
@@ -66,6 +84,11 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
       "category_62": "1",
       "category_74": "1",
       "category_76": "1",
@@ -75,6 +98,7 @@
     "clienticon": "7c5897f19a144bc8738d49399951bbf8c2daf462",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
     "gameid": "5380210",
     "genres": {
@@ -156,13 +180,15 @@
     "osarch": "",
     "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "18",
     "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "b708e93e02d13f49b6321c89b092e47130a91562/capsule_231x87.jpg"
     },
-    "steam_release_date": "1793430000",
+    "steam_release_date": "1793012721",
     "store_asset_mtime": "1792566363",
     "store_tags": {
       "0": "599",
@@ -175,6 +201,9 @@
       "7": "4182"
     },
     "supported_languages": {
+      "czech": {
+        "supported": "true"
+      },
       "english": {
         "supported": "true"
       },
@@ -193,7 +222,13 @@
       "norwegian": {
         "supported": "true"
       },
+      "polish": {
+        "supported": "true"
+      },
       "russian": {
+        "supported": "true"
+      },
+      "spanish": {
         "supported": "true"
       },
       "swedish": {
@@ -211,8 +246,19 @@
           "oslist": "windows"
         },
         "executable": "Biathlon Manager.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "BiathlonManager",
+        "type": "default"
       }
-    }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "5380211": {
@@ -221,19 +267,30 @@
       },
       "manifests": {
         "public": {
-          "download": "58403744",
-          "gid": "2463544051679896820",
-          "size": "63371491"
+          "download": "65997968",
+          "gid": "895948517750232161",
+          "size": "71014365"
         }
       }
     },
-    "5380212": {},
-    "baselanguages": "english,finnish,french,german,italian,norwegian,russian,swedish",
+    "5380213": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "177328032",
+          "gid": "1620023745154122089",
+          "size": "357923658"
+        }
+      }
+    },
+    "baselanguages": "czech,english,finnish,french,german,italian,norwegian,polish,russian,spanish,swedish",
     "branches": {
       "public": {
-        "buildid": "26332943",
-        "timebuildupdated": "1793390077",
-        "timeupdated": "1793390107"
+        "buildid": "26459578",
+        "timebuildupdated": "1793886498",
+        "timeupdated": "1793886531"
       }
     },
     "nocommonredists": "1",
@@ -246,13 +303,19 @@
   "ufs": {
     "maxnumfiles": "1000",
     "quota": "1073741824",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".config/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "BiathlonManager/data/{64BitSteamID}",
         "pattern": "*.json",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataRoaming"
       }
     }

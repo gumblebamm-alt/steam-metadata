@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793040146,
-  "_history": [],
-  "_change_number": 40247017,
-  "_missing_token": true,
-  "_sha": "3d281033b43c8a0f0ef771fb39d0a81ab60ed5bb",
-  "_size": 3369,
+  "_lastChecked": 1793908637,
+  "_history": [
+    {
+      "buildId": "26458593",
+      "branch": "public",
+      "timeUpdated": 1793884041,
+      "firstSeen": 1793908637,
+      "manifests": {
+        "4105361": {
+          "gid": "3359386705082259169",
+          "size": 2477378140,
+          "download": 1095639968
+        },
+        "4105362": {
+          "gid": "2623635861583363652",
+          "size": 2504801970,
+          "download": 1081213888
+        },
+        "4105363": {
+          "gid": "1671541643601213788",
+          "size": 2406033320,
+          "download": 1053318336
+        }
+      }
+    }
+  ],
+  "_change_number": 40629555,
+  "_missing_token": false,
+  "_sha": "3163a7e7f77f168ef32c7fdd876aef01321e4bcf",
+  "_size": 5771,
   "appid": "4105360",
   "common": {
     "associations": {
@@ -35,9 +59,9 @@
     "clienticns": "1ccd0a111c3654a609807eb5ed2c4259fda3d9a5",
     "clienticon": "7bf2aab237162b21655aeddeaac3e3d02dfbf219",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4105360",
     "genres": {
       "0": "4",
@@ -110,10 +134,11 @@
     "osextended": "macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6553178aca3405e15e58292aa7f43ebaebc7b44b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1792944425",
     "store_tags": {
       "0": "14139",
@@ -146,5 +171,128 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "The Lucky Hive",
+    "launch": {
+      "0": {
+        "arguments": "-fullscreen --use-steam",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "The Lucky Hive.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-fullscreen --use-steam",
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "The Lucky Hive.app",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "-fullscreen --use-steam",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "The Lucky Hive.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4105361": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1095639968",
+          "gid": "3359386705082259169",
+          "size": "2477378140"
+        }
+      }
+    },
+    "4105362": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1081213888",
+          "gid": "2623635861583363652",
+          "size": "2504801970"
+        }
+      }
+    },
+    "4105363": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1053318336",
+          "gid": "1671541643601213788",
+          "size": "2406033320"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26458593",
+        "timebuildupdated": "1793883740",
+        "timeupdated": "1793884041"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "Native",
+    "developer": "Koobie Games",
+    "homepage": "https://koobie.games/",
+    "publisher": "Koobie Games"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "100000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/The Lucky Hive",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": ".local/share/godot/app_userdata/The Lucky Hive",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      },
+      "2": {
+        "path": "Godot/app_userdata/",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

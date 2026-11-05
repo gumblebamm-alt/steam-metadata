@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793656008,
-  "_history": [],
-  "_change_number": 40499123,
-  "_missing_token": true,
-  "_sha": "8d984133f238d344165e476752d93b93b69d2cdd",
-  "_size": 3793,
+  "_lastChecked": 1793908643,
+  "_history": [
+    {
+      "buildId": "26254076",
+      "branch": "public",
+      "timeUpdated": 1793179275,
+      "firstSeen": 1793908643,
+      "manifests": {
+        "4354831": {
+          "gid": "892219202529148182",
+          "size": 11381523434,
+          "download": 4450484992
+        }
+      }
+    }
+  ],
+  "_change_number": 40635190,
+  "_missing_token": false,
+  "_sha": "1ca1fb681a1c397ca3e7610385e4a064ace146b3",
+  "_size": 6549,
   "appid": "4354830",
   "common": {
     "associations": {
@@ -33,9 +47,9 @@
     },
     "clienticon": "6fe4a6d8d6a65dfedcc45a19fc64932e9bf2110e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4354830",
     "genres": {
       "0": "25",
@@ -107,10 +121,72 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1d9aa8ae7f6ab6a04944708ab429590f5fb24941/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "3",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1793722608",
+      "tested_build_id": "26254076",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1793893417",
     "store_asset_mtime": "1792402637",
     "store_tags": {
       "0": "21",
@@ -178,5 +254,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dark Alley",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Dark Alley.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4354831": {
+      "manifests": {
+        "public": {
+          "download": "4450484992",
+          "gid": "892219202529148182",
+          "size": "11381523434"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26254076",
+        "timebuildupdated": "1793134241",
+        "timeupdated": "1793179275"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": " CheesecakeGames",
+    "homepage": "https://cheesecakegames.com/",
+    "publisher": "JanduSoft"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "CheesecakeGames/Dark Alley",
+        "pattern": "*.es3",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

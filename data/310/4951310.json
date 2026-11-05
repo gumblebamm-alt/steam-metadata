@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793467104,
-  "_history": [],
-  "_change_number": 40454584,
-  "_missing_token": true,
-  "_sha": "1a8ee425609de0ca17f284d2af4c28264249bf08",
-  "_size": 3948,
+  "_lastChecked": 1793908656,
+  "_history": [
+    {
+      "buildId": "26456394",
+      "branch": "public",
+      "timeUpdated": 1793877544,
+      "firstSeen": 1793908656,
+      "manifests": {
+        "4951311": {
+          "gid": "4956116563385606704",
+          "size": 147763240,
+          "download": 62482992
+        },
+        "4951312": {
+          "gid": "2675610442804060062",
+          "size": 163745928,
+          "download": 69756592
+        }
+      }
+    }
+  ],
+  "_change_number": 40626239,
+  "_missing_token": false,
+  "_sha": "c872696a9d76d88b055be3af5fd19484bd54e0ba",
+  "_size": 5340,
   "appid": "4951310",
   "common": {
     "associations": {
@@ -29,8 +48,8 @@
     },
     "clienticon": "d44f56ee0d12985e2a4021fdeb5e31b6b8951ae6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4951310",
     "genres": {
       "0": "4",
@@ -118,10 +137,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8eeaf4e1d727f564d553946eadab302b8af259ad/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793865610",
     "store_asset_mtime": "1792674828",
     "store_tags": {
       "0": "9",
@@ -189,5 +209,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "FLIP OVER",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "FLIP OVER.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "FLIP OVER.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4951311": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "62482992",
+          "gid": "4956116563385606704",
+          "size": "147763240"
+        }
+      }
+    },
+    "4951312": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "69756592",
+          "gid": "2675610442804060062",
+          "size": "163745928"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26456394",
+        "timebuildupdated": "1793877544",
+        "timeupdated": "1793877544"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Nitromite",
+    "publisher": "Nitromite"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "40000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Nitromite/FLIP OVER/SavesDir",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

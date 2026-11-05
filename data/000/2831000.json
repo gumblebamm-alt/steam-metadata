@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793425404,
-  "_history": [],
-  "_change_number": 40437427,
-  "_missing_token": true,
-  "_sha": "87cac5a97fa368ca51c456f9ee95697e75c0e9de",
-  "_size": 4674,
+  "_lastChecked": 1793908622,
+  "_history": [
+    {
+      "buildId": "25674631",
+      "branch": "public",
+      "timeUpdated": 1791212313,
+      "firstSeen": 1793908622,
+      "manifests": {
+        "2831001": {
+          "gid": "7532517805131373304",
+          "size": 532456879,
+          "download": 367745776
+        }
+      }
+    }
+  ],
+  "_change_number": 40631292,
+  "_missing_token": false,
+  "_sha": "60b019a3eaa0fc30c3d953064a2f4b4d1288490e",
+  "_size": 8081,
   "appid": "2831000",
   "common": {
     "associations": {
@@ -43,9 +57,9 @@
     "clienticon": "02e3fa6a94a9374c29c9c788d090341dec43b06d",
     "clienttga": "34323223413c8ee49a30273112fc1564fa0c7284",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2831000",
     "genres": {
       "0": "23"
@@ -132,11 +146,81 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c8f97ffe1c0f93ea31cb7ddfd8fd8b5ae0aee336/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793308483",
+    "steam_deck_compatibility": {
+      "category": "3",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1791302684",
+      "tested_build_id": "25674631",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      }
+    },
+    "steam_release_date": "1793887210",
+    "store_asset_mtime": "1793883580",
     "store_tags": {
       "0": "3871",
       "1": "5125",
@@ -219,5 +303,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Faraway",
+    "launch": {
+      "0": {
+        "executable": "FarawaySteam.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2831001": {
+      "manifests": {
+        "public": {
+          "download": "367745776",
+          "gid": "7532517805131373304",
+          "size": "532456879"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25674631",
+        "timebuildupdated": "1790936780",
+        "timeupdated": "1791212313"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Steph Thirion",
+    "homepage": "https://annapurnainteractive.com/games/faraway",
+    "publisher": "Annapurna Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".local/share/Steam/steamapps/compatdata/2831000/pfx/drive_c/users/steamuser/AppData/Local",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Faraway/Saved/SaveGames/Steam/{64BitSteamID}/",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

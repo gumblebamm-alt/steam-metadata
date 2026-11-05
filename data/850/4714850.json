@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793821558,
-  "_history": [],
-  "_change_number": 40598391,
-  "_missing_token": true,
-  "_sha": "01ca4a9a5347f8debadd4cc14beb7fbf543ab1e0",
-  "_size": 3455,
+  "_lastChecked": 1793908650,
+  "_history": [
+    {
+      "buildId": "26462124",
+      "branch": "public",
+      "timeUpdated": 1793893563,
+      "firstSeen": 1793908650,
+      "manifests": {
+        "4714851": {
+          "gid": "8292604189844016959",
+          "size": 236637323,
+          "download": 106949024
+        },
+        "4714852": {
+          "gid": "7770263366485193778",
+          "size": 356010255,
+          "download": 134832096
+        }
+      }
+    }
+  ],
+  "_change_number": 40635286,
+  "_missing_token": false,
+  "_sha": "426ad840bdc85227f82b5070f2745308f13f4fbf",
+  "_size": 5260,
   "appid": "4714850",
   "common": {
     "associations": {
@@ -26,8 +45,8 @@
     },
     "clienticon": "2b0010e009495c67fa94c1e9290fc03b94f1a94c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4714850",
     "genres": {
       "0": "4",
@@ -99,10 +118,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7a30ca7ad0d6923b667a3516a8c0a974bc0f6258/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793890879",
     "store_asset_mtime": "1792422673",
     "store_tags": {
       "0": "87918",
@@ -160,5 +180,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sheepscape",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Sheepscape.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Sheepscape.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4714851": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "106949024",
+          "gid": "8292604189844016959",
+          "size": "236637323"
+        }
+      }
+    },
+    "4714852": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "134832096",
+          "gid": "7770263366485193778",
+          "size": "356010255"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,polish,russian,schinese,spanish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26462124",
+        "timebuildupdated": "1793893224",
+        "timeupdated": "1793893563"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Lemur Tango Games",
+    "homepage": "https://playsheepscape.com/",
+    "publisher": "Lemur Tango Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "LemurTango/Sheepscape",
+            "replace": "com.LemurTango.Sheepscape"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "LemurTango/Sheepscape",
+        "pattern": "savegame.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "LemurTango/Sheepscape",
+        "pattern": "stats.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

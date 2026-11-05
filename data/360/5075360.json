@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793040172,
-  "_history": [],
-  "_change_number": 40259548,
-  "_missing_token": true,
-  "_sha": "22ee2c3f4f2198f6d6e79f7ca4220262ec8c586d",
-  "_size": 3878,
+  "_lastChecked": 1793908661,
+  "_history": [
+    {
+      "buildId": "26435800",
+      "branch": "public",
+      "timeUpdated": 1793807906,
+      "firstSeen": 1793908661,
+      "manifests": {
+        "5075361": {
+          "gid": "7416388886456057482",
+          "size": 1804024272,
+          "download": 1412318960
+        },
+        "5075362": {
+          "gid": "771733252973042124",
+          "size": 1047776213,
+          "download": 347818016
+        }
+      }
+    }
+  ],
+  "_change_number": 40640054,
+  "_missing_token": false,
+  "_sha": "31ef2e52f15bcc49c3bf77302018e168f4be21b4",
+  "_size": 5544,
   "appid": "5075360",
   "common": {
     "associations": {
@@ -39,9 +58,9 @@
     "clienticns": "140da9acb69dd557fcdc7aa21a71b8332c8077df",
     "clienticon": "d242be6fb2dd4c492042ed07ebd78a2e69ec4d3e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5075360",
     "genres": {
       "0": "4",
@@ -122,10 +141,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b7db8d786a43637e59f32eaf67da76439468dae4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793901372",
     "store_asset_mtime": "1792672330",
     "store_tags": {
       "0": "3834",
@@ -177,5 +197,96 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tidy Up The Library",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TidyUpTheLibrary.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "TidyUpTheLibrary.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5075361": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1412318960",
+          "gid": "7416388886456057482",
+          "size": "1804024272"
+        }
+      }
+    },
+    "5075362": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "347818016",
+          "gid": "771733252973042124",
+          "size": "1047776213"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26435800",
+        "timebuildupdated": "1793807906",
+        "timeupdated": "1793807906"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Javideas",
+    "homepage": "https://www.javideas.com",
+    "publisher": "Javideas"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "Epic/",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "TidyUpTheLibrary/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

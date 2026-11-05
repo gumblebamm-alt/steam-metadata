@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793040156,
-  "_history": [],
-  "_change_number": 40264229,
-  "_missing_token": true,
-  "_sha": "3a92fba79477e63a13d1eabc64c022c9b4e6ad59",
-  "_size": 3050,
+  "_lastChecked": 1793908647,
+  "_history": [
+    {
+      "buildId": "26459779",
+      "branch": "public",
+      "timeUpdated": 1793887131,
+      "firstSeen": 1793908647,
+      "manifests": {
+        "4564802": {
+          "gid": "5263478053547192989",
+          "size": 354161636,
+          "download": 166308704
+        },
+        "4564803": {
+          "gid": "3263160088572364815",
+          "size": 320672706,
+          "download": 158096960
+        }
+      }
+    }
+  ],
+  "_change_number": 40631586,
+  "_missing_token": false,
+  "_sha": "252f2946253c5960365a15a6ebfb219bd144bb7b",
+  "_size": 4805,
   "appid": "4564800",
   "common": {
     "associations": {
@@ -32,8 +51,8 @@
     },
     "clienticon": "72dcd685e7c46b18c22d7dc60a87bd74b35edb89",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4564800",
     "genres": {
       "0": "23",
@@ -104,10 +123,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b8a4fc462f1026e8bb6b1c233f4fe2a687ef0745/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793887792",
     "store_asset_mtime": "1787410140",
     "store_tags": {
       "0": "1091588",
@@ -134,5 +154,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dictatorship Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DictatorshipSimulator.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "DictatorshipSimulator.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4564801": {},
+    "4564802": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "166308704",
+          "gid": "5263478053547192989",
+          "size": "354161636"
+        }
+      }
+    },
+    "4564803": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "158096960",
+          "gid": "3263160088572364815",
+          "size": "320672706"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26459779",
+        "timebuildupdated": "1793887074",
+        "timeupdated": "1793887131"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Mattis Haase",
+    "homepage": "https://dictatorship-simulator.com/dictatorship-simulator/",
+    "publisher": "Mattis Haase"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "400000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/dictatorship-simulator/saves",
+            "replace": ".local/share/godot/app_userdata/dictatorship-simulator/saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/dictatorship-simulator/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793077378,
-  "_history": [],
-  "_change_number": 40181007,
-  "_missing_token": true,
-  "_sha": "a345e3530493f295eb1a07bc05fc66877919b0bd",
-  "_size": 3581,
+  "_lastChecked": 1793908648,
+  "_history": [
+    {
+      "buildId": "26428772",
+      "branch": "public",
+      "timeUpdated": 1793791599,
+      "firstSeen": 1793908648,
+      "manifests": {
+        "4630261": {
+          "gid": "1033260087936525208",
+          "size": 1742477709,
+          "download": 1266342480
+        },
+        "4630262": {
+          "gid": "5976847109278866586",
+          "size": 2253354091,
+          "download": 1400472992
+        }
+      }
+    }
+  ],
+  "_change_number": 40624443,
+  "_missing_token": false,
+  "_sha": "324a1e04c36b079d4a8f663a08206ec15c02f40d",
+  "_size": 4904,
   "appid": "4630260",
   "common": {
     "associations": {
@@ -31,9 +50,9 @@
     },
     "clienticon": "5f38c96459a64595d329fa201e1fc5789c2bf79a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4630260",
     "genres": {
       "0": "25",
@@ -108,14 +127,16 @@
     },
     "name": "Room Zero",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosnotarized",
+    "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e70c59a8637b23055c65010f30588ea1b64c9cf5/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/4630260/eventcomments/591811227253116276/",
+    "steam_release_date": "1793058518",
     "store_asset_mtime": "1792663047",
     "store_tags": {
       "0": "1667",
@@ -164,5 +185,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Room Zero",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Room Zero.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Room Zero.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "3",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4630261": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1266342480",
+          "gid": "1033260087936525208",
+          "size": "1742477709"
+        }
+      }
+    },
+    "4630262": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1400472992",
+          "gid": "5976847109278866586",
+          "size": "2253354091"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26428772",
+        "timebuildupdated": "1793787877",
+        "timeupdated": "1793791599"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Kaiju Games",
+    "homepage": "https://kaijugames.es",
+    "publisher": "Kaiju Games "
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "20000000"
+  }
 }

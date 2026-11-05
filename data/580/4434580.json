@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793556039,
-  "_history": [],
-  "_change_number": 40477445,
-  "_missing_token": true,
-  "_sha": "a7b5a43faaed73e1ea2821896bf1e292b2be8556",
-  "_size": 3844,
+  "_lastChecked": 1793908644,
+  "_history": [
+    {
+      "buildId": "26376351",
+      "branch": "public",
+      "timeUpdated": 1793613038,
+      "firstSeen": 1793908644,
+      "manifests": {
+        "4434581": {
+          "gid": "1095175625884430308",
+          "size": 783621455,
+          "download": 541256768
+        }
+      }
+    }
+  ],
+  "_change_number": 40640214,
+  "_missing_token": false,
+  "_sha": "365feba8f0fa3352a9db8a4e8c0a5aa53d303e29",
+  "_size": 5224,
   "appid": "4434580",
   "common": {
     "aicontenttype": "1",
@@ -23,13 +37,18 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
-      "category_62": "1"
+      "category_62": "1",
+      "category_64": "1",
+      "category_66": "1",
+      "category_78": "1",
+      "category_79": "1",
+      "category_82": "1"
     },
     "clienticon": "38cad5d629cb357d00e9e1a32ff7008a2fd3c189",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4434580",
     "genres": {
       "0": "25",
@@ -113,10 +132,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8ea517973067eb0c7b1d9338aea437b857ef79f7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793901617",
     "store_asset_mtime": "1793534783",
     "store_tags": {
       "0": "5981",
@@ -179,5 +199,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dust & Diamonds",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DustDiamonds.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4434581": {
+      "manifests": {
+        "public": {
+          "download": "541256768",
+          "gid": "1095175625884430308",
+          "size": "783621455"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26376351",
+        "timebuildupdated": "1793612931",
+        "timeupdated": "1793613038"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "SAD Games Studio",
+    "publisher": "SAD Games Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "dust-and-diamonds/SaveGames",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

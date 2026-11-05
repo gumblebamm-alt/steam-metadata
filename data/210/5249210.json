@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792155344,
+  "_lastChecked": 1793908666,
   "_history": [
     {
       "buildId": "25959358",
@@ -37,12 +37,30 @@
           "download": 52976
         }
       }
+    },
+    {
+      "buildId": "26333623",
+      "branch": "public",
+      "timeUpdated": 1793392842,
+      "firstSeen": 1793908666,
+      "manifests": {
+        "5249211": {
+          "gid": "7537833976630429164",
+          "size": 769991517,
+          "download": 329651504
+        },
+        "5388580": {
+          "gid": "1404373390182803151",
+          "size": 62170,
+          "download": 53008
+        }
+      }
     }
   ],
-  "_change_number": 39859970,
+  "_change_number": 40438514,
   "_missing_token": false,
-  "_sha": "d357a58e79982650b66de4ffde55230e66e7c686",
-  "_size": 6665,
+  "_sha": "cc909adf7159b174214462bbab3c6de4c14bef2a",
+  "_size": 6042,
   "appid": "5249210",
   "common": {
     "associations": {
@@ -259,19 +277,6 @@
         },
         "executable": "NekoTrak.exe",
         "type": "default"
-      },
-      "1": {
-        "config": {
-          "oslist": "windows"
-        },
-        "description": "flowtrak-data-migration.bat",
-        "description_loc": {
-          "english": "flowtrak-data-migration.bat",
-          "schinese": "FlowTrak 数据迁移批处理脚本",
-          "tchinese": "FlowTrak 数据迁移批处理脚本"
-        },
-        "executable": "flowtrak-data-migration.bat",
-        "type": "option1"
       }
     },
     "uselaunchcommandline": "1"
@@ -282,15 +287,10 @@
         "oslist": "windows"
       },
       "manifests": {
-        "lite": {
-          "download": "32022736",
-          "gid": "4615055998054426683",
-          "size": "75282063"
-        },
         "public": {
-          "download": "328069424",
-          "gid": "80633912701789707",
-          "size": "768479035"
+          "download": "329651504",
+          "gid": "7537833976630429164",
+          "size": "769991517"
         }
       }
     },
@@ -300,30 +300,19 @@
       },
       "dlcappid": "5388580",
       "manifests": {
-        "lite": {
-          "download": "52976",
-          "gid": "3760999671776487756",
-          "size": "62169"
-        },
         "public": {
-          "download": "52976",
-          "gid": "3760999671776487756",
-          "size": "62169"
+          "download": "53008",
+          "gid": "1404373390182803151",
+          "size": "62170"
         }
       }
     },
     "baselanguages": "brazilian,english,french,german,japanese,koreana,polish,russian,schinese,spanish,tchinese,turkish",
     "branches": {
-      "lite": {
-        "buildid": "25959262",
-        "description": "1.1.7 without webview2",
-        "timebuildupdated": "1792066268",
-        "timeupdated": "1792066375"
-      },
       "public": {
-        "buildid": "25959358",
-        "timebuildupdated": "1792066499",
-        "timeupdated": "1792066574"
+        "buildid": "26333623",
+        "timebuildupdated": "1793392238",
+        "timeupdated": "1793392842"
       }
     },
     "privatebranches": "1"
@@ -338,13 +327,17 @@
     "maxnumfiles": "50",
     "quota": "5000000000",
     "savefiles": {
-      "0": {
-        "path": "NekoTrak/users/{64BitSteamID}",
-        "pattern": "*",
+      "2": {
+        "path": "NekoTrak/users/{64BitSteamID}/",
+        "pattern": "config.json",
         "platforms": {
           "1": "Windows"
         },
-        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "NekoTrak/users/{64BitSteamID}/cloud",
+        "pattern": "cloud-snapshot.db",
         "root": "WinAppDataRoaming"
       }
     }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793688524,
-  "_history": [],
-  "_change_number": 40534300,
-  "_missing_token": true,
-  "_sha": "f29d84c04d8fd957327f7e280d0b6292dfd2d102",
-  "_size": 3519,
+  "_lastChecked": 1793908658,
+  "_history": [
+    {
+      "buildId": "26457723",
+      "branch": "public",
+      "timeUpdated": 1793881238,
+      "firstSeen": 1793908658,
+      "manifests": {
+        "5000881": {
+          "gid": "9072356731545070673",
+          "size": 266784949,
+          "download": 106022992
+        },
+        "5000882": {
+          "gid": "9155208336490642425",
+          "size": 299263486,
+          "download": 103247936
+        }
+      }
+    }
+  ],
+  "_change_number": 40631202,
+  "_missing_token": false,
+  "_sha": "14bdb5a91a0ed70a6c4ba0d515885614c6937257",
+  "_size": 5221,
   "appid": "5000880",
   "common": {
     "associations": {
@@ -42,8 +61,8 @@
     },
     "clienticon": "9cb3e8f5d3bbf675318d56ee329ce9765b48029d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5000880",
     "genres": {
       "0": "23",
@@ -114,10 +133,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bb44c18bfb59e3ebe3c106be33ed237f1ef0c192/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793878476",
     "store_asset_mtime": "1793677449",
     "store_tags": {
       "0": "1770",
@@ -161,5 +181,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Coverage",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Coverage.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Coverage.x86_64"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "5000881": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "106022992",
+          "gid": "9072356731545070673",
+          "size": "266784949"
+        }
+      }
+    },
+    "5000882": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "103247936",
+          "gid": "9155208336490642425",
+          "size": "299263486"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,japanese,koreana,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26457723",
+        "timebuildupdated": "1793881212",
+        "timeupdated": "1793881238"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Strange Beast",
+    "publisher": "Strange Beast"
+  },
+  "ufs": {
+    "maxnumfiles": "400",
+    "quota": "1200000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "StrangeBeast/Coverage/custom_boards",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "StrangeBeast/Coverage",
+        "pattern": "settings.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

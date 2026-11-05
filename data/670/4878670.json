@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1792501376,
-  "_history": [],
-  "_change_number": 39046881,
-  "_missing_token": true,
-  "_sha": "cd3b615445aa792140546c798ca969817e8db482",
-  "_size": 3152,
+  "_lastChecked": 1793908654,
+  "_history": [
+    {
+      "buildId": "26455177",
+      "branch": "dailybuild",
+      "timeUpdated": 1793873720,
+      "firstSeen": 1793908654,
+      "manifests": {
+        "4878671": {
+          "gid": "3987109790029125634",
+          "size": 212607056,
+          "download": 79136016
+        }
+      }
+    },
+    {
+      "buildId": "26455186",
+      "branch": "public",
+      "timeUpdated": 1793874068,
+      "firstSeen": 1793908654,
+      "manifests": {
+        "4878671": {
+          "gid": "3987109790029125634",
+          "size": 212607056,
+          "download": 79136016
+        }
+      }
+    }
+  ],
+  "_change_number": 40637966,
+  "_missing_token": false,
+  "_sha": "f98c577bd7184d3145a5ffcb7eed9c6ad13b5b60",
+  "_size": 4807,
   "appid": "4878670",
   "common": {
     "associations": {
@@ -33,6 +60,7 @@
     },
     "clienticon": "df3df206a6ad29d5c14b6ab5ea8aac1630171c37",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -40,7 +68,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4878670",
     "genres": {
       "0": "25",
@@ -112,10 +139,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "106fbd2f70add10f7be31f4b87eafa95e4ea1ff1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793897879",
     "store_asset_mtime": "1782763385",
     "store_tags": {
       "0": "4486",
@@ -143,5 +171,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "To Type a Tale",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "to-type-a-tale.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "to-type-a-tale.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4878671": {
+      "manifests": {
+        "dailybuild": {
+          "download": "79136016",
+          "gid": "3987109790029125634",
+          "size": "212607056"
+        },
+        "public": {
+          "download": "79136016",
+          "gid": "3987109790029125634",
+          "size": "212607056"
+        }
+      }
+    },
+    "branches": {
+      "dailybuild": {
+        "buildid": "26455177",
+        "description": " Latest update, possibly broken.",
+        "timebuildupdated": "1793873720",
+        "timeupdated": "1793873720"
+      },
+      "public": {
+        "buildid": "26455186",
+        "timebuildupdated": "1793873743",
+        "timeupdated": "1793874068"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Grey Shadow Software LLC",
+    "homepage": "https://greyshadowsoftware.com/tag/totypeatale.html",
+    "publisher": "Grey Shadow Software LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "LinuxXdgDataHome",
+        "useinstead": "WinAppDataRoaming"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "To Type a Tale/saves",
+        "pattern": "*.json",
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

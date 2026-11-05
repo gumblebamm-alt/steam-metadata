@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1790987713,
-  "_history": [],
-  "_change_number": 39433730,
-  "_missing_token": true,
-  "_sha": "cb4e3bef915dd630ab9229930ac03bc55510811e",
-  "_size": 5850,
+  "_lastChecked": 1793908653,
+  "_history": [
+    {
+      "buildId": "26405644",
+      "branch": "public",
+      "timeUpdated": 1793710082,
+      "firstSeen": 1793908653,
+      "manifests": {
+        "4794172": {
+          "gid": "3766727678101409959",
+          "size": 49813810,
+          "download": 41493488
+        },
+        "4794173": {
+          "gid": "5984010028128014568",
+          "size": 50779877,
+          "download": 41770864
+        }
+      }
+    }
+  ],
+  "_change_number": 40630136,
+  "_missing_token": false,
+  "_sha": "7ddd709578f90f7abeadd12231f9e5cf96558e8c",
+  "_size": 7505,
   "appid": "4794170",
   "common": {
     "associations": {
@@ -30,8 +49,8 @@
     },
     "clienticon": "d0109e9478b7116bb2d6959dc29f4bdd5761f20d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4794170",
     "genres": {
       "0": "4",
@@ -137,29 +156,31 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5c1f0fd8e7b459c60914ff1b9b32265c9386c83c/capsule_231x87.jpg",
       "schinese": "c7fd9cb09ae6c4b5de054675cbb231907adb11a6/capsule_231x87_schinese.jpg",
       "tchinese": "c7fd9cb09ae6c4b5de054675cbb231907adb11a6/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1793885142",
     "store_asset_mtime": "1790856127",
     "store_tags": {
       "0": "560542",
       "1": "9",
-      "10": "8945",
-      "11": "4182",
-      "12": "255534",
+      "10": "4166",
+      "11": "8945",
+      "12": "5300",
       "13": "5981",
-      "14": "5300",
+      "14": "255534",
+      "15": "4182",
       "2": "615955",
-      "3": "4166",
-      "4": "599",
-      "5": "597",
-      "6": "1643",
-      "7": "4695",
-      "8": "3964",
-      "9": "492"
+      "3": "1643",
+      "4": "4695",
+      "5": "492",
+      "6": "1320952",
+      "7": "597",
+      "8": "599",
+      "9": "3964"
     },
     "supported_languages": {
       "brazilian": {
@@ -209,5 +230,96 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Swarmslam",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "swarmslam.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "AppRun",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4794172": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "41493488",
+          "gid": "3766727678101409959",
+          "size": "49813810"
+        }
+      }
+    },
+    "4794173": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "41770864",
+          "gid": "5984010028128014568",
+          "size": "50779877"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26405644",
+        "timebuildupdated": "1793709750",
+        "timeupdated": "1793710082"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "joffarex",
+    "publisher": "joffarex"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "swarmslam",
+        "pattern": "player_profile*.lua",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "swarmslam",
+        "pattern": "player_unlocks*.lua",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

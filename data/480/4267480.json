@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793773141,
-  "_history": [],
-  "_change_number": 40560269,
-  "_missing_token": true,
-  "_sha": "9ed2826910bad5d671f34b35ae11bb4abc10b4f7",
-  "_size": 3925,
+  "_lastChecked": 1793908640,
+  "_history": [
+    {
+      "buildId": "26442713",
+      "branch": "public",
+      "timeUpdated": 1793827679,
+      "firstSeen": 1793908640,
+      "manifests": {
+        "4267481": {
+          "gid": "7637199550719593535",
+          "size": 314929384,
+          "download": 207284400
+        }
+      }
+    }
+  ],
+  "_change_number": 40638797,
+  "_missing_token": false,
+  "_sha": "f913b28d806791397172812c71bf2e25bcd925b2",
+  "_size": 5163,
   "appid": "4267480",
   "common": {
     "associations": {
@@ -32,8 +46,8 @@
     },
     "clienticon": "3e32e73c0777865f5b6a4f5a691d6ca37c0be22e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4267480",
     "genres": {
       "0": "4",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0500e7c8f11fe8e3704ac911990c54952e604898/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793899217",
     "store_asset_mtime": "1793296165",
     "store_tags": {
       "0": "1091588",
@@ -185,5 +200,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Just A Dice Game",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "JustADiceGame.exe"
+      }
+    }
+  },
+  "depots": {
+    "4267481": {
+      "manifests": {
+        "public": {
+          "download": "207284400",
+          "gid": "7637199550719593535",
+          "size": "314929384"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26442713",
+        "timebuildupdated": "1793827649",
+        "timeupdated": "1793827679"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Ace High Arcade",
+    "homepage": "https://www.acehigharcade.com/",
+    "publisher": "Ace High Arcade"
+  },
+  "ufs": {
+    "maxnumfiles": "16",
+    "quota": "20000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".config/unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Ace High Arcade/Just A Dice Game/GameData",
+        "pattern": "data*",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Ace High Arcade/Just A Dice Game/GameData",
+        "pattern": "backup*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

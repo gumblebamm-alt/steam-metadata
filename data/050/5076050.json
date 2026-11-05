@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793166297,
-  "_history": [],
-  "_change_number": 40318932,
-  "_missing_token": true,
-  "_sha": "14ebef17ddd723fb2d3cf6027374c1ee506e8b4a",
-  "_size": 3460,
+  "_lastChecked": 1793908661,
+  "_history": [
+    {
+      "buildId": "26458775",
+      "branch": "public",
+      "timeUpdated": 1793884272,
+      "firstSeen": 1793908661,
+      "manifests": {
+        "5076051": {
+          "gid": "7235361744920151897",
+          "size": 249943197,
+          "download": 120190432
+        }
+      }
+    }
+  ],
+  "_change_number": 40629969,
+  "_missing_token": false,
+  "_sha": "840e0b85fa5cfe413369a59b8880f72138c40b08",
+  "_size": 4457,
   "appid": "5076050",
   "common": {
     "aicontenttype": "1",
@@ -34,9 +48,9 @@
     },
     "clienticon": "2a712a513f56c922706a98279bc179f0431a731a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5076050",
     "genres": {
       "0": "4",
@@ -108,7 +122,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3de43bccb80cda7d23bd09e6ad3a9c933e5567f1/capsule_231x87.jpg"
     },
@@ -159,5 +173,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MagiMine Orchestra",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play MagiMine Orchestra",
+        "description_loc": {
+          "english": "Play MagiMine Orchestra"
+        },
+        "executable": "MagiMineOrchestra.exe"
+      }
+    }
+  },
+  "depots": {
+    "5076051": {
+      "manifests": {
+        "public": {
+          "download": "120190432",
+          "gid": "7235361744920151897",
+          "size": "249943197"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26458775",
+        "timebuildupdated": "1793884151",
+        "timeupdated": "1793884272"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Pitagora Games",
+    "publisher": "Pitagora Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/MagiMine Orchestra",
+        "pattern": "save*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793861071,
-  "_history": [],
-  "_change_number": 40601996,
-  "_missing_token": true,
-  "_sha": "74da7f7e1f99493dd293aee9f977fb98669c8afc",
-  "_size": 3437,
+  "_lastChecked": 1793908656,
+  "_history": [
+    {
+      "buildId": "26439691",
+      "branch": "public",
+      "timeUpdated": 1793818522,
+      "firstSeen": 1793908656,
+      "manifests": {
+        "4944881": {
+          "gid": "674917939441308894",
+          "size": 163138155,
+          "download": 75786752
+        },
+        "4944882": {
+          "gid": "1268789356887009270",
+          "size": 178137713,
+          "download": 83072288
+        }
+      }
+    }
+  ],
+  "_change_number": 40643617,
+  "_missing_token": false,
+  "_sha": "a5a52601db9455ff7e16619604f480cdd9c7a330",
+  "_size": 4917,
   "appid": "4944880",
   "common": {
     "aicontenttype": "1",
@@ -38,8 +57,8 @@
     },
     "clienticon": "767dda76dad7b36c4a191aa047b5641944b34b0d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4944880",
     "genres": {
       "0": "4",
@@ -119,11 +138,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2d15b5fcd90d75373c65341eae4cb7d58e4e529a/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793639742",
+    "steam_release_date": "1793901523",
+    "store_asset_mtime": "1793907926",
     "store_tags": {
       "0": "1664",
       "1": "6129",
@@ -154,5 +174,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cube Sweeper",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Cube Sweeper.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Cube Sweeper.app"
+      }
+    }
+  },
+  "depots": {
+    "4944881": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "75786752",
+          "gid": "674917939441308894",
+          "size": "163138155"
+        }
+      }
+    },
+    "4944882": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "83072288",
+          "gid": "1268789356887009270",
+          "size": "178137713"
+        }
+      }
+    },
+    "baselanguages": "english,german,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26439691",
+        "timebuildupdated": "1793818522",
+        "timeupdated": "1793818522"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Hinten Software",
+    "publisher": "Hinten Software"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "5242880",
+    "savefiles": {
+      "0": {
+        "path": "Hinten Software/Cube Sweeper/playerdata",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Hinten Software/Cube Sweeper/playerdata",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

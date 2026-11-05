@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1793339328,
-  "_history": [],
-  "_change_number": 40401892,
-  "_missing_token": true,
-  "_sha": "12c32ac4d484c8c71f74f33d887a9b39098272be",
-  "_size": 3211,
+  "_lastChecked": 1793908660,
+  "_history": [
+    {
+      "buildId": "26310114",
+      "branch": "jamversion",
+      "timeUpdated": 1793314937,
+      "firstSeen": 1793908660,
+      "manifests": {
+        "5050872": {
+          "gid": "1077453084497972558",
+          "size": 212410716,
+          "download": 136922304
+        },
+        "5050873": {
+          "gid": "7513470564355116035",
+          "size": 176720020,
+          "download": 128295296
+        }
+      }
+    },
+    {
+      "buildId": "26465984",
+      "branch": "public",
+      "timeUpdated": 1793904193,
+      "firstSeen": 1793908660,
+      "manifests": {
+        "5050872": {
+          "gid": "1957368015493962467",
+          "size": 495189284,
+          "download": 400928016
+        },
+        "5050873": {
+          "gid": "2540418058611321413",
+          "size": 460605641,
+          "download": 392430576
+        }
+      }
+    }
+  ],
+  "_change_number": 40641785,
+  "_missing_token": false,
+  "_sha": "9e593725e5a1ed734382b6fcef9e75c5fc58f726",
+  "_size": 6142,
   "appid": "5050870",
   "common": {
     "associations": {
@@ -33,8 +70,8 @@
     },
     "clienticon": "c3a678ec7702245b740cb52d38aafbe8fbc0c43a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5050870",
     "genres": {
       "0": "4",
@@ -108,11 +145,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "554747a20b214787cbaeb148db00f2298d3854f6/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792626168",
+    "steam_release_date": "1793901559",
+    "store_asset_mtime": "1793904303",
     "store_tags": {
       "0": "615955",
       "1": "122",
@@ -144,5 +182,138 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dragon Decimator",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "dragondecimatorwindows.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "dragondecimatorlinux.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5050872": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "jamversion": {
+          "download": "136922304",
+          "gid": "1077453084497972558",
+          "size": "212410716"
+        },
+        "public": {
+          "download": "400928016",
+          "gid": "1957368015493962467",
+          "size": "495189284"
+        }
+      }
+    },
+    "5050873": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "jamversion": {
+          "download": "128295296",
+          "gid": "7513470564355116035",
+          "size": "176720020"
+        },
+        "public": {
+          "download": "392430576",
+          "gid": "2540418058611321413",
+          "size": "460605641"
+        }
+      }
+    },
+    "branches": {
+      "jamversion": {
+        "buildid": "26310114",
+        "description": "Game Jam Version of Dragon Decimator",
+        "timebuildupdated": "1793314937",
+        "timeupdated": "1793314937"
+      },
+      "public": {
+        "buildid": "26465984",
+        "timebuildupdated": "1793904052",
+        "timeupdated": "1793904193"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Soggy Beasts Studio",
+    "publisher": "Soggy Beasts Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot\\app_userdata\\Dragon Decimator",
+            "replace": ".local/share/godot/app_userdata/Dragon Decimator"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": ".local/share/godot/app_userdata/Dragon Decimator",
+            "replace": "Godot\\app_userdata\\Dragon Decimator"
+          }
+        },
+        "root": "LinuxHome",
+        "useinstead": "WinAppDataRoaming"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot\\app_userdata\\Dragon Decimator",
+        "pattern": "*.tres",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": ".local/share/godot/app_userdata/Dragon Decimator",
+        "pattern": "*.tres",
+        "recursive": "1",
+        "root": "LinuxHome"
+      },
+      "2": {
+        "path": "Godot\\app_userdata\\Dragon Decimator",
+        "pattern": "*.save",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": ".local/share/godot/app_userdata/Dragon Decimator",
+        "pattern": "*.save",
+        "recursive": "1",
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

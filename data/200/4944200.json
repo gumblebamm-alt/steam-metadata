@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792945210,
-  "_history": [],
-  "_change_number": 40227134,
-  "_missing_token": true,
-  "_sha": "ceca09b25d5ebf8eea926db035f8c1eba1d1bd71",
-  "_size": 3144,
+  "_lastChecked": 1793908656,
+  "_history": [
+    {
+      "buildId": "26377907",
+      "branch": "public",
+      "timeUpdated": 1793617922,
+      "firstSeen": 1793908656,
+      "manifests": {
+        "4944201": {
+          "gid": "2215792768763634140",
+          "size": 283968077,
+          "download": 52673744
+        },
+        "4944202": {
+          "gid": "8524083362147749367",
+          "size": 328062764,
+          "download": 71379920
+        }
+      }
+    }
+  ],
+  "_change_number": 40632843,
+  "_missing_token": false,
+  "_sha": "e379a0e6b8b40be18f97a34927fef43612a20485",
+  "_size": 4560,
   "appid": "4944200",
   "common": {
     "associations": {
@@ -32,9 +51,9 @@
     },
     "clienticon": "bfd4a2f97617bb8f46d5efebc980f38c279284fe",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4944200",
     "genres": {
       "0": "4",
@@ -106,10 +125,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "53f50b5cd533ffda70437af4bfaa19bb938694d8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793889892",
     "store_asset_mtime": "1791128911",
     "store_tags": {
       "0": "1666",
@@ -142,5 +162,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Diamonds and Spades",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Diamonds and Spades.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Diamonds and Spades.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4944201": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "52673744",
+          "gid": "2215792768763634140",
+          "size": "283968077"
+        }
+      }
+    },
+    "4944202": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "71379920",
+          "gid": "8524083362147749367",
+          "size": "328062764"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26377907",
+        "timebuildupdated": "1793617906",
+        "timeupdated": "1793617922"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Ghostio Games",
+    "publisher": "Ghostio Games"
+  },
+  "ufs": {
+    "maxnumfiles": "3",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "/unity3d",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "/GhostioGames/Diamonds and Spades",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

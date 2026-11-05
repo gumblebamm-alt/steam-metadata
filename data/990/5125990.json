@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1791809560,
-  "_history": [],
-  "_change_number": 39733633,
-  "_missing_token": true,
-  "_sha": "67d65ac5e42c58078ba434cda61fd40e87b7a536",
-  "_size": 5734,
+  "_lastChecked": 1793908663,
+  "_history": [
+    {
+      "buildId": "26461935",
+      "branch": "public",
+      "timeUpdated": 1793895447,
+      "firstSeen": 1793908663,
+      "manifests": {
+        "5125992": {
+          "gid": "6770361932634499938",
+          "size": 129077984,
+          "download": 72551936
+        },
+        "5125993": {
+          "gid": "5106973685704975124",
+          "size": 228090783,
+          "download": 100330448
+        },
+        "5125994": {
+          "gid": "5897551288738085825",
+          "size": 164364608,
+          "download": 80950704
+        }
+      }
+    }
+  ],
+  "_change_number": 40638340,
+  "_missing_token": false,
+  "_sha": "41363dfb5127ce4815c5c4e2a14795c951bec006",
+  "_size": 7898,
   "appid": "5125990",
   "common": {
     "associations": {
@@ -31,7 +55,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5125990",
     "genres": {
       "0": "23"
@@ -116,7 +139,7 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "brazilian": "bf01b6e70f8535200ef22419e0257b272757fa84/capsule_231x87_brazilian.jpg",
       "czech": "b4cf9992c48401fe4039a952a215fd302636ea34/capsule_231x87_czech.jpg",
@@ -131,6 +154,7 @@
       "spanish": "4bf753fc7cb4e37cd766bf16657a275eac8b7cc5/capsule_231x87_spanish.jpg",
       "tchinese": "4ae32a3eb8f4424fcc6827d97ac3b61f4b6268f2/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1793898361",
     "store_asset_mtime": "1789724439",
     "store_tags": {
       "0": "1664",
@@ -138,8 +162,8 @@
       "10": "3839",
       "11": "21",
       "12": "492",
-      "13": "597",
-      "14": "5154",
+      "13": "5154",
+      "14": "597",
       "15": "6691",
       "16": "4004",
       "17": "5125",
@@ -210,5 +234,112 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "You'll Be Mined",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "youll-be-mined.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "YoullBeMined.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "youll-be-mined.x86_64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "3",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5125992": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "72551936",
+          "gid": "6770361932634499938",
+          "size": "129077984"
+        }
+      }
+    },
+    "5125993": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "100330448",
+          "gid": "5106973685704975124",
+          "size": "228090783"
+        }
+      }
+    },
+    "5125994": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "80950704",
+          "gid": "5897551288738085825",
+          "size": "164364608"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,english,french,german,japanese,latam,polish,russian,schinese,spanish,tchinese,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26461935",
+        "timebuildupdated": "1793892707",
+        "timeupdated": "1793895447"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "1280x800",
+    "developer": "Andrei Kovalev",
+    "publisher": "Andrei Kovalev",
+    "steammachineresolutionoverride": "1920x1080"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "YoullBeMined/saves/5125990/{64BitSteamID}",
+        "pattern": "run*.save",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

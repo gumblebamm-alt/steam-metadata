@@ -1,10 +1,65 @@
 {
-  "_lastChecked": 1793656009,
-  "_history": [],
-  "_change_number": 40392268,
-  "_missing_token": true,
-  "_sha": "76028c8ee9197752cfc48bcb34b65646ea3c9569",
-  "_size": 4206,
+  "_lastChecked": 1793908643,
+  "_history": [
+    {
+      "buildId": "25845417",
+      "branch": "0.16.x",
+      "timeUpdated": 1791609859,
+      "firstSeen": 1793908643,
+      "manifests": {
+        "4406791": {
+          "gid": "9191974371021481311",
+          "size": 692087874,
+          "download": 333348352
+        },
+        "4406792": {
+          "gid": "4779165772837361247",
+          "size": 687357536,
+          "download": 331046096
+        }
+      }
+    },
+    {
+      "buildId": "26459624",
+      "branch": "alphatest",
+      "timeUpdated": 1793886639,
+      "firstSeen": 1793908643,
+      "manifests": {
+        "4406791": {
+          "gid": "699407385231274422",
+          "size": 816332815,
+          "download": 429052352
+        },
+        "4406792": {
+          "gid": "6254890642318705106",
+          "size": 811602471,
+          "download": 426746512
+        }
+      }
+    },
+    {
+      "buildId": "26459624",
+      "branch": "public",
+      "timeUpdated": 1793886647,
+      "firstSeen": 1793908643,
+      "manifests": {
+        "4406791": {
+          "gid": "699407385231274422",
+          "size": 816332815,
+          "download": 429052352
+        },
+        "4406792": {
+          "gid": "6254890642318705106",
+          "size": 811602471,
+          "download": 426746512
+        }
+      }
+    }
+  ],
+  "_change_number": 40638574,
+  "_missing_token": false,
+  "_sha": "c5f696075aec32eb14d4cc321afb5b2839ab2f20",
+  "_size": 6717,
   "appid": "4406790",
   "common": {
     "aicontenttype": "1",
@@ -39,8 +94,8 @@
     },
     "clienticon": "13597f495ea02b09ee0c01fcc5eaef021574a714",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4406790",
     "genres": {
       "0": "23",
@@ -129,11 +184,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8049b3b6833cdf34ae7e01dac8186c20dc264f3d/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793029933",
+    "steam_release_date": "1793898802",
+    "store_asset_mtime": "1793898629",
     "store_tags": {
       "0": "3834",
       "1": "4684",
@@ -205,5 +261,127 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Imperial Kingdoms",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Imperial_Kingdoms.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "imperial_kingdoms",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4406791": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "0.16.x": {
+          "download": "333348352",
+          "gid": "9191974371021481311",
+          "size": "692087874"
+        },
+        "alphatest": {
+          "download": "429052352",
+          "gid": "699407385231274422",
+          "size": "816332815"
+        },
+        "public": {
+          "download": "429052352",
+          "gid": "699407385231274422",
+          "size": "816332815"
+        }
+      }
+    },
+    "4406792": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "0.16.x": {
+          "download": "331046096",
+          "gid": "4779165772837361247",
+          "size": "687357536"
+        },
+        "alphatest": {
+          "download": "426746512",
+          "gid": "6254890642318705106",
+          "size": "811602471"
+        },
+        "public": {
+          "download": "426746512",
+          "gid": "6254890642318705106",
+          "size": "811602471"
+        }
+      }
+    },
+    "branches": {
+      "0.16.x": {
+        "buildid": "25845417",
+        "description": "Feature Branch",
+        "timebuildupdated": "1791609640",
+        "timeupdated": "1791609859"
+      },
+      "alphatest": {
+        "buildid": "26459624",
+        "description": "Alpha Test",
+        "timebuildupdated": "1793886639",
+        "timeupdated": "1793886639"
+      },
+      "public": {
+        "buildid": "26459624",
+        "timebuildupdated": "1793886639",
+        "timeupdated": "1793886647"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "developer": "BaroxxTech",
+    "homepage": "https://baroxx.tech/en/imperial-kingdoms",
+    "publisher": "BaroxxTech"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "BaroxxTech/imperial-kingdoms/4406790",
+            "replace": ".config/unity3d/BaroxxTech/imperial-kingdoms/4406790"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "BaroxxTech/imperial-kingdoms/4406790",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793211930,
-  "_history": [],
-  "_change_number": 40333628,
-  "_missing_token": true,
-  "_sha": "0542984b06a2c13ced2ed57533a125dcf6112745",
-  "_size": 3903,
+  "_lastChecked": 1793908643,
+  "_history": [
+    {
+      "buildId": "25965273",
+      "branch": "local",
+      "timeUpdated": 1792082054,
+      "firstSeen": 1793908643,
+      "manifests": {
+        "4407641": {
+          "gid": "1961662030945485998",
+          "size": 1365824836,
+          "download": 1095279648
+        }
+      }
+    },
+    {
+      "buildId": "25730449",
+      "branch": "public",
+      "timeUpdated": 1791796226,
+      "firstSeen": 1793908643,
+      "manifests": {
+        "4407641": {
+          "gid": "4790311969703275443",
+          "size": 1376634276,
+          "download": 1096812448
+        }
+      }
+    }
+  ],
+  "_change_number": 40635839,
+  "_missing_token": false,
+  "_sha": "23ebfd1df051da26d0e111afde1322da93f787a1",
+  "_size": 5265,
   "appid": "4407640",
   "common": {
     "associations": {
@@ -34,9 +61,9 @@
     },
     "clienticon": "222a6b316ff5208d06d4e061cf6035ef16f0059f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4407640",
     "genres": {
       "0": "25",
@@ -119,11 +146,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "55e13c4b6e39c4282a347c1d11a9cd5d59d9a671/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792075395",
+    "steam_release_date": "1793869346",
+    "store_asset_mtime": "1793889768",
     "store_tags": {
       "0": "1752",
       "1": "3799",
@@ -182,5 +210,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "K-Pop Rising - Dream to Shine",
+    "launch": {
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Use since 0.6.6263",
+        "description_loc": {
+          "english": "Use since 0.6.6263"
+        },
+        "executable": "K-Pop Rising - Dream to Shine.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4407641": {
+      "manifests": {
+        "local": {
+          "download": "1095279648",
+          "gid": "1961662030945485998",
+          "size": "1365824836"
+        },
+        "public": {
+          "download": "1096812448",
+          "gid": "4790311969703275443",
+          "size": "1376634276"
+        }
+      }
+    },
+    "branches": {
+      "local": {
+        "buildid": "25965273",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1792082054",
+        "timeupdated": "1792082054"
+      },
+      "public": {
+        "buildid": "25730449",
+        "timebuildupdated": "1791213527",
+        "timeupdated": "1791796226"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Old Skull Games",
+    "publisher": "Microids"
+  },
+  "ufs": {
+    "maxnumfiles": "300",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": "OSG\\K-Pop Rising - Dream to Shine\\pt_saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793384006,
-  "_history": [],
-  "_change_number": 40415704,
-  "_missing_token": true,
-  "_sha": "a7c711f7d25e7e66c29651de227e7ecf8269618e",
-  "_size": 8843,
+  "_lastChecked": 1793908630,
+  "_history": [
+    {
+      "buildId": "26456990",
+      "branch": "public",
+      "timeUpdated": 1793879389,
+      "firstSeen": 1793908630,
+      "manifests": {
+        "3577021": {
+          "gid": "4328940414971317864",
+          "size": 589829484,
+          "download": 321290832
+        },
+        "3577022": {
+          "gid": "4104787768373691852",
+          "size": 589243094,
+          "download": 323816368
+        },
+        "3577023": {
+          "gid": "1389744543547605653",
+          "size": 607447843,
+          "download": 332262512
+        }
+      }
+    }
+  ],
+  "_change_number": 40638931,
+  "_missing_token": false,
+  "_sha": "f2b3a8eff910eb27f9553287961aa8dd3ed39bb4",
+  "_size": 11115,
   "appid": "3577020",
   "common": {
     "associations": {
@@ -30,12 +54,13 @@
       "category_74": "1",
       "category_76": "1"
     },
-    "clienticon": "42efa4e0d050a9c53183bd343b30cdf526e359e3",
+    "clienticns": "7ee2a4c37c1eef480db384f83135b7aef6e0cced",
+    "clienticon": "bf187e6c476252a51be477d917334cbc7f45eabd",
     "clienttga": "6d310868bec7d7381d07ef9a86b29c7a34f69435",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3577020",
     "genres": {
       "0": "4",
@@ -49,7 +74,7 @@
       "schinese": "849118df31279b5e25d66b6daab0915f3fa70143/header_schinese.jpg",
       "tchinese": "32a930e72c7bcae5ebf83d578c5d9ec1dcdc0dea/header_tchinese.jpg"
     },
-    "icon": "ca48cb796a0157e10c0b1c61de881d649816b282",
+    "icon": "bf187e6c476252a51be477d917334cbc7f45eabd",
     "languages": {
       "english": "1",
       "japanese": "1",
@@ -137,6 +162,7 @@
         }
       }
     },
+    "linuxclienticon": "6d32e81cb99d2afed0b2b719935f5c6d7f50e800",
     "name": "Clean Start",
     "name_localized": {
       "japanese": "リーナのお掃除物語",
@@ -148,7 +174,9 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "17f9b35dcfc545b002e8fee2d40717cbd391bf2e/capsule_231x87.jpg",
       "japanese": "9a8de5c8c366cd33030459551bdcffe8b15ee994/capsule_231x87_japanese.jpg",
@@ -225,7 +253,8 @@
         }
       }
     },
-    "store_asset_mtime": "1793347657",
+    "steam_release_date": "1793894492",
+    "store_asset_mtime": "1793896146",
     "store_tags": {
       "0": "23491",
       "1": "1239876",
@@ -288,5 +317,116 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Clean Start",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Clean Start.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Clean Start.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Clean Start.app/Contents/MacOS/Clean Start"
+      }
+    }
+  },
+  "depots": {
+    "3577021": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "321290832",
+          "gid": "4328940414971317864",
+          "size": "589829484"
+        }
+      }
+    },
+    "3577022": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "323816368",
+          "gid": "4104787768373691852",
+          "size": "589243094"
+        }
+      }
+    },
+    "3577023": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "332262512",
+          "gid": "1389744543547605653",
+          "size": "607447843"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26456990",
+        "timebuildupdated": "1793879267",
+        "timeupdated": "1793879389"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Serious Sim",
+    "publisher": " Amplified Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Serious Sim/Clean Start",
+            "replace": ".config/unity3d/Serious Sim/Clean Start"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Serious Sim/Clean Start",
+            "replace": "Serious Sim/Clean Start"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Serious Sim/Clean Start",
+        "pattern": "*.dat",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

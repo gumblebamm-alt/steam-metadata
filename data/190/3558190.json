@@ -1,6 +1,29 @@
 {
-  "_lastChecked": 1793821538,
+  "_lastChecked": 1793908630,
   "_history": [
+    {
+      "buildId": "26465973",
+      "branch": "public",
+      "timeUpdated": 1793904090,
+      "firstSeen": 1793908630,
+      "manifests": {
+        "3558191": {
+          "gid": "2553729008268363476",
+          "size": 713866246,
+          "download": 508583280
+        },
+        "3558192": {
+          "gid": "6304161042788892278",
+          "size": 876406144,
+          "download": 585644112
+        },
+        "3558193": {
+          "gid": "7129231695986442930",
+          "size": 556428653,
+          "download": 445134160
+        }
+      }
+    },
     {
       "buildId": "26439593",
       "branch": "public",
@@ -64,19 +87,6 @@
       }
     },
     {
-      "buildId": "25341481",
-      "branch": "public",
-      "timeUpdated": 1789549915,
-      "firstSeen": 1789553340,
-      "manifests": {
-        "3558191": {
-          "gid": "8285694579939437166",
-          "size": 710736146,
-          "download": 507500928
-        }
-      }
-    },
-    {
       "buildId": "24052346",
       "branch": "v2.x",
       "timeUpdated": 1783172060,
@@ -90,10 +100,10 @@
       }
     }
   ],
-  "_change_number": 40601869,
+  "_change_number": 40641646,
   "_missing_token": false,
-  "_sha": "780e94a026f35fd1c0fd401b20b38240b656878e",
-  "_size": 5052,
+  "_sha": "ca3f76ac67a822feb8eddb0110a57c21f1314103",
+  "_size": 5491,
   "appid": "3558190",
   "common": {
     "aicontenttype": "2",
@@ -192,8 +202,8 @@
     "name": "GnollHack",
     "osarch": "64",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows,linux",
+    "osextended": "macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos,linux",
     "primary_genre": "37",
     "releasestate": "released",
     "review_percentage": "91",
@@ -256,6 +266,14 @@
         },
         "executable": "GnollHackM",
         "type": "default"
+      },
+      "2": {
+        "arguments": "-store steam",
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "GnollHack.app/Contents/MacOS/GnollHackM",
+        "type": "default"
       }
     },
     "steamconfigurator3rdpartynative": "65533",
@@ -271,9 +289,9 @@
       },
       "manifests": {
         "public": {
-          "download": "508581088",
-          "gid": "9154070222865773957",
-          "size": "713852422"
+          "download": "508583280",
+          "gid": "2553729008268363476",
+          "size": "713866246"
         },
         "v2.x": {
           "download": "502826464",
@@ -289,17 +307,30 @@
       },
       "manifests": {
         "public": {
-          "download": "585638128",
-          "gid": "978672109647831953",
-          "size": "876388140"
+          "download": "585644112",
+          "gid": "6304161042788892278",
+          "size": "876406144"
+        }
+      }
+    },
+    "3558193": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "445134160",
+          "gid": "7129231695986442930",
+          "size": "556428653"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26439593",
-        "timebuildupdated": "1793818227",
-        "timeupdated": "1793818270"
+        "buildid": "26465973",
+        "timebuildupdated": "1793904031",
+        "timeupdated": "1793904090"
       },
       "v2.x": {
         "buildid": "24052346",

@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1793734335,
-  "_history": [],
-  "_change_number": 40551874,
-  "_missing_token": true,
-  "_sha": "04568b273ea303db037d1c265b21aef4501e4455",
-  "_size": 4100,
+  "_lastChecked": 1793908615,
+  "_history": [
+    {
+      "buildId": "26464897",
+      "branch": "openbeta",
+      "timeUpdated": 1793901048,
+      "firstSeen": 1793908615,
+      "manifests": {
+        "1460811": {
+          "gid": "7669519779776027830",
+          "size": 672717103,
+          "download": 484407136
+        },
+        "1460812": {
+          "gid": "327347880771847553",
+          "size": 693237604,
+          "download": 485181952
+        }
+      }
+    },
+    {
+      "buildId": "26464897",
+      "branch": "public",
+      "timeUpdated": 1793901784,
+      "firstSeen": 1793908615,
+      "manifests": {
+        "1460811": {
+          "gid": "7669519779776027830",
+          "size": 672717103,
+          "download": 484407136
+        },
+        "1460812": {
+          "gid": "327347880771847553",
+          "size": 693237604,
+          "download": 485181952
+        }
+      }
+    }
+  ],
+  "_change_number": 40642908,
+  "_missing_token": false,
+  "_sha": "c4ae32e560feb13d6a4a14b643506c56f95067e5",
+  "_size": 8008,
   "appid": "1460810",
   "common": {
     "associations": {
@@ -38,7 +75,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1460810",
     "genres": {
       "0": "1",
@@ -122,10 +158,82 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "87",
+    "review_score": "8",
     "small_capsule": {
       "english": "8f69fb7efe8eef93fd7891db6f77a59c98c93bdd/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-11.0-3RC",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1793296513",
+      "tested_build_id": "26294330",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      }
+    },
+    "steam_release_date": "1793881800",
     "store_asset_mtime": "1793180346",
     "store_tags": {
       "0": "4231",
@@ -166,5 +274,97 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DungeonMunchies2",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "App1.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Dungeon Munchies 2.app/Contents/MacOS/App1",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "1460811": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "openbeta": {
+          "download": "484407136",
+          "gid": "7669519779776027830",
+          "size": "672717103"
+        },
+        "public": {
+          "download": "484407136",
+          "gid": "7669519779776027830",
+          "size": "672717103"
+        }
+      }
+    },
+    "1460812": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "openbeta": {
+          "download": "485181952",
+          "gid": "327347880771847553",
+          "size": "693237604"
+        },
+        "public": {
+          "download": "485181952",
+          "gid": "327347880771847553",
+          "size": "693237604"
+        }
+      }
+    },
+    "branches": {
+      "openbeta": {
+        "buildid": "26464897",
+        "description": "experimental new feature preview",
+        "timebuildupdated": "1793900709",
+        "timeupdated": "1793901048"
+      },
+      "public": {
+        "buildid": "26464897",
+        "timebuildupdated": "1793900709",
+        "timeupdated": "1793901784"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "1460810"
+  },
+  "extended": {
+    "developer": "maJAJa",
+    "homepage": "https://majaja.tw",
+    "publisher": "maJAJa"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "20000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791506696,
+  "_lastChecked": 1793908627,
   "_history": [
     {
       "buildId": "24450259",
@@ -18,12 +18,30 @@
           "download": 329242944
         }
       }
+    },
+    {
+      "buildId": "26449218",
+      "branch": "public",
+      "timeUpdated": 1793866380,
+      "firstSeen": 1793908627,
+      "manifests": {
+        "3346951": {
+          "gid": "6934465691376900706",
+          "size": 618935942,
+          "download": 268525936
+        },
+        "3346952": {
+          "gid": "307131161724980630",
+          "size": 784621874,
+          "download": 331795248
+        }
+      }
     }
   ],
-  "_change_number": 39638894,
+  "_change_number": 40620809,
   "_missing_token": false,
-  "_sha": "a5f0bdf56e93add5b370839c547ae1b7fa4e76e4",
-  "_size": 6183,
+  "_sha": "c4a45d99255276293dc4ed7994b22fa2fd0f8896",
+  "_size": 6578,
   "appid": "3346950",
   "common": {
     "associations": {
@@ -44,6 +62,10 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_57": "1",
+      "category_59": "1",
       "category_62": "1",
       "category_67": "1",
       "category_74": "1"
@@ -52,6 +74,7 @@
     "clienttga": "f2e8ef8a199db757ac7a015f3ae823e189571f09",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
     "gameid": "3346950",
     "genres": {
@@ -144,7 +167,7 @@
       "english": "db50240b558683518a1d45420f8a4d1265a90caa/capsule_231x87.jpg"
     },
     "steam_release_date": "1739512847",
-    "store_asset_mtime": "1779065836",
+    "store_asset_mtime": "1793866255",
     "store_tags": {
       "0": "21",
       "1": "597",
@@ -248,7 +271,10 @@
         "executable": "Sanechek- Lost Coins.app",
         "type": "default"
       }
-    }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "3346951": {
@@ -257,9 +283,9 @@
       },
       "manifests": {
         "public": {
-          "download": "266111520",
-          "gid": "2503033542142107469",
-          "size": "615800605"
+          "download": "268525936",
+          "gid": "6934465691376900706",
+          "size": "618935942"
         }
       }
     },
@@ -269,18 +295,18 @@
       },
       "manifests": {
         "public": {
-          "download": "329242944",
-          "gid": "1519264782955040227",
-          "size": "781148098"
+          "download": "331795248",
+          "gid": "307131161724980630",
+          "size": "784621874"
         }
       }
     },
     "baselanguages": "english,french,german,japanese,russian,schinese,spanish",
     "branches": {
       "public": {
-        "buildid": "24450259",
-        "timebuildupdated": "1785321433",
-        "timeupdated": "1785795139"
+        "buildid": "26449218",
+        "timebuildupdated": "1793850307",
+        "timeupdated": "1793866380"
       }
     },
     "privatebranches": "1"
@@ -294,19 +320,24 @@
     "maxnumfiles": "5",
     "quota": "7000",
     "rootoverrides": {
-      "0": {
-        "addpath": "",
-        "os": "Windows",
-        "oscompare": "=",
-        "root": "WinAppDataRoaming",
-        "useinstead": "WinAppDataRoaming"
-      },
       "1": {
         "addpath": "",
         "os": "MacOS",
         "oscompare": "=",
         "root": "WinAppDataRoaming",
         "useinstead": "MacAppSupport"
+      },
+      "2": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Sanechek- Lost Coins/saves/",
+            "replace": "godot/app_userdata/Sanechek- Lost Coins/saves/"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
       }
     },
     "savefiles": {

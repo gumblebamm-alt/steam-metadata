@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793655985,
-  "_history": [],
-  "_change_number": 40496366,
-  "_missing_token": true,
-  "_sha": "ded20d4de5363efdbf5166101f1498ee20404a6b",
-  "_size": 4365,
+  "_lastChecked": 1793908626,
+  "_history": [
+    {
+      "buildId": "26441371",
+      "branch": "public",
+      "timeUpdated": 1793824754,
+      "firstSeen": 1793908626,
+      "manifests": {
+        "3296061": {
+          "gid": "7106069775036966276",
+          "size": 4230938519,
+          "download": 1364952496
+        }
+      }
+    },
+    {
+      "buildId": "26441371",
+      "branch": "releasebuild",
+      "timeUpdated": 1793824754,
+      "firstSeen": 1793908626,
+      "manifests": {
+        "3296061": {
+          "gid": "7106069775036966276",
+          "size": 4230938519,
+          "download": 1364952496
+        }
+      }
+    }
+  ],
+  "_change_number": 40642439,
+  "_missing_token": false,
+  "_sha": "255a3cd77bd48e033b4cef28314189187b192614",
+  "_size": 5903,
   "appid": "3296060",
   "common": {
     "associations": {
@@ -44,9 +71,17 @@
     "clienticon": "942d3dcdc261eff22c5e496a8e850605c752164f",
     "clienttga": "d0d6919db15515e2b219b04a679f529047755160",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
+    "eulas": {
+      "0": {
+        "id": "3296060_eula_0",
+        "name": "Escape Academy 2: Back 2 School EULA",
+        "url": "https://store.steampowered.com/eula/3296060_eula_0",
+        "version": "1"
+      }
+    },
     "gameid": "3296060",
     "genres": {
       "0": "25",
@@ -126,12 +161,13 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
-      "english": "b19ac059c03603238c368e080ab0cf2a2c48688d/capsule_231x87.jpg",
+      "english": "eeace69cd0cc12399aab6ff0ecb9aa0d52f19e1e/capsule_231x87.jpg",
       "schinese": "944aff13e9866824d020041c98c94eec4754a454/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1793229456",
+    "steam_release_date": "1793899204",
+    "store_asset_mtime": "1793905429",
     "store_tags": {
       "0": "1664",
       "1": "769306",
@@ -187,5 +223,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "EscapeAcademy2Back2School",
+    "launch": {
+      "0": {
+        "executable": "EscapeAcademy2Back2School.exe"
+      }
+    }
+  },
+  "depots": {
+    "3296061": {
+      "manifests": {
+        "public": {
+          "download": "1364952496",
+          "gid": "7106069775036966276",
+          "size": "4230938519"
+        },
+        "releasebuild": {
+          "download": "1364952496",
+          "gid": "7106069775036966276",
+          "size": "4230938519"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26441371",
+        "timebuildupdated": "1793823777",
+        "timeupdated": "1793824754"
+      },
+      "releasebuild": {
+        "buildid": "26441371",
+        "description": "This is the build that the game released with, the official 1.0",
+        "timebuildupdated": "1793823777",
+        "timeupdated": "1793824754"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Coin Crew Games",
+    "dlcavailableonstore": "1",
+    "homepage": "https://tr.ee/T9jL-yt6JP",
+    "listofdlc": "4681460,4732000,5370680",
+    "publisher": "iam8bit Presents"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "CoinCrewGames/ProjectFLEA/SaveData",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

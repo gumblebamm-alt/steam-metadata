@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792603019,
-  "_history": [],
-  "_change_number": 40005948,
-  "_missing_token": true,
-  "_sha": "5310821d7d3b5677104bce0a107561b5986a6f47",
-  "_size": 3040,
+  "_lastChecked": 1793908642,
+  "_history": [
+    {
+      "buildId": "26449945",
+      "branch": "public",
+      "timeUpdated": 1793853383,
+      "firstSeen": 1793908642,
+      "manifests": {
+        "4323261": {
+          "gid": "7660936528437146073",
+          "size": 918965020,
+          "download": 311446976
+        },
+        "4323262": {
+          "gid": "3121096360587940061",
+          "size": 1875777413,
+          "download": 548351808
+        }
+      }
+    }
+  ],
+  "_change_number": 40638083,
+  "_missing_token": false,
+  "_sha": "89f1a2debaf17a08148beb3bdb9dff639e4d8c22",
+  "_size": 4631,
   "appid": "4323260",
   "common": {
     "associations": {
@@ -31,8 +50,8 @@
     },
     "clienticon": "8c8556292d4d03c73bd0e2dd152248d1a6d33cdb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4323260",
     "genres": {
       "0": "4",
@@ -103,10 +122,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d09873af99d870082874df4cf06ddb1a079602a9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793898019",
     "store_asset_mtime": "1789047723",
     "store_tags": {
       "0": "597",
@@ -135,5 +155,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Ship Happens",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Ship Happens.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Ship Happens.app"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4323261": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "311446976",
+          "gid": "7660936528437146073",
+          "size": "918965020"
+        }
+      }
+    },
+    "4323262": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "548351808",
+          "gid": "3121096360587940061",
+          "size": "1875777413"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26449945",
+        "timebuildupdated": "1793853383",
+        "timeupdated": "1793853383"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Studio Pearl",
+    "homepage": "https://studiopearl.net",
+    "publisher": "Studio Pearl"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Studio Pearl/Ship Happens",
+            "replace": "Studio Pearl/Ship Happens"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Studio Pearl/Ship Happens",
+        "pattern": "savedata.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

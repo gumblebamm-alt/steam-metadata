@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793821538,
-  "_history": [],
-  "_change_number": 40599767,
-  "_missing_token": true,
-  "_sha": "615e6ee55a6bc65918ff690c02877f097f5fae15",
-  "_size": 6445,
+  "_lastChecked": 1793908630,
+  "_history": [
+    {
+      "buildId": "26453331",
+      "branch": "public",
+      "timeUpdated": 1793868755,
+      "firstSeen": 1793908630,
+      "manifests": {
+        "3546611": {
+          "gid": "4079598544482359254",
+          "size": 241847712,
+          "download": 162802224
+        },
+        "3546612": {
+          "gid": "3526160478831190707",
+          "size": 266066721,
+          "download": 171525024
+        }
+      }
+    }
+  ],
+  "_change_number": 40642936,
+  "_missing_token": false,
+  "_sha": "85caffb63f760902e833fd11b6e826253cadc96a",
+  "_size": 8758,
   "appid": "3546610",
   "common": {
     "associations": {
@@ -26,23 +45,30 @@
       "category_22": "1",
       "category_23": "1",
       "category_28": "1",
+      "category_29": "1",
       "category_55": "1",
       "category_56": "1",
       "category_57": "1",
       "category_58": "1",
       "category_62": "1",
+      "category_63": "1",
       "category_64": "1",
+      "category_65": "1",
+      "category_66": "1",
       "category_67": "1",
       "category_68": "1",
       "category_69": "1",
-      "category_74": "1"
+      "category_74": "1",
+      "category_75": "1",
+      "category_76": "1",
+      "category_78": "1"
     },
     "clienticns": "9855052b189136440a761838ec552adf7d6438f9",
     "clienticon": "4352f9fff194eaac5ebfe07e21a2abd6a4cdfbe4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3546610",
     "genres": {
       "0": "1",
@@ -130,7 +156,9 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "94",
+    "review_score": "7",
     "small_capsule": {
       "english": "1ca5fb3f97515a7e64ac364468d4d3120979ce33/capsule_231x87.jpg",
       "schinese": "aa5590f18741138984542564adf9bf052075d8c2/capsule_231x87_schinese.jpg"
@@ -196,7 +224,8 @@
         }
       }
     },
-    "store_asset_mtime": "1793781275",
+    "steam_release_date": "1793890835",
+    "store_asset_mtime": "1793892791",
     "store_tags": {
       "0": "723991",
       "1": "7332",
@@ -255,5 +284,105 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "wielders-of-the-essence",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "wielders-of-the-essence.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "wielders-of-the-essence.app",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3546611": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "162802224",
+          "gid": "4079598544482359254",
+          "size": "241847712"
+        }
+      }
+    },
+    "3546612": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "171525024",
+          "gid": "3526160478831190707",
+          "size": "266066721"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26453331",
+        "timebuildupdated": "1793867821",
+        "timeupdated": "1793868755"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Lavapotion",
+    "homepage": "https://www.wielders.com/",
+    "publisher": "Lavapotion"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1048576000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Lavapotion/wielders-of-the-essence/[User]",
+            "replace": "com.lavapotion.wielders-of-the-essence/[User]"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Lavapotion/wielders-of-the-essence/[User]",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Lavapotion/wielders-of-the-essence/[User]",
+        "pattern": "*.txt",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Lavapotion/wielders-of-the-essence/[User]",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

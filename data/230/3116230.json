@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793467090,
-  "_history": [],
-  "_change_number": 40459354,
-  "_missing_token": true,
-  "_sha": "5b7d4475f9d8e55590d477923cd685ba3851d987",
-  "_size": 3438,
+  "_lastChecked": 1793908624,
+  "_history": [
+    {
+      "buildId": "26463677",
+      "branch": "public",
+      "timeUpdated": 1793897410,
+      "firstSeen": 1793908624,
+      "manifests": {
+        "3116231": {
+          "gid": "6382259615523111368",
+          "size": 2049004133,
+          "download": 742849840
+        }
+      }
+    }
+  ],
+  "_change_number": 40637728,
+  "_missing_token": false,
+  "_sha": "88943d8842016128d96942720e711b364a3a58d8",
+  "_size": 4869,
   "appid": "3116230",
   "common": {
     "associations": {
@@ -34,9 +48,10 @@
       "category_68": "1",
       "category_69": "1"
     },
-    "clienticon": "7b55c439be6e8c9ec447e86cce07fcd25b0156db",
+    "clienticon": "840edea48eb86d6a022116157000ae55930dedcc",
     "clienttga": "e5a3a3901aa519772d6518762029eca7d5a43434",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -45,7 +60,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3116230",
     "genres": {
       "0": "25",
@@ -54,7 +68,7 @@
     "header_image": {
       "english": "839f935eb1c249f876322c9ab99e49f9dcc855f1/header.jpg"
     },
-    "icon": "9439727d9d14eac44ae87b74d231bc2425315f1e",
+    "icon": "840edea48eb86d6a022116157000ae55930dedcc",
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -110,32 +124,33 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0db17e6af4f7592e8faf7669eb65e92302c5a361/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793462161",
+    "steam_release_date": "1793892223",
+    "store_asset_mtime": "1793880148",
     "store_tags": {
-      "0": "3834",
-      "1": "3798",
-      "10": "4166",
-      "11": "1742",
-      "12": "4975",
-      "13": "4191",
-      "14": "5608",
+      "0": "3798",
+      "1": "3834",
+      "10": "6971",
+      "11": "3854",
+      "12": "1742",
+      "13": "6426",
+      "14": "7250",
       "15": "7481",
-      "16": "7250",
-      "17": "4342",
-      "18": "3964",
+      "16": "42152",
+      "17": "3964",
+      "18": "4064",
       "19": "21",
       "2": "1664",
-      "3": "6971",
+      "3": "1721",
       "4": "3799",
-      "5": "42152",
-      "6": "6426",
-      "7": "1721",
-      "8": "11014",
-      "9": "5900"
+      "5": "11014",
+      "6": "5900",
+      "7": "4191",
+      "8": "4975",
+      "9": "1667"
     },
     "supported_languages": {
       "english": {
@@ -165,5 +180,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Abashed",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "default windows launch",
+        "description_loc": {
+          "english": "default windows launch"
+        },
+        "executable": "Abashed.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3116231": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "742849840",
+          "gid": "6382259615523111368",
+          "size": "2049004133"
+        }
+      }
+    },
+    "baselanguages": "english,german,japanese,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26463677",
+        "timebuildupdated": "1793897185",
+        "timeupdated": "1793897410"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Supantha Paul",
+    "homepage": "https://www.lavapointgames.com/abashed",
+    "publisher": "Supantha Paul"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".config/unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "LavaPoint Games/Abashed/",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

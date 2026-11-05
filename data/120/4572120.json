@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793861066,
-  "_history": [],
-  "_change_number": 40610230,
-  "_missing_token": true,
-  "_sha": "ad1a76f3b2f4836fa0b5c052c60adcdf687eb97e",
-  "_size": 3849,
+  "_lastChecked": 1793908647,
+  "_history": [
+    {
+      "buildId": "26466192",
+      "branch": "public",
+      "timeUpdated": 1793904679,
+      "firstSeen": 1793908647,
+      "manifests": {
+        "4572121": {
+          "gid": "7690837116184390772",
+          "size": 92931492,
+          "download": 44677520
+        }
+      }
+    }
+  ],
+  "_change_number": 40642950,
+  "_missing_token": false,
+  "_sha": "89ee240ec16a4f1574c30f7a196f63f19ecef46b",
+  "_size": 7018,
   "appid": "4572120",
   "common": {
     "associations": {
@@ -27,8 +41,8 @@
     },
     "clienticon": "586ae73e849dded88017b0ee9e5dadb115b1c885",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4572120",
     "genres": {
       "0": "4",
@@ -101,11 +115,67 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "42",
+    "review_score": "5",
     "small_capsule": {
       "english": "9418f27e7d27bf96badf7f38c244d7c4d4d0e158/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793827738",
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "1",
+      "steam_machine_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "3": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1792775605",
+      "tested_build_id": "24181608",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+        }
+      }
+    },
+    "steam_release_date": "1793865778",
+    "store_asset_mtime": "1793865683",
     "store_tags": {
       "0": "615955",
       "1": "560542",
@@ -192,5 +262,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dirt Clicker",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Default",
+        "description_loc": {
+          "english": "Default"
+        },
+        "executable": "Dirt Clicker.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "--rendering-method gl_compatibility",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Compatibility (If the game crashes)",
+        "description_loc": {
+          "english": "Compatibility (If the game crashes)"
+        },
+        "executable": "Dirt Clicker.exe",
+        "type": "option2"
+      }
+    }
+  },
+  "depots": {
+    "4572121": {
+      "manifests": {
+        "public": {
+          "download": "44677520",
+          "gid": "7690837116184390772",
+          "size": "92931492"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26466192",
+        "timebuildupdated": "1793904521",
+        "timeupdated": "1793904679"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Sailing Bears",
+    "publisher": "Sailing Bears"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Dirt Clicker/data",
+            "replace": ".local/share/godot/app_userdata/Dirt Clicker/data"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Dirt Clicker/data",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

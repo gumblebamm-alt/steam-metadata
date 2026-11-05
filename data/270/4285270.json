@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793688516,
+  "_lastChecked": 1793908641,
   "_history": [
     {
       "buildId": "26399015",
@@ -13,12 +13,30 @@
           "download": 140045440
         }
       }
+    },
+    {
+      "buildId": "26461979",
+      "branch": "public",
+      "timeUpdated": 1793899670,
+      "firstSeen": 1793908641,
+      "manifests": {
+        "4285271": {
+          "gid": "8364874529814137352",
+          "size": 368486159,
+          "download": 140057808
+        },
+        "4285273": {
+          "gid": "7588611685356231112",
+          "size": 323042107,
+          "download": 116941504
+        }
+      }
     }
   ],
-  "_change_number": 40537266,
+  "_change_number": 40639071,
   "_missing_token": false,
-  "_sha": "f9170433b43b63a0b1e38e33ba9acf4e5c6bb9ac",
-  "_size": 4601,
+  "_sha": "d368ad465df6d10519534ab8004e5221e91cb17e",
+  "_size": 5180,
   "appid": "4285270",
   "common": {
     "associations": {
@@ -124,9 +142,11 @@
     "osarch": "",
     "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "28",
     "releasestate": "released",
+    "review_percentage": "92",
+    "review_score": "7",
     "small_capsule": {
       "english": "2ca85df3714241614df2d18e19bcd26020688ff7/capsule_231x87.jpg"
     },
@@ -178,6 +198,12 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "marblebuilds",
     "launch": {
       "0": {
@@ -185,6 +211,15 @@
           "oslist": "windows"
         },
         "executable": "marblebuilds.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "marblebuilds",
         "type": "default"
       }
     }
@@ -196,20 +231,34 @@
       },
       "manifests": {
         "public": {
-          "download": "140045440",
-          "gid": "7825430211815619693",
-          "size": "368434218"
+          "download": "140057808",
+          "gid": "8364874529814137352",
+          "size": "368486159"
+        }
+      }
+    },
+    "4285273": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "116941504",
+          "gid": "7588611685356231112",
+          "size": "323042107"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26399015",
-        "timebuildupdated": "1793686517",
-        "timeupdated": "1793686622"
+        "buildid": "26461979",
+        "timebuildupdated": "1793892823",
+        "timeupdated": "1793899670"
       }
     },
     "nocommonredists": "1",
+    "privatebranches": "1",
     "workshopdepot": "4285270"
   },
   "extended": {

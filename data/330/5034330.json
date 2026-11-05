@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793211946,
-  "_history": [],
-  "_change_number": 40350106,
-  "_missing_token": true,
-  "_sha": "8b7c2f5e9ba6d5ef3971b9097faa1ecf91b4f79b",
-  "_size": 3078,
+  "_lastChecked": 1793908660,
+  "_history": [
+    {
+      "buildId": "26460644",
+      "branch": "public",
+      "timeUpdated": 1793889497,
+      "firstSeen": 1793908660,
+      "manifests": {
+        "5034331": {
+          "gid": "3400793649594429606",
+          "size": 399868106,
+          "download": 150912416
+        },
+        "5034332": {
+          "gid": "1434601809415490338",
+          "size": 453864181,
+          "download": 162406672
+        }
+      }
+    }
+  ],
+  "_change_number": 40640590,
+  "_missing_token": false,
+  "_sha": "447fed54c0d8250f045d359ed342a4667a3748ea",
+  "_size": 4191,
   "appid": "5034330",
   "common": {
     "associations": {
@@ -34,7 +53,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "5034330",
     "genres": {
       "0": "1",
@@ -104,13 +122,14 @@
     "name": "Apple Catcher",
     "osarch": "",
     "oscpu": "",
-    "osextended": "macos64,macosapplesilicon",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fd130d56df4d07ab758c07b27502ab7809356b2f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793902247",
     "store_asset_mtime": "1792692581",
     "store_tags": {
       "0": "597",
@@ -135,5 +154,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Apple Catcher",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Apple Catcher.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "AppleCatcher.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5034331": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "150912416",
+          "gid": "3400793649594429606",
+          "size": "399868106"
+        }
+      }
+    },
+    "5034332": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "162406672",
+          "gid": "1434601809415490338",
+          "size": "453864181"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26460644",
+        "timebuildupdated": "1793889497",
+        "timeupdated": "1793889497"
+      }
+    }
+  },
+  "extended": {
+    "developer": "RAM Interactive",
+    "publisher": "RAM Interactive"
+  }
 }

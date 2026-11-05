@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793773155,
-  "_history": [],
-  "_change_number": 40567250,
-  "_missing_token": true,
-  "_sha": "8fffb196c58d936805b6910201021e822fc3e9a9",
-  "_size": 3920,
+  "_lastChecked": 1793908664,
+  "_history": [
+    {
+      "buildId": "26199848",
+      "branch": "public",
+      "timeUpdated": 1792947139,
+      "firstSeen": 1793908664,
+      "manifests": {
+        "5141481": {
+          "gid": "2058529341915110323",
+          "size": 563851780,
+          "download": 234464896
+        }
+      }
+    }
+  ],
+  "_change_number": 40642086,
+  "_missing_token": false,
+  "_sha": "6883d963960415e19c4be2e3d4afcae2c3c258e1",
+  "_size": 5572,
   "appid": "5141480",
   "common": {
     "aicontenttype": "1",
@@ -35,9 +49,9 @@
     },
     "clienticon": "2f5587ec454348692cadb5548f7016169c0d3ca0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5141480",
     "genres": {
       "0": "1",
@@ -123,11 +137,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "31cb0f1079433461d37287b0f6d86d8dd15889db/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793745200",
+    "steam_release_date": "1793903336",
+    "store_asset_mtime": "1793904803",
     "store_tags": {
       "0": "42804",
       "1": "3814",
@@ -190,5 +205,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "VOIDHOLD Squad Survival Roguelite",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "VOIDHOLD.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "VOIDHOLD.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5141481": {
+      "manifests": {
+        "public": {
+          "download": "234464896",
+          "gid": "2058529341915110323",
+          "size": "563851780"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26199848",
+        "timebuildupdated": "1792946771",
+        "timeupdated": "1792947139"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "NexusOne23",
+    "homepage": "https://voidhold.space/",
+    "publisher": "NexusOne23"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/VOIDHOLD",
+            "replace": ".local/share/godot/app_userdata/VOIDHOLD"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/VOIDHOLD",
+        "pattern": "operations.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/VOIDHOLD",
+        "pattern": "highscores.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/VOIDHOLD",
+        "pattern": "voidhold_save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/VOIDHOLD",
+        "pattern": "voidhold_run.save",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

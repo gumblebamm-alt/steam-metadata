@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1792558059,
-  "_history": [],
-  "_change_number": 40046421,
-  "_missing_token": true,
-  "_sha": "43018fd8c7fbaae394903cba741e7e25bf2418a7",
-  "_size": 3860,
+  "_lastChecked": 1793908621,
+  "_history": [
+    {
+      "buildId": "23545460",
+      "branch": "press_release",
+      "timeUpdated": 1780488061,
+      "firstSeen": 1793908621,
+      "manifests": {
+        "2709171": {
+          "gid": "2768583881202770108",
+          "size": 2332363546,
+          "download": 2047837488
+        }
+      }
+    },
+    {
+      "buildId": "26080787",
+      "branch": "public",
+      "timeUpdated": 1792504591,
+      "firstSeen": 1793908621,
+      "manifests": {
+        "2709171": {
+          "gid": "2301027776385374368",
+          "size": 2616433576,
+          "download": 2311930096
+        }
+      }
+    }
+  ],
+  "_change_number": 40633429,
+  "_missing_token": false,
+  "_sha": "86194d56e6aa39d5158221ee80877d0b631f8c68",
+  "_size": 5524,
   "appid": "2709170",
   "common": {
     "aicontenttype": "1",
@@ -38,6 +65,7 @@
     "clienticon": "56478814b1a6cc5ad6ed29436460c86dc9ad17fd",
     "clienttga": "4735a1799ffbe53d7e5a053f28968734e3dc83ff",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -48,7 +76,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2709170",
     "genres": {
       "0": "25",
@@ -119,10 +146,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b7fb1276224eab90581df22e204cae68632a21bd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793890806",
     "store_asset_mtime": "1776173055",
     "store_tags": {
       "0": "6426",
@@ -175,5 +203,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "S.E.X. Project Simulated Emotional Xenotech",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SEXProject.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "3",
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2709171": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "press_release": {
+          "download": "2047837488",
+          "gid": "2768583881202770108",
+          "size": "2332363546"
+        },
+        "public": {
+          "download": "2311930096",
+          "gid": "2301027776385374368",
+          "size": "2616433576"
+        }
+      }
+    },
+    "branches": {
+      "press_release": {
+        "buildid": "23545460",
+        "description": "Access for the Press",
+        "timebuildupdated": "1780488038",
+        "timeupdated": "1780488061"
+      },
+      "public": {
+        "buildid": "26080787",
+        "timebuildupdated": "1792504553",
+        "timeupdated": "1792504591"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Witenovastudio OÜ",
+    "homepage": "https://www.witenovastudio.com/",
+    "publisher": "Witenovastudio OÜ"
+  },
+  "ufs": {
+    "maxnumfiles": "30",
+    "quota": "40000000",
+    "savefiles": {
+      "0": {
+        "path": "SEXProject/Saved/SaveGames",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

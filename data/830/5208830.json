@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793599381,
-  "_history": [],
-  "_change_number": 40486161,
-  "_missing_token": true,
-  "_sha": "182c77f806b55615211ac742f97a16000d7ca36c",
-  "_size": 4064,
+  "_lastChecked": 1793908665,
+  "_history": [
+    {
+      "buildId": "26464472",
+      "branch": "public",
+      "timeUpdated": 1793899458,
+      "firstSeen": 1793908665,
+      "manifests": {
+        "5208831": {
+          "gid": "5235578413771116923",
+          "size": 770412174,
+          "download": 238489744
+        }
+      }
+    }
+  ],
+  "_change_number": 40639438,
+  "_missing_token": false,
+  "_sha": "d1b20299c7ebb4a43db43939e891b419171649ee",
+  "_size": 5338,
   "appid": "5208830",
   "common": {
     "associations": {
@@ -39,8 +53,8 @@
     },
     "clienticon": "098c40fa669ea9ce26fef5c3e5d076dc3e2b62a9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5208830",
     "genres": {
       "0": "4",
@@ -112,10 +126,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6958071c6d27e6c17ee41cf638c48146b35bb47f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793900349",
     "store_asset_mtime": "1793561080",
     "store_tags": {
       "0": "1664",
@@ -192,5 +207,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Method in the Witchness",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Method in the Witchness.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Method in the Witchness.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5208831": {
+      "manifests": {
+        "public": {
+          "download": "238489744",
+          "gid": "5235578413771116923",
+          "size": "770412174"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26464472",
+        "timebuildupdated": "1793899340",
+        "timeupdated": "1793899458"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "SQRT Games",
+    "publisher": "SQRT Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "SQRT Games/Method in the Witchness/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "SQRT Games/Method in the Witchness/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgConfigHome"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793467095,
-  "_history": [],
-  "_change_number": 39950443,
-  "_missing_token": true,
-  "_sha": "48ef10b9f5f4a2d2bd680f617f7c7116ca66130e",
-  "_size": 3868,
+  "_lastChecked": 1793908638,
+  "_history": [
+    {
+      "buildId": "26455061",
+      "branch": "public",
+      "timeUpdated": 1793874571,
+      "firstSeen": 1793908638,
+      "manifests": {
+        "4146651": {
+          "gid": "486860686249888706",
+          "size": 726558480,
+          "download": 287014720
+        },
+        "4146652": {
+          "gid": "2705480035712840319",
+          "size": 676507329,
+          "download": 253506416
+        },
+        "4146653": {
+          "gid": "5353654939058121418",
+          "size": 611709944,
+          "download": 231966320
+        }
+      }
+    }
+  ],
+  "_change_number": 40642947,
+  "_missing_token": false,
+  "_sha": "3dd69ffef689ae3a8ee99f03f99bd04ed0b72a79",
+  "_size": 5673,
   "appid": "4146650",
   "common": {
     "associations": {
@@ -18,8 +42,12 @@
       }
     },
     "category": {
+      "category_1": "1",
       "category_17": "1",
       "category_2": "1",
+      "category_22": "1",
+      "category_36": "1",
+      "category_49": "1",
       "category_62": "1",
       "category_66": "1",
       "category_67": "1",
@@ -33,6 +61,7 @@
     "clienticns": "892ba4de706b8d7581458a7454b3bcaa75374184",
     "clienticon": "1ca4d5bdb60ee50c8d99521a60029f0de4e5fc0a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -42,7 +71,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "4146650",
     "genres": {
       "0": "1",
@@ -53,6 +81,19 @@
       "english": "45193bdaa94fe83ec00b0360b98b81610e7c3741/header.jpg"
     },
     "icon": "b74ac1495ae2dc76abf3cf27d0b4c188fa38e238",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "latam": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1",
+      "tchinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -115,11 +156,14 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "1fba4b369e93bcda34bf5f2d9760352bc583dd81/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1771509368",
+    "steam_release_date": "1793890753",
+    "store_asset_mtime": "1793882403",
     "store_tags": {
       "0": "1752",
       "1": "1674",
@@ -132,7 +176,7 @@
       "16": "19",
       "17": "113",
       "18": "12057",
-      "19": "3810",
+      "19": "3859",
       "2": "1621",
       "3": "8122",
       "4": "4026",
@@ -179,5 +223,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MUPO",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MUPO.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "MUPO.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MUPO.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4146651": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "287014720",
+          "gid": "486860686249888706",
+          "size": "726558480"
+        }
+      }
+    },
+    "4146652": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "253506416",
+          "gid": "2705480035712840319",
+          "size": "676507329"
+        }
+      }
+    },
+    "4146653": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "231966320",
+          "gid": "5353654939058121418",
+          "size": "611709944"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26455061",
+        "timebuildupdated": "1793873394",
+        "timeupdated": "1793874571"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Finley Studios",
+    "homepage": "https://mupo.app",
+    "isfreeapp": "1",
+    "publisher": "Finley Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "50000000"
+  }
 }

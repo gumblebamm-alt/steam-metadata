@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792457881,
-  "_history": [],
-  "_change_number": 40023261,
-  "_missing_token": true,
-  "_sha": "ef4a5bf81af2e210a8814bedc12172d7b0208d82",
-  "_size": 2857,
+  "_lastChecked": 1793908661,
+  "_history": [
+    {
+      "buildId": "26454869",
+      "branch": "public",
+      "timeUpdated": 1793872823,
+      "firstSeen": 1793908661,
+      "manifests": {
+        "5051541": {
+          "gid": "966663002054796601",
+          "size": 463872679,
+          "download": 219353936
+        }
+      }
+    }
+  ],
+  "_change_number": 40625096,
+  "_missing_token": false,
+  "_sha": "ba8d3e45b990a83a7c2a6f794309ee7e4344d41c",
+  "_size": 3943,
   "appid": "5051540",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "d6060b3b8da434a2d0d3e08bc70c50f9a1096c3c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5051540",
     "genres": {
       "0": "23",
@@ -100,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3ca8279dee17c9374ae03a431e72389905f9563d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793875232",
     "store_asset_mtime": "1788611862",
     "store_tags": {
       "0": "1755",
@@ -128,5 +143,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Continuum",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Continuum.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5051541": {
+      "manifests": {
+        "public": {
+          "download": "219353936",
+          "gid": "966663002054796601",
+          "size": "463872679"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26454869",
+        "timebuildupdated": "1793872804",
+        "timeupdated": "1793872823"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Interstitial Games",
+    "homepage": "https://interstitial.au",
+    "publisher": "Interstitial Games"
+  },
+  "ufs": {
+    "maxnumfiles": "300",
+    "quota": "256000000",
+    "savefiles": {
+      "0": {
+        "path": "Continuum",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Continuum/chronicles",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

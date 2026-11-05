@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793773147,
-  "_history": [],
-  "_change_number": 40575156,
-  "_missing_token": true,
-  "_sha": "b3a7a040bd5da9843722b541b264d0716a89585d",
-  "_size": 2971,
+  "_lastChecked": 1793908650,
+  "_history": [
+    {
+      "buildId": "26451266",
+      "branch": "public",
+      "timeUpdated": 1793859604,
+      "firstSeen": 1793908650,
+      "manifests": {
+        "4729081": {
+          "gid": "2974024154339681830",
+          "size": 448735972,
+          "download": 147884528
+        },
+        "4729082": {
+          "gid": "2220953563995717826",
+          "size": 459125410,
+          "download": 147212192
+        },
+        "4836520": {
+          "gid": "3545233645966034787",
+          "size": 28903413,
+          "download": 26941232
+        }
+      }
+    }
+  ],
+  "_change_number": 40643311,
+  "_missing_token": false,
+  "_sha": "acc8b2e09b5f05a4e53f4b2f893fcd93060ad965",
+  "_size": 5392,
   "appid": "4729080",
   "common": {
     "associations": {
@@ -21,6 +45,8 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_28": "1",
+      "category_55": "1",
       "category_62": "1",
       "category_74": "1",
       "category_76": "1",
@@ -28,8 +54,9 @@
     },
     "clienticon": "f3ace1cf041361a3842bec701b30e0b25c7d99d8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4729080",
     "genres": {
       "0": "4",
@@ -100,10 +127,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b9fd761c42dc85dba72830485353476e4ca016e9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793898000",
     "store_asset_mtime": "1793754296",
     "store_tags": {
       "0": "597",
@@ -134,5 +162,120 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lil Laundry Lane",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "LilLaundryLane.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "LilLaundryLane",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4729081": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "147884528",
+          "gid": "2974024154339681830",
+          "size": "448735972"
+        }
+      }
+    },
+    "4729082": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "147212192",
+          "gid": "2220953563995717826",
+          "size": "459125410"
+        }
+      }
+    },
+    "4836520": {
+      "dlcappid": "4836520",
+      "manifests": {
+        "public": {
+          "download": "26941232",
+          "gid": "3545233645966034787",
+          "size": "28903413"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26451266",
+        "timebuildupdated": "1793859604",
+        "timeupdated": "1793859604"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Smoketree Studios",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.smoketreestudios.com/",
+    "listofdlc": "4836520",
+    "publisher": "Smoketree Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Smoketree Studios/DungeonSweeper/{64BitSteamID}",
+            "replace": "unity3d/Smoketree Studios/LilLaundryLane/{64BitSteamId}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Smoketree Studios/LilLaundryLane/{64BitSteamID}",
+            "replace": "SmokeTree Studios/LilLaundryLane/{64BitSteamId}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Smoketree Studios/LilLaundryLane/{64BitSteamID}",
+        "pattern": "save.txt",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

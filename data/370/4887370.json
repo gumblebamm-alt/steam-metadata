@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793599375,
-  "_history": [],
-  "_change_number": 40496507,
-  "_missing_token": true,
-  "_sha": "1b5bcda5a2d8bd8d07a95822d53932b23f9e83c0",
-  "_size": 5905,
+  "_lastChecked": 1793908654,
+  "_history": [
+    {
+      "buildId": "26464069",
+      "branch": "public",
+      "timeUpdated": 1793898376,
+      "firstSeen": 1793908654,
+      "manifests": {
+        "4887371": {
+          "gid": "2167174099859067566",
+          "size": 8532179704,
+          "download": 5141619296
+        },
+        "4887372": {
+          "gid": "8950254807317155046",
+          "size": 8575430019,
+          "download": 5161876816
+        }
+      }
+    }
+  ],
+  "_change_number": 40638459,
+  "_missing_token": false,
+  "_sha": "8c7fe4f2f72ceeec53dfa8586ee7dc6e729732a2",
+  "_size": 7640,
   "appid": "4887370",
   "common": {
     "aicontenttype": "1",
@@ -29,10 +48,10 @@
       "category_74": "1",
       "category_79": "1"
     },
-    "clienticon": "cc480405ee59258b88b1e7473bbeed122dee57de",
+    "clienticon": "8730928becd7eebd772d9312a20d72bf07b45823",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4887370",
     "genres": {
       "0": "4",
@@ -42,7 +61,7 @@
     "header_image": {
       "english": "ff82b286af0f1b8564ac0511a89ecdc256d5fdbd/header.jpg"
     },
-    "icon": "cc480405ee59258b88b1e7473bbeed122dee57de",
+    "icon": "8730928becd7eebd772d9312a20d72bf07b45823",
     "languages": {
       "arabic": "1",
       "brazilian": "1",
@@ -138,10 +157,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "70687f866499057303af471ada9ff79f58ed6720/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793898627",
     "store_asset_mtime": "1792617641",
     "store_tags": {
       "0": "97376",
@@ -294,5 +314,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Maria IV",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BotanicMarket.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "BotanicMarket.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4887371": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "5141619296",
+          "gid": "2167174099859067566",
+          "size": "8532179704"
+        }
+      }
+    },
+    "4887372": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "5161876816",
+          "gid": "8950254807317155046",
+          "size": "8575430019"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26464069",
+        "timebuildupdated": "1793898299",
+        "timeupdated": "1793898376"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "DoubleShot Games",
+    "homepage": "https://doubleshotgames.net",
+    "publisher": "DoubleShot Games"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "200000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "DoubleShot Games/BotanicMarket/Saves",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "DoubleShot Games/BotanicMarket/Saves",
+        "pattern": "*.bak",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "DoubleShot Games/BotanicMarket/Saves/Gecmis",
+        "pattern": "*.jpg",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

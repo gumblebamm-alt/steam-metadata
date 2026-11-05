@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793773131,
-  "_history": [],
-  "_change_number": 40570370,
-  "_missing_token": true,
-  "_sha": "49db60606b5896d7ff244d46402c40839757061c",
-  "_size": 5987,
+  "_lastChecked": 1793908625,
+  "_history": [
+    {
+      "buildId": "26464052",
+      "branch": "public",
+      "timeUpdated": 1793898631,
+      "firstSeen": 1793908625,
+      "manifests": {
+        "3204331": {
+          "gid": "672830298232734661",
+          "size": 655688642,
+          "download": 440916032
+        },
+        "3204332": {
+          "gid": "263287351814019385",
+          "size": 637286939,
+          "download": 408636224
+        }
+      }
+    }
+  ],
+  "_change_number": 40638575,
+  "_missing_token": false,
+  "_sha": "ad09c582c4617eb1783ea80cad598cb53f6de962",
+  "_size": 9911,
   "appid": "3204330",
   "common": {
     "associations": {
@@ -28,8 +47,8 @@
     "clienticon": "287e44353c683f1b9d0f301ae6892930f466ade3",
     "clienttga": "2a75b0599b41c9916cbf32586cb2695786c13630",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3204330",
     "genres": {
       "0": "4",
@@ -144,13 +163,99 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "758122006dfe5743634f459ca2185f3642a19468/capsule_231x87.jpg",
       "schinese": "fa91badbfd1345ce427dabdee8bc22d593661e33/capsule_231x87_schinese.jpg",
       "tchinese": "ddf2741eb59633304b26e31ccbd1ebd0fbbcba82/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1793348957",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        }
+      },
+      "test_timestamp": "1792783278",
+      "tested_build_id": "25747526",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "3": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "5": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1793894085",
+    "store_asset_mtime": "1793894133",
     "store_tags": {
       "0": "9",
       "1": "599",
@@ -245,5 +350,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "County of Fortune",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CountyOfFortune/Binaries/Win64/CountyOfFortune.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "CountyOfFortune.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3204331": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "440916032",
+          "gid": "672830298232734661",
+          "size": "655688642"
+        }
+      }
+    },
+    "3204332": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "408636224",
+          "gid": "263287351814019385",
+          "size": "637286939"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26464052",
+        "timebuildupdated": "1793898269",
+        "timeupdated": "1793898631"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Nepos Games",
+    "homepage": "https://nepos.games/county_of_fortune/",
+    "publisher": "Aquila Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000"
+  }
 }

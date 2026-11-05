@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1792155387,
-  "_history": [],
-  "_change_number": 39602634,
-  "_missing_token": true,
-  "_sha": "d16904c2522c6d46b95791d7c39127c919923860",
-  "_size": 3196,
+  "_lastChecked": 1793908666,
+  "_history": [
+    {
+      "buildId": "26397060",
+      "branch": "public",
+      "timeUpdated": 1793678167,
+      "firstSeen": 1793908666,
+      "manifests": {
+        "5230121": {
+          "gid": "8089328485418102741",
+          "size": 119549658,
+          "download": 109446000
+        },
+        "5230122": {
+          "gid": "6538224361868364582",
+          "size": 46987464,
+          "download": 18487392
+        },
+        "5230123": {
+          "gid": "6270534570106604083",
+          "size": 155349529,
+          "download": 122284912
+        },
+        "5230124": {
+          "gid": "5775287142682472473",
+          "size": 18540632,
+          "download": 7479856
+        }
+      }
+    }
+  ],
+  "_change_number": 40633888,
+  "_missing_token": false,
+  "_sha": "a0291519237abac778fd1c68fa42447c6938cb87",
+  "_size": 5508,
   "appid": "5230120",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +59,8 @@
     "clienticns": "25d4819d7c37e06c543840c8f54b84911b285798",
     "clienticon": "b81a565928f407b66851c0153b3ffae1f2d899d2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5230120",
     "genres": {
       "0": "2",
@@ -102,10 +131,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4a392b4c8e282fa22795750cc785122ad0978cea/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1790004660",
     "store_tags": {
       "0": "9",
@@ -137,5 +167,132 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Treaty Ground Corridor 2032",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "tank-tactics.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "TankTactics.app"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "tank-tactics"
+      }
+    }
+  },
+  "depots": {
+    "5230121": {
+      "manifests": {
+        "public": {
+          "download": "109446000",
+          "gid": "8089328485418102741",
+          "size": "119549658"
+        }
+      }
+    },
+    "5230122": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "18487392",
+          "gid": "6538224361868364582",
+          "size": "46987464"
+        }
+      }
+    },
+    "5230123": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "122284912",
+          "gid": "6270534570106604083",
+          "size": "155349529"
+        }
+      }
+    },
+    "5230124": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "7479856",
+          "gid": "5775287142682472473",
+          "size": "18540632"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26397060",
+        "timebuildupdated": "1793678069",
+        "timeupdated": "1793678167"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "https://chillnowllc.com",
+    "isfreeapp": "1",
+    "publisher": "https://chillnowllc.com"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "TankTactics",
+            "replace": "tanktactics"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "TankTactics",
+        "pattern": "*.prefs",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
