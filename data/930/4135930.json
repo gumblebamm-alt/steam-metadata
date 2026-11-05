@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1792501355,
-  "_history": [],
-  "_change_number": 40028447,
-  "_missing_token": true,
-  "_sha": "970984762adbb25d0d74a384f3340035bf1779b3",
-  "_size": 3991,
+  "_lastChecked": 1793861061,
+  "_history": [
+    {
+      "buildId": "26428076",
+      "branch": "beta_public",
+      "timeUpdated": 1793785857,
+      "firstSeen": 1793861061,
+      "manifests": {
+        "4135931": {
+          "gid": "3268997485045339528",
+          "size": 275312384,
+          "download": 195577248
+        },
+        "4135932": {
+          "gid": "4034544158288645667",
+          "size": 358279738,
+          "download": 217447392
+        }
+      }
+    },
+    {
+      "buildId": "26194763",
+      "branch": "public",
+      "timeUpdated": 1793846648,
+      "firstSeen": 1793861061,
+      "manifests": {
+        "4135931": {
+          "gid": "1260429706665523293",
+          "size": 275621048,
+          "download": 195566672
+        },
+        "4135932": {
+          "gid": "4034544158288645667",
+          "size": 358279738,
+          "download": 217447392
+        }
+      }
+    }
+  ],
+  "_change_number": 40614024,
+  "_missing_token": false,
+  "_sha": "69bcaffa8f98dfbff558fb64175195f1b481cec8",
+  "_size": 7502,
   "appid": "4135930",
   "common": {
     "aicontenttype": "1",
@@ -31,9 +68,9 @@
     },
     "clienticon": "cd4b1e652b58a05db070d43d19dc0e4cae6971d9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4135930",
     "genres": {
       "0": "4",
@@ -122,11 +159,73 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4e39e873047bbcb3f743bbc9b6073f85730daa97/capsule_231x87.jpg",
       "schinese": "ca093ee4452cee6cef58035d180a3c47827dd7ef/capsule_231x87_schinese.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1793120912",
+      "tested_build_id": "26194763",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1793846897",
     "store_asset_mtime": "1792463153",
     "store_tags": {
       "0": "791774",
@@ -158,5 +257,93 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Scared Crow",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "scared crow.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4135931": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta_public": {
+          "download": "195577248",
+          "gid": "3268997485045339528",
+          "size": "275312384"
+        },
+        "public": {
+          "download": "195566672",
+          "gid": "1260429706665523293",
+          "size": "275621048"
+        }
+      }
+    },
+    "4135932": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta_public": {
+          "download": "217447392",
+          "gid": "4034544158288645667",
+          "size": "358279738"
+        },
+        "public": {
+          "download": "217447392",
+          "gid": "4034544158288645667",
+          "size": "358279738"
+        }
+      }
+    },
+    "branches": {
+      "beta_public": {
+        "buildid": "26428076",
+        "description": "Public beta branch",
+        "timebuildupdated": "1793785857",
+        "timeupdated": "1793785857"
+      },
+      "public": {
+        "buildid": "26194763",
+        "timebuildupdated": "1792917372",
+        "timeupdated": "1793846648"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "眼镜碎了",
+    "publisher": "Flawless Gaming"
+  },
+  "ufs": {
+    "maxnumfiles": "12",
+    "quota": "120000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "Godot/app_userdata/Scared Crow/datacloud",
+        "pattern": "*.res",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

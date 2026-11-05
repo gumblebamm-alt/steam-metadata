@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793077385,
-  "_history": [],
-  "_change_number": 40274581,
-  "_missing_token": true,
-  "_sha": "f4c08e792695ef04dec9984155d3676d5d0bba45",
-  "_size": 4475,
+  "_lastChecked": 1793861073,
+  "_history": [
+    {
+      "buildId": "26231528",
+      "branch": "public",
+      "timeUpdated": 1793061156,
+      "firstSeen": 1793861073,
+      "manifests": {
+        "5008321": {
+          "gid": "2311428323554013389",
+          "size": 280431994,
+          "download": 183419824
+        }
+      }
+    }
+  ],
+  "_change_number": 40605553,
+  "_missing_token": false,
+  "_sha": "a4b201903fe51cc53057ed7ff5fb9b14e25d7e53",
+  "_size": 6850,
   "appid": "5008320",
   "common": {
     "aicontenttype": "1",
@@ -20,12 +34,22 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "clienticon": "d320993fa5f3934f7c725ff65e81a98b08941d47",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
+    "eulas": {
+      "0": {
+        "id": "5008320_eula_0",
+        "name": "Bit Footballer: The Career EULA",
+        "url": "https://store.steampowered.com/eula/5008320_eula_0",
+        "version": "1"
+      }
+    },
     "gameid": "5008320",
     "genres": {
       "0": "18"
@@ -121,10 +145,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e474865c206c058185e2f1ed72f9da936a9d866b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1791385361",
     "store_tags": {
       "0": "701",
@@ -223,5 +248,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bit Footballer The Career",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BIT_FOOTBALLER.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5008321": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "183419824",
+          "gid": "2311428323554013389",
+          "size": "280431994"
+        }
+      }
+    },
+    "baselanguages": "brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,hungarian,italian,japanese,koreana,latam,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26231528",
+        "timebuildupdated": "1793061124",
+        "timeupdated": "1793061156"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Gaboo Arts Entertainment",
+    "homepage": "https://gabooarts.com/games/bit-footballer/",
+    "publisher": "Gaboo Arts Entertainment"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "268435456",
+    "savefiles": {
+      "0": {
+        "path": "Bit Footballer The Career/steam/{Steam3AccountID}",
+        "pattern": "career_slot_*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Bit Footballer The Career/steam/{Steam3AccountID}",
+        "pattern": "career_slot_*.json.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Bit Footballer The Career/steam/{Steam3AccountID}/album",
+        "pattern": "*.jpg",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Bit Footballer The Career/steam/{Steam3AccountID}/album",
+        "pattern": "*.png",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Bit Footballer The Career/steam/{Steam3AccountID}/videok",
+        "pattern": "*.bin",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Bit Footballer The Career/steam/{Steam3AccountID}/videok",
+        "pattern": "*.jpg",
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Bit Footballer The Career/steam/{Steam3AccountID}/videok",
+        "pattern": "*.png",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

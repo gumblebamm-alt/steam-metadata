@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793821571,
-  "_history": [],
-  "_change_number": 40599898,
-  "_missing_token": true,
-  "_sha": "6c11fc834ca409d09d292051a7673b66f390d05b",
-  "_size": 4293,
+  "_lastChecked": 1793861075,
+  "_history": [
+    {
+      "buildId": "26438291",
+      "branch": "public",
+      "timeUpdated": 1793814886,
+      "firstSeen": 1793861075,
+      "manifests": {
+        "5137811": {
+          "gid": "8845391442769342038",
+          "size": 277155072,
+          "download": 178672480
+        },
+        "5137812": {
+          "gid": "1740549248391569154",
+          "size": 358784408,
+          "download": 201921104
+        }
+      }
+    }
+  ],
+  "_change_number": 40605787,
+  "_missing_token": false,
+  "_sha": "863605764163c845f7f23cc4f450bd082768a28b",
+  "_size": 5672,
   "appid": "5137810",
   "common": {
     "associations": {
@@ -35,7 +54,6 @@
     "clienticon": "daaedce9cfb65be35fa7b2cdd84d96f7f642e69a",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5137810",
     "genres": {
       "0": "23",
@@ -109,10 +127,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "35f9d99cbfe0474e4c2aeae01461678e4ad0425d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793826016",
     "store_asset_mtime": "1793136634",
     "store_tags": {
       "0": "599",
@@ -204,5 +223,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Scraplings",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Scraplings.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Scraplings.app"
+      }
+    }
+  },
+  "depots": {
+    "5137811": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "178672480",
+          "gid": "8845391442769342038",
+          "size": "277155072"
+        }
+      }
+    },
+    "5137812": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "201921104",
+          "gid": "1740549248391569154",
+          "size": "358784408"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26438291",
+        "timebuildupdated": "1793814472",
+        "timeupdated": "1793814886"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "ikioda",
+    "homepage": "https://www.ikioda.com",
+    "publisher": "ikioda"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "40000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Scraplings",
+        "pattern": "save_*.sav",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

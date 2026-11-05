@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793166285,
-  "_history": [],
-  "_change_number": 40301993,
-  "_missing_token": true,
-  "_sha": "3f1a44cbed1dd559b7b8558e558232cbba8b5048",
-  "_size": 3203,
+  "_lastChecked": 1793861063,
+  "_history": [
+    {
+      "buildId": "26430449",
+      "branch": "public",
+      "timeUpdated": 1793797397,
+      "firstSeen": 1793861063,
+      "manifests": {
+        "4318081": {
+          "gid": "5601512189140671667",
+          "size": 1423069965,
+          "download": 1276015232
+        }
+      }
+    }
+  ],
+  "_change_number": 40617031,
+  "_missing_token": false,
+  "_sha": "6e3d19e29270afb6b2bc582ab21c34f22e103e4a",
+  "_size": 6567,
   "appid": "4318080",
   "common": {
     "associations": {
@@ -40,7 +54,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4318080",
     "genres": {
       "0": "1",
@@ -112,11 +125,83 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "215627d64778278a695ee9a756b7327bec638269/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792643927",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1793213007",
+      "tested_build_id": "26272682",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      }
+    },
+    "steam_release_date": "1793843631",
+    "store_asset_mtime": "1793850425",
     "store_tags": {
       "0": "493",
       "1": "1023537",
@@ -146,5 +231,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "RAKIMIA",
+    "launch": {
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ALTEREDBLOOD.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4318081": {
+      "manifests": {
+        "public": {
+          "download": "1276015232",
+          "gid": "5601512189140671667",
+          "size": "1423069965"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26430449",
+        "timebuildupdated": "1793792867",
+        "timeupdated": "1793797397"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "TRUEWORLD STUDIOS",
+    "homepage": "https://www.alteredblood.com",
+    "publisher": "TRUEWORLD STUDIOS"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "ALTEREDBLOOD\\Saved\\Config\\Windows",
+        "pattern": "*.ini",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "ALTEREDBLOOD\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

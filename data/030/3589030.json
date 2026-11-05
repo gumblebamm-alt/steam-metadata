@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793513169,
-  "_history": [],
-  "_change_number": 40467443,
-  "_missing_token": true,
-  "_sha": "d692fa952958a494590962e35bf124a19f1cd2db",
-  "_size": 2974,
+  "_lastChecked": 1793861058,
+  "_history": [
+    {
+      "buildId": "26445812",
+      "branch": "public",
+      "timeUpdated": 1793839166,
+      "firstSeen": 1793861058,
+      "manifests": {
+        "3589031": {
+          "gid": "3886535529801802275",
+          "size": 941382544,
+          "download": 782982944
+        }
+      }
+    }
+  ],
+  "_change_number": 40610815,
+  "_missing_token": false,
+  "_sha": "7cf84bdc3e5a3a4791d7f4a7e586fbba720352c7",
+  "_size": 3954,
   "appid": "3589030",
   "common": {
     "associations": {
@@ -26,7 +40,6 @@
     "clienttga": "6ec94c616ac61aa81a9def07c84a6ce70b165c0a",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3589030",
     "genres": {
       "0": "1",
@@ -100,7 +113,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2031337bf3d532a956bb4130e208b392f7b35400/capsule_231x87.jpg"
     },
@@ -134,5 +147,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "StandOff",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "stand_off.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3589031": {
+      "manifests": {
+        "public": {
+          "download": "782982944",
+          "gid": "3886535529801802275",
+          "size": "941382544"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26445812",
+        "timebuildupdated": "1793837906",
+        "timeupdated": "1793839166"
+      }
+    }
+  },
+  "extended": {
+    "developer": "BlauGhost",
+    "publisher": "BlauGhost"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "Stickfront/Saved/Campaign",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

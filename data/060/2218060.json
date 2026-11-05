@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793773126,
+  "_lastChecked": 1793861052,
   "_history": [
     {
       "buildId": "26407200",
@@ -18,12 +18,30 @@
           "download": 352389552
         }
       }
+    },
+    {
+      "buildId": "26435688",
+      "branch": "public",
+      "timeUpdated": 1793808071,
+      "firstSeen": 1793861052,
+      "manifests": {
+        "2218061": {
+          "gid": "460406671556661189",
+          "size": 495066538,
+          "download": 342072768
+        },
+        "2218062": {
+          "gid": "8193196720263340981",
+          "size": 486303152,
+          "download": 335942336
+        }
+      }
     }
   ],
-  "_change_number": 40572184,
+  "_change_number": 40618227,
   "_missing_token": false,
-  "_sha": "1d0783bb3e23b2faa728e78c5cb912c06e4eb725",
-  "_size": 5460,
+  "_sha": "9b663acccdf5773e9a0b05468cce2fadba456c04",
+  "_size": 5760,
   "appid": "2218060",
   "common": {
     "associations": {
@@ -40,6 +58,7 @@
       "category_1": "1",
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_27": "1",
       "category_28": "1",
       "category_36": "1",
@@ -241,9 +260,9 @@
       },
       "manifests": {
         "public": {
-          "download": "349995696",
-          "gid": "450132794339879094",
-          "size": "513743826"
+          "download": "342072768",
+          "gid": "460406671556661189",
+          "size": "495066538"
         }
       }
     },
@@ -253,17 +272,17 @@
       },
       "manifests": {
         "public": {
-          "download": "352389552",
-          "gid": "5763792376203576706",
-          "size": "533980560"
+          "download": "335942336",
+          "gid": "8193196720263340981",
+          "size": "486303152"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26407200",
-        "timebuildupdated": "1793714335",
-        "timeupdated": "1793714627"
+        "buildid": "26435688",
+        "timebuildupdated": "1793807592",
+        "timeupdated": "1793808071"
       }
     },
     "nocommonredists": "1",
@@ -275,10 +294,22 @@
     "publisher": "Legacy Labs"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "20",
     "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "LegacyLabs/Backdraft/{64BitSteamID}/saves",
+            "replace": "com.LegacyLabs.Backdraft/{64BitSteamID}/saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "LegacyLabs/Backdraft/{64BitSteamID}/saves",

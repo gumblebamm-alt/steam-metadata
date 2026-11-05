@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793384013,
-  "_history": [],
-  "_change_number": 40417537,
-  "_missing_token": true,
-  "_sha": "5bb2005c061a5d733ee749deaa6ea71804c745ec",
-  "_size": 5146,
+  "_lastChecked": 1793861062,
+  "_history": [
+    {
+      "buildId": "26426451",
+      "branch": "public",
+      "timeUpdated": 1793780349,
+      "firstSeen": 1793861062,
+      "manifests": {
+        "4188261": {
+          "gid": "5302336501025531095",
+          "size": 552226682,
+          "download": 190900512
+        }
+      }
+    }
+  ],
+  "_change_number": 40615012,
+  "_missing_token": false,
+  "_sha": "bf6d132f03990a5f481a37d320911c994c95158e",
+  "_size": 6666,
   "appid": "4188260",
   "common": {
     "associations": {
@@ -22,6 +36,7 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_30": "1",
       "category_38": "1",
       "category_62": "1",
       "category_64": "1",
@@ -33,8 +48,8 @@
     "clienticns": "10180105967c043fdc293598d93d9f443df30428",
     "clienticon": "efc88226880966b789854f5a4929365da622eb4a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4188260",
     "genres": {
       "0": "4",
@@ -134,13 +149,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b5ae51e747148d35e1a7123c8d94066ee89a5e33/capsule_231x87.jpg",
       "japanese": "634da45f6ec401cd804a2228ec0f4284fdf50bdc/capsule_231x87_japanese.jpg",
       "schinese": "c32b4de1d3596852d2aaa9fea70e48aa9f0763b6/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1793352367",
+    "steam_release_date": "1793843735",
+    "store_asset_mtime": "1793699651",
     "store_tags": {
       "0": "1320952",
       "1": "615955",
@@ -181,7 +197,83 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "喵~ 一起摸鱼吧！",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Cozy~Fishing Kitten.exe",
+        "type": "default"
+      }
+    },
+    "market_presence": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4188261": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "190900512",
+          "gid": "5302336501025531095",
+          "size": "552226682"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26426451",
+        "timebuildupdated": "1793780347",
+        "timeupdated": "1793780349"
+      }
+    },
+    "privatebranches": "1",
+    "workshopdepot": "4188260"
+  },
+  "extended": {
+    "developer": "Lumenex",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5240400",
+    "publisher": "Kunpan Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": ".config/unity3d/LumenWander/Cozy_Fishing Kitten",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "LumenWander/Cozy_Fishing Kitten",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793425432,
-  "_history": [],
-  "_change_number": 40445602,
-  "_missing_token": true,
-  "_sha": "ee6d0d1283b796e7912d985e987021d378e220fd",
-  "_size": 3665,
+  "_lastChecked": 1793861077,
+  "_history": [
+    {
+      "buildId": "26286768",
+      "branch": "public",
+      "timeUpdated": 1793239562,
+      "firstSeen": 1793861077,
+      "manifests": {
+        "5222451": {
+          "gid": "5078570615310238894",
+          "size": 284798622,
+          "download": 100111872
+        }
+      }
+    }
+  ],
+  "_change_number": 40611712,
+  "_missing_token": false,
+  "_sha": "c62a6d001680375438a048fdeb481ad3f1ec36ec",
+  "_size": 4516,
   "appid": "5222450",
   "common": {
     "associations": {
@@ -28,6 +42,7 @@
     },
     "clienticon": "188fa1f40a872dd1fd7455aaaee49c3c2b2a634f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -36,7 +51,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5222450",
     "genres": {
       "0": "25",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8c6f714c2a0fc6ce1622dd2ce04b43bd597330df/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1793345462",
     "store_tags": {
       "0": "3834",
@@ -159,10 +174,6 @@
         "subtitles": "true",
         "supported": "true"
       },
-      "spanish": {
-        "subtitles": "true",
-        "supported": "true"
-      },
       "swedish": {
         "subtitles": "true",
         "supported": "true"
@@ -174,5 +185,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Arcade City",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Arcade City.exe"
+      }
+    }
+  },
+  "depots": {
+    "5222451": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "100111872",
+          "gid": "5078570615310238894",
+          "size": "284798622"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26286768",
+        "timebuildupdated": "1793239512",
+        "timeupdated": "1793239562"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Shirona Games",
+    "publisher": "Shirona Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "shironagames/Arcade City",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

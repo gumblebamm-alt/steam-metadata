@@ -1,10 +1,67 @@
 {
-  "_lastChecked": 1793556052,
-  "_history": [],
-  "_change_number": 40482454,
-  "_missing_token": true,
-  "_sha": "e0420e9a4c1aba263dc3bd32e52ac7659b2225b4",
-  "_size": 3867,
+  "_lastChecked": 1793861075,
+  "_history": [
+    {
+      "buildId": "26092615",
+      "branch": "beta",
+      "timeUpdated": 1792537711,
+      "firstSeen": 1793861075,
+      "manifests": {
+        "5102641": {
+          "gid": "1308651376407250137",
+          "size": 548290530,
+          "download": 148040544
+        },
+        "5102642": {
+          "gid": "758864484695433904",
+          "size": 616919895,
+          "download": 182570624
+        },
+        "5102643": {
+          "gid": "1190377965330400336",
+          "size": 946785008,
+          "download": 249449856
+        },
+        "5102644": {
+          "gid": "1992953528547494201",
+          "size": 644931365,
+          "download": 542753840
+        }
+      }
+    },
+    {
+      "buildId": "26447608",
+      "branch": "public",
+      "timeUpdated": 1793845218,
+      "firstSeen": 1793861075,
+      "manifests": {
+        "5102641": {
+          "gid": "5952521577689983559",
+          "size": 548290530,
+          "download": 148040544
+        },
+        "5102642": {
+          "gid": "4490857784123587750",
+          "size": 616918917,
+          "download": 182570608
+        },
+        "5102643": {
+          "gid": "1082243593974602428",
+          "size": 946784030,
+          "download": 249449840
+        },
+        "5102644": {
+          "gid": "7563658847061261531",
+          "size": 640875905,
+          "download": 539148496
+        }
+      }
+    }
+  ],
+  "_change_number": 40613915,
+  "_missing_token": false,
+  "_sha": "d479fa72b2a82587e6d5e56a3f7ce3ce9ef3c523",
+  "_size": 6927,
   "appid": "5102640",
   "common": {
     "associations": {
@@ -54,9 +111,9 @@
     "clienticns": "86d38132df0fa1130cd5705e54ac9d770b3fe8ae",
     "clienticon": "348f8ba7c2cee9fd259e65b4ba991ce67ac517a9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5102640",
     "genres": {
       "0": "4",
@@ -65,7 +122,7 @@
       "3": "2"
     },
     "header_image": {
-      "english": "1c7c5bda55f3f69e26bcf6a3d677b9b62079f41b/header.jpg"
+      "english": "b4143b3218ac74bab6f27447f9648161fb2f084f/header.jpg"
     },
     "icon": "bf68211d082d698443dc4df56ac1288e4571f53e",
     "library_assets": {
@@ -83,10 +140,10 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "74e8d5774d44f401433e5662e3d57a7789d7bdc1/library_capsule.jpg"
+          "english": "a8e023af711ace7fa5a65546d0c0699933119031/library_capsule.jpg"
         },
         "image2x": {
-          "english": "74e8d5774d44f401433e5662e3d57a7789d7bdc1/library_capsule_2x.jpg"
+          "english": "a8e023af711ace7fa5a65546d0c0699933119031/library_capsule_2x.jpg"
         }
       },
       "library_header": {
@@ -130,12 +187,13 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d7627672d0201ba932286e034466695bc836dc68/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/5102640/announcements/detail/715668461242550537",
-    "store_asset_mtime": "1789658790",
+    "steam_release_date": "1793846822",
+    "store_asset_mtime": "1793834024",
     "store_tags": {
       "0": "9",
       "1": "701",
@@ -166,5 +224,147 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PawndChess",
+    "launch": {
+      "0": {
+        "arguments": "--main-pack shared.pck",
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "macOS",
+        "description_loc": {
+          "english": "macOS"
+        },
+        "executable": "deck_chess_trainer.app/Contents/MacOS/Pawn'd Chess",
+        "type": "default",
+        "workingdir": "."
+      },
+      "1": {
+        "arguments": "--main-pack shared.pck",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "deck_chess_trainer.exe",
+        "type": "default",
+        "workingdir": "."
+      },
+      "2": {
+        "arguments": "--main-pack shared.pck",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "deck_chess_trainer.x86_64",
+        "type": "default",
+        "workingdir": "."
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input/game_actions.vdf"
+  },
+  "depots": {
+    "5102641": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "148040544",
+          "gid": "1308651376407250137",
+          "size": "548290530"
+        },
+        "public": {
+          "download": "148040544",
+          "gid": "5952521577689983559",
+          "size": "548290530"
+        }
+      }
+    },
+    "5102642": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "182570624",
+          "gid": "758864484695433904",
+          "size": "616919895"
+        },
+        "public": {
+          "download": "182570608",
+          "gid": "4490857784123587750",
+          "size": "616918917"
+        }
+      }
+    },
+    "5102643": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "249449856",
+          "gid": "1190377965330400336",
+          "size": "946785008"
+        },
+        "public": {
+          "download": "249449840",
+          "gid": "1082243593974602428",
+          "size": "946784030"
+        }
+      }
+    },
+    "5102644": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "beta": {
+          "download": "542753840",
+          "gid": "1992953528547494201",
+          "size": "644931365"
+        },
+        "public": {
+          "download": "539148496",
+          "gid": "7563658847061261531",
+          "size": "640875905"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "beta": {
+        "buildid": "26092615",
+        "description": "place to test beta features",
+        "timebuildupdated": "1792537711",
+        "timeupdated": "1792537711"
+      },
+      "public": {
+        "buildid": "26447608",
+        "timebuildupdated": "1793844296",
+        "timeupdated": "1793845218"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Normal Man Labs",
+    "homepage": "https://normalmanlabs.com/pawnd/",
+    "publisher": "Normal Man Labs",
+    "remoteplaytogethertestingbranches": "default"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "1048576",
+    "sync_while_suspended": "1"
+  }
 }

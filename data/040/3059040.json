@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793734344,
-  "_history": [],
-  "_change_number": 40552454,
-  "_missing_token": true,
-  "_sha": "5f4d31b64eb590ef71c0bf93707c7887feec6355",
-  "_size": 4705,
+  "_lastChecked": 1793861055,
+  "_history": [
+    {
+      "buildId": "26201513",
+      "branch": "public",
+      "timeUpdated": 1792953970,
+      "firstSeen": 1793861055,
+      "manifests": {
+        "3059041": {
+          "gid": "5630616518333320823",
+          "size": 2180609392,
+          "download": 355103712
+        },
+        "3059042": {
+          "gid": "8102338518936375491",
+          "size": 2150519206,
+          "download": 339437024
+        },
+        "3059043": {
+          "gid": "1888427410428208799",
+          "size": 2205635455,
+          "download": 370415888
+        }
+      }
+    }
+  ],
+  "_change_number": 40610324,
+  "_missing_token": false,
+  "_sha": "4a9e5fbc6e2c637880f88d66e84307387bef79eb",
+  "_size": 6652,
   "appid": "3059040",
   "common": {
     "associations": {
@@ -41,6 +65,7 @@
     "clienticon": "32d758d90121936fcba82dd27d9ab92d0ece36cc",
     "clienttga": "51154a16af32cab1612062d3ee37551944c4a1ca",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -51,7 +76,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "3059040",
     "genres": {
       "0": "1",
@@ -139,10 +163,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "57cad9d6e9bdb2c8f32ad9572f92366407a15857/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793838060",
     "store_asset_mtime": "1792954880",
     "store_tags": {
       "0": "3959",
@@ -218,5 +243,100 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cat-Astrophy",
+    "launch": {
+      "0": {
+        "executable": "Cat-Astrophy.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Cat-Astrophy.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Cat-Astrophy.app/Contents/MacOS/Cat-Astrophy",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3059041": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "355103712",
+          "gid": "5630616518333320823",
+          "size": "2180609392"
+        }
+      }
+    },
+    "3059042": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "339437024",
+          "gid": "8102338518936375491",
+          "size": "2150519206"
+        }
+      }
+    },
+    "3059043": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "370415888",
+          "gid": "1888427410428208799",
+          "size": "2205635455"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,portuguese,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26201513",
+        "timebuildupdated": "1792953818",
+        "timeupdated": "1792953970"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Heraan Studios",
+    "homepage": "https://heraan-studios.carrd.co",
+    "publisher": "Dojo System"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "10000",
+    "savefiles": {
+      "1": {
+        "path": "Heraan Studios/Cat-Astrophy/",
+        "pattern": "gamedata.bin",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Heraan Studios/Cat-Astrophy/",
+        "pattern": "gamedata.bin",
+        "root": "MacAppSupport"
+      },
+      "3": {
+        "path": ".config/unity3d/Heraan Studios/Cat-Astrophy/",
+        "pattern": "gamedata.bin",
+        "root": "LinuxHome"
+      }
+    }
+  }
 }
