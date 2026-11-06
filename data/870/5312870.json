@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793252980,
-  "_history": [],
-  "_change_number": 40363136,
-  "_missing_token": true,
-  "_sha": "2ecd4c314b484862c6d3309df13b58711c52daaa",
-  "_size": 3631,
+  "_lastChecked": 1793947334,
+  "_history": [
+    {
+      "buildId": "26474372",
+      "branch": "public",
+      "timeUpdated": 1793932814,
+      "firstSeen": 1793947334,
+      "manifests": {
+        "5312871": {
+          "gid": "2180430641630918229",
+          "size": 641733054,
+          "download": 315693872
+        }
+      }
+    }
+  ],
+  "_change_number": 40654138,
+  "_missing_token": false,
+  "_sha": "681fb221ab33d913a05b909e5d9f6a41a110c95f",
+  "_size": 4701,
   "appid": "5312870",
   "common": {
     "aicontenttype": "1",
@@ -29,9 +43,9 @@
     },
     "clienticon": "e08bd6dcbb8b0e2122cc8337a266f263984cc393",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5312870",
     "genres": {
       "0": "1",
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5cbd61ca8a7f7d6f115f321990e55b4e445ae06e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1790114779",
     "store_tags": {
       "0": "19",
@@ -176,5 +191,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cascade",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Cascade",
+        "description_loc": {
+          "english": "Play Cascade"
+        },
+        "executable": "Cascade.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5312871": {
+      "manifests": {
+        "public": {
+          "download": "315693872",
+          "gid": "2180430641630918229",
+          "size": "641733054"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26474372",
+        "timebuildupdated": "1793932769",
+        "timeupdated": "1793932814"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "14Dimension Enterprise",
+    "homepage": "https://14dimension.com/cascade",
+    "publisher": "14Dimension Enterprise"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "14Dimension Enterprise/Cascade",
+        "pattern": "CascadeSave.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

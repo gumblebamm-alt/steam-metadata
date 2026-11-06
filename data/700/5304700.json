@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793861077,
+  "_lastChecked": 1793947334,
   "_history": [
     {
       "buildId": "26309222",
@@ -14,12 +14,30 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26471284",
+      "branch": "public",
+      "timeUpdated": 1793924923,
+      "firstSeen": 1793947334,
+      "manifests": {
+        "5304701": {
+          "gid": "3156531929526339460",
+          "size": 812110604,
+          "download": 242388304
+        },
+        "5304702": {
+          "gid": "7344645799872292435",
+          "size": 810640475,
+          "download": 242716384
+        }
+      }
     }
   ],
-  "_change_number": 40609924,
+  "_change_number": 40651049,
   "_missing_token": false,
-  "_sha": "988c027ca021c97f86ca2d5583fb89fc6134353e",
-  "_size": 11023,
+  "_sha": "dd6a85f98d3534df88ad3a59281136b3f29e4e4c",
+  "_size": 11460,
   "appid": "5304700",
   "common": {
     "associations": {
@@ -190,7 +208,7 @@
     "osarch": "64",
     "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "1",
     "releasestate": "released",
     "small_capsule": {
@@ -351,12 +369,25 @@
     "installdir": "Coins Must Be Made",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "Coins Must Be Made.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Coins Must Be Made.x86_64",
+        "type": "default"
       }
     }
   },
   "depots": {
     "5304701": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "download": "242388304",
@@ -365,12 +396,24 @@
         }
       }
     },
+    "5304702": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "242716384",
+          "gid": "7344645799872292435",
+          "size": "810640475"
+        }
+      }
+    },
     "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
     "branches": {
       "public": {
-        "buildid": "26309222",
-        "timebuildupdated": "1793311941",
-        "timeupdated": "1793313199"
+        "buildid": "26471284",
+        "timebuildupdated": "1793920805",
+        "timeupdated": "1793924923"
       }
     },
     "nocommonredists": "1"

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792731018,
-  "_history": [],
-  "_change_number": 40143465,
-  "_missing_token": true,
-  "_sha": "e429ce60d57fb5ac2a7b5dd1afd8126793b36716",
-  "_size": 10552,
+  "_lastChecked": 1793947331,
+  "_history": [
+    {
+      "buildId": "26138392",
+      "branch": "public",
+      "timeUpdated": 1792937676,
+      "firstSeen": 1793947331,
+      "manifests": {
+        "5057341": {
+          "gid": "2066499625624065259",
+          "size": 791625512,
+          "download": 419259008
+        }
+      }
+    }
+  ],
+  "_change_number": 40653263,
+  "_missing_token": false,
+  "_sha": "6e65b082e83506535827e397746f33d6027111d3",
+  "_size": 12326,
   "appid": "5057340",
   "common": {
     "aicontenttype": "1",
@@ -27,9 +41,9 @@
     },
     "clienticon": "96bcc9759e719c333f6c8f52752028a46eb3fec8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5057340",
     "genres": {
       "0": "4"
@@ -190,7 +204,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "brazilian": "99595f4cc70d3fa9275ae19c6b40cb0b5061ae18/capsule_231x87_brazilian.jpg",
       "english": "5cd4f093c14e6d86dbf9a9b09d15d56bdbccff4e/capsule_231x87.jpg",
@@ -206,6 +220,7 @@
       "tchinese": "f74c15990fbea34b8f7147715458560132d60a9f/capsule_231x87_tchinese.jpg",
       "turkish": "39f806ab74320173855906d8d0ed2ad5ad2f49da/capsule_231x87_turkish.jpg"
     },
+    "steam_release_date": "1793931253",
     "store_asset_mtime": "1792301587",
     "store_tags": {
       "0": "597",
@@ -271,5 +286,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Aquarium Days",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "AquariumDays.exe"
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5057341": {
+      "manifests": {
+        "public": {
+          "download": "419259008",
+          "gid": "2066499625624065259",
+          "size": "791625512"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,polish,russian,schinese,spanish,tchinese,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26138392",
+        "timebuildupdated": "1792685671",
+        "timeupdated": "1792937676"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Pet Party",
+    "publisher": "Pet Party"
+  },
+  "ufs": {
+    "appidredirect": "5335420",
+    "maxnumfiles": "16",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Pet Party/Aquarium Days/Demo/Steam/{64BitSteamID}",
+        "pattern": "save_game.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Pet Party/Aquarium Days/Demo/Steam/{64BitSteamID}",
+        "pattern": "save_game.backup.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Pet Party/Aquarium Days/Steam/{64BitSteamID}",
+        "pattern": "save_game.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Pet Party/Aquarium Days/Steam/{64BitSteamID}",
+        "pattern": "save_game.backup.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "copied_from_parent": "1"
+    }
+  }
 }

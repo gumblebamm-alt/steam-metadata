@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792501350,
-  "_history": [],
-  "_change_number": 39409016,
-  "_missing_token": true,
-  "_sha": "f4578d98e635b39adaa10b98f5765fe4027257af",
-  "_size": 2934,
+  "_lastChecked": 1793947314,
+  "_history": [
+    {
+      "buildId": "24541797",
+      "branch": "public",
+      "timeUpdated": 1785800087,
+      "firstSeen": 1793947314,
+      "manifests": {
+        "3850751": {
+          "gid": "6274059213088580103",
+          "size": 199228295,
+          "download": 100937952
+        }
+      }
+    }
+  ],
+  "_change_number": 40648737,
+  "_missing_token": false,
+  "_sha": "bade78267813f17438514ef8f6bdd8aecc8849c4",
+  "_size": 3996,
   "appid": "3850750",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "49ad551dd761e731d63490e0433f98a02a1068fa",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3850750",
     "genres": {
       "0": "4",
@@ -103,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "823ea122c5914f1337e256b7f6651a83734bd0c5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793918874",
     "store_asset_mtime": "1784880735",
     "store_tags": {
       "0": "597",
@@ -134,5 +149,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "systan restore",
+    "launch": {
+      "0": {
+        "executable": "SystanRestore.exe"
+      }
+    }
+  },
+  "depots": {
+    "3850751": {
+      "manifests": {
+        "public": {
+          "download": "100937952",
+          "gid": "6274059213088580103",
+          "size": "199228295"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24541797",
+        "timebuildupdated": "1785800084",
+        "timeupdated": "1785800087"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Alexander Taylor",
+    "homepage": "http://alexandertaylor.net",
+    "publisher": "Alexander Taylor"
+  },
+  "ufs": {
+    "maxnumfiles": "30",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Alexander Taylor/systan restore",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Alexander Taylor/systan restore",
+        "pattern": "*.old",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

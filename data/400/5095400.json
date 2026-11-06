@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793908662,
-  "_history": [],
-  "_change_number": 40628048,
-  "_missing_token": true,
-  "_sha": "01ce72eee3d6e10e00504fcb7e255af469c69269",
-  "_size": 3161,
+  "_lastChecked": 1793947331,
+  "_history": [
+    {
+      "buildId": "26475043",
+      "branch": "public",
+      "timeUpdated": 1793935202,
+      "firstSeen": 1793947331,
+      "manifests": {
+        "5095401": {
+          "gid": "6889852690943966003",
+          "size": 185026299,
+          "download": 74953424
+        }
+      }
+    }
+  ],
+  "_change_number": 40654704,
+  "_missing_token": false,
+  "_sha": "669f3694e87089a36fa346708d5e4b02a621222a",
+  "_size": 4121,
   "appid": "5095400",
   "common": {
     "associations": {
@@ -31,8 +45,8 @@
     },
     "clienticon": "2b140405d747c6e2e89568863ba777735a24fe8b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5095400",
     "genres": {
       "0": "23",
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ef07b68e7792666dbe4487292e69d016559a911c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793930363",
     "store_asset_mtime": "1792404865",
     "store_tags": {
       "0": "9",
@@ -142,5 +157,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "FogKeeper",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "\\FogKeeper\\FogKeeper.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5095401": {
+      "manifests": {
+        "public": {
+          "download": "74953424",
+          "gid": "6889852690943966003",
+          "size": "185026299"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26475043",
+        "timebuildupdated": "1793935179",
+        "timeupdated": "1793935202"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "FatBird Game",
+    "publisher": "FatBird Game"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "FatBirdGame/FogKeeper/Saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

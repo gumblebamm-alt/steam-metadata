@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792689412,
-  "_history": [],
-  "_change_number": 40121417,
-  "_missing_token": true,
-  "_sha": "b6689de6a440b2c168fedd603fc7143d425b139a",
-  "_size": 4680,
+  "_lastChecked": 1793947329,
+  "_history": [
+    {
+      "buildId": "26333269",
+      "branch": "public",
+      "timeUpdated": 1793391102,
+      "firstSeen": 1793947329,
+      "manifests": {
+        "4982851": {
+          "gid": "319586587824778242",
+          "size": 874420992,
+          "download": 603708800
+        },
+        "4982852": {
+          "gid": "6685619903369385231",
+          "size": 1022320133,
+          "download": 669246960
+        }
+      }
+    }
+  ],
+  "_change_number": 40654790,
+  "_missing_token": false,
+  "_sha": "163b8594166ae5514262c34184ada84911ecaf86",
+  "_size": 6585,
   "appid": "4982850",
   "common": {
     "aicontenttype": "1",
@@ -36,9 +55,9 @@
     },
     "clienticon": "f03303b1f9f93a179372571bde3d05c30f4b0336",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4982850",
     "genres": {
       "0": "1",
@@ -110,10 +129,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "352aea20d8f56b9841e83df630c79144be79a76e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793926789",
     "store_asset_mtime": "1790749914",
     "store_tags": {
       "0": "1720",
@@ -233,5 +253,98 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Captive 3000",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Captive 3000 for Windows / PC",
+        "description_loc": {
+          "english": "Captive 3000 for Windows / PC"
+        },
+        "executable": "Captive 3000.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Captive 3000 for Mac",
+        "description_loc": {
+          "english": "Captive 3000 for Mac"
+        },
+        "executable": "Captive 3000.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65532",
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4982851": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "603708800",
+          "gid": "319586587824778242",
+          "size": "874420992"
+        }
+      }
+    },
+    "4982852": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "669246960",
+          "gid": "6685619903369385231",
+          "size": "1022320133"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26333269",
+        "timebuildupdated": "1793391102",
+        "timeupdated": "1793391102"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Twin-FX",
+    "dlcavailableonstore": "1",
+    "homepage": "https://captive3000.com/",
+    "listofdlc": "5387650",
+    "publisher": "Twin-FX"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "52428800",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Captive 3000/SteamCloud/game",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

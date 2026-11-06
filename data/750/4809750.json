@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793656022,
-  "_history": [],
-  "_change_number": 40510966,
-  "_missing_token": true,
-  "_sha": "98e4be52508206d9484403b23e50a65a212a1da5",
-  "_size": 4117,
+  "_lastChecked": 1793947326,
+  "_history": [
+    {
+      "buildId": "26462226",
+      "branch": "0.8.5",
+      "timeUpdated": 1793893631,
+      "firstSeen": 1793947326,
+      "manifests": {
+        "4809753": {
+          "gid": "6535020704658254038",
+          "size": 3742052616,
+          "download": 3173169440
+        }
+      }
+    },
+    {
+      "buildId": "26462226",
+      "branch": "public",
+      "timeUpdated": 1793893643,
+      "firstSeen": 1793947326,
+      "manifests": {
+        "4809753": {
+          "gid": "6535020704658254038",
+          "size": 3742052616,
+          "download": 3173169440
+        }
+      }
+    }
+  ],
+  "_change_number": 40651111,
+  "_missing_token": false,
+  "_sha": "e9937edbe7cf1662fc24f690bec071d8234cce7c",
+  "_size": 5657,
   "appid": "4809750",
   "common": {
     "aicontenttype": "2",
@@ -29,8 +56,8 @@
     },
     "clienticon": "7cec688369b1ac4dc18511c683dcfd1b312b6b7a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4809750",
     "genres": {
       "0": "28",
@@ -119,11 +146,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8a0d75c120a19c908b766a689800442fa58ccdfe/capsule_231x87.jpg",
       "schinese": "9c5571d2f33abc0598a6fbbcbdb52aa4ca32a0e9/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1793925312",
     "store_asset_mtime": "1793628965",
     "store_tags": {
       "0": "9",
@@ -154,5 +182,85 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ming-salvage-sim",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MingSalvageSim.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4809753": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "0.8.5": {
+          "download": "3173169440",
+          "gid": "6535020704658254038",
+          "size": "3742052616"
+        },
+        "public": {
+          "download": "3173169440",
+          "gid": "6535020704658254038",
+          "size": "3742052616"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "0.8.5": {
+        "buildid": "26462226",
+        "description": "0.8.5测试中",
+        "timebuildupdated": "1793893489",
+        "timeupdated": "1793893631"
+      },
+      "public": {
+        "buildid": "26462226",
+        "timebuildupdated": "1793893489",
+        "timeupdated": "1793893643"
+      }
+    },
+    "workshopdepot": "4809750"
+  },
+  "extended": {
+    "developer": "YING WANGWEI",
+    "publisher": "YING WANGWEI"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "300000000",
+    "savefiles": {
+      "0": {
+        "path": "MingSalvageSim",
+        "pattern": "client-prefs.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinMyDocuments"
+      },
+      "2": {
+        "path": "MingSalvageSim/saves",
+        "pattern": "*.db",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinMyDocuments"
+      }
+    }
+  }
 }

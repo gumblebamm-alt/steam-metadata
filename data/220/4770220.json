@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791982440,
-  "_history": [],
-  "_change_number": 39810309,
-  "_missing_token": true,
-  "_sha": "10348f0ee627698f30b7fd60cb73c6842ed5d53b",
-  "_size": 3777,
+  "_lastChecked": 1793947325,
+  "_history": [
+    {
+      "buildId": "25767647",
+      "branch": "public",
+      "timeUpdated": 1791340795,
+      "firstSeen": 1793947325,
+      "manifests": {
+        "4770221": {
+          "gid": "5010137959524339263",
+          "size": 264068570,
+          "download": 151244240
+        }
+      }
+    }
+  ],
+  "_change_number": 40650763,
+  "_missing_token": false,
+  "_sha": "51eeaf7a94a4a2a5b3ebce85726877d5afe4316a",
+  "_size": 6871,
   "appid": "4770220",
   "common": {
     "associations": {
@@ -20,15 +34,16 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_28": "1",
       "category_60": "1",
       "category_62": "1"
     },
     "clienticon": "3f911f6595eb4b0d9852b5d0d58b343473d47ca7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4770220",
     "genres": {
       "0": "25",
@@ -115,11 +130,73 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "85a1d5d118f466b664018b38c1002bab04cc9b88/capsule_231x87.jpg",
       "japanese": "714f4c72d463b507142b256f572039d86b985879/capsule_231x87_japanese.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "3",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "1",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1792671251",
+      "tested_build_id": "25767647",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1793924057",
     "store_asset_mtime": "1790674994",
     "store_tags": {
       "0": "122",
@@ -149,5 +226,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Shelterra the Skyworld",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Shelterra the Skyworld.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4770221": {
+      "manifests": {
+        "public": {
+          "download": "151244240",
+          "gid": "5010137959524339263",
+          "size": "264068570"
+        }
+      }
+    },
+    "4770230": {
+      "dlcappid": "4770230"
+    },
+    "4770240": {
+      "dlcappid": "4770240"
+    },
+    "4770250": {
+      "dlcappid": "4770250"
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "25767647",
+        "timebuildupdated": "1791340370",
+        "timeupdated": "1791340795"
+      }
+    }
+  },
+  "extended": {
+    "developer": "MAGITEC",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.kemco.game/",
+    "listofdlc": "4770230,4770240,4770250",
+    "publisher": "KEMCO"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "KEMCO/Shelterra the Skyworld",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,6 +1,19 @@
 {
-  "_lastChecked": 1791376835,
+  "_lastChecked": 1793947329,
   "_history": [
+    {
+      "buildId": "26475096",
+      "branch": "public",
+      "timeUpdated": 1793935448,
+      "firstSeen": 1793947329,
+      "manifests": {
+        "4982781": {
+          "gid": "3532313505122592180",
+          "size": 51660468,
+          "download": 33776480
+        }
+      }
+    },
     {
       "buildId": "25516106",
       "branch": "public",
@@ -54,19 +67,6 @@
       }
     },
     {
-      "buildId": "25146048",
-      "branch": "public",
-      "timeUpdated": 1788684251,
-      "firstSeen": 1788686460,
-      "manifests": {
-        "4982781": {
-          "gid": "2838671851928250857",
-          "size": 23981408,
-          "download": 17472864
-        }
-      }
-    },
-    {
       "buildId": "25277373",
       "branch": "260912",
       "timeUpdated": 1789258726,
@@ -93,10 +93,10 @@
       }
     }
   ],
-  "_change_number": 39514555,
+  "_change_number": 40654810,
   "_missing_token": false,
-  "_sha": "2961d85c204067001fa9655c50990759c4635316",
-  "_size": 4720,
+  "_sha": "9b59536df2e76329e6f5da272138b6e0a6e24396",
+  "_size": 5034,
   "appid": "4982780",
   "common": {
     "associations": {
@@ -111,6 +111,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
       "category_23": "1",
       "category_28": "1",
       "category_55": "1",
@@ -122,6 +123,7 @@
     },
     "clienticon": "979e149de0cf8e4787ec44e0e2c469f596dfd156",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "gameid": "4982780",
@@ -134,6 +136,10 @@
       "english": "3f67e5ccb43993fda456c5b54d0cbd2c69aa3643/header.jpg"
     },
     "icon": "979e149de0cf8e4787ec44e0e2c469f596dfd156",
+    "languages": {
+      "english": "1",
+      "polish": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -200,7 +206,7 @@
       "english": "a9516b2c0f4286c588811d03ec813ab6da765da1/capsule_231x87.jpg"
     },
     "steam_release_date": "1788424846",
-    "store_asset_mtime": "1790634213",
+    "store_asset_mtime": "1793931808",
     "store_tags": {
       "0": "42804",
       "1": "16689",
@@ -265,9 +271,9 @@
           "size": "28929321"
         },
         "public": {
-          "download": "19014624",
-          "gid": "7098338380738172373",
-          "size": "29435114"
+          "download": "33776480",
+          "gid": "3532313505122592180",
+          "size": "51660468"
         }
       }
     },
@@ -285,9 +291,9 @@
         "timeupdated": "1789824622"
       },
       "public": {
-        "buildid": "25516106",
-        "timebuildupdated": "1790288689",
-        "timeupdated": "1790289517"
+        "buildid": "26475096",
+        "timebuildupdated": "1793935377",
+        "timeupdated": "1793935448"
       }
     },
     "privatebranches": "1"
@@ -298,15 +304,25 @@
     "publisher": "DefektGames"
   },
   "ufs": {
-    "maxnumfiles": "10",
+    "maxnumfiles": "50",
     "quota": "50000000",
     "savefiles": {
       "0": {
         "path": "Toiletocalypse/shitdata",
-        "pattern": "*dat",
+        "pattern": "*.dat",
         "platforms": {
           "1": "Windows"
         },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Toiletocalypse/shitdata",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
         "root": "WinAppDataRoaming"
       }
     }

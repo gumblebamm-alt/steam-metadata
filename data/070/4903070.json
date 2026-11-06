@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792731014,
-  "_history": [],
-  "_change_number": 40142676,
-  "_missing_token": true,
-  "_sha": "49889c8eb385937871e6cf6c84b03319e21dd594",
-  "_size": 3422,
+  "_lastChecked": 1793947327,
+  "_history": [
+    {
+      "buildId": "26474213",
+      "branch": "public",
+      "timeUpdated": 1793932513,
+      "firstSeen": 1793947327,
+      "manifests": {
+        "4903071": {
+          "gid": "6033239134872145010",
+          "size": 2191216650,
+          "download": 851919648
+        },
+        "4903072": {
+          "gid": "2073588815694262043",
+          "size": 2246974727,
+          "download": 875392736
+        }
+      }
+    }
+  ],
+  "_change_number": 40654001,
+  "_missing_token": false,
+  "_sha": "3cb9bcc185724d93293daf6a0213ac3cf67ea28c",
+  "_size": 4528,
   "appid": "4903070",
   "common": {
     "associations": {
@@ -32,6 +51,7 @@
     "clienticns": "ffae839e347bf45bee6ec8fb6da4cefffbc1d387",
     "clienticon": "03fd4055530e12c03069bd606eb394505a1eee96",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -40,7 +60,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4903070",
     "genres": {
       "0": "25",
@@ -114,7 +133,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "28c77e34606e40b277354ce9e0b5dc3dba217c34/capsule_231x87.jpg"
     },
@@ -150,5 +169,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PURR DIEM",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "PURR DIEM.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "PURR DIEM.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4903071": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "851919648",
+          "gid": "6033239134872145010",
+          "size": "2191216650"
+        }
+      }
+    },
+    "4903072": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "875392736",
+          "gid": "2073588815694262043",
+          "size": "2246974727"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26474213",
+        "timebuildupdated": "1793932097",
+        "timeupdated": "1793932513"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "ACHII.exe",
+    "homepage": "https://achii.net",
+    "publisher": "ACHII.exe"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000"
+  }
 }

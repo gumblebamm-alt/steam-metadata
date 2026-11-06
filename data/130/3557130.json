@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793339310,
-  "_history": [],
-  "_change_number": 40365103,
-  "_missing_token": true,
-  "_sha": "6c03e70aeceafd9e11aca9b8b1caca47ec918e45",
-  "_size": 3128,
+  "_lastChecked": 1793947312,
+  "_history": [
+    {
+      "buildId": "26476396",
+      "branch": "public",
+      "timeUpdated": 1793940475,
+      "firstSeen": 1793947312,
+      "manifests": {
+        "3557132": {
+          "gid": "8814143217909822884",
+          "size": 447658158,
+          "download": 324688960
+        }
+      }
+    }
+  ],
+  "_change_number": 40656588,
+  "_missing_token": false,
+  "_sha": "18bbac1941634e05c8776b42e3c9ffbe39453040",
+  "_size": 4195,
   "appid": "3557130",
   "common": {
     "associations": {
@@ -31,7 +45,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3557130",
     "genres": {
       "0": "4",
@@ -104,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "49d5a0d02f123354b6a5aa45c2654d6c8d69518c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793940828",
     "store_asset_mtime": "1746218534",
     "store_tags": {
       "0": "597",
@@ -139,5 +153,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Rise of the Inferno",
+    "launch": {
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3557132": {
+      "config": {
+        "language": "english",
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "324688960",
+          "gid": "8814143217909822884",
+          "size": "447658158"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26476396",
+        "timebuildupdated": "1793940474",
+        "timeupdated": "1793940475"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Bachoura Software Creations",
+    "publisher": "Bachoura Software Creations"
+  },
+  "ufs": {
+    "maxnumfiles": "30",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "www/save",
+        "pattern": "*.rpgsave",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    }
+  }
 }

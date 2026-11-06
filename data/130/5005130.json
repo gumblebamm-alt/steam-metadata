@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792989961,
-  "_history": [],
-  "_change_number": 39917525,
-  "_missing_token": true,
-  "_sha": "078c5918763d5e99c8fcd29f8146e9e5d3c78ac0",
-  "_size": 2899,
+  "_lastChecked": 1793947330,
+  "_history": [
+    {
+      "buildId": "26469135",
+      "branch": "public",
+      "timeUpdated": 1793913848,
+      "firstSeen": 1793947330,
+      "manifests": {
+        "5005131": {
+          "gid": "8316361736539663151",
+          "size": 154142456,
+          "download": 78050528
+        },
+        "5005132": {
+          "gid": "3885566524188406997",
+          "size": 229978270,
+          "download": 98810304
+        }
+      }
+    }
+  ],
+  "_change_number": 40646876,
+  "_missing_token": false,
+  "_sha": "d522dab88deec951ae22fe405a5758bb59e815ec",
+  "_size": 3852,
   "appid": "5005130",
   "common": {
     "associations": {
@@ -25,8 +44,8 @@
     },
     "clienticon": "161fa5e4dd6758671daea67342897994a367726d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5005130",
     "genres": {
       "0": "23"
@@ -96,7 +115,7 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "13a13811c8eafc0e2c007f6128ead4a40c80be18/capsule_231x87.jpg"
     },
@@ -131,5 +150,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "COG",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "COG.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "COG.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5005131": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "78050528",
+          "gid": "8316361736539663151",
+          "size": "154142456"
+        }
+      }
+    },
+    "5005132": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "98810304",
+          "gid": "3885566524188406997",
+          "size": "229978270"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26469135",
+        "timebuildupdated": "1793913736",
+        "timeupdated": "1793913848"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "DEADline Studios",
+    "publisher": "DEADline Studios"
+  }
 }

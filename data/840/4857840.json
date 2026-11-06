@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1792371631,
-  "_history": [],
-  "_change_number": 39878375,
-  "_missing_token": true,
-  "_sha": "a68f4a704e1c9167699c913cd065b0505b0ca386",
-  "_size": 4422,
+  "_lastChecked": 1793947327,
+  "_history": [
+    {
+      "buildId": "24598222",
+      "branch": "beta",
+      "timeUpdated": 1786038161,
+      "firstSeen": 1793947327,
+      "manifests": {
+        "4857841": {
+          "gid": "8073495301573348021",
+          "size": 101867704,
+          "download": 34634432
+        }
+      }
+    },
+    {
+      "buildId": "26470854",
+      "branch": "public",
+      "timeUpdated": 1793919446,
+      "firstSeen": 1793947327,
+      "manifests": {
+        "4857841": {
+          "gid": "6223171291164058298",
+          "size": 166945608,
+          "download": 74387568
+        }
+      }
+    }
+  ],
+  "_change_number": 40648979,
+  "_missing_token": false,
+  "_sha": "6baf4fbbd118adf903c8b3e9d99f48080e0f62d5",
+  "_size": 5776,
   "appid": "4857840",
   "common": {
     "associations": {
@@ -32,8 +59,8 @@
     },
     "clienticon": "79d919520f7e5f41ad368ac4b9dfd85dabfb173f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4857840",
     "genres": {
       "0": "4"
@@ -104,10 +131,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "066a578bbb2f31d63d0f9fd927a4301c0fb04c72/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793919468",
     "store_asset_mtime": "1790503858",
     "store_tags": {
       "0": "87918",
@@ -222,5 +250,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cropsandcoops",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "cropsandcoops.exe"
+      }
+    }
+  },
+  "depots": {
+    "4857841": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "34634432",
+          "gid": "8073495301573348021",
+          "size": "101867704"
+        },
+        "public": {
+          "download": "74387568",
+          "gid": "6223171291164058298",
+          "size": "166945608"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "24598222",
+        "description": "beta testing",
+        "timebuildupdated": "1786038159",
+        "timeupdated": "1786038161"
+      },
+      "public": {
+        "buildid": "26470854",
+        "timebuildupdated": "1793919378",
+        "timeupdated": "1793919446"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Bluehood Games",
+    "publisher": "Bluehood Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Crops & Coops",
+        "pattern": "save_*",
+        "platforms": {
+          "1": "windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Crops & Coops",
+        "pattern": "achievements.cfg",
+        "platforms": {
+          "1": "windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

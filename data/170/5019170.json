@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793908659,
-  "_history": [],
-  "_change_number": 40642765,
-  "_missing_token": true,
-  "_sha": "9b9b853a377f0d7e8b904fb43d44cbcaa9744d36",
-  "_size": 5193,
+  "_lastChecked": 1793947330,
+  "_history": [
+    {
+      "buildId": "26474722",
+      "branch": "public",
+      "timeUpdated": 1793934149,
+      "firstSeen": 1793947330,
+      "manifests": {
+        "5019171": {
+          "gid": "7672399471543426715",
+          "size": 1209236567,
+          "download": 321634304
+        }
+      }
+    }
+  ],
+  "_change_number": 40654374,
+  "_missing_token": false,
+  "_sha": "1139b3ab414855eb5a0c4e536b849227a76d225e",
+  "_size": 6200,
   "appid": "5019170",
   "common": {
     "associations": {
@@ -30,8 +44,8 @@
     "clienticns": "3c577270ae024c14d6d0302fedab8a7362d1682c",
     "clienticon": "122364d5f33cd27db8998667b1e1d6c5b5bf738c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5019170",
     "genres": {
       "0": "4",
@@ -131,13 +145,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7be688b964d7ad9699e63bf528f5df57a85728dc/capsule_231x87.jpg",
       "schinese": "87bc77192a35c79a7163cda8b689590ce3baa275/capsule_231x87_schinese.jpg",
       "tchinese": "87bc77192a35c79a7163cda8b689590ce3baa275/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1793865563",
+    "steam_release_date": "1793934379",
+    "store_asset_mtime": "1793933933",
     "store_tags": {
       "0": "560542",
       "1": "1773",
@@ -179,5 +194,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Desktop Bug Killer",
+    "launch": {
+      "0": {
+        "executable": "DesktopBugKiller.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5019171": {
+      "manifests": {
+        "public": {
+          "download": "321634304",
+          "gid": "7672399471543426715",
+          "size": "1209236567"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26474722",
+        "timebuildupdated": "1793934131",
+        "timeupdated": "1793934149"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "CodingGhost",
+    "publisher": "火花游戏"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "300000000",
+    "savefiles": {
+      "0": {
+        "path": "CodingGhost/DesktopBugKiller",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792603003,
-  "_history": [],
-  "_change_number": 40078715,
-  "_missing_token": true,
-  "_sha": "6d4d682f502aec838fc2877dc92b8c9254f1a162",
-  "_size": 3520,
+  "_lastChecked": 1793947311,
+  "_history": [
+    {
+      "buildId": "26428591",
+      "branch": "public",
+      "timeUpdated": 1793787418,
+      "firstSeen": 1793947311,
+      "manifests": {
+        "3422591": {
+          "gid": "7521301380386832678",
+          "size": 10807707678,
+          "download": 9969173552
+        }
+      }
+    }
+  ],
+  "_change_number": 40652955,
+  "_missing_token": false,
+  "_sha": "09d9047b877ebc0e1a046140a389a2c2cbd483ac",
+  "_size": 4761,
   "appid": "3422590",
   "common": {
     "associations": {
@@ -26,8 +40,8 @@
     "clienticon": "fbc09fa47f59712cc84f5f65d62bf389666572db",
     "clienttga": "cfa9e5d1a9d82418734cebd9a4387406e185ac43",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3422590",
     "genres": {
       "0": "23",
@@ -112,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cae3ea416f17a6030d139f9292dd0821b966c80d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793930424",
     "store_asset_mtime": "1790780630",
     "store_tags": {
       "0": "122",
@@ -150,5 +165,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "琥珀末日",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SJGGame.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3422591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "9969173552",
+          "gid": "7521301380386832678",
+          "size": "10807707678"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26428591",
+        "timebuildupdated": "1793787344",
+        "timeupdated": "1793787418"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SUAN JIANG GUO Network Technology Co., LTD",
+    "publisher": "SUAN JIANG GUO Network Technology Co., LTD"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "100000000",
+    "savefiles": {
+      "1": {
+        "path": "SJGGame/Saved/SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

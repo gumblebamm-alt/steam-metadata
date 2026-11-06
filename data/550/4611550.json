@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793077378,
-  "_history": [],
-  "_change_number": 40246247,
-  "_missing_token": true,
-  "_sha": "c836d32b2309ef60d3a9890210a12633c978bcdf",
-  "_size": 3294,
+  "_lastChecked": 1793947323,
+  "_history": [
+    {
+      "buildId": "26474577",
+      "branch": "public",
+      "timeUpdated": 1793933860,
+      "firstSeen": 1793947323,
+      "manifests": {
+        "4611552": {
+          "gid": "1167571497687127467",
+          "size": 3092388512,
+          "download": 1529870192
+        },
+        "4611553": {
+          "gid": "3315849795276925463",
+          "size": 3114531269,
+          "download": 1539920368
+        },
+        "4611554": {
+          "gid": "1629217579817199196",
+          "size": 3109072638,
+          "download": 1544419536
+        }
+      }
+    }
+  ],
+  "_change_number": 40654184,
+  "_missing_token": false,
+  "_sha": "9a4cda55247377baae6d7ba84537db9ee256f89d",
+  "_size": 5655,
   "appid": "4611550",
   "common": {
     "associations": {
@@ -29,8 +53,14 @@
     },
     "clienticon": "a11d4c3a6907ad3c01092aa613ec9f6f2c83f98e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "content_descriptors": {
+      "0": "5"
+    },
+    "content_descriptors_including_dlc": {
+      "0": "5"
+    },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4611550",
     "genres": {
       "0": "28",
@@ -102,10 +132,11 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f64905c727ccce03f35f345485d1b781682ef6cb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793930778",
     "store_asset_mtime": "1790808959",
     "store_tags": {
       "0": "12472",
@@ -133,6 +164,9 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "french": {
+        "supported": "true"
+      },
       "german": {
         "supported": "true"
       },
@@ -154,5 +188,117 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Artificial Ambition",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ArtificialAmbition.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ArtificialAmbition.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "ArtificialAmbition.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4611552": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1529870192",
+          "gid": "1167571497687127467",
+          "size": "3092388512"
+        }
+      }
+    },
+    "4611553": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1539920368",
+          "gid": "3315849795276925463",
+          "size": "3114531269"
+        }
+      }
+    },
+    "4611554": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1544419536",
+          "gid": "1629217579817199196",
+          "size": "3109072638"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26474577",
+        "timebuildupdated": "1793933578",
+        "timeupdated": "1793933860"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Billmeade Gaming",
+    "publisher": "Billmeade Gaming"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "200000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Billmeade Gaming/Artificial Ambition",
+            "replace": "unity.Billmeade Gaming.Artificial Ambition"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Billmeade Gaming/Artificial Ambition",
+            "replace": "unity3d/Billmeade Gaming/Artificial Ambition"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Billmeade Gaming/Artificial Ambition",
+        "pattern": "savegame*.save",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

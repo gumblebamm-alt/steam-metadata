@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1793773155,
-  "_history": [],
-  "_change_number": 40563447,
-  "_missing_token": true,
-  "_sha": "7f68ba2ae71d2f626a73376797bc5b888f44c9d9",
-  "_size": 3634,
+  "_lastChecked": 1793947332,
+  "_history": [
+    {
+      "buildId": "26089123",
+      "branch": "public",
+      "timeUpdated": 1792526985,
+      "firstSeen": 1793947332,
+      "manifests": {
+        "5119611": {
+          "gid": "6000421653013643366",
+          "size": 425100430,
+          "download": 199511104
+        },
+        "5119612": {
+          "gid": "9164544699232319727",
+          "size": 580648352,
+          "download": 258815936
+        },
+        "5119613": {
+          "gid": "8273705720256456832",
+          "size": 418370091,
+          "download": 189952832
+        }
+      }
+    },
+    {
+      "buildId": "25169592",
+      "branch": "steam-review",
+      "timeUpdated": 1788793320,
+      "firstSeen": 1793947332,
+      "manifests": {
+        "5119611": {
+          "gid": "4693288375815461581",
+          "size": 562865148,
+          "download": 326843104
+        },
+        "5119612": {
+          "gid": "733237677913363386",
+          "size": 718411966,
+          "download": 386149568
+        },
+        "5119613": {
+          "gid": "9094848766586955858",
+          "size": 556134805,
+          "download": 317284832
+        }
+      }
+    }
+  ],
+  "_change_number": 40648543,
+  "_missing_token": false,
+  "_sha": "7914591a80491556d15247c56f000c6b700a0fd1",
+  "_size": 6398,
   "appid": "5119610",
   "common": {
     "aicontenttype": "2",
@@ -40,6 +87,7 @@
     "clienticns": "a49ec1ca18c49ac87749eb64a79be14f62bb9811",
     "clienticon": "c9b4c97464e248d2cec7db73b1f47083977f7bc0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -49,7 +97,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "5119610",
     "genres": {
       "0": "4",
@@ -123,10 +170,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2316f9503ab3f5a55d0c9471d098f2d31a151b3f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793918488",
     "store_asset_mtime": "1787729471",
     "store_tags": {
       "0": "597",
@@ -160,5 +208,142 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Trust Me, It Binds",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Trust Me, It Binds.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Trust Me, It Binds.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "mol-vector-game-desktop",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5119611": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "199511104",
+          "gid": "6000421653013643366",
+          "size": "425100430"
+        },
+        "steam-review": {
+          "download": "326843104",
+          "gid": "4693288375815461581",
+          "size": "562865148"
+        }
+      }
+    },
+    "5119612": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "258815936",
+          "gid": "9164544699232319727",
+          "size": "580648352"
+        },
+        "steam-review": {
+          "download": "386149568",
+          "gid": "733237677913363386",
+          "size": "718411966"
+        }
+      }
+    },
+    "5119613": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "189952832",
+          "gid": "8273705720256456832",
+          "size": "418370091"
+        },
+        "steam-review": {
+          "download": "317284832",
+          "gid": "9094848766586955858",
+          "size": "556134805"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26089123",
+        "timebuildupdated": "1792526964",
+        "timeupdated": "1792526985"
+      },
+      "steam-review": {
+        "buildid": "25169592",
+        "description": "branch for steam build review",
+        "timebuildupdated": "1788793179",
+        "timeupdated": "1788793320"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Membrizard",
+    "publisher": "Membrizard"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "4097152",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Trust Me, It Binds/steam-cloud",
+            "replace": "Trust Me, It Binds/steam-cloud"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Trust Me, It Binds/steam-cloud",
+            "replace": ".config/Trust Me, It Binds/steam-cloud"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Trust Me, It Binds/steam-cloud",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

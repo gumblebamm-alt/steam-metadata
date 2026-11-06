@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793821563,
-  "_history": [],
-  "_change_number": 40592652,
-  "_missing_token": true,
-  "_sha": "26dee17fb006369de8a2b554554605a17fcbbba5",
-  "_size": 3597,
+  "_lastChecked": 1793947328,
+  "_history": [
+    {
+      "buildId": "26469405",
+      "branch": "public",
+      "timeUpdated": 1793914657,
+      "firstSeen": 1793947328,
+      "manifests": {
+        "4926361": {
+          "gid": "1245023134518612735",
+          "size": 818739666,
+          "download": 316094032
+        },
+        "4926362": {
+          "gid": "7640593966782317408",
+          "size": 811050759,
+          "download": 313843248
+        }
+      }
+    }
+  ],
+  "_change_number": 40655548,
+  "_missing_token": false,
+  "_sha": "25d1d0ef7b6846bef6944f454bb7ac53eed5a1b2",
+  "_size": 5320,
   "appid": "4926360",
   "common": {
     "associations": {
@@ -23,6 +42,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "clienticon": "fe5e2b6791bd1489b5075ddf9439ebf1876b3228",
@@ -30,7 +50,6 @@
     "controllertagwizard": "1",
     "disable_user_facing_ugc": "",
     "disable_user_media_upload": "1",
-    "exfgls": "8",
     "gameid": "4926360",
     "genres": {
       "0": "3"
@@ -110,11 +129,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "252c13c53785ee9b2e48f4a3561cde93f269511c/capsule_231x87.jpg",
       "schinese": "4c84e6babe2ce1867953955b56501d29f0f778bc/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1793937609",
     "store_asset_mtime": "1793802914",
     "store_tags": {
       "0": "122",
@@ -135,5 +155,100 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "UBAI Ending",
+    "launch": {
+      "0": {
+        "executable": "UBAI Ending.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "ownsdlc": "5281380"
+        },
+        "description": "UBAI 0",
+        "description_loc": {
+          "english": "UBAI 0"
+        },
+        "executable": "UBAI 0/UBAI Zero.exe",
+        "type": "option1",
+        "workingdir": "UBAI 0"
+      }
+    }
+  },
+  "depots": {
+    "4926361": {
+      "manifests": {
+        "public": {
+          "download": "316094032",
+          "gid": "1245023134518612735",
+          "size": "818739666"
+        }
+      }
+    },
+    "4926362": {
+      "config": {
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "download": "313843248",
+          "gid": "7640593966782317408",
+          "size": "811050759"
+        }
+      }
+    },
+    "4926363": {
+      "config": {
+        "language": "japanese"
+      }
+    },
+    "4926364": {
+      "config": {
+        "language": "tchinese"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26469405",
+        "timebuildupdated": "1793914570",
+        "timeupdated": "1793914657"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Studio Ubai",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.kaguragames.com/",
+    "listofdlc": "5281380",
+    "publisher": "Kagura Games"
+  },
+  "ufs": {
+    "maxnumfiles": "202",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "save",
+        "pattern": "*.dat",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "UBAI 0/save",
+        "pattern": "*.dat",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "save",
+        "pattern": "*.wcg",
+        "root": "gameinstall"
+      },
+      "3": {
+        "path": "UBAI 0/save",
+        "pattern": "*.wcg",
+        "root": "gameinstall"
+      }
+    }
+  }
 }
