@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792857589,
-  "_history": [],
-  "_change_number": 40202990,
-  "_missing_token": true,
-  "_sha": "594ed97e6cecbdd5a25f085a893ef22ff33d4e8e",
-  "_size": 4542,
+  "_lastChecked": 1793993031,
+  "_history": [
+    {
+      "buildId": "26464354",
+      "branch": "public",
+      "timeUpdated": 1793899902,
+      "firstSeen": 1793993031,
+      "manifests": {
+        "2231091": {
+          "gid": "1104927041517512666",
+          "size": 1710597135,
+          "download": 533679136
+        },
+        "2231092": {
+          "gid": "367085577547598087",
+          "size": 1662239504,
+          "download": 529471120
+        },
+        "2231093": {
+          "gid": "4591115963067175246",
+          "size": 1597205061,
+          "download": 525254720
+        }
+      }
+    }
+  ],
+  "_change_number": 40679467,
+  "_missing_token": false,
+  "_sha": "91a2a4f0f94304f8cee5eef7eaa58e75b595d13e",
+  "_size": 7147,
   "appid": "2231090",
   "common": {
     "associations": {
@@ -38,7 +62,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2231090",
     "genres": {
       "0": "4",
@@ -126,10 +149,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "67c755c0da8b1d998159121cbe9d769e07817456/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793988039",
     "store_asset_mtime": "1792568620",
     "store_tags": {
       "0": "255534",
@@ -190,5 +214,129 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Number Machine",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Number Machine.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Number Machine.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Number Machine.app",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchconfigdetails": "",
+    "steamcontrollertouchtemplateindex": "1",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2231091": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "533679136",
+          "gid": "1104927041517512666",
+          "size": "1710597135"
+        }
+      }
+    },
+    "2231092": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "529471120",
+          "gid": "367085577547598087",
+          "size": "1662239504"
+        }
+      }
+    },
+    "2231093": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "525254720",
+          "gid": "4591115963067175246",
+          "size": "1597205061"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "26464354",
+        "timebuildupdated": "1793898988",
+        "timeupdated": "1793899902"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "ARIELEK",
+    "homepage": "https://arielek.com",
+    "publisher": "ARIELEK"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "500000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ARIELEK/Number Machine/Steam_{64BitSteamID}",
+            "replace": "unity.ARIELEK.Number Machine/Steam_{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ARIELEK/Number Machine/Steam_{64BitSteamID}",
+            "replace": ".config/unity3d/ARIELEK/Number Machine/Steam_{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ARIELEK/Number Machine/Steam_{64BitSteamID}",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

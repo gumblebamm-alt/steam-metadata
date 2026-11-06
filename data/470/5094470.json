@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792327765,
-  "_history": [],
-  "_change_number": 39962533,
-  "_missing_token": true,
-  "_sha": "bb7990d6a028f0dbaa413a669266af9f4cb5f94d",
-  "_size": 4793,
+  "_lastChecked": 1793993066,
+  "_history": [
+    {
+      "buildId": "26011195",
+      "branch": "public",
+      "timeUpdated": 1792255287,
+      "firstSeen": 1793993066,
+      "manifests": {
+        "5094471": {
+          "gid": "3250076559229951698",
+          "size": 177385761,
+          "download": 101750640
+        }
+      }
+    }
+  ],
+  "_change_number": 40669942,
+  "_missing_token": false,
+  "_sha": "50dff118562c552189364d21cb6a45514f8fdeb3",
+  "_size": 5952,
   "appid": "5094470",
   "common": {
     "aicontenttype": "1",
@@ -31,9 +45,9 @@
     },
     "clienticon": "86a05232c7299b7391f666ea4c8e471cd9f496e1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5094470",
     "genres": {
       "0": "1",
@@ -128,33 +142,34 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fd469485af68a868a99e06ab72647ecbe22818dd/capsule_231x87.jpg",
       "japanese": "422d15ac41a616df003e9a4910075897c00c994a/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1793971458",
     "store_asset_mtime": "1792285417",
     "store_tags": {
       "0": "4637",
       "1": "3959",
-      "10": "6426",
-      "11": "19",
-      "12": "597",
-      "13": "3964",
-      "14": "1684",
-      "15": "4172",
-      "16": "4057",
-      "17": "5154",
-      "18": "1719",
-      "19": "6691",
-      "2": "6730",
-      "3": "1774",
-      "4": "1773",
-      "5": "3871",
-      "6": "4791",
-      "7": "1667",
-      "8": "5923",
-      "9": "7481"
+      "10": "597",
+      "11": "3964",
+      "12": "1684",
+      "13": "4172",
+      "14": "4057",
+      "15": "1659",
+      "16": "5154",
+      "17": "4004",
+      "18": "5363",
+      "19": "4182",
+      "2": "1774",
+      "3": "1773",
+      "4": "3871",
+      "5": "4791",
+      "6": "5923",
+      "7": "7481",
+      "8": "6426",
+      "9": "19"
     },
     "supported_languages": {
       "brazilian": {
@@ -192,5 +207,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BONEYARD BOUNCE",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play BoneyardBounce",
+        "description_loc": {
+          "english": "Play BoneyardBounce"
+        },
+        "executable": "BoneyardBounce.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5094471": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "101750640",
+          "gid": "3250076559229951698",
+          "size": "177385761"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "26011195",
+        "timebuildupdated": "1792249879",
+        "timeupdated": "1792255287"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Studio JKMR",
+    "publisher": "Studio JKMR"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Boneyard Bounce",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

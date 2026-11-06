@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792989963,
-  "_history": [],
-  "_change_number": 40241042,
-  "_missing_token": true,
-  "_sha": "765a16fc9a39b695607fa322a49cc08fa0be63e8",
-  "_size": 4557,
+  "_lastChecked": 1793993065,
+  "_history": [
+    {
+      "buildId": "26356573",
+      "branch": "public",
+      "timeUpdated": 1793583525,
+      "firstSeen": 1793993065,
+      "manifests": {
+        "5081511": {
+          "gid": "972649374384562932",
+          "size": 140303560,
+          "download": 59755584
+        }
+      }
+    }
+  ],
+  "_change_number": 40679614,
+  "_missing_token": false,
+  "_sha": "ace7e572342b69b2e474179fe0ea5ba7bbfcdd83",
+  "_size": 6196,
   "appid": "5081510",
   "common": {
     "aicontenttype": "1",
@@ -34,9 +48,9 @@
     },
     "clienticon": "2bafdb95180561306f3aef7ba965aa8d665f6062",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5081510",
     "genres": {
       "0": "4",
@@ -108,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7a40e92d42fea20040f73473126917edc2511d2b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793988350",
     "store_asset_mtime": "1787112878",
     "store_tags": {
       "0": "597",
@@ -229,5 +244,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Paint The World",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Paint The World.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5081511": {
+      "manifests": {
+        "public": {
+          "download": "59755584",
+          "gid": "972649374384562932",
+          "size": "140303560"
+        }
+      }
+    },
+    "baselanguages": "brazilian,dutch,english,latam,russian",
+    "branches": {
+      "public": {
+        "buildid": "26356573",
+        "timebuildupdated": "1793510762",
+        "timeupdated": "1793583525"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Facey Sock Studios",
+    "homepage": "https://faceysockstudios.com/",
+    "publisher": "Facey Sock Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "2000000000",
+    "savefiles": {
+      "0": {
+        "path": "Paint The World",
+        "pattern": "progress.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Paint The World",
+        "pattern": "settings.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Paint The World",
+        "pattern": "*.ptw",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Paint The World",
+        "pattern": "*.glb",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

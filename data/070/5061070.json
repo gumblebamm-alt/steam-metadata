@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792857618,
-  "_history": [],
-  "_change_number": 40197180,
-  "_missing_token": true,
-  "_sha": "2072c0e936dd17b4082d99c24c3a3a61154d7877",
-  "_size": 3465,
+  "_lastChecked": 1793993065,
+  "_history": [
+    {
+      "buildId": "26178145",
+      "branch": "public",
+      "timeUpdated": 1792823164,
+      "firstSeen": 1793993065,
+      "manifests": {
+        "5061071": {
+          "gid": "6458717225676838085",
+          "size": 328655823,
+          "download": 114252608
+        },
+        "5061072": {
+          "gid": "2106837810823448955",
+          "size": 233536894,
+          "download": 89676784
+        }
+      }
+    }
+  ],
+  "_change_number": 40667315,
+  "_missing_token": false,
+  "_sha": "a3114d8a75b11ff4a61e18222f3244f2e3a123a0",
+  "_size": 5205,
   "appid": "5061070",
   "common": {
     "associations": {
@@ -29,8 +48,8 @@
     "clienticns": "62f1b8276c2197821647e3cf9d09a81faccd75bc",
     "clienticon": "d84a3a070f92821fde09dcc34317c0e27d89e957",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5061070",
     "genres": {
       "0": "4",
@@ -112,10 +131,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ad3034f0b7fa9d9c6c88cbe7657398a92154a6b1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793966492",
     "store_asset_mtime": "1792316129",
     "store_tags": {
       "0": "1664",
@@ -161,5 +181,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "One Line Wonder",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "One Line Wonder.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "One Line Wonder.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5061071": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "114252608",
+          "gid": "6458717225676838085",
+          "size": "328655823"
+        }
+      }
+    },
+    "5061072": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "89676784",
+          "gid": "2106837810823448955",
+          "size": "233536894"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,latam,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26178145",
+        "timebuildupdated": "1792823130",
+        "timeupdated": "1792823164"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Shiny Whale Games",
+    "publisher": "Shiny Whale Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ShinyWhaleGames/One Line Wonder",
+            "replace": "ShinyWhaleGames/One Line Wonder"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ShinyWhaleGames/One Line Wonder",
+        "pattern": "save.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

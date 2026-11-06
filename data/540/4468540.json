@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793425418,
-  "_history": [],
-  "_change_number": 40434999,
-  "_missing_token": true,
-  "_sha": "af9927fbac046f8cad8eb284642096acdfe824f8",
-  "_size": 3882,
+  "_lastChecked": 1793993051,
+  "_history": [
+    {
+      "buildId": "26470134",
+      "branch": "public",
+      "timeUpdated": 1793916962,
+      "firstSeen": 1793993051,
+      "manifests": {
+        "4468541": {
+          "gid": "4050651504171840601",
+          "size": 893580235,
+          "download": 368302976
+        }
+      }
+    }
+  ],
+  "_change_number": 40675378,
+  "_missing_token": false,
+  "_sha": "51723abfc1d529ba41862c0a23baa7f9224ea4a8",
+  "_size": 5181,
   "appid": "4468540",
   "common": {
     "associations": {
@@ -36,9 +50,9 @@
     },
     "clienticon": "1806c9ba3b56ba174f9d294b65be26c2e86936a5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4468540",
     "genres": {
       "0": "1"
@@ -108,11 +122,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7e248cec770b3f5dd7766e10a03c948ef69f0c47/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/4468540/announcements/detail/703278488775296207",
+    "steam_release_date": "1793980862",
     "store_asset_mtime": "1792343164",
     "store_tags": {
       "0": "42804",
@@ -179,5 +194,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "It's About Pirates",
+    "launch": {
+      "0": {
+        "executable": "It's About Pirates.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65532",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4468541": {
+      "manifests": {
+        "public": {
+          "download": "368302976",
+          "gid": "4050651504171840601",
+          "size": "893580235"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26470134",
+        "timebuildupdated": "1793916944",
+        "timeupdated": "1793916962"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Elderwoof Games",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5141080",
+    "publisher": "Elderwoof Games"
+  },
+  "ufs": {
+    "maxnumfiles": "24",
+    "quota": "5000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Elderwoof Games/It's About Pirates",
+            "replace": ".config/unity3d/Elderwoof Games/It's About Pirates"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Elderwoof Games/It's About Pirates",
+        "pattern": "*.ewgiap",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

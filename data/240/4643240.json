@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793821556,
-  "_history": [],
-  "_change_number": 40582381,
-  "_missing_token": true,
-  "_sha": "7c722cef423147a88e3e69339b1be5820efea9c0",
-  "_size": 3838,
+  "_lastChecked": 1793993054,
+  "_history": [
+    {
+      "buildId": "23724972",
+      "branch": "public",
+      "timeUpdated": 1781430702,
+      "firstSeen": 1793993054,
+      "manifests": {
+        "4643241": {
+          "gid": "9186569712601186480",
+          "size": 445293721,
+          "download": 152458368
+        },
+        "4643242": {
+          "gid": "6825536062424405127",
+          "size": 445293721,
+          "download": 152458368
+        },
+        "4643243": {
+          "gid": "6759513848912743159",
+          "size": 445293721,
+          "download": 152458368
+        }
+      }
+    }
+  ],
+  "_change_number": 40667475,
+  "_missing_token": false,
+  "_sha": "3d4b419eaae8f9ab868f71478d7d6c8aa7c4a444",
+  "_size": 5759,
   "appid": "4643240",
   "common": {
     "aicontenttype": "1",
@@ -32,6 +56,7 @@
     },
     "clienticon": "d3b700cd4b7ffb0d255c9de72ed9f7fbe6ac7e4e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -45,7 +70,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4643240",
     "genres": {
       "0": "1",
@@ -118,11 +142,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "14bab47d7a08eee93f63fed17ce12253fac12f37/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793966809",
     "store_asset_mtime": "1780570222",
     "store_tags": {
       "0": "12095",
@@ -187,5 +212,111 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tentacle Nurse",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TentacleNurse.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "TentacleNurse.sh",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "TentacleNurse.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4643241": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "152458368",
+          "gid": "9186569712601186480",
+          "size": "445293721"
+        }
+      }
+    },
+    "4643242": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "152458368",
+          "gid": "6825536062424405127",
+          "size": "445293721"
+        }
+      }
+    },
+    "4643243": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "152458368",
+          "gid": "6759513848912743159",
+          "size": "445293721"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "23724972",
+        "timebuildupdated": "1781430671",
+        "timeupdated": "1781430702"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Xoullion",
+    "homepage": "https://www.xoulliongames.com",
+    "publisher": "Xoullion"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "500000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "game/saves",
+            "replace": "Library/Renpy/TentacleNurse-1759333463"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "game/saves",
+        "pattern": "*",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792603042,
-  "_history": [],
-  "_change_number": 40088845,
-  "_missing_token": true,
-  "_sha": "494906d09ed3df0f33203d253a360bdcf32da5af",
-  "_size": 3143,
+  "_lastChecked": 1793993062,
+  "_history": [
+    {
+      "buildId": "26487387",
+      "branch": "public",
+      "timeUpdated": 1793977096,
+      "firstSeen": 1793993062,
+      "manifests": {
+        "4956772": {
+          "gid": "611801469789758931",
+          "size": 160709351,
+          "download": 71643904
+        },
+        "4956773": {
+          "gid": "7112245178052225863",
+          "size": 125098823,
+          "download": 59667568
+        }
+      }
+    }
+  ],
+  "_change_number": 40673613,
+  "_missing_token": false,
+  "_sha": "f9cf07be385c9f10c4ec1814e64b48e87a0ce44f",
+  "_size": 5145,
   "appid": "4956770",
   "common": {
     "associations": {
@@ -36,9 +55,9 @@
     },
     "clienticon": "72912e45016ab6edaf4b574c8602fd9d579d70b4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4956770",
     "genres": {
       "0": "4",
@@ -109,10 +128,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6d1a6e0b3de8591898af31ff61451148da2d371c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793977796",
     "store_asset_mtime": "1791286165",
     "store_tags": {
       "0": "1664",
@@ -143,5 +163,99 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hextracer",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "hextracer.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "hextracer.x86_64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input_manifest.vdf",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4956772": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "71643904",
+          "gid": "611801469789758931",
+          "size": "160709351"
+        }
+      }
+    },
+    "4956773": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "59667568",
+          "gid": "7112245178052225863",
+          "size": "125098823"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26487387",
+        "timebuildupdated": "1793976781",
+        "timeupdated": "1793977096"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Amenadude",
+    "homepage": "https://hextracer.com",
+    "publisher": "Amenadude"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Hextracer/steam_cloud/{64BitSteamID}",
+            "replace": "godot/app_userdata/Hextracer/steam_cloud/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Hextracer/steam_cloud/{64BitSteamID}",
+        "pattern": "profile.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Hextracer/steam_cloud/{64BitSteamID}",
+        "pattern": "history_*.jsonl",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

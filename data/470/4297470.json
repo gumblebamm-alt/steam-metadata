@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793908641,
-  "_history": [],
-  "_change_number": 40639032,
-  "_missing_token": true,
-  "_sha": "97d6408cf8b193488804026c83ef8e34a3072507",
-  "_size": 3238,
+  "_lastChecked": 1793993049,
+  "_history": [
+    {
+      "buildId": "26489026",
+      "branch": "public",
+      "timeUpdated": 1793981263,
+      "firstSeen": 1793993049,
+      "manifests": {
+        "4297471": {
+          "gid": "6552162253188511505",
+          "size": 125233600,
+          "download": 40012896
+        }
+      }
+    }
+  ],
+  "_change_number": 40675555,
+  "_missing_token": false,
+  "_sha": "579695ee9fdac32a472bb384c7dce94f22330665",
+  "_size": 4498,
   "appid": "4297470",
   "common": {
     "associations": {
@@ -36,7 +50,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4297470",
     "genres": {
       "0": "3"
@@ -107,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4f8429032e269875375ad8edd8a9cc569ec72ec7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793979864",
     "store_asset_mtime": "1793102838",
     "store_tags": {
       "0": "122",
@@ -142,5 +156,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Demon Fish Dead Ahead",
+    "launch": {
+      "0": {
+        "executable": "DemonFishDeadAhead.exe"
+      }
+    }
+  },
+  "depots": {
+    "4297471": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "download": "40012896",
+          "gid": "6552162253188511505",
+          "size": "125233600"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26489026",
+        "timebuildupdated": "1793981205",
+        "timeupdated": "1793981263"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "WAV Games",
+    "homepage": "https://rikoclon.com/",
+    "publisher": "WAV Games"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Demon Fish Dead Ahead/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": ".local/share/godot/app_userdata/Demon Fish Dead Ahead/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Demon Fish Dead Ahead/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

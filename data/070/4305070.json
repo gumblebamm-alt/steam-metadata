@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792775338,
-  "_history": [],
-  "_change_number": 40174222,
-  "_missing_token": true,
-  "_sha": "d51afa3b52b87edee1097d8c51cc7754689e5e43",
-  "_size": 3205,
+  "_lastChecked": 1793993049,
+  "_history": [
+    {
+      "buildId": "26073338",
+      "branch": "public",
+      "timeUpdated": 1792483048,
+      "firstSeen": 1793993049,
+      "manifests": {
+        "4305071": {
+          "gid": "6297887234801800638",
+          "size": 533725516,
+          "download": 394256096
+        }
+      }
+    }
+  ],
+  "_change_number": 40660382,
+  "_missing_token": false,
+  "_sha": "0a21cdae04942d7bae958d68a45dc09afa821bd0",
+  "_size": 4639,
   "appid": "4305070",
   "common": {
     "associations": {
@@ -34,8 +48,8 @@
     },
     "clienticon": "55a05de41cf1982a8a1bba82acefad2288fe584c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4305070",
     "genres": {
       "0": "23"
@@ -109,10 +123,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7f4a91b0d72f0110c0477701e89fef9da9a7b5b3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793952292",
     "store_asset_mtime": "1785395102",
     "store_tags": {
       "0": "3799",
@@ -141,5 +156,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Priestess’s Delusions",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Pridelusions.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Pridelusions.sh",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Pridelusions.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4305071": {
+      "manifests": {
+        "public": {
+          "download": "394256096",
+          "gid": "6297887234801800638",
+          "size": "533725516"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26073338",
+        "timebuildupdated": "1792483046",
+        "timeupdated": "1792483048"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Hrybochky studio",
+    "publisher": "TERNOX"
+  },
+  "ufs": {
+    "maxnumfiles": "120",
+    "quota": "300000000",
+    "savefiles": {
+      "0": {
+        "path": "Renpy/pries_save",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": ".renpy/pries_save",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      },
+      "2": {
+        "path": "Library/Renpy/pries_save",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacHome"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

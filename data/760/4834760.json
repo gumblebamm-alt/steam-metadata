@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793947326,
-  "_history": [],
-  "_change_number": 40658349,
-  "_missing_token": true,
-  "_sha": "bbf400dd4ec8bc09844e17791e2e87d615160d24",
-  "_size": 3839,
+  "_lastChecked": 1793993059,
+  "_history": [
+    {
+      "buildId": "26481107",
+      "branch": "public",
+      "timeUpdated": 1793958955,
+      "firstSeen": 1793993059,
+      "manifests": {
+        "4834761": {
+          "gid": "2474367521983638271",
+          "size": 2808699220,
+          "download": 2289735024
+        }
+      }
+    }
+  ],
+  "_change_number": 40671450,
+  "_missing_token": false,
+  "_sha": "af107a0d1efef9c804bdfc4e9c46c4798a473f2b",
+  "_size": 5423,
   "appid": "4834760",
   "common": {
     "associations": {
@@ -34,6 +48,7 @@
     },
     "clienticon": "dbe010c567e125fa2ff5e491c9e5325a8c7fe748",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -42,7 +57,14 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
+    "eulas": {
+      "0": {
+        "id": "4834760_eula_0",
+        "name": "Pool of Radiance: Ruins of Myth Drannor EULA",
+        "url": "https://store.steampowered.com/eula/4834760_eula_0",
+        "version": "1"
+      }
+    },
     "gameid": "4834760",
     "genres": {
       "0": "3"
@@ -121,10 +143,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5157840eb421d2ae12d94613157166522a25fd56/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793973439",
     "store_asset_mtime": "1792591313",
     "store_tags": {
       "0": "122",
@@ -152,18 +175,22 @@
         "supported": "true"
       },
       "french": {
+        "full_audio": "true",
         "subtitles": "true",
         "supported": "true"
       },
       "german": {
+        "full_audio": "true",
         "subtitles": "true",
         "supported": "true"
       },
       "polish": {
+        "full_audio": "true",
         "subtitles": "true",
         "supported": "true"
       },
       "russian": {
+        "full_audio": "true",
         "subtitles": "true",
         "supported": "true"
       },
@@ -178,5 +205,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pool of Radiance Ruins of Myth Drannor",
+    "launch": {
+      "0": {
+        "executable": "por2launch.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4834761": {
+      "manifests": {
+        "public": {
+          "download": "2289735024",
+          "gid": "2474367521983638271",
+          "size": "2808699220"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26481107",
+        "timebuildupdated": "1793958878",
+        "timeupdated": "1793958955"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Stormfront Studios",
+    "publisher": "SNEG"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1500000000",
+    "savefiles": {
+      "0": {
+        "path": "SNEG/POR2/",
+        "pattern": "*.dat",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "SNEG/POR2/",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "SNEG/POR2/",
+        "pattern": "*.sta",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "3": {
+        "path": "SNEG/POR2",
+        "pattern": ".pc",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

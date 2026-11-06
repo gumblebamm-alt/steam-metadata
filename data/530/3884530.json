@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793773137,
-  "_history": [],
-  "_change_number": 40569328,
-  "_missing_token": true,
-  "_sha": "4985ac0a8f4221004b3d952d7ba75762ce5b7f3d",
-  "_size": 2968,
+  "_lastChecked": 1793993044,
+  "_history": [
+    {
+      "buildId": "26469683",
+      "branch": "public",
+      "timeUpdated": 1793915433,
+      "firstSeen": 1793993044,
+      "manifests": {
+        "3884531": {
+          "gid": "1514732575717795886",
+          "size": 141850120,
+          "download": 70483344
+        },
+        "3884532": {
+          "gid": "7495091845227165689",
+          "size": 114831728,
+          "download": 63880128
+        }
+      }
+    }
+  ],
+  "_change_number": 40679471,
+  "_missing_token": false,
+  "_sha": "2bb58cd08247db7aa63a808d900bb51a946dabca",
+  "_size": 4385,
   "appid": "3884530",
   "common": {
     "associations": {
@@ -29,8 +48,8 @@
     },
     "clienticon": "323dab08739a7244da6cae17ff4fc2058494b288",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3884530",
     "genres": {
       "0": "4",
@@ -102,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "20a26ffeaa49f1e0d797dcb40eddf16b17515625/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793988042",
     "store_asset_mtime": "1792360885",
     "store_tags": {
       "0": "1674",
@@ -119,8 +139,8 @@
       "5": "3871",
       "6": "31275",
       "7": "1654",
-      "8": "599",
-      "9": "5502"
+      "8": "5502",
+      "9": "599"
     },
     "supported_languages": {
       "english": {
@@ -131,5 +151,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "IdleOS",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "IdleOS.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3884531": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "70483344",
+          "gid": "1514732575717795886",
+          "size": "141850120"
+        }
+      }
+    },
+    "3884532": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "63880128",
+          "gid": "7495091845227165689",
+          "size": "114831728"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26469683",
+        "timebuildupdated": "1793915404",
+        "timeupdated": "1793915433"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "LittleSmith Studios",
+    "publisher": "N/A"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "IdleOS/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

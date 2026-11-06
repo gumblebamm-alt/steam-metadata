@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791463254,
-  "_history": [],
-  "_change_number": 39239871,
-  "_missing_token": true,
-  "_sha": "f83a0da6be49ddfc53a37b604da984fb5d9ed7f6",
-  "_size": 2892,
+  "_lastChecked": 1793993059,
+  "_history": [
+    {
+      "buildId": "26488431",
+      "branch": "public",
+      "timeUpdated": 1793979719,
+      "firstSeen": 1793993059,
+      "manifests": {
+        "4809601": {
+          "gid": "4109602490082857947",
+          "size": 151593185,
+          "download": 53976080
+        }
+      }
+    }
+  ],
+  "_change_number": 40674712,
+  "_missing_token": false,
+  "_sha": "25020c9771370c1b674b1c2b7bdafd07ec134949",
+  "_size": 3798,
   "appid": "4809600",
   "common": {
     "associations": {
@@ -26,8 +40,8 @@
     },
     "clienticon": "af9ce13d9b3d172c8dbba67592379c92c9428c13",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4809600",
     "genres": {
       "0": "23"
@@ -97,10 +111,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6fa83a3c8bbed68c1f3270e41bec47f2dfb9f2ef/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1782466092",
     "store_tags": {
       "0": "560542",
@@ -130,5 +145,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pixel Miner",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "PixelMiner.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4809601": {
+      "manifests": {
+        "public": {
+          "download": "53976080",
+          "gid": "4109602490082857947",
+          "size": "151593185"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26488431",
+        "timebuildupdated": "1793979642",
+        "timeupdated": "1793979719"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Maddogs",
+    "publisher": "Maddogs"
+  },
+  "ufs": {
+    "maxnumfiles": "3",
+    "quota": "50000",
+    "savefiles": {
+      "0": {
+        "path": "Maddogs\\PixelMiner",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

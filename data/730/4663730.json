@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793821557,
+  "_lastChecked": 1793993055,
   "_history": [
     {
       "buildId": "26411791",
@@ -46,12 +46,35 @@
           "download": 888911872
         }
       }
+    },
+    {
+      "buildId": "26482667",
+      "branch": "public",
+      "timeUpdated": 1793964571,
+      "firstSeen": 1793993055,
+      "manifests": {
+        "4663731": {
+          "gid": "1279877339765261128",
+          "size": 1001990092,
+          "download": 868705424
+        },
+        "4663732": {
+          "gid": "9044034601534916086",
+          "size": 966946164,
+          "download": 860249504
+        },
+        "4663733": {
+          "gid": "752028919619082779",
+          "size": 1067210534,
+          "download": 889051056
+        }
+      }
     }
   ],
-  "_change_number": 40598219,
+  "_change_number": 40666384,
   "_missing_token": false,
-  "_sha": "6b3e9a98918127f4115fc344cfa439a347ed389c",
-  "_size": 5412,
+  "_sha": "5e16cae5a08c9bf7cf31ea103f9e49bd4d1085c3",
+  "_size": 5566,
   "appid": "4663730",
   "common": {
     "associations": {
@@ -160,7 +183,7 @@
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
     "releasestate": "released",
-    "review_percentage": "100",
+    "review_percentage": "93",
     "review_score": "7",
     "small_capsule": {
       "english": "0dc83a0a37e1239a29f02a10ab9edf9d1c31059b/capsule_231x87.jpg"
@@ -168,26 +191,26 @@
     "steam_release_date": "1793719121",
     "store_asset_mtime": "1792069860",
     "store_tags": {
-      "0": "9",
-      "1": "560542",
-      "10": "12057",
-      "11": "4305",
-      "12": "6815",
-      "13": "4845",
-      "14": "4695",
-      "15": "12472",
-      "16": "4172",
-      "17": "15277",
-      "18": "1643",
-      "19": "8945",
-      "2": "3987",
-      "3": "255534",
-      "4": "4364",
-      "5": "4598",
-      "6": "4684",
-      "7": "26921",
-      "8": "4726",
-      "9": "3871"
+      "0": "560542",
+      "1": "255534",
+      "10": "4172",
+      "11": "12057",
+      "12": "9",
+      "13": "3871",
+      "14": "4726",
+      "15": "4598",
+      "16": "3987",
+      "17": "597",
+      "18": "599",
+      "19": "4305",
+      "2": "1643",
+      "3": "4845",
+      "4": "615955",
+      "5": "4695",
+      "6": "26921",
+      "7": "12472",
+      "8": "4364",
+      "9": "4684"
     },
     "supported_languages": {
       "english": {
@@ -241,9 +264,9 @@
       },
       "manifests": {
         "public": {
-          "download": "868569456",
-          "gid": "3360481164757906761",
-          "size": "1001812676"
+          "download": "868705424",
+          "gid": "1279877339765261128",
+          "size": "1001990092"
         }
       }
     },
@@ -253,9 +276,9 @@
       },
       "manifests": {
         "public": {
-          "download": "860105936",
-          "gid": "6410146070224740504",
-          "size": "966768748"
+          "download": "860249504",
+          "gid": "9044034601534916086",
+          "size": "966946164"
         }
       }
     },
@@ -265,17 +288,17 @@
       },
       "manifests": {
         "public": {
-          "download": "888911872",
-          "gid": "2298041965111787970",
-          "size": "1067033102"
+          "download": "889051056",
+          "gid": "752028919619082779",
+          "size": "1067210534"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26436940",
-        "timebuildupdated": "1793810882",
-        "timeupdated": "1793811569"
+        "buildid": "26482667",
+        "timebuildupdated": "1793963511",
+        "timeupdated": "1793964571"
       }
     },
     "nocommonredists": "1",
@@ -290,9 +313,14 @@
     "quota": "500000000",
     "rootoverrides": {
       "1": {
-        "addpath": ".local/share/",
         "os": "Linux",
         "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/How Empires Work/saves",
+            "replace": ".local/share/godot/app_userdata/How Empires Work/saves"
+          }
+        },
         "root": "WinAppDataRoaming",
         "useinstead": "LinuxHome"
       },

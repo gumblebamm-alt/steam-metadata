@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793947333,
-  "_history": [],
-  "_change_number": 40649139,
-  "_missing_token": true,
-  "_sha": "f918c18c8b40a57684df13949353cdc35d9d923e",
-  "_size": 3135,
+  "_lastChecked": 1793993068,
+  "_history": [
+    {
+      "buildId": "26492868",
+      "branch": "public",
+      "timeUpdated": 1793992931,
+      "firstSeen": 1793993068,
+      "manifests": {
+        "5174991": {
+          "gid": "6041467309042906306",
+          "size": 602698423,
+          "download": 368127888
+        }
+      }
+    }
+  ],
+  "_change_number": 40681968,
+  "_missing_token": false,
+  "_sha": "9ad3fe72319e1485ee00ed3df4069f52421023d5",
+  "_size": 4569,
   "appid": "5174990",
   "common": {
     "aicontenttype": "1",
@@ -37,9 +51,9 @@
     },
     "clienticon": "95980086a494f7fbf6c4df17db34c051ce631934",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5174990",
     "genres": {
       "0": "23",
@@ -112,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "953e9d41612e4281e7edd0640cb4557224116fd1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1793919807",
     "store_tags": {
       "0": "599",
@@ -141,5 +156,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "A Little Leverage - Isekai Daytrader",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "A Little Leverage - Isekai Daytrader.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5174991": {
+      "manifests": {
+        "public": {
+          "download": "368127888",
+          "gid": "6041467309042906306",
+          "size": "602698423"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26492868",
+        "timebuildupdated": "1793992706",
+        "timeupdated": "1793992931"
+      }
+    }
+  },
+  "extended": {
+    "developer": "0DTE Games",
+    "homepage": "https://0dtegames.com/little-leverage/",
+    "publisher": "0DTE Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "2097152",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ALittleLeverage/saves",
+        "pattern": "a-little-leverage.save.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

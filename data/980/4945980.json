@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793656027,
-  "_history": [],
-  "_change_number": 40481453,
-  "_missing_token": true,
-  "_sha": "e420ba791a6be92e18685b506691bf188182587a",
-  "_size": 3460,
+  "_lastChecked": 1793993061,
+  "_history": [
+    {
+      "buildId": "26488178",
+      "branch": "public",
+      "timeUpdated": 1793978915,
+      "firstSeen": 1793993061,
+      "manifests": {
+        "4945981": {
+          "gid": "7697914957572203644",
+          "size": 35791542,
+          "download": 21266848
+        },
+        "4945982": {
+          "gid": "7776052526287753891",
+          "size": 327919629,
+          "download": 137589056
+        }
+      }
+    }
+  ],
+  "_change_number": 40679385,
+  "_missing_token": false,
+  "_sha": "b001475722551a047c81dee216dbcaf4ee776818",
+  "_size": 4739,
   "appid": "4945980",
   "common": {
     "associations": {
@@ -38,9 +57,9 @@
     },
     "clienticon": "6ccc9a938ad629b02e841ea724ddb50c02484442",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4945980",
     "genres": {
       "0": "23",
@@ -50,6 +69,11 @@
       "english": "cf0d0b3cbbba03f710b6b5e335cc9cc5890da9aa/header.jpg"
     },
     "icon": "6ccc9a938ad629b02e841ea724ddb50c02484442",
+    "languages": {
+      "english": "1",
+      "german": "1",
+      "schinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -111,10 +135,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "afe790584ab2a037cd121074d4953b6a37a26f6a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793987916",
     "store_asset_mtime": "1792425401",
     "store_tags": {
       "0": "1091588",
@@ -157,5 +182,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_scout"
+      }
+    },
+    "installdir": "Grimoire of Blanks",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "GrimoireOfBlanks.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "GrimoireOfBlanks",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4945981": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "21266848",
+          "gid": "7697914957572203644",
+          "size": "35791542"
+        }
+      }
+    },
+    "4945982": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "137589056",
+          "gid": "7776052526287753891",
+          "size": "327919629"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26488178",
+        "timebuildupdated": "1793978912",
+        "timeupdated": "1793978915"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Esteran Games",
+    "publisher": "Esteran Games"
+  }
 }

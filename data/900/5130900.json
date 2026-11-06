@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793656037,
-  "_history": [],
-  "_change_number": 40517632,
-  "_missing_token": true,
-  "_sha": "cd9d733d7235f1ea302dcbe2f300ec3877969814",
-  "_size": 3290,
+  "_lastChecked": 1793993067,
+  "_history": [
+    {
+      "buildId": "26487300",
+      "branch": "public",
+      "timeUpdated": 1793976595,
+      "firstSeen": 1793993067,
+      "manifests": {
+        "5130901": {
+          "gid": "4583248019401641443",
+          "size": 363526505,
+          "download": 94883056
+        },
+        "5130902": {
+          "gid": "272918854439385261",
+          "size": 355905009,
+          "download": 91802608
+        }
+      }
+    }
+  ],
+  "_change_number": 40678068,
+  "_missing_token": false,
+  "_sha": "fbda85d45216754852969047b82538c7acf791dc",
+  "_size": 4753,
   "appid": "5130900",
   "common": {
     "associations": {
@@ -25,8 +44,8 @@
     },
     "clienticon": "7a5e30d46b73e7ba46d4da3c9d2a96f9bb5cbba4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5130900",
     "genres": {
       "0": "4",
@@ -98,10 +117,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6f7f0d5ccdcddf8d4163ded142e075378d00b941/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793977590",
     "store_asset_mtime": "1793638918",
     "store_tags": {
       "0": "3959",
@@ -156,5 +176,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Toy Battles",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BOX.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "BOX.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5130901": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "94883056",
+          "gid": "4583248019401641443",
+          "size": "363526505"
+        }
+      }
+    },
+    "5130902": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "91802608",
+          "gid": "272918854439385261",
+          "size": "355905009"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,latam,russian,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26487300",
+        "timebuildupdated": "1793976573",
+        "timeupdated": "1793976595"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "dima",
+    "publisher": "dima"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "buhsgames/BOX/profiles/{64BitSteamID}",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

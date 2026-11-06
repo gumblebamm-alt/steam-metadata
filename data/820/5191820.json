@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793908665,
-  "_history": [],
-  "_change_number": 40643466,
-  "_missing_token": true,
-  "_sha": "5c8ff44aa1ac9be4161b3e727ed8171b85a0d95c",
-  "_size": 3130,
+  "_lastChecked": 1793993068,
+  "_history": [
+    {
+      "buildId": "26468012",
+      "branch": "public",
+      "timeUpdated": 1793910180,
+      "firstSeen": 1793993068,
+      "manifests": {
+        "5191821": {
+          "gid": "4274527673295658638",
+          "size": 14231337189,
+          "download": 5100462368
+        }
+      }
+    }
+  ],
+  "_change_number": 40677418,
+  "_missing_token": false,
+  "_sha": "3aaeb1e7f1f489a6aedfa35b644093169fb773ff",
+  "_size": 4656,
   "appid": "5191820",
   "common": {
     "associations": {
@@ -32,6 +46,7 @@
     },
     "clienticon": "1f16e5ae0722b350a144f2e3e71d0ea0cef23017",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "4",
@@ -43,7 +58,6 @@
       "2": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5191820",
     "genres": {
       "0": "4",
@@ -114,12 +128,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "244e08a6f56c40f35d1356f7c0c9cb7f59727ada/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793905590",
+    "steam_release_date": "1793984407",
+    "store_asset_mtime": "1793984215",
     "store_tags": {
       "0": "4747",
       "1": "6650",
@@ -141,5 +156,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Female Forge",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Female Forge.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5191821": {
+      "manifests": {
+        "public": {
+          "download": "5100462368",
+          "gid": "4274527673295658638",
+          "size": "14231337189"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26468012",
+        "timebuildupdated": "1793910162",
+        "timeupdated": "1793910180"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Digital-Workshop22",
+    "publisher": "Digital-Workshop22"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "2000000000",
+    "savefiles": {
+      "0": {
+        "path": "Character_Save",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "",
+        "pattern": "GAME_PROGRESS*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "Digital Workshop 22/PlayTime",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Lookbook",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "4": {
+        "path": "Screenshots",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1791549447,
-  "_history": [],
-  "_change_number": 39651613,
-  "_missing_token": true,
-  "_sha": "6724efd87c24ff8fce99a629b143673f575ee935",
-  "_size": 2941,
+  "_lastChecked": 1793993060,
+  "_history": [
+    {
+      "buildId": "26482336",
+      "branch": "public",
+      "timeUpdated": 1793962550,
+      "firstSeen": 1793993060,
+      "manifests": {
+        "4890841": {
+          "gid": "1995407505954003089",
+          "size": 31554754,
+          "download": 23600992
+        },
+        "4890842": {
+          "gid": "6825581194364806294",
+          "size": 13519224,
+          "download": 7260224
+        },
+        "4890843": {
+          "gid": "605212646163508775",
+          "size": 14886005,
+          "download": 4762384
+        },
+        "4890844": {
+          "gid": "7703158061186477488",
+          "size": 9081680,
+          "download": 2010304
+        }
+      }
+    }
+  ],
+  "_change_number": 40665573,
+  "_missing_token": false,
+  "_sha": "d6d78834a8ac5271377cfa7a5a611c564250ffff",
+  "_size": 5147,
   "appid": "4890840",
   "common": {
     "associations": {
@@ -27,7 +56,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4890840",
     "genres": {
       "0": "3",
@@ -98,10 +126,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ce2baecdebdbea4a522ba0fd723bde55158801d5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793962885",
     "store_asset_mtime": "1782499385",
     "store_tags": {
       "0": "122",
@@ -132,5 +161,127 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "IVAN (Iter Vehemens ad Necem)",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "IVAN.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "ivan",
+        "type": "default"
+      }
+    },
+    "steamcontrollerconfigdetails": {
+      "3816295145": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4890841": {
+      "manifests": {
+        "public": {
+          "download": "23600992",
+          "gid": "1995407505954003089",
+          "size": "31554754"
+        }
+      }
+    },
+    "4890842": {
+      "manifests": {
+        "public": {
+          "download": "7260224",
+          "gid": "6825581194364806294",
+          "size": "13519224"
+        }
+      }
+    },
+    "4890843": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "4762384",
+          "gid": "605212646163508775",
+          "size": "14886005"
+        }
+      }
+    },
+    "4890844": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2010304",
+          "gid": "7703158061186477488",
+          "size": "9081680"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26482336",
+        "timebuildupdated": "1793962511",
+        "timeupdated": "1793962550"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Cathedral of Attnam",
+    "homepage": "https://attnam.com/",
+    "isfreeapp": "1",
+    "publisher": "Zeno Rogue"
+  },
+  "ufs": {
+    "maxnumfiles": "400",
+    "quota": "160000000",
+    "savefiles": {
+      "0": {
+        "path": "Save",
+        "pattern": "*",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "Scrshot",
+        "pattern": "*",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "Bones",
+        "pattern": "*",
+        "root": "gameinstall"
+      },
+      "3": {
+        "path": "",
+        "pattern": ".QuestionHistory*",
+        "root": "gameinstall"
+      },
+      "4": {
+        "path": "",
+        "pattern": "ivan-highscore.scores",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

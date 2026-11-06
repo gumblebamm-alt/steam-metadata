@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793655984,
+  "_lastChecked": 1793993037,
   "_history": [
     {
       "buildId": "24250053",
@@ -26,10 +26,10 @@
       "_source": "hubcap"
     }
   ],
-  "_change_number": 40490348,
+  "_change_number": 40622553,
   "_missing_token": false,
-  "_sha": "8679d5972d9b9fbfb031309b26a709ce0f148028",
-  "_size": 9481,
+  "_sha": "848c26aad70eaa6b8fa31840842359757c1cb5fc",
+  "_size": 10806,
   "appid": "3259780",
   "common": {
     "associations": {
@@ -255,6 +255,52 @@
         "5": {
           "display": "1",
           "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      }
+    },
+    "steam_frame_compatibility": {
+      "category": "2",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "1",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1793110644",
+      "tested_build_id": "24250053",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsNotPerformant"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamFrame_TestResult_FirstTimeSetupRequiresActiveInternetConnection"
         }
       }
     },

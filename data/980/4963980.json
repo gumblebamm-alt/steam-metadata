@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793734371,
-  "_history": [],
-  "_change_number": 40528745,
-  "_missing_token": true,
-  "_sha": "73af61c57463d65089269fd3b1dd017e14c964da",
-  "_size": 3570,
+  "_lastChecked": 1793993062,
+  "_history": [
+    {
+      "buildId": "26391654",
+      "branch": "public",
+      "timeUpdated": 1793662272,
+      "firstSeen": 1793993062,
+      "manifests": {
+        "4963981": {
+          "gid": "4071660282853126723",
+          "size": 354024063,
+          "download": 251902816
+        }
+      }
+    }
+  ],
+  "_change_number": 40674857,
+  "_missing_token": false,
+  "_sha": "d60260c64551bf6d4c7e2f31a3ff89ad0649c0a8",
+  "_size": 4660,
   "appid": "4963980",
   "common": {
     "aicontenttype": "1",
@@ -44,8 +58,8 @@
     },
     "clienticon": "27630c3509d0c46551876b52c302746159d6f45b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4963980",
     "genres": {
       "0": "4",
@@ -117,10 +131,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8e1f15c74456e2017739b688ba5681daeb979563/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793976945",
     "store_asset_mtime": "1792541534",
     "store_tags": {
       "0": "615955",
@@ -164,5 +179,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Kaironia",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Kaironia",
+        "description_loc": {
+          "english": "Play Kaironia"
+        },
+        "executable": "Kaironia.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4963981": {
+      "manifests": {
+        "public": {
+          "download": "251902816",
+          "gid": "4071660282853126723",
+          "size": "354024063"
+        }
+      }
+    },
+    "baselanguages": "english,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26391654",
+        "timebuildupdated": "1793659097",
+        "timeupdated": "1793662272"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Kaironia",
+    "publisher": "Kaironia"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Kaironia/saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

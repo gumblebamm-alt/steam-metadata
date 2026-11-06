@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792603056,
-  "_history": [],
-  "_change_number": 39931191,
-  "_missing_token": true,
-  "_sha": "db114c097e65fce2f4dfa0ebd170547262dde222",
-  "_size": 3340,
+  "_lastChecked": 1793993068,
+  "_history": [
+    {
+      "buildId": "26306172",
+      "branch": "public",
+      "timeUpdated": 1793302136,
+      "firstSeen": 1793993068,
+      "manifests": {
+        "5192641": {
+          "gid": "5699085740418984067",
+          "size": 904175072,
+          "download": 818326224
+        }
+      }
+    }
+  ],
+  "_change_number": 40675257,
+  "_missing_token": false,
+  "_sha": "6b2ed13a83e5925096efbce086686614ad8242d0",
+  "_size": 4470,
   "appid": "5192640",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +47,8 @@
     },
     "clienticon": "45b3451562133853900183f3584408543c8b6e9a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5192640",
     "genres": {
       "0": "23",
@@ -105,11 +119,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9e089d1656a9a7199427823870a931d9f0ed6660/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791284641",
+    "steam_release_date": "1793980764",
+    "store_asset_mtime": "1792561705",
     "store_tags": {
       "0": "1666",
       "1": "5652",
@@ -152,5 +167,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Archive Project",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "The Archive Project.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5192641": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "818326224",
+          "gid": "5699085740418984067",
+          "size": "904175072"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26306172",
+        "timebuildupdated": "1793302135",
+        "timeupdated": "1793302136"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Itchys",
+    "publisher": "Itchys"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "315000000",
+    "savefiles": {
+      "0": {
+        "path": "TheArchiveProject",
+        "pattern": "the_archive_project.tap",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "TheArchiveProject",
+        "pattern": "the_archive_project.tap.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

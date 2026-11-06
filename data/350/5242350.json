@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1793908666,
-  "_history": [],
-  "_change_number": 40630500,
-  "_missing_token": true,
-  "_sha": "a011cd740219d1b510885c9abc0dbbb34262d6b6",
-  "_size": 5378,
+  "_lastChecked": 1793993069,
+  "_history": [
+    {
+      "buildId": "26488389",
+      "branch": "public",
+      "timeUpdated": 1793979637,
+      "firstSeen": 1793993069,
+      "manifests": {
+        "5242351": {
+          "gid": "1124645509108924549",
+          "size": 1212679253,
+          "download": 505651360
+        },
+        "5242352": {
+          "gid": "5321132357577690166",
+          "size": 1229141485,
+          "download": 513811264
+        },
+        "5242353": {
+          "gid": "7479501539330654318",
+          "size": 1208743947,
+          "download": 503072160
+        }
+      }
+    },
+    {
+      "buildId": "26488493",
+      "branch": "test",
+      "timeUpdated": 1793979786,
+      "firstSeen": 1793993069,
+      "manifests": {
+        "5242351": {
+          "gid": "1124645509108924549",
+          "size": 1212679253,
+          "download": 505651360
+        },
+        "5242352": {
+          "gid": "5321132357577690166",
+          "size": 1229141485,
+          "download": 513811264
+        },
+        "5242353": {
+          "gid": "7479501539330654318",
+          "size": 1208743947,
+          "download": 503072160
+        }
+      }
+    }
+  ],
+  "_change_number": 40674698,
+  "_missing_token": false,
+  "_sha": "522e9a0507ddd136a1ac24df206febbf54fbea2d",
+  "_size": 7205,
   "appid": "5242350",
   "common": {
     "aicontenttype": "1",
@@ -42,8 +89,8 @@
     "clienticns": "3b9cd70224aa19f5d128200a9e22c0b2ff7b7186",
     "clienticon": "22e7183a584549d8b2f4b6a54d8d15a2250075df",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5242350",
     "genres": {
       "0": "1",
@@ -149,10 +196,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6e091eb6a899ba0cb1f6dce58a479aa50e87504d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793963368",
     "store_asset_mtime": "1793885360",
     "store_tags": {
       "0": "3959",
@@ -267,5 +315,100 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "I Only Moved My Mouse",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "I Only Moved My Mouse.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "I Only Moved My Mouse.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "I Only Moved My Mouse.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5242351": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "505651360",
+          "gid": "1124645509108924549",
+          "size": "1212679253"
+        },
+        "test": {
+          "download": "505651360",
+          "gid": "1124645509108924549",
+          "size": "1212679253"
+        }
+      }
+    },
+    "5242352": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "513811264",
+          "gid": "5321132357577690166",
+          "size": "1229141485"
+        },
+        "test": {
+          "download": "513811264",
+          "gid": "5321132357577690166",
+          "size": "1229141485"
+        }
+      }
+    },
+    "5242353": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "503072160",
+          "gid": "7479501539330654318",
+          "size": "1208743947"
+        },
+        "test": {
+          "download": "503072160",
+          "gid": "7479501539330654318",
+          "size": "1208743947"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26488389",
+        "timebuildupdated": "1793979539",
+        "timeupdated": "1793979637"
+      },
+      "test": {
+        "buildid": "26488493",
+        "description": "test builds",
+        "timebuildupdated": "1793979786",
+        "timeupdated": "1793979786"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Missroot",
+    "publisher": "Missroot"
+  }
 }

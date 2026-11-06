@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1793947309,
-  "_history": [],
-  "_change_number": 40655243,
-  "_missing_token": true,
-  "_sha": "6286387addf13223d70084761543f83b993fbe54",
-  "_size": 6153,
+  "_lastChecked": 1793993035,
+  "_history": [
+    {
+      "buildId": "26490051",
+      "branch": "beta",
+      "timeUpdated": 1793987050,
+      "firstSeen": 1793993035,
+      "manifests": {
+        "2950411": {
+          "gid": "4520364871009877290",
+          "size": 1261436692,
+          "download": 234517200
+        },
+        "2950412": {
+          "gid": "983192786512918183",
+          "size": 1313040751,
+          "download": 250473280
+        },
+        "2950413": {
+          "gid": "3850662067321031096",
+          "size": 1263573373,
+          "download": 231925888
+        }
+      }
+    },
+    {
+      "buildId": "26490051",
+      "branch": "public",
+      "timeUpdated": 1793987050,
+      "firstSeen": 1793993035,
+      "manifests": {
+        "2950411": {
+          "gid": "4520364871009877290",
+          "size": 1261436692,
+          "download": 234517200
+        },
+        "2950412": {
+          "gid": "983192786512918183",
+          "size": 1313040751,
+          "download": 250473280
+        },
+        "2950413": {
+          "gid": "3850662067321031096",
+          "size": 1263573373,
+          "download": 231925888
+        }
+      }
+    }
+  ],
+  "_change_number": 40678962,
+  "_missing_token": false,
+  "_sha": "13547bb9826236686e72f12116472821d8dee2b2",
+  "_size": 9147,
   "appid": "2950410",
   "common": {
     "associations": {
@@ -41,6 +88,7 @@
     "clienticon": "8c66a54e67eabc1af79a9c1825e9b09243d1ce81",
     "clienttga": "bb991f7d92fceec9fb8801cb16d1957a5f586c74",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -51,7 +99,6 @@
         "version": "4"
       }
     },
-    "exfgls": "8",
     "gameid": "2950410",
     "genres": {
       "0": "23",
@@ -152,12 +199,13 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c28fa63f71176bf72a284312101c3536eb105ffb/capsule_231x87.jpg",
       "schinese": "339eb87b29aa91fce456d5f74f3c8cee7ff5df9e/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1792372234",
+    "steam_release_date": "1793987117",
+    "store_asset_mtime": "1793979739",
     "store_tags": {
       "0": "1084988",
       "1": "3959",
@@ -259,5 +307,118 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gear Up Einstein!",
+    "launch": {
+      "1": {
+        "arguments": "-logFile \"Logs\\GameLogs.log\" -language=en -HideUnityConsole true -TargetFrameRate 120 -ChangeDetectionSystemEnabled false -RecordReplaysAutomatically false -CheatWandEnabled false",
+        "config": {
+          "oslist": "windows"
+        },
+        "description_loc": {
+          "french": "Gear Up Einstein! (EXE)"
+        },
+        "executable": "Gear Up Einstein.exe",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "-logFile \"Logs\\GameLogs.log\" -language=en -HideUnityConsole true -TargetFrameRate 120 -ChangeDetectionSystemEnabled false -RecordReplaysAutomatically false -CheatWandEnabled false",
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Gear Up Einstein.app",
+        "type": "default"
+      },
+      "3": {
+        "arguments": "-logFile \"Logs\\GameLogs.log\" -language=en -HideUnityConsole true -TargetFrameRate 120 -ChangeDetectionSystemEnabled false -RecordReplaysAutomatically false -CheatWandEnabled false",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Gear Up Einstein.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65526",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2950411": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "234517200",
+          "gid": "4520364871009877290",
+          "size": "1261436692"
+        },
+        "public": {
+          "download": "234517200",
+          "gid": "4520364871009877290",
+          "size": "1261436692"
+        }
+      }
+    },
+    "2950412": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "250473280",
+          "gid": "983192786512918183",
+          "size": "1313040751"
+        },
+        "public": {
+          "download": "250473280",
+          "gid": "983192786512918183",
+          "size": "1313040751"
+        }
+      }
+    },
+    "2950413": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "231925888",
+          "gid": "3850662067321031096",
+          "size": "1263573373"
+        },
+        "public": {
+          "download": "231925888",
+          "gid": "3850662067321031096",
+          "size": "1263573373"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,english,french,german,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,tchinese,thai,turkish,ukrainian",
+    "branches": {
+      "beta": {
+        "buildid": "26490051",
+        "description": "access to next patch in advance (might be unstable)",
+        "timebuildupdated": "1793984242",
+        "timeupdated": "1793987050"
+      },
+      "public": {
+        "buildid": "26490051",
+        "timebuildupdated": "1793984242",
+        "timeupdated": "1793987050"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "No Deadlines",
+    "homepage": "https://nodeadlines.ca",
+    "publisher": "No Deadlines"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "100000000",
+    "sync_while_suspended": "1"
+  }
 }

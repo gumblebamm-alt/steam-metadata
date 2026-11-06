@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793556031,
-  "_history": [],
-  "_change_number": 40483629,
-  "_missing_token": true,
-  "_sha": "6b464015c058876a7f62c2d8eedb113af0148d11",
-  "_size": 3325,
+  "_lastChecked": 1793993038,
+  "_history": [
+    {
+      "buildId": "26492798",
+      "branch": "beta",
+      "timeUpdated": 1793992500,
+      "firstSeen": 1793993038,
+      "manifests": {
+        "3399101": {
+          "gid": "364495144657557076",
+          "size": 314819056,
+          "download": 252438560
+        }
+      }
+    },
+    {
+      "buildId": "26468394",
+      "branch": "public",
+      "timeUpdated": 1793957110,
+      "firstSeen": 1793993038,
+      "manifests": {
+        "3399101": {
+          "gid": "1997524899296690483",
+          "size": 314705520,
+          "download": 252331744
+        }
+      }
+    }
+  ],
+  "_change_number": 40681748,
+  "_missing_token": false,
+  "_sha": "83ad864007e7c43f6855a7212ae44d253c65e202",
+  "_size": 4971,
   "appid": "3399100",
   "common": {
     "associations": {
@@ -34,6 +61,7 @@
     "clienticon": "e29f1271463b42154174f1531a3a20464fd06fde",
     "clienttga": "00e0114440d33e28288140ddb283d62408f7703b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -44,7 +72,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3399100",
     "genres": {
       "0": "1"
@@ -114,10 +141,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7d9b3130991f812b3d90a6c442f6a47592b28794/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793983005",
     "store_asset_mtime": "1793553574",
     "store_tags": {
       "0": "4667",
@@ -148,5 +176,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Flashes of Chaos",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Flashes_of_Chaos.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "3399101": {
+      "manifests": {
+        "beta": {
+          "download": "252438560",
+          "gid": "364495144657557076",
+          "size": "314819056"
+        },
+        "public": {
+          "download": "252331744",
+          "gid": "1997524899296690483",
+          "size": "314705520"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26492798",
+        "description": "beta",
+        "timebuildupdated": "1793992496",
+        "timeupdated": "1793992500"
+      },
+      "public": {
+        "buildid": "26468394",
+        "timebuildupdated": "1793911448",
+        "timeupdated": "1793957110"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Brainburn Studio",
+    "homepage": "https://brainburnstudio.com/",
+    "publisher": "Brainburn Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Flashes_of_Chaos/game/{64BitSteamID}",
+        "pattern": "savefile.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Flashes_of_Chaos/game/{64BitSteamID}",
+        "pattern": "stats.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "Flashes_of_Chaos/game/{64BitSteamID}",
+        "pattern": "stuffseen.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

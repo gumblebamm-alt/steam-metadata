@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793384024,
-  "_history": [],
-  "_change_number": 40420081,
-  "_missing_token": true,
-  "_sha": "329c365b561cc7a8119b8c0a5aa9b977a6e737b1",
-  "_size": 3467,
+  "_lastChecked": 1793993057,
+  "_history": [
+    {
+      "buildId": "26492356",
+      "branch": "public",
+      "timeUpdated": 1793991163,
+      "firstSeen": 1793993057,
+      "manifests": {
+        "4751191": {
+          "gid": "4713579687695909166",
+          "size": 496272110,
+          "download": 383896944
+        },
+        "5061150": {
+          "gid": "3581913429122081030",
+          "size": 326731524,
+          "download": 326360128
+        }
+      }
+    }
+  ],
+  "_change_number": 40681032,
+  "_missing_token": false,
+  "_sha": "f0b7d174a089b1229f0a8462770a81fb8fb78bdf",
+  "_size": 5095,
   "appid": "4751190",
   "common": {
     "associations": {
@@ -38,6 +57,7 @@
     "clienticns": "c351c99a476fa836f24a699fe320c2944fe917f8",
     "clienticon": "be13a5111f6d0a8dd0ebd6e4d6d797d0c2845788",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -48,7 +68,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4751190",
     "genres": {
       "0": "23"
@@ -119,11 +138,12 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "40f46336b5199bd75e6299a391887e69e6e93048/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793005835",
+    "steam_release_date": "1793984407",
+    "store_asset_mtime": "1793985120",
     "store_tags": {
       "0": "1667",
       "1": "6426",
@@ -154,5 +174,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DEGENERATE STAR",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "DegenerateStar.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "DegenerateStar.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "DegenerateStar.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4751191": {
+      "manifests": {
+        "public": {
+          "download": "383896944",
+          "gid": "4713579687695909166",
+          "size": "496272110"
+        }
+      }
+    },
+    "5061150": {
+      "dlcappid": "5061150",
+      "manifests": {
+        "public": {
+          "download": "326360128",
+          "gid": "3581913429122081030",
+          "size": "326731524"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26492356",
+        "timebuildupdated": "1793991163",
+        "timeupdated": "1793991163"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Ozone Interactive ",
+    "dlcavailableonstore": "1",
+    "homepage": "https://ozoneinteractive.com/",
+    "listofdlc": "5061150",
+    "publisher": "Haunted Publishing Syndicate"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "game/saves",
+        "pattern": "*",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

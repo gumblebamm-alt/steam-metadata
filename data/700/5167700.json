@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793384036,
+  "_lastChecked": 1793993068,
   "_history": [
     {
       "buildId": "26248671",
@@ -20,24 +20,29 @@
       }
     },
     {
-      "buildId": "",
+      "buildId": "26440451",
       "branch": "public",
-      "timeUpdated": 1793281781,
+      "timeUpdated": 1793821111,
       "firstSeen": 1793339246,
       "manifests": {
         "5167701": {
           "gid": "6147998738050873550",
           "size": null,
           "download": null
+        },
+        "5167702": {
+          "gid": "6746177341620929048",
+          "size": 197238537,
+          "download": 146642160
         }
       },
       "_source": "hubcap"
     }
   ],
-  "_change_number": 40417508,
+  "_change_number": 40676941,
   "_missing_token": false,
-  "_sha": "4a68a02691bcf20c712afee1efb77ba81ee18d5b",
-  "_size": 5542,
+  "_sha": "3a73eb98d2fb57f685c917c444dad2e3a5aa69f5",
+  "_size": 6568,
   "appid": "5167700",
   "common": {
     "associations": {
@@ -62,8 +67,11 @@
       "category_1": "1",
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_28": "1",
       "category_38": "1",
+      "category_45": "1",
+      "category_46": "1",
       "category_62": "1",
       "category_9": "1"
     },
@@ -271,9 +279,9 @@
       },
       "manifests": {
         "public": {
-          "download": "145948480",
-          "gid": "6147998738050873550",
-          "size": "215146990"
+          "download": "147492368",
+          "gid": "7931473705001812375",
+          "size": "216691721"
         }
       }
     },
@@ -283,17 +291,17 @@
       },
       "manifests": {
         "public": {
-          "download": "145097920",
-          "gid": "6813728588392146931",
-          "size": "195693070"
+          "download": "146642160",
+          "gid": "6746177341620929048",
+          "size": "197238537"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26248671",
-        "timebuildupdated": "1793118762",
-        "timeupdated": "1793118809"
+        "buildid": "26440451",
+        "timebuildupdated": "1793820932",
+        "timeupdated": "1793821111"
       }
     },
     "nocommonredists": "1",
@@ -303,5 +311,49 @@
     "developer": "Blacksmith",
     "homepage": "https://www.thisgamesocks.com",
     "publisher": "Abokado Studio"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/ThisGameSocks",
+            "replace": "godot/app_userdata/ThisGameSocks"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/ThisGameSocks",
+            "replace": "Godot/app_userdata/ThisGameSocks"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/ThisGameSocks",
+        "pattern": "slot*",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/ThisGameSocks",
+        "pattern": "profile.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

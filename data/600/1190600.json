@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791040065,
+  "_lastChecked": 1793993027,
   "_history": [
     {
       "buildId": "23998990",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 39389213,
+  "_change_number": 40671304,
   "_missing_token": false,
-  "_sha": "bd6f4323a56636e466524c7d0823791d21c2f3af",
-  "_size": 6159,
+  "_sha": "b68632d48fa9e5e55bd825dcc00d3d2606779e41",
+  "_size": 6830,
   "appid": "1190600",
   "common": {
     "associations": {
@@ -168,7 +168,7 @@
         "hdr_support": "0",
         "non_deck_display_glyphs": "1",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-10.0-beta",
+        "recommended_runtime": "proton-stable",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -177,10 +177,31 @@
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "1",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_GameOrLauncherDoesntExitCleanly"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
       "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
@@ -196,8 +217,8 @@
           "token": "#SteamOS_TestResult_GameOrLauncherDoesntExitCleanly"
         }
       },
-      "test_timestamp": "1767916800",
-      "tested_build_id": "21360706",
+      "test_timestamp": "1791307855",
+      "tested_build_id": "25621753",
       "tests": {
         "0": {
           "display": "2",
@@ -206,11 +227,11 @@
       }
     },
     "steam_release_date": "1769104618",
-    "store_asset_mtime": "1790780423",
+    "store_asset_mtime": "1793973666",
     "store_tags": {
       "0": "12095",
       "1": "21978",
-      "10": "4747",
+      "10": "4166",
       "11": "4182",
       "12": "19",
       "13": "4835",
@@ -227,7 +248,7 @@
       "6": "4115",
       "7": "4175",
       "8": "3839",
-      "9": "4166"
+      "9": "4747"
     },
     "supported_languages": {
       "english": {
@@ -298,12 +319,17 @@
         "timeupdated": "1790868694"
       }
     },
-    "privatebranches": "1"
+    "privatebranches": "1",
+    "workshopdepot": "1190600"
   },
   "extended": {
     "developer": "AntiZero Games",
     "homepage": "https://captain-hardcore.com/",
     "publisher": "AntiZero Games",
     "vrheadsetstreaming": "1"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000"
   }
 }

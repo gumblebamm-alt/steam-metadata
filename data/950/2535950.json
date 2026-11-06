@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792155351,
+  "_lastChecked": 1793993032,
   "_history": [
     {
       "buildId": "24574194",
@@ -33,10 +33,10 @@
       }
     }
   ],
-  "_change_number": 39894903,
+  "_change_number": 40555673,
   "_missing_token": false,
-  "_sha": "409643a8113878feceb549165c96f5a054679fb8",
-  "_size": 7889,
+  "_sha": "502bd46f7960b8af00d7fca3e598b53d472b4a6f",
+  "_size": 8093,
   "appid": "2535950",
   "common": {
     "associations": {
@@ -230,8 +230,8 @@
       "0": "9",
       "1": "1676",
       "10": "1716",
-      "11": "16598",
-      "12": "1755",
+      "11": "1755",
+      "12": "16598",
       "13": "3942",
       "14": "3813",
       "15": "599",
@@ -307,10 +307,9 @@
       },
       "2": {
         "config": {
-          "betakey": "development,external_qa",
           "oslist": "macos"
         },
-        "executable": "BattlestarGalacticaScatteredHopes.app/Contents/MacOS/Battlestar Galactica Scattered Hopes",
+        "executable": "BattlestarGalacticaScatteredHopes.app",
         "type": "default"
       }
     }
@@ -362,13 +361,24 @@
   "ufs": {
     "maxnumfiles": "100",
     "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Alt Shift/Battlestar Galactica Scattered Hopes/Saves",
+            "replace": "Alt Shift/Battlestar Galactica Scattered Hopes/Saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "Alt Shift/Battlestar Galactica Scattered Hopes/Saves",
         "pattern": "*",
-        "platforms": {
-          "1": "Windows"
-        },
         "recursive": "1",
         "root": "WinAppDataLocalLow"
       }

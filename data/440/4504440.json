@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792903315,
-  "_history": [],
-  "_change_number": 40210615,
-  "_missing_token": true,
-  "_sha": "62a62aac888833534ae1b00ed24160432d273f22",
-  "_size": 3350,
+  "_lastChecked": 1793993052,
+  "_history": [
+    {
+      "buildId": "26489037",
+      "branch": "public",
+      "timeUpdated": 1793981350,
+      "firstSeen": 1793993052,
+      "manifests": {
+        "4504441": {
+          "gid": "3541864114184920820",
+          "size": 8447443578,
+          "download": 8139787536
+        }
+      }
+    }
+  ],
+  "_change_number": 40677556,
+  "_missing_token": false,
+  "_sha": "645ea60e3a7c5196bf2a721a8f1443b1a68f34c5",
+  "_size": 4547,
   "appid": "4504440",
   "common": {
     "aicontenttype": "1",
@@ -37,8 +51,8 @@
     },
     "clienticon": "99ce8ef3dc23eea697c184057b3cb1effd70b169",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4504440",
     "genres": {
       "0": "4",
@@ -114,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "85fc285984d96ffcc7e287313fd1048bd7c7d3bc/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793984519",
     "store_asset_mtime": "1780822486",
     "store_tags": {
       "0": "3859",
@@ -156,5 +171,72 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Star Raker",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "StarRaker.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4504441": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "8139787536",
+          "gid": "3541864114184920820",
+          "size": "8447443578"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26489037",
+        "timebuildupdated": "1793981227",
+        "timeupdated": "1793981350"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Genesis Games",
+    "publisher": "Genesis Games"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "6000",
+    "savefiles": {
+      "0": {
+        "path": "StarRaker\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

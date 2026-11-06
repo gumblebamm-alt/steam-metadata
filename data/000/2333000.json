@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793383994,
+  "_lastChecked": 1793993032,
   "_history": [
     {
       "buildId": "25806663",
@@ -56,12 +56,30 @@
           "download": 98456976
         }
       }
+    },
+    {
+      "buildId": "26489514",
+      "branch": "public",
+      "timeUpdated": 1793982617,
+      "firstSeen": 1793993032,
+      "manifests": {
+        "2333001": {
+          "gid": "7642143874526224503",
+          "size": 4003630298,
+          "download": 2674952512
+        },
+        "4677931": {
+          "gid": "769645333623634749",
+          "size": 103204332,
+          "download": 98456976
+        }
+      }
     }
   ],
-  "_change_number": 40427091,
+  "_change_number": 40676443,
   "_missing_token": false,
-  "_sha": "23e181666bb1f7644edcb3654225a71e515c9698",
-  "_size": 8914,
+  "_sha": "34531298e801d8ca7cc0b436ea8b23c36ad084cd",
+  "_size": 10295,
   "appid": "2333000",
   "common": {
     "associations": {
@@ -273,6 +291,48 @@
         }
       }
     },
+    "steam_frame_compatibility": {
+      "category": "3",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1793123521",
+      "tested_build_id": "25964535",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
     "steam_release_date": "1791478740",
     "store_asset_mtime": "1791481928",
     "store_tags": {
@@ -288,8 +348,8 @@
       "17": "5716",
       "18": "21",
       "19": "44868",
-      "2": "1628",
-      "3": "3978",
+      "2": "3978",
+      "3": "1628",
       "4": "4975",
       "5": "3798",
       "6": "4106",
@@ -346,25 +406,30 @@
     "installdir": "Silver Pines",
     "launch": {
       "0": {
-        "config": {
-          "osarch": "64",
-          "oslist": "windows"
-        },
-        "executable": "Carpenter.exe",
-        "type": "default"
-      },
-      "1": {
         "arguments": "-force-d3d11",
         "config": {
           "osarch": "64",
           "oslist": "windows"
         },
-        "description": "Silver Pines (DirectX 11)",
+        "description": "Silver Pines - DirectX 11 (Recommended)",
         "description_loc": {
-          "english": "Silver Pines (DirectX 11)"
+          "english": "Silver Pines - DirectX 11 (Recommended)"
         },
         "executable": "Carpenter.exe",
         "type": "option1"
+      },
+      "1": {
+        "arguments": "-force-d3d12",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Silver Pines - DirectX 12",
+        "description_loc": {
+          "english": "Silver Pines - DirectX 12"
+        },
+        "executable": "Carpenter.exe",
+        "type": "option2"
       }
     }
   },
@@ -372,9 +437,9 @@
     "2333001": {
       "manifests": {
         "public": {
-          "download": "2521588928",
-          "gid": "8784396639484429591",
-          "size": "3848425448"
+          "download": "2674952512",
+          "gid": "7642143874526224503",
+          "size": "4003630298"
         }
       }
     },
@@ -396,9 +461,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "25964535",
-        "timebuildupdated": "1792080131",
-        "timeupdated": "1792150223"
+        "buildid": "26489514",
+        "timebuildupdated": "1793982617",
+        "timeupdated": "1793982617"
       }
     },
     "privatebranches": "1"
