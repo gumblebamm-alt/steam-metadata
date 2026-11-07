@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793734372,
+  "_lastChecked": 1794073583,
   "_history": [
     {
       "buildId": "26408602",
@@ -18,12 +18,30 @@
           "download": 83637632
         }
       }
+    },
+    {
+      "buildId": "26487906",
+      "branch": "public",
+      "timeUpdated": 1793978114,
+      "firstSeen": 1794073583,
+      "manifests": {
+        "4990681": {
+          "gid": "270443951210112135",
+          "size": 160077277,
+          "download": 74917056
+        },
+        "4990682": {
+          "gid": "9201631620092322001",
+          "size": 178923372,
+          "download": 83637632
+        }
+      }
     }
   ],
-  "_change_number": 40561094,
+  "_change_number": 40673845,
   "_missing_token": false,
-  "_sha": "a2486f520de255f219b74fd3ce9e89b4a4b8d463",
-  "_size": 5433,
+  "_sha": "a5542198e466f17de23fedb4a93e1f1e509e66e5",
+  "_size": 4905,
   "appid": "4990680",
   "common": {
     "associations": {
@@ -184,9 +202,9 @@
       },
       "manifests": {
         "public": {
-          "download": "74866096",
-          "gid": "773941025521177740",
-          "size": "159987270"
+          "download": "74917056",
+          "gid": "270443951210112135",
+          "size": "160077277"
         }
       }
     },
@@ -204,9 +222,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "26408602",
-        "timebuildupdated": "1793718138",
-        "timeupdated": "1793733035"
+        "buildid": "26487906",
+        "timebuildupdated": "1793978114",
+        "timeupdated": "1793978114"
       }
     },
     "nocommonredists": "1",
@@ -222,63 +240,34 @@
     "quota": "50000000",
     "rootoverrides": {
       "0": {
-        "addpath": "",
-        "os": "Windows",
+        "os": "MacOS",
         "oscompare": "=",
-        "root": "gameinstall",
-        "useinstead": "gameinstall"
+        "pathtransforms": {
+          "0": {
+            "find": "Zero Task/Terminidle",
+            "replace": "unity.Zero Task.Terminidle"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
       }
     },
     "savefiles": {
       "0": {
         "path": "Zero Task/Terminidle",
         "pattern": "terminidle_save*\t",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocalLow"
       },
       "1": {
         "path": "Zero Task/Terminidle",
         "pattern": "terminidle_slots*\t",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocalLow"
       },
       "2": {
         "path": "Zero Task/Terminidle",
         "pattern": "scripts*",
-        "platforms": {
-          "1": "Windows"
-        },
         "recursive": "1",
         "root": "WinAppDataLocalLow"
-      },
-      "3": {
-        "path": "unity.Zero Task.Terminidle",
-        "pattern": "terminidle_save*",
-        "platforms": {
-          "1": "MacOS"
-        },
-        "root": "MacAppSupport"
-      },
-      "4": {
-        "path": "unity.Zero Task.Terminidle",
-        "pattern": "terminidle_slots*",
-        "platforms": {
-          "1": "MacOS"
-        },
-        "root": "MacAppSupport"
-      },
-      "5": {
-        "path": "unity.Zero Task.Terminidle",
-        "pattern": "scripts*",
-        "platforms": {
-          "1": "MacOS"
-        },
-        "recursive": "1",
-        "root": "MacAppSupport"
       }
     }
   }

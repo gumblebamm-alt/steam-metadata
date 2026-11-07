@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793908653,
-  "_history": [],
-  "_change_number": 40642282,
-  "_missing_token": true,
-  "_sha": "0e020dbaf6291bcd10a535536dad70e057c77c5d",
-  "_size": 2966,
+  "_lastChecked": 1794073580,
+  "_history": [
+    {
+      "buildId": "26501957",
+      "branch": "public",
+      "timeUpdated": 1794033125,
+      "firstSeen": 1794073580,
+      "manifests": {
+        "4795821": {
+          "gid": "2932473362305745622",
+          "size": 1317094913,
+          "download": 1185180544
+        },
+        "4795822": {
+          "gid": "8233035315996460951",
+          "size": 1331842515,
+          "download": 1191181872
+        },
+        "4795823": {
+          "gid": "8454296173549234153",
+          "size": 1635127910,
+          "download": 1310451472
+        }
+      }
+    }
+  ],
+  "_change_number": 40702945,
+  "_missing_token": false,
+  "_sha": "6fc25341d4b5f2f1e1dfd9372441f922183b2442",
+  "_size": 5036,
   "appid": "4795820",
   "common": {
     "associations": {
@@ -23,8 +47,9 @@
       "category_23": "1",
       "category_62": "1"
     },
-    "clienticon": "c5f6ef076d0c394aad562f9a1484dbc5535a653b",
+    "clienticon": "01f8a3f4369982c7ff3eecc9cefc89491c041fe9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -32,7 +57,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4795820",
     "genres": {
       "0": "3",
@@ -41,7 +65,7 @@
     "header_image": {
       "english": "9f60981088a08908182437c7015c047196cbcd25/header.jpg"
     },
-    "icon": "c5f6ef076d0c394aad562f9a1484dbc5535a653b",
+    "icon": "01f8a3f4369982c7ff3eecc9cefc89491c041fe9",
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -101,10 +125,10 @@
     "name": "夜航船",
     "osarch": "",
     "oscpu": "",
-    "osextended": "",
+    "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b0edb3664d7268ec1b7082a3fd95ec74369dc117/capsule_231x87.jpg"
     },
@@ -131,5 +155,116 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Night_Voyage",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "NightBoat.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "NightBoat.app/Contents/MacOS/NightBoat",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "NightBoat.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4795821": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1185180544",
+          "gid": "2932473362305745622",
+          "size": "1317094913"
+        }
+      }
+    },
+    "4795822": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1191181872",
+          "gid": "8233035315996460951",
+          "size": "1331842515"
+        }
+      }
+    },
+    "4795823": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1310451472",
+          "gid": "8454296173549234153",
+          "size": "1635127910"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "26501957",
+        "timebuildupdated": "1794033124",
+        "timeupdated": "1794033125"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "樱野悠",
+    "publisher": "悠悠球工作室"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "RenPy/YuYuball_NightBoat",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "addpath": "/Library/RenPy/YuYuball_NightBoat",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "MacHome"
+      },
+      "2": {
+        "addpath": ".renpy/YuYuball_NightBoat",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

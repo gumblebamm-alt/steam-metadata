@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793861049,
+  "_lastChecked": 1794073564,
   "_history": [
     {
       "buildId": "13225820",
@@ -122,6 +122,54 @@
           "gid": "5834287739340772479",
           "size": 145077239,
           "download": 145604736
+        }
+      }
+    },
+    {
+      "buildId": "26508278",
+      "branch": "testing-unstable",
+      "timeUpdated": 1794068617,
+      "firstSeen": 1794073564,
+      "manifests": {
+        "340961": {
+          "gid": "4704590227913973876",
+          "size": 2994644392,
+          "download": 2947841264
+        },
+        "340962": {
+          "gid": "3513715930934047516",
+          "size": 2994226789,
+          "download": 2948994560
+        },
+        "370370": {
+          "gid": "1066573311215847173",
+          "size": 290893358,
+          "download": 289719312
+        },
+        "370371": {
+          "gid": "2394700852034085767",
+          "size": 260633735,
+          "download": 260396688
+        },
+        "370372": {
+          "gid": "3614077439159332304",
+          "size": 1927,
+          "download": 1616
+        },
+        "370373": {
+          "gid": "5685289409049617998",
+          "size": 5130732,
+          "download": 4773632
+        },
+        "370380": {
+          "gid": "5532573394023286277",
+          "size": 291546846,
+          "download": 291370592
+        },
+        "370382": {
+          "gid": "4821097007172494630",
+          "size": 1261228222,
+          "download": 1260167248
         }
       }
     },
@@ -255,19 +303,19 @@
       }
     }
   ],
-  "_change_number": 40616814,
+  "_change_number": 40706226,
   "_missing_token": false,
-  "_sha": "feedf4adc568f399fafe1ccbfd1be0e4423a024e",
-  "_size": 10051,
+  "_sha": "c443da944bd9d1d6c83b2ba91af4e2d10252b519",
+  "_size": 11088,
   "appid": "340960",
   "common": {
     "associations": {
       "0": {
-        "name": "4-Panel Footprint",
+        "name": "Kevin Ghadyani",
         "type": "developer"
       },
       "1": {
-        "name": "4-Panel Footprint",
+        "name": "Kevin Ghadyani",
         "type": "publisher"
       }
     },
@@ -280,8 +328,10 @@
       "category_24": "1",
       "category_28": "1",
       "category_32": "1",
+      "category_36": "1",
       "category_37": "1",
       "category_44": "1",
+      "category_47": "1",
       "category_49": "1",
       "category_62": "1"
     },
@@ -458,6 +508,13 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "testing-unstable",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "contenttype": "3",
     "installdir": "Pulsen",
     "launch": {
@@ -475,8 +532,36 @@
         },
         "description": "Editor",
         "executable": "Program\\run_editor_from_steam.cmd"
+      },
+      "2": {
+        "config": {
+          "betakey": "testing-unstable",
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "pulsen",
+        "type": "default"
+      },
+      "3": {
+        "config": {
+          "betakey": "testing-unstable",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Pulsen (no console trial)",
+        "description_loc": {
+          "english": "Pulsen (no console trial)"
+        },
+        "executable": "Program\\Pulsen.exe",
+        "type": "option1"
       }
-    }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "228984": {
@@ -515,9 +600,22 @@
           "size": "704628862"
         },
         "testing-unstable": {
-          "download": "2484680272",
-          "gid": "5601593787041780344",
-          "size": "2650411577"
+          "download": "2947841264",
+          "gid": "4704590227913973876",
+          "size": "2994644392"
+        }
+      }
+    },
+    "340962": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "testing-unstable": {
+          "download": "2948994560",
+          "gid": "3513715930934047516",
+          "size": "2994226789"
         }
       }
     },
@@ -540,9 +638,9 @@
           "size": "47890926"
         },
         "testing-unstable": {
-          "download": "261423488",
-          "gid": "6570393118473930581",
-          "size": "263419421"
+          "download": "289719312",
+          "gid": "1066573311215847173",
+          "size": "290893358"
         }
       }
     },
@@ -565,9 +663,9 @@
           "size": "44064855"
         },
         "testing-unstable": {
-          "download": "232501824",
-          "gid": "5175501760447490877",
-          "size": "233073784"
+          "download": "260396688",
+          "gid": "2394700852034085767",
+          "size": "260633735"
         }
       }
     },
@@ -638,9 +736,9 @@
           "size": "51365687"
         },
         "testing-unstable": {
-          "download": "240248576",
-          "gid": "4111515971038671818",
-          "size": "240862568"
+          "download": "291370592",
+          "gid": "5532573394023286277",
+          "size": "291546846"
         }
       }
     },
@@ -663,9 +761,9 @@
           "size": "145077239"
         },
         "testing-unstable": {
-          "download": "659365712",
-          "gid": "3922948275352165616",
-          "size": "720744665"
+          "download": "1260167248",
+          "gid": "4821097007172494630",
+          "size": "1261228222"
         }
       }
     },
@@ -690,19 +788,19 @@
         "timeupdated": "1705734314"
       },
       "testing-unstable": {
-        "buildid": "26450440",
+        "buildid": "26508278",
         "description": "Bleeding edge; all the new stuff, songs, etc",
-        "timebuildupdated": "1793855583",
-        "timeupdated": "1793855583"
+        "timebuildupdated": "1794068617",
+        "timeupdated": "1794068617"
       }
     }
   },
   "extended": {
-    "developer": "4-Panel Footprint",
+    "developer": "Kevin Ghadyani",
     "dlcavailableonstore": "1",
     "gamedir": "",
     "listofdlc": "370370,370371",
-    "publisher": "4-Panel Footprint"
+    "publisher": "Kevin Ghadyani"
   },
   "ufs": {
     "maxnumfiles": "1",

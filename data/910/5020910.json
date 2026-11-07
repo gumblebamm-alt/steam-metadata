@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1793908659,
-  "_history": [],
-  "_change_number": 40643434,
-  "_missing_token": true,
-  "_sha": "efc369bbb63289cc1428ca0c2aa656a9c8239f0c",
-  "_size": 2990,
+  "_lastChecked": 1794073584,
+  "_history": [
+    {
+      "buildId": "25627317",
+      "branch": "depot-split-test",
+      "timeUpdated": 1790770272,
+      "firstSeen": 1794073584,
+      "manifests": {
+        "5020911": {
+          "gid": "7714150256923034200",
+          "size": 194984428,
+          "download": 113037696
+        },
+        "5020912": {
+          "gid": "2626881417744194634",
+          "size": 160033292,
+          "download": 104586208
+        },
+        "5020913": {
+          "gid": "3586691585766743896",
+          "size": 258979811,
+          "download": 132435888
+        }
+      }
+    },
+    {
+      "buildId": "26504330",
+      "branch": "public",
+      "timeUpdated": 1794048032,
+      "firstSeen": 1794073584,
+      "manifests": {
+        "5020911": {
+          "gid": "8587298950259180179",
+          "size": 197244904,
+          "download": 115157760
+        },
+        "5020912": {
+          "gid": "3761719995101921005",
+          "size": 162293768,
+          "download": 106725280
+        },
+        "5020913": {
+          "gid": "2932535470377151899",
+          "size": 261240287,
+          "download": 134574960
+        }
+      }
+    }
+  ],
+  "_change_number": 40699814,
+  "_missing_token": false,
+  "_sha": "6fa87b7b22178c2b8445a1709654287d98b3905f",
+  "_size": 6911,
   "appid": "5020910",
   "common": {
     "aicontenttype": "1",
@@ -28,8 +75,8 @@
     },
     "clienticon": "fee989cbc0258d49ccafd1eb2b74314c8beaf550",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5020910",
     "genres": {
       "0": "3",
@@ -100,10 +147,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6007b7134b5c5210b79ab489061aed8352e1e88b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1793907371",
     "store_tags": {
       "0": "24003",
@@ -134,5 +182,177 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Spellk",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "windows/Spellk.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "linux/Spellk.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "macos/Spellk.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5020911": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "depot-split-test": {
+          "download": "113037696",
+          "gid": "7714150256923034200",
+          "size": "194984428"
+        },
+        "public": {
+          "download": "115157760",
+          "gid": "8587298950259180179",
+          "size": "197244904"
+        }
+      }
+    },
+    "5020912": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "depot-split-test": {
+          "download": "104586208",
+          "gid": "2626881417744194634",
+          "size": "160033292"
+        },
+        "public": {
+          "download": "106725280",
+          "gid": "3761719995101921005",
+          "size": "162293768"
+        }
+      }
+    },
+    "5020913": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "depot-split-test": {
+          "download": "132435888",
+          "gid": "3586691585766743896",
+          "size": "258979811"
+        },
+        "public": {
+          "download": "134574960",
+          "gid": "2932535470377151899",
+          "size": "261240287"
+        }
+      }
+    },
+    "branches": {
+      "depot-split-test": {
+        "buildid": "25627317",
+        "description": "OS depot split candidate; live game content unchanged",
+        "timebuildupdated": "1790770272",
+        "timeupdated": "1790770272"
+      },
+      "public": {
+        "buildid": "26504330",
+        "timebuildupdated": "1794047785",
+        "timeupdated": "1794048032"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "bascorp",
+    "publisher": "bascorp"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "32",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Spellk/steam/{64BitSteamID}",
+            "replace": "godot/app_userdata/Spellk/steam/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Spellk/steam/{64BitSteamID}",
+            "replace": "Godot/app_userdata/Spellk/steam/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Spellk/steam/{64BitSteamID}",
+        "pattern": "spellk_save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Spellk/steam/{64BitSteamID}",
+        "pattern": "spellk_save.json.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Spellk/steam/{64BitSteamID}",
+        "pattern": "spellk_story_progress.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Spellk/steam/{64BitSteamID}",
+        "pattern": "spellk_story_progress.json.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Spellk/steam/{64BitSteamID}",
+        "pattern": "spellk_achievements.json",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Godot/app_userdata/Spellk/steam/{64BitSteamID}",
+        "pattern": "spellk_achievements.json.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Godot/app_userdata/Spellk/steam/{64BitSteamID}",
+        "pattern": "spellk_settings.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "7": {
+        "path": "Godot/app_userdata/Spellk/steam/{64BitSteamID}",
+        "pattern": "profile_initialized.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

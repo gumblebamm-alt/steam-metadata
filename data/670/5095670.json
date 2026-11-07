@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1793993066,
+  "_lastChecked": 1794073586,
   "_history": [
+    {
+      "buildId": "26506040",
+      "branch": "public",
+      "timeUpdated": 1794057305,
+      "firstSeen": 1794073586,
+      "manifests": {
+        "5095671": {
+          "gid": "4181903946106785786",
+          "size": 1807847188,
+          "download": 1639775872
+        },
+        "5095672": {
+          "gid": "966769760205445465",
+          "size": 1874938932,
+          "download": 1635768240
+        }
+      }
+    },
     {
       "buildId": "26489770",
       "branch": "public",
@@ -52,25 +70,12 @@
           "download": 832805552
         }
       }
-    },
-    {
-      "buildId": "26129336",
-      "branch": "public",
-      "timeUpdated": 1792660695,
-      "firstSeen": 1792689417,
-      "manifests": {
-        "5095671": {
-          "gid": "2624278404615178686",
-          "size": 964872412,
-          "download": 803979968
-        }
-      }
     }
   ],
-  "_change_number": 40677546,
+  "_change_number": 40702808,
   "_missing_token": false,
-  "_sha": "0113394a7089d258e0f7d938a8dadcce96aead37",
-  "_size": 4608,
+  "_sha": "ea1810937a75ce169830edd1108522cdc6348a27",
+  "_size": 5275,
   "appid": "5095670",
   "common": {
     "aicontenttype": "1",
@@ -173,6 +178,7 @@
     "small_capsule": {
       "english": "dd33dea2998f405e1b6c247f1cc07cdc4865a8ae/capsule_231x87.jpg"
     },
+    "steam_deck_blog_url": "https://steamcommunity.com/games/5095670/announcements/detail/705536268691308590",
     "steam_release_date": "1790017024",
     "store_asset_mtime": "1793701015",
     "store_tags": {
@@ -237,9 +243,21 @@
     "installdir": "Chip Builder",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "ChipBuilder.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "ChipBuilder.sh"
       }
-    }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "SteamInput/steam_input_manifest.vdf"
   },
   "depots": {
     "228989": {
@@ -257,6 +275,9 @@
       "sharedinstall": "1"
     },
     "5095671": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "download": "1639775872",
@@ -265,13 +286,26 @@
         }
       }
     },
+    "5095672": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1635768240",
+          "gid": "966769760205445465",
+          "size": "1874938932"
+        }
+      }
+    },
     "branches": {
       "public": {
-        "buildid": "26489770",
-        "timebuildupdated": "1793983308",
-        "timeupdated": "1793984028"
+        "buildid": "26506040",
+        "timebuildupdated": "1794056943",
+        "timeupdated": "1794057305"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Laurentiu Raducu",

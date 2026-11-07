@@ -1,6 +1,19 @@
 {
-  "_lastChecked": 1793688496,
+  "_lastChecked": 1794073588,
   "_history": [
+    {
+      "buildId": "26505585",
+      "branch": "public",
+      "timeUpdated": 1794055113,
+      "firstSeen": 1794073588,
+      "manifests": {
+        "5228391": {
+          "gid": "626585874623927976",
+          "size": 2996211680,
+          "download": 2785443584
+        }
+      }
+    },
     {
       "buildId": "26363089",
       "branch": "public",
@@ -53,25 +66,12 @@
           "download": 1919261232
         }
       }
-    },
-    {
-      "buildId": "26137817",
-      "branch": "public",
-      "timeUpdated": 1792684689,
-      "firstSeen": 1792689422,
-      "manifests": {
-        "5228391": {
-          "gid": "9193530016527037630",
-          "size": 1909967896,
-          "download": 1739693760
-        }
-      }
     }
   ],
-  "_change_number": 40483255,
+  "_change_number": 40701915,
   "_missing_token": false,
-  "_sha": "69c7147b8474317ffc9597c8696f4cba45655abf",
-  "_size": 5604,
+  "_sha": "13fbb044b04145c9d983ab39ae49c02b90666481",
+  "_size": 5733,
   "appid": "5228390",
   "common": {
     "aicontenttype": "1",
@@ -89,7 +89,9 @@
       "category_1": "1",
       "category_18": "1",
       "category_2": "1",
+      "category_23": "1",
       "category_24": "1",
+      "category_30": "1",
       "category_37": "1",
       "category_49": "1",
       "category_62": "1",
@@ -218,6 +220,12 @@
       "french": {
         "supported": "true"
       },
+      "german": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
       "spanish": {
         "supported": "true"
       }
@@ -240,17 +248,17 @@
     "5228391": {
       "manifests": {
         "public": {
-          "download": "2532655872",
-          "gid": "8428758935798144076",
-          "size": "2737591646"
+          "download": "2785443584",
+          "gid": "626585874623927976",
+          "size": "2996211680"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26363089",
-        "timebuildupdated": "1793551849",
-        "timeupdated": "1793552277"
+        "buildid": "26505585",
+        "timebuildupdated": "1794054695",
+        "timeupdated": "1794055113"
       }
     },
     "workshopdepot": "5228390"
@@ -281,19 +289,18 @@
       },
       "3": {
         "path": "Personal Computer Soccer/pcs_editor",
-        "pattern": "*",
-        "recursive": "1",
-        "root": "WinAppDataRoaming"
-      },
-      "4": {
-        "path": "Personal Computer Soccer/pcs_patches",
-        "pattern": "*",
-        "recursive": "1",
+        "pattern": "*.json",
         "root": "WinAppDataRoaming"
       },
       "5": {
         "path": "Personal Computer Soccer",
         "pattern": "manager_careers*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "7": {
+        "path": "Personal Computer Soccer/pcs_editor/data",
+        "pattern": "*.json",
+        "recursive": "1",
         "root": "WinAppDataRoaming"
       }
     }
