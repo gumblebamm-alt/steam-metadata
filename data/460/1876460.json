@@ -1,6 +1,19 @@
 {
-  "_lastChecked": 1791679436,
+  "_lastChecked": 1794031052,
   "_history": [
+    {
+      "buildId": "25876929",
+      "branch": "public",
+      "timeUpdated": 1791790127,
+      "firstSeen": 1794031052,
+      "manifests": {
+        "1876463": {
+          "gid": "6201946995023696192",
+          "size": 1693172713,
+          "download": 551194784
+        }
+      }
+    },
     {
       "buildId": "25850550",
       "branch": "public",
@@ -54,19 +67,6 @@
       }
     },
     {
-      "buildId": "25164944",
-      "branch": "public",
-      "timeUpdated": 1788776031,
-      "firstSeen": 1788780768,
-      "manifests": {
-        "1876463": {
-          "gid": "3816226173834484633",
-          "size": 1687054582,
-          "download": 545890624
-        }
-      }
-    },
-    {
       "buildId": "22767130",
       "branch": "reboot",
       "timeUpdated": 1776099168,
@@ -80,10 +80,10 @@
       }
     }
   ],
-  "_change_number": 39693186,
+  "_change_number": 40577023,
   "_missing_token": false,
-  "_sha": "50578d6f1a9170fd5959b8c6581faa63e41e1c24",
-  "_size": 6449,
+  "_sha": "ba43b3f61478f3e050a1ffb5134b42f021c300c6",
+  "_size": 7181,
   "appid": "1876460",
   "common": {
     "associations": {
@@ -203,8 +203,8 @@
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
         "non_deck_display_glyphs": "1",
-        "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-stable",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-11.0-3RC",
         "requires_h264": "1",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -219,13 +219,17 @@
       "steam_machine_tests": {
         "0": {
           "display": "3",
-          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
         },
         "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "2": {
           "display": "4",
           "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
         },
-        "2": {
+        "3": {
           "display": "4",
           "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
         }
@@ -235,26 +239,42 @@
         "0": {
           "display": "3",
           "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
-      "test_timestamp": "1789414219",
-      "tested_build_id": "25230046",
+      "test_timestamp": "1793729376",
+      "tested_build_id": "25876929",
       "tests": {
         "0": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
         },
         "1": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
         },
         "2": {
-          "display": "4",
-          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
         },
         "3": {
           "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "5": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       }
     },
@@ -329,7 +349,10 @@
       "0": {
         "executable": "SaltyHounds.exe"
       }
-    }
+    },
+    "steamconfigurator3rdpartynative": "4",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "1876462": {
@@ -343,18 +366,18 @@
       },
       "manifests": {
         "public": {
-          "download": "551187328",
-          "gid": "3603027646289652420",
-          "size": "1692935849"
+          "download": "551194784",
+          "gid": "6201946995023696192",
+          "size": "1693172713"
         }
       }
     },
     "baselanguages": "english,koreana",
     "branches": {
       "public": {
-        "buildid": "25850550",
-        "timebuildupdated": "1791640206",
-        "timeupdated": "1791640349"
+        "buildid": "25876929",
+        "timebuildupdated": "1791790028",
+        "timeupdated": "1791790127"
       }
     }
   },

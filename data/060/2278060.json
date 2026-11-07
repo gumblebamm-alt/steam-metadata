@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793947306,
-  "_history": [],
-  "_change_number": 40657539,
-  "_missing_token": true,
-  "_sha": "8b55c23a00f71c2b73d63bd17b5728e54100eec6",
-  "_size": 3191,
+  "_lastChecked": 1794031052,
+  "_history": [
+    {
+      "buildId": "26477014",
+      "branch": "public",
+      "timeUpdated": 1793943494,
+      "firstSeen": 1794031052,
+      "manifests": {
+        "2278061": {
+          "gid": "2231499788939873342",
+          "size": 473025902,
+          "download": 274756464
+        },
+        "2278062": {
+          "gid": "378034367165343336",
+          "size": 449473782,
+          "download": 244555424
+        },
+        "2278063": {
+          "gid": "8509154939180473738",
+          "size": 481406243,
+          "download": 263600944
+        }
+      }
+    }
+  ],
+  "_change_number": 40683026,
+  "_missing_token": false,
+  "_sha": "08387f6b4e9454876e2255c048ce74b88df91580",
+  "_size": 5243,
   "appid": "2278060",
   "common": {
     "aicontenttype": "1",
@@ -35,8 +59,8 @@
     "clienticon": "745514cffcb0c33d0476990c0dfc69894c02345d",
     "clienttga": "04901b68db70e153201ba5bd34ae967c3d42843c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2278060",
     "genres": {
       "0": "4",
@@ -108,10 +132,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cd94ead77e41c16277c1b7f9942c90ccad9c8733/capsule_231x87.jpg"
     },
+    "steam_release_date": "1793995372",
     "store_asset_mtime": "1793051601",
     "store_tags": {
       "0": "9",
@@ -138,5 +163,115 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Timepaths",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Timepaths.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Timepaths.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Timepaths.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2278061": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "274756464",
+          "gid": "2231499788939873342",
+          "size": "473025902"
+        }
+      }
+    },
+    "2278062": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "244555424",
+          "gid": "378034367165343336",
+          "size": "449473782"
+        }
+      }
+    },
+    "2278063": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "263600944",
+          "gid": "8509154939180473738",
+          "size": "481406243"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26477014",
+        "timebuildupdated": "1793943472",
+        "timeupdated": "1793943494"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "2278060"
+  },
+  "extended": {
+    "developer": "Cody Suthers",
+    "homepage": "https://deluxiastudios.com/",
+    "publisher": "Cody Suthers"
+  },
+  "ufs": {
+    "maxnumfiles": "600",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Deluxia Studios/Timepaths/S_{64BitSteamID}",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

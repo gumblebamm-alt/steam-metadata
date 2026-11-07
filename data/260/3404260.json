@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790728748,
+  "_lastChecked": 1794031057,
   "_history": [
     {
       "buildId": "24891433",
@@ -39,12 +39,25 @@
           "download": 6682405376
         }
       }
+    },
+    {
+      "buildId": "26426937",
+      "branch": "public",
+      "timeUpdated": 1793811857,
+      "firstSeen": 1794031057,
+      "manifests": {
+        "3404261": {
+          "gid": "3161013039531113270",
+          "size": 7751041587,
+          "download": 6917420960
+        }
+      }
     }
   ],
-  "_change_number": 39313710,
+  "_change_number": 40661770,
   "_missing_token": false,
-  "_sha": "b396ac4ad1c401fae5c17cdb0e893e90bc27a5c8",
-  "_size": 8393,
+  "_sha": "68ebf047e28f3c5067243296c53515ab277f8817",
+  "_size": 9376,
   "appid": "3404260",
   "common": {
     "associations": {
@@ -254,6 +267,36 @@
         }
       }
     },
+    "steam_frame_compatibility": {
+      "category": "1",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "1",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1793109809",
+      "tested_build_id": "25902913",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamFrame_TestResult_UnsupportedGraphicsPerformance"
+        }
+      }
+    },
     "steam_release_date": "1777993434",
     "store_asset_mtime": "1790698429",
     "store_tags": {
@@ -266,8 +309,8 @@
       "14": "29482",
       "15": "4305",
       "16": "7481",
-      "17": "4252",
-      "18": "4085",
+      "17": "4085",
+      "18": "4252",
       "19": "5154",
       "2": "4777",
       "3": "1646",
@@ -357,22 +400,29 @@
     "3404261": {
       "manifests": {
         "public": {
-          "download": "6682405376",
-          "gid": "1637143455305817097",
-          "size": "7555740034"
+          "download": "6917420960",
+          "gid": "3161013039531113270",
+          "size": "7751041587"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25586419",
-        "timebuildupdated": "1790624273",
-        "timeupdated": "1790697663"
+        "buildid": "26426937",
+        "timebuildupdated": "1793782169",
+        "timeupdated": "1793811857"
       }
     },
     "privatebranches": "1"
   },
   "extended": {
+    "additional_dependencies": {
+      "0": {
+        "dest_os": "linux",
+        "h264": "1",
+        "src_os": "windows"
+      }
+    },
     "developer": "Brain Jar Games, Inc.",
     "homepage": "https://deadasdisco.com/",
     "publisher": "Brain Jar Games, Inc."

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791138121,
+  "_lastChecked": 1794031058,
   "_history": [
     {
       "buildId": "25094431",
@@ -93,12 +93,35 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26289137",
+      "branch": "public",
+      "timeUpdated": 1793249668,
+      "firstSeen": 1794031058,
+      "manifests": {
+        "3602871": {
+          "gid": "1865877672531998286",
+          "size": 1744766882,
+          "download": 678274688
+        },
+        "3602872": {
+          "gid": "4313117137731248333",
+          "size": 1742329777,
+          "download": 676507072
+        },
+        "3602873": {
+          "gid": "8124639715913037432",
+          "size": 1761401632,
+          "download": 685930384
+        }
+      }
     }
   ],
-  "_change_number": 39410775,
+  "_change_number": 40368400,
   "_missing_token": false,
-  "_sha": "e3c10f9a4cba57f0081300d77d2af77549dd24b9",
-  "_size": 4730,
+  "_sha": "e0155ad12451cb33d99b764c1c927b990d105b78",
+  "_size": 5655,
   "appid": "3602870",
   "common": {
     "associations": {
@@ -278,9 +301,9 @@
       },
       "manifests": {
         "public": {
-          "download": "666498464",
-          "gid": "6829442191520447712",
-          "size": "1730881959"
+          "download": "678274688",
+          "gid": "1865877672531998286",
+          "size": "1744766882"
         }
       }
     },
@@ -290,9 +313,9 @@
       },
       "manifests": {
         "public": {
-          "download": "664650960",
-          "gid": "3119883891211236374",
-          "size": "1728331308"
+          "download": "676507072",
+          "gid": "4313117137731248333",
+          "size": "1742329777"
         }
       }
     },
@@ -302,18 +325,18 @@
       },
       "manifests": {
         "public": {
-          "download": "672956288",
-          "gid": "4807795052141152216",
-          "size": "1747401269"
+          "download": "685930384",
+          "gid": "8124639715913037432",
+          "size": "1761401632"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25669791",
-        "timebuildupdated": "1790918357",
-        "timeupdated": "1790918357"
+        "buildid": "26289137",
+        "timebuildupdated": "1793249141",
+        "timeupdated": "1793249668"
       }
     },
     "privatebranches": "1"
@@ -321,5 +344,47 @@
   "extended": {
     "developer": "Daisy Chain Games Inc.",
     "publisher": "Daisy Chain Games Inc."
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Daisy Chain Games/Slipstream",
+            "replace": "unity.Daisy Chain Games.Slipstream"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Daisy Chain Games/Slipstream",
+            "replace": ".config/unity3d/Daisy Chain Games/Slipstream"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Daisy Chain Games/Slipstream",
+        "pattern": "grand_prix_records.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Daisy Chain Games/Slipstream",
+        "pattern": "records.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

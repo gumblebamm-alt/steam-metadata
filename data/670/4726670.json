@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793298796,
-  "_history": [],
-  "_change_number": 40386781,
-  "_missing_token": true,
-  "_sha": "6b9fcde69134530018168630ff1704d3dd20c60a",
-  "_size": 3429,
+  "_lastChecked": 1794031068,
+  "_history": [
+    {
+      "buildId": "26398990",
+      "branch": "public",
+      "timeUpdated": 1794005426,
+      "firstSeen": 1794031068,
+      "manifests": {
+        "4726671": {
+          "gid": "2220199368424280386",
+          "size": 6676310292,
+          "download": 3897524032
+        },
+        "4726672": {
+          "gid": "3571297476646663763",
+          "size": 6932691867,
+          "download": 3969685936
+        }
+      }
+    }
+  ],
+  "_change_number": 40687341,
+  "_missing_token": false,
+  "_sha": "070975638f43365c18409e64f8e773d8a09afd0f",
+  "_size": 5104,
   "appid": "4726670",
   "common": {
     "aicontenttype": "1",
@@ -36,9 +55,9 @@
     "clienticns": "3e7b59941ec1919d1614a17e941acf1bd27c7f53",
     "clienticon": "3e7b59941ec1919d1614a17e941acf1bd27c7f53",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4726670",
     "genres": {
       "0": "1",
@@ -113,7 +132,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b14bde9dc8882f00644f96cf81c9eb1eed543996/capsule_231x87.jpg"
     },
@@ -148,5 +167,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Direlands Extraction",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DirelandsExtraction.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "DirelandsExtraction.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4726671": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3897524032",
+          "gid": "2220199368424280386",
+          "size": "6676310292"
+        }
+      }
+    },
+    "4726672": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "3969685936",
+          "gid": "3571297476646663763",
+          "size": "6932691867"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26398990",
+        "timebuildupdated": "1793686387",
+        "timeupdated": "1794005426"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Milk Barf Games",
+    "homepage": "https://milkbarf.com/games/direlands-extraction",
+    "publisher": "Milk Barf Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "64",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Milk Barf Games/Direlands_ Extraction/profiles/{64BitSteamID}",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacAppSupport"
+      },
+      "1": {
+        "path": "Milk Barf Games/Direlands_ Extraction/profiles/{64BitSteamID}",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793688498,
+  "_lastChecked": 1794031072,
   "_history": [
     {
       "buildId": "25269001",
@@ -54,24 +54,34 @@
       }
     },
     {
-      "buildId": "",
+      "buildId": "26493467",
       "branch": "public",
-      "timeUpdated": 1793653428,
+      "timeUpdated": 1794004759,
       "firstSeen": 1793688427,
       "manifests": {
         "5028711": {
           "gid": "3051930296849424951",
           "size": null,
           "download": null
+        },
+        "5028712": {
+          "gid": "6481963670545280645",
+          "size": 475528071,
+          "download": 212418864
+        },
+        "5028713": {
+          "gid": "9104841160818534764",
+          "size": 497207252,
+          "download": 223954080
         }
       },
       "_source": "hubcap"
     }
   ],
-  "_change_number": 40392632,
+  "_change_number": 40687180,
   "_missing_token": false,
-  "_sha": "595146d28f41e7a3c22dab2f3cd21892f8764140",
-  "_size": 4459,
+  "_sha": "36285fe49848ba070a67ceb57b8714a4ea5da471",
+  "_size": 5427,
   "appid": "5028710",
   "common": {
     "aicontenttype": "1",
@@ -247,26 +257,67 @@
           "oslist": "windows"
         },
         "executable": "NovaShift.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "NovaShift.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "NovaShift.app"
       }
     }
   },
   "depots": {
     "5028711": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "216346208",
-          "gid": "3051930296849424951",
-          "size": "491234365"
+          "download": "216749168",
+          "gid": "8397509823499064485",
+          "size": "492594637"
+        }
+      }
+    },
+    "5028712": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "212418864",
+          "gid": "6481963670545280645",
+          "size": "475528071"
+        }
+      }
+    },
+    "5028713": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "223954080",
+          "gid": "9104841160818534764",
+          "size": "497207252"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26281032",
-        "timebuildupdated": "1793218888",
-        "timeupdated": "1793295716"
+        "buildid": "26493467",
+        "timebuildupdated": "1793994756",
+        "timeupdated": "1794004759"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Candan26",
@@ -276,13 +327,26 @@
   "ufs": {
     "maxnumfiles": "10",
     "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": ".config/unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "NovaShift/NovaShift",
         "pattern": "save.json",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocalLow"
       }
     }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792945184,
-  "_history": [],
-  "_change_number": 40220618,
-  "_missing_token": true,
-  "_sha": "f6fd91e9fba7841bb754a288bc5b57e93431c70e",
-  "_size": 5302,
+  "_lastChecked": 1794031051,
+  "_history": [
+    {
+      "buildId": "26497758",
+      "branch": "public",
+      "timeUpdated": 1794010263,
+      "firstSeen": 1794031051,
+      "manifests": {
+        "1587921": {
+          "gid": "3996899930217872662",
+          "size": 4383401106,
+          "download": 1342059264
+        }
+      }
+    }
+  ],
+  "_change_number": 40690588,
+  "_missing_token": false,
+  "_sha": "43d7c842102f39a8a2c5b82c27b0278241d9bcc0",
+  "_size": 6769,
   "appid": "1587920",
   "common": {
     "associations": {
@@ -52,7 +66,6 @@
     "controllervr": {
       "steamvr": "1"
     },
-    "exfgls": "8",
     "gameid": "1587920",
     "genres": {
       "0": "1",
@@ -156,11 +169,12 @@
       "standing": "1"
     },
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d7739aa8a376b24d32e0a4cae8c2077976a05153/capsule_231x87.jpg",
       "schinese": "4898c1f9942403b1497f5047b0dd8d204c0f8432/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1794014120",
     "store_asset_mtime": "1792388009",
     "store_tags": {
       "0": "1659",
@@ -197,5 +211,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Undead Development 2",
+    "launch": {
+      "0": {
+        "arguments": "-disableVR",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "UD2.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-steamvr",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "UD2.exe",
+        "type": "openxr"
+      }
+    }
+  },
+  "depots": {
+    "1587921": {
+      "manifests": {
+        "public": {
+          "download": "1342059264",
+          "gid": "3996899930217872662",
+          "size": "4383401106"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "baselanguages": "english,russian,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26497758",
+        "timebuildupdated": "1794010195",
+        "timeupdated": "1794010263"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Masterstrike",
+    "publisher": "Masterstrike",
+    "vrheadsetstreaming": "1"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1073741824",
+    "savefiles": {
+      "0": {
+        "path": "Masterstrike LLC/UD2/UD2_Save/steam_{64BitSteamID}",
+        "pattern": "*.ud2",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Masterstrike LLC/UD2/UD2_Save/steam_{64BitSteamID}",
+        "pattern": "*.bac",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
