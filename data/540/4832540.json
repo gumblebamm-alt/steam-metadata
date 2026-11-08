@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793773149,
-  "_history": [],
-  "_change_number": 40516064,
-  "_missing_token": true,
-  "_sha": "ae448010d1800159d0f1a49b808bdb0adc1ea7ea",
-  "_size": 3613,
+  "_lastChecked": 1794117580,
+  "_history": [
+    {
+      "buildId": "26513607",
+      "branch": "public",
+      "timeUpdated": 1794096260,
+      "firstSeen": 1794117580,
+      "manifests": {
+        "4832541": {
+          "gid": "6077609904689527185",
+          "size": 2137781395,
+          "download": 1642620224
+        },
+        "4832542": {
+          "gid": "6405654805569509750",
+          "size": 2119463218,
+          "download": 1638061280
+        },
+        "4832543": {
+          "gid": "498356496367198438",
+          "size": 2284818572,
+          "download": 1683890160
+        }
+      }
+    }
+  ],
+  "_change_number": 40714458,
+  "_missing_token": false,
+  "_sha": "a92e9b7035532978d7e57dd3895c0a3b03db5347",
+  "_size": 6084,
   "appid": "4832540",
   "common": {
     "aicontenttype": "2",
@@ -45,8 +69,8 @@
     "clienticns": "ea036122f0abf2af9b32c1a1c89cbcb12e030dee",
     "clienticon": "fae3b4cf80886f68055b19dc7b9bd19e235ad5bc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4832540",
     "genres": {
       "0": "4",
@@ -125,10 +149,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8e5425a785b564e6c9747ca123095b99069aaab2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1793442680",
     "store_tags": {
       "0": "15045",
@@ -161,5 +186,137 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MultiScope ATC",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MultiScopeATC.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "MultiScopeATC.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MultiScopeATC.app"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4832541": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1642620224",
+          "gid": "6077609904689527185",
+          "size": "2137781395"
+        }
+      }
+    },
+    "4832542": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1638061280",
+          "gid": "6405654805569509750",
+          "size": "2119463218"
+        }
+      }
+    },
+    "4832543": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1683890160",
+          "gid": "498356496367198438",
+          "size": "2284818572"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26513607",
+        "timebuildupdated": "1794096198",
+        "timeupdated": "1794096260"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Scope Studios",
+    "homepage": "https://multiscopeatc.com",
+    "publisher": "Scope Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "save_",
+            "replace": "Library/Application Support/MultiScopeATC"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacHome"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "save_",
+            "replace": ".local/share/MultiScopeATC"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "MultiScopeATC",
+        "pattern": "save_*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "MultiScopeATC",
+        "pattern": "settings.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "MultiScopeATC",
+        "pattern": "career_*.json",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

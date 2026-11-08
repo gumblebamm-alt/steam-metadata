@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1793339311,
-  "_history": [],
-  "_change_number": 40398021,
-  "_missing_token": true,
-  "_sha": "0231ea7dfba8a39799f2cfdf971d49602a96d1f6",
-  "_size": 3106,
+  "_lastChecked": 1794117572,
+  "_history": [
+    {
+      "buildId": "26489723",
+      "branch": "public",
+      "timeUpdated": 1793983253,
+      "firstSeen": 1794117572,
+      "manifests": {
+        "3681221": {
+          "gid": "4869395884845183746",
+          "size": 6927533144,
+          "download": 610014480
+        },
+        "3681222": {
+          "gid": "2018898848302112170",
+          "size": 6947081592,
+          "download": 672091248
+        },
+        "3681223": {
+          "gid": "1627191980947873814",
+          "size": 10555444390,
+          "download": 668213968
+        },
+        "3681224": {
+          "gid": "3934817862216314977",
+          "size": 209033216,
+          "download": 66573024
+        }
+      }
+    }
+  ],
+  "_change_number": 40712600,
+  "_missing_token": false,
+  "_sha": "53690e417d550b9d72303588f0aba71ed6ecc6c2",
+  "_size": 4645,
   "appid": "3681220",
   "common": {
     "associations": {
@@ -31,6 +60,7 @@
     "clienticon": "e6bfdc7bb3f5f43decf9aa365c707be06b80cc9f",
     "clienttga": "6f365d8f3a8075b718c5b745ce606dd55b49967d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -38,7 +68,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3681220",
     "genres": {
       "0": "1",
@@ -109,10 +138,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2f3c040b88c4db8d9f504a2a1015629aa8875ddb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794089405",
     "store_asset_mtime": "1773668652",
     "store_tags": {
       "0": "1667",
@@ -134,5 +164,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Light Switch",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "windows_content/lightswitch.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "linux_content/lightswitch.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "mac_content/lightswitch.app"
+      }
+    }
+  },
+  "depots": {
+    "3681221": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "610014480",
+          "gid": "4869395884845183746",
+          "size": "6927533144"
+        }
+      }
+    },
+    "3681222": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "672091248",
+          "gid": "2018898848302112170",
+          "size": "6947081592"
+        }
+      }
+    },
+    "3681223": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "668213968",
+          "gid": "1627191980947873814",
+          "size": "10555444390"
+        }
+      }
+    },
+    "3681224": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "66573024",
+          "gid": "3934817862216314977",
+          "size": "209033216"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26489723",
+        "timebuildupdated": "1793983158",
+        "timeupdated": "1793983253"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Tetramorre",
+    "isfreeapp": "1",
+    "publisher": "Tetramorre"
+  }
 }

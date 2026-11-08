@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793252952,
-  "_history": [],
-  "_change_number": 40354224,
-  "_missing_token": true,
-  "_sha": "20b0771ce01e9780eac46bed897d577a6efbd833",
-  "_size": 3276,
+  "_lastChecked": 1794117571,
+  "_history": [
+    {
+      "buildId": "26166623",
+      "branch": "public",
+      "timeUpdated": 1792776567,
+      "firstSeen": 1794117571,
+      "manifests": {
+        "3389691": {
+          "gid": "553007902575752678",
+          "size": 2880080001,
+          "download": 2707929888
+        }
+      }
+    }
+  ],
+  "_change_number": 40717972,
+  "_missing_token": false,
+  "_sha": "d4cd90f72ec4c86870da8f07d8227fc2dbc9dfa0",
+  "_size": 4450,
   "appid": "3389690",
   "common": {
     "associations": {
@@ -30,6 +44,7 @@
     "clienticon": "d9e5b00050dc958be2be5171d77213348ecfc502",
     "clienttga": "35a508b83309dc010250513f18db0b1b30acc38c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -43,7 +58,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3389690",
     "genres": {
       "0": "1",
@@ -117,17 +131,18 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "8bb0105461fd03d45d3826e6ae0b5df17bfac743/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794111680",
     "store_asset_mtime": "1776808342",
     "store_tags": {
       "0": "19",
       "1": "597",
-      "10": "1684",
-      "11": "6650",
+      "10": "6650",
+      "11": "1684",
       "12": "493",
       "13": "4947",
       "14": "1742",
@@ -137,8 +152,8 @@
       "4": "3799",
       "5": "560542",
       "6": "4191",
-      "7": "4175",
-      "8": "12095",
+      "7": "12095",
+      "8": "4175",
       "9": "4166"
     },
     "supported_languages": {
@@ -149,5 +164,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lustful Heist",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "LustfulHeist.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "LustfulHeist.sh"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "LustfulHeist.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3389691": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "download": "2707929888",
+          "gid": "553007902575752678",
+          "size": "2880080001"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26166623",
+        "timebuildupdated": "1792776515",
+        "timeupdated": "1792776567"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "Sensi Games",
+    "publisher": "Sensi Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "game/saves",
+        "pattern": "*.save",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }
