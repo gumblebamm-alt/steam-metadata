@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794117583,
-  "_history": [],
-  "_change_number": 40712778,
-  "_missing_token": true,
-  "_sha": "604763003d548ab354539f92f5619ce9d340bd39",
-  "_size": 2969,
+  "_lastChecked": 1794160622,
+  "_history": [
+    {
+      "buildId": "26522505",
+      "branch": "public",
+      "timeUpdated": 1794153513,
+      "firstSeen": 1794160622,
+      "manifests": {
+        "5033811": {
+          "gid": "3862136721642017028",
+          "size": 786803592,
+          "download": 148081280
+        }
+      }
+    }
+  ],
+  "_change_number": 40728615,
+  "_missing_token": false,
+  "_sha": "51a0a2c0d618fbb11d2bdcbed243f908ebda5d41",
+  "_size": 4209,
   "appid": "5033810",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     },
     "clienticon": "57017cd2adf6d17ea10c2e144b63ebfd9a741672",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5033810",
     "genres": {
       "0": "4",
@@ -103,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ddf404768c22e3df0cc07fecca70809de3eddd2d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794153642",
     "store_asset_mtime": "1792525763",
     "store_tags": {
       "0": "91114",
@@ -126,10 +141,76 @@
     },
     "supported_languages": {
       "brazilian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "schinese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "spanish": {
+        "subtitles": "true",
         "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Projeto Lan",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Byte Store Simulator.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5033811": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "148081280",
+          "gid": "3862136721642017028",
+          "size": "786803592"
+        }
+      }
+    },
+    "baselanguages": "brazilian",
+    "branches": {
+      "public": {
+        "buildid": "26522505",
+        "timebuildupdated": "1794153385",
+        "timeupdated": "1794153513"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Nova Lima Studio",
+    "publisher": "Nova Lima Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "8",
+    "quota": "5000000",
+    "savefiles": {
+      "0": {
+        "path": "Nova Lima Studio/Byte Store Simulator",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

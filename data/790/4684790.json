@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792603030,
-  "_history": [],
-  "_change_number": 40072182,
-  "_missing_token": true,
-  "_sha": "4c8861091b50e2e93bd19cecd46ccefa5a92ca05",
-  "_size": 3303,
+  "_lastChecked": 1794160615,
+  "_history": [
+    {
+      "buildId": "26520488",
+      "branch": "public",
+      "timeUpdated": 1794143160,
+      "firstSeen": 1794160615,
+      "manifests": {
+        "4684791": {
+          "gid": "5688860116729946659",
+          "size": 1496120640,
+          "download": 874573264
+        },
+        "4684792": {
+          "gid": "2536827043688182245",
+          "size": 1460974440,
+          "download": 872207296
+        }
+      }
+    }
+  ],
+  "_change_number": 40726177,
+  "_missing_token": false,
+  "_sha": "200741d3db0304082de5b2c87e70b8b5f88b07c7",
+  "_size": 5199,
   "appid": "4684790",
   "common": {
     "associations": {
@@ -33,6 +52,7 @@
     },
     "clienticon": "37377c031588dcb0f3f2f815b7b78c96516d06ac",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -41,7 +61,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4684790",
     "genres": {
       "0": "1",
@@ -111,13 +130,15 @@
     },
     "name": "Vossarium",
     "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "57753c90027b9fef06daa1e11eba11a0255784bc/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794144226",
     "store_asset_mtime": "1792559873",
     "store_tags": {
       "0": "1721",
@@ -150,5 +171,102 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Vossarium",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Vossarium.exe",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4684791": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "874573264",
+          "gid": "5688860116729946659",
+          "size": "1496120640"
+        }
+      }
+    },
+    "4684792": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "872207296",
+          "gid": "2536827043688182245",
+          "size": "1460974440"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26520488",
+        "timebuildupdated": "1794142955",
+        "timeupdated": "1794143160"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Stilledly",
+    "publisher": "Stilledly"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "40000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Vossarium",
+        "pattern": "save_slot_1.tres",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Vossarium",
+        "pattern": "save_slot_2.tres",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Vossarium",
+        "pattern": "save_slot_3.tres",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Vossarium",
+        "pattern": "save_slot_4.tres",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Vossarium",
+        "pattern": "save_slot_5.tres",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

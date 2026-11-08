@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1794117584,
+  "_lastChecked": 1794160623,
   "_history": [
+    {
+      "buildId": "26523608",
+      "branch": "public",
+      "timeUpdated": 1794158775,
+      "firstSeen": 1794160623,
+      "manifests": {
+        "5062881": {
+          "gid": "956305817049210917",
+          "size": 5135349152,
+          "download": 3403122160
+        },
+        "5062882": {
+          "gid": "308908925550086077",
+          "size": 5053702015,
+          "download": 3364101024
+        }
+      }
+    },
     {
       "buildId": "26501894",
       "branch": "public",
@@ -54,19 +72,6 @@
       }
     },
     {
-      "buildId": "25690452",
-      "branch": "public",
-      "timeUpdated": 1790993950,
-      "firstSeen": 1791040100,
-      "manifests": {
-        "5062881": {
-          "gid": "4912484634913506351",
-          "size": 3490399059,
-          "download": 2352276336
-        }
-      }
-    },
-    {
       "buildId": "25713492",
       "branch": "legacy",
       "timeUpdated": 1791140028,
@@ -80,10 +85,10 @@
       }
     }
   ],
-  "_change_number": 40714156,
+  "_change_number": 40730036,
   "_missing_token": false,
-  "_sha": "14b396d6ec2741e5fedca14fe600a5b0464edae1",
-  "_size": 4326,
+  "_sha": "186dd71bc4b8c5d0440cdc4557a22539a23ecdeb",
+  "_size": 4715,
   "appid": "5062880",
   "common": {
     "aicontenttype": "1",
@@ -177,8 +182,9 @@
     },
     "name": "Close the Sky",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "2",
     "releasestate": "released",
     "small_capsule": {
@@ -247,11 +253,20 @@
           "oslist": "windows"
         },
         "executable": "Close the Sky.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Close the Sky.app"
       }
     }
   },
   "depots": {
     "5062881": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "legacy": {
           "download": "2353139376",
@@ -259,9 +274,21 @@
           "size": "3491286915"
         },
         "public": {
-          "download": "3242145136",
-          "gid": "522968412111290600",
-          "size": "4888849851"
+          "download": "3403122160",
+          "gid": "956305817049210917",
+          "size": "5135349152"
+        }
+      }
+    },
+    "5062882": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "3364101024",
+          "gid": "308908925550086077",
+          "size": "5053702015"
         }
       }
     },
@@ -273,9 +300,9 @@
         "timeupdated": "1791140028"
       },
       "public": {
-        "buildid": "26501894",
-        "timebuildupdated": "1794032611",
-        "timeupdated": "1794032688"
+        "buildid": "26523608",
+        "timebuildupdated": "1794158678",
+        "timeupdated": "1794158775"
       }
     },
     "privatebranches": "1"

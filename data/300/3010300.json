@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794073569,
-  "_history": [],
-  "_change_number": 40705507,
-  "_missing_token": true,
-  "_sha": "3f55b8fc5c91ad73c2c90d7d0ed517cc9394b2a8",
-  "_size": 3162,
+  "_lastChecked": 1794160602,
+  "_history": [
+    {
+      "buildId": "26516162",
+      "branch": "public",
+      "timeUpdated": 1794113804,
+      "firstSeen": 1794160602,
+      "manifests": {
+        "3010301": {
+          "gid": "392873438417000659",
+          "size": 266605064,
+          "download": 128395808
+        }
+      }
+    }
+  ],
+  "_change_number": 40719240,
+  "_missing_token": false,
+  "_sha": "30fc207fe5593bb9ca0c1e1b77d10c10ad18a1d7",
+  "_size": 4115,
   "appid": "3010300",
   "common": {
     "associations": {
@@ -32,9 +46,9 @@
     "clienticon": "ffda7bf2cb19091471c178271f2e619986e0dc76",
     "clienttga": "3f9e06261b33f5a06794a474ea47cf3ac0356ef3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3010300",
     "genres": {
       "0": "25",
@@ -109,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ce86c95d046a2091161230f99dde3a8711a6fbb9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1790310033",
     "store_tags": {
       "0": "122",
@@ -140,5 +155,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "OneHourHero",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "OneHourHero.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3010301": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "128395808",
+          "gid": "392873438417000659",
+          "size": "266605064"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "26516162",
+        "timebuildupdated": "1794112222",
+        "timeupdated": "1794113804"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "liangxiegame",
+    "publisher": "liangxiegame"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/OneHourHero",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

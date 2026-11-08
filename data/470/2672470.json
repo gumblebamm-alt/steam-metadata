@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1793383997,
+  "_lastChecked": 1794160601,
   "_history": [
+    {
+      "buildId": "26401888",
+      "branch": "public",
+      "timeUpdated": 1793706889,
+      "firstSeen": 1794160601,
+      "manifests": {
+        "2672471": {
+          "gid": "8291072116418636324",
+          "size": 1841592732,
+          "download": 1412292048
+        },
+        "2672472": {
+          "gid": "3139622893283548828",
+          "size": 954209902,
+          "download": 936537008
+        }
+      }
+    },
     {
       "buildId": "26318654",
       "branch": "public",
@@ -98,10 +116,10 @@
       }
     }
   ],
-  "_change_number": 40421703,
+  "_change_number": 40721825,
   "_missing_token": false,
-  "_sha": "da4491e4ee5b1928bcd2be1cbac59c8f61f6a357",
-  "_size": 6843,
+  "_sha": "ab9077ff7a75d9e57faa79b35f2a7a583e242b47",
+  "_size": 7374,
   "appid": "2672470",
   "common": {
     "associations": {
@@ -372,6 +390,9 @@
       "sharedinstall": "1"
     },
     "2672471": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "download": "1412292048",
@@ -386,17 +407,18 @@
       },
       "manifests": {
         "public": {
-          "download": "938560800",
-          "gid": "8433024163545508498",
-          "size": "956201156"
+          "download": "936537008",
+          "gid": "3139622893283548828",
+          "size": "954209902"
         }
       }
     },
+    "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "26318654",
-        "timebuildupdated": "1793349422",
-        "timeupdated": "1793357790"
+        "buildid": "26401888",
+        "timebuildupdated": "1793697925",
+        "timeupdated": "1793706889"
       }
     },
     "privatebranches": "1"
@@ -407,7 +429,28 @@
     "vrheadsetstreaming": "1"
   },
   "ufs": {
-    "maxnumfiles": "0",
-    "quota": "0"
+    "maxnumfiles": "100",
+    "quota": "52428800",
+    "rootoverrides": {
+      "0": {
+        "os": "Android",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Unloop/Saved/SaveGames",
+            "replace": "UnrealGame/Unloop/Unloop/Saved/SaveGames"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "AndroidExternalData"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Unloop/Saved/SaveGames",
+        "pattern": "UnloopSave.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
   }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792857612,
-  "_history": [],
-  "_change_number": 40196955,
-  "_missing_token": true,
-  "_sha": "05bb24136145b1bda21f051c7841182f09b9bf4f",
-  "_size": 2964,
+  "_lastChecked": 1794160617,
+  "_history": [
+    {
+      "buildId": "26301912",
+      "branch": "public",
+      "timeUpdated": 1793290398,
+      "firstSeen": 1794160617,
+      "manifests": {
+        "4764691": {
+          "gid": "9195653152257825771",
+          "size": 816895074,
+          "download": 709893792
+        }
+      }
+    }
+  ],
+  "_change_number": 40724583,
+  "_missing_token": false,
+  "_sha": "8f986cc626e11d04383962c8e7300f9b60a5d5f9",
+  "_size": 4275,
   "appid": "4764690",
   "common": {
     "aicontenttype": "1",
@@ -20,6 +34,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_23": "1",
       "category_62": "1",
       "category_74": "1",
       "category_80": "1"
@@ -27,7 +42,14 @@
     "clienticon": "7494e65fca9f8e35c4c1ef15adf416a19012de26",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
+    "eulas": {
+      "0": {
+        "id": "4764690_eula_0",
+        "name": "PROWLER PURGE EULA",
+        "url": "https://store.steampowered.com/eula/4764690_eula_0",
+        "version": "1"
+      }
+    },
     "gameid": "4764690",
     "genres": {
       "0": "1",
@@ -96,21 +118,23 @@
       }
     },
     "name": "PROWLER PURGE",
-    "osarch": "",
+    "osarch": "64",
+    "oscpu": "",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "210b97df7db0b7d3ccf2deb609ee212e78abbb74/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1792827389",
     "store_tags": {
       "0": "122",
       "1": "19",
       "10": "1697",
-      "11": "4726",
-      "12": "492",
+      "11": "492",
+      "12": "4726",
       "13": "17894",
       "14": "1667",
       "15": "4057",
@@ -133,5 +157,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ProwlerPurge",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "realengine.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4764691": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "709893792",
+          "gid": "9195653152257825771",
+          "size": "816895074"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26301912",
+        "timebuildupdated": "1793290346",
+        "timeupdated": "1793290398"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Once Studio",
+    "publisher": "Once Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "realengine\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
