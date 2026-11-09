@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793947320,
-  "_history": [],
-  "_change_number": 40602464,
-  "_missing_token": true,
-  "_sha": "a1336d3889296c98a8d8e06e00dc2209f623b52d",
-  "_size": 3705,
+  "_lastChecked": 1794262872,
+  "_history": [
+    {
+      "buildId": "26528592",
+      "branch": "public",
+      "timeUpdated": 1794182675,
+      "firstSeen": 1794262872,
+      "manifests": {
+        "4402201": {
+          "gid": "3871107903629573465",
+          "size": 2242048701,
+          "download": 689912592
+        }
+      }
+    }
+  ],
+  "_change_number": 40771831,
+  "_missing_token": false,
+  "_sha": "6b09e493aa475184b7224ab52b3bb676ab3186ad",
+  "_size": 4794,
   "appid": "4402200",
   "common": {
     "associations": {
@@ -34,9 +48,9 @@
     },
     "clienticon": "ddcb2b52deaf8e9d794fabc2f6a73712b005483c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4402200",
     "genres": {
       "0": "2",
@@ -108,10 +122,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "0d2c4e405b2d488aa8bcab2be40690528870174a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794246379",
     "store_asset_mtime": "1793804792",
     "store_tags": {
       "0": "7332",
@@ -157,19 +174,68 @@
         "supported": "true"
       },
       "schinese": {
-        "full_audio": "true",
         "subtitles": "true",
         "supported": "true"
       },
       "spanish": {
         "subtitles": "true",
         "supported": "true"
-      },
-      "swedish": {
-        "full_audio": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Project Tomorrow",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Project Tomorrow.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4402201": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "689912592",
+          "gid": "3871107903629573465",
+          "size": "2242048701"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,russian,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26528592",
+        "timebuildupdated": "1794181698",
+        "timeupdated": "1794182675"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Advance Nine",
+    "homepage": "https://linktr.ee/advancenine",
+    "publisher": "Advance Nine"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Advance Nine/Project Tomorrow/cloud_saves/steam_4402200",
+        "pattern": "*.save",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

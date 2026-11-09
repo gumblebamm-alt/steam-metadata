@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794205476,
-  "_history": [],
-  "_change_number": 40585328,
-  "_missing_token": true,
-  "_sha": "71a4806bb4626e040d26fa1956f4c85cec4fe418",
-  "_size": 3162,
+  "_lastChecked": 1794262865,
+  "_history": [
+    {
+      "buildId": "26429330",
+      "branch": "public",
+      "timeUpdated": 1793789425,
+      "firstSeen": 1794262865,
+      "manifests": {
+        "4077321": {
+          "gid": "7725916749177295354",
+          "size": 422210292,
+          "download": 304340464
+        },
+        "4077322": {
+          "gid": "4696801628927560683",
+          "size": 475350132,
+          "download": 296561248
+        }
+      }
+    }
+  ],
+  "_change_number": 40760309,
+  "_missing_token": false,
+  "_sha": "b7512b51d30a41f7908ae3e9e996aa58aaf37416",
+  "_size": 4799,
   "appid": "4077320",
   "common": {
     "associations": {
@@ -36,9 +55,9 @@
     },
     "clienticon": "42fb3e472333ad69aa05f7fc693c53da8d5ca0d7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4077320",
     "genres": {
       "0": "3"
@@ -108,10 +127,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d98ab29310bbfbead95211ce8c49a4af23c87a73/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794239997",
     "store_asset_mtime": "1791357438",
     "store_tags": {
       "0": "1666",
@@ -139,5 +159,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cardaire Eternal Aces",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Cardaire.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Cardaire.app/Contents/MacOS/Cardaire"
+      }
+    }
+  },
+  "depots": {
+    "4077321": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "304340464",
+          "gid": "7725916749177295354",
+          "size": "422210292"
+        }
+      }
+    },
+    "4077322": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "296561248",
+          "gid": "4696801628927560683",
+          "size": "475350132"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26429330",
+        "timebuildupdated": "1793789424",
+        "timeupdated": "1793789425"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "aeiou",
+    "homepage": "https://cardairegame.com/",
+    "publisher": "aeiou"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "\\Cardaire\\save_data",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "Cardaire/save_data",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

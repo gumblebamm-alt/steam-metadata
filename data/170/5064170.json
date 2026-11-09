@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794031074,
-  "_history": [],
-  "_change_number": 40686259,
-  "_missing_token": true,
-  "_sha": "ba63fd96f0942e29651afaa00cdd02854713ebdc",
-  "_size": 4853,
+  "_lastChecked": 1794262892,
+  "_history": [
+    {
+      "buildId": "26544560",
+      "branch": "public",
+      "timeUpdated": 1794242280,
+      "firstSeen": 1794262892,
+      "manifests": {
+        "5064171": {
+          "gid": "6389503355616695342",
+          "size": 1011556220,
+          "download": 797925104
+        },
+        "5064172": {
+          "gid": "5442481360822373599",
+          "size": 1075926002,
+          "download": 809303712
+        }
+      }
+    }
+  ],
+  "_change_number": 40771838,
+  "_missing_token": false,
+  "_sha": "89c852e3d28d8a263350e0775988cb1d1ae61d09",
+  "_size": 6538,
   "appid": "5064170",
   "common": {
     "associations": {
@@ -45,9 +64,9 @@
     },
     "clienticon": "c30b3113846d02c12dc073a31525e3d4d45167b5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5064170",
     "genres": {
       "0": "1",
@@ -120,10 +139,13 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "88",
+    "review_score": "7",
     "small_capsule": {
       "english": "5d49f6f99f7be18bd8bf3194b8e79e46476db103/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794242413",
     "store_asset_mtime": "1793735131",
     "store_tags": {
       "0": "723991",
@@ -231,5 +253,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Go Next!",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Go Next.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Go Next.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65532",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5064171": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "797925104",
+          "gid": "6389503355616695342",
+          "size": "1011556220"
+        }
+      }
+    },
+    "5064172": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "809303712",
+          "gid": "5442481360822373599",
+          "size": "1075926002"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,czech,english,french,german,hungarian,indonesian,italian,japanese,koreana,latam,polish,russian,schinese,spanish,tchinese,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26544560",
+        "timebuildupdated": "1794242257",
+        "timeupdated": "1794242280"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Mixidev",
+    "publisher": "Mixidev"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".config/unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Go Next/Go Next",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

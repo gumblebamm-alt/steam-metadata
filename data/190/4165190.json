@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793556036,
-  "_history": [],
-  "_change_number": 40480679,
-  "_missing_token": true,
-  "_sha": "2037b18922f0aa19b423e4497821ad59cf341060",
-  "_size": 7791,
+  "_lastChecked": 1794262866,
+  "_history": [
+    {
+      "buildId": "26540074",
+      "branch": "public",
+      "timeUpdated": 1794229817,
+      "firstSeen": 1794262866,
+      "manifests": {
+        "4165191": {
+          "gid": "4312627997758896981",
+          "size": 191044812,
+          "download": 47549152
+        }
+      }
+    }
+  ],
+  "_change_number": 40758163,
+  "_missing_token": false,
+  "_sha": "ba19670f66ae667140a68b94fed0247ea35be75c",
+  "_size": 8897,
   "appid": "4165190",
   "common": {
     "associations": {
@@ -33,9 +47,9 @@
     },
     "clienticon": "b47da3fbd8e9dd9d2627e67d7cea4a4c46e5c065",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4165190",
     "genres": {
       "0": "4",
@@ -106,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9f3ca9cadaa7d28c00217cf2029a10e07c87772c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794236415",
     "store_asset_mtime": "1792730342",
     "store_tags": {
       "0": "6129",
@@ -439,5 +454,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tricolo",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Tricolo.exe"
+      }
+    }
+  },
+  "depots": {
+    "4165191": {
+      "manifests": {
+        "public": {
+          "download": "47549152",
+          "gid": "4312627997758896981",
+          "size": "191044812"
+        }
+      }
+    },
+    "4165192": {
+      "config": {
+        "oslist": "windows"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26540074",
+        "timebuildupdated": "1794229815",
+        "timeupdated": "1794229817"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "MP",
+    "publisher": "MP"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "MP/Tricolo/QuickSave/Local/Full/Progress",
+        "pattern": "PROGRESS_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "MP/Tricolo/QuickSave/Local/Full/Progress",
+        "pattern": "PROGRESS_*.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

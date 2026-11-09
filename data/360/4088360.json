@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794160609,
-  "_history": [],
-  "_change_number": 40722512,
-  "_missing_token": true,
-  "_sha": "d0569eaba3c7d53ef823dd0b9c8300fd21204df0",
-  "_size": 3769,
+  "_lastChecked": 1794262865,
+  "_history": [
+    {
+      "buildId": "26542682",
+      "branch": "public",
+      "timeUpdated": 1794237369,
+      "firstSeen": 1794262865,
+      "manifests": {
+        "4088361": {
+          "gid": "7984049246983776213",
+          "size": 3465503031,
+          "download": 1010092000
+        },
+        "4088362": {
+          "gid": "2718591061278503868",
+          "size": 3549758016,
+          "download": 1032818528
+        }
+      }
+    }
+  ],
+  "_change_number": 40766857,
+  "_missing_token": false,
+  "_sha": "02d403bcbed850436314d5021f55a484ad38c7cb",
+  "_size": 5585,
   "appid": "4088360",
   "common": {
     "associations": {
@@ -35,6 +54,7 @@
     },
     "clienticon": "263f8969df9397a82b8457a7eeae947f386a7053",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -42,7 +62,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4088360",
     "genres": {
       "0": "25",
@@ -117,13 +136,16 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "19d26a8bfaafc8ccba1e0008bb29e791b3cb6d11/capsule_231x87.jpg",
       "latam": "563ee0fe397f4fe63e7c6475320133d274ccd4b8/capsule_231x87_latam.jpg",
       "schinese": "16238ab594ed31219d4386a88f7129003d8caa57/capsule_231x87_schinese.jpg",
       "spanish": "563ee0fe397f4fe63e7c6475320133d274ccd4b8/capsule_231x87_spanish.jpg"
     },
+    "steam_release_date": "1794225622",
     "store_asset_mtime": "1793972400",
     "store_tags": {
       "0": "21",
@@ -156,5 +178,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Funeral for the Sun",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "funeralforthesun.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Funeral for the Sun.app"
+      },
+      "3": {
+        "arguments": "--rendering-driver opengl3_angle",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play Funeral for the Sun - (Angle Compatibility Mode) ",
+        "description_loc": {
+          "english": "Play Funeral for the Sun - (Angle Compatibility Mode) "
+        },
+        "executable": "funeralforthesun.exe"
+      }
+    }
+  },
+  "depots": {
+    "4088361": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1010092000",
+          "gid": "7984049246983776213",
+          "size": "3465503031"
+        }
+      }
+    },
+    "4088362": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1032818528",
+          "gid": "2718591061278503868",
+          "size": "3549758016"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26542682",
+        "timebuildupdated": "1794237284",
+        "timeupdated": "1794237369"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Nicolás G. Cid Delgado",
+    "publisher": "Nicolás G. Cid Delgado"
+  },
+  "ufs": {
+    "maxnumfiles": "9",
+    "quota": "400000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Funeral for the Sun",
+        "pattern": "game_save_*.tres",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

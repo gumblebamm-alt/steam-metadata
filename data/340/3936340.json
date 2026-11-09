@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794205475,
-  "_history": [],
-  "_change_number": 40739472,
-  "_missing_token": true,
-  "_sha": "c25f64dc7eb27a5986e760f21a28996e16d34526",
-  "_size": 3763,
+  "_lastChecked": 1794262862,
+  "_history": [
+    {
+      "buildId": "26539006",
+      "branch": "public",
+      "timeUpdated": 1794228628,
+      "firstSeen": 1794262862,
+      "manifests": {
+        "3936341": {
+          "gid": "4687581079043810083",
+          "size": 545015128,
+          "download": 345595808
+        },
+        "3936342": {
+          "gid": "6157463007780595659",
+          "size": 530231592,
+          "download": 352940464
+        }
+      }
+    }
+  ],
+  "_change_number": 40771824,
+  "_missing_token": false,
+  "_sha": "28a7d9be7861d6ada0f4b1e3d76ff89b78ecab80",
+  "_size": 5714,
   "appid": "3936340",
   "common": {
     "associations": {
@@ -35,9 +54,9 @@
     },
     "clienticon": "80a4c54b8b25da9a62d5a0a63b6b0849b2deb7cd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3936340",
     "genres": {
       "0": "4",
@@ -118,11 +137,14 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "91",
+    "review_score": "7",
     "small_capsule": {
       "english": "fa663f6f9e88d45bbf11d4d64dacefec5e292a3a/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792581555",
+    "steam_release_date": "1794232889",
+    "store_asset_mtime": "1794232765",
     "store_tags": {
       "0": "1716",
       "1": "1091588",
@@ -138,8 +160,8 @@
       "19": "16250",
       "2": "32322",
       "3": "4182",
-      "4": "791774",
-      "5": "33572",
+      "4": "33572",
+      "5": "791774",
       "6": "3959",
       "7": "1664",
       "8": "1666",
@@ -177,5 +199,107 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Hell Wait",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "HellWait.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "HellWait.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3936341": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "345595808",
+          "gid": "4687581079043810083",
+          "size": "545015128"
+        }
+      }
+    },
+    "3936342": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "352940464",
+          "gid": "6157463007780595659",
+          "size": "530231592"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26539006",
+        "timebuildupdated": "1794226360",
+        "timeupdated": "1794228628"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Mondbekker",
+    "homepage": "https://hellwaitgame.com/",
+    "publisher": "Mondbekker"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "hellwait",
+        "pattern": "autosave.tres",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "hellwait",
+        "pattern": "progress.tres",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "hellwait",
+        "pattern": "autosave_backup.tres",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "hellwait",
+        "pattern": "progress_backup.tres",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

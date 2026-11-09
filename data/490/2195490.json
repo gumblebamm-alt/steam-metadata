@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794073566,
-  "_history": [],
-  "_change_number": 40705033,
-  "_missing_token": true,
-  "_sha": "2c4dd4da8ac69fa358fa34d8ad0b55f6991f7050",
-  "_size": 4984,
+  "_lastChecked": 1794262845,
+  "_history": [
+    {
+      "buildId": "26528709",
+      "branch": "public",
+      "timeUpdated": 1794182302,
+      "firstSeen": 1794262845,
+      "manifests": {
+        "2195491": {
+          "gid": "352584676203638543",
+          "size": 3243231143,
+          "download": 778374048
+        },
+        "2195492": {
+          "gid": "6310505610738071771",
+          "size": 3267932082,
+          "download": 787940768
+        }
+      }
+    }
+  ],
+  "_change_number": 40765337,
+  "_missing_token": false,
+  "_sha": "aa1ed5ec3877550f22cb98d7f5f5c293fe2a4c39",
+  "_size": 6554,
   "appid": "2195490",
   "common": {
     "associations": {
@@ -28,6 +47,7 @@
     "clienticon": "b18be31fa46a18d9ee0aaefebbf892102934aa68",
     "clienttga": "58f2001ea9c5e596942bd5dc33977e2f6ab45693",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -38,7 +58,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2195490",
     "genres": {
       "0": "25",
@@ -110,7 +129,7 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3c97fae89ee8644661637e53b1c8f7a7a4f642bd/capsule_231x87.jpg"
     },
@@ -175,7 +194,8 @@
         }
       }
     },
-    "store_asset_mtime": "1794064810",
+    "steam_release_date": "1794240244",
+    "store_asset_mtime": "1794247358",
     "store_tags": {
       "0": "21",
       "1": "1742",
@@ -183,8 +203,8 @@
       "11": "4166",
       "12": "5608",
       "13": "5382",
-      "14": "4182",
-      "15": "6815",
+      "14": "6815",
+      "15": "4182",
       "16": "6869",
       "17": "1678",
       "18": "3987",
@@ -206,5 +226,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Great Sassanelli",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "The Great Sassanelli.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "The Great Sassanelli.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2195491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "778374048",
+          "gid": "352584676203638543",
+          "size": "3243231143"
+        }
+      }
+    },
+    "2195492": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "787940768",
+          "gid": "6310505610738071771",
+          "size": "3267932082"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26528709",
+        "timebuildupdated": "1794182273",
+        "timeupdated": "1794182302"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Forking Paths Gardening Interactive",
+    "homepage": "https://lnk.bio/sassanelli",
+    "publisher": "DigiTales Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "5000000",
+    "savefiles": {
+      "0": {
+        "path": "Forking Paths Gardening\\The Great Sassanelli",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Forking Paths Gardening/The Great Sassanelli",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794073570,
-  "_history": [],
-  "_change_number": 40707023,
-  "_missing_token": true,
-  "_sha": "23cf98707c9e94b330461104f477d6e737f46071",
-  "_size": 3320,
+  "_lastChecked": 1794262856,
+  "_history": [
+    {
+      "buildId": "26550250",
+      "branch": "public",
+      "timeUpdated": 1794259786,
+      "firstSeen": 1794262856,
+      "manifests": {
+        "3445441": {
+          "gid": "1913495896397988394",
+          "size": 2254857562,
+          "download": 327440224
+        }
+      }
+    }
+  ],
+  "_change_number": 40770546,
+  "_missing_token": false,
+  "_sha": "33e570ef9c16c776d51d0a66e7afa5fd153d82ef",
+  "_size": 4998,
   "appid": "3445440",
   "common": {
     "associations": {
@@ -32,9 +46,9 @@
     },
     "clienticon": "f2d59f901ad7622fcbf73c9b9fe17a1b2fba73b3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3445440",
     "genres": {
       "0": "23",
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "593a261c4a9333bbf823d056489d2736d97d43c9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794231690",
     "store_asset_mtime": "1792501335",
     "store_tags": {
       "0": "791774",
@@ -151,5 +166,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fablery",
+    "launch": {
+      "0": {
+        "arguments": "-platform steam",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Fablery.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3445441": {
+      "manifests": {
+        "public": {
+          "download": "327440224",
+          "gid": "1913495896397988394",
+          "size": "2254857562"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "26550250",
+        "timebuildupdated": "1794259325",
+        "timeupdated": "1794259786"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Osoya",
+    "publisher": "Osoya"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "400000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Osoya/Fablery/Saves/{64BitSteamID}",
+            "replace": ".config/unity3d/Osoya/Fablery/Saves/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Osoya/Fablery/Saves/{64BitSteamID}",
+            "replace": "unity.Osoya.Fablery/Saves/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Osoya/Fablery/Saves/{64BitSteamID}",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

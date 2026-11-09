@@ -1,10 +1,50 @@
 {
-  "_lastChecked": 1793040168,
-  "_history": [],
-  "_change_number": 40258128,
-  "_missing_token": true,
-  "_sha": "6b139a2c4a89ba810c1ef6f7a76c5a041116b43f",
-  "_size": 3275,
+  "_lastChecked": 1794262888,
+  "_history": [
+    {
+      "buildId": "26217146",
+      "branch": "beta",
+      "timeUpdated": 1793020355,
+      "firstSeen": 1794262888,
+      "manifests": {
+        "4981221": {
+          "gid": "4477209094638259705",
+          "size": 223157168,
+          "download": 140834768
+        }
+      }
+    },
+    {
+      "buildId": "26002877",
+      "branch": "oldtest",
+      "timeUpdated": 1792205694,
+      "firstSeen": 1794262888,
+      "manifests": {
+        "4981221": {
+          "gid": "1251487787031375136",
+          "size": 222873000,
+          "download": 140553232
+        }
+      }
+    },
+    {
+      "buildId": "26217146",
+      "branch": "public",
+      "timeUpdated": 1793020355,
+      "firstSeen": 1794262888,
+      "manifests": {
+        "4981221": {
+          "gid": "4477209094638259705",
+          "size": 223157168,
+          "download": 140834768
+        }
+      }
+    }
+  ],
+  "_change_number": 40746524,
+  "_missing_token": false,
+  "_sha": "f5119eb2c5eaf2a7a47b7729ec01e9894ab4efd9",
+  "_size": 6823,
   "appid": "4981220",
   "common": {
     "associations": {
@@ -32,9 +72,9 @@
     },
     "clienticon": "d930fede282047b71896b549bf9e3ff563971edb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4981220",
     "genres": {
       "0": "23",
@@ -109,10 +149,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "68047c009d0ae13aae7fd506a666d6803016b0da/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1791187749",
     "store_tags": {
       "0": "4684",
@@ -147,5 +188,167 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Loop Defense Acquisition Protocol",
+    "launch": {
+      "0": {
+        "executable": "LoopDefense.exe"
+      }
+    }
+  },
+  "depots": {
+    "4981221": {
+      "manifests": {
+        "beta": {
+          "download": "140834768",
+          "gid": "4477209094638259705",
+          "size": "223157168"
+        },
+        "oldtest": {
+          "download": "140553232",
+          "gid": "1251487787031375136",
+          "size": "222873000"
+        },
+        "public": {
+          "download": "140834768",
+          "gid": "4477209094638259705",
+          "size": "223157168"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "beta": {
+        "buildid": "26217146",
+        "description": "测试版本",
+        "timebuildupdated": "1793019311",
+        "timeupdated": "1793020355"
+      },
+      "oldtest": {
+        "buildid": "26002877",
+        "description": "老测试版本",
+        "timebuildupdated": "1792205632",
+        "timeupdated": "1792205694"
+      },
+      "public": {
+        "buildid": "26217146",
+        "timebuildupdated": "1793019311",
+        "timeupdated": "1793020355"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "4981220"
+  },
+  "extended": {
+    "developer": "ChaosRefuge",
+    "publisher": "ChaosRefuge"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Loop Defense",
+        "pattern": "save_slots.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Loop Defense",
+        "pattern": "save_slots.cfg.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "10": {
+        "path": "Godot/app_userdata/Loop Defense/mod_profiles",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "11": {
+        "path": "Godot/app_userdata/Loop Defense/mod_profiles",
+        "pattern": "*.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Loop Defense",
+        "pattern": "progress.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Loop Defense",
+        "pattern": "progress.cfg.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Loop Defense",
+        "pattern": "progress_slot_*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Godot/app_userdata/Loop Defense",
+        "pattern": "progress_slot_*.cfg.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Godot/app_userdata/Loop Defense/mod_profiles",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "7": {
+        "path": "Godot/app_userdata/Loop Defense/mod_profiles",
+        "pattern": "*.cfg.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "8": {
+        "path": "Godot/app_userdata/Loop Defense/custom_maps",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "9": {
+        "path": "Godot/app_userdata/Loop Defense/custom_maps",
+        "pattern": "*.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

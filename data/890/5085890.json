@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793599379,
-  "_history": [],
-  "_change_number": 40488050,
-  "_missing_token": true,
-  "_sha": "c9ba313413319bcca5f5ceaa022358448ee22eef",
-  "_size": 4494,
+  "_lastChecked": 1794262892,
+  "_history": [
+    {
+      "buildId": "26446478",
+      "branch": "public",
+      "timeUpdated": 1793840785,
+      "firstSeen": 1794262892,
+      "manifests": {
+        "5085891": {
+          "gid": "4044826241757890420",
+          "size": 183549096,
+          "download": 80123760
+        },
+        "5085892": {
+          "gid": "5760780538677802321",
+          "size": 148558024,
+          "download": 71647696
+        },
+        "5085893": {
+          "gid": "1220553807430444413",
+          "size": 246913192,
+          "download": 98781664
+        }
+      }
+    }
+  ],
+  "_change_number": 40764163,
+  "_missing_token": false,
+  "_sha": "d890a15ae9e1ab3b31e174cd399aec12ad93f065",
+  "_size": 6809,
   "appid": "5085890",
   "common": {
     "associations": {
@@ -33,7 +57,6 @@
     "clienticon": "cca754a49b8b87732e051432865fcadb670fe0ea",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5085890",
     "genres": {
       "0": "4",
@@ -107,10 +130,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e9d3a018e3f8a52c6fd7aecd5f59c7dcee9872a3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794246876",
     "store_asset_mtime": "1791280351",
     "store_tags": {
       "0": "560542",
@@ -228,5 +252,114 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bouncemetry",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Bouncemetry.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Bouncemetry.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Bouncemetry.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5085891": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "80123760",
+          "gid": "4044826241757890420",
+          "size": "183549096"
+        }
+      }
+    },
+    "5085892": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "71647696",
+          "gid": "5760780538677802321",
+          "size": "148558024"
+        }
+      }
+    },
+    "5085893": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "98781664",
+          "gid": "1220553807430444413",
+          "size": "246913192"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "26446478",
+        "timebuildupdated": "1793840319",
+        "timeupdated": "1793840785"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "kohlgames",
+    "publisher": "Loerting Games"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Bouncemetry",
+            "replace": "godot/app_userdata/Bouncemetry"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Bouncemetry",
+        "pattern": "bouncing_save*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

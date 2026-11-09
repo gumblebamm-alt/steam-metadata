@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793773145,
-  "_history": [],
-  "_change_number": 40569293,
-  "_missing_token": true,
-  "_sha": "0dd2118c8f05bb5d825436a102dac8c9e1666aa3",
-  "_size": 2878,
+  "_lastChecked": 1794262877,
+  "_history": [
+    {
+      "buildId": "26200427",
+      "branch": "public",
+      "timeUpdated": 1792949349,
+      "firstSeen": 1794262877,
+      "manifests": {
+        "4593951": {
+          "gid": "1516561525354798269",
+          "size": 594424678,
+          "download": 57295360
+        }
+      }
+    }
+  ],
+  "_change_number": 40749576,
+  "_missing_token": false,
+  "_sha": "44a7f000c238886cb576e3f252a253a18a4a53a2",
+  "_size": 4117,
   "appid": "4593950",
   "common": {
     "associations": {
@@ -26,8 +40,8 @@
     },
     "clienticon": "339eb74886e6ae92da37bd834a070c99b768f740",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4593950",
     "genres": {
       "0": "25",
@@ -100,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d2c9078d79aefd176bd1ca08e00177512c5e2f5c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794218581",
     "store_asset_mtime": "1792950046",
     "store_tags": {
       "0": "21",
@@ -130,5 +145,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gold Express",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Gold Express.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4593951": {
+      "manifests": {
+        "public": {
+          "download": "57295360",
+          "gid": "1516561525354798269",
+          "size": "594424678"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26200427",
+        "timebuildupdated": "1792949314",
+        "timeupdated": "1792949349"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Dream Jam Games",
+    "publisher": "Dream Jam Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "Dream Jam Games/Gold Express/Saves/steam-{64BitSteamID}",
+        "pattern": "savegame.dat",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Dream Jam Games/Gold Express/Saves/steam-{64BitSteamID}",
+        "pattern": "savegame.bak",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Dream Jam Games/Gold Express/Saves/steam-{64BitSteamID}",
+        "pattern": "save.key",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

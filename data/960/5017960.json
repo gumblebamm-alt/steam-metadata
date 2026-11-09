@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791138152,
-  "_history": [],
-  "_change_number": 39476277,
-  "_missing_token": true,
-  "_sha": "457a50358f3589de4288da10d4cffafa3b0bf4f7",
-  "_size": 3686,
+  "_lastChecked": 1794262889,
+  "_history": [
+    {
+      "buildId": "25736491",
+      "branch": "public",
+      "timeUpdated": 1791232425,
+      "firstSeen": 1794262889,
+      "manifests": {
+        "5017961": {
+          "gid": "3897350388940339348",
+          "size": 243918371,
+          "download": 84979248
+        },
+        "5017962": {
+          "gid": "2781689879031405263",
+          "size": 262128985,
+          "download": 93127184
+        }
+      }
+    }
+  ],
+  "_change_number": 40752393,
+  "_missing_token": false,
+  "_sha": "7bf8e4719d848735cd24ddfc0770bc12eaed053b",
+  "_size": 5686,
   "appid": "5017960",
   "common": {
     "associations": {
@@ -28,8 +47,8 @@
     },
     "clienticon": "af4a43eeda9294444d65b990ce1f57d86c4ea0f5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5017960",
     "genres": {
       "0": "4"
@@ -108,13 +127,15 @@
     },
     "name": "Your Suffering Is Important to Us",
     "osarch": "",
-    "osextended": "",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0a2902a64149561baa09f77c65d1535273c813a9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794224711",
     "store_asset_mtime": "1791130542",
     "store_tags": {
       "0": "560542",
@@ -175,5 +196,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Your Suffering Is Important to Us",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Your Suffering Is Important to Us.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Your Suffering Is Important to Us.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5017961": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "84979248",
+          "gid": "3897350388940339348",
+          "size": "243918371"
+        }
+      }
+    },
+    "5017962": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "93127184",
+          "gid": "2781689879031405263",
+          "size": "262128985"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25736491",
+        "timebuildupdated": "1791232218",
+        "timeupdated": "1791232425"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Cold and Wet Studios",
+    "homepage": "https://impress.games/press-kit/cold-and-wet-studios/your-suffering-is-important-to-us",
+    "publisher": "Cold and Wet Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "512",
+    "quota": "536870912",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Cold and Wet Studios/Your Suffering Is Important to Us/FullGame/Cloud",
+            "replace": "unity.Cold and Wet Studios.Your Suffering Is Important to Us/FullGame/Cloud"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Cold and Wet Studios/Your Suffering Is Important to Us/FullGame/Cloud",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,65 @@
 {
-  "_lastChecked": 1793656020,
-  "_history": [],
-  "_change_number": 40481169,
-  "_missing_token": true,
-  "_sha": "5bc255a45f0f3d93412fcd5e728cb4dbf013731c",
-  "_size": 3099,
+  "_lastChecked": 1794262880,
+  "_history": [
+    {
+      "buildId": "26544483",
+      "branch": "internal_testing",
+      "timeUpdated": 1794242072,
+      "firstSeen": 1794262880,
+      "manifests": {
+        "4733571": {
+          "gid": "2597657198703069220",
+          "size": 671627642,
+          "download": 412760048
+        },
+        "5101610": {
+          "gid": "8866865279976692784",
+          "size": 162452578,
+          "download": 129178832
+        }
+      }
+    },
+    {
+      "buildId": "26544483",
+      "branch": "public",
+      "timeUpdated": 1794242081,
+      "firstSeen": 1794262880,
+      "manifests": {
+        "4733571": {
+          "gid": "2597657198703069220",
+          "size": 671627642,
+          "download": 412760048
+        },
+        "5101610": {
+          "gid": "8866865279976692784",
+          "size": 162452578,
+          "download": 129178832
+        }
+      }
+    },
+    {
+      "buildId": "26540523",
+      "branch": "release_candidate",
+      "timeUpdated": 1794231149,
+      "firstSeen": 1794262880,
+      "manifests": {
+        "4733571": {
+          "gid": "205033803548124503",
+          "size": 671627130,
+          "download": 412762880
+        },
+        "5101610": {
+          "gid": "8866865279976692784",
+          "size": 162452578,
+          "download": 129178832
+        }
+      }
+    }
+  ],
+  "_change_number": 40761578,
+  "_missing_token": false,
+  "_sha": "7b2a3c823edcfd2710833b4ac547c61583fab890",
+  "_size": 5670,
   "appid": "4733570",
   "common": {
     "associations": {
@@ -34,7 +89,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4733570",
     "genres": {
       "0": "4",
@@ -106,10 +160,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2d1973508210069bce2b28f6472faf7b31b9a5c6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794242157",
     "store_asset_mtime": "1792485516",
     "store_tags": {
       "0": "1666",
@@ -140,5 +195,130 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Another Card Game",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "AnotherCardGame.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4733571": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "internal_testing": {
+          "download": "412760048",
+          "gid": "2597657198703069220",
+          "size": "671627642"
+        },
+        "public": {
+          "download": "412760048",
+          "gid": "2597657198703069220",
+          "size": "671627642"
+        },
+        "release_candidate": {
+          "download": "412762880",
+          "gid": "205033803548124503",
+          "size": "671627130"
+        }
+      }
+    },
+    "5101610": {
+      "config": {
+        "optionaldlc": "5101610",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "dlcappid": "5101610",
+      "manifests": {
+        "internal_testing": {
+          "download": "129178832",
+          "gid": "8866865279976692784",
+          "size": "162452578"
+        },
+        "public": {
+          "download": "129178832",
+          "gid": "8866865279976692784",
+          "size": "162452578"
+        },
+        "release_candidate": {
+          "download": "129178832",
+          "gid": "8866865279976692784",
+          "size": "162452578"
+        }
+      }
+    },
+    "appmanagesdlc": "1",
+    "branches": {
+      "internal_testing": {
+        "buildid": "26544483",
+        "description": "Internal testing",
+        "timebuildupdated": "1794242072",
+        "timeupdated": "1794242072"
+      },
+      "public": {
+        "buildid": "26544483",
+        "timebuildupdated": "1794242072",
+        "timeupdated": "1794242081"
+      },
+      "release_candidate": {
+        "buildid": "26540523",
+        "description": "Testing Shipping builds",
+        "timebuildupdated": "1794231149",
+        "timeupdated": "1794231149"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Use Your Imagination group",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5101610",
+    "publisher": "Use Your Imagination group"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "AnotherCardGame/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "AnotherCardGame/Saved/Config/Windows",
+        "pattern": "GameUserSettings.ini",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

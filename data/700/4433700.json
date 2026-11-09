@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794117576,
-  "_history": [],
-  "_change_number": 40710237,
-  "_missing_token": true,
-  "_sha": "026863b9f3f280d73976e5bca3a22db4642c7445",
-  "_size": 4233,
+  "_lastChecked": 1794262873,
+  "_history": [
+    {
+      "buildId": "26532915",
+      "branch": "public",
+      "timeUpdated": 1794203200,
+      "firstSeen": 1794262873,
+      "manifests": {
+        "4433701": {
+          "gid": "4598677584814145735",
+          "size": 307973563,
+          "download": 209166656
+        }
+      }
+    }
+  ],
+  "_change_number": 40756026,
+  "_missing_token": false,
+  "_sha": "fd1043df7b6f482439ca6e94115e5cc036576fdc",
+  "_size": 5399,
   "appid": "4433700",
   "common": {
     "associations": {
@@ -32,8 +46,8 @@
     },
     "clienticon": "cbf1d847e2e5dc215376eceed3d5643a697d723d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4433700",
     "genres": {
       "0": "28",
@@ -121,11 +135,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fa8a0a8a4e8533b4d09f296c76b70c9aebce7ec5/capsule_231x87.jpg",
       "japanese": "50b74afde76b642ac88b2e0a9dbbce2e36e9bc4a/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1793954114",
     "store_tags": {
       "0": "599",
@@ -156,5 +171,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "kakode_buzzv",
+    "launch": {
+      "0": {
+        "executable": "kakodebuzzV.exe"
+      }
+    },
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4433701": {
+      "manifests": {
+        "public": {
+          "download": "209166656",
+          "gid": "4598677584814145735",
+          "size": "307973563"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "26532915",
+        "timebuildupdated": "1794202572",
+        "timeupdated": "1794203200"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "WataritamaStudio",
+    "homepage": "https://wataritama.com/kakobuzzv/",
+    "publisher": "WataritamaStudio"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "KakodeBuzzV/saves",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "KakodeBuzzV",
+        "pattern": "meta.json",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

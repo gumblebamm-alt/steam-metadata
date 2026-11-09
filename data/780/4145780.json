@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792644422,
-  "_history": [],
-  "_change_number": 40100334,
-  "_missing_token": true,
-  "_sha": "d1c00826252e2e5649906ffec7195dabfe5b8b0f",
-  "_size": 2953,
+  "_lastChecked": 1794262866,
+  "_history": [
+    {
+      "buildId": "26519254",
+      "branch": "public",
+      "timeUpdated": 1794135620,
+      "firstSeen": 1794262866,
+      "manifests": {
+        "4145781": {
+          "gid": "8123417469207187842",
+          "size": 337177648,
+          "download": 146106128
+        },
+        "4145782": {
+          "gid": "6993147217131587837",
+          "size": 193619016,
+          "download": 134865200
+        }
+      }
+    }
+  ],
+  "_change_number": 40755068,
+  "_missing_token": false,
+  "_sha": "269e9f90e9a251aa11c92a9414a6d81c5d100d80",
+  "_size": 4549,
   "appid": "4145780",
   "common": {
     "associations": {
@@ -23,8 +42,8 @@
     },
     "clienticon": "38efac671c7d9eccc6dfd50024e16c7f8f76cfbe",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4145780",
     "genres": {
       "0": "25",
@@ -99,10 +118,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bb97b1475164970f5da2e1998e84ab9b26290a4f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794230516",
     "store_asset_mtime": "1776519887",
     "store_tags": {
       "0": "1320952",
@@ -133,5 +153,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Abracademia",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Abracademia.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Abracademia.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4145781": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "146106128",
+          "gid": "8123417469207187842",
+          "size": "337177648"
+        }
+      }
+    },
+    "4145782": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "134865200",
+          "gid": "6993147217131587837",
+          "size": "193619016"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26519254",
+        "timebuildupdated": "1794135618",
+        "timeupdated": "1794135620"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Seele Games",
+    "homepage": "https://abracademia.seelegames.com/",
+    "publisher": "Seele Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "500",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Abracademia",
+            "replace": ".local/share/godot/app_userdata/Abracademia"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Abracademia",
+        "pattern": "*.abra",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

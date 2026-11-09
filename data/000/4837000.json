@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794205485,
-  "_history": [],
-  "_change_number": 40743779,
-  "_missing_token": true,
-  "_sha": "0f65fb741b185b7fe08eb19d40bc5ab66f492d40",
-  "_size": 3314,
+  "_lastChecked": 1794262883,
+  "_history": [
+    {
+      "buildId": "26532864",
+      "branch": "public",
+      "timeUpdated": 1794202373,
+      "firstSeen": 1794262883,
+      "manifests": {
+        "4837001": {
+          "gid": "6127798262434815979",
+          "size": 1325656003,
+          "download": 1130152528
+        }
+      }
+    }
+  ],
+  "_change_number": 40762595,
+  "_missing_token": false,
+  "_sha": "e34659523a7e614197861e7e32e05f3fafc7c5e8",
+  "_size": 4598,
   "appid": "4837000",
   "common": {
     "associations": {
@@ -40,9 +54,9 @@
     },
     "clienticon": "c74f2960aa15347c1f4741c7357e72cc9074162b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4837000",
     "genres": {
       "0": "4",
@@ -114,11 +128,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4295d3879df5fceda09020f1c2f5c2c8470d4bcc/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792816794",
+    "steam_release_date": "1794243865",
+    "store_asset_mtime": "1794243844",
     "store_tags": {
       "0": "122",
       "1": "597",
@@ -147,5 +162,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Shin'ai Rewritten",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Shinai.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4837001": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1130152528",
+          "gid": "6127798262434815979",
+          "size": "1325656003"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26532864",
+        "timebuildupdated": "1794202341",
+        "timeupdated": "1794202373"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Tomitry Studios",
+    "publisher": "Tomitry Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "300",
+    "quota": "300000000",
+    "savefiles": {
+      "0": {
+        "path": "Shinai/Saved/SaveGames",
+        "pattern": "Game_*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Shinai/Saved/SaveGames",
+        "pattern": "Artistry_*.png",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793040176,
-  "_history": [],
-  "_change_number": 40246623,
-  "_missing_token": true,
-  "_sha": "d02efadd59c71db74cbf5ea430c144756f054e9f",
-  "_size": 3211,
+  "_lastChecked": 1794262898,
+  "_history": [
+    {
+      "buildId": "26211082",
+      "branch": "public",
+      "timeUpdated": 1793000046,
+      "firstSeen": 1794262898,
+      "manifests": {
+        "5234931": {
+          "gid": "2793261835260485455",
+          "size": 1437302108,
+          "download": 1260718752
+        },
+        "5234932": {
+          "gid": "3133313958470502142",
+          "size": 1436687868,
+          "download": 1257689712
+        },
+        "5234933": {
+          "gid": "8760081040639318466",
+          "size": 1400305285,
+          "download": 1252154784
+        }
+      }
+    }
+  ],
+  "_change_number": 40745660,
+  "_missing_token": false,
+  "_sha": "21c958cb18c1e44779718aec3e47741029c5bfbf",
+  "_size": 4632,
   "appid": "5234930",
   "common": {
     "aicontenttype": "2",
@@ -26,7 +50,6 @@
     "clienticon": "998c6a005413e2983602f477d47d448d24b2b3e0",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5234930",
     "genres": {
       "0": "4",
@@ -99,7 +122,7 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8fc38a2cd755370511696170d0de3a4601f2c2de/capsule_231x87.jpg"
     },
@@ -141,5 +164,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Send by Sunset",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Send by Sunset.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Send by Sunset.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "launch.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5234931": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1260718752",
+          "gid": "2793261835260485455",
+          "size": "1437302108"
+        }
+      }
+    },
+    "5234932": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1257689712",
+          "gid": "3133313958470502142",
+          "size": "1436687868"
+        }
+      }
+    },
+    "5234933": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1252154784",
+          "gid": "8760081040639318466",
+          "size": "1400305285"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26211082",
+        "timebuildupdated": "1792998275",
+        "timeupdated": "1793000046"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Barabaka Games",
+    "publisher": "Barabaka Games"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792603003,
-  "_history": [],
-  "_change_number": 40094057,
-  "_missing_token": true,
-  "_sha": "4c713ddf0e9319caaea02abdd811c4a32cb1b118",
-  "_size": 4600,
+  "_lastChecked": 1794262856,
+  "_history": [
+    {
+      "buildId": "26430855",
+      "branch": "public",
+      "timeUpdated": 1793814320,
+      "firstSeen": 1794262856,
+      "manifests": {
+        "3448001": {
+          "gid": "8374019845311556796",
+          "size": 3704890333,
+          "download": 773846352
+        }
+      }
+    }
+  ],
+  "_change_number": 40763517,
+  "_missing_token": false,
+  "_sha": "ace27e1d97207d1667866b9c81ede223c5f2da20",
+  "_size": 6004,
   "appid": "3448000",
   "common": {
     "associations": {
@@ -38,9 +52,9 @@
     },
     "clienticon": "8cedcb9479e075f9a0f1d6c450b33503bb253aa3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3448000",
     "genres": {
       "0": "1",
@@ -130,13 +144,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5bd64e4bf404d44eb5de70810594cf26a9ca4003/capsule_231x87.jpg",
       "sc_schinese": "42f35859429fd0cce570c9d1155305c942004a47/capsule_231x87_sc_schinese.jpg",
       "schinese": "42f35859429fd0cce570c9d1155305c942004a47/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1790766905",
+    "steam_release_date": "1794232805",
+    "store_asset_mtime": "1793009312",
     "store_tags": {
       "0": "3859",
       "1": "7178",
@@ -191,5 +206,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Planted",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Planted.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65524",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3448001": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "773846352",
+          "gid": "8374019845311556796",
+          "size": "3704890333"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,japanese,koreana,latam,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26430855",
+        "timebuildupdated": "1793794201",
+        "timeupdated": "1793814320"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Cloth Cat Games",
+    "publisher": "Curveball Games",
+    "remoteplaytogethertestingbranches": "default,development"
+  },
+  "ufs": {
+    "maxnumfiles": "3",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Cloth Cat/Planted/{64BitSteamID}/Sync",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Cloth Cat/Planted/Release/{64BitSteamID}/Sync",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

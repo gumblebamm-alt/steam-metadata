@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793908639,
-  "_history": [],
-  "_change_number": 40642569,
-  "_missing_token": true,
-  "_sha": "1b6215fc9b984e3faa3e5fb0ac4f10a68a264c73",
-  "_size": 4650,
+  "_lastChecked": 1794262866,
+  "_history": [
+    {
+      "buildId": "26540461",
+      "branch": "public",
+      "timeUpdated": 1794230959,
+      "firstSeen": 1794262866,
+      "manifests": {
+        "4165741": {
+          "gid": "1087020187354461772",
+          "size": 233770060,
+          "download": 174302304
+        },
+        "4165742": {
+          "gid": "3568137360290935355",
+          "size": 268680700,
+          "download": 182785904
+        },
+        "4165743": {
+          "gid": "5780936649723745813",
+          "size": 333148850,
+          "download": 202485536
+        }
+      }
+    }
+  ],
+  "_change_number": 40764164,
+  "_missing_token": false,
+  "_sha": "a5bc6e5bbda9911ef5e20f0e6b9d323d1cf4d9ba",
+  "_size": 7123,
   "appid": "4165740",
   "common": {
     "associations": {
@@ -39,9 +63,9 @@
     },
     "clienticon": "58a82e01d4e7dc3a8d06deb4db230473893b8c28",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4165740",
     "genres": {
       "0": "4",
@@ -114,11 +138,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8f11eeb3dc3a50e9956c05ec9ff5f785a7a611ad/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793188058",
+    "steam_release_date": "1794246878",
+    "store_asset_mtime": "1794232612",
     "store_tags": {
       "0": "255534",
       "1": "1091588",
@@ -232,5 +257,131 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Vena",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Vena.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Vena.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Vena.app/Contents/MacOS/Vena"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4165741": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "174302304",
+          "gid": "1087020187354461772",
+          "size": "233770060"
+        }
+      }
+    },
+    "4165742": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "182785904",
+          "gid": "3568137360290935355",
+          "size": "268680700"
+        }
+      }
+    },
+    "4165743": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "202485536",
+          "gid": "5780936649723745813",
+          "size": "333148850"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26540461",
+        "timebuildupdated": "1794230957",
+        "timeupdated": "1794230959"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "loerting",
+    "homepage": "https://loertinggames.com/vena/",
+    "publisher": "Loerting Games"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Vena",
+            "replace": "godot/app_userdata/Vena"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Vena",
+        "pattern": "progress.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Vena",
+        "pattern": "keybinds.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Vena",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Vena",
+        "pattern": "*.jpg",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

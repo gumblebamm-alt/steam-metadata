@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794205492,
-  "_history": [],
-  "_change_number": 40738200,
-  "_missing_token": true,
-  "_sha": "6bc8f6de121146f2a6dffc62812d55717a7b8d8b",
-  "_size": 4085,
+  "_lastChecked": 1794262895,
+  "_history": [
+    {
+      "buildId": "26549355",
+      "branch": "public",
+      "timeUpdated": 1794259268,
+      "firstSeen": 1794262895,
+      "manifests": {
+        "5168961": {
+          "gid": "7952192400874802241",
+          "size": 207154652,
+          "download": 116070592
+        }
+      }
+    }
+  ],
+  "_change_number": 40770308,
+  "_missing_token": false,
+  "_sha": "0f2179574f3b8f398b046b6113dab2699df16d5b",
+  "_size": 6108,
   "appid": "5168960",
   "common": {
     "aicontenttype": "1",
@@ -34,7 +48,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5168960",
     "genres": {
       "0": "23",
@@ -113,11 +126,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "219e5500e65db3978c7c09a8389891765ef060c1/capsule_231x87.jpg",
       "schinese": "2d41d34e1176992ffaacf896b678065b644192a9/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1794247087",
     "store_asset_mtime": "1794175266",
     "store_tags": {
       "0": "3813",
@@ -168,5 +182,100 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Aldmark Calls For Aid",
+    "launch": {
+      "0": {
+        "arguments": "--rendering-method mobile --rendering-driver d3d12",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "DirectX 12",
+        "description_loc": {
+          "english": "DirectX 12"
+        },
+        "executable": "AldmarkCallsForAid.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "--rendering-method mobile --rendering-driver vulkan",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Vulkan",
+        "description_loc": {
+          "english": "Vulkan"
+        },
+        "executable": "AldmarkCallsForAid.exe",
+        "type": "option2"
+      },
+      "2": {
+        "arguments": "--rendering-method gl_compatibility --rendering-driver opengl3",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "OpenGL (compatibility)",
+        "description_loc": {
+          "english": "OpenGL (compatibility)"
+        },
+        "executable": "AldmarkCallsForAid.exe",
+        "type": "option3"
+      }
+    }
+  },
+  "depots": {
+    "5168961": {
+      "manifests": {
+        "public": {
+          "download": "116070592",
+          "gid": "7952192400874802241",
+          "size": "207154652"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26549355",
+        "timebuildupdated": "1794256622",
+        "timeupdated": "1794259268"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Studio Miley",
+    "publisher": "Studio Miley"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Aldmark Calls for Aid/profiles",
+        "pattern": "*.save",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

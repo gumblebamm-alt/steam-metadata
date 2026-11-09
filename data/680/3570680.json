@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1793821538,
-  "_history": [],
-  "_change_number": 40586075,
-  "_missing_token": true,
-  "_sha": "4147e8c6b4cf8638d891d69a515dd29cf9fd9f09",
-  "_size": 3088,
+  "_lastChecked": 1794262857,
+  "_history": [
+    {
+      "buildId": "26224334",
+      "branch": "ci-test",
+      "timeUpdated": 1793042391,
+      "firstSeen": 1794262857,
+      "manifests": {
+        "3570681": {
+          "gid": "6097050315310561833",
+          "size": 321574418,
+          "download": 123346960
+        }
+      }
+    },
+    {
+      "buildId": "26544955",
+      "branch": "public",
+      "timeUpdated": 1794243313,
+      "firstSeen": 1794262857,
+      "manifests": {
+        "3570681": {
+          "gid": "700962512544221784",
+          "size": 323665485,
+          "download": 123719984
+        }
+      }
+    }
+  ],
+  "_change_number": 40762248,
+  "_missing_token": false,
+  "_sha": "60da9f2db05ae9f85ef09541065cf019a030614b",
+  "_size": 4307,
   "appid": "3570680",
   "common": {
     "associations": {
@@ -25,8 +52,8 @@
     },
     "clienticon": "c62ff56871d507c2dde4699516b6a67374a4c35c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3570680",
     "genres": {
       "0": "4",
@@ -98,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c321411e451773451926ed06df5aea8b976516a8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794243345",
     "store_asset_mtime": "1792543039",
     "store_tags": {
       "0": "597",
@@ -141,5 +169,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Meltdown",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "main game launcher",
+        "description_loc": {
+          "english": "main game launcher"
+        },
+        "executable": "Meltdown.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3570681": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "ci-test": {
+          "download": "123346960",
+          "gid": "6097050315310561833",
+          "size": "321574418"
+        },
+        "public": {
+          "download": "123719984",
+          "gid": "700962512544221784",
+          "size": "323665485"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,russian",
+    "branches": {
+      "ci-test": {
+        "buildid": "26224334",
+        "description": "testing branch",
+        "timebuildupdated": "1793038088",
+        "timeupdated": "1793042391"
+      },
+      "public": {
+        "buildid": "26544955",
+        "timebuildupdated": "1794243311",
+        "timeupdated": "1794243313"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Team STEP GmbH",
+    "homepage": "https://teamstep.io",
+    "publisher": "Team STEP GmbH"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "100000000"
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793513183,
-  "_history": [],
-  "_change_number": 40462600,
-  "_missing_token": true,
-  "_sha": "b24926c756129e4ca534b5afc63bcef580ce43d9",
-  "_size": 3967,
+  "_lastChecked": 1794262888,
+  "_history": [
+    {
+      "buildId": "26540374",
+      "branch": "public",
+      "timeUpdated": 1794236388,
+      "firstSeen": 1794262888,
+      "manifests": {
+        "4993271": {
+          "gid": "1377459425981345873",
+          "size": 430167735,
+          "download": 219055840
+        },
+        "4993272": {
+          "gid": "2488840566745278678",
+          "size": 384228649,
+          "download": 196307232
+        }
+      }
+    }
+  ],
+  "_change_number": 40764355,
+  "_missing_token": false,
+  "_sha": "c48e96d1aa18002ec8bf72bdbfaf80381e012fcd",
+  "_size": 5668,
   "appid": "4993270",
   "common": {
     "associations": {
@@ -39,9 +58,9 @@
     },
     "clienticon": "7bf5e5111058c144e15d58d3e98ed0d85f62671b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4993270",
     "genres": {
       "0": "23",
@@ -124,10 +143,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a4ce0bc002760d4f85685a6e0076f3a323956392/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794247227",
     "store_asset_mtime": "1792347245",
     "store_tags": {
       "0": "1676",
@@ -186,5 +206,98 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Palisade",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Palisade.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "start-linux.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4993271": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "219055840",
+          "gid": "1377459425981345873",
+          "size": "430167735"
+        }
+      }
+    },
+    "4993272": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "196307232",
+          "gid": "2488840566745278678",
+          "size": "384228649"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26540374",
+        "timebuildupdated": "1794230699",
+        "timeupdated": "1794236388"
+      }
+    },
+    "workshopdepot": "4993270"
+  },
+  "extended": {
+    "developer": "Aulot Games",
+    "homepage": "https://aulotgames.com/",
+    "publisher": "Aulot Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Palisade",
+        "pattern": "campaign-v2.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Palisade",
+        "pattern": "campaign-v1.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

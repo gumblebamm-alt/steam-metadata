@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794205465,
-  "_history": [],
-  "_change_number": 40744411,
-  "_missing_token": true,
-  "_sha": "3740e520ac98949ccef6177270cf043e62ec5599",
-  "_size": 4494,
+  "_lastChecked": 1794262841,
+  "_history": [
+    {
+      "buildId": "26544917",
+      "branch": "public",
+      "timeUpdated": 1794244211,
+      "firstSeen": 1794262841,
+      "manifests": {
+        "696851": {
+          "gid": "1591975197273530281",
+          "size": 980928081,
+          "download": 799020032
+        },
+        "696852": {
+          "gid": "9029720299436690276",
+          "size": 1047020232,
+          "download": 794366064
+        },
+        "696853": {
+          "gid": "699691076183226770",
+          "size": 787956207,
+          "download": 574354400
+        }
+      }
+    }
+  ],
+  "_change_number": 40762778,
+  "_missing_token": false,
+  "_sha": "23c4b2cb721e760b0a4a703f4ddb9402911c792b",
+  "_size": 6961,
   "appid": "696850",
   "common": {
     "associations": {
@@ -43,9 +67,9 @@
     "clienticon": "32ce9c14df4147e015687918043d938052cdb2dc",
     "clienttga": "51f84e0f1f3935c77922b9378492fc6d393bd34a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "696850",
     "genres": {
       "0": "1",
@@ -121,10 +145,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "920fe99481eb5f3ff781b6388b5c7d59b67aeb57/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1794204530",
     "store_tags": {
       "0": "4637",
@@ -202,5 +227,129 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Zap Blastum",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Zap Blastum.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Zap Blastum.app",
+        "type": "default"
+      },
+      "3": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Zap Blastum.x86_64",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "696851": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "799020032",
+          "gid": "1591975197273530281",
+          "size": "980928081"
+        }
+      }
+    },
+    "696852": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "794366064",
+          "gid": "9029720299436690276",
+          "size": "1047020232"
+        }
+      }
+    },
+    "696853": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "574354400",
+          "gid": "699691076183226770",
+          "size": "787956207"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26544917",
+        "timebuildupdated": "1794243215",
+        "timeupdated": "1794244211"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "1",
+    "developer": "Shiny Dolphin Games LLC",
+    "homepage": "http://www.shinydolphin.com/zap-blastum",
+    "publisher": "Shiny Dolphin Games LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "24",
+    "quota": "500000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Shiny Dolphin Games LLC/Zap Blastum/",
+            "replace": "Shiny Dolphin Games LLC/Zap Blastum/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Shiny Dolphin Games LLC/Zap Blastum/",
+            "replace": ".config/unity3d/Shiny Dolphin Games LLC/Zap Blastum/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Shiny Dolphin Games LLC/Zap Blastum/",
+        "pattern": "*.json*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

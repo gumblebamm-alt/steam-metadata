@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793211944,
-  "_history": [],
-  "_change_number": 40328618,
-  "_missing_token": true,
-  "_sha": "7eb0cecba6b7aa1501ce1c3340bbc4d56aed30a3",
-  "_size": 5131,
+  "_lastChecked": 1794262888,
+  "_history": [
+    {
+      "buildId": "26264486",
+      "branch": "public",
+      "timeUpdated": 1793172796,
+      "firstSeen": 1794262888,
+      "manifests": {
+        "4986331": {
+          "gid": "314673537040420979",
+          "size": 400494728,
+          "download": 119759376
+        },
+        "4986332": {
+          "gid": "4004607582774863323",
+          "size": 452349483,
+          "download": 139204000
+        }
+      }
+    }
+  ],
+  "_change_number": 40745431,
+  "_missing_token": false,
+  "_sha": "56a3696e817b8eaf8105ea23ec4d1e6e1cee1c6a",
+  "_size": 6224,
   "appid": "4986330",
   "common": {
     "aicontenttype": "1",
@@ -26,7 +45,6 @@
     "clienticon": "8bd7330c7630ae562ff166a4fa36202c370b24c1",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4986330",
     "genres": {
       "0": "4",
@@ -99,7 +117,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b77be9c79b37f841f4535ceab23ad5c7b224f729/capsule_231x87.jpg"
     },
@@ -250,5 +268,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Handsy",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Handsy.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Handsy.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4986331": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "119759376",
+          "gid": "314673537040420979",
+          "size": "400494728"
+        }
+      }
+    },
+    "4986332": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "139204000",
+          "gid": "4004607582774863323",
+          "size": "452349483"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26264486",
+        "timebuildupdated": "1793172524",
+        "timeupdated": "1793172796"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SIA Blinkovio",
+    "isfreeapp": "1",
+    "publisher": "SIA Blinkovio"
+  }
 }

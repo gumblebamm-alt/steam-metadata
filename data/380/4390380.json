@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1793688517,
-  "_history": [],
-  "_change_number": 40530893,
-  "_missing_token": true,
-  "_sha": "c9221d3baa54aa17ea11f5c79476e5a5ed12a426",
-  "_size": 4705,
+  "_lastChecked": 1794262871,
+  "_history": [
+    {
+      "buildId": "26546369",
+      "branch": "beta",
+      "timeUpdated": 1794247429,
+      "firstSeen": 1794262871,
+      "manifests": {
+        "4390381": {
+          "gid": "7888348105657012096",
+          "size": 1653661083,
+          "download": 1409227008
+        },
+        "4390382": {
+          "gid": "6127785781961818841",
+          "size": 3515519796,
+          "download": 1367815760
+        }
+      }
+    },
+    {
+      "buildId": "26546369",
+      "branch": "public",
+      "timeUpdated": 1794247438,
+      "firstSeen": 1794262871,
+      "manifests": {
+        "4390381": {
+          "gid": "7888348105657012096",
+          "size": 1653661083,
+          "download": 1409227008
+        },
+        "4390382": {
+          "gid": "6127785781961818841",
+          "size": 3515519796,
+          "download": 1367815760
+        }
+      }
+    }
+  ],
+  "_change_number": 40765066,
+  "_missing_token": false,
+  "_sha": "767deafdb4b29f1cb37b7894ac4de9089c17a382",
+  "_size": 6889,
   "appid": "4390380",
   "common": {
     "associations": {
@@ -34,7 +71,6 @@
     "clienticon": "b944be3fcc2b3ad9372bae07c09ade00abb30f1a",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4390380",
     "genres": {
       "0": "2"
@@ -106,7 +142,7 @@
     "osextended": "",
     "oslist": "windows,android",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "da6a7521f0b41af275f915983dec0e8f028baf39/capsule_231x87.jpg"
     },
@@ -152,6 +188,7 @@
         }
       }
     },
+    "steam_release_date": "1794248371",
     "store_asset_mtime": "1790639821",
     "store_tags": {
       "0": "9",
@@ -200,5 +237,111 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Crystal Commanders",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "android"
+        },
+        "executable": "cc-steam-release.apk",
+        "type": "openxr"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Crystal Commanders.exe",
+        "type": "openxr"
+      }
+    }
+  },
+  "depots": {
+    "4390381": {
+      "config": {
+        "oslist": "android"
+      },
+      "manifests": {
+        "beta": {
+          "download": "1409227008",
+          "gid": "7888348105657012096",
+          "size": "1653661083"
+        },
+        "public": {
+          "download": "1409227008",
+          "gid": "7888348105657012096",
+          "size": "1653661083"
+        }
+      }
+    },
+    "4390382": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "1367815760",
+          "gid": "6127785781961818841",
+          "size": "3515519796"
+        },
+        "public": {
+          "download": "1367815760",
+          "gid": "6127785781961818841",
+          "size": "3515519796"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26546369",
+        "description": "beta branch",
+        "timebuildupdated": "1794247393",
+        "timeupdated": "1794247429"
+      },
+      "public": {
+        "buildid": "26546369",
+        "timebuildupdated": "1794247393",
+        "timeupdated": "1794247438"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "DB Creations, Inc.",
+    "homepage": "https://www.crystalcommanders.com/",
+    "publisher": "DB Creations, Inc.",
+    "vrheadsetstreaming": "1"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "1000000",
+    "rootoverrides": {
+      "1": {
+        "os": "Android",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "DB Creations, Inc_/Crystal Commanders/",
+            "replace": "Android/data/com.db.basecamp/files/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "AndroidExternalData"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "DB Creations, Inc_/Crystal Commanders/",
+        "pattern": "save_data.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "DB Creations, Inc_/Crystal Commanders/",
+        "pattern": "defensive_mode_save.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

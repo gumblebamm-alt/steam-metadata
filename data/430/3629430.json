@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793339310,
-  "_history": [],
-  "_change_number": 40395513,
-  "_missing_token": true,
-  "_sha": "8146843a6eb0259967c2393dea8809bddf2ed58f",
-  "_size": 4669,
+  "_lastChecked": 1794262858,
+  "_history": [
+    {
+      "buildId": "26547433",
+      "branch": "public",
+      "timeUpdated": 1794258421,
+      "firstSeen": 1794262858,
+      "manifests": {
+        "3629431": {
+          "gid": "5191113210165625569",
+          "size": 6737611355,
+          "download": 6207603808
+        }
+      }
+    }
+  ],
+  "_change_number": 40771609,
+  "_missing_token": false,
+  "_sha": "6420146758fedaaa8f4948e6fe9345aec37327a6",
+  "_size": 6179,
   "appid": "3629430",
   "common": {
     "associations": {
@@ -19,7 +33,13 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
       "category_23": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
       "category_62": "1",
       "category_68": "1",
       "category_69": "1",
@@ -28,6 +48,7 @@
     "clienticon": "04de50a5a352f745264473d86df2d481cae8abe5",
     "clienttga": "733aba0df9e4d12372872f76f58c23fb77883a9b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -36,6 +57,7 @@
       "0": "2",
       "1": "5"
     },
+    "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -45,7 +67,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "3629430",
     "genres": {
       "0": "1",
@@ -140,11 +161,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "83",
+    "review_score": "8",
     "small_capsule": {
       "english": "463d99fc377b03a3a20fc3b45915a8755ccabef4/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792069364",
+    "steam_release_date": "1794228120",
+    "store_asset_mtime": "1794228508",
     "store_tags": {
       "0": "21",
       "1": "3834",
@@ -154,14 +178,14 @@
       "13": "1742",
       "14": "1702",
       "15": "1695",
-      "16": "19",
-      "17": "4182",
+      "16": "4182",
+      "17": "19",
       "18": "6276",
       "19": "4252",
       "2": "7432",
-      "3": "599",
-      "4": "3839",
-      "5": "15564",
+      "3": "15564",
+      "4": "599",
+      "5": "3839",
       "6": "4191",
       "7": "4166",
       "8": "3835",
@@ -221,5 +245,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DREADMOOR",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Dreadmoor.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Dreadmoor.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3629431": {
+      "manifests": {
+        "public": {
+          "download": "6207603808",
+          "gid": "5191113210165625569",
+          "size": "6737611355"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26547433",
+        "timebuildupdated": "1794250607",
+        "timeupdated": "1794258421"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Dream Dock",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.dream-dock.com",
+    "listofdlc": "5307520",
+    "publisher": "Digital Vortex Entertainment"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "Dreadmoor/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

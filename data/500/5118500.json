@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794205491,
-  "_history": [],
-  "_change_number": 40742974,
-  "_missing_token": true,
-  "_sha": "d616b3c157f2654e0424e33ce599208ede524688",
-  "_size": 5215,
+  "_lastChecked": 1794262893,
+  "_history": [
+    {
+      "buildId": "26543028",
+      "branch": "public",
+      "timeUpdated": 1794238365,
+      "firstSeen": 1794262893,
+      "manifests": {
+        "5118501": {
+          "gid": "5932814588103772834",
+          "size": 12258352289,
+          "download": 5728595504
+        }
+      }
+    }
+  ],
+  "_change_number": 40771842,
+  "_missing_token": false,
+  "_sha": "30c91b9c954bc89b8844904b06eff2e95819f301",
+  "_size": 6625,
   "appid": "5118500",
   "common": {
     "associations": {
@@ -35,9 +49,9 @@
     },
     "clienticon": "2d4e82b72cf2dc62d3ecb42c6bb50f1d0a76208f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5118500",
     "genres": {
       "0": "1",
@@ -143,11 +157,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "44",
+    "review_score": "5",
     "small_capsule": {
       "english": "7e302fc52d9e9b02a4077c638bc0989c8741453e/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794193309",
+    "steam_release_date": "1794238542",
+    "store_asset_mtime": "1794237316",
     "store_tags": {
       "0": "3843",
       "1": "3859",
@@ -269,5 +286,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Safari-TV",
+    "launch": {
+      "0": {
+        "arguments": "-force-d3d11",
+        "description": "Play Safari-TV — DirectX 11",
+        "description_loc": {
+          "english": "Play Safari-TV — DirectX 11"
+        },
+        "executable": "Safari-TV.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "-force-d3d12",
+        "description": "Play Safari-TV — DirectX 12",
+        "description_loc": {
+          "english": "Play Safari-TV — DirectX 12"
+        },
+        "executable": "Safari-TV.exe",
+        "type": "option2"
+      },
+      "2": {
+        "arguments": "-force-vulkan",
+        "description": "Vulkan (low PC and Steam Deck recommended)",
+        "description_loc": {
+          "english": "Vulkan (low PC and Steam Deck recommended)"
+        },
+        "executable": "Safari-TV.exe",
+        "type": "option3"
+      }
+    }
+  },
+  "depots": {
+    "5118501": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "5728595504",
+          "gid": "5932814588103772834",
+          "size": "12258352289"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26543028",
+        "timebuildupdated": "1794238316",
+        "timeupdated": "1794238365"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Mercy Games",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5542670,5542680",
+    "publisher": "Mercy Games"
+  }
 }

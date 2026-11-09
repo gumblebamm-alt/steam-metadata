@@ -1,10 +1,50 @@
 {
-  "_lastChecked": 1794073576,
-  "_history": [],
-  "_change_number": 40704779,
-  "_missing_token": true,
-  "_sha": "c2e7a0891389203cbb1abd642e99f0c81ede8edf",
-  "_size": 3820,
+  "_lastChecked": 1794262872,
+  "_history": [
+    {
+      "buildId": "26506146",
+      "branch": "devbuild_unstable",
+      "timeUpdated": 1794057456,
+      "firstSeen": 1794262872,
+      "manifests": {
+        "4424421": {
+          "gid": "2768020642206351275",
+          "size": 16466221534,
+          "download": 9453157808
+        }
+      }
+    },
+    {
+      "buildId": "26549373",
+      "branch": "public",
+      "timeUpdated": 1794256726,
+      "firstSeen": 1794262872,
+      "manifests": {
+        "4424421": {
+          "gid": "7479940215304216975",
+          "size": 16395771485,
+          "download": 9425890016
+        }
+      }
+    },
+    {
+      "buildId": "26507381",
+      "branch": "stable_build_previous_version",
+      "timeUpdated": 1794064112,
+      "firstSeen": 1794262872,
+      "manifests": {
+        "4424421": {
+          "gid": "938526971428606684",
+          "size": 16396175262,
+          "download": 9426077664
+        }
+      }
+    }
+  ],
+  "_change_number": 40771831,
+  "_missing_token": false,
+  "_sha": "2e8a515d1cf6e32056f3cfbe53fbb114ebca915f",
+  "_size": 5575,
   "appid": "4424420",
   "common": {
     "associations": {
@@ -35,6 +75,7 @@
     },
     "clienticon": "e6a91b9a52ba97a71031c16642d246fde16b5e3c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -44,7 +85,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4424420",
     "genres": {
       "0": "1",
@@ -120,11 +160,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "848aeb34a7eda3e026280029487b61ad2b2d4664/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1788415033",
+    "steam_release_date": "1794243600",
+    "store_asset_mtime": "1794254729",
     "store_tags": {
       "0": "19",
       "1": "745697",
@@ -144,8 +187,8 @@
       "5": "4342",
       "6": "4191",
       "7": "3839",
-      "8": "1759",
-      "9": "1662"
+      "8": "1662",
+      "9": "1759"
     },
     "supported_languages": {
       "brazilian": {
@@ -185,5 +228,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Alterum",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Alterum.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4424421": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "devbuild_unstable": {
+          "download": "9453157808",
+          "gid": "2768020642206351275",
+          "size": "16466221534"
+        },
+        "public": {
+          "download": "9425890016",
+          "gid": "7479940215304216975",
+          "size": "16395771485"
+        },
+        "stable_build_previous_version": {
+          "download": "9426077664",
+          "gid": "938526971428606684",
+          "size": "16396175262"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "devbuild_unstable": {
+        "buildid": "26506146",
+        "description": "Public devbuild with untested systems, possible critical bugs",
+        "timebuildupdated": "1794057448",
+        "timeupdated": "1794057456"
+      },
+      "public": {
+        "buildid": "26549373",
+        "timebuildupdated": "1794256685",
+        "timeupdated": "1794256726"
+      },
+      "stable_build_previous_version": {
+        "buildid": "26507381",
+        "description": "Stable build version that precedes the build on the default branch",
+        "timebuildupdated": "1794064103",
+        "timeupdated": "1794064112"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Hot Winter",
+    "publisher": "Hot Winter"
+  }
 }
