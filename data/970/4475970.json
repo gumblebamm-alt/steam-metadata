@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794073577,
-  "_history": [],
-  "_change_number": 40360760,
-  "_missing_token": true,
-  "_sha": "423b7f143f0bc3b3bb7df2467619e1294265ca36",
-  "_size": 3129,
+  "_lastChecked": 1794205481,
+  "_history": [
+    {
+      "buildId": "26525689",
+      "branch": "public",
+      "timeUpdated": 1794168486,
+      "firstSeen": 1794205481,
+      "manifests": {
+        "4475971": {
+          "gid": "3920181471602771536",
+          "size": 152374728,
+          "download": 66377296
+        },
+        "4475972": {
+          "gid": "1891296181617241806",
+          "size": 116008203,
+          "download": 56526960
+        }
+      }
+    }
+  ],
+  "_change_number": 40733904,
+  "_missing_token": false,
+  "_sha": "a59ce36a9dfbdec80ea9af9852e3abad8f03a549",
+  "_size": 5047,
   "appid": "4475970",
   "common": {
     "associations": {
@@ -32,8 +51,8 @@
     },
     "clienticon": "6742c9bdd1fbdbdab4722ba0aff19f3f999eee73",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4475970",
     "genres": {
       "0": "4",
@@ -106,10 +125,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8a28379a27eab32db8437ea529c9cc791afae1d2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794170064",
     "store_asset_mtime": "1791409250",
     "store_tags": {
       "0": "7556",
@@ -140,5 +160,97 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Prerolled",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Prerolled.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Prerolled.x86_64",
+        "type": "default"
+      }
+    },
+    "steamcontrollerconfigdetails": {
+      "3827905966": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4475971": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "66377296",
+          "gid": "3920181471602771536",
+          "size": "152374728"
+        }
+      }
+    },
+    "4475972": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "56526960",
+          "gid": "1891296181617241806",
+          "size": "116008203"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26525689",
+        "timebuildupdated": "1794168091",
+        "timeupdated": "1794168486"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Red Sauce Games",
+    "homepage": "https://impress.games/press-kit/red-sauce-games/prerolled",
+    "publisher": "Red Sauce Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Prerolled/steam_save_full_release",
+            "replace": "godot/app_userdata/Prerolled/steam_save_full_release"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Prerolled/steam_save_full_release",
+        "pattern": "*.save",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

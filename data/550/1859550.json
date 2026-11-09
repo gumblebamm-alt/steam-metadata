@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792903304,
-  "_history": [],
-  "_change_number": 40216736,
-  "_missing_token": true,
-  "_sha": "403bcf7e54de687eaa55d408cb95b9e12affe4fc",
-  "_size": 3441,
+  "_lastChecked": 1794205467,
+  "_history": [
+    {
+      "buildId": "26194644",
+      "branch": "public",
+      "timeUpdated": 1792916699,
+      "firstSeen": 1794205467,
+      "manifests": {
+        "1859551": {
+          "gid": "2724838065937940196",
+          "size": 1785937376,
+          "download": 910462048
+        }
+      }
+    }
+  ],
+  "_change_number": 40736107,
+  "_missing_token": false,
+  "_sha": "e7bb2553df7b4d93b891c5998a333f9bdafe3361",
+  "_size": 4615,
   "appid": "1859550",
   "common": {
     "associations": {
@@ -29,13 +43,12 @@
     "clienticon": "4aeb33707c9401c76b85cb61446ce206d837c8cd",
     "clienttga": "aa9dd0775ff277af2725d7b426fd75ac022c113b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1859550",
     "genres": {
-      "0": "1",
-      "1": "37"
+      "0": "1"
     },
     "header_image": {
       "english": "98e1f9ff5b06622dd0207b618314ebd9b2773329/header.jpg"
@@ -108,7 +121,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "caf132120a894503e13b7778d9449b026e43d8f6/capsule_231x87.jpg"
     },
@@ -116,8 +129,7 @@
     "store_tags": {
       "0": "29482",
       "1": "4026",
-      "10": "113",
-      "11": "4191",
+      "10": "4191",
       "2": "4231",
       "3": "1697",
       "4": "122",
@@ -155,5 +167,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Raise",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Raise.exe"
+      }
+    }
+  },
+  "depots": {
+    "1859551": {
+      "manifests": {
+        "public": {
+          "download": "910462048",
+          "gid": "2724838065937940196",
+          "size": "1785937376"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26194644",
+        "timebuildupdated": "1792916668",
+        "timeupdated": "1792916699"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Engrave Studios",
+    "publisher": "Engrave Studios"
+  },
+  "ufs": {
+    "appidredirect": "1859550",
+    "maxnumfiles": "64",
+    "quota": "16777216",
+    "savefiles": {
+      "0": {
+        "path": "DefaultCompany/Raise/Saves/{64BitSteamID}",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "DefaultCompany/Raise/Saves/{64BitSteamID}",
+        "pattern": "*.bak",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

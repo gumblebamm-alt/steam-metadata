@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1791290264,
-  "_history": [],
-  "_change_number": 39522618,
-  "_missing_token": true,
-  "_sha": "c3bb445a473c23f552299161639dfb8b2ec2729b",
-  "_size": 3551,
+  "_lastChecked": 1794205486,
+  "_history": [
+    {
+      "buildId": "26532849",
+      "branch": "public",
+      "timeUpdated": 1794202288,
+      "firstSeen": 1794205486,
+      "manifests": {
+        "4861911": {
+          "gid": "6085729287187594637",
+          "size": 137756840,
+          "download": 54036400
+        },
+        "4861912": {
+          "gid": "5561909986559639276",
+          "size": 97326136,
+          "download": 42498272
+        },
+        "4861913": {
+          "gid": "2879240852556854267",
+          "size": 195312126,
+          "download": 69612416
+        }
+      }
+    }
+  ],
+  "_change_number": 40743763,
+  "_missing_token": false,
+  "_sha": "222fcd982516c2eb51d3f8bb686ce963379fba91",
+  "_size": 5423,
   "appid": "4861910",
   "common": {
     "associations": {
@@ -36,6 +60,7 @@
     },
     "clienticon": "8415519d8fdc0eba55046dff427a833c8fcd7793",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -46,7 +71,6 @@
         "version": "5"
       }
     },
-    "exfgls": "8",
     "gameid": "4861910",
     "genres": {
       "0": "23",
@@ -128,10 +152,11 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8d1c879453d0a38b4089af3fe782504611d26d50/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1783269018",
     "store_tags": {
       "0": "9",
@@ -162,5 +187,106 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pin-Finite",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Pinfinite.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Pinfinite.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Pinfinite.app"
+      }
+    }
+  },
+  "depots": {
+    "4861911": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "54036400",
+          "gid": "6085729287187594637",
+          "size": "137756840"
+        }
+      }
+    },
+    "4861912": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "42498272",
+          "gid": "5561909986559639276",
+          "size": "97326136"
+        }
+      }
+    },
+    "4861913": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "69612416",
+          "gid": "2879240852556854267",
+          "size": "195312126"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,japanese,koreana,latam,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26532849",
+        "timebuildupdated": "1794202227",
+        "timeupdated": "1794202288"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "4861910"
+  },
+  "extended": {
+    "developer": "Horizen Interactive",
+    "publisher": "Horizen Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "My Games\\Pinfinite",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinMyDocuments"
+      },
+      "1": {
+        "path": "godot/app_userdata/Pinfinite",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

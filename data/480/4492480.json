@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792284947,
-  "_history": [],
-  "_change_number": 39939090,
-  "_missing_token": true,
-  "_sha": "e70fbc0c33258ee9925c149c9ce24d00e0d7126a",
-  "_size": 4046,
+  "_lastChecked": 1794205481,
+  "_history": [
+    {
+      "buildId": "26155383",
+      "branch": "public",
+      "timeUpdated": 1792744686,
+      "firstSeen": 1794205481,
+      "manifests": {
+        "4492481": {
+          "gid": "7117081001970681867",
+          "size": 170234556,
+          "download": 88952544
+        }
+      }
+    }
+  ],
+  "_change_number": 40739444,
+  "_missing_token": false,
+  "_sha": "804fa8a20b94c1a5af4ac8e6e82dbc58ad19768d",
+  "_size": 5153,
   "appid": "4492480",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +44,8 @@
     },
     "clienticon": "8aca439d917985b72ee55825acd48bad8b4772f9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4492480",
     "genres": {
       "0": "4",
@@ -117,11 +131,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ba69fbd46e6842388134a14c61c7c4343f3b962e/capsule_231x87.jpg",
       "schinese": "4469aee47d2c043b2da257229fdbd4cbacf9fe8c/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1794188750",
     "store_asset_mtime": "1789825090",
     "store_tags": {
       "0": "32322",
@@ -165,5 +180,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "pick squad",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "PickSquad.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4492481": {
+      "manifests": {
+        "public": {
+          "download": "88952544",
+          "gid": "7117081001970681867",
+          "size": "170234556"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26155383",
+        "timebuildupdated": "1792744623",
+        "timeupdated": "1792744686"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "ACE-Block",
+    "publisher": "ACE-Block"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "500000000",
+    "savefiles": {
+      "1": {
+        "path": "Godot\\app_userdata\\PickSquad",
+        "pattern": "*.save",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot\\app_userdata\\PickSquad",
+        "pattern": "*.cfg",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793166284,
-  "_history": [],
-  "_change_number": 40323993,
-  "_missing_token": true,
-  "_sha": "98ee83302bc75587c271406dff02ade6b3ef4a6f",
-  "_size": 3365,
+  "_lastChecked": 1794205478,
+  "_history": [
+    {
+      "buildId": "26518428",
+      "branch": "public",
+      "timeUpdated": 1794139819,
+      "firstSeen": 1794205478,
+      "manifests": {
+        "4258971": {
+          "gid": "7044553903018497483",
+          "size": 250210688,
+          "download": 101106208
+        }
+      }
+    }
+  ],
+  "_change_number": 40738558,
+  "_missing_token": false,
+  "_sha": "e0b4a3c75898b48a95f724b6f24430c665446124",
+  "_size": 4503,
   "appid": "4258970",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +45,8 @@
     },
     "clienticon": "41d474f117915e9afba5319865b19d47eb2bc6c9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4258970",
     "genres": {
       "0": "4",
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ea6d53c143daf606d50e6426bdbcace6b1bac072/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1792566936",
     "store_tags": {
       "0": "597",
@@ -155,5 +170,67 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CrawlingDesktopPet",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ReptileDeskPet.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4258971": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "101106208",
+          "gid": "7044553903018497483",
+          "size": "250210688"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26518428",
+        "timebuildupdated": "1794129568",
+        "timeupdated": "1794139819"
+      }
+    },
+    "privatebranches": "1",
+    "workshopdepot": "4258970"
+  },
+  "extended": {
+    "developer": "AnKer",
+    "publisher": "AnKer"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "reptile-desk-pet/cloud",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

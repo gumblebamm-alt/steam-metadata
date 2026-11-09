@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791895281,
-  "_history": [],
-  "_change_number": 39764789,
-  "_missing_token": true,
-  "_sha": "4ad25227ac45b0bebca5b1a409a2e367e05e304f",
-  "_size": 6342,
+  "_lastChecked": 1794205477,
+  "_history": [
+    {
+      "buildId": "26453745",
+      "branch": "public",
+      "timeUpdated": 1793869241,
+      "firstSeen": 1794205477,
+      "manifests": {
+        "4184811": {
+          "gid": "1901567321472903016",
+          "size": 519700656,
+          "download": 471184096
+        },
+        "4184812": {
+          "gid": "721008051378518799",
+          "size": 514839992,
+          "download": 437641312
+        }
+      }
+    }
+  ],
+  "_change_number": 40744406,
+  "_missing_token": false,
+  "_sha": "beb33e3386649f223b9bc760175bbcca70be76ff",
+  "_size": 7514,
   "appid": "4184810",
   "common": {
     "aicontenttype": "1",
@@ -33,9 +52,9 @@
     },
     "clienticon": "6fdbd28bea6445bff50aca8fe2c98f260ae6eee7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4184810",
     "genres": {
       "0": "1",
@@ -120,21 +139,22 @@
     },
     "name": "Bullet Meltdown",
     "name_localized": {
-      "schinese": "枪 奶酪 外星人",
-      "tchinese": "槍 乳酪 外星人"
+      "schinese": "枪奶酪外星人",
+      "tchinese": "槍乳酪外星人"
     },
     "osarch": "",
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "abfa21056b5aecea48e2520565f0778aa9b5963f/capsule_231x87.jpg",
       "japanese": "d128783220bbb5ca1ddd520a16fc762b7b783886/capsule_231x87_japanese.jpg",
       "schinese": "d08d56f85c30935e15783b3865972efdf7d763d2/capsule_231x87_schinese.jpg",
       "tchinese": "d08d56f85c30935e15783b3865972efdf7d763d2/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1791863514",
+    "steam_release_date": "1794204044",
+    "store_asset_mtime": "1794204666",
     "store_tags": {
       "0": "723991",
       "1": "42804",
@@ -251,5 +271,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Bullet Meltdown",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BulletMeltdown.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "BulletMeltdown.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4184811": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "471184096",
+          "gid": "1901567321472903016",
+          "size": "519700656"
+        }
+      }
+    },
+    "4184812": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "437641312",
+          "gid": "721008051378518799",
+          "size": "514839992"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26453745",
+        "timebuildupdated": "1793869240",
+        "timeupdated": "1793869241"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Games Anatomy Studio",
+    "publisher": "Games Anatomy Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "50000000"
+  }
 }
