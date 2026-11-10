@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1791592978,
-  "_history": [],
-  "_change_number": 39630902,
-  "_missing_token": true,
-  "_sha": "d50203dcd56013bd2c999cba304afeed776a8d14",
-  "_size": 7552,
+  "_lastChecked": 1794339864,
+  "_history": [
+    {
+      "buildId": "26554317",
+      "branch": "public",
+      "timeUpdated": 1794316892,
+      "firstSeen": 1794339864,
+      "manifests": {
+        "2775562": {
+          "gid": "6751591620925905789",
+          "size": 44754745,
+          "download": 13589952
+        },
+        "2775563": {
+          "gid": "5209972972799186546",
+          "size": 44121225,
+          "download": 13050544
+        },
+        "2775564": {
+          "gid": "2266733840913630358",
+          "size": 21758209,
+          "download": 7439040
+        }
+      }
+    },
+    {
+      "buildId": "26554317",
+      "branch": "staging",
+      "timeUpdated": 1794273300,
+      "firstSeen": 1794339864,
+      "manifests": {
+        "2775562": {
+          "gid": "6751591620925905789",
+          "size": 44754745,
+          "download": 13589952
+        },
+        "2775563": {
+          "gid": "5209972972799186546",
+          "size": 44121225,
+          "download": 13050544
+        },
+        "2775564": {
+          "gid": "2266733840913630358",
+          "size": 21758209,
+          "download": 7439040
+        }
+      }
+    }
+  ],
+  "_change_number": 40794646,
+  "_missing_token": false,
+  "_sha": "6ac71868aa96952641dc18128eda9bad082e171f",
+  "_size": 9373,
   "appid": "2775560",
   "common": {
     "associations": {
@@ -35,7 +82,6 @@
     "clienttga": "855267342b6c4038a34caba834fdcba2f42e5f0f",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2775560",
     "genres": {
       "0": "2"
@@ -103,10 +149,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
     },
+    "steam_release_date": "1794317330",
     "store_asset_mtime": "1791467710",
     "store_tags": {
       "0": "4184",
@@ -443,5 +490,105 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ChessTwist",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "chess"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "chess.exe"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "chess"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2775562": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "13589952",
+          "gid": "6751591620925905789",
+          "size": "44754745"
+        },
+        "staging": {
+          "download": "13589952",
+          "gid": "6751591620925905789",
+          "size": "44754745"
+        }
+      }
+    },
+    "2775563": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "13050544",
+          "gid": "5209972972799186546",
+          "size": "44121225"
+        },
+        "staging": {
+          "download": "13050544",
+          "gid": "5209972972799186546",
+          "size": "44121225"
+        }
+      }
+    },
+    "2775564": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "7439040",
+          "gid": "2266733840913630358",
+          "size": "21758209"
+        },
+        "staging": {
+          "download": "7439040",
+          "gid": "2266733840913630358",
+          "size": "21758209"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26554317",
+        "timebuildupdated": "1794273300",
+        "timeupdated": "1794316892"
+      },
+      "staging": {
+        "buildid": "26554317",
+        "description": "staging",
+        "timebuildupdated": "1794273300",
+        "timeupdated": "1794273300"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Guillaume Fradin",
+    "homepage": "https://polyreplay.com",
+    "publisher": "Guillaume Fradin"
+  }
 }

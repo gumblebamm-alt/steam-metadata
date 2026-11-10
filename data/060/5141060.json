@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793124094,
-  "_history": [],
-  "_change_number": 40051029,
-  "_missing_token": true,
-  "_sha": "7c1cd20d69e226ae15e29ddb71fd9a1bb8cfd8f4",
-  "_size": 3609,
+  "_lastChecked": 1794339907,
+  "_history": [
+    {
+      "buildId": "26544585",
+      "branch": "public",
+      "timeUpdated": 1794249105,
+      "firstSeen": 1794339907,
+      "manifests": {
+        "5141061": {
+          "gid": "9060049749997086036",
+          "size": 352663910,
+          "download": 146709104
+        }
+      }
+    }
+  ],
+  "_change_number": 40794576,
+  "_missing_token": false,
+  "_sha": "8ea11f74b159974f4f77ba5ce6cc37afe881108f",
+  "_size": 4647,
   "appid": "5141060",
   "common": {
     "aicontenttype": "1",
@@ -20,10 +34,13 @@
     },
     "category": {
       "category_1": "1",
+      "category_15": "1",
       "category_18": "1",
       "category_2": "1",
+      "category_22": "1",
       "category_23": "1",
       "category_24": "1",
+      "category_25": "1",
       "category_36": "1",
       "category_37": "1",
       "category_44": "1",
@@ -35,9 +52,9 @@
     },
     "clienticon": "d7c04ae3e90cafb9e5f33b64d418bcd9fe96a5b4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5141060",
     "genres": {
       "0": "1",
@@ -118,7 +135,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "07b55272772578d2b3ee915ac3ebbc661162def3/capsule_231x87.jpg"
     },
@@ -169,5 +186,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BACKBITE",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Backbite.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5141061": {
+      "manifests": {
+        "public": {
+          "download": "146709104",
+          "gid": "9060049749997086036",
+          "size": "352663910"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26544585",
+        "timebuildupdated": "1794242341",
+        "timeupdated": "1794249105"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "CarvaCode",
+    "publisher": "CarvaCode"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "2097152",
+    "savefiles": {
+      "0": {
+        "path": "Backbite/saves/{Steam3AccountID}",
+        "pattern": "progreso-*-full.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

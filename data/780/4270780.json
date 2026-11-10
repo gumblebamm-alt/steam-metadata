@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793993048,
-  "_history": [],
-  "_change_number": 40681469,
-  "_missing_token": true,
-  "_sha": "b61ba5a70b94706eff3fee7812ca66ad815da673",
-  "_size": 3218,
+  "_lastChecked": 1794339884,
+  "_history": [
+    {
+      "buildId": "26562817",
+      "branch": "public",
+      "timeUpdated": 1794306061,
+      "firstSeen": 1794339884,
+      "manifests": {
+        "4270781": {
+          "gid": "3559047746893881184",
+          "size": 4808318616,
+          "download": 2407096960
+        }
+      }
+    }
+  ],
+  "_change_number": 40795662,
+  "_missing_token": false,
+  "_sha": "a5fd05415beee5fd3af66670bd3e5433d025f2cc",
+  "_size": 4788,
   "appid": "4270780",
   "common": {
     "associations": {
@@ -35,9 +49,9 @@
     },
     "clienticon": "957540837fa071b0a0d92690e92a0b99bd74b1dc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4270780",
     "genres": {
       "0": "1",
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bdcd3743367e16e79c9ec95745a7d4f8ea210f7f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794319176",
     "store_asset_mtime": "1793992024",
     "store_tags": {
       "0": "699",
@@ -144,5 +159,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Rally Shift",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "RallyShift.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4270781": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2407096960",
+          "gid": "3559047746893881184",
+          "size": "4808318616"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26562817",
+        "timebuildupdated": "1794306038",
+        "timeupdated": "1794306061"
+      }
+    }
+  },
+  "extended": {
+    "deckresolutionoverride": "1280x800",
+    "developer": "Abstract Pixel Studios ",
+    "homepage": "https://abstractpixelstudios.com/",
+    "publisher": "Abstract Pixel Studios "
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Abstract Pixel Studios/RallyShift/SaveFiles",
+            "replace": "unity3d/Abstract Pixel Studios/RallyShift/SaveFiles"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Abstract Pixel Studios/RallyShift/SaveFiles",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

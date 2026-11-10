@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793861053,
-  "_history": [],
-  "_change_number": 40614176,
-  "_missing_token": true,
-  "_sha": "0dcc462bd1cf937f8551921dbd2ee0d983c6c986",
-  "_size": 6324,
+  "_lastChecked": 1794339863,
+  "_history": [
+    {
+      "buildId": "26573935",
+      "branch": "public",
+      "timeUpdated": 1794339402,
+      "firstSeen": 1794339863,
+      "manifests": {
+        "2638081": {
+          "gid": "6017707010733046231",
+          "size": 1310321942,
+          "download": 883705856
+        }
+      }
+    }
+  ],
+  "_change_number": 40807447,
+  "_missing_token": false,
+  "_sha": "b45a86bd6111b94869c613045517ccebb7ab0068",
+  "_size": 8204,
   "appid": "2638080",
   "common": {
     "associations": {
@@ -23,11 +37,19 @@
     },
     "category": {
       "category_2": "1",
-      "category_62": "1"
+      "category_22": "1",
+      "category_23": "1",
+      "category_62": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_75": "1",
+      "category_76": "1",
+      "category_77": "1"
     },
     "clienticon": "c8e2c452f183a195715257dcbeaa0af77bf0700b",
     "clienttga": "7913889e2b06d31ae55fd64677d9af83b79eae63",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -37,7 +59,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2638080",
     "genres": {
       "0": "23",
@@ -129,7 +150,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "95",
+    "review_score": "8",
     "small_capsule": {
       "english": "7b4c634b0a51cf49110cd4be27ced19ad33baec5/capsule_231x87.jpg",
       "japanese": "d9e17ecb2782ab9b361986e2a2cfb715d18863e4/capsule_231x87_japanese.jpg",
@@ -196,6 +219,7 @@
         }
       }
     },
+    "steam_release_date": "1794297393",
     "store_asset_mtime": "1793847199",
     "store_tags": {
       "0": "4434",
@@ -235,5 +259,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Annihilated",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Annihilated.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2638081": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "883705856",
+          "gid": "6017707010733046231",
+          "size": "1310321942"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "26573935",
+        "timebuildupdated": "1794337849",
+        "timeupdated": "1794339402"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Death Kumiai",
+    "homepage": "https://x.com/Annihilated_JP",
+    "publisher": "Death Kumiai"
+  },
+  "ufs": {
+    "maxnumfiles": "300",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "DeathKumiai/Annihilated/NaninovelData/Saves",
+        "pattern": "GameSave*.nson",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "DeathKumiai/Annihilated/NaninovelData/Saves",
+        "pattern": "GameQuickSave*.nson",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "DeathKumiai/Annihilated/NaninovelData/Saves",
+        "pattern": "GlobalSave.nson",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "DeathKumiai/Annihilated/NaninovelData/Saves",
+        "pattern": "Settings.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

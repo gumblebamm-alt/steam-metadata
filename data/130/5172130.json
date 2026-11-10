@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793339331,
-  "_history": [],
-  "_change_number": 40393495,
-  "_missing_token": true,
-  "_sha": "26afa747813e045c4e4036b055b20974b6745e8c",
-  "_size": 3080,
+  "_lastChecked": 1794339908,
+  "_history": [
+    {
+      "buildId": "26573967",
+      "branch": "public",
+      "timeUpdated": 1794338070,
+      "firstSeen": 1794339908,
+      "manifests": {
+        "5172131": {
+          "gid": "3690006881232060518",
+          "size": 840381032,
+          "download": 461137056
+        }
+      }
+    }
+  ],
+  "_change_number": 40806808,
+  "_missing_token": false,
+  "_sha": "df99db1eb9b029d9b18929843f828c190524c38b",
+  "_size": 4008,
   "appid": "5172130",
   "common": {
     "associations": {
@@ -30,7 +44,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5172130",
     "genres": {
       "0": "1",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a9e87c60492d9cf2b343d64c82e8c643babc54ab/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794333605",
     "store_asset_mtime": "1791908974",
     "store_tags": {
       "0": "42804",
@@ -138,5 +152,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "RENSE",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "RENSE.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5172131": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "461137056",
+          "gid": "3690006881232060518",
+          "size": "840381032"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26573967",
+        "timebuildupdated": "1794337930",
+        "timeupdated": "1794338070"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "enesy",
+    "homepage": "https://rensegame.com",
+    "publisher": "enesy"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/RENSE",
+        "pattern": "profiles.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

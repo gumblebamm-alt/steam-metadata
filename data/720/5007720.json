@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794262889,
-  "_history": [],
-  "_change_number": 40740284,
-  "_missing_token": true,
-  "_sha": "07f69a2048c9e6b27f04c0121e787a7d43774c9d",
-  "_size": 3692,
+  "_lastChecked": 1794339903,
+  "_history": [
+    {
+      "buildId": "26555082",
+      "branch": "public",
+      "timeUpdated": 1794276798,
+      "firstSeen": 1794339903,
+      "manifests": {
+        "5007721": {
+          "gid": "1241194662729606481",
+          "size": 702391437,
+          "download": 515245072
+        },
+        "5007722": {
+          "gid": "2472012579275642860",
+          "size": 620887714,
+          "download": 408130336
+        }
+      }
+    }
+  ],
+  "_change_number": 40804274,
+  "_missing_token": false,
+  "_sha": "868ddc3e63cdf3d733db67fd25c8ccbcea81156f",
+  "_size": 5248,
   "appid": "5007720",
   "common": {
     "aicontenttype": "2",
@@ -31,6 +50,7 @@
     },
     "clienticon": "7161d3ac89412658b0cf45cd78a5fdb5e3a1104c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -41,7 +61,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "5007720",
     "genres": {
       "0": "23",
@@ -115,10 +134,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f8be6a590ee1ab4e069cce3c9891cde7e3a35fc5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794333513",
     "store_asset_mtime": "1792286949",
     "store_tags": {
       "0": "4328",
@@ -167,5 +187,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Golf Course Architect Tycoon",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "GolfCourseArchitectTycoon.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Golf Course Architect Tycoon.app"
+      }
+    }
+  },
+  "depots": {
+    "5007721": {
+      "manifests": {
+        "public": {
+          "download": "515245072",
+          "gid": "1241194662729606481",
+          "size": "702391437"
+        }
+      }
+    },
+    "5007722": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "408130336",
+          "gid": "2472012579275642860",
+          "size": "620887714"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26555082",
+        "timebuildupdated": "1794276207",
+        "timeupdated": "1794276798"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "5007720"
+  },
+  "extended": {
+    "developer": "Top Shop Technology",
+    "publisher": "Top Shop Technology"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "500000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "GolfCourseArchitect/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "GolfCourseArchitect",
+        "pattern": "settings.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,50 @@
 {
-  "_lastChecked": 1792903317,
-  "_history": [],
-  "_change_number": 40013076,
-  "_missing_token": true,
-  "_sha": "9d04fa9de73eec79dad034b1962e23845ea163cf",
-  "_size": 3050,
+  "_lastChecked": 1794339892,
+  "_history": [
+    {
+      "buildId": "26485493",
+      "branch": "dev-qa",
+      "timeUpdated": 1793971697,
+      "firstSeen": 1794339892,
+      "manifests": {
+        "4662191": {
+          "gid": "5426869512863075817",
+          "size": 335174551,
+          "download": 120836592
+        }
+      }
+    },
+    {
+      "buildId": "26570823",
+      "branch": "dev-rc",
+      "timeUpdated": 1794328991,
+      "firstSeen": 1794339892,
+      "manifests": {
+        "4662191": {
+          "gid": "5234653736821131248",
+          "size": 210205557,
+          "download": 77222688
+        }
+      }
+    },
+    {
+      "buildId": "26570823",
+      "branch": "public",
+      "timeUpdated": 1794329961,
+      "firstSeen": 1794339892,
+      "manifests": {
+        "4662191": {
+          "gid": "5234653736821131248",
+          "size": 210205557,
+          "download": 77222688
+        }
+      }
+    }
+  ],
+  "_change_number": 40802619,
+  "_missing_token": false,
+  "_sha": "d288297aef887d12a5f8eeafdb64abaa0eb822c7",
+  "_size": 4739,
   "appid": "4662190",
   "common": {
     "associations": {
@@ -34,7 +74,14 @@
     "clienticon": "7f47038c414473449da00b1d1777cae18d5ba595",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
+    "eulas": {
+      "0": {
+        "id": "4662190_eula_0",
+        "name": "Stress Buddy EULA",
+        "url": "https://store.steampowered.com/eula/4662190_eula_0",
+        "version": "2"
+      }
+    },
     "gameid": "4662190",
     "genres": {
       "0": "4",
@@ -106,10 +153,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "54a50501b314b441edf112009706dd47cb4bfa58/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794330456",
     "store_asset_mtime": "1791448937",
     "store_tags": {
       "0": "1320952",
@@ -135,5 +183,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Stress Buddy",
+    "launch": {
+      "0": {
+        "executable": "StressBuddy.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4662191": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "dev-qa": {
+          "download": "120836592",
+          "gid": "5426869512863075817",
+          "size": "335174551"
+        },
+        "dev-rc": {
+          "download": "77222688",
+          "gid": "5234653736821131248",
+          "size": "210205557"
+        },
+        "public": {
+          "download": "77222688",
+          "gid": "5234653736821131248",
+          "size": "210205557"
+        }
+      }
+    },
+    "branches": {
+      "dev-qa": {
+        "buildid": "26485493",
+        "description": "Team-only (qa)",
+        "timebuildupdated": "1793971697",
+        "timeupdated": "1793971697"
+      },
+      "dev-rc": {
+        "buildid": "26570823",
+        "description": "Team-only (rc)",
+        "timebuildupdated": "1794328991",
+        "timeupdated": "1794328991"
+      },
+      "public": {
+        "buildid": "26570823",
+        "timebuildupdated": "1794328991",
+        "timeupdated": "1794329961"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Jonathan Hamel",
+    "disableoverlay": "1",
+    "homepage": "https://stressbuddy.net/",
+    "publisher": "ConJoy.co"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "ConJoyCo/Stress Buddy",
+        "pattern": "bounce_stats.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

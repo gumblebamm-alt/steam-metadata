@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792603030,
-  "_history": [],
-  "_change_number": 40090903,
-  "_missing_token": true,
-  "_sha": "edf919f42a2a659d31e70af0815ab3f6df2d89e6",
-  "_size": 3087,
+  "_lastChecked": 1794339892,
+  "_history": [
+    {
+      "buildId": "26109211",
+      "branch": "public",
+      "timeUpdated": 1792593537,
+      "firstSeen": 1794339892,
+      "manifests": {
+        "4669302": {
+          "gid": "7993509300750354892",
+          "size": 1153180836,
+          "download": 265121120
+        },
+        "4669303": {
+          "gid": "2471987255665638309",
+          "size": 1245103798,
+          "download": 289695408
+        }
+      }
+    }
+  ],
+  "_change_number": 40788014,
+  "_missing_token": false,
+  "_sha": "1b00246c74a902af8106fb7ec4fd05a50d4b55e4",
+  "_size": 4570,
   "appid": "4669300",
   "common": {
     "associations": {
@@ -27,7 +46,6 @@
     "clienticon": "6cb73e82353f01a74233940121204f27991aa77c",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4669300",
     "genres": {
       "0": "4",
@@ -100,10 +118,11 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a712da32035ac115ed9a820bb200e6c1c7fd70c7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794304475",
     "store_asset_mtime": "1792586039",
     "store_tags": {
       "0": "4102",
@@ -140,5 +159,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Speed King",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play Speed king",
+        "description_loc": {
+          "english": "Play Speed king"
+        },
+        "executable": "speed_king.exe"
+      },
+      "1": {
+        "arguments": "--rendering-method gl_compatibility --rendering-driver opengl3",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play Speed King (OpenGL, if the first option fails)",
+        "description_loc": {
+          "english": "Play Speed King (OpenGL, if the first option fails)"
+        },
+        "executable": "speed_king.exe"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "speed_king.app"
+      }
+    }
+  },
+  "depots": {
+    "4669302": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "265121120",
+          "gid": "7993509300750354892",
+          "size": "1153180836"
+        }
+      }
+    },
+    "4669303": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "289695408",
+          "gid": "2471987255665638309",
+          "size": "1245103798"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,latam,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26109211",
+        "timebuildupdated": "1792593496",
+        "timeupdated": "1792593537"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "OutOfBoundsGames",
+    "publisher": "OutOfBoundsGames"
+  }
 }

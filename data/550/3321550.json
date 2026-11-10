@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793384003,
-  "_history": [],
-  "_change_number": 40413097,
-  "_missing_token": true,
-  "_sha": "f9c81229a5b43d45fd1b020be7799c91b80767d1",
-  "_size": 3549,
+  "_lastChecked": 1794339870,
+  "_history": [
+    {
+      "buildId": "26563593",
+      "branch": "public",
+      "timeUpdated": 1794308211,
+      "firstSeen": 1794339870,
+      "manifests": {
+        "3321551": {
+          "gid": "3836741757650860060",
+          "size": 1882067931,
+          "download": 1824878368
+        },
+        "3321552": {
+          "gid": "166890690743373016",
+          "size": 1914769930,
+          "download": 1839104864
+        },
+        "3321553": {
+          "gid": "6016320019749197722",
+          "size": 1909427394,
+          "download": 1833471104
+        }
+      }
+    }
+  ],
+  "_change_number": 40798456,
+  "_missing_token": false,
+  "_sha": "c431c827c419ce76aef8a605b5c1de9699b21523",
+  "_size": 5872,
   "appid": "3321550",
   "common": {
     "associations": {
@@ -15,10 +39,6 @@
       "1": {
         "name": "Dionous Games",
         "type": "publisher"
-      },
-      "2": {
-        "name": "Dionous Games",
-        "type": "franchise"
       }
     },
     "category": {
@@ -36,7 +56,6 @@
     "clienttga": "b87c6da902ac54bdde929635b0bc8cdc7670b409",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3321550",
     "genres": {
       "0": "25",
@@ -110,10 +129,11 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4da3331327b47d24a5f72d611b433dd4bbd664f8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794316085",
     "store_asset_mtime": "1792830814",
     "store_tags": {
       "0": "1698",
@@ -150,5 +170,121 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Adventures of Tango Rio",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TangoRio.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "The Adventures of Tango Rio.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "start"
+      }
+    }
+  },
+  "depots": {
+    "3321551": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1824878368",
+          "gid": "3836741757650860060",
+          "size": "1882067931"
+        }
+      }
+    },
+    "3321552": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1839104864",
+          "gid": "166890690743373016",
+          "size": "1914769930"
+        }
+      }
+    },
+    "3321553": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1833471104",
+          "gid": "6016320019749197722",
+          "size": "1909427394"
+        }
+      }
+    },
+    "baselanguages": "english,italian",
+    "branches": {
+      "public": {
+        "buildid": "26563593",
+        "timebuildupdated": "1794308211",
+        "timeupdated": "1794308211"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Bean - Adventure Agency",
+    "homepage": "https://www.beanadventureagency.com/",
+    "publisher": "Dionous Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "150",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Bean Adventure Agency/The Adventures of Tango Rio/Savegames",
+            "replace": "Bean Adventure Agency/The Adventures of Tango Rio/Savegames"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Bean Adventure Agency/The Adventures of Tango Rio/Savegames",
+            "replace": "Bean Adventure Agency/The Adventures of Tango Rio/Savegames"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Bean Adventure Agency/The Adventures of Tango Rio/Savegames",
+        "pattern": "*.dat",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

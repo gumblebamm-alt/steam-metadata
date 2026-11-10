@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793993055,
-  "_history": [],
-  "_change_number": 40676650,
-  "_missing_token": true,
-  "_sha": "cd5ecb3328a9eccec2f74fd6bd2115701b41e600",
-  "_size": 4315,
+  "_lastChecked": 1794339892,
+  "_history": [
+    {
+      "buildId": "26227933",
+      "branch": "public",
+      "timeUpdated": 1793048860,
+      "firstSeen": 1794339892,
+      "manifests": {
+        "4666891": {
+          "gid": "7067903578721748503",
+          "size": 79472251,
+          "download": 76834128
+        },
+        "4666892": {
+          "gid": "4844155816721895799",
+          "size": 81921106,
+          "download": 77620688
+        }
+      }
+    }
+  ],
+  "_change_number": 40797855,
+  "_missing_token": false,
+  "_sha": "b61284d571e706254e4277b9a5fe7508f5c70572",
+  "_size": 6105,
   "appid": "4666890",
   "common": {
     "associations": {
@@ -37,9 +56,9 @@
     "clienticns": "c6174c2c50bbe80618693c48a988c4bdd22b5fef",
     "clienticon": "ccc4c3ea54565ff07b471e64f41cb0f16561957d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4666890",
     "genres": {
       "0": "23",
@@ -124,11 +143,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d2d18f6706391689e61bacd046918be952ddae3a/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/4666890/announcements/detail/703282928078032007",
+    "steam_release_date": "1794322971",
     "store_asset_mtime": "1793982941",
     "store_tags": {
       "0": "255534",
@@ -200,5 +220,96 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gobs & Gears",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64"
+        },
+        "executable": "gobs&gears.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Gobs&Gears.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "game_actions_4666890.vdf"
+  },
+  "depots": {
+    "4666891": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "76834128",
+          "gid": "7067903578721748503",
+          "size": "79472251"
+        }
+      }
+    },
+    "4666892": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "77620688",
+          "gid": "4844155816721895799",
+          "size": "81921106"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26227933",
+        "timebuildupdated": "1793048852",
+        "timeupdated": "1793048860"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "GOBLINTEK",
+    "homepage": "https://goblintek.dev/games/gobs-and-gears.html",
+    "publisher": "GOBLINTEK"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "40000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "GOBLINTEK/Gobs&Gears/steam_{64BitSteamID}",
+        "pattern": "*.ie",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

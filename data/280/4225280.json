@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793908640,
+  "_lastChecked": 1794339883,
   "_history": [
     {
       "buildId": "26299795",
@@ -46,12 +46,81 @@
           "download": 220842016
         }
       }
+    },
+    {
+      "buildId": "26483005",
+      "branch": "console-enabled",
+      "timeUpdated": 1793964529,
+      "firstSeen": 1794339883,
+      "manifests": {
+        "4225282": {
+          "gid": "2343911359576501360",
+          "size": 581980584,
+          "download": 331350464
+        },
+        "4225283": {
+          "gid": "255531501626395422",
+          "size": 534727274,
+          "download": 308470464
+        },
+        "5477300": {
+          "gid": "5405774391692217002",
+          "size": 510552860,
+          "download": 220842016
+        }
+      }
+    },
+    {
+      "buildId": "26480791",
+      "branch": "public",
+      "timeUpdated": 1793964050,
+      "firstSeen": 1794339883,
+      "manifests": {
+        "4225282": {
+          "gid": "5033794855930294545",
+          "size": 581980581,
+          "download": 331350432
+        },
+        "4225283": {
+          "gid": "3406827046865932907",
+          "size": 534727271,
+          "download": 308470432
+        },
+        "5477300": {
+          "gid": "5405774391692217002",
+          "size": 510552860,
+          "download": 220842016
+        }
+      }
+    },
+    {
+      "buildId": "26566984",
+      "branch": "testing",
+      "timeUpdated": 1794318736,
+      "firstSeen": 1794339883,
+      "manifests": {
+        "4225282": {
+          "gid": "2343911359576501360",
+          "size": 581980584,
+          "download": 331350464
+        },
+        "4225283": {
+          "gid": "255531501626395422",
+          "size": 534727274,
+          "download": 308470464
+        },
+        "5477300": {
+          "gid": "5405774391692217002",
+          "size": 510552860,
+          "download": 220842016
+        }
+      }
     }
   ],
-  "_change_number": 40576899,
+  "_change_number": 40795408,
   "_missing_token": false,
-  "_sha": "ee2ba35553b246d7d7394132b0578e4126c5a9fb",
-  "_size": 9851,
+  "_sha": "09aeed8dbeb92dca1ca688641d263975550479b6",
+  "_size": 10932,
   "appid": "4225280",
   "common": {
     "associations": {
@@ -196,7 +265,7 @@
     "oslist": "windows,linux",
     "primary_genre": "2",
     "releasestate": "released",
-    "review_percentage": "100",
+    "review_percentage": "97",
     "review_score": "7",
     "small_capsule": {
       "english": "74ac7a90f91ec82f6dda65f6e623086fae1de3b5/capsule_231x87.jpg",
@@ -303,15 +372,25 @@
         "oslist": "windows"
       },
       "manifests": {
+        "console-enabled": {
+          "download": "331350464",
+          "gid": "2343911359576501360",
+          "size": "581980584"
+        },
         "debug": {
           "download": "412909584",
           "gid": "7740139978399328935",
           "size": "656994893"
         },
         "public": {
-          "download": "331351664",
-          "gid": "3344257091715013822",
-          "size": "581980042"
+          "download": "331350432",
+          "gid": "5033794855930294545",
+          "size": "581980581"
+        },
+        "testing": {
+          "download": "331350464",
+          "gid": "2343911359576501360",
+          "size": "581980584"
         }
       }
     },
@@ -321,27 +400,47 @@
         "oslist": "linux"
       },
       "manifests": {
+        "console-enabled": {
+          "download": "308470464",
+          "gid": "255531501626395422",
+          "size": "534727274"
+        },
         "debug": {
           "download": "390029584",
           "gid": "5898176991299494896",
           "size": "609741583"
         },
         "public": {
-          "download": "308471664",
-          "gid": "2141250574807343510",
-          "size": "534726732"
+          "download": "308470432",
+          "gid": "3406827046865932907",
+          "size": "534727271"
+        },
+        "testing": {
+          "download": "308470464",
+          "gid": "255531501626395422",
+          "size": "534727274"
         }
       }
     },
     "5477300": {
       "dlcappid": "5477300",
       "manifests": {
+        "console-enabled": {
+          "download": "220842016",
+          "gid": "5405774391692217002",
+          "size": "510552860"
+        },
         "debug": {
           "download": "220842016",
           "gid": "5405774391692217002",
           "size": "510552860"
         },
         "public": {
+          "download": "220842016",
+          "gid": "5405774391692217002",
+          "size": "510552860"
+        },
+        "testing": {
           "download": "220842016",
           "gid": "5405774391692217002",
           "size": "510552860"
@@ -350,6 +449,12 @@
     },
     "baselanguages": "english,french",
     "branches": {
+      "console-enabled": {
+        "buildid": "26483005",
+        "description": "A build of the game with the console enabled, for debugging purposes",
+        "timebuildupdated": "1793964529",
+        "timeupdated": "1793964529"
+      },
       "debug": {
         "buildid": "26299795",
         "description": "Debug options enabled",
@@ -357,9 +462,15 @@
         "timeupdated": "1793284758"
       },
       "public": {
-        "buildid": "26402800",
-        "timebuildupdated": "1793700851",
-        "timeupdated": "1793700851"
+        "buildid": "26480791",
+        "timebuildupdated": "1793957930",
+        "timeupdated": "1793964050"
+      },
+      "testing": {
+        "buildid": "26566984",
+        "description": "For testing purposes",
+        "timebuildupdated": "1794318736",
+        "timeupdated": "1794318736"
       }
     },
     "nocommonredists": "1"

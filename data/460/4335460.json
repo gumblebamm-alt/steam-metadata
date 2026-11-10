@@ -1,42 +1,29 @@
 {
-  "_lastChecked": 1794262870,
+  "_lastChecked": 1794339885,
   "_history": [
     {
-      "buildId": "25043995",
+      "buildId": "26564418",
       "branch": "public",
-      "timeUpdated": 1788270147,
-      "firstSeen": 1788629350,
+      "timeUpdated": 1794325257,
+      "firstSeen": 1794339885,
       "manifests": {
         "4335461": {
-          "gid": "1685310448736963021",
-          "size": 2268669798,
-          "download": 1652246720
+          "gid": "496239055092787270",
+          "size": 3200082430,
+          "download": 2394266192
         }
       }
     },
     {
-      "buildId": "25552549",
+      "buildId": "26282342",
       "branch": "public",
-      "timeUpdated": 1790865432,
-      "firstSeen": 1790901440,
+      "timeUpdated": 1793223488,
+      "firstSeen": 1793908642,
       "manifests": {
         "4335461": {
-          "gid": "3306361638659604238",
-          "size": 2749201315,
-          "download": 2054117488
-        }
-      }
-    },
-    {
-      "buildId": "26140123",
-      "branch": "public",
-      "timeUpdated": 1792690906,
-      "firstSeen": 1792775338,
-      "manifests": {
-        "4335461": {
-          "gid": "6777632068421592322",
-          "size": 2856965630,
-          "download": 2088668336
+          "gid": "1607206248446887146",
+          "size": 2856753487,
+          "download": 2088661328
         }
       }
     },
@@ -54,23 +41,36 @@
       }
     },
     {
-      "buildId": "26282342",
+      "buildId": "26140123",
       "branch": "public",
-      "timeUpdated": 1793223488,
-      "firstSeen": 1793908642,
+      "timeUpdated": 1792690906,
+      "firstSeen": 1792775338,
       "manifests": {
         "4335461": {
-          "gid": "1607206248446887146",
-          "size": 2856753487,
-          "download": 2088661328
+          "gid": "6777632068421592322",
+          "size": 2856965630,
+          "download": 2088668336
+        }
+      }
+    },
+    {
+      "buildId": "25552549",
+      "branch": "public",
+      "timeUpdated": 1790865432,
+      "firstSeen": 1790901440,
+      "manifests": {
+        "4335461": {
+          "gid": "3306361638659604238",
+          "size": 2749201315,
+          "download": 2054117488
         }
       }
     }
   ],
-  "_change_number": 40752714,
+  "_change_number": 40804572,
   "_missing_token": false,
-  "_sha": "305dcf1e33d5c1e1676f3727b55b2cbf328a916e",
-  "_size": 7120,
+  "_sha": "1da49731f82b14e3aa10516542234614789abc24",
+  "_size": 7969,
   "appid": "4335460",
   "common": {
     "associations": {
@@ -101,8 +101,7 @@
     "genres": {
       "0": "23",
       "1": "28",
-      "2": "2",
-      "3": "70"
+      "2": "2"
     },
     "header_image": {
       "english": "45c57a6a8b28a5a11948daac54c1205d3ac66552/header.jpg",
@@ -182,9 +181,9 @@
     "osarch": "",
     "osextended": "",
     "oslist": "windows",
-    "primary_genre": "70",
+    "primary_genre": "23",
     "releasestate": "released",
-    "review_percentage": "70",
+    "review_percentage": "71",
     "review_score": "6",
     "small_capsule": {
       "english": "4265fdecae4504e37119aef6fa2f6b10274ab5ba/capsule_231x87.jpg",
@@ -193,57 +192,85 @@
       "tchinese": "0a1679098ccda89701363c6da146d2fd934104bf/capsule_231x87_tchinese.jpg"
     },
     "steam_deck_compatibility": {
-      "category": "1",
+      "category": "2",
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
         "non_deck_display_glyphs": "1",
-        "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-11.0-beta",
-        "requires_h264": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "1",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "requires_manual_keyboard_invoke": "1",
+        "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "1",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "1",
+      "steam_machine_compatibility": "2",
       "steam_machine_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
         }
       },
-      "steamos_compatibility": "1",
+      "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
-      "test_timestamp": "1781308800",
-      "tested_build_id": "23587292",
+      "test_timestamp": "1794234383",
+      "tested_build_id": "26493429",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       }
     },
-    "steam_release_date": "1781189575",
-    "store_asset_mtime": "1794225544",
+    "steam_release_date": "1794326293",
+    "store_asset_mtime": "1794333768",
     "store_tags": {
       "0": "599",
       "1": "8013",
       "10": "1239876",
       "11": "4175",
-      "12": "493",
-      "13": "492",
-      "14": "1654",
-      "15": "8122",
+      "12": "492",
+      "13": "1654",
+      "14": "8122",
+      "15": "493",
       "16": "12472",
       "17": "7332",
       "18": "3916",
@@ -296,17 +323,17 @@
     "4335461": {
       "manifests": {
         "public": {
-          "download": "2088661328",
-          "gid": "1607206248446887146",
-          "size": "2856753487"
+          "download": "2394266192",
+          "gid": "496239055092787270",
+          "size": "3200082430"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26282342",
-        "timebuildupdated": "1793222876",
-        "timeupdated": "1793223488"
+        "buildid": "26564418",
+        "timebuildupdated": "1794310943",
+        "timeupdated": "1794325257"
       }
     },
     "privatebranches": "1",

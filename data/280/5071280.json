@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794294996,
-  "_history": [],
-  "_change_number": 40776588,
-  "_missing_token": true,
-  "_sha": "9b103b56ac07c236e433a59b011d993d7bf025f9",
-  "_size": 5188,
+  "_lastChecked": 1794339905,
+  "_history": [
+    {
+      "buildId": "26553958",
+      "branch": "public",
+      "timeUpdated": 1794272011,
+      "firstSeen": 1794339905,
+      "manifests": {
+        "5071281": {
+          "gid": "5190052278019216698",
+          "size": 282056961,
+          "download": 156475536
+        },
+        "5071282": {
+          "gid": "8310047914855850373",
+          "size": 246489809,
+          "download": 147724768
+        }
+      }
+    }
+  ],
+  "_change_number": 40804481,
+  "_missing_token": false,
+  "_sha": "835638e119db31cb277aeae6bf01dbb60d3bc4cf",
+  "_size": 6643,
   "appid": "5071280",
   "common": {
     "associations": {
@@ -19,6 +38,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
       "category_23": "1",
       "category_28": "1",
       "category_55": "1",
@@ -37,9 +57,9 @@
     },
     "clienticon": "dfdad4460150a8f8437d93e40bf7599c28d8adf8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5071280",
     "genres": {
       "0": "4",
@@ -146,10 +166,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fad6069dd10c03da1af8a27d1e0868911d9d34d6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794333678",
     "store_asset_mtime": "1794274371",
     "store_tags": {
       "0": "597",
@@ -257,5 +278,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Infall A Black Hole Incremental",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Infall.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Infall.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5071281": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "156475536",
+          "gid": "5190052278019216698",
+          "size": "282056961"
+        }
+      }
+    },
+    "5071282": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "147724768",
+          "gid": "8310047914855850373",
+          "size": "246489809"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26553958",
+        "timebuildupdated": "1794271871",
+        "timeupdated": "1794272011"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Noctires Studios",
+    "publisher": "Noctires Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Infall",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "godot/app_userdata/Infall",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

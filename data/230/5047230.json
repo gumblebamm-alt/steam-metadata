@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1794073585,
-  "_history": [],
-  "_change_number": 40604291,
-  "_missing_token": true,
-  "_sha": "639025741b400b803022efa2839e5b6bc0286258",
-  "_size": 2897,
+  "_lastChecked": 1794339904,
+  "_history": [
+    {
+      "buildId": "26573437",
+      "branch": "beta",
+      "timeUpdated": 1794336597,
+      "firstSeen": 1794339904,
+      "manifests": {
+        "5047231": {
+          "gid": "6000019717840764685",
+          "size": 157787821,
+          "download": 40456816
+        }
+      }
+    },
+    {
+      "buildId": "26573437",
+      "branch": "public",
+      "timeUpdated": 1794339075,
+      "firstSeen": 1794339904,
+      "manifests": {
+        "5047231": {
+          "gid": "6000019717840764685",
+          "size": 157787821,
+          "download": 40456816
+        }
+      }
+    }
+  ],
+  "_change_number": 40807281,
+  "_missing_token": false,
+  "_sha": "5fd73f06ba44275037d816559cb7742e1e7a91cb",
+  "_size": 3743,
   "appid": "5047230",
   "common": {
     "associations": {
@@ -28,8 +55,8 @@
     },
     "clienticon": "cc8a6ac4aec7e0fee7ce99e8904d271255844569",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5047230",
     "genres": {
       "0": "28"
@@ -100,10 +127,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7da34a301332db32c3bdcbad0cb9c3069db67be3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794311805",
     "store_asset_mtime": "1793822883",
     "store_tags": {
       "0": "599",
@@ -129,5 +157,46 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "EngineSimulator",
+    "launch": {
+      "0": {
+        "executable": "EngineSimulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "5047231": {
+      "manifests": {
+        "beta": {
+          "download": "40456816",
+          "gid": "6000019717840764685",
+          "size": "157787821"
+        },
+        "public": {
+          "download": "40456816",
+          "gid": "6000019717840764685",
+          "size": "157787821"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26573437",
+        "description": "for testing",
+        "timebuildupdated": "1794336343",
+        "timeupdated": "1794336597"
+      },
+      "public": {
+        "buildid": "26573437",
+        "timebuildupdated": "1794336343",
+        "timeupdated": "1794339075"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Szymon Aniola",
+    "publisher": "Szymon Aniola Entertainment"
+  }
 }

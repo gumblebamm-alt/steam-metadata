@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794205479,
-  "_history": [],
-  "_change_number": 40739318,
-  "_missing_token": true,
-  "_sha": "40978ed78f102f3dbd7e2b57777da1dda3e1fd98",
-  "_size": 3527,
+  "_lastChecked": 1794339885,
+  "_history": [
+    {
+      "buildId": "26561607",
+      "branch": "public",
+      "timeUpdated": 1794305641,
+      "firstSeen": 1794339885,
+      "manifests": {
+        "4364891": {
+          "gid": "8373091998265431637",
+          "size": 465892715,
+          "download": 94142048
+        },
+        "4364892": {
+          "gid": "3084080822795795585",
+          "size": 495669940,
+          "download": 104831808
+        }
+      }
+    }
+  ],
+  "_change_number": 40805666,
+  "_missing_token": false,
+  "_sha": "b96c2662354df15c59a25207491ea3c8f447b716",
+  "_size": 4970,
   "appid": "4364890",
   "common": {
     "associations": {
@@ -32,8 +51,8 @@
     },
     "clienticon": "1ff6db048607cc38ef3e4b451450324a2a6b8782",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4364890",
     "genres": {
       "0": "4",
@@ -115,10 +134,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "24fa1449feeeb2edac08d5e1ea8374d571eb03ef/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794333685",
     "store_asset_mtime": "1792624252",
     "store_tags": {
       "0": "599",
@@ -167,5 +187,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Skyreap",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Skyreap.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Skyreap.app"
+      }
+    }
+  },
+  "depots": {
+    "4364891": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "94142048",
+          "gid": "8373091998265431637",
+          "size": "465892715"
+        }
+      }
+    },
+    "4364892": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "104831808",
+          "gid": "3084080822795795585",
+          "size": "495669940"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26561607",
+        "timebuildupdated": "1794302676",
+        "timeupdated": "1794305641"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Entin Games",
+    "publisher": "Entin Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Entin/Skyreap/SavesFull",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

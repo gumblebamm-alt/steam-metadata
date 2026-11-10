@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793656036,
-  "_history": [],
-  "_change_number": 40379384,
-  "_missing_token": true,
-  "_sha": "6a8fc4e6d56547bf702f030e6aaaf6cee00564db",
-  "_size": 3058,
+  "_lastChecked": 1794339907,
+  "_history": [
+    {
+      "buildId": "26295890",
+      "branch": "public",
+      "timeUpdated": 1793274117,
+      "firstSeen": 1794339907,
+      "manifests": {
+        "5112962": {
+          "gid": "795066979549252531",
+          "size": 589806771,
+          "download": 492846624
+        },
+        "5112963": {
+          "gid": "8693223648133132977",
+          "size": 554884731,
+          "download": 484410928
+        }
+      }
+    }
+  ],
+  "_change_number": 40807547,
+  "_missing_token": false,
+  "_sha": "a26c8df62d3857f7d332795f87838a2126370ac5",
+  "_size": 5113,
   "appid": "5112960",
   "common": {
     "associations": {
@@ -31,8 +50,8 @@
     },
     "clienticon": "7c4faca0c6f0134fb1e421c4f10351dcb27b4dca",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5112960",
     "genres": {
       "0": "28",
@@ -103,10 +122,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "642665d26bb4638d5b657936876baf5d04104c38/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1792406932",
     "store_tags": {
       "0": "220585",
@@ -136,5 +156,102 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Scherbenmark The Old Mine",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "mines-of-scherbenmark.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "mines-of-scherbenmark.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5112961": {},
+    "5112962": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "492846624",
+          "gid": "795066979549252531",
+          "size": "589806771"
+        }
+      }
+    },
+    "5112963": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "484410928",
+          "gid": "8693223648133132977",
+          "size": "554884731"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26295890",
+        "timebuildupdated": "1793274012",
+        "timeupdated": "1793274117"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Stinky Cat Games",
+    "publisher": "Stinky Cat Games"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "200000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Scherbenmark The Old Mine",
+            "replace": "godot/app_userdata/Scherbenmark The Old Mine"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Scherbenmark The Old Mine",
+        "pattern": "mines_autosave.save",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Scherbenmark The Old Mine",
+        "pattern": "mines_slot_1.save",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Scherbenmark The Old Mine",
+        "pattern": "mines_slot_2.save",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Scherbenmark The Old Mine",
+        "pattern": "mines_slot_3.save",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

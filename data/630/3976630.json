@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792989942,
-  "_history": [],
-  "_change_number": 40234617,
-  "_missing_token": true,
-  "_sha": "992fd1fef78616cb42ff27b4236da72dc55e997c",
-  "_size": 3162,
+  "_lastChecked": 1794339879,
+  "_history": [
+    {
+      "buildId": "26555907",
+      "branch": "public",
+      "timeUpdated": 1794279218,
+      "firstSeen": 1794339879,
+      "manifests": {
+        "3976631": {
+          "gid": "2698051832405952862",
+          "size": 320078317,
+          "download": 243084624
+        },
+        "3976632": {
+          "gid": "5576487485558511133",
+          "size": 420784901,
+          "download": 308865520
+        }
+      }
+    }
+  ],
+  "_change_number": 40802472,
+  "_missing_token": false,
+  "_sha": "fd1e32484a71d14a6f883dc10cca69156d55f463",
+  "_size": 4552,
   "appid": "3976630",
   "common": {
     "associations": {
@@ -25,6 +44,7 @@
     },
     "clienticon": "4f8a5f601d22e06432f65184ead82271c6f5ee8c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -35,7 +55,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3976630",
     "genres": {
       "0": "1",
@@ -108,10 +127,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c0ded7548de0bfeda4be073f9fd0137842eececa/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794330268",
     "store_asset_mtime": "1792959095",
     "store_tags": {
       "0": "4106",
@@ -147,5 +167,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "linux",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Astrobarian",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Astrobarian.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Astrobarian.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3976631": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "243084624",
+          "gid": "2698051832405952862",
+          "size": "320078317"
+        }
+      }
+    },
+    "3976632": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "308865520",
+          "gid": "5576487485558511133",
+          "size": "420784901"
+        }
+      }
+    },
+    "baselanguages": "english,finnish",
+    "branches": {
+      "public": {
+        "buildid": "26555907",
+        "timebuildupdated": "1794279216",
+        "timeupdated": "1794279218"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Juhani Paananen",
+    "publisher": "Juhani Paananen"
+  }
 }

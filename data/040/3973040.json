@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794294986,
-  "_history": [],
-  "_change_number": 40776745,
-  "_missing_token": true,
-  "_sha": "d81f4e1b9fac9233e2090aa21b48b2c605b469b5",
-  "_size": 3028,
+  "_lastChecked": 1794339879,
+  "_history": [
+    {
+      "buildId": "26573866",
+      "branch": "public",
+      "timeUpdated": 1794337672,
+      "firstSeen": 1794339879,
+      "manifests": {
+        "3973041": {
+          "gid": "1142769001616825684",
+          "size": 59118744,
+          "download": 53457584
+        }
+      }
+    }
+  ],
+  "_change_number": 40806773,
+  "_missing_token": false,
+  "_sha": "cd63fd30d2a8094fc9c877fdc8a2e241f3e862af",
+  "_size": 4030,
   "appid": "3973040",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     },
     "clienticon": "3494138d90c4e252c019e04af6470825bd5f750d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3973040",
     "genres": {
       "0": "1",
@@ -102,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0a6bc3c728de3e765f1c05647ed1f8201ef954d3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794338013",
     "store_asset_mtime": "1794274684",
     "store_tags": {
       "0": "560542",
@@ -136,5 +151,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Treeternal",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "treeternal.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3973041": {
+      "manifests": {
+        "public": {
+          "download": "53457584",
+          "gid": "1142769001616825684",
+          "size": "59118744"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26573866",
+        "timebuildupdated": "1794337613",
+        "timeupdated": "1794337672"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "GrumpyLion",
+    "publisher": "GrumpyLion"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "GrumpyLion/Treeternal",
+        "pattern": "save.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

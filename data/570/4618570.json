@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794262877,
-  "_history": [],
-  "_change_number": 40760241,
-  "_missing_token": true,
-  "_sha": "4fd49803737cfa95d8773a6802be3402003b1a6d",
-  "_size": 7780,
+  "_lastChecked": 1794339891,
+  "_history": [
+    {
+      "buildId": "26568625",
+      "branch": "public",
+      "timeUpdated": 1794323201,
+      "firstSeen": 1794339891,
+      "manifests": {
+        "4618571": {
+          "gid": "1360405278759482486",
+          "size": 542183257,
+          "download": 178241040
+        },
+        "4618572": {
+          "gid": "6112118274369107633",
+          "size": 678964186,
+          "download": 211936144
+        },
+        "4618573": {
+          "gid": "694989107893606674",
+          "size": 678963702,
+          "download": 211917840
+        }
+      }
+    }
+  ],
+  "_change_number": 40806577,
+  "_missing_token": false,
+  "_sha": "23fcefd5d398addebdfaa7f2a3f2236bdc350892",
+  "_size": 9610,
   "appid": "4618570",
   "common": {
     "associations": {
@@ -31,8 +55,8 @@
     },
     "clienticon": "c904adabd630b422945d8056871708d128ed58a7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4618570",
     "genres": {
       "0": "4",
@@ -143,7 +167,9 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "94",
+    "review_score": "8",
     "small_capsule": {
       "english": "8b62c08999084ce62388de82e646e4f681d47333/capsule_231x87.jpg",
       "japanese": "d9c79592eb622adc81f3d767c918a4a23f21bb1d/capsule_231x87_japanese.jpg",
@@ -211,7 +237,8 @@
         }
       }
     },
-    "store_asset_mtime": "1793989193",
+    "steam_release_date": "1794315725",
+    "store_asset_mtime": "1794316424",
     "store_tags": {
       "0": "560542",
       "1": "1084988",
@@ -271,5 +298,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Booster Pack Heroes",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Booster Pack Heroes.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Booster Pack Heroes.app/Contents/MacOS/Booster Pack Heroes"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4618571": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "178241040",
+          "gid": "1360405278759482486",
+          "size": "542183257"
+        }
+      }
+    },
+    "4618572": {
+      "manifests": {
+        "public": {
+          "download": "211936144",
+          "gid": "6112118274369107633",
+          "size": "678964186"
+        }
+      }
+    },
+    "4618573": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "211917840",
+          "gid": "694989107893606674",
+          "size": "678963702"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26568625",
+        "timebuildupdated": "1794323201",
+        "timeupdated": "1794323201"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "zup",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.fundaygames.dk/bph",
+    "listofdlc": "5316330",
+    "publisher": "Funday Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "zup games/Booster Pack Heroes",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794294983,
-  "_history": [],
-  "_change_number": 40782617,
-  "_missing_token": true,
-  "_sha": "8274f0c0cb98ecbe657fdf8eca8f307a5174e9d5",
-  "_size": 3077,
+  "_lastChecked": 1794339867,
+  "_history": [
+    {
+      "buildId": "26569878",
+      "branch": "public",
+      "timeUpdated": 1794326414,
+      "firstSeen": 1794339867,
+      "manifests": {
+        "3042041": {
+          "gid": "2180213189393742912",
+          "size": 1025902076,
+          "download": 545178512
+        }
+      }
+    }
+  ],
+  "_change_number": 40800343,
+  "_missing_token": false,
+  "_sha": "b6eb7138c3cae3cc05c6ca7cbdcb310b7c8bc174",
+  "_size": 4589,
   "appid": "3042040",
   "common": {
     "associations": {
@@ -27,9 +41,9 @@
     "clienticon": "3b4ab3defd7810ba7f3d6a5010daeb03b3b6c265",
     "clienttga": "9ded6926041b8ceea2502d0902d4312ea51bf1b1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3042040",
     "genres": {
       "0": "25",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "68d4ec107b36b2bc2dfbb05c55a9c06d6777c38d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794326739",
     "store_asset_mtime": "1794291950",
     "store_tags": {
       "0": "21",
@@ -136,5 +151,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Project Autumn",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Vulkan (default)",
+        "description_loc": {
+          "english": "Vulkan (default)"
+        },
+        "executable": "projectautumn.exe"
+      },
+      "1": {
+        "arguments": "--rendering-driver d3d12",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "DirectX 12 (Try if having performance issues)",
+        "description_loc": {
+          "english": "DirectX 12 (Try if having performance issues)"
+        },
+        "executable": "projectautumn.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3042041": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "545178512",
+          "gid": "2180213189393742912",
+          "size": "1025902076"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26569878",
+        "timebuildupdated": "1794326381",
+        "timeupdated": "1794326414"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Vultive Entertainment",
+    "publisher": "Vultive Entertainment"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Project Autumn Main",
+        "pattern": "*.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Project Autumn Main",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793947312,
-  "_history": [],
-  "_change_number": 40647486,
-  "_missing_token": true,
-  "_sha": "0d1ac0fcd750c79070eabbb079827cc2ec243bca",
-  "_size": 4751,
+  "_lastChecked": 1794339872,
+  "_history": [
+    {
+      "buildId": "26568700",
+      "branch": "public",
+      "timeUpdated": 1794324096,
+      "firstSeen": 1794339872,
+      "manifests": {
+        "3499791": {
+          "gid": "8691427110420057996",
+          "size": 17343507717,
+          "download": 6157524928
+        },
+        "3499792": {
+          "gid": "7666580065198932565",
+          "size": 95604173,
+          "download": 82049232
+        }
+      }
+    }
+  ],
+  "_change_number": 40806571,
+  "_missing_token": false,
+  "_sha": "3d4fc6a2d768d101d3a686ecf86d4af5c32f3876",
+  "_size": 8911,
   "appid": "3499790",
   "common": {
     "aicontenttype": "1",
@@ -47,9 +66,9 @@
     "clienticon": "83ca52d68436ed087d534447f62eaed36eb1e558",
     "clienttga": "86db01b9e1cba88be0325d5f9e78ae664127f98c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3499790",
     "genres": {
       "0": "28",
@@ -136,32 +155,84 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "63",
+    "review_score": "5",
     "small_capsule": {
       "english": "9b9f8e8896417ae73ee60cffc30b069864163878/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793915998",
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-11.0-3RC",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1793971762",
+      "tested_build_id": "26439830",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+        }
+      }
+    },
+    "steam_release_date": "1794316672",
+    "store_asset_mtime": "1794319750",
     "store_tags": {
-      "0": "9",
-      "1": "1676",
-      "10": "1678",
-      "11": "1775",
-      "12": "4168",
-      "13": "4295",
-      "14": "4684",
-      "15": "5673",
-      "16": "5752",
-      "17": "1723",
-      "18": "1670",
-      "19": "7926",
-      "2": "3810",
-      "3": "3859",
-      "4": "7332",
-      "5": "4182",
-      "6": "4191",
-      "7": "4821",
-      "8": "3813",
-      "9": "3942"
+      "0": "1676",
+      "1": "9",
+      "10": "1684",
+      "11": "3942",
+      "12": "4182",
+      "13": "1775",
+      "14": "4168",
+      "15": "3993",
+      "16": "5673",
+      "17": "599",
+      "18": "1678",
+      "19": "3810",
+      "2": "1685",
+      "3": "1723",
+      "4": "3813",
+      "5": "4191",
+      "6": "7332",
+      "7": "19",
+      "8": "4821",
+      "9": "5752"
     },
     "supported_languages": {
       "danish": {
@@ -224,5 +295,123 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Ashes II",
+    "launch": {
+      "10": {
+        "config": {
+          "betakey": "dev-latest,main-latest,qa-debug,playtest-debug,marketing,pipeline-test",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Retail build without launcher",
+        "description_loc": {
+          "english": "Retail build without launcher"
+        },
+        "executable": "bin/Ashes2.exe",
+        "type": "option1"
+      },
+      "11": {
+        "config": {
+          "betakey": "pipeline-test,pipeline-test-retail",
+          "oslist": "linux"
+        },
+        "executable": "bin/Ashes2.exe",
+        "type": "default"
+      },
+      "7": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Retail build without launcher",
+        "description_loc": {
+          "english": "Retail build without launcher"
+        },
+        "executable": "bin/Ashes2.exe",
+        "type": "default"
+      },
+      "8": {
+        "config": {
+          "betakey": "dev-latest,main-latest,qa-debug,playtest-debug,marketing,pipeline-test",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "release build with tools",
+        "description_loc": {
+          "english": "release build with tools"
+        },
+        "executable": "binRelease/Phoenix_Release64D3D12.exe",
+        "type": "option1"
+      },
+      "9": {
+        "config": {
+          "betakey": "dev-latest,main-latest,qa-debug,playtest-debug,marketing,pipeline-test"
+        },
+        "description": "debug build with tools",
+        "description_loc": {
+          "english": "debug build with tools"
+        },
+        "executable": "binDebug/Phoenix_Debug64D3D12.exe",
+        "type": "option2"
+      }
+    },
+    "steamcontrollertemplateindex": "3",
+    "steamdecktouchscreen": "1",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3499791": {
+      "manifests": {
+        "public": {
+          "download": "6157524928",
+          "gid": "8691427110420057996",
+          "size": "17343507717"
+        }
+      }
+    },
+    "3499792": {
+      "manifests": {
+        "public": {
+          "download": "82049232",
+          "gid": "7666580065198932565",
+          "size": "95604173"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26568700",
+        "timebuildupdated": "1794323398",
+        "timeupdated": "1794324096"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "Oxide Games",
+    "publisher": "Stardock Entertainment",
+    "steammachineresolutionoverride": "Default"
+  },
+  "ufs": {
+    "maxnumfiles": "32",
+    "quota": "256000000",
+    "savefiles": {
+      "0": {
+        "path": "{Steam3AccountID}",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

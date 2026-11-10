@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793124096,
+  "_lastChecked": 1794339909,
   "_history": [
     {
       "buildId": "26195690",
@@ -94,10 +94,10 @@
       "_source": "hubcap"
     }
   ],
-  "_change_number": 40230411,
+  "_change_number": 40778725,
   "_missing_token": false,
-  "_sha": "75742e6ac11d5146701d9563bfb109d546b0f51e",
-  "_size": 8075,
+  "_sha": "d91ef21d5b472760e52a0aeae0e36c5d3698080e",
+  "_size": 8652,
   "appid": "5190030",
   "common": {
     "associations": {
@@ -232,7 +232,7 @@
     "oslist": "windows,linux",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "98",
+    "review_percentage": "99",
     "review_score": "8",
     "small_capsule": {
       "english": "66e13718963c9f20b04559909e76927c427bdee4/capsule_231x87.jpg"
@@ -453,5 +453,32 @@
   "extended": {
     "developer": "Pawsmonaut Games",
     "publisher": "Pawsmonaut Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "1000",
+    "quota": "250000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/TidyUpTheTown/saves",
+            "replace": "godot/app_userdata/TidyUpTheTown/saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/TidyUpTheTown/saves",
+        "pattern": "*.sav",
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

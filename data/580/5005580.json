@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792112058,
-  "_history": [],
-  "_change_number": 38542052,
-  "_missing_token": true,
-  "_sha": "af14f20c6e31fe58d3928615bb4a8c05b0ba8b75",
-  "_size": 3205,
+  "_lastChecked": 1794339903,
+  "_history": [
+    {
+      "buildId": "25003884",
+      "branch": "public",
+      "timeUpdated": 1787967010,
+      "firstSeen": 1794339903,
+      "manifests": {
+        "5005581": {
+          "gid": "78825191875367901",
+          "size": 153151216,
+          "download": 74013728
+        }
+      }
+    }
+  ],
+  "_change_number": 40806365,
+  "_missing_token": false,
+  "_sha": "5e9680d78528469973479148810aeca37a7484bc",
+  "_size": 4411,
   "appid": "5005580",
   "common": {
     "associations": {
@@ -35,9 +49,9 @@
     },
     "clienticon": "f5255c24ea93dd867f9f2bf0c71415b3e09e4ad8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5005580",
     "genres": {
       "0": "1",
@@ -109,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8e86bbf26318228e6fa79fffdc4058bfde195365/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794337246",
     "store_asset_mtime": "1786807829",
     "store_tags": {
       "0": "19",
@@ -143,5 +158,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Nova Protocol",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Nova Protocol.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5005581": {
+      "manifests": {
+        "public": {
+          "download": "74013728",
+          "gid": "78825191875367901",
+          "size": "153151216"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25003884",
+        "timebuildupdated": "1787966753",
+        "timeupdated": "1787967010"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "TAH Games",
+    "homepage": "https://jacksgaming7-cmd.github.io/nova-protocol-site/",
+    "publisher": "TAH Games"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "25000000",
+    "savefiles": {
+      "0": {
+        "path": "Nova Protocol",
+        "pattern": "save.tres",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Nova Protocol",
+        "pattern": "save.bak.tres",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Nova Protocol",
+        "pattern": "save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Nova Protocol",
+        "pattern": "save.bak.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

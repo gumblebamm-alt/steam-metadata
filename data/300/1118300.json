@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794262842,
-  "_history": [],
-  "_change_number": 40757201,
-  "_missing_token": true,
-  "_sha": "5cecc0c520cce08f0b0a2cf7e4c27df06343784f",
-  "_size": 3546,
+  "_lastChecked": 1794339855,
+  "_history": [
+    {
+      "buildId": "26541676",
+      "branch": "public",
+      "timeUpdated": 1794234639,
+      "firstSeen": 1794339855,
+      "manifests": {
+        "1118301": {
+          "gid": "5844130269231129312",
+          "size": 1520144016,
+          "download": 1334849680
+        }
+      }
+    }
+  ],
+  "_change_number": 40806775,
+  "_missing_token": false,
+  "_sha": "60ab7173a31fe8384ba4797a0fb0aaeb5e32b28f",
+  "_size": 5063,
   "appid": "1118300",
   "common": {
     "associations": {
@@ -36,6 +50,7 @@
     "clienticon": "7d79a9a584d5d9aaf5f56e7043b8689f9d18a935",
     "clienttga": "1cc9bf9042a6ca224545a74943f1334a6d993427",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -44,7 +59,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1118300",
     "genres": {
       "0": "25",
@@ -120,10 +134,11 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c39d38fe842bb847602c9450ffec75d158f5be4b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794333332",
     "store_asset_mtime": "1794234112",
     "store_tags": {
       "0": "113",
@@ -151,5 +166,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Sea is Our Stage",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SeaStage.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "SeaStage.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "SeaStage.sh",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "1118301": {
+      "manifests": {
+        "public": {
+          "download": "1334849680",
+          "gid": "5844130269231129312",
+          "size": "1520144016"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26541676",
+        "timebuildupdated": "1794234623",
+        "timeupdated": "1794234639"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Big Bear Nose",
+    "isfreeapp": "1",
+    "publisher": "Big Bear Nose"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "RenPy/SeaStage-1762545546",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "/Library/RenPy/SeaStage-1762545546",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacHome"
+      },
+      "2": {
+        "path": ".renpy/SeaStage-1762545546",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

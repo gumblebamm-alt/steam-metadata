@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794262854,
+  "_lastChecked": 1794339869,
   "_history": [
     {
       "buildId": "26168505",
@@ -39,12 +39,30 @@
           "download": 9251844320
         }
       }
+    },
+    {
+      "buildId": "26566727",
+      "branch": "public",
+      "timeUpdated": 1794318059,
+      "firstSeen": 1794339869,
+      "manifests": {
+        "3273261": {
+          "gid": "3513612577263849650",
+          "size": 10161656708,
+          "download": 9251596224
+        },
+        "3273262": {
+          "gid": "9130221876461200037",
+          "size": 10516687824,
+          "download": 9504504160
+        }
+      }
     }
   ],
-  "_change_number": 40754242,
+  "_change_number": 40798003,
   "_missing_token": false,
-  "_sha": "b3ed2a6cd133b127c232531f68f8aebb4964e27d",
-  "_size": 7065,
+  "_sha": "25aff61b574aad44e7950b6d6c149cfa3fca3620",
+  "_size": 7528,
   "appid": "3273260",
   "common": {
     "associations": {
@@ -149,11 +167,12 @@
     },
     "name": "Lost Host",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "25",
     "releasestate": "released",
-    "review_percentage": "92",
+    "review_percentage": "94",
     "review_score": "8",
     "small_capsule": {
       "english": "4cef6641913981574e0eb98b86bfa5b16a8b019a/capsule_231x87.jpg"
@@ -310,26 +329,51 @@
     "installdir": "Lost Host",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "LostHost.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "LostHostMacFull.app"
       }
     }
   },
   "depots": {
     "3273261": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "9251844320",
-          "gid": "618097807514808225",
-          "size": "10162152142"
+          "download": "9251596224",
+          "gid": "3513612577263849650",
+          "size": "10161656708"
+        }
+      }
+    },
+    "3273262": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "9504504160",
+          "gid": "9130221876461200037",
+          "size": "10516687824"
         }
       }
     },
     "baselanguages": "english,spanish",
     "branches": {
       "public": {
-        "buildid": "26505904",
-        "timebuildupdated": "1794056271",
-        "timeupdated": "1794056554"
+        "buildid": "26566727",
+        "timebuildupdated": "1794318009",
+        "timeupdated": "1794318059"
       }
     },
     "nocommonredists": "1",

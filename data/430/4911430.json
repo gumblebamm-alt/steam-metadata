@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1793556047,
-  "_history": [],
-  "_change_number": 40474937,
-  "_missing_token": true,
-  "_sha": "bd461bb7b080e18237e78777017639242b817a54",
-  "_size": 3528,
+  "_lastChecked": 1794339899,
+  "_history": [
+    {
+      "buildId": "26217714",
+      "branch": "beta",
+      "timeUpdated": 1793021121,
+      "firstSeen": 1794339899,
+      "manifests": {
+        "4911431": {
+          "gid": "1544715332634581317",
+          "size": 599765088,
+          "download": 254423792
+        },
+        "4911432": {
+          "gid": "8746106679049275357",
+          "size": 449749197,
+          "download": 187639648
+        },
+        "4911433": {
+          "gid": "8624291070229693690",
+          "size": 411746491,
+          "download": 169305280
+        }
+      }
+    },
+    {
+      "buildId": "26217714",
+      "branch": "public",
+      "timeUpdated": 1793021130,
+      "firstSeen": 1794339899,
+      "manifests": {
+        "4911431": {
+          "gid": "1544715332634581317",
+          "size": 599765088,
+          "download": 254423792
+        },
+        "4911432": {
+          "gid": "8746106679049275357",
+          "size": 449749197,
+          "download": 187639648
+        },
+        "4911433": {
+          "gid": "8624291070229693690",
+          "size": 411746491,
+          "download": 169305280
+        }
+      }
+    }
+  ],
+  "_change_number": 40787034,
+  "_missing_token": false,
+  "_sha": "a25d76f9c817914366ff7a8ac7e8fea949504a07",
+  "_size": 5538,
   "appid": "4911430",
   "common": {
     "aicontenttype": "1",
@@ -43,8 +90,8 @@
     },
     "clienticon": "6132c2be90663185695321ceb4c057cb5127a516",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4911430",
     "genres": {
       "0": "2"
@@ -114,10 +161,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9abe5d41367515dfb5ef73bb5fb3764134013159/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794302602",
     "store_asset_mtime": "1793007916",
     "store_tags": {
       "0": "9",
@@ -160,5 +208,108 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "About Frontlines",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "About Frontlines.app",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "About Frontlines.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4911431": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "254423792",
+          "gid": "1544715332634581317",
+          "size": "599765088"
+        },
+        "public": {
+          "download": "254423792",
+          "gid": "1544715332634581317",
+          "size": "599765088"
+        }
+      }
+    },
+    "4911432": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "187639648",
+          "gid": "8746106679049275357",
+          "size": "449749197"
+        },
+        "public": {
+          "download": "187639648",
+          "gid": "8746106679049275357",
+          "size": "449749197"
+        }
+      }
+    },
+    "4911433": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "169305280",
+          "gid": "8624291070229693690",
+          "size": "411746491"
+        },
+        "public": {
+          "download": "169305280",
+          "gid": "8624291070229693690",
+          "size": "411746491"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26217714",
+        "description": "Beta branch for testing new features",
+        "timebuildupdated": "1793021076",
+        "timeupdated": "1793021121"
+      },
+      "public": {
+        "buildid": "26217714",
+        "timebuildupdated": "1793021076",
+        "timeupdated": "1793021130"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "workshopdepot": "4911430"
+  },
+  "extended": {
+    "developer": "Luca Burgio",
+    "homepage": "https://www.lucaburgio.com/aboutfrontlines",
+    "publisher": "Luca Burgio"
+  },
+  "ufs": {
+    "maxnumfiles": "80",
+    "quota": "40000000"
+  }
 }

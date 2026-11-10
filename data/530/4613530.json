@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1793947323,
-  "_history": [],
-  "_change_number": 40651588,
-  "_missing_token": true,
-  "_sha": "1e07f1f1000d20f33a6421ff04105306a285af34",
-  "_size": 3635,
+  "_lastChecked": 1794339891,
+  "_history": [
+    {
+      "buildId": "26567487",
+      "branch": "public",
+      "timeUpdated": 1794320205,
+      "firstSeen": 1794339891,
+      "manifests": {
+        "4613531": {
+          "gid": "4233682775721991162",
+          "size": 155567469,
+          "download": 63007856
+        },
+        "4613532": {
+          "gid": "954894379926517645",
+          "size": 172612923,
+          "download": 70373504
+        }
+      }
+    },
+    {
+      "buildId": "26567487",
+      "branch": "staging",
+      "timeUpdated": 1794320124,
+      "firstSeen": 1794339891,
+      "manifests": {
+        "4613531": {
+          "gid": "4233682775721991162",
+          "size": 155567469,
+          "download": 63007856
+        },
+        "4613532": {
+          "gid": "954894379926517645",
+          "size": 172612923,
+          "download": 70373504
+        }
+      }
+    }
+  ],
+  "_change_number": 40804328,
+  "_missing_token": false,
+  "_sha": "772cc43441084b273a230f7dddfc673ace656109",
+  "_size": 5576,
   "appid": "4613530",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +63,8 @@
     },
     "clienticon": "cc1399db765b476c6a55fce7db3e7f7b37478161",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4613530",
     "genres": {
       "0": "23",
@@ -112,11 +149,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9aac3efb9380675ec4b5967f84382f28497b27cc/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793926652",
+    "steam_release_date": "1794333582",
+    "store_asset_mtime": "1794316597",
     "store_tags": {
       "0": "615955",
       "1": "122",
@@ -176,5 +214,105 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cornerfall",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Cornerfall.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Cornerfall.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4613531": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "63007856",
+          "gid": "4233682775721991162",
+          "size": "155567469"
+        },
+        "staging": {
+          "download": "63007856",
+          "gid": "4233682775721991162",
+          "size": "155567469"
+        }
+      }
+    },
+    "4613532": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "70373504",
+          "gid": "954894379926517645",
+          "size": "172612923"
+        },
+        "staging": {
+          "download": "70373504",
+          "gid": "954894379926517645",
+          "size": "172612923"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26567487",
+        "timebuildupdated": "1794320124",
+        "timeupdated": "1794320205"
+      },
+      "staging": {
+        "buildid": "26567487",
+        "description": "Beta builds",
+        "timebuildupdated": "1794320124",
+        "timeupdated": "1794320124"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Wisparro",
+    "homepage": "https://wisparro.com/",
+    "publisher": "Wisparro"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Wisparro/Cornerfall",
+        "pattern": "cornerfall_save.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Wisparro/Cornerfall",
+        "pattern": "cornerfall_save.json.bak",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794205471,
-  "_history": [],
-  "_change_number": 40739708,
-  "_missing_token": true,
-  "_sha": "772f44699af0c0b5074016eebf95dd32a8f19d0d",
-  "_size": 5367,
+  "_lastChecked": 1794339868,
+  "_history": [
+    {
+      "buildId": "26564393",
+      "branch": "public",
+      "timeUpdated": 1794310918,
+      "firstSeen": 1794339868,
+      "manifests": {
+        "3129791": {
+          "gid": "8093737487920326016",
+          "size": 1818059920,
+          "download": 722684608
+        }
+      }
+    }
+  ],
+  "_change_number": 40800374,
+  "_missing_token": false,
+  "_sha": "c8c82ef88af564a8bd5665cd2cd90568e20a2828",
+  "_size": 7054,
   "appid": "3129790",
   "common": {
     "associations": {
@@ -41,9 +55,9 @@
     "clienticon": "802bf2c5a49d72abc3091610e3e3aab9509bd81d",
     "clienttga": "f91af80ab9604e208a906bcf94c3c8417881802f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3129790",
     "genres": {
       "0": "23",
@@ -124,12 +138,15 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "5bfeebc9854c0b794b09a08d3b6164d6f92d297b/capsule_231x87.jpg",
       "schinese": "f6b990891b23b27122c24392aef41e1762d1098e/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1794189693",
+    "steam_release_date": "1794301169",
+    "store_asset_mtime": "1794284414",
     "store_tags": {
       "0": "6276",
       "1": "4711",
@@ -231,5 +248,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pocket Legend",
+    "launch": {
+      "0": {
+        "config": {
+          "betakey": "Pocket Legend",
+          "oslist": "windows"
+        },
+        "executable": "PocketLegend.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollerconfigdetails": {
+      "3835879240": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default,influencer_preview",
+        "use_action_block": "false"
+      },
+      "3835934387": {
+        "controller_type": "controller_ps4",
+        "enabled_branches": "default,influencer_preview",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3129791": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "722684608",
+          "gid": "8093737487920326016",
+          "size": "1818059920"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "26564393",
+        "timebuildupdated": "1794310896",
+        "timeupdated": "1794310918"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Shading Box",
+    "publisher": "Shading Box"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "ShadingBox/PocketLegend/Save",
+        "pattern": "PlayData.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "ShadingBox/PocketLegend/Save",
+        "pattern": "GameData.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

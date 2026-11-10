@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794117577,
-  "_history": [],
-  "_change_number": 40709899,
-  "_missing_token": true,
-  "_sha": "c47510e325dbb0f3aa063a47df4c7dcd7d5bb94e",
-  "_size": 3891,
+  "_lastChecked": 1794339888,
+  "_history": [
+    {
+      "buildId": "26574447",
+      "branch": "public",
+      "timeUpdated": 1794339624,
+      "firstSeen": 1794339888,
+      "manifests": {
+        "4489031": {
+          "gid": "4425753810147013204",
+          "size": 643876014,
+          "download": 114956608
+        },
+        "4489032": {
+          "gid": "8180327872782475985",
+          "size": 622514862,
+          "download": 107275776
+        }
+      }
+    }
+  ],
+  "_change_number": 40807546,
+  "_missing_token": false,
+  "_sha": "d554d6fd2759301f6311b598e1bde26a3b64a4fb",
+  "_size": 5281,
   "appid": "4489030",
   "common": {
     "associations": {
@@ -30,8 +49,8 @@
     },
     "clienticon": "bafde4e883574e3377efad48f67372b5d9ecc65d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4489030",
     "genres": {
       "0": "4",
@@ -112,14 +131,16 @@
     },
     "name": "Felicity",
     "osarch": "",
-    "osextended": "",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d3f0c0d23488b00540796b57d592a4d4586372d6/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1787019645",
+    "steam_release_date": "1794333624",
+    "store_asset_mtime": "1794331364",
     "store_tags": {
       "0": "10235",
       "1": "97376",
@@ -186,5 +207,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Felicity",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Felicity.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Felicity_macos.app/Contents/MacOS/Felicity"
+      }
+    }
+  },
+  "depots": {
+    "4489031": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "114956608",
+          "gid": "4425753810147013204",
+          "size": "643876014"
+        }
+      }
+    },
+    "4489032": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "107275776",
+          "gid": "8180327872782475985",
+          "size": "622514862"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26574447",
+        "timebuildupdated": "1794339530",
+        "timeupdated": "1794339624"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "naked",
+    "publisher": "naked"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "2000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "MacAppSupport",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Icarus Interactive/Felicity",
+        "pattern": "savegame.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

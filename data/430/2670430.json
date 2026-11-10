@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794294981,
+  "_lastChecked": 1794339863,
   "_history": [
     {
       "buildId": "26556881",
@@ -36,12 +36,35 @@
           "download": 928723664
         }
       }
+    },
+    {
+      "buildId": "26563322",
+      "branch": "public",
+      "timeUpdated": 1794311743,
+      "firstSeen": 1794339863,
+      "manifests": {
+        "2670431": {
+          "gid": "3983097770611828585",
+          "size": 1282105335,
+          "download": 933896128
+        },
+        "2670432": {
+          "gid": "9207483110301867046",
+          "size": 889291773,
+          "download": 754204576
+        },
+        "2670433": {
+          "gid": "1371742222044925225",
+          "size": 1451625519,
+          "download": 921007536
+        }
+      }
     }
   ],
-  "_change_number": 40782670,
+  "_change_number": 40806560,
   "_missing_token": false,
-  "_sha": "8f24040d2fc337b4eae606e964471f4ec8fdb838",
-  "_size": 7117,
+  "_sha": "97c54cf97e5c62037e4eeab6035e19d0acdc70cb",
+  "_size": 7294,
   "appid": "2670430",
   "common": {
     "associations": {
@@ -59,12 +82,16 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_28": "1",
+      "category_57": "1",
+      "category_58": "1",
       "category_62": "1"
     },
     "clienticon": "1402fe55e4d5f832b5877297671ae7d43ecf7f9c",
     "clienttga": "047208546f3b3653e9d787928b3317465487e91d",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
     "gameid": "2670430",
     "genres": {
@@ -154,15 +181,17 @@
     "osarch": "64",
     "oscpu": "",
     "osextended": "macos64,macosapplesilicon",
-    "oslist": "windows,macos",
+    "oslist": "windows,macos,linux",
     "primary_genre": "23",
     "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "8",
     "small_capsule": {
       "english": "308a1fa93720c128028a6db3c70a48334d620b11/capsule_231x87.jpg",
       "schinese": "199cbd6606399c45b321a8cb9b852427374a6ad0/capsule_231x87_schinese.jpg"
     },
     "steam_release_date": "1794290410",
-    "store_asset_mtime": "1794287375",
+    "store_asset_mtime": "1794305333",
     "store_tags": {
       "0": "3877",
       "1": "4026",
@@ -221,11 +250,25 @@
         "config": {
           "oslist": "macos"
         },
-        "description": "StartGame_MacOS",
+        "description": "StartGame",
         "description_loc": {
-          "english": "StartGame_MacOS"
+          "english": "StartGame",
+          "schinese": "启动游戏"
         },
         "executable": "ABYA_PB.app",
+        "type": "default"
+      },
+      "3": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "StartGame",
+        "description_loc": {
+          "english": "StartGame",
+          "schinese": "启动游戏"
+        },
+        "executable": "ABYA_PB",
         "type": "default"
       }
     },
@@ -239,14 +282,9 @@
       },
       "manifests": {
         "public": {
-          "download": "793899920",
-          "gid": "7481780800816654923",
-          "size": "942300299"
-        },
-        "qatest": {
-          "download": "941427216",
-          "gid": "4003070902487810580",
-          "size": "1302827942"
+          "download": "933896128",
+          "gid": "3983097770611828585",
+          "size": "1282105335"
         }
       }
     },
@@ -255,7 +293,13 @@
         "osarch": "64",
         "oslist": "linux"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "754204576",
+          "gid": "9207483110301867046",
+          "size": "889291773"
+        }
+      }
     },
     "2670433": {
       "config": {
@@ -264,29 +308,18 @@
       },
       "manifests": {
         "public": {
-          "download": "928723664",
-          "gid": "2253945970389252541",
-          "size": "1472444063"
-        },
-        "qatest": {
-          "download": "928723664",
-          "gid": "2253945970389252541",
-          "size": "1472444063"
+          "download": "921007536",
+          "gid": "1371742222044925225",
+          "size": "1451625519"
         }
       }
     },
     "baselanguages": "english,japanese,schinese",
     "branches": {
       "public": {
-        "buildid": "26556881",
-        "timebuildupdated": "1794282993",
-        "timeupdated": "1794283451"
-      },
-      "qatest": {
-        "buildid": "26558854",
-        "description": "test",
-        "timebuildupdated": "1794292162",
-        "timeupdated": "1794292162"
+        "buildid": "26563322",
+        "timebuildupdated": "1794307380",
+        "timeupdated": "1794311743"
       }
     },
     "hasdepotsindlc": "0",

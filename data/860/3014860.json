@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793993036,
-  "_history": [],
-  "_change_number": 40679033,
-  "_missing_token": true,
-  "_sha": "f80eb991b59e5e1c82611c6c4fff0591b660b0f4",
-  "_size": 3096,
+  "_lastChecked": 1794339866,
+  "_history": [
+    {
+      "buildId": "26507218",
+      "branch": "public",
+      "timeUpdated": 1794214466,
+      "firstSeen": 1794339866,
+      "manifests": {
+        "3014862": {
+          "gid": "1197421774486589803",
+          "size": 76095423,
+          "download": 47418656
+        },
+        "3014863": {
+          "gid": "636491173664996042",
+          "size": 63559489,
+          "download": 44356368
+        }
+      }
+    }
+  ],
+  "_change_number": 40806564,
+  "_missing_token": false,
+  "_sha": "967432b2b7ac30f0ae8fd39edd8b0ef769bf8954",
+  "_size": 5419,
   "appid": "3014860",
   "common": {
     "associations": {
@@ -34,9 +53,9 @@
     },
     "clienticon": "e8599d5f18109738e8782d3aa254294dcfea903a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3014860",
     "genres": {
       "0": "23"
@@ -107,11 +126,14 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "89",
+    "review_score": "8",
     "small_capsule": {
       "english": "03590ac465cc831c9a2c0984e7789b7b227ba989/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793433325",
+    "steam_release_date": "1794308401",
+    "store_asset_mtime": "1794323985",
     "store_tags": {
       "0": "1734",
       "1": "3877",
@@ -139,5 +161,129 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "icytower",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "icytower.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "icytower.app/Contents/MacOS/love",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3014862": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "47418656",
+          "gid": "1197421774486589803",
+          "size": "76095423"
+        }
+      }
+    },
+    "3014863": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "44356368",
+          "gid": "636491173664996042",
+          "size": "63559489"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26507218",
+        "timebuildupdated": "1794063188",
+        "timeupdated": "1794214466"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Johan Peitz",
+    "homepage": "https://icytower.com",
+    "publisher": "Apskeppet"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "lists",
+            "replace": "icytower/lists"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "lists",
+            "replace": "icytower/lists"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      },
+      "2": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "icytower"
+          }
+        },
+        "root": "SteamCloudDocuments",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "3": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "icytower"
+          }
+        },
+        "root": "SteamCloudDocuments",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "2": {
+        "path": "lists",
+        "pattern": "*.lst",
+        "root": "gameinstall"
+      },
+      "3": {
+        "path": "",
+        "pattern": "*.itp",
+        "root": "SteamCloudDocuments"
+      }
+    }
+  }
 }

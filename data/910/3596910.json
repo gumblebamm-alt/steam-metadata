@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793688510,
-  "_history": [],
-  "_change_number": 40530861,
-  "_missing_token": true,
-  "_sha": "cbadc6768aa6eb18df31227a2280a4d6b0961326",
-  "_size": 3822,
+  "_lastChecked": 1794339873,
+  "_history": [
+    {
+      "buildId": "26466082",
+      "branch": "public",
+      "timeUpdated": 1794157098,
+      "firstSeen": 1794339873,
+      "manifests": {
+        "3596911": {
+          "gid": "2174132274993819612",
+          "size": 444765840,
+          "download": 345023136
+        },
+        "3596912": {
+          "gid": "7911094534761425787",
+          "size": 442288160,
+          "download": 344233552
+        }
+      }
+    }
+  ],
+  "_change_number": 40806540,
+  "_missing_token": false,
+  "_sha": "18c817913e9b94c777a2f9269a0f882e030c8268",
+  "_size": 5885,
   "appid": "3596910",
   "common": {
     "associations": {
@@ -41,9 +60,9 @@
     "clienticon": "6f205b9b2d694b2235908c24dbcd570f3cbe23fd",
     "clienttga": "9be9f87183cb5a82035001b118fc8fabb79ce2f1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3596910",
     "genres": {
       "0": "25",
@@ -124,11 +143,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "675e6dad7b871cba7e49d31a9e1812f255320035/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792258119",
+    "steam_release_date": "1794333793",
+    "store_asset_mtime": "1794337537",
     "store_tags": {
       "0": "1664",
       "1": "5537",
@@ -179,5 +199,106 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Unboxing",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "unboxing_win_v1.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "unboxing_linux_v1.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3596911": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "345023136",
+          "gid": "2174132274993819612",
+          "size": "444765840"
+        }
+      }
+    },
+    "3596912": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "344233552",
+          "gid": "7911094534761425787",
+          "size": "442288160"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,japanese,latam,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26466082",
+        "timebuildupdated": "1793904259",
+        "timeupdated": "1794157098"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "alwaystired44",
+    "homepage": "https://drive.google.com/drive/folders/1QQG61quoQhkz30Xk9t9WbUQSUlh1DjwZ?hl=pt-br",
+    "publisher": "1bitteam"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "unboxing1bitparadox",
+            "replace": "unboxing1bitparadox"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "unboxing1bitparadox",
+            "replace": "unboxing1bitparadox"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "unboxing1bitparadox",
+        "pattern": "game_data_full.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793298797,
-  "_history": [],
-  "_change_number": 40381406,
-  "_missing_token": true,
-  "_sha": "f8e26426615c13b06fb6418a8562e67052e51faa",
-  "_size": 3647,
+  "_lastChecked": 1794339895,
+  "_history": [
+    {
+      "buildId": "26296595",
+      "branch": "public",
+      "timeUpdated": 1793276086,
+      "firstSeen": 1794339895,
+      "manifests": {
+        "4759191": {
+          "gid": "481734995467235035",
+          "size": 314886744,
+          "download": 226240704
+        },
+        "4759192": {
+          "gid": "6851631761278492562",
+          "size": 282068816,
+          "download": 218243456
+        }
+      }
+    }
+  ],
+  "_change_number": 40801505,
+  "_missing_token": false,
+  "_sha": "a5c6343e2a07d8d711d77d131b8ea4fdf380060f",
+  "_size": 5346,
   "appid": "4759190",
   "common": {
     "aicontenttype": "1",
@@ -35,9 +54,9 @@
     },
     "clienticon": "0f407da30dea39d295d97f5c5d0ba7197c04e7be",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4759190",
     "genres": {
       "0": "23"
@@ -112,10 +131,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6e8c9a17bb933f76b815e13c3b595a1ff6be2767/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794328695",
     "store_asset_mtime": "1793278163",
     "store_tags": {
       "0": "1664",
@@ -168,5 +188,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cubic Color Confusion",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CubicColorConfusion.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "CubicColorConfusion.x86_64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4759191": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "226240704",
+          "gid": "481734995467235035",
+          "size": "314886744"
+        }
+      }
+    },
+    "4759192": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "218243456",
+          "gid": "6851631761278492562",
+          "size": "282068816"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26296595",
+        "timebuildupdated": "1793276065",
+        "timeupdated": "1793276086"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "4759190"
+  },
+  "extended": {
+    "developer": "eyesolated",
+    "homepage": "https://eyesolatedgames.com",
+    "publisher": "eyesolated"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Cubic Color Confusion",
+        "pattern": "progress.dat",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

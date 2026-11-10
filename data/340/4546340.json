@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792945201,
-  "_history": [],
-  "_change_number": 40225351,
-  "_missing_token": true,
-  "_sha": "2133a1dc9a9f313c81890d9f708179374b43a8f8",
-  "_size": 3431,
+  "_lastChecked": 1794339889,
+  "_history": [
+    {
+      "buildId": "26553197",
+      "branch": "public",
+      "timeUpdated": 1794268907,
+      "firstSeen": 1794339889,
+      "manifests": {
+        "4546341": {
+          "gid": "3298100584152568939",
+          "size": 161755590,
+          "download": 159999296
+        },
+        "4546342": {
+          "gid": "5613943314370097942",
+          "size": 210332740,
+          "download": 154906976
+        }
+      }
+    }
+  ],
+  "_change_number": 40793114,
+  "_missing_token": false,
+  "_sha": "0b327ef8079b0da9f654fd445cfdf99b0ddc36b8",
+  "_size": 5517,
   "appid": "4546340",
   "common": {
     "associations": {
@@ -42,9 +61,9 @@
     },
     "clienticon": "421364ea7bb4fe0f048f1efee866d024d83c27d4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4546340",
     "genres": {
       "0": "3"
@@ -114,10 +133,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "284b02738eb93b4a522a945cd3ca41129730e2b2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794314474",
     "store_asset_mtime": "1780835145",
     "store_tags": {
       "0": "3916",
@@ -151,5 +171,110 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "One More Adventure",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "OneMoreAdventure.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "./OneMoreAdventure",
+        "type": "default",
+        "workingdir": "."
+      }
+    },
+    "steamcontrollerconfigdetails": {
+      "3806485244": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4546341": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "159999296",
+          "gid": "3298100584152568939",
+          "size": "161755590"
+        }
+      }
+    },
+    "4546342": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "154906976",
+          "gid": "5613943314370097942",
+          "size": "210332740"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26553197",
+        "timebuildupdated": "1794268906",
+        "timeupdated": "1794268907"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "4546340"
+  },
+  "extended": {
+    "developer": "Enthusiastic Amateur",
+    "homepage": "https://www.enthusiasticamateur.net/",
+    "publisher": "Enthusiastic Amateur"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "One More Adventure",
+            "replace": "one-more-adventure"
+          }
+        },
+        "root": "WinSavedGames",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "One More Adventure",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinSavedGames"
+      }
+    }
+  }
 }

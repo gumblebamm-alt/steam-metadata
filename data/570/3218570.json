@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794262853,
-  "_history": [],
-  "_change_number": 40770930,
-  "_missing_token": true,
-  "_sha": "b805aae7bef53038d7ee1ef40267ad37c1aa688c",
-  "_size": 7713,
+  "_lastChecked": 1794339869,
+  "_history": [
+    {
+      "buildId": "26529994",
+      "branch": "public",
+      "timeUpdated": 1794188823,
+      "firstSeen": 1794339869,
+      "manifests": {
+        "3218571": {
+          "gid": "3480062496007644708",
+          "size": 1024549341,
+          "download": 816320064
+        }
+      }
+    }
+  ],
+  "_change_number": 40802560,
+  "_missing_token": false,
+  "_sha": "f69a860465974d1989fd9706dab790163358a337",
+  "_size": 10005,
   "appid": "3218570",
   "common": {
     "associations": {
@@ -32,9 +46,9 @@
     "clienticon": "3cfc15012ad252e23b0114b66a1f22c31783f1b3",
     "clienttga": "2f2c145dea9783865cd53b404bc46c7526ff98c8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3218570",
     "genres": {
       "0": "4",
@@ -142,7 +156,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "92",
+    "review_score": "7",
     "small_capsule": {
       "english": "8dd1188ceef8ebc4ee7b9b74fdb0218a80dd9434/capsule_231x87.jpg",
       "japanese": "404a5bd2fed6e2133b15390185db1ea360eb8370/capsule_231x87_japanese.jpg",
@@ -209,7 +225,50 @@
         }
       }
     },
-    "store_asset_mtime": "1794260639",
+    "steam_frame_compatibility": {
+      "category": "2",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1792175836",
+      "tested_build_id": "25844354",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsNotPerformant"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        }
+      }
+    },
+    "steam_release_date": "1794304441",
+    "store_asset_mtime": "1794304711",
     "store_tags": {
       "0": "10235",
       "1": "1695",
@@ -292,5 +351,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TANUKI Pon's Summer",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TANUKI Pon's Summer.exe",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3218571": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "816320064",
+          "gid": "3480062496007644708",
+          "size": "1024549341"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26529994",
+        "timebuildupdated": "1794188763",
+        "timeupdated": "1794188823"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Denkiworks",
+    "publisher": "CRITICAL REFLEX"
+  },
+  "ufs": {
+    "maxnumfiles": "300",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "Denkiworks/TANUKI_ Pon's Summer/SaveData",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

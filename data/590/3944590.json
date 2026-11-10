@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793821544,
-  "_history": [],
-  "_change_number": 40583344,
-  "_missing_token": true,
-  "_sha": "b7ff8977b32b47e77c594b023362cbabe2644505",
-  "_size": 3502,
+  "_lastChecked": 1794339878,
+  "_history": [
+    {
+      "buildId": "26566317",
+      "branch": "public",
+      "timeUpdated": 1794316755,
+      "firstSeen": 1794339878,
+      "manifests": {
+        "3944591": {
+          "gid": "6080307071711358716",
+          "size": 867806177,
+          "download": 224344400
+        },
+        "3944592": {
+          "gid": "6845435084120313104",
+          "size": 837216831,
+          "download": 212889840
+        }
+      }
+    }
+  ],
+  "_change_number": 40794351,
+  "_missing_token": false,
+  "_sha": "34bde61b094901856efc4f664f8fd83f99d391f5",
+  "_size": 5188,
   "appid": "3944590",
   "common": {
     "associations": {
@@ -34,9 +53,9 @@
     "clienticon": "2fa15107a376a589b4546a47aa0711ac8bd54486",
     "clienttga": "bdab193941ea781cd1c6f70044b204c9a5454107",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3944590",
     "genres": {
       "0": "25",
@@ -114,10 +133,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3869a07024d3967a03eb5b286794a638195a7329/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794301227",
     "store_asset_mtime": "1793785541",
     "store_tags": {
       "0": "97376",
@@ -153,5 +173,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Relocat",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Relocat.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Relocat.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "7",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "game_actions_3944590.vdf"
+  },
+  "depots": {
+    "3944591": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "224344400",
+          "gid": "6080307071711358716",
+          "size": "867806177"
+        }
+      }
+    },
+    "3944592": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "212889840",
+          "gid": "6845435084120313104",
+          "size": "837216831"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "26566317",
+        "timebuildupdated": "1794316755",
+        "timeupdated": "1794316755"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "ahhTrevor",
+    "publisher": "ahhTrevor"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "15000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "",
+            "replace": "ahhTrevor/Relocat"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ahhTrevor/Relocat",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

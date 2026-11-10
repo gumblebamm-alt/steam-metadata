@@ -1,10 +1,10 @@
 {
-  "_lastChecked": 1793993052,
+  "_lastChecked": 1794339889,
   "_history": [
     {
-      "buildId": "",
+      "buildId": "26385295",
       "branch": "public",
-      "timeUpdated": 1793540459,
+      "timeUpdated": 1794326393,
       "firstSeen": 1793599296,
       "manifests": {
         "4530371": {
@@ -16,6 +16,11 @@
           "gid": "2306383363542063468",
           "size": null,
           "download": null
+        },
+        "4530373": {
+          "gid": "2781573782236738159",
+          "size": 9021691793,
+          "download": 7646298992
         }
       },
       "_source": "hubcap"
@@ -40,10 +45,10 @@
       "_source": "hubcap"
     }
   ],
-  "_change_number": 40676061,
-  "_missing_token": true,
-  "_sha": "1b0f0776798fe0c5557ea12a49e506f4d1a2430f",
-  "_size": 4993,
+  "_change_number": 40806577,
+  "_missing_token": false,
+  "_sha": "6a738be9e53571793cdad052c54be5f56e2cc89f",
+  "_size": 7092,
   "appid": "4530370",
   "common": {
     "associations": {
@@ -68,6 +73,7 @@
       "category_27": "1",
       "category_28": "1",
       "category_29": "1",
+      "category_30": "1",
       "category_36": "1",
       "category_49": "1",
       "category_55": "1",
@@ -83,6 +89,7 @@
     },
     "clienticon": "6995bcff9583958099440e04d24d5790796cdee2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -93,7 +100,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "4530370",
     "genres": {
       "0": "28",
@@ -191,11 +197,14 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "94",
+    "review_score": "8",
     "small_capsule": {
       "english": "3d06aef381c925bb6c091f13be44dd294b205a72/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793981718",
+    "steam_release_date": "1794326456",
+    "store_asset_mtime": "1794326255",
     "store_tags": {
       "0": "1254546",
       "1": "12472",
@@ -282,5 +291,102 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Football Manager 27",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "fm.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "fm.app"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4530371": {
+      "manifests": {
+        "public": {
+          "download": "64",
+          "gid": "2609870679971444465",
+          "size": "10"
+        }
+      }
+    },
+    "4530372": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "7716560928",
+          "gid": "1558728990731412600",
+          "size": "8722212307"
+        }
+      }
+    },
+    "4530373": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "7646298992",
+          "gid": "2781573782236738159",
+          "size": "9021691793"
+        }
+      }
+    },
+    "baselanguages": "arabic,danish,dutch,english,french,german,greek,indonesian,italian,japanese,koreana,latam,norwegian,polish,portuguese,russian,schinese,spanish,swedish,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26385295",
+        "timebuildupdated": "1793639678",
+        "timeupdated": "1794326393"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "4530370"
+  },
+  "extended": {
+    "developer": "Sports Interactive",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.footballmanager.com/",
+    "listofdlc": "4530440,5529860",
+    "publisher": "SEGA"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Sports Interactive/Football Manager 27/cloud/games",
+        "pattern": "*.fm",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Sports Interactive/Football Manager 27/cloud",
+        "pattern": "*.fmf",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

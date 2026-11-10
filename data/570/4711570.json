@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794262880,
-  "_history": [],
-  "_change_number": 40762086,
-  "_missing_token": true,
-  "_sha": "283d4726eb5690465ae9649d86aedb19b0b8d7f7",
-  "_size": 4057,
+  "_lastChecked": 1794339894,
+  "_history": [
+    {
+      "buildId": "26571636",
+      "branch": "public",
+      "timeUpdated": 1794331273,
+      "firstSeen": 1794339894,
+      "manifests": {
+        "4711571": {
+          "gid": "2055974595916912392",
+          "size": 582483247,
+          "download": 337317408
+        },
+        "4711572": {
+          "gid": "4281456775213278793",
+          "size": 681670746,
+          "download": 379356176
+        },
+        "4711573": {
+          "gid": "3332775544191528383",
+          "size": 627218253,
+          "download": 373428800
+        }
+      }
+    }
+  ],
+  "_change_number": 40803360,
+  "_missing_token": false,
+  "_sha": "8d107652bf63d120bce508ed723046700a17aef5",
+  "_size": 6835,
   "appid": "4711570",
   "common": {
     "associations": {
@@ -37,8 +61,8 @@
     "clienticns": "3e89a65472784edd2e21b3744fa1e8a4d88c6d4e",
     "clienticon": "498cbf44d18d5672d90eabb71e09f99b640cd341",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4711570",
     "genres": {
       "0": "23",
@@ -125,11 +149,12 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a049914ba08a80e6b1288f310273148670b940a4/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1785779145",
+    "steam_release_date": "1794331828",
+    "store_asset_mtime": "1794319477",
     "store_tags": {
       "0": "9",
       "1": "1741",
@@ -192,5 +217,140 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Sectron",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Sectron.app"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Sectron.exe"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Sectron.x86_64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "4",
+    "steaminputmanifestpath": "steam_input_manifest.vdf"
+  },
+  "depots": {
+    "4711571": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "337317408",
+          "gid": "2055974595916912392",
+          "size": "582483247"
+        }
+      }
+    },
+    "4711572": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "379356176",
+          "gid": "4281456775213278793",
+          "size": "681670746"
+        }
+      }
+    },
+    "4711573": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "373428800",
+          "gid": "3332775544191528383",
+          "size": "627218253"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,polish,portuguese,schinese,spanish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26571636",
+        "timebuildupdated": "1794331142",
+        "timeupdated": "1794331273"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Tauri Labs",
+    "homepage": "https://taurilabs.io/sectron/",
+    "publisher": "Tauri Labs"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "67108864",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "TauriLabs/Sectron/saves",
+        "pattern": "*.ffsv",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "TauriLabs/Sectron/campaign",
+        "pattern": "completed_maps.ffpr",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "TauriLabs/Sectron/replays",
+        "pattern": "*.ffrp",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "TauriLabs/Sectron/daily",
+        "pattern": "completed_maps.ffpr",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "TauriLabs/Sectron/progress",
+        "pattern": "achievement_progress.ffpr",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

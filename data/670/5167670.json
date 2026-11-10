@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794262895,
-  "_history": [],
-  "_change_number": 40758762,
-  "_missing_token": true,
-  "_sha": "c904787a2c9aa4861242c770e1e2a3c0925b46a9",
-  "_size": 4123,
+  "_lastChecked": 1794339908,
+  "_history": [
+    {
+      "buildId": "26570642",
+      "branch": "public",
+      "timeUpdated": 1794328537,
+      "firstSeen": 1794339908,
+      "manifests": {
+        "5167671": {
+          "gid": "4334898102187619252",
+          "size": 452342504,
+          "download": 147754496
+        }
+      }
+    }
+  ],
+  "_change_number": 40802036,
+  "_missing_token": false,
+  "_sha": "2c31ce829625aa982968d276c4d9dfc27670bf8a",
+  "_size": 5243,
   "appid": "5167670",
   "common": {
     "associations": {
@@ -35,9 +49,9 @@
     "clienticns": "287a3cd96dc46a109084fd3c5478fb4995573c08",
     "clienticon": "287a3cd96dc46a109084fd3c5478fb4995573c08",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5167670",
     "genres": {
       "0": "4",
@@ -111,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6e4aeb41ebee3b55489e5e766f183f7b4293eeef/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794329589",
     "store_asset_mtime": "1794232635",
     "store_tags": {
       "0": "597",
@@ -191,5 +206,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Starlight Cove",
+    "launch": {
+      "0": {
+        "executable": "Starlight Cove.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5167671": {
+      "manifests": {
+        "public": {
+          "download": "147754496",
+          "gid": "4334898102187619252",
+          "size": "452342504"
+        }
+      }
+    },
+    "5167672": {},
+    "branches": {
+      "public": {
+        "buildid": "26570642",
+        "timebuildupdated": "1794328524",
+        "timeupdated": "1794328537"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Retromagine",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5521560",
+    "publisher": "Retromagine"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "Retromagine/Starlight Cove/FullGame/Steam/{64BitSteamID}",
+        "pattern": "save*.json*",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Retromagine/Starlight Cove/FullGame/Steam/{64BitSteamID}",
+        "pattern": "gameplay*.json*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

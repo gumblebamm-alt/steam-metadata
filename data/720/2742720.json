@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794262848,
-  "_history": [],
-  "_change_number": 40755152,
-  "_missing_token": true,
-  "_sha": "f39c7b1e78b5bf49110b466e1147251d96517be4",
-  "_size": 3755,
+  "_lastChecked": 1794339864,
+  "_history": [
+    {
+      "buildId": "26540364",
+      "branch": "public",
+      "timeUpdated": 1794319726,
+      "firstSeen": 1794339864,
+      "manifests": {
+        "2742721": {
+          "gid": "3255754874723256373",
+          "size": 2234763036,
+          "download": 2054947616
+        },
+        "2742722": {
+          "gid": "6559780343661138342",
+          "size": 2196061805,
+          "download": 2043251904
+        },
+        "2742723": {
+          "gid": "83738743063306990",
+          "size": 2171141843,
+          "download": 2033439744
+        }
+      }
+    }
+  ],
+  "_change_number": 40800086,
+  "_missing_token": false,
+  "_sha": "f724c48e2307607b0567d60bd41571faa6102cd1",
+  "_size": 6430,
   "appid": "2742720",
   "common": {
     "associations": {
@@ -45,6 +69,7 @@
     "clienticon": "a85f9321ee528b7518c7f7c5f5fff7d8f169697a",
     "clienttga": "ce0096e6f96d6f278ac973ab2a46b832b3ade0ba",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -55,7 +80,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2742720",
     "genres": {
       "0": "23"
@@ -129,10 +153,11 @@
     "osextended": "macos64,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c7329a770730f432369f47e67ca3aedd5d2baaf3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794326373",
     "store_asset_mtime": "1793638575",
     "store_tags": {
       "0": "1742",
@@ -168,5 +193,136 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "After the Wane",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "AftertheWane.app",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "AftertheWane.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "AftertheWane",
+        "type": "default"
+      }
+    },
+    "steamcontrollerconfigdetails": {
+      "3621837367": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default,debug",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollertouchconfigdetails": {
+      "3621769904": {
+        "controller_type": "controller_mobile_touch",
+        "enabled_branches": "default,debug",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertouchtemplateindex": "1",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2742721": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "2054947616",
+          "gid": "3255754874723256373",
+          "size": "2234763036"
+        }
+      }
+    },
+    "2742722": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2043251904",
+          "gid": "6559780343661138342",
+          "size": "2196061805"
+        }
+      }
+    },
+    "2742723": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2033439744",
+          "gid": "83738743063306990",
+          "size": "2171141843"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26540364",
+        "timebuildupdated": "1794230659",
+        "timeupdated": "1794319726"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Nova-box",
+    "homepage": "https://afterthewane.nova-box.com",
+    "publisher": "Nova-box"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Nova-box/After the Wane/{64BitSteamID}",
+            "replace": "com.novabox.afterthewane/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": ".config/unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Nova-box/After the Wane/{64BitSteamID}",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

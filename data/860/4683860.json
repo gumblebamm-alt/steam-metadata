@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793734365,
-  "_history": [],
-  "_change_number": 40541746,
-  "_missing_token": true,
-  "_sha": "b36ff6d77cbf196ab3c451eea3b2e67782c48398",
-  "_size": 4045,
+  "_lastChecked": 1794339893,
+  "_history": [
+    {
+      "buildId": "26573822",
+      "branch": "public",
+      "timeUpdated": 1794337487,
+      "firstSeen": 1794339893,
+      "manifests": {
+        "4683861": {
+          "gid": "497632904920454346",
+          "size": 9174692724,
+          "download": 8154218144
+        }
+      }
+    }
+  ],
+  "_change_number": 40807267,
+  "_missing_token": false,
+  "_sha": "7e03e9cea4f7e6cd71b3029a0082ab7b1b3cb3da",
+  "_size": 5482,
   "appid": "4683860",
   "common": {
     "aicontenttype": "1",
@@ -39,9 +53,9 @@
     },
     "clienticon": "8ee29312f26f142f0eeefd6d4c7a0c4e212257f1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4683860",
     "genres": {
       "0": "25",
@@ -115,10 +129,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e8a38d452111df41ccd41d772c9609a11f073524/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794339054",
     "store_asset_mtime": "1792426690",
     "store_tags": {
       "0": "7332",
@@ -186,5 +201,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Calmaria Wild Growth",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Calmaria.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "Calmaria/Binaries/Win64/steam_input_manifest.vdf"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4683861": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "8154218144",
+          "gid": "497632904920454346",
+          "size": "9174692724"
+        }
+      }
+    },
+    "baselanguages": "polish",
+    "branches": {
+      "public": {
+        "buildid": "26573822",
+        "timebuildupdated": "1794337477",
+        "timeupdated": "1794337487"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Ryzo Harbour",
+    "homepage": "https://calmariagame.com",
+    "publisher": "Ryzo Harbour"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "Calmaria/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

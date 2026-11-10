@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793734360,
-  "_history": [],
-  "_change_number": 40544969,
-  "_missing_token": true,
-  "_sha": "e6c195cb3dca419511a3e964b02f20fe007dc83a",
-  "_size": 4341,
+  "_lastChecked": 1794339887,
+  "_history": [
+    {
+      "buildId": "26569413",
+      "branch": "public",
+      "timeUpdated": 1794325149,
+      "firstSeen": 1794339887,
+      "manifests": {
+        "4452621": {
+          "gid": "4078667150075524121",
+          "size": 2568345568,
+          "download": 1113722400
+        },
+        "4452622": {
+          "gid": "1572277563762724626",
+          "size": 2438579197,
+          "download": 1010420896
+        }
+      }
+    }
+  ],
+  "_change_number": 40806813,
+  "_missing_token": false,
+  "_sha": "1353dd2a930b51364128704d9a5c31dffce00e5a",
+  "_size": 6167,
   "appid": "4452620",
   "common": {
     "associations": {
@@ -22,6 +41,8 @@
       "category_22": "1",
       "category_23": "1",
       "category_28": "1",
+      "category_45": "1",
+      "category_46": "1",
       "category_55": "1",
       "category_56": "1",
       "category_57": "1",
@@ -35,9 +56,9 @@
     "clienticns": "d1b14ec19c67fa3a1adfe389b50f0226c7b881ba",
     "clienticon": "d1b14ec19c67fa3a1adfe389b50f0226c7b881ba",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4452620",
     "genres": {
       "0": "4",
@@ -128,11 +149,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9a9cb05b9b5cc19d7cbeba976cb2720b610c5c18/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793703907",
+    "steam_release_date": "1794326422",
+    "store_asset_mtime": "1794323814",
     "store_tags": {
       "0": "560542",
       "1": "615955",
@@ -213,5 +235,98 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Thieves and Gold",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Thieves & Gold.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Thieves and Gold.app",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4452621": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1113722400",
+          "gid": "4078667150075524121",
+          "size": "2568345568"
+        }
+      }
+    },
+    "4452622": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1010420896",
+          "gid": "1572277563762724626",
+          "size": "2438579197"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26569413",
+        "timebuildupdated": "1794325149",
+        "timeupdated": "1794325149"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "RzvGames",
+    "dlcavailableonstore": "1",
+    "homepage": "https://thievesandgold.com/",
+    "listofdlc": "5479950",
+    "publisher": "RzvGames"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RzvGames/Thieves _ Gold",
+            "replace": "com.rzvgames.thievesandgold"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RzvGames/Thieves _ Gold",
+        "pattern": "*.es3",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

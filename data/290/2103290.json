@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1793993030,
+  "_lastChecked": 1794339860,
   "_history": [
+    {
+      "buildId": "26573076",
+      "branch": "public",
+      "timeUpdated": 1794335307,
+      "firstSeen": 1794339860,
+      "manifests": {
+        "2103291": {
+          "gid": "4332475660549779724",
+          "size": 782048494,
+          "download": 237219008
+        },
+        "2103292": {
+          "gid": "3282062160080297477",
+          "size": 782048494,
+          "download": 236873744
+        }
+      }
+    },
     {
       "buildId": "26490733",
       "branch": "public",
@@ -72,30 +90,12 @@
           "download": 205523968
         }
       }
-    },
-    {
-      "buildId": "25713158",
-      "branch": "public",
-      "timeUpdated": 1791136406,
-      "firstSeen": 1791160853,
-      "manifests": {
-        "2103291": {
-          "gid": "7392450894774016304",
-          "size": 724719720,
-          "download": 205110944
-        },
-        "2103292": {
-          "gid": "6672461758037902646",
-          "size": 724719720,
-          "download": 204765680
-        }
-      }
     }
   ],
-  "_change_number": 40680871,
+  "_change_number": 40806480,
   "_missing_token": false,
-  "_sha": "bc1842d7e9f79819d0862b813e04edf8401122d9",
-  "_size": 5009,
+  "_sha": "14699097e53abb657e9022edf04057c75ead764b",
+  "_size": 5073,
   "appid": "2103290",
   "common": {
     "aicontenttype": "1",
@@ -266,7 +266,8 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
   "config": {
     "installdir": "Anvil Life",
@@ -290,9 +291,9 @@
       },
       "manifests": {
         "public": {
-          "download": "231147584",
-          "gid": "3938980237451662752",
-          "size": "771337083"
+          "download": "237219008",
+          "gid": "4332475660549779724",
+          "size": "782048494"
         }
       }
     },
@@ -304,9 +305,9 @@
       },
       "manifests": {
         "public": {
-          "download": "230802320",
-          "gid": "7293520532322206554",
-          "size": "771337083"
+          "download": "236873744",
+          "gid": "3282062160080297477",
+          "size": "782048494"
         }
       }
     },
@@ -327,11 +328,12 @@
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "26490733",
-        "timebuildupdated": "1793986117",
-        "timeupdated": "1793986158"
+        "buildid": "26573076",
+        "timebuildupdated": "1794335275",
+        "timeupdated": "1794335307"
       }
-    }
+    },
+    "workshopdepot": "2103290"
   },
   "extended": {
     "developer": "Emre Bulut",
@@ -340,7 +342,7 @@
   "ufs": {
     "hidecloudui": "1",
     "ignoreexternalfiles": "1",
-    "maxnumfiles": "1",
-    "quota": "10"
+    "maxnumfiles": "100",
+    "quota": "200000000"
   }
 }
