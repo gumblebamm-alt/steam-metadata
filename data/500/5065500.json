@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1794160623,
-  "_history": [],
-  "_change_number": 40725810,
-  "_missing_token": true,
-  "_sha": "aa7ced768c30c422e2ac0f5b9a952e780a2a9938",
-  "_size": 3327,
+  "_lastChecked": 1794294996,
+  "_history": [
+    {
+      "buildId": "26518209",
+      "branch": "develop",
+      "timeUpdated": 1794127874,
+      "firstSeen": 1794294996,
+      "manifests": {
+        "5065502": {
+          "gid": "1869192527908089470",
+          "size": 249977980,
+          "download": 167825120
+        },
+        "5065503": {
+          "gid": "5065600341399640113",
+          "size": 215028260,
+          "download": 159371712
+        }
+      }
+    },
+    {
+      "buildId": "26518209",
+      "branch": "public",
+      "timeUpdated": 1794127882,
+      "firstSeen": 1794294996,
+      "manifests": {
+        "5065502": {
+          "gid": "1869192527908089470",
+          "size": 249977980,
+          "download": 167825120
+        },
+        "5065503": {
+          "gid": "5065600341399640113",
+          "size": 215028260,
+          "download": 159371712
+        }
+      }
+    }
+  ],
+  "_change_number": 40779775,
+  "_missing_token": false,
+  "_sha": "48d2745c1da032898c1a469ec4ff07ac5a2154dc",
+  "_size": 5367,
   "appid": "5065500",
   "common": {
     "associations": {
@@ -37,8 +74,8 @@
     },
     "clienticon": "cacf9e8aa5510268cbec4fb479db4347fb11de80",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5065500",
     "genres": {
       "0": "2"
@@ -108,10 +145,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5ed590571eb66303cb2df9a0970a4b3494f57b89/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794282979",
     "store_asset_mtime": "1794144900",
     "store_tags": {
       "0": "791774",
@@ -149,5 +187,111 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Vinculum",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "vinculum.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "vinculum.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5065502": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "develop": {
+          "download": "167825120",
+          "gid": "1869192527908089470",
+          "size": "249977980"
+        },
+        "public": {
+          "download": "167825120",
+          "gid": "1869192527908089470",
+          "size": "249977980"
+        }
+      }
+    },
+    "5065503": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "develop": {
+          "download": "159371712",
+          "gid": "5065600341399640113",
+          "size": "215028260"
+        },
+        "public": {
+          "download": "159371712",
+          "gid": "5065600341399640113",
+          "size": "215028260"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "develop": {
+        "buildid": "26518209",
+        "description": "Private testing branch",
+        "timebuildupdated": "1794127844",
+        "timeupdated": "1794127874"
+      },
+      "public": {
+        "buildid": "26518209",
+        "timebuildupdated": "1794127844",
+        "timeupdated": "1794127882"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "hitrobot",
+    "homepage": "https://hitrobot.gg/",
+    "publisher": "hitrobot"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Vinculum",
+        "pattern": "settings.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Vinculum",
+        "pattern": "profile.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Vinculum",
+        "pattern": "meta.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

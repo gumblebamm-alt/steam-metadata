@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793211941,
-  "_history": [],
-  "_change_number": 40329594,
-  "_missing_token": true,
-  "_sha": "36c407cdd604cbd427e6b3b9ac325b4f8bffca97",
-  "_size": 2971,
+  "_lastChecked": 1794294993,
+  "_history": [
+    {
+      "buildId": "26264846",
+      "branch": "public",
+      "timeUpdated": 1793174018,
+      "firstSeen": 1794294993,
+      "manifests": {
+        "4880781": {
+          "gid": "8578956129186787897",
+          "size": 1021433220,
+          "download": 98733792
+        },
+        "4880782": {
+          "gid": "9216508979739424281",
+          "size": 1038048346,
+          "download": 106665968
+        }
+      }
+    }
+  ],
+  "_change_number": 40777915,
+  "_missing_token": false,
+  "_sha": "f0b8f3bd744edeb9bfbdd40331c315d8cee57ae2",
+  "_size": 4661,
   "appid": "4880780",
   "common": {
     "associations": {
@@ -23,8 +42,8 @@
     },
     "clienticon": "43af79bc029a9723aa0e71a72a8cd824dd4ea888",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4880780",
     "genres": {
       "0": "4",
@@ -97,7 +116,7 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b960a721274d4eb33feef4fcbf50e1b0c6674f56/capsule_231x87.jpg"
     },
@@ -133,5 +152,99 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Wooberts",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Woobert.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Woobert.app"
+      }
+    }
+  },
+  "depots": {
+    "4880781": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "98733792",
+          "gid": "8578956129186787897",
+          "size": "1021433220"
+        }
+      }
+    },
+    "4880782": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "106665968",
+          "gid": "9216508979739424281",
+          "size": "1038048346"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26264846",
+        "timebuildupdated": "1793173968",
+        "timeupdated": "1793174018"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Siddeney",
+    "publisher": "Siddeney"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SeascapeGames/Woobert",
+            "replace": "com.seascapegames.woobert"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "SeascapeGames/Woobert",
+        "pattern": "island_*.png",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "SeascapeGames/Woobert",
+        "pattern": "cloud_state.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

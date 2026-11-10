@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1792945186,
-  "_history": [],
-  "_change_number": 40228957,
-  "_missing_token": true,
-  "_sha": "212144fd1f731e93b21cae5f059857029ac79fe9",
-  "_size": 2815,
+  "_lastChecked": 1794294981,
+  "_history": [
+    {
+      "buildId": "16271614",
+      "branch": "playtest",
+      "timeUpdated": 1769757990,
+      "firstSeen": 1794294981,
+      "manifests": {
+        "2319361": {
+          "gid": "1522244760829266512",
+          "size": 296480492,
+          "download": 102314080
+        }
+      }
+    },
+    {
+      "buildId": "26556519",
+      "branch": "public",
+      "timeUpdated": 1794281622,
+      "firstSeen": 1794294981,
+      "manifests": {
+        "2319361": {
+          "gid": "95968704861910348",
+          "size": 539593337,
+          "download": 186169632
+        }
+      }
+    }
+  ],
+  "_change_number": 40779727,
+  "_missing_token": false,
+  "_sha": "43a28b3608a347455f01766ddf702a5cc36c9e92",
+  "_size": 4044,
   "appid": "2319360",
   "common": {
     "associations": {
@@ -29,8 +56,8 @@
     "clienticon": "6c6b914777d8abba28ca690eae92fa1efea365f9",
     "clienttga": "69dca99e83efa0acab0d20bcc5d9fada2ece12c3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2319360",
     "genres": {
       "0": "4",
@@ -89,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "337a036b7b37ee72b1405a7d19226d44b12fcd0f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794282822",
     "store_asset_mtime": "1792942051",
     "store_tags": {
       "0": "1664",
@@ -152,5 +180,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Memento Dawn",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MementoDawn.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2319361": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "playtest": {
+          "download": "102314080",
+          "gid": "1522244760829266512",
+          "size": "296480492"
+        },
+        "public": {
+          "download": "186169632",
+          "gid": "95968704861910348",
+          "size": "539593337"
+        }
+      }
+    },
+    "branches": {
+      "playtest": {
+        "buildid": "16271614",
+        "description": "Playtest branch",
+        "timebuildupdated": "1730514727",
+        "timeupdated": "1769757990"
+      },
+      "public": {
+        "buildid": "26556519",
+        "timebuildupdated": "1794281463",
+        "timeupdated": "1794281622"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "DepaGames",
+    "homepage": "https://mementodawn.com/",
+    "publisher": "DepaGames"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000",
+    "savefiles": {
+      "0": {
+        "path": "DepaGames/MementoDawn",
+        "pattern": "SaveFile.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

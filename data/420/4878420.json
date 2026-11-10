@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792857615,
-  "_history": [],
-  "_change_number": 39700595,
-  "_missing_token": true,
-  "_sha": "93a69ab83d4de6efa015f883452a640874b2ef0d",
-  "_size": 4120,
+  "_lastChecked": 1794294993,
+  "_history": [
+    {
+      "buildId": "25855207",
+      "branch": "public",
+      "timeUpdated": 1791663994,
+      "firstSeen": 1794294993,
+      "manifests": {
+        "4878422": {
+          "gid": "608060747762142221",
+          "size": 101392001,
+          "download": 49859344
+        },
+        "4878423": {
+          "gid": "2947125223499019536",
+          "size": 134125335,
+          "download": 57876048
+        },
+        "4878424": {
+          "gid": "7156461757987281714",
+          "size": 217585450,
+          "download": 80804528
+        }
+      }
+    }
+  ],
+  "_change_number": 40773159,
+  "_missing_token": false,
+  "_sha": "534869ac68b2f78d2afbea735dfe238dfc49acaf",
+  "_size": 5805,
   "appid": "4878420",
   "common": {
     "aicontenttype": "1",
@@ -49,9 +73,9 @@
     "clienticns": "6f69d43da18e5be4c31bed416e9bd4eb1f25d196",
     "clienticon": "79b7253f1891debb9af16d77f9a0f18ad56096bf",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4878420",
     "genres": {
       "0": "1",
@@ -136,10 +160,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2261db25cd8d7a47dd30672e44f3a985479458b6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1791457790",
     "store_tags": {
       "0": "3841",
@@ -191,5 +216,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "GloomDelve",
+    "launch": {
+      "0": {
+        "arguments": "--steaminput",
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "GloomDelve.exe"
+      },
+      "1": {
+        "arguments": "--steaminput",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "gloomdelve.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "GloomDelve.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65527",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "5",
+    "steaminputmanifestpath": "controller_config/action_manifest_4878420.vdf"
+  },
+  "depots": {
+    "4878422": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "49859344",
+          "gid": "608060747762142221",
+          "size": "101392001"
+        }
+      }
+    },
+    "4878423": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "57876048",
+          "gid": "2947125223499019536",
+          "size": "134125335"
+        }
+      }
+    },
+    "4878424": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "80804528",
+          "gid": "7156461757987281714",
+          "size": "217585450"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25855207",
+        "timebuildupdated": "1791663806",
+        "timeupdated": "1791663994"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "UNiT Studios",
+    "homepage": "https://unitstudios.com/",
+    "publisher": "UNiT Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "64",
+    "quota": "16777216",
+    "sync_while_suspended": "1"
+  }
 }

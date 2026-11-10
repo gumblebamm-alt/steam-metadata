@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1793773128,
-  "_history": [],
-  "_change_number": 40497650,
-  "_missing_token": true,
-  "_sha": "ed60f289012966c16bec67d806f573878b300239",
-  "_size": 4053,
+  "_lastChecked": 1794294981,
+  "_history": [
+    {
+      "buildId": "26556881",
+      "branch": "public",
+      "timeUpdated": 1794283451,
+      "firstSeen": 1794294981,
+      "manifests": {
+        "2670431": {
+          "gid": "7481780800816654923",
+          "size": 942300299,
+          "download": 793899920
+        },
+        "2670433": {
+          "gid": "2253945970389252541",
+          "size": 1472444063,
+          "download": 928723664
+        }
+      }
+    },
+    {
+      "buildId": "26558854",
+      "branch": "qatest",
+      "timeUpdated": 1794292162,
+      "firstSeen": 1794294981,
+      "manifests": {
+        "2670431": {
+          "gid": "4003070902487810580",
+          "size": 1302827942,
+          "download": 941427216
+        },
+        "2670433": {
+          "gid": "2253945970389252541",
+          "size": 1472444063,
+          "download": 928723664
+        }
+      }
+    }
+  ],
+  "_change_number": 40782670,
+  "_missing_token": false,
+  "_sha": "8f24040d2fc337b4eae606e964471f4ec8fdb838",
+  "_size": 7117,
   "appid": "2670430",
   "common": {
     "associations": {
@@ -18,14 +55,17 @@
       }
     },
     "category": {
+      "category_17": "1",
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "clienticon": "1402fe55e4d5f832b5877297671ae7d43ecf7f9c",
     "clienttga": "047208546f3b3653e9d787928b3317465487e91d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2670430",
     "genres": {
       "0": "1",
@@ -40,6 +80,10 @@
       "schinese": "7be2eec2dba89ffb290edd6d1013b334d64a79fd/header_schinese.jpg"
     },
     "icon": "11d6170d94fe703669be795e6ecd615bc5f841b0",
+    "languages": {
+      "english": "1",
+      "schinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en,zh-cn",
       "library_header": "en,zh-cn",
@@ -112,12 +156,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "308a1fa93720c128028a6db3c70a48334d620b11/capsule_231x87.jpg",
       "schinese": "199cbd6606399c45b321a8cb9b852427374a6ad0/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1792048658",
+    "steam_release_date": "1794290410",
+    "store_asset_mtime": "1794287375",
     "store_tags": {
       "0": "3877",
       "1": "4026",
@@ -157,5 +202,141 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dashoot",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "StartGame",
+        "description_loc": {
+          "english": "StartGame",
+          "schinese": "启动游戏"
+        },
+        "executable": "ABYA_PB.exe",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "StartGame_MacOS",
+        "description_loc": {
+          "english": "StartGame_MacOS"
+        },
+        "executable": "ABYA_PB.app",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2670431": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "793899920",
+          "gid": "7481780800816654923",
+          "size": "942300299"
+        },
+        "qatest": {
+          "download": "941427216",
+          "gid": "4003070902487810580",
+          "size": "1302827942"
+        }
+      }
+    },
+    "2670432": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {}
+    },
+    "2670433": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "928723664",
+          "gid": "2253945970389252541",
+          "size": "1472444063"
+        },
+        "qatest": {
+          "download": "928723664",
+          "gid": "2253945970389252541",
+          "size": "1472444063"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26556881",
+        "timebuildupdated": "1794282993",
+        "timeupdated": "1794283451"
+      },
+      "qatest": {
+        "buildid": "26558854",
+        "description": "test",
+        "timebuildupdated": "1794292162",
+        "timeupdated": "1794292162"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "2670430"
+  },
+  "extended": {
+    "deckresolutionoverride": "3840x2160",
+    "developer": "Pone Games",
+    "publisher": "Pone Games",
+    "steammachineresolutionoverride": "3840x2160"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ABYA ProductionTeam/ABYA_PB/Data/Progress/SteamBody",
+            "replace": "com.ABYA-ProductionTeam.ABYA-PB/Data/Progress/SteamBody"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ABYA ProductionTeam/ABYA_PB/Data/Progress/SteamBody",
+            "replace": ".config/unity3d/ABYA ProductionTeam/ABYA_PB/Data/Progress/SteamBody"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ABYA ProductionTeam/ABYA_PB/Data/Progress/SteamBody",
+        "pattern": "*.PBProg",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

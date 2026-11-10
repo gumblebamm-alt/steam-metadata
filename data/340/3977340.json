@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791940036,
+  "_lastChecked": 1794294986,
   "_history": [
     {
       "buildId": "25915796",
@@ -14,12 +14,25 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26219997",
+      "branch": "public",
+      "timeUpdated": 1793069834,
+      "firstSeen": 1794294986,
+      "manifests": {
+        "3977341": {
+          "gid": "5033569835370449137",
+          "size": 4692899507,
+          "download": 1376750064
+        }
+      }
     }
   ],
-  "_change_number": 39796903,
+  "_change_number": 40777852,
   "_missing_token": false,
-  "_sha": "e12c6dae4c0c72f705a52afdde321f0ae93f8291",
-  "_size": 5900,
+  "_sha": "83484ff6b13f3075fc2ed11af33bc2aac92bb6ad",
+  "_size": 7545,
   "appid": "3977340",
   "common": {
     "associations": {
@@ -131,11 +144,72 @@
     "oslist": "windows",
     "primary_genre": "1",
     "releasestate": "released",
-    "review_percentage": "95",
-    "review_score": "7",
+    "review_percentage": "93",
+    "review_score": "8",
     "small_capsule": {
       "english": "2f8ae2d7f1de2a14e465e214e96314354406d7a3/capsule_231x87.jpg",
       "schinese": "6e41cea1bf9a1bdd57784d15f230ae26a1a6afbb/capsule_231x87_schinese.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "3",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1792419359",
+      "tested_build_id": "26003091",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
     },
     "steam_release_date": "1791896540",
     "store_asset_mtime": "1791647909",
@@ -152,8 +226,8 @@
       "3": "4975",
       "4": "19",
       "5": "3959",
-      "6": "42804",
-      "7": "4736",
+      "6": "4736",
+      "7": "42804",
       "8": "4004",
       "9": "1773"
     },
@@ -226,18 +300,18 @@
     "3977341": {
       "manifests": {
         "public": {
-          "download": "1408220800",
-          "gid": "23442894268281453",
-          "size": "4718864171"
+          "download": "1376750064",
+          "gid": "5033569835370449137",
+          "size": "4692899507"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25915796",
-        "timebuildupdated": "1791918343",
-        "timeupdated": "1791920527"
+        "buildid": "26219997",
+        "timebuildupdated": "1793026998",
+        "timeupdated": "1793069834"
       }
     },
     "privatebranches": "1"
@@ -248,17 +322,12 @@
     "publisher": "HeartLoop Games"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
-    "maxnumfiles": "3",
+    "maxnumfiles": "10",
     "quota": "10000000",
     "savefiles": {
       "0": {
         "path": "HeartLoop Games/Poly Fighter",
         "pattern": "*.json",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocalLow"
       }
     }

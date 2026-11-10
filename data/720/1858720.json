@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793688499,
+  "_lastChecked": 1794294980,
   "_history": [
     {
       "buildId": "26372234",
@@ -51,12 +51,30 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26559253",
+      "branch": "public",
+      "timeUpdated": 1794294104,
+      "firstSeen": 1794294980,
+      "manifests": {
+        "1858721": {
+          "gid": "5442143838990873546",
+          "size": 136711993,
+          "download": 44220064
+        },
+        "1858722": {
+          "gid": "7505584632399242013",
+          "size": 147862167,
+          "download": 50229552
+        }
+      }
     }
   ],
-  "_change_number": 40533813,
+  "_change_number": 40783393,
   "_missing_token": false,
-  "_sha": "2f686d65f14204f1bd2f84682f6c12506f615410",
-  "_size": 8888,
+  "_sha": "3acba909fd124db126581bd104c7c37af5295c95",
+  "_size": 9261,
   "appid": "1858720",
   "common": {
     "associations": {
@@ -150,11 +168,12 @@
       "tchinese": "異星來信"
     },
     "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "primary_genre": "23",
     "releasestate": "released",
-    "review_percentage": "96",
+    "review_percentage": "93",
     "review_score": "8",
     "small_capsule": {
       "english": "4eb11f4fc1cd86b537e5580a8b2bb755e282c59b/capsule_231x87.jpg"
@@ -165,19 +184,19 @@
       "0": "1673",
       "1": "31275",
       "10": "24003",
-      "11": "597",
-      "12": "5794",
+      "11": "5794",
+      "12": "597",
       "13": "3871",
       "14": "9",
       "15": "492",
       "16": "8945",
-      "17": "1666",
-      "18": "6702",
+      "17": "6702",
+      "18": "1666",
       "19": "13070",
       "2": "3942",
       "3": "3854",
-      "4": "1036",
-      "5": "4094",
+      "4": "4094",
+      "5": "1036",
       "6": "4182",
       "7": "1755",
       "8": "1664",
@@ -504,19 +523,39 @@
           "oslist": "windows"
         },
         "executable": "MessageFromAliens.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "mac.app"
       }
     }
   },
   "depots": {
+    "1858721": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "44220064",
+          "gid": "5442143838990873546",
+          "size": "136711993"
+        }
+      }
+    },
     "1858722": {
       "config": {
+        "osarch": "64",
         "oslist": "windows"
       },
       "manifests": {
         "public": {
-          "download": "49300096",
-          "gid": "3700553221018803172",
-          "size": "146218755"
+          "download": "50229552",
+          "gid": "7505584632399242013",
+          "size": "147862167"
         }
       }
     },
@@ -529,9 +568,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "26396492",
-        "timebuildupdated": "1793676075",
-        "timeupdated": "1793676153"
+        "buildid": "26559253",
+        "timebuildupdated": "1794294104",
+        "timeupdated": "1794294104"
       }
     }
   },
@@ -549,6 +588,7 @@
         "platforms": {
           "1": "Windows"
         },
+        "recursive": "1",
         "root": "WinAppDataLocalLow"
       }
     }

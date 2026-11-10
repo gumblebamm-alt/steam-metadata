@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793339308,
-  "_history": [],
-  "_change_number": 40396630,
-  "_missing_token": true,
-  "_sha": "a86351aa69b2531e65d547dd18cbe9251e8c7cd0",
-  "_size": 8724,
+  "_lastChecked": 1794294983,
+  "_history": [
+    {
+      "buildId": "26041046",
+      "branch": "public",
+      "timeUpdated": 1792390182,
+      "firstSeen": 1794294983,
+      "manifests": {
+        "3263761": {
+          "gid": "2296642824334788812",
+          "size": 590015885,
+          "download": 143789600
+        }
+      }
+    }
+  ],
+  "_change_number": 40782569,
+  "_missing_token": false,
+  "_sha": "cf53f9fc93a1ac42ae18eb7e9892406f451258f5",
+  "_size": 9852,
   "appid": "3263760",
   "common": {
     "associations": {
@@ -26,7 +40,6 @@
     "clienttga": "06bc78216cfe0838678e5a1f751c922b871fe091",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3263760",
     "genres": {
       "0": "1",
@@ -165,7 +178,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ef0c7f65b971a2ba2dd7119bf510ef7d345889c1/capsule_231x87.jpg",
       "french": "520d6a476ea28831b1d6fa53d4469f4f77285af7/capsule_231x87_french.jpg",
@@ -207,5 +220,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HuangLingSetUpFolder",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "AHuangLingProjectBuild\\URPFight.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3263761": {
+      "manifests": {
+        "public": {
+          "download": "143789600",
+          "gid": "2296642824334788812",
+          "size": "590015885"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26041046",
+        "timebuildupdated": "1792390072",
+        "timeupdated": "1792390182"
+      }
+    }
+  },
+  "extended": {
+    "developer": "yanchangyu3",
+    "publisher": "yanchangyu3"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "DefaultCompany/URPFight/MyGameData",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

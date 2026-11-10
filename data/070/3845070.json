@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1793124062,
+  "_lastChecked": 1794294985,
   "_history": [
+    {
+      "buildId": "26539353",
+      "branch": "public",
+      "timeUpdated": 1794228848,
+      "firstSeen": 1794294985,
+      "manifests": {
+        "3845071": {
+          "gid": "8380035753148319504",
+          "size": 1550082306,
+          "download": 448679984
+        },
+        "3845072": {
+          "gid": "8821060272166587983",
+          "size": 1556009611,
+          "download": 450813968
+        }
+      }
+    },
     {
       "buildId": "26207357",
       "branch": "public",
@@ -73,31 +91,12 @@
         }
       },
       "_source": "hubcap"
-    },
-    {
-      "buildId": "25984701",
-      "branch": "public",
-      "timeUpdated": 1792151305,
-      "firstSeen": 1792155285,
-      "manifests": {
-        "3845071": {
-          "gid": "579168103473636563",
-          "size": null,
-          "download": null
-        },
-        "3845072": {
-          "gid": "2216966658446826515",
-          "size": null,
-          "download": null
-        }
-      },
-      "_source": "hubcap"
     }
   ],
-  "_change_number": 40251703,
+  "_change_number": 40754205,
   "_missing_token": false,
-  "_sha": "d98d87a269fde700181c3541e219031c1eb63275",
-  "_size": 8472,
+  "_sha": "f44c2b363abb78209d21e325bc222bdfd8f026f9",
+  "_size": 9674,
   "appid": "3845070",
   "common": {
     "associations": {
@@ -254,7 +253,7 @@
     "oslist": "windows,macos",
     "primary_genre": "2",
     "releasestate": "released",
-    "review_percentage": "83",
+    "review_percentage": "84",
     "review_score": "8",
     "small_capsule": {
       "english": "2fbcc91eca3082934c220512cce2490fc85207d9/capsule_231x87.jpg",
@@ -262,6 +261,48 @@
       "koreana": "5049b978e2879925d732c8a78e8a0216cd68aeb2/capsule_231x87_koreana.jpg",
       "schinese": "bd1b7c540d66e18579fd692c5c75b4586714ea43/capsule_231x87_schinese.jpg",
       "tchinese": "4f70839bc605e5c75b2058006cea4d56b2912f2e/capsule_231x87_tchinese.jpg"
+    },
+    "steam_frame_compatibility": {
+      "category": "2",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1793298283",
+      "tested_build_id": "26207357",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
     },
     "steam_release_date": "1792076469",
     "store_asset_mtime": "1792132235",
@@ -272,8 +313,8 @@
       "11": "3871",
       "12": "5716",
       "13": "3854",
-      "14": "6426",
-      "15": "597",
+      "14": "597",
+      "15": "6426",
       "16": "1770",
       "17": "3993",
       "18": "3959",
@@ -281,8 +322,8 @@
       "2": "8369",
       "3": "5613",
       "4": "9",
-      "5": "6378",
-      "6": "1664",
+      "5": "1664",
+      "6": "6378",
       "7": "14139",
       "8": "17389",
       "9": "6052"
@@ -352,9 +393,9 @@
       },
       "manifests": {
         "public": {
-          "download": "448678032",
-          "gid": "7341261251526987612",
-          "size": "1550052426"
+          "download": "448679984",
+          "gid": "8380035753148319504",
+          "size": "1550082306"
         }
       }
     },
@@ -364,17 +405,17 @@
       },
       "manifests": {
         "public": {
-          "download": "451108032",
-          "gid": "6243576910096184600",
-          "size": "1557514427"
+          "download": "450813968",
+          "gid": "8821060272166587983",
+          "size": "1556009611"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26207357",
-        "timebuildupdated": "1792980556",
-        "timeupdated": "1792981136"
+        "buildid": "26539353",
+        "timebuildupdated": "1794227476",
+        "timeupdated": "1794228848"
       }
     },
     "nocommonredists": "1",
@@ -385,7 +426,7 @@
     "publisher": "Yogscast Games"
   },
   "ufs": {
-    "maxnumfiles": "3",
+    "maxnumfiles": "20",
     "quota": "10000000",
     "rootoverrides": {
       "0": {

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794031075,
+  "_lastChecked": 1794294997,
   "_history": [
     {
       "buildId": "26282352",
@@ -39,12 +39,48 @@
           "download": 1942826064
         }
       }
+    },
+    {
+      "buildId": "26545020",
+      "branch": "linux-test",
+      "timeUpdated": 1794255435,
+      "firstSeen": 1794294997,
+      "manifests": {
+        "5139951": {
+          "gid": "4337721467878060014",
+          "size": 2575222915,
+          "download": 1942826064
+        },
+        "5139952": {
+          "gid": "3940121520485922150",
+          "size": 2537471463,
+          "download": 1924358720
+        }
+      }
+    },
+    {
+      "buildId": "26545020",
+      "branch": "public",
+      "timeUpdated": 1794288057,
+      "firstSeen": 1794294997,
+      "manifests": {
+        "5139951": {
+          "gid": "4337721467878060014",
+          "size": 2575222915,
+          "download": 1942826064
+        },
+        "5139952": {
+          "gid": "3940121520485922150",
+          "size": 2537471463,
+          "download": 1924358720
+        }
+      }
     }
   ],
-  "_change_number": 40682171,
+  "_change_number": 40781357,
   "_missing_token": false,
-  "_sha": "02d6a1495f58fc97cf943950e91fa6c709c60864",
-  "_size": 8337,
+  "_sha": "604781ef4b246a1e18901e73dc515cf9ec1a416c",
+  "_size": 9454,
   "appid": "5139950",
   "common": {
     "aicontenttype": "1",
@@ -174,13 +210,17 @@
     },
     "name": "The Countess: A Borrowed Fate",
     "name_localized": {
+      "brazilian": "A Condessa: Um Destino Alheio",
       "english": "The Countess: A Borrowed Fate",
+      "latam": "La Condesa: Un Destino Ajeno",
       "russian": "Графиня: Чужая судьба",
-      "schinese": "女伯爵：异世命途"
+      "schinese": "女伯爵：异世命途",
+      "spanish": "La Condesa: Un Destino Ajeno"
     },
     "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "25",
     "releasestate": "released",
     "small_capsule": {
@@ -272,12 +312,28 @@
         },
         "executable": "GrafinyaIzMoskvy.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "the-countess",
+        "type": "default"
       }
     }
   },
   "depots": {
     "5139951": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
+        "linux-test": {
+          "download": "1942826064",
+          "gid": "4337721467878060014",
+          "size": "2575222915"
+        },
         "public": {
           "download": "1942826064",
           "gid": "4337721467878060014",
@@ -285,12 +341,36 @@
         }
       }
     },
+    "5139952": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "linux-test": {
+          "download": "1924358720",
+          "gid": "3940121520485922150",
+          "size": "2537471463"
+        },
+        "public": {
+          "download": "1924358720",
+          "gid": "3940121520485922150",
+          "size": "2537471463"
+        }
+      }
+    },
     "baselanguages": "brazilian,english,french,german,japanese,koreana,latam,russian,schinese,spanish",
     "branches": {
+      "linux-test": {
+        "buildid": "26545020",
+        "description": "Linux x64 test",
+        "timebuildupdated": "1794243484",
+        "timeupdated": "1794255435"
+      },
       "public": {
-        "buildid": "26492111",
-        "timebuildupdated": "1793990324",
-        "timeupdated": "1793992987"
+        "buildid": "26545020",
+        "timebuildupdated": "1794243484",
+        "timeupdated": "1794288057"
       }
     }
   },
@@ -310,6 +390,14 @@
           "1": "Windows"
         },
         "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "GrafinyaIzMoskvy/Saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgConfigHome"
       }
     }
   }

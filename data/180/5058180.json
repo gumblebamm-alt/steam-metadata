@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792945213,
-  "_history": [],
-  "_change_number": 39980002,
-  "_missing_token": true,
-  "_sha": "3b22f38decf67644962634038db3d7b0a312c566",
-  "_size": 3294,
+  "_lastChecked": 1794294995,
+  "_history": [
+    {
+      "buildId": "26343081",
+      "branch": "public",
+      "timeUpdated": 1793438364,
+      "firstSeen": 1794294995,
+      "manifests": {
+        "5058182": {
+          "gid": "2012095264245810422",
+          "size": 504688253,
+          "download": 177662496
+        },
+        "5058183": {
+          "gid": "3355120645515860202",
+          "size": 522555956,
+          "download": 186165312
+        }
+      }
+    }
+  ],
+  "_change_number": 40773608,
+  "_missing_token": false,
+  "_sha": "014f5554be3571bf526710421783010050a67216",
+  "_size": 4710,
   "appid": "5058180",
   "common": {
     "associations": {
@@ -34,10 +53,9 @@
         "id": "5058180_eula_0",
         "name": "BLINDFOLD: Sound Chase EULA",
         "url": "https://store.steampowered.com//eula/5058180_eula_0",
-        "version": "1"
+        "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "5058180",
     "genres": {
       "0": "1",
@@ -112,10 +130,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "724d6e919bf844505191cc91fd1d8f26ff0a0fbb/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1788131434",
     "store_tags": {
       "0": "7178",
@@ -150,5 +169,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BLINDFOLD",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "BLINDFOLD.app"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BLINDFOLD.exe"
+      }
+    }
+  },
+  "depots": {
+    "5058182": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "177662496",
+          "gid": "2012095264245810422",
+          "size": "504688253"
+        }
+      }
+    },
+    "5058183": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "186165312",
+          "gid": "3355120645515860202",
+          "size": "522555956"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26343081",
+        "timebuildupdated": "1793436899",
+        "timeupdated": "1793438364"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "HIGHTALE",
+    "publisher": "HIGHTALE"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "HIGHTALE/BLINDFOLD",
+        "pattern": "gameData.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

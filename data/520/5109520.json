@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794262893,
-  "_history": [],
-  "_change_number": 40758237,
-  "_missing_token": true,
-  "_sha": "ba53185746022e4ecc0136d1811eeace6983132a",
-  "_size": 3744,
+  "_lastChecked": 1794294996,
+  "_history": [
+    {
+      "buildId": "26552809",
+      "branch": "public",
+      "timeUpdated": 1794267529,
+      "firstSeen": 1794294996,
+      "manifests": {
+        "5109521": {
+          "gid": "3220880240149870325",
+          "size": 7912538310,
+          "download": 2099862368
+        }
+      }
+    }
+  ],
+  "_change_number": 40783219,
+  "_missing_token": false,
+  "_sha": "abd3592092d4229d447ccb640a63ec2730ad6b1d",
+  "_size": 5048,
   "appid": "5109520",
   "common": {
     "associations": {
@@ -40,9 +54,9 @@
     },
     "clienticon": "1989e595320da7146ca643c5592bbcb5c5b0a3be",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5109520",
     "genres": {
       "0": "23",
@@ -114,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cc24371aadbd10cd5388760214ffd62d5de099cc/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1790350463",
     "store_tags": {
       "0": "599",
@@ -174,5 +189,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Swinging Pier Clean Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Swinging Pier Clean Simulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5109521": {
+      "manifests": {
+        "public": {
+          "download": "2099862368",
+          "gid": "3220880240149870325",
+          "size": "7912538310"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26552809",
+        "timebuildupdated": "1794267477",
+        "timeupdated": "1794267529"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Ozgur Boruzanci",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5361530",
+    "publisher": "Ozgur Boruzanci"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "250000000",
+    "savefiles": {
+      "0": {
+        "path": "Ozgur Boruzanci/Swinging Pier Clean Simulator/saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Ozgur Boruzanci/Swinging Pier Clean Simulator",
+        "pattern": "settings.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
