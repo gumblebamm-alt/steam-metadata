@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793467107,
-  "_history": [],
-  "_change_number": 40454137,
-  "_missing_token": true,
-  "_sha": "e48d4c411411f8c4369b38c9c2cbbcbdacf978d4",
-  "_size": 3448,
+  "_lastChecked": 1794425783,
+  "_history": [
+    {
+      "buildId": "26344410",
+      "branch": "public",
+      "timeUpdated": 1793445108,
+      "firstSeen": 1794425783,
+      "manifests": {
+        "5091991": {
+          "gid": "2707124549463499089",
+          "size": 108568960,
+          "download": 82047856
+        }
+      }
+    }
+  ],
+  "_change_number": 40831084,
+  "_missing_token": false,
+  "_sha": "bd96a53903f2da11fdaf63d1fd29ce8622a669f0",
+  "_size": 5095,
   "appid": "5091990",
   "common": {
     "associations": {
@@ -39,6 +53,7 @@
     "clienticns": "afae15ce824f457bab1d70d7747756890c818e69",
     "clienticon": "952a4ed8a5a2156a1cd88bfb7e848da1711f2ea8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -49,7 +64,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "5091990",
     "genres": {
       "0": "1",
@@ -120,10 +134,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "51370f55cee652949bb94f25e3800d399742d149/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794397498",
     "store_asset_mtime": "1793445060",
     "store_tags": {
       "0": "19",
@@ -154,5 +169,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hell is Neon Colored",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "\tPlay Hell is Neon Colored",
+        "description_loc": {
+          "english": "\tPlay Hell is Neon Colored"
+        },
+        "executable": "HellIsNeonColored.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5091991": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "82047856",
+          "gid": "2707124549463499089",
+          "size": "108568960"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26344410",
+        "timebuildupdated": "1793444834",
+        "timeupdated": "1793445108"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Low Revolution",
+    "publisher": "Low Revolution"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "16777215",
+    "savefiles": {
+      "0": {
+        "path": "LOVE/MARPG",
+        "pattern": "*.lua",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "marpg-haxe",
+        "pattern": "save*.lua",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "marpg-haxe",
+        "pattern": "achievements.lua",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "marpg-haxe",
+        "pattern": "tutorial.lua",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

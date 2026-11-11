@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794377696,
-  "_history": [],
-  "_change_number": 40821951,
-  "_missing_token": true,
-  "_sha": "8ae3fd264a40a2621a8bfe5d0865ab4e5da1ecc3",
-  "_size": 3891,
+  "_lastChecked": 1794425759,
+  "_history": [
+    {
+      "buildId": "26588068",
+      "branch": "public",
+      "timeUpdated": 1794390403,
+      "firstSeen": 1794425759,
+      "manifests": {
+        "4218361": {
+          "gid": "5163087005526604943",
+          "size": 4439765507,
+          "download": 1929178464
+        },
+        "4218362": {
+          "gid": "1367256091698734296",
+          "size": 4632177192,
+          "download": 1971322352
+        }
+      }
+    }
+  ],
+  "_change_number": 40845560,
+  "_missing_token": false,
+  "_sha": "f5c12b88ad383cbc75dd20cf3861a2674e667b3c",
+  "_size": 7165,
   "appid": "4218360",
   "common": {
     "associations": {
@@ -25,13 +44,16 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_28": "1",
+      "category_57": "1",
       "category_62": "1"
     },
     "clienticns": "7c43c037a31cc9f7df349289c4e807377b8cc7d2",
     "clienticon": "e9a65990bae2fbb64b70509810daffad65b4a29d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4218360",
     "genres": {
       "0": "28",
@@ -108,11 +130,75 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "84",
+    "review_score": "7",
     "small_capsule": {
       "english": "3a2af915aeb74c973cb118adecb80290199881ea/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794346522",
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-11.0-3RC",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1794411560",
+      "tested_build_id": "26588068",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1794398221",
+    "store_asset_mtime": "1794399117",
     "store_tags": {
       "0": "220585",
       "1": "7332",
@@ -183,5 +269,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Wall World Strategy",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "WallWorldStrategy.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "WallWorldStrategy.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4218361": {
+      "manifests": {
+        "public": {
+          "download": "1929178464",
+          "gid": "5163087005526604943",
+          "size": "4439765507"
+        }
+      }
+    },
+    "4218362": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1971322352",
+          "gid": "1367256091698734296",
+          "size": "4632177192"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26588068",
+        "timebuildupdated": "1794390392",
+        "timeupdated": "1794390403"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Alawar",
+    "homepage": "https://alawar.com/games/wall-world-strategy",
+    "publisher": "Alawar"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "\\Alawar\\WallWorldStrategy",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "/com.Alawar.WallWorldStrategy",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

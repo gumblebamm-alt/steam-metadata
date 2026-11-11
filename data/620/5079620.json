@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793040172,
-  "_history": [],
-  "_change_number": 40267995,
-  "_missing_token": true,
-  "_sha": "cf6731874581695a63368bba5bf3b4ca66af5615",
-  "_size": 2953,
+  "_lastChecked": 1794425782,
+  "_history": [
+    {
+      "buildId": "26595404",
+      "branch": "public",
+      "timeUpdated": 1794412845,
+      "firstSeen": 1794425782,
+      "manifests": {
+        "5079621": {
+          "gid": "4909811538590576476",
+          "size": 2503238648,
+          "download": 1723863600
+        }
+      }
+    }
+  ],
+  "_change_number": 40839445,
+  "_missing_token": false,
+  "_sha": "7c2e4f3ebc88f3936b80366538b1c2c50a1dd5a6",
+  "_size": 4395,
   "appid": "5079620",
   "common": {
     "associations": {
@@ -18,13 +32,25 @@
       }
     },
     "category": {
+      "category_18": "1",
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "clienticon": "f00db31b6b4b224b232b50a333e87827b4cc1ee5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
+    "eulas": {
+      "0": {
+        "id": "5079620_eula_0",
+        "name": "Potions Galore EULA",
+        "url": "https://store.steampowered.com/eula/5079620_eula_0",
+        "version": "2"
+      }
+    },
     "gameid": "5079620",
     "genres": {
       "0": "4",
@@ -96,11 +122,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "be5715b3261ad84c7eba3dce6e559412bca42836/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791649015",
+    "steam_release_date": "1794413114",
+    "store_asset_mtime": "1794411889",
     "store_tags": {
       "0": "1654",
       "1": "5652",
@@ -132,5 +159,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Potions Galore",
+    "launch": {
+      "0": {
+        "executable": "Windows/PotionsGalore.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5079621": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1723863600",
+          "gid": "4909811538590576476",
+          "size": "2503238648"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26595404",
+        "timebuildupdated": "1794412367",
+        "timeupdated": "1794412845"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Playmunch",
+    "homepage": "https://playmunch.eu",
+    "publisher": "Playmunch"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": "PotionsGalore/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

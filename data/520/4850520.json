@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794160618,
-  "_history": [],
-  "_change_number": 40573969,
-  "_missing_token": true,
-  "_sha": "423d377c4ab58751951dc0490a03a7a9a0ceaab1",
-  "_size": 3159,
+  "_lastChecked": 1794425774,
+  "_history": [
+    {
+      "buildId": "26585881",
+      "branch": "public",
+      "timeUpdated": 1794382837,
+      "firstSeen": 1794425774,
+      "manifests": {
+        "4850521": {
+          "gid": "2583768312504613589",
+          "size": 532701050,
+          "download": 239257280
+        },
+        "4850522": {
+          "gid": "2902454336567466864",
+          "size": 551116614,
+          "download": 249637728
+        }
+      }
+    }
+  ],
+  "_change_number": 40824898,
+  "_missing_token": false,
+  "_sha": "543d6f9d4042b2f645085ddb019c9641184623e6",
+  "_size": 4509,
   "appid": "4850520",
   "common": {
     "associations": {
@@ -32,8 +51,8 @@
     "clienticns": "35affa8f4e3ed53ad7f49c1a339a3aaa1128c352",
     "clienticon": "a09f9491b9601b49e3e3db02b23342fd8917a783",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4850520",
     "genres": {
       "0": "1",
@@ -107,7 +126,7 @@
     "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7cfc1decd4b1e9d91223a13b37f44b10a4309972/capsule_231x87.jpg"
     },
@@ -141,5 +160,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Skoot Keyboard Brawl",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Skoot Keyboard Brawl.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Contents/MacOS/Skoot- Keyboard Brawl"
+      }
+    }
+  },
+  "depots": {
+    "4850521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "239257280",
+          "gid": "2583768312504613589",
+          "size": "532701050"
+        }
+      }
+    },
+    "4850522": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "249637728",
+          "gid": "2902454336567466864",
+          "size": "551116614"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26585881",
+        "timebuildupdated": "1794382816",
+        "timeupdated": "1794382837"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Three Eyes Up",
+    "publisher": "Three Eyes Up"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Three Eyes Up/Skoot Keyboard Brawl/SkootSteamCloudSaves",
+        "pattern": "SkootSaveSlot*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

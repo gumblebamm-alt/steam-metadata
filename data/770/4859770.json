@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794160618,
-  "_history": [],
-  "_change_number": 40720678,
-  "_missing_token": true,
-  "_sha": "5647e2e30db8da69e6972787ece2e512da3a5dc8",
-  "_size": 3316,
+  "_lastChecked": 1794425774,
+  "_history": [
+    {
+      "buildId": "26592823",
+      "branch": "public",
+      "timeUpdated": 1794405227,
+      "firstSeen": 1794425774,
+      "manifests": {
+        "4859771": {
+          "gid": "273039963775077878",
+          "size": 1729674972,
+          "download": 1485254816
+        }
+      }
+    }
+  ],
+  "_change_number": 40835055,
+  "_missing_token": false,
+  "_sha": "3d9f82567232aedc960d774f936458eadcf1ddd7",
+  "_size": 4936,
   "appid": "4859770",
   "common": {
     "aicontenttype": "1",
@@ -22,12 +36,12 @@
       "category_17": "1",
       "category_2": "1",
       "category_23": "1",
+      "category_30": "1",
       "category_62": "1"
     },
     "clienticon": "4e0d33cf97c2da1ed6cc4cec403c76f11fb1dee3",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4859770",
     "genres": {
       "0": "4",
@@ -98,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c2173dd60658b0c3e6008498f6c0a9c92f48fb22/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794385850",
     "store_asset_mtime": "1789017480",
     "store_tags": {
       "0": "597",
@@ -153,7 +168,90 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CrystalCanvas",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "CrystalCanvas.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4859771": {
+      "manifests": {
+        "public": {
+          "download": "1485254816",
+          "gid": "273039963775077878",
+          "size": "1729674972"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26592823",
+        "timebuildupdated": "1794405158",
+        "timeupdated": "1794405227"
+      }
+    },
+    "workshopdepot": "4859770"
+  },
+  "extended": {
+    "developer": "coznssoft",
+    "publisher": "coznssoft"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "CrystalCanvas/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "CrystalCanvas/Saved/PlayerSaves/000",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "CrystalCanvas/Saved/PlayerSaves/001",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

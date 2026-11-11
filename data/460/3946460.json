@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793124064,
-  "_history": [],
-  "_change_number": 40255546,
-  "_missing_token": true,
-  "_sha": "d0b174012dced7006c4574e1d80c5fbcff775495",
-  "_size": 3392,
+  "_lastChecked": 1794425754,
+  "_history": [
+    {
+      "buildId": "26536847",
+      "branch": "public",
+      "timeUpdated": 1794219485,
+      "firstSeen": 1794425754,
+      "manifests": {
+        "3946461": {
+          "gid": "650028758780997905",
+          "size": 160555688,
+          "download": 81814528
+        },
+        "3946462": {
+          "gid": "3644414634921367602",
+          "size": 244188168,
+          "download": 104284240
+        }
+      }
+    }
+  ],
+  "_change_number": 40835357,
+  "_missing_token": false,
+  "_sha": "5f556db5536ee6d07e5b648710778fbf478cb1cd",
+  "_size": 5168,
   "appid": "3946460",
   "common": {
     "associations": {
@@ -19,12 +38,14 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "clienticon": "28c3632e4618469958956801b57ea32b7e5e68fe",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3946460",
     "genres": {
       "0": "4",
@@ -96,10 +117,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7515b5fae44b097d3cd43d02b548ea86e1767a87/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794405694",
     "store_asset_mtime": "1789140831",
     "store_tags": {
       "0": "1643",
@@ -160,5 +182,93 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Shroomy Garden",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ShroomyGarden.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Shroomy Garden.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3946461": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "81814528",
+          "gid": "650028758780997905",
+          "size": "160555688"
+        }
+      }
+    },
+    "3946462": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "104284240",
+          "gid": "3644414634921367602",
+          "size": "244188168"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26536847",
+        "timebuildupdated": "1794219089",
+        "timeupdated": "1794219485"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Magicwood Labs",
+    "publisher": "Magicwood Labs"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Shroomy Garden/saves/sandbox",
+        "pattern": "save_slot_*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Shroomy Garden/saves/missions",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Shroomy Garden/saves",
+        "pattern": "progress.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

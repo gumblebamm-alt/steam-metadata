@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794377709,
-  "_history": [],
-  "_change_number": 40815477,
-  "_missing_token": true,
-  "_sha": "ff28fe6b6e3658f14b81d64701fb1d5832b24c95",
-  "_size": 5551,
+  "_lastChecked": 1794425783,
+  "_history": [
+    {
+      "buildId": "26597673",
+      "branch": "public",
+      "timeUpdated": 1794418717,
+      "firstSeen": 1794425783,
+      "manifests": {
+        "5084411": {
+          "gid": "2414114834659530693",
+          "size": 664403819,
+          "download": 552290096
+        }
+      }
+    }
+  ],
+  "_change_number": 40842977,
+  "_missing_token": false,
+  "_sha": "d9bd9a94afca8af1b698d531ef999af3a20b1c10",
+  "_size": 6807,
   "appid": "5084410",
   "common": {
     "aicontenttype": "1",
@@ -27,8 +41,8 @@
     },
     "clienticon": "8e9ecae860956015e96c2c0bb2c0b31a601e3f25",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5084410",
     "genres": {
       "0": "1",
@@ -135,12 +149,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fdc22e5801cf0b2329272871bc53ed22b067561c/capsule_231x87.jpg",
       "german": "fdc22e5801cf0b2329272871bc53ed22b067561c/capsule_231x87_german.jpg"
     },
-    "store_asset_mtime": "1794325107",
+    "steam_release_date": "1794419383",
+    "store_asset_mtime": "1794402642",
     "store_tags": {
       "0": "1645",
       "1": "3959",
@@ -235,5 +250,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Journey TD",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64"
+        },
+        "executable": "JourneyTD.exe"
+      }
+    }
+  },
+  "depots": {
+    "5084411": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "552290096",
+          "gid": "2414114834659530693",
+          "size": "664403819"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,greek,italian,japanese,koreana,polish,portuguese,russian,schinese,spanish,tchinese,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "26597673",
+        "timebuildupdated": "1794418703",
+        "timeupdated": "1794418717"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Zunaman",
+    "homepage": "https://journeytd.de/",
+    "publisher": "Studio F"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "JourneyTD",
+        "pattern": "profile.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "JourneyTD",
+        "pattern": "run_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

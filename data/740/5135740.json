@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794205491,
-  "_history": [],
-  "_change_number": 40736804,
-  "_missing_token": true,
-  "_sha": "6b36f45d831c9746feea0003fedabeb761070551",
-  "_size": 3364,
+  "_lastChecked": 1794425785,
+  "_history": [
+    {
+      "buildId": "26594020",
+      "branch": "public",
+      "timeUpdated": 1794417662,
+      "firstSeen": 1794425785,
+      "manifests": {
+        "5135741": {
+          "gid": "6491394350970277928",
+          "size": 192933023,
+          "download": 105991968
+        }
+      }
+    }
+  ],
+  "_change_number": 40842184,
+  "_missing_token": false,
+  "_sha": "0a54668de3a1d3e5460bef33198a4e7a86f557b4",
+  "_size": 4708,
   "appid": "5135740",
   "common": {
     "aicontenttype": "1",
@@ -32,8 +46,8 @@
     },
     "clienticon": "e15cdc554dc84b3e5b4b55195f2f5438bd0219fa",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5135740",
     "genres": {
       "0": "4",
@@ -45,6 +59,14 @@
       "english": "36fdda32f275353e08b0db040626c1818ef3d5b0/header.jpg"
     },
     "icon": "4e87440a451ee4175bde19b243955a40151d15e1",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "schinese": "1",
+      "spanish": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -106,11 +128,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "76d96ead506d47f361275850eed2162dab7ed350/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794179129",
+    "steam_release_date": "1794417800",
+    "store_asset_mtime": "1794417499",
     "store_tags": {
       "0": "615955",
       "1": "10695",
@@ -155,5 +178,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dungeoneers Idle",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DungeoneersIdle.exe"
+      }
+    }
+  },
+  "depots": {
+    "5135741": {
+      "manifests": {
+        "public": {
+          "download": "105991968",
+          "gid": "6491394350970277928",
+          "size": "192933023"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26594020",
+        "timebuildupdated": "1794408510",
+        "timeupdated": "1794417662"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "VindR Games",
+    "homepage": "https://vindrgames.com/dungeoneers-idle/",
+    "publisher": "VindR Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Dungeoneers Idle",
+        "pattern": "savegame_slot*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Dungeoneers Idle",
+        "pattern": "passive_builds.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

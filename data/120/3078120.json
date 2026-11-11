@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1792198509,
-  "_history": [],
-  "_change_number": 39905973,
-  "_missing_token": true,
-  "_sha": "3c4c8af3030bc1e4c4debee41d36926bb289af2c",
-  "_size": 3870,
+  "_lastChecked": 1794425746,
+  "_history": [
+    {
+      "buildId": "26598544",
+      "branch": "beta",
+      "timeUpdated": 1794421439,
+      "firstSeen": 1794425746,
+      "manifests": {
+        "3078121": {
+          "gid": "3303254085196658894",
+          "size": 297533866,
+          "download": 202750272
+        },
+        "5549490": {
+          "gid": "4089027392426270714",
+          "size": 180562526,
+          "download": 177574368
+        }
+      }
+    },
+    {
+      "buildId": "26598544",
+      "branch": "public",
+      "timeUpdated": 1794421439,
+      "firstSeen": 1794425746,
+      "manifests": {
+        "3078121": {
+          "gid": "3303254085196658894",
+          "size": 297533866,
+          "download": 202750272
+        },
+        "5549490": {
+          "gid": "4089027392426270714",
+          "size": 180562526,
+          "download": 177574368
+        }
+      }
+    }
+  ],
+  "_change_number": 40844222,
+  "_missing_token": false,
+  "_sha": "af5085de541e66cb05891806f0a19dbab114dbdb",
+  "_size": 5771,
   "appid": "3078120",
   "common": {
     "associations": {
@@ -38,9 +75,9 @@
     "clienticon": "e9f99956ce8a0ca9985eb4bea9fb179291ba7a9f",
     "clienttga": "53ea2cc2efecf4f0088b95fbcc6bcc430ec2c5a8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3078120",
     "genres": {
       "0": "1",
@@ -118,14 +155,18 @@
       }
     },
     "name": "Reality Drift",
+    "name_localized": {
+      "schinese": "现实漂移 Reality Drift"
+    },
     "osarch": "64",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "70e5532539131b3f8aa0f75e3aff2e3b100b1b16/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794420080",
     "store_asset_mtime": "1792159896",
     "store_tags": {
       "0": "699",
@@ -185,5 +226,96 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Reality Drift",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Reality Drift.exe"
+      }
+    }
+  },
+  "depots": {
+    "3078121": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "202750272",
+          "gid": "3303254085196658894",
+          "size": "297533866"
+        },
+        "public": {
+          "download": "202750272",
+          "gid": "3303254085196658894",
+          "size": "297533866"
+        }
+      }
+    },
+    "5549490": {
+      "dlcappid": "5549490",
+      "manifests": {
+        "beta": {
+          "download": "177574368",
+          "gid": "4089027392426270714",
+          "size": "180562526"
+        },
+        "public": {
+          "download": "177574368",
+          "gid": "4089027392426270714",
+          "size": "180562526"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26598544",
+        "description": "Beta",
+        "timebuildupdated": "1794421439",
+        "timeupdated": "1794421439"
+      },
+      "public": {
+        "buildid": "26598544",
+        "timebuildupdated": "1794421439",
+        "timeupdated": "1794421439"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Arganoid Industries",
+    "dlcavailableonstore": "1",
+    "homepage": "https://industries.arganoid.com/",
+    "listofdlc": "5549490",
+    "publisher": "Arganoid Industries"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Arganoid Industries/Reality Drift/{64BitSteamID}",
+        "pattern": "Progression*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

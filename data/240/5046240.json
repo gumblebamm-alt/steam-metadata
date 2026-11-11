@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793993064,
-  "_history": [],
-  "_change_number": 40512421,
-  "_missing_token": true,
-  "_sha": "4d1534b93d127f007693a34f30249273ed1c3d26",
-  "_size": 4408,
+  "_lastChecked": 1794425781,
+  "_history": [
+    {
+      "buildId": "26513879",
+      "branch": "public",
+      "timeUpdated": 1794097816,
+      "firstSeen": 1794425781,
+      "manifests": {
+        "5046241": {
+          "gid": "8596744839070653909",
+          "size": 671531493,
+          "download": 484905808
+        },
+        "5046242": {
+          "gid": "5554273848026116846",
+          "size": 1228453312,
+          "download": 706841904
+        }
+      }
+    }
+  ],
+  "_change_number": 40844219,
+  "_missing_token": false,
+  "_sha": "b8cd880df5f6cdc65c1b2d5af6c0dc3937288ec6",
+  "_size": 5802,
   "appid": "5046240",
   "common": {
     "aicontenttype": "1",
@@ -37,16 +56,15 @@
       "category_68": "1",
       "category_69": "1",
       "category_74": "1",
-      "category_75": "1",
       "category_76": "1",
       "category_78": "1",
       "category_9": "1"
     },
     "clienticon": "617f99cbbee1fde8ef32abad671cd87a7e9f5053",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5046240",
     "genres": {
       "0": "4",
@@ -136,7 +154,7 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a7b04d6aca85df6570ced74e9e4073ef18f4a473/capsule_231x87.jpg"
     },
@@ -213,5 +231,84 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Helion Conflict",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "HelionConflict.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "HelionConflict-Mac-Shipping.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5046241": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "484905808",
+          "gid": "8596744839070653909",
+          "size": "671531493"
+        }
+      }
+    },
+    "5046242": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "706841904",
+          "gid": "5554273848026116846",
+          "size": "1228453312"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "26513879",
+        "timebuildupdated": "1794097816",
+        "timeupdated": "1794097816"
+      }
+    },
+    "workshopdepot": "5046240"
+  },
+  "extended": {
+    "developer": "GoraGames",
+    "homepage": "https://gora.games",
+    "publisher": "GoraGames"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000"
+  }
 }

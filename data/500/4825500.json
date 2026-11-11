@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793599374,
-  "_history": [],
-  "_change_number": 40495122,
-  "_missing_token": true,
-  "_sha": "4e7d1feab6ac235e18693cc0d52bd7d706f00cf0",
-  "_size": 4110,
+  "_lastChecked": 1794425773,
+  "_history": [
+    {
+      "buildId": "26587487",
+      "branch": "public",
+      "timeUpdated": 1794388594,
+      "firstSeen": 1794425773,
+      "manifests": {
+        "4825501": {
+          "gid": "9032053312284198996",
+          "size": 1174705960,
+          "download": 956767936
+        }
+      }
+    }
+  ],
+  "_change_number": 40827278,
+  "_missing_token": false,
+  "_sha": "bb88cfb3cc9818bdd6c3495f259fd72bac0da023",
+  "_size": 5417,
   "appid": "4825500",
   "common": {
     "associations": {
@@ -32,6 +46,7 @@
     },
     "clienticon": "18d0728480600c0c3388909d222df0c18c365156",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -41,11 +56,11 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4825500",
     "genres": {
       "0": "25",
-      "1": "23"
+      "1": "23",
+      "2": "3"
     },
     "header_image": {
       "english": "e1ac3ff57dc1f99d60fb46acc20d541bdbbdc6eb/header.jpg",
@@ -122,12 +137,13 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c7d0ab4035d30e8e7584054624b28bb4eb9ffe76/capsule_231x87.jpg",
       "japanese": "db9ee3345709bf9054e6863d7666529d47362d67/capsule_231x87_japanese.jpg"
     },
-    "store_asset_mtime": "1793095994",
+    "steam_release_date": "1794389415",
+    "store_asset_mtime": "1793773536",
     "store_tags": {
       "0": "4486",
       "1": "3798",
@@ -166,5 +182,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Kamiyo",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "kamiyo.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "launch option for MacOS",
+        "description_loc": {
+          "english": "launch option for MacOS"
+        },
+        "executable": "kamiyo.app",
+        "type": "option1"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "launch option for Linux",
+        "description_loc": {
+          "english": "launch option for Linux"
+        },
+        "executable": "kamiyo.sh",
+        "type": "option2"
+      }
+    },
+    "steamconfigurator3rdpartynative": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4825501": {
+      "manifests": {
+        "public": {
+          "download": "956767936",
+          "gid": "9032053312284198996",
+          "size": "1174705960"
+        }
+      }
+    },
+    "baselanguages": "japanese",
+    "branches": {
+      "public": {
+        "buildid": "26587487",
+        "timebuildupdated": "1794388582",
+        "timeupdated": "1794388594"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "d'Arc",
+    "homepage": "https://kaminashiproject.wixsite.com/kamiyo",
+    "publisher": "d'Arc"
+  }
 }

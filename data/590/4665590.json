@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792558093,
-  "_history": [],
-  "_change_number": 40051953,
-  "_missing_token": true,
-  "_sha": "1e3fbb7be9a57216dd4f4a9163931a2e134d93a4",
-  "_size": 4374,
+  "_lastChecked": 1794425768,
+  "_history": [
+    {
+      "buildId": "26592668",
+      "branch": "public",
+      "timeUpdated": 1794404762,
+      "firstSeen": 1794425768,
+      "manifests": {
+        "4665591": {
+          "gid": "3294879594912795733",
+          "size": 130421970,
+          "download": 122481760
+        }
+      }
+    }
+  ],
+  "_change_number": 40843423,
+  "_missing_token": false,
+  "_sha": "120a9c4ea100f24c9baacf080c5575c18fd7bd0c",
+  "_size": 5481,
   "appid": "4665590",
   "common": {
     "aicontenttype": "1",
@@ -24,7 +38,9 @@
       "category_23": "1",
       "category_25": "1",
       "category_62": "1",
+      "category_64": "1",
       "category_66": "1",
+      "category_67": "1",
       "category_68": "1",
       "category_74": "1",
       "category_76": "1",
@@ -34,8 +50,8 @@
     },
     "clienticon": "350faae282595cb05c2f73099785eecab6ee3d7e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4665590",
     "genres": {
       "0": "1",
@@ -123,11 +139,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8ac1b37596ec57851ddf39d7881532c84fca3292/capsule_231x87.jpg",
       "schinese": "d300e18042163068f9ef2a10ea9f0b0d8b4018d4/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1794420037",
     "store_asset_mtime": "1792433783",
     "store_tags": {
       "0": "560542",
@@ -195,5 +212,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Apotheosis Engine",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "apotheosisEngine.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4665591": {
+      "manifests": {
+        "public": {
+          "download": "122481760",
+          "gid": "3294879594912795733",
+          "size": "130421970"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26592668",
+        "timebuildupdated": "1794404760",
+        "timeupdated": "1794404762"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "genkakusoft",
+    "homepage": "https://genkaku-soft.com",
+    "publisher": "genkakusoft"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "apot01",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "apot01",
+        "pattern": "apot01.settings",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "apot01",
+        "pattern": "apot01.meta",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

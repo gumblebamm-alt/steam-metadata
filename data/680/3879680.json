@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791549426,
-  "_history": [],
-  "_change_number": 39651109,
-  "_missing_token": true,
-  "_sha": "59271d564ba47cadfbeeeaf8e0efa0e9386e1014",
-  "_size": 5620,
+  "_lastChecked": 1794425754,
+  "_history": [
+    {
+      "buildId": "26582952",
+      "branch": "public",
+      "timeUpdated": 1794370972,
+      "firstSeen": 1794425754,
+      "manifests": {
+        "3879681": {
+          "gid": "2215209085700226337",
+          "size": 294691845,
+          "download": 153881104
+        }
+      }
+    }
+  ],
+  "_change_number": 40823909,
+  "_missing_token": false,
+  "_sha": "0d93d72b091a95c48b18214a48d93c46a3e83c3d",
+  "_size": 7719,
   "appid": "3879680",
   "common": {
     "associations": {
@@ -36,6 +50,7 @@
     "clienticns": "e70ddc17f61ea094c59a32080b58f62c100fab3a",
     "clienticon": "e30eece1258690a9a7ce9ce3d6d30e6e318bc685",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -46,7 +61,6 @@
         "version": "6"
       }
     },
-    "exfgls": "8",
     "gameid": "3879680",
     "genres": {
       "0": "1",
@@ -145,11 +159,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f549dfc94b851741bec484a0ef71c337c5dba882/capsule_231x87.jpg",
       "schinese": "e717fbe54066802abb7fae353b808aedc6de5d38/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1777271385",
     "store_tags": {
       "0": "4474",
@@ -218,5 +233,107 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      },
+      "1": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_scout"
+      }
+    },
+    "installdir": "Cells-of-Division",
+    "launch": {
+      "0": {
+        "executable": "Cells_of_Division.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam/input/action_manifest_3879680.vdf"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3879681": {
+      "manifests": {
+        "public": {
+          "download": "153881104",
+          "gid": "2215209085700226337",
+          "size": "294691845"
+        }
+      }
+    },
+    "baselanguages": "english,koreana,schinese,tchinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "26582952",
+        "timebuildupdated": "1794370040",
+        "timeupdated": "1794370972"
+      }
+    }
+  },
+  "extended": {
+    "developer": " High Path Games",
+    "publisher": " High Path Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "3000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SavesDir",
+            "replace": "Cells of Division/data"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SavesDir",
+            "replace": ".local/share/Cells of Division/data"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      },
+      "2": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SavesDir",
+            "replace": "Cells of Division/data"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

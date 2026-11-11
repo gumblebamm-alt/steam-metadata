@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791463233,
+  "_lastChecked": 1794425754,
   "_history": [
     {
       "buildId": "25127129",
@@ -52,12 +52,25 @@
           "download": 6840334288
         }
       }
+    },
+    {
+      "buildId": "26484778",
+      "branch": "public",
+      "timeUpdated": 1793980443,
+      "firstSeen": 1794425754,
+      "manifests": {
+        "3905451": {
+          "gid": "786152153217326853",
+          "size": 7541706099,
+          "download": 6932453776
+        }
+      }
     }
   ],
-  "_change_number": 39595513,
+  "_change_number": 40833344,
   "_missing_token": false,
-  "_sha": "1244948e0376e5e86c65398e6b01c9f61fc07e62",
-  "_size": 8184,
+  "_sha": "e21f03f9c501a9b20e8d9a15268e777b3edadb46",
+  "_size": 8531,
   "appid": "3905450",
   "common": {
     "associations": {
@@ -260,8 +273,8 @@
     "store_tags": {
       "0": "21",
       "1": "1685",
-      "10": "7368",
-      "11": "3841",
+      "10": "3841",
+      "11": "7368",
       "12": "699",
       "13": "5350",
       "14": "5537",
@@ -385,17 +398,17 @@
       },
       "manifests": {
         "public": {
-          "download": "6840334288",
-          "gid": "2964603623773704623",
-          "size": "7447959857"
+          "download": "6932453776",
+          "gid": "786152153217326853",
+          "size": "7541706099"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25208735",
-        "timebuildupdated": "1788958102",
-        "timeupdated": "1788966733"
+        "buildid": "26484778",
+        "timebuildupdated": "1793969603",
+        "timeupdated": "1793980443"
       }
     },
     "privatebranches": "1"
@@ -410,7 +423,21 @@
     "remoteplaytogethertestingbranches": "development,experimental"
   },
   "ufs": {
-    "maxnumfiles": "100",
-    "quota": "10000000"
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "2000",
+    "quota": "256000000",
+    "savefiles": {
+      "0": {
+        "path": "CarGame/Saved/SaveGames/Steam/{64BitSteamID}",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "CarGame/Saved/SaveGames/Steam/{64BitSteamID}/Thumbnails",
+        "pattern": "Save_*.png",
+        "root": "WinAppDataLocal"
+      }
+    }
   }
 }

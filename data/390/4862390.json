@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1790987714,
-  "_history": [],
-  "_change_number": 39428052,
-  "_missing_token": true,
-  "_sha": "27f2f20138d7efe16b45dd2cff322941410129ad",
-  "_size": 3746,
+  "_lastChecked": 1794425774,
+  "_history": [
+    {
+      "buildId": "26570518",
+      "branch": "public",
+      "timeUpdated": 1794328151,
+      "firstSeen": 1794425774,
+      "manifests": {
+        "4862391": {
+          "gid": "696858060648710591",
+          "size": 3627961364,
+          "download": 1735306976
+        },
+        "4862392": {
+          "gid": "4613443478517643260",
+          "size": 3649124588,
+          "download": 1744927008
+        }
+      }
+    }
+  ],
+  "_change_number": 40830394,
+  "_missing_token": false,
+  "_sha": "4038dea5bf23c47e00a3d4ff7f56c065009b88bc",
+  "_size": 4875,
   "appid": "4862390",
   "common": {
     "associations": {
@@ -31,7 +50,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4862390",
     "genres": {
       "0": "1",
@@ -114,11 +132,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "43a07dfa864ff27ba08da73f0e9b6133ac03346a/capsule_231x87.jpg",
       "schinese": "9d600f28bf04cd9347d547d4f14ad7c7735043b2/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1794391219",
     "store_asset_mtime": "1790953301",
     "store_tags": {
       "0": "4777",
@@ -136,6 +155,10 @@
       "9": "492"
     },
     "supported_languages": {
+      "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "schinese": {
         "full_audio": "true",
         "subtitles": "true",
@@ -144,5 +167,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SWZ",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "SWZ\\SWZ.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4862391": {
+      "config": {
+        "language": "schinese"
+      },
+      "manifests": {
+        "public": {
+          "download": "1735306976",
+          "gid": "696858060648710591",
+          "size": "3627961364"
+        }
+      }
+    },
+    "4862392": {
+      "manifests": {
+        "public": {
+          "download": "1744927008",
+          "gid": "4613443478517643260",
+          "size": "3649124588"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26570518",
+        "timebuildupdated": "1794328151",
+        "timeupdated": "1794328151"
+      }
+    }
+  },
+  "extended": {
+    "developer": "王正",
+    "publisher": "王正"
+  }
 }

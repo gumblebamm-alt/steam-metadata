@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794339885,
-  "_history": [],
-  "_change_number": 40793458,
-  "_missing_token": true,
-  "_sha": "6fb4a6497460908e2970793ef263f3e6e7955d9c",
-  "_size": 3156,
+  "_lastChecked": 1794425761,
+  "_history": [
+    {
+      "buildId": "26565779",
+      "branch": "public",
+      "timeUpdated": 1794315177,
+      "firstSeen": 1794425761,
+      "manifests": {
+        "4357681": {
+          "gid": "565866336210402972",
+          "size": 214070600,
+          "download": 135428880
+        }
+      }
+    }
+  ],
+  "_change_number": 40841321,
+  "_missing_token": false,
+  "_sha": "d3411ace8958479676ca1b2c2180389e3550caaa",
+  "_size": 4227,
   "appid": "4357680",
   "common": {
     "associations": {
@@ -32,8 +46,8 @@
     },
     "clienticon": "53a65c531d3ca36b9958e140942df432c65b3acb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4357680",
     "genres": {
       "0": "1",
@@ -106,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "048c302acb35d71de566b7ec108b5e5ef8e2d644/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794416417",
     "store_asset_mtime": "1793365507",
     "store_tags": {
       "0": "1720",
@@ -142,5 +157,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lilifel",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Lilifel.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4357681": {
+      "manifests": {
+        "public": {
+          "download": "135428880",
+          "gid": "565866336210402972",
+          "size": "214070600"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26565779",
+        "timebuildupdated": "1794315158",
+        "timeupdated": "1794315177"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "salameydev",
+    "publisher": "salameydev"
+  },
+  "ufs": {
+    "maxnumfiles": "12",
+    "quota": "40000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SavesDir",
+            "replace": "Godot/app_userdata/Lilifel/saves"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "WinAppDataRoaming"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.save",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

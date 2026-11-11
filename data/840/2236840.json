@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794117568,
-  "_history": [],
-  "_change_number": 40715654,
-  "_missing_token": true,
-  "_sha": "da76ece8aa44910536806d15c43303d71be3de3c",
-  "_size": 4741,
+  "_lastChecked": 1794425740,
+  "_history": [
+    {
+      "buildId": "26482798",
+      "branch": "public",
+      "timeUpdated": 1793964512,
+      "firstSeen": 1794425740,
+      "manifests": {
+        "2236841": {
+          "gid": "7281104795334215587",
+          "size": 1042786812,
+          "download": 792871536
+        },
+        "2236842": {
+          "gid": "1984493829376243550",
+          "size": 876373995,
+          "download": 728308128
+        }
+      }
+    }
+  ],
+  "_change_number": 40832120,
+  "_missing_token": false,
+  "_sha": "fc3907044d459ac1482893f4d86bfc6332a406d1",
+  "_size": 6861,
   "appid": "2236840",
   "common": {
     "associations": {
@@ -32,7 +51,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2236840",
     "genres": {
       "0": "1",
@@ -119,12 +137,13 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e0c9ee3c2f52014578194be34d36d5defc2dcff2/capsule_231x87.jpg",
       "schinese": "a753b666d55c8b22e9947efc53220873771a91e1/capsule_231x87_schinese.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/2236840/announcements/detail/668373689017827345",
+    "steam_release_date": "1794399710",
     "store_asset_mtime": "1792525918",
     "store_tags": {
       "0": "42804",
@@ -191,5 +210,110 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "LittleDroneTuTuTu",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "LittleDroneTuTuTu.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "LittleDroneTuTuTu.sh",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2236841": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "792871536",
+          "gid": "7281104795334215587",
+          "size": "1042786812"
+        }
+      }
+    },
+    "2236842": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "728308128",
+          "gid": "1984493829376243550",
+          "size": "876373995"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "baselanguages": "english,french,german,italian,japanese,koreana,polish,portuguese,russian,schinese,spanish,tchinese,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26482798",
+        "timebuildupdated": "1793963898",
+        "timeupdated": "1793964512"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Illumina Games Co., Ltd.",
+    "publisher": "Illumina Games Co., Ltd."
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "4000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".config/Epic/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "LittleDroneTuTuTu/Saved/SaveGames",
+        "pattern": "LittleDroneTuTuTuPermaProgression.sav",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

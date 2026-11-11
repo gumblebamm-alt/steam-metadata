@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794377686,
-  "_history": [],
-  "_change_number": 40821581,
-  "_missing_token": true,
-  "_sha": "3e86c06189c8369b24d9932ad11e20ebb7cbd336",
-  "_size": 3750,
+  "_lastChecked": 1794425741,
+  "_history": [
+    {
+      "buildId": "26591544",
+      "branch": "public",
+      "timeUpdated": 1794401660,
+      "firstSeen": 1794425741,
+      "manifests": {
+        "2483571": {
+          "gid": "4432044915914498763",
+          "size": 1015912596,
+          "download": 841843200
+        }
+      }
+    }
+  ],
+  "_change_number": 40843396,
+  "_missing_token": false,
+  "_sha": "abd394bab4838e3dfbd1d5e470d63c37001b7f65",
+  "_size": 5464,
   "appid": "2483570",
   "common": {
     "associations": {
@@ -29,14 +43,17 @@
       "category_57": "1",
       "category_60": "1",
       "category_62": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_78": "1",
       "category_9": "1"
     },
     "clienticon": "bf5f04b3ba78207b1b7f0e4cc294fe8833ce0001",
     "clienttga": "6c2fd198117c842380105139ccf5c670da6d617d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2483570",
     "genres": {
       "0": "1",
@@ -119,10 +136,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6816439e094f1d251f968c775d062a6da9c0756e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794420030",
     "store_asset_mtime": "1792434772",
     "store_tags": {
       "0": "1645",
@@ -174,5 +192,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Castillon",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Castillon.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2483571": {
+      "manifests": {
+        "public": {
+          "download": "841843200",
+          "gid": "4432044915914498763",
+          "size": "1015912596"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26591544",
+        "timebuildupdated": "1794401660",
+        "timeupdated": "1794401660"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "One Up Plus",
+    "homepage": "https://www.oneupplustrust.com",
+    "publisher": "2 Left Thumbs"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1073741824",
+    "savefiles": {
+      "0": {
+        "path": "Castillon/Saved/SaveGames",
+        "pattern": "Castillon.sav",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Castillon/Saved/SaveGames",
+        "pattern": "Progress.sav",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "Castillon/Saved/SaveGames",
+        "pattern": "CastillonLevelChallenges.sav",
+        "root": "WinAppDataLocal"
+      },
+      "3": {
+        "path": "Castillon/Saved/SaveGames",
+        "pattern": "DawnCheckpoint.sav",
+        "root": "WinAppDataLocal"
+      },
+      "4": {
+        "path": "Castillon/Saved/SaveGames",
+        "pattern": "DawnCheckpoint_Staging.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

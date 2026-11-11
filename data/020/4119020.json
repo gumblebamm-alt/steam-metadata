@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793124067,
-  "_history": [],
-  "_change_number": 40298894,
-  "_missing_token": true,
-  "_sha": "dfedfb80a510913c19fe7b0babb308de65ad099c",
-  "_size": 4059,
+  "_lastChecked": 1794425757,
+  "_history": [
+    {
+      "buildId": "26587538",
+      "branch": "public",
+      "timeUpdated": 1794388782,
+      "firstSeen": 1794425757,
+      "manifests": {
+        "4119021": {
+          "gid": "7227221018910966906",
+          "size": 901037758,
+          "download": 798468640
+        }
+      }
+    }
+  ],
+  "_change_number": 40840935,
+  "_missing_token": false,
+  "_sha": "bb4f60349d8e55edc648e42c89528a413d033918",
+  "_size": 5541,
   "appid": "4119020",
   "common": {
     "associations": {
@@ -34,6 +48,7 @@
     },
     "clienticon": "f7da2ba6287cef354ce2169ee63b632b29ba8e63",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -44,7 +59,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4119020",
     "genres": {
       "0": "1",
@@ -118,11 +132,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "30af91a81c6f74b3941fa30a4658e015a983dcca/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791003691",
+    "steam_release_date": "1794412691",
+    "store_asset_mtime": "1794415773",
     "store_tags": {
       "0": "3843",
       "1": "1667",
@@ -195,5 +210,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Doomed Crew",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Doomed Crew - DX12",
+        "description_loc": {
+          "english": "Doomed Crew - DX12"
+        },
+        "executable": "WindowsNoEditor\\DoomedCrew.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Doomed Crew - DX11",
+        "description_loc": {
+          "english": "Doomed Crew - DX11"
+        },
+        "executable": "WindowsNoEditor\\DoomedCrew.exe",
+        "type": "option2"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4119021": {
+      "manifests": {
+        "public": {
+          "download": "798468640",
+          "gid": "7227221018910966906",
+          "size": "901037758"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26587538",
+        "timebuildupdated": "1794388726",
+        "timeupdated": "1794388782"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Tripped Ink",
+    "publisher": "Tripped Ink"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "DoomedCrew\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

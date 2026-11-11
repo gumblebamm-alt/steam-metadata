@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1794205485,
-  "_history": [],
-  "_change_number": 40734409,
-  "_missing_token": true,
-  "_sha": "216e7a046f23ca0143ffbe3d407f780b84ae01e3",
-  "_size": 2966,
+  "_lastChecked": 1794425773,
+  "_history": [
+    {
+      "buildId": "26311078",
+      "branch": "public",
+      "timeUpdated": 1793318365,
+      "firstSeen": 1794425773,
+      "manifests": {
+        "4825261": {
+          "gid": "7601095417602618816",
+          "size": 27803404,
+          "download": 27046592
+        },
+        "4825262": {
+          "gid": "4521352688643525161",
+          "size": 78286928,
+          "download": 27126736
+        },
+        "4825263": {
+          "gid": "2077337119422359042",
+          "size": 76150532,
+          "download": 26683632
+        },
+        "4825264": {
+          "gid": "6646844487626680338",
+          "size": 109054452,
+          "download": 34756368
+        }
+      }
+    }
+  ],
+  "_change_number": 40824718,
+  "_missing_token": false,
+  "_sha": "ff2631ad62739d7e30dfbb609487ba8c8807689e",
+  "_size": 4341,
   "appid": "4825260",
   "common": {
     "associations": {
@@ -29,7 +58,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4825260",
     "genres": {
       "0": "4",
@@ -101,7 +129,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "844a94f525aa58cf55f22ebe3ed0810d7bb25f76/capsule_231x87.jpg"
     },
@@ -131,5 +159,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "gsr3032",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "gsr3032.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "gsr3032.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4825261": {
+      "manifests": {
+        "public": {
+          "download": "27046592",
+          "gid": "7601095417602618816",
+          "size": "27803404"
+        }
+      }
+    },
+    "4825262": {
+      "config": {
+        "osarch": "32",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "27126736",
+          "gid": "4521352688643525161",
+          "size": "78286928"
+        }
+      }
+    },
+    "4825263": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "26683632",
+          "gid": "2077337119422359042",
+          "size": "76150532"
+        }
+      }
+    },
+    "4825264": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "34756368",
+          "gid": "6646844487626680338",
+          "size": "109054452"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26311078",
+        "timebuildupdated": "1793318365",
+        "timeupdated": "1793318365"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "FTV Games",
+    "publisher": "FTV Games"
+  }
 }

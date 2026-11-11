@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794377688,
-  "_history": [],
-  "_change_number": 40811522,
-  "_missing_token": true,
-  "_sha": "794d1350783d1ee8b3f650477d76f2105da16c6c",
-  "_size": 5844,
+  "_lastChecked": 1794425745,
+  "_history": [
+    {
+      "buildId": "26597583",
+      "branch": "public",
+      "timeUpdated": 1794418410,
+      "firstSeen": 1794425745,
+      "manifests": {
+        "3018191": {
+          "gid": "1349157891497388087",
+          "size": 1954102620,
+          "download": 456143136
+        },
+        "3018192": {
+          "gid": "223394929592818358",
+          "size": 1982086639,
+          "download": 466206272
+        }
+      }
+    }
+  ],
+  "_change_number": 40843393,
+  "_missing_token": false,
+  "_sha": "69bf1406e42716a504c16eaa0eb430d64ad67e8c",
+  "_size": 7923,
   "appid": "3018190",
   "common": {
     "associations": {
@@ -37,9 +56,9 @@
     "clienticon": "7a696c68898463758d437b267eb5977ab60d842e",
     "clienttga": "79de0afc566dae70c85a2630ce564e58e7c7600e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3018190",
     "genres": {
       "0": "25",
@@ -145,13 +164,14 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cb1d99352327f08d3b7499263af7ec863e0ec2a3/capsule_231x87.jpg",
       "japanese": "96774c4356004e8cca9e598f8afcb161191dbaa1/capsule_231x87_japanese.jpg",
       "schinese": "0dae996509d7a284b3ec2d15d099548de4e30b61/capsule_231x87_schinese.jpg",
       "tchinese": "0dae996509d7a284b3ec2d15d099548de4e30b61/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1794420029",
     "store_asset_mtime": "1792675828",
     "store_tags": {
       "0": "1646",
@@ -212,5 +232,102 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Light Devourer",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play Game",
+        "description_loc": {
+          "english": "Play Game",
+          "schinese": "开始游戏"
+        },
+        "executable": "LightDevourer_main_win\\Light Devourer.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Play Game",
+        "description_loc": {
+          "english": "Play Game",
+          "schinese": "开始游戏"
+        },
+        "executable": "LightDevourer_main_mac.app\\Contents/MacOS/Light Devourer",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3018191": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "456143136",
+          "gid": "1349157891497388087",
+          "size": "1954102620"
+        }
+      }
+    },
+    "3018192": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "466206272",
+          "gid": "223394929592818358",
+          "size": "1982086639"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,japanese",
+    "branches": {
+      "public": {
+        "buildid": "26597583",
+        "timebuildupdated": "1794418410",
+        "timeupdated": "1794418410"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "SupernaturalHippo Studio",
+    "publisher": "SupernaturalHippo Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "500000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SupernaturalHippo Studio/Light Devourer",
+            "replace": "com.SupernaturalHippo-Studio.Light-Devourer"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SupernaturalHippo Studio/Light Devourer",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

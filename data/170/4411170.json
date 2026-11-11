@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1792775339,
-  "_history": [],
-  "_change_number": 40169733,
-  "_missing_token": true,
-  "_sha": "cfef625f269d358e905a4de5f07b98d4159ab212",
-  "_size": 3338,
+  "_lastChecked": 1794425762,
+  "_history": [
+    {
+      "buildId": "26591431",
+      "branch": "development",
+      "timeUpdated": 1794401336,
+      "firstSeen": 1794425762,
+      "manifests": {
+        "4411171": {
+          "gid": "7509173980118133960",
+          "size": 262829062,
+          "download": 216867632
+        },
+        "4411172": {
+          "gid": "5595194653981820693",
+          "size": 270352669,
+          "download": 220067056
+        }
+      }
+    },
+    {
+      "buildId": "26595055",
+      "branch": "public",
+      "timeUpdated": 1794411284,
+      "firstSeen": 1794425762,
+      "manifests": {
+        "4411171": {
+          "gid": "1265961717048029398",
+          "size": 239396467,
+          "download": 208559824
+        },
+        "4411172": {
+          "gid": "3688770272771793512",
+          "size": 265392284,
+          "download": 216972672
+        }
+      }
+    }
+  ],
+  "_change_number": 40841120,
+  "_missing_token": false,
+  "_sha": "0fdb9bcbd4f3d8bc5bdb90cd6a5b7bafcc8d112a",
+  "_size": 5192,
   "appid": "4411170",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +70,8 @@
     },
     "clienticon": "7ca89b3d1ee86654aa421568a2f81aba7ba58dff",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4411170",
     "genres": {
       "0": "4",
@@ -111,11 +148,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a85c25e78da324b5f99e693f806634928490d49c/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1790246032",
+    "steam_release_date": "1794416118",
+    "store_asset_mtime": "1794415397",
     "store_tags": {
       "0": "5547",
       "1": "4885",
@@ -154,5 +192,100 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Rapid Escalation",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Rapid Escalation.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Rapid Escalation"
+      }
+    }
+  },
+  "depots": {
+    "4411171": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "development": {
+          "download": "216867632",
+          "gid": "7509173980118133960",
+          "size": "262829062"
+        },
+        "public": {
+          "download": "208559824",
+          "gid": "1265961717048029398",
+          "size": "239396467"
+        }
+      }
+    },
+    "4411172": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "development": {
+          "download": "220067056",
+          "gid": "5595194653981820693",
+          "size": "270352669"
+        },
+        "public": {
+          "download": "216972672",
+          "gid": "3688770272771793512",
+          "size": "265392284"
+        }
+      }
+    },
+    "branches": {
+      "development": {
+        "buildid": "26591431",
+        "description": "A branch for testing my development builds",
+        "timebuildupdated": "1794401336",
+        "timeupdated": "1794401336"
+      },
+      "public": {
+        "buildid": "26595055",
+        "timebuildupdated": "1794411281",
+        "timeupdated": "1794411284"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "bruynhuisgames",
+    "publisher": "bruynhuisgames"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RapidEscalation",
+            "replace": ".jme3"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "RapidEscalation",
+        "pattern": "Rapid Escalation.sav",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

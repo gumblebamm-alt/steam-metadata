@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793734380,
+  "_lastChecked": 1794425788,
   "_history": [
     {
       "buildId": "26359742",
@@ -27,12 +27,30 @@
           "download": 412102720
         }
       }
+    },
+    {
+      "buildId": "26591603",
+      "branch": "public",
+      "timeUpdated": 1794401895,
+      "firstSeen": 1794425788,
+      "manifests": {
+        "5417031": {
+          "gid": "6870377655620422837",
+          "size": 488717938,
+          "download": 412104432
+        },
+        "5417032": {
+          "gid": "6402852836334061215",
+          "size": 530678381,
+          "download": 423647216
+        }
+      }
     }
   ],
-  "_change_number": 40546362,
+  "_change_number": 40833287,
   "_missing_token": false,
-  "_sha": "e825b5d15d665a1b07b9e834ea185ae14057e6f4",
-  "_size": 4824,
+  "_sha": "8d4d4f414d64d21316032f257bc12ce67c933233",
+  "_size": 5221,
   "appid": "5417030",
   "common": {
     "aicontenttype": "1",
@@ -137,8 +155,8 @@
     },
     "osarch": "64",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos",
     "primary_genre": "28",
     "releasestate": "released",
     "small_capsule": {
@@ -214,24 +232,45 @@
         },
         "executable": "Find The Gold.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Find The Gold.app"
       }
     }
   },
   "depots": {
     "5417031": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "412102720",
-          "gid": "8890180819041502719",
-          "size": "488713906"
+          "download": "412104432",
+          "gid": "6870377655620422837",
+          "size": "488717938"
+        }
+      }
+    },
+    "5417032": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "423647216",
+          "gid": "6402852836334061215",
+          "size": "530678381"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26404335",
-        "timebuildupdated": "1793705587",
-        "timeupdated": "1793705841"
+        "buildid": "26591603",
+        "timebuildupdated": "1794401785",
+        "timeupdated": "1794401895"
       }
     },
     "nocommonredists": "1",

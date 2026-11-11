@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794377700,
-  "_history": [],
-  "_change_number": 40815205,
-  "_missing_token": true,
-  "_sha": "58a46c09f80b394bfb502cad88e9b1cc9a43cf7e",
-  "_size": 7904,
+  "_lastChecked": 1794425764,
+  "_history": [
+    {
+      "buildId": "25618949",
+      "branch": "public",
+      "timeUpdated": 1790883461,
+      "firstSeen": 1794425764,
+      "manifests": {
+        "4509301": {
+          "gid": "8033761711461806945",
+          "size": 978398524,
+          "download": 774093184
+        }
+      }
+    }
+  ],
+  "_change_number": 40837259,
+  "_missing_token": false,
+  "_sha": "46a9d384a13f88be4072ce33b72d1b11e347ee40",
+  "_size": 10487,
   "appid": "4509300",
   "common": {
     "associations": {
@@ -48,9 +62,9 @@
     },
     "clienticon": "cf204d12d7504a80d79a25f5b555bdfd24503d3a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4509300",
     "genres": {
       "0": "4",
@@ -155,7 +169,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "decc5b58c7cb77e612cccf7d70bb416480ce8ade/capsule_231x87.jpg",
       "japanese": "44da0d70c1c358c49e41b22a066ac2d50b694e9a/capsule_231x87_japanese.jpg",
@@ -223,7 +237,8 @@
         }
       }
     },
-    "store_asset_mtime": "1794021019",
+    "steam_release_date": "1794409167",
+    "store_asset_mtime": "1794408339",
     "store_tags": {
       "0": "122",
       "1": "7178",
@@ -268,5 +283,109 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Prinny Party Going Overboard!",
+    "launch": {
+      "0": {
+        "executable": "PrinnyParty.exe"
+      },
+      "1": {
+        "config": {
+          "betakey": "debug"
+        },
+        "description": "debug",
+        "description_loc": {
+          "english": "debug"
+        },
+        "executable": "PrinnyParty.exe",
+        "type": "option1"
+      },
+      "2": {
+        "config": {
+          "betakey": "betatest"
+        },
+        "description": "beta_test",
+        "description_loc": {
+          "english": "beta_test"
+        },
+        "executable": "PrinnyParty.exe",
+        "type": "option2"
+      }
+    },
+    "steamconfigurator3rdpartynative": "15",
+    "steamcontrollerconfigdetails": {
+      "3755077934": {
+        "controller_type": "controller_ps5",
+        "enabled_branches": "default,betatest,debug,product_public",
+        "use_action_block": "false"
+      },
+      "3755080495": {
+        "controller_type": "controller_ps4",
+        "enabled_branches": "default,betatest,debug,product_public",
+        "use_action_block": "false"
+      },
+      "3755151353": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default,betatest,debug,product_public",
+        "use_action_block": "false"
+      },
+      "3777719704": {
+        "controller_type": "controller_switch_pro",
+        "enabled_branches": "default,betatest,debug,product_public",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4509301": {
+      "manifests": {
+        "public": {
+          "download": "774093184",
+          "gid": "8033761711461806945",
+          "size": "978398524"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25618949",
+        "timebuildupdated": "1790741475",
+        "timeupdated": "1790883461"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Nippon Ichi Software, Inc.",
+    "homepage": "https://www.nisamerica.com/prinny-party/",
+    "publisher": "NIS America, Inc.",
+    "remoteplaytogethertestingbranches": "default,betatest,debug,product_public"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "Nippon Ichi Software, Inc/Prinny Party Going Overboard!/{64BitSteamID}",
+        "pattern": "save.*",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Nippon Ichi Software, Inc/Prinny Party Going Overboard!/{64BitSteamID}",
+        "pattern": ".systemsave",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

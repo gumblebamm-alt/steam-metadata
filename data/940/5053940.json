@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794339905,
-  "_history": [],
-  "_change_number": 40787830,
-  "_missing_token": true,
-  "_sha": "2e927c74f9dd1ce47498f73f455c42a294190bf0",
-  "_size": 3442,
+  "_lastChecked": 1794425782,
+  "_history": [
+    {
+      "buildId": "26079836",
+      "branch": "public",
+      "timeUpdated": 1792502255,
+      "firstSeen": 1794425782,
+      "manifests": {
+        "5053941": {
+          "gid": "6945479471113209338",
+          "size": 986085725,
+          "download": 392432752
+        },
+        "5053942": {
+          "gid": "6662127366160173005",
+          "size": 952851446,
+          "download": 376957712
+        }
+      }
+    }
+  ],
+  "_change_number": 40830532,
+  "_missing_token": false,
+  "_sha": "974eea2aa41217a17ed3905f428d70471594e9b8",
+  "_size": 5521,
   "appid": "5053940",
   "common": {
     "associations": {
@@ -38,9 +57,9 @@
     },
     "clienticon": "27735a4bc6ab63f8ab2c23a5a2c1b539cd4c6045",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5053940",
     "genres": {
       "0": "28"
@@ -110,11 +129,12 @@
     "osextended": "macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "85ac979867e7f6a2d03a710554aace1a32a88a9e/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794304005",
+    "steam_release_date": "1794388676",
+    "store_asset_mtime": "1794305680",
     "store_tags": {
       "0": "599",
       "1": "12472",
@@ -156,5 +176,103 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Amusement Factory",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Amusement Factory.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Amusement Factory.app"
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "Amusement Factory_Data/StreamingAssets/controller_config/game_actions_5053940.vdf"
+  },
+  "depots": {
+    "5053941": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "392432752",
+          "gid": "6945479471113209338",
+          "size": "986085725"
+        }
+      }
+    },
+    "5053942": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "376957712",
+          "gid": "6662127366160173005",
+          "size": "952851446"
+        }
+      }
+    },
+    "baselanguages": "brazilian,dutch,english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26079836",
+        "timebuildupdated": "1792502167",
+        "timeupdated": "1792502255"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Corbata Games",
+    "homepage": "https://www.amusementfactory.app",
+    "publisher": "Corbata Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "512000000",
+    "savefiles": {
+      "0": {
+        "path": "Corbata/Amusement Factory/Saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Library/Application Support/Corbata/Amusement Factory/Saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacHome"
+      },
+      "2": {
+        "path": "Corbata/Amusement Factory/Progress",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Library/Application Support/Corbata/Amusement Factory/Progress",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacHome"
+      }
+    }
+  }
 }

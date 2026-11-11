@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794262852,
-  "_history": [],
-  "_change_number": 40765749,
-  "_missing_token": true,
-  "_sha": "34ff4197bbabecd4e6baec0c05d535ca4fa528fc",
-  "_size": 3221,
+  "_lastChecked": 1794425746,
+  "_history": [
+    {
+      "buildId": "26593741",
+      "branch": "public",
+      "timeUpdated": 1794407746,
+      "firstSeen": 1794425746,
+      "manifests": {
+        "3119211": {
+          "gid": "8220773676574880097",
+          "size": 134163580,
+          "download": 60226992
+        }
+      }
+    }
+  ],
+  "_change_number": 40837313,
+  "_missing_token": false,
+  "_sha": "d592e3abd187d1bf0898fa00500b0d4ce333f7f7",
+  "_size": 4127,
   "appid": "3119210",
   "common": {
     "associations": {
@@ -19,14 +33,15 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
       "category_62": "1"
     },
     "clienticns": "f9eb54fe77849d7cfafbcbc615104f27f27fa0d5",
     "clienticon": "4c2fa5680cc9d11b4c86ccbb0036643511a8b58c",
     "clienttga": "caed242e6fa3ac1cf2657a6a74c518c34fc8db56",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3119210",
     "genres": {
       "0": "4",
@@ -103,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9191b2c38668fac23a585dcf6a52fafd7a275163/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794409225",
     "store_asset_mtime": "1794249712",
     "store_tags": {
       "0": "87918",
@@ -138,5 +154,51 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Growth",
+    "launch": {
+      "0": {
+        "executable": "Growth.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3119211": {
+      "manifests": {
+        "public": {
+          "download": "60226992",
+          "gid": "8220773676574880097",
+          "size": "134163580"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26593741",
+        "timebuildupdated": "1794407708",
+        "timeupdated": "1794407746"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Growth Studio",
+    "homepage": "https://growth-game.net",
+    "publisher": "Growth Studio"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "5",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Growth/save",
+        "pattern": "*.tres",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

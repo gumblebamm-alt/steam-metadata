@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792903323,
-  "_history": [],
-  "_change_number": 40216472,
-  "_missing_token": true,
-  "_sha": "d5561a40b3985d2faff241c9975898df2226ff1f",
-  "_size": 3110,
+  "_lastChecked": 1794425781,
+  "_history": [
+    {
+      "buildId": "26286235",
+      "branch": "public",
+      "timeUpdated": 1793237579,
+      "firstSeen": 1794425781,
+      "manifests": {
+        "5029671": {
+          "gid": "2985672077668993033",
+          "size": 279813973,
+          "download": 107969632
+        }
+      }
+    }
+  ],
+  "_change_number": 40844187,
+  "_missing_token": false,
+  "_sha": "420664d1b9852f9075ba7f1968707e9cc084e655",
+  "_size": 3992,
   "appid": "5029670",
   "common": {
     "aicontenttype": "1",
@@ -34,8 +48,8 @@
     },
     "clienticon": "6233847a0f58454efb7cb9236a8eb621c340bbf1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5029670",
     "genres": {
       "0": "23",
@@ -109,7 +123,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "adb9e1220b2e28515540948d644c87b74dda7c1e/capsule_231x87.jpg"
     },
@@ -143,5 +157,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HOPIATE",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "HOPIATE.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5029671": {
+      "manifests": {
+        "public": {
+          "download": "107969632",
+          "gid": "2985672077668993033",
+          "size": "279813973"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26286235",
+        "timebuildupdated": "1793237355",
+        "timeupdated": "1793237579"
+      }
+    }
+  },
+  "extended": {
+    "developer": "9in1shampoo",
+    "publisher": "9in1shampoo"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "HOPIATE/cloud",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

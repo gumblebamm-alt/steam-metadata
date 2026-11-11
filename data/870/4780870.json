@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794117580,
-  "_history": [],
-  "_change_number": 40709928,
-  "_missing_token": true,
-  "_sha": "00d240f22ad6fac0a3393c91a66056b199ad85a3",
-  "_size": 4269,
+  "_lastChecked": 1794425772,
+  "_history": [
+    {
+      "buildId": "26598686",
+      "branch": "public",
+      "timeUpdated": 1794421830,
+      "firstSeen": 1794425772,
+      "manifests": {
+        "4780871": {
+          "gid": "3438959605722886534",
+          "size": 174452681,
+          "download": 51572672
+        },
+        "4780872": {
+          "gid": "5942765957810061550",
+          "size": 190436628,
+          "download": 59242304
+        },
+        "4780873": {
+          "gid": "3696789642253267382",
+          "size": 169403780,
+          "download": 48309648
+        }
+      }
+    }
+  ],
+  "_change_number": 40845567,
+  "_missing_token": false,
+  "_sha": "a3f0053d733163b927bd96624acda94ebd4c4f40",
+  "_size": 6547,
   "appid": "4780870",
   "common": {
     "aicontenttype": "1",
@@ -37,8 +61,8 @@
     "clienticns": "a3dfd4d500be4301a9ad4efb2513c005581f984d",
     "clienticon": "f33bd321164caabfec4a8d7366f288759fd537e5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4780870",
     "genres": {
       "0": "4",
@@ -130,10 +154,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "80",
+    "review_score": "7",
     "small_capsule": {
       "english": "796084044b4169dd96fd7907ca2886a5a4eaf202/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794401893",
     "store_asset_mtime": "1793449350",
     "store_tags": {
       "0": "615955",
@@ -203,5 +230,122 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Aleef",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Release/Aleef.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Aleef.app/Contents/MacOS/Aleef"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Linux/Aleef.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4780871": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "51572672",
+          "gid": "3438959605722886534",
+          "size": "174452681"
+        }
+      }
+    },
+    "4780872": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "59242304",
+          "gid": "5942765957810061550",
+          "size": "190436628"
+        }
+      }
+    },
+    "4780873": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "48309648",
+          "gid": "3696789642253267382",
+          "size": "169403780"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26598686",
+        "timebuildupdated": "1794421800",
+        "timeupdated": "1794421830"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Samharia Studios",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5498540",
+    "publisher": "Samharia Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Samharia Studios/Aleef",
+            "replace": "Samharia Studios/Aleef"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Samharia Studios/Aleef",
+            "replace": ".config/unity3d/Samharia Studios/Aleef"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Samharia Studios/Aleef",
+        "pattern": "aleef.su",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Samharia Studios/Aleef",
+        "pattern": "aleef.su.bak",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

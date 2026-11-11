@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1791549458,
-  "_history": [],
-  "_change_number": 39618997,
-  "_missing_token": true,
-  "_sha": "0bb878a16922b7db04bc627b6aebbb2a0fd2c589",
-  "_size": 4429,
+  "_lastChecked": 1794425787,
+  "_history": [
+    {
+      "buildId": "26582906",
+      "branch": "public",
+      "timeUpdated": 1794369845,
+      "firstSeen": 1794425787,
+      "manifests": {
+        "5187702": {
+          "gid": "698000218311042130",
+          "size": 375068104,
+          "download": 283302848
+        },
+        "5187703": {
+          "gid": "8240493659854017841",
+          "size": 358077889,
+          "download": 277546368
+        }
+      }
+    }
+  ],
+  "_change_number": 40845573,
+  "_missing_token": false,
+  "_sha": "9141e22df62e575a891baaa0dd5423e7792d7fed",
+  "_size": 6305,
   "appid": "5187700",
   "common": {
     "aicontenttype": "1",
@@ -34,6 +53,7 @@
     },
     "clienticon": "51b425475536b0eb7df3d98b65313e98da1be1d7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -50,7 +70,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5187700",
     "genres": {
       "0": "25",
@@ -122,11 +141,14 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
+    "review_percentage": "66",
+    "review_score": "5",
     "small_capsule": {
       "english": "b992fc348ba0b2ed3acb2e7aeb61bc0efbd54e90/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794384419",
     "store_asset_mtime": "1787937737",
     "store_tags": {
       "0": "12095",
@@ -135,9 +157,9 @@
       "11": "4064",
       "12": "492",
       "13": "18594",
-      "14": "9592",
-      "15": "4345",
-      "16": "6378",
+      "14": "6378",
+      "15": "9592",
+      "16": "4345",
       "17": "7250",
       "18": "4234",
       "19": "31275",
@@ -146,8 +168,8 @@
       "4": "3799",
       "5": "4191",
       "6": "4145",
-      "7": "5613",
-      "8": "4342",
+      "7": "4342",
+      "8": "5613",
       "9": "1721"
     },
     "supported_languages": {
@@ -214,5 +236,103 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Confess To Me",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ConfesstoMe.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ConfesstoMe.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "ConfesstoMe.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228983": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5187701": {},
+    "5187702": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "283302848",
+          "gid": "698000218311042130",
+          "size": "375068104"
+        }
+      }
+    },
+    "5187703": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "277546368",
+          "gid": "8240493659854017841",
+          "size": "358077889"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,english,french,german,italian,japanese,koreana,polish,russian,schinese,spanish,thai,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26582906",
+        "timebuildupdated": "1794369802",
+        "timeupdated": "1794369845"
+      }
+    }
+  },
+  "extended": {
+    "developer": "REN3D",
+    "publisher": "REN3D"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "30",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

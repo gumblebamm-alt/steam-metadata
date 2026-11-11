@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792603037,
-  "_history": [],
-  "_change_number": 39811499,
-  "_missing_token": true,
-  "_sha": "0d7fa97c23da6153c80bf44a6a6114d97f1f89a8",
-  "_size": 8244,
+  "_lastChecked": 1794425774,
+  "_history": [
+    {
+      "buildId": "26388204",
+      "branch": "public",
+      "timeUpdated": 1793648198,
+      "firstSeen": 1794425774,
+      "manifests": {
+        "4852841": {
+          "gid": "2683419510065993695",
+          "size": 211885152,
+          "download": 33170368
+        },
+        "4852842": {
+          "gid": "7336688239373622602",
+          "size": 213729860,
+          "download": 31834944
+        },
+        "4852843": {
+          "gid": "3687279449288309906",
+          "size": 232575270,
+          "download": 41479728
+        }
+      }
+    }
+  ],
+  "_change_number": 40841726,
+  "_missing_token": false,
+  "_sha": "d8eb93a1a1762beec3bed191cb9caeb84648d5a6",
+  "_size": 10586,
   "appid": "4852840",
   "common": {
     "associations": {
@@ -45,9 +69,9 @@
     "clienticns": "6beb52726ecc49fca5188fed8b6d2c6283d1dbd8",
     "clienticon": "53f1d84f2f2c4bd44039d6bd71f2b850e6e55e81",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4852840",
     "genres": {
       "0": "4",
@@ -119,10 +143,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1d6713d5501935d4adef4f882843ed3d3edc859b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794417008",
     "store_asset_mtime": "1789245684",
     "store_tags": {
       "0": "1664",
@@ -459,5 +484,131 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Boltz",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Boltz.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Boltz.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Boltz.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4852841": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "33170368",
+          "gid": "2683419510065993695",
+          "size": "211885152"
+        }
+      }
+    },
+    "4852842": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "31834944",
+          "gid": "7336688239373622602",
+          "size": "213729860"
+        }
+      }
+    },
+    "4852843": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "41479728",
+          "gid": "3687279449288309906",
+          "size": "232575270"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "public": {
+        "buildid": "26388204",
+        "timebuildupdated": "1793648197",
+        "timeupdated": "1793648198"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Mindlabor",
+    "homepage": "https://mindlabor.dev/boltz",
+    "publisher": "Mindlabor"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Mindlabor/Boltz/",
+            "replace": "Mindlabor/Boltz/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "WinAppDataLocalLow"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Mindlabor/Boltz/",
+            "replace": ".config/unity3d/Mindlabor/Boltz/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "2": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Mindlabor/Boltz/",
+            "replace": "Mindlabor/Boltz/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Mindlabor/Boltz/",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

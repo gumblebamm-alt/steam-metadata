@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793993061,
-  "_history": [],
-  "_change_number": 40660990,
-  "_missing_token": true,
-  "_sha": "5bcdbe561628c565bc022fdee9bb8c7e561509d4",
-  "_size": 3502,
+  "_lastChecked": 1794425777,
+  "_history": [
+    {
+      "buildId": "26551263",
+      "branch": "public",
+      "timeUpdated": 1794296272,
+      "firstSeen": 1794425777,
+      "manifests": {
+        "4916291": {
+          "gid": "8870653734497783767",
+          "size": 3678663619,
+          "download": 1432029584
+        },
+        "4916292": {
+          "gid": "5630199321026708404",
+          "size": 3703779452,
+          "download": 1438453408
+        }
+      }
+    }
+  ],
+  "_change_number": 40828067,
+  "_missing_token": false,
+  "_sha": "3433202d37565b2b54e2b8ec289f92f8a51181a9",
+  "_size": 5004,
   "appid": "4916290",
   "common": {
     "aicontenttype": "1",
@@ -41,6 +60,7 @@
     "clienticns": "927a35ba7f77f57774b8586dec1fcf96951a1fbd",
     "clienticon": "91f93befd0e6cd2c3791551013006dccf942be45",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -48,7 +68,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4916290",
     "genres": {
       "0": "25",
@@ -121,10 +140,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "47ea34d748681b9522a981366ef44af3cbce036e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794391235",
     "store_asset_mtime": "1792402696",
     "store_tags": {
       "0": "21",
@@ -157,5 +177,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dream Glitcher",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "DreamGlitcher.app\\Contents\\MacOS\\DreamGlitcher",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DreamGlitcher.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4916291": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1432029584",
+          "gid": "8870653734497783767",
+          "size": "3678663619"
+        }
+      }
+    },
+    "4916292": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1438453408",
+          "gid": "5630199321026708404",
+          "size": "3703779452"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26551263",
+        "timebuildupdated": "1794262597",
+        "timeupdated": "1794296272"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Deep Creek Studio",
+    "homepage": "https://www.dreamglitchergame.com",
+    "publisher": "Deep Creek Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "300",
+    "quota": "21000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "Deep Creek Studio/DreamGlitcher/NaninovelData/Saves",
+        "pattern": "Game*.nson",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

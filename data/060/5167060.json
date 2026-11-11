@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792644448,
-  "_history": [],
-  "_change_number": 40112739,
-  "_missing_token": true,
-  "_sha": "e32d34e4dcc066e8fce9f1964ad46945b60608e3",
-  "_size": 4196,
+  "_lastChecked": 1794425786,
+  "_history": [
+    {
+      "buildId": "26128489",
+      "branch": "public",
+      "timeUpdated": 1792657798,
+      "firstSeen": 1794425786,
+      "manifests": {
+        "5167061": {
+          "gid": "4251880147452824987",
+          "size": 349905302,
+          "download": 230772208
+        }
+      }
+    }
+  ],
+  "_change_number": 40836076,
+  "_missing_token": false,
+  "_sha": "685540cf3db27aa330ee4a3f389e06c86bfa48d2",
+  "_size": 5315,
   "appid": "5167060",
   "common": {
     "associations": {
@@ -44,9 +58,9 @@
     },
     "clienticon": "de5ebf576eb35b41020ec041fb54da083dea9aa3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5167060",
     "genres": {
       "0": "4"
@@ -119,10 +133,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "18c3be93006e6396d229224f879d92c4246fcf8e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794402618",
     "store_asset_mtime": "1787932422",
     "store_tags": {
       "0": "1664",
@@ -195,5 +210,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Quadra Break Originals",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "QuadraBreak_V.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5167061": {
+      "manifests": {
+        "public": {
+          "download": "230772208",
+          "gid": "4251880147452824987",
+          "size": "349905302"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26128489",
+        "timebuildupdated": "1792657752",
+        "timeupdated": "1792657798"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Tholus",
+    "publisher": "Tholus"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "67386880",
+    "savefiles": {
+      "0": {
+        "path": "TholusGames/QuadraBreak_V/save/game/default_game/save",
+        "pattern": "*.rss",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "TholusGames/QuadraBreak_V/save/game/default_game",
+        "pattern": "game_cfg.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

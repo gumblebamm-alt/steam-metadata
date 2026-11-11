@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794377691,
-  "_history": [],
-  "_change_number": 40813798,
-  "_missing_token": true,
-  "_sha": "9d48c11e84ce9036f578b3be5497d43653ce0b73",
-  "_size": 3863,
+  "_lastChecked": 1794425750,
+  "_history": [
+    {
+      "buildId": "26578893",
+      "branch": "public",
+      "timeUpdated": 1794354776,
+      "firstSeen": 1794425750,
+      "manifests": {
+        "3551821": {
+          "gid": "6688695971221123031",
+          "size": 2766060895,
+          "download": 263083488
+        },
+        "3551822": {
+          "gid": "2940133628557399915",
+          "size": 2829946826,
+          "download": 254179152
+        },
+        "3551823": {
+          "gid": "8862070361234307578",
+          "size": 2745150343,
+          "download": 240848336
+        }
+      }
+    }
+  ],
+  "_change_number": 40841142,
+  "_missing_token": false,
+  "_sha": "f905d76ffed0082356eb627f7e37a4a6d19df50d",
+  "_size": 6109,
   "appid": "3551820",
   "common": {
     "associations": {
@@ -37,9 +61,9 @@
     "clienticon": "7fc20665bee3b6d1465aba43bf6016755d27ac63",
     "clienttga": "4e8c53ec84e9554a98582eee08cda69f3300c650",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3551820",
     "genres": {
       "0": "1",
@@ -73,10 +97,10 @@
       },
       "library_header": {
         "image": {
-          "english": "4da99b16814a4e84921cc1cf96d384f992e98344/library_header.jpg"
+          "english": "1c727121a2010aad1a3680f46988a75778fc8063/library_header.jpg"
         },
         "image2x": {
-          "english": "4da99b16814a4e84921cc1cf96d384f992e98344/library_header_2x.jpg"
+          "english": "1c727121a2010aad1a3680f46988a75778fc8063/library_header_2x.jpg"
         }
       },
       "library_hero": {
@@ -112,11 +136,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7740fd055d08269831b146dd426d680e4ad42dee/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1789705472",
+    "steam_deck_blog_url": "https://steamcommunity.com/app/3551820/eventcomments/562547345756019022?snr=2_9_100000_",
+    "steam_release_date": "1794413814",
+    "store_asset_mtime": "1794416158",
     "store_tags": {
       "0": "42804",
       "1": "1625",
@@ -175,5 +201,115 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Castlebound",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Castlebound.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Castlebound.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Castlebound.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "3551821": {
+      "manifests": {
+        "public": {
+          "download": "263083488",
+          "gid": "6688695971221123031",
+          "size": "2766060895"
+        }
+      }
+    },
+    "3551822": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "254179152",
+          "gid": "2940133628557399915",
+          "size": "2829946826"
+        }
+      }
+    },
+    "3551823": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "240848336",
+          "gid": "8862070361234307578",
+          "size": "2745150343"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26578893",
+        "timebuildupdated": "1794354776",
+        "timeupdated": "1794354776"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Ogre Pixel",
+    "homepage": "https://ogrepixel.com/castlebound",
+    "publisher": "Ogre Pixel"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "3000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Ogre Pixel/Castlebound/saves",
+            "replace": "Ogre Pixel/Castlebound/saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Ogre Pixel/Castlebound/saves",
+            "replace": ".config/unity3d/Ogre Pixel/Castlebound/saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Ogre Pixel/Castlebound/saves",
+        "pattern": "*.save",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

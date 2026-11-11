@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794377690,
-  "_history": [],
-  "_change_number": 40811571,
-  "_missing_token": true,
-  "_sha": "6521bb87d0d80abdc9d18f15b0fb409c36ece45d",
-  "_size": 4678,
+  "_lastChecked": 1794425747,
+  "_history": [
+    {
+      "buildId": "26595324",
+      "branch": "public",
+      "timeUpdated": 1794412246,
+      "firstSeen": 1794425747,
+      "manifests": {
+        "3285882": {
+          "gid": "790849694348307346",
+          "size": 331631760,
+          "download": 283810832
+        }
+      }
+    }
+  ],
+  "_change_number": 40843847,
+  "_missing_token": false,
+  "_sha": "206a15005718abe05aea347a288a22fe3b40ebf8",
+  "_size": 6297,
   "appid": "3285880",
   "common": {
     "associations": {
@@ -34,9 +48,9 @@
     "clienticon": "449214f9e8a662480baeef9a9cf8f4d41bb5328c",
     "clienttga": "8f2f13be7b17dadca2e215ed67beb933dc2ffca5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3285880",
     "genres": {
       "0": "25",
@@ -129,10 +143,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "f952731af010fbb871ffcccf6a7c5ba56483bd51/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794413478",
     "store_asset_mtime": "1794348213",
     "store_tags": {
       "0": "1628",
@@ -224,5 +241,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MONOMOON",
+    "launch": {
+      "0": {
+        "executable": "MONOMOON.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3285882": {
+      "manifests": {
+        "public": {
+          "download": "283810832",
+          "gid": "790849694348307346",
+          "size": "331631760"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,english,french,german,italian,japanese,koreana,latam,polish,russian,schinese,spanish,tchinese,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26595324",
+        "timebuildupdated": "1794412154",
+        "timeupdated": "1794412246"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "Native",
+    "developer": "Gentle Giant",
+    "homepage": "https://www.gentlegiantgames.com/",
+    "publisher": "Gentle Giant"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "500000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "MONOMOON/SavedGames",
+            "replace": ".local/share/MONOMOON/SavedGames"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "MONOMOON/SavedGames",
+        "pattern": "save*.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

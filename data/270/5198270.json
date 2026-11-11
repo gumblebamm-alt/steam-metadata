@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794262897,
-  "_history": [],
-  "_change_number": 40758148,
-  "_missing_token": true,
-  "_sha": "4cce43a002dc1764250ee1dde31c00d88895340f",
-  "_size": 4535,
+  "_lastChecked": 1794425787,
+  "_history": [
+    {
+      "buildId": "26542337",
+      "branch": "public",
+      "timeUpdated": 1794236395,
+      "firstSeen": 1794425787,
+      "manifests": {
+        "5198271": {
+          "gid": "9094983749588607752",
+          "size": 1373245472,
+          "download": 722741904
+        }
+      }
+    }
+  ],
+  "_change_number": 40828156,
+  "_missing_token": false,
+  "_sha": "43f210287f68e9e08a2a9395018ded0c40b3fd7b",
+  "_size": 5636,
   "appid": "5198270",
   "common": {
     "aicontenttype": "1",
@@ -38,9 +52,9 @@
     },
     "clienticon": "a83bf44881761a83971692957654461af41d1c70",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5198270",
     "genres": {
       "0": "28",
@@ -141,10 +155,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "afbeb77a4156d1e4dbca1cb338c1602c384c93a4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794391403",
     "store_asset_mtime": "1794223670",
     "store_tags": {
       "0": "9",
@@ -211,5 +226,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HoldTheDawn",
+    "launch": {
+      "0": {
+        "description": "Direct3D 12",
+        "description_loc": {
+          "english": "Direct3D 12"
+        },
+        "executable": "HoldTheDawn/HoldTheDawn.exe"
+      },
+      "1": {
+        "arguments": "--rendering-driver vulkan --rendering-method forward_plus",
+        "description": "Vulkan",
+        "description_loc": {
+          "english": "Vulkan"
+        },
+        "executable": "HoldTheDawn/HoldTheDawn.exe"
+      }
+    }
+  },
+  "depots": {
+    "5198271": {
+      "manifests": {
+        "public": {
+          "download": "722741904",
+          "gid": "9094983749588607752",
+          "size": "1373245472"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26542337",
+        "timebuildupdated": "1794236359",
+        "timeupdated": "1794236395"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "YogurtGames",
+    "publisher": "YogurtGames"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot\\app_userdata\\HoldTheDawn",
+        "pattern": "*.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

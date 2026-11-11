@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793861058,
-  "_history": [],
-  "_change_number": 40610690,
-  "_missing_token": true,
-  "_sha": "83b76bf58398093727c59dc58593e2bd77994251",
-  "_size": 4100,
+  "_lastChecked": 1794425752,
+  "_history": [
+    {
+      "buildId": "26597477",
+      "branch": "public",
+      "timeUpdated": 1794420131,
+      "firstSeen": 1794425752,
+      "manifests": {
+        "3699851": {
+          "gid": "2753673550911222175",
+          "size": 2126929188,
+          "download": 1272341472
+        }
+      }
+    }
+  ],
+  "_change_number": 40843533,
+  "_missing_token": false,
+  "_sha": "8a6b9418c88d072579cb5cd9a12eef644e2e749a",
+  "_size": 5615,
   "appid": "3699850",
   "common": {
     "associations": {
@@ -32,8 +46,8 @@
     "clienticon": "148b8b48ce96ac8b34286a18497307c43ddf65fb",
     "clienttga": "f20d178cac77f6cd1e1353bc6bc9368fcfa3fab6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3699850",
     "genres": {
       "0": "23",
@@ -112,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ebc75267ddc26e30b91d5584c31a1be416ac928f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794382329",
     "store_asset_mtime": "1792417411",
     "store_tags": {
       "0": "1091588",
@@ -191,5 +206,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Devil's Due",
+    "launch": {
+      "0": {
+        "description": "Play The Devil’s Due (Direct3D 12)",
+        "description_loc": {
+          "english": "Play The Devil’s Due (Direct3D 12)"
+        },
+        "executable": "DevilsDue.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--rendering-driver opengl3",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play The Devil’s Due (OpenGL 3 — for black screens)",
+        "description_loc": {
+          "english": "Play The Devil’s Due (OpenGL 3 — for black screens)"
+        },
+        "executable": "DevilsDue.exe",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "3699851": {
+      "manifests": {
+        "public": {
+          "download": "1272341472",
+          "gid": "2753673550911222175",
+          "size": "2126929188"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26597477",
+        "timebuildupdated": "1794418117",
+        "timeupdated": "1794420131"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Games People Play",
+    "publisher": "Games People Play"
+  },
+  "ufs": {
+    "appidredirect": "4171600",
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Cards0",
+        "pattern": "savescumming*.save",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Cards0",
+        "pattern": "achievements_*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "copied_from_parent": "1"
+    }
+  }
 }
