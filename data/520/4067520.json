@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793599367,
-  "_history": [],
-  "_change_number": 40495055,
-  "_missing_token": true,
-  "_sha": "2c6cc9b00cfe3842d3cc42764b4f0b54b3e7a4eb",
-  "_size": 2894,
+  "_lastChecked": 1794377695,
+  "_history": [
+    {
+      "buildId": "26371218",
+      "branch": "public",
+      "timeUpdated": 1793589531,
+      "firstSeen": 1794377695,
+      "manifests": {
+        "4067521": {
+          "gid": "5698161536975709333",
+          "size": 163993754,
+          "download": 100032368
+        },
+        "4067522": {
+          "gid": "406584502763353349",
+          "size": 195262381,
+          "download": 106232496
+        },
+        "4067523": {
+          "gid": "346252086871610576",
+          "size": 125858531,
+          "download": 72736448
+        }
+      }
+    }
+  ],
+  "_change_number": 40817410,
+  "_missing_token": false,
+  "_sha": "a6d2472ab00db41dc3ea4caf0e0c5c3a43b71677",
+  "_size": 4362,
   "appid": "4067520",
   "common": {
     "associations": {
@@ -24,7 +48,6 @@
     "clienticon": "679733a57d3ac8ac353623eff53ee9d8007e73d1",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4067520",
     "genres": {
       "0": "25",
@@ -96,7 +119,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d5418aa99134861353fbcf86c421be4a368e3053/capsule_231x87.jpg"
     },
@@ -128,5 +151,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Second Temple",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "secondtemple.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "secondtemple.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "run.sh"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4067521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "100032368",
+          "gid": "5698161536975709333",
+          "size": "163993754"
+        }
+      }
+    },
+    "4067522": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "106232496",
+          "gid": "406584502763353349",
+          "size": "195262381"
+        }
+      }
+    },
+    "4067523": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "72736448",
+          "gid": "346252086871610576",
+          "size": "125858531"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26371218",
+        "timebuildupdated": "1793589531",
+        "timeupdated": "1793589531"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Forth Temple",
+    "homepage": "https://secondtemple.forthtemple.com",
+    "publisher": "Forth Temple"
+  }
 }

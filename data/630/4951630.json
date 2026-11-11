@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794294994,
-  "_history": [],
-  "_change_number": 40779456,
-  "_missing_token": true,
-  "_sha": "8d3ee1887dfb7ff3e9a6fc6002d3bd262481bee9",
-  "_size": 3586,
+  "_lastChecked": 1794377706,
+  "_history": [
+    {
+      "buildId": "26583705",
+      "branch": "public",
+      "timeUpdated": 1794373413,
+      "firstSeen": 1794377706,
+      "manifests": {
+        "4951631": {
+          "gid": "8886788270683403477",
+          "size": 3291393958,
+          "download": 3124110176
+        }
+      }
+    }
+  ],
+  "_change_number": 40820844,
+  "_missing_token": false,
+  "_sha": "2326022754c2448ac9ae10d1c2bbe881e0b5129f",
+  "_size": 4728,
   "appid": "4951630",
   "common": {
     "associations": {
@@ -34,9 +48,9 @@
     },
     "clienticon": "5a0c77168ed23f877af150caa3b0a0c46ff35473",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4951630",
     "genres": {
       "0": "4",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a736e16991e0f8e3a49fcfe4677fdc08507276a8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794373684",
     "store_asset_mtime": "1794084758",
     "store_tags": {
       "0": "15045",
@@ -168,5 +183,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Soundway",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Soundway.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input_manifest.vdf"
+  },
+  "depots": {
+    "4951631": {
+      "manifests": {
+        "public": {
+          "download": "3124110176",
+          "gid": "8886788270683403477",
+          "size": "3291393958"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26583705",
+        "timebuildupdated": "1794373290",
+        "timeupdated": "1794373413"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Naughty Horse",
+    "publisher": "Naughty Horse"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "savefiles": {
+      "0": {
+        "path": "Soundway",
+        "pattern": "hiscores.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Soundway/Saved",
+        "pattern": "hiscores.json",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

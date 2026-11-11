@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793908616,
-  "_history": [],
-  "_change_number": 40624331,
-  "_missing_token": true,
-  "_sha": "f8c4cf879bd33595e1797cf631c3124e17af214f",
-  "_size": 3575,
+  "_lastChecked": 1794377685,
+  "_history": [
+    {
+      "buildId": "26562280",
+      "branch": "public",
+      "timeUpdated": 1794321990,
+      "firstSeen": 1794377685,
+      "manifests": {
+        "1818481": {
+          "gid": "7806432242175507168",
+          "size": 4255736887,
+          "download": 1220904992
+        }
+      }
+    }
+  ],
+  "_change_number": 40814423,
+  "_missing_token": false,
+  "_sha": "5181332239a8768869128a2c7a2d9d92857266c1",
+  "_size": 5051,
   "appid": "1818480",
   "common": {
     "associations": {
@@ -44,7 +58,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1818480",
     "genres": {
       "0": "23",
@@ -120,10 +133,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d27a15a27e8bf1f0513b6a7691c4599e2587ea98/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794356242",
     "store_asset_mtime": "1793119332",
     "store_tags": {
       "0": "3835",
@@ -155,5 +169,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Midwest90 Rapid City",
+    "launch": {
+      "0": {
+        "executable": "Midwest90RapidCity.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-enableConsole",
+        "config": {
+          "betakey": "internal"
+        },
+        "description": "Debug Console",
+        "description_loc": {
+          "english": "Debug Console"
+        },
+        "executable": "Midwest90RapidCity.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "1818481": {
+      "manifests": {
+        "public": {
+          "download": "1220904992",
+          "gid": "7806432242175507168",
+          "size": "4255736887"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26562280",
+        "timebuildupdated": "1794304551",
+        "timeupdated": "1794321990"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Hidden Chest Studios",
+    "homepage": "https://www.hiddenchest.studio/",
+    "publisher": "Rising Tide"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "320000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Saves/{64BitSteamID}",
+            "replace": "Hidden Chest Studio/Midwest90RapidCity/Saves/{64BitSteamID}"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "WinAppDataLocalLow"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Saves/{64BitSteamID}",
+        "pattern": "*.es3",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794262891,
+  "_lastChecked": 1794377709,
   "_history": [
     {
       "buildId": "26511849",
@@ -13,12 +13,30 @@
           "download": 157981312
         }
       }
+    },
+    {
+      "buildId": "26577674",
+      "branch": "public",
+      "timeUpdated": 1794350360,
+      "firstSeen": 1794377709,
+      "manifests": {
+        "5060781": {
+          "gid": "7052466100911793666",
+          "size": 251012280,
+          "download": 157981312
+        },
+        "5060782": {
+          "gid": "4835147357477916143",
+          "size": 216023128,
+          "download": 149506416
+        }
+      }
     }
   ],
-  "_change_number": 40765627,
+  "_change_number": 40813884,
   "_missing_token": false,
-  "_sha": "3985a6a068ec2c6dc1c08c4660c143cd1c520506",
-  "_size": 4903,
+  "_sha": "59812a747d3868147b6e413c21098e2c0b66948c",
+  "_size": 5257,
   "appid": "5060780",
   "common": {
     "aicontenttype": "1",
@@ -127,8 +145,9 @@
       "japanese": "Twin-stick English"
     },
     "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "1",
     "releasestate": "released",
     "small_capsule": {
@@ -173,6 +192,13 @@
           "oslist": "windows"
         },
         "executable": "TwinStickJapanese.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "TwinStickJapanese.x86_64"
       }
     },
     "steamconfigurator3rdpartynative": "65532",
@@ -181,7 +207,6 @@
   "depots": {
     "5060781": {
       "config": {
-        "language": "english",
         "osarch": "64",
         "oslist": "windows"
       },
@@ -193,12 +218,25 @@
         }
       }
     },
-    "baselanguages": "english",
+    "5060782": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "149506416",
+          "gid": "4835147357477916143",
+          "size": "216023128"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
     "branches": {
       "public": {
-        "buildid": "26511849",
-        "timebuildupdated": "1794086790",
-        "timeupdated": "1794086824"
+        "buildid": "26577674",
+        "timebuildupdated": "1794350126",
+        "timeupdated": "1794350360"
       }
     },
     "nocommonredists": "1",

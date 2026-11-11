@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793383998,
-  "_history": [],
-  "_change_number": 40432482,
-  "_missing_token": true,
-  "_sha": "6ce1cbef61a12212d10ffebde6d8e8d4d97fc442",
-  "_size": 3855,
+  "_lastChecked": 1794377687,
+  "_history": [
+    {
+      "buildId": "26328048",
+      "branch": "public",
+      "timeUpdated": 1793376658,
+      "firstSeen": 1794377687,
+      "manifests": {
+        "2729451": {
+          "gid": "2543286627217436097",
+          "size": 824153385,
+          "download": 674057664
+        }
+      }
+    }
+  ],
+  "_change_number": 40822179,
+  "_missing_token": false,
+  "_sha": "0d0885b6208ce260de0482158a8a45f8f46a4c40",
+  "_size": 5373,
   "appid": "2729450",
   "common": {
     "aicontenttype": "1",
@@ -31,6 +45,7 @@
     "clienticon": "79057aaabff7d5e9e22c291047f7c6dd43e51949",
     "clienttga": "ac4368fb77b10ef32c1af9f54cc5d2a79ebdd15d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -40,7 +55,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2729450",
     "genres": {
       "0": "25",
@@ -122,11 +136,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f058a26c814da47aabe65b55d08e7e80807d4cfd/capsule_231x87.jpg",
       "french": "f058a26c814da47aabe65b55d08e7e80807d4cfd/capsule_231x87_french.jpg"
     },
+    "steam_release_date": "1794377542",
     "store_asset_mtime": "1789058761",
     "store_tags": {
       "0": "11014",
@@ -162,5 +177,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Profiler Files",
+    "launch": {
+      "0": {
+        "executable": "ProfilerFiles.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2729451": {
+      "manifests": {
+        "public": {
+          "download": "674057664",
+          "gid": "2543286627217436097",
+          "size": "824153385"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "26328048",
+        "timebuildupdated": "1793376633",
+        "timeupdated": "1793376658"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Land  Creations",
+    "homepage": "https://profilerfiles.blogspot.com",
+    "publisher": "Land  Creations"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "200000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/ProfilerFiles-save",
+            "replace": ".renpy/ProfilerFiles-save"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/ProfilerFiles-save",
+            "replace": "Library/RenPy/ProfilerFiles-save"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RenPy/ProfilerFiles-save",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

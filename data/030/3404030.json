@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1794339871,
-  "_history": [],
-  "_change_number": 40682434,
-  "_missing_token": true,
-  "_sha": "77641e308bccb51331e0ce7b4fb9c58fbb1180f4",
-  "_size": 4447,
+  "_lastChecked": 1794377691,
+  "_history": [
+    {
+      "buildId": "26579003",
+      "branch": "experimental",
+      "timeUpdated": 1794355251,
+      "firstSeen": 1794377691,
+      "manifests": {
+        "3404032": {
+          "gid": "4338204019294993900",
+          "size": 226996201,
+          "download": 148124912
+        }
+      }
+    },
+    {
+      "buildId": "26579003",
+      "branch": "public",
+      "timeUpdated": 1794355885,
+      "firstSeen": 1794377691,
+      "manifests": {
+        "3404032": {
+          "gid": "4338204019294993900",
+          "size": 226996201,
+          "download": 148124912
+        }
+      }
+    }
+  ],
+  "_change_number": 40814494,
+  "_missing_token": false,
+  "_sha": "7075ca728bf7a5ee74c35b531a5282be468f4325",
+  "_size": 7878,
   "appid": "3404030",
   "common": {
     "associations": {
@@ -43,9 +70,9 @@
     },
     "clienticon": "7a3c7ad58e6a0f645b33038912c83c454ecbbf8b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3404030",
     "genres": {
       "0": "4",
@@ -138,10 +165,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "68b86b95c3df4dc3f085a881fa38e9047b70fc73/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794356421",
     "store_asset_mtime": "1793993833",
     "store_tags": {
       "0": "1664",
@@ -220,5 +248,152 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Clogwork",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "windows\\Clogwork.exe",
+        "type": "default",
+        "workingdir": "."
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "4",
+    "steaminputmanifestpath": "windows/steam_input/game_actions_3404030.vdf"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3404032": {
+      "manifests": {
+        "experimental": {
+          "download": "148124912",
+          "gid": "4338204019294993900",
+          "size": "226996201"
+        },
+        "public": {
+          "download": "148124912",
+          "gid": "4338204019294993900",
+          "size": "226996201"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,english,french,german,hungarian,italian,japanese,koreana,polish,russian,schinese,spanish,tchinese,turkish,ukrainian,vietnamese",
+    "branches": {
+      "experimental": {
+        "buildid": "26579003",
+        "description": "experimental",
+        "timebuildupdated": "1794355180",
+        "timeupdated": "1794355251"
+      },
+      "public": {
+        "buildid": "26579003",
+        "timebuildupdated": "1794355180",
+        "timeupdated": "1794355885"
+      }
+    },
+    "workshopdepot": "3404030"
+  },
+  "extended": {
+    "developer": "Odd Sprout Games",
+    "homepage": "http://www.oddsprout.games/clogwork",
+    "publisher": "Odd Sprout Games"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "1073741824",
+    "savefiles": {
+      "0": {
+        "path": "Clogwork/steam_users/{64BitSteamID}/saves",
+        "pattern": "*.mzsave",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Clogwork/profile_state/{64BitSteamID}/thumbnails",
+        "pattern": "*.jpg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Clogwork/profile_state/{64BitSteamID}",
+        "pattern": "prefs.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Clogwork/profile_state/{64BitSteamID}/player_save",
+        "pattern": "progress.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Clogwork/profile_state/{64BitSteamID}/player_save",
+        "pattern": "level_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Clogwork/profile_state/{64BitSteamID}",
+        "pattern": "campaign_demo.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Clogwork/profile_state/{64BitSteamID}",
+        "pattern": "community_challenge_drafts.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "7": {
+        "path": "Clogwork/profile_state/{64BitSteamID}/scenario_drafts",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "8": {
+        "path": "Clogwork/profile_state/{64BitSteamID}/workshop/figures",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

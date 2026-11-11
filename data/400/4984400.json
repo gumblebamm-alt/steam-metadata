@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794294994,
-  "_history": [],
-  "_change_number": 40780823,
-  "_missing_token": true,
-  "_sha": "9dd8ad879c27b85071ec5ac428ac2d8dcb61f286",
-  "_size": 3059,
+  "_lastChecked": 1794377707,
+  "_history": [
+    {
+      "buildId": "26578701",
+      "branch": "public",
+      "timeUpdated": 1794354093,
+      "firstSeen": 1794377707,
+      "manifests": {
+        "4984401": {
+          "gid": "5068870178903774525",
+          "size": 560249260,
+          "download": 172516160
+        },
+        "4984402": {
+          "gid": "8015985481063265912",
+          "size": 578163065,
+          "download": 180319328
+        },
+        "4984403": {
+          "gid": "6335781170202124917",
+          "size": 557805327,
+          "download": 170402176
+        }
+      }
+    }
+  ],
+  "_change_number": 40822132,
+  "_missing_token": false,
+  "_sha": "af92adefab9f52eb690793135a8f03e08ec9ba1e",
+  "_size": 5408,
   "appid": "4984400",
   "common": {
     "associations": {
@@ -28,8 +52,8 @@
     },
     "clienticon": "1b2d3855fa8dc22932bec696d386ca2da7f4e025",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4984400",
     "genres": {
       "0": "2"
@@ -100,10 +124,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "057c23ad77c8780996fec783b0dd6ec241732729/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794347975",
     "store_asset_mtime": "1792904270",
     "store_tags": {
       "0": "1645",
@@ -134,5 +161,125 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Towers of Babble",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TowersOfBabble.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "TowersOfBabble.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "TowersOfBabble.x86_64"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4984401": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "172516160",
+          "gid": "5068870178903774525",
+          "size": "560249260"
+        }
+      }
+    },
+    "4984402": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "180319328",
+          "gid": "8015985481063265912",
+          "size": "578163065"
+        }
+      }
+    },
+    "4984403": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "170402176",
+          "gid": "6335781170202124917",
+          "size": "557805327"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26578701",
+        "timebuildupdated": "1794354034",
+        "timeupdated": "1794354093"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Everybody House Games",
+    "publisher": "Everybody House Games"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "40000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "EHG/TowersOfBabble",
+            "replace": "EHG/TowersOfBabble"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "EHG/TowersOfBabble",
+            "replace": ".config/unity3d/EHG/TowersOfBabble"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "EHG/TowersOfBabble",
+        "pattern": "save.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "EHG/TowersOfBabble",
+        "pattern": "known_words.txt",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "EHG/TowersOfBabble",
+        "pattern": "class_unlocks.txt",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

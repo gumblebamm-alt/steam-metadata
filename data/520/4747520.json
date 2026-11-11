@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794205484,
-  "_history": [],
-  "_change_number": 40734330,
-  "_missing_token": true,
-  "_sha": "93cdc27e82ef34ebe159ecce5d419c766e889b42",
-  "_size": 2948,
+  "_lastChecked": 1794377703,
+  "_history": [
+    {
+      "buildId": "26576970",
+      "branch": "public",
+      "timeUpdated": 1794347790,
+      "firstSeen": 1794377703,
+      "manifests": {
+        "4747521": {
+          "gid": "8245261947042687248",
+          "size": 712599576,
+          "download": 75964256
+        }
+      }
+    }
+  ],
+  "_change_number": 40811361,
+  "_missing_token": false,
+  "_sha": "5cc81bf8b2c5530b3f6c9c8f2be96e0730bc93aa",
+  "_size": 3892,
   "appid": "4747520",
   "common": {
     "associations": {
@@ -30,7 +44,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4747520",
     "genres": {
       "0": "1",
@@ -104,7 +117,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8e0cf6f02c53ce75efb0bd28e787ef6423e5f155/capsule_231x87.jpg"
     },
@@ -133,5 +146,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Project M.E.D.S",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "M.E.D.S.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4747521": {
+      "manifests": {
+        "public": {
+          "download": "75964256",
+          "gid": "8245261947042687248",
+          "size": "712599576"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26576970",
+        "timebuildupdated": "1794347771",
+        "timeupdated": "1794347790"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Fat Ghost Productions",
+    "publisher": "Fat Ghost Productions"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "ProjectMEDS",
+        "pattern": "savegame.save",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "ProjectMEDS",
+        "pattern": "settings.cfg",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1794073583,
+  "_lastChecked": 1794377708,
   "_history": [
+    {
+      "buildId": "26570044",
+      "branch": "public",
+      "timeUpdated": 1794337597,
+      "firstSeen": 1794377708,
+      "manifests": {
+        "5007581": {
+          "gid": "3551136899681590783",
+          "size": 1798443542,
+          "download": 1534970400
+        },
+        "5007582": {
+          "gid": "2075812346301192808",
+          "size": 1746900241,
+          "download": 1509656304
+        }
+      }
+    },
     {
       "buildId": "26507832",
       "branch": "public",
@@ -52,25 +70,12 @@
           "download": 119737312
         }
       }
-    },
-    {
-      "buildId": "25155203",
-      "branch": "public",
-      "timeUpdated": 1788719243,
-      "firstSeen": 1788722712,
-      "manifests": {
-        "5007581": {
-          "gid": "8514484335286970610",
-          "size": 323182535,
-          "download": 119737232
-        }
-      }
     }
   ],
-  "_change_number": 40706711,
+  "_change_number": 40819843,
   "_missing_token": false,
-  "_sha": "cbab872e44b9aa0f3830e786ef2d7202e66e4d4a",
-  "_size": 4379,
+  "_sha": "5c4905baebefa00176d520f9457d135f2b8d9dce",
+  "_size": 4775,
   "appid": "5007580",
   "common": {
     "aicontenttype": "1",
@@ -164,8 +169,9 @@
     },
     "name": "Path of the idle cultivator",
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "37",
     "releasestate": "released",
     "review_percentage": "77",
@@ -235,6 +241,14 @@
           "oslist": "windows"
         },
         "executable": "Cultivator Path.exe"
+      },
+      "1": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "cultivator-path"
       }
     }
   },
@@ -245,17 +259,30 @@
       },
       "manifests": {
         "public": {
-          "download": "1391008000",
-          "gid": "1946699015177350398",
-          "size": "1658537594"
+          "download": "1534970400",
+          "gid": "3551136899681590783",
+          "size": "1798443542"
+        }
+      }
+    },
+    "5007582": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1509656304",
+          "gid": "2075812346301192808",
+          "size": "1746900241"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26507832",
-        "timebuildupdated": "1794066405",
-        "timeupdated": "1794066822"
+        "buildid": "26570044",
+        "timebuildupdated": "1794326838",
+        "timeupdated": "1794337597"
       }
     },
     "privatebranches": "1",

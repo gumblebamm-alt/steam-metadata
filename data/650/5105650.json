@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794205490,
-  "_history": [],
-  "_change_number": 40740509,
-  "_missing_token": true,
-  "_sha": "9870f7fb3537a68db220c797bb785161772325e8",
-  "_size": 5116,
+  "_lastChecked": 1794377710,
+  "_history": [
+    {
+      "buildId": "26582262",
+      "branch": "public",
+      "timeUpdated": 1794367446,
+      "firstSeen": 1794377710,
+      "manifests": {
+        "5105651": {
+          "gid": "9061587005794022610",
+          "size": 833294330,
+          "download": 289089696
+        }
+      }
+    }
+  ],
+  "_change_number": 40820955,
+  "_missing_token": false,
+  "_sha": "2787b74ddbbaac12361bf9df3690e5787a9cf812",
+  "_size": 6290,
   "appid": "5105650",
   "common": {
     "associations": {
@@ -36,8 +50,8 @@
     },
     "clienticon": "c8c38bad45d78866069e1d7c4e6ed6990f36e1b7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5105650",
     "genres": {
       "0": "25",
@@ -141,11 +155,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "f9011af1b4a8cea942ea3d5fd34e9018fc29b12d/capsule_231x87.jpg",
       "schinese": "8822700967bcf4dc9beef23a4d8b3b037a484c99/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1794362534",
     "store_asset_mtime": "1794192222",
     "store_tags": {
       "0": "1742",
@@ -205,5 +222,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "UrHeart",
+    "launch": {
+      "0": {
+        "executable": "UrHeart.exe"
+      }
+    }
+  },
+  "depots": {
+    "5105651": {
+      "manifests": {
+        "public": {
+          "download": "289089696",
+          "gid": "9061587005794022610",
+          "size": "833294330"
+        }
+      }
+    },
+    "5105652": {
+      "config": {
+        "oslist": "linux",
+        "steamdeck": "1"
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26582262",
+        "timebuildupdated": "1794367363",
+        "timeupdated": "1794367446"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Tourniquet",
+    "dlcavailableonstore": "1",
+    "homepage": "https://geismgame.com/",
+    "isfreeapp": "1",
+    "listofdlc": "5162180",
+    "publisher": "Tourniquet"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "20000000",
+    "savefiles": {
+      "0": {
+        "path": "Geism/UrHeart/Saves",
+        "pattern": "autosave.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Geism/UrHeart/Saves",
+        "pattern": "autosave.json.bak",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

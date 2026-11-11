@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792689412,
-  "_history": [],
-  "_change_number": 40085585,
-  "_missing_token": true,
-  "_sha": "e230874ca529b6cd0e894e459e7b21d9084908e3",
-  "_size": 4665,
+  "_lastChecked": 1794377707,
+  "_history": [
+    {
+      "buildId": "26558350",
+      "branch": "public",
+      "timeUpdated": 1794289759,
+      "firstSeen": 1794377707,
+      "manifests": {
+        "4996301": {
+          "gid": "8093217943139391756",
+          "size": 624429264,
+          "download": 496714144
+        }
+      }
+    }
+  ],
+  "_change_number": 40820662,
+  "_missing_token": false,
+  "_sha": "7c9eb3eee660ff7424e4ab05b183b18967dca3f3",
+  "_size": 5967,
   "appid": "4996300",
   "common": {
     "aicontenttype": "1",
@@ -36,7 +50,6 @@
     "clienticon": "537a924cf2d1d0bf7ddb2ea531ca35ac57408cbd",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4996300",
     "genres": {
       "0": "4",
@@ -127,13 +140,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "975b83961efea159005398e91806ef9be58112b5/capsule_231x87.jpg",
       "schinese": "edea86f25b88f2fc5d9a9b7ca7afad59a867e56b/capsule_231x87_schinese.jpg",
       "tchinese": "f08e848f676e3f863658fb96ac25c93b9c8d4ae6/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1792232530",
+    "store_asset_mtime": "1792661959",
     "store_tags": {
       "0": "9",
       "1": "122",
@@ -161,5 +174,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "火柴：人在异世",
+    "launch": {
+      "0": {
+        "executable": "StickManinAnotherWorld.exe"
+      }
+    }
+  },
+  "depots": {
+    "4996301": {
+      "manifests": {
+        "public": {
+          "download": "496714144",
+          "gid": "8093217943139391756",
+          "size": "624429264"
+        }
+      }
+    },
+    "baselanguages": "schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26558350",
+        "timebuildupdated": "1794289721",
+        "timeupdated": "1794289759"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "火柴studio",
+    "publisher": "火柴studio"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "20485760",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "StickManInAnotherWorld",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "StickManInAnotherWorld",
+        "pattern": "*.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "StickManInAnotherWorld",
+        "pattern": "network.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

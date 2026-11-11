@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793861072,
-  "_history": [],
-  "_change_number": 40616119,
-  "_missing_token": true,
-  "_sha": "3358cabe39481609faf9a7b1adae54e80a7a4f12",
-  "_size": 2942,
+  "_lastChecked": 1794377707,
+  "_history": [
+    {
+      "buildId": "26072335",
+      "branch": "public",
+      "timeUpdated": 1792479684,
+      "firstSeen": 1794377707,
+      "manifests": {
+        "4979221": {
+          "gid": "6831524977346474787",
+          "size": 427170639,
+          "download": 194767504
+        }
+      }
+    }
+  ],
+  "_change_number": 40815016,
+  "_missing_token": false,
+  "_sha": "bc25aeea83638c255650aea24901a9372a66e208",
+  "_size": 3902,
   "appid": "4979220",
   "common": {
     "aicontenttype": "1",
@@ -30,9 +44,9 @@
     },
     "clienticon": "b4086640f905cf3f5ce205fdd385eec8530c467b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4979220",
     "genres": {
       "0": "1",
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "21f9792f9b07bbbee5102d41825a1193fcaf7ddd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794357850",
     "store_asset_mtime": "1792538337",
     "store_tags": {
       "0": "19",
@@ -133,5 +148,50 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Voltswarm",
+    "launch": {
+      "0": {
+        "executable": "Voltswarm.exe"
+      },
+      "1": {
+        "arguments": "--use-webgpu-adapter=d3d11",
+        "description": "Voltswarm [DirectX 11 (Linux / Mac / black screen)]",
+        "description_loc": {
+          "english": "Voltswarm [DirectX 11 (Linux / Mac / black screen)]"
+        },
+        "executable": "Voltswarm.exe"
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4979221": {
+      "manifests": {
+        "public": {
+          "download": "194767504",
+          "gid": "6831524977346474787",
+          "size": "427170639"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26072335",
+        "timebuildupdated": "1792479581",
+        "timeupdated": "1792479684"
+      }
+    }
+  },
+  "extended": {
+    "developer": "David Seco",
+    "homepage": "https://headarrow.com",
+    "publisher": "HeadArrow"
+  }
 }

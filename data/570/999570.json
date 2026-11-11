@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793124044,
-  "_history": [],
-  "_change_number": 40298610,
-  "_missing_token": true,
-  "_sha": "c9432995d6b226df5d925e2c8fa4f45dfe0e4f22",
-  "_size": 3313,
+  "_lastChecked": 1794377684,
+  "_history": [
+    {
+      "buildId": "26549774",
+      "branch": "public",
+      "timeUpdated": 1794258270,
+      "firstSeen": 1794377684,
+      "manifests": {
+        "999571": {
+          "gid": "3918311025443056016",
+          "size": 133935869,
+          "download": 54703888
+        }
+      }
+    }
+  ],
+  "_change_number": 40809877,
+  "_missing_token": false,
+  "_sha": "2773bba746547f0aa01a655d9297ee72341355e2",
+  "_size": 4799,
   "appid": "999570",
   "common": {
     "associations": {
@@ -30,9 +44,9 @@
     "clienticon": "0313201f4dbb5a72f6c553c54652e0f7dc8a5d93",
     "clienttga": "fec6bdb71fe45b65c7df86b942df3b7569522a3d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "999570",
     "genres": {
       "0": "25",
@@ -105,7 +119,7 @@
     "osarch": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d05a2bca8419a84707f37a197090200d8722ccb2/capsule_231x87.jpg"
     },
@@ -144,5 +158,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "LatinSimulator",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "LatinSimulator.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "999571": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "54703888",
+          "gid": "3918311025443056016",
+          "size": "133935869"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26549774",
+        "timebuildupdated": "1794257915",
+        "timeupdated": "1794258270"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SeDorn Entertainment",
+    "publisher": "SeDorn Entertainment"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "LatinSimulator/saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "LatinSimulator",
+        "pattern": "endings.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

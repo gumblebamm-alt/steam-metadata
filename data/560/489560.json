@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794294979,
+  "_lastChecked": 1794377683,
   "_history": [
     {
       "buildId": "1345253",
@@ -54,12 +54,58 @@
           "download": 139945600
         }
       }
+    },
+    {
+      "buildId": "26575709",
+      "branch": "beta",
+      "timeUpdated": 1794343563,
+      "firstSeen": 1794377683,
+      "manifests": {
+        "489561": {
+          "gid": "5766739235904546004",
+          "size": 509440564,
+          "download": 207480736
+        },
+        "489562": {
+          "gid": "229331285713760063",
+          "size": 334837956,
+          "download": 139946368
+        },
+        "489563": {
+          "gid": "4911361582116178347",
+          "size": 290658619,
+          "download": 117018816
+        }
+      }
+    },
+    {
+      "buildId": "26575709",
+      "branch": "public",
+      "timeUpdated": 1794343563,
+      "firstSeen": 1794377683,
+      "manifests": {
+        "489561": {
+          "gid": "5766739235904546004",
+          "size": 509440564,
+          "download": 207480736
+        },
+        "489562": {
+          "gid": "229331285713760063",
+          "size": 334837956,
+          "download": 139946368
+        },
+        "489563": {
+          "gid": "4911361582116178347",
+          "size": 290658619,
+          "download": 117018816
+        }
+      }
     }
   ],
-  "_change_number": 40781333,
+  "_change_number": 40809421,
   "_missing_token": false,
-  "_sha": "1e157b4131ac39a415a516a5dcda99def108f76c",
-  "_size": 5486,
+  "_sha": "cbc61784c2abce40380b9499f05d1ef5a259c662",
+  "_size": 6041,
   "appid": "489560",
   "common": {
     "associations": {
@@ -111,6 +157,8 @@
     "metacritic_name": "Astroflux",
     "name": "Astroflux",
     "osarch": "",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "29",
     "releasestate": "released",
@@ -235,6 +283,14 @@
         },
         "executable": "Astroflux.exe",
         "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "astroflux-launch.sh",
+        "type": "default"
       }
     },
     "steamcontrollertemplateindex": "6"
@@ -242,18 +298,19 @@
   "depots": {
     "489561": {
       "config": {
+        "osarch": "64",
         "oslist": "macos"
       },
       "manifests": {
         "beta": {
-          "download": "207479952",
-          "gid": "5522011569212513091",
-          "size": "509438192"
+          "download": "207480736",
+          "gid": "5766739235904546004",
+          "size": "509440564"
         },
         "public": {
-          "download": "207479952",
-          "gid": "5522011569212513091",
-          "size": "509438192"
+          "download": "207480736",
+          "gid": "5766739235904546004",
+          "size": "509440564"
         }
       }
     },
@@ -263,28 +320,46 @@
       },
       "manifests": {
         "beta": {
-          "download": "139945600",
-          "gid": "236094420454844613",
-          "size": "334835584"
+          "download": "139946368",
+          "gid": "229331285713760063",
+          "size": "334837956"
         },
         "public": {
-          "download": "139945600",
-          "gid": "236094420454844613",
-          "size": "334835584"
+          "download": "139946368",
+          "gid": "229331285713760063",
+          "size": "334837956"
+        }
+      }
+    },
+    "489563": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "117018816",
+          "gid": "4911361582116178347",
+          "size": "290658619"
+        },
+        "public": {
+          "download": "117018816",
+          "gid": "4911361582116178347",
+          "size": "290658619"
         }
       }
     },
     "branches": {
       "beta": {
-        "buildid": "26534375",
+        "buildid": "26575709",
         "description": "test branch",
-        "timebuildupdated": "1794210127",
-        "timeupdated": "1794210156"
+        "timebuildupdated": "1794343528",
+        "timeupdated": "1794343563"
       },
       "public": {
-        "buildid": "26534375",
-        "timebuildupdated": "1794210127",
-        "timeupdated": "1794211078"
+        "buildid": "26575709",
+        "timebuildupdated": "1794343528",
+        "timeupdated": "1794343563"
       }
     }
   },

@@ -1,29 +1,39 @@
 {
-  "_lastChecked": 1794160610,
+  "_lastChecked": 1794377697,
   "_history": [
     {
-      "buildId": "21772762",
+      "buildId": "26579553",
       "branch": "public",
-      "timeUpdated": 1770162356,
-      "firstSeen": 1788629156,
+      "timeUpdated": 1794357564,
+      "firstSeen": 1794377697,
       "manifests": {
         "4247481": {
-          "gid": "3611150085291123853",
-          "size": 395676475,
-          "download": 260337136
+          "gid": "3283780654434207945",
+          "size": 508607366,
+          "download": 309741520
+        },
+        "4247482": {
+          "gid": "3929794472687386097",
+          "size": 314412916,
+          "download": 313067920
+        },
+        "4247483": {
+          "gid": "7217946677956067313",
+          "size": 479462991,
+          "download": 299508864
         }
       }
     },
     {
-      "buildId": "26497605",
-      "branch": "beta",
-      "timeUpdated": 1794009604,
-      "firstSeen": 1794031062,
+      "buildId": "26514770",
+      "branch": "public",
+      "timeUpdated": 1794102943,
+      "firstSeen": 1794160610,
       "manifests": {
         "4247481": {
-          "gid": "4528341458041040391",
-          "size": 488035809,
-          "download": 297018512
+          "gid": "7397389996783154676",
+          "size": 498220802,
+          "download": 302736048
         }
       }
     },
@@ -41,23 +51,82 @@
       }
     },
     {
-      "buildId": "26514770",
+      "buildId": "21772762",
       "branch": "public",
-      "timeUpdated": 1794102943,
-      "firstSeen": 1794160610,
+      "timeUpdated": 1770162356,
+      "firstSeen": 1788629156,
       "manifests": {
         "4247481": {
-          "gid": "7397389996783154676",
-          "size": 498220802,
-          "download": 302736048
+          "gid": "3611150085291123853",
+          "size": 395676475,
+          "download": 260337136
+        }
+      }
+    },
+    {
+      "buildId": "26553440",
+      "branch": "beta",
+      "timeUpdated": 1794269946,
+      "firstSeen": 1794377697,
+      "manifests": {
+        "4247481": {
+          "gid": "685244852192281374",
+          "size": 504024469,
+          "download": 305963568
+        },
+        "4247482": {
+          "gid": "3029044654432451065",
+          "size": 310648664,
+          "download": 310354768
+        },
+        "4247483": {
+          "gid": "3841649785049489527",
+          "size": 474880090,
+          "download": 295744016
+        }
+      }
+    },
+    {
+      "buildId": "26497605",
+      "branch": "beta",
+      "timeUpdated": 1794009604,
+      "firstSeen": 1794031062,
+      "manifests": {
+        "4247481": {
+          "gid": "4528341458041040391",
+          "size": 488035809,
+          "download": 297018512
+        }
+      }
+    },
+    {
+      "buildId": "26560782",
+      "branch": "linuxtest",
+      "timeUpdated": 1794300045,
+      "firstSeen": 1794377697,
+      "manifests": {
+        "4247481": {
+          "gid": "685244852192281374",
+          "size": 504024469,
+          "download": 305963568
+        },
+        "4247482": {
+          "gid": "4288372754528584704",
+          "size": 504541467,
+          "download": 299223536
+        },
+        "4247483": {
+          "gid": "3841649785049489527",
+          "size": 474880090,
+          "download": 295744016
         }
       }
     }
   ],
-  "_change_number": 40724438,
+  "_change_number": 40815992,
   "_missing_token": false,
-  "_sha": "3d7d58cccaffa81d6e3cb38488f79c8c9a365fbd",
-  "_size": 4494,
+  "_sha": "1d2dd5de461d4506e9b434b9bd5bd937aabcf7e5",
+  "_size": 6259,
   "appid": "4247480",
   "common": {
     "aicontenttype": "1",
@@ -153,15 +222,16 @@
     },
     "name": "Endless Racing",
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,macos,linux",
     "primary_genre": "9",
     "releasestate": "released",
     "small_capsule": {
       "english": "f368b094b8256c33ab192db6a98d0aa878882622/capsule_231x87.jpg"
     },
     "steam_release_date": "1767104787",
-    "store_asset_mtime": "1794141338",
+    "store_asset_mtime": "1794360160",
     "store_tags": {
       "0": "597",
       "1": "1773",
@@ -225,39 +295,111 @@
         },
         "executable": "Endless Racing.exe",
         "type": "default"
+      },
+      "1": {
+        "arguments": "--appimage-extract-and-run --no-sandbox --ozone-platform=x11 --ignore-gpu-blocklist --enable-gpu-rasterization",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Endless Racing - Copy-0_0_26-linux.AppImage",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Endless Racing - Copy.app"
       }
     }
   },
   "depots": {
     "4247481": {
       "config": {
-        "language": "english"
+        "language": "english",
+        "oslist": "windows"
       },
       "manifests": {
         "beta": {
-          "download": "297018512",
-          "gid": "4528341458041040391",
-          "size": "488035809"
+          "download": "305963568",
+          "gid": "685244852192281374",
+          "size": "504024469"
+        },
+        "linuxtest": {
+          "download": "305963568",
+          "gid": "685244852192281374",
+          "size": "504024469"
         },
         "public": {
-          "download": "302736048",
-          "gid": "7397389996783154676",
-          "size": "498220802"
+          "download": "309741520",
+          "gid": "3283780654434207945",
+          "size": "508607366"
+        }
+      }
+    },
+    "4247482": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "310354768",
+          "gid": "3029044654432451065",
+          "size": "310648664"
+        },
+        "linuxtest": {
+          "download": "299223536",
+          "gid": "4288372754528584704",
+          "size": "504541467"
+        },
+        "public": {
+          "download": "313067920",
+          "gid": "3929794472687386097",
+          "size": "314412916"
+        }
+      }
+    },
+    "4247483": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "295744016",
+          "gid": "3841649785049489527",
+          "size": "474880090"
+        },
+        "linuxtest": {
+          "download": "295744016",
+          "gid": "3841649785049489527",
+          "size": "474880090"
+        },
+        "public": {
+          "download": "299508864",
+          "gid": "7217946677956067313",
+          "size": "479462991"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "beta": {
-        "buildid": "26497605",
+        "buildid": "26553440",
         "description": "Big_uptade",
-        "timebuildupdated": "1794009604",
-        "timeupdated": "1794009604"
+        "timebuildupdated": "1794269846",
+        "timeupdated": "1794269946"
+      },
+      "linuxtest": {
+        "buildid": "26560782",
+        "description": "d",
+        "timebuildupdated": "1794300045",
+        "timeupdated": "1794300045"
       },
       "public": {
-        "buildid": "26514770",
-        "timebuildupdated": "1794102903",
-        "timeupdated": "1794102943"
+        "buildid": "26579553",
+        "timebuildupdated": "1794357516",
+        "timeupdated": "1794357564"
       }
     }
   },
@@ -266,7 +408,16 @@
     "publisher": "Fearless Games Studio"
   },
   "ufs": {
-    "maxnumfiles": "5000",
-    "quota": "5000000000"
+    "maxnumfiles": "20",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    }
   }
 }

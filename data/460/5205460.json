@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793908665,
-  "_history": [],
-  "_change_number": 40637874,
-  "_missing_token": true,
-  "_sha": "73ae28d361cece460fd927cb6e3a455b79eccf3f",
-  "_size": 4461,
+  "_lastChecked": 1794377712,
+  "_history": [
+    {
+      "buildId": "26578089",
+      "branch": "public",
+      "timeUpdated": 1794351572,
+      "firstSeen": 1794377712,
+      "manifests": {
+        "5205462": {
+          "gid": "3435272257815755645",
+          "size": 1129735262,
+          "download": 761928128
+        }
+      }
+    }
+  ],
+  "_change_number": 40812976,
+  "_missing_token": false,
+  "_sha": "fb7cf3a952af23340f64dd2b7c6c33e208d8166d",
+  "_size": 5982,
   "appid": "5205460",
   "common": {
     "associations": {
@@ -38,8 +52,8 @@
     },
     "clienticon": "a6fff3ad73d0ad2b8473be07df09cbcea80be1e7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5205460",
     "genres": {
       "0": "23",
@@ -112,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8bcab709043326907405043e0ad7d6c5094f3810/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794352395",
     "store_asset_mtime": "1792516489",
     "store_tags": {
       "0": "9",
@@ -226,5 +241,72 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Chess Variant Chase The King",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "ChaseTheKing3D.exe",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "5205462": {
+      "manifests": {
+        "public": {
+          "download": "761928128",
+          "gid": "3435272257815755645",
+          "size": "1129735262"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26578089",
+        "timebuildupdated": "1794351551",
+        "timeupdated": "1794351572"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "Strategic Entertainment",
+    "homepage": "https://www.studiostrategic.com",
+    "publisher": "Strategic Entertainment",
+    "steammachineresolutionoverride": "Default"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "ChaseTheKing3D/Saved/SaveGames",
+        "pattern": "ChaseProgress.sav",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "ChaseTheKing3D/Saved/SaveGames",
+        "pattern": "ChaseDemoProgress.sav",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "ChaseTheKing3D/Saved/SaveGames",
+        "pattern": "ChaseAchievements_*.sav",
+        "root": "WinAppDataLocal"
+      },
+      "3": {
+        "path": "ChaseTheKing3D/Saved/SaveGames",
+        "pattern": "ChaseLoot_*.sav",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

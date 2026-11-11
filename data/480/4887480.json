@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794339898,
-  "_history": [],
-  "_change_number": 40798062,
-  "_missing_token": true,
-  "_sha": "96c788ce6d576a0b3bf22a5c8fd1483bae071886",
-  "_size": 3123,
+  "_lastChecked": 1794377705,
+  "_history": [
+    {
+      "buildId": "26568322",
+      "branch": "public",
+      "timeUpdated": 1794323201,
+      "firstSeen": 1794377705,
+      "manifests": {
+        "4887481": {
+          "gid": "2604223867574446969",
+          "size": 173023829,
+          "download": 87607824
+        },
+        "4887482": {
+          "gid": "5511484906821406743",
+          "size": 137927797,
+          "download": 79019824
+        }
+      }
+    }
+  ],
+  "_change_number": 40810059,
+  "_missing_token": false,
+  "_sha": "e3a54096e21afce63ff4c6834c0ae4185efece29",
+  "_size": 4602,
   "appid": "4887480",
   "common": {
     "aicontenttype": "1",
@@ -34,8 +53,8 @@
     },
     "clienticon": "fb91c497f5ef9b10842390f4013122cfd8c77bdb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4887480",
     "genres": {
       "0": "3",
@@ -108,10 +127,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fa66dfdc6464845f98b4298cd5d82ab8e649c483/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794344975",
     "store_asset_mtime": "1794148425",
     "store_tags": {
       "0": "701",
@@ -137,5 +157,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gridiron Grit Pro Football Dynasty Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "GridironGrit.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "GridironGrit.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4887481": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "87607824",
+          "gid": "2604223867574446969",
+          "size": "173023829"
+        }
+      }
+    },
+    "4887482": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "79019824",
+          "gid": "5511484906821406743",
+          "size": "137927797"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26568322",
+        "timebuildupdated": "1794322397",
+        "timeupdated": "1794323201"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "MajorVidya",
+    "publisher": "MajorVidya"
+  },
+  "ufs": {
+    "maxnumfiles": "150",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Gridiron Grit/saves",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Gridiron Grit",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

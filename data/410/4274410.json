@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794160611,
-  "_history": [],
-  "_change_number": 40612284,
-  "_missing_token": true,
-  "_sha": "1120f53857cd631af53829ec9feae40590cb04a1",
-  "_size": 3817,
+  "_lastChecked": 1794377697,
+  "_history": [
+    {
+      "buildId": "26577202",
+      "branch": "public",
+      "timeUpdated": 1794348934,
+      "firstSeen": 1794377697,
+      "manifests": {
+        "4274411": {
+          "gid": "4264184383685298109",
+          "size": 705339781,
+          "download": 554113088
+        },
+        "4274412": {
+          "gid": "723930867840634280",
+          "size": 864424701,
+          "download": 602497680
+        },
+        "4274413": {
+          "gid": "2364865625588114493",
+          "size": 669721095,
+          "download": 545222848
+        }
+      }
+    }
+  ],
+  "_change_number": 40814927,
+  "_missing_token": false,
+  "_sha": "b68509e14eddad6aae5c0e247fabac7bb7a4ff44",
+  "_size": 6874,
   "appid": "4274410",
   "common": {
     "aicontenttype": "1",
@@ -26,6 +50,7 @@
     },
     "clienticon": "8fadf63dc5036e31e39c18dfeaa183b553cd43e2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -33,7 +58,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4274410",
     "genres": {
       "0": "2"
@@ -117,11 +141,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bbaa3e870dc512d0552c0ba04e46e70fe125fea6/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1788593033",
+    "steam_release_date": "1798704000",
+    "store_asset_mtime": "1794354823",
     "store_tags": {
       "0": "1100686",
       "1": "220585",
@@ -184,5 +209,144 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ApocalypseHQ",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ApocalypseHQ.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ApocalypseHQ.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "ApocalypseHQ.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4274411": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "554113088",
+          "gid": "4264184383685298109",
+          "size": "705339781"
+        }
+      }
+    },
+    "4274412": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "602497680",
+          "gid": "723930867840634280",
+          "size": "864424701"
+        }
+      }
+    },
+    "4274413": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "545222848",
+          "gid": "2364865625588114493",
+          "size": "669721095"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,polish,russian,schinese,spanish,tchinese,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26577202",
+        "timebuildupdated": "1794348513",
+        "timeupdated": "1794348934"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "4274410"
+  },
+  "extended": {
+    "developer": "GodwishGames",
+    "homepage": "https://godwishgames.com",
+    "publisher": "GodwishGames"
+  },
+  "ufs": {
+    "maxnumfiles": "16",
+    "quota": "268435456",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/ApocalypseHQ/steam/{64BitSteamID}",
+            "replace": "Godot/app_userdata/ApocalypseHQ/steam/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/ApocalypseHQ/steam/{64BitSteamID}",
+            "replace": "godot/app_userdata/ApocalypseHQ/steam/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/ApocalypseHQ/steam/{64BitSteamID}",
+        "pattern": "*.save",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/ApocalypseHQ/steam/{64BitSteamID}",
+        "pattern": "save_meta.json",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/ApocalypseHQ/steam/{64BitSteamID}",
+        "pattern": "ending_archive.json",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/ApocalypseHQ/steam/{64BitSteamID}",
+        "pattern": "steam_progress_ledger.json",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1793384013,
-  "_history": [],
-  "_change_number": 40429508,
-  "_missing_token": true,
-  "_sha": "8017b04e64b793be648ddcc441462124ab2ca0f1",
-  "_size": 3259,
+  "_lastChecked": 1794377696,
+  "_history": [
+    {
+      "buildId": "26572970",
+      "branch": "public",
+      "timeUpdated": 1794335083,
+      "firstSeen": 1794377696,
+      "manifests": {
+        "4140211": {
+          "gid": "1216931208226213695",
+          "size": 229224972,
+          "download": 138494512
+        },
+        "4140212": {
+          "gid": "5951163422433460494",
+          "size": 311434924,
+          "download": 160493840
+        },
+        "4140213": {
+          "gid": "5242260784609243607",
+          "size": 196458644,
+          "download": 130574960
+        },
+        "4140214": {
+          "gid": "3826451000639294460",
+          "size": 190113428,
+          "download": 130662368
+        }
+      }
+    }
+  ],
+  "_change_number": 40808031,
+  "_missing_token": false,
+  "_sha": "b52dd593efc2079afec4e20ef84b3f851a0eb829",
+  "_size": 5397,
   "appid": "4140210",
   "common": {
     "associations": {
@@ -36,9 +65,9 @@
     },
     "clienticon": "9375064bf62f2720f3f7bd3b6de77c1118a99fcd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4140210",
     "genres": {
       "0": "4",
@@ -111,10 +140,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "67c09fe2af82ecf64abf294fbcf829bbb7800463/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1793328560",
     "store_tags": {
       "0": "122",
@@ -145,5 +175,127 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "9999",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "9999.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "9999.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "9999.arm64",
+        "type": "default"
+      },
+      "3": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "9999.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4140211": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "138494512",
+          "gid": "1216931208226213695",
+          "size": "229224972"
+        }
+      }
+    },
+    "4140212": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "160493840",
+          "gid": "5951163422433460494",
+          "size": "311434924"
+        }
+      }
+    },
+    "4140213": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "130574960",
+          "gid": "5242260784609243607",
+          "size": "196458644"
+        }
+      }
+    },
+    "4140214": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "130662368",
+          "gid": "3826451000639294460",
+          "size": "190113428"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26572970",
+        "timebuildupdated": "1794334938",
+        "timeupdated": "1794335083"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "VGMRX",
+    "homepage": "https://vgmrx.com",
+    "publisher": "VGMRX"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "9999-Full-Game",
+        "pattern": "*.tres",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
