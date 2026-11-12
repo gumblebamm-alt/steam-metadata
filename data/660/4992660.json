@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794467376,
-  "_history": [],
-  "_change_number": 40846591,
-  "_missing_token": true,
-  "_sha": "e5a9fad7703f788cf5d616769d981a08b2bf63ca",
-  "_size": 4368,
+  "_lastChecked": 1794513299,
+  "_history": [
+    {
+      "buildId": "26617954",
+      "branch": "public",
+      "timeUpdated": 1794499438,
+      "firstSeen": 1794513299,
+      "manifests": {
+        "4992661": {
+          "gid": "2177896917958854486",
+          "size": 6449855373,
+          "download": 3359585824
+        }
+      }
+    }
+  ],
+  "_change_number": 40883724,
+  "_missing_token": false,
+  "_sha": "e8ce16a45275c308d22f2ffe24b8a684bc09a68f",
+  "_size": 5674,
   "appid": "4992660",
   "common": {
     "associations": {
@@ -19,6 +33,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
       "category_23": "1",
       "category_28": "1",
       "category_45": "1",
@@ -31,6 +46,7 @@
     },
     "clienticon": "52292cfe8ef99d57964000a2b0fb28d699ed6c64",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -39,7 +55,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4992660",
     "genres": {
       "0": "25",
@@ -127,11 +142,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a4b2b7ff8ef9dae85e5f380379a51bcab725be5a/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794349933",
+    "steam_release_date": "1794506438",
+    "store_asset_mtime": "1794491073",
     "store_tags": {
       "0": "1667",
       "1": "4878",
@@ -210,5 +226,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Scawy Game",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "The_Scariest_Game_Ever.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4992661": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3359585824",
+          "gid": "2177896917958854486",
+          "size": "6449855373"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26617954",
+        "timebuildupdated": "1794488999",
+        "timeupdated": "1794499438"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Swytapp Games",
+    "publisher": "Swytapp Games"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": "SwyTapp/The Scariest Game Ever",
+        "pattern": "save_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "SwyTapp/The Scariest Game Ever",
+        "pattern": "achievements.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

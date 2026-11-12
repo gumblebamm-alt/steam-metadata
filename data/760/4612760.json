@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1794073578,
-  "_history": [],
-  "_change_number": 40705594,
-  "_missing_token": true,
-  "_sha": "2c268c8825a10672d29e073f88ae6bc6559d3c03",
-  "_size": 3554,
+  "_lastChecked": 1794513289,
+  "_history": [
+    {
+      "buildId": "26626291",
+      "branch": "public",
+      "timeUpdated": 1794512219,
+      "firstSeen": 1794513289,
+      "manifests": {
+        "4612761": {
+          "gid": "1595592015852087692",
+          "size": 481465625,
+          "download": 336155904
+        },
+        "4612762": {
+          "gid": "4400341882540455148",
+          "size": 586641655,
+          "download": 388062208
+        }
+      }
+    },
+    {
+      "buildId": "26626291",
+      "branch": "public-beta",
+      "timeUpdated": 1794512219,
+      "firstSeen": 1794513289,
+      "manifests": {
+        "4612761": {
+          "gid": "1595592015852087692",
+          "size": 481465625,
+          "download": 336155904
+        },
+        "4612762": {
+          "gid": "4400341882540455148",
+          "size": 586641655,
+          "download": 388062208
+        }
+      }
+    }
+  ],
+  "_change_number": 40886889,
+  "_missing_token": false,
+  "_sha": "5edabb9947dde7951cb56f67305d394c868d18ad",
+  "_size": 6094,
   "appid": "4612760",
   "common": {
     "associations": {
@@ -49,9 +86,9 @@
     "clienticns": "ae9e01cd21456279262ad03d44b518842efc2029",
     "clienticon": "1ae19c941e017212126189f85bb9931a10c0c26e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4612760",
     "genres": {
       "0": "1",
@@ -124,10 +161,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "042aae8b447c0cb71d074baa2a8171c321868450/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794507715",
     "store_asset_mtime": "1792747995",
     "store_tags": {
       "0": "1775",
@@ -158,5 +196,122 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "GET RAMMED",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "GET RAMMED.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "GET RAMMED.app",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4612761": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "336155904",
+          "gid": "1595592015852087692",
+          "size": "481465625"
+        },
+        "public-beta": {
+          "download": "336155904",
+          "gid": "1595592015852087692",
+          "size": "481465625"
+        }
+      }
+    },
+    "4612762": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "388062208",
+          "gid": "4400341882540455148",
+          "size": "586641655"
+        },
+        "public-beta": {
+          "download": "388062208",
+          "gid": "4400341882540455148",
+          "size": "586641655"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26626291",
+        "timebuildupdated": "1794512189",
+        "timeupdated": "1794512219"
+      },
+      "public-beta": {
+        "buildid": "26626291",
+        "description": "Test early new stuff!",
+        "timebuildupdated": "1794512189",
+        "timeupdated": "1794512219"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "4612760"
+  },
+  "extended": {
+    "developer": "Hyrax Studios",
+    "homepage": "https://www.hyrax-studios.com/",
+    "publisher": "Hyrax Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Hyrax Studios/GET RAMMED/Progression/{64BitSteamID}",
+            "replace": "Hyrax Studios/GET RAMMED/Progression/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Hyrax Studios/GET RAMMED/Progression/{64BitSteamID}",
+            "replace": ".config/unity3d/Hyrax Studios/GET RAMMED/Progression/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Hyrax Studios/GET RAMMED/Progression/{64BitSteamID}",
+        "pattern": "progression.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

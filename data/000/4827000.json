@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792945207,
-  "_history": [],
-  "_change_number": 40222314,
-  "_missing_token": true,
-  "_sha": "9dc86e7de951b75745c652a54a277e949439447c",
-  "_size": 3520,
+  "_lastChecked": 1794513294,
+  "_history": [
+    {
+      "buildId": "25420042",
+      "branch": "public",
+      "timeUpdated": 1791101880,
+      "firstSeen": 1794513294,
+      "manifests": {
+        "4827001": {
+          "gid": "8983751271795211264",
+          "size": 293409979,
+          "download": 113668544
+        }
+      }
+    }
+  ],
+  "_change_number": 40883040,
+  "_missing_token": false,
+  "_sha": "4de8112bdcddeed883a8b86e1d0f9fd81c7aef38",
+  "_size": 4514,
   "appid": "4827000",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +45,8 @@
     "clienticns": "7b7e15ed23b9a9400829a01c581c7d50a9242e7c",
     "clienticon": "601cf9a18216953da1a511062c0e2e17a760f366",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4827000",
     "genres": {
       "0": "1",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2f1f39566a2928c7304d3bb3a0c8e09e8d5e419c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794505400",
     "store_asset_mtime": "1792919997",
     "store_tags": {
       "0": "42804",
@@ -163,5 +178,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Quarterheart",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Quarterheart.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4827001": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "113668544",
+          "gid": "8983751271795211264",
+          "size": "293409979"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25420042",
+        "timebuildupdated": "1789905662",
+        "timeupdated": "1791101880"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Emotional Machines",
+    "publisher": "Emotional Machines"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "5242880",
+    "savefiles": {
+      "0": {
+        "path": "Quarterheart",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

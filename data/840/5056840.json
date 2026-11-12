@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793821568,
-  "_history": [],
-  "_change_number": 40062894,
-  "_missing_token": true,
-  "_sha": "5be474d3c249d03fdef5917919598b81b3b36674",
-  "_size": 2937,
+  "_lastChecked": 1794513301,
+  "_history": [
+    {
+      "buildId": "26619773",
+      "branch": "public",
+      "timeUpdated": 1794493925,
+      "firstSeen": 1794513301,
+      "manifests": {
+        "5056842": {
+          "gid": "2032099457637649010",
+          "size": 210163188,
+          "download": 101678480
+        },
+        "5056843": {
+          "gid": "2014546822599322181",
+          "size": 273747215,
+          "download": 120308240
+        },
+        "5056844": {
+          "gid": "4894927314467926065",
+          "size": 175110591,
+          "download": 93174624
+        }
+      }
+    }
+  ],
+  "_change_number": 40886030,
+  "_missing_token": false,
+  "_sha": "d582e479a22e4070b876e28a3dead992b178f15d",
+  "_size": 4280,
   "appid": "5056840",
   "common": {
     "associations": {
@@ -24,8 +48,8 @@
     },
     "clienticon": "baa07443a865b16088f3aa4d4b267f6754063a85",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5056840",
     "genres": {
       "0": "1",
@@ -99,11 +123,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "71862441d61d08ddc3f3ec3eb2d5b49f55ac2952/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792534792",
+    "steam_release_date": "1794510017",
+    "store_asset_mtime": "1794510706",
     "store_tags": {
       "0": "597",
       "1": "9",
@@ -133,5 +158,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Toybox Tactics",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "toybox-tactics-windows.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ToyboxTactics.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "toybox-tactics-linux",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5056842": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "101678480",
+          "gid": "2032099457637649010",
+          "size": "210163188"
+        }
+      }
+    },
+    "5056843": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "120308240",
+          "gid": "2014546822599322181",
+          "size": "273747215"
+        }
+      }
+    },
+    "5056844": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "93174624",
+          "gid": "4894927314467926065",
+          "size": "175110591"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26619773",
+        "timebuildupdated": "1794493923",
+        "timeupdated": "1794493925"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Spark'd",
+    "publisher": "Spark'd"
+  }
 }

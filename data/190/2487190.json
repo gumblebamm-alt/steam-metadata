@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794073566,
-  "_history": [],
-  "_change_number": 40700038,
-  "_missing_token": true,
-  "_sha": "d6ff5fe4bc69b92121c34c01ca407b9e6eaa5139",
-  "_size": 4172,
+  "_lastChecked": 1794513261,
+  "_history": [
+    {
+      "buildId": "26618257",
+      "branch": "public",
+      "timeUpdated": 1794497739,
+      "firstSeen": 1794513261,
+      "manifests": {
+        "2487191": {
+          "gid": "3982966635882220319",
+          "size": 2197047424,
+          "download": 1972885776
+        }
+      }
+    }
+  ],
+  "_change_number": 40886413,
+  "_missing_token": false,
+  "_sha": "b069fbc75d23e73a1cdd282be8b420160e3a85ad",
+  "_size": 5508,
   "appid": "2487190",
   "common": {
     "associations": {
@@ -47,7 +61,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "2487190",
     "genres": {
       "0": "23",
@@ -123,14 +136,17 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "e67f151cf2b0dffaba6df57e35077aa286419e4a/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794048864",
+    "steam_release_date": "1794499169",
+    "store_asset_mtime": "1794499193",
     "store_tags": {
       "0": "255534",
-      "1": "16598",
+      "1": "7332",
       "10": "8945",
       "11": "3810",
       "12": "6730",
@@ -141,7 +157,7 @@
       "17": "4191",
       "18": "9204",
       "19": "3942",
-      "2": "7332",
+      "2": "16598",
       "3": "599",
       "4": "3839",
       "5": "1755",
@@ -194,5 +210,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Main Sequence",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Windows/MainSequence.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2487191": {
+      "manifests": {
+        "public": {
+          "download": "1972885776",
+          "gid": "3982966635882220319",
+          "size": "2197047424"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26618257",
+        "timebuildupdated": "1794489795",
+        "timeupdated": "1794497739"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Tumbling Dumpling Studio",
+    "publisher": "Mythwright"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "MainSequence/Saved/SaveGames",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "MainSequence/Saved/SaveGames/Designs",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

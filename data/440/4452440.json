@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794377699,
-  "_history": [],
-  "_change_number": 40809260,
-  "_missing_token": true,
-  "_sha": "9a94e3614d893095b6930b9213bc23613c6fa0c6",
-  "_size": 3159,
+  "_lastChecked": 1794513286,
+  "_history": [
+    {
+      "buildId": "26551882",
+      "branch": "public",
+      "timeUpdated": 1794264768,
+      "firstSeen": 1794513286,
+      "manifests": {
+        "4452441": {
+          "gid": "3455582710639913587",
+          "size": 557007124,
+          "download": 213040848
+        },
+        "4452442": {
+          "gid": "8227973326349875576",
+          "size": 663047245,
+          "download": 233691776
+        }
+      }
+    }
+  ],
+  "_change_number": 40878547,
+  "_missing_token": false,
+  "_sha": "0fb4dbe1bec3c6589d19631c7f37606eaea9cb31",
+  "_size": 4903,
   "appid": "4452440",
   "common": {
     "associations": {
@@ -28,7 +47,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4452440",
     "genres": {
       "0": "4",
@@ -101,7 +119,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ab4de07970f083fda5c4cdc96d92a43740a11291/capsule_231x87.jpg"
     },
@@ -139,5 +157,97 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "default",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Angler's Lake",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Angler's Lake.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "anglers-lake.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "2",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4452441": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "213040848",
+          "gid": "3455582710639913587",
+          "size": "557007124"
+        }
+      }
+    },
+    "4452442": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "233691776",
+          "gid": "8227973326349875576",
+          "size": "663047245"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26551882",
+        "timebuildupdated": "1794264385",
+        "timeupdated": "1794264768"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Great Oak Games",
+    "homepage": "https://greatoak.gg/our-games/",
+    "publisher": "Loopr Partners"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "/Great Oak Games/Angler's Lake",
+        "pattern": "*.xml",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": ".config/unity3d/Great Oak Games/Angler's Lake",
+        "pattern": "*.xml",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794377711,
-  "_history": [],
-  "_change_number": 40813038,
-  "_missing_token": true,
-  "_sha": "74ef9e0f051223ffd80e3003f7431a9c0d6e9d1d",
-  "_size": 4176,
+  "_lastChecked": 1794513305,
+  "_history": [
+    {
+      "buildId": "26624739",
+      "branch": "public",
+      "timeUpdated": 1794507656,
+      "firstSeen": 1794513305,
+      "manifests": {
+        "5179951": {
+          "gid": "7304820723610618948",
+          "size": 225204400,
+          "download": 139729136
+        },
+        "5179952": {
+          "gid": "6512588541118104053",
+          "size": 196182376,
+          "download": 132441696
+        }
+      }
+    }
+  ],
+  "_change_number": 40884589,
+  "_missing_token": false,
+  "_sha": "34cf79c17a2b238a877ef8d464d7e618606e7eb0",
+  "_size": 5684,
   "appid": "5179950",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +52,8 @@
     },
     "clienticon": "70ed8876e010642540af275426ca10c90bab56f7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5179950",
     "genres": {
       "0": "4",
@@ -124,10 +143,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0e64e5d3aeb12b6c4a3f1d4015fced5f8cdcf095/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794507809",
     "store_asset_mtime": "1794352496",
     "store_tags": {
       "0": "597",
@@ -206,5 +226,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tick & Tired",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "tick&tired.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "tick&tired.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5179951": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "139729136",
+          "gid": "7304820723610618948",
+          "size": "225204400"
+        }
+      }
+    },
+    "5179952": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "132441696",
+          "gid": "6512588541118104053",
+          "size": "196182376"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26624739",
+        "timebuildupdated": "1794507386",
+        "timeupdated": "1794507656"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Cr4zy",
+    "homepage": "https://impress.games/press-kit/cr4zy/tick--tired",
+    "publisher": "Cr4zy"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "200000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ProjectCheck",
+            "replace": "ProjectCheck"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ProjectCheck",
+        "pattern": "*.json*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

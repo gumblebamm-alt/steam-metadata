@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793656009,
-  "_history": [],
-  "_change_number": 40507394,
-  "_missing_token": true,
-  "_sha": "488f40662f2c0439c8979c16eff1c847dd8fd519",
-  "_size": 4088,
+  "_lastChecked": 1794513284,
+  "_history": [
+    {
+      "buildId": "26623435",
+      "branch": "public",
+      "timeUpdated": 1794503761,
+      "firstSeen": 1794513284,
+      "manifests": {
+        "4390082": {
+          "gid": "4653017590586970260",
+          "size": 687003502,
+          "download": 184509952
+        },
+        "4390083": {
+          "gid": "514967685371916091",
+          "size": 856408546,
+          "download": 220082288
+        }
+      }
+    }
+  ],
+  "_change_number": 40882320,
+  "_missing_token": false,
+  "_sha": "01c028f25fcae63dbb46734b1b12359b36e8e263",
+  "_size": 6317,
   "appid": "4390080",
   "common": {
     "associations": {
@@ -35,9 +54,9 @@
     },
     "clienticon": "e1ca6f444a75b743df4804434b6e1cd7fd4b91a2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4390080",
     "genres": {
       "0": "4",
@@ -110,10 +129,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d86851642ae9912206765138b072277fcbf11280/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794504079",
     "store_asset_mtime": "1792783252",
     "store_tags": {
       "0": "916648",
@@ -189,5 +209,104 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bottled by Bears",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Bottled by bears.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Bottled by bears.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "7",
+    "steamcontrollertemplateindex": "13",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input/steam_input_manifest.vdf"
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4390081": {},
+    "4390082": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "184509952",
+          "gid": "4653017590586970260",
+          "size": "687003502"
+        }
+      }
+    },
+    "4390083": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "220082288",
+          "gid": "514967685371916091",
+          "size": "856408546"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26623435",
+        "timebuildupdated": "1794503648",
+        "timeupdated": "1794503761"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "monoii studio",
+    "dlcavailableonstore": "1",
+    "homepage": "https://bottledbybears.com/",
+    "listofdlc": "5465040",
+    "publisher": "monoii studio"
+  },
+  "ufs": {
+    "maxnumfiles": "16",
+    "quota": "15000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "mono-ii/bottledbybears/Profiles/steam_{64BitSteamID}",
+            "replace": "com.mono-ii.Bottled-by-bears/Profiles/steam_{64BitSteamID}/GameProfiles"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "mono-ii/Bottled by bears/Profiles/steam_{64BitSteamID}/GameProfiles",
+        "pattern": "savegame.autosave.*.bin",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

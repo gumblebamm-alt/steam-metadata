@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793513182,
-  "_history": [],
-  "_change_number": 40466553,
-  "_missing_token": true,
-  "_sha": "9755a61461389b460889d8334cbadce5f76ca033",
-  "_size": 4743,
+  "_lastChecked": 1794513297,
+  "_history": [
+    {
+      "buildId": "26619046",
+      "branch": "public",
+      "timeUpdated": 1794491969,
+      "firstSeen": 1794513297,
+      "manifests": {
+        "4948251": {
+          "gid": "3716060220347182596",
+          "size": 127733626,
+          "download": 57658368
+        }
+      }
+    }
+  ],
+  "_change_number": 40883889,
+  "_missing_token": false,
+  "_sha": "98a434b603c0937cee312b657c29ec141e99652e",
+  "_size": 6209,
   "appid": "4948250",
   "common": {
     "aicontenttype": "1",
@@ -40,8 +54,8 @@
     "clienticns": "5ec65b1a1840216d1318d7914db6740eae19d68c",
     "clienticon": "cde9e32cc84f30bb502156ffe49530caffceacca",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4948250",
     "genres": {
       "0": "4",
@@ -114,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "29dbe2e3d6f0fa84339301dfccd3ac1bbcd6548e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794484763",
     "store_asset_mtime": "1793286428",
     "store_tags": {
       "0": "1320952",
@@ -235,5 +250,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Purrtopia",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Purrtopia.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4948251": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "57658368",
+          "gid": "3716060220347182596",
+          "size": "127733626"
+        }
+      }
+    },
+    "baselanguages": "brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "26619046",
+        "timebuildupdated": "1794491910",
+        "timeupdated": "1794491969"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Hotgaze",
+    "publisher": "Hotgaze"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Hotgaze/Purrtopia",
+            "replace": ".config/unity3d/Hotgaze/Purrtopia"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Hotgaze/Purrtopia",
+        "pattern": "purrtopia.sav*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

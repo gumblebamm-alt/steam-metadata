@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794467376,
-  "_history": [],
-  "_change_number": 40856650,
-  "_missing_token": true,
-  "_sha": "8cab73a5047d7f661e9bb8991e63c706fa757a7d",
-  "_size": 7849,
+  "_lastChecked": 1794513299,
+  "_history": [
+    {
+      "buildId": "26625633",
+      "branch": "public",
+      "timeUpdated": 1794510336,
+      "firstSeen": 1794513299,
+      "manifests": {
+        "4990841": {
+          "gid": "6461705586926999380",
+          "size": 745938679,
+          "download": 572305440
+        }
+      }
+    }
+  ],
+  "_change_number": 40885856,
+  "_missing_token": false,
+  "_sha": "0e6f08e7b6ac0c3f2719171f5b245117b725f994",
+  "_size": 9474,
   "appid": "4990840",
   "common": {
     "associations": {
@@ -38,8 +52,8 @@
     },
     "clienticon": "24f77cd29028325db6d170f0c4bee71b79c0e4fc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4990840",
     "genres": {
       "0": "4",
@@ -59,10 +73,14 @@
       "french": "1",
       "german": "1",
       "indonesian": "1",
+      "japanese": "1",
+      "koreana": "1",
       "latam": "1",
       "polish": "1",
       "russian": "1",
+      "schinese": "1",
       "spanish": "1",
+      "tchinese": "1",
       "thai": "1",
       "turkish": "1"
     },
@@ -163,7 +181,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "341954810fc0a60990211a70eac6f12bd9097c7b/capsule_231x87.jpg",
       "japanese": "cbcdbea17d1571748a9148601369f60c20e08d90/capsule_231x87_japanese.jpg",
@@ -171,7 +189,8 @@
       "schinese": "39a9654029d47bd7083e20bc4a2ee0c293602324/capsule_231x87_schinese.jpg",
       "tchinese": "26adca0313c5fda705594a90d4b9e8892c11f10f/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1794447369",
+    "steam_release_date": "1794502814",
+    "store_asset_mtime": "1794506533",
     "store_tags": {
       "0": "3859",
       "1": "597",
@@ -243,5 +262,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "FAKE ME",
+    "launch": {
+      "0": {
+        "executable": "Fake Me.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4990841": {
+      "manifests": {
+        "public": {
+          "download": "572305440",
+          "gid": "6461705586926999380",
+          "size": "745938679"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26625633",
+        "timebuildupdated": "1794510178",
+        "timeupdated": "1794510336"
+      }
+    },
+    "privatebranches": "1",
+    "workshopdepot": "4990840"
+  },
+  "extended": {
+    "developer": "YUMEXE",
+    "publisher": "YUMEXE"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Games/FakeMe/{64BitSteamID}",
+        "pattern": "*.fakemodel",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinMyDocuments"
+      },
+      "2": {
+        "path": "Games/FakeMe/{64BitSteamID}",
+        "pattern": "*_seeded",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinMyDocuments"
+      },
+      "3": {
+        "path": "FakeMe/UserData/{64BitSteamID}",
+        "pattern": "*.fakemodel",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "5": {
+        "path": "FakeMe/UserData/{64BitSteamID}",
+        "pattern": "*_seeded",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

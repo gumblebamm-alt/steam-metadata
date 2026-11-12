@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794205487,
-  "_history": [],
-  "_change_number": 40733556,
-  "_missing_token": true,
-  "_sha": "a3a1347071d8edf6d8e2ca1c7266287a9b801251",
-  "_size": 5180,
+  "_lastChecked": 1794513297,
+  "_history": [
+    {
+      "buildId": "26525144",
+      "branch": "public",
+      "timeUpdated": 1794165664,
+      "firstSeen": 1794513297,
+      "manifests": {
+        "4931481": {
+          "gid": "2634690841239939961",
+          "size": 632377082,
+          "download": 472289344
+        },
+        "4931482": {
+          "gid": "1299954357462470551",
+          "size": 649182899,
+          "download": 481267520
+        },
+        "4931483": {
+          "gid": "4190556686871037701",
+          "size": 642262627,
+          "download": 478475296
+        }
+      }
+    }
+  ],
+  "_change_number": 40881517,
+  "_missing_token": false,
+  "_sha": "971cfc0b427602e83ea257b1e80597811bf96a09",
+  "_size": 7327,
   "appid": "4931480",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +53,8 @@
     },
     "clienticon": "ec8064fc4227f612050fac6efccd0a6d7a4c4249",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4931480",
     "genres": {
       "0": "23",
@@ -102,10 +126,11 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3a29c860726cce798bcd29c7877709b12a7673bf/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794502755",
     "store_asset_mtime": "1794168958",
     "store_tags": {
       "0": "87918",
@@ -259,5 +284,119 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Harvest Together",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Windows",
+        "description_loc": {
+          "english": "Windows"
+        },
+        "executable": "HarvestTogether\\Harvest Together.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Mac",
+        "description_loc": {
+          "english": "Mac"
+        },
+        "executable": "HarvestTogether.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Linux",
+        "description_loc": {
+          "english": "Linux"
+        },
+        "executable": "HarvestTogether\\Harvest Together.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4931481": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "472289344",
+          "gid": "2634690841239939961",
+          "size": "632377082"
+        }
+      }
+    },
+    "4931482": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "481267520",
+          "gid": "1299954357462470551",
+          "size": "649182899"
+        }
+      }
+    },
+    "4931483": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "478475296",
+          "gid": "4190556686871037701",
+          "size": "642262627"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26525144",
+        "timebuildupdated": "1794165664",
+        "timeupdated": "1794165664"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "HelPey",
+    "publisher": "HelPey"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "9999999999",
+    "savefiles": {
+      "0": {
+        "path": "HelPey/Harvest Together/Saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "HelPey/Harvest Together/Saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": "unity3d/HelPey/Harvest Together/Saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgConfigHome"
+      }
+    }
+  }
 }

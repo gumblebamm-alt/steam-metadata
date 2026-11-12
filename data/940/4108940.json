@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794377695,
-  "_history": [],
-  "_change_number": 40801561,
-  "_missing_token": true,
-  "_sha": "e722e24865095e46ebeb9afaf870ad4ee2327a0c",
-  "_size": 4531,
+  "_lastChecked": 1794513279,
+  "_history": [
+    {
+      "buildId": "26570722",
+      "branch": "public",
+      "timeUpdated": 1794328798,
+      "firstSeen": 1794513279,
+      "manifests": {
+        "4108941": {
+          "gid": "475477688381839177",
+          "size": 1522390632,
+          "download": 1339996096
+        },
+        "4108942": {
+          "gid": "6402555920715925267",
+          "size": 1547540645,
+          "download": 1349874816
+        },
+        "4108943": {
+          "gid": "6092226308733374388",
+          "size": 1521040565,
+          "download": 1337848368
+        }
+      }
+    }
+  ],
+  "_change_number": 40882946,
+  "_missing_token": false,
+  "_sha": "16de4f750e7a47d42a782c966263455134023d3e",
+  "_size": 6625,
   "appid": "4108940",
   "common": {
     "associations": {
@@ -34,9 +58,9 @@
     },
     "clienticon": "8d1b75d2be55c9d1ae44e04cfdca1f83cfcc6201",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4108940",
     "genres": {
       "0": "1",
@@ -123,10 +147,11 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b2c47ab6bde8a69fd42741c3b58f9e8ace5cbbad/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794505190",
     "store_asset_mtime": "1794238182",
     "store_tags": {
       "0": "1628",
@@ -214,5 +239,118 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Vitavania",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Vitavania.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Vitavania.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Vitavania Mac.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4108941": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1339996096",
+          "gid": "475477688381839177",
+          "size": "1522390632"
+        }
+      }
+    },
+    "4108942": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1349874816",
+          "gid": "6402555920715925267",
+          "size": "1547540645"
+        }
+      }
+    },
+    "4108943": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1337848368",
+          "gid": "6092226308733374388",
+          "size": "1521040565"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26570722",
+        "timebuildupdated": "1794328755",
+        "timeupdated": "1794328798"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Nekod",
+    "publisher": "Nekod team"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Nekod team/Vitavania",
+            "replace": ".config/unity3d/Nekod team/Vitavania"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Nekod team/Vitavania",
+            "replace": "unity.Nekod team.Vitavania"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Nekod team/Vitavania",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

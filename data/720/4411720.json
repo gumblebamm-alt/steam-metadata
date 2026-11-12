@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1794294989,
-  "_history": [],
-  "_change_number": 40773466,
-  "_missing_token": true,
-  "_sha": "0c04b0f58e6ce8e32770732f391290ee54444464",
-  "_size": 3896,
+  "_lastChecked": 1794513285,
+  "_history": [
+    {
+      "buildId": "26614888",
+      "branch": "deck_review",
+      "timeUpdated": 1794483290,
+      "firstSeen": 1794513285,
+      "manifests": {
+        "4411721": {
+          "gid": "2397622152854386959",
+          "size": 4491865552,
+          "download": 2921063344
+        },
+        "4411722": {
+          "gid": "6954999962298988544",
+          "size": 4565039051,
+          "download": 2943942016
+        }
+      }
+    },
+    {
+      "buildId": "26614888",
+      "branch": "public",
+      "timeUpdated": 1794483290,
+      "firstSeen": 1794513285,
+      "manifests": {
+        "4411721": {
+          "gid": "2397622152854386959",
+          "size": 4491865552,
+          "download": 2921063344
+        },
+        "4411722": {
+          "gid": "6954999962298988544",
+          "size": 4565039051,
+          "download": 2943942016
+        }
+      }
+    }
+  ],
+  "_change_number": 40885715,
+  "_missing_token": false,
+  "_sha": "b0d4d846df86dd6ff0a2d74954034c25fae45762",
+  "_size": 6440,
   "appid": "4411720",
   "common": {
     "associations": {
@@ -41,8 +78,8 @@
     "clienticns": "13512ddfe452f83bbd0bf38ec4c35b68de31c846",
     "clienticon": "00e65767aef6128c7e9424c070c267677306d0ef",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4411720",
     "genres": {
       "0": "23",
@@ -115,10 +152,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a61b246c8ba47b2ac332301094d1cfad1cb8fa58/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794487895",
     "store_asset_mtime": "1794265951",
     "store_tags": {
       "0": "701",
@@ -185,5 +223,120 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pro Basketball Manager 2027",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "PBM2027.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "PBM2027.app/Contents/MacOS/Pro Basketball Manager 2027",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "PBM2027_Data\\Includes\\controllers\\pbm2027_action_manifest.vdf"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4411721": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "deck_review": {
+          "download": "2921063344",
+          "gid": "2397622152854386959",
+          "size": "4491865552"
+        },
+        "public": {
+          "download": "2921063344",
+          "gid": "2397622152854386959",
+          "size": "4491865552"
+        }
+      }
+    },
+    "4411722": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "deck_review": {
+          "download": "2943942016",
+          "gid": "6954999962298988544",
+          "size": "4565039051"
+        },
+        "public": {
+          "download": "2943942016",
+          "gid": "6954999962298988544",
+          "size": "4565039051"
+        }
+      }
+    },
+    "4411723": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      }
+    },
+    "baselanguages": "brazilian,czech,english,french,german,greek,italian,polish,portuguese,russian,schinese,spanish,tchinese,turkish",
+    "branches": {
+      "deck_review": {
+        "buildid": "26614888",
+        "description": "Stable build for Steam deck review",
+        "timebuildupdated": "1794479883",
+        "timeupdated": "1794483290"
+      },
+      "public": {
+        "buildid": "26614888",
+        "timebuildupdated": "1794479883",
+        "timeupdated": "1794483290"
+      }
+    },
+    "privatebranches": "1",
+    "workshopdepot": "4411720"
+  },
+  "extended": {
+    "developer": "Umix Studios",
+    "homepage": "https://pro-basketball-manager.com",
+    "publisher": "Umix Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "Umix Studios/Pro Basketball Manager 2027/Saves",
+        "pattern": "*.pbmsave",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "com.UmixStudios.ProBasketballManager2027/Saves",
+        "pattern": "*.pbmsave",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

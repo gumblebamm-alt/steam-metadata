@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792857604,
-  "_history": [],
-  "_change_number": 40201360,
-  "_missing_token": true,
-  "_sha": "acda5b94273f1fa8eef1949291cc59e0fe6e85a0",
-  "_size": 3070,
+  "_lastChecked": 1794513279,
+  "_history": [
+    {
+      "buildId": "26614789",
+      "branch": "public",
+      "timeUpdated": 1794480201,
+      "firstSeen": 1794513279,
+      "manifests": {
+        "4083131": {
+          "gid": "1767641662059419410",
+          "size": 3737265686,
+          "download": 1212892720
+        }
+      }
+    }
+  ],
+  "_change_number": 40869378,
+  "_missing_token": false,
+  "_sha": "bca4ca299fc4f17413b82a27d521cf227f829b95",
+  "_size": 5152,
   "appid": "4083130",
   "common": {
     "aicontenttype": "1",
@@ -20,6 +34,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
       "category_23": "1",
       "category_62": "1",
       "category_68": "1",
@@ -32,8 +47,8 @@
     },
     "clienticon": "9684dc9fbd8dc5d4d284ff28e162878cec9d9c49",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4083130",
     "genres": {
       "0": "23",
@@ -104,11 +119,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "23298a73634ea878a93498d4a30d122767b5d910/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1790048035",
+    "steam_release_date": "1794481555",
+    "store_asset_mtime": "1794481424",
     "store_tags": {
       "0": "9",
       "1": "1666",
@@ -136,5 +152,110 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Against the Horde",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Against the Horde.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Against the Horde.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4083131": {
+      "config": {
+        "language": "english",
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1212892720",
+          "gid": "1767641662059419410",
+          "size": "3737265686"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26614789",
+        "timebuildupdated": "1794479582",
+        "timeupdated": "1794480201"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Sandworm Entertainment",
+    "publisher": "Sandworm Entertainment"
+  },
+  "ufs": {
+    "maxnumfiles": "30",
+    "quota": "5000000",
+    "savefiles": {
+      "1": {
+        "path": "Sandworm/Against the Horde",
+        "pattern": "playerSettings.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Sandworm/Against the Horde",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Sandworm/Against the Horde",
+        "pattern": "game_seeds.txt",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": "Sandworm/Against the Horde",
+        "pattern": "playerSettings.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "5": {
+        "path": "Sandworm/Against the Horde",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "6": {
+        "path": "Sandworm/Against the Horde",
+        "pattern": "game_seeds.txt",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

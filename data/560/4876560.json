@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794467373,
-  "_history": [],
-  "_change_number": 40858898,
-  "_missing_token": true,
-  "_sha": "d2ceddaba6ac477435b5e2274aa2d2dddf031db5",
-  "_size": 3323,
+  "_lastChecked": 1794513296,
+  "_history": [
+    {
+      "buildId": "26604184",
+      "branch": "public",
+      "timeUpdated": 1794440160,
+      "firstSeen": 1794513296,
+      "manifests": {
+        "4876561": {
+          "gid": "8848791466625562402",
+          "size": 1088960744,
+          "download": 255005008
+        },
+        "4876562": {
+          "gid": "8941569211820962918",
+          "size": 1078788057,
+          "download": 250595808
+        }
+      }
+    }
+  ],
+  "_change_number": 40867853,
+  "_missing_token": false,
+  "_sha": "161cf4c907be23024d224aa8ac7a2601f136f4b7",
+  "_size": 4614,
   "appid": "4876560",
   "common": {
     "aicontenttype": "1",
@@ -32,8 +51,8 @@
     },
     "clienticon": "df1e0290d62b42654b2ef1c3a7932424fed595a8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4876560",
     "genres": {
       "0": "4",
@@ -106,7 +125,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "71efa63831f067387150a7f206d9f021a1c8f842/capsule_231x87.jpg"
     },
@@ -150,5 +169,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cowboy!Duel!",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Cowboy Showdown!.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4876561": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "255005008",
+          "gid": "8848791466625562402",
+          "size": "1088960744"
+        }
+      }
+    },
+    "4876562": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "250595808",
+          "gid": "8941569211820962918",
+          "size": "1078788057"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26604184",
+        "timebuildupdated": "1794440003",
+        "timeupdated": "1794440160"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "ZeyranIndividual",
+    "publisher": "ZeyranIndividual"
+  },
+  "ufs": {
+    "maxnumfiles": "8",
+    "quota": "100000",
+    "savefiles": {
+      "1": {
+        "path": "Zeyran/Cowboy Showdown!/Json",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793124072,
+  "_lastChecked": 1794513285,
   "_history": [
     {
       "buildId": "25904281",
@@ -39,12 +39,25 @@
           "download": 80608128
         }
       }
+    },
+    {
+      "buildId": "26619189",
+      "branch": "public",
+      "timeUpdated": 1794492825,
+      "firstSeen": 1794513285,
+      "manifests": {
+        "4425981": {
+          "gid": "7439917999398148350",
+          "size": 245391077,
+          "download": 80966208
+        }
+      }
     }
   ],
-  "_change_number": 40235328,
+  "_change_number": 40876257,
   "_missing_token": false,
-  "_sha": "002444cc3ad97a8d0dbaccea7a9b2b3e35713e51",
-  "_size": 8817,
+  "_sha": "fef84b68ebdd1133595cac7f68e338f2d1ce0e98",
+  "_size": 11010,
   "appid": "4425980",
   "common": {
     "associations": {
@@ -64,6 +77,8 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
+      "category_28": "1",
       "category_62": "1",
       "category_67": "1",
       "category_68": "1",
@@ -74,6 +89,7 @@
     "clienticon": "91105a86408f1a3fc92aaf1f084d09b5b0f27992",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
     "gameid": "4425980",
     "genres": {
@@ -216,6 +232,67 @@
       "schinese": "9ecd023325f9458e423200b67e13030ffe7553e5/capsule_231x87_schinese.jpg",
       "tchinese": "c33cd895e625a4361c44ee06530ecb17d584eef0/capsule_231x87_tchinese.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      },
+      "test_timestamp": "1792787149",
+      "tested_build_id": "26135917",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
     "steam_release_date": "1791894695",
     "store_asset_mtime": "1792142808",
     "store_tags": {
@@ -241,8 +318,13 @@
       "9": "3871"
     },
     "supported_languages": {
+      "arabic": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "brazilian": {
-        "subtitles": "true"
+        "subtitles": "true",
+        "supported": "true"
       },
       "english": {
         "full_audio": "true",
@@ -273,6 +355,10 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "spanish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "tchinese": {
         "subtitles": "true",
         "supported": "true"
@@ -300,17 +386,17 @@
       },
       "manifests": {
         "public": {
-          "download": "80608128",
-          "gid": "766080007402044803",
-          "size": "238969456"
+          "download": "80966208",
+          "gid": "7439917999398148350",
+          "size": "245391077"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26135917",
-        "timebuildupdated": "1792679173",
-        "timeupdated": "1792679709"
+        "buildid": "26619189",
+        "timebuildupdated": "1794492279",
+        "timeupdated": "1794492825"
       }
     },
     "privatebranches": "1"
@@ -319,5 +405,16 @@
     "developer": "Baffled Engineer",
     "homepage": "https://impress.games/press-kit/baffled-engineer/legion-breaker",
     "publisher": "Level Up Gaming"
+  },
+  "ufs": {
+    "maxnumfiles": "3",
+    "quota": "30000",
+    "savefiles": {
+      "0": {
+        "path": "Baffled Engineer/Legion Breaker",
+        "pattern": "SaveGame.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

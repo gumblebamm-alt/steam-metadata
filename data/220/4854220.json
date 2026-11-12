@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793734368,
-  "_history": [],
-  "_change_number": 40556331,
-  "_missing_token": true,
-  "_sha": "6bb9ec6c8cd71bb28b96624b73f58be64d7afb5d",
-  "_size": 3336,
+  "_lastChecked": 1794513295,
+  "_history": [
+    {
+      "buildId": "26468327",
+      "branch": "public",
+      "timeUpdated": 1793911333,
+      "firstSeen": 1794513295,
+      "manifests": {
+        "4854221": {
+          "gid": "2088710824761523328",
+          "size": 907357269,
+          "download": 795121008
+        },
+        "4854222": {
+          "gid": "4064719378324105427",
+          "size": 967122280,
+          "download": 817685184
+        }
+      }
+    }
+  ],
+  "_change_number": 40875222,
+  "_missing_token": false,
+  "_sha": "63e591fea947e6d6425e34420c19b4bea30a70c7",
+  "_size": 4910,
   "appid": "4854220",
   "common": {
     "aicontenttype": "1",
@@ -33,9 +52,9 @@
     "clienticns": "7e7f307bf81d8ac5f5c875e76cc92b55893864bd",
     "clienticon": "c4fb04e7bb6b1a307cdcbaaaf66c01bbdfcd4824",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4854220",
     "genres": {
       "0": "1",
@@ -111,32 +130,33 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a7a5fb6aa9b1f0d0215d92fb29bba1d4ce3464fc/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791050275",
+    "steam_release_date": "1794477536",
+    "store_asset_mtime": "1794482039",
     "store_tags": {
-      "0": "3959",
-      "1": "3798",
-      "10": "5372",
-      "11": "4182",
-      "12": "5716",
-      "13": "5765",
-      "14": "5154",
-      "15": "4195",
-      "16": "4094",
-      "17": "3942",
-      "18": "12057",
-      "19": "492",
-      "2": "1774",
-      "3": "3871",
-      "4": "19",
-      "5": "1773",
-      "6": "1759",
-      "7": "5125",
-      "8": "3993",
-      "9": "1742"
+      "0": "42804",
+      "1": "4637",
+      "10": "3993",
+      "11": "1742",
+      "12": "5372",
+      "13": "4182",
+      "14": "5716",
+      "15": "4166",
+      "16": "5765",
+      "17": "5154",
+      "18": "4195",
+      "19": "3942",
+      "2": "3959",
+      "3": "1774",
+      "4": "3871",
+      "5": "19",
+      "6": "6052",
+      "7": "1773",
+      "8": "1759",
+      "9": "5125"
     },
     "supported_languages": {
       "english": {
@@ -148,5 +168,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Stick Crisis",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Stick Crisis",
+        "description_loc": {
+          "english": "Play Stick Crisis"
+        },
+        "executable": "StickCrisis.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "macos"
+        },
+        "description": "Play Stick Crisis",
+        "description_loc": {
+          "english": "Play Stick Crisis"
+        },
+        "executable": "StickCrisis.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4854221": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "795121008",
+          "gid": "2088710824761523328",
+          "size": "907357269"
+        }
+      }
+    },
+    "4854222": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "817685184",
+          "gid": "4064719378324105427",
+          "size": "967122280"
+        }
+      }
+    },
+    "baselanguages": "english,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26468327",
+        "timebuildupdated": "1793911212",
+        "timeupdated": "1793911333"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Victor Manuel Ramirez",
+    "homepage": "https://stickcrisis.com",
+    "publisher": "Victor Manuel Ramirez"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000"
+  }
 }

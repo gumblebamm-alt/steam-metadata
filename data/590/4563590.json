@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794425765,
-  "_history": [],
-  "_change_number": 40840123,
-  "_missing_token": true,
-  "_sha": "bf0144abb7b8bb020e2b22e167ed8422434d0ffd",
-  "_size": 4744,
+  "_lastChecked": 1794513288,
+  "_history": [
+    {
+      "buildId": "26618338",
+      "branch": "public",
+      "timeUpdated": 1794490090,
+      "firstSeen": 1794513288,
+      "manifests": {
+        "4563592": {
+          "gid": "8726949323384040478",
+          "size": 3714846635,
+          "download": 1451727376
+        }
+      }
+    }
+  ],
+  "_change_number": 40884015,
+  "_missing_token": false,
+  "_sha": "98212a9cb2c0021bf4ecf117d09129dd3d703ec8",
+  "_size": 5663,
   "appid": "4563590",
   "common": {
     "associations": {
@@ -43,9 +57,9 @@
     },
     "clienticon": "f42ecd9219a33f152df0416fe3830a2cc21d317c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4563590",
     "genres": {
       "0": "1",
@@ -123,15 +137,19 @@
       }
     },
     "name": "Pig King",
+    "name_localized": {
+      "schinese": "猪王争霸赛"
+    },
     "osarch": "",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "35628ed6c82b045e49541bdf6741b8396d732043/capsule_231x87.jpg",
       "schinese": "85ee4fa7443228286d8d23876af4339cd9ceb2a9/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1794499198",
     "store_asset_mtime": "1794344960",
     "store_tags": {
       "0": "19",
@@ -188,5 +206,53 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PigKing",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "PigKing.exe"
+      }
+    }
+  },
+  "depots": {
+    "4563592": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1451727376",
+          "gid": "8726949323384040478",
+          "size": "3714846635"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26618338",
+        "timebuildupdated": "1794489999",
+        "timeupdated": "1794490090"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "TwoPeaks",
+    "publisher": "TwoPeaks"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "TwoPeaks/PigKing",
+        "pattern": "save.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

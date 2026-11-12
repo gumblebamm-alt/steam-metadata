@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794467359,
-  "_history": [],
-  "_change_number": 40811122,
-  "_missing_token": true,
-  "_sha": "18c2f007fc46cccaaa986e4ff965e808b2c5f32f",
-  "_size": 3862,
+  "_lastChecked": 1794513273,
+  "_history": [
+    {
+      "buildId": "26576882",
+      "branch": "public",
+      "timeUpdated": 1794347549,
+      "firstSeen": 1794513273,
+      "manifests": {
+        "3737611": {
+          "gid": "2769328193667397976",
+          "size": 470143684,
+          "download": 207214656
+        }
+      }
+    }
+  ],
+  "_change_number": 40886670,
+  "_missing_token": false,
+  "_sha": "788f275e49badee2ec5a89f8b38f5ff87b7c523a",
+  "_size": 5467,
   "appid": "3737610",
   "common": {
     "associations": {
@@ -30,8 +44,8 @@
     "clienticon": "df949b47a9c4a9e7d163e8d6855c7f417638c991",
     "clienttga": "4c95ad16de423a4db1893fca3bfb4dbfb165b271",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3737610",
     "genres": {
       "0": "1",
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ca3bb5179eafeeb9e314cd3dbb7200e4e6ed3cf0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794511836",
     "store_asset_mtime": "1792605651",
     "store_tags": {
       "0": "5395",
@@ -177,5 +192,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Explosiovania",
+    "launch": {
+      "0": {
+        "arguments": "--rendering-driver vulkan",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Explosiovania using Vulkan (Default)",
+        "description_loc": {
+          "english": "Explosiovania using Vulkan (Default)"
+        },
+        "executable": "Explosiovania.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "--rendering-driver d3d12",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Explosiovania using DirectX 12",
+        "description_loc": {
+          "english": "Explosiovania using DirectX 12"
+        },
+        "executable": "Explosiovania.exe",
+        "type": "option2"
+      }
+    }
+  },
+  "depots": {
+    "3737611": {
+      "manifests": {
+        "public": {
+          "download": "207214656",
+          "gid": "2769328193667397976",
+          "size": "470143684"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26576882",
+        "timebuildupdated": "1794347525",
+        "timeupdated": "1794347549"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "White Eye",
+    "publisher": "White Eye"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Explosiovania/saves",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Explosiovania/saves_demo",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

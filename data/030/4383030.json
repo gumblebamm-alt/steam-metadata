@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794262871,
-  "_history": [],
-  "_change_number": 40752816,
-  "_missing_token": true,
-  "_sha": "c453a599e9eb4880d76bfb7a0df72f01990d171b",
-  "_size": 3011,
+  "_lastChecked": 1794513284,
+  "_history": [
+    {
+      "buildId": "26625969",
+      "branch": "public",
+      "timeUpdated": 1794511362,
+      "firstSeen": 1794513284,
+      "manifests": {
+        "4383031": {
+          "gid": "5156975104315442923",
+          "size": 274388942,
+          "download": 73177776
+        }
+      }
+    }
+  ],
+  "_change_number": 40886469,
+  "_missing_token": false,
+  "_sha": "ad64408fb0be32e561ee8a2c5eaf00111bfb5a6f",
+  "_size": 5039,
   "appid": "4383030",
   "common": {
     "associations": {
@@ -19,6 +33,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_23": "1",
       "category_62": "1",
       "category_69": "1",
       "category_74": "1",
@@ -28,7 +43,6 @@
     "clienticon": "0683a497f752838115b4eaa1437fb109bf971f69",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4383030",
     "genres": {
       "0": "25",
@@ -102,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2383adbf210034e286b8af47ae082bfb04fb1770/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794499202",
     "store_asset_mtime": "1794225721",
     "store_tags": {
       "0": "597",
@@ -129,12 +144,118 @@
       "9": "3964"
     },
     "supported_languages": {
+      "brazilian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "french": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "german": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "italian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "japanese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "latam": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "portuguese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "russian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "schinese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "spanish": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "tchinese": {
         "subtitles": "true",
         "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Debts and Dungeons",
+    "launch": {
+      "0": {
+        "executable": "Rolls and Dungeons.exe"
+      }
+    }
+  },
+  "depots": {
+    "4383031": {
+      "manifests": {
+        "public": {
+          "download": "73177776",
+          "gid": "5156975104315442923",
+          "size": "274388942"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26625969",
+        "timebuildupdated": "1794511202",
+        "timeupdated": "1794511362"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Blessed Heartland",
+    "publisher": "Andgo Games"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "1048576",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Blessed Land/Rolls and Dungeons/Saves",
+            "replace": ".config/unity3d/Blessed Land/Rolls and Dungeons/Saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Blessed Land/Rolls and Dungeons/Saves",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

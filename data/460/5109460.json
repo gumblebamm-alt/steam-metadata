@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793821570,
-  "_history": [],
-  "_change_number": 40600222,
-  "_missing_token": true,
-  "_sha": "719a04c9527c3c4c7ace76b4c0566e08bf1f3007",
-  "_size": 4796,
+  "_lastChecked": 1794513303,
+  "_history": [
+    {
+      "buildId": "26592698",
+      "branch": "public",
+      "timeUpdated": 1794404825,
+      "firstSeen": 1794513303,
+      "manifests": {
+        "5109461": {
+          "gid": "2980299533043994412",
+          "size": 374510894,
+          "download": 144498960
+        },
+        "5109462": {
+          "gid": "4334069006876633065",
+          "size": 581710124,
+          "download": 181171424
+        }
+      }
+    }
+  ],
+  "_change_number": 40881502,
+  "_missing_token": false,
+  "_sha": "3d4603b513b57a7801c591f9f270622a2c305800",
+  "_size": 6353,
   "appid": "5109460",
   "common": {
     "associations": {
@@ -32,8 +51,8 @@
     "clienticns": "00ae909820019449359b2f2c6a12c757eea33ce0",
     "clienticon": "00ae909820019449359b2f2c6a12c757eea33ce0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5109460",
     "genres": {
       "0": "4",
@@ -123,10 +142,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3768235c6fbdc3d33042c331896676ebc3661fbe/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794502732",
     "store_asset_mtime": "1793815356",
     "store_tags": {
       "0": "1320952",
@@ -219,5 +239,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Desktop Ball",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Desktop Ball.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Desktop Ball.app"
+      }
+    }
+  },
+  "depots": {
+    "5109461": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "144498960",
+          "gid": "2980299533043994412",
+          "size": "374510894"
+        }
+      }
+    },
+    "5109462": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "181171424",
+          "gid": "4334069006876633065",
+          "size": "581710124"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,latam,polish,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26592698",
+        "timebuildupdated": "1794404825",
+        "timeupdated": "1794404825"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Emergent Behavior Studios",
+    "homepage": "https://emergentbehaviorstudios.com",
+    "publisher": "Emergent Behavior Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "16",
+    "quota": "1048576",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Emergent Behavior Studios/Desktop Ball",
+        "pattern": "settings.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794339877,
-  "_history": [],
-  "_change_number": 40800008,
-  "_missing_token": true,
-  "_sha": "553948a6fe6e84168d8c1cb95838c0c7712c5c8c",
-  "_size": 3517,
+  "_lastChecked": 1794513275,
+  "_history": [
+    {
+      "buildId": "26626212",
+      "branch": "public",
+      "timeUpdated": 1794512133,
+      "firstSeen": 1794513275,
+      "manifests": {
+        "3856991": {
+          "gid": "3160359531060798942",
+          "size": 1070842334,
+          "download": 232778272
+        },
+        "3856992": {
+          "gid": "3516276845338995914",
+          "size": 1087230685,
+          "download": 240292144
+        }
+      }
+    }
+  ],
+  "_change_number": 40886914,
+  "_missing_token": false,
+  "_sha": "b319c9c9b888b7566e245e4c070379dbcea330a0",
+  "_size": 5560,
   "appid": "3856990",
   "common": {
     "associations": {
@@ -22,12 +41,20 @@
       "category_22": "1",
       "category_23": "1",
       "category_25": "1",
-      "category_62": "1"
+      "category_62": "1",
+      "category_64": "1",
+      "category_67": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_76": "1",
+      "category_78": "1",
+      "category_79": "1",
+      "category_80": "1"
     },
     "clienticon": "190bd5e67ed9de402fd0bd8b42ebf4abe04f1972",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3856990",
     "genres": {
       "0": "23",
@@ -94,15 +121,17 @@
       }
     },
     "name": "Spin Tactics",
-    "osarch": "",
-    "osextended": "",
+    "osarch": "64",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2994c8d4d21be5a196779e7d5fcf596d4b96b4d0/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794326281",
+    "steam_release_date": "1794506513",
+    "store_asset_mtime": "1794507193",
     "store_tags": {
       "0": "1091588",
       "1": "3959",
@@ -167,5 +196,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Spin Tactics",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SpinTactics.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "SpinTactics.app"
+      }
+    }
+  },
+  "depots": {
+    "3856991": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "232778272",
+          "gid": "3160359531060798942",
+          "size": "1070842334"
+        }
+      }
+    },
+    "3856992": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "240292144",
+          "gid": "3516276845338995914",
+          "size": "1087230685"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,polish,russian,schinese,spanish,tchinese,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26626212",
+        "timebuildupdated": "1794511912",
+        "timeupdated": "1794512133"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Dead Broke Games",
+    "homepage": "https://playspintactics.com/",
+    "publisher": "Dead Broke Games"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Dead Broke Games/SpinTactics",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Dead Broke Games/SpinTactics",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": "unity3d/Dead Broke Games/SpinTactics",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxXdgConfigHome"
+      }
+    }
+  }
 }

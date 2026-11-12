@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794377697,
-  "_history": [],
-  "_change_number": 40821269,
-  "_missing_token": true,
-  "_sha": "3840823df6684458048a3a8db6fb7dd01a1017f9",
-  "_size": 4117,
+  "_lastChecked": 1794513283,
+  "_history": [
+    {
+      "buildId": "26606150",
+      "branch": "public",
+      "timeUpdated": 1794467757,
+      "firstSeen": 1794513283,
+      "manifests": {
+        "4304061": {
+          "gid": "6615892838271728676",
+          "size": 448328601,
+          "download": 219158464
+        },
+        "4304062": {
+          "gid": "7340147818319170706",
+          "size": 557151983,
+          "download": 245341424
+        }
+      }
+    }
+  ],
+  "_change_number": 40886437,
+  "_missing_token": false,
+  "_sha": "8cdaf6f4b01164c6a32bb0471e014cbb473bf185",
+  "_size": 6528,
   "appid": "4304060",
   "common": {
     "associations": {
@@ -37,9 +56,9 @@
     },
     "clienticon": "7dcc40bcc51bbbf28782e8b800f5fa8e1abe397c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4304060",
     "genres": {
       "0": "1",
@@ -128,11 +147,14 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "90",
+    "review_score": "7",
     "small_capsule": {
       "english": "e62d98782258ab9878a1f60bdfb78c57e98c3a79/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792544512",
+    "steam_release_date": "1794470408",
+    "store_asset_mtime": "1794469526",
     "store_tags": {
       "0": "19",
       "1": "597",
@@ -197,5 +219,108 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "sonic_pico_park",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "sonic_pico_park.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "sonic_pico_park.exe"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "sonic_pico_park.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollerconfigdetails": {
+      "3797542489": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default,beta,dev_debug,gemdev,prototype,test001,test002,up_test",
+        "use_action_block": "false"
+      },
+      "3797552167": {
+        "controller_type": "controller_switch_pro",
+        "enabled_branches": "default,beta,dev_debug,gemdev,prototype,test001,test002,up_test",
+        "use_action_block": "false"
+      },
+      "3797555009": {
+        "controller_type": "controller_ps4",
+        "enabled_branches": "default,beta,dev_debug,gemdev,prototype,test001,test002,up_test",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4304061": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "219158464",
+          "gid": "6615892838271728676",
+          "size": "448328601"
+        }
+      }
+    },
+    "4304062": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "245341424",
+          "gid": "7340147818319170706",
+          "size": "557151983"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,italian,japanese,koreana,polish,schinese,spanish,tchinese,thai,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26606150",
+        "timebuildupdated": "1794447424",
+        "timeupdated": "1794467757"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "TECOPARK",
+    "publisher": "PICO PARK Inc."
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "PICO PARK Inc_/SONIC PICO PARK/Steam/{64BitSteamID}",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

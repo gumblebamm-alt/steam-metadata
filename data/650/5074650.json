@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793908661,
-  "_history": [],
-  "_change_number": 40633259,
-  "_missing_token": true,
-  "_sha": "1904fba44874d36ef45a0c31c15eb42dbbbce6e0",
-  "_size": 3555,
+  "_lastChecked": 1794513302,
+  "_history": [
+    {
+      "buildId": "26618314",
+      "branch": "public",
+      "timeUpdated": 1794490191,
+      "firstSeen": 1794513302,
+      "manifests": {
+        "5074651": {
+          "gid": "1749749708962618057",
+          "size": 1310804524,
+          "download": 538965920
+        }
+      }
+    }
+  ],
+  "_change_number": 40873966,
+  "_missing_token": false,
+  "_sha": "7abd576513d2155890f4748ecfddc563f465be03",
+  "_size": 5626,
   "appid": "5074650",
   "common": {
     "aicontenttype": "1",
@@ -19,6 +33,7 @@
       }
     },
     "category": {
+      "category_18": "1",
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
@@ -31,14 +46,15 @@
     },
     "clienticon": "82758f0ae0f4e3d9dc2efcfa7575095b0d3f6776",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
     "content_descriptors_including_dlc": {
       "0": "5"
     },
+    "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5074650",
     "genres": {
       "0": "23",
@@ -117,10 +133,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7f1de2ad6f6d6aca3ae107a9baa21285637b490b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794481450",
     "store_asset_mtime": "1793117004",
     "store_tags": {
       "0": "916648",
@@ -145,11 +162,23 @@
       "9": "32322"
     },
     "supported_languages": {
+      "brazilian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "english": {
         "subtitles": "true",
         "supported": "true"
       },
+      "german": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "japanese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "koreana": {
         "subtitles": "true",
         "supported": "true"
       },
@@ -168,5 +197,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Memento Resonance",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MementoResonance.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5074651": {
+      "manifests": {
+        "public": {
+          "download": "538965920",
+          "gid": "1749749708962618057",
+          "size": "1310804524"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26618314",
+        "timebuildupdated": "1794489933",
+        "timeupdated": "1794490191"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Lipcat Games",
+    "publisher": "Lipcat Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "4000000",
+    "savefiles": {
+      "0": {
+        "path": "MementoResonance",
+        "pattern": "demo_monster_transfer.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "MementoResonance",
+        "pattern": "demo_monster_transfer.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "Lipcat Games/Memento Resonance",
+        "pattern": "player_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Lipcat Games/Memento Resonance",
+        "pattern": "player_save.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": "Lipcat Games/Memento Resonance",
+        "pattern": "run_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "5": {
+        "path": "Lipcat Games/Memento Resonance",
+        "pattern": "run_save.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

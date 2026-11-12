@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794425767,
-  "_history": [],
-  "_change_number": 40831416,
-  "_missing_token": true,
-  "_sha": "76322056b89d9f22c7253cdda549888fd14c4e67",
-  "_size": 3759,
+  "_lastChecked": 1794513290,
+  "_history": [
+    {
+      "buildId": "26454577",
+      "branch": "public",
+      "timeUpdated": 1793871959,
+      "firstSeen": 1794513290,
+      "manifests": {
+        "4639741": {
+          "gid": "8870258388075432218",
+          "size": 128701912,
+          "download": 51273760
+        }
+      }
+    }
+  ],
+  "_change_number": 40865517,
+  "_missing_token": false,
+  "_sha": "c93036911c81690e4d878f809a78405c4d3e025d",
+  "_size": 4818,
   "appid": "4639740",
   "common": {
     "associations": {
@@ -32,9 +46,9 @@
     },
     "clienticon": "0c2bce8b186e0216a70baef0ea0bbe88e66d871e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4639740",
     "genres": {
       "0": "4",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f348367694b0a37f48ad09191d101d56eaa27bb7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794473710",
     "store_asset_mtime": "1787742546",
     "store_tags": {
       "0": "560542",
@@ -180,5 +195,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gnat Pack",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "GnatPack.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4639741": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "51273760",
+          "gid": "8870258388075432218",
+          "size": "128701912"
+        }
+      }
+    },
+    "baselanguages": "dutch,english,french,german,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26454577",
+        "timebuildupdated": "1793871903",
+        "timeupdated": "1793871959"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Lewlew McDewdew",
+    "publisher": "Lewlew McDewdew"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Gnat Pack",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

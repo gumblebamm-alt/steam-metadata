@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793947326,
+  "_lastChecked": 1794513293,
   "_history": [
     {
       "buildId": "26462226",
@@ -26,12 +26,56 @@
           "download": 3173169440
         }
       }
+    },
+    {
+      "buildId": "26563190",
+      "branch": "0.8.5",
+      "timeUpdated": 1794308117,
+      "firstSeen": 1794513293,
+      "manifests": {
+        "4809753": {
+          "gid": "4062481344949624422",
+          "size": 3746159181,
+          "download": 3174099584
+        }
+      }
+    },
+    {
+      "buildId": "26611033",
+      "branch": "public",
+      "timeUpdated": 1794470277,
+      "firstSeen": 1794513293,
+      "manifests": {
+        "4809753": {
+          "gid": "1221241629788480587",
+          "size": 3800836153,
+          "download": 3232253520
+        }
+      }
+    },
+    {
+      "buildId": "26614368",
+      "branch": "test",
+      "timeUpdated": 1794478279,
+      "firstSeen": 1794513293,
+      "manifests": {
+        "4809751": {
+          "gid": "5718362239263612235",
+          "size": 3840101906,
+          "download": 3235008560
+        },
+        "4809753": {
+          "gid": "1221241629788480587",
+          "size": 3800836153,
+          "download": 3232253520
+        }
+      }
     }
   ],
-  "_change_number": 40651111,
+  "_change_number": 40875849,
   "_missing_token": false,
-  "_sha": "e9937edbe7cf1662fc24f690bec071d8234cce7c",
-  "_size": 5657,
+  "_sha": "1512fdc61716fdd77ae90601b200dc946887e96d",
+  "_size": 6476,
   "appid": "4809750",
   "common": {
     "aicontenttype": "2",
@@ -143,10 +187,13 @@
       "schinese": " 明末：力挽狂澜"
     },
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
-    "primary_genre": "28",
+    "oscpu": "",
+    "osextended": "macosapplesilicon",
+    "oslist": "windows,macos",
+    "primary_genre": "2",
     "releasestate": "released",
+    "review_percentage": "77",
+    "review_score": "6",
     "small_capsule": {
       "english": "8a0d75c120a19c908b766a689800442fa58ccdfe/capsule_231x87.jpg",
       "schinese": "9c5571d2f33abc0598a6fbbcbdb52aa4ca32a0e9/capsule_231x87_schinese.jpg"
@@ -191,6 +238,12 @@
         },
         "executable": "MingSalvageSim.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MingSalvageSim.app"
       }
     }
   },
@@ -202,6 +255,19 @@
       "depotfromapp": "228980",
       "sharedinstall": "1"
     },
+    "4809751": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "test": {
+          "download": "3235008560",
+          "gid": "5718362239263612235",
+          "size": "3840101906"
+        }
+      }
+    },
     "4809753": {
       "config": {
         "osarch": "64",
@@ -209,29 +275,40 @@
       },
       "manifests": {
         "0.8.5": {
-          "download": "3173169440",
-          "gid": "6535020704658254038",
-          "size": "3742052616"
+          "download": "3174099584",
+          "gid": "4062481344949624422",
+          "size": "3746159181"
         },
         "public": {
-          "download": "3173169440",
-          "gid": "6535020704658254038",
-          "size": "3742052616"
+          "download": "3232253520",
+          "gid": "1221241629788480587",
+          "size": "3800836153"
+        },
+        "test": {
+          "download": "3232253520",
+          "gid": "1221241629788480587",
+          "size": "3800836153"
         }
       }
     },
     "baselanguages": "schinese",
     "branches": {
       "0.8.5": {
-        "buildid": "26462226",
-        "description": "0.8.5测试中",
-        "timebuildupdated": "1793893489",
-        "timeupdated": "1793893631"
+        "buildid": "26563190",
+        "description": "0.8.5备用",
+        "timebuildupdated": "1794307044",
+        "timeupdated": "1794308117"
       },
       "public": {
-        "buildid": "26462226",
-        "timebuildupdated": "1793893489",
-        "timeupdated": "1793893643"
+        "buildid": "26611033",
+        "timebuildupdated": "1794467034",
+        "timeupdated": "1794470277"
+      },
+      "test": {
+        "buildid": "26614368",
+        "description": "test",
+        "timebuildupdated": "1794478279",
+        "timeupdated": "1794478279"
       }
     },
     "workshopdepot": "4809750"
@@ -260,6 +337,14 @@
         },
         "recursive": "1",
         "root": "WinMyDocuments"
+      },
+      "3": {
+        "path": "ming-salvage-web\\saves",
+        "pattern": "*.db",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
       }
     }
   }

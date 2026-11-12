@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794425752,
-  "_history": [],
-  "_change_number": 40837828,
-  "_missing_token": true,
-  "_sha": "c73c6a91f7efeaa24419d410901378270023bdd5",
-  "_size": 4655,
+  "_lastChecked": 1794513273,
+  "_history": [
+    {
+      "buildId": "26594620",
+      "branch": "public",
+      "timeUpdated": 1794410145,
+      "firstSeen": 1794513273,
+      "manifests": {
+        "3751491": {
+          "gid": "561365247243271158",
+          "size": 14542327866,
+          "download": 6732448624
+        },
+        "3751492": {
+          "gid": "4805763252353710530",
+          "size": 16491948060,
+          "download": 7730665840
+        }
+      }
+    }
+  ],
+  "_change_number": 40884507,
+  "_missing_token": false,
+  "_sha": "ec16538794f607d1650e59d12b183fb694a4132c",
+  "_size": 6250,
   "appid": "3751490",
   "common": {
     "associations": {
@@ -36,9 +55,9 @@
     "clienticon": "6f2f2498e389d57fb7a5704ce09d5767cfc54f67",
     "clienttga": "3354fbaa4692ae6b8e34302e059930e9b335cc25",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3751490",
     "genres": {
       "0": "25",
@@ -144,10 +163,13 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "92",
+    "review_score": "7",
     "small_capsule": {
       "english": "8a0d94b9bc0f842e1c7fbb88caac36ecd79571ec/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794488098",
     "store_asset_mtime": "1793302690",
     "store_tags": {
       "0": "1721",
@@ -225,5 +247,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sitter",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Sitter.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Sitter.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3751491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "6732448624",
+          "gid": "561365247243271158",
+          "size": "14542327866"
+        }
+      }
+    },
+    "3751492": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "7730665840",
+          "gid": "4805763252353710530",
+          "size": "16491948060"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26594620",
+        "timebuildupdated": "1794410145",
+        "timeupdated": "1794410145"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Setone Games",
+    "publisher": "Setone Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Setone Games/Sitter/Saves",
+            "replace": ".config/unity3d/Setone Games/Sitter/Saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Setone Games\\Sitter\\Saves",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

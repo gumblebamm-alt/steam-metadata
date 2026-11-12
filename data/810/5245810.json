@@ -1,6 +1,25 @@
 {
-  "_lastChecked": 1791679434,
+  "_lastChecked": 1794513307,
   "_history": [
+    {
+      "buildId": "26616808",
+      "branch": "public",
+      "timeUpdated": 1794485975,
+      "firstSeen": 1791290188,
+      "manifests": {
+        "5245811": {
+          "gid": "791338324571934205",
+          "size": null,
+          "download": null
+        },
+        "5245812": {
+          "gid": "7088989201068066059",
+          "size": 357855190,
+          "download": 249132704
+        }
+      },
+      "_source": "hubcap"
+    },
     {
       "buildId": "25852576",
       "branch": "public",
@@ -58,24 +77,23 @@
       "_source": "hubcap"
     },
     {
-      "buildId": "",
-      "branch": "public",
-      "timeUpdated": 1791268662,
-      "firstSeen": 1791290188,
+      "buildId": "26105805",
+      "branch": "legacy",
+      "timeUpdated": 1792585430,
+      "firstSeen": 1794513307,
       "manifests": {
         "5245811": {
-          "gid": "791338324571934205",
-          "size": null,
-          "download": null
+          "gid": "6650613736490879514",
+          "size": 264258340,
+          "download": 162957568
         }
-      },
-      "_source": "hubcap"
+      }
     }
   ],
-  "_change_number": 39704032,
+  "_change_number": 40873514,
   "_missing_token": false,
-  "_sha": "19dbb71a9c236a8a1e3214ad2ce09c502180034a",
-  "_size": 5551,
+  "_sha": "198278225bb480a5ff696c752f2070c6588dfb61",
+  "_size": 8089,
   "appid": "5245810",
   "common": {
     "aicontenttype": "1",
@@ -180,11 +198,11 @@
     "name": "ForgeTax",
     "osarch": "64",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "48",
+    "review_percentage": "53",
     "review_score": "5",
     "small_capsule": {
       "english": "b07737239f4189629dd481b55e8054d2dad50fd9/capsule_231x87.jpg"
@@ -197,8 +215,8 @@
       "10": "4604",
       "11": "8945",
       "12": "1759",
-      "13": "4695",
-      "14": "4182",
+      "13": "4182",
+      "14": "4695",
       "15": "4166",
       "16": "7926",
       "2": "3959",
@@ -237,6 +255,9 @@
       },
       "tchinese": {
         "supported": "true"
+      },
+      "vietnamese": {
+        "supported": "true"
       }
     },
     "type": "Game"
@@ -251,25 +272,56 @@
         },
         "executable": "ForgeTax.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "releasecheck",
+          "oslist": "macos"
+        },
+        "executable": "ForgeTax.app",
+        "type": "default"
       }
     }
   },
   "depots": {
     "5245811": {
       "manifests": {
+        "legacy": {
+          "download": "162957568",
+          "gid": "6650613736490879514",
+          "size": "264258340"
+        },
         "public": {
-          "download": "162993600",
-          "gid": "390125286008953378",
-          "size": "263870764"
+          "download": "242134448",
+          "gid": "2577753733353747544",
+          "size": "351463999"
+        }
+      }
+    },
+    "5245812": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "249132704",
+          "gid": "7088989201068066059",
+          "size": "357855190"
         }
       }
     },
     "baselanguages": "english,german,japanese,koreana,russian,schinese",
     "branches": {
+      "legacy": {
+        "buildid": "26105805",
+        "description": "Previous version - original run saves (2026-10-21)",
+        "timebuildupdated": "1792584182",
+        "timeupdated": "1792585430"
+      },
       "public": {
-        "buildid": "25852576",
-        "timebuildupdated": "1791650053",
-        "timeupdated": "1791651668"
+        "buildid": "26616808",
+        "timebuildupdated": "1794485728",
+        "timeupdated": "1794485975"
       }
     },
     "privatebranches": "1"
@@ -297,6 +349,62 @@
           "1": "Windows"
         },
         "root": "WinAppDataLocalLow"
+      },
+      "10": {
+        "path": "DefaultCompany/ForgeTax/Save",
+        "pattern": "run_release24_v1_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "11": {
+        "path": "unity.DefaultCompany.ForgeTax/Save",
+        "pattern": "run_release24_v1_*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "12": {
+        "path": "unity.DefaultCompany.ForgeTax/Save",
+        "pattern": "run_release24_v1_*.json.previous",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "13": {
+        "path": "unity.DefaultCompany.ForgeTax/Save",
+        "pattern": "codex.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "14": {
+        "path": "unity.DefaultCompany.ForgeTax/Save",
+        "pattern": "achievements.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "15": {
+        "path": "unity.DefaultCompany.ForgeTax/Save",
+        "pattern": "tutorial.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "16": {
+        "path": "unity.DefaultCompany.ForgeTax/Save",
+        "pattern": "contracts.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
       },
       "2": {
         "path": "DefaultCompany/ForgeTax/Save",
@@ -333,6 +441,30 @@
       "6": {
         "path": "DefaultCompany/ForgeTax/Save",
         "pattern": "run3.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "7": {
+        "path": "DefaultCompany/ForgeTax/Save",
+        "pattern": "run_release24_v1_1.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "8": {
+        "path": "DefaultCompany/ForgeTax/Save",
+        "pattern": "run_release24_v1_*.json.previous",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "9": {
+        "path": "DefaultCompany/ForgeTax/Save",
+        "pattern": "run_release24_v1_2.json",
         "platforms": {
           "1": "Windows"
         },

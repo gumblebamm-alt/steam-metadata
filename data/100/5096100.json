@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792371643,
-  "_history": [],
-  "_change_number": 39963064,
-  "_missing_token": true,
-  "_sha": "71f36bcc116e82987c7793cfef30098135f16e73",
-  "_size": 3187,
+  "_lastChecked": 1794513302,
+  "_history": [
+    {
+      "buildId": "25541500",
+      "branch": "public",
+      "timeUpdated": 1790388400,
+      "firstSeen": 1794513302,
+      "manifests": {
+        "5096101": {
+          "gid": "7204594847229499080",
+          "size": 216482944,
+          "download": 141525376
+        }
+      }
+    }
+  ],
+  "_change_number": 40869204,
+  "_missing_token": false,
+  "_sha": "388f5d30affe0bb621a68b5d72a20b73aa5a96c7",
+  "_size": 4207,
   "appid": "5096100",
   "common": {
     "aicontenttype": "1",
@@ -27,8 +41,8 @@
     },
     "clienticon": "725da2248ef19c3f578da7a9becd7d5124e6a43f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5096100",
     "genres": {
       "0": "23",
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e079c20efb0715b59905286aa875d8f6421ffd0c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794481215",
     "store_asset_mtime": "1790388895",
     "store_tags": {
       "0": "9",
@@ -145,5 +160,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Siegecrawler",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Siegecrawler.exe"
+      }
+    }
+  },
+  "depots": {
+    "5096101": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "141525376",
+          "gid": "7204594847229499080",
+          "size": "216482944"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25541500",
+        "timebuildupdated": "1790388363",
+        "timeupdated": "1790388400"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "SMB Games",
+    "homepage": "https://smbgames2026.github.io/siegecrawler-press/",
+    "publisher": "SMB Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot\\app_userdata\\Siegecrawler",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

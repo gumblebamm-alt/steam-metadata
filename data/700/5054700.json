@@ -1,10 +1,49 @@
 {
-  "_lastChecked": 1793821568,
-  "_history": [],
-  "_change_number": 40601089,
-  "_missing_token": true,
-  "_sha": "1306a77cc4a27955d9a9f012f06430b6eeb64d32",
-  "_size": 3352,
+  "_lastChecked": 1794513301,
+  "_history": [
+    {
+      "buildId": "26479298",
+      "branch": "public",
+      "timeUpdated": 1794456565,
+      "firstSeen": 1794513301,
+      "manifests": {
+        "2828501": {
+          "gid": "6942718226813017082",
+          "size": 6789042,
+          "download": 3261712
+        },
+        "2828508": {
+          "gid": "9168011844136288392",
+          "size": 3997157,
+          "download": 1855408
+        },
+        "5054701": {
+          "gid": "5257145227664354590",
+          "size": 173916788,
+          "download": 171593248
+        },
+        "5054702": {
+          "gid": "408527718445654871",
+          "size": 20774976,
+          "download": 7726144
+        },
+        "5054703": {
+          "gid": "4452459528813262250",
+          "size": 222080542,
+          "download": 186343856
+        },
+        "5054704": {
+          "gid": "2868332083059752299",
+          "size": 85446045,
+          "download": 31125648
+        }
+      }
+    }
+  ],
+  "_change_number": 40883989,
+  "_missing_token": false,
+  "_sha": "13bc3aaf4e9d0e787e9c57780e5da6b583102fb7",
+  "_size": 6005,
   "appid": "5054700",
   "common": {
     "associations": {
@@ -34,9 +73,9 @@
     },
     "clienticon": "08998c0c005db0e7ab3b2ad300e05547377af885",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5054700",
     "genres": {
       "0": "4",
@@ -109,11 +148,12 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "361bb75c6d2a5bb5761d1271b8607bb891c522d6/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793816729",
+    "steam_release_date": "1794491989",
+    "store_asset_mtime": "1794501602",
     "store_tags": {
       "0": "597",
       "1": "9",
@@ -145,5 +185,151 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "Fakin It XL",
+    "launch": {
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Launcher.sh",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "product/fakin-it-xl",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "launch_megapicker.exe",
+        "type": "default"
+      },
+      "4": {
+        "arguments": "product/fakin-it-xl",
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "launch_megapicker",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228985": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2828501": {
+      "config": {
+        "oslist": "macos"
+      },
+      "depotfromapp": "2828500",
+      "manifests": {
+        "public": {
+          "download": "3261712",
+          "gid": "6942718226813017082",
+          "size": "6789042"
+        }
+      }
+    },
+    "2828508": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "2828500",
+      "manifests": {
+        "public": {
+          "download": "1855408",
+          "gid": "9168011844136288392",
+          "size": "3997157"
+        }
+      }
+    },
+    "5054701": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "171593248",
+          "gid": "5257145227664354590",
+          "size": "173916788"
+        }
+      }
+    },
+    "5054702": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "7726144",
+          "gid": "408527718445654871",
+          "size": "20774976"
+        }
+      }
+    },
+    "5054703": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "186343856",
+          "gid": "4452459528813262250",
+          "size": "222080542"
+        }
+      }
+    },
+    "5054704": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "31125648",
+          "gid": "2868332083059752299",
+          "size": "85446045"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26479298",
+        "timebuildupdated": "1793952987",
+        "timeupdated": "1794456565"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Jackbox Games, Inc. ",
+    "homepage": "https://www.jackboxgames.com/",
+    "publisher": "Jackbox Games, Inc. "
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "5000000"
+  }
 }

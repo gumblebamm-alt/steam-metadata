@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794205480,
-  "_history": [],
-  "_change_number": 40738476,
-  "_missing_token": true,
-  "_sha": "eb6a0464a0ce0994303265876267b31fb303151c",
-  "_size": 3145,
+  "_lastChecked": 1794513285,
+  "_history": [
+    {
+      "buildId": "26618998",
+      "branch": "public",
+      "timeUpdated": 1794491835,
+      "firstSeen": 1794513285,
+      "manifests": {
+        "4403781": {
+          "gid": "6645795218325611450",
+          "size": 0,
+          "download": 0
+        },
+        "4403782": {
+          "gid": "5712785876422095624",
+          "size": 711440860,
+          "download": 654785712
+        },
+        "4403783": {
+          "gid": "587708232900148682",
+          "size": 707713700,
+          "download": 654160960
+        }
+      }
+    }
+  ],
+  "_change_number": 40880401,
+  "_missing_token": false,
+  "_sha": "69e5591c661d121d3f15c08744877eb379875fb9",
+  "_size": 5269,
   "appid": "4403780",
   "common": {
     "associations": {
@@ -34,9 +58,9 @@
     },
     "clienticon": "23e5e449ef59f21ee62a9b98afdec262e8a35bd5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4403780",
     "genres": {
       "0": "4",
@@ -111,10 +135,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "88b4d47af6493e8b89253ad13babe2ab251c0428/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794500943",
     "store_asset_mtime": "1794185081",
     "store_tags": {
       "0": "560542",
@@ -142,5 +167,112 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "InCowMental",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "windows/InCowMentalGame.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "linux/InCowMentalGame.x86_64",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam://controllerconfig/4403780/3827530179"
+  },
+  "depots": {
+    "4403781": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "6645795218325611450",
+          "size": "0"
+        }
+      }
+    },
+    "4403782": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "654785712",
+          "gid": "5712785876422095624",
+          "size": "711440860"
+        }
+      }
+    },
+    "4403783": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "654160960",
+          "gid": "587708232900148682",
+          "size": "707713700"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "26618998",
+        "timebuildupdated": "1794491779",
+        "timeupdated": "1794491835"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Skorvaltz",
+    "publisher": "Neckless Games"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "InCowMental/{64BitSteamID}",
+        "pattern": "save_data.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "InCowMental/{64BitSteamID}",
+        "pattern": "achievements.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

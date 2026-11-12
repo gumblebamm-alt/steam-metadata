@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794339905,
-  "_history": [],
-  "_change_number": 40801652,
-  "_missing_token": true,
-  "_sha": "6112a905c4627506370edeff53fbc05074df4e7f",
-  "_size": 4211,
+  "_lastChecked": 1794513301,
+  "_history": [
+    {
+      "buildId": "26590092",
+      "branch": "public",
+      "timeUpdated": 1794397303,
+      "firstSeen": 1794513301,
+      "manifests": {
+        "5058281": {
+          "gid": "3636561768646215040",
+          "size": 126643242,
+          "download": 56777360
+        }
+      }
+    }
+  ],
+  "_change_number": 40883466,
+  "_missing_token": false,
+  "_sha": "b4ebaabef1fdce4df11c2c62b4cb9d22cfbd615b",
+  "_size": 5682,
   "appid": "5058280",
   "common": {
     "associations": {
@@ -40,9 +54,9 @@
     },
     "clienticon": "2315ac60a645287c502d8d9edf867181bd0d81c2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5058280",
     "genres": {
       "0": "1"
@@ -112,12 +126,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1669aa33621a13354f0bd378b59963beab3caac3/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/5058280/announcements/detail/717921167495660700",
-    "store_asset_mtime": "1792593905",
+    "steam_release_date": "1794505526",
+    "store_asset_mtime": "1794506055",
     "store_tags": {
       "0": "1773",
       "1": "560542",
@@ -201,5 +216,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Grazed - Incremental Arcade",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Grazed.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5058281": {
+      "manifests": {
+        "public": {
+          "download": "56777360",
+          "gid": "3636561768646215040",
+          "size": "126643242"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,english,french,german,hungarian,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,tchinese,thai,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26590092",
+        "timebuildupdated": "1794397176",
+        "timeupdated": "1794397303"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Luciano Bercini",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5490190",
+    "publisher": "Luciano Bercini"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": ".local/share/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Luciano Bercini/Grazed/Save",
+        "pattern": "Player Stats.arc",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
