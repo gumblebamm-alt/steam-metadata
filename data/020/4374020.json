@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794262871,
+  "_lastChecked": 1794467366,
   "_history": [
     {
       "buildId": "26545737",
@@ -13,12 +13,25 @@
           "download": 482227776
         }
       }
+    },
+    {
+      "buildId": "26564134",
+      "branch": "public",
+      "timeUpdated": 1794310155,
+      "firstSeen": 1794467366,
+      "manifests": {
+        "4374022": {
+          "gid": "7319874050170130369",
+          "size": 748741604,
+          "download": 482445856
+        }
+      }
     }
   ],
-  "_change_number": 40764328,
+  "_change_number": 40841692,
   "_missing_token": false,
-  "_sha": "9d56a6b8a81a76a36e626ad1d3201e68697b8e37",
-  "_size": 4910,
+  "_sha": "186cf6d46fa3adf52a3592c2ac61f8c16cc5ea3c",
+  "_size": 5346,
   "appid": "4374020",
   "common": {
     "associations": {
@@ -117,6 +130,8 @@
     "oslist": "windows",
     "primary_genre": "23",
     "releasestate": "released",
+    "review_percentage": "88",
+    "review_score": "7",
     "small_capsule": {
       "english": "5021d88f91cc4ee5383ab458f01f28bc69742a12/capsule_231x87.jpg"
     },
@@ -235,17 +250,17 @@
       },
       "manifests": {
         "public": {
-          "download": "482227776",
-          "gid": "7353747742511450974",
-          "size": "748501028"
+          "download": "482445856",
+          "gid": "7319874050170130369",
+          "size": "748741604"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26545737",
-        "timebuildupdated": "1794245495",
-        "timeupdated": "1794245497"
+        "buildid": "26564134",
+        "timebuildupdated": "1794310089",
+        "timeupdated": "1794310155"
       }
     },
     "nocommonredists": "1"
@@ -255,8 +270,29 @@
     "publisher": "axilirate"
   },
   "ufs": {
-    "maxnumfiles": "50",
-    "quota": "1000000000",
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": ".gogeez",
+        "pattern": "*.sav",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": ".gogeez",
+        "pattern": "exit.txt",
+        "root": "WinAppDataRoaming"
+      }
+    },
     "sync_while_suspended": "1"
   }
 }

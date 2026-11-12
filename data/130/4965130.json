@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794031071,
-  "_history": [],
-  "_change_number": 40631579,
-  "_missing_token": true,
-  "_sha": "1432dff4c75e5330185d28307980aa842a63bf98",
-  "_size": 6648,
+  "_lastChecked": 1794467375,
+  "_history": [
+    {
+      "buildId": "26459535",
+      "branch": "public",
+      "timeUpdated": 1793887784,
+      "firstSeen": 1794467375,
+      "manifests": {
+        "4965131": {
+          "gid": "8474560781471426341",
+          "size": 2848640113,
+          "download": 2388531248
+        }
+      }
+    }
+  ],
+  "_change_number": 40846417,
+  "_missing_token": false,
+  "_sha": "d56c0c1aad229526fb6a1264c10cc4aa53eb8bce",
+  "_size": 8260,
   "appid": "4965130",
   "common": {
     "associations": {
@@ -36,6 +50,7 @@
     "clienticns": "5f3f29a6516192303ccb43220738bcc51a636c33",
     "clienticon": "b9822a70e5872600c268c7ed56090131026bfe4c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -46,7 +61,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4965130",
     "genres": {
       "0": "1",
@@ -118,10 +132,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4cd3448cd8db54caaf6dd8a1b3e6c92cf7c6296f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794425860",
     "store_asset_mtime": "1791037909",
     "store_tags": {
       "0": "3834",
@@ -360,5 +375,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Corridors",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Run - Windows.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Run - Linux.sh",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4965131": {
+      "manifests": {
+        "public": {
+          "download": "2388531248",
+          "gid": "8474560781471426341",
+          "size": "2848640113"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "26459535",
+        "timebuildupdated": "1793886384",
+        "timeupdated": "1793887784"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Augustine Interactive",
+    "homepage": "https://augustineinteractive.com",
+    "publisher": "Augustine Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "corridors",
+        "pattern": "corridors.records",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

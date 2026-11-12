@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794073585,
-  "_history": [],
-  "_change_number": 40697465,
-  "_missing_token": true,
-  "_sha": "9dcfb1dc70f7d85b45ade81f4ecdb21c89e3213f",
-  "_size": 3480,
+  "_lastChecked": 1794467377,
+  "_history": [
+    {
+      "buildId": "26601055",
+      "branch": "public",
+      "timeUpdated": 1794429278,
+      "firstSeen": 1794467377,
+      "manifests": {
+        "5057771": {
+          "gid": "6074993940421873144",
+          "size": 633975314,
+          "download": 213922736
+        },
+        "5057772": {
+          "gid": "8458579200886537625",
+          "size": 637581871,
+          "download": 214916368
+        }
+      }
+    }
+  ],
+  "_change_number": 40848772,
+  "_missing_token": false,
+  "_sha": "81be715efd9a3e21d81903c67cf5aaf11a8272b5",
+  "_size": 5400,
   "appid": "5057770",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +45,8 @@
     "clienticns": "8b66d11f1d4e8c1dc82daec742ecb4de939e9ee7",
     "clienticon": "f824b97245e0e4fc7e240b13f7f86c37f85c9bb2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5057770",
     "genres": {
       "0": "23",
@@ -110,10 +129,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "faf21301499f6e2bad4ce3bcfd6a69e785b0be1f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1792882791",
     "store_tags": {
       "0": "220585",
@@ -165,5 +185,106 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "StoneEra",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "StoneEra.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "StoneEra.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5057771": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "213922736",
+          "gid": "6074993940421873144",
+          "size": "633975314"
+        }
+      }
+    },
+    "5057772": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "214916368",
+          "gid": "8458579200886537625",
+          "size": "637581871"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26601055",
+        "timebuildupdated": "1794429133",
+        "timeupdated": "1794429278"
+      }
+    },
+    "privatebranches": "1",
+    "workshopdepot": "5057770"
+  },
+  "extended": {
+    "developer": "Arrock Games",
+    "homepage": "https://stoneera.online",
+    "publisher": "Arrock Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "StoneEra/StoneEra/Saves",
+        "pattern": "*.sesave",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "StoneEra/StoneEra/Saves",
+        "pattern": "*.sesave.bak",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "StoneEra/StoneEra/Saves",
+        "pattern": "*.sesave.png",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

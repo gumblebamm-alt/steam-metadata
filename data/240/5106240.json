@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794425784,
-  "_history": [],
-  "_change_number": 40813382,
-  "_missing_token": true,
-  "_sha": "8436c00717002afce3c6562cba6cb71c98584f53",
-  "_size": 3097,
+  "_lastChecked": 1794467379,
+  "_history": [
+    {
+      "buildId": "26578544",
+      "branch": "public",
+      "timeUpdated": 1794353580,
+      "firstSeen": 1794467379,
+      "manifests": {
+        "5106241": {
+          "gid": "6668029753237952217",
+          "size": 256813152,
+          "download": 149516688
+        }
+      }
+    }
+  ],
+  "_change_number": 40848973,
+  "_missing_token": false,
+  "_sha": "5d6602a889b2729e0d155a4814cc8624f258c01e",
+  "_size": 4050,
   "appid": "5106240",
   "common": {
     "associations": {
@@ -28,9 +42,9 @@
     },
     "clienticon": "2d38dd91e388f577ab79af77778207e1b006dee5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5106240",
     "genres": {
       "0": "1",
@@ -103,11 +117,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3d1f28f8db29eba372bcc124210661e9bb6408b7/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792681100",
+    "steam_release_date": "1794431060",
+    "store_asset_mtime": "1794430843",
     "store_tags": {
       "0": "1716",
       "1": "5981",
@@ -138,5 +153,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Prospect",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Prospect.exe"
+      }
+    }
+  },
+  "depots": {
+    "5106241": {
+      "manifests": {
+        "public": {
+          "download": "149516688",
+          "gid": "6668029753237952217",
+          "size": "256813152"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26578544",
+        "timebuildupdated": "1794353376",
+        "timeupdated": "1794353580"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Dylan Wells-McNair",
+    "publisher": "Dylan Wells-McNair"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "Prospect/{Steam3AccountID}",
+        "pattern": "*.sav",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Prospect/{Steam3AccountID}",
+        "pattern": "*.properties",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

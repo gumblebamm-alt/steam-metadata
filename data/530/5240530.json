@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793384038,
-  "_history": [],
-  "_change_number": 40419711,
-  "_missing_token": true,
-  "_sha": "2059c0f35cc1aaa36fd02d51681ce878963bd58a",
-  "_size": 6528,
+  "_lastChecked": 1794467381,
+  "_history": [
+    {
+      "buildId": "26317449",
+      "branch": "public",
+      "timeUpdated": 1793360019,
+      "firstSeen": 1794467381,
+      "manifests": {
+        "5240531": {
+          "gid": "7989626237325810817",
+          "size": 1606832943,
+          "download": 683591936
+        }
+      }
+    }
+  ],
+  "_change_number": 40859865,
+  "_missing_token": false,
+  "_sha": "126f1c1a442a0a46ad658cbfa15b0ec553f6677f",
+  "_size": 8066,
   "appid": "5240530",
   "common": {
     "aicontenttype": "1",
@@ -34,9 +48,9 @@
     },
     "clienticon": "ab67bb14f855d96c7d1d3c39187b2d61524d4211",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5240530",
     "genres": {
       "0": "25",
@@ -143,10 +157,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "eb67ba4337e77406f699017356f3b13bb52c2b2b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1789305773",
     "store_tags": {
       "0": "21",
@@ -292,5 +307,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Halls Remain",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play in Desktop",
+        "description_loc": {
+          "english": "Play in Desktop"
+        },
+        "executable": "The Halls Remain.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-vr",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play in VR",
+        "description_loc": {
+          "english": "Play in VR"
+        },
+        "executable": "The Halls Remain.exe",
+        "type": "openxr"
+      }
+    }
+  },
+  "depots": {
+    "5240531": {
+      "manifests": {
+        "public": {
+          "download": "683591936",
+          "gid": "7989626237325810817",
+          "size": "1606832943"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "26317449",
+        "timebuildupdated": "1793344565",
+        "timeupdated": "1793360019"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Threshold Echo",
+    "publisher": "Threshold Echo"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "Trenchveil Studio/The Halls Remain",
+        "pattern": "backrooms_run.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

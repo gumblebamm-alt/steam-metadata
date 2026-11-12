@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794425785,
-  "_history": [],
-  "_change_number": 40840501,
-  "_missing_token": true,
-  "_sha": "40f48a6a228b4d1250fc6627203ac309212b0a00",
-  "_size": 4914,
+  "_lastChecked": 1794467379,
+  "_history": [
+    {
+      "buildId": "26608189",
+      "branch": "public",
+      "timeUpdated": 1794455113,
+      "firstSeen": 1794467379,
+      "manifests": {
+        "5135441": {
+          "gid": "4795541927392032327",
+          "size": 609942618,
+          "download": 221473760
+        }
+      }
+    }
+  ],
+  "_change_number": 40861713,
+  "_missing_token": false,
+  "_sha": "d2595d1584cd64b23063ec4e5a90f5d1ac472f27",
+  "_size": 6448,
   "appid": "5135440",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +43,8 @@
     },
     "clienticon": "1709167d96a52dc1fee2a1700e1a6ebbf7d9fed7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5135440",
     "genres": {
       "0": "4",
@@ -131,10 +145,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "79",
+    "review_score": "6",
     "small_capsule": {
       "english": "37becb15211d8a0ae135ebeb614c1bb3264fb189/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794441619",
     "store_asset_mtime": "1793085869",
     "store_tags": {
       "0": "113",
@@ -229,5 +246,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DPS Desktop Pension Squad",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DPS.exe"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5135441": {
+      "manifests": {
+        "public": {
+          "download": "221473760",
+          "gid": "4795541927392032327",
+          "size": "609942618"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26608189",
+        "timebuildupdated": "1794454610",
+        "timeupdated": "1794455113"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "detailgames",
+    "dlcavailableonstore": "1",
+    "isfreeapp": "1",
+    "listofdlc": "5367060,5367070,5374820,5403100",
+    "publisher": "storytaco"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "DetailGames\\DPS\\saves\\{64BitSteamID}",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "DetailGames\\DPS\\saves\\{64BitSteamID}",
+        "pattern": "*.sav.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "DetailGames\\DPS\\saves\\{64BitSteamID}\\archive",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

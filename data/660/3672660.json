@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794262859,
-  "_history": [],
-  "_change_number": 40754021,
-  "_missing_token": true,
-  "_sha": "6ec6fb322f911465e83a3fb275fc639ddfcd4047",
-  "_size": 3253,
+  "_lastChecked": 1794467358,
+  "_history": [
+    {
+      "buildId": "26595450",
+      "branch": "public",
+      "timeUpdated": 1794412612,
+      "firstSeen": 1794467358,
+      "manifests": {
+        "3672661": {
+          "gid": "1987398208571601318",
+          "size": 352233580,
+          "download": 135104320
+        },
+        "3672662": {
+          "gid": "7518297051749389853",
+          "size": 349775047,
+          "download": 132868016
+        }
+      }
+    }
+  ],
+  "_change_number": 40851912,
+  "_missing_token": false,
+  "_sha": "aa7b84567115bb0fd891bf37cbc306454dc17759",
+  "_size": 4946,
   "appid": "3672660",
   "common": {
     "associations": {
@@ -31,8 +50,8 @@
     "clienticon": "c8e4c1bec52c05373c5c86787d321383b4827714",
     "clienttga": "f8b6cb64adeca2d4b21609d206dee1143cd9080d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3672660",
     "genres": {
       "0": "4",
@@ -111,10 +130,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9744201e5b3450e4efcd08a5bbbf242271d1c29e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794438039",
     "store_asset_mtime": "1794228404",
     "store_tags": {
       "0": "97376",
@@ -144,5 +164,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Caramel Creek",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CaramelCreek.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "CaramelCreek.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3672661": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "135104320",
+          "gid": "1987398208571601318",
+          "size": "352233580"
+        }
+      }
+    },
+    "3672662": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "132868016",
+          "gid": "7518297051749389853",
+          "size": "349775047"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26595450",
+        "timebuildupdated": "1794412485",
+        "timeupdated": "1794412612"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Biruk Okami",
+    "publisher": "Biruk Okami"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "20000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Biruk Okami/Caramel Creek/Saves",
+            "replace": ".config/unity3d/Biruk Okami/Caramel Creek/Saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Biruk Okami/Caramel Creek/Saves",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

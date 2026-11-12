@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792558063,
-  "_history": [],
-  "_change_number": 40068366,
-  "_missing_token": true,
-  "_sha": "79fecaae03a5010756d05a35025c93833c7db7d9",
-  "_size": 3091,
+  "_lastChecked": 1794467354,
+  "_history": [
+    {
+      "buildId": "25944192",
+      "branch": "public",
+      "timeUpdated": 1792011846,
+      "firstSeen": 1794467354,
+      "manifests": {
+        "3141241": {
+          "gid": "6086695486378246111",
+          "size": 279190514,
+          "download": 136366672
+        },
+        "3141242": {
+          "gid": "3533446619861368893",
+          "size": 268103510,
+          "download": 127162288
+        },
+        "3141243": {
+          "gid": "4095394157461907530",
+          "size": 250948253,
+          "download": 125452976
+        }
+      }
+    }
+  ],
+  "_change_number": 40858253,
+  "_missing_token": false,
+  "_sha": "21db66b999ae4a310237d086a32fe0cde2e611a2",
+  "_size": 4841,
   "appid": "3141240",
   "common": {
     "associations": {
@@ -33,7 +57,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3141240",
     "genres": {
       "0": "1"
@@ -104,10 +127,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "44eef57b97a2ccad6e76cc7530a3575fb4a214d2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794454207",
     "store_asset_mtime": "1790549905",
     "store_tags": {
       "0": "5379",
@@ -131,5 +155,96 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "default",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "LimitShoot",
+    "launch": {
+      "0": {
+        "arguments": "Steam Works 3141240",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "LimitShoot.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "Steam Works 3141240",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "limitshoot",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "Steam Works 3141240",
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "LimitShoot.app",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3141241": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "136366672",
+          "gid": "6086695486378246111",
+          "size": "279190514"
+        }
+      }
+    },
+    "3141242": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "127162288",
+          "gid": "3533446619861368893",
+          "size": "268103510"
+        }
+      }
+    },
+    "3141243": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "125452976",
+          "gid": "4095394157461907530",
+          "size": "250948253"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "25944192",
+        "timebuildupdated": "1792011768",
+        "timeupdated": "1792011846"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Nanasan System",
+    "homepage": "http://www.nanasan-system.com/support/ls_pc/index.html",
+    "publisher": "Nanasan System"
+  }
 }

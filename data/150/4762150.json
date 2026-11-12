@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793993057,
-  "_history": [],
-  "_change_number": 40660188,
-  "_missing_token": true,
-  "_sha": "d30a262c2c89b5a83d133c0d39bc9f2494d338ae",
-  "_size": 3235,
+  "_lastChecked": 1794467372,
+  "_history": [
+    {
+      "buildId": "26605744",
+      "branch": "public",
+      "timeUpdated": 1794446042,
+      "firstSeen": 1794467372,
+      "manifests": {
+        "4762151": {
+          "gid": "1594707438103846852",
+          "size": 567914864,
+          "download": 450401600
+        },
+        "4762152": {
+          "gid": "6900878341167097166",
+          "size": 590890705,
+          "download": 458388800
+        },
+        "4762153": {
+          "gid": "8725511574119755443",
+          "size": 558111490,
+          "download": 446390288
+        }
+      }
+    }
+  ],
+  "_change_number": 40861407,
+  "_missing_token": false,
+  "_sha": "2e0ba3f1b84caad97d6c9ddabba7a08bf85c27bc",
+  "_size": 4788,
   "appid": "4762150",
   "common": {
     "associations": {
@@ -33,6 +57,7 @@
     },
     "clienticon": "861ff9d47ef73cb7fee4ca060af65d87ba7446b2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -42,7 +67,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4762150",
     "genres": {
       "0": "25",
@@ -113,10 +137,11 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "019fd391fa7de6da6e3b1a50a8f7e64aad9bfa26/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794459654",
     "store_asset_mtime": "1792544671",
     "store_tags": {
       "0": "3799",
@@ -148,5 +173,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dead Ringer",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Deadringer.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Deadringer.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Deadringer.sh"
+      }
+    }
+  },
+  "depots": {
+    "4762151": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "450401600",
+          "gid": "1594707438103846852",
+          "size": "567914864"
+        }
+      }
+    },
+    "4762152": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "458388800",
+          "gid": "6900878341167097166",
+          "size": "590890705"
+        }
+      }
+    },
+    "4762153": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "446390288",
+          "gid": "8725511574119755443",
+          "size": "558111490"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26605744",
+        "timebuildupdated": "1794446040",
+        "timeupdated": "1794446042"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Necro Nine",
+    "publisher": "Drowsy Drake"
+  },
+  "ufs": {
+    "maxnumfiles": "30",
+    "quota": "20000000",
+    "savefiles": {
+      "0": {
+        "path": "game/saves",
+        "pattern": "*.save",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "game/saves",
+        "pattern": "persistent",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

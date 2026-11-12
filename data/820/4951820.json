@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794339900,
-  "_history": [],
-  "_change_number": 40797028,
-  "_missing_token": true,
-  "_sha": "3f3d10b100682b4bc4b490a60c51c5f1401c7256",
-  "_size": 3490,
+  "_lastChecked": 1794467375,
+  "_history": [
+    {
+      "buildId": "26585548",
+      "branch": "public",
+      "timeUpdated": 1794381292,
+      "firstSeen": 1794467375,
+      "manifests": {
+        "4951821": {
+          "gid": "8197891666086127708",
+          "size": 2400241034,
+          "download": 2256006480
+        }
+      }
+    }
+  ],
+  "_change_number": 40861218,
+  "_missing_token": false,
+  "_sha": "4f990db4394784fc20798ab4cf24f62985bc1b20",
+  "_size": 5230,
   "appid": "4951820",
   "common": {
     "aicontenttype": "1",
@@ -34,6 +48,7 @@
     "clienticns": "6495a2c936d6243bc46f54188e5dda2bb2cbcc4b",
     "clienticon": "fb57289893a9d9bedb383d1101efefc174d222e1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -48,7 +63,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4951820",
     "genres": {
       "0": "4",
@@ -120,11 +134,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "bffead148c5d45ed260ec2e34eeae286975e1f06/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794463054",
     "store_asset_mtime": "1792924077",
     "store_tags": {
       "0": "3799",
@@ -151,5 +166,99 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "More Than A Woman",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MoreThanAWoman_S1.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MoreThanAWoman_S1.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "MoreThanAWoman_S1.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4951821": {
+      "manifests": {
+        "public": {
+          "download": "2256006480",
+          "gid": "8197891666086127708",
+          "size": "2400241034"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26585548",
+        "timebuildupdated": "1794381272",
+        "timeupdated": "1794381292"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Light Horse Games",
+    "homepage": "https://lighthorsegames.com/",
+    "publisher": "Light Horse Games"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10000000",
+    "savefiles": {
+      "1": {
+        "path": "RenPy/MoreThanAWoman_S1",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Library/Renpy/MoreThanAWoman_S1",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacHome"
+      },
+      "3": {
+        "path": ".renpy/MoreThanAWoman_S1",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
+  }
 }
