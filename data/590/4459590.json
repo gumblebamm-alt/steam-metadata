@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793821552,
-  "_history": [],
-  "_change_number": 40595320,
-  "_missing_token": true,
-  "_sha": "0041265dbde3fd26e7c8193dfefde8aebcb6dc0a",
-  "_size": 4980,
+  "_lastChecked": 1794552229,
+  "_history": [
+    {
+      "buildId": "26636909",
+      "branch": "public",
+      "timeUpdated": 1794549305,
+      "firstSeen": 1794552229,
+      "manifests": {
+        "4459591": {
+          "gid": "1602302644599676550",
+          "size": 177167769,
+          "download": 144420304
+        },
+        "4459592": {
+          "gid": "4883023913475390608",
+          "size": 158578293,
+          "download": 143280320
+        }
+      }
+    }
+  ],
+  "_change_number": 40902481,
+  "_missing_token": false,
+  "_sha": "26982cbc8267dea0efad054733ef0b818894cd87",
+  "_size": 6724,
   "appid": "4459590",
   "common": {
     "aicontenttype": "1",
@@ -38,6 +57,7 @@
     },
     "clienticon": "5d6509fdb770749b4a9d5f64baa0dbc2218e6136",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -45,10 +65,9 @@
         "id": "4459590_eula_0",
         "name": "Slotbound EULA",
         "url": "https://store.steampowered.com/eula/4459590_eula_0",
-        "version": "2"
+        "version": "3"
       }
     },
-    "exfgls": "8",
     "gameid": "4459590",
     "genres": {
       "0": "23",
@@ -146,10 +165,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "d64e41eb0453bee4446e8b7613054f88fe7afa77/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794535597",
     "store_asset_mtime": "1793117756",
     "store_tags": {
       "0": "9",
@@ -160,8 +182,8 @@
       "13": "492",
       "14": "1759",
       "15": "5125",
-      "16": "6730",
-      "17": "7926",
+      "16": "7926",
+      "17": "6730",
       "18": "8945",
       "19": "4182",
       "2": "1716",
@@ -225,5 +247,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Slotbound",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Slotbound.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Slotbound.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4459591": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "144420304",
+          "gid": "1602302644599676550",
+          "size": "177167769"
+        }
+      }
+    },
+    "4459592": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "143280320",
+          "gid": "4883023913475390608",
+          "size": "158578293"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26636909",
+        "timebuildupdated": "1794549305",
+        "timeupdated": "1794549305"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Optima Arch",
+    "homepage": "https://drive.google.com/drive/folders/1uGAy0KIUrUB0ndOyXkL0y-CEogN-F49I?usp=sharing",
+    "publisher": "Optima Arch"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "slotbound_full",
+        "pattern": "save_fallback.dat",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "slotbound_full",
+        "pattern": "save_fallback.bak",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

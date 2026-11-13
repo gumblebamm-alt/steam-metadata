@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1794513284,
-  "_history": [],
-  "_change_number": 40887187,
-  "_missing_token": true,
-  "_sha": "6b10f8221e45e3633866b0e69a669b953a9972d1",
-  "_size": 3545,
+  "_lastChecked": 1794552229,
+  "_history": [
+    {
+      "buildId": "26626687",
+      "branch": "beta",
+      "timeUpdated": 1794513558,
+      "firstSeen": 1794552229,
+      "manifests": {
+        "4400021": {
+          "gid": "2444442848234716832",
+          "size": 2547629749,
+          "download": 2132941200
+        }
+      }
+    },
+    {
+      "buildId": "26626687",
+      "branch": "public",
+      "timeUpdated": 1794513558,
+      "firstSeen": 1794552229,
+      "manifests": {
+        "4400021": {
+          "gid": "2444442848234716832",
+          "size": 2547629749,
+          "download": 2132941200
+        }
+      }
+    }
+  ],
+  "_change_number": 40887724,
+  "_missing_token": false,
+  "_sha": "eb4188038ab42a56f2034cb8a4b73ef02184aa35",
+  "_size": 5355,
   "appid": "4400020",
   "common": {
     "associations": {
@@ -41,6 +68,7 @@
     },
     "clienticon": "92acad2925bcb4d59b8074c2ded9ad1bc532dfa4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
     "eulas": {
@@ -51,7 +79,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "4400020",
     "genres": {
       "0": "1",
@@ -123,10 +150,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0e9e1961c0eff0d7a0ec67e46fd72a52d02e3a9b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794513905",
     "store_asset_mtime": "1794512732",
     "store_tags": {
       "0": "1667",
@@ -158,5 +186,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Dust Between Observer",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TDBObserver.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "TDBObserver/Plugins/Steam/game_actions_4400020.vdf",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4400021": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "2132941200",
+          "gid": "2444442848234716832",
+          "size": "2547629749"
+        },
+        "public": {
+          "download": "2132941200",
+          "gid": "2444442848234716832",
+          "size": "2547629749"
+        }
+      }
+    },
+    "4400022": {
+      "config": {
+        "osarch": "64"
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26626687",
+        "description": "Beta Version",
+        "timebuildupdated": "1794513416",
+        "timeupdated": "1794513558"
+      },
+      "public": {
+        "buildid": "26626687",
+        "timebuildupdated": "1794513416",
+        "timeupdated": "1794513558"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Rollergoose",
+    "homepage": "https://Rollergoose.com/",
+    "publisher": "Rollergoose"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "TDBObserver/Saved/Rollergoose/TDBObserver/Saves/{64BitSteamID}",
+        "pattern": "tdb_*",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1792644436,
-  "_history": [],
-  "_change_number": 40098274,
-  "_missing_token": true,
-  "_sha": "2a1e67c9d83ff9205ffc9b2787775da00f19247c",
-  "_size": 3003,
+  "_lastChecked": 1794552235,
+  "_history": [
+    {
+      "buildId": "26607778",
+      "branch": "beta",
+      "timeUpdated": 1794453044,
+      "firstSeen": 1794552235,
+      "manifests": {
+        "4849001": {
+          "gid": "85619188543658197",
+          "size": 37515939,
+          "download": 26915824
+        }
+      }
+    },
+    {
+      "buildId": "26607778",
+      "branch": "public",
+      "timeUpdated": 1794481514,
+      "firstSeen": 1794552235,
+      "manifests": {
+        "4849001": {
+          "gid": "85619188543658197",
+          "size": 37515939,
+          "download": 26915824
+        }
+      }
+    }
+  ],
+  "_change_number": 40890442,
+  "_missing_token": false,
+  "_sha": "941fa059cd4506c2cf8616961f700b7d96db21d1",
+  "_size": 4103,
   "appid": "4849000",
   "common": {
     "associations": {
@@ -25,9 +52,9 @@
     },
     "clienticon": "e5fea8a6076e76bc4eb33bd724cdc89497e324d2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4849000",
     "genres": {
       "0": "4",
@@ -100,10 +127,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c946d6c42b880bdd69e7306bd8e812164cefb7f4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794519428",
     "store_asset_mtime": "1791436669",
     "store_tags": {
       "0": "16689",
@@ -135,5 +163,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "reqs",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "reqs.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4849001": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "26915824",
+          "gid": "85619188543658197",
+          "size": "37515939"
+        },
+        "public": {
+          "download": "26915824",
+          "gid": "85619188543658197",
+          "size": "37515939"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26607778",
+        "description": "Beta branch",
+        "timebuildupdated": "1794453044",
+        "timeupdated": "1794453044"
+      },
+      "public": {
+        "buildid": "26607778",
+        "timebuildupdated": "1794453044",
+        "timeupdated": "1794481514"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Ragebarrel Entertainment",
+    "homepage": "https://ragebarrel.com/reqs",
+    "publisher": "Ragebarrel Entertainment"
+  }
 }

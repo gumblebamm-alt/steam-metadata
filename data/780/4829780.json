@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794513294,
-  "_history": [],
-  "_change_number": 40874210,
-  "_missing_token": true,
-  "_sha": "098ccc1717c5482027afa8f0a143374a2fbea93c",
-  "_size": 5453,
+  "_lastChecked": 1794552235,
+  "_history": [
+    {
+      "buildId": "26636351",
+      "branch": "public",
+      "timeUpdated": 1794551043,
+      "firstSeen": 1794552235,
+      "manifests": {
+        "4829781": {
+          "gid": "5629001882968295299",
+          "size": 3713878958,
+          "download": 1580894992
+        }
+      }
+    }
+  ],
+  "_change_number": 40902471,
+  "_missing_token": false,
+  "_sha": "cb7c19463bef6d20c24ebc39e7d24a479c62473f",
+  "_size": 5781,
   "appid": "4829780",
   "common": {
     "associations": {
@@ -25,12 +39,14 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_28": "1",
       "category_62": "1"
     },
     "clienticon": "478898c84493fc412ca2c911a2ce4f1763e41748",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4829780",
     "genres": {
       "0": "25",
@@ -52,8 +68,8 @@
     "library_assets": {
       "library_capsule": "zh-cn,en,ja",
       "library_header": "zh-cn,en,ja",
-      "library_hero": "zh-cn,en,ja",
-      "library_hero_blur": "zh-cn,en,ja",
+      "library_hero": "en",
+      "library_hero_blur": "en",
       "library_logo": "en,zh-cn,ja",
       "logo_position": {
         "height_pct": "34.25692300588406",
@@ -88,21 +104,15 @@
       },
       "library_hero": {
         "image": {
-          "english": "3947ce6797e1755bd8f483618b6c65bee67599e4/library_hero.jpg",
-          "japanese": "23a2b71d2a5d7c45589e3486f2651bdd2ee922a7/library_hero_japanese.jpg",
-          "schinese": "23a2b71d2a5d7c45589e3486f2651bdd2ee922a7/library_hero_schinese.jpg"
+          "english": "3947ce6797e1755bd8f483618b6c65bee67599e4/library_hero.jpg"
         },
         "image2x": {
-          "english": "3947ce6797e1755bd8f483618b6c65bee67599e4/library_hero_2x.jpg",
-          "japanese": "23a2b71d2a5d7c45589e3486f2651bdd2ee922a7/library_hero_japanese_2x.jpg",
-          "schinese": "23a2b71d2a5d7c45589e3486f2651bdd2ee922a7/library_hero_schinese_2x.jpg"
+          "english": "3947ce6797e1755bd8f483618b6c65bee67599e4/library_hero_2x.jpg"
         }
       },
       "library_hero_blur": {
         "image": {
-          "english": "3947ce6797e1755bd8f483618b6c65bee67599e4/library_hero_blur.jpg",
-          "japanese": "23a2b71d2a5d7c45589e3486f2651bdd2ee922a7/library_hero_blur_japanese.jpg",
-          "schinese": "23a2b71d2a5d7c45589e3486f2651bdd2ee922a7/library_hero_blur_schinese.jpg"
+          "english": "3947ce6797e1755bd8f483618b6c65bee67599e4/library_hero_blur.jpg"
         }
       },
       "library_logo": {
@@ -133,12 +143,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7ecfa9ccfa5a425b63bd0ad0ef36d2a57223f1b6/capsule_231x87.jpg",
       "japanese": "93b197228b8e70d3ee6ef0a78819be42eed26cfc/capsule_231x87_japanese.jpg",
       "schinese": "a3044ce22e47bf776672cd8236a25abde4115cb0/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1794534733",
     "store_asset_mtime": "1793950276",
     "store_tags": {
       "0": "597",
@@ -183,5 +194,48 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "FrontierTale",
+    "launch": {
+      "0": {
+        "executable": "FrontierTale.exe"
+      }
+    }
+  },
+  "depots": {
+    "4829781": {
+      "manifests": {
+        "public": {
+          "download": "1580894992",
+          "gid": "5629001882968295299",
+          "size": "3713878958"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26636351",
+        "timebuildupdated": "1794546943",
+        "timeupdated": "1794551043"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "APOPHIS GAME STUDIO",
+    "publisher": "APOPHIS GAME STUDIO"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "APOPHIS/FrontierTale/Saves",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

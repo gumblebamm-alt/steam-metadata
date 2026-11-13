@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1794467370,
-  "_history": [],
-  "_change_number": 40853463,
-  "_missing_token": true,
-  "_sha": "50af398cdbb0ef7cd49f9f83c437f1da94724cca",
-  "_size": 3214,
+  "_lastChecked": 1794552232,
+  "_history": [
+    {
+      "buildId": "26626073",
+      "branch": "beta",
+      "timeUpdated": 1794512028,
+      "firstSeen": 1794552232,
+      "manifests": {
+        "4637121": {
+          "gid": "3536414949346565",
+          "size": 6983342269,
+          "download": 170322224
+        },
+        "4637122": {
+          "gid": "7431287092714996799",
+          "size": 6970590523,
+          "download": 170278832
+        }
+      }
+    },
+    {
+      "buildId": "26626073",
+      "branch": "public",
+      "timeUpdated": 1794512028,
+      "firstSeen": 1794552232,
+      "manifests": {
+        "4637121": {
+          "gid": "3536414949346565",
+          "size": 6983342269,
+          "download": 170322224
+        },
+        "4637122": {
+          "gid": "7431287092714996799",
+          "size": 6970590523,
+          "download": 170278832
+        }
+      }
+    }
+  ],
+  "_change_number": 40887177,
+  "_missing_token": false,
+  "_sha": "544c5712f154d8d067700b2263fc6dc7d3bdc54c",
+  "_size": 4973,
   "appid": "4637120",
   "common": {
     "aicontenttype": "1",
@@ -27,9 +64,9 @@
     "clienticns": "4a64725f91aeb46dffa1136e1720c639d1088672",
     "clienticon": "4a64725f91aeb46dffa1136e1720c639d1088672",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4637120",
     "genres": {
       "0": "1",
@@ -105,10 +142,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d39fd73261fd991358abaf2ece1f70d51b9a9c15/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794512669",
     "store_asset_mtime": "1793092946",
     "store_tags": {
       "0": "21",
@@ -141,5 +179,100 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Age of Magellan Sail the entire Planet",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Epoch.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Epoch"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Epoch"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4637121": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "beta": {
+          "download": "170322224",
+          "gid": "3536414949346565",
+          "size": "6983342269"
+        },
+        "public": {
+          "download": "170322224",
+          "gid": "3536414949346565",
+          "size": "6983342269"
+        }
+      }
+    },
+    "4637122": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "170278832",
+          "gid": "7431287092714996799",
+          "size": "6970590523"
+        },
+        "public": {
+          "download": "170278832",
+          "gid": "7431287092714996799",
+          "size": "6970590523"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26626073",
+        "description": "beta branch for testing",
+        "timebuildupdated": "1794511459",
+        "timeupdated": "1794512028"
+      },
+      "public": {
+        "buildid": "26626073",
+        "timebuildupdated": "1794511459",
+        "timeupdated": "1794512028"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Boanerges Games",
+    "publisher": "Boanerges Games"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "500000000"
+  }
 }

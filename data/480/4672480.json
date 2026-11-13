@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794513291,
-  "_history": [],
-  "_change_number": 40876697,
-  "_missing_token": true,
-  "_sha": "8aa5319f2cb2a0d9fd4a40b779da7e2d7be458d5",
-  "_size": 6948,
+  "_lastChecked": 1794552232,
+  "_history": [
+    {
+      "buildId": "26634876",
+      "branch": "public",
+      "timeUpdated": 1794541710,
+      "firstSeen": 1794552232,
+      "manifests": {
+        "4672481": {
+          "gid": "6877880343164070094",
+          "size": 2618931046,
+          "download": 2367554976
+        }
+      }
+    }
+  ],
+  "_change_number": 40901529,
+  "_missing_token": false,
+  "_sha": "ec9e6b20911c8c1f0168360298577e56eab6688e",
+  "_size": 8703,
   "appid": "4672480",
   "common": {
     "aicontenttype": "1",
@@ -35,8 +49,8 @@
     },
     "clienticon": "b1cfaa03805b696a8c8f870e9f03317867a48378",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4672480",
     "genres": {
       "0": "4",
@@ -162,11 +176,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "52674d1ea7e905713f459d081ecbc44ecc70a688/capsule_231x87.jpg",
       "schinese": "698d04af27324e5511f684faff83a53697c29811/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1794534625",
     "store_asset_mtime": "1794159013",
     "store_tags": {
       "0": "599",
@@ -272,5 +287,84 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ChickenPlaguePoliceGame",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Default",
+        "description_loc": {
+          "english": "Default",
+          "schinese": "正常游玩"
+        },
+        "executable": "ChickenPlaguePolice.exe",
+        "type": "option1"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "DirectX 11 Compatibility Mode",
+        "description_loc": {
+          "english": "DirectX 11 Compatibility Mode",
+          "schinese": "兼容模式（dx11）"
+        },
+        "executable": "ChickenPlaguePolice.exe",
+        "type": "option2"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4672481": {
+      "manifests": {
+        "public": {
+          "download": "2367554976",
+          "gid": "6877880343164070094",
+          "size": "2618931046"
+        }
+      }
+    },
+    "baselanguages": "danish,dutch,english,finnish,french,german,hungarian,italian,japanese,koreana,polish,portuguese,russian,schinese,spanish,swedish,tchinese,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26634876",
+        "timebuildupdated": "1794541069",
+        "timeupdated": "1794541710"
+      }
+    },
+    "privatebranches": "1",
+    "workshopdepot": "4672480"
+  },
+  "extended": {
+    "developer": "鸡你太美",
+    "publisher": "鸡你太美"
+  },
+  "ufs": {
+    "maxnumfiles": "30",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "ChickenPlaguePolice\\Saved\\SaveGames\\",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

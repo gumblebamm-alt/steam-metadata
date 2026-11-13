@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794425743,
-  "_history": [],
-  "_change_number": 40835868,
-  "_missing_token": true,
-  "_sha": "e976ec0a9ed656fb07e9425fc3fa34f37a29645a",
-  "_size": 3085,
+  "_lastChecked": 1794552218,
+  "_history": [
+    {
+      "buildId": "26593234",
+      "branch": "public",
+      "timeUpdated": 1794406400,
+      "firstSeen": 1794552218,
+      "manifests": {
+        "2810321": {
+          "gid": "1513208092112899464",
+          "size": 807849818,
+          "download": 746833088
+        }
+      }
+    }
+  ],
+  "_change_number": 40900604,
+  "_missing_token": false,
+  "_sha": "41a4789401be5bcf6edfe7ee557ed319aa2bb964",
+  "_size": 4177,
   "appid": "2810320",
   "common": {
     "associations": {
@@ -35,8 +49,8 @@
     "clienticon": "f4ba953ee18d47acd9eb1cb8410c1bce423cbdfa",
     "clienttga": "f198ba418acc8aadb3f4def7f8d1e6bca3b6e583",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2810320",
     "genres": {
       "0": "25",
@@ -113,10 +127,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "deade5b0fa98a6c5b8ed93154a6b17b2de3cdc06/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794545006",
     "store_asset_mtime": "1786715945",
     "store_tags": {
       "0": "21",
@@ -148,5 +163,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "世界傳記",
+    "launch": {
+      "0": {
+        "executable": "Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2810321": {
+      "manifests": {
+        "public": {
+          "download": "746833088",
+          "gid": "1513208092112899464",
+          "size": "807849818"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26593234",
+        "timebuildupdated": "1794406290",
+        "timeupdated": "1794406400"
+      }
+    }
+  },
+  "extended": {
+    "developer": "阿強",
+    "publisher": "阿強"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "999999999",
+    "savefiles": {
+      "0": {
+        "path": "Saves",
+        "pattern": "*.rvdata2",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "",
+        "pattern": "GlobalData.rxdata2",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "",
+        "pattern": "System.rvdata2",
+        "root": "gameinstall"
+      },
+      "3": {
+        "path": "",
+        "pattern": "SystemSettings.rvdata2",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

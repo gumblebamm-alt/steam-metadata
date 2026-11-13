@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1794513261,
-  "_history": [],
-  "_change_number": 40875817,
-  "_missing_token": true,
-  "_sha": "ec9e7f22d8b4fa7a5e4d53b5da094ae8b8bc32d1",
-  "_size": 6851,
+  "_lastChecked": 1794552217,
+  "_history": [
+    {
+      "buildId": "26635458",
+      "branch": "public",
+      "timeUpdated": 1794543565,
+      "firstSeen": 1794552217,
+      "manifests": {
+        "2490651": {
+          "gid": "3878442238987530892",
+          "size": 4972664253,
+          "download": 4687965232
+        }
+      }
+    },
+    {
+      "buildId": "26511425",
+      "branch": "save-isolation-test",
+      "timeUpdated": 1794084540,
+      "firstSeen": 1794552217,
+      "manifests": {
+        "2490651": {
+          "gid": "1345656824278868127",
+          "size": 4884263209,
+          "download": 4603979312
+        }
+      }
+    }
+  ],
+  "_change_number": 40900314,
+  "_missing_token": false,
+  "_sha": "eba8864c9a592754de576ee708c4a32d1c81e536",
+  "_size": 8459,
   "appid": "2490650",
   "common": {
     "aicontenttype": "1",
@@ -29,6 +56,7 @@
     "clienticon": "0d0eebe9280ae0b10dd42bd13ca857795a5da8a6",
     "clienttga": "2be8405d3f521c1743855ba424a1f2b66f69cc5d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -38,7 +66,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "2490650",
     "genres": {
       "0": "1",
@@ -117,10 +144,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "420fce52ec7d9986c185b13c20b8a2767dccd3d1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1794492982",
     "store_tags": {
       "0": "91114",
@@ -341,5 +369,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SuperNaturalMarket",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "SuperNaturalMarket.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2490651": {
+      "manifests": {
+        "public": {
+          "download": "4687965232",
+          "gid": "3878442238987530892",
+          "size": "4972664253"
+        },
+        "save-isolation-test": {
+          "download": "4603979312",
+          "gid": "1345656824278868127",
+          "size": "4884263209"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26635458",
+        "timebuildupdated": "1794543154",
+        "timeupdated": "1794543565"
+      },
+      "save-isolation-test": {
+        "buildid": "26511425",
+        "description": "Demo ve ana oyun kayıt ayrımı testi",
+        "timebuildupdated": "1794084540",
+        "timeupdated": "1794084540"
+      }
+    }
+  },
+  "extended": {
+    "developer": "NeuroPixel Studios",
+    "publisher": "NeuroPixel Studios"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "4096",
+    "quota": "2147483648",
+    "savefiles": {
+      "0": {
+        "path": "SuperNaturalMarket/Saved/SaveGames",
+        "pattern": "SuperNaturalMarket*.sav",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "SuperNaturalMarket/Saved/SaveGames",
+        "pattern": "Arcade_BegaMan_Main_Profile_v1.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

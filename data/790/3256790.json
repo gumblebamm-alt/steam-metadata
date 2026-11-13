@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794513267,
-  "_history": [],
-  "_change_number": 40826703,
-  "_missing_token": true,
-  "_sha": "388c651747f1d75f1422c53a09cb8d15714a94ca",
-  "_size": 4669,
+  "_lastChecked": 1794552220,
+  "_history": [
+    {
+      "buildId": "26587358",
+      "branch": "public",
+      "timeUpdated": 1794388351,
+      "firstSeen": 1794552220,
+      "manifests": {
+        "3256791": {
+          "gid": "1550106823985741848",
+          "size": 716956804,
+          "download": 612797296
+        },
+        "3256792": {
+          "gid": "2232246045939718062",
+          "size": 734163779,
+          "download": 618218192
+        }
+      }
+    }
+  ],
+  "_change_number": 40895262,
+  "_missing_token": false,
+  "_sha": "6136fd63df034e1cac408ed9f2e2d32de018dff9",
+  "_size": 6123,
   "appid": "3256790",
   "common": {
     "associations": {
@@ -46,9 +65,9 @@
     "clienticon": "3195aa85640c8cd05535284db5f267720fdc55a0",
     "clienttga": "2d939dd03f032eeb71c5d4578920b8905c0dbc31",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3256790",
     "genres": {
       "0": "25"
@@ -118,12 +137,13 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d35906aafc1637d237ca8e3cc47c4cbbb20da766/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/3256790/discussions/0/582809103434447612/",
-    "store_asset_mtime": "1793893467",
+    "steam_release_date": "1794531379",
+    "store_asset_mtime": "1794528257",
     "store_tags": {
       "0": "1664",
       "1": "6129",
@@ -219,5 +239,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Satelital",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Satelital.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Satelital.app",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3256791": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "612797296",
+          "gid": "1550106823985741848",
+          "size": "716956804"
+        }
+      }
+    },
+    "3256792": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "618218192",
+          "gid": "2232246045939718062",
+          "size": "734163779"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,dutch,english,french,german,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,swedish,tchinese,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26587358",
+        "timebuildupdated": "1794388235",
+        "timeupdated": "1794388351"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Miguel Dorta",
+    "homepage": "https://spectralorbit.com/satelital",
+    "publisher": "Spectral Orbit"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "1000000"
+  }
 }

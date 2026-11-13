@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1794262847,
-  "_history": [],
-  "_change_number": 40705820,
-  "_missing_token": true,
-  "_sha": "8588518edc4ad3c84ceb12627f1ce9fcee4cb221",
-  "_size": 3862,
+  "_lastChecked": 1794552217,
+  "_history": [
+    {
+      "buildId": "26631377",
+      "branch": "public",
+      "timeUpdated": 1794528601,
+      "firstSeen": 1794552217,
+      "manifests": {
+        "2450351": {
+          "gid": "4049584875842579164",
+          "size": 1482218215,
+          "download": 483492032
+        }
+      }
+    },
+    {
+      "buildId": "26631377",
+      "branch": "staging",
+      "timeUpdated": 1794528613,
+      "firstSeen": 1794552217,
+      "manifests": {
+        "2450351": {
+          "gid": "4049584875842579164",
+          "size": 1482218215,
+          "download": 483492032
+        }
+      }
+    }
+  ],
+  "_change_number": 40902469,
+  "_missing_token": false,
+  "_sha": "4e48725c1118a51a2f6c31062cac25ba59ea8ccf",
+  "_size": 5319,
   "appid": "2450350",
   "common": {
     "associations": {
@@ -33,6 +60,7 @@
     "clienticon": "f4f31d2d01462260751052bbb0f9d794444a29c7",
     "clienttga": "bb32249823c4347bac1e40fca2253cabff9dc53e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -41,7 +69,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2450350",
     "genres": {
       "0": "1",
@@ -114,10 +141,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "91",
+    "review_score": "7",
     "small_capsule": {
       "english": "bbb39268fc3b2aeced1d246d931dbb2d08924fa2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794531686",
     "store_asset_mtime": "1793427915",
     "store_tags": {
       "0": "597",
@@ -188,5 +218,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fat Goblins",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "main.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2450351": {
+      "manifests": {
+        "public": {
+          "download": "483492032",
+          "gid": "4049584875842579164",
+          "size": "1482218215"
+        },
+        "staging": {
+          "download": "483492032",
+          "gid": "4049584875842579164",
+          "size": "1482218215"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,english,french,german,italian,japanese,koreana,polish,portuguese,russian,schinese,spanish,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26631377",
+        "timebuildupdated": "1794528491",
+        "timeupdated": "1794528601"
+      },
+      "staging": {
+        "buildid": "26631377",
+        "description": "Staging branch.",
+        "timebuildupdated": "1794528491",
+        "timeupdated": "1794528613"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Koda Games, LLC",
+    "homepage": "https://koda.games/",
+    "publisher": "Koda Games, LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "FatGoblins",
+        "pattern": "settings.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794205484,
-  "_history": [],
-  "_change_number": 40533618,
-  "_missing_token": true,
-  "_sha": "8603ced4afebb2ede56c401504f57a654b2a885d",
-  "_size": 8247,
+  "_lastChecked": 1794552234,
+  "_history": [
+    {
+      "buildId": "26396201",
+      "branch": "public",
+      "timeUpdated": 1793675549,
+      "firstSeen": 1794552234,
+      "manifests": {
+        "4781791": {
+          "gid": "1478047444354549442",
+          "size": 11296194872,
+          "download": 10728456320
+        }
+      }
+    }
+  ],
+  "_change_number": 40896594,
+  "_missing_token": false,
+  "_sha": "7f77913ff5d2379d52002222b98aa93ee8d23b8c",
+  "_size": 9399,
   "appid": "4781790",
   "common": {
     "aicontenttype": "1",
@@ -31,6 +45,7 @@
     },
     "clienticon": "422fe3decf9c72f403c6c64b2eec4956442f6496",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -47,7 +62,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "4781790",
     "genres": {
       "0": "25",
@@ -178,7 +192,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "brazilian": "acbbf872427f7d034a73f308d4ee89bc0bcb58ea/capsule_231x87_brazilian.jpg",
       "english": "ba7a08f3cfa6e2694bd5a33fbdeba0fb2e23afe9/capsule_231x87.jpg",
@@ -188,6 +202,7 @@
       "russian": "614c1bac7aa052006897fda518322097f92bc1f2/capsule_231x87_russian.jpg",
       "schinese": "5a14fc888172b435229260ac4a4894065165d722/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1794534661",
     "store_asset_mtime": "1793265834",
     "store_tags": {
       "0": "8369",
@@ -241,5 +256,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Deadly Match",
+    "launch": {
+      "0": {
+        "arguments": "-store=steam",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DeadlyMatch.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4781791": {
+      "manifests": {
+        "public": {
+          "download": "10728456320",
+          "gid": "1478047444354549442",
+          "size": "11296194872"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26396201",
+        "timebuildupdated": "1793675044",
+        "timeupdated": "1793675549"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Belba Games PTY LTD",
+    "homepage": "https://belbagames.com",
+    "publisher": "Belba Games PTY LTD"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "DeadlyMatch\\Saved\\SaveGames\\",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

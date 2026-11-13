@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794205489,
-  "_history": [],
-  "_change_number": 40739618,
-  "_missing_token": true,
-  "_sha": "3d9f00881562621e8f1612760b2ae49def04af6b",
-  "_size": 3544,
+  "_lastChecked": 1794552239,
+  "_history": [
+    {
+      "buildId": "26523278",
+      "branch": "public",
+      "timeUpdated": 1794159174,
+      "firstSeen": 1794552239,
+      "manifests": {
+        "5040221": {
+          "gid": "7889106897274453019",
+          "size": 461172847,
+          "download": 189903472
+        },
+        "5040222": {
+          "gid": "976961255532310231",
+          "size": 476794339,
+          "download": 197179824
+        },
+        "5040223": {
+          "gid": "7612910279018514735",
+          "size": 461557904,
+          "download": 188084976
+        }
+      }
+    }
+  ],
+  "_change_number": 40898066,
+  "_missing_token": false,
+  "_sha": "837b1d0aae96c06753c16d4ae7e2c25d09a184ec",
+  "_size": 5825,
   "appid": "5040220",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +54,8 @@
     },
     "clienticon": "5263eda6ea48c8c39056a35d5e362569e53a9e4b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5040220",
     "genres": {
       "0": "4",
@@ -112,10 +136,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0083e0d327d0eff7d98435511fefa9b3ef4fff53/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794538013",
     "store_asset_mtime": "1790473064",
     "store_tags": {
       "0": "1320952",
@@ -169,5 +194,120 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_scout"
+      }
+    },
+    "installdir": "HoloCozy",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "HoloCozy.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "HoloCozy.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "HoloCozy.sh",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "4"
+  },
+  "depots": {
+    "5040221": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "189903472",
+          "gid": "7889106897274453019",
+          "size": "461172847"
+        }
+      }
+    },
+    "5040222": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "197179824",
+          "gid": "976961255532310231",
+          "size": "476794339"
+        }
+      }
+    },
+    "5040223": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "188084976",
+          "gid": "7612910279018514735",
+          "size": "461557904"
+        }
+      }
+    },
+    "baselanguages": "english,indonesian,japanese,koreana,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26523278",
+        "timebuildupdated": "1794157132",
+        "timeupdated": "1794159174"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Ninth Games",
+    "publisher": " holo Indie"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "~/Library/Application Support/NinthGames/HoloCozy/Steam/{64BitSteamID}",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "NinthGames/HoloCozy/Steam/{64BitSteamID}",
+            "replace": ".config/unity3d/NinthGames/HoloCozy/Steam/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "NinthGames/HoloCozy/Steam/{64BitSteamID}",
+        "pattern": "save.dat",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

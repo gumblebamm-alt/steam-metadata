@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792603045,
-  "_history": [],
-  "_change_number": 40083284,
-  "_missing_token": true,
-  "_sha": "23d5f5c3fd7da3d26355e530e24aa59199fb8ddd",
-  "_size": 2979,
+  "_lastChecked": 1794552239,
+  "_history": [
+    {
+      "buildId": "26104667",
+      "branch": "public",
+      "timeUpdated": 1792582181,
+      "firstSeen": 1794552239,
+      "manifests": {
+        "5015411": {
+          "gid": "4046336562690366345",
+          "size": 50753641,
+          "download": 42433232
+        },
+        "5015412": {
+          "gid": "7007320747044570927",
+          "size": 65164933,
+          "download": 47036096
+        }
+      }
+    }
+  ],
+  "_change_number": 40898352,
+  "_missing_token": false,
+  "_sha": "ffb6bda707f47f10cd5d38e6d62f8d9017ea41de",
+  "_size": 3967,
   "appid": "5015410",
   "common": {
     "aicontenttype": "1",
@@ -30,9 +49,9 @@
     },
     "clienticon": "e5077876f68e51cbd22542dc535b68bd7c80bea8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5015410",
     "genres": {
       "0": "1",
@@ -102,14 +121,16 @@
     },
     "name": "Starfall",
     "osarch": "",
-    "osextended": "",
+    "oscpu": "",
+    "osextended": "macos64",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2b97fbe291bf2ab01d2462dc7c76ec9e7e220065/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1787549435",
+    "steam_release_date": "1794538041",
+    "store_asset_mtime": "1794538690",
     "store_tags": {
       "0": "597",
       "1": "3959",
@@ -132,5 +153,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Starfall",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "STARFALL.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "STARFALL.app"
+      }
+    }
+  },
+  "depots": {
+    "5015411": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "42433232",
+          "gid": "4046336562690366345",
+          "size": "50753641"
+        }
+      }
+    },
+    "5015412": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "47036096",
+          "gid": "7007320747044570927",
+          "size": "65164933"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26104667",
+        "timebuildupdated": "1792581066",
+        "timeupdated": "1792582181"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Imran",
+    "publisher": "Krazy Tech"
+  }
 }

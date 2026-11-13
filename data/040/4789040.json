@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791852294,
-  "_history": [],
-  "_change_number": 39743420,
-  "_missing_token": true,
-  "_sha": "2f7445f54f1763660104898a21ee8f78a0e56d43",
-  "_size": 3494,
+  "_lastChecked": 1794552234,
+  "_history": [
+    {
+      "buildId": "26437763",
+      "branch": "public",
+      "timeUpdated": 1793812934,
+      "firstSeen": 1794552234,
+      "manifests": {
+        "4789041": {
+          "gid": "1382823320097299216",
+          "size": 690523083,
+          "download": 198752144
+        }
+      }
+    }
+  ],
+  "_change_number": 40899260,
+  "_missing_token": false,
+  "_sha": "dd829d13de25480d79e523c587af0fa98989da45",
+  "_size": 4553,
   "appid": "4789040",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +44,7 @@
     },
     "clienticon": "f14cb9bf47efc57eab9d89b3c159a804c74dec9c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -39,7 +54,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "4789040",
     "genres": {
       "0": "4",
@@ -118,10 +132,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e36e38821f39394753b4fde450fef77195672581/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794541166",
     "store_asset_mtime": "1791812161",
     "store_tags": {
       "0": "9",
@@ -161,5 +176,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SPUM TD",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SpumTD.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4789041": {
+      "manifests": {
+        "public": {
+          "download": "198752144",
+          "gid": "1382823320097299216",
+          "size": "690523083"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26437763",
+        "timebuildupdated": "1793812902",
+        "timeupdated": "1793812934"
+      }
+    }
+  },
+  "extended": {
+    "developer": "SonRaim Studio",
+    "publisher": "SonRaim Studio"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "SonRaimStudio/SpumTD",
+        "pattern": "SaveFile.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

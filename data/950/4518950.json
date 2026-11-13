@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1792816670,
-  "_history": [],
-  "_change_number": 40191489,
-  "_missing_token": true,
-  "_sha": "fee3eca5273a75eab2e12449b87f7eec5694fb5a",
-  "_size": 3138,
+  "_lastChecked": 1794552230,
+  "_history": [
+    {
+      "buildId": "26632271",
+      "branch": "public",
+      "timeUpdated": 1794531829,
+      "firstSeen": 1794552230,
+      "manifests": {
+        "4518951": {
+          "gid": "4526523681578692116",
+          "size": 387623843,
+          "download": 155267984
+        },
+        "4518952": {
+          "gid": "5474472692817639714",
+          "size": 343557318,
+          "download": 132807456
+        },
+        "4518953": {
+          "gid": "7113441918143305787",
+          "size": 317243348,
+          "download": 135530784
+        }
+      }
+    }
+  ],
+  "_change_number": 40895425,
+  "_missing_token": false,
+  "_sha": "defb6157ddc7b2b663e49211c12729f3e1d7bbe7",
+  "_size": 5197,
   "appid": "4518950",
   "common": {
     "aicontenttype": "1",
@@ -33,9 +57,9 @@
     "clienticns": "f2823930d243ed62f9aee02bf1af4352caf82f48",
     "clienticon": "df12c6fb742080b7d13515be97dc3e7fbaa07d4f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4518950",
     "genres": {
       "0": "4",
@@ -109,10 +133,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d692f0d5931efa47f2b0dc146d7759739dccc6e6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794513689",
     "store_asset_mtime": "1792805393",
     "store_tags": {
       "0": "597",
@@ -131,7 +156,106 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Quod Erat Demonstrandum",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Launches the game normally",
+        "description_loc": {
+          "english": "Launches the game normally"
+        },
+        "executable": "Quod Erat Demonstrandum.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Launches the game normally",
+        "description_loc": {
+          "english": "Launches the game normally"
+        },
+        "executable": "quod-erat-demonstrandum",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input/game_actions_4518950.vdf"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4518951": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "155267984",
+          "gid": "4526523681578692116",
+          "size": "387623843"
+        }
+      }
+    },
+    "4518952": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "132807456",
+          "gid": "5474472692817639714",
+          "size": "343557318"
+        }
+      }
+    },
+    "4518953": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "135530784",
+          "gid": "7113441918143305787",
+          "size": "317243348"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26632271",
+        "timebuildupdated": "1794531829",
+        "timeupdated": "1794531829"
+      }
+    },
+    "workshopdepot": "4518950"
+  },
+  "extended": {
+    "developer": "Ad Dominum Games",
+    "publisher": "Ad Dominum Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "500000"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794513264,
-  "_history": [],
-  "_change_number": 40883130,
-  "_missing_token": true,
-  "_sha": "60339bcafc8a8c7939adead29346f15c13b67678",
-  "_size": 4849,
+  "_lastChecked": 1794552218,
+  "_history": [
+    {
+      "buildId": "26627635",
+      "branch": "public",
+      "timeUpdated": 1794517698,
+      "firstSeen": 1794552218,
+      "manifests": {
+        "2891971": {
+          "gid": "8334190463594808441",
+          "size": 3606269884,
+          "download": 3213706224
+        }
+      }
+    }
+  ],
+  "_change_number": 40900877,
+  "_missing_token": false,
+  "_sha": "73fc951fdaa79de0005f04a472411489d583c7e1",
+  "_size": 5958,
   "appid": "2891970",
   "common": {
     "associations": {
@@ -38,9 +52,9 @@
     "clienticon": "b1b03e0bca6d3062f1b3789fbfbc540551de175d",
     "clienttga": "5ef40fb3a4c6cdde9e64527ab564e4b2e778f5d3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2891970",
     "genres": {
       "0": "1",
@@ -131,12 +145,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3a987a1d113305e4ea92ae7049838d6e8d4f28d2/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/2891970/announcements/detail/690899935132910142",
-    "store_asset_mtime": "1794252492",
+    "steam_release_date": "1794545893",
+    "store_asset_mtime": "1794520609",
     "store_tags": {
       "0": "3834",
       "1": "3877",
@@ -228,5 +243,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Menes",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MenesTheChainbreaker.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65532",
+    "steamcontrollertemplateindex": "2",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2891971": {
+      "manifests": {
+        "public": {
+          "download": "3213706224",
+          "gid": "8334190463594808441",
+          "size": "3606269884"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26627635",
+        "timebuildupdated": "1794516150",
+        "timeupdated": "1794517698"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Adrian Podaru",
+    "homepage": "https://ragegame.io/",
+    "publisher": "Rage Game Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "RageGame/MenesTheChainbreaker/SteamProfiles/{64BitSteamID}",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

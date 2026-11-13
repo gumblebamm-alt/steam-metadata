@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793861069,
-  "_history": [],
-  "_change_number": 40606954,
-  "_missing_token": true,
-  "_sha": "d9bfd33c432857af4d9f10ace0599282c2543568",
-  "_size": 3108,
+  "_lastChecked": 1794552234,
+  "_history": [
+    {
+      "buildId": "26417785",
+      "branch": "public",
+      "timeUpdated": 1793745273,
+      "firstSeen": 1794552234,
+      "manifests": {
+        "4802531": {
+          "gid": "5189688667392557431",
+          "size": 79753373,
+          "download": 56363984
+        },
+        "4802532": {
+          "gid": "8631133888739087522",
+          "size": 66988920,
+          "download": 52062928
+        }
+      }
+    }
+  ],
+  "_change_number": 40895295,
+  "_missing_token": false,
+  "_sha": "6a0c8ddea90c9843f0ac4a0ca58e592b0451f324",
+  "_size": 4572,
   "appid": "4802530",
   "common": {
     "associations": {
@@ -36,9 +55,9 @@
     },
     "clienticon": "f9ab2522df69b1c9f73f849f4449299e216097d7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4802530",
     "genres": {
       "0": "4",
@@ -110,10 +129,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e0045013db37c9cbdf2a5dd86fba58a68d2b278d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1793828475",
     "store_tags": {
       "0": "1664",
@@ -129,8 +149,8 @@
       "4": "597",
       "5": "7208",
       "6": "1738",
-      "7": "507423",
-      "8": "44868",
+      "7": "44868",
+      "8": "507423",
       "9": "7481"
     },
     "supported_languages": {
@@ -140,5 +160,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_scout"
+      }
+    },
+    "installdir": "FoxStamps",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "FoxStamps.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "FoxStamps",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4802531": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "56363984",
+          "gid": "5189688667392557431",
+          "size": "79753373"
+        }
+      }
+    },
+    "4802532": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "52062928",
+          "gid": "8631133888739087522",
+          "size": "66988920"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26417785",
+        "timebuildupdated": "1793745201",
+        "timeupdated": "1793745273"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "Native",
+    "developer": "CyanSorcery",
+    "homepage": "https://foxstamps.com",
+    "publisher": "CyanSorcery"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "10000000"
+  }
 }
