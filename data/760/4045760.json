@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794513278,
-  "_history": [],
-  "_change_number": 40876049,
-  "_missing_token": true,
-  "_sha": "08770e5f2570a6963420ee135ad25fb124e11963",
-  "_size": 4005,
+  "_lastChecked": 1794598864,
+  "_history": [
+    {
+      "buildId": "26649747",
+      "branch": "public",
+      "timeUpdated": 1794587874,
+      "firstSeen": 1794598864,
+      "manifests": {
+        "4045761": {
+          "gid": "4013695579859972480",
+          "size": 1344819732,
+          "download": 1121987952
+        },
+        "4045762": {
+          "gid": "3133280178001132438",
+          "size": 1325860800,
+          "download": 1116030096
+        }
+      }
+    }
+  ],
+  "_change_number": 40926848,
+  "_missing_token": false,
+  "_sha": "01ad7819161e8edbdd54b233313bce4e652d3543",
+  "_size": 5489,
   "appid": "4045760",
   "common": {
     "associations": {
@@ -28,6 +47,7 @@
     },
     "clienticon": "69c7bae3d13acb4c8656c39a9b6789e68b00b536",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -41,7 +61,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4045760",
     "genres": {
       "0": "25",
@@ -123,14 +142,18 @@
     },
     "name": "Project: home",
     "osarch": "64",
-    "osextended": "",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
+    "review_percentage": "87",
+    "review_score": "7",
     "small_capsule": {
       "english": "343f32fbc970ad1ad5e37d857d1148c204048565/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794583063",
     "store_asset_mtime": "1792580067",
     "store_tags": {
       "0": "3799",
@@ -145,8 +168,8 @@
       "17": "492",
       "18": "6691",
       "19": "4166",
-      "2": "599",
-      "3": "6650",
+      "2": "6650",
+      "3": "599",
       "4": "122",
       "5": "597",
       "6": "4726",
@@ -194,5 +217,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Project home",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Project_Home.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Project_Home.exe"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Project_Home.sh"
+      }
+    }
+  },
+  "depots": {
+    "4045761": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1121987952",
+          "gid": "4013695579859972480",
+          "size": "1344819732"
+        }
+      }
+    },
+    "4045762": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1116030096",
+          "gid": "3133280178001132438",
+          "size": "1325860800"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26649747",
+        "timebuildupdated": "1794587874",
+        "timeupdated": "1794587874"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Niktarin",
+    "publisher": "Sei-ren"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "RenPy/Project1-1762076854",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

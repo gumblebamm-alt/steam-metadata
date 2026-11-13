@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794552242,
-  "_history": [],
-  "_change_number": 40898985,
-  "_missing_token": true,
-  "_sha": "63b2fca8cb22e819bdf0a70400d53fea615469af",
-  "_size": 4967,
+  "_lastChecked": 1794598888,
+  "_history": [
+    {
+      "buildId": "26634636",
+      "branch": "public",
+      "timeUpdated": 1794540269,
+      "firstSeen": 1794598888,
+      "manifests": {
+        "5204501": {
+          "gid": "7013840748141237217",
+          "size": 442732384,
+          "download": 340866464
+        },
+        "5204502": {
+          "gid": "6803239011865861211",
+          "size": 671559110,
+          "download": 526757872
+        }
+      }
+    }
+  ],
+  "_change_number": 40916823,
+  "_missing_token": false,
+  "_sha": "20deb6e2ed3eb4040179222b33c0c1653b9dcca3",
+  "_size": 6577,
   "appid": "5204500",
   "common": {
     "aicontenttype": "1",
@@ -43,8 +62,8 @@
     },
     "clienticon": "f65ddbdee899915716e7e0314726d08f500fb8af",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5204500",
     "genres": {
       "0": "23",
@@ -142,10 +161,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cbd3935f175cff05cd94f2cf3cad0e3417673689/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794580414",
     "store_asset_mtime": "1794414358",
     "store_tags": {
       "0": "9",
@@ -227,5 +247,87 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PTA6",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "PTA6.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "PTA6.app"
+      }
+    }
+  },
+  "depots": {
+    "5204501": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "340866464",
+          "gid": "7013840748141237217",
+          "size": "442732384"
+        }
+      }
+    },
+    "5204502": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "526757872",
+          "gid": "6803239011865861211",
+          "size": "671559110"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26634636",
+        "timebuildupdated": "1794540269",
+        "timeupdated": "1794540269"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "5204500"
+  },
+  "extended": {
+    "developer": "GreatZaochen",
+    "publisher": "GreatZaochen"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/PTA6",
+        "pattern": "pta6_save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/PTA6/maps",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

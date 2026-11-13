@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794262859,
-  "_history": [],
-  "_change_number": 40745140,
-  "_missing_token": true,
-  "_sha": "c9376c35ae444bb97cac63ead68e8c862e9ec15f",
-  "_size": 3237,
+  "_lastChecked": 1794598860,
+  "_history": [
+    {
+      "buildId": "26629493",
+      "branch": "public",
+      "timeUpdated": 1794521878,
+      "firstSeen": 1794598860,
+      "manifests": {
+        "3709321": {
+          "gid": "4353518968558884071",
+          "size": 1233292829,
+          "download": 1035998768
+        }
+      }
+    }
+  ],
+  "_change_number": 40904673,
+  "_missing_token": false,
+  "_sha": "f63593806ef3514e9b947d8c13121c59e7c6a612",
+  "_size": 4198,
   "appid": "3709320",
   "common": {
     "associations": {
@@ -25,6 +39,7 @@
     "clienticon": "665c0647946f5167214eedcc11fae4ed9ff4e849",
     "clienttga": "bd1aee06b11cd1dab8666772a10b1a9837b9a2e1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -38,7 +53,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3709320",
     "genres": {
       "0": "25",
@@ -106,15 +120,17 @@
       }
     },
     "name": "Coffee Buns",
-    "osarch": "",
-    "osextended": "",
+    "osarch": "64",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "a955552d2e50dd9bf73b9eac616ca48e493538a1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794556952",
     "store_asset_mtime": "1794206992",
     "store_tags": {
       "0": "21",
@@ -147,5 +163,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Coffee Buns",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CoffeeBuns.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "CoffeeBuns.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "CoffeeBuns.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3709321": {
+      "manifests": {
+        "public": {
+          "download": "1035998768",
+          "gid": "4353518968558884071",
+          "size": "1233292829"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26629493",
+        "timebuildupdated": "1794521877",
+        "timeupdated": "1794521878"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Cinnamon Switch LLC",
+    "publisher": "Cinnamon Switch LLC"
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794513303,
-  "_history": [],
-  "_change_number": 40885796,
-  "_missing_token": true,
-  "_sha": "1bdabc5710d7fc266c5328e9a510e8d29f28c68f",
-  "_size": 3181,
+  "_lastChecked": 1794598885,
+  "_history": [
+    {
+      "buildId": "26651710",
+      "branch": "public",
+      "timeUpdated": 1794593206,
+      "firstSeen": 1794598885,
+      "manifests": {
+        "5115932": {
+          "gid": "4728595984698568967",
+          "size": 141179587,
+          "download": 62475664
+        },
+        "5115933": {
+          "gid": "9018935011836089662",
+          "size": 204835190,
+          "download": 81554704
+        }
+      }
+    }
+  ],
+  "_change_number": 40925811,
+  "_missing_token": false,
+  "_sha": "d78ffc2be0eb69795c628c81b6a33aeaeaf873a8",
+  "_size": 5005,
   "appid": "5115930",
   "common": {
     "associations": {
@@ -31,8 +50,8 @@
     },
     "clienticon": "87d12451773a2b39fc5b4b459a0b5ba9a80c3b65",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5115930",
     "genres": {
       "0": "4",
@@ -108,11 +127,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "66969df6ab3d041d592f6ebfd25aa6d10c9da911/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1789324849",
+    "steam_release_date": "1794594078",
+    "store_asset_mtime": "1794595449",
     "store_tags": {
       "0": "599",
       "1": "560542",
@@ -142,5 +162,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "I hate progress bars",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "progress-bar-destroyer.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "I Hate Progress Bars.app/Contents/MacOS/I Hate Progress Bars"
+      }
+    }
+  },
+  "depots": {
+    "5115931": {},
+    "5115932": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "62475664",
+          "gid": "4728595984698568967",
+          "size": "141179587"
+        }
+      }
+    },
+    "5115933": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "81554704",
+          "gid": "9018935011836089662",
+          "size": "204835190"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26651710",
+        "timebuildupdated": "1794593206",
+        "timeupdated": "1794593206"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Sonce Games",
+    "publisher": "Sonce Games"
+  },
+  "ufs": {
+    "maxnumfiles": "25",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/I Hate Progress Bars",
+        "pattern": "save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/I Hate Progress Bars",
+        "pattern": "save.json.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/I Hate Progress Bars",
+        "pattern": "settings.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/I Hate Progress Bars",
+        "pattern": "achievements.json",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/I Hate Progress Bars",
+        "pattern": "achievements.json.bak",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

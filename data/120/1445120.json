@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792025636,
+  "_lastChecked": 1794598849,
   "_history": [
     {
       "buildId": "5661153",
@@ -13,12 +13,48 @@
           "download": 24883584
         }
       }
+    },
+    {
+      "buildId": "26651770",
+      "branch": "public",
+      "timeUpdated": 1794594247,
+      "firstSeen": 1794598849,
+      "manifests": {
+        "1445121": {
+          "gid": "6257937305336210551",
+          "size": 284247481,
+          "download": 109858384
+        },
+        "1445122": {
+          "gid": "4285351678979556383",
+          "size": 277749865,
+          "download": 100499184
+        }
+      }
+    },
+    {
+      "buildId": "26651770",
+      "branch": "update",
+      "timeUpdated": 1794593380,
+      "firstSeen": 1794598849,
+      "manifests": {
+        "1445121": {
+          "gid": "6257937305336210551",
+          "size": 284247481,
+          "download": 109858384
+        },
+        "1445122": {
+          "gid": "4285351678979556383",
+          "size": 277749865,
+          "download": 100499184
+        }
+      }
     }
   ],
-  "_change_number": 39834660,
+  "_change_number": 40925385,
   "_missing_token": false,
-  "_sha": "1ade5b5e72d6da3502fe1678a2996708a2a78af3",
-  "_size": 3041,
+  "_sha": "37bd58e15a786e5343689dcfba3618849701c089",
+  "_size": 4346,
   "appid": "1445120",
   "common": {
     "associations": {
@@ -33,12 +69,15 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
       "category_33": "1",
       "category_62": "1"
     },
     "clienticon": "d644d82081e5206c5f7fb8d688922df7cc5593cf",
     "clienttga": "b51e023dbfd628d08aa497cb901c22ce6b2144c0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "gameid": "1445120",
     "genres": {
       "0": "4",
@@ -141,28 +180,67 @@
         "description": "Fast Typing Master",
         "executable": "Fast Typing Master.exe",
         "type": "option1"
+      },
+      "1": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "fast-typing-master",
+        "type": "default"
       }
     }
   },
   "depots": {
     "1445121": {
       "config": {
-        "language": "",
+        "language": "english",
         "oslist": "windows"
       },
       "manifests": {
         "public": {
-          "download": "24883584",
-          "gid": "4661284806716393774",
-          "size": "74248423"
+          "download": "109858384",
+          "gid": "6257937305336210551",
+          "size": "284247481"
+        },
+        "update": {
+          "download": "109858384",
+          "gid": "6257937305336210551",
+          "size": "284247481"
+        }
+      }
+    },
+    "1445122": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "100499184",
+          "gid": "4285351678979556383",
+          "size": "277749865"
+        },
+        "update": {
+          "download": "100499184",
+          "gid": "4285351678979556383",
+          "size": "277749865"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "5661153",
-        "timebuildupdated": "1602253601",
-        "timeupdated": "1602253677"
+        "buildid": "26651770",
+        "timebuildupdated": "1794593380",
+        "timeupdated": "1794594247"
+      },
+      "update": {
+        "buildid": "26651770",
+        "description": "Version 2.0 test",
+        "timebuildupdated": "1794593380",
+        "timeupdated": "1794593380"
       }
     }
   },
@@ -170,5 +248,27 @@
     "developer": "Dusty Rocket Games",
     "homepage": "https://dustyrocketgames.com/games/fast-typing-master/",
     "publisher": "Dusty Rocket Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "50",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Fast Typing Master/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

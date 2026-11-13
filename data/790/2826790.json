@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794339865,
+  "_lastChecked": 1794598854,
   "_history": [
     {
       "buildId": "26572455",
@@ -26,12 +26,38 @@
           "download": 1989172352
         }
       }
+    },
+    {
+      "buildId": "26633985",
+      "branch": "public",
+      "timeUpdated": 1794538981,
+      "firstSeen": 1794598854,
+      "manifests": {
+        "2826791": {
+          "gid": "7552136055054257260",
+          "size": 2605405775,
+          "download": 1992654752
+        }
+      }
+    },
+    {
+      "buildId": "26633985",
+      "branch": "stormforgealpha",
+      "timeUpdated": 1794538981,
+      "firstSeen": 1794598854,
+      "manifests": {
+        "2826791": {
+          "gid": "7552136055054257260",
+          "size": 2605405775,
+          "download": 1992654752
+        }
+      }
     }
   ],
-  "_change_number": 40807137,
+  "_change_number": 40920820,
   "_missing_token": false,
-  "_sha": "bdf2e32f1319b1b92af5378caddd767a6dbcc181",
-  "_size": 7551,
+  "_sha": "8d647ad89f9a564fc4b93891414eec1b6742187d",
+  "_size": 7708,
   "appid": "2826790",
   "common": {
     "associations": {
@@ -175,11 +201,13 @@
     "oslist": "windows",
     "primary_genre": "1",
     "releasestate": "released",
+    "review_percentage": "91",
+    "review_score": "8",
     "small_capsule": {
       "english": "3d611792e09074470068fc5320a8780f7f38ad71/capsule_231x87.jpg"
     },
     "steam_release_date": "1794337326",
-    "store_asset_mtime": "1794338747",
+    "store_asset_mtime": "1794557989",
     "store_tags": {
       "0": "1100689",
       "1": "1662",
@@ -286,28 +314,28 @@
     "2826791": {
       "manifests": {
         "public": {
-          "download": "1989172352",
-          "gid": "1251571768431441493",
-          "size": "2602002394"
+          "download": "1992654752",
+          "gid": "7552136055054257260",
+          "size": "2605405775"
         },
         "stormforgealpha": {
-          "download": "1989172352",
-          "gid": "1251571768431441493",
-          "size": "2602002394"
+          "download": "1992654752",
+          "gid": "7552136055054257260",
+          "size": "2605405775"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26572455",
-        "timebuildupdated": "1794333476",
-        "timeupdated": "1794336786"
+        "buildid": "26633985",
+        "timebuildupdated": "1794538000",
+        "timeupdated": "1794538981"
       },
       "stormforgealpha": {
-        "buildid": "26572455",
+        "buildid": "26633985",
         "description": "For test group Alpha",
-        "timebuildupdated": "1794333476",
-        "timeupdated": "1794336786"
+        "timebuildupdated": "1794538000",
+        "timeupdated": "1794538981"
       }
     },
     "privatebranches": "1",
@@ -321,8 +349,6 @@
     "publisher": "Roboto Games"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "10000",
     "quota": "10000000000",
     "savefiles": {
@@ -334,6 +360,12 @@
       },
       "1": {
         "path": "RobotoGames/Stormforge/Saves/{Steam3AccountID}/Worlds",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "RobotoGames/Stormforge/Saves/{Steam3AccountID}/Cache",
         "pattern": "*",
         "recursive": "1",
         "root": "WinAppDataLocalLow"

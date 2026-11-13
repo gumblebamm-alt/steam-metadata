@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1793656021,
-  "_history": [],
-  "_change_number": 40518348,
-  "_missing_token": true,
-  "_sha": "1f0f5943bba0d13e46dc76d230aaabfb667329d1",
-  "_size": 4942,
+  "_lastChecked": 1794598876,
+  "_history": [
+    {
+      "buildId": "26386144",
+      "branch": "internal",
+      "timeUpdated": 1793642167,
+      "firstSeen": 1794598876,
+      "manifests": {
+        "4758991": {
+          "gid": "2790676984606671570",
+          "size": 161296988,
+          "download": 72886864
+        },
+        "4758992": {
+          "gid": "2639958574951600316",
+          "size": 126690764,
+          "download": 64334832
+        },
+        "4758993": {
+          "gid": "8577163308346934957",
+          "size": 221244904,
+          "download": 91189264
+        }
+      }
+    },
+    {
+      "buildId": "26383670",
+      "branch": "public",
+      "timeUpdated": 1793635350,
+      "firstSeen": 1794598876,
+      "manifests": {
+        "4758991": {
+          "gid": "6717610222044020544",
+          "size": 161295932,
+          "download": 72885872
+        },
+        "4758992": {
+          "gid": "9156636158378980362",
+          "size": 126689708,
+          "download": 64333840
+        },
+        "4758993": {
+          "gid": "316592820421868866",
+          "size": 221243848,
+          "download": 91188272
+        }
+      }
+    }
+  ],
+  "_change_number": 40905504,
+  "_missing_token": false,
+  "_sha": "0a470eeaaeeccfa95e82ae813efa1698e4af8ac2",
+  "_size": 7597,
   "appid": "4758990",
   "common": {
     "associations": {
@@ -34,9 +81,9 @@
     },
     "clienticon": "cf16080d6d6ba0e6655979f54f0c17201253447a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4758990",
     "genres": {
       "0": "4",
@@ -137,10 +184,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "adf44ed0919a24ac9c1466b45c8e18aaecca330e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1792772585",
     "store_tags": {
       "0": "1664",
@@ -248,5 +296,136 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Faraday Corridors",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "faraday-corridors.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "faraday-corridors.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Faraday Corridors.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4758991": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "internal": {
+          "download": "72886864",
+          "gid": "2790676984606671570",
+          "size": "161296988"
+        },
+        "public": {
+          "download": "72885872",
+          "gid": "6717610222044020544",
+          "size": "161295932"
+        }
+      }
+    },
+    "4758992": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "internal": {
+          "download": "64334832",
+          "gid": "2639958574951600316",
+          "size": "126690764"
+        },
+        "public": {
+          "download": "64333840",
+          "gid": "9156636158378980362",
+          "size": "126689708"
+        }
+      }
+    },
+    "4758993": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "internal": {
+          "download": "91189264",
+          "gid": "8577163308346934957",
+          "size": "221244904"
+        },
+        "public": {
+          "download": "91188272",
+          "gid": "316592820421868866",
+          "size": "221243848"
+        }
+      }
+    },
+    "baselanguages": "",
+    "branches": {
+      "internal": {
+        "buildid": "26386144",
+        "description": "latest builds for internal tests",
+        "timebuildupdated": "1793642167",
+        "timeupdated": "1793642167"
+      },
+      "public": {
+        "buildid": "26383670",
+        "timebuildupdated": "1793635340",
+        "timeupdated": "1793635350"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "4758990"
+  },
+  "extended": {
+    "developer": "Uralys Studio",
+    "homepage": "https://www.uralys.com/faraday-corridors",
+    "publisher": "Uralys Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "MacAppSupport",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Faraday Corridors",
+            "replace": "godot/app_userdata/Faraday Corridors"
+          }
+        },
+        "root": "MacAppSupport",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Faraday Corridors",
+        "pattern": "saved-data.corridors.bin",
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

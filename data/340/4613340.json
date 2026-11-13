@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794467369,
-  "_history": [],
-  "_change_number": 40853826,
-  "_missing_token": true,
-  "_sha": "b24681b001fe9fd5afe99b5178dc519f125b6261",
-  "_size": 3562,
+  "_lastChecked": 1794598873,
+  "_history": [
+    {
+      "buildId": "26647049",
+      "branch": "public",
+      "timeUpdated": 1794581115,
+      "firstSeen": 1794598873,
+      "manifests": {
+        "4613341": {
+          "gid": "6173491109600941952",
+          "size": 266632656,
+          "download": 139182304
+        }
+      }
+    }
+  ],
+  "_change_number": 40922102,
+  "_missing_token": false,
+  "_sha": "191a9c574b95e6dd1f9fd9d3e9559f3c25851ad0",
+  "_size": 4610,
   "appid": "4613340",
   "common": {
     "associations": {
@@ -32,8 +46,8 @@
     },
     "clienticon": "af85e4e0aeee5ff3b3b19bd2a71143baeb045c72",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4613340",
     "genres": {
       "0": "4",
@@ -108,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c01882ed0d34f19e9d2baedabce44485865aecae/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794589197",
     "store_asset_mtime": "1793924133",
     "store_tags": {
       "0": "1084988",
@@ -169,5 +184,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bannerlings",
+    "launch": {
+      "0": {
+        "executable": "Bannerlings.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4613341": {
+      "manifests": {
+        "public": {
+          "download": "139182304",
+          "gid": "6173491109600941952",
+          "size": "266632656"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26647049",
+        "timebuildupdated": "1794581080",
+        "timeupdated": "1794581115"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Frostwind",
+    "publisher": "Frostwind"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Bannerlings",
+        "pattern": "player_progress.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Bannerlings",
+        "pattern": "onboarding_state.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Bannerlings",
+        "pattern": "run_save.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

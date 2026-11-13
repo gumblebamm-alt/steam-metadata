@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794425747,
-  "_history": [],
-  "_change_number": 40836580,
-  "_missing_token": true,
-  "_sha": "c513ffef5ef0cc9a3348bb278b9e2de1a5b7b261",
-  "_size": 6407,
+  "_lastChecked": 1794598856,
+  "_history": [
+    {
+      "buildId": "26649638",
+      "branch": "public",
+      "timeUpdated": 1794591486,
+      "firstSeen": 1794598856,
+      "manifests": {
+        "3272971": {
+          "gid": "2864134868539071066",
+          "size": 348766654,
+          "download": 210851808
+        },
+        "3272972": {
+          "gid": "661645029365988952",
+          "size": 375435619,
+          "download": 208224656
+        }
+      }
+    }
+  ],
+  "_change_number": 40923635,
+  "_missing_token": false,
+  "_sha": "8e0df9d0424f358167d9a400e1854d2b01f9fae9",
+  "_size": 8038,
   "appid": "3272970",
   "common": {
     "associations": {
@@ -33,9 +52,9 @@
     "clienticon": "4091a7b64354cee2491cf5476c359cb9fd394b74",
     "clienttga": "f574195f9e464bcffca4c47c921145ecec57b49d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3272970",
     "genres": {
       "0": "4",
@@ -144,13 +163,14 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bca4f50ae3e59b0ee556c405ad4358fcc46ff274/capsule_231x87.jpg",
       "japanese": "5972246bde17e43a5eef3adc50d8102696644a8d/capsule_231x87_japanese.jpg",
       "schinese": "76ff0bcc36827d4372b6f74a415721c0dc79f3c2/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1792419747",
+    "steam_release_date": "1796025600",
+    "store_asset_mtime": "1794590470",
     "store_tags": {
       "0": "615955",
       "1": "560542",
@@ -267,5 +287,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mars Clicker",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MarsClicker.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "MarsClicker.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3272971": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "210851808",
+          "gid": "2864134868539071066",
+          "size": "348766654"
+        }
+      }
+    },
+    "3272972": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "208224656",
+          "gid": "661645029365988952",
+          "size": "375435619"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26649638",
+        "timebuildupdated": "1794587637",
+        "timeupdated": "1794591486"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Adrián Corbalán",
+    "homepage": "https://adriancorbalan.com/",
+    "publisher": "Adrián Corbalán"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Andari Games/MarsClicker/Saves",
+            "replace": "unity3d/Andari Games/MarsClicker/Saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Andari Games/MarsClicker/Saves",
+        "pattern": "*.fun",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

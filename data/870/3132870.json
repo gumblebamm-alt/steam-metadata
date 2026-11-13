@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791333747,
+  "_lastChecked": 1794598856,
   "_history": [
     {
       "buildId": "23881888",
@@ -44,12 +44,35 @@
           "download": 301708944
         }
       }
+    },
+    {
+      "buildId": "26637172",
+      "branch": "public",
+      "timeUpdated": 1794550331,
+      "firstSeen": 1794598856,
+      "manifests": {
+        "3132871": {
+          "gid": "6835126464178043716",
+          "size": 8969834342,
+          "download": 6341619696
+        },
+        "3132872": {
+          "gid": "7480241451944957029",
+          "size": 9164528855,
+          "download": 6450328176
+        },
+        "5347390": {
+          "gid": "756056267968916257",
+          "size": 1205487876,
+          "download": 301708944
+        }
+      }
     }
   ],
-  "_change_number": 39535828,
+  "_change_number": 40914571,
   "_missing_token": false,
-  "_sha": "a417a1515c60feb81a2ed6449469111bafc1f6a2",
-  "_size": 7985,
+  "_sha": "118791207c670b1f8fc6a419e8729af9da5db5a5",
+  "_size": 7804,
   "appid": "3132870",
   "common": {
     "associations": {
@@ -160,11 +183,12 @@
       "schinese": "雾隐天途"
     },
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "2",
     "releasestate": "released",
-    "review_percentage": "77",
+    "review_percentage": "78",
     "review_score": "6",
     "small_capsule": {
       "english": "d98b442c21eb800b6dc588ed632bd407f51f4f02/capsule_231x87.jpg",
@@ -219,25 +243,25 @@
     "store_asset_mtime": "1791290338",
     "store_tags": {
       "0": "4328",
-      "1": "1662",
-      "10": "3834",
-      "11": "1645",
-      "12": "6426",
-      "13": "4166",
-      "14": "1742",
-      "15": "4026",
-      "16": "4695",
-      "17": "1676",
-      "18": "1667",
-      "19": "3978",
-      "2": "9",
-      "3": "8945",
-      "4": "220585",
-      "5": "4604",
+      "1": "220585",
+      "10": "6426",
+      "11": "1742",
+      "12": "599",
+      "13": "4604",
+      "14": "4166",
+      "15": "3978",
+      "16": "8945",
+      "17": "3834",
+      "18": "1645",
+      "19": "4182",
+      "2": "1643",
+      "3": "4695",
+      "4": "12472",
+      "5": "1662",
       "6": "7332",
-      "7": "599",
-      "8": "12472",
-      "9": "1643"
+      "7": "4026",
+      "8": "9",
+      "9": "1667"
     },
     "supported_languages": {
       "english": {
@@ -283,30 +307,6 @@
         "executable": "DarkSwitch.exe",
         "type": "default"
       },
-      "1": {
-        "config": {
-          "oslist": "windows",
-          "ownsdlc": "5347390"
-        },
-        "description": "Artbook",
-        "description_loc": {
-          "english": "Artbook",
-          "russian": "Артбук (English)"
-        },
-        "executable": "Artbook/DarkSwitch_Artbook.pdf"
-      },
-      "2": {
-        "config": {
-          "oslist": "windows",
-          "ownsdlc": "5347390"
-        },
-        "description": "Artbook (Russian)",
-        "description_loc": {
-          "english": "Artbook (Russian)",
-          "russian": "Артбук"
-        },
-        "executable": "Artbook/DarkSwitch_Artbook_RU.pdf"
-      },
       "3": {
         "config": {
           "oslist": "macos"
@@ -330,9 +330,9 @@
       },
       "manifests": {
         "public": {
-          "download": "7570503696",
-          "gid": "5104223712512415602",
-          "size": "10171386520"
+          "download": "6341619696",
+          "gid": "6835126464178043716",
+          "size": "8969834342"
         }
       }
     },
@@ -340,7 +340,13 @@
       "config": {
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "6450328176",
+          "gid": "7480241451944957029",
+          "size": "9164528855"
+        }
+      }
     },
     "5347390": {
       "dlcappid": "5347390",
@@ -355,21 +361,32 @@
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "25670167",
-        "timebuildupdated": "1790920346",
-        "timeupdated": "1790920346"
+        "buildid": "26637172",
+        "timebuildupdated": "1794550331",
+        "timeupdated": "1794550331"
       }
     },
     "privatebranches": "1"
   },
   "extended": {
     "developer": "Cyber Temple",
+    "dlcavailableonstore": "1",
     "homepage": "https://darkswitch.com/",
+    "listofdlc": "5347390",
     "publisher": "Cyber Temple Games LLC"
   },
   "ufs": {
     "maxnumfiles": "100",
     "quota": "500000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "CyberTemple/DarkSwitch/Saves",

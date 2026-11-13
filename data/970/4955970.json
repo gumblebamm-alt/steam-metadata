@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792603042,
-  "_history": [],
-  "_change_number": 39937549,
-  "_missing_token": true,
-  "_sha": "fcbd97dc7a9ee9acbf7b5e432cbe246583277308",
-  "_size": 3555,
+  "_lastChecked": 1794598881,
+  "_history": [
+    {
+      "buildId": "26650078",
+      "branch": "public",
+      "timeUpdated": 1794589793,
+      "firstSeen": 1794598881,
+      "manifests": {
+        "4955971": {
+          "gid": "2873568352937572532",
+          "size": 377467240,
+          "download": 370862416
+        }
+      }
+    }
+  ],
+  "_change_number": 40924354,
+  "_missing_token": false,
+  "_sha": "54ed9dbcfea5049a9fc7c4104687db6ce6f22289",
+  "_size": 4677,
   "appid": "4955970",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +47,8 @@
     },
     "clienticon": "77c4a62afa7d417b93bed30a8d182aea95cee6ea",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4955970",
     "genres": {
       "0": "4",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6fd655355fb3bcd76ec5eb7694f246c9ea4a53db/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794592831",
     "store_asset_mtime": "1790463363",
     "store_tags": {
       "0": "560542",
@@ -166,5 +181,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Epoch Vault",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "epoch-vault.exe"
+      }
+    }
+  },
+  "depots": {
+    "4955971": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "370862416",
+          "gid": "2873568352937572532",
+          "size": "377467240"
+        }
+      }
+    },
+    "4955972": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26650078",
+        "timebuildupdated": "1794588745",
+        "timeupdated": "1794589793"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Epoch Vault Studio",
+    "publisher": "Epoch Vault Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "com.epochvault.game",
+        "pattern": "save-backup.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

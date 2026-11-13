@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794467349,
-  "_history": [],
-  "_change_number": 40851202,
-  "_missing_token": true,
-  "_sha": "92e2656062f72c30388293e28f96e1c024305c24",
-  "_size": 4744,
+  "_lastChecked": 1794598851,
+  "_history": [
+    {
+      "buildId": "26630479",
+      "branch": "public",
+      "timeUpdated": 1794525412,
+      "firstSeen": 1794598851,
+      "manifests": {
+        "2174518": {
+          "gid": "8384499401477128088",
+          "size": 11499754136,
+          "download": 3962973008
+        },
+        "2174519": {
+          "gid": "9213920454967496152",
+          "size": 11646314542,
+          "download": 3982598288
+        }
+      }
+    }
+  ],
+  "_change_number": 40926833,
+  "_missing_token": false,
+  "_sha": "8e8efd7fc6652497b172079e68d667f286861f4d",
+  "_size": 7629,
   "appid": "2174510",
   "common": {
     "aicontenttype": "1",
@@ -57,15 +76,14 @@
     "clienticon": "6c071a6203d6544d6b6cbbfd9092a507350e30ae",
     "clienttga": "1676c48a3eb95b580006126e8e4015e715cc99cf",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2174510",
     "genres": {
       "0": "9",
       "1": "28",
-      "2": "2",
-      "3": "70"
+      "2": "2"
     },
     "header_image": {
       "english": "15ffd721cb029c415bcc4ee2702713c9d52df6a4/header.jpg"
@@ -133,10 +151,13 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "86",
+    "review_score": "7",
     "small_capsule": {
       "english": "76f383e17982e6e18b6ca6d5d7f7e78bef40dc89/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794573536",
     "store_asset_mtime": "1793050557",
     "store_tags": {
       "0": "699",
@@ -222,7 +243,134 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      },
+      "1": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_scout"
+      }
+    },
+    "installdir": "Backseat Champions",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BackseatChampions.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "BackseatChampions.x86_64",
+        "type": "default"
+      },
+      "4": {
+        "arguments": "-force-vulkan",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Use alternative Vulkan renderer",
+        "description_loc": {
+          "english": "Use alternative Vulkan renderer"
+        },
+        "executable": "BackseatChampions.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2174518": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "3962973008",
+          "gid": "8384499401477128088",
+          "size": "11499754136"
+        }
+      }
+    },
+    "2174519": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3982598288",
+          "gid": "9213920454967496152",
+          "size": "11646314542"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,dutch,english,french,german,hungarian,italian,latam,polish,portuguese,romanian,russian,tchinese,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26630479",
+        "timebuildupdated": "1794525292",
+        "timeupdated": "1794525412"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "2174510"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "f13rce",
+    "homepage": "https://BackseatChampions.com",
+    "publisher": "f13rce",
+    "remoteplaytogethertestingbranches": "default"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".config/unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "f13rce/BackseatChampions",
+        "pattern": "Championship_*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "f13rce/BackseatChampions",
+        "pattern": "Campaign_*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "f13rce/BackseatChampions",
+        "pattern": "cpu_records.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "f13rce/BackseatChampions",
+        "pattern": "*_AINames.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": "f13rce/BackseatChampions/TrackForge",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

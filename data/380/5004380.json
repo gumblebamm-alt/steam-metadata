@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793425427,
-  "_history": [],
-  "_change_number": 40441920,
-  "_missing_token": true,
-  "_sha": "36e4db00efe3397f11c8714c053430d6c61b7b5d",
-  "_size": 3113,
+  "_lastChecked": 1794598882,
+  "_history": [
+    {
+      "buildId": "26555360",
+      "branch": "public",
+      "timeUpdated": 1794277237,
+      "firstSeen": 1794598882,
+      "manifests": {
+        "5004382": {
+          "gid": "2742064419315027068",
+          "size": 688991529,
+          "download": 448693104
+        }
+      }
+    }
+  ],
+  "_change_number": 40916371,
+  "_missing_token": false,
+  "_sha": "6d32c7ddfb8e61e5d43f8607851f8fca9e345e10",
+  "_size": 4143,
   "appid": "5004380",
   "common": {
     "associations": {
@@ -33,9 +47,9 @@
     },
     "clienticon": "a2840f19f98dcddb93f7421111f51f7dd56ab82b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5004380",
     "genres": {
       "0": "1",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e86290ec7292ecb7d16eb60e5d26c52be6b976d2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794579704",
     "store_asset_mtime": "1792599770",
     "store_tags": {
       "0": "21",
@@ -142,5 +157,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "GraveCrown",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "DelveWright",
+        "description_loc": {
+          "english": "DelveWright"
+        },
+        "executable": "delvewright.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "DelveWright",
+        "description_loc": {
+          "english": "DelveWright"
+        },
+        "executable": "delvewright.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5004381": {},
+    "5004382": {
+      "manifests": {
+        "public": {
+          "download": "448693104",
+          "gid": "2742064419315027068",
+          "size": "688991529"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26555360",
+        "timebuildupdated": "1794277200",
+        "timeupdated": "1794277237"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Sean Elovirta",
+    "homepage": "https://cindieforge.com/games/delvewright",
+    "publisher": "CindieForge"
+  }
 }

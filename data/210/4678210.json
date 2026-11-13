@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794513291,
-  "_history": [],
-  "_change_number": 40832748,
-  "_missing_token": true,
-  "_sha": "b9dc1d06b62c0f512f61a54a6a9b76b3a9781473",
-  "_size": 4969,
+  "_lastChecked": 1794598874,
+  "_history": [
+    {
+      "buildId": "26591283",
+      "branch": "public",
+      "timeUpdated": 1794400965,
+      "firstSeen": 1794598874,
+      "manifests": {
+        "4678211": {
+          "gid": "6744250182414108434",
+          "size": 2615074371,
+          "download": 2241587024
+        },
+        "5179960": {
+          "gid": "8292324436653639718",
+          "size": 586387,
+          "download": 561040
+        }
+      }
+    }
+  ],
+  "_change_number": 40904593,
+  "_missing_token": false,
+  "_sha": "2ecae92ced95ab29c3c2860cc84c3bcd20050380",
+  "_size": 6751,
   "appid": "4678210",
   "common": {
     "aicontenttype": "1",
@@ -36,9 +55,9 @@
     },
     "clienticon": "f63174a4364cdece6d331aa6584c1ee24e5c8cd6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4678210",
     "genres": {
       "0": "1",
@@ -118,10 +137,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bef6b60ce53ada5fce9e24b796d6a36af81575c6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794556816",
     "store_asset_mtime": "1792313277",
     "store_tags": {
       "0": "1719",
@@ -233,5 +253,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Little Elementals",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "LittleElementals.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4678211": {
+      "manifests": {
+        "public": {
+          "download": "2241587024",
+          "gid": "6744250182414108434",
+          "size": "2615074371"
+        }
+      }
+    },
+    "5179960": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "dlcappid": "5179960",
+      "manifests": {
+        "public": {
+          "download": "561040",
+          "gid": "8292324436653639718",
+          "size": "586387"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,dutch,english,french,german,indonesian,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,tchinese,thai,turkish,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "26591283",
+        "timebuildupdated": "1794400965",
+        "timeupdated": "1794400965"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Hwidely Studio",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5179960",
+    "publisher": "Hwidely Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "LittleElementals/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "LittleElementals/Saved/Paint",
+        "pattern": "EndingPaint.png",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

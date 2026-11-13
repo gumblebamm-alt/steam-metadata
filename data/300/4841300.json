@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794377704,
-  "_history": [],
-  "_change_number": 40715964,
-  "_missing_token": true,
-  "_sha": "c257ee7523defa9aa85b9fe912dd11c6558aaedb",
-  "_size": 10297,
+  "_lastChecked": 1794598878,
+  "_history": [
+    {
+      "buildId": "26637768",
+      "branch": "public",
+      "timeUpdated": 1794553778,
+      "firstSeen": 1794598878,
+      "manifests": {
+        "4841301": {
+          "gid": "6372455339036756853",
+          "size": 2859531002,
+          "download": 2706642816
+        }
+      }
+    }
+  ],
+  "_change_number": 40924017,
+  "_missing_token": false,
+  "_sha": "a338db9489166a856f43eea41e6a1f01402c5f93",
+  "_size": 11617,
   "appid": "4841300",
   "common": {
     "aicontenttype": "1",
@@ -19,6 +33,7 @@
       }
     },
     "category": {
+      "category_18": "1",
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
@@ -34,14 +49,15 @@
     },
     "clienticon": "2370850a9857e52ede25c57dd2b8fe9f3a25276d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
     "content_descriptors_including_dlc": {
       "0": "5"
     },
+    "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4841300",
     "genres": {
       "0": "25",
@@ -197,7 +213,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "brazilian": "8356ebc66066d5fbcaf801c65de95b9d7d3befb3/capsule_231x87_brazilian.jpg",
       "english": "8356ebc66066d5fbcaf801c65de95b9d7d3befb3/capsule_231x87.jpg",
@@ -208,6 +224,7 @@
       "russian": "50961522c23d3542f89c47d723dd376f8121c870/capsule_231x87_russian.jpg",
       "spanish": "8356ebc66066d5fbcaf801c65de95b9d7d3befb3/capsule_231x87_spanish.jpg"
     },
+    "steam_release_date": "1794554301",
     "store_asset_mtime": "1792566827",
     "store_tags": {
       "0": "26921",
@@ -256,5 +273,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Vizier",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Vizier.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4841301": {
+      "manifests": {
+        "public": {
+          "download": "2706642816",
+          "gid": "6372455339036756853",
+          "size": "2859531002"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,polish,russian,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26637768",
+        "timebuildupdated": "1794552986",
+        "timeupdated": "1794553778"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Verdigris",
+    "publisher": "Verdigris"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Vizier/saves",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Vizier",
+        "pattern": "achievements.json*",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Vizier",
+        "pattern": "career_stats.json*",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Vizier",
+        "pattern": "annals.json*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792816672,
-  "_history": [],
-  "_change_number": 40183809,
-  "_missing_token": true,
-  "_sha": "276171d88736bc46689988e2308a107fb0c077fa",
-  "_size": 3512,
+  "_lastChecked": 1794598874,
+  "_history": [
+    {
+      "buildId": "26629127",
+      "branch": "public",
+      "timeUpdated": 1794520859,
+      "firstSeen": 1794598874,
+      "manifests": {
+        "4631071": {
+          "gid": "2710374357673193204",
+          "size": 339957516,
+          "download": 69885888
+        },
+        "4631072": {
+          "gid": "809342297726062942",
+          "size": 345640337,
+          "download": 70644080
+        }
+      }
+    }
+  ],
+  "_change_number": 40908172,
+  "_missing_token": false,
+  "_sha": "9a78873b616dae4c2bf1e0cc0529ec879a1a60e6",
+  "_size": 5058,
   "appid": "4631070",
   "common": {
     "associations": {
@@ -30,9 +49,9 @@
     },
     "clienticon": "f60192171ce10b3240a7dc5ebc3361030b1bb9a0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4631070",
     "genres": {
       "0": "4",
@@ -114,10 +133,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6d00fccc26bcc881819b7b1680f2624e4af67b47/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794564023",
     "store_asset_mtime": "1788788712",
     "store_tags": {
       "0": "1664",
@@ -162,5 +182,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Vroomity Loops",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Vroomity Loops.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "vroomity_loops_mac.app"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4631071": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "69885888",
+          "gid": "2710374357673193204",
+          "size": "339957516"
+        }
+      }
+    },
+    "4631072": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "70644080",
+          "gid": "809342297726062942",
+          "size": "345640337"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26629127",
+        "timebuildupdated": "1794520859",
+        "timeupdated": "1794520859"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Happy Chimkens",
+    "publisher": "Happy Chimkens"
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "400000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Happy Chimkens/Vroomity Loops",
+            "replace": "Happy Chimkens/Vroomity Loops"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Happy Chimkens/Vroomity Loops",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

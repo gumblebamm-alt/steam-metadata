@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793688525,
-  "_history": [],
-  "_change_number": 40526669,
-  "_missing_token": true,
-  "_sha": "d8fe7424cb0cb41975e4f5c17112a81b3974230c",
-  "_size": 2959,
+  "_lastChecked": 1794598884,
+  "_history": [
+    {
+      "buildId": "26607484",
+      "branch": "public",
+      "timeUpdated": 1794452068,
+      "firstSeen": 1794598884,
+      "manifests": {
+        "5073711": {
+          "gid": "7898100861944945326",
+          "size": 156397057,
+          "download": 75215248
+        }
+      }
+    }
+  ],
+  "_change_number": 40911787,
+  "_missing_token": false,
+  "_sha": "ec3064b1a1f9493ebe95c6dba423db518663cf54",
+  "_size": 4291,
   "appid": "5073710",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "052fa182a0199e8a8764f88e891ef79756f8a27a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5073710",
     "genres": {
       "0": "4",
@@ -104,11 +118,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bf090261ad0395dea957358dbd2c3917b6f5e7fd/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793656698",
+    "steam_release_date": "1794571210",
+    "store_asset_mtime": "1793822025",
     "store_tags": {
       "0": "1664",
       "1": "597",
@@ -132,5 +147,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Inkturn",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Inkturn.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5073711": {
+      "manifests": {
+        "public": {
+          "download": "75215248",
+          "gid": "7898100861944945326",
+          "size": "156397057"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26607484",
+        "timebuildupdated": "1794452029",
+        "timeupdated": "1794452068"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Lucent Trace",
+    "homepage": "https://lucenttrace.com/inkturn",
+    "publisher": "Lucent Trace"
+  },
+  "ufs": {
+    "maxnumfiles": "4",
+    "quota": "1048576",
+    "savefiles": {
+      "0": {
+        "path": "Lucent Trace/Inkturn/{64BitSteamID}",
+        "pattern": "progress.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Lucent Trace/Inkturn/{64BitSteamID}",
+        "pattern": "progress.json.tmp",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Lucent Trace/Inkturn/{64BitSteamID}",
+        "pattern": "progress.json.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Lucent Trace/Inkturn/{64BitSteamID}",
+        "pattern": "progress.json.reset",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

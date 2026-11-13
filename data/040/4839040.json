@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794513294,
-  "_history": [],
-  "_change_number": 40868237,
-  "_missing_token": true,
-  "_sha": "4885bfefbeae7a9031c56bf30564101bfd375d32",
-  "_size": 3901,
+  "_lastChecked": 1794598878,
+  "_history": [
+    {
+      "buildId": "26642771",
+      "branch": "public",
+      "timeUpdated": 1794569428,
+      "firstSeen": 1794598878,
+      "manifests": {
+        "4839041": {
+          "gid": "5080956577936949662",
+          "size": 2495791584,
+          "download": 2370309840
+        }
+      }
+    }
+  ],
+  "_change_number": 40910896,
+  "_missing_token": false,
+  "_sha": "3c2ae598451fd7aea03948edc26a3a0e09e37209",
+  "_size": 4875,
   "appid": "4839040",
   "common": {
     "aicontenttype": "1",
@@ -26,6 +40,7 @@
     },
     "clienticon": "60f2cb5d9d901877459550cbc891b57ccb5f958b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -39,7 +54,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4839040",
     "genres": {
       "0": "23",
@@ -126,11 +140,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
+    "review_percentage": "95",
+    "review_score": "7",
     "small_capsule": {
       "english": "b9865188091a8d14d439ff259474922596c30866/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794557054",
     "store_asset_mtime": "1792408409",
     "store_tags": {
       "0": "9130",
@@ -183,5 +200,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "X-Keepers",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Keepers.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4839041": {
+      "manifests": {
+        "public": {
+          "download": "2370309840",
+          "gid": "5080956577936949662",
+          "size": "2495791584"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26642771",
+        "timebuildupdated": "1794568954",
+        "timeupdated": "1794569428"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Ero Echo Studio",
+    "publisher": "Ero Echo Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Keepers Steam Review/saves/v2/steam_{64BitSteamID}",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

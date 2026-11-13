@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1794467353,
-  "_history": [],
-  "_change_number": 40858145,
-  "_missing_token": true,
-  "_sha": "f6e29936b331bc0eacf1bbf154ad9cae586d5f37",
-  "_size": 3323,
+  "_lastChecked": 1794598855,
+  "_history": [
+    {
+      "buildId": "26650750",
+      "branch": "pre-release",
+      "timeUpdated": 1794590680,
+      "firstSeen": 1794598855,
+      "manifests": {
+        "3030561": {
+          "gid": "8094104720111588958",
+          "size": 461665448,
+          "download": 93840112
+        }
+      }
+    },
+    {
+      "buildId": "26650750",
+      "branch": "public",
+      "timeUpdated": 1794591080,
+      "firstSeen": 1794598855,
+      "manifests": {
+        "3030561": {
+          "gid": "8094104720111588958",
+          "size": 461665448,
+          "download": 93840112
+        }
+      }
+    }
+  ],
+  "_change_number": 40924298,
+  "_missing_token": false,
+  "_sha": "ea47729f4382abeb282e1686910f741329903069",
+  "_size": 4878,
   "appid": "3030560",
   "common": {
     "associations": {
@@ -41,7 +68,6 @@
     "clienttga": "a1fba0bfbdff4373a168c5e6145704faa240365e",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3030560",
     "genres": {
       "0": "1",
@@ -51,7 +77,7 @@
       "english": "3eec630946545b5a7df00896cd735c3c110f7c0a/header.jpg",
       "japanese": "52767f957cbcbfebd3ba2343c2698b777c2fc9a0/header_japanese.jpg"
     },
-    "icon": "cae57f525fc311cd204541790eca08440b2e1205",
+    "icon": "935ef927e4aaca790c90f3e9c1505e85f6d8fc3b",
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -107,11 +133,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f85fdad7cadcf7e1e6a43abd7fba5bcad95ec4e7/capsule_231x87.jpg",
       "japanese": "ee718a9bb63693672f3e57a16ebdcf44dcae23d6/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1794592806",
     "store_asset_mtime": "1794342763",
     "store_tags": {
       "0": "84",
@@ -147,5 +174,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sloppy Forgeries",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "SloppyForgeries.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3030561": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "pre-release": {
+          "download": "93840112",
+          "gid": "8094104720111588958",
+          "size": "461665448"
+        },
+        "public": {
+          "download": "93840112",
+          "gid": "8094104720111588958",
+          "size": "461665448"
+        }
+      }
+    },
+    "branches": {
+      "pre-release": {
+        "buildid": "26650750",
+        "description": "testing before launch",
+        "timebuildupdated": "1794590351",
+        "timeupdated": "1794590680"
+      },
+      "public": {
+        "buildid": "26650750",
+        "timebuildupdated": "1794590351",
+        "timeupdated": "1794591080"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Playful Systems LLC",
+    "homepage": "https://sloppyforgeries.com/",
+    "publisher": "Playful Systems LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "524288000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "PlayfulSystems/SloppyForgeries/{64BitSteamID}",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

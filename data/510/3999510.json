@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794552225,
-  "_history": [],
-  "_change_number": 40902411,
-  "_missing_token": true,
-  "_sha": "8a1a53ba3222f78fd1feb1c0bdc65d67c864acce",
-  "_size": 5006,
+  "_lastChecked": 1794598863,
+  "_history": [
+    {
+      "buildId": "26628245",
+      "branch": "public",
+      "timeUpdated": 1794518675,
+      "firstSeen": 1794598863,
+      "manifests": {
+        "3999511": {
+          "gid": "4041739493199301274",
+          "size": 33324283996,
+          "download": 10070617104
+        },
+        "3999512": {
+          "gid": "3314901489604221338",
+          "size": 33144890995,
+          "download": 9686094304
+        }
+      }
+    }
+  ],
+  "_change_number": 40905594,
+  "_missing_token": false,
+  "_sha": "4a8f18399adc15c240d1bf81fc238b0b55aa0174",
+  "_size": 6802,
   "appid": "3999510",
   "common": {
     "aicontenttype": "1",
@@ -36,6 +55,7 @@
     },
     "clienticon": "32c8e63614854a87b0793bb327737d76b2b035cc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -52,7 +72,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3999510",
     "genres": {
       "0": "1",
@@ -143,20 +162,21 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "747527d2e5d3157743e731c9c152321a1cf647a9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794559002",
     "store_asset_mtime": "1794550920",
     "store_tags": {
       "0": "21",
       "1": "19",
       "10": "12095",
       "11": "6691",
-      "12": "97070",
-      "13": "4182",
-      "14": "6650",
+      "12": "6650",
+      "13": "97070",
+      "14": "4182",
       "15": "4166",
       "16": "3916",
       "17": "5608",
@@ -244,5 +264,101 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Siren's Well 2",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SirensWell2.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "SirensWell2.sh"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3999511": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "10070617104",
+          "gid": "4041739493199301274",
+          "size": "33324283996"
+        }
+      }
+    },
+    "3999512": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "9686094304",
+          "gid": "3314901489604221338",
+          "size": "33144890995"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26628245",
+        "timebuildupdated": "1794518037",
+        "timeupdated": "1794518675"
+      }
+    }
+  },
+  "extended": {
+    "developer": "OneManOnly Studios",
+    "dlcavailableonstore": "1",
+    "listofdlc": "4905800",
+    "publisher": "OneManOnly Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "9990",
+    "quota": "9999999990",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SirensWell2/Saved/SaveGames",
+            "replace": ".config/Epic/SirensWell2/Saved/SaveGames"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SirensWell2/Saved/SaveGames",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

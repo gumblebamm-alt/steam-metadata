@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794552220,
-  "_history": [],
-  "_change_number": 40899705,
-  "_missing_token": true,
-  "_sha": "059e601447ba08007a0ad9504b1c1dc089f50938",
-  "_size": 3070,
+  "_lastChecked": 1794598856,
+  "_history": [
+    {
+      "buildId": "26646867",
+      "branch": "public",
+      "timeUpdated": 1794580753,
+      "firstSeen": 1794598856,
+      "manifests": {
+        "3167931": {
+          "gid": "7542753413061660404",
+          "size": 296039160,
+          "download": 181781040
+        }
+      }
+    }
+  ],
+  "_change_number": 40917874,
+  "_missing_token": false,
+  "_sha": "6d18d273b772e8e25d370ffdd6b982a19fd210ad",
+  "_size": 3993,
   "appid": "3167930",
   "common": {
     "associations": {
@@ -25,7 +39,6 @@
     "clienticon": "e916ca02fdfb3f30e76efb7be885ddf8c7f21a1b",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3167930",
     "genres": {
       "0": "1",
@@ -99,10 +112,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "88a55733782362caf76f9d4212ff4b2544e2358a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794582198",
     "store_asset_mtime": "1794361109",
     "store_tags": {
       "0": "19",
@@ -135,5 +149,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mimania",
+    "launch": {
+      "0": {
+        "executable": "Mimania.exe"
+      }
+    }
+  },
+  "depots": {
+    "3167931": {
+      "manifests": {
+        "public": {
+          "download": "181781040",
+          "gid": "7542753413061660404",
+          "size": "296039160"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26646867",
+        "timebuildupdated": "1794580656",
+        "timeupdated": "1794580753"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "MuxGames",
+    "publisher": "MuxGames"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "2",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

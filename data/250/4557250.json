@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793384019,
-  "_history": [],
-  "_change_number": 40432198,
-  "_missing_token": true,
-  "_sha": "3a3b8598fe5e898d52dd27dcdbfc7d56a55d8817",
-  "_size": 2841,
+  "_lastChecked": 1794598872,
+  "_history": [
+    {
+      "buildId": "26650251",
+      "branch": "public",
+      "timeUpdated": 1794589604,
+      "firstSeen": 1794598872,
+      "manifests": {
+        "4557251": {
+          "gid": "1859967057173727321",
+          "size": 149460705,
+          "download": 64804624
+        }
+      }
+    }
+  ],
+  "_change_number": 40923281,
+  "_missing_token": false,
+  "_sha": "eeea53dc4cb2f0d16b79c4e044cfe5d8dcde5a37",
+  "_size": 3816,
   "appid": "4557250",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "7c50f0165e3a6df67876108f45a2ecbe80e6d801",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4557250",
     "genres": {
       "0": "4",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "77fac3e6da16e87edb3b6687fb940285f1f88538/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794585531",
     "store_asset_mtime": "1793379514",
     "store_tags": {
       "0": "597",
@@ -128,5 +143,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dusteroids",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Dusteroids.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4557251": {
+      "manifests": {
+        "public": {
+          "download": "64804624",
+          "gid": "1859967057173727321",
+          "size": "149460705"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26650251",
+        "timebuildupdated": "1794589189",
+        "timeupdated": "1794589604"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "cingledev",
+    "publisher": "cingledev"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "CingleDev/Dusteroids/",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

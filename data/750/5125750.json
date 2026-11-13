@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794339907,
-  "_history": [],
-  "_change_number": 40803589,
-  "_missing_token": true,
-  "_sha": "063a98a67c82ee7f9a79102178e7f11cc66079ae",
-  "_size": 3022,
+  "_lastChecked": 1794598886,
+  "_history": [
+    {
+      "buildId": "26570984",
+      "branch": "public",
+      "timeUpdated": 1794329390,
+      "firstSeen": 1794598886,
+      "manifests": {
+        "5125751": {
+          "gid": "4204139428513407509",
+          "size": 488011297,
+          "download": 345059168
+        }
+      }
+    }
+  ],
+  "_change_number": 40916373,
+  "_missing_token": false,
+  "_sha": "a148fc3e04b860730680be24a9fd5d5d6bee8d26",
+  "_size": 4052,
   "appid": "5125750",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "93883112c0230ae1980fbfdf921385984741f6a6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5125750",
     "genres": {
       "0": "25"
@@ -103,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "74cd200a02e2dbc1305a2effc95fad9b531b2e01/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1790429730",
     "store_tags": {
       "0": "21",
@@ -138,5 +153,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Odd Express",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "OddExpress.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5125751": {
+      "manifests": {
+        "public": {
+          "download": "345059168",
+          "gid": "4204139428513407509",
+          "size": "488011297"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "26570984",
+        "timebuildupdated": "1794329355",
+        "timeupdated": "1794329390"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Buno",
+    "publisher": "Buno"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000",
+    "savefiles": {
+      "0": {
+        "path": "OddExpress/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

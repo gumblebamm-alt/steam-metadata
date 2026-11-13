@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794425779,
+  "_lastChecked": 1794598882,
   "_history": [
     {
       "buildId": "26589188",
@@ -13,12 +13,25 @@
           "download": 258595008
         }
       }
+    },
+    {
+      "buildId": "26645711",
+      "branch": "public",
+      "timeUpdated": 1794592667,
+      "firstSeen": 1794598882,
+      "manifests": {
+        "4994891": {
+          "gid": "6691404895029700151",
+          "size": 347690841,
+          "download": 258716144
+        }
+      }
     }
   ],
-  "_change_number": 40842778,
+  "_change_number": 40925407,
   "_missing_token": false,
-  "_sha": "9a78f07a3a880c4647c40282f30505d95912f267",
-  "_size": 7484,
+  "_sha": "c9297aa33980761a2ec5081083ff8608fbf00995",
+  "_size": 8084,
   "appid": "4994890",
   "common": {
     "aicontenttype": "1",
@@ -36,6 +49,8 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_28": "1",
+      "category_55": "1",
       "category_62": "1",
       "category_64": "1",
       "category_68": "1",
@@ -45,6 +60,7 @@
     "clienticon": "4adf863013463441d596e0302a940b5518999645",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
     "gameid": "4994890",
     "genres": {
@@ -147,6 +163,8 @@
     "oslist": "windows",
     "primary_genre": "4",
     "releasestate": "released",
+    "review_percentage": "73",
+    "review_score": "6",
     "small_capsule": {
       "english": "ebfa4aa6ad02785f8139a9a2ac87350595673609/capsule_231x87.jpg",
       "schinese": "a9250a455e3c40eab11d336f0776298db3babb5f/capsule_231x87_schinese.jpg"
@@ -282,6 +300,13 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "linux-test",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
     "installdir": "Become Blackhole",
     "launch": {
       "0": {
@@ -291,29 +316,48 @@
         },
         "executable": "BecomeBlackhole.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "BecomeBlackhole.x86_64",
+        "type": "default"
       }
     },
+    "steamcontrollertemplateindex": "4",
     "steamdecktouchscreen": "1"
   },
   "depots": {
     "4994891": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "258595008",
-          "gid": "8366892538169617437",
-          "size": "347453993"
+          "download": "258716144",
+          "gid": "6691404895029700151",
+          "size": "347690841"
         }
       }
+    },
+    "4994892": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {}
     },
     "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
     "branches": {
       "public": {
-        "buildid": "26589188",
-        "timebuildupdated": "1794394096",
-        "timeupdated": "1794394272"
+        "buildid": "26645711",
+        "timebuildupdated": "1794577523",
+        "timeupdated": "1794592667"
       }
     },
-    "nocommonredists": "1"
+    "nocommonredists": "1",
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "PandaKoala Studio",

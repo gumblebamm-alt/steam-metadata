@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794425788,
-  "_history": [],
-  "_change_number": 40837673,
-  "_missing_token": true,
-  "_sha": "30a80249e78f8b2706bd91be2dbe4019a672b3cb",
-  "_size": 3356,
+  "_lastChecked": 1794598888,
+  "_history": [
+    {
+      "buildId": "26645277",
+      "branch": "public",
+      "timeUpdated": 1794576404,
+      "firstSeen": 1794598888,
+      "manifests": {
+        "5242391": {
+          "gid": "7671933166920039977",
+          "size": 201327777,
+          "download": 71070704
+        },
+        "5242392": {
+          "gid": "934920772122554374",
+          "size": 199899584,
+          "download": 69157408
+        }
+      }
+    }
+  ],
+  "_change_number": 40914522,
+  "_missing_token": false,
+  "_sha": "1609709dc45769f2d2455fbdbe055e95624969b0",
+  "_size": 5328,
   "appid": "5242390",
   "common": {
     "aicontenttype": "1",
@@ -39,8 +58,8 @@
     },
     "clienticon": "49cc216c090e818ec979603cb33c0513cf5ff6c5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5242390",
     "genres": {
       "0": "4",
@@ -118,10 +137,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f734b1a1533827616afad2b4f5638fdc40a76b0d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794575660",
     "store_asset_mtime": "1793649117",
     "store_tags": {
       "0": "597",
@@ -155,5 +175,102 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Nightcup",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Nightcup.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Nightcup.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5242391": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "71070704",
+          "gid": "7671933166920039977",
+          "size": "201327777"
+        }
+      }
+    },
+    "5242392": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "69157408",
+          "gid": "934920772122554374",
+          "size": "199899584"
+        }
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "26645277",
+        "timebuildupdated": "1794576258",
+        "timeupdated": "1794576404"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "5242390"
+  },
+  "extended": {
+    "developer": "Teshi Games",
+    "gamemanualurl": "https://store.steampowered.com/manual/5242390/",
+    "publisher": "Teshi Games"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Teshi Games/Nightcup/{64BitSteamID}",
+            "replace": ".config/unity3d/Teshi Games/Nightcup/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Teshi Games/Nightcup/{64BitSteamID}",
+            "replace": "Teshi Games/Nightcup/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Teshi Games/Nightcup/{64BitSteamID}",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

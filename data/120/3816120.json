@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1794160607,
-  "_history": [],
-  "_change_number": 40725918,
-  "_missing_token": true,
-  "_sha": "fb2914363e4ac236225ded09f6a3f56cf79f0242",
-  "_size": 5119,
+  "_lastChecked": 1794598861,
+  "_history": [
+    {
+      "buildId": "26623866",
+      "branch": "public",
+      "timeUpdated": 1794504889,
+      "firstSeen": 1794598861,
+      "manifests": {
+        "3816121": {
+          "gid": "2754378236084937401",
+          "size": 107581076501,
+          "download": 103692919264
+        },
+        "4489760": {
+          "gid": "8251555629911739335",
+          "size": 738572907,
+          "download": 635069344
+        }
+      }
+    },
+    {
+      "buildId": "26623866",
+      "branch": "test",
+      "timeUpdated": 1794504889,
+      "firstSeen": 1794598861,
+      "manifests": {
+        "3816121": {
+          "gid": "2754378236084937401",
+          "size": 107581076501,
+          "download": 103692919264
+        },
+        "4489760": {
+          "gid": "8251555629911739335",
+          "size": 738572907,
+          "download": 635069344
+        }
+      }
+    }
+  ],
+  "_change_number": 40918568,
+  "_missing_token": false,
+  "_sha": "032a0cb007584c90de9f808d9f733a12bebcbd89",
+  "_size": 7064,
   "appid": "3816120",
   "common": {
     "aicontenttype": "1",
@@ -32,6 +69,7 @@
     "clienticns": "4fd1bf186041c0d6b5faff164f296c77d6cf80b7",
     "clienticon": "4fd1bf186041c0d6b5faff164f296c77d6cf80b7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -41,7 +79,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3816120",
     "genres": {
       "0": "4",
@@ -133,11 +170,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "99",
+    "review_score": "9",
     "small_capsule": {
       "english": "6c81ae15e018aed87492a0d2205f36efd97f0ed2/capsule_231x87.jpg",
       "schinese": "14e86de71097439f1ba4f4885ff418440d710dd5/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1794556862",
     "store_asset_mtime": "1792470461",
     "store_tags": {
       "0": "9551",
@@ -210,5 +250,101 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "重生2我独自逆袭",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "重生2我独自逆袭.exe"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3816121": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "103692919264",
+          "gid": "2754378236084937401",
+          "size": "107581076501"
+        },
+        "test": {
+          "download": "103692919264",
+          "gid": "2754378236084937401",
+          "size": "107581076501"
+        }
+      }
+    },
+    "4489760": {
+      "config": {
+        "optionaldlc": "4489760",
+        "oslist": "windows"
+      },
+      "dlcappid": "4489760",
+      "manifests": {
+        "public": {
+          "download": "635069344",
+          "gid": "8251555629911739335",
+          "size": "738572907"
+        },
+        "test": {
+          "download": "635069344",
+          "gid": "8251555629911739335",
+          "size": "738572907"
+        }
+      }
+    },
+    "appmanagesdlc": "1",
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26623866",
+        "timebuildupdated": "1794504889",
+        "timeupdated": "1794504889"
+      },
+      "test": {
+        "buildid": "26623866",
+        "description": "测试",
+        "timebuildupdated": "1794504889",
+        "timeupdated": "1794504889"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "developer": "Proudmate Entertainment",
+    "publisher": "Proudmate Entertainment"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "15000000",
+    "savefiles": {
+      "0": {
+        "path": "ProudmateEntertainment/重生2我独自逆袭/",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

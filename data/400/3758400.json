@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794377692,
+  "_lastChecked": 1794598860,
   "_history": [
     {
       "buildId": "26390380",
@@ -36,12 +36,58 @@
           "download": 216276336
         }
       }
+    },
+    {
+      "buildId": "26646304",
+      "branch": "linux-test",
+      "timeUpdated": 1794579090,
+      "firstSeen": 1794598860,
+      "manifests": {
+        "3758401": {
+          "gid": "8555080606787158047",
+          "size": 702289484,
+          "download": 281272672
+        },
+        "3758402": {
+          "gid": "7715312747274435848",
+          "size": 535726551,
+          "download": 216276336
+        },
+        "3758403": {
+          "gid": "399231192439650020",
+          "size": 446833430,
+          "download": 181913904
+        }
+      }
+    },
+    {
+      "buildId": "26646304",
+      "branch": "public",
+      "timeUpdated": 1794579941,
+      "firstSeen": 1794598860,
+      "manifests": {
+        "3758401": {
+          "gid": "8555080606787158047",
+          "size": 702289484,
+          "download": 281272672
+        },
+        "3758402": {
+          "gid": "7715312747274435848",
+          "size": 535726551,
+          "download": 216276336
+        },
+        "3758403": {
+          "gid": "399231192439650020",
+          "size": 446833430,
+          "download": 181913904
+        }
+      }
     }
   ],
-  "_change_number": 40812240,
+  "_change_number": 40916660,
   "_missing_token": false,
-  "_sha": "3268dec999e07d9f5a3751a7e4c2976ee58226f3",
-  "_size": 4766,
+  "_sha": "96286b20259604675ca0094c5529cdbac5538264",
+  "_size": 5685,
   "appid": "3758400",
   "common": {
     "associations": {
@@ -139,7 +185,7 @@
     "osarch": "",
     "oscpu": "",
     "osextended": "macos64,macosapplesilicon",
-    "oslist": "windows,macos",
+    "oslist": "windows,macos,linux",
     "primary_genre": "4",
     "releasestate": "released",
     "small_capsule": {
@@ -211,6 +257,14 @@
         },
         "executable": "coin-factory-2.app",
         "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "coin-factory-2",
+        "type": "default"
       }
     }
   },
@@ -227,6 +281,11 @@
         "oslist": "macos"
       },
       "manifests": {
+        "linux-test": {
+          "download": "281272672",
+          "gid": "8555080606787158047",
+          "size": "702289484"
+        },
         "public": {
           "download": "281272672",
           "gid": "8555080606787158047",
@@ -239,6 +298,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "linux-test": {
+          "download": "216276336",
+          "gid": "7715312747274435848",
+          "size": "535726551"
+        },
         "public": {
           "download": "216276336",
           "gid": "7715312747274435848",
@@ -246,12 +310,36 @@
         }
       }
     },
+    "3758403": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "linux-test": {
+          "download": "181913904",
+          "gid": "399231192439650020",
+          "size": "446833430"
+        },
+        "public": {
+          "download": "181913904",
+          "gid": "399231192439650020",
+          "size": "446833430"
+        }
+      }
+    },
     "baselanguages": "brazilian,english,french,japanese,schinese,spanish",
     "branches": {
+      "linux-test": {
+        "buildid": "26646304",
+        "description": "Experimental native Linux build for compatibility testing.",
+        "timebuildupdated": "1794579090",
+        "timeupdated": "1794579090"
+      },
       "public": {
-        "buildid": "26577295",
-        "timebuildupdated": "1794348782",
-        "timeupdated": "1794348892"
+        "buildid": "26646304",
+        "timebuildupdated": "1794579090",
+        "timeupdated": "1794579941"
       }
     },
     "workshopdepot": "3758400"

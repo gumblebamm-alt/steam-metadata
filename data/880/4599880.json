@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794513289,
-  "_history": [],
-  "_change_number": 40603131,
-  "_missing_token": true,
-  "_sha": "506b4d9b5832fe85a6e076fbe0c0e056da217892",
-  "_size": 6380,
+  "_lastChecked": 1794598872,
+  "_history": [
+    {
+      "buildId": "26651711",
+      "branch": "public",
+      "timeUpdated": 1794593448,
+      "firstSeen": 1794598872,
+      "manifests": {
+        "4599881": {
+          "gid": "3298636807042112373",
+          "size": 1099758564,
+          "download": 249462640
+        },
+        "4599882": {
+          "gid": "8665657511526353519",
+          "size": 1165106209,
+          "download": 269941296
+        }
+      }
+    }
+  ],
+  "_change_number": 40926853,
+  "_missing_token": false,
+  "_sha": "350b90606301aca5c7b912f9dd7bd47bfb9382f3",
+  "_size": 8936,
   "appid": "4599880",
   "common": {
     "associations": {
@@ -31,8 +50,8 @@
     "clienticns": "5a05c889652b3a65aed408f4b5a558a65564ceee",
     "clienticon": "9b4d43c45ec0725dcfb188e0b95267242cf25055",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4599880",
     "genres": {
       "0": "4",
@@ -43,6 +62,38 @@
       "english": "154a69759795576b419025e5a831346724316ff8/header.jpg"
     },
     "icon": "5a05c889652b3a65aed408f4b5a558a65564ceee",
+    "languages": {
+      "brazilian": "1",
+      "bulgarian": "1",
+      "czech": "1",
+      "danish": "1",
+      "dutch": "1",
+      "english": "1",
+      "finnish": "1",
+      "french": "1",
+      "german": "1",
+      "greek": "1",
+      "hungarian": "1",
+      "indonesian": "1",
+      "italian": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "latam": "1",
+      "malay": "1",
+      "norwegian": "1",
+      "polish": "1",
+      "portuguese": "1",
+      "romanian": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1",
+      "swedish": "1",
+      "tchinese": "1",
+      "thai": "1",
+      "turkish": "1",
+      "ukrainian": "1",
+      "vietnamese": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -104,7 +155,9 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "84",
+    "review_score": "7",
     "small_capsule": {
       "english": "1215a213d6d04b9fa30b0f6fb58ad8c295f10656/capsule_231x87.jpg"
     },
@@ -177,7 +230,8 @@
         }
       }
     },
-    "store_asset_mtime": "1792096274",
+    "steam_release_date": "1794576305",
+    "store_asset_mtime": "1794576101",
     "store_tags": {
       "0": "97376",
       "1": "10235",
@@ -269,5 +323,106 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Grandma Left Me A Building",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Glmb.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "grandma-left-me-mac.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4599881": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "249462640",
+          "gid": "3298636807042112373",
+          "size": "1099758564"
+        }
+      }
+    },
+    "4599882": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "269941296",
+          "gid": "8665657511526353519",
+          "size": "1165106209"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26651711",
+        "timebuildupdated": "1794593207",
+        "timeupdated": "1794593448"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Overbaked Studio",
+    "homepage": "https://go.overbaked.studio/l/5H55Dl4",
+    "publisher": "PlayWay S.A."
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Overbaked Studio/Glmb",
+            "replace": "com.overbakedstudio.grandmaleftme"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Overbaked Studio/Glmb",
+        "pattern": "save_full.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Overbaked Studio/Glmb",
+        "pattern": "achievements_full.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

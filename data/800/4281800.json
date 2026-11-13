@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794467365,
-  "_history": [],
-  "_change_number": 40854784,
-  "_missing_token": true,
-  "_sha": "aec535663607c39dd7c4e22801231aa3bf2941b3",
-  "_size": 4003,
+  "_lastChecked": 1794598867,
+  "_history": [
+    {
+      "buildId": "26649639",
+      "branch": "public",
+      "timeUpdated": 1794587750,
+      "firstSeen": 1794598867,
+      "manifests": {
+        "4281801": {
+          "gid": "5047797306993059700",
+          "size": 172425728,
+          "download": 90845312
+        }
+      }
+    }
+  ],
+  "_change_number": 40922147,
+  "_missing_token": false,
+  "_sha": "a639823b71e1bbc68a4f5319ea3409ca1749e76f",
+  "_size": 5324,
   "appid": "4281800",
   "common": {
     "associations": {
@@ -33,8 +47,8 @@
     },
     "clienticon": "cecfa32a458f0bf9cdf5daf1fe1f68804dd2969e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4281800",
     "genres": {
       "0": "4",
@@ -109,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2eec79939846a1c0ae064e4370f8b21d8cfff99f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794589213",
     "store_asset_mtime": "1794440914",
     "store_tags": {
       "0": "1084988",
@@ -197,5 +212,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Windowed Realms",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "WindowedRealms.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4281801": {
+      "manifests": {
+        "public": {
+          "download": "90845312",
+          "gid": "5047797306993059700",
+          "size": "172425728"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26649639",
+        "timebuildupdated": "1794587643",
+        "timeupdated": "1794587750"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Tiny Loom Studio",
+    "publisher": "Tiny Loom Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "20000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Windowed Realms Steam",
+        "pattern": "slot_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Windowed Realms Steam",
+        "pattern": "settings.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Windowed Realms Steam",
+        "pattern": "account.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

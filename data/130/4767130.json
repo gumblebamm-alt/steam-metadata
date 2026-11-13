@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794513293,
-  "_history": [],
-  "_change_number": 40878445,
-  "_missing_token": true,
-  "_sha": "c5395cb52fb7d96150d011eb7a63393f3b86c880",
-  "_size": 6634,
+  "_lastChecked": 1794598876,
+  "_history": [
+    {
+      "buildId": "26448366",
+      "branch": "public",
+      "timeUpdated": 1793847021,
+      "firstSeen": 1794598876,
+      "manifests": {
+        "4767131": {
+          "gid": "3749528796712582889",
+          "size": 172297032,
+          "download": 93995552
+        },
+        "4767132": {
+          "gid": "376420724863127713",
+          "size": 146530472,
+          "download": 87378528
+        }
+      }
+    }
+  ],
+  "_change_number": 40922345,
+  "_missing_token": false,
+  "_sha": "5fcfdb246f1aef94949583346d105259a36d424a",
+  "_size": 8480,
   "appid": "4767130",
   "common": {
     "associations": {
@@ -37,9 +56,9 @@
     },
     "clienticon": "511c80b6d32f7f9bfe8d11e5c025dd92b4a472d2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4767130",
     "genres": {
       "0": "4",
@@ -146,13 +165,14 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "76fb87697f99c43695e3077e39100fe12cf336c3/capsule_231x87.jpg",
       "schinese": "63f0cf7c5d9485288f2e9d3e106121547a1aea26/capsule_231x87_schinese.jpg",
       "tchinese": "f5a888139b23f303a843203cb7bbe38bcffb04f5/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1793136821",
+    "steam_release_date": "1794589389",
+    "store_asset_mtime": "1794589307",
     "store_tags": {
       "0": "597",
       "1": "599",
@@ -243,5 +263,102 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "King in the Mountain",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play King in the Mountain",
+        "description_loc": {
+          "english": "Play King in the Mountain"
+        },
+        "executable": "kitm.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "kitm.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Safe Mode (OpenGL)",
+        "description_loc": {
+          "english": "Safe Mode (OpenGL)"
+        },
+        "executable": "kitm.exe"
+      }
+    }
+  },
+  "depots": {
+    "4767131": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "93995552",
+          "gid": "3749528796712582889",
+          "size": "172297032"
+        }
+      }
+    },
+    "4767132": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "87378528",
+          "gid": "376420724863127713",
+          "size": "146530472"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26448366",
+        "timebuildupdated": "1793847019",
+        "timeupdated": "1793847021"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Milo Panta",
+    "homepage": "https://suprender.com/",
+    "publisher": "Milo Panta"
+  },
+  "ufs": {
+    "maxnumfiles": "30",
+    "quota": "30000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "King in the Mountain",
+        "pattern": "*.sav",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794205486,
-  "_history": [],
-  "_change_number": 40734351,
-  "_missing_token": true,
-  "_sha": "fe6688175ef22bdc49d91462764b11d62545739c",
-  "_size": 3377,
+  "_lastChecked": 1794598879,
+  "_history": [
+    {
+      "buildId": "26650418",
+      "branch": "public",
+      "timeUpdated": 1794589597,
+      "firstSeen": 1794598879,
+      "manifests": {
+        "4913671": {
+          "gid": "2933642698834399177",
+          "size": 146393608,
+          "download": 71112176
+        },
+        "4913672": {
+          "gid": "6528718452653283383",
+          "size": 120043314,
+          "download": 63702864
+        }
+      }
+    }
+  ],
+  "_change_number": 40922743,
+  "_missing_token": false,
+  "_sha": "f9affa301daff6048a91ea100dd808998cf3879c",
+  "_size": 5124,
   "appid": "4913670",
   "common": {
     "associations": {
@@ -34,9 +53,9 @@
     },
     "clienticon": "6f8dff6ada0450d42af0e4a3ac1f96d687ce37a6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4913670",
     "genres": {
       "0": "4",
@@ -117,10 +136,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "41d915fc62fa4fbb49b69c76601822a963387cf8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1794011986",
     "store_tags": {
       "0": "560542",
@@ -159,5 +179,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Peg Mines",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Normal Mode (Recommended)",
+        "description_loc": {
+          "english": "Normal Mode (Recommended)"
+        },
+        "executable": "ThePegMines\\ThePegMines.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "ThePegMines\\ThePegMines.exe.sh"
+      },
+      "2": {
+        "arguments": "--rendering-driver opengl3",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Compatibility Mode",
+        "description_loc": {
+          "english": "Compatibility Mode"
+        },
+        "executable": "ThePegMines\\ThePegMines.exe"
+      }
+    }
+  },
+  "depots": {
+    "4913671": {
+      "manifests": {
+        "public": {
+          "download": "71112176",
+          "gid": "2933642698834399177",
+          "size": "146393608"
+        }
+      }
+    },
+    "4913672": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "63702864",
+          "gid": "6528718452653283383",
+          "size": "120043314"
+        }
+      }
+    },
+    "baselanguages": "english,german,japanese,koreana,russian,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26650418",
+        "timebuildupdated": "1794589583",
+        "timeupdated": "1794589597"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Peep",
+    "publisher": "Peep"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".local/share/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ThePegMines",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

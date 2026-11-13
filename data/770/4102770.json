@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792155364,
-  "_history": [],
-  "_change_number": 39900542,
-  "_missing_token": true,
-  "_sha": "19c6b46b9d78681bd16a6846de4bb87fca8b1183",
-  "_size": 2958,
+  "_lastChecked": 1794598865,
+  "_history": [
+    {
+      "buildId": "26565037",
+      "branch": "public",
+      "timeUpdated": 1794312861,
+      "firstSeen": 1794598865,
+      "manifests": {
+        "4102771": {
+          "gid": "4448419521875011327",
+          "size": 190744772,
+          "download": 66839056
+        }
+      }
+    }
+  ],
+  "_change_number": 40926686,
+  "_missing_token": false,
+  "_sha": "30511dc21f127b7ccc7fbc0dc92443d6dfdb2274",
+  "_size": 4339,
   "appid": "4102770",
   "common": {
     "associations": {
@@ -28,7 +42,6 @@
     "clienticon": "6f9e249aa32f92ec1eda19e6f33a486a03a0f88d",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4102770",
     "genres": {
       "0": "4",
@@ -100,10 +113,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e6ef230f2e36a3a5961d6c0d5028a2d63a4bc5b6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794597392",
     "store_asset_mtime": "1792148238",
     "store_tags": {
       "0": "597",
@@ -135,5 +149,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Slay the Q",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "slay_the_q.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "slay_the_q.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4102771": {
+      "manifests": {
+        "public": {
+          "download": "66839056",
+          "gid": "4448419521875011327",
+          "size": "190744772"
+        }
+      }
+    },
+    "baselanguages": "english,polish",
+    "branches": {
+      "public": {
+        "buildid": "26565037",
+        "timebuildupdated": "1794312738",
+        "timeupdated": "1794312861"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Mana Orb",
+    "homepage": "https://mana-orb.com/",
+    "publisher": "Mana Orb"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "Godot/",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "addpath": ".local/share/godot/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "app_userdata/Slay the Q",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
