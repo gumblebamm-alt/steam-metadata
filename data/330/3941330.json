@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793821544,
-  "_history": [],
-  "_change_number": 40493054,
-  "_missing_token": true,
-  "_sha": "52e1efbea43172e6b30a0a8246ae396ad5e7ba16",
-  "_size": 3210,
+  "_lastChecked": 1794679226,
+  "_history": [
+    {
+      "buildId": "26669809",
+      "branch": "public",
+      "timeUpdated": 1794676795,
+      "firstSeen": 1794679226,
+      "manifests": {
+        "3941331": {
+          "gid": "5309124415613130195",
+          "size": 113158628,
+          "download": 55401408
+        },
+        "3941332": {
+          "gid": "5536514492100198792",
+          "size": 146266940,
+          "download": 63310496
+        }
+      }
+    }
+  ],
+  "_change_number": 40953454,
+  "_missing_token": false,
+  "_sha": "a283ddd36d7c51aa755f5084a8b0e4418717ae7e",
+  "_size": 4174,
   "appid": "3941330",
   "common": {
     "associations": {
@@ -31,8 +50,8 @@
     "clienticon": "027753c5aa7600bbf51cf9862e571c4efb26ff17",
     "clienttga": "e993f156dd4c400f02cfce7f208006a7e06753e9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3941330",
     "genres": {
       "0": "25",
@@ -108,7 +127,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "50bcf55ebfc83833bf7a54b100065bf8c7d1717b/capsule_231x87.jpg"
     },
@@ -144,5 +163,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Breadventure",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "game.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "game.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "3941331": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "55401408",
+          "gid": "5309124415613130195",
+          "size": "113158628"
+        }
+      }
+    },
+    "3941332": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "63310496",
+          "gid": "5536514492100198792",
+          "size": "146266940"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26669809",
+        "timebuildupdated": "1794676608",
+        "timeupdated": "1794676795"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Feckless",
+    "publisher": "Feckless"
+  },
+  "ufs": {
+    "maxnumfiles": "33",
+    "quota": "50000000"
+  }
 }

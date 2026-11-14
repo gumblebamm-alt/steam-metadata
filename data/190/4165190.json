@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794262866,
+  "_lastChecked": 1794679228,
   "_history": [
     {
       "buildId": "26540074",
@@ -13,12 +13,30 @@
           "download": 47549152
         }
       }
+    },
+    {
+      "buildId": "26597806",
+      "branch": "public",
+      "timeUpdated": 1794419338,
+      "firstSeen": 1794679228,
+      "manifests": {
+        "4165191": {
+          "gid": "8443861058657257393",
+          "size": 191037580,
+          "download": 47546432
+        },
+        "4165193": {
+          "gid": "8468661181877857526",
+          "size": 208851131,
+          "download": 55461792
+        }
+      }
     }
   ],
-  "_change_number": 40758163,
+  "_change_number": 40950307,
   "_missing_token": false,
-  "_sha": "ba19670f66ae667140a68b94fed0247ea35be75c",
-  "_size": 8897,
+  "_sha": "fb33fdee77ebfbadbeb51e410ce6140dc379491d",
+  "_size": 9174,
   "appid": "4165190",
   "common": {
     "associations": {
@@ -117,8 +135,9 @@
     },
     "name": "Tricolo",
     "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
     "small_capsule": {
@@ -462,6 +481,12 @@
           "oslist": "windows"
         },
         "executable": "Tricolo.exe"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Tricolo.app"
       }
     }
   },
@@ -469,25 +494,33 @@
     "4165191": {
       "manifests": {
         "public": {
-          "download": "47549152",
-          "gid": "4312627997758896981",
-          "size": "191044812"
+          "download": "47546432",
+          "gid": "8443861058657257393",
+          "size": "191037580"
         }
       }
     },
-    "4165192": {
+    "4165193": {
       "config": {
-        "oslist": "windows"
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "55461792",
+          "gid": "8468661181877857526",
+          "size": "208851131"
+        }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26540074",
-        "timebuildupdated": "1794229815",
-        "timeupdated": "1794229817"
+        "buildid": "26597806",
+        "timebuildupdated": "1794419155",
+        "timeupdated": "1794419338"
       }
     },
-    "nocommonredists": "1"
+    "nocommonredists": "1",
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "MP",

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794552235,
-  "_history": [],
-  "_change_number": 40897185,
-  "_missing_token": true,
-  "_sha": "b6561a647c03b10b5b4a9ee1b5fa4012f083bf5b",
-  "_size": 3042,
+  "_lastChecked": 1794679237,
+  "_history": [
+    {
+      "buildId": "26662423",
+      "branch": "public",
+      "timeUpdated": 1794637017,
+      "firstSeen": 1794679237,
+      "manifests": {
+        "4836961": {
+          "gid": "3457675985141432096",
+          "size": 699126178,
+          "download": 228930944
+        },
+        "4836962": {
+          "gid": "9182928600704741835",
+          "size": 582569533,
+          "download": 199526912
+        }
+      }
+    }
+  ],
+  "_change_number": 40940955,
+  "_missing_token": false,
+  "_sha": "ffcb7ec3ece586bac076b5ef3d658390aebcf453",
+  "_size": 4371,
   "appid": "4836960",
   "common": {
     "aicontenttype": "1",
@@ -25,8 +44,8 @@
     },
     "clienticon": "d25ab8f6e11cd63f1e57f89fe6d0f5338781da60",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4836960",
     "genres": {
       "0": "4",
@@ -99,10 +118,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1a83aa7f4df3a66f39e41cff8fd7ed0744ec2ee9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1794535864",
     "store_tags": {
       "0": "4328",
@@ -135,5 +155,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cozy Burg",
+    "launch": {
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "macos"
+        },
+        "executable": "Cozy Burg.app"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Cozy Burg.exe"
+      }
+    }
+  },
+  "depots": {
+    "4836961": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "228930944",
+          "gid": "3457675985141432096",
+          "size": "699126178"
+        }
+      }
+    },
+    "4836962": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "199526912",
+          "gid": "9182928600704741835",
+          "size": "582569533"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26662423",
+        "timebuildupdated": "1794636513",
+        "timeupdated": "1794637017"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Noise Harbor",
+    "homepage": "https://www.cozyburg.com",
+    "publisher": "Noise Harbor"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "5000000",
+    "savefiles": {
+      "0": {
+        "path": "",
+        "pattern": "save_*.json",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }
