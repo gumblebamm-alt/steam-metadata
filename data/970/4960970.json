@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792371636,
-  "_history": [],
-  "_change_number": 39943769,
-  "_missing_token": true,
-  "_sha": "0788218ac5ff3b59160b291a276b2ed97ca44743",
-  "_size": 3178,
+  "_lastChecked": 1794637272,
+  "_history": [
+    {
+      "buildId": "26662390",
+      "branch": "public",
+      "timeUpdated": 1794636399,
+      "firstSeen": 1794637272,
+      "manifests": {
+        "4960971": {
+          "gid": "2234823924179210941",
+          "size": 536914822,
+          "download": 316981824
+        },
+        "4960972": {
+          "gid": "6349408198037157378",
+          "size": 620704999,
+          "download": 330309040
+        }
+      }
+    }
+  ],
+  "_change_number": 40940671,
+  "_missing_token": false,
+  "_sha": "71125c4581e95849b1c1e765ee0aad89fc1f5e2e",
+  "_size": 5276,
   "appid": "4960970",
   "common": {
     "associations": {
@@ -31,6 +50,7 @@
     },
     "clienticon": "417797bb1d1b79883b7bccae5faad73168bad5b8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -38,7 +58,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4960970",
     "genres": {
       "0": "25",
@@ -111,10 +130,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f0e02be9c3a2adef64bed21f68a689dfd39e0295/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794632585",
     "store_asset_mtime": "1789218448",
     "store_tags": {
       "0": "4947",
@@ -146,5 +166,110 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Monster Girl Tactics Oubliette",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "mg_tactics.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "mg_tactics",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4960971": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "316981824",
+          "gid": "2234823924179210941",
+          "size": "536914822"
+        }
+      }
+    },
+    "4960972": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "330309040",
+          "gid": "6349408198037157378",
+          "size": "620704999"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26662390",
+        "timebuildupdated": "1794636310",
+        "timeupdated": "1794636399"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Minolione",
+    "homepage": "https://steam.minolione.com/",
+    "publisher": "Minolione"
+  },
+  "ufs": {
+    "maxnumfiles": "135",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "My Games/Monster Girl Tactics Oubliette/cloud",
+            "replace": "Monster_Girl_Tactics_Oubliette/cloud"
+          }
+        },
+        "root": "WinMyDocuments",
+        "useinstead": "LinuxXdgConfigHome"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "minolione/oubliette/cloud",
+            "replace": ".minolione/oubliette/cloud"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "My Games/Monster Girl Tactics Oubliette/cloud",
+        "pattern": "*.cloud",
+        "root": "WinMyDocuments"
+      },
+      "1": {
+        "path": "assets",
+        "pattern": "settings.cfg",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "minolione/oubliette/cloud",
+        "pattern": "*.cloud",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

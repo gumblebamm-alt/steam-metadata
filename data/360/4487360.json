@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794262873,
-  "_history": [],
-  "_change_number": 40770555,
-  "_missing_token": true,
-  "_sha": "6915c50147864e804f754f5036d5f45753f4cf7e",
-  "_size": 3498,
+  "_lastChecked": 1794637265,
+  "_history": [
+    {
+      "buildId": "26653388",
+      "branch": "public",
+      "timeUpdated": 1794598550,
+      "firstSeen": 1794637265,
+      "manifests": {
+        "4487361": {
+          "gid": "505524926397587035",
+          "size": 776307727,
+          "download": 446503104
+        },
+        "4487362": {
+          "gid": "4738553191043996500",
+          "size": 735211059,
+          "download": 432643248
+        }
+      }
+    }
+  ],
+  "_change_number": 40933987,
+  "_missing_token": false,
+  "_sha": "708bb1095d4cd4de43504555778fbaa8383c950f",
+  "_size": 5057,
   "appid": "4487360",
   "common": {
     "aicontenttype": "1",
@@ -40,15 +59,14 @@
     },
     "clienticon": "76f695c8f364996b61a394c7b034001c985a83e4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4487360",
     "genres": {
       "0": "4",
       "1": "23",
-      "2": "2",
-      "3": "70"
+      "2": "2"
     },
     "header_image": {
       "english": "b2cc14d75c90836390651690dc675d13c3c4f001/header.jpg"
@@ -120,10 +138,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fd354eba1fb39c3a8dbcca6999d7002677958ce7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794600563",
     "store_asset_mtime": "1794007629",
     "store_tags": {
       "0": "597",
@@ -160,5 +179,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Spinova",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Spinova.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Spinova.app"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4487361": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "446503104",
+          "gid": "505524926397587035",
+          "size": "776307727"
+        }
+      }
+    },
+    "4487362": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "432643248",
+          "gid": "4738553191043996500",
+          "size": "735211059"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26653388",
+        "timebuildupdated": "1794598519",
+        "timeupdated": "1794598550"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "DZN",
+    "publisher": "DZN"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": ".config",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "nuxt-app",
+        "pattern": "game-save.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

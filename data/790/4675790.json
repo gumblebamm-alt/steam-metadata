@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794467370,
-  "_history": [],
-  "_change_number": 40854586,
-  "_missing_token": true,
-  "_sha": "eb8d7ec3cafd32bf3bce2818f51459314f67d8bd",
-  "_size": 3500,
+  "_lastChecked": 1794637268,
+  "_history": [
+    {
+      "buildId": "26605470",
+      "branch": "public",
+      "timeUpdated": 1794445113,
+      "firstSeen": 1794637268,
+      "manifests": {
+        "4675792": {
+          "gid": "265416712507391187",
+          "size": 371728812,
+          "download": 179989504
+        },
+        "4675793": {
+          "gid": "3939242042410678707",
+          "size": 364964169,
+          "download": 170414864
+        },
+        "4675794": {
+          "gid": "3308863779441758211",
+          "size": 334996044,
+          "download": 164930336
+        }
+      }
+    }
+  ],
+  "_change_number": 40939088,
+  "_missing_token": false,
+  "_sha": "8a83b9ec399e3e580a322854c35f67e90256e828",
+  "_size": 5256,
   "appid": "4675790",
   "common": {
     "aicontenttype": "1",
@@ -39,6 +63,7 @@
     "clienticns": "dfb0c9a1f578d55b018507cdc1103401993f73f1",
     "clienticon": "f2bbdf5881ca28a5b18a832344c610afebed4a19",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -49,7 +74,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "4675790",
     "genres": {
       "0": "1",
@@ -122,10 +146,11 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ce8403005af4fa3148ccb29606087f1e17827c7c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1780880941",
     "store_tags": {
       "0": "19",
@@ -155,5 +180,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CARRRDS",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Carrrds Windows",
+        "description_loc": {
+          "english": "Carrrds Windows"
+        },
+        "executable": "win-unpacked/CARRRDS.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Carrrds MacOS",
+        "description_loc": {
+          "english": "Carrrds MacOS"
+        },
+        "executable": "mac-arm64/CARRRDS.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Carrrds Linux / SteamOS",
+        "description_loc": {
+          "english": "Carrrds Linux / SteamOS"
+        },
+        "executable": "linux-unpacked/card-game-client",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4675792": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "179989504",
+          "gid": "265416712507391187",
+          "size": "371728812"
+        }
+      }
+    },
+    "4675793": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "170414864",
+          "gid": "3939242042410678707",
+          "size": "364964169"
+        }
+      }
+    },
+    "4675794": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "164930336",
+          "gid": "3308863779441758211",
+          "size": "334996044"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26605470",
+        "timebuildupdated": "1794445033",
+        "timeupdated": "1794445113"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Owen Collier",
+    "publisher": "Cleardot Games"
+  }
 }

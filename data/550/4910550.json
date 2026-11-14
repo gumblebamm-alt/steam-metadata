@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794377705,
-  "_history": [],
-  "_change_number": 40817571,
-  "_missing_token": true,
-  "_sha": "2c24d6269fd3c32fb7f65f2984628781e7765915",
-  "_size": 3233,
+  "_lastChecked": 1794637271,
+  "_history": [
+    {
+      "buildId": "26606562",
+      "branch": "public",
+      "timeUpdated": 1794503701,
+      "firstSeen": 1794637271,
+      "manifests": {
+        "4910551": {
+          "gid": "4635249721913396108",
+          "size": 1362410291,
+          "download": 1036841808
+        },
+        "4910552": {
+          "gid": "7285700959089985399",
+          "size": 1308331993,
+          "download": 1012230816
+        }
+      }
+    }
+  ],
+  "_change_number": 40935978,
+  "_missing_token": false,
+  "_sha": "fe8f717337c983101a66e2ac047c776b55e6e2fe",
+  "_size": 4548,
   "appid": "4910550",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +50,16 @@
     },
     "clienticon": "d73e6d35ee579de4f5481a12e987849d2c285af7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "content_descriptors": {
+      "0": "1",
+      "1": "5"
+    },
+    "content_descriptors_including_dlc": {
+      "0": "1",
+      "1": "5"
+    },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4910550",
     "genres": {
       "0": "4",
@@ -111,7 +138,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "23327acd4b6422bcbc9c1d779bc494c4bc3e2a07/capsule_231x87.jpg"
     },
@@ -148,5 +175,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Business Wars",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BusinessWars.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "business-wars",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4910551": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1036841808",
+          "gid": "4635249721913396108",
+          "size": "1362410291"
+        }
+      }
+    },
+    "4910552": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1012230816",
+          "gid": "7285700959089985399",
+          "size": "1308331993"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26606562",
+        "timebuildupdated": "1794448976",
+        "timeupdated": "1794503701"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Tianshu Tech",
+    "publisher": "Tianshu Tech"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "5000000"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793821571,
-  "_history": [],
-  "_change_number": 40455744,
-  "_missing_token": true,
-  "_sha": "13730b69762346a8db66eac07b7fcae143f5b814",
-  "_size": 4740,
+  "_lastChecked": 1794637275,
+  "_history": [
+    {
+      "buildId": "26658414",
+      "branch": "public",
+      "timeUpdated": 1794616317,
+      "firstSeen": 1794637275,
+      "manifests": {
+        "5132921": {
+          "gid": "7777670344229803140",
+          "size": 3142195248,
+          "download": 2773662848
+        }
+      }
+    }
+  ],
+  "_change_number": 40934575,
+  "_missing_token": false,
+  "_sha": "dd57ec719d6782bdfc0a38e2ab709ef923b57f73",
+  "_size": 5936,
   "appid": "5132920",
   "common": {
     "aicontenttype": "1",
@@ -40,9 +54,9 @@
     },
     "clienticon": "118f09bb9eefb5892269c61605fd649f321d1826",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5132920",
     "genres": {
       "0": "1",
@@ -115,7 +129,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0c7b25c994cdf0b8e5e093e413b4026c0cd27628/capsule_231x87.jpg"
     },
@@ -239,5 +253,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pigeon Ball",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "PigeonBall.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5132921": {
+      "manifests": {
+        "public": {
+          "download": "2773662848",
+          "gid": "7777670344229803140",
+          "size": "3142195248"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26658414",
+        "timebuildupdated": "1794616140",
+        "timeupdated": "1794616317"
+      }
+    }
+  },
+  "extended": {
+    "developer": "PB Interactive",
+    "homepage": "https://pigeonball.com",
+    "publisher": "PB Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "PigeonBall/Saved/Cloud/{64BitSteamID}",
+        "pattern": "preferences.json",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

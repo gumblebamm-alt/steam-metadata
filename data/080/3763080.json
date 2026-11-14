@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794073572,
-  "_history": [],
-  "_change_number": 40707645,
-  "_missing_token": true,
-  "_sha": "77757f4f52c334c12402449117d9d5e2202e8eeb",
-  "_size": 3481,
+  "_lastChecked": 1794637259,
+  "_history": [
+    {
+      "buildId": "26657838",
+      "branch": "public",
+      "timeUpdated": 1794613822,
+      "firstSeen": 1794637259,
+      "manifests": {
+        "3763081": {
+          "gid": "5244710524301370075",
+          "size": 164824613,
+          "download": 55035232
+        },
+        "3763082": {
+          "gid": "853446916670844671",
+          "size": 250347797,
+          "download": 77618480
+        }
+      }
+    }
+  ],
+  "_change_number": 40934668,
+  "_missing_token": false,
+  "_sha": "53e0d174bf860110bf416aa56abc971f1b58235d",
+  "_size": 4982,
   "appid": "3763080",
   "common": {
     "associations": {
@@ -31,6 +50,7 @@
     },
     "clienticon": "212d587feb965af7e301d5ed3ce9b4610bd210bd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -38,7 +58,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3763080",
     "genres": {
       "0": "4",
@@ -110,11 +129,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f222349ecc95f9dfff74b3c37ff3df044f352ab7/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1786290548",
+    "steam_release_date": "1796025600",
+    "store_asset_mtime": "1794616387",
     "store_tags": {
       "0": "1091588",
       "1": "9",
@@ -161,5 +181,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Rogue Reels",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Rogue Reels.exe"
+      }
+    }
+  },
+  "depots": {
+    "3763081": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "55035232",
+          "gid": "5244710524301370075",
+          "size": "164824613"
+        }
+      }
+    },
+    "3763082": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "77618480",
+          "gid": "853446916670844671",
+          "size": "250347797"
+        }
+      }
+    },
+    "3763083": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "baselanguages": "english,german",
+    "branches": {
+      "public": {
+        "buildid": "26657838",
+        "timebuildupdated": "1794613822",
+        "timeupdated": "1794613822"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Delias Games",
+    "publisher": "Delias Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": ".config/unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Delias Games/Rogue Reels/profiles",
+        "pattern": "*.dgs",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

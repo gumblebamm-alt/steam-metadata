@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1794513270,
-  "_history": [],
-  "_change_number": 40863791,
-  "_missing_token": true,
-  "_sha": "69a78d2fc62644aa9de23bffd7a1c00898d4ccf4",
-  "_size": 5722,
+  "_lastChecked": 1794637257,
+  "_history": [
+    {
+      "buildId": "17629573",
+      "branch": "alpha",
+      "timeUpdated": 1741320284,
+      "firstSeen": 1794637257,
+      "manifests": {
+        "3540611": {
+          "gid": "7450627109469895918",
+          "size": 363572036,
+          "download": 100890784
+        }
+      }
+    },
+    {
+      "buildId": "26661116",
+      "branch": "public",
+      "timeUpdated": 1794628838,
+      "firstSeen": 1794637257,
+      "manifests": {
+        "3540611": {
+          "gid": "3363596788623882151",
+          "size": 2666686285,
+          "download": 377471888
+        }
+      }
+    }
+  ],
+  "_change_number": 40938532,
+  "_missing_token": false,
+  "_sha": "26f6460c34786e48a593700f62c277d7fb10a973",
+  "_size": 7687,
   "appid": "3540610",
   "common": {
     "associations": {
@@ -31,8 +58,8 @@
     "clienticon": "3982613f52adf6dcf83771e7855365eb3ea28615",
     "clienttga": "9c45452cffb160b0e9e404da21e78cdd3cd282b6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3540610",
     "genres": {
       "0": "1"
@@ -139,11 +166,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5937a29734e65e1d4ee0812c76e75ade00a0e5cb/capsule_231x87.jpg",
       "schinese": "7ef1d785dafe028e240acda8a18dc035d48a77a9/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1794628843",
     "store_asset_mtime": "1794228320",
     "store_tags": {
       "0": "3959",
@@ -219,5 +247,100 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "AstralHunter",
+    "launch": {
+      "0": {
+        "executable": "AstralHunter.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229006": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3540611": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "alpha": {
+          "download": "100890784",
+          "gid": "7450627109469895918",
+          "size": "363572036"
+        },
+        "public": {
+          "download": "377471888",
+          "gid": "3363596788623882151",
+          "size": "2666686285"
+        }
+      }
+    },
+    "branches": {
+      "alpha": {
+        "buildid": "17629573",
+        "description": "测试",
+        "timebuildupdated": "1741318321",
+        "timeupdated": "1741320284"
+      },
+      "public": {
+        "buildid": "26661116",
+        "timebuildupdated": "1794628829",
+        "timeupdated": "1794628838"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Mosscat",
+    "publisher": "Shuffle Play Games"
+  },
+  "ufs": {
+    "maxnumfiles": "60",
+    "quota": "300000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "MossCat/AstralHunter/SavesDir/{64BitSteamID}",
+            "replace": "unity.MossCat.AstralHunter/SavesDir/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "MossCat/AstralHunter/SavesDir/{64BitSteamID}",
+            "replace": ".config/unity3d/MossCat/AstralHunter/SavesDir/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "MossCat/AstralHunter/SavesDir/{64BitSteamID}",
+        "pattern": "*.es3",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

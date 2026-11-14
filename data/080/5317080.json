@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794294998,
-  "_history": [],
-  "_change_number": 40780796,
-  "_missing_token": true,
-  "_sha": "f82126e83f1dac763312ae93f8173c55c019f705",
-  "_size": 3427,
+  "_lastChecked": 1794637277,
+  "_history": [
+    {
+      "buildId": "26661384",
+      "branch": "public",
+      "timeUpdated": 1794631169,
+      "firstSeen": 1794637277,
+      "manifests": {
+        "5317081": {
+          "gid": "1923181103343450409",
+          "size": 3491718123,
+          "download": 3255161744
+        }
+      }
+    }
+  ],
+  "_change_number": 40939317,
+  "_missing_token": false,
+  "_sha": "43f9aceff8ed30ab45141761e5a21a2b9a8d9dd4",
+  "_size": 5116,
   "appid": "5317080",
   "common": {
     "aicontenttype": "2",
@@ -43,8 +57,8 @@
     },
     "clienticon": "4c039eed09e11ef37aafaed979d79c997b6d16f7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5317080",
     "genres": {
       "0": "1",
@@ -121,10 +135,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b7ed3918656b301d2b0a911449d05e913f1496f0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794628894",
     "store_asset_mtime": "1792550820",
     "store_tags": {
       "0": "699",
@@ -156,5 +171,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "raceonstream",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "RaceOnStream.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5317081": {
+      "manifests": {
+        "public": {
+          "download": "3255161744",
+          "gid": "1923181103343450409",
+          "size": "3491718123"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26661384",
+        "timebuildupdated": "1794630179",
+        "timeupdated": "1794631169"
+      }
+    }
+  },
+  "extended": {
+    "developer": "BlauGhost",
+    "homepage": "https://raceonstream.com",
+    "publisher": "BlauGhost"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "RaceOnStream/Saved/SaveGames/Steam/{64BitSteamID}",
+        "pattern": "ApexSolo_v2.sav",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "RaceOnStream/Saved/SaveGames/Steam/{64BitSteamID}",
+        "pattern": "ApexStream_v2.sav",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "RaceOnStream/Saved/SaveGames/Steam/{64BitSteamID}",
+        "pattern": "ApexOwnerAppearance_v1.sav",
+        "root": "WinAppDataLocal"
+      },
+      "3": {
+        "path": "RaceOnStream/Saved/SaveGames/Steam/{64BitSteamID}",
+        "pattern": "ApexAccountIdentity_v1.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,6 +1,19 @@
 {
-  "_lastChecked": 1791940085,
+  "_lastChecked": 1794637274,
   "_history": [
+    {
+      "buildId": "26345050",
+      "branch": "public",
+      "timeUpdated": 1793540450,
+      "firstSeen": 1794637274,
+      "manifests": {
+        "5085741": {
+          "gid": "701828885065503543",
+          "size": 2117420539,
+          "download": 695620448
+        }
+      }
+    },
     {
       "buildId": "25893707",
       "branch": "public",
@@ -55,19 +68,6 @@
         }
       },
       "_source": "hubcap"
-    },
-    {
-      "buildId": "25696581",
-      "branch": "public",
-      "timeUpdated": 1791033906,
-      "firstSeen": 1791040101,
-      "manifests": {
-        "5085741": {
-          "gid": "8268893808479521689",
-          "size": 1975640009,
-          "download": 687911952
-        }
-      }
     },
     {
       "buildId": "25893707",
@@ -148,10 +148,10 @@
       }
     }
   ],
-  "_change_number": 39795899,
+  "_change_number": 40932308,
   "_missing_token": false,
-  "_sha": "a4ef17765706db72222eed7a5e4578b84d2bf68c",
-  "_size": 9607,
+  "_sha": "ad2a0dfff89c26b0fa71397583a5c89819a9ab66",
+  "_size": 11601,
   "appid": "5085740",
   "common": {
     "associations": {
@@ -160,7 +160,7 @@
         "type": "developer"
       },
       "1": {
-        "name": "NoGlyph",
+        "name": "Loudbox",
         "type": "publisher"
       }
     },
@@ -319,7 +319,7 @@
     "oslist": "windows",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "72",
+    "review_percentage": "75",
     "review_score": "6",
     "small_capsule": {
       "brazilian": "175518a78c16e2fe1c68e76414a8d4d6719d608b/capsule_231x87_brazilian.jpg",
@@ -328,6 +328,75 @@
       "koreana": "4680fa48c4931e0b1b4ab0221767dc5dfef5e7ed/capsule_231x87_koreana.jpg",
       "russian": "877d36c5b9a7653b83504d14ff4c398a8a3982a5/capsule_231x87_russian.jpg",
       "schinese": "04b0e05a53f333b45a993b78f271867938c26f20/capsule_231x87_schinese.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1793290555",
+      "tested_build_id": "25893707",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      }
     },
     "steam_release_date": "1790697645",
     "store_asset_mtime": "1791231227",
@@ -347,9 +416,9 @@
       "2": "599",
       "3": "4136",
       "4": "597",
-      "5": "3968",
-      "6": "255534",
-      "7": "560542",
+      "5": "560542",
+      "6": "3968",
+      "7": "255534",
       "8": "1719",
       "9": "3859"
     },
@@ -498,9 +567,9 @@
           "size": "2030960780"
         },
         "public": {
-          "download": "692309808",
-          "gid": "6986061375960233102",
-          "size": "2030960780"
+          "download": "695620448",
+          "gid": "701828885065503543",
+          "size": "2117420539"
         }
       }
     },
@@ -512,16 +581,16 @@
         "timeupdated": "1791929843"
       },
       "public": {
-        "buildid": "25893707",
-        "timebuildupdated": "1791844307",
-        "timeupdated": "1791929843"
+        "buildid": "26345050",
+        "timebuildupdated": "1793448690",
+        "timeupdated": "1793540450"
       }
     },
     "privatebranches": "1"
   },
   "extended": {
     "developer": "NoGlyph",
-    "publisher": "NoGlyph"
+    "publisher": "Loudbox"
   },
   "ufs": {
     "maxnumfiles": "40",
