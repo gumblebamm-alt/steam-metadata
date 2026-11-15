@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794073585,
-  "_history": [],
-  "_change_number": 40696022,
-  "_missing_token": true,
-  "_sha": "18b8a0465e179aff51034eb6c21339f9f5b83075",
-  "_size": 5258,
+  "_lastChecked": 1794724135,
+  "_history": [
+    {
+      "buildId": "26675903",
+      "branch": "public",
+      "timeUpdated": 1794710013,
+      "firstSeen": 1794724135,
+      "manifests": {
+        "5045431": {
+          "gid": "79560699693954192",
+          "size": 227172510,
+          "download": 140635216
+        },
+        "5045432": {
+          "gid": "4481317568341921792",
+          "size": 194394470,
+          "download": 132645136
+        }
+      }
+    }
+  ],
+  "_change_number": 40963111,
+  "_missing_token": false,
+  "_sha": "8fcaca8fed27bb7b3c3503b1bb94d0012eed3fc2",
+  "_size": 6841,
   "appid": "5045430",
   "common": {
     "aicontenttype": "1",
@@ -29,9 +48,9 @@
     },
     "clienticon": "e6efada18e86febdc0a84bb924f847eae879eb7a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5045430",
     "genres": {
       "0": "25",
@@ -127,12 +146,13 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "af34fdd3f0b74919e5e38d6fedf794951094469c/capsule_231x87.jpg",
       "japanese": "834eb588c748a8a3096ff3253194ac03d7e6094f/capsule_231x87_japanese.jpg",
       "schinese": "834eb588c748a8a3096ff3253194ac03d7e6094f/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1794704070",
     "store_asset_mtime": "1794033954",
     "store_tags": {
       "0": "1667",
@@ -172,5 +192,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Rules of the Inn",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "yado-no-okite.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "yado-no-okite.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5045431": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "140635216",
+          "gid": "79560699693954192",
+          "size": "227172510"
+        }
+      }
+    },
+    "5045432": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "132645136",
+          "gid": "4481317568341921792",
+          "size": "194394470"
+        }
+      }
+    },
+    "5045433": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26675903",
+        "timebuildupdated": "1794708821",
+        "timeupdated": "1794710013"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Pekomaro",
+    "homepage": "https://impress.games/press-kit/pekomaro/rules-of-the-inn",
+    "publisher": "Pekomaro"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "YadoNoOkite",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "YadoNoOkite",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "linux"
+        },
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

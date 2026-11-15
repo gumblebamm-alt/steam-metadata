@@ -1,6 +1,19 @@
 {
-  "_lastChecked": 1792112065,
+  "_lastChecked": 1794724137,
   "_history": [
+    {
+      "buildId": "26182116",
+      "branch": "public",
+      "timeUpdated": 1792847063,
+      "firstSeen": 1794724137,
+      "manifests": {
+        "5169441": {
+          "gid": "526367273979715532",
+          "size": 4617939979,
+          "download": 917592848
+        }
+      }
+    },
     {
       "buildId": "25960744",
       "branch": "public",
@@ -56,19 +69,6 @@
       "_source": "hubcap"
     },
     {
-      "buildId": "25816138",
-      "branch": "public",
-      "timeUpdated": 1791500218,
-      "firstSeen": 1791506737,
-      "manifests": {
-        "5169441": {
-          "gid": "1887406914933948614",
-          "size": 5061651296,
-          "download": 966190160
-        }
-      }
-    },
-    {
       "buildId": "25857027",
       "branch": "stable-slowerupdates",
       "timeUpdated": 1791685493,
@@ -78,6 +78,19 @@
           "gid": "5410250549321481649",
           "size": 5093157448,
           "download": 975653168
+        }
+      }
+    },
+    {
+      "buildId": "26677685",
+      "branch": "betaupdate",
+      "timeUpdated": 1794720228,
+      "firstSeen": 1794724137,
+      "manifests": {
+        "5169441": {
+          "gid": "1791502516127620849",
+          "size": 4625610848,
+          "download": 923397248
         }
       }
     },
@@ -93,12 +106,35 @@
           "download": 943874704
         }
       }
+    },
+    {
+      "buildId": "26147494",
+      "branch": "native-beta",
+      "timeUpdated": 1792713855,
+      "firstSeen": 1794724137,
+      "manifests": {
+        "5169441": {
+          "gid": "9216590822571293769",
+          "size": 4617941803,
+          "download": 917588544
+        },
+        "5169442": {
+          "gid": "439020718359938303",
+          "size": 4634634531,
+          "download": 925340416
+        },
+        "5169443": {
+          "gid": "7898277986597833526",
+          "size": 4694264177,
+          "download": 971785136
+        }
+      }
     }
   ],
-  "_change_number": 39876554,
+  "_change_number": 40965317,
   "_missing_token": false,
-  "_sha": "3cce008a647f0d7791a5654482cb2bdc60602f7e",
-  "_size": 6260,
+  "_sha": "1cbf4f53afb4a27e32324c28e863cde12770e888",
+  "_size": 7183,
   "appid": "5169440",
   "common": {
     "associations": {
@@ -135,7 +171,7 @@
       "0": "4"
     },
     "header_image": {
-      "english": "95af185c130294e7614457ba08e5847efb84c4f0/header.jpg"
+      "english": "b5cacf77ecb5f2e546b1b2c386c9e11ca936b0e7/header.jpg"
     },
     "icon": "048b6c8331286b80afa00c2040af20f0b736a168",
     "languages": {
@@ -203,14 +239,14 @@
     "oslist": "windows",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "70",
+    "review_percentage": "77",
     "review_score": "6",
     "small_capsule": {
       "english": "a5d9d195219855f1e02cf4c3f04aaf56e8a59bf3/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/games/5169440/partnerevents/preview/692018222142064163",
     "steam_release_date": "1791479021",
-    "store_asset_mtime": "1792075038",
+    "store_asset_mtime": "1794712980",
     "store_tags": {
       "0": "597",
       "1": "1239876",
@@ -292,6 +328,22 @@
         },
         "executable": "TidyUpTheRoyalArmory.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "native-beta",
+          "oslist": "macos"
+        },
+        "executable": "TidyUpTheRoyalArmory.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "betakey": "native-beta",
+          "oslist": "linux"
+        },
+        "executable": "TidyUpTheRoyalArmory.x86_64",
+        "type": "default"
       }
     }
   },
@@ -302,14 +354,19 @@
       },
       "manifests": {
         "betaupdate": {
-          "download": "943874704",
-          "gid": "2916728230724221877",
-          "size": "4925987087"
+          "download": "923397248",
+          "gid": "1791502516127620849",
+          "size": "4625610848"
+        },
+        "native-beta": {
+          "download": "917588544",
+          "gid": "9216590822571293769",
+          "size": "4617941803"
         },
         "public": {
-          "download": "943874704",
-          "gid": "2916728230724221877",
-          "size": "4925987087"
+          "download": "917592848",
+          "gid": "526367273979715532",
+          "size": "4617939979"
         },
         "stable-slowerupdates": {
           "download": "975653168",
@@ -318,17 +375,47 @@
         }
       }
     },
+    "5169442": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "native-beta": {
+          "download": "925340416",
+          "gid": "439020718359938303",
+          "size": "4634634531"
+        }
+      }
+    },
+    "5169443": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "native-beta": {
+          "download": "971785136",
+          "gid": "7898277986597833526",
+          "size": "4694264177"
+        }
+      }
+    },
     "branches": {
       "betaupdate": {
-        "buildid": "25960744",
+        "buildid": "26677685",
         "description": "test builds",
-        "timebuildupdated": "1792070271",
-        "timeupdated": "1792070271"
+        "timebuildupdated": "1794720228",
+        "timeupdated": "1794720228"
+      },
+      "native-beta": {
+        "buildid": "26147494",
+        "description": "Beta branch With native builds for Linux, Steam OS and MAC",
+        "timebuildupdated": "1792713855",
+        "timeupdated": "1792713855"
       },
       "public": {
-        "buildid": "25960744",
-        "timebuildupdated": "1792070271",
-        "timeupdated": "1792071284"
+        "buildid": "26182116",
+        "timebuildupdated": "1792846202",
+        "timeupdated": "1792847063"
       },
       "stable-slowerupdates": {
         "buildid": "25857027",
@@ -347,40 +434,32 @@
   "ufs": {
     "maxnumfiles": "20",
     "quota": "400000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".config/unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "addpath": "Library/Application Support/",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "7heads studio/TidyUpTheRoyalArmory",
         "pattern": "prefs.json",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocalLow"
       },
-      "1": {
-        "path": ".config/unity3d/7heads studio/TidyUpTheRoyalArmory",
-        "pattern": "prefs.json",
-        "platforms": {
-          "1": "Linux"
-        },
-        "root": "LinuxHome"
-      },
-      "2": {
-        "path": "Library/Application Support/7heads studio/TidyUpTheRoyalArmory",
-        "pattern": "prefs.json, save_*.json",
-        "platforms": {
-          "1": "MacOS"
-        },
-        "root": "MacHome"
-      },
-      "3": {
-        "path": "SavesDir",
-        "pattern": "*.sav",
-        "root": "gameinstall"
-      },
-      "4": {
-        "path": "SavesDir",
-        "pattern": "*.sav",
-        "root": "gameinstall"
+      "6": {
+        "path": "7heads studio/TidyUpTheRoyalArmory",
+        "pattern": "save_*.json",
+        "root": "WinAppDataLocalLow"
       }
     }
   }

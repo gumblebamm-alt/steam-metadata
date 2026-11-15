@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793947308,
-  "_history": [],
-  "_change_number": 40648956,
-  "_missing_token": true,
-  "_sha": "659bbc03e647cf5ef0199106191fddedfae84e30",
-  "_size": 3285,
+  "_lastChecked": 1794724123,
+  "_history": [
+    {
+      "buildId": "26671696",
+      "branch": "public",
+      "timeUpdated": 1794686305,
+      "firstSeen": 1794724123,
+      "manifests": {
+        "2772071": {
+          "gid": "874087369882363897",
+          "size": 5108929330,
+          "download": 4453560944
+        },
+        "2772072": {
+          "gid": "4539326467956052112",
+          "size": 4872508739,
+          "download": 4542417808
+        }
+      }
+    }
+  ],
+  "_change_number": 40956660,
+  "_missing_token": false,
+  "_sha": "b30f18bb6b763e63bf8bdc36f16c36230c99af72",
+  "_size": 4767,
   "appid": "2772070",
   "common": {
     "aicontenttype": "2",
@@ -30,6 +49,7 @@
     },
     "clienticon": "91c2fc5f718971efe7133b091a0d75fe3705cab1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -39,7 +59,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "2772070",
     "genres": {
       "0": "25",
@@ -114,7 +133,7 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3658711413bdc81c527f1578df151b585b1333e3/capsule_231x87.jpg"
     },
@@ -150,5 +169,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "inWaiting",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "InWaiting.exe",
+        "workingdir": "InWaiting\\Binaries\\Win64\\"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "InWaiting-Mac-Shipping.app"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2772071": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "4453560944",
+          "gid": "874087369882363897",
+          "size": "5108929330"
+        }
+      }
+    },
+    "2772072": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "4542417808",
+          "gid": "4539326467956052112",
+          "size": "4872508739"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26671696",
+        "timebuildupdated": "1794686281",
+        "timeupdated": "1794686305"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "CynicalMonkeys",
+    "homepage": "https://www.cynicalmonkeys.com",
+    "isfreeapp": "1",
+    "publisher": "CynicalMonkeys",
+    "remoteplaytogethertestingbranches": "default"
+  }
 }

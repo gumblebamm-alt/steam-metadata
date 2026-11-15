@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793773122,
+  "_lastChecked": 1794724119,
   "_history": [
     {
       "buildId": "2826715",
@@ -13,12 +13,25 @@
           "download": 30069680
         }
       }
+    },
+    {
+      "buildId": "26676276",
+      "branch": "beta",
+      "timeUpdated": 1794711276,
+      "firstSeen": 1794724119,
+      "manifests": {
+        "589871": {
+          "gid": "4522924841573673914",
+          "size": 255333629,
+          "download": 157711232
+        }
+      }
     }
   ],
-  "_change_number": 40570456,
+  "_change_number": 40963395,
   "_missing_token": false,
-  "_sha": "a798234fd318b751b19bef1aa07d394d45b0dc39",
-  "_size": 4766,
+  "_sha": "2d15b5e839bd5be1fa51c43c6cf8ec1a50c87f7c",
+  "_size": 6086,
   "appid": "589870",
   "common": {
     "associations": {
@@ -185,8 +198,46 @@
         "config": {
           "oslist": "windows"
         },
-        "executable": "Learn to Fly 3.exe",
-        "type": "none"
+        "description": "Learn to Fly 3 (recommended)",
+        "description_loc": {
+          "english": "Learn to Fly 3 (recommended)"
+        },
+        "executable": "Learn to Fly 3.exe"
+      },
+      "1": {
+        "arguments": "--graphics dx12",
+        "config": {
+          "betakey": "beta,developer",
+          "oslist": "windows"
+        },
+        "description": "DirectX 12 renderer (try if the game won’t start)",
+        "description_loc": {
+          "english": "DirectX 12 renderer (try if the game won’t start)"
+        },
+        "executable": "Learn to Fly 3.exe"
+      },
+      "2": {
+        "arguments": "--graphics gl",
+        "config": {
+          "betakey": "beta,developer",
+          "oslist": "windows"
+        },
+        "description": "OpenGL renderer (compatibility)",
+        "description_loc": {
+          "english": "OpenGL renderer (compatibility)"
+        },
+        "executable": "Learn to Fly 3.exe"
+      },
+      "3": {
+        "config": {
+          "betakey": "beta,developer",
+          "oslist": "windows"
+        },
+        "description": "Adobe AIR 32-bit (legacy)",
+        "description_loc": {
+          "english": "Adobe AIR 32-bit (legacy)"
+        },
+        "executable": "air\\Learn to Fly 3.exe"
       }
     }
   },
@@ -196,6 +247,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "beta": {
+          "download": "157711232",
+          "gid": "4522924841573673914",
+          "size": "255333629"
+        },
         "public": {
           "download": "30069680",
           "gid": "8295121408296010217",
@@ -204,6 +260,12 @@
       }
     },
     "branches": {
+      "beta": {
+        "buildid": "26676276",
+        "description": "New versions still being tested",
+        "timebuildupdated": "1794710981",
+        "timeupdated": "1794711276"
+      },
       "public": {
         "buildid": "2826715",
         "timebuildupdated": "1527878247",

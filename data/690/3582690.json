@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1794467357,
-  "_history": [],
-  "_change_number": 40859262,
-  "_missing_token": true,
-  "_sha": "58237200f6260928cba78bd0d84323f71a62298e",
-  "_size": 6323,
+  "_lastChecked": 1794724125,
+  "_history": [
+    {
+      "buildId": "26670424",
+      "branch": "public",
+      "timeUpdated": 1794680126,
+      "firstSeen": 1794724125,
+      "manifests": {
+        "3582691": {
+          "gid": "6452105708314418134",
+          "size": 3088578856,
+          "download": 2657646416
+        }
+      }
+    },
+    {
+      "buildId": "26670424",
+      "branch": "public-beta",
+      "timeUpdated": 1794680126,
+      "firstSeen": 1794724125,
+      "manifests": {
+        "3582691": {
+          "gid": "6452105708314418134",
+          "size": 3088578856,
+          "download": 2657646416
+        }
+      }
+    }
+  ],
+  "_change_number": 40961125,
+  "_missing_token": false,
+  "_sha": "bc030c841e53a0ac98873e50d93786022f949ee1",
+  "_size": 8625,
   "appid": "3582690",
   "common": {
     "associations": {
@@ -43,6 +70,7 @@
     "clienticon": "fa827f879e59a7acb628365d301fcabbfbeac7f9",
     "clienttga": "32760f42dfcb2df64b451b8ef11283a4cc18263b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -53,7 +81,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3582690",
     "genres": {
       "0": "1",
@@ -159,11 +186,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6ad34ba1cfe7d630e00aed055969e441f3dfe827/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794456927",
+    "steam_release_date": "1794680367",
+    "store_asset_mtime": "1794702188",
     "store_tags": {
       "0": "1721",
       "1": "3978",
@@ -315,5 +343,112 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Night Crew",
+    "launch": {
+      "0": {
+        "executable": "Night_Crew.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "Night_Crew/game_actions_3582690.vdf"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3582691": {
+      "manifests": {
+        "public": {
+          "download": "2657646416",
+          "gid": "6452105708314418134",
+          "size": "3088578856"
+        },
+        "public-beta": {
+          "download": "2657646416",
+          "gid": "6452105708314418134",
+          "size": "3088578856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26670424",
+        "timebuildupdated": "1794679717",
+        "timeupdated": "1794680126"
+      },
+      "public-beta": {
+        "buildid": "26670424",
+        "description": "Help us test and give us feedback on upcoming changes!",
+        "timebuildupdated": "1794679717",
+        "timeupdated": "1794680126"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Upstart Games",
+    "homepage": "https://upstart.games/games/nightcrew",
+    "publisher": "Upstart Games"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Night_Crew/Saved/SaveGames",
+        "pattern": "Progression*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Night_Crew/Saved/SaveGames",
+        "pattern": "Hints.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "Night_Crew/Saved/SaveGames",
+        "pattern": "ControlsSaveGame.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "3": {
+        "path": "Night_Crew/Saved/SaveGames",
+        "pattern": "GameSettings.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "4": {
+        "path": "Night_Crew/Saved/SaveGames",
+        "pattern": "MonsterCodex.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

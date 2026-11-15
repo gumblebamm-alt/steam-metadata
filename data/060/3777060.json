@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790987696,
+  "_lastChecked": 1794724125,
   "_history": [
     {
       "buildId": "22437324",
@@ -52,12 +52,30 @@
           "download": 511822416
         }
       }
+    },
+    {
+      "buildId": "26673644",
+      "branch": "public",
+      "timeUpdated": 1794699748,
+      "firstSeen": 1794724125,
+      "manifests": {
+        "3777061": {
+          "gid": "7482435906414877608",
+          "size": 517735883,
+          "download": 316091472
+        },
+        "3777062": {
+          "gid": "4923723267307682076",
+          "size": 707125079,
+          "download": 383603376
+        }
+      }
     }
   ],
-  "_change_number": 39433784,
+  "_change_number": 40960537,
   "_missing_token": false,
-  "_sha": "349ed5c1a851dda0386c128701b65d2439320636",
-  "_size": 8271,
+  "_sha": "0b72cca24646ab661fca9046402f18f4476ef8ed",
+  "_size": 9552,
   "appid": "3777060",
   "common": {
     "associations": {
@@ -176,11 +194,12 @@
       "tchinese": "黃金礦工:經典版"
     },
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "82",
+    "review_percentage": "84",
     "review_score": "8",
     "small_capsule": {
       "english": "2a6f782ac8025178832cd4e76a9de77389a5d4ea/capsule_231x87.jpg",
@@ -244,6 +263,48 @@
         "3": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_frame_compatibility": {
+      "category": "3",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-experimental",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1792774290",
+      "tested_build_id": "26125969",
+      "tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsPerformant"
         }
       }
     },
@@ -318,18 +379,18 @@
     "installdir": "Gold MinerClassic Edition",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "GoldMiner.exe",
         "type": "default"
       },
-      "3": {
-        "arguments": "-dx11",
-        "description": "Legacy Version (Compatibility)",
-        "description_loc": {
-          "english": "Legacy Version (Compatibility)",
-          "schinese": "旧版兼容模式"
+      "1": {
+        "config": {
+          "oslist": "macos"
         },
-        "executable": "\\Legacy\\GoldMiner.exe",
-        "type": "config"
+        "executable": "Gold Miner Classic Edition.app",
+        "type": "default"
       }
     },
     "steamconfigurator3rdpartynative": "65535",
@@ -353,31 +414,35 @@
       "sharedinstall": "1"
     },
     "3777061": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
-        "compatibility": {
-          "download": "355837760",
-          "gid": "7751721825040462002",
-          "size": "631865074"
-        },
         "public": {
-          "download": "511822416",
-          "gid": "2856690483500788921",
-          "size": "1001612635"
+          "download": "316091472",
+          "gid": "7482435906414877608",
+          "size": "517735883"
+        }
+      }
+    },
+    "3777062": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "383603376",
+          "gid": "4923723267307682076",
+          "size": "707125079"
         }
       }
     },
     "baselanguages": "english,french,german,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,tchinese",
     "branches": {
-      "compatibility": {
-        "buildid": "22437324",
-        "description": "Legacy Branch",
-        "timebuildupdated": "1774030220",
-        "timeupdated": "1774030278"
-      },
       "public": {
-        "buildid": "25676824",
-        "timebuildupdated": "1790943857",
-        "timeupdated": "1790944676"
+        "buildid": "26673644",
+        "timebuildupdated": "1794695682",
+        "timeupdated": "1794699748"
       }
     },
     "privatebranches": "1"
@@ -398,6 +463,14 @@
           "1": "Windows"
         },
         "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "gold-miner-classic/cloud-mac",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
       }
     }
   }
