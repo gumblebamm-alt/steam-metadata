@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794467350,
-  "_history": [],
-  "_change_number": 40856252,
-  "_missing_token": true,
-  "_sha": "10c7dfcc70f12f804af8ac55a59ffb01af523a6b",
-  "_size": 4269,
+  "_lastChecked": 1794768678,
+  "_history": [
+    {
+      "buildId": "26619469",
+      "branch": "public",
+      "timeUpdated": 1794493039,
+      "firstSeen": 1794768678,
+      "manifests": {
+        "2570371": {
+          "gid": "8054322948794578281",
+          "size": 54596854,
+          "download": 45459296
+        },
+        "2570372": {
+          "gid": "3530588613865738062",
+          "size": 59077871,
+          "download": 46173696
+        }
+      }
+    }
+  ],
+  "_change_number": 40974530,
+  "_missing_token": false,
+  "_sha": "05c87d2d379c52ccc501f33b930bbe086e715f08",
+  "_size": 5783,
   "appid": "2570370",
   "common": {
     "aicontenttype": "1",
@@ -45,6 +64,7 @@
     "clienticon": "92ed7ebd13f9891a16f07df1f82a805d3732bf61",
     "clienttga": "35e1f620fb19a310c082f0d63d10ecbad4919c95",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
     "eulas": {
@@ -55,7 +75,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "2570370",
     "genres": {
       "0": "1",
@@ -128,10 +147,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "137f4ea739508434b3d3c60ebefe81045b9a2e04/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1792678441",
     "store_tags": {
       "0": "19",
@@ -191,5 +211,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_scout"
+      }
+    },
+    "installdir": "Brazilian Fight Capoeira",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BFC.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Brazillian_Fight_Capoeira",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2570371": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "45459296",
+          "gid": "8054322948794578281",
+          "size": "54596854"
+        }
+      }
+    },
+    "2570372": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "46173696",
+          "gid": "3530588613865738062",
+          "size": "59077871"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,latam,portuguese,russian,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26619469",
+        "timebuildupdated": "1794493025",
+        "timeupdated": "1794493039"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "CR$Minoso",
+    "publisher": "CR$Minoso"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "100",
+    "savefiles": {
+      "1": {
+        "path": "Brazillian_Fight_Capoeira",
+        "pattern": "*.cfg",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "Brazillian_Fight_Capoeira",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

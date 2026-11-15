@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794724136,
+  "_lastChecked": 1794768703,
   "_history": [
     {
       "buildId": "26438291",
@@ -36,12 +36,35 @@
           "download": 255480544
         }
       }
+    },
+    {
+      "buildId": "26683007",
+      "branch": "public",
+      "timeUpdated": 1794753275,
+      "firstSeen": 1794768703,
+      "manifests": {
+        "5137811": {
+          "gid": "1593550616955455475",
+          "size": 334704380,
+          "download": 232210496
+        },
+        "5137812": {
+          "gid": "2854370256196060427",
+          "size": 416336626,
+          "download": 255486096
+        },
+        "5137813": {
+          "gid": "2896442604789233596",
+          "size": 301250356,
+          "download": 224220368
+        }
+      }
     }
   ],
-  "_change_number": 40961023,
+  "_change_number": 40974025,
   "_missing_token": false,
-  "_sha": "638a58dfcb94baec79083a75675182a175b8438b",
-  "_size": 6103,
+  "_sha": "8c22d1d5530d7b2d87ca22084b0c5dfb81752cba",
+  "_size": 6710,
   "appid": "5137810",
   "common": {
     "associations": {
@@ -143,7 +166,7 @@
     "osarch": "64",
     "oscpu": "",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
-    "oslist": "windows,macos",
+    "oslist": "windows,macos,linux",
     "primary_genre": "23",
     "releasestate": "released",
     "small_capsule": {
@@ -280,6 +303,13 @@
           "oslist": "macos"
         },
         "executable": "Scraplings.app"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Scraplings.x86_64"
       }
     }
   },
@@ -291,9 +321,9 @@
       },
       "manifests": {
         "public": {
-          "download": "232204768",
-          "gid": "1368395777654138527",
-          "size": "334719020"
+          "download": "232210496",
+          "gid": "1593550616955455475",
+          "size": "334704380"
         }
       }
     },
@@ -304,17 +334,29 @@
       },
       "manifests": {
         "public": {
-          "download": "255480544",
-          "gid": "3330885012554896771",
-          "size": "416351266"
+          "download": "255486096",
+          "gid": "2854370256196060427",
+          "size": "416336626"
+        }
+      }
+    },
+    "5137813": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "224220368",
+          "gid": "2896442604789233596",
+          "size": "301250356"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26674661",
-        "timebuildupdated": "1794701211",
-        "timeupdated": "1794701521"
+        "buildid": "26683007",
+        "timebuildupdated": "1794752460",
+        "timeupdated": "1794753275"
       }
     },
     "nocommonredists": "1"
@@ -334,6 +376,18 @@
         "oscompare": "=",
         "root": "WinAppDataRoaming",
         "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Scraplings",
+            "replace": "godot/app_userdata/Scraplings"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
       }
     },
     "savefiles": {

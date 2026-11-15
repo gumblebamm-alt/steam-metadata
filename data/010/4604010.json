@@ -1,10 +1,76 @@
 {
-  "_lastChecked": 1794637266,
-  "_history": [],
-  "_change_number": 40928473,
-  "_missing_token": true,
-  "_sha": "4a012a1e34cda3170ebd349b7fb6bf28af4cfe3e",
-  "_size": 2823,
+  "_lastChecked": 1794768692,
+  "_history": [
+    {
+      "buildId": "26430881",
+      "branch": "inter-official",
+      "timeUpdated": 1793794806,
+      "firstSeen": 1794768692,
+      "manifests": {
+        "4604011": {
+          "gid": "1654101286104391412",
+          "size": 3775543978,
+          "download": 1404747680
+        }
+      }
+    },
+    {
+      "buildId": "26649923",
+      "branch": "inter-test",
+      "timeUpdated": 1794588899,
+      "firstSeen": 1794768692,
+      "manifests": {
+        "4604011": {
+          "gid": "2444981572193036340",
+          "size": 3940399166,
+          "download": 1439277888
+        }
+      }
+    },
+    {
+      "buildId": "26680851",
+      "branch": "public",
+      "timeUpdated": 1794741003,
+      "firstSeen": 1794768692,
+      "manifests": {
+        "4604011": {
+          "gid": "7286238951534899962",
+          "size": 3920190096,
+          "download": 1431651696
+        }
+      }
+    },
+    {
+      "buildId": "25719330",
+      "branch": "review-version",
+      "timeUpdated": 1791170771,
+      "firstSeen": 1794768692,
+      "manifests": {
+        "4604011": {
+          "gid": "955046692180858534",
+          "size": 3875421903,
+          "download": 1373574384
+        }
+      }
+    },
+    {
+      "buildId": "26680851",
+      "branch": "sandbox-test",
+      "timeUpdated": 1794740902,
+      "firstSeen": 1794768692,
+      "manifests": {
+        "4604011": {
+          "gid": "7286238951534899962",
+          "size": 3920190096,
+          "download": 1431651696
+        }
+      }
+    }
+  ],
+  "_change_number": 40979399,
+  "_missing_token": false,
+  "_sha": "732099f53496c58c3033250a9bb0aedc19ad66fa",
+  "_size": 4655,
   "appid": "4604010",
   "common": {
     "associations": {
@@ -27,7 +93,6 @@
     "clienticon": "76d71a642c892d77da09d793e6802f2c3459548b",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4604010",
     "genres": {
       "0": "28",
@@ -100,7 +165,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "33",
+    "review_score": "4",
     "small_capsule": {
       "english": "8b080ddb6b4d499311b2e35165c0ad178e6bf0cd/capsule_231x87.jpg"
     },
@@ -123,5 +190,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ProjectBeast",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Beast.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4604011": {
+      "manifests": {
+        "inter-official": {
+          "download": "1404747680",
+          "gid": "1654101286104391412",
+          "size": "3775543978"
+        },
+        "inter-test": {
+          "download": "1439277888",
+          "gid": "2444981572193036340",
+          "size": "3940399166"
+        },
+        "public": {
+          "download": "1431651696",
+          "gid": "7286238951534899962",
+          "size": "3920190096"
+        },
+        "review-version": {
+          "download": "1373574384",
+          "gid": "955046692180858534",
+          "size": "3875421903"
+        },
+        "sandbox-test": {
+          "download": "1431651696",
+          "gid": "7286238951534899962",
+          "size": "3920190096"
+        }
+      }
+    },
+    "branches": {
+      "inter-official": {
+        "buildid": "26430881",
+        "description": "内网正式服",
+        "timebuildupdated": "1793794314",
+        "timeupdated": "1793794806"
+      },
+      "inter-test": {
+        "buildid": "26649923",
+        "description": "外网测试服",
+        "timebuildupdated": "1794588305",
+        "timeupdated": "1794588899"
+      },
+      "public": {
+        "buildid": "26680851",
+        "timebuildupdated": "1794740902",
+        "timeupdated": "1794741003"
+      },
+      "review-version": {
+        "buildid": "25719330",
+        "description": "给审核人员用的",
+        "timebuildupdated": "1791168375",
+        "timeupdated": "1791170771"
+      },
+      "sandbox-test": {
+        "buildid": "26680851",
+        "description": "EA版本",
+        "timebuildupdated": "1794740902",
+        "timeupdated": "1794740902"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Parrot Studios",
+    "isfreeapp": "1",
+    "publisher": "Parrot Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
 }

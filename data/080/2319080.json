@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792025642,
+  "_lastChecked": 1794768677,
   "_history": [
     {
       "buildId": "10552786",
@@ -18,12 +18,35 @@
           "download": 250179488
         }
       }
+    },
+    {
+      "buildId": "26679411",
+      "branch": "public",
+      "timeUpdated": 1794733989,
+      "firstSeen": 1794768677,
+      "manifests": {
+        "2319081": {
+          "gid": "1459202295369458438",
+          "size": 296680844,
+          "download": 120648336
+        },
+        "2319082": {
+          "gid": "3735514581216543567",
+          "size": 290461390,
+          "download": 111164784
+        },
+        "2322160": {
+          "gid": "9187413174369817510",
+          "size": 168,
+          "download": 176
+        }
+      }
     }
   ],
-  "_change_number": 39834879,
+  "_change_number": 40968574,
   "_missing_token": false,
-  "_sha": "7e21b02cc58ae05a5ac13d7db7b74f7f23210e9d",
-  "_size": 3744,
+  "_sha": "3e032b2bf389d7dabd3c197c7923d5e1cfa5c44c",
+  "_size": 5385,
   "appid": "2319080",
   "common": {
     "associations": {
@@ -38,11 +61,15 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
+      "category_25": "1",
       "category_62": "1"
     },
     "clienticon": "31b1101b1895438280884661d969de22e76e89e9",
     "clienttga": "49b371f809c1dec92c523c2e6e98814152143147",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "gameid": "2319080",
     "genres": {
       "0": "4",
@@ -50,12 +77,14 @@
       "2": "2"
     },
     "header_image": {
-      "english": "header.jpg"
+      "english": "9d314ab6fe85c43a68686852b6615a6680860f7b/header.jpg"
     },
     "icon": "81a7371de3afecb6dfe8a6d0aea53e48101a7f29",
     "library_assets": {
       "library_capsule": "en",
+      "library_header": "en",
       "library_hero": "en",
+      "library_hero_blur": "en",
       "library_logo": "en",
       "logo_position": {
         "height_pct": "100",
@@ -66,23 +95,39 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "library_600x900.jpg"
+          "english": "04518791ed2231e29a0a7717e093008a0231f46b/library_capsule.jpg"
         },
         "image2x": {
-          "english": "library_600x900_2x.jpg"
+          "english": "04518791ed2231e29a0a7717e093008a0231f46b/library_capsule_2x.jpg"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "9d314ab6fe85c43a68686852b6615a6680860f7b/library_header.jpg"
+        },
+        "image2x": {
+          "english": "9d314ab6fe85c43a68686852b6615a6680860f7b/library_header_2x.jpg"
         }
       },
       "library_hero": {
         "image": {
-          "english": "library_hero.jpg"
+          "english": "00fba3a6550ce7f98967f7248ddee3e739d6391a/library_hero.jpg"
+        },
+        "image2x": {
+          "english": "00fba3a6550ce7f98967f7248ddee3e739d6391a/library_hero_2x.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "00fba3a6550ce7f98967f7248ddee3e739d6391a/library_hero_blur.jpg"
         }
       },
       "library_logo": {
         "image": {
-          "english": "logo.png"
+          "english": "2788c55837ca2e5892e7f2e86253d57a37423c06/logo.png"
         },
         "image2x": {
-          "english": "logo_2x.png"
+          "english": "2788c55837ca2e5892e7f2e86253d57a37423c06/logo_2x.png"
         },
         "logo_position": {
           "height_pct": "100",
@@ -93,15 +138,16 @@
     },
     "name": "Retro Style - Pixel Art Jigsaw Puzzles",
     "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "23",
     "releasestate": "released",
     "small_capsule": {
-      "english": "capsule_231x87.jpg"
+      "english": "e1c977db778b1a8215306f4f9f1478003e98eecb/capsule_231x87.jpg"
     },
     "steam_release_date": "1677528553",
-    "store_asset_mtime": "1745574053",
+    "store_asset_mtime": "1794726683",
     "store_tags": {
       "0": "1664",
       "1": "3964",
@@ -146,17 +192,18 @@
         "executable": "Retro Style - Pixel Art Jigsaw Puzzles.exe",
         "type": "option1"
       },
-      "1": {
+      "2": {
+        "arguments": "--no-sandbox",
         "config": {
           "osarch": "64",
-          "oslist": "windows"
+          "oslist": "linux"
         },
-        "description": "Expansion Pack 1",
+        "description": "Retro Style - Pixel Art Jigsaw Puzzles",
         "description_loc": {
-          "english": "Expansion Pack 1"
+          "english": "Retro Style - Pixel Art Jigsaw Puzzles"
         },
-        "executable": "Retro Style - Pixel Art Jigsaw Puzzles - Expansion Pack 1.exe",
-        "type": "option1"
+        "executable": "retro-style-jigsaw",
+        "type": "default"
       }
     }
   },
@@ -169,9 +216,22 @@
       },
       "manifests": {
         "public": {
-          "download": "255992864",
-          "gid": "7601159010692535143",
-          "size": "420678779"
+          "download": "120648336",
+          "gid": "1459202295369458438",
+          "size": "296680844"
+        }
+      }
+    },
+    "2319082": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "111164784",
+          "gid": "3735514581216543567",
+          "size": "290461390"
         }
       }
     },
@@ -184,20 +244,21 @@
       "dlcappid": "2322160",
       "manifests": {
         "public": {
-          "download": "250179488",
-          "gid": "2818444236720951973",
-          "size": "418074740"
+          "download": "176",
+          "gid": "9187413174369817510",
+          "size": "168"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "10552786",
-        "timebuildupdated": "1676416988",
-        "timeupdated": "1676417076"
+        "buildid": "26679411",
+        "timebuildupdated": "1794732291",
+        "timeupdated": "1794733989"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Dusty Rocket Games",
@@ -205,5 +266,27 @@
     "homepage": "https://dustyrocketgames.com/games/retro-style-pixel-art-jigsaw-puzzles/",
     "listofdlc": "2322160",
     "publisher": "Dusty Rocket Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "200",
+    "quota": "20000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Retro Style - Pixel Art Jigsaw Puzzles/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

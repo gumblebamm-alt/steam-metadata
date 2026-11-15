@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793821562,
-  "_history": [],
-  "_change_number": 40596300,
-  "_missing_token": true,
-  "_sha": "d309e310d15c3c0e692ed2352d42defffc7063f4",
-  "_size": 3301,
+  "_lastChecked": 1794768698,
+  "_history": [
+    {
+      "buildId": "26681849",
+      "branch": "public",
+      "timeUpdated": 1794746757,
+      "firstSeen": 1794768698,
+      "manifests": {
+        "4890231": {
+          "gid": "8174994050335685819",
+          "size": 848546302,
+          "download": 765040752
+        },
+        "4890232": {
+          "gid": "7575176548240174740",
+          "size": 848783200,
+          "download": 763459504
+        }
+      }
+    }
+  ],
+  "_change_number": 40974509,
+  "_missing_token": false,
+  "_sha": "603f6638fc307d7a9aa1c271a81797f8454c7de6",
+  "_size": 4906,
   "appid": "4890230",
   "common": {
     "associations": {
@@ -43,7 +62,6 @@
       "2": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4890230",
     "genres": {
       "0": "25",
@@ -114,7 +132,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "11a09e2da85e08bf506247f3b1c6f494654d73e0/capsule_231x87.jpg"
     },
@@ -150,5 +168,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "I AM MILK",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "I AM MILK.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "I AM MILK.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4890231": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "765040752",
+          "gid": "8174994050335685819",
+          "size": "848546302"
+        }
+      }
+    },
+    "4890232": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "763459504",
+          "gid": "7575176548240174740",
+          "size": "848783200"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26681849",
+        "timebuildupdated": "1794746636",
+        "timeupdated": "1794746757"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "DARKFIELD GAMES",
+    "homepage": "https://www.iammilk.org",
+    "publisher": "DARKFIELD"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "com.example/I AM MILK/i_am_milk",
+            "replace": "com.example.arcadeApp/i_am_milk"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "com.example/I AM MILK/i_am_milk",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

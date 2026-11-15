@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794513300,
-  "_history": [],
-  "_change_number": 40835382,
-  "_missing_token": true,
-  "_sha": "fcd852b7fead7759189bc61807781588ea543bea",
-  "_size": 5439,
+  "_lastChecked": 1794768701,
+  "_history": [
+    {
+      "buildId": "26682552",
+      "branch": "public",
+      "timeUpdated": 1794751713,
+      "firstSeen": 1794768701,
+      "manifests": {
+        "5024381": {
+          "gid": "9115762953434698167",
+          "size": 567076789,
+          "download": 447991968
+        }
+      }
+    }
+  ],
+  "_change_number": 40977548,
+  "_missing_token": false,
+  "_sha": "87df1f6dc7a91457ea6f917399578ad95dc137d1",
+  "_size": 7097,
   "appid": "5024380",
   "common": {
     "aicontenttype": "1",
@@ -28,7 +42,6 @@
     "clienticon": "e0cd7bdbc5735237a7e07c51da0c2d5ee1c81d82",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5024380",
     "genres": {
       "0": "4",
@@ -127,13 +140,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3bb0aec44d2b33d5a2a70f5de195a1a5f9360191/capsule_231x87.jpg",
       "japanese": "af51103b94bf5f8e602bb70eb206acbcd59ea06b/capsule_231x87_japanese.jpg",
       "schinese": "a0c138dd4990d045b4b9ecdd5618efb4791b241b/capsule_231x87_schinese.jpg",
       "tchinese": "bfc1a7887487d80ae624fc671a9e9a30b050bb21/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1794399707",
     "store_tags": {
       "0": "1084988",
@@ -174,5 +188,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "三國撞撞樂",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "SangokuBump.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5024381": {
+      "manifests": {
+        "public": {
+          "download": "447991968",
+          "gid": "9115762953434698167",
+          "size": "567076789"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26682552",
+        "timebuildupdated": "1794750231",
+        "timeupdated": "1794751713"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "lolomouse",
+    "publisher": "lolomouse"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SanguoGodotIsolatedDev",
+        "pattern": "character-pool.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "SanguoGodotIsolatedDev",
+        "pattern": "tutorial-progress.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "SanguoGodotIsolatedDev",
+        "pattern": "past-challenge-pool.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "SanguoGodotIsolatedDev/remake-checkpoints",
+        "pattern": "local-run.json",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "SanguoGodotIsolatedDev/remake-checkpoints",
+        "pattern": "local-run.json.previous",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "SanguoGodotIsolatedDev/ranked",
+        "pattern": "player_*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

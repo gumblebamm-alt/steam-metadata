@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793556022,
+  "_lastChecked": 1794768685,
   "_history": [
     {
       "buildId": "26340584",
@@ -41,12 +41,30 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26483032",
+      "branch": "public",
+      "timeUpdated": 1793965148,
+      "firstSeen": 1794768685,
+      "manifests": {
+        "3919401": {
+          "gid": "5882322981722382020",
+          "size": 3090354554,
+          "download": 2921596096
+        },
+        "3919402": {
+          "gid": "1186885788034559954",
+          "size": 3081343658,
+          "download": 2920152160
+        }
+      }
     }
   ],
-  "_change_number": 40479692,
+  "_change_number": 40976546,
   "_missing_token": false,
-  "_sha": "5d3ecb10a6a86d7822cea390b3c3e229708d1db1",
-  "_size": 4240,
+  "_sha": "cc3cfb512688e63938872f135e56dd325fd43d7c",
+  "_size": 5112,
   "appid": "3919400",
   "common": {
     "associations": {
@@ -68,8 +86,13 @@
       "category_65": "1",
       "category_66": "1",
       "category_68": "1",
+      "category_69": "1",
+      "category_70": "1",
+      "category_74": "1",
+      "category_75": "1",
       "category_76": "1",
-      "category_79": "1"
+      "category_79": "1",
+      "category_80": "1"
     },
     "clienticon": "58c94b503fcd5c531a224835e9a3921a2c35b1bc",
     "clienttga": "a0f291d33615abd2a5749fcd862c243add67164d",
@@ -148,17 +171,18 @@
       }
     },
     "name": "黄莓C HuangmeiC",
-    "osarch": "",
+    "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "25",
     "releasestate": "released",
-    "review_percentage": "88",
-    "review_score": "7",
+    "review_percentage": "84",
+    "review_score": "8",
     "small_capsule": {
       "english": "44253651b4862872042ae384e188e1945af66d3a/capsule_231x87.jpg"
     },
-    "steam_release_date": "1798704000",
+    "steam_release_date": "1793415012",
     "store_asset_mtime": "1792641120",
     "store_tags": {
       "0": "3799",
@@ -191,31 +215,62 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
     "installdir": "HuangmeiC",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "HuangmeiC.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "HuangmeiC"
       }
     }
   },
   "depots": {
     "3919401": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "2922610464",
-          "gid": "8990114342671161973",
-          "size": "3096342101"
+          "download": "2921596096",
+          "gid": "5882322981722382020",
+          "size": "3090354554"
+        }
+      }
+    },
+    "3919402": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2920152160",
+          "gid": "1186885788034559954",
+          "size": "3081343658"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26356994",
-        "timebuildupdated": "1793514289",
-        "timeupdated": "1793514339"
+        "buildid": "26483032",
+        "timebuildupdated": "1793964569",
+        "timeupdated": "1793965148"
       }
     },
-    "nocommonredists": "1"
+    "nocommonredists": "1",
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "悖论软件（ParadoxSoft）",
@@ -224,6 +279,20 @@
   "ufs": {
     "maxnumfiles": "1000",
     "quota": "255000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/HuangmeiC",
+            "replace": ".renpy/HuangmeiC"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "game/saves",
@@ -233,9 +302,6 @@
       "1": {
         "path": "RenPy/HuangmeiC",
         "pattern": "*",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataRoaming"
       }
     }

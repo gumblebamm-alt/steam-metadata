@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793599377,
-  "_history": [],
-  "_change_number": 40492469,
-  "_missing_token": true,
-  "_sha": "134b47dc9ff42f54500849ec66c605ff19bba403",
-  "_size": 3355,
+  "_lastChecked": 1794768700,
+  "_history": [
+    {
+      "buildId": "26366226",
+      "branch": "public",
+      "timeUpdated": 1793565967,
+      "firstSeen": 1794768700,
+      "manifests": {
+        "4995462": {
+          "gid": "1090666460567306462",
+          "size": 113030195,
+          "download": 43273232
+        },
+        "4995463": {
+          "gid": "4883475957551481685",
+          "size": 205822305,
+          "download": 67209120
+        }
+      }
+    }
+  ],
+  "_change_number": 40973567,
+  "_missing_token": false,
+  "_sha": "e2f1d5217dd2eef5605a41816db438cfba833d55",
+  "_size": 4952,
   "appid": "4995460",
   "common": {
     "aicontenttype": "1",
@@ -41,9 +60,9 @@
     },
     "clienticon": "1829c3610a1be1d35d62a6e2f2eb0297bf70919f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4995460",
     "genres": {
       "0": "4",
@@ -116,10 +135,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "27aa69aa6ea8afbb903ca156357b96eb91c56dbc/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794751860",
     "store_asset_mtime": "1793327526",
     "store_tags": {
       "0": "3959",
@@ -151,5 +171,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tiny Chef",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TinyChef.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "macos"
+        },
+        "executable": "TinyChef.app"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4995461": {},
+    "4995462": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "43273232",
+          "gid": "1090666460567306462",
+          "size": "113030195"
+        }
+      }
+    },
+    "4995463": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "67209120",
+          "gid": "4883475957551481685",
+          "size": "205822305"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26366226",
+        "timebuildupdated": "1793565918",
+        "timeupdated": "1793565967"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Brydon Creative Inc.",
+    "homepage": "https://tinychef.brydoncreative.com/",
+    "publisher": "Brydon Creative Inc."
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "TinyChef",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
