@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793821561,
-  "_history": [],
-  "_change_number": 40598621,
-  "_missing_token": true,
-  "_sha": "df6f0c03e362a6faa97973277ccfa2b1cc90ecdd",
-  "_size": 5184,
+  "_lastChecked": 1794866507,
+  "_history": [
+    {
+      "buildId": "26707977",
+      "branch": "public",
+      "timeUpdated": 1794849344,
+      "firstSeen": 1794866507,
+      "manifests": {
+        "4878901": {
+          "gid": "904487419790048891",
+          "size": 934415920,
+          "download": 808798592
+        },
+        "4878902": {
+          "gid": "7996752097490300245",
+          "size": 899419088,
+          "download": 800304864
+        },
+        "4878903": {
+          "gid": "9154918485639154471",
+          "size": 998496386,
+          "download": 827952448
+        }
+      }
+    }
+  ],
+  "_change_number": 41031042,
+  "_missing_token": false,
+  "_sha": "3b3d9add8fb58ece006607e20d86aaa64ba41136",
+  "_size": 7461,
   "appid": "4878900",
   "common": {
     "aicontenttype": "1",
@@ -35,6 +59,7 @@
     "clienticns": "a61527fd35818d8f4caa400e06714d030c310012",
     "clienticon": "64070e81abdb0d00932d978f941861c91b8f47c9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -43,7 +68,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4878900",
     "genres": {
       "0": "23",
@@ -140,11 +164,14 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "46",
+    "review_score": "5",
     "small_capsule": {
       "english": "3a9fe533d64cd29098b6a99f27435fcb56c16e26/capsule_231x87.jpg",
       "schinese": "4d95b544ee94e4a75867bd7319e1dd0bd5147e52/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1794819507",
     "store_asset_mtime": "1793810875",
     "store_tags": {
       "0": "10235",
@@ -216,5 +243,120 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Net Worthless",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "net_worthless.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "net_worthless.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "net_worthless.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4878901": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "808798592",
+          "gid": "904487419790048891",
+          "size": "934415920"
+        }
+      }
+    },
+    "4878902": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "800304864",
+          "gid": "7996752097490300245",
+          "size": "899419088"
+        }
+      }
+    },
+    "4878903": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "827952448",
+          "gid": "9154918485639154471",
+          "size": "998496386"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26707977",
+        "timebuildupdated": "1794847919",
+        "timeupdated": "1794849344"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "nullary games",
+    "homepage": "https://www.nullary.games/net-worthless",
+    "publisher": "nullary games"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "256000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "godot/app_userdata/Net Worthless/saves",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "godot/app_userdata/Net Worthless",
+        "pattern": "settings.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "godot/app_userdata/Net Worthless",
+        "pattern": "achievements.jsonachievements.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

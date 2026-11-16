@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794425749,
-  "_history": [],
-  "_change_number": 40831855,
-  "_missing_token": true,
-  "_sha": "0d7efaf71a58f89082cd4aca5dc97407c502e61b",
-  "_size": 3084,
+  "_lastChecked": 1794866478,
+  "_history": [
+    {
+      "buildId": "26322770",
+      "branch": "public",
+      "timeUpdated": 1793362410,
+      "firstSeen": 1794866478,
+      "manifests": {
+        "3447671": {
+          "gid": "1268190345071959827",
+          "size": 216385074,
+          "download": 84623424
+        }
+      }
+    }
+  ],
+  "_change_number": 40998576,
+  "_missing_token": false,
+  "_sha": "edbc934fb44a6da7db34143f1c987e11bbc5bd8a",
+  "_size": 4371,
   "appid": "3447670",
   "common": {
     "associations": {
@@ -31,8 +45,8 @@
     "clienticon": "aaccd82d66bdf9af71b2b9d4622a85fdc86c2164",
     "clienttga": "1eb6a9122d9cea187fc13a3b9b8968a07daf3994",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3447670",
     "genres": {
       "0": "23",
@@ -103,10 +117,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d6879f8c71cc18d5d7e5c7b3002aff1d65c07ab3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794822948",
     "store_asset_mtime": "1794399163",
     "store_tags": {
       "0": "9",
@@ -136,5 +151,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Block King Demands Red Squares",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Red-Square-King.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3447671": {
+      "manifests": {
+        "public": {
+          "download": "84623424",
+          "gid": "1268190345071959827",
+          "size": "216385074"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26322770",
+        "timebuildupdated": "1793362311",
+        "timeupdated": "1793362410"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Parrexion Games",
+    "publisher": "Parrexion Games"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "70000000",
+    "savefiles": {
+      "0": {
+        "path": "Parrexion Games/Red-Square-King/Saves",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Parrexion Games/Red-Square-King/Saves",
+        "pattern": "*.auto",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Parrexion Games/Red-Square-King/",
+        "pattern": "settings.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

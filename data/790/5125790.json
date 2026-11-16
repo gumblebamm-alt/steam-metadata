@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794513304,
-  "_history": [],
-  "_change_number": 40872943,
-  "_missing_token": true,
-  "_sha": "ec4870e2753f8b9531b3f4a827c153dc250f1e78",
-  "_size": 4945,
+  "_lastChecked": 1794866517,
+  "_history": [
+    {
+      "buildId": "26703660",
+      "branch": "public",
+      "timeUpdated": 1794836682,
+      "firstSeen": 1794866517,
+      "manifests": {
+        "5125791": {
+          "gid": "1182892609546116851",
+          "size": 2553577990,
+          "download": 1660205872
+        }
+      }
+    }
+  ],
+  "_change_number": 41011232,
+  "_missing_token": false,
+  "_sha": "8e9cd2a980a493bb4522e8fc6d62621fa7b0095b",
+  "_size": 6722,
   "appid": "5125790",
   "common": {
     "aicontenttype": "1",
@@ -34,9 +48,9 @@
     },
     "clienticon": "1a7e87c40b4cc55ee2263308f4f0c12908a7d500",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5125790",
     "genres": {
       "0": "4",
@@ -129,32 +143,34 @@
     "osarch": "64",
     "osextended": "",
     "oslist": "windows",
-    "primary_genre": "28",
-    "releasestate": "prerelease",
+    "primary_genre": "4",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d86a9e9bdd69867b12f867f47b3259582866d7e6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794844811",
     "store_asset_mtime": "1794488290",
     "store_tags": {
-      "0": "1239876",
-      "1": "1654",
+      "0": "1664",
+      "1": "3843",
       "10": "4191",
       "11": "4166",
-      "12": "6129",
+      "12": "1239876",
       "13": "4305",
       "14": "5350",
       "15": "552282",
-      "16": "492",
+      "16": "6129",
       "17": "4182",
-      "18": "7481",
-      "2": "1664",
-      "3": "1685",
-      "4": "97376",
-      "5": "3843",
-      "6": "3859",
-      "7": "597",
-      "8": "599",
-      "9": "3839"
+      "18": "492",
+      "19": "7481",
+      "2": "1654",
+      "3": "97376",
+      "4": "3839",
+      "5": "17389",
+      "6": "1685",
+      "7": "3859",
+      "8": "597",
+      "9": "599"
     },
     "supported_languages": {
       "arabic": {
@@ -240,5 +256,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Puzzles Are Better Together",
+    "launch": {
+      "0": {
+        "executable": "Puzzles Are Better Together.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input/action_manifest.vdf"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5125791": {
+      "manifests": {
+        "public": {
+          "download": "1660205872",
+          "gid": "1182892609546116851",
+          "size": "2553577990"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26703660",
+        "timebuildupdated": "1794836282",
+        "timeupdated": "1794836682"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Emir Suleiman",
+    "publisher": "Pikap Oyun"
+  },
+  "ufs": {
+    "maxnumfiles": "1022",
+    "quota": "512000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Puzzles Are Better Together",
+        "pattern": "puzzle_home.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Puzzles Are Better Together",
+        "pattern": "steam_achievement_progress.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Puzzles Are Better Together/puzzle_saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Puzzles Are Better Together/custom_puzzles",
+        "pattern": "*.webp",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

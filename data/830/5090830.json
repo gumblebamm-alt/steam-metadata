@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1794768702,
-  "_history": [],
-  "_change_number": 40978282,
-  "_missing_token": true,
-  "_sha": "3f13400bcb6a6efbcc3157dfbdfdd5bc04e09a4f",
-  "_size": 5078,
+  "_lastChecked": 1794866516,
+  "_history": [
+    {
+      "buildId": "26711455",
+      "branch": "internal",
+      "timeUpdated": 1794857598,
+      "firstSeen": 1794866516,
+      "manifests": {
+        "5090831": {
+          "gid": "6433518199584856115",
+          "size": 1173196904,
+          "download": 893334512
+        }
+      }
+    },
+    {
+      "buildId": "26711455",
+      "branch": "public",
+      "timeUpdated": 1794863009,
+      "firstSeen": 1794866516,
+      "manifests": {
+        "5090831": {
+          "gid": "6433518199584856115",
+          "size": 1173196904,
+          "download": 893334512
+        }
+      }
+    }
+  ],
+  "_change_number": 41034297,
+  "_missing_token": false,
+  "_sha": "220afe4787ff7dd51f6dcca46303122f0d6da80b",
+  "_size": 6441,
   "appid": "5090830",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +57,8 @@
     },
     "clienticon": "cc6cdb0c2f3613e8142dc9aa332a48ee358baaec",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5090830",
     "genres": {
       "0": "28",
@@ -136,11 +163,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "dd77b4c22273af1ced8fe12354c455d3965fc30a/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791481144",
+    "steam_release_date": "1794847281",
+    "store_asset_mtime": "1794840632",
     "store_tags": {
       "0": "599",
       "1": "9",
@@ -260,5 +288,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Game Dev Dynasty",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Game Dev Dynasty.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5090831": {
+      "manifests": {
+        "internal": {
+          "download": "893334512",
+          "gid": "6433518199584856115",
+          "size": "1173196904"
+        },
+        "public": {
+          "download": "893334512",
+          "gid": "6433518199584856115",
+          "size": "1173196904"
+        }
+      }
+    },
+    "branches": {
+      "internal": {
+        "buildid": "26711455",
+        "description": "internal dev branch",
+        "timebuildupdated": "1794857598",
+        "timeupdated": "1794857598"
+      },
+      "public": {
+        "buildid": "26711455",
+        "timebuildupdated": "1794857598",
+        "timeupdated": "1794863009"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Boot Phase Games",
+    "publisher": "Boot Phase Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "140",
+    "quota": "1822425088",
+    "savefiles": {
+      "0": {
+        "path": "Game Dev Dynasty/steam/{64BitSteamID}/full/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Game Dev Dynasty/steam/{64BitSteamID}/full/saves",
+        "pattern": "*.json.backup",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

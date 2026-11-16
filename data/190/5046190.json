@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794598883,
-  "_history": [],
-  "_change_number": 40913233,
-  "_missing_token": true,
-  "_sha": "39e60b9020779a4550d70b5aba56190b465cac1a",
-  "_size": 3666,
+  "_lastChecked": 1794866513,
+  "_history": [
+    {
+      "buildId": "26698090",
+      "branch": "public",
+      "timeUpdated": 1794819909,
+      "firstSeen": 1794866513,
+      "manifests": {
+        "5046191": {
+          "gid": "4583464064996088232",
+          "size": 237474739,
+          "download": 75073552
+        },
+        "5046192": {
+          "gid": "6381961129843684994",
+          "size": 204234243,
+          "download": 66799168
+        }
+      }
+    }
+  ],
+  "_change_number": 41013425,
+  "_missing_token": false,
+  "_sha": "0a492fb7ee805dc4b36f7823856fd255595cc55b",
+  "_size": 5130,
   "appid": "5046190",
   "common": {
     "associations": {
@@ -37,6 +56,7 @@
     },
     "clienticon": "b33fdea088b68e62ac9ab7448b9bd95c5b0b34db",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -47,7 +67,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5046190",
     "genres": {
       "0": "25"
@@ -117,11 +136,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "faf793e9eca6b90a3d1952f11587e385bc19e159/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794313453",
+    "steam_release_date": "1794848327",
+    "store_asset_mtime": "1794820828",
     "store_tags": {
       "0": "1721",
       "1": "15564",
@@ -173,5 +193,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "KALA",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "KALA.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "KALA.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5046191": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "75073552",
+          "gid": "4583464064996088232",
+          "size": "237474739"
+        }
+      }
+    },
+    "5046192": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "66799168",
+          "gid": "6381961129843684994",
+          "size": "204234243"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26698090",
+        "timebuildupdated": "1794819813",
+        "timeupdated": "1794819909"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Martin Games",
+    "publisher": "Martin Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "kala",
+            "replace": ".local/share/KALA"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "KALA",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794768690,
-  "_history": [],
-  "_change_number": 40971126,
-  "_missing_token": true,
-  "_sha": "b75754f2cc781aef65fe649baeb02226e8d2ecbc",
-  "_size": 3376,
+  "_lastChecked": 1794866494,
+  "_history": [
+    {
+      "buildId": "26675964",
+      "branch": "public",
+      "timeUpdated": 1794709229,
+      "firstSeen": 1794866494,
+      "manifests": {
+        "4398871": {
+          "gid": "8242493127417198727",
+          "size": 160859548,
+          "download": 81558160
+        },
+        "4398872": {
+          "gid": "8012839898287892953",
+          "size": 128094396,
+          "download": 73597728
+        }
+      }
+    }
+  ],
+  "_change_number": 41002616,
+  "_missing_token": false,
+  "_sha": "a72b7008bdf47f944aa2d34e4f6cbd20f7ad35fd",
+  "_size": 5065,
   "appid": "4398870",
   "common": {
     "associations": {
@@ -28,9 +47,9 @@
     },
     "clienticon": "c1d1e77ad5b72225aeb4e13f330b76946770a549",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4398870",
     "genres": {
       "0": "1",
@@ -109,10 +128,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6ad7322c0f21bd20cfe0d201d39c86069ae8120b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794830703",
     "store_asset_mtime": "1794708727",
     "store_tags": {
       "0": "42804",
@@ -153,5 +173,100 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ETCH",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "etch.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "etch.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4398871": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "81558160",
+          "gid": "8242493127417198727",
+          "size": "160859548"
+        }
+      }
+    },
+    "4398872": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "73597728",
+          "gid": "8012839898287892953",
+          "size": "128094396"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26675964",
+        "timebuildupdated": "1794709203",
+        "timeupdated": "1794709229"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Conductor Games",
+    "homepage": "https://etchgame.com",
+    "publisher": "Conductor Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ETCH",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791549456,
-  "_history": [],
-  "_change_number": 39643232,
-  "_missing_token": true,
-  "_sha": "68aa26bc9a6f5ec264a939cc85cfe8e801779ce2",
-  "_size": 3932,
+  "_lastChecked": 1794866517,
+  "_history": [
+    {
+      "buildId": "25541327",
+      "branch": "public",
+      "timeUpdated": 1790387512,
+      "firstSeen": 1794866517,
+      "manifests": {
+        "5135201": {
+          "gid": "4499853424818649673",
+          "size": 132225628,
+          "download": 43884016
+        }
+      }
+    }
+  ],
+  "_change_number": 41013398,
+  "_missing_token": false,
+  "_sha": "e1d6a4e428eb9d280fa3f73f4649470f3a4ce272",
+  "_size": 5475,
   "appid": "5135200",
   "common": {
     "aicontenttype": "1",
@@ -39,9 +53,9 @@
     },
     "clienticon": "65da8e7272734a8df0937fb5fd7c5b1716d4145e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5135200",
     "genres": {
       "0": "4",
@@ -131,10 +145,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3f8f9eaef9c68cf55b33a76b626a2f2bc9a2b45a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794848295",
     "store_asset_mtime": "1790144312",
     "store_tags": {
       "0": "3968",
@@ -190,5 +205,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MeowDefenseWar",
+    "launch": {
+      "0": {
+        "executable": "MeowDefenseWar.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam/input/steam_input_config.vdf"
+  },
+  "depots": {
+    "5135201": {
+      "manifests": {
+        "public": {
+          "download": "43884016",
+          "gid": "4499853424818649673",
+          "size": "132225628"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,latam,russian,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "25541327",
+        "timebuildupdated": "1790387215",
+        "timeupdated": "1790387512"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Roc Games",
+    "publisher": "Roc Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "MeowDefenseWar",
+            "replace": "MeowDefenseWar"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "MeowDefenseWar",
+            "replace": "MeowDefenseWar"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "MeowDefenseWar",
+        "pattern": "save.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794810399,
-  "_history": [],
-  "_change_number": 40993026,
-  "_missing_token": true,
-  "_sha": "fe14ee74be775c71435b2664f3b6440ab1f4aafa",
-  "_size": 3408,
+  "_lastChecked": 1794866500,
+  "_history": [
+    {
+      "buildId": "26705054",
+      "branch": "public",
+      "timeUpdated": 1794840577,
+      "firstSeen": 1794866500,
+      "manifests": {
+        "4607091": {
+          "gid": "362806201912592963",
+          "size": 265767704,
+          "download": 191842112
+        },
+        "4607093": {
+          "gid": "300224341156572793",
+          "size": 348543579,
+          "download": 213686128
+        },
+        "4607094": {
+          "gid": "621087291481262525",
+          "size": 238610616,
+          "download": 185089920
+        }
+      }
+    }
+  ],
+  "_change_number": 41008817,
+  "_missing_token": false,
+  "_sha": "f651a89920655b0848a497f9b14a156b396deb68",
+  "_size": 6002,
   "appid": "4607090",
   "common": {
     "associations": {
@@ -32,8 +56,8 @@
     },
     "clienticon": "ae66d70cbd8fa1f3b4e2c645811151aceffec704",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4607090",
     "genres": {
       "0": "4",
@@ -111,10 +135,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5f44f07b68e06abe34bb64f5d0ea7912cec3a452/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794841254",
     "store_asset_mtime": "1782180032",
     "store_tags": {
       "0": "16689",
@@ -154,5 +179,129 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Impossible Wonders",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Impossible Wonders Windows Build",
+        "description_loc": {
+          "english": "Impossible Wonders Windows Build"
+        },
+        "executable": "impossible_wonders.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Impossible Wonders Mac Build",
+        "description_loc": {
+          "english": "Impossible Wonders Mac Build"
+        },
+        "executable": "impossible_wonders.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Impossible Wonders Linux Build",
+        "description_loc": {
+          "english": "Impossible Wonders Linux Build"
+        },
+        "executable": "impossible_wonders.x86_64",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "4607091": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "191842112",
+          "gid": "362806201912592963",
+          "size": "265767704"
+        }
+      }
+    },
+    "4607093": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "213686128",
+          "gid": "300224341156572793",
+          "size": "348543579"
+        }
+      }
+    },
+    "4607094": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "185089920",
+          "gid": "621087291481262525",
+          "size": "238610616"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26705054",
+        "timebuildupdated": "1794840345",
+        "timeupdated": "1794840577"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Innocent Imp",
+    "homepage": "https://innocentimp.com/",
+    "publisher": "Innocent Imp"
+  },
+  "ufs": {
+    "maxnumfiles": "25",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "InnocentImp/impossible_wonders/steam_{64BitSteamID}",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "InnocentImp/impossible_wonders/steam_{64BitSteamID}_beta",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794425772,
-  "_history": [],
-  "_change_number": 40626182,
-  "_missing_token": true,
-  "_sha": "dd9d458c77f00b57c3b60108cffd7738e59fdb30",
-  "_size": 3553,
+  "_lastChecked": 1794866504,
+  "_history": [
+    {
+      "buildId": "26271293",
+      "branch": "public",
+      "timeUpdated": 1793193474,
+      "firstSeen": 1794866504,
+      "manifests": {
+        "4779991": {
+          "gid": "9135038584637417220",
+          "size": 417130168,
+          "download": 155946016
+        },
+        "4779992": {
+          "gid": "5060263198441097126",
+          "size": 23235224,
+          "download": 16966688
+        },
+        "4779993": {
+          "gid": "4928478434159429356",
+          "size": 25512170,
+          "download": 17613792
+        }
+      }
+    }
+  ],
+  "_change_number": 41012235,
+  "_missing_token": false,
+  "_sha": "3a82e88fdb007052e3099fcaba612b98683ed145",
+  "_size": 5025,
   "appid": "4779990",
   "common": {
     "associations": {
@@ -33,9 +57,9 @@
     },
     "clienticon": "4e460451b8fbf88da8fb8aa8e79e869b29fe89e4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4779990",
     "genres": {
       "0": "25",
@@ -108,10 +132,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6476b9f76f8f0d97972f41e5245ba7e93a0726ad/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794846538",
     "store_asset_mtime": "1793877382",
     "store_tags": {
       "0": "122",
@@ -166,5 +191,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "The Greedy Knight",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "the greedy knight.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "the greedy knight.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "launch.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4779991": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "155946016",
+          "gid": "9135038584637417220",
+          "size": "417130168"
+        }
+      }
+    },
+    "4779992": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "16966688",
+          "gid": "5060263198441097126",
+          "size": "23235224"
+        }
+      }
+    },
+    "4779993": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "17613792",
+          "gid": "4928478434159429356",
+          "size": "25512170"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26271293",
+        "timebuildupdated": "1793193360",
+        "timeupdated": "1793193474"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "MoonCrust Games",
+    "publisher": "MoonCrust Games"
+  }
 }

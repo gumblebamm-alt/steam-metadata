@@ -1,12 +1,37 @@
 {
-  "_lastChecked": 1791506724,
-  "_history": [],
-  "_change_number": 39638986,
-  "_missing_token": true,
-  "_sha": "89acf8a3cb15d51e23cf8f230b3aaa13aba1f3e0",
-  "_size": 3266,
+  "_lastChecked": 1794866507,
+  "_history": [
+    {
+      "buildId": "25815464",
+      "branch": "public",
+      "timeUpdated": 1791504502,
+      "firstSeen": 1794866507,
+      "manifests": {
+        "4866171": {
+          "gid": "2202951274063114788",
+          "size": 9198015108,
+          "download": 5279524416
+        },
+        "4866172": {
+          "gid": "4578472861127324423",
+          "size": 9281381237,
+          "download": 5302767312
+        },
+        "4866173": {
+          "gid": "6973371897572189138",
+          "size": 9165097348,
+          "download": 5271544848
+        }
+      }
+    }
+  ],
+  "_change_number": 41018899,
+  "_missing_token": false,
+  "_sha": "af03b01804af86202be1542530c34a23e46bcfa1",
+  "_size": 5616,
   "appid": "4866170",
   "common": {
+    "aicontenttype": "1",
     "associations": {
       "0": {
         "name": "Double Pitch Productions",
@@ -36,9 +61,9 @@
     },
     "clienticon": "4b28976346cfcdb658ec2dedbb0eb94d89c41aab",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4866170",
     "genres": {
       "0": "4",
@@ -111,10 +136,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "324fd3f196812bcf07fd5a0a57ddc223c5423167/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794843812",
     "store_asset_mtime": "1785246890",
     "store_tags": {
       "0": "7178",
@@ -143,5 +169,121 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Disaster Scenario",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Disaster Scenario.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Disaster Scenario.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "disaster_scenario.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4866171": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "5279524416",
+          "gid": "2202951274063114788",
+          "size": "9198015108"
+        }
+      }
+    },
+    "4866172": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "5302767312",
+          "gid": "4578472861127324423",
+          "size": "9281381237"
+        }
+      }
+    },
+    "4866173": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "5271544848",
+          "gid": "6973371897572189138",
+          "size": "9165097348"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25815464",
+        "timebuildupdated": "1791497504",
+        "timeupdated": "1791504502"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Double Pitch Productions",
+    "homepage": "https://disaster-scenario.com",
+    "publisher": "Double Pitch Productions"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Disaster Scenario",
+            "replace": "godot/app_userdata/Disaster Scenario"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Disaster Scenario",
+        "pattern": "profile.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

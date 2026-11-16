@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793040139,
-  "_history": [],
-  "_change_number": 40251462,
-  "_missing_token": true,
-  "_sha": "8b749db30de3c11101e119430803352dfbf04260",
-  "_size": 8958,
+  "_lastChecked": 1794866480,
+  "_history": [
+    {
+      "buildId": "26713154",
+      "branch": "public",
+      "timeUpdated": 1794863099,
+      "firstSeen": 1794866480,
+      "manifests": {
+        "3634321": {
+          "gid": "1920028742686706174",
+          "size": 2259187852,
+          "download": 764226528
+        }
+      }
+    }
+  ],
+  "_change_number": 41034588,
+  "_missing_token": false,
+  "_sha": "dbc27e34eed4c6a5692e4a5cce035fa09e3aa9a9",
+  "_size": 10383,
   "appid": "3634320",
   "common": {
     "associations": {
@@ -31,8 +45,8 @@
     "clienticon": "49e4f58d187d6bd0cc5bdd7417f734128626e030",
     "clienttga": "8bde94f1a854b246397c8b4596b73d6f4726b894",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3634320",
     "genres": {
       "0": "23",
@@ -153,7 +167,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "84",
+    "review_score": "7",
     "small_capsule": {
       "english": "26492e4c6fdce490c650de495067172cef3a8c2b/capsule_231x87.jpg",
       "french": "26492e4c6fdce490c650de495067172cef3a8c2b/capsule_231x87_french.jpg",
@@ -162,7 +178,8 @@
       "schinese": "929eca5e850e505fefc8c9d30ff26cf73921b114/capsule_231x87_schinese.jpg",
       "tchinese": "929eca5e850e505fefc8c9d30ff26cf73921b114/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1791595770",
+    "steam_release_date": "1794833909",
+    "store_asset_mtime": "1794834293",
     "store_tags": {
       "0": "1084988",
       "1": "9",
@@ -274,5 +291,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Nebularena",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Nebularena.exe"
+      }
+    }
+  },
+  "depots": {
+    "3634321": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "764226528",
+          "gid": "1920028742686706174",
+          "size": "2259187852"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,english,french,german,italian,japanese,koreana,latam,polish,portuguese,romanian,russian,schinese,spanish,tchinese,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "26713154",
+        "timebuildupdated": "1794863001",
+        "timeupdated": "1794863099"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "TwoKats SNC",
+    "homepage": "https://twokats.ovh:8445/twokatsroot/nebularena",
+    "publisher": "GrabTheGames"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "5000000",
+    "savefiles": {
+      "0": {
+        "path": "Twokats SNC\\nebularena\\save",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Twokats SNC/nebularena/save",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxXdgConfigHome"
+      }
+    }
+  }
 }

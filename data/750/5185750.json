@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794679244,
-  "_history": [],
-  "_change_number": 40953211,
-  "_missing_token": true,
-  "_sha": "1fd175d4f4798936c4831c61163adf4e7c554269",
-  "_size": 3203,
+  "_lastChecked": 1794866519,
+  "_history": [
+    {
+      "buildId": "26712489",
+      "branch": "public",
+      "timeUpdated": 1794861136,
+      "firstSeen": 1794866519,
+      "manifests": {
+        "5185751": {
+          "gid": "3332301684876929812",
+          "size": 1072076790,
+          "download": 287579312
+        },
+        "5185752": {
+          "gid": "23629663073946549",
+          "size": 1240502794,
+          "download": 352926640
+        }
+      }
+    }
+  ],
+  "_change_number": 41031048,
+  "_missing_token": false,
+  "_sha": "a51ff55a29c9408a95dcc1e3da7ae1bf8a72d550",
+  "_size": 6723,
   "appid": "5185750",
   "common": {
     "associations": {
@@ -25,8 +44,8 @@
     },
     "clienticon": "582b5f2a6514226618d24c0f435a798ad4028a51",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5185750",
     "genres": {
       "0": "23",
@@ -98,10 +117,86 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "57",
+    "review_score": "5",
     "small_capsule": {
       "english": "a4ce181923c2f60a0e48c2e1384084ad446281ef/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-11.0-3RC",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        }
+      },
+      "test_timestamp": "1794249165",
+      "tested_build_id": "26545199",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1794825481",
     "store_asset_mtime": "1794652023",
     "store_tags": {
       "0": "10383",
@@ -145,5 +240,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Trafficity",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Trafficity.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Trafficity.app"
+      }
+    }
+  },
+  "depots": {
+    "5185751": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "287579312",
+          "gid": "3332301684876929812",
+          "size": "1072076790"
+        }
+      }
+    },
+    "5185752": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "352926640",
+          "gid": "23629663073946549",
+          "size": "1240502794"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26712489",
+        "timebuildupdated": "1794860951",
+        "timeupdated": "1794861136"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Onramp Games",
+    "homepage": "https://onramp.games",
+    "publisher": "Onramp Games"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Trafficity/saves",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

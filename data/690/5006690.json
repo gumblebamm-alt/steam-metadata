@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794513299,
-  "_history": [],
-  "_change_number": 40879049,
-  "_missing_token": true,
-  "_sha": "e70705dfe2fe8bcd8e903f1f85245d33fbf3d81f",
-  "_size": 3549,
+  "_lastChecked": 1794866512,
+  "_history": [
+    {
+      "buildId": "26620525",
+      "branch": "public",
+      "timeUpdated": 1794497172,
+      "firstSeen": 1794866512,
+      "manifests": {
+        "5006691": {
+          "gid": "3283777425135156189",
+          "size": 403994028,
+          "download": 287184528
+        },
+        "5006692": {
+          "gid": "1834216032009935117",
+          "size": 436298791,
+          "download": 292507696
+        }
+      }
+    }
+  ],
+  "_change_number": 41009401,
+  "_missing_token": false,
+  "_sha": "31e63391eb52ebb16f58d4e6facd8dda44fc02b2",
+  "_size": 4922,
   "appid": "5006690",
   "common": {
     "aicontenttype": "1",
@@ -29,8 +48,8 @@
     "clienticns": "2f83fc9250de90b731455b3831a737ed11d7a682",
     "clienticon": "48c4ed71a51af32e34fd1395b3494508795ad4d9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5006690",
     "genres": {
       "0": "4",
@@ -103,10 +122,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "15ee0a02583e36d792270378ed21a2c3c0f42295/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794842003",
     "store_asset_mtime": "1793117207",
     "store_tags": {
       "0": "597",
@@ -167,5 +187,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lucky Crafter",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Lucky Crafter.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Lucky Crafter.app"
+      }
+    }
+  },
+  "depots": {
+    "5006691": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "287184528",
+          "gid": "3283777425135156189",
+          "size": "403994028"
+        }
+      }
+    },
+    "5006692": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "292507696",
+          "gid": "1834216032009935117",
+          "size": "436298791"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26620525",
+        "timebuildupdated": "1794495940",
+        "timeupdated": "1794497172"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Vovel Games",
+    "homepage": "https://vovelgames.com",
+    "publisher": "Vovel Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Vovel Games/Lucky Crafter",
+        "pattern": "Save*.sav",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

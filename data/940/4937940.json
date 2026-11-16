@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794598880,
-  "_history": [],
-  "_change_number": 40903841,
-  "_missing_token": true,
-  "_sha": "b1f02d73bad18c550f59c4c1614b297e43e441da",
-  "_size": 3949,
+  "_lastChecked": 1794866509,
+  "_history": [
+    {
+      "buildId": "26707855",
+      "branch": "public",
+      "timeUpdated": 1794847639,
+      "firstSeen": 1794866509,
+      "manifests": {
+        "4937941": {
+          "gid": "4792040693168199654",
+          "size": 150431240,
+          "download": 63829408
+        },
+        "4937942": {
+          "gid": "3707084552441934690",
+          "size": 107253844,
+          "download": 51014576
+        },
+        "4937943": {
+          "gid": "4947212708884249953",
+          "size": 204418417,
+          "download": 77388688
+        }
+      }
+    }
+  ],
+  "_change_number": 41013561,
+  "_missing_token": false,
+  "_sha": "9b7d27a17e3541a6b7ecb0959b219c147ce3a888",
+  "_size": 6024,
   "appid": "4937940",
   "common": {
     "associations": {
@@ -40,8 +64,8 @@
     },
     "clienticon": "bd7a3efffe245d0c3ac906a623090cb795d380cb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4937940",
     "genres": {
       "0": "4",
@@ -114,10 +138,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "88df2c2564a3eacf79fd3781bc3371ad2673abf8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794848467",
     "store_asset_mtime": "1794554636",
     "store_tags": {
       "0": "9",
@@ -187,5 +212,115 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "FlipAndConquer",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "FlipAndConquer.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "FlipAndConquer.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "FLIP & CONQUER.app"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4937941": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "63829408",
+          "gid": "4792040693168199654",
+          "size": "150431240"
+        }
+      }
+    },
+    "4937942": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "51014576",
+          "gid": "3707084552441934690",
+          "size": "107253844"
+        }
+      }
+    },
+    "4937943": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "77388688",
+          "gid": "4947212708884249953",
+          "size": "204418417"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,polish,russian,schinese,spanish,tchinese,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26707855",
+        "timebuildupdated": "1794847637",
+        "timeupdated": "1794847639"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "workshopdepot": "4937940"
+  },
+  "extended": {
+    "developer": "MMY Game Studio",
+    "publisher": "MMY Game Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "FlipAndConquer",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "FlipAndConquer/maps",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

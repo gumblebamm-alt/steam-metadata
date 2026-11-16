@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794339874,
-  "_history": [],
-  "_change_number": 40798396,
-  "_missing_token": true,
-  "_sha": "1ba21aec5a83d5f9f87b30b5d3851a9ae0c3e10b",
-  "_size": 7881,
+  "_lastChecked": 1794866481,
+  "_history": [
+    {
+      "buildId": "26703028",
+      "branch": "public",
+      "timeUpdated": 1794834765,
+      "firstSeen": 1794866481,
+      "manifests": {
+        "3669161": {
+          "gid": "7979987912701169544",
+          "size": 134814001,
+          "download": 58069248
+        }
+      }
+    }
+  ],
+  "_change_number": 41004869,
+  "_missing_token": false,
+  "_sha": "7d109624c1acd198007099066e79cecaffc12015",
+  "_size": 8844,
   "appid": "3669160",
   "common": {
     "aicontenttype": "1",
@@ -29,9 +43,9 @@
     },
     "clienticon": "1795f3711820609ede0ec8c2ef8c368fccbd7842",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3669160",
     "genres": {
       "0": "25",
@@ -110,7 +124,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "31726e4bd084c86d185483e7766deec63e335f4e/capsule_231x87.jpg"
     },
@@ -444,5 +458,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tool Land",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Tool Land.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3669161": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "58069248",
+          "gid": "7979987912701169544",
+          "size": "134814001"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26703028",
+        "timebuildupdated": "1794834703",
+        "timeupdated": "1794834765"
+      }
+    }
+  },
+  "extended": {
+    "developer": " bjsjsk",
+    "publisher": " bjsjsk"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Bjsjsk/Tool Land",
+        "pattern": "savegame_formal_v1.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

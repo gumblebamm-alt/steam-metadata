@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793773143,
-  "_history": [],
-  "_change_number": 40568169,
-  "_missing_token": true,
-  "_sha": "04593af29ecc654fa38e9b247a24a92063bd8913",
-  "_size": 5169,
+  "_lastChecked": 1794866496,
+  "_history": [
+    {
+      "buildId": "26707481",
+      "branch": "public",
+      "timeUpdated": 1794846966,
+      "firstSeen": 1794866496,
+      "manifests": {
+        "4451042": {
+          "gid": "2566162406587076743",
+          "size": 2397896969,
+          "download": 1249167424
+        },
+        "4451043": {
+          "gid": "5933674522591213395",
+          "size": 2442006389,
+          "download": 1270942416
+        }
+      }
+    }
+  ],
+  "_change_number": 41012476,
+  "_missing_token": false,
+  "_sha": "f1134006ed69a5d6b1190c356a4de45594c41b84",
+  "_size": 6330,
   "appid": "4451040",
   "common": {
     "associations": {
@@ -20,20 +39,26 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
       "category_62": "1",
       "category_68": "1",
       "category_69": "1"
     },
     "clienticon": "827d317cc5985a96af80c339b91e7cd8fe54e6bc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
     "content_descriptors_including_dlc": {
       "0": "5"
     },
+    "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4451040",
     "genres": {
       "0": "4",
@@ -100,10 +125,10 @@
       },
       "library_header": {
         "image": {
-          "english": "6224a6e9ba4bd528e94aad2d8263e5bcc7905504/library_header.jpg"
+          "english": "1ba0f8d9e9162809718231a6250613d987ee27ec/library_header.jpg"
         },
         "image2x": {
-          "english": "6224a6e9ba4bd528e94aad2d8263e5bcc7905504/library_header_2x.jpg"
+          "english": "1ba0f8d9e9162809718231a6250613d987ee27ec/library_header_2x.jpg"
         }
       },
       "library_hero": {
@@ -134,15 +159,17 @@
       }
     },
     "name": "Corridor 13",
-    "osarch": "",
+    "osarch": "64",
+    "oscpu": "",
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0fe178d4d9ea7d8457bb06b4f08f37ea9d9ff87f/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792805291",
+    "steam_release_date": "1794822436",
+    "store_asset_mtime": "1794822128",
     "store_tags": {
       "0": "1721",
       "1": "1667",
@@ -260,5 +287,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Corridor 13",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "corridor13.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "corridor13.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4451042": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1249167424",
+          "gid": "2566162406587076743",
+          "size": "2397896969"
+        }
+      }
+    },
+    "4451043": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1270942416",
+          "gid": "5933674522591213395",
+          "size": "2442006389"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26707481",
+        "timebuildupdated": "1794846768",
+        "timeupdated": "1794846966"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "kanuddel",
+    "homepage": "https://www.corridor13.net",
+    "publisher": "kanuddel"
+  }
 }

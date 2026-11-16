@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794810402,
-  "_history": [],
-  "_change_number": 40988954,
-  "_missing_token": true,
-  "_sha": "41629c4da2edeb731b26e6d604ece71da6d36dee",
-  "_size": 4137,
+  "_lastChecked": 1794866507,
+  "_history": [
+    {
+      "buildId": "26699233",
+      "branch": "public",
+      "timeUpdated": 1794823593,
+      "firstSeen": 1794866507,
+      "manifests": {
+        "4875681": {
+          "gid": "1543993073533279741",
+          "size": 583428512,
+          "download": 479964912
+        }
+      }
+    }
+  ],
+  "_change_number": 41014243,
+  "_missing_token": false,
+  "_sha": "5d647e7dd14516549cfa86888bd5e3620c1a5903",
+  "_size": 5119,
   "appid": "4875680",
   "common": {
     "aicontenttype": "1",
@@ -39,6 +53,7 @@
     },
     "clienticon": "3d99cd097d8070039586fc91dd45b8b0a7685b26",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -48,7 +63,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4875680",
     "genres": {
       "0": "23",
@@ -123,11 +137,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a266cb1ef7a06ddbd0727d0295b8be0632a2c574/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794776818",
+    "steam_release_date": "1794849495",
+    "store_asset_mtime": "1794848313",
     "store_tags": {
       "0": "791774",
       "1": "9",
@@ -194,5 +209,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sealbound Cthulhu Rising",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Sealbound.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4875681": {
+      "manifests": {
+        "public": {
+          "download": "479964912",
+          "gid": "1543993073533279741",
+          "size": "583428512"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26699233",
+        "timebuildupdated": "1794823526",
+        "timeupdated": "1794823593"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Sealboundgame",
+    "homepage": "https://www.sealboundgame.com/",
+    "publisher": "Sealboundgame"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Sealbound",
+        "pattern": "sealbound_player_slot_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

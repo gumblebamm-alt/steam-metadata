@@ -1,10 +1,67 @@
 {
-  "_lastChecked": 1793908658,
-  "_history": [],
-  "_change_number": 40628064,
-  "_missing_token": true,
-  "_sha": "a389232f3e70c3351ef52b4abe985fda0707122f",
-  "_size": 3345,
+  "_lastChecked": 1794866511,
+  "_history": [
+    {
+      "buildId": "26710375",
+      "branch": "public",
+      "timeUpdated": 1794854335,
+      "firstSeen": 1794866511,
+      "manifests": {
+        "4986512": {
+          "gid": "7347987307339204566",
+          "size": 1622659499,
+          "download": 403974384
+        },
+        "4986513": {
+          "gid": "2020001817896797485",
+          "size": 1723357820,
+          "download": 419940352
+        },
+        "5573311": {
+          "gid": "5350407371371571104",
+          "size": 1182418597,
+          "download": 776960528
+        },
+        "5573312": {
+          "gid": "6231623686255537101",
+          "size": 1072768638,
+          "download": 740537952
+        }
+      }
+    },
+    {
+      "buildId": "26707243",
+      "branch": "supporter_pack",
+      "timeUpdated": 1794846104,
+      "firstSeen": 1794866511,
+      "manifests": {
+        "4986512": {
+          "gid": "4938686011092035090",
+          "size": 1622656555,
+          "download": 404048112
+        },
+        "4986513": {
+          "gid": "867480789453552936",
+          "size": 1723353036,
+          "download": 419865488
+        },
+        "5573311": {
+          "gid": "5350407371371571104",
+          "size": 1182418597,
+          "download": 776960528
+        },
+        "5573312": {
+          "gid": "6231623686255537101",
+          "size": 1072768638,
+          "download": 740537952
+        }
+      }
+    }
+  ],
+  "_change_number": 41017358,
+  "_missing_token": false,
+  "_sha": "9930f99c36bc622402cab9be5c347ce35e5f96ed",
+  "_size": 6345,
   "appid": "4986510",
   "common": {
     "aicontenttype": "1",
@@ -33,7 +90,6 @@
     "clienticon": "30e7ea0b26440f5dcd0c4deaf683fa37506e8822",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4986510",
     "genres": {
       "0": "1",
@@ -108,11 +164,12 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "18738eff86e258587046ce75f6647927f219d3ba/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791706342",
+    "steam_release_date": "1798704000",
+    "store_asset_mtime": "1794840294",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -149,5 +206,154 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Humans Bots and Zombies",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Main game",
+        "description_loc": {
+          "english": "Main game"
+        },
+        "executable": "Humans, Bots And Zombies.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Main game",
+        "description_loc": {
+          "english": "Main game"
+        },
+        "executable": "HBZMac.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "windows",
+          "ownsdlc": "5573310"
+        },
+        "description": "Supporter Pack",
+        "description_loc": {
+          "english": "Supporter Pack"
+        },
+        "executable": "SupporterPack/HBZJournal.exe",
+        "type": "option1"
+      },
+      "3": {
+        "config": {
+          "oslist": "macos",
+          "ownsdlc": "5573310"
+        },
+        "description": "Supporter Pack",
+        "description_loc": {
+          "english": "Supporter Pack"
+        },
+        "executable": "SupporterPack/HBZJournal.app",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4986512": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "403974384",
+          "gid": "7347987307339204566",
+          "size": "1622659499"
+        },
+        "supporter_pack": {
+          "download": "404048112",
+          "gid": "4938686011092035090",
+          "size": "1622656555"
+        }
+      }
+    },
+    "4986513": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "419940352",
+          "gid": "2020001817896797485",
+          "size": "1723357820"
+        },
+        "supporter_pack": {
+          "download": "419865488",
+          "gid": "867480789453552936",
+          "size": "1723353036"
+        }
+      }
+    },
+    "5573311": {
+      "config": {
+        "oslist": "windows"
+      },
+      "dlcappid": "5573310",
+      "manifests": {
+        "public": {
+          "download": "776960528",
+          "gid": "5350407371371571104",
+          "size": "1182418597"
+        },
+        "supporter_pack": {
+          "download": "776960528",
+          "gid": "5350407371371571104",
+          "size": "1182418597"
+        }
+      }
+    },
+    "5573312": {
+      "config": {
+        "oslist": "macos"
+      },
+      "dlcappid": "5573310",
+      "manifests": {
+        "public": {
+          "download": "740537952",
+          "gid": "6231623686255537101",
+          "size": "1072768638"
+        },
+        "supporter_pack": {
+          "download": "740537952",
+          "gid": "6231623686255537101",
+          "size": "1072768638"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "26710375",
+        "timebuildupdated": "1794854335",
+        "timeupdated": "1794854335"
+      },
+      "supporter_pack": {
+        "buildid": "26707243",
+        "description": "Supporter pack DLC",
+        "timebuildupdated": "1794846104",
+        "timeupdated": "1794846104"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hbz-team",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5573310",
+    "publisher": "Hbz-team"
+  }
 }

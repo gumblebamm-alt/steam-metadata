@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793211915,
-  "_history": [],
-  "_change_number": 40343909,
-  "_missing_token": true,
-  "_sha": "5c837f32a5e2d6bb4ca23316737b9e400c456af9",
-  "_size": 3749,
+  "_lastChecked": 1794866476,
+  "_history": [
+    {
+      "buildId": "26705754",
+      "branch": "public",
+      "timeUpdated": 1794842122,
+      "firstSeen": 1794866476,
+      "manifests": {
+        "3282822": {
+          "gid": "2399295338083935286",
+          "size": 119450512,
+          "download": 48802336
+        },
+        "3282823": {
+          "gid": "7656997347367123301",
+          "size": 92817704,
+          "download": 42169920
+        }
+      }
+    }
+  ],
+  "_change_number": 41011339,
+  "_missing_token": false,
+  "_sha": "db50917eb6454a1fbb5eb0c2df35cf04b17b7c13",
+  "_size": 5339,
   "appid": "3282820",
   "common": {
     "associations": {
@@ -30,8 +49,8 @@
     "clienticon": "29fd9963dc0b448430f57f7c0044df9a3a6ed4bb",
     "clienttga": "98e248b6ce71f9dd0772d1b0f825390c69c80ccd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3282820",
     "genres": {
       "0": "1",
@@ -116,10 +135,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b1b0da6b3b1ec59c749a92f8450f1b2b064210c3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1792478634",
     "store_tags": {
       "0": "42804",
@@ -172,5 +192,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DungeonSweeper",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DungeonSweeper.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "dungeon_sweeper.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3282822": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "48802336",
+          "gid": "2399295338083935286",
+          "size": "119450512"
+        }
+      }
+    },
+    "3282823": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "42169920",
+          "gid": "7656997347367123301",
+          "size": "92817704"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26705754",
+        "timebuildupdated": "1794842085",
+        "timeupdated": "1794842122"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "lpares12",
+    "publisher": "lpares12"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": ".local/share/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Dungeon Sweeper",
+        "pattern": "state.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Dungeon Sweeper",
+        "pattern": "run.res",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

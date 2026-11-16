@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794637273,
-  "_history": [],
-  "_change_number": 40932831,
-  "_missing_token": true,
-  "_sha": "cb754c23dba5810a3119d484c51c2d810bcf3002",
-  "_size": 3514,
+  "_lastChecked": 1794866513,
+  "_history": [
+    {
+      "buildId": "26705269",
+      "branch": "public",
+      "timeUpdated": 1794840922,
+      "firstSeen": 1794866513,
+      "manifests": {
+        "5037201": {
+          "gid": "4103335442302313625",
+          "size": 256561728,
+          "download": 198004416
+        }
+      }
+    }
+  ],
+  "_change_number": 41024687,
+  "_missing_token": false,
+  "_sha": "c4e572a958444e7d2c5075ab92796a253c9bff45",
+  "_size": 5999,
   "appid": "5037200",
   "common": {
     "associations": {
@@ -19,6 +33,7 @@
     },
     "category": {
       "category_1": "1",
+      "category_18": "1",
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
@@ -31,6 +46,9 @@
       "category_47": "1",
       "category_48": "1",
       "category_49": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_59": "1",
       "category_62": "1",
       "category_67": "1",
       "category_68": "1",
@@ -42,6 +60,8 @@
     },
     "clienticon": "18218002bc1d8b168f6b345ee98bd18a64a4eab5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "partial",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -51,7 +71,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "5037200",
     "genres": {
       "0": "1",
@@ -125,10 +144,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "98",
+    "review_score": "8",
     "small_capsule": {
       "english": "9b8e9e36b07f2aa8de2b1199fcbcf0bcb941e612/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794847579",
     "store_asset_mtime": "1793633614",
     "store_tags": {
       "0": "701",
@@ -143,13 +165,13 @@
       "17": "1697",
       "18": "7178",
       "19": "4136",
-      "2": "847164",
-      "3": "3859",
+      "2": "3859",
+      "3": "847164",
       "4": "1773",
       "5": "597",
       "6": "1775",
-      "7": "4252",
-      "8": "4726",
+      "7": "4726",
+      "8": "4252",
       "9": "4191"
     },
     "supported_languages": {
@@ -161,5 +183,100 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "just volleyball",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "volleyball.exe"
+      },
+      "1": {
+        "arguments": " --rendering-driver vulkan",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "play with vulkan (try this if the game won't open, common on amd gpus)",
+        "description_loc": {
+          "english": "play with vulkan (try this if the game won't open, common on amd gpus)"
+        },
+        "executable": "volleyball.exe"
+      },
+      "2": {
+        "arguments": "--rendering-driver opengl3",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "compatibility mode (low-end pcs and integrated graphics, the game will look render inaccurately to how it was intended to look.)",
+        "description_loc": {
+          "english": "compatibility mode (low-end pcs and integrated graphics, the game will look render inaccurately to how it was intended to look.)"
+        },
+        "executable": "volleyball.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "3",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "2"
+  },
+  "depots": {
+    "5037201": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "198004416",
+          "gid": "4103335442302313625",
+          "size": "256561728"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26705269",
+        "timebuildupdated": "1794840885",
+        "timeupdated": "1794840922"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "temkosoft",
+    "publisher": "temkosoft"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "20000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/volleyball/data",
+        "pattern": "profiles.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/volleyball/data",
+        "pattern": "character.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/volleyball/data",
+        "pattern": "character_slots.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

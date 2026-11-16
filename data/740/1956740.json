@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793166272,
+  "_lastChecked": 1794866466,
   "_history": [
     {
       "buildId": "25957116",
@@ -87,6 +87,29 @@
       }
     },
     {
+      "buildId": "26657828",
+      "branch": "public",
+      "timeUpdated": 1794613792,
+      "firstSeen": 1794866466,
+      "manifests": {
+        "1956741": {
+          "gid": "6827425942320981310",
+          "size": 1290506786,
+          "download": 1254854864
+        },
+        "1956742": {
+          "gid": "2399080212041507272",
+          "size": 1762601976,
+          "download": 1389273712
+        },
+        "1956743": {
+          "gid": "7684863885424294545",
+          "size": 1366212844,
+          "download": 1336310704
+        }
+      }
+    },
+    {
       "buildId": "26254590",
       "branch": "public",
       "timeUpdated": 1793135835,
@@ -169,15 +192,25 @@
       }
     },
     {
-      "buildId": "25379487",
-      "branch": "public",
-      "timeUpdated": 1789686755,
-      "firstSeen": 1789691899,
+      "buildId": "26533776",
+      "branch": "battleserver",
+      "timeUpdated": 1794207268,
+      "firstSeen": 1794866466,
       "manifests": {
         "1956741": {
-          "gid": "1943842196395433046",
-          "size": 1358671812,
-          "download": 1322776048
+          "gid": "6957954073015855263",
+          "size": 1291123281,
+          "download": 1254469968
+        },
+        "1956742": {
+          "gid": "2399080212041507272",
+          "size": 1762601976,
+          "download": 1389273712
+        },
+        "1956743": {
+          "gid": "7684863885424294545",
+          "size": 1366212844,
+          "download": 1336310704
         }
       }
     },
@@ -320,10 +353,10 @@
       }
     }
   ],
-  "_change_number": 40317428,
+  "_change_number": 40933730,
   "_missing_token": false,
-  "_sha": "966566cfe30e0751ec15ef26d128eb7fe8d04662",
-  "_size": 6371,
+  "_sha": "4fc212e01f0b4a307a63db53f966124940b92d2a",
+  "_size": 5648,
   "appid": "1956740",
   "common": {
     "associations": {
@@ -444,11 +477,11 @@
     },
     "osarch": "64",
     "oscpu": "",
-    "osextended": "macos64",
-    "oslist": "windows,macos,linux",
+    "osextended": "",
+    "oslist": "windows",
     "primary_genre": "3",
     "releasestate": "released",
-    "review_percentage": "71",
+    "review_percentage": "70",
     "review_score": "6",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
@@ -497,47 +530,15 @@
     "type": "Game"
   },
   "config": {
-    "app_mappings": {
-      "0": {
-        "platform": "linux",
-        "tool": "SteamLinuxRuntime_4"
-      }
-    },
     "installdir": "Argentum 20",
     "launch": {
       "1": {
-        "arguments": "--resource-mode packed --resource-pack-dir \"..\\Recursos\\Packs\"",
         "config": {
           "oslist": "windows"
         },
-        "description": "Argentum Online (HOO) (Windows)",
-        "description_loc": {
-          "english": "Argentum Online (HOO) (Windows)"
-        },
-        "executable": "Cliente\\Argentum.exe",
+        "executable": "Cliente\\start_protected_game.exe",
         "type": "default",
         "workingdir": "Cliente\\"
-      },
-      "2": {
-        "config": {
-          "osarch": "64",
-          "oslist": "linux"
-        },
-        "description": "Argentum Online (HOO) (Linux)",
-        "description_loc": {
-          "english": "Argentum Online (HOO) (Linux)"
-        },
-        "executable": "Cliente/Argentum"
-      },
-      "3": {
-        "config": {
-          "oslist": "macos"
-        },
-        "description": "Argentum Online (HOO) (macOS)",
-        "description_loc": {
-          "english": "Argentum Online (HOO) (macOS)"
-        },
-        "executable": "Argentum.app/Contents/MacOS/Argentum"
       }
     }
   },
@@ -548,14 +549,14 @@
       },
       "manifests": {
         "battleserver": {
-          "download": "1348828368",
-          "gid": "4214792409765512582",
-          "size": "1435048357"
+          "download": "1254469968",
+          "gid": "6957954073015855263",
+          "size": "1291123281"
         },
         "public": {
-          "download": "1386847952",
-          "gid": "1829247600416607111",
-          "size": "1473609513"
+          "download": "1254854864",
+          "gid": "6827425942320981310",
+          "size": "1290506786"
         }
       }
     },
@@ -565,14 +566,14 @@
       },
       "manifests": {
         "battleserver": {
-          "download": "1351172304",
-          "gid": "7335354104958897067",
-          "size": "1719139229"
+          "download": "1389273712",
+          "gid": "2399080212041507272",
+          "size": "1762601976"
         },
         "public": {
-          "download": "1389419008",
-          "gid": "5717447818068438355",
-          "size": "1759887236"
+          "download": "1389273712",
+          "gid": "2399080212041507272",
+          "size": "1762601976"
         }
       }
     },
@@ -583,29 +584,36 @@
       },
       "manifests": {
         "battleserver": {
-          "download": "1298686464",
-          "gid": "2516278996654282877",
-          "size": "1323200054"
+          "download": "1336310704",
+          "gid": "7684863885424294545",
+          "size": "1366212844"
         },
         "public": {
-          "download": "1336764400",
-          "gid": "8366894902013618204",
-          "size": "1363808102"
+          "download": "1336310704",
+          "gid": "7684863885424294545",
+          "size": "1366212844"
         }
       }
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
     },
     "baselanguages": "brazilian,english,french,italian,latam,spanish",
     "branches": {
       "battleserver": {
-        "buildid": "25998707",
+        "buildid": "26533776",
         "description": "Easy Mode - Experience, Gold and Work improved.",
-        "timebuildupdated": "1792187824",
-        "timeupdated": "1792187824"
+        "timebuildupdated": "1794207265",
+        "timeupdated": "1794207268"
       },
       "public": {
-        "buildid": "26254590",
-        "timebuildupdated": "1793135823",
-        "timeupdated": "1793135835"
+        "buildid": "26657828",
+        "timebuildupdated": "1794613792",
+        "timeupdated": "1794613792"
       }
     }
   },

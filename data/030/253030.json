@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792989929,
+  "_lastChecked": 1794866460,
   "_history": [
     {
       "buildId": "759512",
@@ -122,12 +122,40 @@
           "download": 80
         }
       }
+    },
+    {
+      "buildId": "1808508",
+      "branch": "1.51_stable_vr",
+      "timeUpdated": 1494297795,
+      "firstSeen": 1794866460,
+      "manifests": {
+        "253031": {
+          "gid": "1005746811166845326",
+          "size": 155896395,
+          "download": 32771968
+        },
+        "253032": {
+          "gid": "847402472000595992",
+          "size": 167530712,
+          "download": 34922640
+        },
+        "253033": {
+          "gid": "5296224263863569175",
+          "size": 162680714,
+          "download": 34010752
+        },
+        "378731": {
+          "gid": "9195102739094348968",
+          "size": 24,
+          "download": 80
+        }
+      }
     }
   ],
-  "_change_number": 40230467,
+  "_change_number": 41021065,
   "_missing_token": false,
-  "_sha": "194cb9f44a483f317ad01a25b9ef17afa5216c07",
-  "_size": 9249,
+  "_sha": "4fdea4a8f307e702ee23654f8886ad6ab5207de3",
+  "_size": 10323,
   "appid": "253030",
   "common": {
     "associations": {
@@ -140,7 +168,7 @@
         "type": "publisher"
       },
       "2": {
-        "name": "Flippfly LLC",
+        "name": "Race The Sun",
         "type": "franchise"
       }
     },
@@ -233,6 +261,9 @@
     "metacritic_score": "79",
     "name": "Race The Sun",
     "openvrsupport": "1",
+    "osarch": "",
+    "oscpu": "",
+    "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "othervrsupport": "1",
     "othervrsupport_rift_13": "1",
@@ -252,32 +283,32 @@
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
-        "non_deck_display_glyphs": "1",
-        "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "native",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-11.0-3RC",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "requires_manual_keyboard_invoke": "1",
+        "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
-        "small_text": "0",
-        "supported_input": "gamepad"
+        "small_text": "1",
+        "supported_input": "other"
       },
       "steam_machine_compatibility": "2",
       "steam_machine_tests": {
         "0": {
           "display": "3",
-          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
         },
         "1": {
-          "display": "3",
-          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "2": {
           "display": "4",
-          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
         },
         "3": {
           "display": "4",
@@ -292,19 +323,23 @@
         },
         "1": {
           "display": "1",
-          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
-      "test_timestamp": "1647648000",
-      "tested_build_id": "1808508",
+      "test_timestamp": "1793731979",
+      "tested_build_id": "26089865",
       "tests": {
         "0": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
         },
         "1": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
         },
         "2": {
           "display": "4",
@@ -312,11 +347,15 @@
         },
         "3": {
           "display": "4",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
         },
         "4": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "5": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       }
     },
@@ -396,6 +435,8 @@
         "type": "othervr"
       }
     },
+    "steamconfigurator3rdpartynative": "3",
+    "steamcontrollertemplateindex": "4",
     "steamcontrollertouchconfigdetails": {
       "1862167654": {
         "controller_type": "controller_mobile_touch",
@@ -403,7 +444,8 @@
         "use_action_block": "false"
       }
     },
-    "steamcontrollertouchtemplateindex": "1"
+    "steamcontrollertouchtemplateindex": "1",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "228983": {
@@ -418,6 +460,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "1.51_stable_vr": {
+          "download": "32771968",
+          "gid": "1005746811166845326",
+          "size": "155896395"
+        },
         "beta": {
           "download": "61473200",
           "gid": "2251545248554233713",
@@ -441,6 +488,11 @@
         "oslist": "macos"
       },
       "manifests": {
+        "1.51_stable_vr": {
+          "download": "34922640",
+          "gid": "847402472000595992",
+          "size": "167530712"
+        },
         "beta": {
           "download": "68575872",
           "gid": "6660067402385043832",
@@ -463,6 +515,11 @@
         "oslist": "linux"
       },
       "manifests": {
+        "1.51_stable_vr": {
+          "download": "34010752",
+          "gid": "5296224263863569175",
+          "size": "162680714"
+        },
         "beta": {
           "download": "57747712",
           "gid": "3525515530543924157",
@@ -483,6 +540,11 @@
     "378731": {
       "dlcappid": "378731",
       "manifests": {
+        "1.51_stable_vr": {
+          "download": "80",
+          "gid": "9195102739094348968",
+          "size": "24"
+        },
         "beta": {
           "download": "80",
           "gid": "9195102739094348968",
@@ -501,6 +563,12 @@
       }
     },
     "branches": {
+      "1.51_stable_vr": {
+        "buildid": "1808508",
+        "description": "Version 1.51 from before October 2026 update",
+        "timebuildupdated": "1494297795",
+        "timeupdated": "1494297795"
+      },
       "beta": {
         "buildid": "26089865",
         "timebuildupdated": "1792529183",

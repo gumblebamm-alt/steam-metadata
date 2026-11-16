@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793252958,
-  "_history": [],
-  "_change_number": 40352602,
-  "_missing_token": true,
-  "_sha": "40271defd91263c627e2f918537c58d6615894ca",
-  "_size": 3238,
+  "_lastChecked": 1794866487,
+  "_history": [
+    {
+      "buildId": "26121702",
+      "branch": "public",
+      "timeUpdated": 1792631091,
+      "firstSeen": 1794866487,
+      "manifests": {
+        "4102831": {
+          "gid": "5085792204962911653",
+          "size": 1694665294,
+          "download": 402554144
+        }
+      }
+    }
+  ],
+  "_change_number": 41001792,
+  "_missing_token": false,
+  "_sha": "c302b383495ee831990715e3ca2b3d6431409330",
+  "_size": 4249,
   "appid": "4102830",
   "common": {
     "associations": {
@@ -34,9 +48,9 @@
     },
     "clienticon": "f695ab2ec0a4f80f178efb089e8474f8e576de2e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4102830",
     "genres": {
       "0": "25",
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3bda81ea9ee0a3e463820571dc400b123c278136/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794829074",
     "store_asset_mtime": "1792802312",
     "store_tags": {
       "0": "3834",
@@ -145,5 +160,58 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Disc Treks",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DiscTreks.exe"
+      }
+    }
+  },
+  "depots": {
+    "4102831": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "402554144",
+          "gid": "5085792204962911653",
+          "size": "1694665294"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26121702",
+        "timebuildupdated": "1792631088",
+        "timeupdated": "1792631091"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "4102830"
+  },
+  "extended": {
+    "developer": "Bigtree Disc Golf",
+    "homepage": "https://disctreks.com/",
+    "isfreeapp": "1",
+    "publisher": "Bigtree Disc Golf"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Bigtree Disc Golf/DiscTreks",
+        "pattern": "save_slot_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

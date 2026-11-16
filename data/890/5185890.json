@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794768704,
+  "_lastChecked": 1794866519,
   "_history": [
     {
       "buildId": "26647378",
@@ -26,12 +26,56 @@
           "download": 332631296
         }
       }
+    },
+    {
+      "buildId": "26647378",
+      "branch": "old-version-launch",
+      "timeUpdated": 1794581942,
+      "firstSeen": 1794866519,
+      "manifests": {
+        "5185891": {
+          "gid": "8046531890728940811",
+          "size": 561843732,
+          "download": 316021792
+        }
+      }
+    },
+    {
+      "buildId": "26692741",
+      "branch": "public",
+      "timeUpdated": 1794835754,
+      "firstSeen": 1794866519,
+      "manifests": {
+        "5185891": {
+          "gid": "5786402641882236394",
+          "size": 579070221,
+          "download": 331830960
+        }
+      }
+    },
+    {
+      "buildId": "26712450",
+      "branch": "test-mac-version",
+      "timeUpdated": 1794864223,
+      "firstSeen": 1794866519,
+      "manifests": {
+        "5185891": {
+          "gid": "1412627750589258986",
+          "size": 579108606,
+          "download": 331846032
+        },
+        "5185892": {
+          "gid": "8625706329593101781",
+          "size": 578477916,
+          "download": 331688384
+        }
+      }
     }
   ],
-  "_change_number": 40974294,
+  "_change_number": 41038167,
   "_missing_token": false,
-  "_sha": "7a59e79b81b854b15ccbb6b51a7d59aceb4763a1",
-  "_size": 4835,
+  "_sha": "1264b555831d99fae2baa5aa519ab32cf3b89d1b",
+  "_size": 6122,
   "appid": "5185890",
   "common": {
     "aicontenttype": "1",
@@ -165,21 +209,63 @@
     "store_tags": {
       "0": "9",
       "1": "1645",
-      "10": "599",
-      "11": "493",
-      "12": "7926",
+      "10": "7926",
+      "11": "599",
+      "12": "493",
       "13": "1678",
       "2": "1100686",
       "3": "3871",
       "4": "4791",
       "5": "1659",
-      "6": "6730",
-      "7": "4182",
+      "6": "4182",
+      "7": "6730",
       "8": "4168",
       "9": "12472"
     },
     "supported_languages": {
+      "brazilian": {
+        "supported": "true"
+      },
+      "czech": {
+        "supported": "true"
+      },
       "english": {
+        "supported": "true"
+      },
+      "french": {
+        "supported": "true"
+      },
+      "german": {
+        "supported": "true"
+      },
+      "italian": {
+        "supported": "true"
+      },
+      "japanese": {
+        "supported": "true"
+      },
+      "koreana": {
+        "supported": "true"
+      },
+      "latam": {
+        "supported": "true"
+      },
+      "polish": {
+        "supported": "true"
+      },
+      "russian": {
+        "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
+      },
+      "spanish": {
+        "supported": "true"
+      },
+      "turkish": {
+        "supported": "true"
+      },
+      "ukrainian": {
         "supported": "true"
       }
     },
@@ -195,35 +281,65 @@
         },
         "executable": "zombies-arent-real.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ZombiesArentReal.app",
+        "type": "default"
       }
     }
   },
   "depots": {
     "5185891": {
       "manifests": {
-        "beta-v0.42.3": {
-          "download": "332631296",
-          "gid": "7756808954119622135",
-          "size": "581143792"
-        },
-        "public": {
+        "old-version-launch": {
           "download": "316021792",
           "gid": "8046531890728940811",
           "size": "561843732"
+        },
+        "public": {
+          "download": "331830960",
+          "gid": "5786402641882236394",
+          "size": "579070221"
+        },
+        "test-mac-version": {
+          "download": "331846032",
+          "gid": "1412627750589258986",
+          "size": "579108606"
+        }
+      }
+    },
+    "5185892": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "test-mac-version": {
+          "download": "331688384",
+          "gid": "8625706329593101781",
+          "size": "578477916"
         }
       }
     },
     "branches": {
-      "beta-v0.42.3": {
-        "buildid": "26681669",
-        "description": "An early look at the upcoming update with improvements and fixes",
-        "timebuildupdated": "1794745650",
-        "timeupdated": "1794745682"
-      },
-      "public": {
+      "old-version-launch": {
         "buildid": "26647378",
+        "description": "Old Version - launch day",
         "timebuildupdated": "1794581932",
         "timeupdated": "1794581942"
+      },
+      "public": {
+        "buildid": "26692741",
+        "timebuildupdated": "1794796065",
+        "timeupdated": "1794835754"
+      },
+      "test-mac-version": {
+        "buildid": "26712450",
+        "description": "Contains the first build of the Mac OS version",
+        "timebuildupdated": "1794860842",
+        "timeupdated": "1794864223"
       }
     },
     "nocommonredists": "1",

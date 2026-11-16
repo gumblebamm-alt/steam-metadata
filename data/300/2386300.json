@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794552217,
-  "_history": [],
-  "_change_number": 40888611,
-  "_missing_token": true,
-  "_sha": "98cd5ffa2364df83e34cebd0ce7ade261229d925",
-  "_size": 3434,
+  "_lastChecked": 1794866468,
+  "_history": [
+    {
+      "buildId": "26710838",
+      "branch": "public",
+      "timeUpdated": 1794855757,
+      "firstSeen": 1794866468,
+      "manifests": {
+        "2386301": {
+          "gid": "6825591928436498908",
+          "size": 244572752,
+          "download": 158589312
+        },
+        "2386302": {
+          "gid": "2680603480313120968",
+          "size": 206689196,
+          "download": 147856032
+        }
+      }
+    }
+  ],
+  "_change_number": 41029638,
+  "_missing_token": false,
+  "_sha": "43c2a5b87a592fb7db2ab06cf735b18daf5aa369",
+  "_size": 4922,
   "appid": "2386300",
   "common": {
     "associations": {
@@ -38,8 +57,8 @@
     },
     "clienticon": "5242a953f84a79c30daa22f69aea3fb8f75303a6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2386300",
     "genres": {
       "0": "1",
@@ -115,10 +134,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2c6ca6c64a311649947b98d9af6d957ebac392b3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794819913",
     "store_asset_mtime": "1793460039",
     "store_tags": {
       "0": "42804",
@@ -154,5 +174,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Moongrave",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Moongrave.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Moongrave.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "2386301": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "158589312",
+          "gid": "6825591928436498908",
+          "size": "244572752"
+        }
+      }
+    },
+    "2386302": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "147856032",
+          "gid": "2680603480313120968",
+          "size": "206689196"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "26710838",
+        "timebuildupdated": "1794855757",
+        "timeupdated": "1794855757"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Mendez Guillaume",
+    "publisher": "CoLore studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Moongrave/",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "godot/app_userdata/Moongrave/",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

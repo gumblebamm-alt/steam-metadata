@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794679243,
-  "_history": [],
-  "_change_number": 40951613,
-  "_missing_token": true,
-  "_sha": "ec6e4835acdb01cae8aedfeba885fc84e8a2e0a2",
-  "_size": 3256,
+  "_lastChecked": 1794866516,
+  "_history": [
+    {
+      "buildId": "26668843",
+      "branch": "public",
+      "timeUpdated": 1794672298,
+      "firstSeen": 1794866516,
+      "manifests": {
+        "5113831": {
+          "gid": "2696876892322353273",
+          "size": 1367373000,
+          "download": 1282763760
+        }
+      }
+    }
+  ],
+  "_change_number": 41011127,
+  "_missing_token": false,
+  "_sha": "45e5588296d6b463c3199498b57079621b43df7d",
+  "_size": 4389,
   "appid": "5113830",
   "common": {
     "aicontenttype": "1",
@@ -28,6 +42,7 @@
     },
     "clienticon": "1b6264c97caafbd9f4bb02f07021cceb9c7dca47",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "4",
@@ -40,7 +55,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5113830",
     "genres": {
       "0": "4",
@@ -112,11 +126,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "98cfa460586ae09c093f313f0ff4fb4dae31aab7/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794844812",
     "store_asset_mtime": "1789234356",
     "store_tags": {
       "0": "9",
@@ -149,5 +164,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Alchemaidens",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Alchemaidens.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5113831": {
+      "manifests": {
+        "public": {
+          "download": "1282763760",
+          "gid": "2696876892322353273",
+          "size": "1367373000"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26668843",
+        "timebuildupdated": "1794672193",
+        "timeupdated": "1794672298"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "PFTPStudios",
+    "homepage": "https://alchemaidens.com/",
+    "publisher": "PFTPStudios"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Alchemaidens",
+        "pattern": "profile.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Alchemaidens",
+        "pattern": "run.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Alchemaidens",
+        "pattern": "deck_presets.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

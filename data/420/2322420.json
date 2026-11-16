@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794294981,
+  "_lastChecked": 1794866468,
   "_history": [
     {
       "buildId": "12282891",
@@ -68,12 +68,30 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26693487",
+      "branch": "pre_update",
+      "timeUpdated": 1794803094,
+      "firstSeen": 1794866468,
+      "manifests": {
+        "2322421": {
+          "gid": "3748950897849308672",
+          "size": 553402469,
+          "download": 107831296
+        },
+        "2322422": {
+          "gid": "8054146557210382017",
+          "size": 571912897,
+          "download": 116380864
+        }
+      }
     }
   ],
-  "_change_number": 39860947,
+  "_change_number": 40991267,
   "_missing_token": false,
-  "_sha": "da77b273d7e7dcc55b038e328601fa97db179af5",
-  "_size": 5156,
+  "_sha": "0908a5c952d2a8ff7c7c4283f9949bc033c1ba6e",
+  "_size": 6125,
   "appid": "2322420",
   "common": {
     "associations": {
@@ -228,13 +246,57 @@
         "config": {
           "oslist": "windows"
         },
-        "executable": "Stack Island.exe"
+        "executable": "StackIsland.exe"
       },
       "1": {
         "config": {
           "oslist": "macos"
         },
+        "executable": "StackIsland.app"
+      },
+      "2": {
+        "config": {
+          "betakey": "early_access_legacy",
+          "oslist": "windows"
+        },
+        "description": "Early Access (legacy)",
+        "description_loc": {
+          "english": "Early Access (legacy)"
+        },
+        "executable": "Stack Island.exe"
+      },
+      "3": {
+        "config": {
+          "betakey": "early_access_legacy",
+          "oslist": "macos"
+        },
+        "description": "Early Access (legacy)",
+        "description_loc": {
+          "english": "Early Access (legacy)"
+        },
         "executable": "Contents/MacOS/Stack Island"
+      },
+      "4": {
+        "config": {
+          "betakey": "pre_update",
+          "oslist": "macos"
+        },
+        "description": "Pre update",
+        "description_loc": {
+          "english": "Pre update"
+        },
+        "executable": "StackIsland.app"
+      },
+      "5": {
+        "config": {
+          "betakey": "pre_update",
+          "oslist": "windows"
+        },
+        "description": "Pre update",
+        "description_loc": {
+          "english": "Pre update"
+        },
+        "executable": "StackIsland.exe"
       }
     }
   },
@@ -251,9 +313,9 @@
           "size": "403737891"
         },
         "pre_update": {
-          "download": "57384816",
-          "gid": "7713060773146896178",
-          "size": "403737891"
+          "download": "107831296",
+          "gid": "3748950897849308672",
+          "size": "553402469"
         },
         "public": {
           "download": "57384816",
@@ -274,9 +336,9 @@
           "size": "424843788"
         },
         "pre_update": {
-          "download": "63779392",
-          "gid": "948357888435047232",
-          "size": "424843788"
+          "download": "116380864",
+          "gid": "8054146557210382017",
+          "size": "571912897"
         },
         "public": {
           "download": "63779392",
@@ -294,10 +356,10 @@
         "timeupdated": "1695711730"
       },
       "pre_update": {
-        "buildid": "12282891",
+        "buildid": "26693487",
         "description": "Pre-Update Testing",
-        "timebuildupdated": "1695711568",
-        "timeupdated": "1695711730"
+        "timebuildupdated": "1794799355",
+        "timeupdated": "1794803094"
       },
       "public": {
         "buildid": "12282891",

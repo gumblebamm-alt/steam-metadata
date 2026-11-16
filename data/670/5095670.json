@@ -1,6 +1,29 @@
 {
-  "_lastChecked": 1794810407,
+  "_lastChecked": 1794866516,
   "_history": [
+    {
+      "buildId": "26707300",
+      "branch": "public",
+      "timeUpdated": 1794846622,
+      "firstSeen": 1794866516,
+      "manifests": {
+        "5095671": {
+          "gid": "5569005188898525695",
+          "size": 2347020221,
+          "download": 2178391840
+        },
+        "5095672": {
+          "gid": "4302011510509584985",
+          "size": 2477297472,
+          "download": 2173929872
+        },
+        "5095673": {
+          "gid": "2570657882196565789",
+          "size": 2710956995,
+          "download": 2224909856
+        }
+      }
+    },
     {
       "buildId": "26685668",
       "branch": "public",
@@ -72,25 +95,12 @@
           "download": 1635768240
         }
       }
-    },
-    {
-      "buildId": "26489770",
-      "branch": "public",
-      "timeUpdated": 1793984028,
-      "firstSeen": 1793993066,
-      "manifests": {
-        "5095671": {
-          "gid": "4181903946106785786",
-          "size": 1807847188,
-          "download": 1639775872
-        }
-      }
     }
   ],
-  "_change_number": 40980428,
+  "_change_number": 41012280,
   "_missing_token": false,
-  "_sha": "bdb8502e78263bca1f88166cf0ddd17e37e2cc7e",
-  "_size": 5783,
+  "_sha": "3b15f4431e2acac509506e80e3a79375c920f824",
+  "_size": 6249,
   "appid": "5095670",
   "common": {
     "aicontenttype": "1",
@@ -292,6 +302,12 @@
           "oslist": "linux"
         },
         "executable": "ChipBuilder.sh"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ChipBuilder.app"
       }
     },
     "steamcontrollertemplateindex": "13",
@@ -319,9 +335,9 @@
       },
       "manifests": {
         "public": {
-          "download": "2178389632",
-          "gid": "8570767161076489019",
-          "size": "2347017149"
+          "download": "2178391840",
+          "gid": "5569005188898525695",
+          "size": "2347020221"
         }
       }
     },
@@ -331,17 +347,29 @@
       },
       "manifests": {
         "public": {
-          "download": "2173927088",
-          "gid": "3717814214155587737",
-          "size": "2477297312"
+          "download": "2173929872",
+          "gid": "4302011510509584985",
+          "size": "2477297472"
+        }
+      }
+    },
+    "5095673": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "2224909856",
+          "gid": "2570657882196565789",
+          "size": "2710956995"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26685668",
-        "timebuildupdated": "1794764857",
-        "timeupdated": "1794765678"
+        "buildid": "26707300",
+        "timebuildupdated": "1794846258",
+        "timeupdated": "1794846622"
       }
     },
     "privatebranches": "1"
@@ -362,6 +390,14 @@
           "1": "Windows"
         },
         "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Epic/ChipBuilder/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
       }
     }
   }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793339313,
-  "_history": [],
-  "_change_number": 40403432,
-  "_missing_token": true,
-  "_sha": "53260bb0884e0215f5d03ad35e759dd688269bed",
-  "_size": 3419,
+  "_lastChecked": 1794866484,
+  "_history": [
+    {
+      "buildId": "26710527",
+      "branch": "public",
+      "timeUpdated": 1794854967,
+      "firstSeen": 1794866484,
+      "manifests": {
+        "3944521": {
+          "gid": "4463405315571687355",
+          "size": 271910101,
+          "download": 139193136
+        },
+        "3944522": {
+          "gid": "3339504555955770050",
+          "size": 238310073,
+          "download": 131119328
+        }
+      }
+    }
+  ],
+  "_change_number": 41017792,
+  "_missing_token": false,
+  "_sha": "e69f5706d0ec8fa685dcff665ed7bb43bae6155d",
+  "_size": 4436,
   "appid": "3944520",
   "common": {
     "associations": {
@@ -31,7 +50,6 @@
     "clienttga": "2d62b6bb9b2766662610a583b804cf43a9ebf97f",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3944520",
     "genres": {
       "0": "4",
@@ -103,10 +121,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8ca337ca323256cc09a950b1e591267ab6a1d2d9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794855135",
     "store_asset_mtime": "1763918124",
     "store_tags": {
       "0": "1645",
@@ -158,5 +177,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "NodalBastion",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "NodalBastion_win.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "NodalBastion.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3944521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "139193136",
+          "gid": "4463405315571687355",
+          "size": "271910101"
+        }
+      }
+    },
+    "3944522": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "131119328",
+          "gid": "3339504555955770050",
+          "size": "238310073"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26710527",
+        "timebuildupdated": "1794854775",
+        "timeupdated": "1794854967"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "BNStudio",
+    "publisher": "BNStudio"
+  }
 }

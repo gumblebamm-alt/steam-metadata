@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1793908635,
+  "_lastChecked": 1794866485,
   "_history": [
+    {
+      "buildId": "26537468",
+      "branch": "public",
+      "timeUpdated": 1794226935,
+      "firstSeen": 1794866485,
+      "manifests": {
+        "3966511": {
+          "gid": "5453863540920157122",
+          "size": 1078587213,
+          "download": 966095920
+        },
+        "3966512": {
+          "gid": "224264956290125063",
+          "size": 1121072173,
+          "download": 988202720
+        }
+      }
+    },
     {
       "buildId": "26453720",
       "branch": "public",
@@ -64,19 +82,6 @@
       }
     },
     {
-      "buildId": "25099011",
-      "branch": "public",
-      "timeUpdated": 1788431783,
-      "firstSeen": 1788628339,
-      "manifests": {
-        "3966511": {
-          "gid": "1191937484331076163",
-          "size": 724744769,
-          "download": 645311056
-        }
-      }
-    },
-    {
       "buildId": "24824466",
       "branch": "v1.0",
       "timeUpdated": 1787165076,
@@ -129,10 +134,10 @@
       }
     }
   ],
-  "_change_number": 40622281,
+  "_change_number": 41022745,
   "_missing_token": false,
-  "_sha": "3015b9f4c8652a18132ff9015d1b9023f5c0a54d",
-  "_size": 9299,
+  "_sha": "d719df1476ed12a8c5b3811d7b65aa1b6c9bfe1f",
+  "_size": 9304,
   "appid": "3966510",
   "common": {
     "associations": {
@@ -187,7 +192,8 @@
       "russian": "1",
       "schinese": "1",
       "spanish": "1",
-      "tchinese": "1"
+      "tchinese": "1",
+      "turkish": "1"
     },
     "library_assets": {
       "library_capsule": "en,zh-cn,zh-tw",
@@ -283,9 +289,9 @@
       "configuration": {
         "gamescope_frame_limiter_not_supported": "1",
         "hdr_support": "0",
-        "non_deck_display_glyphs": "0",
+        "non_deck_display_glyphs": "1",
         "primary_player_is_controller_slot_0": "1",
-        "recommended_runtime": "proton-11.0-2RC",
+        "recommended_runtime": "proton-11.0-3RC",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -296,15 +302,15 @@
         "small_text": "1",
         "supported_input": "other"
       },
-      "steam_machine_compatibility": "3",
+      "steam_machine_compatibility": "2",
       "steam_machine_tests": {
         "0": {
-          "display": "4",
-          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
         },
         "1": {
           "display": "4",
-          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "2": {
           "display": "4",
@@ -322,20 +328,20 @@
           "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
-      "test_timestamp": "1787339743",
-      "tested_build_id": "24824466",
+      "test_timestamp": "1793990416",
+      "tested_build_id": "26453720",
       "tests": {
         "0": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
         },
         "1": {
-          "display": "4",
-          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
         },
         "2": {
           "display": "4",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
         "3": {
           "display": "4",
@@ -348,7 +354,7 @@
       }
     },
     "steam_release_date": "1787244970",
-    "store_asset_mtime": "1786916419",
+    "store_asset_mtime": "1794858976",
     "store_tags": {
       "0": "3959",
       "1": "597",
@@ -440,9 +446,9 @@
       },
       "manifests": {
         "public": {
-          "download": "966098512",
-          "gid": "8045453480036588610",
-          "size": "1078595149"
+          "download": "966095920",
+          "gid": "5453863540920157122",
+          "size": "1078587213"
         },
         "v1.0": {
           "download": "645276736",
@@ -465,9 +471,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "26453720",
-        "timebuildupdated": "1793869123",
-        "timeupdated": "1793869123"
+        "buildid": "26537468",
+        "timebuildupdated": "1794220930",
+        "timeupdated": "1794226935"
       },
       "v1.0": {
         "buildid": "24824466",
@@ -475,7 +481,8 @@
         "timebuildupdated": "1787165036",
         "timeupdated": "1787165076"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Moravian",
@@ -489,9 +496,6 @@
       "0": {
         "path": "Scorchpot",
         "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocal"
       }
     }

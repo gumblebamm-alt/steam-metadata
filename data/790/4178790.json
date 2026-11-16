@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794768687,
-  "_history": [],
-  "_change_number": 40979139,
-  "_missing_token": true,
-  "_sha": "7918f02a11a0e170409ae0cb8f35d63978cebc0a",
-  "_size": 7829,
+  "_lastChecked": 1794866489,
+  "_history": [
+    {
+      "buildId": "26701014",
+      "branch": "public",
+      "timeUpdated": 1794828905,
+      "firstSeen": 1794866489,
+      "manifests": {
+        "4178791": {
+          "gid": "1495155891103287467",
+          "size": 352886115,
+          "download": 199155664
+        },
+        "4178792": {
+          "gid": "2585154617435905262",
+          "size": 260094232,
+          "download": 175395504
+        },
+        "4178793": {
+          "gid": "3671556368212082873",
+          "size": 234430820,
+          "download": 168774816
+        }
+      }
+    }
+  ],
+  "_change_number": 41013273,
+  "_missing_token": false,
+  "_sha": "b0ef3d3a7cc7f66094cc416b08d5535b79ce65b0",
+  "_size": 9946,
   "appid": "4178790",
   "common": {
     "associations": {
@@ -36,8 +60,8 @@
     "clienticns": "90a91e5857cbcf50edfb144ac1f0139a7a840f30",
     "clienticon": "3a92cf1387d8fed1c6efc295c2ca95864cb8600a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4178790",
     "genres": {
       "0": "4",
@@ -139,7 +163,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6e4f250bfe59e5dc44c360ca3206e72d80972d18/capsule_231x87.jpg",
       "schinese": "131bd9ec374f7b68b6023ae6b36ca7102f117a17/capsule_231x87_schinese.jpg",
@@ -230,6 +254,7 @@
         }
       }
     },
+    "steam_release_date": "1794848107",
     "store_asset_mtime": "1792269920",
     "store_tags": {
       "0": "560542",
@@ -277,5 +302,116 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Clicky Islands",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Clicky Islands.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Clicky Islands.x86_64"
+      },
+      "2": {
+        "arguments": "--rendering-driver opengl3",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch with Compatibility Mode (OpenGL)",
+        "description_loc": {
+          "english": "Launch with Compatibility Mode (OpenGL)"
+        },
+        "executable": "Clicky Islands.exe"
+      },
+      "3": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Clicky Islands.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4178791": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "199155664",
+          "gid": "1495155891103287467",
+          "size": "352886115"
+        }
+      }
+    },
+    "4178792": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "175395504",
+          "gid": "2585154617435905262",
+          "size": "260094232"
+        }
+      }
+    },
+    "4178793": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "168774816",
+          "gid": "3671556368212082873",
+          "size": "234430820"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26701014",
+        "timebuildupdated": "1794828905",
+        "timeupdated": "1794828905"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Karrot Games",
+    "publisher": "Karrot Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "20000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "2": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Karrot Games/Clicky Islands/saves",
+        "pattern": "*.bin",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

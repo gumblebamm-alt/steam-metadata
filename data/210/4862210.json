@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793077382,
-  "_history": [],
-  "_change_number": 39937584,
-  "_missing_token": true,
-  "_sha": "66446a1e2f438f002255225c8e394031b606763d",
-  "_size": 3132,
+  "_lastChecked": 1794866507,
+  "_history": [
+    {
+      "buildId": "26254846",
+      "branch": "public",
+      "timeUpdated": 1793136745,
+      "firstSeen": 1794866507,
+      "manifests": {
+        "4862211": {
+          "gid": "3301144847893921771",
+          "size": 396763200,
+          "download": 81049312
+        },
+        "4862212": {
+          "gid": "8481180569929325729",
+          "size": 478464739,
+          "download": 104414640
+        }
+      }
+    }
+  ],
+  "_change_number": 41004945,
+  "_missing_token": false,
+  "_sha": "f946b790f6657bc41ebf8bddf7f039f6adaba27c",
+  "_size": 4787,
   "appid": "4862210",
   "common": {
     "associations": {
@@ -30,7 +49,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4862210",
     "genres": {
       "0": "1",
@@ -102,10 +120,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "41cd338f3afa190cef2bf51cfa95e33b53d1cdc0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794831341",
     "store_asset_mtime": "1783943740",
     "store_tags": {
       "0": "19",
@@ -136,5 +155,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Spearfish",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Windows",
+        "description_loc": {
+          "english": "Windows"
+        },
+        "executable": "Spearfish.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "macOS",
+        "description_loc": {
+          "english": "macOS"
+        },
+        "executable": "Spearfish.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4862211": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "81049312",
+          "gid": "3301144847893921771",
+          "size": "396763200"
+        }
+      }
+    },
+    "4862212": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "104414640",
+          "gid": "8481180569929325729",
+          "size": "478464739"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26254846",
+        "timebuildupdated": "1793136669",
+        "timeupdated": "1793136745"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Sea Bit Studio",
+    "publisher": "Sea Bit Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "100000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Spearfish",
+            "replace": "Godot/app_userdata/Spearfish"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Spearfish",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

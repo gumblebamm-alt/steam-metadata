@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794679240,
-  "_history": [],
-  "_change_number": 40951300,
-  "_missing_token": true,
-  "_sha": "d92c1abc96c326531f14ca4209d8e972f7317a11",
-  "_size": 3406,
+  "_lastChecked": 1794866512,
+  "_history": [
+    {
+      "buildId": "26698776",
+      "branch": "public",
+      "timeUpdated": 1794822107,
+      "firstSeen": 1794866512,
+      "manifests": {
+        "5015481": {
+          "gid": "4838955383103884",
+          "size": 440405460,
+          "download": 179743680
+        },
+        "5015483": {
+          "gid": "2435719496527606768",
+          "size": 184356418,
+          "download": 183993904
+        }
+      }
+    }
+  ],
+  "_change_number": 41010035,
+  "_missing_token": false,
+  "_sha": "6938be672f35ec3720d55d105a7bbc728a6f7238",
+  "_size": 5047,
   "appid": "5015480",
   "common": {
     "aicontenttype": "1",
@@ -37,8 +56,8 @@
     },
     "clienticon": "41a6e0907b40423e8d604184e82d471e469818e9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5015480",
     "genres": {
       "0": "4",
@@ -110,16 +129,18 @@
         }
       }
     },
+    "market_presence": "1",
     "name": "Beehive Simulator",
     "osarch": "",
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0b57d9157ae4d564d8848b1999b01c5bbbaa2436/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794658740",
+    "steam_release_date": "1798704000",
+    "store_asset_mtime": "1794818864",
     "store_tags": {
       "0": "599",
       "1": "10235",
@@ -156,5 +177,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Beehive Simulator",
+    "launch": {
+      "0": {
+        "arguments": "--in-process-gpu --disable-direct-composition",
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Beehive Simulator.exe"
+      },
+      "1": {
+        "arguments": "--in-process-gpu --disable-direct-composition",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Beehive Simulator.AppImage"
+      }
+    }
+  },
+  "depots": {
+    "5015481": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "179743680",
+          "gid": "4838955383103884",
+          "size": "440405460"
+        }
+      }
+    },
+    "5015483": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "183993904",
+          "gid": "2435719496527606768",
+          "size": "184356418"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26698776",
+        "timebuildupdated": "1794822042",
+        "timeupdated": "1794822107"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Eragone",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5501940",
+    "publisher": "Eragone Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Beehive Simulator\\Local Storage\\leveldb",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Beehive Simulator/Local Storage/leveldb",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgConfigHome"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

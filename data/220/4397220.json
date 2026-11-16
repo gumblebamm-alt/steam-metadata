@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1794810396,
-  "_history": [],
-  "_change_number": 40983960,
-  "_missing_token": true,
-  "_sha": "900a149ea7fc93993c5bbbc0ba45d6f713b46a70",
-  "_size": 4168,
+  "_lastChecked": 1794866494,
+  "_history": [
+    {
+      "buildId": "26680633",
+      "branch": "development",
+      "timeUpdated": 1794739551,
+      "firstSeen": 1794866494,
+      "manifests": {
+        "4397221": {
+          "gid": "7866688197026852944",
+          "size": 687298735,
+          "download": 204004176
+        },
+        "4397222": {
+          "gid": "6544797143616399485",
+          "size": 702238512,
+          "download": 211259872
+        }
+      }
+    },
+    {
+      "buildId": "26680633",
+      "branch": "public",
+      "timeUpdated": 1794747067,
+      "firstSeen": 1794866494,
+      "manifests": {
+        "4397221": {
+          "gid": "7866688197026852944",
+          "size": 687298735,
+          "download": 204004176
+        },
+        "4397222": {
+          "gid": "6544797143616399485",
+          "size": 702238512,
+          "download": 211259872
+        }
+      }
+    }
+  ],
+  "_change_number": 41023663,
+  "_missing_token": false,
+  "_sha": "2141c8a3216b5b4e919c5651431feae3f23ce092",
+  "_size": 5934,
   "appid": "4397220",
   "common": {
     "associations": {
@@ -29,8 +66,8 @@
     },
     "clienticon": "b98718193f9075749041a66ef52c7c154efe8896",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4397220",
     "genres": {
       "0": "4",
@@ -122,11 +159,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e1903ca468ba0f6770d7c5e904ea5e6e551536a3/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794780903",
+    "steam_release_date": "1794844832",
+    "store_asset_mtime": "1794859376",
     "store_tags": {
       "0": "615955",
       "1": "6041",
@@ -203,5 +241,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "My Little Ranch",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "My Little Ranch.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "My Little Ranch.app"
+      }
+    }
+  },
+  "depots": {
+    "4397221": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "development": {
+          "download": "204004176",
+          "gid": "7866688197026852944",
+          "size": "687298735"
+        },
+        "public": {
+          "download": "204004176",
+          "gid": "7866688197026852944",
+          "size": "687298735"
+        }
+      }
+    },
+    "4397222": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "development": {
+          "download": "211259872",
+          "gid": "6544797143616399485",
+          "size": "702238512"
+        },
+        "public": {
+          "download": "211259872",
+          "gid": "6544797143616399485",
+          "size": "702238512"
+        }
+      }
+    },
+    "branches": {
+      "development": {
+        "buildid": "26680633",
+        "description": "development",
+        "timebuildupdated": "1794739551",
+        "timeupdated": "1794739551"
+      },
+      "public": {
+        "buildid": "26680633",
+        "timebuildupdated": "1794739551",
+        "timeupdated": "1794747067"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Gallop Forever Games",
+    "publisher": "Gallop Forever Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Gallop Forever Games/My Little Ranch/saves",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

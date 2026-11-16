@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794467377,
-  "_history": [],
-  "_change_number": 40843504,
-  "_missing_token": true,
-  "_sha": "8f070b467b7f711ebf00b983003f6d761805842d",
-  "_size": 3366,
+  "_lastChecked": 1794866512,
+  "_history": [
+    {
+      "buildId": "26660176",
+      "branch": "public",
+      "timeUpdated": 1794624521,
+      "firstSeen": 1794866512,
+      "manifests": {
+        "5012121": {
+          "gid": "2534136859965652116",
+          "size": 970169000,
+          "download": 851097216
+        }
+      }
+    }
+  ],
+  "_change_number": 41010906,
+  "_missing_token": false,
+  "_sha": "87994d83dd58ad9654e851bb711753cb9c9ecadd",
+  "_size": 4432,
   "appid": "5012120",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "6032ced3a304cd03b5465e0b521a4a320ffa2be4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5012120",
     "genres": {
       "0": "25",
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f371e695f5d1549cdfa753d431b56fbf871bcba8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794844481",
     "store_asset_mtime": "1793641738",
     "store_tags": {
       "0": "6426",
@@ -156,5 +171,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bow & Banner",
+    "launch": {
+      "0": {
+        "description": "Play Bow & Banner",
+        "description_loc": {
+          "english": "Play Bow & Banner"
+        },
+        "executable": "BowAndBanner.exe"
+      }
+    }
+  },
+  "depots": {
+    "5012121": {
+      "manifests": {
+        "public": {
+          "download": "851097216",
+          "gid": "2534136859965652116",
+          "size": "970169000"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26660176",
+        "timebuildupdated": "1794624467",
+        "timeupdated": "1794624521"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Bin2Good",
+    "publisher": "Bin2Good"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Bow & Banner/campaign_expanded_p0/saves",
+        "pattern": "bow_banner_*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Bow & Banner/campaign_expanded_p0/saves",
+        "pattern": "bow_banner_*.json.bak",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

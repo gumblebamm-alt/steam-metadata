@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1794339885,
-  "_history": [],
-  "_change_number": 40804258,
-  "_missing_token": true,
-  "_sha": "7d625c907ecf1956b481d42a2958634bb027136d",
-  "_size": 5608,
+  "_lastChecked": 1794866492,
+  "_history": [
+    {
+      "buildId": "26704435",
+      "branch": "debugtest",
+      "timeUpdated": 1794838509,
+      "firstSeen": 1794866492,
+      "manifests": {
+        "4325752": {
+          "gid": "6122727949022760906",
+          "size": 15697352671,
+          "download": 2518190064
+        },
+        "4325753": {
+          "gid": "1774768333689899145",
+          "size": 15721957011,
+          "download": 2523835504
+        }
+      }
+    },
+    {
+      "buildId": "26704435",
+      "branch": "public",
+      "timeUpdated": 1794840103,
+      "firstSeen": 1794866492,
+      "manifests": {
+        "4325752": {
+          "gid": "6122727949022760906",
+          "size": 15697352671,
+          "download": 2518190064
+        },
+        "4325753": {
+          "gid": "1774768333689899145",
+          "size": 15721957011,
+          "download": 2523835504
+        }
+      }
+    }
+  ],
+  "_change_number": 41015883,
+  "_missing_token": false,
+  "_sha": "5067ff08e6b37947bcfc03d35d575786bf0faed7",
+  "_size": 7891,
   "appid": "4325750",
   "common": {
     "aicontenttype": "1",
@@ -27,8 +64,8 @@
     "clienticns": "1339d29632488c08754e058139bc470a110daa50",
     "clienticon": "1339d29632488c08754e058139bc470a110daa50",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4325750",
     "genres": {
       "0": "25",
@@ -127,12 +164,13 @@
     "osextended": "macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "db9514cf6e4cb2c082963420e4a3d76a94e7714a/capsule_231x87.jpg",
       "japanese": "db81d8faf1a7b0920bb7e8358e3895b03afa4520/capsule_231x87_japanese.jpg"
     },
-    "store_asset_mtime": "1794333331",
+    "steam_release_date": "1794852034",
+    "store_asset_mtime": "1794839954",
     "store_tags": {
       "0": "3799",
       "1": "6426",
@@ -183,5 +221,114 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "A Quiet Place Between Us",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "A Quiet Place Between Us.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "A Quiet Place Between Us.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4325752": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "debugtest": {
+          "download": "2518190064",
+          "gid": "6122727949022760906",
+          "size": "15697352671"
+        },
+        "public": {
+          "download": "2518190064",
+          "gid": "6122727949022760906",
+          "size": "15697352671"
+        }
+      }
+    },
+    "4325753": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "debugtest": {
+          "download": "2523835504",
+          "gid": "1774768333689899145",
+          "size": "15721957011"
+        },
+        "public": {
+          "download": "2523835504",
+          "gid": "1774768333689899145",
+          "size": "15721957011"
+        }
+      }
+    },
+    "branches": {
+      "debugtest": {
+        "buildid": "26704435",
+        "description": "Debug test",
+        "timebuildupdated": "1794838509",
+        "timeupdated": "1794838509"
+      },
+      "public": {
+        "buildid": "26704435",
+        "timebuildupdated": "1794838509",
+        "timeupdated": "1794840103"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Papersoul Games",
+    "publisher": "Papersoul Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "209715200",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": " Papersoul Games/A Quiet Place Between Us/SaveSlots",
+            "replace": "unity. Papersoul Games.A Quiet Place Between Us/SaveSlots"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": " Papersoul Games/A Quiet Place Between Us/SaveSlots",
+        "pattern": "slot*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": " Papersoul Games/A Quiet Place Between Us/SaveSlots",
+        "pattern": "preview_*.png",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
