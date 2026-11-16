@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794073581,
+  "_lastChecked": 1794810402,
   "_history": [
     {
       "buildId": "26445879",
@@ -13,12 +13,35 @@
           "download": 166244416
         }
       }
+    },
+    {
+      "buildId": "26691156",
+      "branch": "public",
+      "timeUpdated": 1794789886,
+      "firstSeen": 1794810402,
+      "manifests": {
+        "4835871": {
+          "gid": "1416356402350996552",
+          "size": 428435219,
+          "download": 176415824
+        },
+        "4835872": {
+          "gid": "6396390350748056582",
+          "size": 470781268,
+          "download": 179853728
+        },
+        "4835873": {
+          "gid": "2117519489468699158",
+          "size": 441621348,
+          "download": 184108976
+        }
+      }
     }
   ],
-  "_change_number": 40699771,
+  "_change_number": 40986825,
   "_missing_token": false,
-  "_sha": "441ad07f76d02b4369c30a4b0dd4500243c1d84d",
-  "_size": 4990,
+  "_sha": "37a1e21011fb851fdc4512e09f29ec317e766687",
+  "_size": 5939,
   "appid": "4835870",
   "common": {
     "associations": {
@@ -152,8 +175,9 @@
     "linuxclienticon": "ac633835606481cd42b4611974e87b01fa3f03ad",
     "name": "Table Of Truth",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos,linux",
     "primary_genre": "23",
     "releasestate": "released",
     "small_capsule": {
@@ -217,25 +241,71 @@
     "installdir": "Table Of Truth",
     "launch": {
       "0": {
-        "executable": "Table Of Truth.exe"
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Table Of Truth.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "TableOfTruth.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Table Of Truth.app",
+        "type": "default"
       }
     }
   },
   "depots": {
     "4835871": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "166244416",
-          "gid": "4412710991353886380",
-          "size": "410415290"
+          "download": "176415824",
+          "gid": "1416356402350996552",
+          "size": "428435219"
         }
       }
     },
+    "4835872": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "179853728",
+          "gid": "6396390350748056582",
+          "size": "470781268"
+        }
+      }
+    },
+    "4835873": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "184108976",
+          "gid": "2117519489468699158",
+          "size": "441621348"
+        }
+      }
+    },
+    "baselanguages": "arabic,english,french,german,italian,japanese,koreana,russian,schinese,spanish,turkish",
     "branches": {
       "public": {
-        "buildid": "26445879",
-        "timebuildupdated": "1793838107",
-        "timeupdated": "1793838124"
+        "buildid": "26691156",
+        "timebuildupdated": "1794789126",
+        "timeupdated": "1794789886"
       }
     },
     "nocommonredists": "1"

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794205481,
+  "_lastChecked": 1794810397,
   "_history": [
     {
       "buildId": "26525689",
@@ -20,10 +20,10 @@
       }
     }
   ],
-  "_change_number": 40733904,
+  "_change_number": 40990629,
   "_missing_token": false,
-  "_sha": "a59ce36a9dfbdec80ea9af9852e3abad8f03a549",
-  "_size": 5047,
+  "_sha": "57743c28dd493310aacb73cb582626f1d5f2a93a",
+  "_size": 5811,
   "appid": "4475970",
   "common": {
     "associations": {
@@ -122,10 +122,12 @@
     "name": "Prerolled",
     "osarch": "",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows,linux",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos,linux",
     "primary_genre": "2",
     "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "8a28379a27eab32db8437ea529c9cc791afae1d2/capsule_231x87.jpg"
     },
@@ -135,15 +137,15 @@
       "0": "7556",
       "1": "32322",
       "10": "597",
-      "11": "4136",
-      "12": "492",
+      "11": "492",
+      "12": "4136",
       "13": "9",
       "14": "1654",
       "15": "560542",
       "16": "4305",
       "17": "6129",
-      "18": "91114",
-      "19": "4182",
+      "18": "4182",
+      "19": "91114",
       "2": "1091588",
       "3": "97376",
       "4": "4726",
@@ -161,6 +163,12 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "Prerolled",
     "launch": {
       "0": {
@@ -175,6 +183,13 @@
           "oslist": "linux"
         },
         "executable": "Prerolled.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Prerolled.app",
         "type": "default"
       }
     },
@@ -213,6 +228,12 @@
         }
       }
     },
+    "4475973": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {}
+    },
     "branches": {
       "public": {
         "buildid": "26525689",
@@ -220,7 +241,8 @@
         "timeupdated": "1794168486"
       }
     },
-    "nocommonredists": "1"
+    "nocommonredists": "1",
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Red Sauce Games",
@@ -242,6 +264,18 @@
         },
         "root": "WinAppDataRoaming",
         "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Prerolled/steam_save_full_release",
+            "replace": "/Library/Application Support/godot/app_userdata/Prerolled/steam_save_full_release"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacHome"
       }
     },
     "savefiles": {

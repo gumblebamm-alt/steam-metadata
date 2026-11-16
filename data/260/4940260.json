@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793339325,
-  "_history": [],
-  "_change_number": 40409384,
-  "_missing_token": true,
-  "_sha": "e0a904d323f70aff8af583f3cb03e3b16707930a",
-  "_size": 2936,
+  "_lastChecked": 1794810403,
+  "_history": [
+    {
+      "buildId": "26648834",
+      "branch": "public",
+      "timeUpdated": 1794585725,
+      "firstSeen": 1794810403,
+      "manifests": {
+        "4940261": {
+          "gid": "2367742103141806883",
+          "size": 334066889,
+          "download": 117072416
+        },
+        "4940262": {
+          "gid": "2255442209357655518",
+          "size": 381320105,
+          "download": 139935664
+        }
+      }
+    }
+  ],
+  "_change_number": 40992621,
+  "_missing_token": false,
+  "_sha": "dcfdc7c5d22bf81fb3a8ff305650dd05acb50843",
+  "_size": 4163,
   "appid": "4940260",
   "common": {
     "associations": {
@@ -31,7 +50,14 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
+    "eulas": {
+      "0": {
+        "id": "4940260_eula_0",
+        "name": "GrooveDeck EULA",
+        "url": "https://store.steampowered.com/eula/4940260_eula_0",
+        "version": "1"
+      }
+    },
     "gameid": "4940260",
     "genres": {
       "0": "23",
@@ -105,10 +131,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "59a88e00f20342dba6c5e0e6d90e0a05bd0f6e95/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1793329143",
     "store_tags": {
       "0": "599",
@@ -129,5 +156,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "GrooveDeck",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "groovedeck",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Groovedeck.exe"
+      }
+    }
+  },
+  "depots": {
+    "4940261": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "117072416",
+          "gid": "2367742103141806883",
+          "size": "334066889"
+        }
+      }
+    },
+    "4940262": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "139935664",
+          "gid": "2255442209357655518",
+          "size": "381320105"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26648834",
+        "timebuildupdated": "1794585683",
+        "timeupdated": "1794585725"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Wavefolder Technology Inc.",
+    "isfreeapp": "1",
+    "publisher": "Wavefolder Technology Inc."
+  }
 }

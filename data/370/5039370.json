@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1793077386,
-  "_history": [],
-  "_change_number": 38680929,
-  "_missing_token": true,
-  "_sha": "a143052c6ce1d55791f8e115a804a113b1f69fb1",
-  "_size": 2791,
+  "_lastChecked": 1794810406,
+  "_history": [
+    {
+      "buildId": "26675679",
+      "branch": "beta",
+      "timeUpdated": 1794707485,
+      "firstSeen": 1794810406,
+      "manifests": {
+        "5039371": {
+          "gid": "6655736418145390455",
+          "size": 430267171,
+          "download": 203817072
+        },
+        "5039372": {
+          "gid": "1895991928755025566",
+          "size": 342959018,
+          "download": 169999952
+        }
+      }
+    },
+    {
+      "buildId": "26691345",
+      "branch": "public",
+      "timeUpdated": 1794790841,
+      "firstSeen": 1794810406,
+      "manifests": {
+        "5039371": {
+          "gid": "8848681829763055991",
+          "size": 430287041,
+          "download": 203822304
+        },
+        "5039372": {
+          "gid": "3963793752000225697",
+          "size": 342978888,
+          "download": 170005184
+        }
+      }
+    }
+  ],
+  "_change_number": 40987434,
+  "_missing_token": false,
+  "_sha": "7bce7a063a7b897085b418f5ecd87489368ac0dd",
+  "_size": 4717,
   "appid": "5039370",
   "common": {
     "aicontenttype": "1",
@@ -26,7 +63,6 @@
     "clienticon": "7e905c49193d6447eeaec24af05896abf5f5385e",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5039370",
     "genres": {
       "0": "28"
@@ -97,11 +133,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7eb72100329491dbab9585c8652311d0576c168a/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1785463900",
+    "steam_release_date": "1793064229",
+    "store_asset_mtime": "1794791696",
     "store_tags": {
       "0": "599",
       "1": "4684",
@@ -117,5 +154,107 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "SubSurvival SSN-13 Grendel",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "SubSurvival.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "subsurvival",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5039371": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "beta": {
+          "download": "203817072",
+          "gid": "6655736418145390455",
+          "size": "430267171"
+        },
+        "public": {
+          "download": "203822304",
+          "gid": "8848681829763055991",
+          "size": "430287041"
+        }
+      }
+    },
+    "5039372": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "169999952",
+          "gid": "1895991928755025566",
+          "size": "342959018"
+        },
+        "public": {
+          "download": "170005184",
+          "gid": "3963793752000225697",
+          "size": "342978888"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26675679",
+        "description": "Beta Testing",
+        "timebuildupdated": "1794707421",
+        "timeupdated": "1794707485"
+      },
+      "public": {
+        "buildid": "26691345",
+        "timebuildupdated": "1794790108",
+        "timeupdated": "1794790841"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Pomme Bleue",
+    "homepage": "https://pomme-bleue.com",
+    "publisher": "Pomme Bleue"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "subsurvival\\data",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "subsurvival/data",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxXdgConfigHome"
+      }
+    }
+  }
 }

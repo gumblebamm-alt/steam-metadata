@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793211945,
+  "_lastChecked": 1794810405,
   "_history": [
     {
       "buildId": "26264112",
@@ -13,12 +13,25 @@
           "download": 580620096
         }
       }
+    },
+    {
+      "buildId": "26323584",
+      "branch": "public",
+      "timeUpdated": 1793364713,
+      "firstSeen": 1794810405,
+      "manifests": {
+        "5005181": {
+          "gid": "8442704844108018702",
+          "size": 666874216,
+          "download": 580663408
+        }
+      }
     }
   ],
-  "_change_number": 40328435,
+  "_change_number": 40993245,
   "_missing_token": false,
-  "_sha": "ef224d5f8224bda33cd9bebf682d7edd5b73ed06",
-  "_size": 5709,
+  "_sha": "fe8d87250f307aabc8563413f3ee46d378545923",
+  "_size": 5964,
   "appid": "5005180",
   "common": {
     "aicontenttype": "1",
@@ -133,8 +146,9 @@
       "russian": "Checkmate: Последний ход Красного генерала"
     },
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "primary_genre": "2",
     "releasestate": "released",
     "small_capsule": {
@@ -198,7 +212,17 @@
     "installdir": "王之将死Checkmate",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "Checkmate.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Checkmate.app",
+        "type": "default"
       }
     }
   },
@@ -206,17 +230,22 @@
     "5005181": {
       "manifests": {
         "public": {
-          "download": "580620096",
-          "gid": "6949397283351722083",
-          "size": "666865216"
+          "download": "580663408",
+          "gid": "8442704844108018702",
+          "size": "666874216"
         }
+      }
+    },
+    "5005182": {
+      "config": {
+        "oslist": "macos"
       }
     },
     "branches": {
       "public": {
-        "buildid": "26264112",
-        "timebuildupdated": "1793170889",
-        "timeupdated": "1793171005"
+        "buildid": "26323584",
+        "timebuildupdated": "1793364655",
+        "timeupdated": "1793364713"
       }
     },
     "nocommonredists": "1"

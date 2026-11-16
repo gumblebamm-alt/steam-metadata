@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793384022,
-  "_history": [],
-  "_change_number": 38734002,
-  "_missing_token": true,
-  "_sha": "7ed47ced8d9c11616915c3241acbb548217edc97",
-  "_size": 3274,
+  "_lastChecked": 1794810400,
+  "_history": [
+    {
+      "buildId": "26690322",
+      "branch": "public",
+      "timeUpdated": 1794784964,
+      "firstSeen": 1794810400,
+      "manifests": {
+        "4669191": {
+          "gid": "6467924875156566882",
+          "size": 121010772,
+          "download": 51485600
+        }
+      }
+    }
+  ],
+  "_change_number": 40985715,
+  "_missing_token": false,
+  "_sha": "16f8641cd07de7c4d1fec4df13397b6e0f8b51f2",
+  "_size": 4447,
   "appid": "4669190",
   "common": {
     "associations": {
@@ -33,9 +47,9 @@
     },
     "clienticon": "b21f19768a64cfcc0478aa4fde1a2b43d93519c8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4669190",
     "genres": {
       "0": "1",
@@ -112,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2c8bac1eb8071c5baeeac2d081461ab062ec4228/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1787405928",
     "store_tags": {
       "0": "3877",
@@ -149,5 +164,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Chroma Jump",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Chroma Jump.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4669191": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "51485600",
+          "gid": "6467924875156566882",
+          "size": "121010772"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26690322",
+        "timebuildupdated": "1794784928",
+        "timeupdated": "1794784964"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Puzzleholic",
+    "homepage": "https://discord.gg/72mXxBzBTF",
+    "publisher": "Puzzleholic"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Chroma Jump",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Chroma Jump/{64BitSteamID}",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
