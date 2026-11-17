@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1794552232,
-  "_history": [],
-  "_change_number": 40899293,
-  "_missing_token": true,
-  "_sha": "21bd8bde6075d5891226981cbfcf1b60292f0949",
-  "_size": 5409,
+  "_lastChecked": 1794902048,
+  "_history": [
+    {
+      "buildId": "26717184",
+      "branch": "prerelease",
+      "timeUpdated": 1794872771,
+      "firstSeen": 1794902048,
+      "manifests": {
+        "4626682": {
+          "gid": "593397955254906041",
+          "size": 758614320,
+          "download": 337739328
+        },
+        "4626683": {
+          "gid": "8732984802520505878",
+          "size": 733657629,
+          "download": 332588096
+        }
+      }
+    },
+    {
+      "buildId": "26717184",
+      "branch": "public",
+      "timeUpdated": 1794872989,
+      "firstSeen": 1794902048,
+      "manifests": {
+        "4626682": {
+          "gid": "593397955254906041",
+          "size": 758614320,
+          "download": 337739328
+        },
+        "4626683": {
+          "gid": "8732984802520505878",
+          "size": 733657629,
+          "download": 332588096
+        }
+      }
+    }
+  ],
+  "_change_number": 41075367,
+  "_missing_token": false,
+  "_sha": "246b2673be503b2247251889af22c3778bfcb925",
+  "_size": 7781,
   "appid": "4626680",
   "common": {
     "associations": {
@@ -35,8 +72,8 @@
     },
     "clienticon": "0f448222cf6ac666d5565f36d48fd85551c7eafa",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4626680",
     "genres": {
       "0": "23",
@@ -110,11 +147,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5aa4e38785f8068c650f1ccc022a7c9b8f639312/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793220246",
+    "steam_release_date": "1794878362",
+    "store_asset_mtime": "1794872092",
     "store_tags": {
       "0": "255534",
       "1": "3810",
@@ -265,5 +303,122 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "STEEL GULLET",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "sg.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "sg.x86_64",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input_manifest.vdf",
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4626682": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "prerelease": {
+          "download": "337739328",
+          "gid": "593397955254906041",
+          "size": "758614320"
+        },
+        "public": {
+          "download": "337739328",
+          "gid": "593397955254906041",
+          "size": "758614320"
+        }
+      }
+    },
+    "4626683": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "prerelease": {
+          "download": "332588096",
+          "gid": "8732984802520505878",
+          "size": "733657629"
+        },
+        "public": {
+          "download": "332588096",
+          "gid": "8732984802520505878",
+          "size": "733657629"
+        }
+      }
+    },
+    "branches": {
+      "prerelease": {
+        "buildid": "26717184",
+        "description": "prerelease",
+        "timebuildupdated": "1794872771",
+        "timeupdated": "1794872771"
+      },
+      "public": {
+        "buildid": "26717184",
+        "timebuildupdated": "1794872771",
+        "timeupdated": "1794872989"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Oxideworks",
+    "homepage": "https://drive.google.com/drive/folders/11uF6JEUWWyx_Gl6MtWN3p7zzc5OhzJcg",
+    "publisher": "Oxideworks"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "2500000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/STEEL GULLET/saves",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/STEEL GULLET",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

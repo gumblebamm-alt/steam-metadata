@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1794866519,
-  "_history": [],
-  "_change_number": 41034552,
-  "_missing_token": true,
-  "_sha": "88cabe4f1129ae0063277652e08813a80958a7db",
-  "_size": 3419,
+  "_lastChecked": 1794902057,
+  "_history": [
+    {
+      "buildId": "26722832",
+      "branch": "public",
+      "timeUpdated": 1794894535,
+      "firstSeen": 1794902057,
+      "manifests": {
+        "5183161": {
+          "gid": "1772608737012847167",
+          "size": 0,
+          "download": 0
+        },
+        "5183162": {
+          "gid": "2713860602357804031",
+          "size": 369360872,
+          "download": 196178720
+        },
+        "5183163": {
+          "gid": "6331658331489570992",
+          "size": 433312752,
+          "download": 215294112
+        },
+        "5183164": {
+          "gid": "2384641498300178625",
+          "size": 334298504,
+          "download": 187676576
+        }
+      }
+    }
+  ],
+  "_change_number": 41102855,
+  "_missing_token": false,
+  "_sha": "2a6150510eef7a04adc88f08ef0c03b79b887066",
+  "_size": 6854,
   "appid": "5183160",
   "common": {
     "aicontenttype": "1",
@@ -40,9 +69,9 @@
     },
     "clienticon": "3e7c28ee232f6b006ce77146b954a9ae18e44e6c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5183160",
     "genres": {
       "0": "25",
@@ -114,10 +143,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1d41af3f4c634c1be60a0e45b5a4ed6d6958f2f2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794894711",
     "store_asset_mtime": "1794862904",
     "store_tags": {
       "0": "9157",
@@ -154,5 +184,167 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Kyle Coral",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "windows/KyleCoral.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "linux/KyleCoral.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "macos/Kyle Coral.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5183161": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "1772608737012847167",
+          "size": "0"
+        }
+      }
+    },
+    "5183162": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "196178720",
+          "gid": "2713860602357804031",
+          "size": "369360872"
+        }
+      }
+    },
+    "5183163": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "215294112",
+          "gid": "6331658331489570992",
+          "size": "433312752"
+        }
+      }
+    },
+    "5183164": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "187676576",
+          "gid": "2384641498300178625",
+          "size": "334298504"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26722832",
+        "timebuildupdated": "1794892887",
+        "timeupdated": "1794894535"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Clover Meadow Games",
+    "homepage": "https://clovermeadowgames.com/kyle-coral",
+    "publisher": "Clover Meadow Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "godot/app_userdata/Kyle Coral/profiles",
+        "pattern": "*.cfg",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "godot/app_userdata/Kyle Coral/profiles",
+        "pattern": "*.bak",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "godot/app_userdata/Kyle Coral",
+        "pattern": "profiles.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "godot/app_userdata/Kyle Coral",
+        "pattern": "achievements.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "godot/app_userdata/Kyle Coral/steam/{Steam3AccountID}/profiles",
+        "pattern": "*.cfg",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "godot/app_userdata/Kyle Coral/steam/{Steam3AccountID}/profiles",
+        "pattern": "*.bak",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "godot/app_userdata/Kyle Coral/steam/{Steam3AccountID}",
+        "pattern": "profiles.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "7": {
+        "path": "godot/app_userdata/Kyle Coral/steam/{Steam3AccountID}",
+        "pattern": "achievements.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "8": {
+        "path": "godot/app_userdata/Kyle Coral",
+        "pattern": "profiles.cfg.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "9": {
+        "path": "godot/app_userdata/Kyle Coral/steam/{Steam3AccountID}",
+        "pattern": "profiles.cfg.bak",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

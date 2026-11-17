@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794552241,
+  "_lastChecked": 1794902056,
   "_history": [
     {
       "buildId": "26543028",
@@ -39,12 +39,38 @@
           "download": 5724939040
         }
       }
+    },
+    {
+      "buildId": "26720127",
+      "branch": "public",
+      "timeUpdated": 1794882954,
+      "firstSeen": 1794902056,
+      "manifests": {
+        "5118501": {
+          "gid": "4112866729348404466",
+          "size": 9984421506,
+          "download": 4649562112
+        }
+      }
+    },
+    {
+      "buildId": "26720127",
+      "branch": "test",
+      "timeUpdated": 1794882925,
+      "firstSeen": 1794902056,
+      "manifests": {
+        "5118501": {
+          "gid": "4112866729348404466",
+          "size": 9984421506,
+          "download": 4649562112
+        }
+      }
     }
   ],
-  "_change_number": 40900275,
+  "_change_number": 41077227,
   "_missing_token": false,
-  "_sha": "50e4ba865c1143f8530545f582f727075a64c856",
-  "_size": 6684,
+  "_sha": "a67bbd1deb66cb124921f80484f6d5da25e76ff0",
+  "_size": 6652,
   "appid": "5118500",
   "common": {
     "associations": {
@@ -184,12 +210,12 @@
     "oslist": "windows",
     "primary_genre": "1",
     "releasestate": "released",
-    "review_percentage": "74",
+    "review_percentage": "73",
     "review_score": "6",
     "small_capsule": {
       "english": "7e302fc52d9e9b02a4077c638bc0989c8741453e/capsule_231x87.jpg"
     },
-    "steam_release_date": "1794238542",
+    "steam_release_date": "1794238500",
     "store_asset_mtime": "1794237316",
     "store_tags": {
       "0": "3843",
@@ -315,15 +341,6 @@
   "config": {
     "installdir": "Safari-TV",
     "launch": {
-      "0": {
-        "arguments": "-force-vulkan",
-        "description": "Play Safari-TV - Vulkan (Low PC recommended)",
-        "description_loc": {
-          "english": "Play Safari-TV - Vulkan (Low PC recommended)"
-        },
-        "executable": "Safari-TV.exe",
-        "type": "option1"
-      },
       "1": {
         "arguments": "-force-d3d11",
         "description": "Play Safari-TV - DirectX 11",
@@ -333,40 +350,54 @@
         "executable": "Safari-TV.exe",
         "type": "default"
       }
-    }
+    },
+    "uselaunchcommandline": "1"
   },
   "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
     "5118501": {
       "config": {
         "oslist": "windows"
       },
       "manifests": {
         "public": {
-          "download": "5724939040",
-          "gid": "6052219832542302538",
-          "size": "12222368746"
+          "download": "4649562112",
+          "gid": "4112866729348404466",
+          "size": "9984421506"
         },
         "test": {
-          "download": "5724939040",
-          "gid": "6052219832542302538",
-          "size": "12222368746"
+          "download": "4649562112",
+          "gid": "4112866729348404466",
+          "size": "9984421506"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26627044",
-        "timebuildupdated": "1794514453",
-        "timeupdated": "1794514544"
+        "buildid": "26720127",
+        "timebuildupdated": "1794882925",
+        "timeupdated": "1794882954"
       },
       "test": {
-        "buildid": "26627044",
+        "buildid": "26720127",
         "description": "dev testing game here",
-        "timebuildupdated": "1794514453",
-        "timeupdated": "1794514453"
+        "timebuildupdated": "1794882925",
+        "timeupdated": "1794882925"
       }
     },
-    "nocommonredists": "1",
     "privatebranches": "1"
   },
   "extended": {

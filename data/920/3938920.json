@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794768685,
-  "_history": [],
-  "_change_number": 40949661,
-  "_missing_token": true,
-  "_sha": "dc0e3ddaf616b0c872103f869d8ed55244baee6c",
-  "_size": 5013,
+  "_lastChecked": 1794902042,
+  "_history": [
+    {
+      "buildId": "26702376",
+      "branch": "public",
+      "timeUpdated": 1794832893,
+      "firstSeen": 1794902042,
+      "manifests": {
+        "3938921": {
+          "gid": "3893669826512521641",
+          "size": 376815331,
+          "download": 148719040
+        },
+        "3938923": {
+          "gid": "1834681358115159103",
+          "size": 501539129,
+          "download": 177426688
+        }
+      }
+    }
+  ],
+  "_change_number": 41076846,
+  "_missing_token": false,
+  "_sha": "47466bd23d2dfee0f1fbd278d153f8ade0f21dcf",
+  "_size": 6644,
   "appid": "3938920",
   "common": {
     "associations": {
@@ -32,8 +51,8 @@
     "clienticon": "372037150983888de9f684a89697fcd2940b20dc",
     "clienttga": "64d54546d5dab4d830411e2fb57402d6874aec56",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3938920",
     "genres": {
       "0": "4",
@@ -132,12 +151,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ba7e41abd26c8421074ac81566a08e4020d73ae5/capsule_231x87.jpg",
       "schinese": "fe87993c6ef3ca7c936cbee43f84e2b742dddd16/capsule_231x87_schinese.jpg",
       "tchinese": "c88d4663c07afc30e27e3a64bcd52d21f6a232c6/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1794881985",
     "store_asset_mtime": "1794320480",
     "store_tags": {
       "0": "615955",
@@ -177,5 +197,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Birza",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Birza.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Birza.app"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "3938921": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "148719040",
+          "gid": "3893669826512521641",
+          "size": "376815331"
+        }
+      }
+    },
+    "3938923": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "177426688",
+          "gid": "1834681358115159103",
+          "size": "501539129"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26702376",
+        "timebuildupdated": "1794832893",
+        "timeupdated": "1794832893"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "MilkBomb Studio",
+    "publisher": "MilkBomb Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "200000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "MilkBomb/Birza/BirzaData",
+            "replace": "MilkBomb/Birza/BirzaData"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "MilkBomb/Birza/BirzaData",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

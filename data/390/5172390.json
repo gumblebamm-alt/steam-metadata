@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793861076,
-  "_history": [],
-  "_change_number": 40613208,
-  "_missing_token": true,
-  "_sha": "0a650c2a1d46fbf9fc151a1b1671a9ec8ab17090",
-  "_size": 3854,
+  "_lastChecked": 1794902057,
+  "_history": [
+    {
+      "buildId": "26717711",
+      "branch": "public",
+      "timeUpdated": 1794876445,
+      "firstSeen": 1794902057,
+      "manifests": {
+        "5172391": {
+          "gid": "7542652214009828700",
+          "size": 404103678,
+          "download": 198241296
+        },
+        "5172392": {
+          "gid": "3442131050807620460",
+          "size": 375317761,
+          "download": 187917424
+        }
+      }
+    }
+  ],
+  "_change_number": 41078121,
+  "_missing_token": false,
+  "_sha": "f987a3992c87d4313e6932bbbbc8e58f04e22b6f",
+  "_size": 5389,
   "appid": "5172390",
   "common": {
     "aicontenttype": "1",
@@ -20,6 +39,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "clienticon": "4a7a36f8d10c05a10fbd2501379a3fb7a911120c",
@@ -31,7 +51,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5172390",
     "genres": {
       "0": "25",
@@ -114,7 +133,7 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d4b38de522a1b6b345ec07527e8b4684a657cfdd/capsule_231x87.jpg",
       "koreana": "bb2bcfc1212e7a2a07608636de64611eddea1757/capsule_231x87_koreana.jpg"
@@ -154,5 +173,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Witch of Oz",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "WitchOfOz.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "WitchOfOz.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5172391": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "198241296",
+          "gid": "7542652214009828700",
+          "size": "404103678"
+        }
+      }
+    },
+    "5172392": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "187917424",
+          "gid": "3442131050807620460",
+          "size": "375317761"
+        }
+      }
+    },
+    "baselanguages": "english,koreana",
+    "branches": {
+      "public": {
+        "buildid": "26717711",
+        "timebuildupdated": "1794874693",
+        "timeupdated": "1794876445"
+      }
+    }
+  },
+  "extended": {
+    "developer": "NoonBat",
+    "publisher": "NoonBat"
+  },
+  "ufs": {
+    "appidredirect": "5256780",
+    "maxnumfiles": "16",
+    "quota": "16777216",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "WitchOfOz/Saves/{64BitSteamID}",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "copied_from_parent": "1"
+    }
+  }
 }

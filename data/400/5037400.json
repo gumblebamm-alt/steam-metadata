@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794552239,
-  "_history": [],
-  "_change_number": 40693627,
-  "_missing_token": true,
-  "_sha": "e5f3086236b00d9bf9612f68af61bcb9f09c81df",
-  "_size": 3083,
+  "_lastChecked": 1794902054,
+  "_history": [
+    {
+      "buildId": "26500194",
+      "branch": "public",
+      "timeUpdated": 1794022052,
+      "firstSeen": 1794902054,
+      "manifests": {
+        "5037401": {
+          "gid": "6548033571327671550",
+          "size": 486500165,
+          "download": 109753376
+        },
+        "5037402": {
+          "gid": "8491375981797688985",
+          "size": 504186758,
+          "download": 117348048
+        }
+      }
+    }
+  ],
+  "_change_number": 41069721,
+  "_missing_token": false,
+  "_sha": "2408923a1c6a8d28d2ef6613f3825ac92ca2ef0d",
+  "_size": 4038,
   "appid": "5037400",
   "common": {
     "aicontenttype": "1",
@@ -25,7 +44,6 @@
     "clienticon": "df2bb9e4b7a4aff0557375b776958613f24f2f2a",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5037400",
     "genres": {
       "0": "4",
@@ -98,7 +116,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5d734777ef4c622ecfe1bb7e94ddcf1432923aae/capsule_231x87.jpg"
     },
@@ -137,5 +155,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BALLRENA",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BALLRENA.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "BALLRENA.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5037401": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "109753376",
+          "gid": "6548033571327671550",
+          "size": "486500165"
+        }
+      }
+    },
+    "5037402": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "117348048",
+          "gid": "8491375981797688985",
+          "size": "504186758"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26500194",
+        "timebuildupdated": "1794021989",
+        "timeupdated": "1794022052"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "vampireblackcat",
+    "publisher": "vampireblackcat"
+  }
 }

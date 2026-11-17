@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794552230,
+  "_lastChecked": 1794902046,
   "_history": [
     {
       "buildId": "24636748",
@@ -26,12 +26,30 @@
           "download": 173409776
         }
       }
+    },
+    {
+      "buildId": "26719280",
+      "branch": "public",
+      "timeUpdated": 1794880088,
+      "firstSeen": 1794902046,
+      "manifests": {
+        "4492522": {
+          "gid": "4745985671834029900",
+          "size": 240894321,
+          "download": 171520640
+        },
+        "4492523": {
+          "gid": "8383530231906303270",
+          "size": 267456046,
+          "download": 177426608
+        }
+      }
     }
   ],
-  "_change_number": 40710300,
+  "_change_number": 41076212,
   "_missing_token": false,
-  "_sha": "d296b0f0f19da08a09ed7b9b35fcd352df80913e",
-  "_size": 4529,
+  "_sha": "8d1988da72430185bb53d1d7ef887ac48935ad68",
+  "_size": 5033,
   "appid": "4492520",
   "common": {
     "associations": {
@@ -142,8 +160,9 @@
     "linuxclienticon": "2a561e7d2be3a906fec5ebf5f6310df71469811c",
     "name": "Witch Switched",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows,linux",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos,linux",
     "primary_genre": "37",
     "releasestate": "released",
     "review_percentage": "95",
@@ -201,11 +220,36 @@
         },
         "executable": "WitchSwitched.sh",
         "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "WitchSwitched.app",
+        "type": "default"
       }
     }
   },
   "depots": {
-    "4492521": {
+    "4492522": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "171520640",
+          "gid": "4745985671834029900",
+          "size": "240894321"
+        }
+      }
+    },
+    "4492523": {
       "config": {
         "language": "english",
         "osarch": "64",
@@ -213,17 +257,17 @@
       },
       "manifests": {
         "public": {
-          "download": "173409776",
-          "gid": "6296518534672175686",
-          "size": "260685397"
+          "download": "177426608",
+          "gid": "8383530231906303270",
+          "size": "267456046"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26510815",
-        "timebuildupdated": "1794081254",
-        "timeupdated": "1794081285"
+        "buildid": "26719280",
+        "timebuildupdated": "1794880088",
+        "timeupdated": "1794880088"
       }
     }
   },

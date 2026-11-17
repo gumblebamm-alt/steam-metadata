@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794262884,
+  "_lastChecked": 1794902051,
   "_history": [
     {
       "buildId": "26532916",
@@ -13,12 +13,35 @@
           "download": 52526528
         }
       }
+    },
+    {
+      "buildId": "26722417",
+      "branch": "public",
+      "timeUpdated": 1794891225,
+      "firstSeen": 1794902051,
+      "manifests": {
+        "4863541": {
+          "gid": "8614641164876490454",
+          "size": 133024724,
+          "download": 52538032
+        },
+        "4863542": {
+          "gid": "4990116861776084529",
+          "size": 197580698,
+          "download": 72324432
+        },
+        "4863543": {
+          "gid": "3507203670571707291",
+          "size": 98296312,
+          "download": 44220768
+        }
+      }
     }
   ],
-  "_change_number": 40760963,
+  "_change_number": 41102051,
   "_missing_token": false,
-  "_sha": "8c014480ac9e1341365bee6e1ce3a0c044e44d3e",
-  "_size": 5535,
+  "_sha": "5e0ee399a25b0f7c367aad84800b3ebe3337cd48",
+  "_size": 6290,
   "appid": "4863540",
   "common": {
     "associations": {
@@ -118,11 +141,12 @@
     },
     "name": "Progress98",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos,linux",
     "primary_genre": "28",
     "releasestate": "released",
-    "review_percentage": "100",
+    "review_percentage": "96",
     "review_score": "7",
     "small_capsule": {
       "english": "7d714eecf454869f377acb2a250756f4e881c6ca/capsule_231x87.jpg"
@@ -173,6 +197,19 @@
           "oslist": "windows"
         },
         "executable": "Progress98.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Progress98.app\\Contents\\MacOS\\Progress98"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "progress98.x86_64"
       }
     }
   },
@@ -184,17 +221,43 @@
       },
       "manifests": {
         "public": {
-          "download": "52526528",
-          "gid": "6220372493745942950",
-          "size": "133003540"
+          "download": "52538032",
+          "gid": "8614641164876490454",
+          "size": "133024724"
+        }
+      }
+    },
+    "4863542": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "72324432",
+          "gid": "4990116861776084529",
+          "size": "197580698"
+        }
+      }
+    },
+    "4863543": {
+      "config": {
+        "language": "english",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "44220768",
+          "gid": "3507203670571707291",
+          "size": "98296312"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26532916",
-        "timebuildupdated": "1794202573",
-        "timeupdated": "1794202589"
+        "buildid": "26722417",
+        "timebuildupdated": "1794891181",
+        "timeupdated": "1794891225"
       }
     },
     "nocommonredists": "1"

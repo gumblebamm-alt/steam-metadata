@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791679442,
+  "_lastChecked": 1794902039,
   "_history": [
     {
       "buildId": "24727575",
@@ -48,12 +48,75 @@
           "download": 74207072
         }
       }
+    },
+    {
+      "buildId": "26723910",
+      "branch": "public",
+      "timeUpdated": 1794898931,
+      "firstSeen": 1794902039,
+      "manifests": {
+        "3511031": {
+          "gid": "7280206666358752673",
+          "size": 1801494185,
+          "download": 1310943472
+        },
+        "3511032": {
+          "gid": "8391675202816796890",
+          "size": 1599225792,
+          "download": 1202583024
+        },
+        "3731610": {
+          "gid": "3533262034787822567",
+          "size": 145526783,
+          "download": 145537904
+        },
+        "3731611": {
+          "gid": "3716475964120699848",
+          "size": 145525401,
+          "download": 145536512
+        },
+        "3731650": {
+          "gid": "1473955958073598517",
+          "size": 175049123,
+          "download": 168084240
+        },
+        "3731660": {
+          "gid": "6869830191592524255",
+          "size": 233273268,
+          "download": 154170720
+        },
+        "3731670": {
+          "gid": "1590672124428584153",
+          "size": 202761527,
+          "download": 199053648
+        },
+        "3731680": {
+          "gid": "8866004282760907344",
+          "size": 178704048,
+          "download": 174094208
+        },
+        "4019870": {
+          "gid": "8352239029896544706",
+          "size": 161097903,
+          "download": 135014832
+        },
+        "4430450": {
+          "gid": "6016447553676847037",
+          "size": 88903450,
+          "download": 74207072
+        },
+        "5367950": {
+          "gid": "3648359142171166708",
+          "size": 9858144,
+          "download": 9850368
+        }
+      }
     }
   ],
-  "_change_number": 39692241,
+  "_change_number": 41104425,
   "_missing_token": false,
-  "_sha": "aed489a04fc1f558f29eb1a8d85006c1e11f32d3",
-  "_size": 13389,
+  "_sha": "9a7efe533d26d357387e54ffb14978ae2e711c0b",
+  "_size": 13233,
   "appid": "3511030",
   "common": {
     "associations": {
@@ -226,8 +289,9 @@
       "vietnamese": "Mini Cozy Room: Lo-Fi"
     },
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
     "review_percentage": "96",
@@ -354,7 +418,6 @@
       },
       "1": {
         "config": {
-          "betakey": "dev_test,mac_playtest,live_test",
           "oslist": "macos"
         },
         "executable": "MiniCozyRoom.app"
@@ -368,9 +431,9 @@
       },
       "manifests": {
         "public": {
-          "download": "1441736560",
-          "gid": "4990544796591958988",
-          "size": "3096731661"
+          "download": "1310943472",
+          "gid": "7280206666358752673",
+          "size": "1801494185"
         }
       }
     },
@@ -378,7 +441,13 @@
       "config": {
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "1202583024",
+          "gid": "8391675202816796890",
+          "size": "1599225792"
+        }
+      }
     },
     "3731610": {
       "config": {
@@ -398,7 +467,13 @@
         "oslist": "macos"
       },
       "dlcappid": "3731610",
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "145536512",
+          "gid": "3716475964120699848",
+          "size": "145525401"
+        }
+      }
     },
     "3731650": {
       "config": {
@@ -489,14 +564,20 @@
         "oslist": "windows,macos"
       },
       "dlcappid": "5367950",
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "9850368",
+          "gid": "3648359142171166708",
+          "size": "9858144"
+        }
+      }
     },
     "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,polish,russian,schinese,spanish,tchinese,thai,turkish,ukrainian,vietnamese",
     "branches": {
       "public": {
-        "buildid": "24727575",
-        "timebuildupdated": "1786682583",
-        "timeupdated": "1786682796"
+        "buildid": "26723910",
+        "timebuildupdated": "1794897847",
+        "timeupdated": "1794898931"
       }
     },
     "hasdepotsindlc": "0",
@@ -506,7 +587,7 @@
     "developer": "Tesseract Studio",
     "dlcavailableonstore": "1",
     "homepage": "https://www.nugemstudio.com/",
-    "listofdlc": "3731610,3731650,3731660,3731670,3731680,4019870,4420720,4430450",
+    "listofdlc": "3731610,3731650,3731660,3731670,3731680,4019870,4420720,4430450,5367950",
     "publisher": "Tesseract Studio"
   },
   "ufs": {
@@ -519,32 +600,9 @@
         "oscompare": "=",
         "root": "WinAppDataLocalLow",
         "useinstead": "MacAppSupport"
-      },
-      "1": {
-        "addpath": ".config/unity3d/TesseractStudio/MiniCozyRoom",
-        "os": "Linux",
-        "oscompare": "=",
-        "root": "WinAppDataLocalLow",
-        "useinstead": "LinuxHome"
       }
     },
     "savefiles": {
-      "0": {
-        "path": "TesseractStudio/MiniCozyRoom/",
-        "pattern": "*.es3",
-        "platforms": {
-          "1": "Windows"
-        },
-        "root": "WinAppDataLocalLow"
-      },
-      "1": {
-        "path": "TesseractStudio/MiniCozyRoom/",
-        "pattern": "*.bak",
-        "platforms": {
-          "1": "Windows"
-        },
-        "root": "WinAppDataLocalLow"
-      },
       "2": {
         "path": "TesseractStudio/MiniCozyRoom/SteamCloudSynced/{64BitSteamID}/",
         "pattern": "*.es3",

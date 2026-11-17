@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794552236,
-  "_history": [],
-  "_change_number": 40900173,
-  "_missing_token": true,
-  "_sha": "1e35f59ae781d7c10aed0253d83e0e38ae323afd",
-  "_size": 4225,
+  "_lastChecked": 1794902052,
+  "_history": [
+    {
+      "buildId": "26724212",
+      "branch": "public",
+      "timeUpdated": 1794899097,
+      "firstSeen": 1794902052,
+      "manifests": {
+        "4875661": {
+          "gid": "42205861830104042",
+          "size": 798496884,
+          "download": 645838528
+        },
+        "4875662": {
+          "gid": "1233753519083670791",
+          "size": 804680306,
+          "download": 639734096
+        },
+        "4875663": {
+          "gid": "8411075652948101967",
+          "size": 800748209,
+          "download": 645140560
+        }
+      }
+    }
+  ],
+  "_change_number": 41104379,
+  "_missing_token": false,
+  "_sha": "849907f810c8662ec4f2231a8272e4265c321ed1",
+  "_size": 6271,
   "appid": "4875660",
   "common": {
     "aicontenttype": "1",
@@ -47,9 +71,9 @@
     },
     "clienticon": "5a00d01f98e0a38189ff0a5a40f6526d9c2c7dfa",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4875660",
     "genres": {
       "0": "1",
@@ -123,7 +147,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "74af4e54fad4cb14375e12786106b74f3a34c57d/capsule_231x87.jpg"
     },
@@ -202,5 +226,112 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HIRUN",
+    "launch": {
+      "0": {
+        "arguments": "%command%",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play HIRUN",
+        "description_loc": {
+          "english": "Play HIRUN"
+        },
+        "executable": "HIRUN.exe"
+      },
+      "1": {
+        "arguments": "%command%",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Play HIRUN",
+        "description_loc": {
+          "english": "Play HIRUN"
+        },
+        "executable": "HIRUN"
+      },
+      "2": {
+        "arguments": "%command%",
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Play HIRUN",
+        "description_loc": {
+          "english": "Play HIRUN"
+        },
+        "executable": "HIRUN.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "controller_config/game_actions_4875660.vdf"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4875661": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "645838528",
+          "gid": "42205861830104042",
+          "size": "798496884"
+        }
+      }
+    },
+    "4875662": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "639734096",
+          "gid": "1233753519083670791",
+          "size": "804680306"
+        }
+      }
+    },
+    "4875663": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "645140560",
+          "gid": "8411075652948101967",
+          "size": "800748209"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26724212",
+        "timebuildupdated": "1794899049",
+        "timeupdated": "1794899097"
+      }
+    }
+  },
+  "extended": {
+    "developer": "JumpyBambi",
+    "homepage": "https://hirun-game.com/",
+    "publisher": "Mintbyte Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "30000000"
+  }
 }

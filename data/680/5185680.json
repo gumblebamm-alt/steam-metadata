@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794513305,
-  "_history": [],
-  "_change_number": 40867140,
-  "_missing_token": true,
-  "_sha": "94875ab726149cd7a19285324a2aee199d03cb00",
-  "_size": 3260,
+  "_lastChecked": 1794902057,
+  "_history": [
+    {
+      "buildId": "26709576",
+      "branch": "public",
+      "timeUpdated": 1794888110,
+      "firstSeen": 1794902057,
+      "manifests": {
+        "5185681": {
+          "gid": "5234083033104489331",
+          "size": 2755653736,
+          "download": 2534385616
+        }
+      }
+    }
+  ],
+  "_change_number": 41103387,
+  "_missing_token": false,
+  "_sha": "814d1eee8783f3c4aba3c4678facddb767818652",
+  "_size": 5080,
   "appid": "5185680",
   "common": {
     "aicontenttype": "1",
@@ -26,6 +40,7 @@
     },
     "clienticon": "dac19170bda3ea67498ad53f9b1ed1d8b906980e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -39,7 +54,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5185680",
     "genres": {
       "0": "25",
@@ -50,6 +64,12 @@
       "english": "5c25e244f37cef3a1c95fb5392bde952a8c4f39c/header.jpg"
     },
     "icon": "dac19170bda3ea67498ad53f9b1ed1d8b906980e",
+    "languages": {
+      "english": "1",
+      "japanese": "1",
+      "schinese": "1",
+      "tchinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -115,12 +135,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "d19b7118291e1d1457671187cb36effbe807f4a5/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791264783",
+    "store_asset_mtime": "1794887088",
     "store_tags": {
       "0": "12095",
       "1": "3799",
@@ -144,12 +164,102 @@
       "9": "6971"
     },
     "supported_languages": {
+      "japanese": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "schinese": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
       "tchinese": {
+        "full_audio": "true",
         "subtitles": "true",
         "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "終末王座",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows",
+          "steamdeck": "0"
+        },
+        "executable": "TerminusThrone.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "TerminusThrone.app",
+        "type": "none"
+      }
+    }
+  },
+  "depots": {
+    "5185681": {
+      "manifests": {
+        "public": {
+          "download": "2534385616",
+          "gid": "5234083033104489331",
+          "size": "2755653736"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26709576",
+        "timebuildupdated": "1794852113",
+        "timeupdated": "1794888110"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "neineimeow",
+    "publisher": "neineimeow"
+  },
+  "ufs": {
+    "maxnumfiles": "600",
+    "quota": "300000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/TerminusThrone-saves",
+            "replace": "Library/RenPy/TerminusThrone-saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacHome"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/TerminusThrone-saves",
+            "replace": ".renpy/TerminusThrone-saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RenPy/TerminusThrone-saves",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

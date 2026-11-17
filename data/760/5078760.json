@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792989963,
-  "_history": [],
-  "_change_number": 40235844,
-  "_missing_token": true,
-  "_sha": "bfce0b210659142460e340aaf25124cfd9f26334",
-  "_size": 3243,
+  "_lastChecked": 1794902055,
+  "_history": [
+    {
+      "buildId": "25741975",
+      "branch": "public",
+      "timeUpdated": 1791253120,
+      "firstSeen": 1794902055,
+      "manifests": {
+        "5078762": {
+          "gid": "8890701274655550175",
+          "size": 327854062,
+          "download": 194352848
+        },
+        "5078763": {
+          "gid": "7499507316805682603",
+          "size": 292302577,
+          "download": 185612112
+        }
+      }
+    }
+  ],
+  "_change_number": 41067236,
+  "_missing_token": false,
+  "_sha": "e50ee189a4f3698905983951a318df6529dfde86",
+  "_size": 4892,
   "appid": "5078760",
   "common": {
     "associations": {
@@ -36,9 +55,9 @@
     },
     "clienticon": "f48d8d2f7b7caec596e2c13b93ebde87f5abefb7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5078760",
     "genres": {
       "0": "25",
@@ -110,10 +129,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "45129bfa3901afc1c732e50ea93771c34b61903e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794873646",
     "store_asset_mtime": "1789947169",
     "store_tags": {
       "0": "1721",
@@ -145,5 +165,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Uncosy",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Uncosy.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Uncosy.x86_64"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5078761": {},
+    "5078762": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "194352848",
+          "gid": "8890701274655550175",
+          "size": "327854062"
+        }
+      }
+    },
+    "5078763": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "185612112",
+          "gid": "7499507316805682603",
+          "size": "292302577"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25741975",
+        "timebuildupdated": "1791253041",
+        "timeupdated": "1791253120"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "LunarCorp",
+    "publisher": "LunarCorp"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Uncosy",
+            "replace": "godot/app_userdata/Uncosy"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Uncosy",
+        "pattern": "save.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

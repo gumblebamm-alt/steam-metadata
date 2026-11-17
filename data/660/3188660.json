@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793821535,
-  "_history": [],
-  "_change_number": 40584368,
-  "_missing_token": true,
-  "_sha": "c24329e0d9ab91666042efcb0d3cb9d0f504ea84",
-  "_size": 3576,
+  "_lastChecked": 1794902037,
+  "_history": [
+    {
+      "buildId": "26651821",
+      "branch": "public",
+      "timeUpdated": 1794602392,
+      "firstSeen": 1794902037,
+      "manifests": {
+        "3188665": {
+          "gid": "2701425333533917023",
+          "size": 8045318382,
+          "download": 7473334144
+        }
+      }
+    }
+  ],
+  "_change_number": 41103914,
+  "_missing_token": false,
+  "_sha": "5922b0889942df146f1ea7f3a29e52e59b6f19b9",
+  "_size": 5204,
   "appid": "3188660",
   "common": {
     "associations": {
@@ -112,10 +126,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "9",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "53",
+    "review_score": "5",
     "small_capsule": {
       "english": "e7ec08d3ee1cfa107b7c86e26227dcd0b393c46d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794891417",
     "store_asset_mtime": "1792641112",
     "store_tags": {
       "0": "699",
@@ -128,10 +145,10 @@
       "2": "701",
       "3": "1100687",
       "4": "5055",
-      "5": "4191",
-      "6": "15868",
-      "7": "4145",
-      "8": "3839",
+      "5": "15868",
+      "6": "4191",
+      "7": "3839",
+      "8": "4145",
       "9": "1697"
     },
     "supported_languages": {
@@ -164,5 +181,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Motocross The Game",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play with Easy Anti-Cheat",
+        "description_loc": {
+          "english": "Play with Easy Anti-Cheat"
+        },
+        "executable": "start_protected_game.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "internal_interim",
+          "oslist": "windows"
+        },
+        "description": "Nightly (no EAC)",
+        "description_loc": {
+          "english": "Nightly (no EAC)"
+        },
+        "executable": "MotocrossTheGameSteam.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "1",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3188665": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "7473334144",
+          "gid": "2701425333533917023",
+          "size": "8045318382"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26651821",
+        "timebuildupdated": "1794593520",
+        "timeupdated": "1794602392"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "anti_cheat_support_url": "https://www.easy.ac/r/steam/gamebans/?steamAppId=3188660",
+    "developer": "Virtual MX Studios",
+    "homepage": "https://motocrossthegame.com",
+    "publisher": "Virtual MX Studios"
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794598884,
-  "_history": [],
-  "_change_number": 40920839,
-  "_missing_token": true,
-  "_sha": "397cc1688320f79e344fe677d15deadb7588a081",
-  "_size": 3545,
+  "_lastChecked": 1794902055,
+  "_history": [
+    {
+      "buildId": "26714364",
+      "branch": "public",
+      "timeUpdated": 1794866838,
+      "firstSeen": 1794902055,
+      "manifests": {
+        "5073611": {
+          "gid": "6406634922374600778",
+          "size": 2720188271,
+          "download": 2311432416
+        },
+        "5073612": {
+          "gid": "4863819563336704066",
+          "size": 2685164823,
+          "download": 2302918080
+        }
+      }
+    }
+  ],
+  "_change_number": 41058927,
+  "_missing_token": false,
+  "_sha": "7e8b1285ba9f3267d1613c6fff43fd846c27fc46",
+  "_size": 5218,
   "appid": "5073610",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +49,8 @@
     },
     "clienticon": "be90c6a7b2700168187c2a8d4a4baf51b34ed0fa",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5073610",
     "genres": {
       "0": "4",
@@ -103,10 +122,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4ca1ddbe99eb2de6f7ef876f72a58dd375a795f5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794871057",
     "store_asset_mtime": "1794587027",
     "store_tags": {
       "0": "9",
@@ -163,5 +183,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pegs of Hell",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "PegsOfHell.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "PegsOfHell.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5073611": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2311432416",
+          "gid": "6406634922374600778",
+          "size": "2720188271"
+        }
+      }
+    },
+    "5073612": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2302918080",
+          "gid": "4863819563336704066",
+          "size": "2685164823"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26714364",
+        "timebuildupdated": "1794866636",
+        "timeupdated": "1794866838"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "WOMBEX Games",
+    "publisher": "WOMBEX Games"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "90000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Pegs of Hell",
+        "pattern": "save.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Library/Application Support/Godot/app_userdata/Pegs of Hell",
+        "pattern": "save.cfg",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacHome"
+      },
+      "2": {
+        "path": ".local/share/godot/app_userdata/Pegs of Hell",
+        "pattern": "save.cfg",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
+  }
 }
