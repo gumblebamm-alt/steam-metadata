@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794513263,
-  "_history": [],
-  "_change_number": 40876659,
-  "_missing_token": true,
-  "_sha": "1d3b563ac4b2553464677695915a0690e2c998a9",
-  "_size": 7710,
+  "_lastChecked": 1794948892,
+  "_history": [
+    {
+      "buildId": "26733209",
+      "branch": "public",
+      "timeUpdated": 1794926766,
+      "firstSeen": 1794948892,
+      "manifests": {
+        "2781661": {
+          "gid": "9152949225451548372",
+          "size": 1790211348,
+          "download": 1043993712
+        }
+      }
+    }
+  ],
+  "_change_number": 41170785,
+  "_missing_token": false,
+  "_sha": "41dbd018fae3dca4794d6a81bdb1a1ccd95156ee",
+  "_size": 9405,
   "appid": "2781660",
   "common": {
     "associations": {
@@ -38,8 +52,8 @@
     "clienticon": "8e99781341ebdd4e952fee7a290d596a5bea1e1b",
     "clienttga": "19ef4258701a6d94f0822c2b066c834f154867ca",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2781660",
     "genres": {
       "0": "2"
@@ -52,6 +66,19 @@
       "tchinese": "c90309d3b9de1f8e45d224efdfc1680e93307f3e/header_tchinese.jpg"
     },
     "icon": "1ce16e5bab63cc0e5450cf08c6a839f662fd7ee7",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "polish": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1",
+      "tchinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en,zh-cn,zh-tw,ko,ja",
       "library_header": "en,zh-cn,zh-tw,ko,ja",
@@ -156,7 +183,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "80",
+    "review_score": "7",
     "small_capsule": {
       "english": "0bbfcff763db244e03e13c553e988041afb283da/capsule_231x87.jpg",
       "japanese": "151a12f4b4fe16c1178e03cae1867ee40c84f80c/capsule_231x87_japanese.jpg",
@@ -164,7 +193,8 @@
       "schinese": "b77ab5bd9542fa041bff4960a9412330eb91805e/capsule_231x87_schinese.jpg",
       "tchinese": "cfbf229ce10439c69cd4551fe081be1f3659f1d2/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1794471689",
+    "steam_release_date": "1794927610",
+    "store_asset_mtime": "1794919681",
     "store_tags": {
       "0": "1645",
       "1": "1676",
@@ -225,5 +255,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dawn Of Defense",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Launch Dawn of Defense",
+        "description_loc": {
+          "english": "Launch Dawn of Defense"
+        },
+        "executable": "Dawn Of Defense.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-freecam -devconsole",
+        "config": {
+          "betakey": "develop"
+        },
+        "description": "Dawn of Defense with dev tools",
+        "description_loc": {
+          "english": "Dawn of Defense with dev tools"
+        },
+        "executable": "Dawn Of Defense.exe",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "2781661": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1043993712",
+          "gid": "9152949225451548372",
+          "size": "1790211348"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26733209",
+        "timebuildupdated": "1794926740",
+        "timeupdated": "1794926766"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "6side Studio",
+    "homepage": "https://6side.de/",
+    "publisher": "6side Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "6side Studio/Dawn of Defense/CloudSaveData",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793773151,
-  "_history": [],
-  "_change_number": 39226925,
-  "_missing_token": true,
-  "_sha": "e714002541e861e40937a2bda2d5bbd5dac8cc15",
-  "_size": 3603,
+  "_lastChecked": 1794948922,
+  "_history": [
+    {
+      "buildId": "26735325",
+      "branch": "public",
+      "timeUpdated": 1794932113,
+      "firstSeen": 1794948922,
+      "manifests": {
+        "4994181": {
+          "gid": "7311040811946674959",
+          "size": 2500499322,
+          "download": 217254144
+        },
+        "4994182": {
+          "gid": "1672603201623690179",
+          "size": 2518538995,
+          "download": 225318384
+        }
+      }
+    }
+  ],
+  "_change_number": 41151719,
+  "_missing_token": false,
+  "_sha": "4027abeaaf57755e8bda01b793241d664ef9e9f0",
+  "_size": 5397,
   "appid": "4994180",
   "common": {
     "associations": {
@@ -29,8 +48,8 @@
     },
     "clienticon": "d3573c7f584bd9efe8e647db8a7f10a95a7def3f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4994180",
     "genres": {
       "0": "4",
@@ -41,6 +60,21 @@
       "english": "82a1178e32a50399f8cb954fee95cd7d08063550/header.jpg"
     },
     "icon": "d3573c7f584bd9efe8e647db8a7f10a95a7def3f",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "latam": "1",
+      "polish": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1",
+      "ukrainian": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -103,11 +137,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bfc85e4f97a0ec3e123719f820fa722ffe93b5de/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1789681705",
+    "store_asset_mtime": "1794934610",
     "store_tags": {
       "0": "560542",
       "1": "9271",
@@ -173,5 +207,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Packs To Riches",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Packs To Riches.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Packs To Riches.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4994181": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "217254144",
+          "gid": "7311040811946674959",
+          "size": "2500499322"
+        }
+      }
+    },
+    "4994182": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "225318384",
+          "gid": "1672603201623690179",
+          "size": "2518538995"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26735325",
+        "timebuildupdated": "1794931956",
+        "timeupdated": "1794932113"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Afternoon Games",
+    "publisher": "Afternoon Games"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Afternoon Games/Packs To Riches/saves",
+            "replace": "Library/Application Support/Afternoon Games/Packs To Riches/saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Afternoon Games/Packs To Riches/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

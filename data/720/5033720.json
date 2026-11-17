@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793040170,
-  "_history": [],
-  "_change_number": 40264988,
-  "_missing_token": true,
-  "_sha": "21f3cc2dc765580aec3a283a443047a800f1a73d",
-  "_size": 3914,
+  "_lastChecked": 1794948923,
+  "_history": [
+    {
+      "buildId": "26580717",
+      "branch": "public",
+      "timeUpdated": 1794361869,
+      "firstSeen": 1794948923,
+      "manifests": {
+        "5033721": {
+          "gid": "1735762080082253931",
+          "size": 200944456,
+          "download": 69093824
+        },
+        "5033722": {
+          "gid": "7504257344474738819",
+          "size": 286645503,
+          "download": 93022432
+        }
+      }
+    }
+  ],
+  "_change_number": 41146858,
+  "_missing_token": false,
+  "_sha": "a53139601b4890220a3c123dd787d5d6c14bc886",
+  "_size": 5617,
   "appid": "5033720",
   "common": {
     "aicontenttype": "1",
@@ -23,7 +42,10 @@
       "category_22": "1",
       "category_23": "1",
       "category_28": "1",
-      "category_59": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
       "category_62": "1",
       "category_66": "1",
       "category_67": "1",
@@ -34,9 +56,9 @@
     },
     "clienticon": "33a4f610da54c7f631a8fb1a0e6c27a38fb4d314",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5033720",
     "genres": {
       "0": "1",
@@ -119,14 +141,16 @@
       }
     },
     "name": "Swarmdle",
-    "osarch": "",
+    "osarch": "64",
+    "oscpu": "",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8a044d5056296eaee9a35b5328df8ec7a86c982e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794936928",
     "store_asset_mtime": "1788411021",
     "store_tags": {
       "0": "723991",
@@ -185,5 +209,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Swarmdle",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Swarmdle.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Swarmdle.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchconfigfile": "controller_config/game_actions_5033720.vdf",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5033721": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "69093824",
+          "gid": "1735762080082253931",
+          "size": "200944456"
+        }
+      }
+    },
+    "5033722": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "93022432",
+          "gid": "7504257344474738819",
+          "size": "286645503"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26580717",
+        "timebuildupdated": "1794361869",
+        "timeupdated": "1794361869"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Half Concept",
+    "publisher": "Half Concept"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Half Concept/Swarmdle/storage",
+        "pattern": "sdle_*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794866513,
-  "_history": [],
-  "_change_number": 41005176,
-  "_missing_token": true,
-  "_sha": "02823763f280f67922051665584e317ae0cd1ed2",
-  "_size": 4260,
+  "_lastChecked": 1794948923,
+  "_history": [
+    {
+      "buildId": "26733364",
+      "branch": "public",
+      "timeUpdated": 1794927437,
+      "firstSeen": 1794948923,
+      "manifests": {
+        "5028241": {
+          "gid": "653280691421944051",
+          "size": 3794897967,
+          "download": 3611150672
+        },
+        "5028242": {
+          "gid": "3308947404158232072",
+          "size": 3877816920,
+          "download": 3634897888
+        }
+      }
+    }
+  ],
+  "_change_number": 41118722,
+  "_missing_token": false,
+  "_sha": "4cb6b033d66c0b7562784d3919b457d5983381c4",
+  "_size": 6457,
   "appid": "5028240",
   "common": {
     "aicontenttype": "1",
@@ -36,9 +55,9 @@
     },
     "clienticon": "12ceca58a2a1552b082788a107a6c6d9e7b62076",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5028240",
     "genres": {
       "0": "1",
@@ -126,10 +145,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b6584461cb31d96f4b6e01144c216e43630fcb83/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794921346",
     "store_asset_mtime": "1793874971",
     "store_tags": {
       "0": "42804",
@@ -201,5 +221,113 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Diofru Survivors of the Tower",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Diofru.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Diofru.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5028241": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3611150672",
+          "gid": "653280691421944051",
+          "size": "3794897967"
+        }
+      }
+    },
+    "5028242": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "3634897888",
+          "gid": "3308947404158232072",
+          "size": "3877816920"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26733364",
+        "timebuildupdated": "1794927071",
+        "timeupdated": "1794927437"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "BEE STAR",
+    "homepage": "https://www.beestar.io/en/work/diofru",
+    "publisher": "BEE STAR"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Diofru",
+        "pattern": "meta_full_1.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Diofru",
+        "pattern": "meta_full_1.cfg.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Diofru",
+        "pattern": "meta_full_2.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Diofru",
+        "pattern": "meta_full_2.cfg.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Diofru",
+        "pattern": "meta_full_3.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Godot/app_userdata/Diofru",
+        "pattern": "meta_full_3.cfg.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Godot/app_userdata/Diofru",
+        "pattern": "achievements.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

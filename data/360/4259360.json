@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794866491,
-  "_history": [],
-  "_change_number": 41016810,
-  "_missing_token": true,
-  "_sha": "8623e56143ca1c8076f56c5a2f856f91514ed0ee",
-  "_size": 5584,
+  "_lastChecked": 1794948906,
+  "_history": [
+    {
+      "buildId": "26728418",
+      "branch": "public",
+      "timeUpdated": 1794912919,
+      "firstSeen": 1794948906,
+      "manifests": {
+        "4259361": {
+          "gid": "7457438857030592569",
+          "size": 256490458,
+          "download": 181372784
+        },
+        "4259362": {
+          "gid": "3638647051082092388",
+          "size": 252962222,
+          "download": 179451792
+        },
+        "4259363": {
+          "gid": "6278103985051612467",
+          "size": 272399257,
+          "download": 189155248
+        }
+      }
+    }
+  ],
+  "_change_number": 41168318,
+  "_missing_token": false,
+  "_sha": "812a6f35b800087e303adbd9f975ddda6984e33e",
+  "_size": 8176,
   "appid": "4259360",
   "common": {
     "associations": {
@@ -38,8 +62,8 @@
     },
     "clienticon": "d07b154da31b836c37607511c645e3f67c7a60e5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4259360",
     "genres": {
       "0": "25",
@@ -123,7 +147,9 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "93",
+    "review_score": "7",
     "small_capsule": {
       "english": "323dab793597ec6d840011a4272aa37f4048a9f1/capsule_231x87.jpg"
     },
@@ -188,6 +214,7 @@
         }
       }
     },
+    "steam_release_date": "1794927592",
     "store_asset_mtime": "1794775366",
     "store_tags": {
       "0": "21",
@@ -219,5 +246,129 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Milki Delivery",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MilkiDelivery.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "MilkiDelivery.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Contents/MacOS/MilkiDelivery",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollerconfigdetails": {
+      "3823355570": {
+        "controller_type": "controller_neptune",
+        "enabled_branches": "default,presstesting",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4259361": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "181372784",
+          "gid": "7457438857030592569",
+          "size": "256490458"
+        }
+      }
+    },
+    "4259362": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "179451792",
+          "gid": "3638647051082092388",
+          "size": "252962222"
+        }
+      }
+    },
+    "4259363": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "189155248",
+          "gid": "6278103985051612467",
+          "size": "272399257"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26728418",
+        "timebuildupdated": "1794912917",
+        "timeupdated": "1794912919"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Blibloop",
+    "homepage": "https://milkidelivery.carrd.co/",
+    "publisher": "Doot Tiny Games"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "300000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "DootTinyGames/MilkiDelivery",
+            "replace": ".config/unity3d/DootTinyGames/MilkiDelivery"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "DootTinyGames/MilkiDelivery",
+            "replace": "Library/Application Support/DootTinyGames/MilkiDelivery"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "DootTinyGames/MilkiDelivery",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

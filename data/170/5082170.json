@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1794724135,
-  "_history": [],
-  "_change_number": 40961670,
-  "_missing_token": true,
-  "_sha": "7f8cf4bfde0a611b32f604fb17925838b88e2c59",
-  "_size": 5127,
+  "_lastChecked": 1794948924,
+  "_history": [
+    {
+      "buildId": "26675083",
+      "branch": "public",
+      "timeUpdated": 1794704067,
+      "firstSeen": 1794948924,
+      "manifests": {
+        "5082171": {
+          "gid": "5988084468849155244",
+          "size": 4259043615,
+          "download": 3903221264
+        }
+      }
+    },
+    {
+      "buildId": "26705725",
+      "branch": "vr-test",
+      "timeUpdated": 1794842030,
+      "firstSeen": 1794948924,
+      "manifests": {
+        "5082171": {
+          "gid": "8923805184764424168",
+          "size": 2314018836,
+          "download": 2028193504
+        }
+      }
+    }
+  ],
+  "_change_number": 41118355,
+  "_missing_token": false,
+  "_sha": "f7afc76505a1c14bb8e6f6e0fef144b857791a12",
+  "_size": 7001,
   "appid": "5082170",
   "common": {
     "associations": {
@@ -27,8 +54,8 @@
     },
     "clienticon": "1cf792a8da58a5b9597d6c970647e5645e0d02a1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5082170",
     "genres": {
       "0": "1",
@@ -113,11 +140,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "brazilian": "5f6e9734158cdb5017daf776fd0c8fe4ac867e17/capsule_231x87_brazilian.jpg",
       "english": "e194e350a08d4f9d0b44fe6a2db674aed516ebfa/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794926896",
     "store_asset_mtime": "1792236019",
     "store_tags": {
       "0": "4777",
@@ -206,5 +234,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Smart Fruit Kombat",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "FruitKombat.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input/manifest.vdf"
+  },
+  "depots": {
+    "5082171": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3903221264",
+          "gid": "5988084468849155244",
+          "size": "4259043615"
+        },
+        "vr-test": {
+          "download": "2028193504",
+          "gid": "8923805184764424168",
+          "size": "2314018836"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english",
+    "branches": {
+      "public": {
+        "buildid": "26675083",
+        "timebuildupdated": "1794703887",
+        "timeupdated": "1794704067"
+      },
+      "vr-test": {
+        "buildid": "26705725",
+        "description": "Teste PCVR Quest Link SteamVR",
+        "timebuildupdated": "1794842030",
+        "timeupdated": "1794842030"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Luke Lime",
+    "homepage": "https://jogodasfrutas.com/",
+    "publisher": "Luke Lime"
+  },
+  "ufs": {
+    "maxnumfiles": "110",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Fruit Kombat",
+            "replace": "godot/app_userdata/Fruit Kombat"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Fruit Kombat",
+        "pattern": "rotten_unlocks.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

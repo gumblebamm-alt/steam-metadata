@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793425408,
+  "_lastChecked": 1794948898,
   "_history": [
     {
       "buildId": "25129059",
@@ -92,10 +92,10 @@
       }
     }
   ],
-  "_change_number": 40146675,
+  "_change_number": 41017875,
   "_missing_token": false,
-  "_sha": "7ae629a23e694b80bdf12a8b4f39d404a918ddab",
-  "_size": 6261,
+  "_sha": "8b00855bd7790dbeda907fa1c0d84f6a4c1f402b",
+  "_size": 7113,
   "appid": "3491690",
   "common": {
     "associations": {
@@ -277,8 +277,8 @@
     "steam_release_date": "1787572959",
     "store_asset_mtime": "1781541776",
     "store_tags": {
-      "0": "31579",
-      "1": "4947",
+      "0": "4947",
+      "1": "31579",
       "10": "11014",
       "11": "9204",
       "12": "10235",
@@ -293,8 +293,8 @@
       "3": "6426",
       "4": "31275",
       "5": "4085",
-      "6": "4486",
-      "7": "4136",
+      "6": "4136",
+      "7": "4486",
       "8": "1719",
       "9": "1742"
     },
@@ -361,5 +361,44 @@
   "extended": {
     "developer": "Nochi Studios",
     "publisher": "Nochi Studios"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "40",
+    "quota": "2000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Nochi Studios/lovebyte/SaveFiles",
+            "replace": "unity.Nochi Studios.lovebyte/SaveFiles"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Nochi Studios/lovebyte/SaveFiles",
+            "replace": ".config/unity3d/Nochi Studios/lovebyte/SaveFiles"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Nochi Studios/lovebyte/SaveFiles",
+        "pattern": "*.dat",
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794552220,
-  "_history": [],
-  "_change_number": 40902573,
-  "_missing_token": true,
-  "_sha": "fc0e1b382dd0b41d546610328cb011ff41c6f258",
-  "_size": 5646,
+  "_lastChecked": 1794948896,
+  "_history": [
+    {
+      "buildId": "26724394",
+      "branch": "public",
+      "timeUpdated": 1794900253,
+      "firstSeen": 1794948896,
+      "manifests": {
+        "3218351": {
+          "gid": "3974012052536293558",
+          "size": 730345221,
+          "download": 548663024
+        },
+        "3218352": {
+          "gid": "3843734379024947890",
+          "size": 696726169,
+          "download": 540662496
+        },
+        "3218353": {
+          "gid": "3241501827574868470",
+          "size": 897246711,
+          "download": 600956320
+        }
+      }
+    }
+  ],
+  "_change_number": 41168307,
+  "_missing_token": false,
+  "_sha": "7e25a44ae681103ae1316e73d16c0c448a9846e3",
+  "_size": 7503,
   "appid": "3218350",
   "common": {
     "associations": {
@@ -30,7 +54,6 @@
     "clienttga": "19a64e5db923e1b20915cfc81f08714870bace6a",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3218350",
     "genres": {
       "0": "4",
@@ -103,7 +126,9 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "89",
+    "review_score": "8",
     "small_capsule": {
       "english": "595066dd6cf137516fe55013fca6fa2d034f57a4/capsule_231x87.jpg"
     },
@@ -192,7 +217,8 @@
         }
       }
     },
-    "store_asset_mtime": "1793249196",
+    "steam_release_date": "1794906105",
+    "store_asset_mtime": "1794905808",
     "store_tags": {
       "0": "122",
       "1": "615955",
@@ -201,8 +227,8 @@
       "12": "1702",
       "13": "4057",
       "14": "5981",
-      "15": "6869",
-      "16": "6730",
+      "15": "6730",
+      "16": "6869",
       "17": "8945",
       "18": "12057",
       "19": "1742",
@@ -223,5 +249,99 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Melvor Idle 2",
+    "launch": {
+      "0": {
+        "arguments": "--rendering-driver d3d12",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play using Direct3D 12 (Recommended)",
+        "description_loc": {
+          "english": "Play using Direct3D 12 (Recommended)"
+        },
+        "executable": "Melvor2.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "MelvorIdle2.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Melvor2.app"
+      },
+      "3": {
+        "arguments": "--rendering-driver vulkan",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play using Vulkan",
+        "description_loc": {
+          "english": "Play using Vulkan"
+        },
+        "executable": "Melvor2.exe"
+      }
+    }
+  },
+  "depots": {
+    "3218351": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "548663024",
+          "gid": "3974012052536293558",
+          "size": "730345221"
+        }
+      }
+    },
+    "3218352": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "540662496",
+          "gid": "3843734379024947890",
+          "size": "696726169"
+        }
+      }
+    },
+    "3218353": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "600956320",
+          "gid": "3241501827574868470",
+          "size": "897246711"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26724394",
+        "timebuildupdated": "1794899710",
+        "timeupdated": "1794900253"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Games by Malcs",
+    "homepage": "https://melvoridle2.runescape.com/",
+    "publisher": "Jagex"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "100000000"
+  }
 }

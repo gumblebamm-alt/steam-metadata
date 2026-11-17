@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794866518,
-  "_history": [],
-  "_change_number": 41011300,
-  "_missing_token": true,
-  "_sha": "e12e31cf59990aa0d07f238d08b4c73a70fa9ac5",
-  "_size": 4194,
+  "_lastChecked": 1794948926,
+  "_history": [
+    {
+      "buildId": "26670081",
+      "branch": "public",
+      "timeUpdated": 1794677965,
+      "firstSeen": 1794948926,
+      "manifests": {
+        "5146382": {
+          "gid": "6168682777149468022",
+          "size": 217833954,
+          "download": 128688400
+        },
+        "5146383": {
+          "gid": "4978039184450963570",
+          "size": 238468017,
+          "download": 129157072
+        }
+      }
+    }
+  ],
+  "_change_number": 41150311,
+  "_missing_token": false,
+  "_sha": "b7dfc430970fae069318b3d2ac6b98b51a4caac4",
+  "_size": 6057,
   "appid": "5146380",
   "common": {
     "aicontenttype": "1",
@@ -38,9 +57,9 @@
     },
     "clienticon": "2d96434cce035204ebc605b3f6df628ee8d00353",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5146380",
     "genres": {
       "0": "4",
@@ -129,10 +148,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1789435a2489e0a3285e8f25ab606b9948e35209/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794938139",
     "store_asset_mtime": "1792550863",
     "store_tags": {
       "0": "597",
@@ -199,5 +219,95 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Attkand",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "attkand.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "attkand"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5146382": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "128688400",
+          "gid": "6168682777149468022",
+          "size": "217833954"
+        }
+      }
+    },
+    "5146383": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "129157072",
+          "gid": "4978039184450963570",
+          "size": "238468017"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,norwegian,portuguese,schinese,spanish,swedish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26670081",
+        "timebuildupdated": "1794677942",
+        "timeupdated": "1794677965"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "5146380"
+  },
+  "extended": {
+    "developer": "Starhand Games",
+    "homepage": "http://www.starhandgames.com",
+    "publisher": "Starhand Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "starhand-games/attkand/data",
+            "replace": "attkand"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "starhand-games/attkand/data",
+        "pattern": "*.ron",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "starhand-games/attkand/data",
+        "pattern": "*.bak",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

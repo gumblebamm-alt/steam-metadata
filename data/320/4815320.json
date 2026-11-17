@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794902050,
-  "_history": [],
-  "_change_number": 40959309,
-  "_missing_token": true,
-  "_sha": "e165310783bd3e41d4e0e3e42ae10c3c38486039",
-  "_size": 4865,
+  "_lastChecked": 1794948917,
+  "_history": [
+    {
+      "buildId": "26662904",
+      "branch": "public",
+      "timeUpdated": 1794650439,
+      "firstSeen": 1794948917,
+      "manifests": {
+        "4815321": {
+          "gid": "1187297529968351912",
+          "size": 1115375093,
+          "download": 889545024
+        },
+        "5219710": {
+          "gid": "1602990542179285178",
+          "size": 170,
+          "download": 208
+        }
+      }
+    }
+  ],
+  "_change_number": 41148256,
+  "_missing_token": false,
+  "_sha": "c3d84d8ec2839e380649100d7e8c39ef550a0b2d",
+  "_size": 6693,
   "appid": "4815320",
   "common": {
     "aicontenttype": "1",
@@ -45,6 +64,7 @@
     },
     "clienticon": "9954cc6ff4123b97b3d7dd0a2fe27c296f922dda",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "exfgls": "1",
@@ -144,11 +164,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "a62812ad1ba45992feb746de7ab9bbdc673bfad6/capsule_231x87.jpg",
       "schinese": "2b07a9679713b4c0496c58349a3d5003325aad86/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1794918365",
     "store_asset_mtime": "1794695840",
     "store_tags": {
       "0": "7178",
@@ -215,5 +238,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gold Miner Together",
+    "launch": {
+      "0": {
+        "executable": "start_protected_game.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "steam_input/steam_input_manifest.vdf"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4815321": {
+      "manifests": {
+        "public": {
+          "download": "889545024",
+          "gid": "1187297529968351912",
+          "size": "1115375093"
+        }
+      }
+    },
+    "5219710": {
+      "dlcappid": "5219710",
+      "manifests": {
+        "public": {
+          "download": "208",
+          "gid": "1602990542179285178",
+          "size": "170"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26662904",
+        "timebuildupdated": "1794639843",
+        "timeupdated": "1794650439"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "anti_cheat_support_url": "https://www.easy.ac/r/steam/gamebans/?steamAppId=4815320",
+    "developer": "Margarite Entertainment",
+    "dlcavailableonstore": "1",
+    "homepage": "https://margariteentertainment.freshdesk.com/support/tickets/new",
+    "listofdlc": "5219710",
+    "publisher": "Margarite Entertainment",
+    "remoteplaytogethertestingbranches": "default"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1048576",
+    "savefiles": {
+      "0": {
+        "path": "gold-miner-party-rush/cloud/{64BitSteamID}",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

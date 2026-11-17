@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794425759,
-  "_history": [],
-  "_change_number": 39886401,
-  "_missing_token": true,
-  "_sha": "41912fdae745329273a2fa72d1c6dd17fe4e63f8",
-  "_size": 2981,
+  "_lastChecked": 1794948905,
+  "_history": [
+    {
+      "buildId": "26733642",
+      "branch": "public",
+      "timeUpdated": 1794928073,
+      "firstSeen": 1794948905,
+      "manifests": {
+        "4216611": {
+          "gid": "9135699393306410857",
+          "size": 1721591730,
+          "download": 1577349424
+        }
+      }
+    }
+  ],
+  "_change_number": 41132413,
+  "_missing_token": false,
+  "_sha": "2d04e778bafae4716d12c16de3840ebbef80258d",
+  "_size": 4414,
   "appid": "4216610",
   "common": {
     "aicontenttype": "1",
@@ -31,7 +45,14 @@
     "clienticon": "5f46dbbea5b3bc15eb7dc85c0546770865a47b48",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
+    "eulas": {
+      "0": {
+        "id": "4216610_eula_0",
+        "name": "Spellfall: Mages & Mayhem EULA",
+        "url": "https://store.steampowered.com/eula/4216610_eula_0",
+        "version": "1"
+      }
+    },
     "gameid": "4216610",
     "genres": {
       "0": "1"
@@ -101,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "49711b87e0f03062892844ac5f1545f9e04abc50/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794932231",
     "store_asset_mtime": "1790565328",
     "store_tags": {
       "0": "1718",
@@ -134,5 +156,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Spellfall-MM",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Spellfall\\Binaries\\Win64\\Spellfall-Win64-Shipping.exe"
+      }
+    },
+    "steamcontrollerconfigdetails": {},
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4216611": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1577349424",
+          "gid": "9135699393306410857",
+          "size": "1721591730"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26733642",
+        "timebuildupdated": "1794927783",
+        "timeupdated": "1794928073"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Chain Five Games",
+    "publisher": "Chain Five Games"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Spellfall/Saved",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

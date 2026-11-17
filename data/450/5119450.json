@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794262893,
-  "_history": [],
-  "_change_number": 40755763,
-  "_missing_token": true,
-  "_sha": "0ad5f48efbb81d5af30fb8ff456da1c8678bc21f",
-  "_size": 3159,
+  "_lastChecked": 1794948925,
+  "_history": [
+    {
+      "buildId": "26540755",
+      "branch": "public",
+      "timeUpdated": 1794907656,
+      "firstSeen": 1794948925,
+      "manifests": {
+        "5119451": {
+          "gid": "2520817519469502065",
+          "size": 471057889,
+          "download": 250910400
+        },
+        "5119452": {
+          "gid": "1587934007831581698",
+          "size": 612679076,
+          "download": 314033952
+        }
+      }
+    }
+  ],
+  "_change_number": 41109932,
+  "_missing_token": false,
+  "_sha": "cf00fd4ee9cea32342a9317ffbc34d044898051f",
+  "_size": 4551,
   "appid": "5119450",
   "common": {
     "aicontenttype": "1",
@@ -28,6 +47,7 @@
     },
     "clienticon": "c1f3d248f75d287099ae5d388250e497624202b1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -35,7 +55,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5119450",
     "genres": {
       "0": "23",
@@ -107,10 +126,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7308bee81cdfda9f454741cb2963e62223ccd67a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794909801",
     "store_asset_mtime": "1790684431",
     "store_tags": {
       "0": "35079",
@@ -141,5 +161,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pending Review",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Pending Review.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Pending Review.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5119451": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "250910400",
+          "gid": "2520817519469502065",
+          "size": "471057889"
+        }
+      }
+    },
+    "5119452": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "314033952",
+          "gid": "1587934007831581698",
+          "size": "612679076"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26540755",
+        "timebuildupdated": "1794231881",
+        "timeupdated": "1794907656"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Worthy Game",
+    "publisher": "Worthy Game"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "15000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Pending Review",
+        "pattern": "*-save.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

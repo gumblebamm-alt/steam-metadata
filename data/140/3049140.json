@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1794902037,
-  "_history": [],
-  "_change_number": 41015011,
-  "_missing_token": true,
-  "_sha": "6de13bc8f3e3b95bb0f206fb108a888f6d6305da",
-  "_size": 3589,
+  "_lastChecked": 1794948894,
+  "_history": [
+    {
+      "buildId": "26734338",
+      "branch": "public",
+      "timeUpdated": 1794929496,
+      "firstSeen": 1794948894,
+      "manifests": {
+        "3049141": {
+          "gid": "8218780156093340194",
+          "size": 676407279,
+          "download": 350804608
+        },
+        "3049142": {
+          "gid": "424119664066864559",
+          "size": 666149990,
+          "download": 345128400
+        },
+        "3049143": {
+          "gid": "3209876400570663069",
+          "size": 642354612,
+          "download": 339701488
+        },
+        "5524270": {
+          "gid": "4015447770469609521",
+          "size": 35342258,
+          "download": 35343296
+        }
+      }
+    }
+  ],
+  "_change_number": 41124316,
+  "_missing_token": false,
+  "_sha": "3ada5767d3274bda461b18e3d3c2b0dbf2d29cb6",
+  "_size": 6113,
   "appid": "3049140",
   "common": {
     "associations": {
@@ -41,9 +70,9 @@
     },
     "clienticon": "b7593833fb6914aca5b83eaeb446a44e3b901aac",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3049140",
     "genres": {
       "0": "25",
@@ -122,10 +151,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b980ee0780d52cbb27a8c364b725878078dcd7fc/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1792933988",
     "store_tags": {
       "0": "6971",
@@ -162,5 +192,127 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Choice of Life Modern Ages",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Choice of Life - Modern Ages.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Choice of Life - Modern Ages.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Choice of Life - Modern Ages.app"
+      }
+    }
+  },
+  "depots": {
+    "3049141": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "350804608",
+          "gid": "8218780156093340194",
+          "size": "676407279"
+        }
+      }
+    },
+    "3049142": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "345128400",
+          "gid": "424119664066864559",
+          "size": "666149990"
+        }
+      }
+    },
+    "3049143": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "339701488",
+          "gid": "3209876400570663069",
+          "size": "642354612"
+        }
+      }
+    },
+    "5524270": {
+      "dlcappid": "5524270",
+      "manifests": {
+        "public": {
+          "download": "35343296",
+          "gid": "4015447770469609521",
+          "size": "35342258"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26734338",
+        "timebuildupdated": "1794929496",
+        "timeupdated": "1794929496"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Blazing Planet Studio",
+    "dlcavailableonstore": "1",
+    "homepage": "https://blazingplanetstudio.com/",
+    "listofdlc": "5524270",
+    "publisher": "Blazing Planet Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Blazing Planet Studio/Choice of Life - Modern Ages/",
+            "replace": ".config/unity3d/Blazing Planet Studio/Choice of Life - Modern Ages/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Blazing Planet Studio/Choice of Life - Modern Ages/",
+            "replace": "com.BlazingPlanetStudio.ChoiceOfLifeModernAges"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Blazing Planet Studio/Choice of Life - Modern Ages/",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

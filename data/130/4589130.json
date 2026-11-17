@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1794339890,
-  "_history": [],
-  "_change_number": 40800837,
-  "_missing_token": true,
-  "_sha": "82c9b3e40e52b029c3894528a62bb37cc16957c7",
-  "_size": 3211,
+  "_lastChecked": 1794948912,
+  "_history": [
+    {
+      "buildId": "26350494",
+      "branch": "public",
+      "timeUpdated": 1793481288,
+      "firstSeen": 1794948912,
+      "manifests": {
+        "4589131": {
+          "gid": "5132962608717636665",
+          "size": 2942516019,
+          "download": 2592619296
+        }
+      }
+    },
+    {
+      "buildId": "26350494",
+      "branch": "test",
+      "timeUpdated": 1793475952,
+      "firstSeen": 1794948912,
+      "manifests": {
+        "4589131": {
+          "gid": "5132962608717636665",
+          "size": 2942516019,
+          "download": 2592619296
+        }
+      }
+    }
+  ],
+  "_change_number": 41151382,
+  "_missing_token": false,
+  "_sha": "d34c853ec0506df45a1792e5fc8536903b100d52",
+  "_size": 4852,
   "appid": "4589130",
   "common": {
     "aicontenttype": "1",
@@ -29,6 +56,7 @@
     },
     "clienticon": "c397bfc786c62759836e04e67db4469e566b3ab7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -38,7 +66,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4589130",
     "genres": {
       "0": "25",
@@ -112,10 +139,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9e97d370903b874c8506e687e6a8f018d68515e8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794938482",
     "store_asset_mtime": "1794327461",
     "store_tags": {
       "0": "4486",
@@ -147,5 +175,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dravora",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Dravora.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4589131": {
+      "manifests": {
+        "public": {
+          "download": "2592619296",
+          "gid": "5132962608717636665",
+          "size": "2942516019"
+        },
+        "test": {
+          "download": "2592619296",
+          "gid": "5132962608717636665",
+          "size": "2942516019"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26350494",
+        "timebuildupdated": "1793475231",
+        "timeupdated": "1793481288"
+      },
+      "test": {
+        "buildid": "26350494",
+        "description": "Steam test of the achievements, 28 October",
+        "timebuildupdated": "1793475231",
+        "timeupdated": "1793475952"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Aveline Games",
+    "publisher": "Aveline Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Aveline Games/Dravora",
+            "replace": "~/.config/unity3d/Aveline Games/Dravora"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Aveline Games/Dravora",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

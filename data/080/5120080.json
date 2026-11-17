@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793513186,
-  "_history": [],
-  "_change_number": 40468730,
-  "_missing_token": true,
-  "_sha": "fd158565d8489eae2227e19e5644f0b946c510a8",
-  "_size": 3008,
+  "_lastChecked": 1794948926,
+  "_history": [
+    {
+      "buildId": "26724689",
+      "branch": "public",
+      "timeUpdated": 1794900793,
+      "firstSeen": 1794948926,
+      "manifests": {
+        "5120081": {
+          "gid": "7882398846061102311",
+          "size": 138792536,
+          "download": 53095328
+        }
+      }
+    }
+  ],
+  "_change_number": 41112380,
+  "_missing_token": false,
+  "_sha": "a838fac986bfd7eca7949853e74f5088777dca86",
+  "_size": 4266,
   "appid": "5120080",
   "common": {
     "associations": {
@@ -31,8 +45,8 @@
     },
     "clienticon": "8c93fbbe4951937bd447213adf2dd18aa8c328b7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5120080",
     "genres": {
       "0": "4",
@@ -104,11 +118,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "88dc1a6f1477c889929363774226b31218bd818f/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1787164754",
+    "steam_release_date": "1794904613",
+    "store_asset_mtime": "1794915181",
     "store_tags": {
       "0": "560542",
       "1": "615955",
@@ -138,5 +153,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Everhex",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Everhex.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5120081": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "53095328",
+          "gid": "7882398846061102311",
+          "size": "138792536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26724689",
+        "timebuildupdated": "1794900774",
+        "timeupdated": "1794900793"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Klara Code",
+    "homepage": "https://klaracode.dev/",
+    "publisher": "Klara Code"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Everhex",
+        "pattern": "save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Everhex",
+        "pattern": "achievements.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Everhex",
+        "pattern": "save.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

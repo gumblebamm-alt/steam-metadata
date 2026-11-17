@@ -1,10 +1,57 @@
 {
-  "_lastChecked": 1794866517,
-  "_history": [],
-  "_change_number": 40920243,
-  "_missing_token": true,
-  "_sha": "97292b5048b68e7b8e9ad2a96356291ba3ec21de",
-  "_size": 3168,
+  "_lastChecked": 1794948926,
+  "_history": [
+    {
+      "buildId": "25257184",
+      "branch": "analytics-test",
+      "timeUpdated": 1789142110,
+      "firstSeen": 1794948926,
+      "manifests": {
+        "5127721": {
+          "gid": "6201847296846088974",
+          "size": 153339924,
+          "download": 69094608
+        },
+        "5127722": {
+          "gid": "7621340480017445761",
+          "size": 221296053,
+          "download": 89811680
+        },
+        "5127723": {
+          "gid": "1764723863825771623",
+          "size": 122507936,
+          "download": 62017584
+        }
+      }
+    },
+    {
+      "buildId": "26736376",
+      "branch": "public",
+      "timeUpdated": 1794941380,
+      "firstSeen": 1794948926,
+      "manifests": {
+        "5127721": {
+          "gid": "5384235716007748420",
+          "size": 217859036,
+          "download": 106163184
+        },
+        "5127722": {
+          "gid": "4649007886516906349",
+          "size": 285606513,
+          "download": 126726192
+        },
+        "5127723": {
+          "gid": "1257606050896380950",
+          "size": 186818396,
+          "download": 98926960
+        }
+      }
+    }
+  ],
+  "_change_number": 41158386,
+  "_missing_token": false,
+  "_sha": "1690ae0d8afadf873a508f1bf1088ae785975b99",
+  "_size": 5815,
   "appid": "5127720",
   "common": {
     "associations": {
@@ -27,9 +74,9 @@
     "clienticns": "692aa1dc84b85ffa9aba01a7e745693fa46d5392",
     "clienticon": "299920a557d18a220ecbd8d1be850e5f26a3d53c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5127720",
     "genres": {
       "0": "23",
@@ -103,11 +150,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c49c2d8ce7eb31194a509c9c5a283d5abfffb131/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793380546",
+    "steam_release_date": "1794932158",
+    "store_asset_mtime": "1794933596",
     "store_tags": {
       "0": "1084988",
       "1": "10695",
@@ -137,5 +185,139 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Muster",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "muster.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MUSTER.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "muster.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5127721": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "analytics-test": {
+          "download": "69094608",
+          "gid": "6201847296846088974",
+          "size": "153339924"
+        },
+        "public": {
+          "download": "106163184",
+          "gid": "5384235716007748420",
+          "size": "217859036"
+        }
+      }
+    },
+    "5127722": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "analytics-test": {
+          "download": "89811680",
+          "gid": "7621340480017445761",
+          "size": "221296053"
+        },
+        "public": {
+          "download": "126726192",
+          "gid": "4649007886516906349",
+          "size": "285606513"
+        }
+      }
+    },
+    "5127723": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "analytics-test": {
+          "download": "62017584",
+          "gid": "1764723863825771623",
+          "size": "122507936"
+        },
+        "public": {
+          "download": "98926960",
+          "gid": "1257606050896380950",
+          "size": "186818396"
+        }
+      }
+    },
+    "branches": {
+      "analytics-test": {
+        "buildid": "25257184",
+        "description": "Opt-in analytics testing",
+        "timebuildupdated": "1789141908",
+        "timeupdated": "1789142110"
+      },
+      "public": {
+        "buildid": "26736376",
+        "timebuildupdated": "1794934529",
+        "timeupdated": "1794941380"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "CapLock Games",
+    "homepage": "https://www.mustergame.com",
+    "publisher": "CapLock Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/MUSTER",
+            "replace": "Godot/app_userdata/MUSTER"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/MUSTER",
+            "replace": "godot/app_userdata/MUSTER"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/MUSTER",
+        "pattern": "muster.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

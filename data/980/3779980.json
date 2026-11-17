@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794902041,
-  "_history": [],
-  "_change_number": 41103701,
-  "_missing_token": true,
-  "_sha": "6b27569bcf7a9356f8f3e59b448fc4b49f164d38",
-  "_size": 3326,
+  "_lastChecked": 1794948900,
+  "_history": [
+    {
+      "buildId": "26736363",
+      "branch": "public",
+      "timeUpdated": 1794934645,
+      "firstSeen": 1794948900,
+      "manifests": {
+        "3779981": {
+          "gid": "5079041913026269093",
+          "size": 909126752,
+          "download": 332046000
+        },
+        "3779983": {
+          "gid": "4842930771537847248",
+          "size": 54,
+          "download": 112
+        }
+      }
+    }
+  ],
+  "_change_number": 41140489,
+  "_missing_token": false,
+  "_sha": "859bc0a79a7b1b9aeaeb33b5f4e2518fb80ffae5",
+  "_size": 5100,
   "appid": "3779980",
   "common": {
     "associations": {
@@ -43,7 +62,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3779980",
     "genres": {
       "0": "23",
@@ -116,10 +134,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e59def48a9f9acf8d03c99d0096336f8214fdd4c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794934903",
     "store_asset_mtime": "1794291053",
     "store_tags": {
       "0": "9",
@@ -150,5 +169,93 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lanternwood",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Lanternwood.exe"
+      }
+    }
+  },
+  "depots": {
+    "3779981": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "332046000",
+          "gid": "5079041913026269093",
+          "size": "909126752"
+        }
+      }
+    },
+    "3779983": {
+      "config": {
+        "steamdeck": "1"
+      },
+      "manifests": {
+        "public": {
+          "download": "112",
+          "gid": "4842930771537847248",
+          "size": "54"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26736363",
+        "timebuildupdated": "1794934512",
+        "timeupdated": "1794934645"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Unmei Ltd",
+    "publisher": "Unmei Ltd"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Lanternwood/SaveData/{64BitSteamID}",
+            "replace": "Godot/app_userdata/Lanternwood/SaveData/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Lanternwood/SaveData/{64BitSteamID}",
+            "replace": "godot/app_userdata/Lanternwood/SaveData/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Lanternwood/SaveData/{64BitSteamID}",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

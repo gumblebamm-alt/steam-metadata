@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794902052,
-  "_history": [],
-  "_change_number": 41063610,
-  "_missing_token": true,
-  "_sha": "8b967586d4715e94ca8b336576f6b18845befb65",
-  "_size": 3581,
+  "_lastChecked": 1794948921,
+  "_history": [
+    {
+      "buildId": "26668500",
+      "branch": "public",
+      "timeUpdated": 1794670567,
+      "firstSeen": 1794948921,
+      "manifests": {
+        "4958911": {
+          "gid": "4246598438055846281",
+          "size": 236090774,
+          "download": 205500752
+        }
+      }
+    }
+  ],
+  "_change_number": 41132523,
+  "_missing_token": false,
+  "_sha": "f3ed16c417a0b6cc7fe27097f6d15ece3b6847fd",
+  "_size": 4831,
   "appid": "4958910",
   "common": {
     "aicontenttype": "1",
@@ -29,15 +43,14 @@
     },
     "clienticon": "6c1341bd6f1ef7b92367ae4d1999fc16ccc29f89",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4958910",
     "genres": {
       "0": "4",
       "1": "23",
       "2": "3",
-      "3": "28",
-      "4": "37"
+      "3": "28"
     },
     "header_image": {
       "english": "7c45993bfd2fe41adbb4140151be97de8c468388/header.jpg"
@@ -115,16 +128,16 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c1bfddb71921eadd70690fe13aba2916317db571/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794924617",
     "store_asset_mtime": "1785416398",
     "store_tags": {
       "0": "597",
       "1": "599",
-      "10": "492",
-      "11": "4182",
+      "10": "4182",
       "2": "122",
       "3": "91114",
       "4": "3871",
@@ -132,7 +145,7 @@
       "6": "3839",
       "7": "4305",
       "8": "3920",
-      "9": "113"
+      "9": "492"
     },
     "supported_languages": {
       "english": {
@@ -163,5 +176,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Breakfast Shop Legend",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BreakfastShopLegend.exe",
+        "type": "config"
+      }
+    }
+  },
+  "depots": {
+    "4958911": {
+      "manifests": {
+        "public": {
+          "download": "205500752",
+          "gid": "4246598438055846281",
+          "size": "236090774"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26668500",
+        "timebuildupdated": "1794670367",
+        "timeupdated": "1794670567"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "kklaugh",
+    "homepage": "https://kk-workshop.com/breakfast-legend",
+    "publisher": "KK workshop"
+  },
+  "ufs": {
+    "maxnumfiles": "60",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "saves",
+        "pattern": "*.hive",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "KK WorkShop/Breakfast Shop Legend",
+        "pattern": "*.hive",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "KK WorkShop/Breakfast Shop Legend",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

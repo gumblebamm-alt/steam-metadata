@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794866498,
-  "_history": [],
-  "_change_number": 41012127,
-  "_missing_token": true,
-  "_sha": "6d5bcb425fd5805fefd9ec35577fe08973f46e6b",
-  "_size": 4507,
+  "_lastChecked": 1794948912,
+  "_history": [
+    {
+      "buildId": "26707330",
+      "branch": "public",
+      "timeUpdated": 1794846342,
+      "firstSeen": 1794948912,
+      "manifests": {
+        "4546382": {
+          "gid": "9133024385563200377",
+          "size": 420537084,
+          "download": 326730672
+        },
+        "4546383": {
+          "gid": "6145892916477914648",
+          "size": 506250841,
+          "download": 347894128
+        },
+        "4546384": {
+          "gid": "2809701274574015095",
+          "size": 392800180,
+          "download": 319987888
+        }
+      }
+    }
+  ],
+  "_change_number": 41110002,
+  "_missing_token": false,
+  "_sha": "2713cabecef1395345c6a1de6650ef696ddd83a8",
+  "_size": 6654,
   "appid": "4546380",
   "common": {
     "associations": {
@@ -37,9 +61,9 @@
     "clienticns": "d5520dd741697621f2c19f6b4252c3e74d366c34",
     "clienticon": "eea252e09f41b862a074488a73350774492923e9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4546380",
     "genres": {
       "0": "1",
@@ -125,11 +149,12 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7300f5f09d62b77d41ccaeca97271cf91146fc10/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/4546380/discussions/0/573801622447320441/",
+    "steam_release_date": "1794911201",
     "store_asset_mtime": "1793729683",
     "store_tags": {
       "0": "42804",
@@ -205,5 +230,123 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ZeroSum",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ZeroSum.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ZeroSum.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "ZeroSum.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4546382": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "326730672",
+          "gid": "9133024385563200377",
+          "size": "420537084"
+        }
+      }
+    },
+    "4546383": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "347894128",
+          "gid": "6145892916477914648",
+          "size": "506250841"
+        }
+      }
+    },
+    "4546384": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "319987888",
+          "gid": "2809701274574015095",
+          "size": "392800180"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26707330",
+        "timebuildupdated": "1794846326",
+        "timeupdated": "1794846342"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "1920x1080",
+    "developer": "Power Plins Games",
+    "homepage": "https://powerplins.com",
+    "publisher": "Power Plins Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "30000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ZeroSum",
+            "replace": "ZeroSum"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ZeroSum",
+            "replace": "ZeroSum"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ZeroSum",
+        "pattern": "*.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

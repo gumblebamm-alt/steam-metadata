@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794552235,
-  "_history": [],
-  "_change_number": 40887978,
-  "_missing_token": true,
-  "_sha": "2440f8426514057b77b1588e95ca291788b81ed7",
-  "_size": 3315,
+  "_lastChecked": 1794948918,
+  "_history": [
+    {
+      "buildId": "26686544",
+      "branch": "public",
+      "timeUpdated": 1794769026,
+      "firstSeen": 1794948918,
+      "manifests": {
+        "4872681": {
+          "gid": "665691931264380686",
+          "size": 8379292,
+          "download": 3505664
+        }
+      }
+    }
+  ],
+  "_change_number": 41116897,
+  "_missing_token": false,
+  "_sha": "17bf40b3737b37ab89798a879eeb5edb30ea602f",
+  "_size": 4651,
   "appid": "4872680",
   "common": {
     "associations": {
@@ -36,8 +50,8 @@
     "clienticns": "910718aa8ace8b08bd6b7d0f91d6fb1330e2b5a0",
     "clienticon": "910718aa8ace8b08bd6b7d0f91d6fb1330e2b5a0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4872680",
     "genres": {
       "0": "1",
@@ -107,10 +121,11 @@
     "linuxclienticon": "910718aa8ace8b08bd6b7d0f91d6fb1330e2b5a0",
     "name": "Pressure Points",
     "osarch": "",
-    "osextended": "",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "83e881aba68bdaa60aea3f797b0d58309e01dc1d/capsule_231x87.jpg"
     },
@@ -146,5 +161,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pressure Points",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "pressure-points.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Pressure Points.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "pressure-points"
+      }
+    }
+  },
+  "depots": {
+    "4872681": {
+      "manifests": {
+        "public": {
+          "download": "3505664",
+          "gid": "665691931264380686",
+          "size": "8379292"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26686544",
+        "timebuildupdated": "1794768941",
+        "timeupdated": "1794769026"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "cpt_olive",
+    "publisher": "cpt_olive"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "PressurePoints",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
