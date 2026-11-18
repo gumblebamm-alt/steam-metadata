@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794768688,
-  "_history": [],
-  "_change_number": 40973003,
-  "_missing_token": true,
-  "_sha": "7a7024b32f7343dc7720c8ca166001aaa3adba3e",
-  "_size": 3062,
+  "_lastChecked": 1794986779,
+  "_history": [
+    {
+      "buildId": "26742344",
+      "branch": "public",
+      "timeUpdated": 1794951863,
+      "firstSeen": 1794986779,
+      "manifests": {
+        "4217151": {
+          "gid": "3887530712939427593",
+          "size": 247176896,
+          "download": 54622768
+        }
+      }
+    }
+  ],
+  "_change_number": 41194023,
+  "_missing_token": false,
+  "_sha": "059a7d173bdc294a60602b40632c6eeea8405431",
+  "_size": 4185,
   "appid": "4217150",
   "common": {
     "associations": {
@@ -30,7 +44,6 @@
     "clienticon": "9a955d6d3b867da47893419dde922b71764968cb",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4217150",
     "genres": {
       "0": "23",
@@ -102,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "452d4de399bf3b332504bf180d162c1db9dd60b0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794953694",
     "store_asset_mtime": "1794750267",
     "store_tags": {
       "0": "9",
@@ -141,5 +155,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lotyas",
+    "launch": {
+      "0": {
+        "arguments": "STEAM",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Lotyas",
+        "description_loc": {
+          "english": "Play Lotyas",
+          "turkish": "Lotyas Oyna"
+        },
+        "executable": "Lotyas\\Lotyas.exe"
+      },
+      "1": {
+        "arguments": "STEAM",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Lotyas (OpenGL)",
+        "description_loc": {
+          "english": "Play Lotyas (OpenGL)",
+          "turkish": "Lotyas Oyna (OpenGL)"
+        },
+        "executable": "LotyasOpenGL\\LotyasOpenGL.exe"
+      }
+    }
+  },
+  "depots": {
+    "4217151": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "54622768",
+          "gid": "3887530712939427593",
+          "size": "247176896"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26742344",
+        "timebuildupdated": "1794951842",
+        "timeupdated": "1794951863"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Loryend",
+    "publisher": "Loryend"
+  }
 }

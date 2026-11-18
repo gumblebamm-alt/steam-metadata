@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793734379,
-  "_history": [],
-  "_change_number": 40552633,
-  "_missing_token": true,
-  "_sha": "fa7ea6c46a3e6036298b698e21f31cde55394a19",
-  "_size": 2890,
+  "_lastChecked": 1794986791,
+  "_history": [
+    {
+      "buildId": "26194611",
+      "branch": "public",
+      "timeUpdated": 1792916602,
+      "firstSeen": 1794986791,
+      "manifests": {
+        "5194361": {
+          "gid": "3410379061270371814",
+          "size": 135239471,
+          "download": 57285776
+        },
+        "5194362": {
+          "gid": "3689406994740709652",
+          "size": 100298447,
+          "download": 48829424
+        }
+      }
+    }
+  ],
+  "_change_number": 41210857,
+  "_missing_token": false,
+  "_sha": "152f497f04eabf38e807d643ac5e3e494a81d0a6",
+  "_size": 4457,
   "appid": "5194360",
   "common": {
     "associations": {
@@ -30,8 +49,8 @@
     },
     "clienticon": "cfc8ab2ecf837358e2eea47d5947de556e42fe77",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5194360",
     "genres": {
       "0": "2",
@@ -103,10 +122,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4af0036e03f90ca87d49317de0d2f1476aa3ab70/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794978803",
     "store_asset_mtime": "1793705924",
     "store_tags": {
       "0": "9",
@@ -128,5 +148,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Super Plants",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Super Plants.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Super Plants.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5194361": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "57285776",
+          "gid": "3410379061270371814",
+          "size": "135239471"
+        }
+      }
+    },
+    "5194362": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "48829424",
+          "gid": "3689406994740709652",
+          "size": "100298447"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26194611",
+        "timebuildupdated": "1792916412",
+        "timeupdated": "1792916602"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Nedeey",
+    "isfreeapp": "1",
+    "publisher": "Nedeey"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "9999999",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Super Plants/saves/steam/{64BitSteamID}/",
+            "replace": ".local/share/godot/app_userdata/Super Plants/saves/steam/{64BitSteamID}/"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Super Plants/saves/steam/{64BitSteamID}/",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

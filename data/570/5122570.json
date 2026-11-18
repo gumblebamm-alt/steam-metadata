@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1794902056,
-  "_history": [],
-  "_change_number": 41102865,
-  "_missing_token": true,
-  "_sha": "6fd4002e97b4d291c810eb7d457e6d308c94fb6d",
-  "_size": 2991,
+  "_lastChecked": 1794986789,
+  "_history": [
+    {
+      "buildId": "26750998",
+      "branch": "public",
+      "timeUpdated": 1794984253,
+      "firstSeen": 1794986789,
+      "manifests": {
+        "5122571": {
+          "gid": "5076758082864830861",
+          "size": 4486124337,
+          "download": 1835500000
+        }
+      }
+    },
+    {
+      "buildId": "26532815",
+      "branch": "testing",
+      "timeUpdated": 1794202092,
+      "firstSeen": 1794986789,
+      "manifests": {
+        "5122571": {
+          "gid": "4471074725358553479",
+          "size": 4340926153,
+          "download": 1795321616
+        }
+      }
+    }
+  ],
+  "_change_number": 41213042,
+  "_missing_token": false,
+  "_sha": "2c402716ae2049375bf5486e080a27ce1aef4b0f",
+  "_size": 4264,
   "appid": "5122570",
   "common": {
     "associations": {
@@ -30,9 +57,9 @@
     },
     "clienticon": "82e1b7b286b6b15b9334c55525e4a71ecc736e94",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5122570",
     "genres": {
       "0": "4"
@@ -103,7 +130,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "226c6c878abdfe6a6c95e413581348e503ce6dff/capsule_231x87.jpg"
     },
@@ -130,5 +157,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Carnival Catastrophe",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Carnival Catastrophe.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5122571": {
+      "manifests": {
+        "public": {
+          "download": "1835500000",
+          "gid": "5076758082864830861",
+          "size": "4486124337"
+        },
+        "testing": {
+          "download": "1795321616",
+          "gid": "4471074725358553479",
+          "size": "4340926153"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26750998",
+        "timebuildupdated": "1794984213",
+        "timeupdated": "1794984253"
+      },
+      "testing": {
+        "buildid": "26532815",
+        "description": "Testing",
+        "timebuildupdated": "1794201969",
+        "timeupdated": "1794202092"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "SleeplessDust Games",
+    "publisher": "SleeplessDust Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "134217728",
+    "savefiles": {
+      "0": {
+        "path": "SleeplessDust Games/Carnival Catastrophe",
+        "pattern": "continue.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "SleeplessDust Games/Carnival Catastrophe",
+        "pattern": "continue.json.bak",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794948916,
-  "_history": [],
-  "_change_number": 41022996,
-  "_missing_token": true,
-  "_sha": "963b234115f8a44fed3672e9d23c08f4abbd09fd",
-  "_size": 6275,
+  "_lastChecked": 1794986785,
+  "_history": [
+    {
+      "buildId": "26744535",
+      "branch": "public",
+      "timeUpdated": 1794963154,
+      "firstSeen": 1794986785,
+      "manifests": {
+        "4790931": {
+          "gid": "2783957445860464170",
+          "size": 294716519,
+          "download": 174497616
+        },
+        "4790932": {
+          "gid": "6228737067671304450",
+          "size": 277250530,
+          "download": 178763040
+        }
+      }
+    }
+  ],
+  "_change_number": 41204850,
+  "_missing_token": false,
+  "_sha": "d1fa9e2983a94838072971b7e7fab1ebcb01cffb",
+  "_size": 8176,
   "appid": "4790930",
   "common": {
     "associations": {
@@ -33,6 +52,7 @@
     "clienticns": "5bc0b6a604848caa88736f0db7d684c27e87caef",
     "clienticon": "1233e4d0bdad8861caa3a0206cebf81545ff65c4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "4",
@@ -45,7 +65,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4790930",
     "genres": {
       "0": "25",
@@ -152,11 +171,12 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "b1ec91d9b638ae1fe4822f946b68009a6a6b1b3a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794949265",
     "store_asset_mtime": "1792597324",
     "store_tags": {
       "0": "12095",
@@ -312,5 +332,104 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Unexpected Number Neighbour",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "UnexpectedNumberNeighbor.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "UnexpectedNumberNeighbor.sh",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "UnexpectedNumberNeighbor.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4790931": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "174497616",
+          "gid": "2783957445860464170",
+          "size": "294716519"
+        }
+      }
+    },
+    "4790932": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "178763040",
+          "gid": "6228737067671304450",
+          "size": "277250530"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26744535",
+        "timebuildupdated": "1794959786",
+        "timeupdated": "1794963154"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "MoxeGames",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5181190,5181200,5181210,5181220,5181230,5181240,5181260",
+    "publisher": "MoxeGames"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "RenPy/UNN-Steam-Shared",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Library/RenPy/UNN-Steam-Shared",
+        "pattern": "*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacHome"
+      },
+      "2": {
+        "path": ".renpy/UNN-Steam-Shared",
+        "pattern": "*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

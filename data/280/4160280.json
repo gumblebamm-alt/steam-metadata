@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794377696,
-  "_history": [],
-  "_change_number": 40813984,
-  "_missing_token": true,
-  "_sha": "4e3a5c6310dd938a14be5b2db3b26bc0ed707c65",
-  "_size": 2837,
+  "_lastChecked": 1794986779,
+  "_history": [
+    {
+      "buildId": "26367834",
+      "branch": "public",
+      "timeUpdated": 1793574890,
+      "firstSeen": 1794986779,
+      "manifests": {
+        "4160281": {
+          "gid": "7973248481593756314",
+          "size": 2203872152,
+          "download": 1599761216
+        }
+      }
+    }
+  ],
+  "_change_number": 41204512,
+  "_missing_token": false,
+  "_sha": "28b7923f9193a29cde7872148ba58219dce3301d",
+  "_size": 4301,
   "appid": "4160280",
   "common": {
     "associations": {
@@ -26,9 +40,9 @@
     },
     "clienticon": "1dfdb13cec7c0fef2040e8361f75c81d9af85ef0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4160280",
     "genres": {
       "0": "1"
@@ -99,22 +113,23 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0f997ec7bbd91ee14456526884e8df92c656d9bb/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792023427",
+    "steam_release_date": "1794962265",
+    "store_asset_mtime": "1794961898",
     "store_tags": {
       "0": "42804",
       "1": "4158",
       "2": "4777",
       "3": "4305",
       "4": "19",
-      "5": "4136",
-      "6": "3993",
-      "7": "1773",
-      "8": "4191",
-      "9": "4182"
+      "5": "1773",
+      "6": "4182",
+      "7": "4136",
+      "8": "3993",
+      "9": "4191"
     },
     "supported_languages": {
       "english": {
@@ -123,5 +138,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Gorilla Gauntlet",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "(Development)",
+        "description_loc": {
+          "english": "(Development)"
+        },
+        "executable": "GorillaGauntlet.exe",
+        "type": "option1"
+      },
+      "2": {
+        "config": {
+          "betakey": "development",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "(Shipping)",
+        "description_loc": {
+          "english": "(Shipping)"
+        },
+        "executable": "GorillaGauntlet-Win64-Shipping.exe",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4160281": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1599761216",
+          "gid": "7973248481593756314",
+          "size": "2203872152"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26367834",
+        "timebuildupdated": "1793573657",
+        "timeupdated": "1793574890"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Climbing Fish",
+    "publisher": "Climbing Fish"
+  }
 }
