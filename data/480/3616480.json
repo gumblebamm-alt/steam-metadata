@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794902039,
-  "_history": [],
-  "_change_number": 41067825,
-  "_missing_token": true,
-  "_sha": "b60e323a9c3145712222975b5188938840515fba",
-  "_size": 4224,
+  "_lastChecked": 1795033847,
+  "_history": [
+    {
+      "buildId": "26751525",
+      "branch": "public",
+      "timeUpdated": 1794986438,
+      "firstSeen": 1795033847,
+      "manifests": {
+        "3616481": {
+          "gid": "3839290860339988663",
+          "size": 822955544,
+          "download": 474699440
+        },
+        "3616482": {
+          "gid": "7085688436140012777",
+          "size": 742816869,
+          "download": 457725200
+        }
+      }
+    }
+  ],
+  "_change_number": 41234159,
+  "_missing_token": false,
+  "_sha": "6f70a71cf5e76782090fe6c7f36535cabcdfff39",
+  "_size": 5578,
   "appid": "3616480",
   "common": {
     "aicontenttype": "1",
@@ -39,6 +58,7 @@
     "clienticon": "279429ac25b30386805feaaceaf9b2a47f912824",
     "clienttga": "4447060de45f8ea64040269fb1b5dda8ecde09c9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -55,7 +75,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3616480",
     "genres": {
       "0": "25",
@@ -139,12 +158,13 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "ba2f9f0d36e3a4bf97714e1502f28c001c7c43e8/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792544811",
+    "steam_release_date": "1795024812",
+    "store_asset_mtime": "1794954441",
     "store_tags": {
       "0": "122",
       "1": "4604",
@@ -200,5 +220,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Grimdelve",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Game.exe"
+      },
+      "1": {
+        "arguments": "--in-process-gpu",
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Game.app/Contents/MacOS/nwjs"
+      }
+    }
+  },
+  "depots": {
+    "3616481": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "474699440",
+          "gid": "3839290860339988663",
+          "size": "822955544"
+        }
+      }
+    },
+    "3616482": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "457725200",
+          "gid": "7085688436140012777",
+          "size": "742816869"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26751525",
+        "timebuildupdated": "1794986391",
+        "timeupdated": "1794986438"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Toasty",
+    "publisher": "Toasty"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "20485760",
+    "rootoverrides": {
+      "0": {
+        "addpath": "Game.app/Contents/Resources/app.nw/",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "save",
+        "pattern": "*.rmmzsave",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

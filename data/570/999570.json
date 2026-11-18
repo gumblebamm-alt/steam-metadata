@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794377684,
+  "_lastChecked": 1795033828,
   "_history": [
     {
       "buildId": "26549774",
@@ -13,14 +13,33 @@
           "download": 54703888
         }
       }
+    },
+    {
+      "buildId": "26766274",
+      "branch": "public",
+      "timeUpdated": 1795028368,
+      "firstSeen": 1795033828,
+      "manifests": {
+        "999571": {
+          "gid": "714064312158883628",
+          "size": 133935997,
+          "download": 54703984
+        },
+        "999572": {
+          "gid": "6819727426102823954",
+          "size": 98980669,
+          "download": 46213968
+        }
+      }
     }
   ],
-  "_change_number": 40809877,
+  "_change_number": 41236176,
   "_missing_token": false,
-  "_sha": "2773bba746547f0aa01a655d9297ee72341355e2",
-  "_size": 4799,
+  "_sha": "ccea8316b0dfe60b176936c0e1d87cdff9314ff2",
+  "_size": 5330,
   "appid": "999570",
   "common": {
+    "aicontenttype": "1",
     "associations": {
       "0": {
         "name": "SeDorn Entertainment",
@@ -117,12 +136,15 @@
     "metacritic_name": "Latin Simulator",
     "name": "Latin Simulator",
     "osarch": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "",
+    "oslist": "windows,linux",
     "primary_genre": "25",
     "releasestate": "released",
     "small_capsule": {
       "english": "d05a2bca8419a84707f37a197090200d8722ccb2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794344577",
     "store_asset_mtime": "1792691584",
     "store_tags": {
       "0": "3834",
@@ -159,6 +181,12 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "LatinSimulator",
     "launch": {
       "0": {
@@ -166,6 +194,13 @@
           "oslist": "windows"
         },
         "executable": "LatinSimulator.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "LatinSimulator.x86_64",
         "type": "default"
       }
     }
@@ -184,18 +219,30 @@
       },
       "manifests": {
         "public": {
-          "download": "54703888",
-          "gid": "3918311025443056016",
-          "size": "133935869"
+          "download": "54703984",
+          "gid": "714064312158883628",
+          "size": "133935997"
+        }
+      }
+    },
+    "999572": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "46213968",
+          "gid": "6819727426102823954",
+          "size": "98980669"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "26549774",
-        "timebuildupdated": "1794257915",
-        "timeupdated": "1794258270"
+        "buildid": "26766274",
+        "timebuildupdated": "1795028306",
+        "timeupdated": "1795028368"
       }
     }
   },

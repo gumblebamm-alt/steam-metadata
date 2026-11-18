@@ -1,6 +1,29 @@
 {
-  "_lastChecked": 1794724137,
+  "_lastChecked": 1795033874,
   "_history": [
+    {
+      "buildId": "26766218",
+      "branch": "public",
+      "timeUpdated": 1795031083,
+      "firstSeen": 1795033874,
+      "manifests": {
+        "5169441": {
+          "gid": "5003558619867755959",
+          "size": 4625616119,
+          "download": 923399936
+        },
+        "5169442": {
+          "gid": "3843789564382488845",
+          "size": 4650159830,
+          "download": 931359184
+        },
+        "5169443": {
+          "gid": "8169200934651514410",
+          "size": 4714018798,
+          "download": 980115712
+        }
+      }
+    },
     {
       "buildId": "26182116",
       "branch": "public",
@@ -55,20 +78,6 @@
       }
     },
     {
-      "buildId": "25858636",
-      "branch": "public",
-      "timeUpdated": 1791685530,
-      "firstSeen": 1791722151,
-      "manifests": {
-        "5169441": {
-          "gid": "7721550590502006146",
-          "size": null,
-          "download": null
-        }
-      },
-      "_source": "hubcap"
-    },
-    {
       "buildId": "25857027",
       "branch": "stable-slowerupdates",
       "timeUpdated": 1791685493,
@@ -78,6 +87,29 @@
           "gid": "5410250549321481649",
           "size": 5093157448,
           "download": 975653168
+        }
+      }
+    },
+    {
+      "buildId": "26766218",
+      "branch": "betaupdate",
+      "timeUpdated": 1795028255,
+      "firstSeen": 1795033874,
+      "manifests": {
+        "5169441": {
+          "gid": "5003558619867755959",
+          "size": 4625616119,
+          "download": 923399936
+        },
+        "5169442": {
+          "gid": "3843789564382488845",
+          "size": 4650159830,
+          "download": 931359184
+        },
+        "5169443": {
+          "gid": "8169200934651514410",
+          "size": 4714018798,
+          "download": 980115712
         }
       }
     },
@@ -108,6 +140,29 @@
       }
     },
     {
+      "buildId": "26766218",
+      "branch": "native-beta",
+      "timeUpdated": 1795028155,
+      "firstSeen": 1795033874,
+      "manifests": {
+        "5169441": {
+          "gid": "5003558619867755959",
+          "size": 4625616119,
+          "download": 923399936
+        },
+        "5169442": {
+          "gid": "3843789564382488845",
+          "size": 4650159830,
+          "download": 931359184
+        },
+        "5169443": {
+          "gid": "8169200934651514410",
+          "size": 4714018798,
+          "download": 980115712
+        }
+      }
+    },
+    {
       "buildId": "26147494",
       "branch": "native-beta",
       "timeUpdated": 1792713855,
@@ -131,10 +186,10 @@
       }
     }
   ],
-  "_change_number": 40965317,
+  "_change_number": 41237614,
   "_missing_token": false,
-  "_sha": "1cbf4f53afb4a27e32324c28e863cde12770e888",
-  "_size": 7183,
+  "_sha": "6991e70f68c7258b1250cc90e1090f5a1d93225f",
+  "_size": 7833,
   "appid": "5169440",
   "common": {
     "associations": {
@@ -239,7 +294,7 @@
     "oslist": "windows",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "77",
+    "review_percentage": "79",
     "review_score": "6",
     "small_capsule": {
       "english": "a5d9d195219855f1e02cf4c3f04aaf56e8a59bf3/capsule_231x87.jpg"
@@ -331,16 +386,23 @@
       },
       "1": {
         "config": {
-          "betakey": "native-beta",
           "oslist": "macos"
+        },
+        "description": "MacOS version",
+        "description_loc": {
+          "english": "MacOS version"
         },
         "executable": "TidyUpTheRoyalArmory.app",
         "type": "default"
       },
       "2": {
+        "arguments": "--force-vulkan",
         "config": {
-          "betakey": "native-beta",
           "oslist": "linux"
+        },
+        "description": "Steam Deck Native",
+        "description_loc": {
+          "english": "Steam Deck Native"
         },
         "executable": "TidyUpTheRoyalArmory.x86_64",
         "type": "default"
@@ -354,19 +416,19 @@
       },
       "manifests": {
         "betaupdate": {
-          "download": "923397248",
-          "gid": "1791502516127620849",
-          "size": "4625610848"
+          "download": "923399936",
+          "gid": "5003558619867755959",
+          "size": "4625616119"
         },
         "native-beta": {
-          "download": "917588544",
-          "gid": "9216590822571293769",
-          "size": "4617941803"
+          "download": "923399936",
+          "gid": "5003558619867755959",
+          "size": "4625616119"
         },
         "public": {
-          "download": "917592848",
-          "gid": "526367273979715532",
-          "size": "4617939979"
+          "download": "923399936",
+          "gid": "5003558619867755959",
+          "size": "4625616119"
         },
         "stable-slowerupdates": {
           "download": "975653168",
@@ -380,10 +442,20 @@
         "oslist": "macos"
       },
       "manifests": {
+        "betaupdate": {
+          "download": "931359184",
+          "gid": "3843789564382488845",
+          "size": "4650159830"
+        },
         "native-beta": {
-          "download": "925340416",
-          "gid": "439020718359938303",
-          "size": "4634634531"
+          "download": "931359184",
+          "gid": "3843789564382488845",
+          "size": "4650159830"
+        },
+        "public": {
+          "download": "931359184",
+          "gid": "3843789564382488845",
+          "size": "4650159830"
         }
       }
     },
@@ -392,30 +464,40 @@
         "oslist": "linux"
       },
       "manifests": {
+        "betaupdate": {
+          "download": "980115712",
+          "gid": "8169200934651514410",
+          "size": "4714018798"
+        },
         "native-beta": {
-          "download": "971785136",
-          "gid": "7898277986597833526",
-          "size": "4694264177"
+          "download": "980115712",
+          "gid": "8169200934651514410",
+          "size": "4714018798"
+        },
+        "public": {
+          "download": "980115712",
+          "gid": "8169200934651514410",
+          "size": "4714018798"
         }
       }
     },
     "branches": {
       "betaupdate": {
-        "buildid": "26677685",
+        "buildid": "26766218",
         "description": "test builds",
-        "timebuildupdated": "1794720228",
-        "timeupdated": "1794720228"
+        "timebuildupdated": "1795028155",
+        "timeupdated": "1795028255"
       },
       "native-beta": {
-        "buildid": "26147494",
+        "buildid": "26766218",
         "description": "Beta branch With native builds for Linux, Steam OS and MAC",
-        "timebuildupdated": "1792713855",
-        "timeupdated": "1792713855"
+        "timebuildupdated": "1795028155",
+        "timeupdated": "1795028155"
       },
       "public": {
-        "buildid": "26182116",
-        "timebuildupdated": "1792846202",
-        "timeupdated": "1792847063"
+        "buildid": "26766218",
+        "timebuildupdated": "1795028155",
+        "timeupdated": "1795031083"
       },
       "stable-slowerupdates": {
         "buildid": "25857027",

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794377693,
-  "_history": [],
-  "_change_number": 40820866,
-  "_missing_token": true,
-  "_sha": "5e139964623fa4151683749031bc2c0b74a07142",
-  "_size": 3046,
+  "_lastChecked": 1795033850,
+  "_history": [
+    {
+      "buildId": "26762866",
+      "branch": "public",
+      "timeUpdated": 1795019226,
+      "firstSeen": 1795033850,
+      "manifests": {
+        "3810592": {
+          "gid": "3135125530788644645",
+          "size": 478972478,
+          "download": 201780240
+        },
+        "3810593": {
+          "gid": "7215090461991222310",
+          "size": 323106047,
+          "download": 142963600
+        }
+      }
+    }
+  ],
+  "_change_number": 41232898,
+  "_missing_token": false,
+  "_sha": "4e7941b7735606d8002ca939ad70306aff78dcbb",
+  "_size": 4143,
   "appid": "3810590",
   "common": {
     "associations": {
@@ -29,7 +48,6 @@
     "clienticon": "d658ee4cb3cedde88579856b9dec93e8764fcb38",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3810590",
     "genres": {
       "0": "2",
@@ -98,13 +116,14 @@
     "name": "Celestial Decks",
     "osarch": "64",
     "oscpu": "",
-    "osextended": "macos64",
+    "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "183fef1a3922db882a396a9a75fc37da8d30e0c6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795022489",
     "store_asset_mtime": "1793200390",
     "store_tags": {
       "0": "9271",
@@ -136,5 +155,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Celestial Decks",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Celestial.app/Contents/MacOS/Celestial"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Celestial.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3810592": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "201780240",
+          "gid": "3135125530788644645",
+          "size": "478972478"
+        }
+      }
+    },
+    "3810593": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "142963600",
+          "gid": "7215090461991222310",
+          "size": "323106047"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26762866",
+        "timebuildupdated": "1795019157",
+        "timeupdated": "1795019226"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Celestial TCG Inc.",
+    "isfreeapp": "1",
+    "publisher": "Celestial TCG Inc."
+  }
 }

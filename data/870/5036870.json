@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794948923,
-  "_history": [],
-  "_change_number": 41107576,
-  "_missing_token": true,
-  "_sha": "7f7fec7beea9fe1b08629c3e0b195d0bf8ae0b5f",
-  "_size": 3937,
+  "_lastChecked": 1795033871,
+  "_history": [
+    {
+      "buildId": "26761724",
+      "branch": "public",
+      "timeUpdated": 1795016497,
+      "firstSeen": 1795033871,
+      "manifests": {
+        "5036871": {
+          "gid": "368144589252735000",
+          "size": 427881630,
+          "download": 178390624
+        },
+        "5036872": {
+          "gid": "2371709783385691103",
+          "size": 340456692,
+          "download": 149921968
+        }
+      }
+    }
+  ],
+  "_change_number": 41233819,
+  "_missing_token": false,
+  "_sha": "f58370c0c17e718ca38259f4b1f05be460ee9a0c",
+  "_size": 5390,
   "appid": "5036870",
   "common": {
     "aicontenttype": "1",
@@ -27,6 +46,7 @@
     },
     "clienticon": "1fc0ce143bb5d596866a2952ffd6b40bec6742e9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -35,7 +55,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5036870",
     "genres": {
       "0": "25",
@@ -123,10 +142,11 @@
     "osextended": "macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "83e4ebdaf1e752721b012d78cfa4cc75520cdbf1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795024225",
     "store_asset_mtime": "1793017003",
     "store_tags": {
       "0": "1721",
@@ -192,5 +212,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PLEASE CONFIRM THE DECEASED",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Please Confirm the Deceased.exe",
+        "type": "none"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Please Confirm the Deceased.app",
+        "type": "none"
+      }
+    }
+  },
+  "depots": {
+    "5036871": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "178390624",
+          "gid": "368144589252735000",
+          "size": "427881630"
+        }
+      }
+    },
+    "5036872": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "149921968",
+          "gid": "2371709783385691103",
+          "size": "340456692"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26761724",
+        "timebuildupdated": "1795016451",
+        "timeupdated": "1795016497"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "3Cats Studio",
+    "homepage": "https://3cats.studio",
+    "publisher": "3Cats Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Please Confirm the Deceased/cloud",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794552220,
+  "_lastChecked": 1795033844,
   "_history": [
     {
       "buildId": "25869742",
@@ -26,12 +26,25 @@
           "download": 17876627872
         }
       }
+    },
+    {
+      "buildId": "26749910",
+      "branch": "public",
+      "timeUpdated": 1794987412,
+      "firstSeen": 1795033844,
+      "manifests": {
+        "3356001": {
+          "gid": "2127717056995054026",
+          "size": 18245551967,
+          "download": 17876935216
+        }
+      }
     }
   ],
-  "_change_number": 40699051,
+  "_change_number": 41238098,
   "_missing_token": false,
-  "_sha": "4ce78ef2fd8dd9c0ffe697aea1a0a444393c9694",
-  "_size": 4374,
+  "_sha": "f84c70a86bd63f050bd21a1fd73b086c4a4e258b",
+  "_size": 4828,
   "appid": "3356000",
   "common": {
     "associations": {
@@ -140,15 +153,15 @@
     "name": "The Traveller's Sight",
     "osarch": "64",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos",
     "primary_genre": "25",
     "releasestate": "released",
     "small_capsule": {
       "english": "a07d79959d22c6298ab4c3237f6dcb008e5cb3b6/capsule_231x87.jpg"
     },
     "steam_release_date": "1791799690",
-    "store_asset_mtime": "1791493047",
+    "store_asset_mtime": "1794998717",
     "store_tags": {
       "0": "21",
       "1": "597",
@@ -188,25 +201,49 @@
     "installdir": "The Traveller's Sight Playtest",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "TTS.exe"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "TTS.exe"
+      },
+      "3": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "TTS.app/Contents/MacOS/The Traveller's Sight"
       }
     }
   },
   "depots": {
     "3356001": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "17876627872",
-          "gid": "1835582475496315510",
-          "size": "18245242070"
+          "download": "17876935216",
+          "gid": "2127717056995054026",
+          "size": "18245551967"
         }
       }
     },
+    "3356002": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {}
+    },
     "branches": {
       "public": {
-        "buildid": "26464542",
-        "timebuildupdated": "1793899549",
-        "timeupdated": "1794045301"
+        "buildid": "26749910",
+        "timebuildupdated": "1794979557",
+        "timeupdated": "1794987412"
       }
     },
     "privatebranches": "1"

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793734365,
-  "_history": [],
-  "_change_number": 40561274,
-  "_missing_token": true,
-  "_sha": "2f57c625bdac8c8f1e740f51993cae0bef3fca49",
-  "_size": 3424,
+  "_lastChecked": 1795033863,
+  "_history": [
+    {
+      "buildId": "26762884",
+      "branch": "public",
+      "timeUpdated": 1795020599,
+      "firstSeen": 1795033863,
+      "manifests": {
+        "4677751": {
+          "gid": "7796572358579735422",
+          "size": 80928491,
+          "download": 49488320
+        },
+        "4677752": {
+          "gid": "6498879306904950753",
+          "size": 65309165,
+          "download": 44482736
+        }
+      }
+    }
+  ],
+  "_change_number": 41231698,
+  "_missing_token": false,
+  "_sha": "799e30c543488591955a1518bcd00f91a9edaf25",
+  "_size": 4978,
   "appid": "4677750",
   "common": {
     "aicontenttype": "1",
@@ -33,6 +52,7 @@
     "clienticns": "6d30ad904d1540cffe35ecf18815f4a0bfa4e292",
     "clienticon": "f4647347b99cf3b892f02d59b3f7b6eb52726999",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -42,7 +62,6 @@
         "version": "4"
       }
     },
-    "exfgls": "8",
     "gameid": "4677750",
     "genres": {
       "0": "4",
@@ -117,7 +136,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "158d55096c309fd3140a5c94dfad941c0cda0153/capsule_231x87.jpg"
     },
@@ -151,5 +170,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "Grid Lands",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Launch Grid Lands native Linux app",
+        "description_loc": {
+          "english": "Launch Grid Lands native Linux app"
+        },
+        "executable": "gridlands.sh",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch Grid Lands native Windows app",
+        "description_loc": {
+          "english": "Launch Grid Lands native Windows app"
+        },
+        "executable": "gridlands.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4677751": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "49488320",
+          "gid": "7796572358579735422",
+          "size": "80928491"
+        }
+      }
+    },
+    "4677752": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "44482736",
+          "gid": "6498879306904950753",
+          "size": "65309165"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26762884",
+        "timebuildupdated": "1795019198",
+        "timeupdated": "1795020599"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Grid Labs",
+    "dlcavailableonstore": "1",
+    "homepage": "https://gridlands.io/",
+    "listofdlc": "5556960",
+    "publisher": "Grid Labs"
+  }
 }

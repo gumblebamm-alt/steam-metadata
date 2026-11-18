@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791506682,
+  "_lastChecked": 1795033829,
   "_history": [
     {
       "buildId": "11949927",
@@ -11,6 +11,19 @@
           "gid": "1182416976648526923",
           "size": 2115089100,
           "download": 728849616
+        }
+      }
+    },
+    {
+      "buildId": "26487834",
+      "branch": "public",
+      "timeUpdated": 1793991441,
+      "firstSeen": 1795033829,
+      "manifests": {
+        "1374861": {
+          "gid": "7798581518950765167",
+          "size": 14735588526,
+          "download": 5672879984
         }
       }
     },
@@ -78,12 +91,25 @@
           "download": 5667805760
         }
       }
+    },
+    {
+      "buildId": "25808143",
+      "branch": "patch1.0.3",
+      "timeUpdated": 1791495344,
+      "firstSeen": 1795033829,
+      "manifests": {
+        "1374861": {
+          "gid": "3898600985879800559",
+          "size": 14705707437,
+          "download": 5671251584
+        }
+      }
     }
   ],
-  "_change_number": 39635714,
+  "_change_number": 41236134,
   "_missing_token": false,
-  "_sha": "7181fc393008aa7324ca54a47b305aee0642b128",
-  "_size": 9067,
+  "_sha": "8741364da07bcc9ed5f2298b059faaf60c5eb956",
+  "_size": 10779,
   "appid": "1374860",
   "common": {
     "associations": {
@@ -288,8 +314,58 @@
         }
       }
     },
+    "steam_frame_compatibility": {
+      "category": "2",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1791564746",
+      "tested_build_id": "25487568",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamFrame_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamFrame_TestResult_GameOrLauncherDoesntExitCleanly"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_InterfaceTextIsLegible"
+        },
+        "5": {
+          "display": "4",
+          "token": "#SteamFrame_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
     "steam_release_date": "1790096442",
-    "store_asset_mtime": "1790033825",
+    "store_asset_mtime": "1795027891",
     "store_tags": {
       "0": "122",
       "1": "1752",
@@ -388,10 +464,15 @@
           "gid": "6311995813079722975",
           "size": "14690247413"
         },
-        "public": {
+        "patch1.0.3": {
           "download": "5671251584",
           "gid": "3898600985879800559",
           "size": "14705707437"
+        },
+        "public": {
+          "download": "5672879984",
+          "gid": "7798581518950765167",
+          "size": "14735588526"
         },
         "release1.0.0": {
           "download": "5667805760",
@@ -420,10 +501,16 @@
         "timebuildupdated": "1790968902",
         "timeupdated": "1791003409"
       },
-      "public": {
+      "patch1.0.3": {
         "buildid": "25808143",
+        "description": "a previous release",
         "timebuildupdated": "1791474493",
         "timeupdated": "1791495344"
+      },
+      "public": {
+        "buildid": "26487834",
+        "timebuildupdated": "1793977965",
+        "timeupdated": "1793991441"
       },
       "release1.0.0": {
         "buildid": "25460029",

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1791247325,
-  "_history": [],
-  "_change_number": 39501799,
-  "_missing_token": true,
-  "_sha": "d8cb6b4d8c241809df47d140ac884697cd62966b",
-  "_size": 4396,
+  "_lastChecked": 1795033853,
+  "_history": [
+    {
+      "buildId": "26754586",
+      "branch": "public",
+      "timeUpdated": 1794996825,
+      "firstSeen": 1795033853,
+      "manifests": {
+        "4063181": {
+          "gid": "6146906157248333056",
+          "size": 6174379060,
+          "download": 6072774464
+        },
+        "4063182": {
+          "gid": "4350627758235627625",
+          "size": 6124132951,
+          "download": 6054809680
+        },
+        "4063183": {
+          "gid": "3086984591283074376",
+          "size": 6155805430,
+          "download": 6065958480
+        }
+      }
+    }
+  ],
+  "_change_number": 41235329,
+  "_missing_token": false,
+  "_sha": "c8eb656776c1c4f25f2463a878c764fafc54fcc8",
+  "_size": 6590,
   "appid": "4063180",
   "common": {
     "associations": {
@@ -32,6 +56,7 @@
     "clienticns": "7d00aec0ef07d3071815b65fe61b6a0d9bcc763a",
     "clienticon": "9904c858d202b0710f3bd205fbb4abe54e511173",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -47,7 +72,6 @@
       "4": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4063180",
     "genres": {
       "0": "25",
@@ -121,25 +145,26 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "df7be25928f0a6274d2b441af691863d0c3f143f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795026738",
     "store_asset_mtime": "1791209118",
     "store_tags": {
       "0": "12095",
       "1": "6650",
-      "10": "5613",
-      "11": "6378",
-      "12": "4486",
-      "13": "6971",
-      "14": "4064",
-      "15": "42152",
-      "16": "4166",
-      "17": "4191",
-      "18": "21",
-      "19": "4182",
+      "10": "6378",
+      "11": "4486",
+      "12": "6971",
+      "13": "4064",
+      "14": "4166",
+      "15": "4182",
+      "16": "5673",
+      "17": "5030",
+      "18": "5608",
+      "19": "21",
       "2": "3799",
       "3": "6426",
       "4": "9551",
@@ -147,7 +172,7 @@
       "6": "5716",
       "7": "10808",
       "8": "1742",
-      "9": "8369"
+      "9": "5613"
     },
     "supported_languages": {
       "brazilian": {
@@ -209,5 +234,118 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DriftBorne",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Driftborne.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Driftborne.sh",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Driftborne.app/Contents/MacOS/Driftborne",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4063181": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "6072774464",
+          "gid": "6146906157248333056",
+          "size": "6174379060"
+        }
+      }
+    },
+    "4063182": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "6054809680",
+          "gid": "4350627758235627625",
+          "size": "6124132951"
+        }
+      }
+    },
+    "4063183": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "6065958480",
+          "gid": "3086984591283074376",
+          "size": "6155805430"
+        }
+      }
+    },
+    "baselanguages": "brazilian,dutch,english,french,german,italian,latam,polish,romanian,russian,schinese,tchinese,thai,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26754586",
+        "timebuildupdated": "1794996729",
+        "timeupdated": "1794996825"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Jamleng",
+    "publisher": "JamlengGames"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "200000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy\\Driftborne",
+            "replace": "Library/RenPy/Driftborne"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacHome"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy\\Driftborne",
+            "replace": ".renpy/Driftborne"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RenPy\\Driftborne",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792816666,
-  "_history": [],
-  "_change_number": 40193853,
-  "_missing_token": true,
-  "_sha": "fb8060e9a9096e1f72dc6a2af9c924ca7d864cea",
-  "_size": 7473,
+  "_lastChecked": 1795033855,
+  "_history": [
+    {
+      "buildId": "26766264",
+      "branch": "public",
+      "timeUpdated": 1795028329,
+      "firstSeen": 1795033855,
+      "manifests": {
+        "4192781": {
+          "gid": "7292898227504587356",
+          "size": 379406869,
+          "download": 150573728
+        },
+        "4192782": {
+          "gid": "4721484612989640831",
+          "size": 366630297,
+          "download": 142919888
+        }
+      }
+    }
+  ],
+  "_change_number": 41236256,
+  "_missing_token": false,
+  "_sha": "770a41717a78cf365113ff17d2205f4be2d2b2de",
+  "_size": 9283,
   "appid": "4192780",
   "common": {
     "associations": {
@@ -36,8 +55,8 @@
     "clienticns": "17156e030f6fdc852e6de17f8e59a5cbb7bcaeea",
     "clienticon": "17156e030f6fdc852e6de17f8e59a5cbb7bcaeea",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4192780",
     "genres": {
       "0": "4",
@@ -146,13 +165,14 @@
     "osextended": "macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8a1987b893d10ef75a4fe1223cd7f7d368628914/capsule_231x87.jpg",
       "japanese": "9e1cf8ddf3c58b4f305a3f7467a3c046dd0e4267/capsule_231x87_japanese.jpg",
       "koreana": "4e0d83f2874073de3ac9688b92b98956d185aa20/capsule_231x87_koreana.jpg",
       "schinese": "0b2fbe220279a1a75c63c4a4115d8907f2b9f6c3/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1795028493",
     "store_asset_mtime": "1792814475",
     "store_tags": {
       "0": "97376",
@@ -241,5 +261,95 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cloud Getaway",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CloudGetaway.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "CloudGetaway.app",
+        "type": "default"
+      }
+    },
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4192781": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "150573728",
+          "gid": "7292898227504587356",
+          "size": "379406869"
+        }
+      }
+    },
+    "4192782": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "142919888",
+          "gid": "4721484612989640831",
+          "size": "366630297"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,koreana,schinese,russian,japanese,polish,turkish,brazilian,latam",
+    "branches": {
+      "public": {
+        "buildid": "26766264",
+        "timebuildupdated": "1795028285",
+        "timeupdated": "1795028329"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "4192780"
+  },
+  "extended": {
+    "developer": "Weiren (为人)",
+    "publisher": "The Bueno Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataLocalLow"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "WeirenDev/CloudGetaway/Saves/SteamCloud",
+        "pattern": "*.txt",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

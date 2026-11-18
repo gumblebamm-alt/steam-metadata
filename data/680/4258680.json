@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794262869,
-  "_history": [],
-  "_change_number": 40764051,
-  "_missing_token": true,
-  "_sha": "d9af4e8cf7f888b38f653f7df9c4908dfddb38d2",
-  "_size": 3091,
+  "_lastChecked": 1795033856,
+  "_history": [
+    {
+      "buildId": "26750557",
+      "branch": "public",
+      "timeUpdated": 1794982512,
+      "firstSeen": 1795033856,
+      "manifests": {
+        "4258681": {
+          "gid": "3846655833368586364",
+          "size": 291108864,
+          "download": 142440608
+        },
+        "4258682": {
+          "gid": "2811022013774358443",
+          "size": 255405360,
+          "download": 133741600
+        }
+      }
+    }
+  ],
+  "_change_number": 41229935,
+  "_missing_token": false,
+  "_sha": "3e9493dd5528b28f1cff6f9b4da25d715ea30f35",
+  "_size": 4726,
   "appid": "4258680",
   "common": {
     "associations": {
@@ -34,7 +53,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4258680",
     "genres": {
       "0": "25"
@@ -105,10 +123,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bc80511339b01c703bb0bb3b84b33211efaa9989/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795017641",
     "store_asset_mtime": "1794229119",
     "store_tags": {
       "0": "1667",
@@ -139,5 +158,92 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Arctic Grave",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "arctic_grave.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "arctic_grave.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4258681": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "142440608",
+          "gid": "3846655833368586364",
+          "size": "291108864"
+        }
+      }
+    },
+    "4258682": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "133741600",
+          "gid": "2811022013774358443",
+          "size": "255405360"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26750557",
+        "timebuildupdated": "1794982373",
+        "timeupdated": "1794982512"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Palerite",
+    "publisher": "Palerite"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "30",
+    "quota": "500000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Arctic Grave/",
+            "replace": ".local/share/godot/app_userdata/Arctic Grave"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Arctic Grave/",
+        "pattern": "*.agrave",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Arctic Grave/",
+        "pattern": "*.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

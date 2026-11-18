@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794902043,
-  "_history": [],
-  "_change_number": 41103658,
-  "_missing_token": true,
-  "_sha": "154e701fe88bae2b3ba2a168562717837d112f3a",
-  "_size": 5638,
+  "_lastChecked": 1795033852,
+  "_history": [
+    {
+      "buildId": "26757271",
+      "branch": "public",
+      "timeUpdated": 1795010443,
+      "firstSeen": 1795033852,
+      "manifests": {
+        "4018331": {
+          "gid": "2013901643772955167",
+          "size": 4440378828,
+          "download": 2045127872
+        }
+      }
+    }
+  ],
+  "_change_number": 41234278,
+  "_missing_token": false,
+  "_sha": "81efc09159318f64d6ae24c7715f512071a69adb",
+  "_size": 6880,
   "appid": "4018330",
   "common": {
     "associations": {
@@ -38,6 +52,7 @@
     },
     "clienticon": "ed95c6f1c7fd4b59cb905f5322c88329f6f33180",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -48,7 +63,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4018330",
     "genres": {
       "0": "1",
@@ -67,7 +81,7 @@
     },
     "library_assets": {
       "library_capsule": "en",
-      "library_header": "en",
+      "library_header": "en,ru",
       "library_hero": "en",
       "library_hero_blur": "en",
       "library_logo": "en",
@@ -88,10 +102,12 @@
       },
       "library_header": {
         "image": {
-          "english": "34e430f3ae21ed8781df6b4868f5eca400a5db65/library_header.jpg"
+          "english": "275ddd438a2113e4d355dfc63f5ed05e0573a939/library_header.jpg",
+          "russian": "72cf7fb00e1fa2e1a314a2454fe05da9a188c5ff/library_header_russian.jpg"
         },
         "image2x": {
-          "english": "34e430f3ae21ed8781df6b4868f5eca400a5db65/library_header_2x.jpg"
+          "english": "275ddd438a2113e4d355dfc63f5ed05e0573a939/library_header_2x.jpg",
+          "russian": "72cf7fb00e1fa2e1a314a2454fe05da9a188c5ff/library_header_russian_2x.jpg"
         }
       },
       "library_hero": {
@@ -126,11 +142,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6d8561eadd9f153f210cc5083a814f52659c3861/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794895897",
+    "steam_release_date": "1795024905",
+    "store_asset_mtime": "1794996477",
     "store_tags": {
       "0": "1100689",
       "1": "4231",
@@ -154,15 +171,7 @@
       "9": "122"
     },
     "supported_languages": {
-      "arabic": {
-        "subtitles": "true",
-        "supported": "true"
-      },
       "brazilian": {
-        "subtitles": "true",
-        "supported": "true"
-      },
-      "bulgarian": {
         "subtitles": "true",
         "supported": "true"
       },
@@ -191,10 +200,6 @@
         "supported": "true"
       },
       "german": {
-        "subtitles": "true",
-        "supported": "true"
-      },
-      "greek": {
         "subtitles": "true",
         "supported": "true"
       },
@@ -234,10 +239,6 @@
         "subtitles": "true",
         "supported": "true"
       },
-      "portuguese": {
-        "subtitles": "true",
-        "supported": "true"
-      },
       "romanian": {
         "subtitles": "true",
         "supported": "true"
@@ -258,10 +259,6 @@
         "subtitles": "true",
         "supported": "true"
       },
-      "tchinese": {
-        "subtitles": "true",
-        "supported": "true"
-      },
       "thai": {
         "subtitles": "true",
         "supported": "true"
@@ -273,13 +270,83 @@
       "ukrainian": {
         "subtitles": "true",
         "supported": "true"
-      },
-      "vietnamese": {
-        "subtitles": "true",
-        "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lord of Undead",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Lord of Undead.exe"
+      }
+    }
+  },
+  "depots": {
+    "4018331": {
+      "manifests": {
+        "public": {
+          "download": "2045127872",
+          "gid": "2013901643772955167",
+          "size": "4440378828"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26757271",
+        "timebuildupdated": "1795004321",
+        "timeupdated": "1795010443"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Megame LLC",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5587740",
+    "publisher": "Megame LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Megame/Lord of Undead/Saves/",
+            "replace": "com.megame.lordofundead"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Megame/Lord of Undead/Saves/",
+            "replace": "~/.config/unity3d/Megame/Lord of Undead/Saves/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Megame/Lord of Undead/Saves/",
+        "pattern": "*.*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

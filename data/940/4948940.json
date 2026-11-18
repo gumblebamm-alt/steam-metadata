@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794948920,
-  "_history": [],
-  "_change_number": 41111982,
-  "_missing_token": true,
-  "_sha": "e9ca3860bb70e576246192d5780498e81b79c879",
-  "_size": 3900,
+  "_lastChecked": 1795033868,
+  "_history": [
+    {
+      "buildId": "26761041",
+      "branch": "public",
+      "timeUpdated": 1795014590,
+      "firstSeen": 1795033868,
+      "manifests": {
+        "4948942": {
+          "gid": "3957218057363221022",
+          "size": 535706640,
+          "download": 217690576
+        },
+        "4948943": {
+          "gid": "7141938127837598199",
+          "size": 395862342,
+          "download": 155923184
+        }
+      }
+    }
+  ],
+  "_change_number": 41236354,
+  "_missing_token": false,
+  "_sha": "95d6d03cb9dc26d136cdfafd1be467343d7c14c1",
+  "_size": 5604,
   "appid": "4948940",
   "common": {
     "associations": {
@@ -31,6 +50,7 @@
     "clienticns": "943ddda1c4d34ceaddc11df8bedeaa1fd1e814f3",
     "clienticon": "171ae4d8e5579dc1c6ef65162d2383894b85bcb7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -40,7 +60,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4948940",
     "genres": {
       "0": "23",
@@ -112,11 +131,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c5285fd7838ffd4b0039b56964e133cd55dc2ce3/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792556384",
+    "steam_release_date": "1795024856",
+    "store_asset_mtime": "1795016333",
     "store_tags": {
       "0": "1645",
       "1": "560542",
@@ -186,7 +206,95 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Swarmbreaker",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Swarmbreaker.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Swarmbreaker.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4948942": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "217690576",
+          "gid": "3957218057363221022",
+          "size": "535706640"
+        }
+      }
+    },
+    "4948943": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "155923184",
+          "gid": "7141938127837598199",
+          "size": "395862342"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,latam,polish,russian,schinese,spanish,tchinese,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26761041",
+        "timebuildupdated": "1795014565",
+        "timeupdated": "1795014590"
+      }
+    },
+    "workshopdepot": "4948940"
+  },
+  "extended": {
+    "developer": "Paracorn",
+    "publisher": "Paracorn"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Swarmbreaker/cloud",
+        "pattern": "save.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

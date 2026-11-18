@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1794948892,
-  "_history": [],
-  "_change_number": 41142450,
-  "_missing_token": true,
-  "_sha": "2694d481513c306ae0ae636d7030b483f73284e6",
-  "_size": 3096,
+  "_lastChecked": 1795033838,
+  "_history": [
+    {
+      "buildId": "26765551",
+      "branch": "online",
+      "timeUpdated": 1795026284,
+      "firstSeen": 1795033838,
+      "manifests": {
+        "2772331": {
+          "gid": "8621189047946149724",
+          "size": 301653144,
+          "download": 205295072
+        }
+      }
+    },
+    {
+      "buildId": "26761735",
+      "branch": "public",
+      "timeUpdated": 1795019549,
+      "firstSeen": 1795033838,
+      "manifests": {
+        "2772331": {
+          "gid": "2052652173553921227",
+          "size": 301600552,
+          "download": 205236240
+        }
+      }
+    }
+  ],
+  "_change_number": 41235082,
+  "_missing_token": false,
+  "_sha": "4e1a82b58ffb40f63a6baebc2df4ccb40e788e0a",
+  "_size": 4328,
   "appid": "2772330",
   "common": {
     "associations": {
@@ -29,8 +56,8 @@
     "clienticon": "1c47526e72eaff0073df26c6619b6a21eff110c7",
     "clienttga": "6012ea81d68607ad0dfc5610e61f17101373c1fd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2772330",
     "genres": {
       "0": "23",
@@ -41,6 +68,11 @@
       "english": "98fa8fa497a4470c0157b24c9f0c11abbc197b9c/header.jpg"
     },
     "icon": "9f90640f6e8e311d4e9a2ae0a63849e59ff2abe6",
+    "languages": {
+      "english": "1",
+      "german": "1",
+      "schinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -102,11 +134,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0d72f66f3d95742552989be58c46771fea11cfec/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794812685",
+    "steam_release_date": "1795021091",
+    "store_asset_mtime": "1795002260",
     "store_tags": {
       "0": "1645",
       "1": "122",
@@ -135,9 +168,68 @@
       },
       "german": {
         "supported": "true"
+      },
+      "schinese": {
+        "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Goblington",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Goblington/Goblington.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2772331": {
+      "manifests": {
+        "online": {
+          "download": "205295072",
+          "gid": "8621189047946149724",
+          "size": "301653144"
+        },
+        "public": {
+          "download": "205236240",
+          "gid": "2052652173553921227",
+          "size": "301600552"
+        }
+      }
+    },
+    "branches": {
+      "online": {
+        "buildid": "26765551",
+        "description": "Online-Test (intern)",
+        "timebuildupdated": "1795026284",
+        "timeupdated": "1795026284"
+      },
+      "public": {
+        "buildid": "26761735",
+        "timebuildupdated": "1795016478",
+        "timeupdated": "1795019549"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Joshua",
+    "publisher": "Joshua"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/rpg",
+        "pattern": "goblington_*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

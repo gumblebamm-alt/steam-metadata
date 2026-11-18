@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793166300,
-  "_history": [],
-  "_change_number": 40233829,
-  "_missing_token": true,
-  "_sha": "29fcf09624099d4966d285cfdccc2f17cbd041fd",
-  "_size": 3420,
+  "_lastChecked": 1795033874,
+  "_history": [
+    {
+      "buildId": "26711900",
+      "branch": "public",
+      "timeUpdated": 1794859110,
+      "firstSeen": 1795033874,
+      "manifests": {
+        "5175991": {
+          "gid": "6924528010902924187",
+          "size": 356013793,
+          "download": 269995904
+        },
+        "5321150": {
+          "gid": "7662006109631737537",
+          "size": 41034701,
+          "download": 40481120
+        }
+      }
+    }
+  ],
+  "_change_number": 41235455,
+  "_missing_token": false,
+  "_sha": "8657c451677261b467290b6dbced428e5c99eb0e",
+  "_size": 5058,
   "appid": "5175990",
   "common": {
     "associations": {
@@ -36,6 +55,7 @@
     },
     "clienticon": "0bd9988ec7d43454c590ae787e307d0c2289cbaa",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "4",
@@ -49,7 +69,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5175990",
     "genres": {
       "0": "23"
@@ -119,11 +138,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "e224f441445ea79bb148510b280e6ad06b5a7e4b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795026951",
     "store_asset_mtime": "1788196517",
     "store_tags": {
       "0": "3799",
@@ -155,5 +175,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mors Blade",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MorsBladeSteam.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "MorsBladeSteam.sh"
+      }
+    }
+  },
+  "depots": {
+    "5175991": {
+      "manifests": {
+        "public": {
+          "download": "269995904",
+          "gid": "6924528010902924187",
+          "size": "356013793"
+        }
+      }
+    },
+    "5321150": {
+      "dlcappid": "5321150",
+      "manifests": {
+        "public": {
+          "download": "40481120",
+          "gid": "7662006109631737537",
+          "size": "41034701"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26711900",
+        "timebuildupdated": "1794859043",
+        "timeupdated": "1794859110"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Andrea Demetrio",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5321150",
+    "publisher": "Der Mondhase"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/MorsBlade-Steam-Edition",
+            "replace": ".renpy/MorsBlade-Steam-Edition"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "RenPy/MorsBlade-Steam-Edition",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "RenPy/MorsBlade-Steam-Edition",
+        "pattern": "persistent",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

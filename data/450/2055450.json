@@ -1,12 +1,32 @@
 {
-  "_lastChecked": 1794262845,
-  "_history": [],
-  "_change_number": 40762618,
-  "_missing_token": true,
-  "_sha": "05deb9dcb39e799796e375ed35c26e3351392309",
-  "_size": 4163,
+  "_lastChecked": 1795033833,
+  "_history": [
+    {
+      "buildId": "26739832",
+      "branch": "public",
+      "timeUpdated": 1794944382,
+      "firstSeen": 1795033833,
+      "manifests": {
+        "2055451": {
+          "gid": "826714825742292462",
+          "size": 926493596,
+          "download": 427778080
+        },
+        "2055452": {
+          "gid": "5889915346760426087",
+          "size": 889130280,
+          "download": 418315312
+        }
+      }
+    }
+  ],
+  "_change_number": 41233362,
+  "_missing_token": false,
+  "_sha": "47e55240c5fba1d035152605ff7fcb75efa9aef2",
+  "_size": 6051,
   "appid": "2055450",
   "common": {
+    "aicontenttype": "1",
     "associations": {
       "0": {
         "name": "C&amp;C Game Studio",
@@ -40,8 +60,8 @@
     "clienticon": "76afc3733f6bd0609789eb0005c307a29b3f4c02",
     "clienttga": "ae9812485c4fda382bc9d180eda6d3339377fe73",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2055450",
     "genres": {
       "0": "2"
@@ -130,11 +150,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7c5ef848f509fdb0e9839af949a22780c8171468/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794225457",
+    "steam_release_date": "1795006334",
+    "store_asset_mtime": "1795023231",
     "store_tags": {
       "0": "9",
       "1": "1645",
@@ -197,5 +218,98 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_4"
+      }
+    },
+    "installdir": "cncso",
+    "launch": {
+      "0": {
+        "arguments": "--fullscreen",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "cncso.exe"
+      },
+      "1": {
+        "arguments": "--fullscreen",
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "cncso.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "2055451": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "427778080",
+          "gid": "826714825742292462",
+          "size": "926493596"
+        }
+      }
+    },
+    "2055452": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "418315312",
+          "gid": "5889915346760426087",
+          "size": "889130280"
+        }
+      }
+    },
+    "baselanguages": "arabic,english,french,german,italian,japanese,koreana,polish,portuguese,russian,schinese,spanish,tchinese,thai,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26739832",
+        "timebuildupdated": "1794944209",
+        "timeupdated": "1794944382"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "C&amp;C Game Studio",
+    "homepage": "http://command-and-control.com/",
+    "publisher": "C&amp;C Game Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "cnc-spec-ops/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "cnc-spec-ops",
+        "pattern": "settings.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

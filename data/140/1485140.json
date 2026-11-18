@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794724120,
+  "_lastChecked": 1795033830,
   "_history": [
     {
       "buildId": "11938089",
@@ -26,12 +26,48 @@
           "download": 3479059872
         }
       }
+    },
+    {
+      "buildId": "26745403",
+      "branch": "frame",
+      "timeUpdated": 1794962902,
+      "firstSeen": 1795033830,
+      "manifests": {
+        "1485141": {
+          "gid": "3700516786965574489",
+          "size": 9627872547,
+          "download": 3479084928
+        },
+        "1485142": {
+          "gid": "4136726198835814280",
+          "size": 2202699975,
+          "download": 2100286336
+        }
+      }
+    },
+    {
+      "buildId": "26745403",
+      "branch": "public",
+      "timeUpdated": 1794999131,
+      "firstSeen": 1795033830,
+      "manifests": {
+        "1485141": {
+          "gid": "3700516786965574489",
+          "size": 9627872547,
+          "download": 3479084928
+        },
+        "1485142": {
+          "gid": "4136726198835814280",
+          "size": 2202699975,
+          "download": 2100286336
+        }
+      }
     }
   ],
-  "_change_number": 40964834,
+  "_change_number": 41220015,
   "_missing_token": false,
-  "_sha": "adf47017f57f30b85e939e356b41d2bb9ec8bd51",
-  "_size": 5879,
+  "_sha": "a5eb758610e060e756ecab06cab3a877d32be06a",
+  "_size": 7578,
   "appid": "1485140",
   "common": {
     "associations": {
@@ -143,8 +179,9 @@
     "onlyvrsupport": "1",
     "openxrsupport": "1",
     "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,android",
     "playareavr": {
       "seated": "1"
     },
@@ -250,16 +287,50 @@
         },
         "executable": "Ultrawings 2.exe",
         "type": "openxr"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "android"
+        },
+        "executable": "UW2Gold_Frame_v195.apk",
+        "type": "openxr"
       }
     }
   },
   "depots": {
     "1485141": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
+        "frame": {
+          "download": "3479084928",
+          "gid": "3700516786965574489",
+          "size": "9627872547"
+        },
         "public": {
-          "download": "3479059872",
-          "gid": "4858405991916028218",
-          "size": "9627777073"
+          "download": "3479084928",
+          "gid": "3700516786965574489",
+          "size": "9627872547"
+        }
+      }
+    },
+    "1485142": {
+      "config": {
+        "osarch": "64",
+        "oslist": "android"
+      },
+      "manifests": {
+        "frame": {
+          "download": "2100286336",
+          "gid": "4136726198835814280",
+          "size": "2202699975"
+        },
+        "public": {
+          "download": "2100286336",
+          "gid": "4136726198835814280",
+          "size": "2202699975"
         }
       }
     },
@@ -270,12 +341,18 @@
       "depotfromapp": "228980",
       "sharedinstall": "1"
     },
-    "baselanguages": "english,german,french,italian,spanish,schinese,japanese",
+    "baselanguages": "english,french,german,italian,japanese,koreana,schinese,spanish",
     "branches": {
+      "frame": {
+        "buildid": "26745403",
+        "description": "Steam Frame Test",
+        "timebuildupdated": "1794962902",
+        "timeupdated": "1794962902"
+      },
       "public": {
-        "buildid": "26669473",
-        "timebuildupdated": "1794675156",
-        "timeupdated": "1794698819"
+        "buildid": "26745403",
+        "timebuildupdated": "1794962902",
+        "timeupdated": "1794999131"
       }
     },
     "privatebranches": "1"
@@ -285,5 +362,40 @@
     "homepage": "https://bitplanetgames.com",
     "publisher": "Bit Planet Games, LLC",
     "vrheadsetstreaming": "1"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "os": "Android",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Bit Planet Games, LLC/Ultrawings 2 Gold Edition",
+            "replace": "Android/data/com.BitPlanetGamesLLC.Ultrawings2Gold.SteamFrame/files"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "AndroidExternalData"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Bit Planet Games, LLC/Ultrawings 2 Gold Edition",
+        "pattern": "*.bpgpd",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Bit Planet Games, LLC/Ultrawings 2 Gold Edition",
+        "pattern": "*.bpgad",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Bit Planet Games, LLC/Ultrawings 2 Gold Edition",
+        "pattern": "uw2_pc_prefs.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

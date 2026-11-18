@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792558092,
-  "_history": [],
-  "_change_number": 40056338,
-  "_missing_token": true,
-  "_sha": "73214c6525002ba42c7542d5f0b0fd5c27eae01b",
-  "_size": 3046,
+  "_lastChecked": 1795033862,
+  "_history": [
+    {
+      "buildId": "24321863",
+      "branch": "public",
+      "timeUpdated": 1784665913,
+      "firstSeen": 1795033862,
+      "manifests": {
+        "4642321": {
+          "gid": "4183131019875759950",
+          "size": 123711961,
+          "download": 47874064
+        }
+      }
+    }
+  ],
+  "_change_number": 41237014,
+  "_missing_token": false,
+  "_sha": "c9da8822c077ba8d4afb0d79f15df0224acaa359",
+  "_size": 4668,
   "appid": "4642320",
   "common": {
     "associations": {
@@ -23,6 +37,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_23": "1",
       "category_28": "1",
       "category_60": "1",
       "category_62": "1",
@@ -33,7 +48,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4642320",
     "genres": {
       "0": "25",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6fd4678d23faf11bfc90608969fd47212c298a27/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795003348",
     "store_asset_mtime": "1792476554",
     "store_tags": {
       "0": "21",
@@ -140,5 +155,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dig! Dig! Dino!",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DDDPort.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "4642321": {
+      "manifests": {
+        "public": {
+          "download": "47874064",
+          "gid": "4183131019875759950",
+          "size": "123711961"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "24321863",
+        "timebuildupdated": "1784665911",
+        "timeupdated": "1784665913"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Dom2D ",
+    "publisher": "Fáyer"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/DDDPort",
+            "replace": "Godot/app_userdata/DDDPort"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/DDDPort",
+            "replace": "godot/app_userdata/DDDPort"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/DDDPort",
+        "pattern": "gameData.json",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }
