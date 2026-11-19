@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795033848,
-  "_history": [],
-  "_change_number": 41238028,
-  "_missing_token": true,
-  "_sha": "dbdbad6bb450bff5743220f0ff99bae14d441cec",
-  "_size": 4432,
+  "_lastChecked": 1795073008,
+  "_history": [
+    {
+      "buildId": "26768019",
+      "branch": "public",
+      "timeUpdated": 1795032990,
+      "firstSeen": 1795073008,
+      "manifests": {
+        "3724301": {
+          "gid": "456759518943791206",
+          "size": 10206492566,
+          "download": 9722907984
+        }
+      }
+    }
+  ],
+  "_change_number": 41243134,
+  "_missing_token": false,
+  "_sha": "9f38349cb0250ef5d0b18e11668b0e5601161d6e",
+  "_size": 6867,
   "appid": "3724300",
   "common": {
     "aicontenttype": "1",
@@ -39,9 +53,9 @@
     "clienticon": "79093a6cecc5c4d82474cead9a74120d423a44b6",
     "clienttga": "b270497650548df488ca4788a2073a7ebbea8103",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3724300",
     "genres": {
       "0": "1",
@@ -132,10 +146,52 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0a505c51bc57d462c7c6914ac2256cea81639c9f/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "1",
+      "steam_machine_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamMachine_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "steamos_compatibility": "1",
+      "steamos_tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamOS_TestResult_SteamOSDoesNotSupport"
+        }
+      },
+      "test_timestamp": "1794252380",
+      "tested_build_id": "25962397",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+        }
+      }
+    },
+    "steam_release_date": "1795035324",
     "store_asset_mtime": "1795000915",
     "store_tags": {
       "0": "1637",
@@ -207,5 +263,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Toto's Journey",
+    "launch": {
+      "0": {
+        "executable": "Totoshka.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "7",
+    "steamcontrollerconfigdetails": {
+      "3572886004": {
+        "controller_type": "controller_xboxone",
+        "enabled_branches": "default",
+        "use_action_block": "false"
+      }
+    },
+    "steamcontrollertemplateindex": "1",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3724301": {
+      "manifests": {
+        "public": {
+          "download": "9722907984",
+          "gid": "456759518943791206",
+          "size": "10206492566"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26768019",
+        "timebuildupdated": "1795032978",
+        "timeupdated": "1795032990"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Hanuman Games",
+    "homepage": "https://totosjourney.com/",
+    "publisher": "Hanuman Games"
+  },
+  "ufs": {
+    "maxnumfiles": "42",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Totoshka\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

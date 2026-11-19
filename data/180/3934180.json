@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794810391,
-  "_history": [],
-  "_change_number": 40982348,
-  "_missing_token": true,
-  "_sha": "0bb2384149a752529455a269f2228844895277d4",
-  "_size": 3244,
+  "_lastChecked": 1795073009,
+  "_history": [
+    {
+      "buildId": "26770379",
+      "branch": "public",
+      "timeUpdated": 1795040666,
+      "firstSeen": 1795073009,
+      "manifests": {
+        "3934181": {
+          "gid": "4429863415254320881",
+          "size": 1767828086,
+          "download": 421103472
+        }
+      }
+    }
+  ],
+  "_change_number": 41253437,
+  "_missing_token": false,
+  "_sha": "787fa0087caee68f0b91cb73d71729985c5a3764",
+  "_size": 4958,
   "appid": "3934180",
   "common": {
     "associations": {
@@ -32,9 +46,9 @@
     "clienticon": "83a4e02bf24159ce306833309728b0268e800bf6",
     "clienttga": "0d8b4be6352a8a7cc9cf16d6343dd64d457dc247",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3934180",
     "genres": {
       "0": "25"
@@ -111,11 +125,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "9e5e096e946de56a90b4d108de1fc074b9624cbc/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792165832",
+    "steam_release_date": "1796025600",
+    "store_asset_mtime": "1795040530",
     "store_tags": {
       "0": "3964",
       "1": "5379",
@@ -143,5 +160,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Don Memo",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Steam OS - Proton",
+        "description_loc": {
+          "english": "Steam OS - Proton"
+        },
+        "executable": "Don Memo.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Windows",
+        "description_loc": {
+          "english": "Windows"
+        },
+        "executable": "Don Memo.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3934181": {
+      "manifests": {
+        "public": {
+          "download": "421103472",
+          "gid": "4429863415254320881",
+          "size": "1767828086"
+        }
+      }
+    },
+    "baselanguages": "latam",
+    "branches": {
+      "public": {
+        "buildid": "26770379",
+        "timebuildupdated": "1795040665",
+        "timeupdated": "1795040666"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Bear Sneeze",
+    "homepage": "https://bearsneeze.com/",
+    "publisher": "Bear Sneeze"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "20000",
+    "savefiles": {
+      "0": {
+        "path": "Bear Sneeze/Don Memo/MMData/DonMemo",
+        "pattern": "Don_Memo.savedata",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Bear Sneeze/Don Memo/MMData/DonMemo",
+        "pattern": "Don_Memo.savedata",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": ".config/unity3d/Bear Sneeze/Don Memo/MMData/DonMemo",
+        "pattern": "Don_Memo.savedata",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

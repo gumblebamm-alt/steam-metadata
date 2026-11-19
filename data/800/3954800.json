@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793993044,
+  "_lastChecked": 1795073009,
   "_history": [
     {
       "buildId": "26445531",
@@ -13,12 +13,35 @@
           "download": 132774400
         }
       }
+    },
+    {
+      "buildId": "26768348",
+      "branch": "public",
+      "timeUpdated": 1795035845,
+      "firstSeen": 1795073009,
+      "manifests": {
+        "3954801": {
+          "gid": "9086149208901079781",
+          "size": 321739347,
+          "download": 132804208
+        },
+        "3954802": {
+          "gid": "5047893097259383124",
+          "size": 339555424,
+          "download": 141347616
+        },
+        "3954803": {
+          "gid": "5542709051786078790",
+          "size": 322946418,
+          "download": 134152656
+        }
+      }
     }
   ],
-  "_change_number": 40678237,
+  "_change_number": 41240543,
   "_missing_token": false,
-  "_sha": "cd9c662e81b17545820f69ee604d61ea1a2bb235",
-  "_size": 4670,
+  "_sha": "f1591f54ae504d2898e1271f8023884aa922cdca",
+  "_size": 6009,
   "appid": "3954800",
   "common": {
     "associations": {
@@ -112,9 +135,10 @@
       }
     },
     "name": "Campfire Harmony",
-    "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osarch": "64",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos,linux",
     "primary_genre": "4",
     "releasestate": "released",
     "review_percentage": "100",
@@ -202,28 +226,71 @@
     "installdir": "Campfire Harmony",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "Campfire Harmony.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Campfire Harmony.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "campfire-harmony.sh"
       }
     }
   },
   "depots": {
     "3954801": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "132774400",
-          "gid": "8663490980730979815",
-          "size": "321657341"
+          "download": "132804208",
+          "gid": "9086149208901079781",
+          "size": "321739347"
+        }
+      }
+    },
+    "3954802": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "141347616",
+          "gid": "5047893097259383124",
+          "size": "339555424"
+        }
+      }
+    },
+    "3954803": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "134152656",
+          "gid": "5542709051786078790",
+          "size": "322946418"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26445531",
-        "timebuildupdated": "1793836878",
-        "timeupdated": "1793838302"
+        "buildid": "26768348",
+        "timebuildupdated": "1795034035",
+        "timeupdated": "1795035845"
       }
     },
-    "nocommonredists": "1"
+    "nocommonredists": "1",
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Anton Weissberg",
@@ -232,13 +299,36 @@
   "ufs": {
     "maxnumfiles": "10",
     "quota": "1048576",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Anton Weissberg/Campfire Harmony",
+            "replace": "Anton Weissberg/Campfire Harmony"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Anton Weissberg/Campfire Harmony",
+            "replace": ".config/unity3d/Anton Weissberg/Campfire Harmony"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "Anton Weissberg/Campfire Harmony",
         "pattern": "cloud_save.json",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocalLow"
       }
     }

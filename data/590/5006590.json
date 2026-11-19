@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793211945,
-  "_history": [],
-  "_change_number": 40343435,
-  "_missing_token": true,
-  "_sha": "0ae957ecf736e868bc287a587f2228b73a7bd7c6",
-  "_size": 3340,
+  "_lastChecked": 1795073023,
+  "_history": [
+    {
+      "buildId": "26717415",
+      "branch": "public",
+      "timeUpdated": 1795042220,
+      "firstSeen": 1795073023,
+      "manifests": {
+        "5006591": {
+          "gid": "228874244934688643",
+          "size": 344621792,
+          "download": 205780400
+        }
+      }
+    }
+  ],
+  "_change_number": 41246187,
+  "_missing_token": false,
+  "_sha": "2d7394b9851ef35eb9c2a3ac09828d909dd2e63d",
+  "_size": 5502,
   "appid": "5006590",
   "common": {
     "aicontenttype": "1",
@@ -32,9 +46,9 @@
     },
     "clienticon": "16c1574f9185f377d5461ae2cf4e01f8f58a3163",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5006590",
     "genres": {
       "0": "25",
@@ -113,10 +127,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2aa688c3cbb27013bfbef0476f5cb1611fc76c3c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1793200517",
     "store_tags": {
       "0": "1091588",
@@ -156,5 +171,103 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Card&Dungeon",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "CardAndDungeon.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5006591": {
+      "manifests": {
+        "public": {
+          "download": "205780400",
+          "gid": "228874244934688643",
+          "size": "344621792"
+        }
+      }
+    },
+    "baselanguages": "english,japanese,koreana",
+    "branches": {
+      "public": {
+        "buildid": "26717415",
+        "timebuildupdated": "1794873623",
+        "timeupdated": "1795042220"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "SDBD Studio",
+    "publisher": "SDBD Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/CardAndDungeon/saves/production",
+        "pattern": "save.key",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/CardAndDungeon/saves/production",
+        "pattern": "active-slot.dat",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/CardAndDungeon/saves/production",
+        "pattern": "slot_*.cndsave",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/CardAndDungeon/saves/production",
+        "pattern": "slot_*.backup",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/CardAndDungeon/saves/production",
+        "pattern": "progression.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Godot/app_userdata/CardAndDungeon/saves/production",
+        "pattern": "progression.json.backup",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Godot/app_userdata/CardAndDungeon/saves/production",
+        "pattern": "steam-progress-5006590-*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794262896,
-  "_history": [],
-  "_change_number": 40766165,
-  "_missing_token": true,
-  "_sha": "9a52422eb6411c20ca47e29bc599bef3b7de3e70",
-  "_size": 4709,
+  "_lastChecked": 1795073026,
+  "_history": [
+    {
+      "buildId": "26774122",
+      "branch": "public",
+      "timeUpdated": 1795054181,
+      "firstSeen": 1795073026,
+      "manifests": {
+        "5180741": {
+          "gid": "1117877290703094104",
+          "size": 215797215,
+          "download": 67437200
+        },
+        "5180742": {
+          "gid": "3577316170555076461",
+          "size": 234983997,
+          "download": 76184752
+        }
+      }
+    }
+  ],
+  "_change_number": 41251365,
+  "_missing_token": false,
+  "_sha": "3cc8971d33f6952b6bbed81b21c2646a75bbd0a3",
+  "_size": 6709,
   "appid": "5180740",
   "common": {
     "associations": {
@@ -30,8 +49,8 @@
     },
     "clienticon": "fec30e45f0854657002aa718016df0eeefbc4f77",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5180740",
     "genres": {
       "0": "4",
@@ -120,11 +139,12 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1b34bd8e12e46cbb19acb8edc76a3836d296fd4a/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792544440",
+    "steam_release_date": "1795049134",
+    "store_asset_mtime": "1795052788",
     "store_tags": {
       "0": "492",
       "1": "597",
@@ -221,5 +241,103 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Oh Shear!",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Oh Shear!.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Oh Shear!.app"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5180741": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "67437200",
+          "gid": "1117877290703094104",
+          "size": "215797215"
+        }
+      }
+    },
+    "5180742": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "76184752",
+          "gid": "3577316170555076461",
+          "size": "234983997"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26774122",
+        "timebuildupdated": "1795054119",
+        "timeupdated": "1795054181"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Gullfrazie Games",
+    "homepage": "https://gullfraziegames.com",
+    "publisher": "Gullfrazie Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "32000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Gullfrazie Games/Oh Shear!/SimpleSave/{64BitSteamID}",
+            "replace": "com.GullfrazieGames.OhShear/SimpleSave/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Gullfrazie Games/Oh Shear!/SimpleSave/{64BitSteamID}",
+            "replace": ".config/unity3d/Gullfrazie Games/Oh Shear!/SimpleSave/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Gullfrazie Games/Oh Shear!/SimpleSave/{64BitSteamID}",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

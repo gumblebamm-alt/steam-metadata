@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794377709,
-  "_history": [],
-  "_change_number": 40807864,
-  "_missing_token": true,
-  "_sha": "cb2fe306837291b329ac1167672e00e972415665",
-  "_size": 3478,
+  "_lastChecked": 1795073024,
+  "_history": [
+    {
+      "buildId": "26593588",
+      "branch": "public",
+      "timeUpdated": 1794408264,
+      "firstSeen": 1795073024,
+      "manifests": {
+        "5077821": {
+          "gid": "7380740488861918792",
+          "size": 1656767120,
+          "download": 525255552
+        }
+      }
+    }
+  ],
+  "_change_number": 41238996,
+  "_missing_token": false,
+  "_sha": "2642236cb12ed97209f6c2aa3620d0fac7cc0f4e",
+  "_size": 5507,
   "appid": "5077820",
   "common": {
     "aicontenttype": "1",
@@ -29,9 +43,9 @@
     "clienticns": "b4d2105355609b039d7f7e2c02d4b6eaaf32a67e",
     "clienticon": "9e08784927644819beabf7c7cf661a1bc09ca985",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5077820",
     "genres": {
       "0": "23",
@@ -103,10 +117,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "83455be874472a5077c2923c5080026b920aea39/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795033815",
     "store_asset_mtime": "1793434489",
     "store_tags": {
       "0": "1091588",
@@ -160,5 +175,108 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Starhand",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "windows/Starhand.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "macos/Starhand.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "linux/Starhand.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5077821": {
+      "manifests": {
+        "public": {
+          "download": "525255552",
+          "gid": "7380740488861918792",
+          "size": "1656767120"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26593588",
+        "timebuildupdated": "1794407285",
+        "timeupdated": "1794408264"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Christopher Hinckley",
+    "publisher": "Christopher Hinckley"
+  },
+  "ufs": {
+    "maxnumfiles": "8",
+    "quota": "4000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Starhand",
+        "pattern": "*_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Starhand",
+        "pattern": "*_save.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": "godot/app_userdata/Starhand",
+        "pattern": "*_save.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Starhand",
+        "pattern": "daily_history.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Starhand",
+        "pattern": "daily_history.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "5": {
+        "path": "godot/app_userdata/Starhand",
+        "pattern": "daily_history.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

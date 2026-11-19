@@ -1,12 +1,32 @@
 {
-  "_lastChecked": 1794948901,
-  "_history": [],
-  "_change_number": 41106306,
-  "_missing_token": true,
-  "_sha": "b45e7943bc16c4acce38b929742b87ad4ebae0fc",
-  "_size": 4199,
+  "_lastChecked": 1795073009,
+  "_history": [
+    {
+      "buildId": "26777963",
+      "branch": "public",
+      "timeUpdated": 1795071090,
+      "firstSeen": 1795073009,
+      "manifests": {
+        "3839891": {
+          "gid": "7169830587313501872",
+          "size": 438666349,
+          "download": 306907792
+        },
+        "3839892": {
+          "gid": "1780767795695983889",
+          "size": 581929290,
+          "download": 339968864
+        }
+      }
+    }
+  ],
+  "_change_number": 41253324,
+  "_missing_token": false,
+  "_sha": "41e2738b4de477085bbea1bd0b0ca4a16b08505f",
+  "_size": 5574,
   "appid": "3839890",
   "common": {
+    "aicontenttype": "1",
     "associations": {
       "0": {
         "name": "banjihagames",
@@ -36,8 +56,8 @@
     "clienticon": "5386520d6ce2216dedacf9d0f69a10173a4c996f",
     "clienttga": "75b25300bfa628e80bb5e38a742c507630166ebf",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3839890",
     "genres": {
       "0": "4",
@@ -126,11 +146,12 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9758ff9ed7d3e99d740edfc571b9dd2aa29e6a82/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794903774",
+    "steam_release_date": "1795071776",
+    "store_asset_mtime": "1795072520",
     "store_tags": {
       "0": "791774",
       "1": "1716",
@@ -189,5 +210,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Elementail",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Elementail.exe"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Elementail.app"
+      }
+    }
+  },
+  "depots": {
+    "3839891": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "306907792",
+          "gid": "7169830587313501872",
+          "size": "438666349"
+        }
+      }
+    },
+    "3839892": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "339968864",
+          "gid": "1780767795695983889",
+          "size": "581929290"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26777963",
+        "timebuildupdated": "1795070475",
+        "timeupdated": "1795071090"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "banjihagames",
+    "publisher": "banjihagames"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "banjihagames/Elementail",
+        "pattern": "*.elemt",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794948926,
-  "_history": [],
-  "_change_number": 40882938,
-  "_missing_token": true,
-  "_sha": "dbae308a76f97f7984fd4b8eaf80faee9800a6a1",
-  "_size": 5469,
+  "_lastChecked": 1795073025,
+  "_history": [
+    {
+      "buildId": "26739665",
+      "branch": "public",
+      "timeUpdated": 1794944031,
+      "firstSeen": 1795073025,
+      "manifests": {
+        "5147681": {
+          "gid": "2071047976579358311",
+          "size": 16541335934,
+          "download": 14713619728
+        }
+      }
+    }
+  ],
+  "_change_number": 41168270,
+  "_missing_token": false,
+  "_sha": "9a642788e46980a2673acf91437b481d4e6e89ea",
+  "_size": 6846,
   "appid": "5147680",
   "common": {
     "aicontenttype": "1",
@@ -33,9 +47,9 @@
     },
     "clienticon": "009899a79295dd08aa32c38a2bab22a9562e0e38",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5147680",
     "genres": {
       "0": "25",
@@ -131,10 +145,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c16ab419bc3f2780f3509e933322ba0e879abde4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794944727",
     "store_asset_mtime": "1792754711",
     "store_tags": {
       "0": "1687",
@@ -268,5 +283,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PROCEDURE ZERO",
+    "launch": {
+      "0": {
+        "description": "Play PROCEDURE ZERO",
+        "description_loc": {
+          "english": "Play PROCEDURE ZERO"
+        },
+        "executable": "game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5147681": {
+      "manifests": {
+        "public": {
+          "download": "14713619728",
+          "gid": "2071047976579358311",
+          "size": "16541335934"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26739665",
+        "timebuildupdated": "1794943729",
+        "timeupdated": "1794944031"
+      }
+    }
+  },
+  "extended": {
+    "developer": "DELANIVO GAMES",
+    "homepage": "https://delanivogames.com",
+    "publisher": "DELANIVO GAMES"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "game/Saved/SaveGames",
+        "pattern": "LockdownCheckpoint*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "game/Saved/SaveGames",
+        "pattern": "LockdownOsiagniecia*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

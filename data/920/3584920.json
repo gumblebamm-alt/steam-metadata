@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794866480,
+  "_lastChecked": 1795073007,
   "_history": [
     {
       "buildId": "25012026",
@@ -13,12 +13,30 @@
           "download": 243720192
         }
       }
+    },
+    {
+      "buildId": "26734853",
+      "branch": "public",
+      "timeUpdated": 1795060476,
+      "firstSeen": 1795073007,
+      "manifests": {
+        "3584921": {
+          "gid": "1648221222139499485",
+          "size": 1643300575,
+          "download": 292746736
+        },
+        "3584922": {
+          "gid": "5530383544067168389",
+          "size": 1717174964,
+          "download": 310159312
+        }
+      }
     }
   ],
-  "_change_number": 40966089,
+  "_change_number": 41250159,
   "_missing_token": false,
-  "_sha": "729a69ddafd6b9db7dd9b9a7c58d401009938b07",
-  "_size": 7586,
+  "_sha": "31f4c1bd38d32cf342c5fa571647c082ed3d814c",
+  "_size": 8972,
   "appid": "3584920",
   "common": {
     "associations": {
@@ -49,8 +67,14 @@
       "2": "28"
     },
     "header_image": {
+      "brazilian": "cf91cd3d42860f662c21744a7d46245920a19317/header_brazilian.jpg",
       "english": "cd40d2003417f550bf57142d0c02a3fb3f096edb/header.jpg",
+      "koreana": "238f4c17865c78c1ca8769c6fed0ca9c9ad4a253/header_koreana.jpg",
+      "latam": "ee85d40fc0d75926a1044b245682d3fa9dff4a8f/header_latam.jpg",
+      "portuguese": "cf91cd3d42860f662c21744a7d46245920a19317/header_portuguese.jpg",
+      "russian": "ff4d094ad2e236f46051cb2d4d50af2c0ae710d0/header_russian.jpg",
       "schinese": "a2d68f0aa5d9b1a220360945764bdfa707cae410/header_schinese.jpg",
+      "spanish": "ee85d40fc0d75926a1044b245682d3fa9dff4a8f/header_spanish.jpg",
       "tchinese": "a2d68f0aa5d9b1a220360945764bdfa707cae410/header_tchinese.jpg"
     },
     "icon": "666f7742d64220277ead57f8ceb857144ac45252",
@@ -190,7 +214,7 @@
       }
     },
     "steam_release_date": "1786690819",
-    "store_asset_mtime": "1787656268",
+    "store_asset_mtime": "1795062116",
     "store_tags": {
       "0": "3920",
       "1": "4136",
@@ -214,6 +238,10 @@
       "9": "10235"
     },
     "supported_languages": {
+      "brazilian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "english": {
         "full_audio": "true",
         "subtitles": "true",
@@ -227,8 +255,16 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "russian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "schinese": {
         "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "spanish": {
         "subtitles": "true",
         "supported": "true"
       },
@@ -265,9 +301,9 @@
       },
       "manifests": {
         "public": {
-          "download": "243720192",
-          "gid": "8192669522745192646",
-          "size": "1485247724"
+          "download": "292746736",
+          "gid": "1648221222139499485",
+          "size": "1643300575"
         }
       }
     },
@@ -275,13 +311,19 @@
       "config": {
         "oslist": "macos"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "310159312",
+          "gid": "5530383544067168389",
+          "size": "1717174964"
+        }
+      }
     },
     "branches": {
       "public": {
-        "buildid": "25012026",
-        "timebuildupdated": "1788022133",
-        "timeupdated": "1788022321"
+        "buildid": "26734853",
+        "timebuildupdated": "1794930749",
+        "timeupdated": "1795060476"
       }
     },
     "privatebranches": "1"
@@ -293,6 +335,22 @@
   "ufs": {
     "maxnumfiles": "10",
     "quota": "20000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "MacAppSupport",
+        "useinstead": "WinAppDataLocalLow"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "HoHo Game Studio\\Kaolengmian Legend",
@@ -300,6 +358,18 @@
         "platforms": {
           "1": "Windows"
         },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "HoHo Game Studio\\Kaolengmian Legend",
+        "pattern": "*.es3",
+        "recursive": "1",
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": "HoHo Game Studio\\Kaolengmian Legend",
+        "pattern": "*.es3",
         "recursive": "1",
         "root": "WinAppDataLocalLow"
       }

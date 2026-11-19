@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794637265,
-  "_history": [],
-  "_change_number": 40938544,
-  "_missing_token": true,
-  "_sha": "833159ce625d753bddcc4857e2e8682652fd8559",
-  "_size": 3028,
+  "_lastChecked": 1795073015,
+  "_history": [
+    {
+      "buildId": "26614569",
+      "branch": "public",
+      "timeUpdated": 1794478950,
+      "firstSeen": 1795073015,
+      "manifests": {
+        "4539241": {
+          "gid": "7295850360283958284",
+          "size": 389383744,
+          "download": 295153824
+        }
+      }
+    }
+  ],
+  "_change_number": 41244481,
+  "_missing_token": false,
+  "_sha": "fa5de3ff97c1bd31a27fc7431ecc76b917391b6e",
+  "_size": 4127,
   "appid": "4539240",
   "common": {
     "aicontenttype": "2",
@@ -29,8 +43,8 @@
     },
     "clienticon": "6842fcfce9beb63ce8c6f8d4c9ef53eb9b6d9256",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4539240",
     "genres": {
       "0": "23"
@@ -100,10 +114,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b10d20fdc9fb28e9ab51395fcfa1396178ff5a3b/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795046410",
     "store_asset_mtime": "1778330976",
     "store_tags": {
       "0": "3799",
@@ -133,5 +148,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Nurturer",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Nurturer.exe"
+      }
+    }
+  },
+  "depots": {
+    "4539241": {
+      "manifests": {
+        "public": {
+          "download": "295153824",
+          "gid": "7295850360283958284",
+          "size": "389383744"
+        }
+      }
+    },
+    "4539242": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26614569",
+        "timebuildupdated": "1794478907",
+        "timeupdated": "1794478950"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Lostoar Studio",
+    "publisher": "Lostoar Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Nurturer/saves\t",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Nurturer/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Nurturer",
+        "pattern": "achievements.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

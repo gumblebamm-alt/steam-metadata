@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794425746,
-  "_history": [],
-  "_change_number": 40833195,
-  "_missing_token": true,
-  "_sha": "b13e4f3135f95ac96e4789e7f306d057487f894e",
-  "_size": 4886,
+  "_lastChecked": 1795073004,
+  "_history": [
+    {
+      "buildId": "26661376",
+      "branch": "public",
+      "timeUpdated": 1794630449,
+      "firstSeen": 1795073004,
+      "manifests": {
+        "3103622": {
+          "gid": "5216290304526804492",
+          "size": 2775431533,
+          "download": 2581094032
+        }
+      }
+    }
+  ],
+  "_change_number": 41249308,
+  "_missing_token": false,
+  "_sha": "7edcc31ed140838e0f7e94d81463479affbb9fee",
+  "_size": 7226,
   "appid": "3103620",
   "common": {
     "associations": {
@@ -25,9 +39,9 @@
     "clienticon": "addd0a62733b39a7f36aaadf4b0195074cd2f556",
     "clienttga": "55fc2a507970a15cdb108848aef6a8ad5eca387f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3103620",
     "genres": {
       "0": "1",
@@ -124,16 +138,70 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f2929d350e5ef4c57cccc7ee84cbabeafba70ce4/capsule_231x87.jpg",
       "schinese": "466bb82e4d6fdab18811f46d513963bfc1272eb8/capsule_231x87_schinese.jpg",
       "tchinese": "50348b6300e7e88edb4e50bc09fe6d94de27c298/capsule_231x87_tchinese.jpg"
     },
-    "store_asset_mtime": "1789549878",
+    "steam_deck_compatibility": {
+      "category": "1",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-11.0-3RC",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1794415507",
+      "tested_build_id": "26591537",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+        }
+      }
+    },
+    "steam_release_date": "1795057459",
+    "store_asset_mtime": "1795034370",
     "store_tags": {
-      "0": "29482",
-      "1": "1743",
+      "0": "1743",
+      "1": "4026",
       "10": "1752",
       "11": "7208",
       "12": "1684",
@@ -144,7 +212,7 @@
       "17": "4182",
       "18": "1091588",
       "19": "5390",
-      "2": "4026",
+      "2": "29482",
       "3": "19",
       "4": "791774",
       "5": "4085",
@@ -174,5 +242,50 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Witch the Showdown",
+    "launch": {
+      "0": {
+        "executable": "WitchTheShowdown.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3103622": {
+      "manifests": {
+        "public": {
+          "download": "2581094032",
+          "gid": "5216290304526804492",
+          "size": "2775431533"
+        }
+      }
+    },
+    "3103623": {},
+    "branches": {
+      "public": {
+        "buildid": "26661376",
+        "timebuildupdated": "1794630118",
+        "timeupdated": "1794630449"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "CitalesGames",
+    "publisher": "Perp Games"
+  }
 }
