@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1793556039,
-  "_history": [],
-  "_change_number": 40480364,
-  "_missing_token": true,
-  "_sha": "f6eb16775092b5a071856ac9dbf4f5dadb5144c9",
-  "_size": 3116,
+  "_lastChecked": 1795120535,
+  "_history": [
+    {
+      "buildId": "26783342",
+      "branch": "prerelease",
+      "timeUpdated": 1795087822,
+      "firstSeen": 1795120535,
+      "manifests": {
+        "4461021": {
+          "gid": "2854144698530697278",
+          "size": 166005960,
+          "download": 84041472
+        },
+        "4461022": {
+          "gid": "2930348178708378899",
+          "size": 231964373,
+          "download": 104965600
+        }
+      }
+    },
+    {
+      "buildId": "26783342",
+      "branch": "public",
+      "timeUpdated": 1795089049,
+      "firstSeen": 1795120535,
+      "manifests": {
+        "4461021": {
+          "gid": "2854144698530697278",
+          "size": 166005960,
+          "download": 84041472
+        },
+        "4461022": {
+          "gid": "2930348178708378899",
+          "size": 231964373,
+          "download": 104965600
+        }
+      }
+    }
+  ],
+  "_change_number": 41261028,
+  "_missing_token": false,
+  "_sha": "856392cf5e16678a359b2930bf7c700dc0035107",
+  "_size": 5311,
   "appid": "4461020",
   "common": {
     "associations": {
@@ -33,8 +70,8 @@
     },
     "clienticon": "ca543afd6ebad10bad394952a2e20d6b9e9f65b4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4461020",
     "genres": {
       "0": "4",
@@ -106,10 +143,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "68fe6b570b24920f1e19972e76d3de709d2fe015/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795089089",
     "store_asset_mtime": "1791926024",
     "store_tags": {
       "0": "255534",
@@ -141,5 +179,113 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Factory on a Train",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "FactoryOnATrain.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Factory on a Train.app"
+      }
+    }
+  },
+  "depots": {
+    "4461021": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "prerelease": {
+          "download": "84041472",
+          "gid": "2854144698530697278",
+          "size": "166005960"
+        },
+        "public": {
+          "download": "84041472",
+          "gid": "2854144698530697278",
+          "size": "166005960"
+        }
+      }
+    },
+    "4461022": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "prerelease": {
+          "download": "104965600",
+          "gid": "2930348178708378899",
+          "size": "231964373"
+        },
+        "public": {
+          "download": "104965600",
+          "gid": "2930348178708378899",
+          "size": "231964373"
+        }
+      }
+    },
+    "branches": {
+      "prerelease": {
+        "buildid": "26783342",
+        "description": "prerelease",
+        "timebuildupdated": "1795087822",
+        "timeupdated": "1795087822"
+      },
+      "public": {
+        "buildid": "26783342",
+        "timebuildupdated": "1795087822",
+        "timeupdated": "1795089049"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "bahrdev",
+    "publisher": "bahrdev"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Factory on a Train",
+            "replace": "Godot/app_userdata/Factory on a Train"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Factory on a Train",
+            "replace": "godot/app_userdata/Factory on a Train"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Factory on a Train",
+        "pattern": "savegame-*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

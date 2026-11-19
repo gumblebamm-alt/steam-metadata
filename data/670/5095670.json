@@ -1,6 +1,29 @@
 {
-  "_lastChecked": 1794866516,
+  "_lastChecked": 1795120553,
   "_history": [
+    {
+      "buildId": "26790175",
+      "branch": "public",
+      "timeUpdated": 1795106080,
+      "firstSeen": 1795120553,
+      "manifests": {
+        "5095671": {
+          "gid": "385252976815598679",
+          "size": 2349015349,
+          "download": 2179528480
+        },
+        "5095672": {
+          "gid": "2773721197572479790",
+          "size": 2479444715,
+          "download": 2175179216
+        },
+        "5095673": {
+          "gid": "6015919814182361341",
+          "size": 2714486434,
+          "download": 2226582992
+        }
+      }
+    },
     {
       "buildId": "26707300",
       "branch": "public",
@@ -77,30 +100,12 @@
           "download": 1849802336
         }
       }
-    },
-    {
-      "buildId": "26506040",
-      "branch": "public",
-      "timeUpdated": 1794057305,
-      "firstSeen": 1794073586,
-      "manifests": {
-        "5095671": {
-          "gid": "4181903946106785786",
-          "size": 1807847188,
-          "download": 1639775872
-        },
-        "5095672": {
-          "gid": "966769760205445465",
-          "size": 1874938932,
-          "download": 1635768240
-        }
-      }
     }
   ],
-  "_change_number": 41012280,
+  "_change_number": 41271255,
   "_missing_token": false,
-  "_sha": "3b15f4431e2acac509506e80e3a79375c920f824",
-  "_size": 6249,
+  "_sha": "5d1ba8addcad6c95b29faab52e307e0ffb46351f",
+  "_size": 6547,
   "appid": "5095670",
   "common": {
     "aicontenttype": "1",
@@ -121,6 +126,9 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
+      "category_25": "1",
+      "category_30": "1",
       "category_62": "1"
     },
     "clienticon": "1bef233cd1689ca0bb39335eae267e057e4ed2e4",
@@ -197,8 +205,8 @@
     "name": "Chip Builder",
     "osarch": "",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows,linux",
+    "osextended": "macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos,linux",
     "primary_genre": "23",
     "releasestate": "released",
     "small_capsule": {
@@ -335,9 +343,9 @@
       },
       "manifests": {
         "public": {
-          "download": "2178391840",
-          "gid": "5569005188898525695",
-          "size": "2347020221"
+          "download": "2179528480",
+          "gid": "385252976815598679",
+          "size": "2349015349"
         }
       }
     },
@@ -347,9 +355,9 @@
       },
       "manifests": {
         "public": {
-          "download": "2173929872",
-          "gid": "4302011510509584985",
-          "size": "2477297472"
+          "download": "2175179216",
+          "gid": "2773721197572479790",
+          "size": "2479444715"
         }
       }
     },
@@ -359,20 +367,21 @@
       },
       "manifests": {
         "public": {
-          "download": "2224909856",
-          "gid": "2570657882196565789",
-          "size": "2710956995"
+          "download": "2226582992",
+          "gid": "6015919814182361341",
+          "size": "2714486434"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26707300",
-        "timebuildupdated": "1794846258",
-        "timeupdated": "1794846622"
+        "buildid": "26790175",
+        "timebuildupdated": "1795105924",
+        "timeupdated": "1795106080"
       }
     },
-    "privatebranches": "1"
+    "privatebranches": "1",
+    "workshopdepot": "5095670"
   },
   "extended": {
     "developer": "Laurentiu Raducu",
@@ -398,6 +407,14 @@
           "1": "MacOS"
         },
         "root": "MacAppSupport"
+      },
+      "2": {
+        "path": "Epic/ChipBuilder/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgConfigHome"
       }
     }
   }

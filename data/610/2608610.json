@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795073002,
-  "_history": [],
-  "_change_number": 41251784,
-  "_missing_token": true,
-  "_sha": "1e330744255f5a920e83f18320783b06ccdc1015",
-  "_size": 4600,
+  "_lastChecked": 1795120515,
+  "_history": [
+    {
+      "buildId": "26794528",
+      "branch": "public",
+      "timeUpdated": 1795119533,
+      "firstSeen": 1795120515,
+      "manifests": {
+        "2608611": {
+          "gid": "4699740832151990005",
+          "size": 145625504,
+          "download": 96846288
+        }
+      }
+    }
+  ],
+  "_change_number": 41277387,
+  "_missing_token": false,
+  "_sha": "5b6b6b5e7d4794dacc3e3c89c2b39556d4861ce5",
+  "_size": 5757,
   "appid": "2608610",
   "common": {
     "associations": {
@@ -35,7 +49,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2608610",
     "genres": {
       "0": "4",
@@ -119,12 +132,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a903d98367958dbaa3d6469a4f399c633c2deb57/capsule_231x87.jpg",
       "schinese": "904d3be7c56212a3d8bdbb320f79314c6b9f9205/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1795036243",
+    "steam_release_date": "1795078817",
+    "store_asset_mtime": "1795111435",
     "store_tags": {
       "0": "91114",
       "1": "35079",
@@ -191,5 +205,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Test",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Gently Packed.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2608611": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "96846288",
+          "gid": "4699740832151990005",
+          "size": "145625504"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26794528",
+        "timebuildupdated": "1795118671",
+        "timeupdated": "1795119533"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Two Ducks Studio",
+    "homepage": "https://twoducksstudio.com",
+    "publisher": "Pixel Doors"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "4000000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Gently Packed",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

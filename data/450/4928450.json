@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794031070,
-  "_history": [],
-  "_change_number": 40693741,
-  "_missing_token": true,
-  "_sha": "548554a98ed22d7a9537770c7fc12875e28273ec",
-  "_size": 3663,
+  "_lastChecked": 1795120547,
+  "_history": [
+    {
+      "buildId": "26791498",
+      "branch": "public",
+      "timeUpdated": 1795109502,
+      "firstSeen": 1795120547,
+      "manifests": {
+        "4928451": {
+          "gid": "8333507524312335561",
+          "size": 7076436306,
+          "download": 4946709392
+        }
+      }
+    }
+  ],
+  "_change_number": 41277451,
+  "_missing_token": false,
+  "_sha": "5e8c3a7549a3b5742761d934015cc24b1f5b4851",
+  "_size": 5131,
   "appid": "4928450",
   "common": {
     "aicontenttype": "1",
@@ -31,7 +45,6 @@
     "clienticon": "5e3e0f4afacb58bb94245571649d19e97dd4fcb8",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4928450",
     "genres": {
       "0": "1",
@@ -103,14 +116,20 @@
       }
     },
     "name": "Grand Theft Timeline",
+    "name_localized": {
+      "schinese": "时空悍匪"
+    },
     "osarch": "64",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "37",
+    "review_score": "4",
     "small_capsule": {
       "english": "2c4c1e67ef1544f3027b86c04837ed55ba5c0a29/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795111187",
     "store_asset_mtime": "1794006006",
     "store_tags": {
       "0": "10679",
@@ -175,5 +194,77 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Grand Theft Timeline",
+    "launch": {
+      "0": {
+        "executable": "GrandTheftTimeline.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4928451": {
+      "manifests": {
+        "public": {
+          "download": "4946709392",
+          "gid": "8333507524312335561",
+          "size": "7076436306"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26791498",
+        "timebuildupdated": "1795109500",
+        "timeupdated": "1795109502"
+      }
+    },
+    "workshopdepot": "4928450"
+  },
+  "extended": {
+    "developer": "REAL PLAYERS",
+    "homepage": "https://www.tbjbu2.com/",
+    "publisher": "REAL PLAYERS"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "GrandTheftTimeline/Saved/SaveGames",
+        "pattern": "*",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "GrandTheftTimeline/Saved/SaveGames",
+        "pattern": "*",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "GrandTheftTimeline",
+        "pattern": "*",
+        "root": "WinSavedGames"
+      },
+      "3": {
+        "path": "GrandTheftTimeline/Saved/GTT",
+        "pattern": "*",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

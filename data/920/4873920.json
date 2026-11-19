@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795073020,
-  "_history": [],
-  "_change_number": 41248691,
-  "_missing_token": true,
-  "_sha": "c0e5b93f455e01674a3a4463c0596ba39033a4ad",
-  "_size": 4148,
+  "_lastChecked": 1795120545,
+  "_history": [
+    {
+      "buildId": "26774919",
+      "branch": "public",
+      "timeUpdated": 1795057885,
+      "firstSeen": 1795120545,
+      "manifests": {
+        "4873921": {
+          "gid": "4792853013667881502",
+          "size": 338570835,
+          "download": 251950688
+        },
+        "4873922": {
+          "gid": "7468545727860986162",
+          "size": 303555699,
+          "download": 243362768
+        }
+      }
+    }
+  ],
+  "_change_number": 41261068,
+  "_missing_token": false,
+  "_sha": "3dd8b8fe23c4befad09a333c3d64d24054bbfe4d",
+  "_size": 6103,
   "appid": "4873920",
   "common": {
     "aicontenttype": "1",
@@ -37,9 +56,9 @@
     },
     "clienticon": "164ac3bd91b2cfa4c7368b756e68555b8a446775",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4873920",
     "genres": {
       "0": "4",
@@ -128,10 +147,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "da17991204c31b8d9f599acc7034293814d6417a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1794458790",
     "store_tags": {
       "0": "1716",
@@ -201,5 +221,107 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Stash Mayhem",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Stash Mayhem.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Stash Mayhem.x86_64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4873921": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "251950688",
+          "gid": "4792853013667881502",
+          "size": "338570835"
+        }
+      }
+    },
+    "4873922": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "243362768",
+          "gid": "7468545727860986162",
+          "size": "303555699"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26774919",
+        "timebuildupdated": "1795057410",
+        "timeupdated": "1795057885"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Nauco Labs",
+    "homepage": "https://www.naucolabs.com/",
+    "publisher": "Nauco Labs"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Stash Mayhem",
+        "pattern": "meta.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Stash Mayhem",
+        "pattern": "meta.json.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Stash Mayhem",
+        "pattern": "run.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Stash Mayhem",
+        "pattern": "run.json.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Stash Mayhem",
+        "pattern": "settings.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Stash Mayhem",
+        "pattern": "hints.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

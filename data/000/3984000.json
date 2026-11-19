@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795033852,
-  "_history": [],
-  "_change_number": 41226534,
-  "_missing_token": true,
-  "_sha": "a01d77f575021f022231c0b23ac88f12b22b7c8b",
-  "_size": 3071,
+  "_lastChecked": 1795120528,
+  "_history": [
+    {
+      "buildId": "26772810",
+      "branch": "public",
+      "timeUpdated": 1795049324,
+      "firstSeen": 1795120528,
+      "manifests": {
+        "3984001": {
+          "gid": "327217413676702613",
+          "size": 144832933,
+          "download": 119889216
+        },
+        "3984002": {
+          "gid": "9146781608274834612",
+          "size": 142846077,
+          "download": 116681920
+        }
+      }
+    }
+  ],
+  "_change_number": 41277776,
+  "_missing_token": false,
+  "_sha": "054475c60b30b30632fdd47357bdacdfaa359f48",
+  "_size": 4220,
   "appid": "3984000",
   "common": {
     "aicontenttype": "1",
@@ -25,8 +44,8 @@
     },
     "clienticon": "a8072fa1539898514948abc7699713ee266f2703",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3984000",
     "genres": {
       "0": "25",
@@ -102,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fb4a75484f3e0bee650c9cb71c29c12637946b4e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795120359",
     "store_asset_mtime": "1794497426",
     "store_tags": {
       "0": "4604",
@@ -138,5 +158,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MeloDancer",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Melodancer.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Melodancer.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3984001": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "119889216",
+          "gid": "327217413676702613",
+          "size": "144832933"
+        }
+      }
+    },
+    "3984002": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "116681920",
+          "gid": "9146781608274834612",
+          "size": "142846077"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26772810",
+        "timebuildupdated": "1795049272",
+        "timeupdated": "1795049324"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Livinskii Aleksandr",
+    "publisher": "Livinskii Aleksandr"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "400000000"
+  }
 }

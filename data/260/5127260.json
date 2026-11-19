@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794425784,
-  "_history": [],
-  "_change_number": 40842518,
-  "_missing_token": true,
-  "_sha": "c0f8a4513ef4b1bf0fd4101b1f232e5f89136843",
-  "_size": 3552,
+  "_lastChecked": 1795120554,
+  "_history": [
+    {
+      "buildId": "26790518",
+      "branch": "public",
+      "timeUpdated": 1795107104,
+      "firstSeen": 1795120554,
+      "manifests": {
+        "5127261": {
+          "gid": "8744816583467351889",
+          "size": 323093344,
+          "download": 175182048
+        },
+        "5127262": {
+          "gid": "5197705406121714029",
+          "size": 258355080,
+          "download": 155298416
+        },
+        "5127263": {
+          "gid": "465630803287293074",
+          "size": 223309104,
+          "download": 146757808
+        }
+      }
+    }
+  ],
+  "_change_number": 41271298,
+  "_missing_token": false,
+  "_sha": "28ebdc737c25821782368b9f12dcc1355a99eaf6",
+  "_size": 6135,
   "appid": "5127260",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +57,8 @@
     },
     "clienticon": "2a1fb22db637d11dc27f15d404d4e6f6e673f33f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5127260",
     "genres": {
       "0": "23",
@@ -106,10 +130,11 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a1878267f24c0e372b2098ee4dce41ad7decaef5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795093936",
     "store_asset_mtime": "1787254188",
     "store_tags": {
       "0": "4328",
@@ -149,9 +174,6 @@
       "koreana": {
         "supported": "true"
       },
-      "latam": {
-        "supported": "true"
-      },
       "polish": {
         "supported": "true"
       },
@@ -164,11 +186,136 @@
       "spanish": {
         "supported": "true"
       },
+      "swedish": {
+        "supported": "true"
+      },
       "turkish": {
         "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Salt of the Earth",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Salt of the Earth",
+        "description_loc": {
+          "english": "Play Salt of the Earth"
+        },
+        "executable": "salt-of-the-earth.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Play Salt of the Earth",
+        "description_loc": {
+          "english": "Play Salt of the Earth"
+        },
+        "executable": "salt-of-the-earth.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "macos"
+        },
+        "description": "Play Salt of the Earth",
+        "description_loc": {
+          "english": "Play Salt of the Earth"
+        },
+        "executable": "Salt of the Earth.app",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "4"
+  },
+  "depots": {
+    "5127261": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "175182048",
+          "gid": "8744816583467351889",
+          "size": "323093344"
+        }
+      }
+    },
+    "5127262": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "155298416",
+          "gid": "5197705406121714029",
+          "size": "258355080"
+        }
+      }
+    },
+    "5127263": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "146757808",
+          "gid": "465630803287293074",
+          "size": "223309104"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,koreana,polish,russian,schinese,spanish,swedish,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26790518",
+        "timebuildupdated": "1795106896",
+        "timeupdated": "1795107104"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Cattrall Games",
+    "homepage": "https://cattrall.games/games/",
+    "publisher": "Cattrall Games"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "400000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Salt of the Earth/manors",
+            "replace": "godot/app_userdata/Salt of the Earth/manors"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Salt of the Earth/manors",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

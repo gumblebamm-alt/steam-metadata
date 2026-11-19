@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793513186,
-  "_history": [],
-  "_change_number": 40469839,
-  "_missing_token": true,
-  "_sha": "945a04a64b502cf25dd393fe2888d2124650d7ca",
-  "_size": 3067,
+  "_lastChecked": 1795120552,
+  "_history": [
+    {
+      "buildId": "26791639",
+      "branch": "public",
+      "timeUpdated": 1795109899,
+      "firstSeen": 1795120552,
+      "manifests": {
+        "5085521": {
+          "gid": "6057788715213468822",
+          "size": 827824200,
+          "download": 187095120
+        }
+      }
+    }
+  ],
+  "_change_number": 41273202,
+  "_missing_token": false,
+  "_sha": "2f9e534246abe55786bb5cdb6b4733f66e914d05",
+  "_size": 4384,
   "appid": "5085520",
   "common": {
     "associations": {
@@ -31,8 +45,8 @@
     },
     "clienticon": "8e82dcad0173a243e4912023d11dfea0ba8066f3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5085520",
     "genres": {
       "0": "4",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c06d9987fa9401db5813f3d856237770598ae702/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795110670",
     "store_asset_mtime": "1792689885",
     "store_tags": {
       "0": "1643",
@@ -139,5 +154,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Tiny Tycoons",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Tiny Tycoons.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5085521": {
+      "manifests": {
+        "public": {
+          "download": "187095120",
+          "gid": "6057788715213468822",
+          "size": "827824200"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26791639",
+        "timebuildupdated": "1795109876",
+        "timeupdated": "1795109899"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Shy Gekko",
+    "homepage": "https://shygekko.dev",
+    "publisher": "Shy Gekko"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "ShyGekko/Tiny Tycoons",
+        "pattern": "tiny_tycoons_slot*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "ShyGekko/Tiny Tycoons",
+        "pattern": "tiny_tycoons_slot*.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "ShyGekko/Tiny Tycoons/MainMenuShowcases/SavedShops",
+        "pattern": "slot_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

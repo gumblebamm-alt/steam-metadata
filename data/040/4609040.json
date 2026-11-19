@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794948913,
-  "_history": [],
-  "_change_number": 41118758,
-  "_missing_token": true,
-  "_sha": "59e847aa4329f8afabe848c7449afbcbc80bbc2f",
-  "_size": 3342,
+  "_lastChecked": 1795120538,
+  "_history": [
+    {
+      "buildId": "26795037",
+      "branch": "public",
+      "timeUpdated": 1795120427,
+      "firstSeen": 1795120538,
+      "manifests": {
+        "4609041": {
+          "gid": "3202257756620789277",
+          "size": 252464708,
+          "download": 67944800
+        }
+      }
+    }
+  ],
+  "_change_number": 41277815,
+  "_missing_token": false,
+  "_sha": "073483583e5da9253a99f52abbc379f70b2fc149",
+  "_size": 4517,
   "appid": "4609040",
   "common": {
     "aicontenttype": "1",
@@ -31,7 +45,6 @@
     "clienticon": "a14e682f72816733311163fbed40dcb6db93fdcb",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4609040",
     "genres": {
       "0": "1"
@@ -103,7 +116,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6a763183c9ec9a75eb0653e79d0f9316072c3944/capsule_231x87.jpg"
     },
@@ -149,5 +162,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Hook and Gun",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Hook And Gun.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4609041": {
+      "manifests": {
+        "public": {
+          "download": "67944800",
+          "gid": "3202257756620789277",
+          "size": "252464708"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26795037",
+        "timebuildupdated": "1795120331",
+        "timeupdated": "1795120427"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Giant Beak Games",
+    "publisher": "Giant Beak Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataLocalLow"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "GiantBeakGames/Hook And Gun",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793298797,
-  "_history": [],
-  "_change_number": 40380506,
-  "_missing_token": true,
-  "_sha": "d101407cbde3503ac7de4a8edd4f6bc5523e0526",
-  "_size": 2953,
+  "_lastChecked": 1795120542,
+  "_history": [
+    {
+      "buildId": "26771641",
+      "branch": "public",
+      "timeUpdated": 1795044855,
+      "firstSeen": 1795120542,
+      "manifests": {
+        "4743951": {
+          "gid": "1347248993498888140",
+          "size": 1936913844,
+          "download": 1554511776
+        }
+      }
+    }
+  ],
+  "_change_number": 41264657,
+  "_missing_token": false,
+  "_sha": "68d8dfabf1e8177766c1f3a7c0f0042b4c574725",
+  "_size": 4034,
   "appid": "4743950",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "cb8e734071c25f007b005e95529d57242bf7aef9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4743950",
     "genres": {
       "0": "28",
@@ -101,11 +115,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8c34cb4d3c220151631194611bf49e6a9e6bbd80/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793276263",
+    "steam_release_date": "1795096074",
+    "store_asset_mtime": "1795090770",
     "store_tags": {
       "0": "7332",
       "1": "9",
@@ -135,5 +150,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Conquest",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Conquest.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4743951": {
+      "manifests": {
+        "public": {
+          "download": "1554511776",
+          "gid": "1347248993498888140",
+          "size": "1936913844"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26771641",
+        "timebuildupdated": "1795044779",
+        "timeupdated": "1795044855"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Crashout Games",
+    "publisher": "Crashout Games"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Conquest/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

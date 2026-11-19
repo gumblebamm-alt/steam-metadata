@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792155379,
-  "_history": [],
-  "_change_number": 39892731,
-  "_missing_token": true,
-  "_sha": "409d2f3b47f427c2ef1fd01d20b78d32312c7885",
-  "_size": 3475,
+  "_lastChecked": 1795120549,
+  "_history": [
+    {
+      "buildId": "25020069",
+      "branch": "public",
+      "timeUpdated": 1788087412,
+      "firstSeen": 1795120549,
+      "manifests": {
+        "4982251": {
+          "gid": "700317265771839295",
+          "size": 338633181,
+          "download": 152878272
+        },
+        "4982252": {
+          "gid": "3450768979780695896",
+          "size": 345392152,
+          "download": 162453232
+        }
+      }
+    }
+  ],
+  "_change_number": 41274719,
+  "_missing_token": false,
+  "_sha": "85dbe636d003cfe282979b12bb8f8c66c468aa73",
+  "_size": 5246,
   "appid": "4982250",
   "common": {
     "aicontenttype": "1",
@@ -40,9 +59,9 @@
     },
     "clienticon": "e122124f9eebc26e8b146f40df7aafa1c0cc0ddf",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4982250",
     "genres": {
       "0": "4",
@@ -113,10 +132,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1c7fc1c54faa5c5143a6a47be730e0ec005dcbaa/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1785507402",
     "store_tags": {
       "0": "1664",
@@ -158,5 +178,93 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blokkit",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "blokkit",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Blokkit.exe",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "2",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4982251": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "152878272",
+          "gid": "700317265771839295",
+          "size": "338633181"
+        }
+      }
+    },
+    "4982252": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "162453232",
+          "gid": "3450768979780695896",
+          "size": "345392152"
+        }
+      }
+    },
+    "baselanguages": "dutch,english,french,german,italian,japanese,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "25020069",
+        "timebuildupdated": "1788087411",
+        "timeupdated": "1788087412"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "Native",
+    "developer": "OutOut Interactive",
+    "publisher": "OutOut Interactive",
+    "steammachineresolutionoverride": "Native"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Blokkit/save",
+            "replace": ".config/Blokkit/save"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "Blokkit/save",
+        "pattern": "blokkit-save-v1.json",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

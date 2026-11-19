@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795033873,
-  "_history": [],
-  "_change_number": 41220760,
-  "_missing_token": true,
-  "_sha": "b7bbfe7ef13e01a3776c3e9889e519ff48b0c8bb",
-  "_size": 7596,
+  "_lastChecked": 1795120554,
+  "_history": [
+    {
+      "buildId": "26436972",
+      "branch": "public",
+      "timeUpdated": 1793823579,
+      "firstSeen": 1795120554,
+      "manifests": {
+        "5160371": {
+          "gid": "6269438894145789863",
+          "size": 1140567983,
+          "download": 992435952
+        }
+      }
+    }
+  ],
+  "_change_number": 41272702,
+  "_missing_token": false,
+  "_sha": "0f15394ecb347fe68bd0968a469b1fe4538672e1",
+  "_size": 8982,
   "appid": "5160370",
   "common": {
     "aicontenttype": "1",
@@ -34,9 +48,9 @@
     },
     "clienticon": "818db02a0b2b532eca898db7089f62582baf69fb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5160370",
     "genres": {
       "0": "1",
@@ -164,7 +178,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d9e25f2dd0aaa7234b55c2aafa077011cd31d28c/capsule_231x87.jpg",
       "japanese": "e4249260643705484418c4fd4e103b4b200c05c8/capsule_231x87_japanese.jpg",
@@ -172,6 +186,7 @@
       "schinese": "0c20f4e0bfa15295751aee1c7da312c5bffc63d9/capsule_231x87_schinese.jpg",
       "tchinese": "1183a9706542d71665e6fc886193c69081965435/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1795109721",
     "store_asset_mtime": "1791274444",
     "store_tags": {
       "0": "42804",
@@ -266,5 +281,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HOSHIKIRI",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "astrolabe.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65524",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5160371": {
+      "manifests": {
+        "public": {
+          "download": "992435952",
+          "gid": "6269438894145789863",
+          "size": "1140567983"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26436972",
+        "timebuildupdated": "1793810946",
+        "timeupdated": "1793823579"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "NemoQ Studio",
+    "homepage": "https://ssnemo.github.io/hoshikiri/",
+    "publisher": "NemoQ Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Astrolabe",
+        "pattern": "slot1.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Astrolabe",
+        "pattern": "slot2.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Astrolabe",
+        "pattern": "slot3.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

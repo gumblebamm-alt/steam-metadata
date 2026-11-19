@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1792603037,
-  "_history": [],
-  "_change_number": 40044879,
-  "_missing_token": true,
-  "_sha": "2bdf1f53b33c35aa24f4e7cd03915838d62c027e",
-  "_size": 8252,
+  "_lastChecked": 1795120545,
+  "_history": [
+    {
+      "buildId": "26545046",
+      "branch": "beta",
+      "timeUpdated": 1794243709,
+      "firstSeen": 1795120545,
+      "manifests": {
+        "4866021": {
+          "gid": "155606477775121883",
+          "size": 228139444,
+          "download": 140687424
+        },
+        "4866022": {
+          "gid": "3394323557811943546",
+          "size": 202426172,
+          "download": 134072976
+        }
+      }
+    },
+    {
+      "buildId": "26545113",
+      "branch": "public",
+      "timeUpdated": 1794243782,
+      "firstSeen": 1795120545,
+      "manifests": {
+        "4866021": {
+          "gid": "155606477775121883",
+          "size": 228139444,
+          "download": 140687424
+        },
+        "4866022": {
+          "gid": "3394323557811943546",
+          "size": 202426172,
+          "download": 134072976
+        }
+      }
+    }
+  ],
+  "_change_number": 41267802,
+  "_missing_token": false,
+  "_sha": "85226c6e15f1b6e84b546381e8a89d1ff8d92fe4",
+  "_size": 9610,
   "appid": "4866020",
   "common": {
     "associations": {
@@ -30,9 +67,9 @@
     },
     "clienticon": "9ccde597cd4a170fd4cc36ac86fccaf2af17fc75",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4866020",
     "genres": {
       "0": "4",
@@ -143,7 +180,7 @@
     "name": "Sokobomb",
     "name_localized": {
       "japanese": "ソコボム",
-      "koreana": "소코봄은",
+      "koreana": "소코밤",
       "russian": "Сокобомб",
       "schinese": "推彈小子",
       "tchinese": "推彈小子",
@@ -153,7 +190,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1ed389fc53d8a4e4903a668e6aa4c8844c613d1b/capsule_231x87.jpg",
       "japanese": "69bf0a6cc8c99b0e58249db51c9c68cfcc7b7dcc/capsule_231x87_japanese.jpg",
@@ -163,6 +200,7 @@
       "tchinese": "070e2c01b4f7cfb062b97da3b7b34d39d111a1de/capsule_231x87_tchinese.jpg",
       "ukrainian": "1661483f0f7a8145f4b527afa9d69d5ecc33da25/capsule_231x87_ukrainian.jpg"
     },
+    "steam_release_date": "1795101049",
     "store_asset_mtime": "1792355904",
     "store_tags": {
       "0": "1730",
@@ -244,5 +282,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sokobomb",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Sokobomb.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Sokobomb.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4866021": {
+      "manifests": {
+        "beta": {
+          "download": "140687424",
+          "gid": "155606477775121883",
+          "size": "228139444"
+        },
+        "public": {
+          "download": "140687424",
+          "gid": "155606477775121883",
+          "size": "228139444"
+        }
+      }
+    },
+    "4866022": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "beta": {
+          "download": "134072976",
+          "gid": "3394323557811943546",
+          "size": "202426172"
+        },
+        "public": {
+          "download": "134072976",
+          "gid": "3394323557811943546",
+          "size": "202426172"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26545046",
+        "description": "For early access",
+        "timebuildupdated": "1794243588",
+        "timeupdated": "1794243709"
+      },
+      "public": {
+        "buildid": "26545113",
+        "timebuildupdated": "1794243760",
+        "timeupdated": "1794243782"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Socially Awkward Studio Ltd.",
+    "publisher": "Socially Awkward Studio Ltd."
+  }
 }

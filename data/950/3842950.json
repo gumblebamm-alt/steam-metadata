@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794986777,
-  "_history": [],
-  "_change_number": 41192804,
-  "_missing_token": true,
-  "_sha": "d6c7ce68aa5006af9d92b16adaabd053fbe9c7dd",
-  "_size": 3061,
+  "_lastChecked": 1795120526,
+  "_history": [
+    {
+      "buildId": "26742619",
+      "branch": "public",
+      "timeUpdated": 1794952881,
+      "firstSeen": 1795120526,
+      "manifests": {
+        "3842951": {
+          "gid": "4820231025897086767",
+          "size": 137946552,
+          "download": 65745808
+        }
+      }
+    }
+  ],
+  "_change_number": 41272433,
+  "_missing_token": false,
+  "_sha": "0dd26da34aad1bf8be07ccbf4b00711e4811223f",
+  "_size": 4083,
   "appid": "3842950",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     "clienticon": "d47c7ec63e831e330c9222fa653aca4574be5b1e",
     "clienttga": "b5f9cf77d749139565c7eefd052808f83c17dc6a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3842950",
     "genres": {
       "0": "3",
@@ -102,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8a788c2e2a33de4ff6d8c550b7749b36769e4667/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795109170",
     "store_asset_mtime": "1792693176",
     "store_tags": {
       "0": "1091588",
@@ -138,5 +153,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Shrike",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "shrike.exe"
+      }
+    }
+  },
+  "depots": {
+    "3842951": {
+      "manifests": {
+        "public": {
+          "download": "65745808",
+          "gid": "4820231025897086767",
+          "size": "137946552"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26742619",
+        "timebuildupdated": "1794952880",
+        "timeupdated": "1794952881"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Quirx Games",
+    "publisher": "Quirx Games"
+  },
+  "ufs": {
+    "maxnumfiles": "16",
+    "quota": "32777216",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/shrike",
+        "pattern": "*.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/shrike",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

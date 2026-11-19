@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795033855,
-  "_history": [],
-  "_change_number": 41230418,
-  "_missing_token": true,
-  "_sha": "b7b8ce4e48cbf5228587aa4ef4ff43d4309f4ad1",
-  "_size": 3907,
+  "_lastChecked": 1795120531,
+  "_history": [
+    {
+      "buildId": "26544268",
+      "branch": "public",
+      "timeUpdated": 1794241510,
+      "firstSeen": 1795120531,
+      "manifests": {
+        "4220071": {
+          "gid": "4098186724099040950",
+          "size": 555789702,
+          "download": 380319840
+        },
+        "4220072": {
+          "gid": "5613710632446755139",
+          "size": 603573998,
+          "download": 399233920
+        }
+      }
+    }
+  ],
+  "_change_number": 41264747,
+  "_missing_token": false,
+  "_sha": "f766fe86efc4469ce33d586fb9fab7eecde2af56",
+  "_size": 6003,
   "appid": "4220070",
   "common": {
     "associations": {
@@ -32,9 +51,9 @@
     "clienticns": "90d0bfeae17d400bf9d44d21a022435305fca9d2",
     "clienticon": "d99a69fa9cad8bdf80efc8d062434bf18b0b0c59",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4220070",
     "genres": {
       "0": "2",
@@ -119,10 +138,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c2ba566be12902d829f3662e4e6b78c661761a72/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795096232",
     "store_asset_mtime": "1795015835",
     "store_tags": {
       "0": "1645",
@@ -185,5 +205,106 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CSE",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Comrade, Secrets Escape!.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Comrade, Secrets Escape!.app"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4220071": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "380319840",
+          "gid": "4098186724099040950",
+          "size": "555789702"
+        }
+      }
+    },
+    "4220072": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "399233920",
+          "gid": "5613710632446755139",
+          "size": "603573998"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26544268",
+        "timebuildupdated": "1794241500",
+        "timeupdated": "1794241510"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Chute Apps",
+    "homepage": "http://www.chuteapps.com",
+    "publisher": "Chute Apps"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Chute Apps/Comrade, Secrets Escape!",
+            "replace": "com.Chute-Apps.Comrade--Secrets-Escape-"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Chute Apps/Comrade, Secrets Escape!/PersistentScriptableObjects-V1",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Chute Apps/Comrade, Secrets Escape!/GameRecordsV18",
+        "pattern": "*.ccsave",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Chute Apps/Comrade, Secrets Escape!/GameRecordsV18",
+        "pattern": "*-preview.png",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Chute Apps/Comrade, Secrets Escape!",
+        "pattern": "ControlBindingsV0-1-0.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

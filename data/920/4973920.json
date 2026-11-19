@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794262887,
-  "_history": [],
-  "_change_number": 40706660,
-  "_missing_token": true,
-  "_sha": "f48e214451b60ac7fde76559e3f7ce09dfaaf78b",
-  "_size": 3408,
+  "_lastChecked": 1795120549,
+  "_history": [
+    {
+      "buildId": "26793802",
+      "branch": "public",
+      "timeUpdated": 1795116223,
+      "firstSeen": 1795120549,
+      "manifests": {
+        "4973921": {
+          "gid": "1380200151859662207",
+          "size": 182779720,
+          "download": 99749520
+        },
+        "4973922": {
+          "gid": "3300522491676047084",
+          "size": 246556208,
+          "download": 118845840
+        }
+      }
+    }
+  ],
+  "_change_number": 41275962,
+  "_missing_token": false,
+  "_sha": "2d24b00fef34fc4fe6b66e2b20495001e818d4a6",
+  "_size": 5019,
   "appid": "4973920",
   "common": {
     "associations": {
@@ -34,9 +53,9 @@
     },
     "clienticon": "19e9520da90931ffe1c9e9504767fc47d42cb546",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4973920",
     "genres": {
       "0": "4",
@@ -109,10 +128,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "49d9f16dfb34220f335687d20472a1a37192608c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795073750",
     "store_asset_mtime": "1791836002",
     "store_tags": {
       "0": "22955",
@@ -152,5 +172,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Squircle",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Squircle.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Squircle.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4973921": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "download": "99749520",
+          "gid": "1380200151859662207",
+          "size": "182779720"
+        }
+      }
+    },
+    "4973922": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "118845840",
+          "gid": "3300522491676047084",
+          "size": "246556208"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26793802",
+        "timebuildupdated": "1795116223",
+        "timeupdated": "1795116223"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Rocket Powered Penguin",
+    "homepage": "https://www.rocketpoweredpenguin.com",
+    "publisher": "Rocket Powered Penguin"
+  },
+  "ufs": {
+    "maxnumfiles": "8",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "Godot/app_userdata/Squircle",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Squircle",
+        "pattern": "save_data.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

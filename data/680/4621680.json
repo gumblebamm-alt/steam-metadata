@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795033862,
-  "_history": [],
-  "_change_number": 41226511,
-  "_missing_token": true,
-  "_sha": "127d68c2e44d6694f608d670be18cb8e45b21f9d",
-  "_size": 3206,
+  "_lastChecked": 1795120539,
+  "_history": [
+    {
+      "buildId": "26759550",
+      "branch": "public",
+      "timeUpdated": 1795011730,
+      "firstSeen": 1795120539,
+      "manifests": {
+        "4621681": {
+          "gid": "7265068775175116571",
+          "size": 593053015,
+          "download": 106795680
+        }
+      }
+    }
+  ],
+  "_change_number": 41265990,
+  "_missing_token": false,
+  "_sha": "f76051854701e1b0d4f553d3ec6f3823d6bce25d",
+  "_size": 4566,
   "appid": "4621680",
   "common": {
     "associations": {
@@ -31,8 +45,8 @@
     },
     "clienticon": "f67fde21e571e4c11d4516c6e205b86fe6086e1c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4621680",
     "genres": {
       "0": "23",
@@ -46,7 +60,6 @@
       "english": "1",
       "french": "1",
       "german": "1",
-      "japanese": "1",
       "polish": "1",
       "russian": "1",
       "schinese": "1",
@@ -113,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2c2370411460f65eca09a0cc954de3e0859d2a15/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795098252",
     "store_asset_mtime": "1781702541",
     "store_tags": {
       "0": "9",
@@ -138,7 +152,32 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "french": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "german": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
       "polish": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "russian": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "schinese": {
+        "full_audio": "true",
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "spanish": {
         "full_audio": "true",
         "subtitles": "true",
         "supported": "true"
@@ -146,5 +185,52 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Onward Autobattles",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Onward Autobattles.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4621681": {
+      "manifests": {
+        "public": {
+          "download": "106795680",
+          "gid": "7265068775175116571",
+          "size": "593053015"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26759550",
+        "timebuildupdated": "1795010737",
+        "timeupdated": "1795011730"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Dream Parable",
+    "publisher": "Dream Parable"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "Dream Parable/Onward Autobattles",
+        "pattern": "*.save",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793773133,
+  "_lastChecked": 1795120522,
   "_history": [
     {
       "buildId": "26422608",
@@ -23,12 +23,58 @@
           "download": 167327280
         }
       }
+    },
+    {
+      "buildId": "26794741",
+      "branch": "public",
+      "timeUpdated": 1795119388,
+      "firstSeen": 1795120522,
+      "manifests": {
+        "3529091": {
+          "gid": "6920941230552196786",
+          "size": 214196500,
+          "download": 155725072
+        },
+        "3529092": {
+          "gid": "3383832399711954669",
+          "size": 201886044,
+          "download": 135688736
+        },
+        "3529093": {
+          "gid": "2211594412091890006",
+          "size": 323700652,
+          "download": 169016496
+        }
+      }
+    },
+    {
+      "buildId": "26504118",
+      "branch": "test",
+      "timeUpdated": 1794046540,
+      "firstSeen": 1795120522,
+      "manifests": {
+        "3529091": {
+          "gid": "925546196696647577",
+          "size": 211894548,
+          "download": 153417648
+        },
+        "3529092": {
+          "gid": "5002909298943913296",
+          "size": 199591428,
+          "download": 134008784
+        },
+        "3529093": {
+          "gid": "9191184158491676839",
+          "size": 321406036,
+          "download": 167366896
+        }
+      }
     }
   ],
-  "_change_number": 40574186,
+  "_change_number": 41277316,
   "_missing_token": false,
-  "_sha": "502f9ab8d61c1b4f6b9b4ed70832fb40b245f277",
-  "_size": 5804,
+  "_sha": "58bed29b07ae9817304e2a7d9f3d2b741f6e95d3",
+  "_size": 7160,
   "appid": "3529090",
   "common": {
     "aicontenttype": "1",
@@ -141,6 +187,8 @@
     "oslist": "windows,macos,linux",
     "primary_genre": "3",
     "releasestate": "released",
+    "review_percentage": "95",
+    "review_score": "7",
     "small_capsule": {
       "english": "e915eb354dd127331045a378d7ddc3e0b7983db4/capsule_231x87.jpg"
     },
@@ -222,7 +270,10 @@
         },
         "executable": "Astra Bestiary.app"
       }
-    }
+    },
+    "steamconfigurator3rdpartynative": "15",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "3529091": {
@@ -231,9 +282,14 @@
       },
       "manifests": {
         "public": {
-          "download": "153192816",
-          "gid": "8593511512439771573",
-          "size": "298824556"
+          "download": "155725072",
+          "gid": "6920941230552196786",
+          "size": "214196500"
+        },
+        "test": {
+          "download": "153417648",
+          "gid": "925546196696647577",
+          "size": "211894548"
         }
       }
     },
@@ -243,9 +299,14 @@
       },
       "manifests": {
         "public": {
-          "download": "133965600",
-          "gid": "7962038749472296373",
-          "size": "199365252"
+          "download": "135688736",
+          "gid": "3383832399711954669",
+          "size": "201886044"
+        },
+        "test": {
+          "download": "134008784",
+          "gid": "5002909298943913296",
+          "size": "199591428"
         }
       }
     },
@@ -255,18 +316,29 @@
       },
       "manifests": {
         "public": {
-          "download": "167327280",
-          "gid": "6312349609877221764",
-          "size": "321179860"
+          "download": "169016496",
+          "gid": "2211594412091890006",
+          "size": "323700652"
+        },
+        "test": {
+          "download": "167366896",
+          "gid": "9191184158491676839",
+          "size": "321406036"
         }
       }
     },
     "baselanguages": "english,spanish",
     "branches": {
       "public": {
-        "buildid": "26422608",
-        "timebuildupdated": "1793763527",
-        "timeupdated": "1793763588"
+        "buildid": "26794741",
+        "timebuildupdated": "1795119369",
+        "timeupdated": "1795119388"
+      },
+      "test": {
+        "buildid": "26504118",
+        "description": "test",
+        "timebuildupdated": "1794046522",
+        "timeupdated": "1794046540"
       }
     },
     "nocommonredists": "1"
@@ -277,8 +349,34 @@
     "publisher": "Bicho Feo"
   },
   "ufs": {
-    "maxnumfiles": "7",
-    "quota": "5242880",
+    "maxnumfiles": "100",
+    "quota": "2024000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "/Godot/app_userdata/Astra Bestiary",
+            "replace": "godot/app_userdata/Astra Bestiary"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "/Godot/app_userdata/Astra Bestiary",
+            "replace": "Godot/app_userdata/Astra Bestiary"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "/Godot/app_userdata/Astra Bestiary",
@@ -300,6 +398,11 @@
         "path": "/Godot/app_userdata/Astra Bestiary",
         "pattern": "*.save",
         "root": "MacAppSupport"
+      },
+      "3": {
+        "path": "/Godot/app_userdata/Astra Bestiary/cloud",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
       }
     }
   }

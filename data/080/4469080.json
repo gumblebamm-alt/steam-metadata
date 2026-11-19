@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795033859,
-  "_history": [],
-  "_change_number": 41224627,
-  "_missing_token": true,
-  "_sha": "81dd39cf50d2a38548f7aeaeb69df60778dddb9a",
-  "_size": 3903,
+  "_lastChecked": 1795120536,
+  "_history": [
+    {
+      "buildId": "26787581",
+      "branch": "public",
+      "timeUpdated": 1795099553,
+      "firstSeen": 1795120536,
+      "manifests": {
+        "4469081": {
+          "gid": "1073824540799757467",
+          "size": 348970797,
+          "download": 157211504
+        },
+        "4469082": {
+          "gid": "579476715794634314",
+          "size": 368661524,
+          "download": 166009120
+        }
+      }
+    }
+  ],
+  "_change_number": 41270313,
+  "_missing_token": false,
+  "_sha": "3f2d507a81a1c8570254120d5807fb5782236588",
+  "_size": 5578,
   "appid": "4469080",
   "common": {
     "associations": {
@@ -18,24 +37,27 @@
       }
     },
     "category": {
+      "category_13": "1",
+      "category_15": "1",
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
       "category_28": "1",
-      "category_59": "1",
       "category_62": "1",
       "category_65": "1",
       "category_68": "1",
+      "category_69": "1",
       "category_74": "1",
       "category_76": "1",
+      "category_77": "1",
       "category_79": "1",
       "category_80": "1"
     },
     "clienticon": "a98483ab0c9119d6d86ef8765ebe08dac278b5c8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4469080",
     "genres": {
       "0": "23",
@@ -106,10 +128,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "90ba2d8ebe22ed41827612cea6fbc43d308d5f8d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795085658",
     "store_asset_mtime": "1794362662",
     "store_tags": {
       "0": "122",
@@ -182,5 +207,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Monk&TheMisfitMonsters",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Monk&TheMisfitMonsters.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Monk&TheMisfitMonsters.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "2",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "9",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4469081": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "157211504",
+          "gid": "1073824540799757467",
+          "size": "348970797"
+        }
+      }
+    },
+    "4469082": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "166009120",
+          "gid": "579476715794634314",
+          "size": "368661524"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26787581",
+        "timebuildupdated": "1795099553",
+        "timeupdated": "1795099553"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Nobody Games",
+    "publisher": "Nobody Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "NobodyGame/Monk_TheMisfitMonsters",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "NobodyGame/Monk&TheMisfitMonsters",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

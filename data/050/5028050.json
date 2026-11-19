@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793734374,
+  "_lastChecked": 1795120550,
   "_history": [
     {
       "buildId": "26411629",
@@ -18,12 +18,48 @@
           "download": 222210960
         }
       }
+    },
+    {
+      "buildId": "26542354",
+      "branch": "1.1.1",
+      "timeUpdated": 1794237008,
+      "firstSeen": 1795120550,
+      "manifests": {
+        "5028051": {
+          "gid": "5802948197271508315",
+          "size": 415978166,
+          "download": 162860928
+        },
+        "5028052": {
+          "gid": "3334329877606243719",
+          "size": 543081776,
+          "download": 222258736
+        }
+      }
+    },
+    {
+      "buildId": "26760591",
+      "branch": "public",
+      "timeUpdated": 1795014068,
+      "firstSeen": 1795120550,
+      "manifests": {
+        "5028051": {
+          "gid": "644033356202960153",
+          "size": 416849786,
+          "download": 163093216
+        },
+        "5028052": {
+          "gid": "7209656461181868166",
+          "size": 543948895,
+          "download": 222498304
+        }
+      }
     }
   ],
-  "_change_number": 40560038,
+  "_change_number": 41277002,
   "_missing_token": false,
-  "_sha": "e2ecf86c172798df8d813f5b119ee73f48cd9e3e",
-  "_size": 5805,
+  "_sha": "8151345b4d18af687ed7973224348a0011328a6e",
+  "_size": 8466,
   "appid": "5028050",
   "common": {
     "associations": {
@@ -43,6 +79,8 @@
       "category_22": "1",
       "category_23": "1",
       "category_30": "1",
+      "category_45": "1",
+      "category_46": "1",
       "category_62": "1",
       "category_64": "1",
       "category_67": "1",
@@ -145,8 +183,83 @@
     "oslist": "windows,macos",
     "primary_genre": "28",
     "releasestate": "released",
+    "review_percentage": "80",
+    "review_score": "8",
     "small_capsule": {
       "english": "2686e34a8054e65384b180d013b462cba588e708/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-11.0-3RC",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        }
+      },
+      "test_timestamp": "1794341861",
+      "tested_build_id": "26542354",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
     },
     "steam_release_date": "1793728771",
     "store_asset_mtime": "1792593327",
@@ -168,8 +281,8 @@
       "4": "1664",
       "5": "4094",
       "6": "1654",
-      "7": "12472",
-      "8": "1643",
+      "7": "1643",
+      "8": "12472",
       "9": "255534"
     },
     "supported_languages": {
@@ -210,7 +323,8 @@
         "supported": "true"
       }
     },
-    "type": "Game"
+    "type": "Game",
+    "workshop_visible": "1"
   },
   "config": {
     "installdir": "Traffic Architect",
@@ -245,10 +359,15 @@
         "oslist": "windows"
       },
       "manifests": {
+        "1.1.1": {
+          "download": "162860928",
+          "gid": "5802948197271508315",
+          "size": "415978166"
+        },
         "public": {
-          "download": "162803728",
-          "gid": "5201759496019207232",
-          "size": "415760547"
+          "download": "163093216",
+          "gid": "644033356202960153",
+          "size": "416849786"
         }
       }
     },
@@ -257,19 +376,30 @@
         "oslist": "macos"
       },
       "manifests": {
+        "1.1.1": {
+          "download": "222258736",
+          "gid": "3334329877606243719",
+          "size": "543081776"
+        },
         "public": {
-          "download": "222210960",
-          "gid": "2150536156007576876",
-          "size": "542865151"
+          "download": "222498304",
+          "gid": "7209656461181868166",
+          "size": "543948895"
         }
       }
     },
     "baselanguages": "brazilian,bulgarian,czech,english,french,german,italian,latam,polish,portuguese,russian,schinese,spanish,ukrainian",
     "branches": {
+      "1.1.1": {
+        "buildid": "26542354",
+        "description": "1.1.1 — previous version, if Windows blocks the update",
+        "timebuildupdated": "1794236425",
+        "timeupdated": "1794237008"
+      },
       "public": {
-        "buildid": "26411629",
-        "timebuildupdated": "1793726162",
-        "timeupdated": "1793726744"
+        "buildid": "26760591",
+        "timebuildupdated": "1795013441",
+        "timeupdated": "1795014068"
       }
     },
     "workshopdepot": "5028050"

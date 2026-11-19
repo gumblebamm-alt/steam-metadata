@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793467107,
-  "_history": [],
-  "_change_number": 40454643,
-  "_missing_token": true,
-  "_sha": "e553bffe0d99b4553917c9d386449add79606385",
-  "_size": 4500,
+  "_lastChecked": 1795120553,
+  "_history": [
+    {
+      "buildId": "26420042",
+      "branch": "public",
+      "timeUpdated": 1793753380,
+      "firstSeen": 1795120553,
+      "manifests": {
+        "5105471": {
+          "gid": "1754880250010466339",
+          "size": 246090968,
+          "download": 166312880
+        },
+        "5105472": {
+          "gid": "2632067719988657893",
+          "size": 310927517,
+          "download": 186311072
+        }
+      }
+    }
+  ],
+  "_change_number": 41269571,
+  "_missing_token": false,
+  "_sha": "f0fe211a55c8d79627d87fe7ec506715969eab42",
+  "_size": 6052,
   "appid": "5105470",
   "common": {
     "aicontenttype": "1",
@@ -34,9 +53,9 @@
     },
     "clienticon": "2bf9bf24a295b763ebed71e24a2fdb9aa53340f5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5105470",
     "genres": {
       "0": "1",
@@ -127,11 +146,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f9c69d3c2a5e95efb3bb54f0efe70ab283e42a72/capsule_231x87.jpg",
       "japanese": "cce6accbf70d2e543615596acceab303284206cb/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1795104048",
     "store_asset_mtime": "1793448043",
     "store_tags": {
       "0": "122",
@@ -184,5 +204,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "弾幕の戦乙女 -Barrage of Valhalla-",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BarrageOfValhalla.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "BarrageOfValhalla.app"
+      }
+    }
+  },
+  "depots": {
+    "5105471": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "166312880",
+          "gid": "1754880250010466339",
+          "size": "246090968"
+        }
+      }
+    },
+    "5105472": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "186311072",
+          "gid": "2632067719988657893",
+          "size": "310927517"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,polish,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26420042",
+        "timebuildupdated": "1793753287",
+        "timeupdated": "1793753380"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Barrage of Valhalla Team",
+    "homepage": "https://tm-gate.com/",
+    "publisher": "Barrage of Valhalla Team"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Barrage of Valhalla/saves",
+        "pattern": "save_v1.json*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

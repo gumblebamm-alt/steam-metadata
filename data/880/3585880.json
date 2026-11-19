@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792857596,
-  "_history": [],
-  "_change_number": 40200240,
-  "_missing_token": true,
-  "_sha": "e6143c278fbe003011c478ac048439584add7159",
-  "_size": 4765,
+  "_lastChecked": 1795120522,
+  "_history": [
+    {
+      "buildId": "26779839",
+      "branch": "public",
+      "timeUpdated": 1795078429,
+      "firstSeen": 1795120522,
+      "manifests": {
+        "3585881": {
+          "gid": "6997814703383339140",
+          "size": 832713457,
+          "download": 625468992
+        }
+      }
+    }
+  ],
+  "_change_number": 41259694,
+  "_missing_token": false,
+  "_sha": "841cc08f5f6144449936c881147326a64caad548",
+  "_size": 6071,
   "appid": "3585880",
   "common": {
     "associations": {
@@ -34,6 +48,7 @@
     "clienticon": "b22975736aff246a79eb5137057107c43e8346ca",
     "clienttga": "f04c6467222183d0206c649522f9c99a761ab7f8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -41,10 +56,9 @@
         "id": "3585880_eula_0",
         "name": "Faroda EULA",
         "url": "https://store.steampowered.com//eula/3585880_eula_0",
-        "version": "1"
+        "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "3585880",
     "genres": {
       "0": "1",
@@ -130,10 +144,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "91df713ffcc1fd0e4b3e4e1da4eaf9fa6c9c568f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795086374",
     "store_asset_mtime": "1792839402",
     "store_tags": {
       "0": "3877",
@@ -226,5 +241,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Faroda",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "faroda.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3585881": {
+      "config": {
+        "language": "english",
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "625468992",
+          "gid": "6997814703383339140",
+          "size": "832713457"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26779839",
+        "timebuildupdated": "1795078115",
+        "timeupdated": "1795078429"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "PuccioSoft",
+    "publisher": "PuccioSoft"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "platformer/Saved/SaveGames/",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

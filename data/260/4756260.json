@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794339895,
-  "_history": [],
-  "_change_number": 40786003,
-  "_missing_token": true,
-  "_sha": "f04f926cc30d4d1be4772c46aa710bdd40f22599",
-  "_size": 3226,
+  "_lastChecked": 1795120543,
+  "_history": [
+    {
+      "buildId": "26756077",
+      "branch": "public",
+      "timeUpdated": 1795001099,
+      "firstSeen": 1795120543,
+      "manifests": {
+        "4756261": {
+          "gid": "3005731017770437129",
+          "size": 284750828,
+          "download": 208514016
+        },
+        "4756262": {
+          "gid": "560803656649497528",
+          "size": 258222336,
+          "download": 201573120
+        },
+        "4756263": {
+          "gid": "5903467411815881554",
+          "size": 376511092,
+          "download": 233094288
+        }
+      }
+    }
+  ],
+  "_change_number": 41255772,
+  "_missing_token": false,
+  "_sha": "02924cace93f704b7a5829efd750e5a6d3aa59e4",
+  "_size": 5173,
   "appid": "4756260",
   "common": {
     "aicontenttype": "1",
@@ -31,7 +55,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4756260",
     "genres": {
       "0": "23",
@@ -105,10 +128,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "42acd0cafda95705bf9154adcaded22ac3f64457/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795078454",
     "store_asset_mtime": "1787008757",
     "store_tags": {
       "0": "4474",
@@ -144,5 +168,110 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dungeon Cooking",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "dungeon_cooking.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "dungeon_cooking.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "dungeon_cooking.app"
+      }
+    }
+  },
+  "depots": {
+    "4756261": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "208514016",
+          "gid": "3005731017770437129",
+          "size": "284750828"
+        }
+      }
+    },
+    "4756262": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "201573120",
+          "gid": "560803656649497528",
+          "size": "258222336"
+        }
+      }
+    },
+    "4756263": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "233094288",
+          "gid": "5903467411815881554",
+          "size": "376511092"
+        }
+      }
+    },
+    "baselanguages": "english,polish",
+    "branches": {
+      "public": {
+        "buildid": "26756077",
+        "timebuildupdated": "1795001045",
+        "timeupdated": "1795001099"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Unkind Logic",
+    "homepage": "https://unkindlogic.com",
+    "publisher": "Unkind Logic"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Dungeon Cooking",
+        "pattern": "save_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "godot/app_userdata/Dungeon Cooking",
+        "pattern": "save_*.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgDataHome"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Dungeon Cooking",
+        "pattern": "save_*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795073024,
-  "_history": [],
-  "_change_number": 41252982,
-  "_missing_token": true,
-  "_sha": "4fd0e37df8d7df53144e059141fb3588f37ca1cc",
-  "_size": 8276,
+  "_lastChecked": 1795120551,
+  "_history": [
+    {
+      "buildId": "26578600",
+      "branch": "public",
+      "timeUpdated": 1794353762,
+      "firstSeen": 1795120551,
+      "manifests": {
+        "5058321": {
+          "gid": "615361362268516588",
+          "size": 10405284549,
+          "download": 10122366064
+        }
+      }
+    }
+  ],
+  "_change_number": 41259331,
+  "_missing_token": false,
+  "_sha": "de63327f40c9ffeaabfda92898b3c2df12bcf586",
+  "_size": 9544,
   "appid": "5058320",
   "common": {
     "aicontenttype": "1",
@@ -31,6 +45,7 @@
     },
     "clienticon": "7003913b30680c865a73e6028c043a9acfe893ef",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -40,7 +55,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5058320",
     "genres": {
       "0": "25",
@@ -175,7 +189,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a773c469b40f0bb55ef7fc918188e52f9f43e73c/capsule_231x87.jpg",
       "japanese": "a773c469b40f0bb55ef7fc918188e52f9f43e73c/capsule_231x87_japanese.jpg",
@@ -208,5 +222,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Game",
+    "launch": {
+      "0": {
+        "executable": "Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5058321": {
+      "manifests": {
+        "public": {
+          "download": "10122366064",
+          "gid": "615361362268516588",
+          "size": "10405284549"
+        }
+      }
+    },
+    "baselanguages": "english,schinese,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26578600",
+        "timebuildupdated": "1794353616",
+        "timeupdated": "1794353762"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "魔门弃徒",
+    "publisher": "魔门弃徒"
+  },
+  "ufs": {
+    "maxnumfiles": "180",
+    "quota": "40000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "savedata",
+        "pattern": "*.gcdata",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

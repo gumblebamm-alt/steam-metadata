@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1795033871,
-  "_history": [],
-  "_change_number": 41232789,
-  "_missing_token": true,
-  "_sha": "92ad9b88a7c08650e2e2130c2d267247dd497761",
-  "_size": 3515,
+  "_lastChecked": 1795120551,
+  "_history": [
+    {
+      "buildId": "26762553",
+      "branch": "public",
+      "timeUpdated": 1795021771,
+      "firstSeen": 1795120551,
+      "manifests": {
+        "5061451": {
+          "gid": "4925742087832208768",
+          "size": 310209013,
+          "download": 158697856
+        },
+        "5061452": {
+          "gid": "2468547774196860125",
+          "size": 326652118,
+          "download": 165805248
+        },
+        "5061453": {
+          "gid": "5439241606688447193",
+          "size": 305890529,
+          "download": 155506048
+        }
+      }
+    }
+  ],
+  "_change_number": 41269228,
+  "_missing_token": false,
+  "_sha": "12bf67446786c23ff86d31286c63caabb4c2483c",
+  "_size": 5583,
   "appid": "5061450",
   "common": {
     "associations": {
@@ -43,7 +67,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "5061450",
     "genres": {
       "0": "1",
@@ -117,10 +140,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "62a49adcf57682667a789ff82c92988116d555c9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1794487781",
     "store_tags": {
       "0": "17894",
@@ -151,5 +175,111 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cyber Kitty Neon Merge",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CyberKitty Neon Merge.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "CyberKitty Neon Merge.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "CyberKitty Neon Merge.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5061451": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "158697856",
+          "gid": "4925742087832208768",
+          "size": "310209013"
+        }
+      }
+    },
+    "5061452": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "165805248",
+          "gid": "2468547774196860125",
+          "size": "326652118"
+        }
+      }
+    },
+    "5061453": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "155506048",
+          "gid": "5439241606688447193",
+          "size": "305890529"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26762553",
+        "timebuildupdated": "1795018413",
+        "timeupdated": "1795021771"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "La Contessa Games",
+    "homepage": "https://lacontessagames.com/cyber-kitty-neon-merge",
+    "publisher": "La Contessa Games"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "10000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "La Contessa Games/CyberKitty Neon Merge/Profiles/{64BitSteamID}",
+        "pattern": "profile.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "La Contessa Games/CyberKitty Neon Merge",
+        "pattern": "profile.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
