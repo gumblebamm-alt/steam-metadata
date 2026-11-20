@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794598873,
-  "_history": [],
-  "_change_number": 40905502,
-  "_missing_token": true,
-  "_sha": "ad521e6f02f7841ed0117a55023b8c0b9fa7a38c",
-  "_size": 3395,
+  "_lastChecked": 1795158837,
+  "_history": [
+    {
+      "buildId": "26804778",
+      "branch": "public",
+      "timeUpdated": 1795157389,
+      "firstSeen": 1795158837,
+      "manifests": {
+        "4603991": {
+          "gid": "1179526772439171742",
+          "size": 865339946,
+          "download": 527539744
+        }
+      }
+    }
+  ],
+  "_change_number": 41291855,
+  "_missing_token": false,
+  "_sha": "3ae8d536915cc3d1e7f676a9fdb7a55bf00c7b61",
+  "_size": 4421,
   "appid": "4603990",
   "common": {
     "associations": {
@@ -30,8 +44,8 @@
     },
     "clienticon": "0e552181c7351b6a5cddba6c44657b41ef5ea7e8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4603990",
     "genres": {
       "0": "23",
@@ -107,10 +121,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5aafcf8a82d0c84d070e2ee56c375ca6fa52864c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795135569",
     "store_asset_mtime": "1794219506",
     "store_tags": {
       "0": "599",
@@ -156,5 +171,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CRED",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "CRED.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4603991": {
+      "manifests": {
+        "public": {
+          "download": "527539744",
+          "gid": "1179526772439171742",
+          "size": "865339946"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26804778",
+        "timebuildupdated": "1795156980",
+        "timeupdated": "1795157389"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "ISR studio",
+    "publisher": "ISR studio"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "20048576",
+    "savefiles": {
+      "0": {
+        "path": "cef_cred",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "cef_cred",
+        "pattern": "*.txt",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

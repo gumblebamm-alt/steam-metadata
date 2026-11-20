@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794948894,
-  "_history": [],
-  "_change_number": 41108778,
-  "_missing_token": true,
-  "_sha": "019e292aad39db99be39a9ed380205fc6b20c756",
-  "_size": 4707,
+  "_lastChecked": 1795158827,
+  "_history": [
+    {
+      "buildId": "26797583",
+      "branch": "public",
+      "timeUpdated": 1795128523,
+      "firstSeen": 1795158827,
+      "manifests": {
+        "3008181": {
+          "gid": "904208640257903791",
+          "size": 125667044,
+          "download": 63641120
+        }
+      }
+    }
+  ],
+  "_change_number": 41288281,
+  "_missing_token": false,
+  "_sha": "611af264d6719f1893708ecd2fb1f6af89337f3d",
+  "_size": 6233,
   "appid": "3008180",
   "common": {
     "associations": {
@@ -26,8 +40,8 @@
     "clienticon": "e6a4c2aeb7917dd199654a68f475df018a2d1ee2",
     "clienttga": "75ccaae75386ee5d4eb77592d0ea1d76329bfca5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3008180",
     "genres": {
       "0": "4",
@@ -122,11 +136,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fd2bd077447f498ec3ccdeb333bcc6f31c76c215/capsule_231x87.jpg",
       "schinese": "2388a44b00f08d72a3204e46835b2a44cad902c9/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1795147332",
     "store_asset_mtime": "1794908786",
     "store_tags": {
       "0": "9",
@@ -198,5 +213,79 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DiceShowdown",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DiceShowdown.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3008181": {
+      "manifests": {
+        "public": {
+          "download": "63641120",
+          "gid": "904208640257903791",
+          "size": "125667044"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26797583",
+        "timebuildupdated": "1795128520",
+        "timeupdated": "1795128523"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "D-Nanoknife",
+    "publisher": "D-Nanoknife"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "DimensionalNanoknifeStudio/骰子对决",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "DimensionalNanoknifeStudio/DiceShowdown/users",
+        "pattern": "Player.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "DimensionalNanoknifeStudio/DiceShowdown/Saves",
+        "pattern": "PlayerSaves.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "DimensionalNanoknifeStudio/DiceShowdown/Saves",
+        "pattern": "PlayerSaves.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

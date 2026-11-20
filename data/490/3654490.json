@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795073007,
-  "_history": [],
-  "_change_number": 41248584,
-  "_missing_token": true,
-  "_sha": "0292d7edd4816a3da4b2fac2dff39181eb1a9a2b",
-  "_size": 3312,
+  "_lastChecked": 1795158830,
+  "_history": [
+    {
+      "buildId": "26774951",
+      "branch": "public",
+      "timeUpdated": 1795057551,
+      "firstSeen": 1795158830,
+      "manifests": {
+        "3654491": {
+          "gid": "3239581590761800858",
+          "size": 213721659,
+          "download": 68322560
+        }
+      }
+    }
+  ],
+  "_change_number": 41286130,
+  "_missing_token": false,
+  "_sha": "ff8a34d2a373e3c941d9fdea1d2e84f5edf3b684",
+  "_size": 4838,
   "appid": "3654490",
   "common": {
     "associations": {
@@ -40,9 +54,9 @@
     },
     "clienticon": "da5597d7667dc60104592a62b9dd1e718cf93a83",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3654490",
     "genres": {
       "0": "1"
@@ -112,10 +126,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c055970a9fe45912a0dfdf1108697c02c76232d8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795141123",
     "store_asset_mtime": "1788832725",
     "store_tags": {
       "0": "7178",
@@ -147,5 +162,81 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Battle Birds",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BattleBirds.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "BattleBirds.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "3654491": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "68322560",
+          "gid": "3239581590761800858",
+          "size": "213721659"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26774951",
+        "timebuildupdated": "1795057541",
+        "timeupdated": "1795057551"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Cowmaster Studios",
+    "publisher": "Cowmaster Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "400000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "CowmasterStudios/BattleBirds",
+            "replace": ".config/unity3d/CowmasterStudios/BattleBirds"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "CowmasterStudios/BattleBirds",
+        "pattern": "savedata.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

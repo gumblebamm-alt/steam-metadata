@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794425781,
+  "_lastChecked": 1795158843,
   "_history": [
     {
       "buildId": "26286235",
@@ -13,12 +13,30 @@
           "download": 107969632
         }
       }
+    },
+    {
+      "buildId": "26802550",
+      "branch": "public",
+      "timeUpdated": 1795146661,
+      "firstSeen": 1795158843,
+      "manifests": {
+        "5029671": {
+          "gid": "2985672077668993033",
+          "size": 279813973,
+          "download": 107969632
+        },
+        "5029672": {
+          "gid": "218983413823469809",
+          "size": 434979166,
+          "download": 166439088
+        }
+      }
     }
   ],
-  "_change_number": 40844187,
+  "_change_number": 41288114,
   "_missing_token": false,
-  "_sha": "420664d1b9852f9075ba7f1968707e9cc084e655",
-  "_size": 3992,
+  "_sha": "069af8dafa1139343e3f2bd484ce851b1d26f9da",
+  "_size": 4561,
   "appid": "5029670",
   "common": {
     "aicontenttype": "1",
@@ -127,6 +145,7 @@
     "small_capsule": {
       "english": "adb9e1220b2e28515540948d644c87b74dda7c1e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1794421420",
     "store_asset_mtime": "1792648813",
     "store_tags": {
       "0": "1091588",
@@ -167,6 +186,13 @@
         },
         "executable": "HOPIATE.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "HOPIATE.app",
+        "type": "default"
       }
     }
   },
@@ -179,6 +205,9 @@
       "sharedinstall": "1"
     },
     "5029671": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "download": "107969632",
@@ -187,11 +216,23 @@
         }
       }
     },
+    "5029672": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "166439088",
+          "gid": "218983413823469809",
+          "size": "434979166"
+        }
+      }
+    },
     "branches": {
       "public": {
-        "buildid": "26286235",
-        "timebuildupdated": "1793237355",
-        "timeupdated": "1793237579"
+        "buildid": "26802550",
+        "timebuildupdated": "1795146661",
+        "timeupdated": "1795146661"
       }
     }
   },
@@ -202,6 +243,15 @@
   "ufs": {
     "maxnumfiles": "10",
     "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "HOPIATE/cloud",

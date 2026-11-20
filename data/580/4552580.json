@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794986782,
-  "_history": [],
-  "_change_number": 41205619,
-  "_missing_token": true,
-  "_sha": "51b1d87fcfd406f9e70a9f064330f759bc700fd3",
-  "_size": 3208,
+  "_lastChecked": 1795158836,
+  "_history": [
+    {
+      "buildId": "24036951",
+      "branch": "public",
+      "timeUpdated": 1783073128,
+      "firstSeen": 1795158836,
+      "manifests": {
+        "4552581": {
+          "gid": "6476592353658019456",
+          "size": 385193838,
+          "download": 223612800
+        }
+      }
+    }
+  ],
+  "_change_number": 41284945,
+  "_missing_token": false,
+  "_sha": "49f3a18b0861e1644061136ecb7f258494aa4fa1",
+  "_size": 4113,
   "appid": "4552580",
   "common": {
     "associations": {
@@ -31,7 +45,6 @@
     "clienticon": "193977dcf703c48246899d51451e81d24562ac64",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4552580",
     "genres": {
       "0": "1",
@@ -105,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "110f493a333d63e4e2b8e87443518cd5c746781a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795137639",
     "store_asset_mtime": "1780027229",
     "store_tags": {
       "0": "1716",
@@ -144,5 +158,56 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Gimmick Survivors",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4552581": {
+      "manifests": {
+        "public": {
+          "download": "223612800",
+          "gid": "6476592353658019456",
+          "size": "385193838"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "24036951",
+        "timebuildupdated": "1783073124",
+        "timeupdated": "1783073128"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "ZC",
+    "publisher": "ZC"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "100000000",
+    "savefiles": {
+      "1": {
+        "path": "resources\\app\\Save",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

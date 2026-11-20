@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793993045,
-  "_history": [],
-  "_change_number": 40680349,
-  "_missing_token": true,
-  "_sha": "52bad52197ee8af1c8b05c9ce7ec82c79b233616",
-  "_size": 3340,
+  "_lastChecked": 1795158832,
+  "_history": [
+    {
+      "buildId": "26556631",
+      "branch": "public",
+      "timeUpdated": 1794281969,
+      "firstSeen": 1795158832,
+      "manifests": {
+        "3975181": {
+          "gid": "8500531840778645517",
+          "size": 137415706,
+          "download": 59348528
+        }
+      }
+    }
+  ],
+  "_change_number": 41279267,
+  "_missing_token": false,
+  "_sha": "e69252a1edf46734c95cdf5b421dbf4caf87f39e",
+  "_size": 4571,
   "appid": "3975180",
   "common": {
     "associations": {
@@ -28,8 +42,8 @@
     },
     "clienticon": "9bf427581172c841b8a786018800f63608a8f6c1",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3975180",
     "genres": {
       "0": "1",
@@ -109,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b0fa50585f09ac869967aa50230b721ea58775a3/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1787979027",
     "store_tags": {
       "0": "1741",
@@ -158,5 +173,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Multiplayer Animals",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Multiplayer Animals",
+        "description_loc": {
+          "english": "Play Multiplayer Animals"
+        },
+        "executable": "Multiplayer Animals.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3975181": {
+      "manifests": {
+        "public": {
+          "download": "59348528",
+          "gid": "8500531840778645517",
+          "size": "137415706"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26556631",
+        "timebuildupdated": "1794281916",
+        "timeupdated": "1794281969"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Janarik Games LLC",
+    "homepage": "https://www.janarikgames.com/",
+    "publisher": "Janarik Games LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "Janarik Games/Multiplayer Animals/GameModes",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Janarik Games/Multiplayer Animals/StickyNotes/{64BitSteamID}",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

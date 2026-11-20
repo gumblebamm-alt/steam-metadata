@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793384011,
-  "_history": [],
-  "_change_number": 40410800,
-  "_missing_token": true,
-  "_sha": "2194e8f05c53840066800a3cf319ff2fe4ba008b",
-  "_size": 3185,
+  "_lastChecked": 1795158832,
+  "_history": [
+    {
+      "buildId": "26803432",
+      "branch": "public",
+      "timeUpdated": 1795150376,
+      "firstSeen": 1795158832,
+      "manifests": {
+        "4044902": {
+          "gid": "2674171030417890443",
+          "size": 345953902,
+          "download": 161505760
+        },
+        "4044903": {
+          "gid": "6060930923183004048",
+          "size": 313132096,
+          "download": 147749184
+        }
+      }
+    }
+  ],
+  "_change_number": 41289337,
+  "_missing_token": false,
+  "_sha": "f57821c28ea051540a436e4e79e7a64108d8fe02",
+  "_size": 4641,
   "appid": "4044900",
   "common": {
     "associations": {
@@ -32,8 +51,8 @@
     },
     "clienticon": "304f2e8a5a80dfaa440fc59d7a4c7a51b352d17d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4044900",
     "genres": {
       "0": "1",
@@ -107,7 +126,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "29",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "02d203e7c823e4d9f48488d833f02facc7c381c2/capsule_231x87.jpg"
     },
@@ -143,5 +162,80 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Evades X",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Windows",
+        "description_loc": {
+          "english": "Windows"
+        },
+        "executable": "Evades X.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "MacOS",
+        "description_loc": {
+          "english": "MacOS"
+        },
+        "executable": "evades_x_mac/mac-arm64/Evades X.app",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4044902": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "161505760",
+          "gid": "2674171030417890443",
+          "size": "345953902"
+        }
+      }
+    },
+    "4044903": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "147749184",
+          "gid": "6060930923183004048",
+          "size": "313132096"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26803432",
+        "timebuildupdated": "1795150374",
+        "timeupdated": "1795150376"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "anti_cheat_support_url": "https://www.easy.ac/r/steam/gamebans/?steamAppId=4044900",
+    "developer": "ZeroTix",
+    "homepage": "https://evadesx.online/",
+    "publisher": "EVX"
+  }
 }
