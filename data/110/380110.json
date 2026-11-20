@@ -1,6 +1,19 @@
 {
-  "_lastChecked": 1793211901,
+  "_lastChecked": 1795205704,
   "_history": [
+    {
+      "buildId": "26658647",
+      "branch": "public",
+      "timeUpdated": 1794623234,
+      "firstSeen": 1795205704,
+      "manifests": {
+        "380111": {
+          "gid": "4556440768549474401",
+          "size": 9678423659,
+          "download": 9267085392
+        }
+      }
+    },
     {
       "buildId": "25448634",
       "branch": "public",
@@ -52,25 +65,12 @@
           "download": 8056010432
         }
       }
-    },
-    {
-      "buildId": "25128016",
-      "branch": "public",
-      "timeUpdated": 1788896757,
-      "firstSeen": 1788898270,
-      "manifests": {
-        "380111": {
-          "gid": "6968115613392238903",
-          "size": 25654057012,
-          "download": 8056005648
-        }
-      }
     }
   ],
-  "_change_number": 40340681,
+  "_change_number": 41296032,
   "_missing_token": false,
-  "_sha": "be6a5ea72cc5c04ee464ba4b427e3a4f9a5671b3",
-  "_size": 8447,
+  "_sha": "19c2bc0a03f9cc815f4fbecb3da59f393631a9f6",
+  "_size": 8915,
   "appid": "380110",
   "common": {
     "associations": {
@@ -81,14 +81,6 @@
       "1": {
         "name": "Impeller Studios",
         "type": "publisher"
-      },
-      "2": {
-        "name": "Exothermic",
-        "type": "publisher"
-      },
-      "3": {
-        "name": "Exothermic",
-        "type": "franchise"
       }
     },
     "category": {
@@ -201,7 +193,7 @@
     "oslist": "windows",
     "primary_genre": "28",
     "releasestate": "released",
-    "review_percentage": "72",
+    "review_percentage": "73",
     "review_score": "6",
     "small_capsule": {
       "english": "bbb5f30fcded5f153677e33be4b66dd20816a973/capsule_231x87.jpg"
@@ -213,19 +205,36 @@
         "hdr_support": "0",
         "non_deck_display_glyphs": "1",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-11.0-beta",
-        "requires_h264": "0",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "1",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "requires_manual_keyboard_invoke": "1",
+        "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "1",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
       "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
@@ -235,14 +244,10 @@
         "1": {
           "display": "1",
           "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
-        },
-        "2": {
-          "display": "1",
-          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
         }
       },
-      "test_timestamp": "1778284800",
-      "tested_build_id": "23104010",
+      "test_timestamp": "1792783510",
+      "tested_build_id": "25448634",
       "tests": {
         "0": {
           "display": "3",
@@ -254,20 +259,20 @@
         },
         "2": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-        },
-        "3": {
-          "display": "3",
           "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
         },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
         "4": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
         }
       }
     },
     "steam_release_date": "1778000417",
-    "store_asset_mtime": "1778771178",
+    "store_asset_mtime": "1795128660",
     "store_tags": {
       "0": "16598",
       "1": "15045",
@@ -317,9 +322,9 @@
         "type": "default"
       },
       "3": {
-        "arguments": "-dev -8675309",
+        "arguments": "-ApiUrl=dev",
         "config": {
-          "betakey": "branch-dev",
+          "betakey": "dev-testing",
           "ownsdlc": "762260"
         },
         "description": "Dev Database",
@@ -341,6 +346,20 @@
         "arguments": "-beta",
         "config": {
           "betakey": "open-beta"
+        },
+        "executable": "InTheBlack.exe"
+      },
+      "6": {
+        "arguments": "-ApiUrl=dev",
+        "config": {
+          "betakey": "nightly"
+        },
+        "executable": "InTheBlack.exe"
+      },
+      "7": {
+        "arguments": "-ApiUrl=dev",
+        "config": {
+          "betakey": "alpha"
         },
         "executable": "InTheBlack.exe"
       }
@@ -403,17 +422,17 @@
     "380111": {
       "manifests": {
         "public": {
-          "download": "8055781136",
-          "gid": "3278514359850943846",
-          "size": "25653841900"
+          "download": "9267085392",
+          "gid": "4556440768549474401",
+          "size": "9678423659"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25448634",
-        "timebuildupdated": "1790034114",
-        "timeupdated": "1790040370"
+        "buildid": "26658647",
+        "timebuildupdated": "1794617244",
+        "timeupdated": "1794623234"
       }
     },
     "hasdepotsindlc": "1",

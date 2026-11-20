@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795158840,
-  "_history": [],
-  "_change_number": 41284041,
-  "_missing_token": true,
-  "_sha": "259f45ad493af2acdcd083fcd2bef8455cad839d",
-  "_size": 3133,
+  "_lastChecked": 1795205734,
+  "_history": [
+    {
+      "buildId": "26799495",
+      "branch": "public",
+      "timeUpdated": 1795135134,
+      "firstSeen": 1795205734,
+      "manifests": {
+        "4834811": {
+          "gid": "5244323097991889854",
+          "size": 697642413,
+          "download": 367953904
+        },
+        "4834812": {
+          "gid": "5945712041933518035",
+          "size": 525335463,
+          "download": 236554784
+        }
+      }
+    }
+  ],
+  "_change_number": 41303060,
+  "_missing_token": false,
+  "_sha": "16985e10de659432cf8505c6ff59872c9681b38e",
+  "_size": 4095,
   "appid": "4834810",
   "common": {
     "associations": {
@@ -29,8 +48,8 @@
     },
     "clienticon": "fc532cb919849df253983750fca908cc9a85a749",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4834810",
     "genres": {
       "0": "2"
@@ -104,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "583b737014c03353ecdeaf7f355bd53f21ce3e83/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795182608",
     "store_asset_mtime": "1795048284",
     "store_tags": {
       "0": "9",
@@ -144,5 +164,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Soldiers at War",
+    "launch": {
+      "0": {
+        "executable": "SAW_Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "4834811": {
+      "manifests": {
+        "public": {
+          "download": "367953904",
+          "gid": "5244323097991889854",
+          "size": "697642413"
+        }
+      }
+    },
+    "4834812": {
+      "config": {
+        "language": "german"
+      },
+      "manifests": {
+        "public": {
+          "download": "236554784",
+          "gid": "5945712041933518035",
+          "size": "525335463"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26799495",
+        "timebuildupdated": "1795135134",
+        "timeupdated": "1795135134"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Random Games",
+    "publisher": "SNEG"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "Save_g",
+        "pattern": "*.*",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1795033851,
-  "_history": [],
-  "_change_number": 41014917,
-  "_missing_token": true,
-  "_sha": "547822a82527ccbdbc8bc736203f8f57d5c225d9",
-  "_size": 4254,
+  "_lastChecked": 1795205720,
+  "_history": [
+    {
+      "buildId": "19862522",
+      "branch": "local",
+      "timeUpdated": 1757024857,
+      "firstSeen": 1795205720,
+      "manifests": {
+        "3920401": {
+          "gid": "3715831876554751888",
+          "size": 522825083,
+          "download": 380430368
+        }
+      }
+    },
+    {
+      "buildId": "26812391",
+      "branch": "public",
+      "timeUpdated": 1795181200,
+      "firstSeen": 1795205720,
+      "manifests": {
+        "3920401": {
+          "gid": "9052561334378566544",
+          "size": 7794672439,
+          "download": 5877038224
+        }
+      }
+    }
+  ],
+  "_change_number": 41302406,
+  "_missing_token": false,
+  "_sha": "793b4c72fd47ee6783357b1151891f048012011e",
+  "_size": 5488,
   "appid": "3920400",
   "common": {
     "associations": {
@@ -40,7 +67,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3920400",
     "genres": {
       "0": "1",
@@ -125,11 +151,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "29",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "brazilian": "d5534d18a743dd17f22604a2b6f351930356d83c/capsule_231x87_brazilian.jpg",
       "english": "d5534d18a743dd17f22604a2b6f351930356d83c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795181505",
     "store_asset_mtime": "1793268617",
     "store_tags": {
       "0": "19",
@@ -161,5 +188,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Land Of The Valiants",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "lotv.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3920401": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "local": {
+          "download": "380430368",
+          "gid": "3715831876554751888",
+          "size": "522825083"
+        },
+        "public": {
+          "download": "5877038224",
+          "gid": "9052561334378566544",
+          "size": "7794672439"
+        }
+      }
+    },
+    "branches": {
+      "local": {
+        "buildid": "19862522",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1757024205",
+        "timeupdated": "1757024857"
+      },
+      "public": {
+        "buildid": "26812391",
+        "timebuildupdated": "1795181173",
+        "timeupdated": "1795181200"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Racs Studio",
+    "homepage": "https://landofthevaliants.racsstudio.com/en/",
+    "isfreeapp": "1",
+    "publisher": "Racs Studio"
+  }
 }

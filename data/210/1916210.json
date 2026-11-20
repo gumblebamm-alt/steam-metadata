@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1795033832,
-  "_history": [],
-  "_change_number": 41227504,
-  "_missing_token": true,
-  "_sha": "d033cf993de37490ce6686ec932b7c5ba881773a",
-  "_size": 3356,
+  "_lastChecked": 1795205708,
+  "_history": [
+    {
+      "buildId": "26754347",
+      "branch": "public",
+      "timeUpdated": 1794997294,
+      "firstSeen": 1795205708,
+      "manifests": {
+        "1916211": {
+          "gid": "5113128114593963609",
+          "size": 230914740,
+          "download": 80750640
+        },
+        "1916212": {
+          "gid": "8134394476128871681",
+          "size": 237920043,
+          "download": 82162688
+        },
+        "1916213": {
+          "gid": "7038027916561466885",
+          "size": 235468762,
+          "download": 74898432
+        }
+      }
+    }
+  ],
+  "_change_number": 41313155,
+  "_missing_token": false,
+  "_sha": "20b6a56db709765c63e265f099a6906c7ffce6ba",
+  "_size": 5452,
   "appid": "1916210",
   "common": {
     "associations": {
@@ -27,9 +51,9 @@
     "clienticon": "698842f19170adb60295ae37da40f2d113179c04",
     "clienttga": "2e3166d3f537b1cea4d35bcebf98068cd6d59257",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1916210",
     "genres": {
       "0": "1",
@@ -106,10 +130,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "76fe849a13bc2f7fda16e68d3e575f2f39231066/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795201107",
     "store_asset_mtime": "1794987038",
     "store_tags": {
       "0": "19",
@@ -139,5 +164,112 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Moto Mouse Stunt Mania",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MotoMouse.app",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MotoMouse.exe",
+        "type": "default"
+      },
+      "3": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "MotoMouse.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1916211": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "80750640",
+          "gid": "5113128114593963609",
+          "size": "230914740"
+        }
+      }
+    },
+    "1916212": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "82162688",
+          "gid": "8134394476128871681",
+          "size": "237920043"
+        }
+      }
+    },
+    "1916213": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "74898432",
+          "gid": "7038027916561466885",
+          "size": "235468762"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26754347",
+        "timebuildupdated": "1794996078",
+        "timeupdated": "1794997294"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Enaayah Software Development and Services Private Limited",
+    "publisher": "Enaayah Software Development and Services Private Limited"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Enaayah/Moto Mouse Stunt Mania",
+        "pattern": "steam_cloud_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "com.Enaayah.Moto-Mouse-Stunt-Mania",
+        "pattern": "steam_cloud_save.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": "unity3d/Enaayah/Moto Mouse Stunt Mania",
+        "pattern": "steam_cloud_save.json",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxXdgConfigHome"
+      }
+    }
+  }
 }

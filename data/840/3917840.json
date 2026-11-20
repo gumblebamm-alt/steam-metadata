@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792414545,
+  "_lastChecked": 1795205720,
   "_history": [
     {
       "buildId": "24914312",
@@ -52,12 +52,25 @@
           "download": 9205886144
         }
       }
+    },
+    {
+      "buildId": "26816999",
+      "branch": "public",
+      "timeUpdated": 1795195124,
+      "firstSeen": 1795205720,
+      "manifests": {
+        "3917841": {
+          "gid": "832999699205391749",
+          "size": 11267580833,
+          "download": 10055178512
+        }
+      }
     }
   ],
-  "_change_number": 39982704,
+  "_change_number": 41310105,
   "_missing_token": false,
-  "_sha": "05354ec382eac35feb9a2355fc195064eae3c67d",
-  "_size": 5479,
+  "_sha": "d5b0ea836087e058e02606d02b94557af1a7c101",
+  "_size": 6707,
   "appid": "3917840",
   "common": {
     "associations": {
@@ -176,25 +189,42 @@
       "english": "015723c657265448bcd50bf3be4551cd4f54e0af/capsule_231x87.jpg"
     },
     "steam_deck_compatibility": {
-      "category": "1",
+      "category": "2",
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
         "non_deck_display_glyphs": "0",
         "primary_player_is_controller_slot_0": "1",
-        "recommended_runtime": "proton-10.0-beta",
+        "recommended_runtime": "proton-stable",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
-        "requires_internet_for_singleplayer": "0",
+        "requires_internet_for_singleplayer": "1",
         "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "1",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "3",
+      "steam_machine_tests": {
+        "0": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "3": {
+          "display": "1",
+          "token": "#SteamMachine_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+        }
+      },
       "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
@@ -203,15 +233,39 @@
         },
         "1": {
           "display": "1",
+          "token": "#SteamOS_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+        },
+        "2": {
+          "display": "1",
           "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
-      "test_timestamp": "1761696000",
-      "tested_build_id": "19978452",
+      "test_timestamp": "1794577865",
+      "tested_build_id": "26633272",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+        },
+        "5": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       }
     },
@@ -231,8 +285,8 @@
       "4": "4158",
       "5": "4975",
       "6": "4191",
-      "7": "7743",
-      "8": "6915",
+      "7": "6915",
+      "8": "7743",
       "9": "3916"
     },
     "supported_languages": {
@@ -275,17 +329,17 @@
       },
       "manifests": {
         "public": {
-          "download": "9205886144",
-          "gid": "3462722862714537950",
-          "size": "10341328189"
+          "download": "10055178512",
+          "gid": "832999699205391749",
+          "size": "11267580833"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26038683",
-        "timebuildupdated": "1792379589",
-        "timeupdated": "1792380370"
+        "buildid": "26816999",
+        "timebuildupdated": "1795193918",
+        "timeupdated": "1795195124"
       }
     },
     "privatebranches": "1"

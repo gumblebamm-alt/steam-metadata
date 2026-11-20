@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792327742,
+  "_lastChecked": 1795205705,
   "_history": [
     {
       "buildId": "4193094",
@@ -18,12 +18,30 @@
           "download": 44511600
         }
       }
+    },
+    {
+      "buildId": "26812608",
+      "branch": "public",
+      "timeUpdated": 1795184039,
+      "firstSeen": 1795205705,
+      "manifests": {
+        "1129011": {
+          "gid": "1180092036436901453",
+          "size": 341212938,
+          "download": 55206320
+        },
+        "1141110": {
+          "gid": "1764059276616972483",
+          "size": 205,
+          "download": 208
+        }
+      }
     }
   ],
-  "_change_number": 39954631,
+  "_change_number": 41309590,
   "_missing_token": false,
-  "_sha": "c5466956e3dab74e7893a4841432cb2e6d50e42a",
-  "_size": 4000,
+  "_sha": "ba7c7f3dfe125dfe1be3758ffd7ac414fc0e9cee",
+  "_size": 4557,
   "appid": "1129010",
   "common": {
     "associations": {
@@ -40,7 +58,13 @@
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
+      "category_28": "1",
       "category_29": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_60": "1",
       "category_62": "1"
     },
     "clienticon": "beac8431473ad86edc92c62706df0108665773d9",
@@ -59,10 +83,14 @@
       "2": "4",
       "3": "5"
     },
+    "controller_support": "full",
+    "controllertagwizard": "1",
     "gameid": "1129010",
     "genres": {
       "0": "1",
-      "1": "3"
+      "1": "25",
+      "2": "23",
+      "3": "3"
     },
     "header_image": {
       "english": "header.jpg"
@@ -116,7 +144,8 @@
       "japanese": "ドレスアップトラベラー",
       "tchinese": "裝扮旅人"
     },
-    "osarch": "",
+    "osarch": "64",
+    "oscpu": "",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
@@ -131,16 +160,25 @@
     "store_asset_mtime": "1567763957",
     "store_tags": {
       "0": "12095",
-      "1": "6650",
-      "10": "4747",
+      "1": "7208",
+      "10": "1684",
+      "11": "3798",
+      "12": "6650",
+      "13": "21",
+      "14": "4182",
+      "15": "1625",
+      "16": "4106",
+      "17": "5379",
+      "18": "1685",
+      "19": "1773",
       "2": "3964",
-      "3": "122",
+      "3": "4726",
       "4": "19",
-      "5": "9130",
-      "6": "7208",
-      "7": "3798",
-      "8": "4085",
-      "9": "3871"
+      "5": "4085",
+      "6": "122",
+      "7": "3871",
+      "8": "9130",
+      "9": "4747"
     },
     "supported_languages": {
       "english": {
@@ -169,7 +207,8 @@
         "type": "default"
       }
     },
-    "steamcontrollertemplateindex": "6"
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "1129011": {
@@ -178,9 +217,9 @@
       },
       "manifests": {
         "public": {
-          "download": "57333680",
-          "gid": "3904932629463365797",
-          "size": "319830840"
+          "download": "55206320",
+          "gid": "1180092036436901453",
+          "size": "341212938"
         }
       }
     },
@@ -188,21 +227,22 @@
       "dlcappid": "1141110",
       "manifests": {
         "public": {
-          "download": "44511600",
-          "gid": "182361204140132370",
-          "size": "88842108"
+          "download": "208",
+          "gid": "1764059276616972483",
+          "size": "205"
         }
       }
     },
     "baselanguages": "english,tchinese,japanese",
     "branches": {
       "public": {
-        "buildid": "4193094",
-        "timebuildupdated": "1568364071",
-        "timeupdated": "1568364095"
+        "buildid": "26812608",
+        "timebuildupdated": "1795181833",
+        "timeupdated": "1795184039"
       }
     },
-    "hasdepotsindlc": "0"
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "CatBellUnion",
@@ -212,8 +252,8 @@
     "publisher": "CatBellUnion"
   },
   "ufs": {
-    "maxnumfiles": "15",
-    "quota": "30000",
+    "maxnumfiles": "50",
+    "quota": "10000000",
     "savefiles": {
       "0": {
         "path": "Dress-up Traveller_Data/SaveFile",
@@ -222,6 +262,11 @@
           "1": "Windows"
         },
         "root": "gameinstall"
+      },
+      "1": {
+        "path": "CatBellUnion/Dress-up Traveller/Save",
+        "pattern": "progress.dat",
+        "root": "WinAppDataLocalLow"
       }
     }
   }

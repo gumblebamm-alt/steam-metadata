@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794902046,
+  "_lastChecked": 1795205727,
   "_history": [
     {
       "buildId": "26355427",
@@ -13,12 +13,30 @@
           "download": 2783975136
         }
       }
+    },
+    {
+      "buildId": "26803369",
+      "branch": "public",
+      "timeUpdated": 1795150235,
+      "firstSeen": 1795205727,
+      "manifests": {
+        "4463521": {
+          "gid": "6372969767257979387",
+          "size": 3752949121,
+          "download": 2783976576
+        },
+        "4463522": {
+          "gid": "6191496948848547839",
+          "size": 1626663323,
+          "download": 1026965056
+        }
+      }
     }
   ],
-  "_change_number": 41104099,
+  "_change_number": 41308423,
   "_missing_token": false,
-  "_sha": "4ca07201f10ecde0bd97db088bf3bbd74a94dfec",
-  "_size": 7178,
+  "_sha": "934f2e3ab95cd57230e1ae4d508c5de2b00dfb60",
+  "_size": 8490,
   "appid": "4463520",
   "common": {
     "associations": {
@@ -38,11 +56,15 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_28": "1",
+      "category_45": "1",
+      "category_46": "1",
       "category_55": "1",
       "category_62": "1"
     },
-    "clienticon": "b499f9911a0ba3beeb298ce0eb5145954b10803f",
+    "clienticns": "22159ac5ab8cf96ec3987a4463e7df49befc35ef",
+    "clienticon": "4bf26400169ee8ca5255d27d2fe20aa1f9508505",
     "community_hub_visible": "1",
     "community_visible_stats": "1",
     "controller_support": "full",
@@ -59,7 +81,7 @@
       "schinese": "f1650181bdb949f102feaef216819908019ef985/header_schinese.jpg",
       "tchinese": "7756c67c2f0696a5526bdc41843f3c756066b1eb/header_tchinese.jpg"
     },
-    "icon": "b499f9911a0ba3beeb298ce0eb5145954b10803f",
+    "icon": "698f51e5caed69ab21b216fea0d68d177971df05",
     "languages": {
       "brazilian": "1",
       "english": "1",
@@ -155,12 +177,13 @@
       "tchinese": "姆明：瘋狂夏日"
     },
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "25",
     "releasestate": "released",
-    "review_percentage": "100",
-    "review_score": "7",
+    "review_percentage": "98",
+    "review_score": "8",
     "small_capsule": {
       "english": "829ef13abef4aa5cd6e3d25fb03d9007c8af9735/capsule_231x87.jpg",
       "japanese": "309e34ac1c8d43b7d5ca3d6271ce33ff8243f912/capsule_231x87_japanese.jpg",
@@ -248,6 +271,12 @@
           "oslist": "windows"
         },
         "executable": "Summer\\Adventure_UE5.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Summer_mac.app"
       }
     }
   },
@@ -259,25 +288,75 @@
       },
       "manifests": {
         "public": {
-          "download": "2783975136",
-          "gid": "5209053138090660751",
-          "size": "3752946151"
+          "download": "2783976576",
+          "gid": "6372969767257979387",
+          "size": "3752949121"
+        }
+      }
+    },
+    "4463522": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1026965056",
+          "gid": "6191496948848547839",
+          "size": "1626663323"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26355427",
-        "timebuildupdated": "1793502554",
-        "timeupdated": "1793502692"
+        "buildid": "26803369",
+        "timebuildupdated": "1795150086",
+        "timeupdated": "1795150235"
       }
     },
-    "hasdepotsindlc": "0",
-    "nocommonredists": "1"
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1",
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Crossbridge Game Studios",
     "homepage": "https://game.shochiku.co.jp/lp/moomin-mm/",
     "publisher": "Shochiku"
+  },
+  "ufs": {
+    "maxnumfiles": "250",
+    "quota": "500000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "Crossbridge Game Studios/Moomin/saves",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Crossbridge Game Studios/Moomin/saves",
+            "replace": "Crossbridge Game Studios/Moomin/saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Crossbridge Game Studios/Moomin/saves",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Crossbridge Game Studios/Moomin/saves",
+        "pattern": "*.jpg",
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

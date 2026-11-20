@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794724131,
-  "_history": [],
-  "_change_number": 40962112,
-  "_missing_token": true,
-  "_sha": "a6f8ce5493ff2f504e45f86d2237ad48dd8754ac",
-  "_size": 3061,
+  "_lastChecked": 1795205732,
+  "_history": [
+    {
+      "buildId": "26816922",
+      "branch": "public",
+      "timeUpdated": 1795193733,
+      "firstSeen": 1795205732,
+      "manifests": {
+        "4714231": {
+          "gid": "5206506177378504182",
+          "size": 124500784,
+          "download": 39287376
+        },
+        "4714232": {
+          "gid": "836206940457753507",
+          "size": 206516837,
+          "download": 61218336
+        }
+      }
+    }
+  ],
+  "_change_number": 41309360,
+  "_missing_token": false,
+  "_sha": "c3d99fdedd5b5e43a605d312a52e8d1b322c868c",
+  "_size": 4941,
   "appid": "4714230",
   "common": {
     "associations": {
@@ -29,8 +48,8 @@
     },
     "clienticon": "3448e99877ac89d48f9fde62a31cb0772dbf7805",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4714230",
     "genres": {
       "0": "25",
@@ -104,10 +123,11 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7a60ee6149c3e39acbb59979254554269e945419/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795192322",
     "store_asset_mtime": "1794705832",
     "store_tags": {
       "0": "1320952",
@@ -138,5 +158,102 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "My Galaxy Buddy",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play My Galaxy Buddy",
+        "description_loc": {
+          "english": "Play My Galaxy Buddy"
+        },
+        "executable": "MyGalaxyBuddy.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Play My Galaxy Buddy",
+        "description_loc": {
+          "english": "Play My Galaxy Buddy"
+        },
+        "executable": "MyGalaxyBuddy-macos.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4714231": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "39287376",
+          "gid": "5206506177378504182",
+          "size": "124500784"
+        }
+      }
+    },
+    "4714232": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "61218336",
+          "gid": "836206940457753507",
+          "size": "206516837"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26816922",
+        "timebuildupdated": "1795193668",
+        "timeupdated": "1795193733"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "goobie",
+    "publisher": "goobie"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "15000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/MyGalaxyBuddy",
+        "pattern": "save_data.dat",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/MyGalaxyBuddy",
+        "pattern": "save_data_backup.dat",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

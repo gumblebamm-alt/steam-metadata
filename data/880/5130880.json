@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794425784,
-  "_history": [],
-  "_change_number": 40750275,
-  "_missing_token": true,
-  "_sha": "7e536b1a67988c31bd25a279cb91c3536ffaf690",
-  "_size": 3636,
+  "_lastChecked": 1795205740,
+  "_history": [
+    {
+      "buildId": "26811195",
+      "branch": "public",
+      "timeUpdated": 1795178008,
+      "firstSeen": 1795205740,
+      "manifests": {
+        "5130881": {
+          "gid": "3915079434922877606",
+          "size": 939768087,
+          "download": 778947776
+        }
+      }
+    }
+  ],
+  "_change_number": 41311406,
+  "_missing_token": false,
+  "_sha": "377fca3f168a804854d5df3a1fdd99e3bf367fa2",
+  "_size": 4936,
   "appid": "5130880",
   "common": {
     "associations": {
@@ -36,9 +50,9 @@
     },
     "clienticon": "3d883315fc5d77327758a822a4eb0fc52391a119",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5130880",
     "genres": {
       "0": "28"
@@ -47,6 +61,18 @@
       "english": "14120ac91494875ee987482124c432dd2d9c4e19/header.jpg"
     },
     "icon": "3d883315fc5d77327758a822a4eb0fc52391a119",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -109,10 +135,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9868559a223ea75eed8fd05647a3c7b75d85c86d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795197581",
     "store_asset_mtime": "1792617847",
     "store_tags": {
       "0": "599",
@@ -170,5 +197,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Digbound",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DigboundGame.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5130881": {
+      "manifests": {
+        "public": {
+          "download": "778947776",
+          "gid": "3915079434922877606",
+          "size": "939768087"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26811195",
+        "timebuildupdated": "1795177942",
+        "timeupdated": "1795178008"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Somnambulist Games",
+    "publisher": "Somnambulist Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "DigboundGame\\Saved\\SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

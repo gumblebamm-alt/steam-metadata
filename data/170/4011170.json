@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794598863,
-  "_history": [],
-  "_change_number": 40918996,
-  "_missing_token": true,
-  "_sha": "7d2229062a2bf84a5fc95523ddef15a293796371",
-  "_size": 2905,
+  "_lastChecked": 1795205722,
+  "_history": [
+    {
+      "buildId": "26817201",
+      "branch": "public",
+      "timeUpdated": 1795194501,
+      "firstSeen": 1795205722,
+      "manifests": {
+        "4011171": {
+          "gid": "271009749144327470",
+          "size": 4846404655,
+          "download": 4590296128
+        }
+      }
+    }
+  ],
+  "_change_number": 41309802,
+  "_missing_token": false,
+  "_sha": "7740fbe90e031827b17054971a490ccd858119c9",
+  "_size": 4143,
   "appid": "4011170",
   "common": {
     "associations": {
@@ -25,6 +39,7 @@
     },
     "clienticon": "25af2b59376a337642a9b26dd3fba91dfb0b23fe",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -32,7 +47,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4011170",
     "genres": {
       "0": "23"
@@ -106,7 +120,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "61c9ac071f15d6c13a909bb652800f9be073bbb9/capsule_231x87.jpg"
     },
@@ -130,5 +144,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Noctis",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "NOCTIS.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4011171": {
+      "manifests": {
+        "public": {
+          "download": "4590296128",
+          "gid": "271009749144327470",
+          "size": "4846404655"
+        }
+      }
+    },
+    "baselanguages": "english,french",
+    "branches": {
+      "public": {
+        "buildid": "26817201",
+        "timebuildupdated": "1795194432",
+        "timeupdated": "1795194501"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Red Fuse",
+    "publisher": "Red Fuse"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

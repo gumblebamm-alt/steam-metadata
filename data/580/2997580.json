@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794339866,
+  "_lastChecked": 1795205713,
   "_history": [
     {
       "buildId": "24718231",
@@ -26,12 +26,30 @@
           "download": 173087088
         }
       }
+    },
+    {
+      "buildId": "26807365",
+      "branch": "public",
+      "timeUpdated": 1795166345,
+      "firstSeen": 1795205713,
+      "manifests": {
+        "2997581": {
+          "gid": "409618060266868868",
+          "size": 980258709,
+          "download": 177479424
+        },
+        "2997582": {
+          "gid": "8487952071977139737",
+          "size": 996069243,
+          "download": 197667632
+        }
+      }
     }
   ],
-  "_change_number": 40805363,
+  "_change_number": 41295172,
   "_missing_token": false,
-  "_sha": "a070311d1d1065f58716f8fbb59a4ca306ec129c",
-  "_size": 3846,
+  "_sha": "5a4b6bcc64319835a79c03c382912472e7318a78",
+  "_size": 4309,
   "appid": "2997580",
   "common": {
     "aicontenttype": "1",
@@ -109,8 +127,9 @@
     "linuxclienticon": "20001f5f209177799487ec2227a8185dd9407549",
     "name": "Cosmic Outpost",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows,linux",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "28",
     "releasestate": "released",
     "small_capsule": {
@@ -169,17 +188,30 @@
     "installdir": "Cosmic Outpost",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "Cosmic Outpost.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Cosmic Outpost.app",
+        "type": "default"
       }
     }
   },
   "depots": {
     "2997581": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "172854928",
-          "gid": "547930132876375297",
-          "size": "969362870"
+          "download": "177479424",
+          "gid": "409618060266868868",
+          "size": "980258709"
         },
         "test": {
           "download": "173087088",
@@ -188,11 +220,23 @@
         }
       }
     },
+    "2997582": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "197667632",
+          "gid": "8487952071977139737",
+          "size": "996069243"
+        }
+      }
+    },
     "branches": {
       "public": {
-        "buildid": "24718231",
-        "timebuildupdated": "1786640034",
-        "timeupdated": "1786640643"
+        "buildid": "26807365",
+        "timebuildupdated": "1795166288",
+        "timeupdated": "1795166345"
       },
       "test": {
         "buildid": "24718010",

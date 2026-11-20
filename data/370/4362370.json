@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1793339317,
-  "_history": [],
-  "_change_number": 40404406,
-  "_missing_token": true,
-  "_sha": "6b3f6e29f97968ce3a9bcf6a2025b56fa17a9e7d",
-  "_size": 2842,
+  "_lastChecked": 1795205726,
+  "_history": [
+    {
+      "buildId": "26799712",
+      "branch": "public",
+      "timeUpdated": 1795136243,
+      "firstSeen": 1795205726,
+      "manifests": {
+        "4362372": {
+          "gid": "7804364876383376261",
+          "size": 123962908,
+          "download": 43672768
+        },
+        "4362373": {
+          "gid": "4846885793790831260",
+          "size": 194502420,
+          "download": 64499424
+        },
+        "4362374": {
+          "gid": "6394399692890596691",
+          "size": 94915860,
+          "download": 36339968
+        }
+      }
+    }
+  ],
+  "_change_number": 41302660,
+  "_missing_token": false,
+  "_sha": "6d8f17d424556cc6def19ec2542e2d05b740ac26",
+  "_size": 4495,
   "appid": "4362370",
   "common": {
     "associations": {
@@ -28,8 +52,8 @@
     },
     "clienticon": "24962661e2e466be6bcf743709e357cfe89a97a0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4362370",
     "genres": {
       "0": "23",
@@ -100,10 +124,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4ea307bb3d210e9511a08fd76a03f6603ae0977c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795181977",
     "store_asset_mtime": "1793321638",
     "store_tags": {
       "0": "9",
@@ -126,5 +151,96 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Debtician",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "The Debtician.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "The Debtician.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "The Debtician.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4362371": {},
+    "4362372": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "43672768",
+          "gid": "7804364876383376261",
+          "size": "123962908"
+        }
+      }
+    },
+    "4362373": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "64499424",
+          "gid": "4846885793790831260",
+          "size": "194502420"
+        }
+      }
+    },
+    "4362374": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "36339968",
+          "gid": "6394399692890596691",
+          "size": "94915860"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26799712",
+        "timebuildupdated": "1795136093",
+        "timeupdated": "1795136243"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Shroombot",
+    "publisher": "Shroombot"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "1000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/The Debtician",
+        "pattern": "*.json",
+        "root": "MacAppSupport"
+      },
+      "1": {
+        "path": "Godot/app_userdata/The Debtician",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

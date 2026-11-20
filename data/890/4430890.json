@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795120535,
-  "_history": [],
-  "_change_number": 40562178,
-  "_missing_token": true,
-  "_sha": "8161cc2b7749982a2918f3bfd17d340888d53336",
-  "_size": 3131,
+  "_lastChecked": 1795205727,
+  "_history": [
+    {
+      "buildId": "26816455",
+      "branch": "public",
+      "timeUpdated": 1795192344,
+      "firstSeen": 1795205727,
+      "manifests": {
+        "4430891": {
+          "gid": "4165693901931742550",
+          "size": 1088920176,
+          "download": 835999792
+        },
+        "4430892": {
+          "gid": "5582271332318161291",
+          "size": 1034493047,
+          "download": 809939232
+        }
+      }
+    }
+  ],
+  "_change_number": 41312274,
+  "_missing_token": false,
+  "_sha": "e5f1f2cabf968bfda397747259b7e117175c63a6",
+  "_size": 4495,
   "appid": "4430890",
   "common": {
     "aicontenttype": "1",
@@ -33,9 +52,9 @@
     },
     "clienticon": "853155f69a018e620610ba2015b9742912bbf482",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4430890",
     "genres": {
       "0": "23",
@@ -63,10 +82,10 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "68f58123f5691f3c592af7336895ef0d3756c82d/library_capsule.jpg"
+          "english": "8aaab7ce319b697477712f94d0605a9bf2b3bcb9/library_capsule.jpg"
         },
         "image2x": {
-          "english": "68f58123f5691f3c592af7336895ef0d3756c82d/library_capsule_2x.jpg"
+          "english": "8aaab7ce319b697477712f94d0605a9bf2b3bcb9/library_capsule_2x.jpg"
         }
       },
       "library_header": {
@@ -111,11 +130,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
-      "english": "446dccfbe6512ae3bd2f61944ee05b3df7a08543/capsule_231x87.jpg"
+      "english": "e34c95f3a93620be9d5476b08977d1bddadf0168/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1793735099",
+    "steam_release_date": "1795196280",
+    "store_asset_mtime": "1795199237",
     "store_tags": {
       "0": "599",
       "1": "701",
@@ -138,5 +158,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Booker Blitz",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Booker Blitz.exe"
+      },
+      "1": {
+        "arguments": "--no-sandbox",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "booker-blitz"
+      }
+    }
+  },
+  "depots": {
+    "4430891": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "835999792",
+          "gid": "4165693901931742550",
+          "size": "1088920176"
+        }
+      }
+    },
+    "4430892": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "809939232",
+          "gid": "5582271332318161291",
+          "size": "1034493047"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26816455",
+        "timebuildupdated": "1795192307",
+        "timeupdated": "1795192344"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": " David Morais",
+    "homepage": "https://bookerblitz.com",
+    "publisher": "David Morais"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "Booker Blitz/saves",
+        "pattern": "*.bbsave",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Booker Blitz/saves",
+        "pattern": "*.bbsave",
+        "root": "LinuxXdgConfigHome"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }
