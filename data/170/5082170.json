@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794948924,
+  "_lastChecked": 1795288478,
   "_history": [
     {
       "buildId": "26675083",
@@ -26,12 +26,38 @@
           "download": 2028193504
         }
       }
+    },
+    {
+      "buildId": "26833112",
+      "branch": "public",
+      "timeUpdated": 1795265872,
+      "firstSeen": 1795288478,
+      "manifests": {
+        "5082171": {
+          "gid": "6806532725633417404",
+          "size": 4415229368,
+          "download": 4055260096
+        }
+      }
+    },
+    {
+      "buildId": "26833112",
+      "branch": "vr-test",
+      "timeUpdated": 1795265872,
+      "firstSeen": 1795288478,
+      "manifests": {
+        "5082171": {
+          "gid": "6806532725633417404",
+          "size": 4415229368,
+          "download": 4055260096
+        }
+      }
     }
   ],
-  "_change_number": 41118355,
+  "_change_number": 41340975,
   "_missing_token": false,
-  "_sha": "f7afc76505a1c14bb8e6f6e0fef144b857791a12",
-  "_size": 7001,
+  "_sha": "f0dd6cf2c7015255dfaa0a9335fb312cb60c664d",
+  "_size": 7652,
   "appid": "5082170",
   "common": {
     "associations": {
@@ -50,6 +76,8 @@
       "category_23": "1",
       "category_36": "1",
       "category_49": "1",
+      "category_52": "1",
+      "category_53": "1",
       "category_62": "1"
     },
     "clienticon": "1cf792a8da58a5b9597d6c970647e5645e0d02a1",
@@ -136,6 +164,7 @@
       "brazilian": "Jogo das Frutas Kombat",
       "portuguese": "Jogo das Frutas Kombat"
     },
+    "openxrsupport": "1",
     "osarch": "64",
     "osextended": "",
     "oslist": "windows",
@@ -238,12 +267,34 @@
     "installdir": "Smart Fruit Kombat",
     "launch": {
       "0": {
+        "arguments": "--xr-mode off -- --no-vr",
         "config": {
           "osarch": "64",
           "oslist": "windows"
         },
+        "description": "Play on PC",
+        "description_loc": {
+          "brazilian": "Jogar no PC",
+          "english": "Play on PC",
+          "portuguese": "Jogar no PC"
+        },
         "executable": "FruitKombat.exe",
         "type": "default"
+      },
+      "1": {
+        "arguments": "--xr-mode on -- --vr",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play in VR (OpenXR)",
+        "description_loc": {
+          "brazilian": "Jogar em VR (OpenXR)",
+          "english": "Play in VR (OpenXR)",
+          "portuguese": "Jogar em VR (OpenXR)"
+        },
+        "executable": "FruitKombat.exe",
+        "type": "openxr"
       }
     },
     "steamcontrollertemplateindex": "13",
@@ -258,29 +309,29 @@
       },
       "manifests": {
         "public": {
-          "download": "3903221264",
-          "gid": "5988084468849155244",
-          "size": "4259043615"
+          "download": "4055260096",
+          "gid": "6806532725633417404",
+          "size": "4415229368"
         },
         "vr-test": {
-          "download": "2028193504",
-          "gid": "8923805184764424168",
-          "size": "2314018836"
+          "download": "4055260096",
+          "gid": "6806532725633417404",
+          "size": "4415229368"
         }
       }
     },
     "baselanguages": "brazilian,english",
     "branches": {
       "public": {
-        "buildid": "26675083",
-        "timebuildupdated": "1794703887",
-        "timeupdated": "1794704067"
+        "buildid": "26833112",
+        "timebuildupdated": "1795265477",
+        "timeupdated": "1795265872"
       },
       "vr-test": {
-        "buildid": "26705725",
+        "buildid": "26833112",
         "description": "Teste PCVR Quest Link SteamVR",
-        "timebuildupdated": "1794842030",
-        "timeupdated": "1794842030"
+        "timebuildupdated": "1795265477",
+        "timeupdated": "1795265872"
       }
     },
     "nocommonredists": "1"

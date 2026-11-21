@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795205725,
-  "_history": [],
-  "_change_number": 41310172,
-  "_missing_token": true,
-  "_sha": "3b848ad58a7293a26610b379aaf02f3bee3fba54",
-  "_size": 3348,
+  "_lastChecked": 1795288468,
+  "_history": [
+    {
+      "buildId": "26837091",
+      "branch": "public",
+      "timeUpdated": 1795285405,
+      "firstSeen": 1795288468,
+      "manifests": {
+        "4288311": {
+          "gid": "336491511242016891",
+          "size": 1491820071,
+          "download": 1331535328
+        }
+      }
+    }
+  ],
+  "_change_number": 41340172,
+  "_missing_token": false,
+  "_sha": "ff466cc6f542766b84cd8ed0e0a373038389c773",
+  "_size": 5172,
   "appid": "4288310",
   "common": {
     "associations": {
@@ -32,7 +46,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4288310",
     "genres": {
       "0": "1",
@@ -103,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fbd4d21295e4c53fda8807ff93db2fb22f400cb1/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795280764",
     "store_asset_mtime": "1792681620",
     "store_tags": {
       "0": "7178",
@@ -155,5 +169,97 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blobby Bash",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BBV2_Project.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": " Blobby Bash (DirectX 11). Use this option if shader errors occur on default launch option.",
+        "description_loc": {
+          "english": " Blobby Bash (DirectX 11). Use this option if shader errors occur on default launch option."
+        },
+        "executable": "BBV2_Project.exe",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4288311": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1331535328",
+          "gid": "336491511242016891",
+          "size": "1491820071"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26837091",
+        "timebuildupdated": "1795285387",
+        "timeupdated": "1795285405"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Anonymous Anteaters Studio",
+    "publisher": "Anonymous Anteaters Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "8",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Saved/SaveGames/",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "BBV2_Project/Saved/SaveGames/",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

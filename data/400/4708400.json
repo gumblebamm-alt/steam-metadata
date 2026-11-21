@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794425770,
-  "_history": [],
-  "_change_number": 40832572,
-  "_missing_token": true,
-  "_sha": "d9bcbd67bf3110acbcbcfd611b3f93bf882f1f74",
-  "_size": 3194,
+  "_lastChecked": 1795288472,
+  "_history": [
+    {
+      "buildId": "26832198",
+      "branch": "public",
+      "timeUpdated": 1795260456,
+      "firstSeen": 1795288472,
+      "manifests": {
+        "4708401": {
+          "gid": "362595377106328664",
+          "size": 180002038,
+          "download": 108795472
+        },
+        "4708402": {
+          "gid": "7854632222157468766",
+          "size": 210334621,
+          "download": 110218400
+        }
+      }
+    }
+  ],
+  "_change_number": 41334072,
+  "_missing_token": false,
+  "_sha": "981b9a5026ca87cb4e3d4eeaf833bcbcfc53daed",
+  "_size": 5075,
   "appid": "4708400",
   "common": {
     "associations": {
@@ -34,9 +53,9 @@
     },
     "clienticon": "41f11dc408a4e771b22d4d9814b3a157d14fb0ac",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4708400",
     "genres": {
       "0": "4"
@@ -107,11 +126,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cc434462072f194bb094764a433b67ec41794456/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792859778",
+    "steam_release_date": "1796025600",
+    "store_asset_mtime": "1795267429",
     "store_tags": {
       "0": "597",
       "1": "4182",
@@ -138,5 +158,101 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "YoureAlivePhil",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "YoureAlivePhil.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "YoureAlivePhil.x86_64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "7",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4708401": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "108795472",
+          "gid": "362595377106328664",
+          "size": "180002038"
+        }
+      }
+    },
+    "4708402": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "110218400",
+          "gid": "7854632222157468766",
+          "size": "210334621"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26832198",
+        "timebuildupdated": "1795260454",
+        "timeupdated": "1795260456"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "John Bullock",
+    "homepage": "http://b3agz.com",
+    "publisher": "b3agz"
+  },
+  "ufs": {
+    "maxnumfiles": "2",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "b3agz\\You're Alive, Phil",
+            "replace": ".config/unity3d/b3agz/You're Alive, Phil"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "b3agz\\You're Alive, Phil",
+        "pattern": "*.dat",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

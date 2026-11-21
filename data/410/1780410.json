@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792025638,
+  "_lastChecked": 1795288458,
   "_history": [
     {
       "buildId": "7484184",
@@ -13,12 +13,30 @@
           "download": 68468928
         }
       }
+    },
+    {
+      "buildId": "26822199",
+      "branch": "public",
+      "timeUpdated": 1795254182,
+      "firstSeen": 1795288458,
+      "manifests": {
+        "1780411": {
+          "gid": "7316525398179254363",
+          "size": 402105764,
+          "download": 175596928
+        },
+        "1780412": {
+          "gid": "3049632091102556710",
+          "size": 314925889,
+          "download": 142066256
+        }
+      }
     }
   ],
-  "_change_number": 39834221,
+  "_change_number": 41333409,
   "_missing_token": false,
-  "_sha": "4997eebf84aa5faa8c9103196dc7693b1dd7c273",
-  "_size": 3072,
+  "_sha": "5b5b3a0a6bc8ab05268df97d8ff89b13cfed1bc9",
+  "_size": 4220,
   "appid": "1780410",
   "common": {
     "associations": {
@@ -32,13 +50,19 @@
       }
     },
     "category": {
+      "category_18": "1",
       "category_2": "1",
+      "category_22": "1",
+      "category_23": "1",
       "category_33": "1",
       "category_62": "1"
     },
     "clienticon": "436d4222811896404d3936ae62ba5fec4f99194c",
     "clienttga": "c94228a6c6c6169208a9db43fd42769cde3c1c12",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "partial",
+    "controllertagwizard": "1",
     "gameid": "1780410",
     "genres": {
       "0": "4",
@@ -91,9 +115,10 @@
     "logo": "5f411b63482b0e8a7d07710424696b09f6cd4846",
     "logo_small": "5f411b63482b0e8a7d07710424696b09f6cd4846_thumb",
     "name": "Christmas Slots - Casino Game",
-    "osarch": "",
+    "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "23",
     "releasestate": "released",
     "small_capsule": {
@@ -102,26 +127,26 @@
     "steam_release_date": "1634648176",
     "store_asset_mtime": "1633343376",
     "store_tags": {
-      "0": "13070",
-      "1": "16250",
-      "10": "3871",
-      "11": "4195",
-      "12": "6815",
-      "13": "492",
-      "14": "4094",
-      "15": "17389",
-      "16": "4182",
+      "0": "1091588",
+      "1": "3959",
+      "10": "4182",
+      "11": "4305",
+      "12": "4726",
+      "13": "1654",
+      "14": "3871",
+      "15": "9803",
+      "16": "492",
       "17": "1666",
-      "18": "4175",
-      "19": "4252",
-      "2": "1665",
-      "3": "1654",
+      "18": "5154",
+      "19": "7481",
+      "2": "16250",
+      "3": "9",
       "4": "597",
-      "5": "4236",
-      "6": "599",
-      "7": "9",
-      "8": "1698",
-      "9": "1770"
+      "5": "97376",
+      "6": "32322",
+      "7": "1741",
+      "8": "5125",
+      "9": "4711"
     },
     "supported_languages": {
       "english": {
@@ -143,30 +168,80 @@
         },
         "executable": "Christmas Slots - Casino Game.exe",
         "type": "option1"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Christmas Slots - Casino Game",
+        "description_loc": {
+          "english": "Christmas Slots - Casino Game"
+        },
+        "executable": "christmas-slots.sh",
+        "type": "default"
       }
     }
   },
   "depots": {
     "1780411": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "68468928",
-          "gid": "4177694359320456827",
-          "size": "675150403"
+          "download": "175596928",
+          "gid": "7316525398179254363",
+          "size": "402105764"
+        }
+      }
+    },
+    "1780412": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "142066256",
+          "gid": "3049632091102556710",
+          "size": "314925889"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "7484184",
-        "timebuildupdated": "1633473830",
-        "timeupdated": "1633473857"
+        "buildid": "26822199",
+        "timebuildupdated": "1795210053",
+        "timeupdated": "1795254182"
       }
-    }
+    },
+    "privatebranches": "1"
   },
   "extended": {
     "developer": "Dusty Rocket Games",
     "homepage": "https://dustyrocketgames.com/games/christmas-slots-casino-game/",
     "publisher": "Dusty Rocket Games"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Christmas Slots",
+        "pattern": "save.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
   }
 }

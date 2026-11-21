@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794679224,
-  "_history": [],
-  "_change_number": 40941767,
-  "_missing_token": true,
-  "_sha": "7cb93538aa06b4c94e508435246eac5fc6139139",
-  "_size": 4918,
+  "_lastChecked": 1795288464,
+  "_history": [
+    {
+      "buildId": "26706159",
+      "branch": "public",
+      "timeUpdated": 1794843216,
+      "firstSeen": 1795288464,
+      "manifests": {
+        "3649842": {
+          "gid": "4363056790593156829",
+          "size": 1316260822,
+          "download": 1005341920
+        },
+        "3649843": {
+          "gid": "5059178274101571522",
+          "size": 1461509252,
+          "download": 1072702320
+        }
+      }
+    }
+  ],
+  "_change_number": 41336077,
+  "_missing_token": false,
+  "_sha": "434318986ab6bf52cf3552a5f79842a3216a4c35",
+  "_size": 7088,
   "appid": "3649840",
   "common": {
     "associations": {
@@ -37,12 +56,12 @@
     "clienticon": "a56b95c935ca579a367a42888edb29775d89a266",
     "clienttga": "e3ca261165388a2c27136225b7c19594448c1903",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors_including_dlc": {
       "0": "5"
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3649840",
     "genres": {
       "0": "25"
@@ -134,11 +153,12 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8bac60bac3ba2187e647ad185a6e81b9c01535a5/capsule_231x87.jpg",
       "japanese": "abe2e11e77b2f0849f64f5b584d5f58856e61789/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1795273354",
     "store_asset_mtime": "1792591358",
     "store_tags": {
       "0": "21",
@@ -180,5 +200,108 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Zombie Police2",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Zombie2.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Zombie2.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "windows",
+          "ownsdlc": "5262850"
+        },
+        "description": "Mitako Tatatari's Cult Village Stream ZP",
+        "description_loc": {
+          "english": "Mitako Tatatari's Cult Village Stream ZP",
+          "japanese": "多々狸ミタコの因習村配信ZP"
+        },
+        "executable": "Mitako\\Mitako.exe",
+        "type": "option1"
+      },
+      "3": {
+        "config": {
+          "oslist": "macos",
+          "ownsdlc": "5262850"
+        },
+        "description": "Mitako Tatatari's Cult Village Stream ZP",
+        "description_loc": {
+          "english": "Mitako Tatatari's Cult Village Stream ZP",
+          "japanese": "多々狸ミタコの因習村配信ZP"
+        },
+        "executable": "Mitako.app",
+        "type": "option1"
+      }
+    }
+  },
+  "depots": {
+    "3649841": {},
+    "3649842": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1005341920",
+          "gid": "4363056790593156829",
+          "size": "1316260822"
+        }
+      }
+    },
+    "3649843": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1072702320",
+          "gid": "5059178274101571522",
+          "size": "1461509252"
+        }
+      }
+    },
+    "baselanguages": "english,french,japanese,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26706159",
+        "timebuildupdated": "1794843206",
+        "timeupdated": "1794843216"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Lobstudio",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.zombiepolice99.com/",
+    "listofdlc": "5262850",
+    "publisher": "Lobstudio"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": ".",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

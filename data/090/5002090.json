@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794598882,
-  "_history": [],
-  "_change_number": 40922574,
-  "_missing_token": true,
-  "_sha": "faf0ed46b4a158896c3e50694e71cfff061e1f62",
-  "_size": 2951,
+  "_lastChecked": 1795288477,
+  "_history": [
+    {
+      "buildId": "26576214",
+      "branch": "public",
+      "timeUpdated": 1794345388,
+      "firstSeen": 1795288477,
+      "manifests": {
+        "5002091": {
+          "gid": "5179323232920530220",
+          "size": 419571212,
+          "download": 153722704
+        },
+        "5002092": {
+          "gid": "2001815897197261696",
+          "size": 591432045,
+          "download": 224012592
+        }
+      }
+    }
+  ],
+  "_change_number": 41333580,
+  "_missing_token": false,
+  "_sha": "dd9c710d8250677b4f4740352dd5160d0f5ea31e",
+  "_size": 4026,
   "appid": "5002090",
   "common": {
     "associations": {
@@ -26,8 +45,8 @@
     "clienticns": "988410c6d9c916e0f8b0799da70252d2e7997949",
     "clienticon": "a006ca62e7f10206520acca02b93ea61e5154909",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5002090",
     "genres": {
       "0": "4",
@@ -99,7 +118,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9c0a2b85166c24ea763e7373aeb0a3ccfc46196a/capsule_231x87.jpg"
     },
@@ -130,5 +149,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Loamlets",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Loamlets.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Loamlets.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5002091": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "153722704",
+          "gid": "5179323232920530220",
+          "size": "419571212"
+        }
+      }
+    },
+    "5002092": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "224012592",
+          "gid": "2001815897197261696",
+          "size": "591432045"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26576214",
+        "timebuildupdated": "1794345247",
+        "timeupdated": "1794345388"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Vladislavs Tarasovs",
+    "homepage": "https://arrow-puzzle.com",
+    "publisher": "Vladislavs Tarasovs"
+  }
 }

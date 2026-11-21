@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1795205734,
+  "_lastChecked": 1795288474,
   "_history": [
     {
       "buildId": "25131889",
@@ -26,12 +26,30 @@
           "download": 139709616
         }
       }
+    },
+    {
+      "buildId": "26821636",
+      "branch": "flipoffmac",
+      "timeUpdated": 1795208134,
+      "firstSeen": 1795288474,
+      "manifests": {
+        "4808111": {
+          "gid": "2014636456742959803",
+          "size": 287871305,
+          "download": 139709616
+        },
+        "4808112": {
+          "gid": "1874258636050632932",
+          "size": 459068313,
+          "download": 190661840
+        }
+      }
     }
   ],
-  "_change_number": 38715996,
+  "_change_number": 41322856,
   "_missing_token": false,
-  "_sha": "ac93e3ddf247186df8f71523fc71778ab6544b12",
-  "_size": 3340,
+  "_sha": "6c5df84c14eb10caed524a1e523946ebfa01dd79",
+  "_size": 3933,
   "appid": "4808110",
   "common": {
     "associations": {
@@ -119,8 +137,9 @@
     },
     "name": "Flip-Off",
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "primary_genre": "2",
     "releasestate": "released",
     "small_capsule": {
@@ -155,6 +174,12 @@
           "oslist": "windows"
         },
         "executable": "FlipOff.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Flip-Off.app"
       }
     }
   },
@@ -164,6 +189,11 @@
         "oslist": "windows"
       },
       "manifests": {
+        "flipoffmac": {
+          "download": "139709616",
+          "gid": "2014636456742959803",
+          "size": "287871305"
+        },
         "public": {
           "download": "139709616",
           "gid": "2014636456742959803",
@@ -171,7 +201,25 @@
         }
       }
     },
+    "4808112": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "flipoffmac": {
+          "download": "190661840",
+          "gid": "1874258636050632932",
+          "size": "459068313"
+        }
+      }
+    },
     "branches": {
+      "flipoffmac": {
+        "buildid": "26821636",
+        "description": "mac build",
+        "timebuildupdated": "1795208134",
+        "timeupdated": "1795208134"
+      },
       "public": {
         "buildid": "25200664",
         "timebuildupdated": "1788926081",
