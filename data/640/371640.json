@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1795205704,
-  "_history": [],
-  "_change_number": 41309552,
-  "_missing_token": true,
-  "_sha": "bc4c7debe1818dab9e3c3fe418a3272bd88cdbf6",
-  "_size": 3444,
+  "_lastChecked": 1795244685,
+  "_history": [
+    {
+      "buildId": "26688273",
+      "branch": "deck-test",
+      "timeUpdated": 1794776310,
+      "firstSeen": 1795244685,
+      "manifests": {
+        "371641": {
+          "gid": "3718351922079793941",
+          "size": 208122057,
+          "download": 103718032
+        },
+        "371642": {
+          "gid": "2492107413245870561",
+          "size": 214331136,
+          "download": 97121280
+        }
+      }
+    },
+    {
+      "buildId": "26688273",
+      "branch": "public",
+      "timeUpdated": 1794777666,
+      "firstSeen": 1795244685,
+      "manifests": {
+        "371641": {
+          "gid": "3718351922079793941",
+          "size": 208122057,
+          "download": 103718032
+        },
+        "371642": {
+          "gid": "2492107413245870561",
+          "size": 214331136,
+          "download": 97121280
+        }
+      }
+    }
+  ],
+  "_change_number": 41322344,
+  "_missing_token": false,
+  "_sha": "fd86967949c42b85531558d2ec80c07a605b52c4",
+  "_size": 5669,
   "appid": "371640",
   "common": {
     "aicontenttype": "1",
@@ -40,9 +77,9 @@
     "clienticon": "a69d3f4337d42e96e82b325c908454f14adfdcbd",
     "clienttga": "b04c54a865e40d89ecb64e171235552330ff9df7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "371640",
     "genres": {
       "0": "23",
@@ -117,10 +154,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "70",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3488de7bd45ad5e440611455e377871736d3aecd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795224894",
     "store_asset_mtime": "1793305772",
     "store_tags": {
       "0": "1616",
@@ -151,5 +189,123 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "contenttype": "3",
+    "installdir": "Mercyrail",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "Mercyrail.x86_64",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Mercyrail.exe",
+        "type": "default"
+      }
+    },
+    "vrsupport": "other"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229004": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "371641": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "deck-test": {
+          "download": "103718032",
+          "gid": "3718351922079793941",
+          "size": "208122057"
+        },
+        "public": {
+          "download": "103718032",
+          "gid": "3718351922079793941",
+          "size": "208122057"
+        }
+      }
+    },
+    "371642": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "deck-test": {
+          "download": "97121280",
+          "gid": "2492107413245870561",
+          "size": "214331136"
+        },
+        "public": {
+          "download": "97121280",
+          "gid": "2492107413245870561",
+          "size": "214331136"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "deck-test": {
+        "buildid": "26688273",
+        "description": "For testing Steam Deck",
+        "timebuildupdated": "1794776310",
+        "timeupdated": "1794776310"
+      },
+      "public": {
+        "buildid": "26688273",
+        "timebuildupdated": "1794776310",
+        "timeupdated": "1794777666"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Built by Rebels",
+    "homepage": "https://www.mercyrail.com",
+    "publisher": "Built by Rebels"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

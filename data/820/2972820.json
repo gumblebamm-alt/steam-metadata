@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795120518,
-  "_history": [],
-  "_change_number": 41269383,
-  "_missing_token": true,
-  "_sha": "54d92946fd9fdfa8ea48d2db899ab2f293dfa7e6",
-  "_size": 3962,
+  "_lastChecked": 1795244688,
+  "_history": [
+    {
+      "buildId": "26802725",
+      "branch": "public",
+      "timeUpdated": 1795147405,
+      "firstSeen": 1795244688,
+      "manifests": {
+        "2972821": {
+          "gid": "5572106942532158048",
+          "size": 587081906,
+          "download": 143560960
+        },
+        "2972822": {
+          "gid": "4965752161863843837",
+          "size": 590227240,
+          "download": 150633840
+        }
+      }
+    }
+  ],
+  "_change_number": 41318730,
+  "_missing_token": false,
+  "_sha": "6c2f50f8840e7445a448b89cd86065775e59f113",
+  "_size": 5442,
   "appid": "2972820",
   "common": {
     "associations": {
@@ -27,7 +46,6 @@
       "category_22": "1",
       "category_23": "1",
       "category_57": "1",
-      "category_59": "1",
       "category_60": "1",
       "category_62": "1",
       "category_68": "1",
@@ -38,6 +56,7 @@
     "clienticon": "ad1b4fdf6155f408642f1039cf0846ab365623c2",
     "clienttga": "8abc1e993f0f6e58355942e5f3db7f51be86dc80",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -46,7 +65,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2972820",
     "genres": {
       "0": "1",
@@ -118,11 +136,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "496b40e8eaa68dbeb4d6ca7dd4aaf1f503af93ab/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794969762",
+    "steam_release_date": "1795213198",
+    "store_asset_mtime": "1795214223",
     "store_tags": {
       "0": "19",
       "1": "21",
@@ -185,5 +204,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Vice Magic City Mayhem",
+    "launch": {
+      "0": {
+        "executable": "Vice Magic City Mayhem.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "7",
+    "steamcontrollertemplateindex": "4",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2972821": {
+      "config": {
+        "language": "english",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "143560960",
+          "gid": "5572106942532158048",
+          "size": "587081906"
+        }
+      }
+    },
+    "2972822": {
+      "manifests": {
+        "public": {
+          "download": "150633840",
+          "gid": "4965752161863843837",
+          "size": "590227240"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26802725",
+        "timebuildupdated": "1795147405",
+        "timeupdated": "1795147405"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Jurassic Sunset Games",
+    "homepage": "https://linktr.ee/JurassicSunsetGames",
+    "publisher": "Jurassic Sunset Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "unity3d/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Jurassic Sunset Games LLC/Vice Magic City Mayhem/Saves",
+        "pattern": "SaveFile*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

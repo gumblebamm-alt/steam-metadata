@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794377710,
-  "_history": [],
-  "_change_number": 40821480,
-  "_missing_token": true,
-  "_sha": "0bb6fabb3563db77a4fc50dacd9a79b8f8ac2650",
-  "_size": 4761,
+  "_lastChecked": 1795244702,
+  "_history": [
+    {
+      "buildId": "26778481",
+      "branch": "public",
+      "timeUpdated": 1795073074,
+      "firstSeen": 1795244702,
+      "manifests": {
+        "5140152": {
+          "gid": "1012829753995158229",
+          "size": 31022058997,
+          "download": 30745063616
+        }
+      }
+    }
+  ],
+  "_change_number": 41327377,
+  "_missing_token": false,
+  "_sha": "0c140a893e97ba542aff78ad04d9ab36854cee3f",
+  "_size": 6073,
   "appid": "5140150",
   "common": {
     "associations": {
@@ -30,8 +44,8 @@
     },
     "clienticon": "d127eb01e4d3f4109bd47bf5e477a72bb493c7ce",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5140150",
     "genres": {
       "0": "25",
@@ -115,10 +129,13 @@
       "schinese": "流火"
     },
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "97",
+    "review_score": "7",
     "small_capsule": {
       "english": "cf91d947f125f086efd5f605cd6b51af08f52a5f/capsule_231x87.jpg",
       "schinese": "41ffe192910c877ca8ce92098cbef40090a97563/capsule_231x87_schinese.jpg"
@@ -189,5 +206,73 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "A Glimmer",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "A Glimmer.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "AGlimmer.app/Contents/MacOS/A Glimmer",
+        "type": "default",
+        "workingdir": "AGlimmer.app/Contents/MacOS"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5140151": {},
+    "5140152": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "30745063616",
+          "gid": "1012829753995158229",
+          "size": "31022058997"
+        }
+      }
+    },
+    "5140153": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26778481",
+        "timebuildupdated": "1795073026",
+        "timeupdated": "1795073074"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "MYSTERY CROWN",
+    "publisher": "MYSTERY CROWN"
+  }
 }

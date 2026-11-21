@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1795033871,
+  "_lastChecked": 1795244701,
   "_history": [
     {
       "buildId": "24564914",
@@ -13,12 +13,25 @@
           "download": 122348256
         }
       }
+    },
+    {
+      "buildId": "26820638",
+      "branch": "public",
+      "timeUpdated": 1795204933,
+      "firstSeen": 1795244701,
+      "manifests": {
+        "5044881": {
+          "gid": "4081698557072011495",
+          "size": 422987008,
+          "download": 177282976
+        }
+      }
     }
   ],
-  "_change_number": 41225150,
+  "_change_number": 41317571,
   "_missing_token": false,
-  "_sha": "a0c45c3a302cb9f154869a5cec0fa31f7807fc26",
-  "_size": 4231,
+  "_sha": "db093c6cc4c17fb2929e82a33236058301dd1acd",
+  "_size": 4429,
   "appid": "5044880",
   "common": {
     "aicontenttype": "1",
@@ -33,12 +46,14 @@
       }
     },
     "category": {
+      "category_18": "1",
       "category_2": "1",
       "category_23": "1",
       "category_62": "1"
     },
     "clienticon": "307c831a568e0d0692358772e0a099a03f1609d7",
     "community_hub_visible": "1",
+    "controller_support": "partial",
     "controllertagwizard": "1",
     "gameid": "5044880",
     "genres": {
@@ -125,9 +140,9 @@
       "12": "1755",
       "13": "3993",
       "14": "1695",
-      "15": "5125",
-      "16": "8945",
-      "17": "4182",
+      "15": "8945",
+      "16": "4182",
+      "17": "1654",
       "18": "5981",
       "19": "4202",
       "2": "16598",
@@ -162,23 +177,25 @@
         },
         "executable": "linux/SPINDLEDRIFT.x86_64"
       }
-    }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
   },
   "depots": {
     "5044881": {
       "manifests": {
         "public": {
-          "download": "122348256",
-          "gid": "1841490332060379168",
-          "size": "304000816"
+          "download": "177282976",
+          "gid": "4081698557072011495",
+          "size": "422987008"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "24564914",
-        "timebuildupdated": "1785901852",
-        "timeupdated": "1785902109"
+        "buildid": "26820638",
+        "timebuildupdated": "1795204871",
+        "timeupdated": "1795204933"
       }
     },
     "nocommonredists": "1"
@@ -189,8 +206,6 @@
     "publisher": "Half Ass Studios"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "20",
     "quota": "50000000",
     "rootoverrides": {
@@ -211,6 +226,11 @@
       "0": {
         "path": "Godot/app_userdata/SpindleDrift",
         "pattern": "save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/SpindleDrift",
+        "pattern": "slot_*.json",
         "root": "WinAppDataRoaming"
       }
     }

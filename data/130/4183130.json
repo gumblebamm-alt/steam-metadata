@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793688515,
-  "_history": [],
-  "_change_number": 40518221,
-  "_missing_token": true,
-  "_sha": "af27c9bcf9e924de9b900e5125a7ff0468eae0a8",
-  "_size": 3546,
+  "_lastChecked": 1795244694,
+  "_history": [
+    {
+      "buildId": "26818213",
+      "branch": "public",
+      "timeUpdated": 1795197313,
+      "firstSeen": 1795244694,
+      "manifests": {
+        "4183131": {
+          "gid": "5289752577265043099",
+          "size": 553199292,
+          "download": 427870784
+        },
+        "4183132": {
+          "gid": "906289953924441589",
+          "size": 555483836,
+          "download": 418198144
+        }
+      }
+    }
+  ],
+  "_change_number": 41326249,
+  "_missing_token": false,
+  "_sha": "21750175e65beeffea732b033f9a02c9dff6486f",
+  "_size": 4684,
   "appid": "4183130",
   "common": {
     "associations": {
@@ -29,7 +48,6 @@
     "community_hub_visible": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4183130",
     "genres": {
       "0": "28",
@@ -97,32 +115,37 @@
     },
     "name": "WE'RE ALL IN!",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "66",
+    "review_score": "5",
     "small_capsule": {
       "english": "469a3e6c9d6168991b25b9430efd7d95ae6479cd/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1791836728",
+    "steam_release_date": "1795205910",
+    "store_asset_mtime": "1795210081",
     "store_tags": {
-      "0": "1719",
-      "1": "3968",
-      "10": "3839",
-      "11": "597",
-      "12": "9",
-      "13": "4166",
-      "14": "3843",
-      "15": "4182",
-      "16": "5923",
-      "2": "16250",
-      "3": "1714",
-      "4": "599",
+      "0": "7178",
+      "1": "16250",
+      "10": "4182",
+      "11": "599",
+      "12": "1685",
+      "13": "1697",
+      "14": "3839",
+      "15": "9",
+      "16": "4166",
+      "17": "5923",
+      "2": "1719",
+      "3": "597",
+      "4": "3968",
       "5": "3859",
-      "6": "1685",
-      "7": "7178",
-      "8": "4747",
-      "9": "4191"
+      "6": "4747",
+      "7": "4191",
+      "8": "3843",
+      "9": "1714"
     },
     "supported_languages": {
       "brazilian": {
@@ -167,5 +190,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "WereAllIn",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "WereAllIn.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "WereAllIn.app"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "4183131": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "427870784",
+          "gid": "5289752577265043099",
+          "size": "553199292"
+        }
+      }
+    },
+    "4183132": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "418198144",
+          "gid": "906289953924441589",
+          "size": "555483836"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26818213",
+        "timebuildupdated": "1795197231",
+        "timeupdated": "1795197313"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Blast Furnace Games",
+    "publisher": "Black Lantern Collective"
+  }
 }
