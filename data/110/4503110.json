@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794948911,
+  "_lastChecked": 1795376282,
   "_history": [
     {
       "buildId": "26417515",
@@ -36,12 +36,35 @@
           "download": 77016352
         }
       }
+    },
+    {
+      "buildId": "26852337",
+      "branch": "public",
+      "timeUpdated": 1795370570,
+      "firstSeen": 1795376282,
+      "manifests": {
+        "4503111": {
+          "gid": "1985248536021210522",
+          "size": 166761336,
+          "download": 85551568
+        },
+        "4503112": {
+          "gid": "2746024307627004762",
+          "size": 131714960,
+          "download": 77016384
+        },
+        "4503113": {
+          "gid": "8160333044936904899",
+          "size": 232999286,
+          "download": 106890768
+        }
+      }
     }
   ],
-  "_change_number": 41162029,
+  "_change_number": 41363184,
   "_missing_token": false,
-  "_sha": "5bfa0529c9dba8710a3c272dea3ada04c0bb951f",
-  "_size": 8486,
+  "_sha": "213799fdede91dfd000bdfe468f7e25530a40e3d",
+  "_size": 9111,
   "appid": "4503110",
   "common": {
     "aicontenttype": "1",
@@ -181,8 +204,9 @@
     },
     "name": "Circuit Pulse",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows,linux",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos,linux",
     "primary_genre": "23",
     "releasestate": "released",
     "small_capsule": {
@@ -286,6 +310,13 @@
         },
         "executable": "circuit_pulse.x86_64",
         "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Circuit Pulse.app",
+        "type": "default"
       }
     }
   },
@@ -297,9 +328,9 @@
       },
       "manifests": {
         "public": {
-          "download": "85551520",
-          "gid": "3712824952849225579",
-          "size": "166761272"
+          "download": "85551568",
+          "gid": "1985248536021210522",
+          "size": "166761336"
         }
       }
     },
@@ -310,17 +341,29 @@
       },
       "manifests": {
         "public": {
-          "download": "77016352",
-          "gid": "2220522664762284112",
-          "size": "131714896"
+          "download": "77016384",
+          "gid": "2746024307627004762",
+          "size": "131714960"
+        }
+      }
+    },
+    "4503113": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "106890768",
+          "gid": "8160333044936904899",
+          "size": "232999286"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26739254",
-        "timebuildupdated": "1794942596",
-        "timeupdated": "1794942634"
+        "buildid": "26852337",
+        "timebuildupdated": "1795370517",
+        "timeupdated": "1795370570"
       }
     },
     "nocommonredists": "1"
@@ -345,6 +388,18 @@
         },
         "root": "WinAppDataRoaming",
         "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Circuit Pulse/saves",
+            "replace": "Circuit Pulse/saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
       }
     },
     "savefiles": {
