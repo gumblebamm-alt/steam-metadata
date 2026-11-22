@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794205468,
+  "_lastChecked": 1795329962,
   "_history": [
     {
       "buildId": "21472518",
@@ -25,10 +25,10 @@
       }
     }
   ],
-  "_change_number": 40735561,
+  "_change_number": 41342689,
   "_missing_token": false,
-  "_sha": "35267c0e4bae5b2a6967ac942bdbb750bde8d4e2",
-  "_size": 7353,
+  "_sha": "b2136e650693bf838c59a5812cfe7302e55c13f3",
+  "_size": 8284,
   "appid": "2276180",
   "common": {
     "associations": {
@@ -53,6 +53,8 @@
       "category_18": "1",
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
+      "category_35": "1",
       "category_55": "1",
       "category_56": "1",
       "category_57": "1",
@@ -142,7 +144,7 @@
     "osarch": "",
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
-    "primary_genre": "25",
+    "primary_genre": "1",
     "releasestate": "released",
     "small_capsule": {
       "english": "a5fbe36f957a7ab1eaa2d61851215f9f31261f40/capsule_231x87.jpg"
@@ -257,10 +259,6 @@
         "subtitles": "true",
         "supported": "true"
       },
-      "latam": {
-        "subtitles": "true",
-        "supported": "true"
-      },
       "schinese": {
         "subtitles": "true",
         "supported": "true"
@@ -286,7 +284,16 @@
         "executable": "ONENELLEMOO.exe"
       },
       "1": {
+        "config": {
+          "oslist": "macos"
+        },
         "executable": "one_mac1/onenellemoo.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "ONENELLEMOO.exe"
       }
     }
   },
@@ -343,5 +350,42 @@
     "developer": "Movarice Entertainment Inc.",
     "homepage": "http://movarice.co.jp/onenellemoo/",
     "publisher": "Movarice Entertainment Inc."
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Movarice Entertainment/ONENELLEMOO",
+            "replace": "Movarice Entertainment/ONENELLEMOO"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Movarice Entertainment/ONENELLEMOO",
+            "replace": ".config/unity3d/Movarice Entertainment/ONENELLEMOO"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Movarice Entertainment/ONENELLEMOO",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

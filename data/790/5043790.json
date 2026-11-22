@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1794513301,
-  "_history": [],
-  "_change_number": 40883392,
-  "_missing_token": true,
-  "_sha": "2ff0d6b3f4480fb6386479347fbc0e9f63b29b07",
-  "_size": 3513,
+  "_lastChecked": 1795329976,
+  "_history": [
+    {
+      "buildId": "26841113",
+      "branch": "public",
+      "timeUpdated": 1795305610,
+      "firstSeen": 1795329976,
+      "manifests": {
+        "5043792": {
+          "gid": "6797003569530663455",
+          "size": 964168040,
+          "download": 519197888
+        }
+      }
+    },
+    {
+      "buildId": "26622785",
+      "branch": "uat-testing",
+      "timeUpdated": 1794505961,
+      "firstSeen": 1795329976,
+      "manifests": {
+        "5043792": {
+          "gid": "5332580351190423296",
+          "size": 1855756219,
+          "download": 1409908336
+        }
+      }
+    }
+  ],
+  "_change_number": 41346540,
+  "_missing_token": false,
+  "_sha": "7549eb4f88888ecddd259250ce5b963bb2815e4c",
+  "_size": 4946,
   "appid": "5043790",
   "common": {
     "aicontenttype": "1",
@@ -40,6 +67,7 @@
     "clienticns": "8cbafb568865e3ad2fe2ad0b09584755be5dc0e0",
     "clienticon": "d60df86355f68cf6bcba910bd1f76e4f9e0e62bb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -47,7 +75,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5043790",
     "genres": {
       "0": "23",
@@ -120,10 +147,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "eedc635a5a2703e9c1676b7643f6e17d6ea3cdc9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1789257253",
     "store_tags": {
       "0": "113",
@@ -155,5 +183,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "UniversiaTCG",
+    "launch": {
+      "0": {
+        "arguments": "--launched-with-steam",
+        "executable": "UniversiaTCG.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5043792": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "519197888",
+          "gid": "6797003569530663455",
+          "size": "964168040"
+        },
+        "uat-testing": {
+          "download": "1409908336",
+          "gid": "5332580351190423296",
+          "size": "1855756219"
+        }
+      }
+    },
+    "5043793": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      }
+    },
+    "5043794": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26841113",
+        "timebuildupdated": "1795305366",
+        "timeupdated": "1795305610"
+      },
+      "uat-testing": {
+        "buildid": "26622785",
+        "description": "Internal UAT testing",
+        "timebuildupdated": "1794501945",
+        "timeupdated": "1794505961"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Toad &amp; Luck Dragon",
+    "homepage": "https://universiatcg.com",
+    "isfreeapp": "1",
+    "publisher": "Toad &amp; Luck Dragon"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "100",
+    "quota": "100000000"
+  }
 }
