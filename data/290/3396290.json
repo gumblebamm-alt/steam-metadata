@@ -1,6 +1,24 @@
 {
-  "_lastChecked": 1793821536,
+  "_lastChecked": 1795477989,
   "_history": [
+    {
+      "buildId": "26865423",
+      "branch": "public",
+      "timeUpdated": 1795431526,
+      "firstSeen": 1795477989,
+      "manifests": {
+        "3396291": {
+          "gid": "4821541510497537434",
+          "size": 1116683830,
+          "download": 302425248
+        },
+        "3396292": {
+          "gid": "2591996837949039238",
+          "size": 1120352202,
+          "download": 226191056
+        }
+      }
+    },
     {
       "buildId": "26305632",
       "branch": "public",
@@ -72,25 +90,12 @@
           "download": 206279808
         }
       }
-    },
-    {
-      "buildId": "25246043",
-      "branch": "public",
-      "timeUpdated": 1789102826,
-      "firstSeen": 1789106476,
-      "manifests": {
-        "3396291": {
-          "gid": "2745477113470110795",
-          "size": 1859271442,
-          "download": 377185872
-        }
-      }
     }
   ],
-  "_change_number": 40597572,
+  "_change_number": 41400482,
   "_missing_token": false,
-  "_sha": "0713c84f08c8167953c45ec67cd20aca732fbea7",
-  "_size": 7948,
+  "_sha": "43965783bd55eb6dfedf3344b4055e134ac0d33c",
+  "_size": 8240,
   "appid": "3396290",
   "common": {
     "associations": {
@@ -125,7 +130,7 @@
       "2": "28"
     },
     "header_image": {
-      "english": "927e2ed4f80c16e5b6c95fe0632f06304c37535d/header.jpg"
+      "english": "15a81de54cd80f438f8cf38078d749f3339b1528/header.jpg"
     },
     "icon": "df7f7aa7dd3e095cbc5398302cb51f3955979ad8",
     "languages": {
@@ -212,7 +217,7 @@
     "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "98",
+    "review_percentage": "99",
     "review_score": "8",
     "small_capsule": {
       "english": "917cb0b0dcf513db6dc41baf59545d99daa2f56b/capsule_231x87.jpg"
@@ -279,7 +284,7 @@
       }
     },
     "steam_release_date": "1780923750",
-    "store_asset_mtime": "1793641797",
+    "store_asset_mtime": "1795433461",
     "store_tags": {
       "0": "97376",
       "1": "552282",
@@ -395,7 +400,8 @@
         "executable": "Puni the Florist MacOS.app",
         "type": "default"
       }
-    }
+    },
+    "uselaunchcommandline": "1"
   },
   "depots": {
     "3396291": {
@@ -404,9 +410,9 @@
       },
       "manifests": {
         "public": {
-          "download": "292420544",
-          "gid": "1289884346575247134",
-          "size": "1071442043"
+          "download": "302425248",
+          "gid": "4821541510497537434",
+          "size": "1116683830"
         }
       }
     },
@@ -417,17 +423,17 @@
       },
       "manifests": {
         "public": {
-          "download": "213781280",
-          "gid": "4355223775615419982",
-          "size": "1066599428"
+          "download": "226191056",
+          "gid": "2591996837949039238",
+          "size": "1120352202"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26305632",
-        "timebuildupdated": "1793300566",
-        "timeupdated": "1793300566"
+        "buildid": "26865423",
+        "timebuildupdated": "1795430600",
+        "timeupdated": "1795431526"
       }
     },
     "privatebranches": "1"
@@ -440,13 +446,24 @@
   "ufs": {
     "maxnumfiles": "100",
     "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Earthquack Games/Puni the Florist/",
+            "replace": "Earthquack Games/Puni the Florist/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "Earthquack Games/Puni the Florist/",
         "pattern": "*.sav",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocalLow"
       }
     }

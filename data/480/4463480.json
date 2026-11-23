@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1792603023,
-  "_history": [],
-  "_change_number": 40090007,
-  "_missing_token": true,
-  "_sha": "418efbdcb3be774a8de33106432d850c7f7e7ae1",
-  "_size": 3794,
+  "_lastChecked": 1795478009,
+  "_history": [
+    {
+      "buildId": "26873155",
+      "branch": "public",
+      "timeUpdated": 1795453791,
+      "firstSeen": 1795478009,
+      "manifests": {
+        "4463481": {
+          "gid": "1149638617709751900",
+          "size": 221692968,
+          "download": 123316160
+        },
+        "4463482": {
+          "gid": "6173797597363069266",
+          "size": 188259040,
+          "download": 115502272
+        }
+      }
+    }
+  ],
+  "_change_number": 41398760,
+  "_missing_token": false,
+  "_sha": "c4549ed9bc2b32b2f9f8151dc56425deef18beac",
+  "_size": 5471,
   "appid": "4463480",
   "common": {
     "aicontenttype": "1",
@@ -36,9 +55,9 @@
     },
     "clienticon": "0a5f1e83bc0a18900ecf0c5bd36188b0b8ee7639",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4463480",
     "genres": {
       "0": "1",
@@ -121,10 +140,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b11fe8a2137a9ba2e5aa436a49ed10b787bbb349/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795422827",
     "store_asset_mtime": "1792592067",
     "store_tags": {
       "0": "4231",
@@ -176,5 +196,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "ArcaneBound",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ArcaneBound.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "ArcaneBound.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4463481": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "123316160",
+          "gid": "1149638617709751900",
+          "size": "221692968"
+        }
+      }
+    },
+    "4463482": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "115502272",
+          "gid": "6173797597363069266",
+          "size": "188259040"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,japanese,latam,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26873155",
+        "timebuildupdated": "1795453714",
+        "timeupdated": "1795453791"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "AsardialStudio",
+    "publisher": "AsardialStudio"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/ArcaneBound",
+            "replace": ".local/share/godot/app_userdata/ArcaneBound"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/ArcaneBound",
+        "pattern": "player_save_state.tres",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

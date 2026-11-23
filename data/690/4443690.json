@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1794598870,
-  "_history": [],
-  "_change_number": 40922430,
-  "_missing_token": true,
-  "_sha": "2a0cd16e3a43e35a281d8b9152720b485c3332c9",
-  "_size": 3844,
+  "_lastChecked": 1795478008,
+  "_history": [
+    {
+      "buildId": "26879915",
+      "branch": "linux-fix",
+      "timeUpdated": 1795475442,
+      "firstSeen": 1795478008,
+      "manifests": {
+        "4443691": {
+          "gid": "8147268881426590705",
+          "size": 195419423,
+          "download": 76155424
+        }
+      }
+    },
+    {
+      "buildId": "26879915",
+      "branch": "public",
+      "timeUpdated": 1795477040,
+      "firstSeen": 1795478008,
+      "manifests": {
+        "4443691": {
+          "gid": "8147268881426590705",
+          "size": 195419423,
+          "download": 76155424
+        }
+      }
+    }
+  ],
+  "_change_number": 41405385,
+  "_missing_token": false,
+  "_sha": "e1e913e6e505739c97df7de9877d75d9fb8deb2c",
+  "_size": 5084,
   "appid": "4443690",
   "common": {
     "associations": {
@@ -31,8 +58,8 @@
     },
     "clienticon": "8a1838ef1f1a86dd3f73b730beaabc591a4ee6d5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4443690",
     "genres": {
       "0": "25",
@@ -116,10 +143,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8cfdf8a59537321169da2f68cfd022661694eeec/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795456846",
     "store_asset_mtime": "1791799443",
     "store_tags": {
       "0": "615955",
@@ -183,5 +211,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cornerwitch",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "cornerwitch.exe"
+      }
+    }
+  },
+  "depots": {
+    "4443691": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "linux-fix": {
+          "download": "76155424",
+          "gid": "8147268881426590705",
+          "size": "195419423"
+        },
+        "public": {
+          "download": "76155424",
+          "gid": "8147268881426590705",
+          "size": "195419423"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,german,japanese,koreana,latam,russian,schinese,spanish",
+    "branches": {
+      "linux-fix": {
+        "buildid": "26879915",
+        "description": "specific fixes aimed at linux",
+        "timebuildupdated": "1795475440",
+        "timeupdated": "1795475442"
+      },
+      "public": {
+        "buildid": "26879915",
+        "timebuildupdated": "1795475440",
+        "timeupdated": "1795477040"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "AramiGames",
+    "publisher": "AramiGames"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Cornerwitch",
+        "pattern": "savegame.tres",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

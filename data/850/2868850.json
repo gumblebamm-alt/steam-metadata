@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795033839,
-  "_history": [],
-  "_change_number": 41219634,
-  "_missing_token": true,
-  "_sha": "949d260910aca10f336fadbe8e45123cfff92b22",
-  "_size": 5213,
+  "_lastChecked": 1795477983,
+  "_history": [
+    {
+      "buildId": "23384988",
+      "branch": "public",
+      "timeUpdated": 1779618442,
+      "firstSeen": 1795477983,
+      "manifests": {
+        "2868851": {
+          "gid": "5755797169995507164",
+          "size": 911545124,
+          "download": 289902400
+        }
+      }
+    }
+  ],
+  "_change_number": 41379087,
+  "_missing_token": false,
+  "_sha": "6d54cffe6c1c6bb68f6020aa27ee128030334229",
+  "_size": 7652,
   "appid": "2868850",
   "common": {
     "aicontenttype": "1",
@@ -34,8 +48,8 @@
     "clienticns": "2cbb48470167b9e02c8135f69f3e09d75f6baad8",
     "clienticon": "d81a4329495271f62667a1b88a058993c142b71e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2868850",
     "genres": {
       "0": "25",
@@ -147,13 +161,14 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d8ec1027001c19d0c8358b841c4ed8bf77615121/capsule_231x87.jpg",
       "japanese": "4f378143e1a397280366e57c9d62fa0ba9463338/capsule_231x87_japanese.jpg",
       "koreana": "b0f2a1fb34f6af3004f36d7816037680a803987e/capsule_231x87_koreana.jpg",
       "schinese": "dafdea5722ca98a91e277cc424046bbd782b27cd/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1795423965",
     "store_asset_mtime": "1793787180",
     "store_tags": {
       "0": "3964",
@@ -208,5 +223,116 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Wizard of Maths",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "first testing release",
+        "description_loc": {
+          "english": "first testing release"
+        },
+        "executable": "windows/Wizard-of-maths-0.9.5.9.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "test",
+        "description_loc": {
+          "english": "test"
+        },
+        "executable": "linux/Wizard-of-maths-0.9.5.9.x86_64",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "mac/Wizard-of-maths-0.9.5.9.app/Contents/MacOS/wizard-of-maths-0.9.5.9",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2868851": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "download": "289902400",
+          "gid": "5755797169995507164",
+          "size": "911545124"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,japanese,koreana,latam,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "23384988",
+        "timebuildupdated": "1779618405",
+        "timeupdated": "1779618442"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Skills From Gaming",
+    "homepage": "https://skillsfromgaming.com/games/",
+    "publisher": "Skills From Gaming"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "500000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "WizardOfMaths/{64BitSteamID}",
+            "replace": "WizardOfMaths/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "WizardOfMaths/{64BitSteamID}",
+            "replace": "WizardOfMaths/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "2": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "WizardOfMaths/{64BitSteamID}",
+            "replace": "WizardOfMaths/{64BitSteamID}"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "WizardOfMaths/{64BitSteamID}",
+        "pattern": "*.save",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

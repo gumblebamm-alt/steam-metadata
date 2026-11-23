@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1795120534,
-  "_history": [],
-  "_change_number": 41273717,
-  "_missing_token": true,
-  "_sha": "aca0ca8a7b2185437faf7ccf69d9a89971a4b617",
-  "_size": 3327,
+  "_lastChecked": 1795478007,
+  "_history": [
+    {
+      "buildId": "26792208",
+      "branch": "public",
+      "timeUpdated": 1795111533,
+      "firstSeen": 1795478007,
+      "manifests": {
+        "4391161": {
+          "gid": "6450551901306705371",
+          "size": 289538128,
+          "download": 149540736
+        },
+        "4391162": {
+          "gid": "2965836681008649690",
+          "size": 205866657,
+          "download": 127331152
+        },
+        "4391163": {
+          "gid": "2068175991975641386",
+          "size": 172362649,
+          "download": 119189872
+        }
+      }
+    }
+  ],
+  "_change_number": 41405270,
+  "_missing_token": false,
+  "_sha": "4eacdc0c6c0dd0962e50d3e181af46bb76e53146",
+  "_size": 5528,
   "appid": "4391160",
   "common": {
     "associations": {
@@ -39,9 +63,9 @@
     "clienticns": "0dad3763c6a9fabd145db09f0b033d9d3f3d1daa",
     "clienticon": "78e839d7d26f84fd701d2817e408421c7015e1f5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4391160",
     "genres": {
       "0": "1",
@@ -113,10 +137,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "78fe2927f101f5ce91d7133d34070397fab6b963/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1795111158",
     "store_tags": {
       "0": "42804",
@@ -148,5 +173,123 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Choom",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "CHOOM.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "CHOOM.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "CHOOM.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4391161": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "149540736",
+          "gid": "6450551901306705371",
+          "size": "289538128"
+        }
+      }
+    },
+    "4391162": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "127331152",
+          "gid": "2965836681008649690",
+          "size": "205866657"
+        }
+      }
+    },
+    "4391163": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "119189872",
+          "gid": "2068175991975641386",
+          "size": "172362649"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26792208",
+        "timebuildupdated": "1795111407",
+        "timeupdated": "1795111533"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Worrall Studios",
+    "homepage": "https://worrall.studio/",
+    "publisher": "Worrall Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "25000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Choom",
+            "replace": "Godot/app_userdata/Choom"
+          }
+        },
+        "root": "MacAppSupport",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Choom",
+            "replace": "godot/app_userdata/Choom"
+          }
+        },
+        "root": "MacAppSupport",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Choom",
+        "pattern": "save.dat",
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

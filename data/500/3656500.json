@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795033848,
-  "_history": [],
-  "_change_number": 40925720,
-  "_missing_token": true,
-  "_sha": "6c37366bc74e36178e7b797d1cd1de881951c584",
-  "_size": 4454,
+  "_lastChecked": 1795477994,
+  "_history": [
+    {
+      "buildId": "26861841",
+      "branch": "public",
+      "timeUpdated": 1795425224,
+      "firstSeen": 1795477994,
+      "manifests": {
+        "3656501": {
+          "gid": "196670504198536534",
+          "size": 1642647382,
+          "download": 757861712
+        }
+      }
+    }
+  ],
+  "_change_number": 41386977,
+  "_missing_token": false,
+  "_sha": "bef9ba7ee39f0d643e72f52ac4202bd714fcb98b",
+  "_size": 6419,
   "appid": "3656500",
   "common": {
     "associations": {
@@ -36,9 +50,9 @@
     },
     "clienticon": "afec5fde6ec18df9daaa0027541f94aebd5559fc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3656500",
     "genres": {
       "0": "23",
@@ -131,10 +145,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "61441b42761ba8f631d8bcd9f178c4d4af8999f4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795440911",
     "store_asset_mtime": "1793796703",
     "store_tags": {
       "0": "3834",
@@ -220,5 +235,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Jaden Industries Cozy Automation Puzzler",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Jaden Industries.exe"
+      }
+    }
+  },
+  "depots": {
+    "3656501": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "757861712",
+          "gid": "196670504198536534",
+          "size": "1642647382"
+        }
+      }
+    },
+    "3656502": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {}
+    },
+    "baselanguages": "arabic,brazilian,danish,dutch,english,finnish,french,german,italian,japanese,koreana,norwegian,polish,schinese,spanish,swedish,tchinese,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26861841",
+        "timebuildupdated": "1795417075",
+        "timeupdated": "1795425224"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Pushka Studios",
+    "homepage": "https://jadenindustries.com",
+    "publisher": "Pushka Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "25",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Pushka/Jaden Industries/DemoVersion2",
+            "replace": "jadenindustries/DemoVersion2"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Pushka/Jaden Industries/DemoVersion2",
+        "pattern": "PlayerData.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Pushka/Jaden Industries/DemoVersion2",
+        "pattern": "buildVersion.txt",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Pushka/Jaden Industries/DemoVersion2/Saves",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Pushka/Jaden Industries/DemoVersion2/Saves/Drafts",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791809528,
+  "_lastChecked": 1795477982,
   "_history": [
     {
       "buildId": "24864045",
@@ -26,12 +26,30 @@
           "download": 2933565648
         }
       }
+    },
+    {
+      "buildId": "26817467",
+      "branch": "public",
+      "timeUpdated": 1795456689,
+      "firstSeen": 1795477982,
+      "manifests": {
+        "2710651": {
+          "gid": "8185569147675169540",
+          "size": 3460081479,
+          "download": 2936448608
+        },
+        "2710652": {
+          "gid": "7806675388530604379",
+          "size": 3410295456,
+          "download": 2997070592
+        }
+      }
     }
   ],
-  "_change_number": 39739497,
+  "_change_number": 41395347,
   "_missing_token": false,
-  "_sha": "01db9d019cdfc55ecb9522d36ed063a6e094425f",
-  "_size": 7948,
+  "_sha": "ea41f1b7a9540e91882c56e94645a6bec7228752",
+  "_size": 8249,
   "appid": "2710650",
   "common": {
     "associations": {
@@ -147,7 +165,7 @@
     "oslist": "windows,android",
     "primary_genre": "25",
     "releasestate": "released",
-    "review_percentage": "96",
+    "review_percentage": "95",
     "review_score": "8",
     "small_capsule": {
       "english": "e18c0f9450da2146b8fb78f285e37c36ac763138/capsule_231x87.jpg"
@@ -296,6 +314,9 @@
       },
       "1": {
         "arguments": "vrmode",
+        "config": {
+          "oslist": "windows"
+        },
         "description": "Quantum Void VR mode",
         "description_loc": {
           "english": "Quantum Void VR mode",
@@ -306,6 +327,7 @@
       },
       "2": {
         "config": {
+          "osarch": "64",
           "oslist": "android"
         },
         "executable": "quantum_void_steamframe.apk",
@@ -322,23 +344,30 @@
       },
       "manifests": {
         "public": {
-          "download": "2933565648",
-          "gid": "3929177025248362884",
-          "size": "3458477544"
+          "download": "2936448608",
+          "gid": "8185569147675169540",
+          "size": "3460081479"
         }
       }
     },
     "2710652": {
       "config": {
+        "osarch": "64",
         "oslist": "android"
       },
-      "manifests": {}
+      "manifests": {
+        "public": {
+          "download": "2997070592",
+          "gid": "7806675388530604379",
+          "size": "3410295456"
+        }
+      }
     },
     "branches": {
       "public": {
-        "buildid": "25446252",
-        "timebuildupdated": "1790027779",
-        "timeupdated": "1790039611"
+        "buildid": "26817467",
+        "timebuildupdated": "1795195161",
+        "timeupdated": "1795456689"
       }
     },
     "privatebranches": "1"
@@ -351,24 +380,26 @@
   "ufs": {
     "maxnumfiles": "1000",
     "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Android",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Tactical Nounours/Quantum Void/Saves",
+            "replace": "Android/data/com.TacticalNounours.QuantumVoid/files/Saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "AndroidExternalData"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "Tactical Nounours/Quantum Void/Saves",
         "pattern": "*",
-        "platforms": {
-          "1": "Windows"
-        },
         "recursive": "1",
         "root": "WinAppDataLocalLow"
-      },
-      "1": {
-        "path": "com.tacticalnounours.quantumvoid/files/saves",
-        "pattern": "*",
-        "platforms": {
-          "1": "Android"
-        },
-        "recursive": "1",
-        "root": "AndroidInternalData"
       }
     }
   }

@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1795329974,
-  "_history": [],
-  "_change_number": 41350681,
-  "_missing_token": true,
-  "_sha": "5ebc7f7d39fdaf2c7b33cdd7cbca97557cdedbcc",
-  "_size": 3775,
+  "_lastChecked": 1795478015,
+  "_history": [
+    {
+      "buildId": "26867956",
+      "branch": "public",
+      "timeUpdated": 1795439451,
+      "firstSeen": 1795478015,
+      "manifests": {
+        "4758151": {
+          "gid": "7893729951847995000",
+          "size": 290804512,
+          "download": 195721056
+        },
+        "4758152": {
+          "gid": "2949684306924960414",
+          "size": 262092420,
+          "download": 189492432
+        }
+      }
+    },
+    {
+      "buildId": "26867956",
+      "branch": "testing",
+      "timeUpdated": 1795438983,
+      "firstSeen": 1795478015,
+      "manifests": {
+        "4758151": {
+          "gid": "7893729951847995000",
+          "size": 290804512,
+          "download": 195721056
+        },
+        "4758152": {
+          "gid": "2949684306924960414",
+          "size": 262092420,
+          "download": 189492432
+        }
+      }
+    }
+  ],
+  "_change_number": 41388545,
+  "_missing_token": false,
+  "_sha": "399f179139576d4d4996fce596bdc3c1f58beb68",
+  "_size": 5582,
   "appid": "4758150",
   "common": {
     "associations": {
@@ -33,8 +70,8 @@
     },
     "clienticon": "009d6f35d89855c7fadd7e91b276f4d2d744183d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4758150",
     "genres": {
       "0": "3"
@@ -104,11 +141,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "df850e6895dcc9bc55949e20c784082708f05896/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792436214",
+    "steam_release_date": "1795442465",
+    "store_asset_mtime": "1795443776",
     "store_tags": {
       "0": "791774",
       "1": "1091588",
@@ -174,5 +212,97 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Supinaa Rogue Sapling",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "index"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "index.exe"
+      }
+    }
+  },
+  "depots": {
+    "4758151": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "195721056",
+          "gid": "7893729951847995000",
+          "size": "290804512"
+        },
+        "testing": {
+          "download": "195721056",
+          "gid": "7893729951847995000",
+          "size": "290804512"
+        }
+      }
+    },
+    "4758152": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "189492432",
+          "gid": "2949684306924960414",
+          "size": "262092420"
+        },
+        "testing": {
+          "download": "189492432",
+          "gid": "2949684306924960414",
+          "size": "262092420"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26867956",
+        "timebuildupdated": "1795438983",
+        "timeupdated": "1795439451"
+      },
+      "testing": {
+        "buildid": "26867956",
+        "description": "test-build",
+        "timebuildupdated": "1795438983",
+        "timeupdated": "1795438983"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Paahtimo Games",
+    "homepage": "https://paahtimo.games/",
+    "publisher": "Paahtimo Games"
+  },
+  "ufs": {
+    "appidredirect": "5048970",
+    "maxnumfiles": "10",
+    "quota": "400000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "Supinaa-Rogue Sapling/",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "LinuxHome",
+        "useinstead": "WinAppDataLocal"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": ".local/share/godot/app_userdata/Supinaa-Rogue Sapling/",
+        "pattern": "*.tres",
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

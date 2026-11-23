@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795120556,
-  "_history": [],
-  "_change_number": 41261823,
-  "_missing_token": true,
-  "_sha": "6bce5784b0ca06b8ea314d9865281deba78ee054",
-  "_size": 3044,
+  "_lastChecked": 1795478029,
+  "_history": [
+    {
+      "buildId": "26784249",
+      "branch": "public",
+      "timeUpdated": 1795090435,
+      "firstSeen": 1795478029,
+      "manifests": {
+        "5242611": {
+          "gid": "6756391702766905628",
+          "size": 383336259,
+          "download": 112883648
+        }
+      }
+    }
+  ],
+  "_change_number": 41398507,
+  "_missing_token": false,
+  "_sha": "8366c2cd5d8491ddbd1b3d6621ce8e2240806be4",
+  "_size": 4176,
   "appid": "5242610",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     },
     "clienticon": "1bd8b3ca408efe12e6553d9d334e2836bd58788e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5242610",
     "genres": {
       "0": "23",
@@ -102,10 +116,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e6f5cb87435aa68c09ac747d8ea679b9962ef20e/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795462289",
     "store_asset_mtime": "1793028554",
     "store_tags": {
       "0": "1741",
@@ -136,5 +151,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Blind Commander",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BlindCommander.exe"
+      }
+    }
+  },
+  "depots": {
+    "5242611": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "112883648",
+          "gid": "6756391702766905628",
+          "size": "383336259"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26784249",
+        "timebuildupdated": "1795090401",
+        "timeupdated": "1795090435"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Danta Games",
+    "publisher": "Danta Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "20000000",
+    "savefiles": {
+      "0": {
+        "path": "DantaGames/BlindCommander",
+        "pattern": "blindcommander_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "DantaGames/BlindCommander",
+        "pattern": "blindcommander_battle.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794377700,
-  "_history": [],
-  "_change_number": 40781128,
-  "_missing_token": true,
-  "_sha": "2431cdd56658dcc4131705ea25d2d9f8e5813998",
-  "_size": 6802,
+  "_lastChecked": 1795478009,
+  "_history": [
+    {
+      "buildId": "26867398",
+      "branch": "public",
+      "timeUpdated": 1795437166,
+      "firstSeen": 1795478009,
+      "manifests": {
+        "4507411": {
+          "gid": "7789871589180659855",
+          "size": 903400480,
+          "download": 513840208
+        },
+        "4507412": {
+          "gid": "5377547282105242661",
+          "size": 12709869293,
+          "download": 12701744912
+        },
+        "4507413": {
+          "gid": "1266620676559773862",
+          "size": 18075180908,
+          "download": 17655501328
+        }
+      }
+    }
+  ],
+  "_change_number": 41402685,
+  "_missing_token": false,
+  "_sha": "2d47d097f285c1ebebc5c4f1fb454b390a501efc",
+  "_size": 8625,
   "appid": "4507410",
   "common": {
     "aicontenttype": "1",
@@ -25,10 +49,12 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "clienticon": "db16c18301e126aeefa223200060e73c63490719",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "5"
@@ -38,7 +64,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4507410",
     "genres": {
       "0": "3",
@@ -154,13 +179,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "dec3e978fe86f05ab15ec717b56f9959b0c803d5/capsule_231x87.jpg",
       "koreana": "01487a26903ddfb17ce6de26c61895225df908ea/capsule_231x87_koreana.jpg",
       "schinese": "c475dfb51a4c8956e4ecaf4f7d33915c4ffd44f6/capsule_231x87_schinese.jpg",
       "tchinese": "c475dfb51a4c8956e4ecaf4f7d33915c4ffd44f6/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1795471216",
     "store_asset_mtime": "1792551004",
     "store_tags": {
       "0": "4486",
@@ -213,5 +239,98 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Locked in love",
+    "launch": {
+      "0": {
+        "executable": "Locked in love.exe"
+      }
+    }
+  },
+  "depots": {
+    "4507411": {
+      "manifests": {
+        "public": {
+          "download": "513840208",
+          "gid": "7789871589180659855",
+          "size": "903400480"
+        }
+      }
+    },
+    "4507412": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "12701744912",
+          "gid": "5377547282105242661",
+          "size": "12709869293"
+        }
+      }
+    },
+    "4507413": {
+      "config": {
+        "oslist": "windows",
+        "steamdeck": "1"
+      },
+      "manifests": {
+        "public": {
+          "download": "17655501328",
+          "gid": "1266620676559773862",
+          "size": "18075180908"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26867398",
+        "timebuildupdated": "1795437131",
+        "timeupdated": "1795437166"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Inster",
+    "publisher": "Inster"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Inster\\Locked in love\\Save",
+            "replace": "unity.Inster.Locked in love/Save"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Inster\\Locked in love\\Save",
+            "replace": ".config/unity3d/Inster/Locked in love/Save"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Inster\\Locked in love\\Save",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

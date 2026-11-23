@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795033860,
-  "_history": [],
-  "_change_number": 41172772,
-  "_missing_token": true,
-  "_sha": "b9bc93306f2dae79c055310db8bffb34c67aed7c",
-  "_size": 3706,
+  "_lastChecked": 1795478010,
+  "_history": [
+    {
+      "buildId": "26876335",
+      "branch": "public",
+      "timeUpdated": 1795463907,
+      "firstSeen": 1795478010,
+      "manifests": {
+        "4514421": {
+          "gid": "8280346456024247132",
+          "size": 1375276800,
+          "download": 1313434416
+        },
+        "4514422": {
+          "gid": "4947556314822724764",
+          "size": 1367909928,
+          "download": 1311383568
+        }
+      }
+    }
+  ],
+  "_change_number": 41399290,
+  "_missing_token": false,
+  "_sha": "54d95d0f711c7f30af8bb163f62cdf5bdf7fb951",
+  "_size": 6334,
   "appid": "4514420",
   "common": {
     "aicontenttype": "1",
@@ -44,8 +63,8 @@
     "clienticns": "676164f6693ca15df82af37929b99fe0ab840e8f",
     "clienticon": "541abcc9ba982f08562deed25fe4ddbe6de37ac2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4514420",
     "genres": {
       "0": "23",
@@ -120,11 +139,12 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2056ebc0507d3bda1e80d55c9b06d9de553fff8c/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794318547",
+    "steam_release_date": "1795453218",
+    "store_asset_mtime": "1795029796",
     "store_tags": {
       "0": "5502",
       "1": "599",
@@ -166,5 +186,126 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "NODE PROTOCOL",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Node_Protocol_v_0.9.6.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Node_Protocol_v_0.9.6.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4514421": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1313434416",
+          "gid": "8280346456024247132",
+          "size": "1375276800"
+        }
+      }
+    },
+    "4514422": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1311383568",
+          "gid": "4947556314822724764",
+          "size": "1367909928"
+        }
+      }
+    },
+    "baselanguages": "english,french,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26876335",
+        "timebuildupdated": "1795463770",
+        "timeupdated": "1795463907"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Device",
+    "gamemanualurl": "https://store.steampowered.com/manual/4514420/",
+    "homepage": "https://node-protocol.systems/",
+    "publisher": "Calima Systems"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "15000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot\\app_userdata\\NODE Protocol",
+            "replace": "godot/app_userdata/NODE Protocol"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot\\app_userdata\\NODE Protocol",
+        "pattern": "savegame.json*",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot\\app_userdata\\NODE Protocol",
+        "pattern": "save_key.bin",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot\\app_userdata\\NODE Protocol",
+        "pattern": "settings.cfg",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot\\app_userdata\\NODE Protocol",
+        "pattern": "theme_config.json",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot\\app_userdata\\NODE Protocol",
+        "pattern": "player_rig.json",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Godot\\app_userdata\\NODE Protocol",
+        "pattern": "notepad*",
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Godot\\app_userdata\\NODE Protocol",
+        "pattern": "discord_link.json",
+        "root": "WinAppDataRoaming"
+      },
+      "7": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

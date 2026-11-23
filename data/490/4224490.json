@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795376280,
-  "_history": [],
-  "_change_number": 41364546,
-  "_missing_token": true,
-  "_sha": "54dc344dce3700528871fcbf06874a0f5237ba5e",
-  "_size": 3567,
+  "_lastChecked": 1795478003,
+  "_history": [
+    {
+      "buildId": "26877758",
+      "branch": "public",
+      "timeUpdated": 1795468385,
+      "firstSeen": 1795478003,
+      "manifests": {
+        "4224491": {
+          "gid": "8049263979260898557",
+          "size": 220744651,
+          "download": 83655312
+        },
+        "4224492": {
+          "gid": "2901456207695046072",
+          "size": 236158943,
+          "download": 91268272
+        }
+      }
+    }
+  ],
+  "_change_number": 41401361,
+  "_missing_token": false,
+  "_sha": "c49ad4d8fe1775c091161c9821b9701d645ac975",
+  "_size": 5637,
   "appid": "4224490",
   "common": {
     "associations": {
@@ -23,12 +42,19 @@
     },
     "category": {
       "category_2": "1",
-      "category_62": "1"
+      "category_22": "1",
+      "category_23": "1",
+      "category_62": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_76": "1",
+      "category_79": "1",
+      "category_80": "1"
     },
     "clienticon": "01fe5e30b58dd2c540807ad167831c6e4f6181d4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4224490",
     "genres": {
       "0": "4"
@@ -37,6 +63,23 @@
       "english": "eddf44416d47a639d8915d921d7f02433917acd5/header.jpg"
     },
     "icon": "d2df03262a56157da30397f289636abdba4ed3dc",
+    "languages": {
+      "brazilian": "1",
+      "english": "1",
+      "french": "1",
+      "german": "1",
+      "italian": "1",
+      "japanese": "1",
+      "koreana": "1",
+      "latam": "1",
+      "polish": "1",
+      "portuguese": "1",
+      "russian": "1",
+      "schinese": "1",
+      "spanish": "1",
+      "tchinese": "1",
+      "turkish": "1"
+    },
     "library_assets": {
       "library_capsule": "en",
       "library_header": "en",
@@ -99,10 +142,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "cbe9ef57b4bd67b8cc49af150b1490789c293550/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795443308",
     "store_asset_mtime": "1795362873",
     "store_tags": {
       "0": "560542",
@@ -172,5 +218,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Internet Cafe 98",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Internet Cafe 98.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Internet Cafe 98.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4224491": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "83655312",
+          "gid": "8049263979260898557",
+          "size": "220744651"
+        }
+      }
+    },
+    "4224492": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "91268272",
+          "gid": "2901456207695046072",
+          "size": "236158943"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26877758",
+        "timebuildupdated": "1795468325",
+        "timeupdated": "1795468385"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "GrindWill Labs",
+    "publisher": " GrindWill Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "GrindWill/Internet Cafe 98",
+            "replace": "GrindWill/Internet Cafe 98"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "GrindWill/Internet Cafe 98",
+        "pattern": "*.es3",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

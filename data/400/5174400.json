@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793556053,
-  "_history": [],
-  "_change_number": 40473206,
-  "_missing_token": true,
-  "_sha": "a13852431d76a00405449b5a7be8646050e84565",
-  "_size": 4114,
+  "_lastChecked": 1795478028,
+  "_history": [
+    {
+      "buildId": "26353870",
+      "branch": "public",
+      "timeUpdated": 1793493033,
+      "firstSeen": 1795478028,
+      "manifests": {
+        "5174401": {
+          "gid": "7904370257622288367",
+          "size": 1751313571,
+          "download": 844472672
+        }
+      }
+    }
+  ],
+  "_change_number": 41389726,
+  "_missing_token": false,
+  "_sha": "210bb9d9077da083018d2357c9c18bc7b11b4257",
+  "_size": 5215,
   "appid": "5174400",
   "common": {
     "aicontenttype": "1",
@@ -34,9 +48,9 @@
     },
     "clienticon": "44f29861eaa2cde23b60319743cb47d664b8c57b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5174400",
     "genres": {
       "0": "23",
@@ -121,11 +135,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "29ae8bdbbab6eecda1b7c38a609a3ae66d4747f7/capsule_231x87.jpg",
       "japanese": "7b027012bea415cf90ccae10d47664281e7aa421/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1795446110",
     "store_asset_mtime": "1788885255",
     "store_tags": {
       "0": "1646",
@@ -162,5 +177,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PhelesRebirth",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "PhelesRebirth/Game.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5174401": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "844472672",
+          "gid": "7904370257622288367",
+          "size": "1751313571"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "26353870",
+        "timebuildupdated": "1793493015",
+        "timeupdated": "1793493033"
+      }
+    }
+  },
+  "extended": {
+    "developer": "紫苑もみじ",
+    "publisher": "紫苑もみじ"
+  },
+  "ufs": {
+    "maxnumfiles": "150",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "ShionMomiji\\PhelesRebirth\\QuickSave",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

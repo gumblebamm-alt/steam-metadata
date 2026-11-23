@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794339857,
+  "_lastChecked": 1795477975,
   "_history": [
     {
       "buildId": "26059961",
@@ -103,6 +103,24 @@
       }
     },
     {
+      "buildId": "26592816",
+      "branch": "public",
+      "timeUpdated": 1794405138,
+      "firstSeen": 1795477975,
+      "manifests": {
+        "1465471": {
+          "gid": "9214651791588059200",
+          "size": 9062681581,
+          "download": 8793295904
+        },
+        "1465472": {
+          "gid": "4000773861716162713",
+          "size": 9338268314,
+          "download": 8867410512
+        }
+      }
+    },
+    {
       "buildId": "26545118",
       "branch": "public",
       "timeUpdated": 1794309822,
@@ -175,20 +193,20 @@
       }
     },
     {
-      "buildId": "25385948",
-      "branch": "public",
-      "timeUpdated": 1789719187,
-      "firstSeen": 1789721172,
+      "buildId": "26592816",
+      "branch": "beta",
+      "timeUpdated": 1794405138,
+      "firstSeen": 1795477975,
       "manifests": {
         "1465471": {
-          "gid": "5644795630712896627",
-          "size": 8832927110,
-          "download": 8557800816
+          "gid": "9214651791588059200",
+          "size": 9062681581,
+          "download": 8793295904
         },
         "1465472": {
-          "gid": "5856858357592163704",
-          "size": 9019064736,
-          "download": 8609119616
+          "gid": "4000773861716162713",
+          "size": 9338268314,
+          "download": 8867410512
         }
       }
     },
@@ -258,25 +276,12 @@
           "download": 8557862560
         }
       }
-    },
-    {
-      "buildId": "25288997",
-      "branch": "beta",
-      "timeUpdated": 1789368912,
-      "firstSeen": 1789375679,
-      "manifests": {
-        "1465471": {
-          "gid": "2068507679539387508",
-          "size": 8762477827,
-          "download": 8489490864
-        }
-      }
     }
   ],
-  "_change_number": 40790946,
+  "_change_number": 41397644,
   "_missing_token": false,
-  "_sha": "4f460ba9becd9de3e26d234fce63f6774a8cfb5e",
-  "_size": 10446,
+  "_sha": "c2fcff537a7a9602e36c55dbf386c5de4dd7f7bc",
+  "_size": 10706,
   "appid": "1465470",
   "common": {
     "aicontenttype": "1",
@@ -621,9 +626,9 @@
       },
       "manifests": {
         "beta": {
-          "download": "8864907616",
-          "gid": "2677070971818905189",
-          "size": "9337190563"
+          "download": "8867410512",
+          "gid": "4000773861716162713",
+          "size": "9338268314"
         },
         "previous": {
           "download": "8698705584",
@@ -636,9 +641,9 @@
           "size": "9109259800"
         },
         "public": {
-          "download": "8864907616",
-          "gid": "2677070971818905189",
-          "size": "9337190563"
+          "download": "8867410512",
+          "gid": "4000773861716162713",
+          "size": "9338268314"
         }
       }
     },
@@ -665,10 +670,10 @@
     "baselanguages": "english,russian",
     "branches": {
       "beta": {
-        "buildid": "26545118",
+        "buildid": "26592816",
         "description": "OpenBeta 1.1 (1.1.11)",
-        "timebuildupdated": "1794243772",
-        "timeupdated": "1794245138"
+        "timebuildupdated": "1794405138",
+        "timeupdated": "1794405138"
       },
       "previous": {
         "buildid": "26059961",
@@ -689,9 +694,9 @@
         "timeupdated": "1780087215"
       },
       "public": {
-        "buildid": "26545118",
-        "timebuildupdated": "1794243772",
-        "timeupdated": "1794309822"
+        "buildid": "26592816",
+        "timebuildupdated": "1794405138",
+        "timeupdated": "1794405138"
       }
     },
     "hasdepotsindlc": "1",
@@ -737,6 +742,18 @@
       "0": {
         "path": "TheCrust/Saved/SaveGames",
         "pattern": "*.sav",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "TheCrust/Saved/SaveGames",
+        "pattern": "*.bin",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "TheCrust/Saved/SaveGames",
+        "pattern": "*.png",
         "recursive": "1",
         "root": "WinAppDataLocal"
       }

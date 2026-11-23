@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793947310,
-  "_history": [],
-  "_change_number": 40650525,
-  "_missing_token": true,
-  "_sha": "0f62e93489a5844e6a05cdbe9cb77acf527bd416",
-  "_size": 3176,
+  "_lastChecked": 1795477985,
+  "_history": [
+    {
+      "buildId": "26878397",
+      "branch": "public",
+      "timeUpdated": 1795470572,
+      "firstSeen": 1795477985,
+      "manifests": {
+        "3111051": {
+          "gid": "3597640676586278585",
+          "size": 7025885644,
+          "download": 4048879520
+        }
+      }
+    }
+  ],
+  "_change_number": 41402318,
+  "_missing_token": false,
+  "_sha": "1c9af05da9543a6c32b2dba49ce4563a7bd77301",
+  "_size": 4285,
   "appid": "3111050",
   "common": {
     "aicontenttype": "1",
@@ -31,6 +45,7 @@
     "clienticon": "d2a8f7eacc051f67c90869787d1a1bf5f3b699b2",
     "clienttga": "3082b3a8695bbeee14aa5e59b0080296b9b6675e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -38,7 +53,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3111050",
     "genres": {
       "0": "25",
@@ -110,10 +124,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d1950387bb34e70c4dee4fbeab97d52536f86c1d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795462500",
     "store_asset_mtime": "1793146314",
     "store_tags": {
       "0": "21",
@@ -145,5 +160,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Secrets of Suburbia",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Secrets of Suburbia.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3111051": {
+      "manifests": {
+        "public": {
+          "download": "4048879520",
+          "gid": "3597640676586278585",
+          "size": "7025885644"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26878397",
+        "timebuildupdated": "1795470515",
+        "timeupdated": "1795470572"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "coolmysterydev",
+    "publisher": "coolmysterydev"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "20000000",
+    "savefiles": {
+      "0": {
+        "path": "coolmysterydev/Secrets of Suburbia",
+        "pattern": "save_*.dat",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "coolmysterydev/Secrets of Suburbia",
+        "pattern": "saveinfo.dat",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

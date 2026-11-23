@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1793298775,
-  "_history": [],
-  "_change_number": 40378018,
-  "_missing_token": true,
-  "_sha": "176aab00d5a8c825f140c739b5bc379d7e4c1c3e",
-  "_size": 3538,
+  "_lastChecked": 1795477995,
+  "_history": [
+    {
+      "buildId": "26663362",
+      "branch": "public",
+      "timeUpdated": 1794642779,
+      "firstSeen": 1795477995,
+      "manifests": {
+        "3757942": {
+          "gid": "3029305082463921522",
+          "size": 575630120,
+          "download": 375021552
+        },
+        "3757943": {
+          "gid": "2441458386869602101",
+          "size": 608502816,
+          "download": 397541216
+        }
+      }
+    },
+    {
+      "buildId": "26663362",
+      "branch": "testing",
+      "timeUpdated": 1794642779,
+      "firstSeen": 1795477995,
+      "manifests": {
+        "3757942": {
+          "gid": "3029305082463921522",
+          "size": 575630120,
+          "download": 375021552
+        },
+        "3757943": {
+          "gid": "2441458386869602101",
+          "size": 608502816,
+          "download": 397541216
+        }
+      }
+    }
+  ],
+  "_change_number": 41392307,
+  "_missing_token": false,
+  "_sha": "aeac5d931b6238e9ade89bda2aff038231aad8ce",
+  "_size": 5060,
   "appid": "3757940",
   "common": {
     "associations": {
@@ -25,12 +62,13 @@
     "clienticon": "22adae90577e6e3c66b2f9333425a0add0bddfd4",
     "clienttga": "52decc506838d74c463f54d41ff684ae18266819",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3757940",
     "genres": {
-      "0": "1"
+      "0": "1",
+      "1": "37"
     },
     "header_image": {
       "english": "331d861345eca22fa0e0d7fe1c2f11bd0c7bf2dd/header.jpg"
@@ -98,10 +136,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "474a70867eba220190a1198d2b099e061d858bb4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795450925",
     "store_asset_mtime": "1793261092",
     "store_tags": {
       "0": "19",
@@ -158,5 +197,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Starfront",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Starfront.x86_64",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Starfront.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3757942": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "375021552",
+          "gid": "3029305082463921522",
+          "size": "575630120"
+        },
+        "testing": {
+          "download": "375021552",
+          "gid": "3029305082463921522",
+          "size": "575630120"
+        }
+      }
+    },
+    "3757943": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "397541216",
+          "gid": "2441458386869602101",
+          "size": "608502816"
+        },
+        "testing": {
+          "download": "397541216",
+          "gid": "2441458386869602101",
+          "size": "608502816"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26663362",
+        "timebuildupdated": "1794642740",
+        "timeupdated": "1794642779"
+      },
+      "testing": {
+        "buildid": "26663362",
+        "description": "testing branch",
+        "timebuildupdated": "1794642740",
+        "timeupdated": "1794642779"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "R J L Jones",
+    "isfreeapp": "1",
+    "publisher": "R J L Jones"
+  }
 }

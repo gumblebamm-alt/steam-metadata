@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1794552237,
-  "_history": [],
-  "_change_number": 40892401,
-  "_missing_token": true,
-  "_sha": "480d1d5a6260724ee0a307eb7bf3f1851bad2c55",
-  "_size": 4078,
+  "_lastChecked": 1795478020,
+  "_history": [
+    {
+      "buildId": "26536299",
+      "branch": "development",
+      "timeUpdated": 1794217237,
+      "firstSeen": 1795478020,
+      "manifests": {
+        "4962201": {
+          "gid": "6111930007752046102",
+          "size": 240062400,
+          "download": 77881456
+        },
+        "4962202": {
+          "gid": "8525200233025815650",
+          "size": 254653643,
+          "download": 84922208
+        }
+      }
+    },
+    {
+      "buildId": "26536299",
+      "branch": "public",
+      "timeUpdated": 1795005591,
+      "firstSeen": 1795478020,
+      "manifests": {
+        "4962201": {
+          "gid": "6111930007752046102",
+          "size": 240062400,
+          "download": 77881456
+        },
+        "4962202": {
+          "gid": "8525200233025815650",
+          "size": 254653643,
+          "download": 84922208
+        }
+      }
+    }
+  ],
+  "_change_number": 41392012,
+  "_missing_token": false,
+  "_sha": "cc5f509866bfd691f3e8d0fbe4ac8d8c0829bacc",
+  "_size": 6009,
   "appid": "4962200",
   "common": {
     "aicontenttype": "1",
@@ -30,8 +67,8 @@
     },
     "clienticon": "ac35ad59401f35052c08b37d50d0c6a99b3b87ae",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4962200",
     "genres": {
       "0": "4",
@@ -119,10 +156,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "96ff1fe87712623f5a6c206ddc9cf6e9a0d3975a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795450354",
     "store_asset_mtime": "1791988004",
     "store_tags": {
       "0": "1645",
@@ -197,5 +235,103 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Very very RARE",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Very Very RARE.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Very Very RARE.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4962201": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "development": {
+          "download": "77881456",
+          "gid": "6111930007752046102",
+          "size": "240062400"
+        },
+        "public": {
+          "download": "77881456",
+          "gid": "6111930007752046102",
+          "size": "240062400"
+        }
+      }
+    },
+    "4962202": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "development": {
+          "download": "84922208",
+          "gid": "8525200233025815650",
+          "size": "254653643"
+        },
+        "public": {
+          "download": "84922208",
+          "gid": "8525200233025815650",
+          "size": "254653643"
+        }
+      }
+    },
+    "branches": {
+      "development": {
+        "buildid": "26536299",
+        "description": "Internal Mac build test",
+        "timebuildupdated": "1794217237",
+        "timeupdated": "1794217237"
+      },
+      "public": {
+        "buildid": "26536299",
+        "timebuildupdated": "1794217237",
+        "timeupdated": "1795005591"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Nue Games",
+    "homepage": "https://www.nuegames.net/",
+    "publisher": "Nue Games"
+  },
+  "ufs": {
+    "maxnumfiles": "300",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Nue Games/Very Very RARE",
+            "replace": "Nue Games/Very Very RARE/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Nue Games/Very Very RARE",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
