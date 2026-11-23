@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795120546,
-  "_history": [],
-  "_change_number": 41255853,
-  "_missing_token": true,
-  "_sha": "62005116b90874480683081fa89e318fd970cc94",
-  "_size": 2893,
+  "_lastChecked": 1795419345,
+  "_history": [
+    {
+      "buildId": "26848771",
+      "branch": "public",
+      "timeUpdated": 1795353566,
+      "firstSeen": 1795419345,
+      "manifests": {
+        "4885581": {
+          "gid": "1449204694590452449",
+          "size": 337186694,
+          "download": 252951520
+        }
+      }
+    }
+  ],
+  "_change_number": 41372890,
+  "_missing_token": false,
+  "_sha": "0e365dae9c5aa1e5d6d5ba68f55a6e37f00f12ad",
+  "_size": 4313,
   "appid": "4885580",
   "common": {
     "associations": {
@@ -30,8 +44,8 @@
     },
     "clienticon": "60817b46dc0dc9282159a98887da6da6e60c5aa8",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4885580",
     "genres": {
       "0": "28",
@@ -104,10 +118,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6cb9b87d213f2773878b91a93a056d6b58b54774/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795395813",
     "store_asset_mtime": "1795078561",
     "store_tags": {
       "0": "701",
@@ -128,5 +143,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Heya! Sumo Manager",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play Heya! Sumo Manager (DirectX 12) - Recommended",
+        "description_loc": {
+          "english": "Play Heya! Sumo Manager (DirectX 12) - Recommended"
+        },
+        "executable": "Heya Sumo Manager.exe"
+      },
+      "1": {
+        "arguments": "--rendering-driver vulkan",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play with Vulkan (Intel Arc / graphics fix))",
+        "description_loc": {
+          "english": "Play with Vulkan (Intel Arc / graphics fix))"
+        },
+        "executable": "Heya Sumo Manager.exe"
+      }
+    }
+  },
+  "depots": {
+    "4885581": {
+      "manifests": {
+        "public": {
+          "download": "252951520",
+          "gid": "1449204694590452449",
+          "size": "337186694"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26848771",
+        "timebuildupdated": "1795353491",
+        "timeupdated": "1795353566"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Houseman Games",
+    "publisher": "Houseman Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "2000000000",
+    "savefiles": {
+      "0": {
+        "path": "SumoManager/saves",
+        "pattern": "*.res",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "SumoManager/saves",
+        "pattern": "*.meta.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

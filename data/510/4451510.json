@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794986781,
+  "_lastChecked": 1795419341,
   "_history": [
     {
       "buildId": "26747588",
@@ -13,12 +13,25 @@
           "download": 137014112
         }
       }
+    },
+    {
+      "buildId": "26814544",
+      "branch": "public",
+      "timeUpdated": 1795187208,
+      "firstSeen": 1795419341,
+      "manifests": {
+        "4451511": {
+          "gid": "6147526849388134328",
+          "size": 227238384,
+          "download": 137253520
+        }
+      }
     }
   ],
-  "_change_number": 41208090,
+  "_change_number": 41372736,
   "_missing_token": false,
-  "_sha": "3b55096c52251eb8b15ab26bf2dbd39617e97431",
-  "_size": 3608,
+  "_sha": "5888ad61b100ac5492487ca35612b694190f33fc",
+  "_size": 4082,
   "appid": "4451510",
   "common": {
     "associations": {
@@ -112,7 +125,7 @@
     "osarch": "",
     "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,macos,linux",
     "primary_genre": "4",
     "releasestate": "released",
     "small_capsule": {
@@ -152,26 +165,55 @@
     "installdir": "Wisp & Willow",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "Wisp & Willow.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Wisp and Willow Linux.x86_32",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Witch Garden.app"
       }
     }
   },
   "depots": {
     "4451511": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "137014112",
-          "gid": "2136280285618575151",
-          "size": "226988784"
+          "download": "137253520",
+          "gid": "6147526849388134328",
+          "size": "227238384"
         }
+      }
+    },
+    "4451512": {
+      "config": {
+        "oslist": "linux"
+      }
+    },
+    "4451513": {
+      "config": {
+        "oslist": "macos"
       }
     },
     "baselanguages": "english,japanese,koreana,russian,schinese,spanish",
     "branches": {
       "public": {
-        "buildid": "26747588",
-        "timebuildupdated": "1794970585",
-        "timeupdated": "1794970777"
+        "buildid": "26814544",
+        "timebuildupdated": "1795187174",
+        "timeupdated": "1795187208"
       }
     },
     "nocommonredists": "1"

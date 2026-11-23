@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794948922,
-  "_history": [],
-  "_change_number": 41107790,
-  "_missing_token": true,
-  "_sha": "1f85d03b1e63d3186db3d53c02fc9e8c4dd62907",
-  "_size": 3958,
+  "_lastChecked": 1795419347,
+  "_history": [
+    {
+      "buildId": "26858044",
+      "branch": "public",
+      "timeUpdated": 1795396817,
+      "firstSeen": 1795419347,
+      "manifests": {
+        "5014421": {
+          "gid": "5964964111934263809",
+          "size": 607768429,
+          "download": 547485136
+        }
+      }
+    }
+  ],
+  "_change_number": 41371357,
+  "_missing_token": false,
+  "_sha": "e2c38ba28db502d66f857ca6d09c335807593bcd",
+  "_size": 5185,
   "appid": "5014420",
   "common": {
     "aicontenttype": "1",
@@ -28,9 +42,9 @@
     },
     "clienticon": "9340697ee202042f6e704cfbef04e1fd002f22bd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5014420",
     "genres": {
       "0": "1",
@@ -116,11 +130,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7cdc4136165f772e2505fe08286ae7c4a4e9c276/capsule_231x87.jpg",
       "japanese": "41d710feff6fe3ea5d459eb50d6ada56a4514d0f/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1795397253",
     "store_asset_mtime": "1789089503",
     "store_tags": {
       "0": "3959",
@@ -154,5 +169,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Cat Survivor",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play Game",
+        "description_loc": {
+          "english": "Play Game",
+          "japanese": "ゲームをプレイ"
+        },
+        "executable": "Cat Survivor.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5014421": {
+      "manifests": {
+        "public": {
+          "download": "547485136",
+          "gid": "5964964111934263809",
+          "size": "607768429"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "26858044",
+        "timebuildupdated": "1795396787",
+        "timeupdated": "1795396817"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Nyanko Studio ",
+    "publisher": "Nyanko Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "CatSurvivor",
+        "pattern": "nyansweeper_save.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "CatSurvivor_SteamTest",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,6 +1,29 @@
 {
-  "_lastChecked": 1794117584,
+  "_lastChecked": 1795419347,
   "_history": [
+    {
+      "buildId": "26858013",
+      "branch": "public",
+      "timeUpdated": 1795396666,
+      "firstSeen": 1795419347,
+      "manifests": {
+        "5059851": {
+          "gid": "3700956565421485963",
+          "size": 959550686,
+          "download": 588426560
+        },
+        "5059852": {
+          "gid": "7132693976128693773",
+          "size": 1098224293,
+          "download": 649480672
+        },
+        "5059853": {
+          "gid": "4943851001932736774",
+          "size": 915811878,
+          "download": 566082544
+        }
+      }
+    },
     {
       "buildId": "26514264",
       "branch": "public",
@@ -50,19 +73,6 @@
           "gid": "6822407391694683350",
           "size": 524623193,
           "download": 217720960
-        }
-      }
-    },
-    {
-      "buildId": "25291214",
-      "branch": "public",
-      "timeUpdated": 1789352252,
-      "firstSeen": 1789392044,
-      "manifests": {
-        "5059851": {
-          "gid": "5537215230854549098",
-          "size": 524606160,
-          "download": 217715872
         }
       }
     },
@@ -273,12 +283,87 @@
           "download": 564381264
         }
       }
+    },
+    {
+      "buildId": "26709349",
+      "branch": "0.3.10",
+      "timeUpdated": 1794866178,
+      "firstSeen": 1795419347,
+      "manifests": {
+        "5059851": {
+          "gid": "7558583716731438063",
+          "size": 959387237,
+          "download": 588381328
+        }
+      }
+    },
+    {
+      "buildId": "26514264",
+      "branch": "0.3.7",
+      "timeUpdated": 1794100976,
+      "firstSeen": 1795419347,
+      "manifests": {
+        "5059851": {
+          "gid": "3164499966162983085",
+          "size": 955090703,
+          "download": 584589808
+        }
+      }
+    },
+    {
+      "buildId": "26570679",
+      "branch": "0.3.8",
+      "timeUpdated": 1794329133,
+      "firstSeen": 1795419347,
+      "manifests": {
+        "5059851": {
+          "gid": "6836379749560258322",
+          "size": 959223077,
+          "download": 588348720
+        }
+      }
+    },
+    {
+      "buildId": "26646778",
+      "branch": "0.3.9",
+      "timeUpdated": 1794602362,
+      "firstSeen": 1795419347,
+      "manifests": {
+        "5059851": {
+          "gid": "7067364155015083646",
+          "size": 959278155,
+          "download": 588367200
+        }
+      }
+    },
+    {
+      "buildId": "26800858",
+      "branch": "native-beta",
+      "timeUpdated": 1795140260,
+      "firstSeen": 1795419347,
+      "manifests": {
+        "5059851": {
+          "gid": "866180938019645704",
+          "size": 959457792,
+          "download": 588402096
+        },
+        "5059852": {
+          "gid": "6797131016154255142",
+          "size": 1098132835,
+          "download": 649805168
+        },
+        "5059853": {
+          "gid": "83536809824477461",
+          "size": 915720416,
+          "download": 566073936
+        }
+      }
     }
   ],
-  "_change_number": 40716363,
+  "_change_number": 41371202,
   "_missing_token": false,
-  "_sha": "c8485d2dfd015a88115743b4ae7604fc281ab57a",
-  "_size": 8399,
+  "_sha": "3b82b11cd41abd7e1dcb18e02b4da8078f23b04a",
+  "_size": 11175,
   "appid": "5059850",
   "common": {
     "associations": {
@@ -373,6 +458,7 @@
     },
     "name": "Simhaus: Football",
     "osarch": "64",
+    "oscpu": "",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "18",
@@ -404,6 +490,12 @@
     "workshop_visible": "1"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "Simhaus Football",
     "launch": {
       "0": {
@@ -413,14 +505,31 @@
         },
         "executable": "Simhaus Football.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Simhaus Football.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "simhaus-football"
       }
     },
     "steamconfigurator3rdpartynative": "65535",
-    "steamcontrollertemplateindex": "6",
+    "steamcontrollertemplateindex": "4",
     "steamdecktouchscreen": "1"
   },
   "depots": {
     "5059851": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "0.2.10": {
           "download": "374242656",
@@ -477,6 +586,11 @@
           "gid": "1949320874055491783",
           "size": "753203250"
         },
+        "0.3.10": {
+          "download": "588381328",
+          "gid": "7558583716731438063",
+          "size": "959387237"
+        },
         "0.3.2": {
           "download": "381980464",
           "gid": "914845889889676496",
@@ -502,10 +616,64 @@
           "gid": "2389018053134414421",
           "size": "925715450"
         },
-        "public": {
+        "0.3.7": {
           "download": "584589808",
           "gid": "3164499966162983085",
           "size": "955090703"
+        },
+        "0.3.8": {
+          "download": "588348720",
+          "gid": "6836379749560258322",
+          "size": "959223077"
+        },
+        "0.3.9": {
+          "download": "588367200",
+          "gid": "7067364155015083646",
+          "size": "959278155"
+        },
+        "native-beta": {
+          "download": "588402096",
+          "gid": "866180938019645704",
+          "size": "959457792"
+        },
+        "public": {
+          "download": "588426560",
+          "gid": "3700956565421485963",
+          "size": "959550686"
+        }
+      }
+    },
+    "5059852": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "native-beta": {
+          "download": "649805168",
+          "gid": "6797131016154255142",
+          "size": "1098132835"
+        },
+        "public": {
+          "download": "649480672",
+          "gid": "7132693976128693773",
+          "size": "1098224293"
+        }
+      }
+    },
+    "5059853": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "native-beta": {
+          "download": "566073936",
+          "gid": "83536809824477461",
+          "size": "915720416"
+        },
+        "public": {
+          "download": "566082544",
+          "gid": "4943851001932736774",
+          "size": "915811878"
         }
       }
     },
@@ -576,6 +744,12 @@
         "timebuildupdated": "1793321533",
         "timeupdated": "1793321711"
       },
+      "0.3.10": {
+        "buildid": "26709349",
+        "description": "0.3.10",
+        "timebuildupdated": "1794851453",
+        "timeupdated": "1794866178"
+      },
       "0.3.2": {
         "buildid": "26325602",
         "description": "0.3.2",
@@ -606,10 +780,34 @@
         "timebuildupdated": "1793969570",
         "timeupdated": "1793970980"
       },
-      "public": {
+      "0.3.7": {
         "buildid": "26514264",
+        "description": "0.3.7",
         "timebuildupdated": "1794100107",
-        "timeupdated": "1794100975"
+        "timeupdated": "1794100976"
+      },
+      "0.3.8": {
+        "buildid": "26570679",
+        "description": "0.3.8",
+        "timebuildupdated": "1794328635",
+        "timeupdated": "1794329133"
+      },
+      "0.3.9": {
+        "buildid": "26646778",
+        "description": "0.3.9",
+        "timebuildupdated": "1794580442",
+        "timeupdated": "1794602362"
+      },
+      "native-beta": {
+        "buildid": "26800858",
+        "description": "native-beta",
+        "timebuildupdated": "1795140260",
+        "timeupdated": "1795140260"
+      },
+      "public": {
+        "buildid": "26858013",
+        "timebuildupdated": "1795396666",
+        "timeupdated": "1795396666"
       }
     },
     "workshopdepot": "5059850"
@@ -622,29 +820,46 @@
   "ufs": {
     "maxnumfiles": "1000",
     "quota": "500000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "simhaus-football/saves",
+            "replace": ".config/simhaus-football/saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "simhaus-football/saves",
+            "replace": "Library/Application Support/simhaus-football/saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "simhaus-football/saves",
         "pattern": "*.gdsave",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataRoaming"
       },
       "1": {
         "path": "simhaus-football/saves",
         "pattern": "*.meta.json",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataRoaming"
       },
       "2": {
         "path": "simhaus-football/saves",
         "pattern": "prefs.json",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataRoaming"
       }
     }
