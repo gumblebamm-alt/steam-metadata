@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794902053,
-  "_history": [],
-  "_change_number": 41092141,
-  "_missing_token": true,
-  "_sha": "0abe2c632c25a8421cd269d37eec316908e1a180",
-  "_size": 5891,
+  "_lastChecked": 1795514005,
+  "_history": [
+    {
+      "buildId": "26888277",
+      "branch": "public",
+      "timeUpdated": 1795509073,
+      "firstSeen": 1795514005,
+      "manifests": {
+        "4971711": {
+          "gid": "4600003377929550629",
+          "size": 2226218856,
+          "download": 1982555968
+        }
+      }
+    }
+  ],
+  "_change_number": 41418003,
+  "_missing_token": false,
+  "_sha": "3dae37967fe31c96c6b1f53c3a74d16f5d2c9581",
+  "_size": 7625,
   "appid": "4971710",
   "common": {
     "aicontenttype": "1",
@@ -39,13 +53,14 @@
     },
     "clienticon": "02a3d9593db9661910a83bfb87e9cf52e3459d39",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4971710",
     "genres": {
       "0": "4",
-      "1": "28"
+      "1": "23",
+      "2": "28"
     },
     "header_image": {
       "english": "23f98bffcc819fb6e75f39cb0a60ba892ad69823/header.jpg",
@@ -142,33 +157,34 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0abfcf9748ff7dee6c1f92fa76e5dc268926c5f1/capsule_231x87.jpg",
       "schinese": "7b9cecd5b18ee8c691f3d4f37ad50c561991dba8/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1795510859",
     "store_asset_mtime": "1794890034",
     "store_tags": {
       "0": "599",
-      "1": "597",
-      "10": "4175",
-      "11": "1643",
-      "12": "12472",
-      "13": "4695",
-      "14": "4845",
-      "15": "4202",
-      "16": "492",
+      "1": "91114",
+      "10": "3839",
+      "11": "4182",
+      "12": "4175",
+      "13": "1643",
+      "14": "4695",
+      "15": "4845",
+      "16": "4202",
       "17": "1702",
       "18": "1654",
       "19": "255534",
-      "2": "8945",
-      "3": "10235",
-      "4": "91114",
+      "2": "35079",
+      "3": "597",
+      "4": "8945",
       "5": "6276",
-      "6": "4191",
-      "7": "3839",
-      "8": "4182",
-      "9": "35079"
+      "6": "12472",
+      "7": "10235",
+      "8": "492",
+      "9": "4191"
     },
     "supported_languages": {
       "arabic": {
@@ -244,5 +260,82 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Fruit Store Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "FruitStoreSimulator.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65533",
+    "steamcontrollertemplateindex": "3",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4971711": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1982555968",
+          "gid": "4600003377929550629",
+          "size": "2226218856"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26888277",
+        "timebuildupdated": "1795509049",
+        "timeupdated": "1795509073"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "4971710"
+  },
+  "extended": {
+    "developer": "MetaMata",
+    "publisher": "MetaMata"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "64000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Fruit Store Simulator/saves",
+        "pattern": "store.sav",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Fruit Store Simulator/saves",
+        "pattern": "progress.json",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Fruit Store Simulator/saves",
+        "pattern": "meta.json",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Fruit Store Simulator/saves",
+        "pattern": "index.json",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Fruit Store Simulator",
+        "pattern": "global_progress.json",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

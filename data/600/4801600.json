@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1795244698,
-  "_history": [],
-  "_change_number": 41320739,
-  "_missing_token": true,
-  "_sha": "9012215d31482d6c021b200008fca62a8f68a9ff",
-  "_size": 4201,
+  "_lastChecked": 1795514003,
+  "_history": [
+    {
+      "buildId": "26884861",
+      "branch": "public",
+      "timeUpdated": 1795500404,
+      "firstSeen": 1795514003,
+      "manifests": {
+        "4801601": {
+          "gid": "2291625924741768881",
+          "size": 4196630622,
+          "download": 3725939792
+        }
+      }
+    },
+    {
+      "buildId": "26884861",
+      "branch": "public_test",
+      "timeUpdated": 1795495923,
+      "firstSeen": 1795514003,
+      "manifests": {
+        "4801601": {
+          "gid": "2291625924741768881",
+          "size": 4196630622,
+          "download": 3725939792
+        }
+      }
+    }
+  ],
+  "_change_number": 41413721,
+  "_missing_token": false,
+  "_sha": "d3adb6f72cf59be85c7eda22ceef8e53e6d2955f",
+  "_size": 6027,
   "appid": "4801600",
   "common": {
     "associations": {
@@ -27,8 +54,8 @@
     },
     "clienticon": "492ad109fe7def4bbe1e63e7d6685dbaf313fe6b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4801600",
     "genres": {
       "0": "23",
@@ -114,11 +141,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0421109308700d85bc6e8fbf6473be66a4697ef5/capsule_231x87.jpg",
       "schinese": "88d232cd35a01c958f3799459decc09925e248d4/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1795499294",
     "store_asset_mtime": "1794420815",
     "store_tags": {
       "0": "1717",
@@ -174,5 +202,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "元戎",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "YuanRong.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4801601": {
+      "manifests": {
+        "public": {
+          "download": "3725939792",
+          "gid": "2291625924741768881",
+          "size": "4196630622"
+        },
+        "public_test": {
+          "download": "3725939792",
+          "gid": "2291625924741768881",
+          "size": "4196630622"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,japanese,koreana,russian,schinese,spanish,tchinese",
+    "branches": {
+      "public": {
+        "buildid": "26884861",
+        "timebuildupdated": "1795494431",
+        "timeupdated": "1795500404"
+      },
+      "public_test": {
+        "buildid": "26884861",
+        "description": "test",
+        "timebuildupdated": "1795494431",
+        "timeupdated": "1795495923"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "FY Developer ",
+    "homepage": "https://yuanrongwar.com/",
+    "publisher": "FY Publisher"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "5000000000",
+    "savefiles": {
+      "0": {
+        "path": "DefaultCompany/Yuanrong",
+        "pattern": "autosave.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "DefaultCompany/Yuanrong",
+        "pattern": "autosave.world.*.bin",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "DefaultCompany/Yuanrong",
+        "pattern": "save_slot_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "DefaultCompany/Yuanrong",
+        "pattern": "save_slot_*.world.*.bin",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

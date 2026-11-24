@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795120524,
-  "_history": [],
-  "_change_number": 41255510,
-  "_missing_token": true,
-  "_sha": "c1c66860ab399aca75d82913b57438bf29c23977",
-  "_size": 4427,
+  "_lastChecked": 1795513996,
+  "_history": [
+    {
+      "buildId": "26536962",
+      "branch": "public",
+      "timeUpdated": 1794219524,
+      "firstSeen": 1795513996,
+      "manifests": {
+        "3723711": {
+          "gid": "376657948466373694",
+          "size": 749134848,
+          "download": 603596368
+        },
+        "3723712": {
+          "gid": "8988912305503793127",
+          "size": 1499345724,
+          "download": 1276086960
+        }
+      }
+    }
+  ],
+  "_change_number": 41415821,
+  "_missing_token": false,
+  "_sha": "e20154bfcb7f7adb2cbbe72c30a6fcd86396026e",
+  "_size": 5651,
   "appid": "3723710",
   "common": {
     "associations": {
@@ -26,6 +45,7 @@
     "clienticon": "4b9408df32159c81e4d934c4ab41b895d403d1e3",
     "clienttga": "32a8a94869f5b63461645153ba82f809406ecf65",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -35,7 +55,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "3723710",
     "genres": {
       "0": "25",
@@ -118,16 +137,18 @@
     "name": "Escape the Baby Alarm",
     "name_localized": {
       "japanese": "Escape the Baby Alarm ベビーモニターからの脱出",
-      "koreana": "베이비 모니터 대탈출"
+      "koreana": "베이비 모니터 대탈출",
+      "schinese": "逃离宝宝警报"
     },
     "osarch": "",
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "dc7bf0c09a8a1564cf4b13df2d1d050f9ac71b5f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795505795",
     "store_asset_mtime": "1793362432",
     "store_tags": {
       "0": "1664",
@@ -200,5 +221,63 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Escape the Baby Alarm",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Escape the Baby Alarm.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Escape the Baby Alarm.app\\Contents\\MacOS\\Escape the Baby Alarm",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3723711": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "603596368",
+          "gid": "376657948466373694",
+          "size": "749134848"
+        }
+      }
+    },
+    "3723712": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1276086960",
+          "gid": "8988912305503793127",
+          "size": "1499345724"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26536962",
+        "timebuildupdated": "1794219428",
+        "timeupdated": "1794219524"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Julie Normann Bjørnskov",
+    "homepage": "https://juliebjørnskov.dk/escape-the-baby-alarm",
+    "publisher": "Yotsuba Interactive"
+  }
 }

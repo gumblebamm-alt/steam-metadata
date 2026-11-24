@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795033850,
-  "_history": [],
-  "_change_number": 41233974,
-  "_missing_token": true,
-  "_sha": "61e7485b74faaf8cc16a830ad795a5cc6338b849",
-  "_size": 3402,
+  "_lastChecked": 1795513996,
+  "_history": [
+    {
+      "buildId": "26888349",
+      "branch": "public",
+      "timeUpdated": 1795509352,
+      "firstSeen": 1795513996,
+      "manifests": {
+        "3811231": {
+          "gid": "5313144883957390545",
+          "size": 3213962255,
+          "download": 1352099984
+        },
+        "3811232": {
+          "gid": "3116035472625762854",
+          "size": 3199986840,
+          "download": 1346098224
+        }
+      }
+    }
+  ],
+  "_change_number": 41417350,
+  "_missing_token": false,
+  "_sha": "b4b8ade2d5f74dec5f48f13458334812666facf3",
+  "_size": 4901,
   "appid": "3811230",
   "common": {
     "aicontenttype": "1",
@@ -34,8 +53,8 @@
     "clienticon": "aa22f1fee1d654eefc50923f3a8bcc9d223d35a2",
     "clienttga": "e3e625b88361c185e5413eef55faf0bbf59a9595",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3811230",
     "genres": {
       "0": "25",
@@ -104,10 +123,11 @@
     },
     "name": "Sortie",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64",
+    "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a246a3ee0fd5c9fd132c6e443d8bd0419c9d4ffa/capsule_231x87.jpg"
     },
@@ -156,5 +176,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sortie",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Sortie.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "macos"
+        },
+        "executable": "Sortie.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3811231": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1352099984",
+          "gid": "5313144883957390545",
+          "size": "3213962255"
+        }
+      }
+    },
+    "3811232": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1346098224",
+          "gid": "3116035472625762854",
+          "size": "3199986840"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26888349",
+        "timebuildupdated": "1795509328",
+        "timeupdated": "1795509352"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Sortie Entertainment",
+    "publisher": "Sortie Entertainment"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "200000000",
+    "savefiles": {
+      "0": {
+        "path": "DefaultCompany/Sortie",
+        "pattern": "slot*",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "DefaultCompany/Sortie",
+        "pattern": "*.jpg",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "DefaultCompany/Sortie",
+        "pattern": "album.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

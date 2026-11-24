@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1795288457,
+  "_lastChecked": 1795513990,
   "_history": [
     {
       "buildId": "3690820",
@@ -74,10 +74,10 @@
       }
     }
   ],
-  "_change_number": 41337386,
+  "_change_number": 41412358,
   "_missing_token": false,
-  "_sha": "0dca04824b37f27cff3ad85457cf1ae38b08979f",
-  "_size": 7272,
+  "_sha": "c5528b1ce9c7e906b5e7d520883cf7850c7ac027",
+  "_size": 8505,
   "appid": "977490",
   "common": {
     "associations": {
@@ -94,6 +94,10 @@
       "category_2": "1",
       "category_22": "1",
       "category_28": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
       "category_62": "1"
     },
     "clienticon": "c4530042499f820f2e8a10dbf3f3da80381d66c4",
@@ -359,8 +363,56 @@
   "extended": {
     "developer": "BottleCube inc.",
     "dlcavailableonstore": "1",
+    "homepage": "https://jigsawmasterpieces.com/en/",
     "isfreeapp": "1",
     "listofdlc": "1011100,1013780,1036810,1037360,1037370,1058970,1059700,1059720,5412960,5412970,5412980,5413000,5413010,5413020,5413030,5413040,5413050,5413060",
     "publisher": "BottleCube inc."
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "2000",
+    "quota": "200000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "jp.co.bottlecube/JigsawMasterpieces",
+            "replace": "unity.jp.co.bottlecube.jsm"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "jp.co.bottlecube/JigsawMasterpieces",
+        "pattern": "puzzle_condition_*",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "jp.co.bottlecube/JigsawMasterpieces",
+        "pattern": "clear_status*",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "jp.co.bottlecube/JigsawMasterpieces",
+        "pattern": "save_data_entry",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "jp.co.bottlecube/JigsawMasterpieces",
+        "pattern": "settings.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": "jp.co.bottlecube/JigsawMasterpieces",
+        "pattern": "play_times",
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795376273,
-  "_history": [],
-  "_change_number": 41328063,
-  "_missing_token": true,
-  "_sha": "0026ebc257076c86aa018b08b3b40b167363da4b",
-  "_size": 4077,
+  "_lastChecked": 1795513993,
+  "_history": [
+    {
+      "buildId": "26880026",
+      "branch": "public",
+      "timeUpdated": 1795475874,
+      "firstSeen": 1795513993,
+      "manifests": {
+        "3084561": {
+          "gid": "8925672046425373334",
+          "size": 2053510343,
+          "download": 1459389376
+        },
+        "3084562": {
+          "gid": "9081719105092033822",
+          "size": 2148393681,
+          "download": 1517953120
+        }
+      }
+    }
+  ],
+  "_change_number": 41415390,
+  "_missing_token": false,
+  "_sha": "a35b8eb0cc5273773bba549ef20d0011829fc393",
+  "_size": 5905,
   "appid": "3084560",
   "common": {
     "aicontenttype": "1",
@@ -24,10 +43,12 @@
       "category_22": "1",
       "category_23": "1",
       "category_24": "1",
+      "category_28": "1",
       "category_38": "1",
       "category_39": "1",
       "category_43": "1",
       "category_44": "1",
+      "category_60": "1",
       "category_62": "1",
       "category_64": "1",
       "category_66": "1",
@@ -42,8 +63,9 @@
     "clienticon": "ba19af7255faeeb1c9c996b3cb9689777ce0ce72",
     "clienttga": "448ab0944bff0549d767f1fa82d73129b386e498",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3084560",
     "genres": {
       "0": "25",
@@ -116,11 +138,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7789da0b89e10ede09411845eeab69f7a733bd47/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794231978",
+    "steam_release_date": "1795502765",
+    "store_asset_mtime": "1795504663",
     "store_tags": {
       "0": "1685",
       "1": "3843",
@@ -187,5 +210,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "TWIN FLAMES",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TWIN FLAMES.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "macos"
+        },
+        "executable": "TWIN FLAMES.app",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "TWIN FLAMES_Data/StreamingAssets/steam_input_manifest.vdf"
+  },
+  "depots": {
+    "3084561": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1459389376",
+          "gid": "8925672046425373334",
+          "size": "2053510343"
+        }
+      }
+    },
+    "3084562": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1517953120",
+          "gid": "9081719105092033822",
+          "size": "2148393681"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26880026",
+        "timebuildupdated": "1795475762",
+        "timeupdated": "1795475874"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Rudrac Games",
+    "homepage": "https://www.rudrac.games",
+    "publisher": "Rudrac Games",
+    "remoteplaytogethertestingbranches": "default"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10485760",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Rudrac_Games/TWIN FLAMES/PersistentData",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793425420,
-  "_history": [],
-  "_change_number": 40447703,
-  "_missing_token": true,
-  "_sha": "4fbf72dd2806b046b408b5087d6c4a840b1489c6",
-  "_size": 4331,
+  "_lastChecked": 1795514002,
+  "_history": [
+    {
+      "buildId": "26860985",
+      "branch": "public",
+      "timeUpdated": 1795413572,
+      "firstSeen": 1795514002,
+      "manifests": {
+        "4609471": {
+          "gid": "1292281271852312838",
+          "size": 230829888,
+          "download": 145839680
+        },
+        "4609472": {
+          "gid": "8883234475902119509",
+          "size": 197988296,
+          "download": 137915584
+        }
+      }
+    }
+  ],
+  "_change_number": 41414231,
+  "_missing_token": false,
+  "_sha": "2e86ecda4d79582ae6444b44f4406e758fb6de10",
+  "_size": 6108,
   "appid": "4609470",
   "common": {
     "associations": {
@@ -25,6 +44,7 @@
     },
     "clienticon": "e75950d4e2ec340266f3229579854528d7a1bffb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -34,7 +54,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4609470",
     "genres": {
       "0": "1",
@@ -121,10 +140,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6e351b321ef8aa80b076dbff6d32a8af8af7f324/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795501804",
     "store_asset_mtime": "1793418561",
     "store_tags": {
       "0": "560542",
@@ -206,5 +226,88 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Your party died again",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Your party died again.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Your party died again.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4609471": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "145839680",
+          "gid": "1292281271852312838",
+          "size": "230829888"
+        }
+      }
+    },
+    "4609472": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "137915584",
+          "gid": "8883234475902119509",
+          "size": "197988296"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,japanese,koreana,polish,portuguese,russian,schinese,spanish,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26860985",
+        "timebuildupdated": "1795412268",
+        "timeupdated": "1795413572"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Branno",
+    "homepage": "https://impress.games/app/kitty/press-kit/your-party-died-again",
+    "publisher": "Branno"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Your party died again/saves",
+            "replace": ".local/share/godot/app_userdata/Your party died again/saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Your party died again/saves",
+        "pattern": "*.tres",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

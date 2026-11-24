@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794467346,
+  "_lastChecked": 1795513989,
   "_history": [
     {
       "buildId": "5974275",
@@ -23,12 +23,35 @@
           "download": 53508288
         }
       }
+    },
+    {
+      "buildId": "26883601",
+      "branch": "public",
+      "timeUpdated": 1795493163,
+      "firstSeen": 1795513989,
+      "manifests": {
+        "582691": {
+          "gid": "2504071860810026362",
+          "size": 534769778,
+          "download": 125781488
+        },
+        "582692": {
+          "gid": "6831055358673257188",
+          "size": 276836759,
+          "download": 85574656
+        },
+        "582693": {
+          "gid": "3365547142503596104",
+          "size": 201216947,
+          "download": 53508288
+        }
+      }
     }
   ],
-  "_change_number": 40861748,
+  "_change_number": 41418021,
   "_missing_token": false,
-  "_sha": "68ac1ca870250126fd2e1b57eace149b98898f2e",
-  "_size": 5028,
+  "_sha": "e42ed7d47df020284147fa7c2efebf5886dc6ef5",
+  "_size": 5482,
   "appid": "582690",
   "common": {
     "associations": {
@@ -142,20 +165,24 @@
     "store_tags": {
       "0": "3798",
       "1": "19",
-      "10": "492",
+      "10": "1719",
       "11": "1685",
-      "12": "3843",
-      "13": "4182",
-      "14": "4508",
-      "15": "3859",
+      "12": "492",
+      "13": "3843",
+      "14": "4182",
+      "15": "4508",
+      "16": "3859",
+      "17": "4255",
+      "18": "3871",
+      "19": "3916",
       "2": "4885",
       "3": "1774",
       "4": "1773",
-      "5": "4975",
-      "6": "4195",
-      "7": "1684",
-      "8": "1755",
-      "9": "1719"
+      "5": "3841",
+      "6": "4975",
+      "7": "4195",
+      "8": "1684",
+      "9": "1755"
     },
     "supported_languages": {
       "brazilian": {
@@ -214,8 +241,9 @@
         "type": "none"
       }
     },
-    "steamcontrollertemplateindex": "4",
-    "steamdecktouchscreen": "1"
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "game_Data/StreamingAssets/SteamInput/steam_input_manifest.vdf"
   },
   "depots": {
     "582691": {
@@ -225,9 +253,9 @@
       },
       "manifests": {
         "public": {
-          "download": "58190816",
-          "gid": "142087654700427247",
-          "size": "222149894"
+          "download": "125781488",
+          "gid": "2504071860810026362",
+          "size": "534769778"
         }
       }
     },
@@ -239,9 +267,9 @@
       },
       "manifests": {
         "public": {
-          "download": "55421200",
-          "gid": "3499999583770501923",
-          "size": "206959027"
+          "download": "85574656",
+          "gid": "6831055358673257188",
+          "size": "276836759"
         }
       }
     },
@@ -262,9 +290,9 @@
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese",
     "branches": {
       "public": {
-        "buildid": "5974275",
-        "timebuildupdated": "1608105872",
-        "timeupdated": "1608105920"
+        "buildid": "26883601",
+        "timebuildupdated": "1795489588",
+        "timeupdated": "1795493163"
       }
     },
     "privatebranches": "1"
@@ -277,11 +305,25 @@
   "ufs": {
     "maxnumfiles": "10",
     "quota": "300000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "playerrecord/",
         "pattern": "*",
         "root": "gameinstall"
+      },
+      "1": {
+        "path": "Four Fats/Toon Shooter 2/playerrecord/",
+        "pattern": "*.save",
+        "root": "WinAppDataLocalLow"
       }
     }
   }

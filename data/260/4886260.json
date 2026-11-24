@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795033867,
-  "_history": [],
-  "_change_number": 41219941,
-  "_missing_token": true,
-  "_sha": "1cda0657379d3da5048ebc3356d09c839b0c580c",
-  "_size": 3137,
+  "_lastChecked": 1795514004,
+  "_history": [
+    {
+      "buildId": "26885251",
+      "branch": "public",
+      "timeUpdated": 1795496198,
+      "firstSeen": 1795514004,
+      "manifests": {
+        "4886261": {
+          "gid": "4413250698244160623",
+          "size": 74575480,
+          "download": 33345488
+        }
+      }
+    }
+  ],
+  "_change_number": 41414986,
+  "_missing_token": false,
+  "_sha": "42ce89b37cf7f0999141d1c65525f33972400e77",
+  "_size": 4127,
   "appid": "4886260",
   "common": {
     "associations": {
@@ -31,8 +45,8 @@
     },
     "clienticon": "ac715498c32b9255c113d65c2ca3f6c487dbf27f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4886260",
     "genres": {
       "0": "23"
@@ -103,11 +117,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b76e45b809748e0384f1b163cd2f673a28120f26/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794996241",
+    "steam_release_date": "1798704000",
+    "store_asset_mtime": "1795493053",
     "store_tags": {
       "0": "597",
       "1": "9",
@@ -139,5 +154,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Akira's Deep Sea Ventures",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Akiras Deep Sea Ventures.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4886261": {
+      "manifests": {
+        "public": {
+          "download": "33345488",
+          "gid": "4413250698244160623",
+          "size": "74575480"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26885251",
+        "timebuildupdated": "1795496114",
+        "timeupdated": "1795496198"
+      }
+    }
+  },
+  "extended": {
+    "developer": "CyberHermit",
+    "publisher": "CyberHermit"
+  },
+  "ufs": {
+    "maxnumfiles": "30",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot\\app_userdata\\deep-sea-ventures\\saves",
+        "pattern": "*.tres",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

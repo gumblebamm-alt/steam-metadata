@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1795205738,
-  "_history": [],
-  "_change_number": 41292569,
-  "_missing_token": true,
-  "_sha": "3f324df902a89d0da04aba5f8457fa4947587690",
-  "_size": 4450,
+  "_lastChecked": 1795514006,
+  "_history": [
+    {
+      "buildId": "26498788",
+      "branch": "public",
+      "timeUpdated": 1795079314,
+      "firstSeen": 1795514006,
+      "manifests": {
+        "5033741": {
+          "gid": "5292977416048084972",
+          "size": 2744431656,
+          "download": 2521859568
+        },
+        "5033742": {
+          "gid": "2054395381704383044",
+          "size": 2902457350,
+          "download": 2587061776
+        }
+      }
+    },
+    {
+      "buildId": "26498788",
+      "branch": "reviewfix_20261107",
+      "timeUpdated": 1794015201,
+      "firstSeen": 1795514006,
+      "manifests": {
+        "5033741": {
+          "gid": "5292977416048084972",
+          "size": 2744431656,
+          "download": 2521859568
+        },
+        "5033742": {
+          "gid": "2054395381704383044",
+          "size": 2902457350,
+          "download": 2587061776
+        }
+      }
+    }
+  ],
+  "_change_number": 41407925,
+  "_missing_token": false,
+  "_sha": "a7bb44df56dd9202225f2d73bdf4c4c2f1b2ed96",
+  "_size": 6319,
   "appid": "5033740",
   "common": {
     "aicontenttype": "1",
@@ -27,9 +64,9 @@
     "clienticns": "c401d7c15c24bc98fc4710efc834ca58d0163d25",
     "clienticon": "c401d7c15c24bc98fc4710efc834ca58d0163d25",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5033740",
     "genres": {
       "0": "1",
@@ -121,11 +158,12 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4992e5f89ba6126ee849932332bdc2d2f5fc9de6/capsule_231x87.jpg",
       "japanese": "4992e5f89ba6126ee849932332bdc2d2f5fc9de6/capsule_231x87_japanese.jpg"
     },
+    "steam_release_date": "1795483774",
     "store_asset_mtime": "1792748015",
     "store_tags": {
       "0": "19",
@@ -165,5 +203,91 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PRINCESS VANGUARD",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "windows/Princess Vanguard.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "macos/Princess Vanguard.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5033741": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2521859568",
+          "gid": "5292977416048084972",
+          "size": "2744431656"
+        },
+        "reviewfix_20261107": {
+          "download": "2521859568",
+          "gid": "5292977416048084972",
+          "size": "2744431656"
+        }
+      }
+    },
+    "5033742": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "2587061776",
+          "gid": "2054395381704383044",
+          "size": "2902457350"
+        },
+        "reviewfix_20261107": {
+          "download": "2587061776",
+          "gid": "2054395381704383044",
+          "size": "2902457350"
+        }
+      }
+    },
+    "5677990": {
+      "dlcappid": "5677990",
+      "manifests": {}
+    },
+    "baselanguages": "english,japanese,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26498788",
+        "timebuildupdated": "1794014792",
+        "timeupdated": "1795079314"
+      },
+      "reviewfix_20261107": {
+        "buildid": "26498788",
+        "description": "Internal installation and gameplay validation for review correction, 2026-11-07",
+        "timebuildupdated": "1794014792",
+        "timeupdated": "1794015201"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "きなこ棒（Kinakoboo）",
+    "homepage": "https://kinakoboo.fun/princess-vanguard/",
+    "publisher": "きなこ棒（Kinakoboo）"
+  }
 }
