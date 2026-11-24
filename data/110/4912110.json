@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795419345,
-  "_history": [],
-  "_change_number": 41367474,
-  "_missing_token": true,
-  "_sha": "43a1b26fd30893df43c95adf7e7a3962ea568e78",
-  "_size": 4238,
+  "_lastChecked": 1795559155,
+  "_history": [
+    {
+      "buildId": "26890592",
+      "branch": "public",
+      "timeUpdated": 1795516518,
+      "firstSeen": 1795559155,
+      "manifests": {
+        "4912111": {
+          "gid": "4717307272765514401",
+          "size": 1674623646,
+          "download": 1374257888
+        }
+      }
+    }
+  ],
+  "_change_number": 41436170,
+  "_missing_token": false,
+  "_sha": "26f26dd3d41bfe368db01ae96305483a90c344da",
+  "_size": 5757,
   "appid": "4912110",
   "common": {
     "aicontenttype": "1",
@@ -31,9 +45,9 @@
     },
     "clienticon": "28a72394747a76b752c15c883358d84ca9a92171",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4912110",
     "genres": {
       "0": "1",
@@ -106,10 +120,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "28bf6a363e7851ef01a3ba801d73369f6b5f0e54/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795543350",
     "store_asset_mtime": "1795383807",
     "store_tags": {
       "0": "3968",
@@ -205,5 +220,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mayhem Duck Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Mayhem_Duck_Simulator.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4912111": {
+      "manifests": {
+        "public": {
+          "download": "1374257888",
+          "gid": "4717307272765514401",
+          "size": "1674623646"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26890592",
+        "timebuildupdated": "1795516517",
+        "timeupdated": "1795516518"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Glare Games",
+    "homepage": "https://www.glaregame.com",
+    "publisher": "Glare Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Mayhem_Duck_Simulator/Saved/SaveGames",
+        "pattern": "DuckSave.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Mayhem_Duck_Simulator/Saved/SaveGames",
+        "pattern": "DuckPaint.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "Mayhem_Duck_Simulator/Saved/SaveGames",
+        "pattern": "DaySave.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

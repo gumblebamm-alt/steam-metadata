@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795033841,
-  "_history": [],
-  "_change_number": 41232194,
-  "_missing_token": true,
-  "_sha": "2fd35953ecff1da249bd6e9a4b7e7ce1d0713837",
-  "_size": 3537,
+  "_lastChecked": 1795559130,
+  "_history": [
+    {
+      "buildId": "26904855",
+      "branch": "public",
+      "timeUpdated": 1795555945,
+      "firstSeen": 1795559130,
+      "manifests": {
+        "2984801": {
+          "gid": "2901536844359219070",
+          "size": 2938757182,
+          "download": 2493068848
+        }
+      }
+    }
+  ],
+  "_change_number": 41442451,
+  "_missing_token": false,
+  "_sha": "8ef9dc5788be7935f3df7ac61394db8530e0591c",
+  "_size": 5198,
   "appid": "2984800",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     "clienticon": "8c049c44e2a1b462007c9acf64b2668d112d4e91",
     "clienttga": "381814593e9a37fb35271d05a7a57fe29acc5185",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2984800",
     "genres": {
       "0": "1",
@@ -104,10 +118,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "51ec5d95d9c3af2ab9cfcd22fa1066fed3a8c976/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795543686",
     "store_asset_mtime": "1794941969",
     "store_tags": {
       "0": "1646",
@@ -168,5 +185,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DoubleWhammy",
+    "launch": {
+      "0": {
+        "executable": "DoubleWhammy.exe"
+      }
+    },
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2984801": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2493068848",
+          "gid": "2901536844359219070",
+          "size": "2938757182"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26904855",
+        "timebuildupdated": "1795555550",
+        "timeupdated": "1795555945"
+      }
+    },
+    "privatebranches": "1",
+    "workshopdepot": "2984800"
+  },
+  "extended": {
+    "developer": "SGI",
+    "homepage": "https://twitter.com/DoubleWhammy_sg",
+    "publisher": "SGI"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "DoubleWhammy\\Saved\\SaveGames\\",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "DoubleWhammy\\Saved\\guitar_paint_job\\",
+        "pattern": "*.png",
+        "root": "WinAppDataLocal"
+      },
+      "3": {
+        "path": "DoubleWhammy\\Saved\\guitar_paint_job\\",
+        "pattern": "*.obj",
+        "root": "WinAppDataLocal"
+      },
+      "4": {
+        "path": "DoubleWhammy\\Saved\\guitar_paint_job\\",
+        "pattern": "*.txt",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

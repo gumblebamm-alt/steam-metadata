@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795205716,
-  "_history": [],
-  "_change_number": 41298076,
-  "_missing_token": true,
-  "_sha": "e460b6727108f2492692465c3cf5dd1aef6390c3",
-  "_size": 4846,
+  "_lastChecked": 1795559133,
+  "_history": [
+    {
+      "buildId": "26895504",
+      "branch": "public",
+      "timeUpdated": 1795530355,
+      "firstSeen": 1795559133,
+      "manifests": {
+        "3424801": {
+          "gid": "3371053129989430243",
+          "size": 1651914221,
+          "download": 1419550448
+        }
+      }
+    }
+  ],
+  "_change_number": 41428255,
+  "_missing_token": false,
+  "_sha": "66e91c722c347b7f273c17b508d3f9461a97885e",
+  "_size": 6252,
   "appid": "3424800",
   "common": {
     "aicontenttype": "1",
@@ -36,6 +50,7 @@
     "clienticon": "087fc3b67bca273336c08844ae0448ed7ed32f08",
     "clienttga": "d8f5c5d6c646f0cd0df65d2e83bfc967db4a0704",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -46,7 +61,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "3424800",
     "genres": {
       "0": "1",
@@ -137,10 +151,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e13ae6cd052d41295fa2b4f601d403de0fcf4c13/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1793178509",
     "store_tags": {
       "0": "42804",
@@ -228,5 +243,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Code of Shadows",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "CodeOfShadows.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3424801": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1419550448",
+          "gid": "3371053129989430243",
+          "size": "1651914221"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26895504",
+        "timebuildupdated": "1795530307",
+        "timeupdated": "1795530355"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "TillBlack",
+    "homepage": "https://www.tillblack.com",
+    "publisher": "TillBlack"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "CodeOfShadows/Saved/Save",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

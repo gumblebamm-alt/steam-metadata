@@ -1,10 +1,42 @@
 {
-  "_lastChecked": 1795514000,
-  "_history": [],
-  "_change_number": 41406034,
-  "_missing_token": true,
-  "_sha": "baad20df44a80e80f9a458a86ff6bf47e2969110",
-  "_size": 4524,
+  "_lastChecked": 1795559146,
+  "_history": [
+    {
+      "buildId": "26867979",
+      "branch": "public",
+      "timeUpdated": 1795439055,
+      "firstSeen": 1795559146,
+      "manifests": {
+        "4412041": {
+          "gid": "5957556740109223945",
+          "size": 160627711,
+          "download": 149970896
+        },
+        "4412042": {
+          "gid": "6661784988746361480",
+          "size": 190964209,
+          "download": 161533600
+        }
+      }
+    },
+    {
+      "buildId": "22128517",
+      "branch": "steamdeck-beta",
+      "timeUpdated": 1772200074,
+      "firstSeen": 1795559146,
+      "manifests": {
+        "4412041": {
+          "gid": "499125084287775779",
+          "size": 57674778,
+          "download": 47405184
+        }
+      }
+    }
+  ],
+  "_change_number": 41433435,
+  "_missing_token": false,
+  "_sha": "c21a60eb747a375127090795430b7f13d637a726",
+  "_size": 5989,
   "appid": "4412040",
   "common": {
     "associations": {
@@ -37,9 +69,9 @@
     },
     "clienticon": "1eef8442cd48501e580f650064fcdcc3fab6e662",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4412040",
     "genres": {
       "0": "23",
@@ -126,10 +158,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4ca243a576f2ce71679aa70a8574a86b920f30d5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795539550",
     "store_asset_mtime": "1795378654",
     "store_tags": {
       "0": "5502",
@@ -213,5 +246,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Absorber Absorb Adapt Survive",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "absorber_dx11.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "ABSORBER.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4412041": {
+      "config": {
+        "osarch": "64"
+      },
+      "manifests": {
+        "public": {
+          "download": "149970896",
+          "gid": "5957556740109223945",
+          "size": "160627711"
+        },
+        "steamdeck-beta": {
+          "download": "47405184",
+          "gid": "499125084287775779",
+          "size": "57674778"
+        }
+      }
+    },
+    "4412042": {
+      "manifests": {
+        "public": {
+          "download": "161533600",
+          "gid": "6661784988746361480",
+          "size": "190964209"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,malay,portuguese,russian,schinese,spanish,tchinese,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26867979",
+        "timebuildupdated": "1795439055",
+        "timeupdated": "1795439055"
+      },
+      "steamdeck-beta": {
+        "buildid": "22128517",
+        "description": "Steam deck testing branch",
+        "timebuildupdated": "1772200072",
+        "timeupdated": "1772200074"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Martin Edmaier",
+    "publisher": "Martin Edmaier"
+  },
+  "ufs": {
+    "maxnumfiles": "1",
+    "quota": "2000000"
+  }
 }

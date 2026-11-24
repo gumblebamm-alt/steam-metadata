@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795205706,
-  "_history": [],
-  "_change_number": 41309770,
-  "_missing_token": true,
-  "_sha": "fb3fcc0a6bc0da41c335ba4f7ac3a64b9f746722",
-  "_size": 3023,
+  "_lastChecked": 1795559123,
+  "_history": [
+    {
+      "buildId": "26899182",
+      "branch": "public",
+      "timeUpdated": 1795539562,
+      "firstSeen": 1795559123,
+      "manifests": {
+        "1520341": {
+          "gid": "709287982265826687",
+          "size": 299605162,
+          "download": 117879040
+        },
+        "1520342": {
+          "gid": "3961357520684982472",
+          "size": 285429020,
+          "download": 116275424
+        }
+      }
+    }
+  ],
+  "_change_number": 41443368,
+  "_missing_token": false,
+  "_sha": "9677c9d782d6fcd6747278f34c662b3f610b8888",
+  "_size": 4190,
   "appid": "1520340",
   "common": {
     "associations": {
@@ -24,7 +43,6 @@
     "clienticon": "65225c83f4d9763a06814bf825f2b86d7dba90f2",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1520340",
     "genres": {
       "0": "25",
@@ -98,10 +116,13 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "88",
+    "review_score": "7",
     "small_capsule": {
       "english": "6f94de1cb7b24bc313d494b4c362f603fffdbadd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795539755",
     "store_asset_mtime": "1790245417",
     "store_tags": {
       "0": "1755",
@@ -139,5 +160,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Astario",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Windows",
+        "description_loc": {
+          "english": "Windows"
+        },
+        "executable": "Astario.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Linux + SteamOS",
+        "description_loc": {
+          "english": "Linux + SteamOS"
+        },
+        "executable": "Astario.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "1520341": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "117879040",
+          "gid": "709287982265826687",
+          "size": "299605162"
+        }
+      }
+    },
+    "1520342": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "116275424",
+          "gid": "3961357520684982472",
+          "size": "285429020"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26899182",
+        "timebuildupdated": "1795539562",
+        "timeupdated": "1795539562"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Ondřej Hroch",
+    "publisher": "Ondřej Hroch"
+  }
 }

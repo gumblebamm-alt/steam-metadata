@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795478010,
-  "_history": [],
-  "_change_number": 41404681,
-  "_missing_token": true,
-  "_sha": "17ac644e4b8184f517fd5d5947821b478a4508e0",
-  "_size": 3280,
+  "_lastChecked": 1795559148,
+  "_history": [
+    {
+      "buildId": "26879798",
+      "branch": "public",
+      "timeUpdated": 1795475175,
+      "firstSeen": 1795559148,
+      "manifests": {
+        "4526451": {
+          "gid": "5487696987788813336",
+          "size": 392090550,
+          "download": 211468320
+        },
+        "4526452": {
+          "gid": "7978748768245742596",
+          "size": 410691238,
+          "download": 220183696
+        }
+      }
+    }
+  ],
+  "_change_number": 41443435,
+  "_missing_token": false,
+  "_sha": "fd65cdaea03fbdbe4e7e163c01d1331943c3aa86",
+  "_size": 4781,
   "appid": "4526450",
   "common": {
     "aicontenttype": "1",
@@ -32,8 +51,8 @@
     },
     "clienticon": "c9070fe1320237c734d5ccbd6cb552a6e709b521",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4526450",
     "genres": {
       "0": "4",
@@ -111,10 +130,13 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "90",
+    "review_score": "7",
     "small_capsule": {
       "english": "aa58d4eb3502a6b88ab3585b67d3af73118a55f0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795518025",
     "store_asset_mtime": "1793912092",
     "store_tags": {
       "0": "560542",
@@ -151,5 +173,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Incremental RTS",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Incremental RTS.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "IncrementalRTS.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4526451": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "211468320",
+          "gid": "5487696987788813336",
+          "size": "392090550"
+        }
+      }
+    },
+    "4526452": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "220183696",
+          "gid": "7978748768245742596",
+          "size": "410691238"
+        }
+      }
+    },
+    "baselanguages": "english,german,russian",
+    "branches": {
+      "public": {
+        "buildid": "26879798",
+        "timebuildupdated": "1795475041",
+        "timeupdated": "1795475175"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Dyrkabes Games",
+    "homepage": "https://www.dyrkabes.com",
+    "publisher": "Dyrkabes Games"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Dyrkabes Games/Incremental RTS",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

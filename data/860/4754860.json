@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795120543,
-  "_history": [],
-  "_change_number": 41266775,
-  "_missing_token": true,
-  "_sha": "c63b29710ad3853b097288fa45480f7ad1d3be15",
-  "_size": 4069,
+  "_lastChecked": 1795559152,
+  "_history": [
+    {
+      "buildId": "26902233",
+      "branch": "public",
+      "timeUpdated": 1795548076,
+      "firstSeen": 1795559152,
+      "manifests": {
+        "4754861": {
+          "gid": "7126326177167673681",
+          "size": 8797891162,
+          "download": 7359713904
+        }
+      }
+    }
+  ],
+  "_change_number": 41438573,
+  "_missing_token": false,
+  "_sha": "603a0943c632779541c8dfc06970f9d295376621",
+  "_size": 6290,
   "appid": "4754860",
   "common": {
     "associations": {
@@ -21,15 +35,22 @@
       "category_1": "1",
       "category_2": "1",
       "category_27": "1",
+      "category_28": "1",
       "category_38": "1",
+      "category_52": "1",
       "category_53": "1",
+      "category_55": "1",
+      "category_56": "1",
+      "category_57": "1",
+      "category_58": "1",
       "category_62": "1",
       "category_9": "1"
     },
     "clienticon": "2a7f786ee124a3104006576137baf7556ee76545",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4754860",
     "genres": {
       "0": "1",
@@ -119,11 +140,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0d32b8f0c6239f57e6ee8b60208bdb193cca8a14/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792160095",
+    "steam_release_date": "1795536062",
+    "store_asset_mtime": "1795530584",
     "store_tags": {
       "0": "21978",
       "1": "3834",
@@ -137,8 +159,8 @@
       "17": "492",
       "18": "4182",
       "19": "3859",
-      "2": "19",
-      "3": "4136",
+      "2": "4136",
+      "3": "19",
       "4": "21",
       "5": "3968",
       "6": "599",
@@ -155,5 +177,107 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bad Grip Club",
+    "launch": {
+      "0": {
+        "arguments": "-dx11",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Bad Grip Club.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-dx11",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "DirectX 11",
+        "description_loc": {
+          "english": "DirectX 11"
+        },
+        "executable": "Bad Grip Club.exe",
+        "type": "vr"
+      },
+      "2": {
+        "arguments": "-vulkan",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Vulkan",
+        "description_loc": {
+          "english": "Vulkan"
+        },
+        "executable": "Bad Grip Club.exe",
+        "type": "vr"
+      },
+      "3": {
+        "arguments": "-dx11 -nohmd",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play without VR (DirectX 11)",
+        "description_loc": {
+          "english": "Play without VR (DirectX 11)"
+        },
+        "executable": "Bad Grip Club.exe",
+        "type": "option1"
+      },
+      "4": {
+        "arguments": "-vulkan -nohmd",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Play without VR (Vulkan)",
+        "description_loc": {
+          "english": "Play without VR (Vulkan)"
+        },
+        "executable": "Bad Grip Club.exe",
+        "type": "option2"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4754861": {
+      "manifests": {
+        "public": {
+          "download": "7359713904",
+          "gid": "7126326177167673681",
+          "size": "8797891162"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26902233",
+        "timebuildupdated": "1795547758",
+        "timeupdated": "1795548076"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Theia Games",
+    "publisher": "Polden Publishing"
+  }
 }

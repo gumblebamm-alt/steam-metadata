@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795514005,
-  "_history": [],
-  "_change_number": 41372134,
-  "_missing_token": true,
-  "_sha": "f320ce763e190ddf9cdd16d1d416908e164661f0",
-  "_size": 6963,
+  "_lastChecked": 1795559158,
+  "_history": [
+    {
+      "buildId": "26840012",
+      "branch": "public",
+      "timeUpdated": 1795322652,
+      "firstSeen": 1795559158,
+      "manifests": {
+        "5000171": {
+          "gid": "240274139217002688",
+          "size": 16115682081,
+          "download": 15249314112
+        }
+      }
+    }
+  ],
+  "_change_number": 41433043,
+  "_missing_token": false,
+  "_sha": "657b547c12dab30618dbac22b754e66601cd889b",
+  "_size": 8561,
   "appid": "5000170",
   "common": {
     "aicontenttype": "1",
@@ -44,6 +58,7 @@
     },
     "clienticon": "3197f71bd501778b82fe749bd6e3cd62a09a35c6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -54,7 +69,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "5000170",
     "genres": {
       "0": "1",
@@ -150,7 +164,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0613914a479efd4b25643fab4882c4f8a6b4d01e/capsule_231x87.jpg",
       "sc_schinese": "878e39ef05b62b268207d40c83187bd837bfd5f4/capsule_231x87_sc_schinese.jpg",
@@ -158,6 +172,7 @@
       "tchinese": "878e39ef05b62b268207d40c83187bd837bfd5f4/capsule_231x87_tchinese.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/5000170/discussions/0/583933098654384824/",
+    "steam_release_date": "1795539002",
     "store_asset_mtime": "1791471697",
     "store_tags": {
       "0": "3978",
@@ -245,5 +260,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "BORE",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "BORE.exe"
+      }
+    },
+    "steamconfigurator3rdpartynative": "13",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5000171": {
+      "manifests": {
+        "public": {
+          "download": "15249314112",
+          "gid": "240274139217002688",
+          "size": "16115682081"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,japanese,koreana,polish,russian,schinese,spanish,tchinese,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26840012",
+        "timebuildupdated": "1795299654",
+        "timeupdated": "1795322652"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "BavelGG",
+    "publisher": "BavelGG"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "BORE/Saved/SaveGames",
+        "pattern": "BoreFile*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "BORE/Saved/SaveGames",
+        "pattern": "BoreCompendium.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "BORE/Saved/SaveGames",
+        "pattern": "BoreProfile.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      }
+    }
+  }
 }

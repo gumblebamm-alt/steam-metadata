@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794768705,
-  "_history": [],
-  "_change_number": 40972368,
-  "_missing_token": true,
-  "_sha": "87358f2c8c24a70c1524b19ef5b59824127b8350",
-  "_size": 4943,
+  "_lastChecked": 1795559163,
+  "_history": [
+    {
+      "buildId": "26831873",
+      "branch": "public",
+      "timeUpdated": 1795258603,
+      "firstSeen": 1795559163,
+      "manifests": {
+        "5316211": {
+          "gid": "6534184822553499631",
+          "size": 656918616,
+          "download": 328781152
+        }
+      }
+    }
+  ],
+  "_change_number": 41424801,
+  "_missing_token": false,
+  "_sha": "509944104f8b22188cdfc2e3e040a5e79d464130",
+  "_size": 5938,
   "appid": "5316210",
   "common": {
     "aicontenttype": "1",
@@ -32,8 +46,8 @@
     },
     "clienticon": "082f2ae0a4ef9d98f85c68e54e13e9fd48280cd5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5316210",
     "genres": {
       "0": "4",
@@ -138,10 +152,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "69dbd92696cf16c7d5e5d702a36386969b2c6e96/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795524960",
     "store_asset_mtime": "1793871015",
     "store_tags": {
       "0": "4328",
@@ -256,5 +271,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Metromino",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Metromino.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5316211": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "328781152",
+          "gid": "6534184822553499631",
+          "size": "656918616"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26831873",
+        "timebuildupdated": "1795258501",
+        "timeupdated": "1795258603"
+      }
+    }
+  },
+  "extended": {
+    "developer": "codebooster",
+    "publisher": "codebooster"
+  },
+  "ufs": {
+    "maxnumfiles": "5",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Metromino",
+        "pattern": "game.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

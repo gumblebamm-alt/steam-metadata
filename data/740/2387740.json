@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795477980,
-  "_history": [],
-  "_change_number": 41403052,
-  "_missing_token": true,
-  "_sha": "9393275215b7c68b17fcbe7fd785b641571dfb3b",
-  "_size": 4557,
+  "_lastChecked": 1795559127,
+  "_history": [
+    {
+      "buildId": "26900411",
+      "branch": "public",
+      "timeUpdated": 1795542530,
+      "firstSeen": 1795559127,
+      "manifests": {
+        "2387742": {
+          "gid": "7622569897041727475",
+          "size": 3349793502,
+          "download": 488487088
+        },
+        "2387743": {
+          "gid": "7352366585131216632",
+          "size": 3693416294,
+          "download": 487803856
+        }
+      }
+    }
+  ],
+  "_change_number": 41436204,
+  "_missing_token": false,
+  "_sha": "74400f4e6858bdaefb2b1183efe76fa5b5f831f6",
+  "_size": 6216,
   "appid": "2387740",
   "common": {
     "associations": {
@@ -32,6 +51,7 @@
     "clienticon": "63222082dca6823666e022c60c56710363d39300",
     "clienttga": "2821790b12263f23b0828e9a9ee7328bbbcd2d84",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -42,7 +62,6 @@
         "version": "3"
       }
     },
-    "exfgls": "8",
     "gameid": "2387740",
     "genres": {
       "0": "25",
@@ -129,10 +148,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "ff4b49914d81217e55f22b9a4a1083c22de43a35/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795543394",
     "store_asset_mtime": "1794291986",
     "store_tags": {
       "0": "1628",
@@ -192,5 +212,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Light of Atlantis",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Light of Atlantis.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "LightOfAtlantis.x86_64"
+      }
+    },
+    "steamcontrollerconfigdetails": {},
+    "steamcontrollertemplateindex": "1"
+  },
+  "depots": {
+    "2387741": {},
+    "2387742": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "488487088",
+          "gid": "7622569897041727475",
+          "size": "3349793502"
+        }
+      }
+    },
+    "2387743": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "487803856",
+          "gid": "7352366585131216632",
+          "size": "3693416294"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26900411",
+        "timebuildupdated": "1795542495",
+        "timeupdated": "1795542530"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Duck 'n' Run Games",
+    "publisher": "Duck 'n' Run Games"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "40000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Duck 'n' Run Games/Light of Atlantis/Saves/Game",
+            "replace": ".config/unity3d/Duck 'n' Run Games/Light of Atlantis/Saves/Game"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Duck 'n' Run Games/Light of Atlantis/Saves/Game",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

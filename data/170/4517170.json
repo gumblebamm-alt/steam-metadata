@@ -1,10 +1,54 @@
 {
-  "_lastChecked": 1794986782,
-  "_history": [],
-  "_change_number": 41209724,
-  "_missing_token": true,
-  "_sha": "f984643936d91eec804687f418607f8e6c3aaab6",
-  "_size": 3650,
+  "_lastChecked": 1795559148,
+  "_history": [
+    {
+      "buildId": "22410897",
+      "branch": "local",
+      "timeUpdated": 1773905376,
+      "firstSeen": 1795559148,
+      "manifests": {}
+    },
+    {
+      "buildId": "25712316",
+      "branch": "mac_test",
+      "timeUpdated": 1791132413,
+      "firstSeen": 1795559148,
+      "manifests": {
+        "4517172": {
+          "gid": "6844523141218983168",
+          "size": 2043522459,
+          "download": 1063173792
+        },
+        "4517173": {
+          "gid": "2522997153251722908",
+          "size": 2196230292,
+          "download": 1121062304
+        }
+      }
+    },
+    {
+      "buildId": "26895088",
+      "branch": "public",
+      "timeUpdated": 1795529214,
+      "firstSeen": 1795559148,
+      "manifests": {
+        "4517172": {
+          "gid": "8920830204679574800",
+          "size": 2289464507,
+          "download": 1210954448
+        },
+        "4517173": {
+          "gid": "8089559220461856496",
+          "size": 2423395556,
+          "download": 1257915888
+        }
+      }
+    }
+  ],
+  "_change_number": 41427323,
+  "_missing_token": false,
+  "_sha": "e91a8f9306420ef7b2b4d644b55e4fe9fb09cdec",
+  "_size": 5590,
   "appid": "4517170",
   "common": {
     "associations": {
@@ -35,7 +79,6 @@
     "clienticon": "6b7c6ef7413fa0fc7f23a6659e4bf5cac85b770e",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4517170",
     "genres": {
       "0": "1",
@@ -108,10 +151,11 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "58f5f6b9adc5fd7504e0c4cd1ece93b17f78dbfd/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795517765",
     "store_asset_mtime": "1793850970",
     "store_tags": {
       "0": "3843",
@@ -172,5 +216,106 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HOMUNCAT",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "HomunCat.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "homuncat.app"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4517172": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "mac_test": {
+          "download": "1063173792",
+          "gid": "6844523141218983168",
+          "size": "2043522459"
+        },
+        "public": {
+          "download": "1210954448",
+          "gid": "8920830204679574800",
+          "size": "2289464507"
+        }
+      }
+    },
+    "4517173": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "mac_test": {
+          "download": "1121062304",
+          "gid": "2522997153251722908",
+          "size": "2196230292"
+        },
+        "public": {
+          "download": "1257915888",
+          "gid": "8089559220461856496",
+          "size": "2423395556"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "local": {
+        "buildid": "22410897",
+        "description": "Local Content Server",
+        "lcsrequired": "1",
+        "timebuildupdated": "1773905376",
+        "timeupdated": "1773905376"
+      },
+      "mac_test": {
+        "buildid": "25712316",
+        "description": "mac test branch",
+        "timebuildupdated": "1791132413",
+        "timeupdated": "1791132413"
+      },
+      "public": {
+        "buildid": "26895088",
+        "timebuildupdated": "1795529214",
+        "timeupdated": "1795529214"
+      }
+    }
+  },
+  "extended": {
+    "developer": "TriCave",
+    "homepage": "https://discord.gg/WbPJENrgNF",
+    "publisher": "TriCave"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

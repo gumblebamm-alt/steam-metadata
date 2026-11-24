@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1795478008,
+  "_lastChecked": 1795559146,
   "_history": [
     {
       "buildId": "26879915",
@@ -26,12 +26,38 @@
           "download": 76155424
         }
       }
+    },
+    {
+      "buildId": "26899200",
+      "branch": "linux-fix",
+      "timeUpdated": 1795539614,
+      "firstSeen": 1795559146,
+      "manifests": {
+        "4443691": {
+          "gid": "1259499103657313783",
+          "size": 195446495,
+          "download": 76161616
+        }
+      }
+    },
+    {
+      "buildId": "26899200",
+      "branch": "public",
+      "timeUpdated": 1795541982,
+      "firstSeen": 1795559146,
+      "manifests": {
+        "4443691": {
+          "gid": "1259499103657313783",
+          "size": 195446495,
+          "download": 76161616
+        }
+      }
     }
   ],
-  "_change_number": 41405385,
+  "_change_number": 41435373,
   "_missing_token": false,
-  "_sha": "e1e913e6e505739c97df7de9877d75d9fb8deb2c",
-  "_size": 5084,
+  "_sha": "79df2e876ee85be44e51d56830656a73664eea25",
+  "_size": 5529,
   "appid": "4443690",
   "common": {
     "associations": {
@@ -144,6 +170,8 @@
     "oslist": "windows",
     "primary_genre": "4",
     "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "8cfdf8a59537321169da2f68cfd022661694eeec/capsule_231x87.jpg"
     },
@@ -218,7 +246,20 @@
         "config": {
           "oslist": "windows"
         },
+        "description": "Play Cornerwitch",
+        "description_loc": {
+          "english": "Play Cornerwitch"
+        },
         "executable": "cornerwitch.exe"
+      },
+      "1": {
+        "arguments": "--opaque-window",
+        "description": "Cornerwitch (Choose if flickering on Linux/SteamOS)",
+        "description_loc": {
+          "english": "Cornerwitch (Choose if flickering on Linux/SteamOS)"
+        },
+        "executable": "cornerwitch.exe",
+        "type": "option1"
       }
     }
   },
@@ -229,29 +270,29 @@
       },
       "manifests": {
         "linux-fix": {
-          "download": "76155424",
-          "gid": "8147268881426590705",
-          "size": "195419423"
+          "download": "76161616",
+          "gid": "1259499103657313783",
+          "size": "195446495"
         },
         "public": {
-          "download": "76155424",
-          "gid": "8147268881426590705",
-          "size": "195419423"
+          "download": "76161616",
+          "gid": "1259499103657313783",
+          "size": "195446495"
         }
       }
     },
     "baselanguages": "brazilian,english,german,japanese,koreana,latam,russian,schinese,spanish",
     "branches": {
       "linux-fix": {
-        "buildid": "26879915",
+        "buildid": "26899200",
         "description": "specific fixes aimed at linux",
-        "timebuildupdated": "1795475440",
-        "timeupdated": "1795475442"
+        "timebuildupdated": "1795539611",
+        "timeupdated": "1795539614"
       },
       "public": {
-        "buildid": "26879915",
-        "timebuildupdated": "1795475440",
-        "timeupdated": "1795477040"
+        "buildid": "26899200",
+        "timebuildupdated": "1795539611",
+        "timeupdated": "1795541982"
       }
     },
     "nocommonredists": "1"

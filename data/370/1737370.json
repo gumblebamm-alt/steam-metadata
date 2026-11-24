@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795376270,
-  "_history": [],
-  "_change_number": 41362305,
-  "_missing_token": true,
-  "_sha": "9ae5dd6f37d542999cf9704b7e11fd33b3979d54",
-  "_size": 4628,
+  "_lastChecked": 1795559124,
+  "_history": [
+    {
+      "buildId": "26851787",
+      "branch": "public",
+      "timeUpdated": 1795368140,
+      "firstSeen": 1795559124,
+      "manifests": {
+        "1737371": {
+          "gid": "3906739712557957928",
+          "size": 273039920,
+          "download": 179754640
+        }
+      }
+    }
+  ],
+  "_change_number": 41430801,
+  "_missing_token": false,
+  "_sha": "33f0547198023efc7a49d25dabdb048497104b98",
+  "_size": 5593,
   "appid": "1737370",
   "common": {
     "aicontenttype": "1",
@@ -33,8 +47,8 @@
     "clienticon": "05788c10dbcb0925a98ad80354a385819696be86",
     "clienttga": "880990ebb1d0fb9bfff543af4cf5871619dc6197",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1737370",
     "genres": {
       "0": "4",
@@ -52,6 +66,7 @@
       "german": "1",
       "italian": "1",
       "japanese": "1",
+      "koreana": "1",
       "norwegian": "1",
       "polish": "1",
       "russian": "1",
@@ -129,11 +144,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
-      "english": "b8b427af423ae33d01aca4f648a59428c8f9f717/capsule_231x87.jpg"
+      "english": "bf7e1f5c09f437647c077d972be91528d6cd090c/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794588848",
+    "steam_release_date": "1795528032",
+    "store_asset_mtime": "1795535218",
     "store_tags": {
       "0": "5160",
       "1": "12472",
@@ -219,5 +235,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Jurassic Architect",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "JurassicArchitect.exe"
+      }
+    }
+  },
+  "depots": {
+    "1737371": {
+      "manifests": {
+        "public": {
+          "download": "179754640",
+          "gid": "3906739712557957928",
+          "size": "273039920"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26851787",
+        "timebuildupdated": "1795368126",
+        "timeupdated": "1795368140"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "MadOctopus",
+    "publisher": "MadOctopus"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "JurassicArchitect/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "JurassicArchitect",
+        "pattern": "progress.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

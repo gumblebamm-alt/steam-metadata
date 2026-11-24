@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794679218,
-  "_history": [],
-  "_change_number": 40942331,
-  "_missing_token": true,
-  "_sha": "15298df119ae1655560e1dd91faceec8502adf92",
-  "_size": 3175,
+  "_lastChecked": 1795559126,
+  "_history": [
+    {
+      "buildId": "26887182",
+      "branch": "public",
+      "timeUpdated": 1795504815,
+      "firstSeen": 1795559126,
+      "manifests": {
+        "2209341": {
+          "gid": "1189731536586225894",
+          "size": 2377086259,
+          "download": 2074812112
+        },
+        "2209342": {
+          "gid": "3669731292837684299",
+          "size": 2526557929,
+          "download": 2067210544
+        },
+        "2209343": {
+          "gid": "3086783847465548292",
+          "size": 2391941350,
+          "download": 2060476608
+        }
+      }
+    }
+  ],
+  "_change_number": 41427107,
+  "_missing_token": false,
+  "_sha": "2c2ff76e7d20a3e75108038906e73668619ca94d",
+  "_size": 5501,
   "appid": "2209340",
   "common": {
     "associations": {
@@ -39,9 +63,9 @@
     "clienticon": "2126419b8d12363d16edaa709f60a501be3d0b15",
     "clienttga": "eb6252c28e06203a72cd5ef153cc09b69de61185",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2209340",
     "genres": {
       "0": "1",
@@ -109,10 +133,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8b965aae522f73598f0c46ff5026ca3731abda8a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795528827",
     "store_asset_mtime": "1794636933",
     "store_tags": {
       "0": "1685",
@@ -156,5 +181,128 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Have You Herd",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "HYH.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "HYH.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "HYH.sh",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "2209341": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2074812112",
+          "gid": "1189731536586225894",
+          "size": "2377086259"
+        }
+      }
+    },
+    "2209342": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "2067210544",
+          "gid": "3669731292837684299",
+          "size": "2526557929"
+        }
+      }
+    },
+    "2209343": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2060476608",
+          "gid": "3086783847465548292",
+          "size": "2391941350"
+        }
+      }
+    },
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "branches": {
+      "public": {
+        "buildid": "26887182",
+        "timebuildupdated": "1795504815",
+        "timeupdated": "1795504815"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Tideturners",
+    "homepage": "https://www.haveyouherdgame.com",
+    "publisher": "Tideturners",
+    "remoteplaytogethertestingbranches": "default,playtest"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "Epic/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxXdgConfigHome"
+      },
+      "1": {
+        "addpath": "Epic/",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "HYH/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

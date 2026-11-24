@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1795329979,
-  "_history": [],
-  "_change_number": 41349736,
-  "_missing_token": true,
-  "_sha": "205088ae4af7b27104fb10d75c68bb25527682e7",
-  "_size": 2966,
+  "_lastChecked": 1795559163,
+  "_history": [
+    {
+      "buildId": "26843470",
+      "branch": "public",
+      "timeUpdated": 1795320040,
+      "firstSeen": 1795559163,
+      "manifests": {
+        "5232862": {
+          "gid": "3220007289637473036",
+          "size": 114718467,
+          "download": 42538848
+        },
+        "5232863": {
+          "gid": "4433823373174682755",
+          "size": 194522429,
+          "download": 64092640
+        },
+        "5232864": {
+          "gid": "687340725870381720",
+          "size": 81143879,
+          "download": 34461904
+        }
+      }
+    }
+  ],
+  "_change_number": 41430917,
+  "_missing_token": false,
+  "_sha": "31b3eabd08e175c1e47d25ba2f880dfd5be7c3f5",
+  "_size": 4498,
   "appid": "5232860",
   "common": {
     "associations": {
@@ -29,7 +53,6 @@
     "clienticon": "679b7062b05d544260a45dbf59eafb6d53dabf75",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5232860",
     "genres": {
       "0": "25",
@@ -101,7 +124,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "82842e051683ec9072a87e8be80ad120f0d892c5/capsule_231x87.jpg"
     },
@@ -126,5 +149,93 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "GhostRoot",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "GhostRoot.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "GhostRoot.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "GhostRoot.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5232862": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "42538848",
+          "gid": "3220007289637473036",
+          "size": "114718467"
+        }
+      }
+    },
+    "5232863": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "64092640",
+          "gid": "4433823373174682755",
+          "size": "194522429"
+        }
+      }
+    },
+    "5232864": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "34461904",
+          "gid": "687340725870381720",
+          "size": "81143879"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26843470",
+        "timebuildupdated": "1795319519",
+        "timeupdated": "1795320040"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Adam Coburn",
+    "homepage": "https://thinknewgames.com/",
+    "publisher": "Think New Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857528"
+  }
 }

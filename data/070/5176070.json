@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795244702,
-  "_history": [],
-  "_change_number": 41324665,
-  "_missing_token": true,
-  "_sha": "c7b4900a737ad8276baf12458d3adaf1f011d440",
-  "_size": 3268,
+  "_lastChecked": 1795559162,
+  "_history": [
+    {
+      "buildId": "26833981",
+      "branch": "public",
+      "timeUpdated": 1795280888,
+      "firstSeen": 1795559162,
+      "manifests": {
+        "5176071": {
+          "gid": "2085930897247269310",
+          "size": 628622851,
+          "download": 245961072
+        },
+        "5176072": {
+          "gid": "4383880029927910588",
+          "size": 482174478,
+          "download": 207728240
+        }
+      }
+    }
+  ],
+  "_change_number": 41434332,
+  "_missing_token": false,
+  "_sha": "9542a26b0e4200fccbf9e4ba42022e5d0cc7f843",
+  "_size": 4281,
   "appid": "5176070",
   "common": {
     "aicontenttype": "1",
@@ -30,7 +49,6 @@
     "clienticon": "72571dc5a88d844802c0234e927d29a839625fb2",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5176070",
     "genres": {
       "0": "4",
@@ -100,13 +118,14 @@
     "name": "Bush League Baseball",
     "osarch": "64",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "65faf1609ac1afa50fa14ef96a62dcd8a09a5094/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795540696",
     "store_asset_mtime": "1794872026",
     "store_tags": {
       "0": "5727",
@@ -155,5 +174,61 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Bush League Baseball",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Bush League Baseball.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Bush League Baseball.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5176071": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "245961072",
+          "gid": "2085930897247269310",
+          "size": "628622851"
+        }
+      }
+    },
+    "5176072": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "207728240",
+          "gid": "4383880029927910588",
+          "size": "482174478"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26833981",
+        "timebuildupdated": "1795270029",
+        "timeupdated": "1795280888"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Quorum",
+    "publisher": "Quorum"
+  }
 }

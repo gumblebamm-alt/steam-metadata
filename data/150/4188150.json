@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795478002,
-  "_history": [],
-  "_change_number": 41277484,
-  "_missing_token": true,
-  "_sha": "a80cf3d3e61f8a933b50d77901f0b97d18a9cb71",
-  "_size": 4635,
+  "_lastChecked": 1795559142,
+  "_history": [
+    {
+      "buildId": "26897691",
+      "branch": "public",
+      "timeUpdated": 1795535786,
+      "firstSeen": 1795559142,
+      "manifests": {
+        "4188151": {
+          "gid": "5763747189378641133",
+          "size": 2254095758,
+          "download": 2050639312
+        }
+      }
+    }
+  ],
+  "_change_number": 41432265,
+  "_missing_token": false,
+  "_sha": "ccbb973c869abc46204f96ced7657657ae3a6d09",
+  "_size": 6503,
   "appid": "4188150",
   "common": {
     "associations": {
@@ -54,17 +68,16 @@
     },
     "clienticon": "a1917a77674ab9a7411bb56e05ad27b13fff1e70",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4188150",
     "genres": {
       "0": "1",
       "1": "25",
       "2": "23",
       "3": "2",
-      "4": "37",
-      "5": "70"
+      "4": "37"
     },
     "header_image": {
       "english": "cc2c4947359f2ca913b4df93f6a233cf99fb8e91/header.jpg",
@@ -145,11 +158,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "06c6ea57803a7f0d3271c090b06f2f9d5ee837b9/capsule_231x87.jpg",
       "russian": "06c6ea57803a7f0d3271c090b06f2f9d5ee837b9/capsule_231x87_russian.jpg"
     },
+    "steam_release_date": "1795537799",
     "store_asset_mtime": "1795119707",
     "store_tags": {
       "0": "21",
@@ -174,6 +188,10 @@
       "9": "1738"
     },
     "supported_languages": {
+      "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "russian": {
         "full_audio": "true",
         "subtitles": "true",
@@ -182,5 +200,105 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Atomic Brain",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "atomic_brain.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4188151": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2050639312",
+          "gid": "5763747189378641133",
+          "size": "2254095758"
+        }
+      }
+    },
+    "4188152": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      }
+    },
+    "baselanguages": "russian",
+    "branches": {
+      "public": {
+        "buildid": "26897691",
+        "timebuildupdated": "1795535769",
+        "timeupdated": "1795535786"
+      }
+    },
+    "hasdepotsindlc": "1"
+  },
+  "extended": {
+    "developer": "Tepdeb Studio",
+    "homepage": "https://tepdeb-studio.ru/",
+    "isfreeapp": "1",
+    "publisher": "Tepdeb Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "99999997",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "gameinstall"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "SteamCloudDocuments",
+        "useinstead": "SteamCloudDocuments"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "SteamCloudDocuments"
+      }
+    }
+  }
 }

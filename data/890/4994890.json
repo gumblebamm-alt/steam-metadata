@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794948922,
+  "_lastChecked": 1795559158,
   "_history": [
     {
       "buildId": "26589188",
@@ -67,12 +67,35 @@
           "download": 281816048
         }
       }
+    },
+    {
+      "buildId": "26903952",
+      "branch": "public",
+      "timeUpdated": 1795552987,
+      "firstSeen": 1795559158,
+      "manifests": {
+        "4994891": {
+          "gid": "7119222823497395326",
+          "size": 348569016,
+          "download": 259434240
+        },
+        "4994892": {
+          "gid": "5388120718286021498",
+          "size": 317488551,
+          "download": 251980608
+        },
+        "4994893": {
+          "gid": "8766841453931681896",
+          "size": 431823207,
+          "download": 282438992
+        }
+      }
     }
   ],
-  "_change_number": 41110615,
+  "_change_number": 41441099,
   "_missing_token": false,
-  "_sha": "d5a46bd291a90bba3c70d83d31e18c235ca48c26",
-  "_size": 8677,
+  "_sha": "8fda66dd89210bfa22fa3ca5530e39818a2f33c9",
+  "_size": 9452,
   "appid": "4994890",
   "common": {
     "aicontenttype": "1",
@@ -204,7 +227,7 @@
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "73",
+    "review_percentage": "76",
     "review_score": "6",
     "small_capsule": {
       "english": "ebfa4aa6ad02785f8139a9a2ac87350595673609/capsule_231x87.jpg",
@@ -389,9 +412,9 @@
       },
       "manifests": {
         "public": {
-          "download": "258814256",
-          "gid": "2882497208706039721",
-          "size": "347895760"
+          "download": "259434240",
+          "gid": "7119222823497395326",
+          "size": "348569016"
         }
       }
     },
@@ -401,9 +424,9 @@
       },
       "manifests": {
         "public": {
-          "download": "251368768",
-          "gid": "2823794478337413453",
-          "size": "316824831"
+          "download": "251980608",
+          "gid": "5388120718286021498",
+          "size": "317488551"
         }
       }
     },
@@ -413,18 +436,18 @@
       },
       "manifests": {
         "public": {
-          "download": "281816048",
-          "gid": "6365847659164267438",
-          "size": "431163567"
+          "download": "282438992",
+          "gid": "8766841453931681896",
+          "size": "431823207"
         }
       }
     },
     "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
     "branches": {
       "public": {
-        "buildid": "26710518",
-        "timebuildupdated": "1794854744",
-        "timeupdated": "1794854744"
+        "buildid": "26903952",
+        "timebuildupdated": "1795552852",
+        "timeupdated": "1795552987"
       }
     },
     "nocommonredists": "1",
@@ -437,6 +460,27 @@
   "ufs": {
     "maxnumfiles": "10",
     "quota": "20971520",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Become Blackhole/editions/full",
+            "replace": "godot/app_userdata/Become Blackhole/editions/full"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "Godot/app_userdata/Become Blackhole/editions/full",
@@ -446,6 +490,16 @@
       "1": {
         "path": "Godot/app_userdata/Become Blackhole/editions/full",
         "pattern": "save.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Become Blackhole/editions/full",
+        "pattern": "rogue_proto.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Become Blackhole/editions/full",
+        "pattern": "rogue_proto.bak",
         "root": "WinAppDataRoaming"
       }
     }

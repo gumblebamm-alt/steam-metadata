@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791463187,
+  "_lastChecked": 1795559123,
   "_history": [
     {
       "buildId": "25778117",
@@ -24,12 +24,25 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26539513",
+      "branch": "public",
+      "timeUpdated": 1794315615,
+      "firstSeen": 1795559123,
+      "manifests": {
+        "1551981": {
+          "gid": "2646783655142378140",
+          "size": 77519602712,
+          "download": 69756257280
+        }
+      }
     }
   ],
-  "_change_number": 39615195,
+  "_change_number": 41443516,
   "_missing_token": false,
-  "_sha": "359362e3337ca3049cff6a00dae6c1760e10f022",
-  "_size": 7576,
+  "_sha": "130f65ae915c771c85f901753a9fdae1dad8f52e",
+  "_size": 10676,
   "appid": "1551980",
   "common": {
     "associations": {
@@ -158,16 +171,117 @@
     "oslist": "windows",
     "primary_genre": "1",
     "releasestate": "released",
+    "review_percentage": "92",
+    "review_score": "8",
     "small_capsule": {
       "english": "c8642c8c08272cb8646e851aa464a2e627438d19/capsule_231x87.jpg"
+    },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-stable",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      },
+      "test_timestamp": "1791565798",
+      "tested_build_id": "25778117",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "4": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+        }
+      }
+    },
+    "steam_frame_compatibility": {
+      "category": "1",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-experimental",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1792082100",
+      "tested_build_id": "25932925",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamFrame_TestResult_SteamOSDoesNotSupport"
+        }
+      }
     },
     "steam_release_date": "1791460741",
     "store_asset_mtime": "1791380091",
     "store_tags": {
       "0": "4345",
-      "1": "19",
-      "10": "9541",
-      "11": "1721",
+      "1": "12095",
+      "10": "21",
+      "11": "9541",
       "12": "3978",
       "13": "4182",
       "14": "1664",
@@ -176,14 +290,14 @@
       "17": "1662",
       "18": "1663",
       "19": "5900",
-      "2": "1667",
-      "3": "12095",
-      "4": "6650",
+      "2": "6650",
+      "3": "1667",
+      "4": "19",
       "5": "4166",
       "6": "3839",
-      "7": "21",
+      "7": "4667",
       "8": "4342",
-      "9": "4667"
+      "9": "1721"
     },
     "supported_languages": {
       "brazilian": {
@@ -238,7 +352,7 @@
       },
       "1": {
         "config": {
-          "betakey": "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing",
+          "betakey": "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing,release_patch2_testing,release_patch3_testing",
           "oslist": "windows"
         },
         "description": "Clive Barker's Hellraiser: Revival (Test)",
@@ -251,7 +365,7 @@
       "2": {
         "arguments": "-NoVerifyGC -trace=cpu,gpu,frames,log,bookmarks -tracehost=10.105.47.22",
         "config": {
-          "betakey": "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing",
+          "betakey": "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing,release_patch2_testing,release_patch3_testing",
           "oslist": "windows"
         },
         "description": "Performance Test",
@@ -264,7 +378,7 @@
       "3": {
         "arguments": "--PsoRunDev",
         "config": {
-          "betakey": "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing",
+          "betakey": "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing,release_patch2_testing,release_patch3_testing",
           "oslist": "windows"
         },
         "description": "And Collect PSO (Dev)",
@@ -277,7 +391,7 @@
       "4": {
         "arguments": "--PsoRunTest",
         "config": {
-          "betakey": "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing",
+          "betakey": "build_testing,development_one,development_two,mhg_qa,mhg_qa_2,mhg_qa_3,performance_tests,release_candidate,release_candidate_2,weekly,day1_patch,day1_patch2,release_patch1_testing,release_patch2_testing,release_patch3_testing",
           "oslist": "windows"
         },
         "description": "And Collect PSO (Test)",
@@ -294,9 +408,9 @@
     "1551981": {
       "manifests": {
         "public": {
-          "download": "69887227248",
-          "gid": "2052674537007090776",
-          "size": "77680229211"
+          "download": "69756257280",
+          "gid": "2646783655142378140",
+          "size": "77519602712"
         }
       }
     },
@@ -316,9 +430,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "25778117",
-        "timebuildupdated": "1791378041",
-        "timeupdated": "1791460622"
+        "buildid": "26539513",
+        "timebuildupdated": "1794227983",
+        "timeupdated": "1794315615"
       }
     },
     "privatebranches": "1"

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795478004,
-  "_history": [],
-  "_change_number": 41389209,
-  "_missing_token": true,
-  "_sha": "b7d238d5e259669ae2e8994abbe3f63f86637e45",
-  "_size": 2785,
+  "_lastChecked": 1795559143,
+  "_history": [
+    {
+      "buildId": "26886290",
+      "branch": "public",
+      "timeUpdated": 1795500746,
+      "firstSeen": 1795559143,
+      "manifests": {
+        "4244181": {
+          "gid": "6686406926914316810",
+          "size": 257022240,
+          "download": 166145376
+        }
+      }
+    }
+  ],
+  "_change_number": 41441848,
+  "_missing_token": false,
+  "_sha": "9a8a76ca6e89e2e17985db0736698ad1761b3258",
+  "_size": 4606,
   "appid": "4244180",
   "common": {
     "associations": {
@@ -29,8 +43,8 @@
     },
     "clienticon": "3edb7195704e7da6e9c9e7d5f24cadc45fe962b2",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4244180",
     "genres": {
       "0": "4"
@@ -101,10 +115,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "03cb63dbc6908aa10b204afae83965b9a9223e92/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795532383",
     "store_asset_mtime": "1795422823",
     "store_tags": {
       "0": "560542",
@@ -123,5 +140,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "No Blink Allowed",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "NoBlinkAllowed.exe"
+      },
+      "1": {
+        "arguments": "--rendering-driver d3d12",
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Use this option if you play on a low end computer",
+        "description_loc": {
+          "english": "Use this option if you play on a low end computer"
+        },
+        "executable": "NoBlinkAllowed.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4244181": {
+      "manifests": {
+        "public": {
+          "download": "166145376",
+          "gid": "6686406926914316810",
+          "size": "257022240"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26886290",
+        "timebuildupdated": "1795500667",
+        "timeupdated": "1795500746"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "seto_itchy",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5522490",
+    "publisher": "seto_itchy",
+    "steammachineresolutionoverride": "Default"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "NoBlinkAllowed",
+            "replace": "NoBlinkAllowed"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "NoBlinkAllowed",
+        "pattern": "*.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

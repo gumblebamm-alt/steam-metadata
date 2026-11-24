@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794467370,
+  "_lastChecked": 1795559150,
   "_history": [
     {
       "buildId": "25204724",
@@ -26,12 +26,30 @@
           "download": 392673568
         }
       }
+    },
+    {
+      "buildId": "26882763",
+      "branch": "public",
+      "timeUpdated": 1795537743,
+      "firstSeen": 1795559150,
+      "manifests": {
+        "4673271": {
+          "gid": "5526675296223462698",
+          "size": 497506849,
+          "download": 392401568
+        },
+        "4673272": {
+          "gid": "4312076106759420721",
+          "size": 581571766,
+          "download": 416050192
+        }
+      }
     }
   ],
-  "_change_number": 40845564,
+  "_change_number": 41432250,
   "_missing_token": false,
-  "_sha": "6c8f70ef560164de82903d78b2bccc19509689c0",
-  "_size": 4484,
+  "_sha": "75241c62131324128569a089bc95b59aa733caa0",
+  "_size": 5133,
   "appid": "4673270",
   "common": {
     "aicontenttype": "1",
@@ -135,8 +153,9 @@
     },
     "name": "Blood Moon Serenade: Complete Edition",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
+    "oslist": "windows,macos",
     "primary_genre": "28",
     "releasestate": "released",
     "review_percentage": "92",
@@ -195,26 +214,51 @@
     "installdir": "Blood Moon Calling Complete Edition",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "blood-moon-serenade.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "blood-moon-serenade.app",
         "type": "default"
       }
     }
   },
   "depots": {
     "4673271": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "392673568",
-          "gid": "3875250168452424808",
-          "size": "497415073"
+          "download": "392401568",
+          "gid": "5526675296223462698",
+          "size": "497506849"
+        }
+      }
+    },
+    "4673272": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "416050192",
+          "gid": "4312076106759420721",
+          "size": "581571766"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25223587",
-        "timebuildupdated": "1789015385",
-        "timeupdated": "1789016095"
+        "buildid": "26882763",
+        "timebuildupdated": "1795486202",
+        "timeupdated": "1795537743"
       }
     },
     "privatebranches": "1"
@@ -227,6 +271,15 @@
   "ufs": {
     "maxnumfiles": "100",
     "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "BloodMoonSerenade/saves",

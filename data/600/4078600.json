@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795329968,
-  "_history": [],
-  "_change_number": 41287066,
-  "_missing_token": true,
-  "_sha": "49737bfa60838dfbae4c98e462970d74138cb54f",
-  "_size": 5101,
+  "_lastChecked": 1795559140,
+  "_history": [
+    {
+      "buildId": "26895696",
+      "branch": "public",
+      "timeUpdated": 1795530900,
+      "firstSeen": 1795559140,
+      "manifests": {
+        "4078601": {
+          "gid": "988125012527723827",
+          "size": 363451840,
+          "download": 102157648
+        },
+        "4078602": {
+          "gid": "4786684019524126797",
+          "size": 446275961,
+          "download": 127321040
+        }
+      }
+    }
+  ],
+  "_change_number": 41436282,
+  "_missing_token": false,
+  "_sha": "9b48b6d586a7e8ff1f93cf7524b024d72f4d92d2",
+  "_size": 7589,
   "appid": "4078600",
   "common": {
     "associations": {
@@ -24,6 +43,7 @@
     "category": {
       "category_1": "1",
       "category_17": "1",
+      "category_18": "1",
       "category_2": "1",
       "category_22": "1",
       "category_23": "1",
@@ -36,6 +56,9 @@
       "category_39": "1",
       "category_44": "1",
       "category_49": "1",
+      "category_57": "1",
+      "category_58": "1",
+      "category_59": "1",
       "category_62": "1",
       "category_68": "1",
       "category_75": "1",
@@ -44,8 +67,9 @@
     },
     "clienticon": "a2456ec269be542dbc1dec6691761dd684b80b24",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
+    "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4078600",
     "genres": {
       "0": "1",
@@ -144,12 +168,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "241e9dbe6b5b8a20850eefcb4b27571c71430798/capsule_231x87.jpg",
       "schinese": "eb719e492d04a2f6efa1c72e2d44da674d2ac256/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1794849243",
+    "steam_release_date": "1795543257",
+    "store_asset_mtime": "1795543318",
     "store_tags": {
       "0": "3859",
       "1": "1685",
@@ -207,5 +232,114 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "PiPu Party",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "PiPu Party.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "PiPu Party.app"
+      }
+    },
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "SteamInput/steam_input_manifest.vdf"
+  },
+  "depots": {
+    "4078601": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "102157648",
+          "gid": "988125012527723827",
+          "size": "363451840"
+        }
+      }
+    },
+    "4078602": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "127321040",
+          "gid": "4786684019524126797",
+          "size": "446275961"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26895696",
+        "timebuildupdated": "1795530819",
+        "timeupdated": "1795530900"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "4078600"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "Em7",
+    "homepage": "http://pipuparty.com",
+    "publisher": " FH Create Inc",
+    "remoteplaytogethertestingbranches": "default"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "MacAppSupport",
+        "useinstead": "WinAppDataLocalLow"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Em7/PiPu Party/Users/{64BitSteamID}/Progress",
+        "pattern": "progress_*.bin",
+        "root": "MacAppSupport"
+      },
+      "1": {
+        "path": "Em7/PiPu Party/Users/{64BitSteamID}/Progress",
+        "pattern": "progress_*.bin.bak",
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": "Em7/PiPu Party/Users/{64BitSteamID}/MapData",
+        "pattern": "*.bin",
+        "root": "MacAppSupport"
+      },
+      "3": {
+        "path": "Em7/PiPu Party/Users/{64BitSteamID}/MapData",
+        "pattern": "*.bin.bak",
+        "root": "MacAppSupport"
+      },
+      "4": {
+        "path": "Em7/PiPu Party/Users/{64BitSteamID}/MapData/Maps",
+        "pattern": "Map.bin",
+        "recursive": "1",
+        "root": "MacAppSupport"
+      },
+      "5": {
+        "path": "Em7/PiPu Party/Users/{64BitSteamID}/MapData/Maps",
+        "pattern": "Preview.jpg",
+        "recursive": "1",
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }
