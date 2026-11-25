@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795120528,
-  "_history": [],
-  "_change_number": 41254116,
-  "_missing_token": true,
-  "_sha": "a129c466cab03323d646c6089a5c6569c985239d",
-  "_size": 3022,
+  "_lastChecked": 1795642870,
+  "_history": [
+    {
+      "buildId": "26920863",
+      "branch": "public",
+      "timeUpdated": 1795614538,
+      "firstSeen": 1795642870,
+      "manifests": {
+        "4004391": {
+          "gid": "2648042173575587380",
+          "size": 3561904712,
+          "download": 3502248752
+        }
+      }
+    }
+  ],
+  "_change_number": 41474027,
+  "_missing_token": false,
+  "_sha": "0490a71e4a1b99cda3108749ece72bfa0bc2ac01",
+  "_size": 4112,
   "appid": "4004390",
   "common": {
     "aicontenttype": "1",
@@ -21,13 +35,11 @@
     "category": {
       "category_2": "1",
       "category_23": "1",
-      "category_30": "1",
       "category_62": "1"
     },
     "clienticon": "78681ac168d7bbc4654d90cca2ea742fdb034484",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4004390",
     "genres": {
       "0": "25",
@@ -101,10 +113,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "6dbec5f2f3ce63a2350cd056bf52352d5cb536f6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1798704000",
     "store_asset_mtime": "1795074653",
     "store_tags": {
       "0": "9",
@@ -124,17 +137,75 @@
     },
     "supported_languages": {
       "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "russian": {
+        "subtitles": "true",
         "supported": "true"
       },
       "schinese": {
-        "full_audio": "true",
+        "subtitles": "true",
         "supported": "true"
       },
       "tchinese": {
+        "subtitles": "true",
         "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Text Survival Rules",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Text Survival Rules.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4004391": {
+      "manifests": {
+        "public": {
+          "download": "3502248752",
+          "gid": "2648042173575587380",
+          "size": "3561904712"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "26920863",
+        "timebuildupdated": "1795612258",
+        "timeupdated": "1795614538"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "4004390"
+  },
+  "extended": {
+    "developer": "冷漠乌鸦",
+    "publisher": "冷漠乌鸦"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "500000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot\\app_userdata\\文字生存守则-PC端",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

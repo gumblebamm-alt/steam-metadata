@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794810385,
-  "_history": [],
-  "_change_number": 40983339,
-  "_missing_token": true,
-  "_sha": "5be542d98eb3c05b166466a80577f846f709ccd6",
-  "_size": 3053,
+  "_lastChecked": 1795642859,
+  "_history": [
+    {
+      "buildId": "26930755",
+      "branch": "public",
+      "timeUpdated": 1795638553,
+      "firstSeen": 1795642859,
+      "manifests": {
+        "2787361": {
+          "gid": "126741987227854944",
+          "size": 243045088,
+          "download": 127021504
+        }
+      }
+    }
+  ],
+  "_change_number": 41484681,
+  "_missing_token": false,
+  "_sha": "785ca2871a4e1c2d1d667f008a89b2ff99d453a8",
+  "_size": 5120,
   "appid": "2787360",
   "common": {
     "associations": {
@@ -32,9 +46,9 @@
     "clienticon": "e922347bc7b53bf99c62b41dbfb72a2140e630c4",
     "clienttga": "f56d7f3c3984529a2885a4f75fab562818cb15f0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2787360",
     "genres": {
       "0": "23",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "eb9392ec94b20d7842e04e37b17b984b6a9b469c/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795623728",
     "store_asset_mtime": "1794734490",
     "store_tags": {
       "0": "122",
@@ -126,12 +141,123 @@
       "9": "492"
     },
     "supported_languages": {
+      "brazilian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "french": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "german": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "italian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "japanese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "latam": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "portuguese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "russian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
+      "spanish": {
         "subtitles": "true",
         "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Into The Depths",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Into The Depths.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228984": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "2787361": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "127021504",
+          "gid": "126741987227854944",
+          "size": "243045088"
+        }
+      }
+    },
+    "baselanguages": "english,german,french,spanish,portuguese,brazilian",
+    "branches": {
+      "public": {
+        "buildid": "26930755",
+        "timebuildupdated": "1795638487",
+        "timeupdated": "1795638553"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Wild Interloper",
+    "homepage": "https://wildinterloper.com",
+    "publisher": "Wild Interloper"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "32000000",
+    "savefiles": {
+      "0": {
+        "path": "Into_The_Depths",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": ".config/Into_The_Depths",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794552233,
-  "_history": [],
-  "_change_number": 40845404,
-  "_missing_token": true,
-  "_sha": "180268f320c3e1783fbd1127359b8639e3c26ecc",
-  "_size": 4215,
+  "_lastChecked": 1795642881,
+  "_history": [
+    {
+      "buildId": "23790381",
+      "branch": "public",
+      "timeUpdated": 1781729638,
+      "firstSeen": 1795642881,
+      "manifests": {
+        "4728251": {
+          "gid": "5986812605969076715",
+          "size": 561334721,
+          "download": 294376464
+        },
+        "4728252": {
+          "gid": "9168328968331364452",
+          "size": 507647806,
+          "download": 268965520
+        }
+      }
+    }
+  ],
+  "_change_number": 41485803,
+  "_missing_token": false,
+  "_sha": "fc2b079ce32116c7ca77faaf63bcf4304c8a41d1",
+  "_size": 6001,
   "appid": "4728250",
   "common": {
     "associations": {
@@ -45,7 +64,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4728250",
     "genres": {
       "0": "1",
@@ -117,7 +135,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "53a2a8aebac427354bed188fa99f6d600f582714/capsule_231x87.jpg"
     },
@@ -197,5 +215,102 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Chrome Survivor",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ChromeSurvivor.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "linux",
+        "description_loc": {
+          "english": "linux"
+        },
+        "executable": "ChromeSurvivor"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4728251": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "294376464",
+          "gid": "5986812605969076715",
+          "size": "561334721"
+        }
+      }
+    },
+    "4728252": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "268965520",
+          "gid": "9168328968331364452",
+          "size": "507647806"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "23790381",
+        "timebuildupdated": "1781728975",
+        "timeupdated": "1781729638"
+      }
+    }
+  },
+  "extended": {
+    "developer": "N3XUS LABS LLC",
+    "publisher": "N3XUS LABS LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "30",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "ChromeSurvivor\\Saves",
+            "replace": ".config/ChromeSurvivor/Saves"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "ChromeSurvivor\\Saves",
+        "pattern": "meta.json",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

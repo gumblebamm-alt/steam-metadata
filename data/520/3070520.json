@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794467353,
+  "_lastChecked": 1795642861,
   "_history": [
     {
       "buildId": "19956567",
@@ -26,12 +26,25 @@
           "download": 7384652688
         }
       }
+    },
+    {
+      "buildId": "26859460",
+      "branch": "public",
+      "timeUpdated": 1795404547,
+      "firstSeen": 1795642861,
+      "manifests": {
+        "3070521": {
+          "gid": "4936452235788991623",
+          "size": 7685238837,
+          "download": 7401756096
+        }
+      }
     }
   ],
-  "_change_number": 40860874,
+  "_change_number": 41439931,
   "_missing_token": false,
-  "_sha": "374e7f5a7d5777cadd3cd5f7203c73c64be118a0",
-  "_size": 7001,
+  "_sha": "a6af7310470600d0db53ca5424bd74455578c32a",
+  "_size": 7245,
   "appid": "3070520",
   "common": {
     "associations": {
@@ -137,8 +150,8 @@
     "oslist": "windows",
     "primary_genre": "23",
     "releasestate": "released",
-    "review_percentage": "80",
-    "review_score": "8",
+    "review_percentage": "79",
+    "review_score": "6",
     "small_capsule": {
       "english": "9defa5ebc6f9cc4c6150f8514d46c991cf9da41c/capsule_231x87.jpg"
     },
@@ -147,9 +160,9 @@
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
-        "non_deck_display_glyphs": "1",
-        "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-9.0-4RC",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "1",
+        "recommended_runtime": "proton-11.0-3RC",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -158,7 +171,7 @@
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "0",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
       "steam_machine_compatibility": "2",
       "steam_machine_tests": {
@@ -168,11 +181,11 @@
         },
         "1": {
           "display": "3",
-          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
         },
         "2": {
-          "display": "3",
-          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
         },
         "3": {
           "display": "4",
@@ -192,10 +205,14 @@
         "2": {
           "display": "1",
           "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "3": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       },
-      "test_timestamp": "1736812800",
-      "tested_build_id": "16715028",
+      "test_timestamp": "1794945298",
+      "tested_build_id": "26605544",
       "tests": {
         "0": {
           "display": "3",
@@ -203,19 +220,23 @@
         },
         "1": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
         },
         "2": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
         },
         "3": {
           "display": "4",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
         },
         "4": {
           "display": "4",
-          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "5": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
         }
       }
     },
@@ -309,17 +330,17 @@
       },
       "manifests": {
         "public": {
-          "download": "7384652688",
-          "gid": "7716169552530811723",
-          "size": "7658948710"
+          "download": "7401756096",
+          "gid": "4936452235788991623",
+          "size": "7685238837"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26605544",
-        "timebuildupdated": "1794445390",
-        "timeupdated": "1794461791"
+        "buildid": "26859460",
+        "timebuildupdated": "1795404071",
+        "timeupdated": "1795404547"
       }
     }
   },

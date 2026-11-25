@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795288475,
-  "_history": [],
-  "_change_number": 41295126,
-  "_missing_token": true,
-  "_sha": "7c28966c4c4827acb89b2f54631ce513b6dde790",
-  "_size": 4176,
+  "_lastChecked": 1795642886,
+  "_history": [
+    {
+      "buildId": "26920288",
+      "branch": "public",
+      "timeUpdated": 1795610626,
+      "firstSeen": 1795642886,
+      "manifests": {
+        "4933501": {
+          "gid": "2216531404319390439",
+          "size": 610344652,
+          "download": 169969152
+        },
+        "4933502": {
+          "gid": "2408907323282169086",
+          "size": 628724583,
+          "download": 179419488
+        }
+      }
+    }
+  ],
+  "_change_number": 41481977,
+  "_missing_token": false,
+  "_sha": "e1e27ac031b2fb2f4a1b163a57ba3593b0dec739",
+  "_size": 5941,
   "appid": "4933500",
   "common": {
     "associations": {
@@ -32,13 +51,17 @@
       "category_58": "1",
       "category_59": "1",
       "category_62": "1",
+      "category_68": "1",
+      "category_74": "1",
+      "category_75": "1",
+      "category_80": "1",
       "category_9": "1"
     },
     "clienticon": "741bad0213e5ab49f8523004595d11c3806840f3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4933500",
     "genres": {
       "0": "25",
@@ -128,10 +151,13 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "d2d2325c4770af7ce69d236c7d24f827423377e2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795615743",
     "store_asset_mtime": "1792406348",
     "store_tags": {
       "0": "1664",
@@ -202,5 +228,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Me and You",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Me and You.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Me and You.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "13",
+    "steamdecktouchscreen": "1",
+    "steaminputmanifestpath": "Me and You_Data/StreamingAssets/SteamInput/game_actions.vdf"
+  },
+  "depots": {
+    "4933501": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "169969152",
+          "gid": "2216531404319390439",
+          "size": "610344652"
+        }
+      }
+    },
+    "4933502": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "179419488",
+          "gid": "2408907323282169086",
+          "size": "628724583"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26920288",
+        "timebuildupdated": "1795610623",
+        "timeupdated": "1795610626"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "developer": "PMF Top Joy Games",
+    "publisher": "PMF Top Joy Games",
+    "remoteplaytogethertestingbranches": "default"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "TopJoy Games/Me and You",
+        "pattern": "slot*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

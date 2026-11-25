@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793383989,
+  "_lastChecked": 1795642853,
   "_history": [
     {
       "buildId": "22095526",
@@ -36,12 +36,35 @@
           "download": 233990384
         }
       }
+    },
+    {
+      "buildId": "26916442",
+      "branch": "public",
+      "timeUpdated": 1795599275,
+      "firstSeen": 1795642853,
+      "manifests": {
+        "1215951": {
+          "gid": "1187190569910070133",
+          "size": 403681379,
+          "download": 240183424
+        },
+        "1215952": {
+          "gid": "4130579952301361283",
+          "size": 404017461,
+          "download": 233990384
+        },
+        "1215953": {
+          "gid": "1654653015903967307",
+          "size": 241042010,
+          "download": 226487472
+        }
+      }
     }
   ],
-  "_change_number": 40193378,
+  "_change_number": 41460742,
   "_missing_token": false,
-  "_sha": "bcc2facc66cafd316a66b2defd2c6ad814b2e329",
-  "_size": 5628,
+  "_sha": "d8ffaf05e007e4a18d3d744525523a5a633b19a9",
+  "_size": 5936,
   "appid": "1215950",
   "common": {
     "associations": {
@@ -131,9 +154,11 @@
     "logo_small": "5199080f64fa02d295d44fb97f131ff1dafe5d3f_thumb",
     "name": "Getaway Storm",
     "openvrsupport": "1",
+    "openxrsupport": "1",
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows,linux",
+    "oslist": "windows,linux,android",
     "primary_genre": "9",
     "releasestate": "released",
     "review_percentage": "82",
@@ -209,17 +234,6 @@
         "executable": "GetawayStorm.exe",
         "type": "option1"
       },
-      "4": {
-        "arguments": "-vrmode",
-        "config": {
-          "oslist": "linux"
-        },
-        "description": "in VR (Linux)",
-        "description_loc": {
-          "english": "in VR (Linux)"
-        },
-        "executable": "GetawayStorm.x86_64"
-      },
       "5": {
         "arguments": "-force-opengl",
         "config": {
@@ -243,6 +257,13 @@
         },
         "executable": "GetawayStorm.exe",
         "type": "option1"
+      },
+      "7": {
+        "config": {
+          "oslist": "android"
+        },
+        "executable": "GetawayStorm.apk",
+        "type": "openxr"
       }
     },
     "steamcontrollertemplateindex": "2",
@@ -273,6 +294,18 @@
         }
       }
     },
+    "1215953": {
+      "config": {
+        "oslist": "android"
+      },
+      "manifests": {
+        "public": {
+          "download": "226487472",
+          "gid": "1654653015903967307",
+          "size": "241042010"
+        }
+      }
+    },
     "228990": {
       "config": {
         "oslist": "windows"
@@ -282,9 +315,9 @@
     },
     "branches": {
       "public": {
-        "buildid": "26011514",
-        "timebuildupdated": "1792251332",
-        "timeupdated": "1792251349"
+        "buildid": "26916442",
+        "timebuildupdated": "1795599158",
+        "timeupdated": "1795599275"
       }
     },
     "privatebranches": "1",
@@ -298,7 +331,7 @@
     "vrheadsetstreaming": "1"
   },
   "ufs": {
-    "maxnumfiles": "8",
+    "maxnumfiles": "16",
     "quota": "10000000",
     "rootoverrides": {
       "0": {
@@ -319,6 +352,14 @@
         "path": "Oddscure/GetawayStorm/data",
         "pattern": "game.sav",
         "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Oddscure/GetawayStorm/data",
+        "pattern": "game.sav",
+        "platforms": {
+          "1": "Android"
+        },
+        "root": "AndroidExternalData"
       }
     }
   }

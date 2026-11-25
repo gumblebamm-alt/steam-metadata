@@ -1,12 +1,27 @@
 {
-  "_lastChecked": 1792989930,
-  "_history": [],
-  "_change_number": 40236232,
-  "_missing_token": true,
-  "_sha": "2f64d0eb3d1ff4868fff2c79bef1f239195da63a",
-  "_size": 3808,
+  "_lastChecked": 1795642854,
+  "_history": [
+    {
+      "buildId": "26840896",
+      "branch": "public",
+      "timeUpdated": 1795304156,
+      "firstSeen": 1795642854,
+      "manifests": {
+        "1550921": {
+          "gid": "3962113395202833559",
+          "size": 221823138,
+          "download": 63536112
+        }
+      }
+    }
+  ],
+  "_change_number": 41476101,
+  "_missing_token": false,
+  "_sha": "8a571a8bdaadd0fb1ee18bdb98144a70a517a29a",
+  "_size": 4768,
   "appid": "1550920",
   "common": {
+    "aicontenttype": "1",
     "associations": {
       "0": {
         "name": "GR Space Studio",
@@ -31,17 +46,9 @@
     "clienticon": "e2219563c79b19eb95fda7f2aea3aaea33a04a79",
     "clienttga": "af8174444e75beb4db32b97c8b1512c2e5425d45",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "eulas": {
-      "0": {
-        "id": "1550920_eula_0",
-        "name": "Slime Alchemy EULA",
-        "url": "https://store.steampowered.com//eula/1550920_eula_0",
-        "version": "1"
-      }
-    },
-    "exfgls": "8",
     "gameid": "1550920",
     "genres": {
       "0": "4"
@@ -119,14 +126,16 @@
       }
     },
     "name": "Slime Alchemy",
-    "osarch": "",
+    "osarch": "64",
+    "oscpu": "",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2fde1a761176f1477caa043d092c163f61e0e084/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795624064",
     "store_asset_mtime": "1750547809",
     "store_tags": {
       "0": "597",
@@ -180,5 +189,57 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Slime Alchemy",
+    "launch": {
+      "0": {
+        "executable": "SlimeAlchemy.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1550921": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "63536112",
+          "gid": "3962113395202833559",
+          "size": "221823138"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,german,italian,japanese,koreana,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26840896",
+        "timebuildupdated": "1795304153",
+        "timeupdated": "1795304156"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "GR Space Studio",
+    "publisher": "GR Space Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "GRSpaceStudio/SlimeAlchemy",
+        "pattern": "AlchemistSlot*.es3",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "GRSpaceStudio/SlimeAlchemy",
+        "pattern": "GameSavePC.cgsave",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

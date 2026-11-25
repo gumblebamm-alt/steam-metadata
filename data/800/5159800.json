@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795033873,
-  "_history": [],
-  "_change_number": 41227025,
-  "_missing_token": true,
-  "_sha": "49715fee47171e516559f37cdbe7031c69c6eb57",
-  "_size": 3584,
+  "_lastChecked": 1795642891,
+  "_history": [
+    {
+      "buildId": "26928701",
+      "branch": "public",
+      "timeUpdated": 1795632732,
+      "firstSeen": 1795642891,
+      "manifests": {
+        "5159801": {
+          "gid": "5549374818474145038",
+          "size": 9682755114,
+          "download": 9337195008
+        }
+      }
+    }
+  ],
+  "_change_number": 41481304,
+  "_missing_token": false,
+  "_sha": "1e73d698bd897d746d07e7224e1daed64685ac67",
+  "_size": 4916,
   "appid": "5159800",
   "common": {
     "associations": {
@@ -37,7 +51,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5159800",
     "genres": {
       "0": "1",
@@ -110,7 +123,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "361c7d2647ec3961fc87175c18ae02105a4dc990/capsule_231x87.jpg"
     },
@@ -166,5 +179,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mutual Occult Insurance",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Mutual Occult Insurance",
+        "description_loc": {
+          "english": "Mutual Occult Insurance"
+        },
+        "executable": "MOI_Dev.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "5159801": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "9337195008",
+          "gid": "5549374818474145038",
+          "size": "9682755114"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26928701",
+        "timebuildupdated": "1795632408",
+        "timeupdated": "1795632732"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Sillage Studio",
+    "publisher": "Sillage Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "50000000",
+    "savefiles": {
+      "0": {
+        "path": "MOI_Dev/Saved/SaveGames",
+        "pattern": "MOIDivision*.sav",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "MOI_Dev/Saved/SaveGames",
+        "pattern": "EnhancedInputUserSettings.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1795158836,
-  "_history": [],
-  "_change_number": 41284710,
-  "_missing_token": true,
-  "_sha": "c5a7c62501549d7834816dbfe8816a09d2a749d8",
-  "_size": 3003,
+  "_lastChecked": 1795642878,
+  "_history": [
+    {
+      "buildId": "26907141",
+      "branch": "public",
+      "timeUpdated": 1795563179,
+      "firstSeen": 1795642878,
+      "manifests": {
+        "4535611": {
+          "gid": "918043716851480156",
+          "size": 19411394,
+          "download": 18797824
+        },
+        "4535612": {
+          "gid": "3947546792372841205",
+          "size": 23665695,
+          "download": 7595728
+        },
+        "4535613": {
+          "gid": "4866620078070108077",
+          "size": 3597808,
+          "download": 953952
+        },
+        "4535614": {
+          "gid": "1448831997213891562",
+          "size": 27846086,
+          "download": 21255584
+        }
+      }
+    }
+  ],
+  "_change_number": 41479468,
+  "_missing_token": false,
+  "_sha": "b939590c4b4f69255bc48806a9ec0cf522a1ee89",
+  "_size": 5323,
   "appid": "4535610",
   "common": {
     "associations": {
@@ -31,9 +60,9 @@
     },
     "clienticon": "517555d413c82db9e9eb9f4808003181f1d34e7a",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4535610",
     "genres": {
       "0": "4",
@@ -104,10 +133,11 @@
     "osextended": "macos64",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d93ac7b991df3f3cf528cad217ff6c3c344bb604/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1793205048",
     "store_tags": {
       "0": "1664",
@@ -130,5 +160,131 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Vegetableau",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "vegetableau.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "vegetableau",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "vegetableau.app",
+        "type": "default"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4535611": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "download": "18797824",
+          "gid": "918043716851480156",
+          "size": "19411394"
+        }
+      }
+    },
+    "4535612": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "7595728",
+          "gid": "3947546792372841205",
+          "size": "23665695"
+        }
+      }
+    },
+    "4535613": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "953952",
+          "gid": "4866620078070108077",
+          "size": "3597808"
+        }
+      }
+    },
+    "4535614": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "21255584",
+          "gid": "1448831997213891562",
+          "size": "27846086"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26907141",
+        "timebuildupdated": "1795563117",
+        "timeupdated": "1795563179"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Three Beam Games LLC",
+    "publisher": "Three Beam Games LLC"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "LinuxXdgDataHome",
+        "useinstead": "WinAppDataRoaming"
+      },
+      "1": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "LinuxXdgDataHome",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "threebeamgames/vegetableau",
+        "pattern": "prefs.txt",
+        "root": "LinuxXdgDataHome"
+      },
+      "2": {
+        "path": "threebeamgames/vegetableau",
+        "pattern": "*.lvl",
+        "root": "LinuxXdgDataHome"
+      }
+    }
+  }
 }

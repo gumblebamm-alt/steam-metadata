@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795559153,
-  "_history": [],
-  "_change_number": 41409768,
-  "_missing_token": true,
-  "_sha": "ce08ca8834444f6960a1849dafbd4d4dd21141c4",
-  "_size": 3542,
+  "_lastChecked": 1795642883,
+  "_history": [
+    {
+      "buildId": "26867340",
+      "branch": "public",
+      "timeUpdated": 1795437340,
+      "firstSeen": 1795642883,
+      "manifests": {
+        "4823251": {
+          "gid": "6734301797923690668",
+          "size": 187263872,
+          "download": 60535328
+        }
+      }
+    }
+  ],
+  "_change_number": 41474862,
+  "_missing_token": false,
+  "_sha": "898d40786de46e8bdf4f4d2499f92f5ce837cbcb",
+  "_size": 5301,
   "appid": "4823250",
   "common": {
     "associations": {
@@ -19,12 +33,13 @@
     },
     "category": {
       "category_2": "1",
+      "category_23": "1",
       "category_62": "1"
     },
     "clienticon": "5739bad4a1e3f750e8965881e4e314e97bf2310d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4823250",
     "genres": {
       "0": "4",
@@ -113,10 +128,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0967057877b29447d9d8aeb5a611026ff63d40d4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795615821",
     "store_asset_mtime": "1793631461",
     "store_tags": {
       "0": "597",
@@ -167,5 +183,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Incremental Pain Profit",
+    "launch": {
+      "0": {
+        "executable": "IPP.exe"
+      }
+    }
+  },
+  "depots": {
+    "4823251": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "60535328",
+          "gid": "6734301797923690668",
+          "size": "187263872"
+        }
+      }
+    },
+    "4823252": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26867340",
+        "timebuildupdated": "1795436958",
+        "timeupdated": "1795437340"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Zayndev",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5547280,5547520",
+    "publisher": "Zayndev"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SavesDir",
+            "replace": "AltheaGames/Incremental Pain Profit"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "WinAppDataLocalLow"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SavesDir",
+            "replace": "AltheaGames/Incremental Pain Profit"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      },
+      "2": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "SavesDir",
+            "replace": ".config/unity3d/AltheaGames/Incremental Pain Profit"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "*.sav",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

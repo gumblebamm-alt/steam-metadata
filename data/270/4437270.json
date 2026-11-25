@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1795033859,
-  "_history": [],
-  "_change_number": 41229215,
-  "_missing_token": true,
-  "_sha": "bfe2cb190d47254fa2bf26d9f76b38b0322035ee",
-  "_size": 7634,
+  "_lastChecked": 1795642876,
+  "_history": [
+    {
+      "buildId": "26919532",
+      "branch": "4k_client",
+      "timeUpdated": 1795608239,
+      "firstSeen": 1795642876,
+      "manifests": {
+        "4437271": {
+          "gid": "8965009356649315809",
+          "size": 12502243221,
+          "download": 12133114688
+        },
+        "5599010": {
+          "gid": "7886836601804335185",
+          "size": 711840,
+          "download": 269296
+        }
+      }
+    },
+    {
+      "buildId": "26930505",
+      "branch": "public",
+      "timeUpdated": 1795637710,
+      "firstSeen": 1795642876,
+      "manifests": {
+        "4437271": {
+          "gid": "7766205578309942904",
+          "size": 4397676175,
+          "download": 4174763904
+        },
+        "5599010": {
+          "gid": "7886836601804335185",
+          "size": 711840,
+          "download": 269296
+        }
+      }
+    }
+  ],
+  "_change_number": 41484153,
+  "_missing_token": false,
+  "_sha": "8a3b186d57590c944c5bb286c767998c090e4637",
+  "_size": 10090,
   "appid": "4437270",
   "common": {
     "aicontenttype": "1",
@@ -44,6 +81,7 @@
     "clienticns": "ca9cdfd41e1295f22deaa43c0481bc528ed811ac",
     "clienticon": "ac36c656bf39c38a432f0b61e1ef05303e4c13ed",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "2",
@@ -60,7 +98,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4437270",
     "genres": {
       "0": "4",
@@ -175,7 +212,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "d1439128a11d443f57842839a5048ad8286e16e5/capsule_231x87.jpg",
@@ -185,6 +222,7 @@
       "schinese": "05c6ae16a97dbe2cc3659b653a7cc9e4491cf0bd/capsule_231x87_schinese.jpg",
       "spanish": "42252a1af043e1a6d08979a5c0ac360c07c1a997/capsule_231x87_spanish.jpg"
     },
+    "steam_release_date": "1795625939",
     "store_asset_mtime": "1794621625",
     "store_tags": {
       "0": "12095",
@@ -236,5 +274,126 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Last Embrace - Book One",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "The_Last_Embrace.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "The_Last_Embrace.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "The_Last_Embrace.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4437271": {
+      "config": {
+        "language": "english",
+        "osarch": "64"
+      },
+      "manifests": {
+        "4k_client": {
+          "download": "12133114688",
+          "gid": "8965009356649315809",
+          "size": "12502243221"
+        },
+        "public": {
+          "download": "4174763904",
+          "gid": "7766205578309942904",
+          "size": "4397676175"
+        }
+      }
+    },
+    "5599010": {
+      "dlcappid": "5599010",
+      "manifests": {
+        "4k_client": {
+          "download": "269296",
+          "gid": "7886836601804335185",
+          "size": "711840"
+        },
+        "public": {
+          "download": "269296",
+          "gid": "7886836601804335185",
+          "size": "711840"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "4k_client": {
+        "buildid": "26919532",
+        "description": "4K UHD Client",
+        "timebuildupdated": "1795608239",
+        "timeupdated": "1795608239"
+      },
+      "public": {
+        "buildid": "26930505",
+        "timebuildupdated": "1795637710",
+        "timeupdated": "1795637710"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "NoX Productions",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5599010",
+    "publisher": "NoX Productions"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "RenPy/TheLastEmbrace-1749928767-STEAM",
+            "replace": ".renpy/TheLastEmbrace-1749928767-STEAM"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "game/saves",
+        "pattern": "*",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "RenPy/TheLastEmbrace-1749928767-STEAM",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1791593020,
-  "_history": [],
-  "_change_number": 39661464,
-  "_missing_token": true,
-  "_sha": "10cf9203d54eb0151921e88b69b0381ae4f8ceea",
-  "_size": 3885,
+  "_lastChecked": 1795642891,
+  "_history": [
+    {
+      "buildId": "25069359",
+      "branch": "public",
+      "timeUpdated": 1788308256,
+      "firstSeen": 1795642891,
+      "manifests": {
+        "5131821": {
+          "gid": "3309026253092955841",
+          "size": 402648192,
+          "download": 324050656
+        }
+      }
+    }
+  ],
+  "_change_number": 41479785,
+  "_missing_token": false,
+  "_sha": "ce93454e6d904c2489002e0fff164f4a0ea82752",
+  "_size": 4891,
   "appid": "5131820",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +45,8 @@
     },
     "clienticon": "605d1cff5a32af093517233c3a98dfeee45ab472",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5131820",
     "genres": {
       "0": "1",
@@ -110,7 +124,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0ada890689c2aaf466c8b5aa3e92a59f2e536e4b/capsule_231x87.jpg"
     },
@@ -183,5 +197,59 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Pilot",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": " Play The Pilot",
+        "description_loc": {
+          "english": " Play The Pilot"
+        },
+        "executable": "ThePilot.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5131821": {
+      "manifests": {
+        "public": {
+          "download": "324050656",
+          "gid": "3309026253092955841",
+          "size": "402648192"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "25069359",
+        "timebuildupdated": "1788308130",
+        "timeupdated": "1788308256"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "StarDrifter Games",
+    "publisher": "StarDrifter Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/The Pilot/saves",
+        "pattern": "*.save",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

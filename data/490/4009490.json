@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1795205722,
-  "_history": [],
-  "_change_number": 41294468,
-  "_missing_token": true,
-  "_sha": "16afac7add538efe4d3f64f5a617e617ce5d12ab",
-  "_size": 4057,
+  "_lastChecked": 1795642870,
+  "_history": [
+    {
+      "buildId": "26921473",
+      "branch": "public",
+      "timeUpdated": 1795614792,
+      "firstSeen": 1795642870,
+      "manifests": {
+        "4009491": {
+          "gid": "4454006980841636724",
+          "size": 7746158013,
+          "download": 6878893936
+        },
+        "4009492": {
+          "gid": "1415845857572784092",
+          "size": 0,
+          "download": 0
+        },
+        "4009493": {
+          "gid": "393706054779039768",
+          "size": 0,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 41484199,
+  "_missing_token": false,
+  "_sha": "62a167b1d9673549e797e8e150790a9206bfca0f",
+  "_size": 5900,
   "appid": "4009490",
   "common": {
     "associations": {
@@ -36,9 +60,9 @@
     },
     "clienticon": "a0109987c35467bb34f5b29ba5c36a7ab544aa3f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4009490",
     "genres": {
       "0": "25",
@@ -127,11 +151,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "61",
+    "review_score": "5",
     "small_capsule": {
       "english": "d3e221ee406aef97ca68fbd696e2035736a1cf02/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1794557070",
+    "steam_release_date": "1795607924",
+    "store_asset_mtime": "1795610086",
     "store_tags": {
       "0": "1644",
       "1": "1662",
@@ -195,5 +222,95 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Arctic Drive",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Arctic Drive.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4009491": {
+      "manifests": {
+        "public": {
+          "download": "6878893936",
+          "gid": "4454006980841636724",
+          "size": "7746158013"
+        }
+      }
+    },
+    "4009492": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "1415845857572784092",
+          "size": "0"
+        }
+      }
+    },
+    "4009493": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "393706054779039768",
+          "size": "0"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26921473",
+        "timebuildupdated": "1795613838",
+        "timeupdated": "1795614792"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Pebbles Games",
+    "homepage": "https://www.arcticdrivegame.com/",
+    "publisher": "Bonus Stage Publishing"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "1073741824",
+    "savefiles": {
+      "0": {
+        "path": "PlayTogether Studio and Pebbles Games/Arctic Drive/{64BitSteamID}/Saves",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "PlayTogether Studio and Pebbles Games/Arctic Drive/{64BitSteamID}/MetaData",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "UserData/{64BitSteamID}/Saves",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "3": {
+        "path": "UserData/{64BitSteamID}/MetaData",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

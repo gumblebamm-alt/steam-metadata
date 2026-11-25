@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1794902056,
-  "_history": [],
-  "_change_number": 41076578,
-  "_missing_token": true,
-  "_sha": "0da4d85ff64700c316c01a009bcb9c6bbce02a23",
-  "_size": 3523,
+  "_lastChecked": 1795642890,
+  "_history": [
+    {
+      "buildId": "26929825",
+      "branch": "public",
+      "timeUpdated": 1795635462,
+      "firstSeen": 1795642890,
+      "manifests": {
+        "5126341": {
+          "gid": "595012486960953928",
+          "size": 796925568,
+          "download": 707876336
+        }
+      }
+    },
+    {
+      "buildId": "26849707",
+      "branch": "teste",
+      "timeUpdated": 1795358653,
+      "firstSeen": 1795642890,
+      "manifests": {
+        "5126341": {
+          "gid": "6200203927774915082",
+          "size": 606191020,
+          "download": 520011856
+        }
+      }
+    }
+  ],
+  "_change_number": 41486082,
+  "_missing_token": false,
+  "_sha": "1d837e4a11d95cf1236133c527e276a3c075aacc",
+  "_size": 4968,
   "appid": "5126340",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +58,8 @@
     },
     "clienticon": "156c02f9dc8f97e46f8e8b789de0b32f48236dff",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5126340",
     "genres": {
       "0": "1",
@@ -114,11 +141,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5fce1b3f1cb2ba26e5eef33e8f6fa66587b95777/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792538709",
+    "steam_release_date": "1795636897",
+    "store_asset_mtime": "1795637644",
     "store_tags": {
       "0": "1084988",
       "1": "9",
@@ -163,5 +191,78 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Runecast",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "RUNECAST.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5126341": {
+      "manifests": {
+        "public": {
+          "download": "707876336",
+          "gid": "595012486960953928",
+          "size": "796925568"
+        },
+        "teste": {
+          "download": "520011856",
+          "gid": "6200203927774915082",
+          "size": "606191020"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26929825",
+        "timebuildupdated": "1795635461",
+        "timeupdated": "1795635462"
+      },
+      "teste": {
+        "buildid": "26849707",
+        "description": "Teste interno",
+        "timebuildupdated": "1795358619",
+        "timeupdated": "1795358653"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Dotsmith",
+    "homepage": "https://dotsmith.vercel.app/#obra-01",
+    "publisher": "dotsmith"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "RUNECAST",
+        "pattern": "progresso.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "RUNECAST",
+        "pattern": "cronica.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "RUNECAST",
+        "pattern": "run.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "RUNECAST",
+        "pattern": "run_torre.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

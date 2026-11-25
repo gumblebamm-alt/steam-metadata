@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1795158846,
-  "_history": [],
-  "_change_number": 41289213,
-  "_missing_token": true,
-  "_sha": "a5efa6bb61576cd53678f6bc82fc25ea67286350",
-  "_size": 3341,
+  "_lastChecked": 1795642893,
+  "_history": [
+    {
+      "buildId": "26799443",
+      "branch": "preview",
+      "timeUpdated": 1795135300,
+      "firstSeen": 1795642893,
+      "manifests": {
+        "5195561": {
+          "gid": "8156516468344495374",
+          "size": 1070402327,
+          "download": 984377312
+        }
+      }
+    },
+    {
+      "buildId": "26930504",
+      "branch": "public",
+      "timeUpdated": 1795637826,
+      "firstSeen": 1795642893,
+      "manifests": {
+        "5195561": {
+          "gid": "5051518664870230985",
+          "size": 1071145183,
+          "download": 985086976
+        }
+      }
+    }
+  ],
+  "_change_number": 41484242,
+  "_missing_token": false,
+  "_sha": "4316563c14023b8d90155cfc0df06bf37f1af9db",
+  "_size": 5735,
   "appid": "5195560",
   "common": {
     "aicontenttype": "1",
@@ -42,9 +69,9 @@
     },
     "clienticon": "7c4ae247de76af137eeb1f4e5cbd5afd56cbfef7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5195560",
     "genres": {
       "0": "23",
@@ -117,10 +144,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "18",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7d86b0171c3ce36057184f43cde8934b80e2b527/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795630620",
     "store_asset_mtime": "1795128747",
     "store_tags": {
       "0": "1254552",
@@ -152,5 +180,110 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Pocket Dynasty",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play Pocket Dynasty",
+        "description_loc": {
+          "english": "Play Pocket Dynasty"
+        },
+        "executable": "PocketDynasty.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5195561": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "preview": {
+          "download": "984377312",
+          "gid": "8156516468344495374",
+          "size": "1070402327"
+        },
+        "public": {
+          "download": "985086976",
+          "gid": "5051518664870230985",
+          "size": "1071145183"
+        }
+      }
+    },
+    "branches": {
+      "preview": {
+        "buildid": "26799443",
+        "description": "Preview branch",
+        "timebuildupdated": "1795134939",
+        "timeupdated": "1795135300"
+      },
+      "public": {
+        "buildid": "26930504",
+        "timebuildupdated": "1795637709",
+        "timeupdated": "1795637826"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Voxel Pulse Games",
+    "homepage": "https://www.voxelpulsegames.com/games/pocket-dynasty",
+    "publisher": "Voxel Pulse Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "536870912",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Pocket Dynasty",
+        "pattern": "pocket_dynasty_save_*.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Pocket Dynasty",
+        "pattern": "playbook_draft_*.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Pocket Dynasty",
+        "pattern": "pocket_dynasty_local_rivalry.json*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Pocket Dynasty",
+        "pattern": "pocket_dynasty_rivalry_leagues.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Pocket Dynasty",
+        "pattern": "pocket_dynasty_rivalry_leagues.json.bak",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Godot/app_userdata/Pocket Dynasty",
+        "pattern": "pocket_dynasty_rivalry_*.json*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795120538,
-  "_history": [],
-  "_change_number": 41267788,
-  "_missing_token": true,
-  "_sha": "9c76864896228ee12ed207924c59c42fb54f3fa8",
-  "_size": 3048,
+  "_lastChecked": 1795642879,
+  "_history": [
+    {
+      "buildId": "26129170",
+      "branch": "public",
+      "timeUpdated": 1792660345,
+      "firstSeen": 1795642879,
+      "manifests": {
+        "4607421": {
+          "gid": "1157136315387004165",
+          "size": 1047435995,
+          "download": 923825408
+        }
+      }
+    }
+  ],
+  "_change_number": 41475321,
+  "_missing_token": false,
+  "_sha": "50fc6a8489bafd2151d23328bc9c09876c836c26",
+  "_size": 4919,
   "appid": "4607420",
   "common": {
     "associations": {
@@ -26,8 +40,8 @@
     },
     "clienticon": "ced9f4179b608f23fd500566b15cfd0669002086",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4607420",
     "genres": {
       "0": "25"
@@ -101,10 +115,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b8fb7bfd0e95eab7d937da1078be74661ce05ee6/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795618811",
     "store_asset_mtime": "1795100953",
     "store_tags": {
       "0": "3799",
@@ -112,8 +127,8 @@
       "10": "31275",
       "11": "1742",
       "12": "6426",
-      "2": "21",
-      "3": "4085",
+      "2": "4085",
+      "3": "21",
       "4": "4726",
       "5": "4182",
       "6": "5030",
@@ -134,5 +149,90 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "楽園追放 -The Stellar Angel-",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TheStellarAngel.exe",
+        "type": "default"
+      },
+      "1": {
+        "arguments": "-reset-user-content -reset-achievements",
+        "config": {
+          "betakey": "internal",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "newgame",
+        "description_loc": {
+          "english": "newgame",
+          "japanese": "newgame"
+        },
+        "executable": "TheStellarAngel.exe",
+        "type": "option1"
+      },
+      "2": {
+        "arguments": "-override-save-preset",
+        "config": {
+          "betakey": "internal",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "fullopen",
+        "description_loc": {
+          "english": "fullopen",
+          "japanese": "fullopen"
+        },
+        "executable": "TheStellarAngel.exe",
+        "type": "option1"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65524",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4607421": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "923825408",
+          "gid": "1157136315387004165",
+          "size": "1047435995"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "26129170",
+        "timebuildupdated": "1792659798",
+        "timeupdated": "1792660345"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Studio51 Inc.",
+    "homepage": "https://game.rakuen-tsuiho.com/",
+    "publisher": "TOEI ANIMATION CO., LTD."
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "TOEI ANIMATION CO_, LTD_/TheStellarAngel/userdata/{Steam3AccountID}",
+        "pattern": "*.dat",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

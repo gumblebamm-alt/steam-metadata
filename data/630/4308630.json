@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795158834,
-  "_history": [],
-  "_change_number": 41278178,
-  "_missing_token": true,
-  "_sha": "7208f262db14f07e95d034513917336db1967467",
-  "_size": 3429,
+  "_lastChecked": 1795642874,
+  "_history": [
+    {
+      "buildId": "26927321",
+      "branch": "public",
+      "timeUpdated": 1795628540,
+      "firstSeen": 1795642874,
+      "manifests": {
+        "4308631": {
+          "gid": "6648263785396903802",
+          "size": 291927148,
+          "download": 228768400
+        }
+      }
+    }
+  ],
+  "_change_number": 41481366,
+  "_missing_token": false,
+  "_sha": "5b7af0470634130a13b064d547941831d0bd5d3a",
+  "_size": 4596,
   "appid": "4308630",
   "common": {
     "associations": {
@@ -31,6 +45,7 @@
     },
     "clienticon": "33d962086c1919c9fb3659cc58d00a2c7de497ec",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -38,7 +53,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4308630",
     "genres": {
       "0": "23"
@@ -108,10 +122,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "50bfef4f9e7d5200ac2185c2ba5185f39e71634f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795633290",
     "store_asset_mtime": "1793738327",
     "store_tags": {
       "0": "5186",
@@ -160,5 +175,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dopamine rogue",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Dopamine.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4308631": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "228768400",
+          "gid": "6648263785396903802",
+          "size": "291927148"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,french,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26927321",
+        "timebuildupdated": "1795628538",
+        "timeupdated": "1795628540"
+      }
+    },
+    "hasdepotsindlc": "0"
+  },
+  "extended": {
+    "developer": "Ctrl+Art",
+    "homepage": "https://ctrlart.com.br",
+    "publisher": "Ctrl+Art"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "90000000",
+    "savefiles": {
+      "0": {
+        "path": "DopamineRogue",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794377704,
-  "_history": [],
-  "_change_number": 40595514,
-  "_missing_token": true,
-  "_sha": "03bcb645825b3906f027143e401008913a99692f",
-  "_size": 2924,
+  "_lastChecked": 1795642884,
+  "_history": [
+    {
+      "buildId": "26926787",
+      "branch": "public",
+      "timeUpdated": 1795627158,
+      "firstSeen": 1795642884,
+      "manifests": {
+        "4847771": {
+          "gid": "8270299145243331251",
+          "size": 234455731,
+          "download": 72234032
+        }
+      }
+    }
+  ],
+  "_change_number": 41482006,
+  "_missing_token": false,
+  "_sha": "2aed931dc2f0a15d68841343cdd43273d9874be8",
+  "_size": 3810,
   "appid": "4847770",
   "common": {
     "associations": {
@@ -29,9 +43,9 @@
     },
     "clienticon": "1c5191199da7949ddaefda8f5e1c571072737c2e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4847770",
     "genres": {
       "0": "1",
@@ -102,7 +116,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "5b7ef33eed517ddfe69242c11a697e94c7c7187b/capsule_231x87.jpg"
     },
@@ -132,5 +146,54 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "NULLVECTOR",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Play Nullvector",
+        "description_loc": {
+          "english": "Play Nullvector"
+        },
+        "executable": "nullvector.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4847771": {
+      "manifests": {
+        "public": {
+          "download": "72234032",
+          "gid": "8270299145243331251",
+          "size": "234455731"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26926787",
+        "timebuildupdated": "1795627134",
+        "timeupdated": "1795627158"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Ceso Games",
+    "publisher": "Ceso Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "cesogames/nullvector",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

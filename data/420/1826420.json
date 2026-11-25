@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1795595438,
+  "_lastChecked": 1795642855,
   "_history": [
     {
       "buildId": "26813249",
@@ -132,10 +132,10 @@
       }
     }
   ],
-  "_change_number": 41457890,
+  "_change_number": 41480233,
   "_missing_token": false,
-  "_sha": "34e66844998bc3d7f397da3a25fbb48886a84cd4",
-  "_size": 7978,
+  "_sha": "f2fd140ff6730ead8a2ff40e21bf895d6a3e56cf",
+  "_size": 8581,
   "appid": "1826420",
   "common": {
     "aicontenttype": "1",
@@ -157,6 +157,8 @@
       "category_36": "1",
       "category_38": "1",
       "category_49": "1",
+      "category_52": "1",
+      "category_53": "1",
       "category_55": "1",
       "category_56": "1",
       "category_57": "1",
@@ -247,12 +249,15 @@
       }
     },
     "name": "CarX Drift Racing Online 2",
+    "openvrsupport": "1",
     "osarch": "64",
     "osextended": "",
     "oslist": "windows",
+    "othervrsupport": "1",
+    "othervrsupport_rift_13": "1",
     "primary_genre": "28",
     "releasestate": "released",
-    "review_percentage": "74",
+    "review_percentage": "75",
     "review_score": "6",
     "small_capsule": {
       "english": "0f8a23b3925bbea0c41dd236d46bf24bbc332574/capsule_231x87.jpg"
@@ -365,9 +370,11 @@
     "supported_languages": {
       "english": {
         "full_audio": "true",
+        "subtitles": "true",
         "supported": "true"
       },
       "russian": {
+        "subtitles": "true",
         "supported": "true"
       }
     },
@@ -389,6 +396,26 @@
         },
         "executable": "CarX Drift Racing Online 2.exe",
         "type": "config"
+      },
+      "2": {
+        "arguments": "-oculus",
+        "config": {
+          "betakey": "dev-build-qa",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "CarX Drift Racing Online 2.exe",
+        "type": "othervr"
+      },
+      "3": {
+        "arguments": "-steamxr",
+        "config": {
+          "betakey": "dev-build-qa",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "CarX Drift Racing Online 2.exe",
+        "type": "vr"
       }
     }
   },

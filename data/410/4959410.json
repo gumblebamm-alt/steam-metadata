@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793252973,
-  "_history": [],
-  "_change_number": 40355233,
-  "_missing_token": true,
-  "_sha": "0be5c0e7db6790c3b02951c3a0e006227e4bcc62",
-  "_size": 3120,
+  "_lastChecked": 1795642886,
+  "_history": [
+    {
+      "buildId": "26914920",
+      "branch": "public",
+      "timeUpdated": 1795593969,
+      "firstSeen": 1795642886,
+      "manifests": {
+        "4959412": {
+          "gid": "2562268950025047943",
+          "size": 80701483,
+          "download": 72874896
+        },
+        "4959413": {
+          "gid": "3454613269937135567",
+          "size": 105083428,
+          "download": 80047312
+        }
+      }
+    }
+  ],
+  "_change_number": 41485563,
+  "_missing_token": false,
+  "_sha": "f894a8007c93f26f68879e3081fc8bafa5c7b1de",
+  "_size": 4571,
   "appid": "4959410",
   "common": {
     "associations": {
@@ -33,9 +52,9 @@
     },
     "clienticon": "8f2dd5243f2d4f772e1cba1e0b2a1cd9270617cc",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4959410",
     "genres": {
       "0": "1",
@@ -107,7 +126,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9f054d27de90fbaab2698c1a712290c85bea3e85/capsule_231x87.jpg"
     },
@@ -136,5 +155,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Valkyrja",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Valkyrja.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Valkyrja.app"
+      }
+    }
+  },
+  "depots": {
+    "4959412": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "72874896",
+          "gid": "2562268950025047943",
+          "size": "80701483"
+        }
+      }
+    },
+    "4959413": {
+      "config": {
+        "language": "english",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "80047312",
+          "gid": "3454613269937135567",
+          "size": "105083428"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26914920",
+        "timebuildupdated": "1795593967",
+        "timeupdated": "1795593969"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "BeeSpell",
+    "publisher": "BeeSpell"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Valkyria/{64BitSteamID}",
+            "replace": "com.beespell.valkyrja"
+          }
+        },
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Valkyria/{64BitSteamID}",
+        "pattern": "save.vlk",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }
