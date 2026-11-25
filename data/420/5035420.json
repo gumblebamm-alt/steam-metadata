@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795478023,
-  "_history": [],
-  "_change_number": 41385930,
-  "_missing_token": true,
-  "_sha": "e9b673a36901405639b49d69e65c21126dee0db9",
-  "_size": 3556,
+  "_lastChecked": 1795595458,
+  "_history": [
+    {
+      "buildId": "26915206",
+      "branch": "public",
+      "timeUpdated": 1795594960,
+      "firstSeen": 1795595458,
+      "manifests": {
+        "5035421": {
+          "gid": "3458946793456691993",
+          "size": 288255570,
+          "download": 237701760
+        }
+      }
+    }
+  ],
+  "_change_number": 41458265,
+  "_missing_token": false,
+  "_sha": "2c5bc8bc5f074223e710185fafdfaee0fd18c726",
+  "_size": 4789,
   "appid": "5035420",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +45,8 @@
     },
     "clienticon": "1aee0a91c3f087f89263f69262ca0ca4e783ba39",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5035420",
     "genres": {
       "0": "4",
@@ -114,11 +128,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f331364c135017d27657f7c17c6f693f2bc9d4f9/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1795426162",
+    "steam_release_date": "1796025600",
+    "store_asset_mtime": "1795431552",
     "store_tags": {
       "0": "1320952",
       "1": "615955",
@@ -167,5 +182,74 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Sia Desktop Pet",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Sia.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5035421": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "237701760",
+          "gid": "3458946793456691993",
+          "size": "288255570"
+        }
+      }
+    },
+    "5035422": {
+      "config": {
+        "oslist": "macos"
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26915206",
+        "timebuildupdated": "1795594911",
+        "timeupdated": "1795594960"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "akarolls",
+    "homepage": "https://sia.ai.kr/",
+    "publisher": "akarolls"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "NuttyPet",
+        "pattern": "stats.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "NuttyPet",
+        "pattern": "lang.txt",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

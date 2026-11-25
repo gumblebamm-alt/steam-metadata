@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1795559133,
+  "_lastChecked": 1795595444,
   "_history": [
     {
       "buildId": "17842116",
@@ -52,12 +52,35 @@
           "download": 331024496
         }
       }
+    },
+    {
+      "buildId": "26907647",
+      "branch": "public",
+      "timeUpdated": 1795565230,
+      "firstSeen": 1795595444,
+      "manifests": {
+        "3398941": {
+          "gid": "1291980303720628386",
+          "size": 1120224539,
+          "download": 331024496
+        },
+        "3398942": {
+          "gid": "495694305815269301",
+          "size": 1106151472,
+          "download": 333738176
+        },
+        "3398943": {
+          "gid": "488532343583172306",
+          "size": 1132782042,
+          "download": 341124864
+        }
+      }
     }
   ],
-  "_change_number": 41435723,
+  "_change_number": 41450021,
   "_missing_token": false,
-  "_sha": "23fc7b184082fcbec3998204fe04b847486bce65",
-  "_size": 5462,
+  "_sha": "c40b44c81e5c00714ac6e7c1b1b1027d57a74db2",
+  "_size": 6482,
   "appid": "3398940",
   "common": {
     "associations": {
@@ -86,6 +109,7 @@
       "category_62": "1",
       "category_9": "1"
     },
+    "clienticns": "094135c5efa4963f09f7cd1e3016b86966056349",
     "clienticon": "495fa50024bbde86ed39360f8f6ce68860021620",
     "clienttga": "a1e5bf52eed97586e31913396e0ef49236de2da6",
     "community_hub_visible": "1",
@@ -176,10 +200,12 @@
         }
       }
     },
+    "linuxclienticon": "6bb34c9065dce8f84d752a25fa0f61dd8867a91b",
     "name": "WayPoint",
     "osarch": "64",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,macos,linux",
     "primary_genre": "2",
     "releasestate": "released",
     "small_capsule": {
@@ -274,6 +300,13 @@
     "type": "Game"
   },
   "config": {
+    "app_mappings": {
+      "0": {
+        "branch": "default",
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
     "installdir": "WAYPOINT",
     "launch": {
       "0": {
@@ -283,9 +316,25 @@
         },
         "executable": "WayPoint.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "WayPoint.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "WayPoint.x86_64",
+        "type": "default"
       }
     },
     "steamconfigurator3rdpartynative": "3",
+    "steamcontrollertemplateindex": "4",
     "steamdecktouchscreen": "1"
   },
   "depots": {
@@ -302,15 +351,41 @@
         }
       }
     },
-    "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,turkish,ukrainian,latam",
-    "branches": {
-      "public": {
-        "buildid": "26899079",
-        "timebuildupdated": "1795539359",
-        "timeupdated": "1795539453"
+    "3398942": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "333738176",
+          "gid": "495694305815269301",
+          "size": "1106151472"
+        }
       }
     },
-    "privatebranches": "1"
+    "3398943": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "341124864",
+          "gid": "488532343583172306",
+          "size": "1132782042"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,tchinese,thai,turkish,ukrainian",
+    "branches": {
+      "public": {
+        "buildid": "26907647",
+        "timebuildupdated": "1795565010",
+        "timeupdated": "1795565230"
+      }
+    },
+    "hasdepotsindlc": "1"
   },
   "extended": {
     "developer": "GGA-S",

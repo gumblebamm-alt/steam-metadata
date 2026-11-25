@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1795120524,
+  "_lastChecked": 1795595445,
   "_history": [
     {
       "buildId": "26772773",
@@ -13,12 +13,30 @@
           "download": 144754288
         }
       }
+    },
+    {
+      "buildId": "26913749",
+      "branch": "public",
+      "timeUpdated": 1795589265,
+      "firstSeen": 1795595445,
+      "manifests": {
+        "3674071": {
+          "gid": "5147608663649652277",
+          "size": 499555593,
+          "download": 144754272
+        },
+        "3674072": {
+          "gid": "9035666779032635921",
+          "size": 536827999,
+          "download": 158442448
+        }
+      }
     }
   ],
-  "_change_number": 41267333,
+  "_change_number": 41455610,
   "_missing_token": false,
-  "_sha": "67927bf167ba4643d0dab4b7be41fc1577e4f74e",
-  "_size": 4362,
+  "_sha": "56f43d6ef059a2f1223edbb162d4c21bf0ec66d8",
+  "_size": 4789,
   "appid": "3674070",
   "common": {
     "associations": {
@@ -116,8 +134,9 @@
     "linuxclienticon": "cfdc5534a9f8256eb9cf743630dbf1162bea6a7a",
     "name": "Iona's Island",
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64",
+    "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
     "small_capsule": {
@@ -160,7 +179,16 @@
     "installdir": "Iona's Island",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "IonasIsland.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "IonaMacBuild.app"
       }
     }
   },
@@ -180,19 +208,34 @@
       "sharedinstall": "1"
     },
     "3674071": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "144754288",
-          "gid": "6017787313133045799",
-          "size": "499555545"
+          "download": "144754272",
+          "gid": "5147608663649652277",
+          "size": "499555593"
+        }
+      }
+    },
+    "3674072": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "158442448",
+          "gid": "9035666779032635921",
+          "size": "536827999"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26772773",
-        "timebuildupdated": "1795049084",
-        "timeupdated": "1795049148"
+        "buildid": "26913749",
+        "timebuildupdated": "1795589219",
+        "timeupdated": "1795589265"
       }
     },
     "hasdepotsindlc": "0"

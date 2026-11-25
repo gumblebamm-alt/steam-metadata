@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793688524,
-  "_history": [],
-  "_change_number": 40529892,
-  "_missing_token": true,
-  "_sha": "201e4099ef1c8b0827cfccbd1097514e8180180d",
-  "_size": 3211,
+  "_lastChecked": 1795595458,
+  "_history": [
+    {
+      "buildId": "26913521",
+      "branch": "public",
+      "timeUpdated": 1795588232,
+      "firstSeen": 1795595458,
+      "manifests": {
+        "5013701": {
+          "gid": "2210248779248272614",
+          "size": 798393277,
+          "download": 551802256
+        }
+      }
+    }
+  ],
+  "_change_number": 41455203,
+  "_missing_token": false,
+  "_sha": "4bbcfcaaea14725766d53e5b61e526fc57678ff0",
+  "_size": 4432,
   "appid": "5013700",
   "common": {
     "aicontenttype": "1",
@@ -21,11 +35,13 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_28": "1",
       "category_62": "1"
     },
     "clienticon": "5fa9dfeb8762e76d81d8eca095e771fa211863b4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -34,7 +50,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5013700",
     "genres": {
       "0": "25",
@@ -110,10 +125,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "cbb841852d9e1e4df4b5db04266977e9fc76e298/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795567969",
     "store_asset_mtime": "1792627000",
     "store_tags": {
       "0": "122",
@@ -145,5 +161,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Get Nowhere",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "JIA.exe"
+      }
+    }
+  },
+  "depots": {
+    "5013701": {
+      "manifests": {
+        "public": {
+          "download": "551802256",
+          "gid": "2210248779248272614",
+          "size": "798393277"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26913521",
+        "timebuildupdated": "1795588190",
+        "timeupdated": "1795588232"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "码码不在家",
+    "publisher": "码码不在家"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "RenPy/无人归家/",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "RenPy/无人归家/",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "recursive": "1",
+        "root": "MacAppSupport"
+      },
+      "2": {
+        "path": ".renpy/无人归家/",
+        "pattern": "*.*",
+        "platforms": {
+          "1": "Linux"
+        },
+        "recursive": "1",
+        "root": "LinuxHome"
+      }
+    }
+  }
 }

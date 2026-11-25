@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1795514000,
-  "_history": [],
-  "_change_number": 41380785,
-  "_missing_token": true,
-  "_sha": "654d0678459e95c4016fd00426b11f092b5f648d",
-  "_size": 3297,
+  "_lastChecked": 1795595451,
+  "_history": [
+    {
+      "buildId": "26864523",
+      "branch": "public",
+      "timeUpdated": 1795427976,
+      "firstSeen": 1795595451,
+      "manifests": {
+        "4382961": {
+          "gid": "220973738484312427",
+          "size": 1686279337,
+          "download": 762712768
+        }
+      }
+    },
+    {
+      "buildId": "26864523",
+      "branch": "testing",
+      "timeUpdated": 1795427813,
+      "firstSeen": 1795595451,
+      "manifests": {
+        "4382961": {
+          "gid": "220973738484312427",
+          "size": 1686279337,
+          "download": 762712768
+        }
+      }
+    }
+  ],
+  "_change_number": 41455947,
+  "_missing_token": false,
+  "_sha": "1384b268f6ee30067a72782afffcf4e98bb72576",
+  "_size": 4553,
   "appid": "4382960",
   "common": {
     "associations": {
@@ -38,9 +65,9 @@
     },
     "clienticon": "bf7d3d3e9d7a18c720b21e855f07b5f9fd406877",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4382960",
     "genres": {
       "0": "1",
@@ -115,10 +142,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8a4bd8b7ee0cf49f45bc390345a382d76daaf24f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795590103",
     "store_asset_mtime": "1790084203",
     "store_tags": {
       "0": "3843",
@@ -151,5 +179,64 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Snackrifice",
+    "launch": {
+      "0": {
+        "executable": "Snackrifice.exe",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65535",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4382961": {
+      "manifests": {
+        "public": {
+          "download": "762712768",
+          "gid": "220973738484312427",
+          "size": "1686279337"
+        },
+        "testing": {
+          "download": "762712768",
+          "gid": "220973738484312427",
+          "size": "1686279337"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26864523",
+        "timebuildupdated": "1795427813",
+        "timeupdated": "1795427976"
+      },
+      "testing": {
+        "buildid": "26864523",
+        "description": "Testing",
+        "timebuildupdated": "1795427813",
+        "timeupdated": "1795427813"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Karnage Studios",
+    "homepage": "https://www.karnagestudios.com/#snackrifice",
+    "publisher": "Karnage Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Save/{64BitSteamID}",
+        "pattern": "*.sav",
+        "recursive": "1",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

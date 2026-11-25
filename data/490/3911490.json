@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794598862,
-  "_history": [],
-  "_change_number": 40914776,
-  "_missing_token": true,
-  "_sha": "272d7c8c40eb92148ef8bc1cf671660888247eeb",
-  "_size": 4142,
+  "_lastChecked": 1795595446,
+  "_history": [
+    {
+      "buildId": "26893816",
+      "branch": "public",
+      "timeUpdated": 1795525895,
+      "firstSeen": 1795595446,
+      "manifests": {
+        "3911491": {
+          "gid": "1488910004546053901",
+          "size": 2247001989,
+          "download": 587190496
+        },
+        "3911492": {
+          "gid": "8067034533482994267",
+          "size": 0,
+          "download": 0
+        }
+      }
+    }
+  ],
+  "_change_number": 41457596,
+  "_missing_token": false,
+  "_sha": "dc731d534eeb4774c5faffcc052c030f7ed68ab3",
+  "_size": 6953,
   "appid": "3911490",
   "common": {
     "associations": {
@@ -37,9 +56,9 @@
     "clienticon": "6aec2aebf5d3ffc9d75647d31b4393f3f31a5fda",
     "clienttga": "0ca688f0cfe8272dd64248bdce65416ddbe12571",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3911490",
     "genres": {
       "0": "23",
@@ -51,6 +70,10 @@
       "schinese": "534de80e5ff19219f056bb3c759adf4d8edb92f8/header_schinese.jpg"
     },
     "icon": "bc212c63463a865afdebb69ee5b5ae2f926273f9",
+    "languages": {
+      "english": "1",
+      "schinese": "1"
+    },
     "library_assets": {
       "library_capsule": "en,zh-cn",
       "library_header": "en,zh-cn",
@@ -120,11 +143,77 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a4e7879d1d304f895a8ded2e5b2b708471dc93af/capsule_231x87.jpg",
       "schinese": "ddb69a1ce10cf4e7c330ce17f4113f2bb8bed3fb/capsule_231x87_schinese.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "1",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-11.0-3RC",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "1",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        }
+      },
+      "test_timestamp": "1795097681",
+      "tested_build_id": "26688038",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1795593722",
     "store_asset_mtime": "1784554005",
     "store_tags": {
       "0": "1091588",
@@ -168,5 +257,50 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Forge the Fates",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Forge the Fates.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3911491": {
+      "manifests": {
+        "public": {
+          "download": "587190496",
+          "gid": "1488910004546053901",
+          "size": "2247001989"
+        }
+      }
+    },
+    "3911492": {
+      "manifests": {
+        "public": {
+          "download": "0",
+          "gid": "8067034533482994267",
+          "size": "0"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26893816",
+        "timebuildupdated": "1795525845",
+        "timeupdated": "1795525895"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Chaos Logic Studios",
+    "homepage": "https://www.chaoslogicstudios.com/",
+    "publisher": "Surefire.Games"
+  }
 }

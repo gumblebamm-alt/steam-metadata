@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795033875,
-  "_history": [],
-  "_change_number": 41206492,
-  "_missing_token": true,
-  "_sha": "cc03be3432d2230324d0608614b0d92c2b6260f9",
-  "_size": 3066,
+  "_lastChecked": 1795595461,
+  "_history": [
+    {
+      "buildId": "26915115",
+      "branch": "public",
+      "timeUpdated": 1795594750,
+      "firstSeen": 1795595461,
+      "manifests": {
+        "5196731": {
+          "gid": "5839150719091582444",
+          "size": 283095232,
+          "download": 100229328
+        }
+      }
+    }
+  ],
+  "_change_number": 41458253,
+  "_missing_token": false,
+  "_sha": "82cb11b5a13502393e013bd56275d1f4cdd0e0cf",
+  "_size": 4285,
   "appid": "5196730",
   "common": {
     "associations": {
@@ -30,9 +44,17 @@
     },
     "clienticon": "1f0aaf0c656c67e129538a5b9001fcd6efec6815",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
+    "eulas": {
+      "0": {
+        "id": "5196730_eula_0",
+        "name": "Eldwyn's Dungeon Academy EULA",
+        "url": "https://store.steampowered.com/eula/5196730_eula_0",
+        "version": "2"
+      }
+    },
     "gameid": "5196730",
     "genres": {
       "0": "1",
@@ -104,10 +126,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b5b1badc829c86e6f051dd34eec6eec394166969/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795594932",
     "store_asset_mtime": "1794706534",
     "store_tags": {
       "0": "4106",
@@ -137,5 +160,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Eldwyn's Dungeon Academy",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Eldwyns-Dungeon-Academy.steam.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Eldwyns-Dungeon-Academy.steam.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5196731": {
+      "manifests": {
+        "public": {
+          "download": "100229328",
+          "gid": "5839150719091582444",
+          "size": "283095232"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26915115",
+        "timebuildupdated": "1795594651",
+        "timeupdated": "1795594750"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Dragon's Isle Software",
+    "publisher": "Dragon's Isle Software"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "400000000",
+    "savefiles": {
+      "0": {
+        "path": "Saves/{64BitSteamID}",
+        "pattern": "*",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

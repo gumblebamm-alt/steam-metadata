@@ -1,10 +1,37 @@
 {
-  "_lastChecked": 1795158844,
-  "_history": [],
-  "_change_number": 41286428,
-  "_missing_token": true,
-  "_sha": "b851f24f9a51e50da9b70e08984bfbb6a7151751",
-  "_size": 3282,
+  "_lastChecked": 1795595459,
+  "_history": [
+    {
+      "buildId": "26892626",
+      "branch": "public",
+      "timeUpdated": 1795522954,
+      "firstSeen": 1795595459,
+      "manifests": {
+        "5062971": {
+          "gid": "3737306947244845187",
+          "size": 149457661,
+          "download": 65131168
+        }
+      }
+    },
+    {
+      "buildId": "26892626",
+      "branch": "release-candidate",
+      "timeUpdated": 1795522570,
+      "firstSeen": 1795595459,
+      "manifests": {
+        "5062971": {
+          "gid": "3737306947244845187",
+          "size": 149457661,
+          "download": 65131168
+        }
+      }
+    }
+  ],
+  "_change_number": 41453014,
+  "_missing_token": false,
+  "_sha": "ff3e95e6021bc167d42e79967fa81989560f73ef",
+  "_size": 4752,
   "appid": "5062970",
   "common": {
     "aicontenttype": "1",
@@ -28,8 +55,8 @@
     },
     "clienticon": "b0e309108aa80ba90001b7106d39e583dbf30f62",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5062970",
     "genres": {
       "0": "4",
@@ -106,10 +133,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c24bd910095e983d5d86b3f4d218973a746c5241/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795581931",
     "store_asset_mtime": "1795141769",
     "store_tags": {
       "0": "597",
@@ -148,5 +176,72 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Incremental Pachinko Heaven",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Incremental Pachinko Heaven.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5062971": {
+      "manifests": {
+        "public": {
+          "download": "65131168",
+          "gid": "3737306947244845187",
+          "size": "149457661"
+        },
+        "release-candidate": {
+          "download": "65131168",
+          "gid": "3737306947244845187",
+          "size": "149457661"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26892626",
+        "timebuildupdated": "1795522570",
+        "timeupdated": "1795522954"
+      },
+      "release-candidate": {
+        "buildid": "26892626",
+        "description": "Prerelease",
+        "timebuildupdated": "1795522570",
+        "timeupdated": "1795522570"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Meitei Games",
+    "publisher": "Meitei Games"
+  },
+  "ufs": {
+    "maxnumfiles": "64",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Incremental Pachinko Heaven",
+        "pattern": "save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Incremental Pachinko Heaven",
+        "pattern": "save.json.bak",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Incremental Pachinko Heaven",
+        "pattern": "tutorials.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

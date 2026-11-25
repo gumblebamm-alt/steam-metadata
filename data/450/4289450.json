@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794598867,
+  "_lastChecked": 1795595450,
   "_history": [
     {
       "buildId": "26587806",
@@ -13,12 +13,30 @@
           "download": 524846096
         }
       }
+    },
+    {
+      "buildId": "26895729",
+      "branch": "public",
+      "timeUpdated": 1795530898,
+      "firstSeen": 1795595450,
+      "manifests": {
+        "4289451": {
+          "gid": "3153838962605071027",
+          "size": 1320744049,
+          "download": 525049456
+        },
+        "4289452": {
+          "gid": "4795162561661120282",
+          "size": 1367063379,
+          "download": 541865200
+        }
+      }
     }
   ],
-  "_change_number": 40828092,
+  "_change_number": 41428787,
   "_missing_token": false,
-  "_sha": "3bea8fa53410d40efacb600e5a50d21c2bc1b9a4",
-  "_size": 4461,
+  "_sha": "29ca52f0db252ee6917cb95ee6ca17c616441b43",
+  "_size": 5048,
   "appid": "4289450",
   "common": {
     "aicontenttype": "1",
@@ -119,6 +137,8 @@
     "oslist": "windows",
     "primary_genre": "2",
     "releasestate": "released",
+    "review_percentage": "89",
+    "review_score": "7",
     "small_capsule": {
       "english": "8dae3f58c6ffe10ff6d4177536f9281c3d749f31/capsule_231x87.jpg"
     },
@@ -176,7 +196,16 @@
     "installdir": "PegLotto!",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "PegLotto.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "PegLotto.app"
       }
     }
   },
@@ -187,18 +216,31 @@
       },
       "manifests": {
         "public": {
-          "download": "524846096",
-          "gid": "6425218681580680585",
-          "size": "1320454737"
+          "download": "525049456",
+          "gid": "3153838962605071027",
+          "size": "1320744049"
+        }
+      }
+    },
+    "4289452": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "541865200",
+          "gid": "4795162561661120282",
+          "size": "1367063379"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "26587806",
-        "timebuildupdated": "1794389581",
-        "timeupdated": "1794389609"
+        "buildid": "26895729",
+        "timebuildupdated": "1795530898",
+        "timeupdated": "1795530898"
       }
     },
     "nocommonredists": "1"
@@ -210,6 +252,15 @@
   "ufs": {
     "maxnumfiles": "100",
     "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "DefaultCompany/PegLotto",
