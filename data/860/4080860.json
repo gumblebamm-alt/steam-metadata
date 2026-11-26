@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1791506705,
+  "_lastChecked": 1795728637,
   "_history": [
     {
       "buildId": "25796022",
@@ -37,12 +37,88 @@
           "download": 37068704
         }
       }
+    },
+    {
+      "buildId": "26940009",
+      "branch": "prototype-multiplayer",
+      "timeUpdated": 1795671903,
+      "firstSeen": 1795728637,
+      "manifests": {
+        "4080861": {
+          "gid": "8877407783734759598",
+          "size": 370122525,
+          "download": 118662736
+        },
+        "4080862": {
+          "gid": "8376291434611569955",
+          "size": 344459412,
+          "download": 110943456
+        },
+        "4978650": {
+          "gid": "2387307135916887424",
+          "size": 38474645,
+          "download": 37040352
+        },
+        "4978651": {
+          "gid": "6415452130884380656",
+          "size": 38475215,
+          "download": 37046048
+        },
+        "5071060": {
+          "gid": "1085619524443432559",
+          "size": 722493176,
+          "download": 553615456
+        },
+        "5071061": {
+          "gid": "1562025828063310562",
+          "size": 722493008,
+          "download": 553629328
+        }
+      }
+    },
+    {
+      "buildId": "26940009",
+      "branch": "public",
+      "timeUpdated": 1795683715,
+      "firstSeen": 1795728637,
+      "manifests": {
+        "4080861": {
+          "gid": "8877407783734759598",
+          "size": 370122525,
+          "download": 118662736
+        },
+        "4080862": {
+          "gid": "8376291434611569955",
+          "size": 344459412,
+          "download": 110943456
+        },
+        "4978650": {
+          "gid": "2387307135916887424",
+          "size": 38474645,
+          "download": 37040352
+        },
+        "4978651": {
+          "gid": "6415452130884380656",
+          "size": 38475215,
+          "download": 37046048
+        },
+        "5071060": {
+          "gid": "1085619524443432559",
+          "size": 722493176,
+          "download": 553615456
+        },
+        "5071061": {
+          "gid": "1562025828063310562",
+          "size": 722493008,
+          "download": 553629328
+        }
+      }
     }
   ],
-  "_change_number": 39612744,
+  "_change_number": 41505819,
   "_missing_token": false,
-  "_sha": "cb7bb1bf8d71162aab3c8898fb88b8b5a45735c0",
-  "_size": 4888,
+  "_sha": "7e775c03aa5c0984151a5cad4d8cb492f5970159",
+  "_size": 6444,
   "appid": "4080860",
   "common": {
     "associations": {
@@ -145,8 +221,9 @@
       "japanese": "HIROYU's Murder Mystery：マーダーミステリー セッションツール"
     },
     "osarch": "",
+    "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,macos",
     "primary_genre": "25",
     "releasestate": "released",
     "small_capsule": {
@@ -202,6 +279,13 @@
         },
         "executable": "HIROYU's Murder Mystery.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "HIROYU's Murder Mystery.app",
+        "type": "default"
       }
     }
   },
@@ -212,14 +296,31 @@
       },
       "manifests": {
         "prototype-multiplayer": {
-          "download": "133594800",
-          "gid": "8977815956068133518",
-          "size": "414929745"
+          "download": "118662736",
+          "gid": "8877407783734759598",
+          "size": "370122525"
         },
         "public": {
-          "download": "117100096",
-          "gid": "5819048000483348193",
-          "size": "364934195"
+          "download": "118662736",
+          "gid": "8877407783734759598",
+          "size": "370122525"
+        }
+      }
+    },
+    "4080862": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "prototype-multiplayer": {
+          "download": "110943456",
+          "gid": "8376291434611569955",
+          "size": "344459412"
+        },
+        "public": {
+          "download": "110943456",
+          "gid": "8376291434611569955",
+          "size": "344459412"
         }
       }
     },
@@ -230,29 +331,83 @@
       "dlcappid": "4978650",
       "manifests": {
         "prototype-multiplayer": {
-          "download": "37068704",
-          "gid": "5414189824427531918",
-          "size": "38474305"
+          "download": "37040352",
+          "gid": "2387307135916887424",
+          "size": "38474645"
         },
         "public": {
-          "download": "37057600",
-          "gid": "6651212888566090237",
-          "size": "38474261"
+          "download": "37040352",
+          "gid": "2387307135916887424",
+          "size": "38474645"
+        }
+      }
+    },
+    "4978651": {
+      "config": {
+        "oslist": "macos"
+      },
+      "dlcappid": "4978650",
+      "manifests": {
+        "prototype-multiplayer": {
+          "download": "37046048",
+          "gid": "6415452130884380656",
+          "size": "38475215"
+        },
+        "public": {
+          "download": "37046048",
+          "gid": "6415452130884380656",
+          "size": "38475215"
+        }
+      }
+    },
+    "5071060": {
+      "config": {
+        "oslist": "windows"
+      },
+      "dlcappid": "5071060",
+      "manifests": {
+        "prototype-multiplayer": {
+          "download": "553615456",
+          "gid": "1085619524443432559",
+          "size": "722493176"
+        },
+        "public": {
+          "download": "553615456",
+          "gid": "1085619524443432559",
+          "size": "722493176"
+        }
+      }
+    },
+    "5071061": {
+      "config": {
+        "oslist": "macos"
+      },
+      "dlcappid": "5071060",
+      "manifests": {
+        "prototype-multiplayer": {
+          "download": "553629328",
+          "gid": "1562025828063310562",
+          "size": "722493008"
+        },
+        "public": {
+          "download": "553629328",
+          "gid": "1562025828063310562",
+          "size": "722493008"
         }
       }
     },
     "baselanguages": "english,japanese,koreana,schinese",
     "branches": {
       "prototype-multiplayer": {
-        "buildid": "25748987",
+        "buildid": "26940009",
         "description": "マルチプレイテスト用",
-        "timebuildupdated": "1791281387",
-        "timeupdated": "1791284282"
+        "timebuildupdated": "1795671564",
+        "timeupdated": "1795671903"
       },
       "public": {
-        "buildid": "25796022",
-        "timebuildupdated": "1791436922",
-        "timeupdated": "1791437333"
+        "buildid": "26940009",
+        "timebuildupdated": "1795671564",
+        "timeupdated": "1795683715"
       }
     }
   },
@@ -260,7 +415,7 @@
     "developer": "ひろゆ～",
     "dlcavailableonstore": "1",
     "isfreeapp": "1",
-    "listofdlc": "4978650",
+    "listofdlc": "4978650,5071060",
     "publisher": "ひろゆ～"
   }
 }

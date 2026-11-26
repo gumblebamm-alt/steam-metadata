@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1792945190,
-  "_history": [],
-  "_change_number": 40223595,
-  "_missing_token": true,
-  "_sha": "5623f28cd35c55ce49aa0ad6a72fa3389dd613fa",
-  "_size": 4503,
+  "_lastChecked": 1795728631,
+  "_history": [
+    {
+      "buildId": "26957055",
+      "branch": "public",
+      "timeUpdated": 1795727123,
+      "firstSeen": 1795728631,
+      "manifests": {
+        "3571941": {
+          "gid": "6038027736616527068",
+          "size": 522534774,
+          "download": 429483520
+        }
+      }
+    }
+  ],
+  "_change_number": 41532443,
+  "_missing_token": false,
+  "_sha": "53aaa894ac0976a4a195b98755b1a685d590abe3",
+  "_size": 5728,
   "appid": "3571940",
   "common": {
     "aicontenttype": "1",
@@ -33,9 +47,9 @@
     "clienticon": "d4d74426121896cfb95cbb69d56762082e8d4ee1",
     "clienttga": "8c2e4187d1fcec0474f468a65570755ef15c86b7",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3571940",
     "genres": {
       "0": "1",
@@ -124,7 +138,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "57088852a3a10668de568916a650cf69e03a84e2/capsule_231x87.jpg"
     },
@@ -215,5 +229,72 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Demon of the time",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DemonOfTheTime.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3571941": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "429483520",
+          "gid": "6038027736616527068",
+          "size": "522534774"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26957055",
+        "timebuildupdated": "1795723662",
+        "timeupdated": "1795727123"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Whale Rock Games",
+    "homepage": "https://sites.google.com/whalerockgames.com/site/home",
+    "publisher": "Whale Rock Games"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "DemonOfTheTime/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

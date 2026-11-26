@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795642861,
-  "_history": [],
-  "_change_number": 41477387,
-  "_missing_token": true,
-  "_sha": "52a66bfe6620a3706c54dd150af50b296b8d08f6",
-  "_size": 3613,
+  "_lastChecked": 1795728626,
+  "_history": [
+    {
+      "buildId": "26947751",
+      "branch": "public",
+      "timeUpdated": 1795696981,
+      "firstSeen": 1795728626,
+      "manifests": {
+        "3039961": {
+          "gid": "669022477290995384",
+          "size": 3908871595,
+          "download": 346349856
+        }
+      }
+    }
+  ],
+  "_change_number": 41526486,
+  "_missing_token": false,
+  "_sha": "d91c7150e5c3d27a9ae6cab198155cbffc55e7cd",
+  "_size": 5014,
   "appid": "3039960",
   "common": {
     "associations": {
@@ -34,9 +48,9 @@
     "clienticon": "64e96b19aa24ec5d2755af4fbf283ea8e933de0c",
     "clienttga": "b88dea9afaffbc6b00f35c31e54ba5cfb5825396",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3039960",
     "genres": {
       "0": "1",
@@ -115,10 +129,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "898ba998531f674903809b739a102d19c2da771f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795716169",
     "store_asset_mtime": "1795625753",
     "store_tags": {
       "0": "5379",
@@ -166,5 +181,77 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Near The Sun",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "NearTheSun.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3039961": {
+      "manifests": {
+        "public": {
+          "download": "346349856",
+          "gid": "669022477290995384",
+          "size": "3908871595"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26947751",
+        "timebuildupdated": "1795696979",
+        "timeupdated": "1795696981"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Nonlinear",
+    "publisher": "Phoenixx Inc."
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Nonlinear/NearTheSun/",
+            "replace": "Nonlinear/NearTheSun"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Nonlinear/NearTheSun/",
+            "replace": ".config/unity3d/Nonlinear/NearTheSun"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Nonlinear/NearTheSun",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

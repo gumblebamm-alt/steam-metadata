@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1793908629,
-  "_history": [],
-  "_change_number": 40627163,
-  "_missing_token": true,
-  "_sha": "f85e1987d6d63af7e22c6306b119a292934192a0",
-  "_size": 3234,
+  "_lastChecked": 1795728630,
+  "_history": [
+    {
+      "buildId": "26919270",
+      "branch": "public",
+      "timeUpdated": 1795608056,
+      "firstSeen": 1795728630,
+      "manifests": {
+        "3479311": {
+          "gid": "1872455970936661813",
+          "size": 854758210,
+          "download": 180162720
+        },
+        "3479312": {
+          "gid": "6125054401982382749",
+          "size": 824727020,
+          "download": 172057888
+        }
+      }
+    }
+  ],
+  "_change_number": 41522327,
+  "_missing_token": false,
+  "_sha": "ca2536efe36ac35e41ace15e30a239fc7aa3b2d1",
+  "_size": 5059,
   "appid": "3479310",
   "common": {
     "associations": {
@@ -31,9 +50,9 @@
     "clienticon": "59a9533bd8759f486aeb6f3b598bee0c88b09a4e",
     "clienttga": "143f9bdbd06a5777f136b51a617a699377b8fe30",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3479310",
     "genres": {
       "0": "25",
@@ -109,10 +128,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "925ddaae5d3dfc14cff20d9f0583de1407d2d033/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795712416",
     "store_asset_mtime": "1792011837",
     "store_tags": {
       "0": "3877",
@@ -142,5 +162,104 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Pogo Witch",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "The Pogo Witch.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "The Pogo Witch.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3479311": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "180162720",
+          "gid": "1872455970936661813",
+          "size": "854758210"
+        }
+      }
+    },
+    "3479312": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "172057888",
+          "gid": "6125054401982382749",
+          "size": "824727020"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26919270",
+        "timebuildupdated": "1795607401",
+        "timeupdated": "1795608056"
+      }
+    }
+  },
+  "extended": {
+    "developer": "VLaDOS",
+    "publisher": "VLaDOS"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "20000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "VLaDOS Games\\The Pogo Witch",
+            "replace": "unity3d/VLaDOS Games/The Pogo Witch"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgConfigHome"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "LinuxXdgConfigHome",
+        "useinstead": "WinAppDataLocalLow"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "VLaDOS Games\\The Pogo Witch",
+        "pattern": "*dat",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

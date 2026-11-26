@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790901412,
+  "_lastChecked": 1795728620,
   "_history": [
     {
       "buildId": "25098992",
@@ -46,12 +46,35 @@
           "download": 112129136
         }
       }
+    },
+    {
+      "buildId": "26944055",
+      "branch": "public",
+      "timeUpdated": 1795686553,
+      "firstSeen": 1795728620,
+      "manifests": {
+        "2183901": {
+          "gid": "871088825188662216",
+          "size": 100644424857,
+          "download": 80366199760
+        },
+        "3202690": {
+          "gid": "5194980387845118191",
+          "size": 133144580718,
+          "download": 133442493072
+        },
+        "3212040": {
+          "gid": "7457655780363166458",
+          "size": 192137587,
+          "download": 112129136
+        }
+      }
     }
   ],
-  "_change_number": 39392842,
+  "_change_number": 41521795,
   "_missing_token": false,
-  "_sha": "04cb12727ae52a39a7ef80c2402d4d05d1271bac",
-  "_size": 17339,
+  "_sha": "22604b59442f7239d390b12588418994f6ca31d8",
+  "_size": 18251,
   "appid": "2183900",
   "common": {
     "associations": {
@@ -298,8 +321,38 @@
         }
       }
     },
+    "steam_frame_compatibility": {
+      "category": "1",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-11.0-3RC-arm64",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1795009121",
+      "tested_build_id": "26074365",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamFrame_TestResult_UnsupportedAntiCheatConfiguration"
+        }
+      }
+    },
     "steam_release_date": "1725898140",
-    "store_asset_mtime": "1790874201",
+    "store_asset_mtime": "1795711369",
     "store_tags": {
       "0": "1685",
       "1": "19",
@@ -313,8 +366,8 @@
       "17": "4175",
       "18": "4345",
       "19": "1775",
-      "2": "3859",
-      "3": "3814",
+      "2": "3814",
+      "3": "3859",
       "4": "6730",
       "5": "21",
       "6": "1697",
@@ -421,7 +474,7 @@
       "13": {
         "arguments": "--set \"/Config/Permissions/enablePermissionAntiCheat\" permit",
         "config": {
-          "betakey": "focus_test_dev, test_backend, test_backend, steam_dev_live, test_steam_dev, test_prod_dev, patch_steam_dev, test_bender, qualcomm, fe_hw_nvidia_temp",
+          "betakey": "test_backend, test_backend, steam_dev_live, test_steam_dev, test_prod_dev, patch_steam_dev, test_bender, qualcomm, fe_hw_nvidia_temp",
           "oslist": "windows"
         },
         "description": "Space Marine 2 Release EOS noEAC",
@@ -433,7 +486,7 @@
       },
       "14": {
         "config": {
-          "betakey": "focus_test_dev, test_backend,  steam_dev_live, test_steam_dev, test_prod_dev, patch_steam_dev",
+          "betakey": "test_backend,  steam_dev_live, test_steam_dev, test_prod_dev, patch_steam_dev",
           "oslist": "windows"
         },
         "description": "Space Marine 2 Retail EOS noEAC",
@@ -446,7 +499,7 @@
       "15": {
         "arguments": "--set \"/Config/Permissions/enablePermissionAntiCheat\" permit",
         "config": {
-          "betakey": "focus_test_dev, test_backend, steam_dev_live, test_steam_dev,  test_prod_dev, patch_steam_dev, test_bender, qualcomm, fe_hw_nvidia_temp",
+          "betakey": "test_backend, steam_dev_live, test_steam_dev,  test_prod_dev, patch_steam_dev, test_bender, qualcomm, fe_hw_nvidia_temp",
           "oslist": "windows"
         },
         "description": "Space Marine 2 Profile EOS noEAC",
@@ -482,7 +535,7 @@
       "28": {
         "arguments": "--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsProfile.json",
         "config": {
-          "betakey": "patch_steamfeats, test_prod_steamfeats, steam_features, test_steamdeck, steam_dev_live, test_backend, test_bender, test_steam_dev, focus_playtest, focus_prod_dev"
+          "betakey": "patch_steamfeats, test_prod_steamfeats, steam_features, test_steamdeck, steam_dev_live, test_backend, test_bender, test_steam_dev, focus_playtest, focus_prod_dev, focus_test_dev"
         },
         "description": "Space Marine 2 EAC Profile",
         "description_loc": {
@@ -494,7 +547,7 @@
       "29": {
         "arguments": "--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsRelease.json",
         "config": {
-          "betakey": "patch_steamfeats, test_prod_steamfeats, test_steam_dev, test_steamdeck, test_backend, test_bender, focus_playtest, focus_prod_dev, steam_dev_live"
+          "betakey": "patch_steamfeats, test_prod_steamfeats, test_steam_dev, test_steamdeck, test_backend, test_bender, focus_playtest, focus_prod_dev, steam_dev_live, focus_test_dev"
         },
         "description": "Space Marine 2 EAC Release",
         "description_loc": {
@@ -518,7 +571,7 @@
       "33": {
         "arguments": "--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsRetail.json",
         "config": {
-          "betakey": "test_prod_steamfeats, test_backend, patch_steamfeats, test_steamdeck, test_bender, focus_playtest, focus_prod_dev, test_steam_dev"
+          "betakey": "test_prod_steamfeats, test_backend, patch_steamfeats, test_steamdeck, test_bender, focus_playtest, focus_prod_dev, test_steam_dev, focus_test_dev"
         },
         "description": "Space Marine 2 EAC Retail",
         "description_loc": {
@@ -551,7 +604,7 @@
       },
       "7": {
         "config": {
-          "betakey": "focus_marketing_recording, focus_playtest, fe_pgw, focus_prod_raw",
+          "betakey": "focus_marketing_recording, focus_playtest, fe_pgw, focus_prod_raw, test_steam_dev",
           "oslist": "windows"
         },
         "description": "Retail Launcher",
@@ -591,9 +644,9 @@
     "2183901": {
       "manifests": {
         "public": {
-          "download": "79277969200",
-          "gid": "49266872782379763",
-          "size": "99202150094"
+          "download": "80366199760",
+          "gid": "871088825188662216",
+          "size": "100644424857"
         }
       }
     },
@@ -608,9 +661,9 @@
       "dlcappid": "3202690",
       "manifests": {
         "public": {
-          "download": "131553658496",
-          "gid": "1383539726862428407",
-          "size": "131137882533"
+          "download": "133442493072",
+          "gid": "5194980387845118191",
+          "size": "133144580718"
         }
       }
     },
@@ -627,9 +680,9 @@
     "baselanguages": "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,czech,turkish,brazilian,ukrainian,latam",
     "branches": {
       "public": {
-        "buildid": "25648340",
-        "timebuildupdated": "1790844952",
-        "timeupdated": "1790844952"
+        "buildid": "26944055",
+        "timebuildupdated": "1795686553",
+        "timeupdated": "1795686553"
       }
     },
     "privatebranches": "1",
@@ -639,7 +692,7 @@
     "developer": "Saber Interactive",
     "dlcavailableonstore": "1",
     "homepage": "https://community.focus-entmt.com/focus-entertainment/space-marine-2?utm_source=Steam&amp;utm_medium=StorePage_SM2&amp;utm_campaign=Organic",
-    "listofdlc": "2486150,2792140,2792150,2792170,2792180,2792190,2792280,3202690,3212040,3274400,3274410,3274430,3274440,3871320,3871330,3871340,3871350,3871360,3871370,3871380,3871390,3871400,3871410,4247850,4997640,4997650,4997770",
+    "listofdlc": "2486150,2792140,2792150,2792170,2792180,2792190,2792280,3202690,3212040,3274400,3274410,3274430,3274440,3871320,3871330,3871340,3871350,3871360,3871370,3871380,3871390,3871400,3871410,4247850,4997640,4997650,4997660,4997670,4997770",
     "publisher": "Focus Entertainment"
   },
   "ufs": {

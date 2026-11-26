@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795642882,
-  "_history": [],
-  "_change_number": 41472721,
-  "_missing_token": true,
-  "_sha": "2d58b0b97ef73a4db71ef5d00b3ef22191f579ae",
-  "_size": 3921,
+  "_lastChecked": 1795728650,
+  "_history": [
+    {
+      "buildId": "26923689",
+      "branch": "public",
+      "timeUpdated": 1795679616,
+      "firstSeen": 1795728650,
+      "manifests": {
+        "4754911": {
+          "gid": "4582095888099726128",
+          "size": 7295321243,
+          "download": 3868967232
+        }
+      }
+    }
+  ],
+  "_change_number": 41511978,
+  "_missing_token": false,
+  "_sha": "312d1c68a686b8e506ae17dbce07ba3717506ace",
+  "_size": 5175,
   "appid": "4754910",
   "common": {
     "aicontenttype": "1",
@@ -32,8 +46,8 @@
     },
     "clienticon": "d5dddb1f58e0d8ea95d08c4990be69c9db1f9f6e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4754910",
     "genres": {
       "0": "23",
@@ -105,10 +119,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "2d56591213b5d20d96b19e9315e5e52fc9594cd4/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795694185",
     "store_asset_mtime": "1795618648",
     "store_tags": {
       "0": "599",
@@ -186,5 +201,65 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Steal & Sell Simulator",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Steal Sell Simulator.exe"
+      }
+    }
+  },
+  "depots": {
+    "4754911": {
+      "manifests": {
+        "public": {
+          "download": "3868967232",
+          "gid": "4582095888099726128",
+          "size": "7295321243"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26923689",
+        "timebuildupdated": "1795618863",
+        "timeupdated": "1795679616"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "DreamWay Games",
+    "homepage": "http://www.dreamwaygames.com",
+    "publisher": "PlayWay S.A."
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "4000000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "DreamWay Games/Steal Sell Simulator/pt_saves",
+            "replace": "DreamWay Games/Steal Sell Simulator/pt_saves"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "DreamWay Games/Steal Sell Simulator/pt_saves",
+        "pattern": "*",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

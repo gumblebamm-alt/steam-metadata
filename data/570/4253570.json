@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795642873,
-  "_history": [],
-  "_change_number": 41486051,
-  "_missing_token": true,
-  "_sha": "1c1527442f9768c4ae4be458b66272210e0e697a",
-  "_size": 6373,
+  "_lastChecked": 1795728640,
+  "_history": [
+    {
+      "buildId": "26947901",
+      "branch": "public",
+      "timeUpdated": 1795697456,
+      "firstSeen": 1795728640,
+      "manifests": {
+        "4253571": {
+          "gid": "4298447713024105911",
+          "size": 5088082686,
+          "download": 4897546928
+        },
+        "5294820": {
+          "gid": "7176454119222395819",
+          "size": 246040889,
+          "download": 240223664
+        }
+      }
+    }
+  ],
+  "_change_number": 41531105,
+  "_missing_token": false,
+  "_sha": "43f35c2a2cd4cd626fbbd6cdaeee6b3a5f9a6ae1",
+  "_size": 7954,
   "appid": "4253570",
   "common": {
     "associations": {
@@ -35,9 +54,9 @@
     },
     "clienticon": "ee3027b1a0bb422ad3cad821364714bfc1472094",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4253570",
     "genres": {
       "0": "4",
@@ -127,7 +146,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "98",
+    "review_score": "8",
     "small_capsule": {
       "english": "60bc58323801bfc30ace4ade088c4993cf99a898/capsule_231x87.jpg"
     },
@@ -200,24 +221,26 @@
         }
       }
     },
-    "store_asset_mtime": "1795640730",
+    "steam_release_date": "1795701410",
+    "store_asset_mtime": "1795701349",
     "store_tags": {
       "0": "23491",
       "1": "1654",
-      "10": "4191",
-      "11": "552282",
-      "12": "4175",
-      "13": "3916",
-      "14": "1239876",
-      "15": "3968",
-      "16": "492",
-      "17": "4234",
-      "18": "5379",
+      "10": "4182",
+      "11": "4191",
+      "12": "552282",
+      "13": "4175",
+      "14": "4234",
+      "15": "3916",
+      "16": "1239876",
+      "17": "3968",
+      "18": "1220528",
+      "19": "5379",
       "2": "597",
       "3": "4166",
       "4": "97376",
       "5": "4004",
-      "6": "4182",
+      "6": "492",
       "7": "4305",
       "8": "5350",
       "9": "599"
@@ -278,5 +301,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Reshine",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Reshine.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4253571": {
+      "manifests": {
+        "public": {
+          "download": "4897546928",
+          "gid": "4298447713024105911",
+          "size": "5088082686"
+        }
+      }
+    },
+    "5294820": {
+      "dlcappid": "5294820",
+      "manifests": {
+        "public": {
+          "download": "240223664",
+          "gid": "7176454119222395819",
+          "size": "246040889"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26947901",
+        "timebuildupdated": "1795697456",
+        "timeupdated": "1795697456"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "Native",
+    "developer": "Quite OK Games",
+    "dlcavailableonstore": "1",
+    "homepage": "https://quiteokgames.com/",
+    "listofdlc": "5294820,5418410",
+    "publisher": "Quite OK Games"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "15000000",
+    "savefiles": {
+      "0": {
+        "path": "Reshine/Saved/SaveGames",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Reshine/Saved/Config/Windows",
+        "pattern": "GameplayUserSettings.sav",
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

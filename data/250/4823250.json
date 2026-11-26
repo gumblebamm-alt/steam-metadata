@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1795642883,
+  "_lastChecked": 1795728652,
   "_history": [
     {
       "buildId": "26867340",
@@ -13,12 +13,30 @@
           "download": 60535328
         }
       }
+    },
+    {
+      "buildId": "26941478",
+      "branch": "public",
+      "timeUpdated": 1795678320,
+      "firstSeen": 1795728652,
+      "manifests": {
+        "4823251": {
+          "gid": "8129852167136215758",
+          "size": 187269088,
+          "download": 60535680
+        },
+        "4823252": {
+          "gid": "2331200897505653234",
+          "size": 282207088,
+          "download": 85481184
+        }
+      }
     }
   ],
-  "_change_number": 41474862,
+  "_change_number": 41526844,
   "_missing_token": false,
-  "_sha": "898d40786de46e8bdf4f4d2499f92f5ce837cbcb",
-  "_size": 5301,
+  "_sha": "3c693ccf7d48b3045828e746e877adb5b6440732",
+  "_size": 5914,
   "appid": "4823250",
   "common": {
     "associations": {
@@ -33,6 +51,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_22": "1",
       "category_23": "1",
       "category_62": "1"
     },
@@ -125,10 +144,12 @@
     },
     "osarch": "",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "23",
     "releasestate": "released",
+    "review_percentage": "86",
+    "review_score": "7",
     "small_capsule": {
       "english": "0967057877b29447d9d8aeb5a611026ff63d40d4/capsule_231x87.jpg"
     },
@@ -187,6 +208,25 @@
     "installdir": "Incremental Pain Profit",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "IPP.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "MacOS",
+        "description_loc": {
+          "english": "MacOS"
+        },
+        "executable": "IPP_Mac.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
         "executable": "IPP.exe"
       }
     }
@@ -198,22 +238,31 @@
       },
       "manifests": {
         "public": {
-          "download": "60535328",
-          "gid": "6734301797923690668",
-          "size": "187263872"
+          "download": "60535680",
+          "gid": "8129852167136215758",
+          "size": "187269088"
         }
       }
     },
     "4823252": {
       "config": {
+        "osarch": "64",
         "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "85481184",
+          "gid": "2331200897505653234",
+          "size": "282207088"
+        }
       }
     },
+    "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "26867340",
-        "timebuildupdated": "1795436958",
-        "timeupdated": "1795437340"
+        "buildid": "26941478",
+        "timebuildupdated": "1795678237",
+        "timeupdated": "1795678320"
       }
     },
     "nocommonredists": "1"

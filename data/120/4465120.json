@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795158836,
-  "_history": [],
-  "_change_number": 41285861,
-  "_missing_token": true,
-  "_sha": "d98f55b52a6244d240470c1363d1159c091b8c71",
-  "_size": 4441,
+  "_lastChecked": 1795728643,
+  "_history": [
+    {
+      "buildId": "26955293",
+      "branch": "public",
+      "timeUpdated": 1795718147,
+      "firstSeen": 1795728643,
+      "manifests": {
+        "4465121": {
+          "gid": "3944109985983945201",
+          "size": 1189302708,
+          "download": 1051067424
+        }
+      }
+    }
+  ],
+  "_change_number": 41527628,
+  "_missing_token": false,
+  "_sha": "02ac6ea901cdd7dcb3fd77a1fde63e1a73ff44f7",
+  "_size": 6423,
   "appid": "4465120",
   "common": {
     "aicontenttype": "1",
@@ -47,9 +61,9 @@
     },
     "clienticon": "f5c41f4e47112b8632a5f063ad2157eb885aaa0b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4465120",
     "genres": {
       "0": "23",
@@ -135,11 +149,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "dfee1b6c6a568bf0827003886767464043f34700/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1795138565",
+    "store_asset_mtime": "1795699259",
     "store_tags": {
       "0": "1770",
       "1": "1091588",
@@ -210,5 +224,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "DiceArk_Upload",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "DiceArk_Upload\\DiceArk.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4465121": {
+      "manifests": {
+        "public": {
+          "download": "1051067424",
+          "gid": "3944109985983945201",
+          "size": "1189302708"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26955293",
+        "timebuildupdated": "1795717924",
+        "timeupdated": "1795718147"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Yoigoshi Studio",
+    "publisher": "Yoigoshi Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": " Yoigoshi Studio/DiceArk/LocalData/ReleasePlayer",
+        "pattern": "local_play_profiles.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": " Yoigoshi Studio/DiceArk/LocalData/ReleasePlayer",
+        "pattern": "local_play_data_profile_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": " Yoigoshi Studio/DiceArk/LocalData/ReleasePlayer",
+        "pattern": "session_save_profile_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": " Yoigoshi Studio/DiceArk/LocalData/ReleasePlayer",
+        "pattern": "arena_session_save_profile_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": " Yoigoshi Studio/DiceArk/LocalData/ReleasePlayer",
+        "pattern": "dark_plague_doctor_double_up_profile_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "5": {
+        "path": " Yoigoshi Studio/DiceArk/LocalData/ReleasePlayer",
+        "pattern": "character_create_prefs.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795477989,
-  "_history": [],
-  "_change_number": 41390335,
-  "_missing_token": true,
-  "_sha": "1ab811a3d610047386054e5833ab9da17e343c8e",
-  "_size": 3845,
+  "_lastChecked": 1795728628,
+  "_history": [
+    {
+      "buildId": "26957695",
+      "branch": "public",
+      "timeUpdated": 1795726082,
+      "firstSeen": 1795728628,
+      "manifests": {
+        "3376861": {
+          "gid": "7769265497563144708",
+          "size": 1498440288,
+          "download": 1396829136
+        },
+        "3376862": {
+          "gid": "3249487391342671957",
+          "size": 1513424901,
+          "download": 1402047632
+        }
+      }
+    }
+  ],
+  "_change_number": 41531975,
+  "_missing_token": false,
+  "_sha": "85222250b32a0ffb339197fc66a8a3e24151c1b9",
+  "_size": 5027,
   "appid": "3376860",
   "common": {
     "associations": {
@@ -32,6 +51,7 @@
     "clienticon": "d32e5695a3080fc92062c5a6953c385401e44d45",
     "clienttga": "7b1253632b2aad5302b5ba6098d9cc09ffcdd1a4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -47,7 +67,6 @@
         "version": "1"
       }
     },
-    "exfgls": "8",
     "gameid": "3376860",
     "genres": {
       "0": "25",
@@ -127,10 +146,13 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "100",
+    "review_score": "7",
     "small_capsule": {
       "english": "f12e02a1c76c8dbd95bdd251b1e89658e5aa7a56/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795693842",
     "store_asset_mtime": "1791412428",
     "store_tags": {
       "0": "10679",
@@ -166,5 +188,67 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Retrospection Of Tomorrow",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TROT.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "TROT.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "TROT.sh"
+      }
+    }
+  },
+  "depots": {
+    "3376861": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1396829136",
+          "gid": "7769265497563144708",
+          "size": "1498440288"
+        }
+      }
+    },
+    "3376862": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1402047632",
+          "gid": "3249487391342671957",
+          "size": "1513424901"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26957695",
+        "timebuildupdated": "1795726029",
+        "timeupdated": "1795726082"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Cherish Fan",
+    "publisher": "Cherish Fan"
+  }
 }

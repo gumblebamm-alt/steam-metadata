@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795205736,
-  "_history": [],
-  "_change_number": 41298648,
-  "_missing_token": true,
-  "_sha": "eefc97b744f37b2e4b987fb1199fd90cf1851bef",
-  "_size": 4137,
+  "_lastChecked": 1795728655,
+  "_history": [
+    {
+      "buildId": "26728599",
+      "branch": "public",
+      "timeUpdated": 1794921217,
+      "firstSeen": 1795728655,
+      "manifests": {
+        "4947631": {
+          "gid": "2218381904635423233",
+          "size": 1782208039,
+          "download": 795659216
+        },
+        "4947632": {
+          "gid": "2476032787878858511",
+          "size": 1853980942,
+          "download": 818111856
+        }
+      }
+    }
+  ],
+  "_change_number": 41521661,
+  "_missing_token": false,
+  "_sha": "147cc5bd4945fb1bf9ecf79fc14b3bca4aa011bc",
+  "_size": 6293,
   "appid": "4947630",
   "common": {
     "associations": {
@@ -35,9 +54,9 @@
     },
     "clienticon": "f91decfeec312c593682b67c164b6009324065a3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4947630",
     "genres": {
       "0": "23",
@@ -109,10 +128,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "079f92f874513d8f932d8ee259e6eca3fad6e86f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795711198",
     "store_asset_mtime": "1794933544",
     "store_tags": {
       "0": "1721",
@@ -193,5 +213,105 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "7 Shifts in Subway",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "7_Shifts_in_Subway.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "7_Shifts_in_Subway.x86_64"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65532",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4947631": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "795659216",
+          "gid": "2218381904635423233",
+          "size": "1782208039"
+        }
+      }
+    },
+    "4947632": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "818111856",
+          "gid": "2476032787878858511",
+          "size": "1853980942"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26728599",
+        "timebuildupdated": "1794913453",
+        "timeupdated": "1794921217"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Own It Interactive",
+    "publisher": "Own It Interactive"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Own It Solutions/7 Shifts in Subway/Main",
+            "replace": ".config/unity3d/Own It Solutions/7 Shifts in Subway/Main"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Own It Solutions/7 Shifts in Subway/Main",
+        "pattern": "SaveSlots.ns.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Own It Solutions/7 Shifts in Subway/Main",
+        "pattern": "SaveSlot_1.ns.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "Own It Solutions/7 Shifts in Subway/Main",
+        "pattern": "SaveSlot_2.ns.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "Own It Solutions/7 Shifts in Subway/Main",
+        "pattern": "SaveSlot_3.ns.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

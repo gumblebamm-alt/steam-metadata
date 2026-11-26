@@ -1,6 +1,19 @@
 {
-  "_lastChecked": 1792857595,
+  "_lastChecked": 1795728629,
   "_history": [
+    {
+      "buildId": "26541754",
+      "branch": "public",
+      "timeUpdated": 1794237900,
+      "firstSeen": 1795728629,
+      "manifests": {
+        "3393281": {
+          "gid": "5159750163264672509",
+          "size": 2244827223,
+          "download": 1139628448
+        }
+      }
+    },
     {
       "buildId": "25941255",
       "branch": "public",
@@ -52,25 +65,12 @@
           "download": 1102737824
         }
       }
-    },
-    {
-      "buildId": "25274860",
-      "branch": "public",
-      "timeUpdated": 1789241722,
-      "firstSeen": 1789243236,
-      "manifests": {
-        "3393281": {
-          "gid": "7168724302444298907",
-          "size": 2133775333,
-          "download": 1102391040
-        }
-      }
     }
   ],
-  "_change_number": 39916669,
+  "_change_number": 41520019,
   "_missing_token": false,
-  "_sha": "2144ef0cae5b7df42ec13a6043d5bf71fa3406c4",
-  "_size": 7868,
+  "_sha": "6bf42c6e34adec85addde3e4ba394c55859da6f1",
+  "_size": 8080,
   "appid": "3393280",
   "common": {
     "aicontenttype": "1",
@@ -186,7 +186,7 @@
     "oslist": "windows",
     "primary_genre": "28",
     "releasestate": "released",
-    "review_percentage": "74",
+    "review_percentage": "78",
     "review_score": "6",
     "small_capsule": {
       "english": "e177a9406f08239d5d8d2f85f3a93abbcdf5c500/capsule_231x87.jpg"
@@ -292,11 +292,11 @@
       "18": "97376",
       "19": "21",
       "2": "3843",
-      "3": "1666",
-      "4": "597",
+      "3": "597",
+      "4": "1666",
       "5": "12472",
-      "6": "3839",
-      "7": "91114",
+      "6": "91114",
+      "7": "3839",
       "8": "10235",
       "9": "4182"
     },
@@ -376,17 +376,17 @@
     "3393281": {
       "manifests": {
         "public": {
-          "download": "1129556864",
-          "gid": "2580834617695542274",
-          "size": "2215717951"
+          "download": "1139628448",
+          "gid": "5159750163264672509",
+          "size": "2244827223"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25941255",
-        "timebuildupdated": "1792002488",
-        "timeupdated": "1792177142"
+        "buildid": "26541754",
+        "timebuildupdated": "1794234831",
+        "timeupdated": "1794237900"
       }
     },
     "privatebranches": "1"
@@ -398,14 +398,22 @@
     "publisher": " One More Time"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
     "maxnumfiles": "30",
-    "quota": "1000000",
+    "quota": "104857600",
     "savefiles": {
       "0": {
         "path": "\\OneMoreTime\\Anime Shop Simulator",
         "pattern": "*.sav",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "\\OneMoreTime\\Anime Shop Simulator",
+        "pattern": "*_save.es3",
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "\\OneMoreTime\\Anime Shop Simulator",
+        "pattern": "globalSave.es3",
         "root": "WinAppDataLocalLow"
       }
     }

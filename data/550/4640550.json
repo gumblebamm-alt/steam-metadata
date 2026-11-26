@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1794339892,
-  "_history": [],
-  "_change_number": 40801725,
-  "_missing_token": true,
-  "_sha": "a1d8f1ff88a54903d9b77cc17aa8ba83ff361c05",
-  "_size": 3235,
+  "_lastChecked": 1795728647,
+  "_history": [
+    {
+      "buildId": "26586566",
+      "branch": "public",
+      "timeUpdated": 1794389329,
+      "firstSeen": 1795728647,
+      "manifests": {
+        "4640551": {
+          "gid": "2506358689169248182",
+          "size": 2141046601,
+          "download": 781365456
+        },
+        "4640552": {
+          "gid": "6422241390521825080",
+          "size": 2186073872,
+          "download": 780468400
+        },
+        "4640553": {
+          "gid": "7330539941509133197",
+          "size": 2284414322,
+          "download": 814907712
+        }
+      }
+    }
+  ],
+  "_change_number": 41521590,
+  "_missing_token": false,
+  "_sha": "ce2eb4db01e967adc495fc6b4ab07290d92cd237",
+  "_size": 6523,
   "appid": "4640550",
   "common": {
     "associations": {
@@ -34,9 +58,9 @@
     },
     "clienticon": "20cc0688f4f3ef498b09fef3d677d8c9a9dd8cbe",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4640550",
     "genres": {
       "0": "4",
@@ -109,10 +133,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "fe44ef7e9e32f5e12cb8177a37ac0bc0e3135bf8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795711090",
     "store_asset_mtime": "1794311938",
     "store_tags": {
       "0": "3920",
@@ -143,5 +168,153 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Street Food Restaurant Owner",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Street_Food_Restaurant_Owner.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Street_Food_Restaurant_Owner.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Street_Food_Restaurant_Owner.app"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65532",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4640551": {
+      "manifests": {
+        "public": {
+          "download": "781365456",
+          "gid": "2506358689169248182",
+          "size": "2141046601"
+        }
+      }
+    },
+    "4640552": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "780468400",
+          "gid": "6422241390521825080",
+          "size": "2186073872"
+        }
+      }
+    },
+    "4640553": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "814907712",
+          "gid": "7330539941509133197",
+          "size": "2284414322"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26586566",
+        "timebuildupdated": "1794385542",
+        "timeupdated": "1794389329"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "NOSTRA.GAMES",
+    "homepage": "https://nostra.games/",
+    "publisher": "NOSTRA.GAMES "
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "NOSTRA GAMES/Street Food Restaurant Owner/Main/",
+            "replace": ".config/unity3d/NOSTRA GAMES/Street Food Restaurant Owner/Main/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "NOSTRA GAMES/Street Food Restaurant Owner/Main/",
+            "replace": "unity.NOSTRA GAMES.Street Food Restaurant Owner.Main"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      },
+      "2": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "NOSTRA GAMES/Street Food Restaurant Owner/Main/",
+            "replace": ".config/unity3d/NOSTRA GAMES/Street Food Restaurant Owner/Platform/"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "3": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "NOSTRA GAMES/Street Food Restaurant Owner/Main/",
+            "replace": "unity.NOSTRA GAMES.Street Food Restaurant Owner.Platform"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "NOSTRA GAMES/Street Food Restaurant Owner/Main/",
+        "pattern": "Player.ns.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "NOSTRA GAMES/Street Food Restaurant Owner/Platform/",
+        "pattern": "Achievements.u.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

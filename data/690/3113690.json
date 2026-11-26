@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795559131,
-  "_history": [],
-  "_change_number": 41433726,
-  "_missing_token": true,
-  "_sha": "9a2dd941fbf7990223f05cac6ed6568d177d1418",
-  "_size": 4275,
+  "_lastChecked": 1795728626,
+  "_history": [
+    {
+      "buildId": "26922655",
+      "branch": "public",
+      "timeUpdated": 1795620470,
+      "firstSeen": 1795728626,
+      "manifests": {
+        "3113691": {
+          "gid": "4182356179709480905",
+          "size": 294108419,
+          "download": 110045024
+        },
+        "3113692": {
+          "gid": "2482714156548847345",
+          "size": 247060856,
+          "download": 102903760
+        }
+      }
+    }
+  ],
+  "_change_number": 41522358,
+  "_missing_token": false,
+  "_sha": "cd38c4ccb119c75ba01a3033f672e3b1f7725e03",
+  "_size": 6477,
   "appid": "3113690",
   "common": {
     "associations": {
@@ -47,7 +66,6 @@
     "community_hub_visible": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3113690",
     "genres": {
       "0": "1",
@@ -121,12 +139,13 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4d33c9c539aa0200a4c2b0d74583dabc7d65f0b0/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/3113690/eventcomments/592943469164503708/",
-    "store_asset_mtime": "1792585978",
+    "steam_release_date": "1795712443",
+    "store_asset_mtime": "1795706070",
     "store_tags": {
       "0": "5981",
       "1": "1716",
@@ -193,5 +212,110 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "Ship Miner",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "shipminer.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "shipminer",
+        "type": "default"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65524",
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "3113691": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "110045024",
+          "gid": "4182356179709480905",
+          "size": "294108419"
+        }
+      }
+    },
+    "3113692": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "102903760",
+          "gid": "2482714156548847345",
+          "size": "247060856"
+        }
+      }
+    },
+    "baselanguages": "brazilian,english,italian,japanese,latam,russian,schinese,spanish",
+    "branches": {
+      "public": {
+        "buildid": "26922655",
+        "timebuildupdated": "1795616597",
+        "timeupdated": "1795620470"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "absolutemousecoordinates": "0",
+    "deckresolutionoverride": "Native",
+    "developer": "Pixel Core Games",
+    "homepage": "https://shipminer.arielcoppes.dev",
+    "publisher": "Pixel Core Games",
+    "remoteplaytogethertestingbranches": "default,development"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Pixel Core Games/Ship Miner",
+            "replace": ".config/unity3d/Pixel Core Games/Ship Miner"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Pixel Core Games/Ship Miner",
+        "pattern": "savegame.json",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Pixel Core Games/Ship Miner",
+        "pattern": "savegame_*_run.zip",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

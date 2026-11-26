@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795680944,
-  "_history": [],
-  "_change_number": 41501940,
-  "_missing_token": true,
-  "_sha": "99245c40122d9c4593eece88a5b36e4293f27f92",
-  "_size": 7079,
+  "_lastChecked": 1795728649,
+  "_history": [
+    {
+      "buildId": "26836953",
+      "branch": "public",
+      "timeUpdated": 1795709716,
+      "firstSeen": 1795728649,
+      "manifests": {
+        "4704001": {
+          "gid": "6998973707866271190",
+          "size": 5716284872,
+          "download": 1598409680
+        }
+      }
+    }
+  ],
+  "_change_number": 41529769,
+  "_missing_token": false,
+  "_sha": "63ebfaae097f746b4b50e6ee312ee47c5d3a267d",
+  "_size": 8294,
   "appid": "4704000",
   "common": {
     "associations": {
@@ -41,9 +55,9 @@
     },
     "clienticon": "92ad9a4af860e7426c7bab53bc76748a4f922556",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4704000",
     "genres": {
       "0": "4",
@@ -135,7 +149,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "b0b2aa2db4a0c7efbe4a84d8b0e6a035d63c8eb3/capsule_231x87.jpg",
       "koreana": "ac510dbb6fe4ee35f7d666a107ea5af519160bfa/capsule_231x87_koreana.jpg",
@@ -210,7 +224,8 @@
         }
       }
     },
-    "store_asset_mtime": "1795680746",
+    "steam_release_date": "1795708740",
+    "store_asset_mtime": "1795708879",
     "store_tags": {
       "0": "599",
       "1": "3843",
@@ -261,5 +276,66 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Shark Mart",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Shark Mart.exe",
+        "type": "default"
+      }
+    },
+    "uselaunchcommandline": "1"
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4704001": {
+      "manifests": {
+        "public": {
+          "download": "1598409680",
+          "gid": "6998973707866271190",
+          "size": "5716284872"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26836953",
+        "timebuildupdated": "1795284810",
+        "timeupdated": "1795709716"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "deckresolutionoverride": "Default",
+    "developer": "stre1itzia",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5295640",
+    "publisher": "Polden Publishing"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000000",
+    "savefiles": {
+      "0": {
+        "path": "stre1itzia/Shark Mart/save",
+        "pattern": "_save*.es3",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "stre1itzia/Shark Mart/save/_backups",
+        "pattern": "_save*.es3.bak",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

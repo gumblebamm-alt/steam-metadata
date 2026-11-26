@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795642888,
-  "_history": [],
-  "_change_number": 41484951,
-  "_missing_token": true,
-  "_sha": "e4e6323206ff509a083be6efbd42366295c1e533",
-  "_size": 3206,
+  "_lastChecked": 1795728657,
+  "_history": [
+    {
+      "buildId": "26952447",
+      "branch": "public",
+      "timeUpdated": 1795709643,
+      "firstSeen": 1795728657,
+      "manifests": {
+        "5015051": {
+          "gid": "5674438032687831937",
+          "size": 151975956,
+          "download": 73904400
+        },
+        "5015052": {
+          "gid": "1062023985496825130",
+          "size": 116948412,
+          "download": 65439184
+        }
+      }
+    }
+  ],
+  "_change_number": 41520782,
+  "_missing_token": false,
+  "_sha": "ce63e1d2f8c72449b2264466c23b283c1229c40d",
+  "_size": 4558,
   "appid": "5015050",
   "common": {
     "aicontenttype": "1",
@@ -30,6 +49,7 @@
     },
     "clienticon": "70f053f8b2ae46a4595a5558c97ff573f23d3e6e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -37,7 +57,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5015050",
     "genres": {
       "0": "4",
@@ -111,7 +130,7 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0c32a02fcbd0a1def0215150ed00b02fa3366874/capsule_231x87.jpg"
     },
@@ -147,5 +166,82 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Apocalypticlick",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Apocalypticlick.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Apocalypticlick.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5015051": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "73904400",
+          "gid": "5674438032687831937",
+          "size": "151975956"
+        }
+      }
+    },
+    "5015052": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "65439184",
+          "gid": "1062023985496825130",
+          "size": "116948412"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26952447",
+        "timebuildupdated": "1795709547",
+        "timeupdated": "1795709643"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Nullism",
+    "isfreeapp": "1",
+    "publisher": "Nullism"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Apocalypticlick/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

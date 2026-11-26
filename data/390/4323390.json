@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795680941,
-  "_history": [],
-  "_change_number": 41489453,
-  "_missing_token": true,
-  "_sha": "a79869fc45c9bc0fe2f74fdec8314879540e9fbf",
-  "_size": 4849,
+  "_lastChecked": 1795728641,
+  "_history": [
+    {
+      "buildId": "26955514",
+      "branch": "public",
+      "timeUpdated": 1795727222,
+      "firstSeen": 1795728641,
+      "manifests": {
+        "4323391": {
+          "gid": "934532324328334992",
+          "size": 40781461,
+          "download": 26605008
+        },
+        "4323392": {
+          "gid": "6802930689054503483",
+          "size": 329812847,
+          "download": 140581440
+        }
+      }
+    }
+  ],
+  "_change_number": 41532401,
+  "_missing_token": false,
+  "_sha": "89b14ba50562e69be7030c9786efd0d8d62f3b89",
+  "_size": 6970,
   "appid": "4323390",
   "common": {
     "associations": {
@@ -24,6 +43,7 @@
     "category": {
       "category_2": "1",
       "category_22": "1",
+      "category_23": "1",
       "category_28": "1",
       "category_55": "1",
       "category_57": "1",
@@ -33,9 +53,9 @@
     "clienticns": "910ddedb1740e31d1844bfaeb204bfbbafb1f597",
     "clienticon": "6d1fab2ab0610eb33786cf3d86bc6887902e450e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4323390",
     "genres": {
       "0": "1",
@@ -130,10 +150,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "0f82eae1c04f4a18b667c9848e7e68777d704a36/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795697515",
     "store_asset_mtime": "1793219119",
     "store_tags": {
       "0": "5547",
@@ -237,5 +258,104 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Swept Under",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Swept Under.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Swept Under",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4323391": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "26605008",
+          "gid": "934532324328334992",
+          "size": "40781461"
+        }
+      }
+    },
+    "4323392": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "140581440",
+          "gid": "6802930689054503483",
+          "size": "329812847"
+        }
+      }
+    },
+    "baselanguages": "brazilian,czech,dutch,english,french,german,hungarian,italian,japanese,koreana,latam,polish,russian,schinese,spanish,swedish,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "26955514",
+        "timebuildupdated": "1795718610",
+        "timeupdated": "1795727222"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "VML Studios",
+    "homepage": "https://vmlstudios.net/",
+    "publisher": "VML Studios"
+  },
+  "ufs": {
+    "maxnumfiles": "500",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinMyDocuments",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Swept Under/EBWebView/Default/IndexedDB/https_app.localhost_0.indexeddb.leveldb",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "1": {
+        "path": "Swept Under/EBWebView/Default/IndexedDB/https_app.localhost_0.indexeddb.blob",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocal"
+      },
+      "2": {
+        "path": "Swept Under/saves/{64BitSteamID}",
+        "pattern": "*.json",
+        "root": "WinMyDocuments"
+      }
+    }
+  }
 }

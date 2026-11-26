@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1795514003,
-  "_history": [],
-  "_change_number": 41373486,
-  "_missing_token": true,
-  "_sha": "fadcb80554323b3558106f3c2473a64fe85d52e1",
-  "_size": 2951,
+  "_lastChecked": 1795728649,
+  "_history": [
+    {
+      "buildId": "26951460",
+      "branch": "public",
+      "timeUpdated": 1795707031,
+      "firstSeen": 1795728649,
+      "manifests": {
+        "4736721": {
+          "gid": "5832824762323105210",
+          "size": 369197971,
+          "download": 144153680
+        },
+        "4736722": {
+          "gid": "7814188777086240047",
+          "size": 338931215,
+          "download": 136389984
+        },
+        "4736723": {
+          "gid": "2888728297499915382",
+          "size": 542291002,
+          "download": 195359408
+        }
+      }
+    }
+  ],
+  "_change_number": 41522495,
+  "_missing_token": false,
+  "_sha": "87360f0b70713b3b81e423764c301a84835aee34",
+  "_size": 5218,
   "appid": "4736720",
   "common": {
     "associations": {
@@ -32,8 +56,8 @@
     },
     "clienticon": "5471d23dbedbb11f257fbc7bbfcf84180f32bc8c",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4736720",
     "genres": {
       "0": "2"
@@ -107,10 +131,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8deb018b3fd177053d8cbb63ae018a497564d819/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795712699",
     "store_asset_mtime": "1792973923",
     "store_tags": {
       "0": "9",
@@ -131,5 +156,121 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "RBM Studio's Baetis Campaign",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Baetis Campaign.exe"
+      },
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "Baetis Campaign.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Baetis Campaign.app"
+      }
+    }
+  },
+  "depots": {
+    "4736721": {
+      "manifests": {
+        "public": {
+          "download": "144153680",
+          "gid": "5832824762323105210",
+          "size": "369197971"
+        }
+      }
+    },
+    "4736722": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "136389984",
+          "gid": "7814188777086240047",
+          "size": "338931215"
+        }
+      }
+    },
+    "4736723": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "195359408",
+          "gid": "2888728297499915382",
+          "size": "542291002"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26951460",
+        "timebuildupdated": "1795706995",
+        "timeupdated": "1795707031"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Hexes of War",
+    "publisher": "Hexes of War"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataLocal"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "BaetisCampaign/{64BitSteamID}/ClientData",
+            "replace": "BaetisCampaign/{64BitSteamID}/ClientData"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "MacAppSupport"
+      },
+      "2": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "BaetisCampaign/{64BitSteamID}/ClientData",
+            "replace": ".local/share/BaetisCampaign/{64BitSteamID}/ClientData"
+          }
+        },
+        "root": "gameinstall",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "BaetisCampaign/{64BitSteamID}/ClientData",
+        "pattern": "*.SAV",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

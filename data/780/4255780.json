@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795376280,
-  "_history": [],
-  "_change_number": 41354302,
-  "_missing_token": true,
-  "_sha": "2cbc04015a83a116ded4102efea0dd03cfda58c6",
-  "_size": 3436,
+  "_lastChecked": 1795728640,
+  "_history": [
+    {
+      "buildId": "26957052",
+      "branch": "public",
+      "timeUpdated": 1795723745,
+      "firstSeen": 1795728640,
+      "manifests": {
+        "4255782": {
+          "gid": "7584417192963491908",
+          "size": 11528895794,
+          "download": 10771630912
+        }
+      }
+    }
+  ],
+  "_change_number": 41530899,
+  "_missing_token": false,
+  "_sha": "44c1697a2d6480dfae06346fac28ae635a38e5b7",
+  "_size": 4809,
   "appid": "4255780",
   "common": {
     "associations": {
@@ -19,6 +33,7 @@
     },
     "category": {
       "category_2": "1",
+      "category_23": "1",
       "category_28": "1",
       "category_55": "1",
       "category_56": "1",
@@ -38,7 +53,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4255780",
     "genres": {
       "0": "1",
@@ -110,11 +124,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4250476c6ff2887f4df7679c23de55024422c0ae/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792758045",
+    "steam_release_date": "1795722532",
+    "store_asset_mtime": "1795715410",
     "store_tags": {
       "0": "1663",
       "1": "4684",
@@ -122,9 +137,9 @@
       "11": "7481",
       "12": "4175",
       "13": "4345",
-      "14": "4667",
-      "15": "492",
-      "16": "4168",
+      "14": "4168",
+      "15": "4667",
+      "16": "492",
       "17": "1708",
       "18": "3968",
       "19": "4145",
@@ -138,6 +153,10 @@
       "9": "4191"
     },
     "supported_languages": {
+      "brazilian": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "english": {
         "full_audio": "true",
         "subtitles": "true",
@@ -151,6 +170,10 @@
         "subtitles": "true",
         "supported": "true"
       },
+      "japanese": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "russian": {
         "subtitles": "true",
         "supported": "true"
@@ -158,9 +181,79 @@
       "schinese": {
         "subtitles": "true",
         "supported": "true"
+      },
+      "spanish": {
+        "subtitles": "true",
+        "supported": "true"
       }
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "No Mercy",
+    "launch": {
+      "0": {
+        "executable": "NoMercy.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "228988": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "229007": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4255782": {
+      "manifests": {
+        "public": {
+          "download": "10771630912",
+          "gid": "7584417192963491908",
+          "size": "11528895794"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26957052",
+        "timebuildupdated": "1795723654",
+        "timeupdated": "1795723745"
+      }
+    }
+  },
+  "extended": {
+    "developer": "HARDLINE",
+    "publisher": "HARDLINE"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "104857600",
+    "savefiles": {
+      "0": {
+        "path": "NoMercy/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

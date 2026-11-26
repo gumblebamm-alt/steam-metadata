@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1795478027,
+  "_lastChecked": 1795728661,
   "_history": [
     {
       "buildId": "26872025",
@@ -13,12 +13,30 @@
           "download": 84761888
         }
       }
+    },
+    {
+      "buildId": "26952665",
+      "branch": "public",
+      "timeUpdated": 1795710134,
+      "firstSeen": 1795728661,
+      "manifests": {
+        "5173001": {
+          "gid": "5516622263020391006",
+          "size": 405698796,
+          "download": 84831696
+        },
+        "5173002": {
+          "gid": "196241680210924910",
+          "size": 424107314,
+          "download": 93105504
+        }
+      }
     }
   ],
-  "_change_number": 41401057,
+  "_change_number": 41521291,
   "_missing_token": false,
-  "_sha": "ac25352d4bef850e29c52d7fd2a73408b6172b4a",
-  "_size": 13628,
+  "_sha": "98bd43728ee9a539378bf6f6500b43dda5a4b98d",
+  "_size": 14093,
   "appid": "5173000",
   "common": {
     "associations": {
@@ -223,8 +241,9 @@
       "schinese": "敲酒师"
     },
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "parent": "5175150",
     "primary_genre": "28",
     "releasestate": "released",
@@ -308,28 +327,53 @@
     "installdir": "Hit The Beer",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "htb2.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "HitTheBeer.app"
       }
     }
   },
   "depots": {
     "5173001": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "84761888",
-          "gid": "7381630038900068054",
-          "size": "405641692"
+          "download": "84831696",
+          "gid": "5516622263020391006",
+          "size": "405698796"
+        }
+      }
+    },
+    "5173002": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "93105504",
+          "gid": "196241680210924910",
+          "size": "424107314"
         }
       }
     },
     "baselanguages": "english,german,schinese,tchinese",
     "branches": {
       "public": {
-        "buildid": "26872025",
-        "timebuildupdated": "1795450481",
-        "timeupdated": "1795450570"
+        "buildid": "26952665",
+        "timebuildupdated": "1795710085",
+        "timeupdated": "1795710134"
       }
     },
+    "hasdepotsindlc": "0",
     "nocommonredists": "1"
   },
   "extended": {

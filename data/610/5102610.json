@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795288478,
-  "_history": [],
-  "_change_number": 41334653,
-  "_missing_token": true,
-  "_sha": "853332ee0b6ec6e095207f55eb4eb6fae68665b5",
-  "_size": 4209,
+  "_lastChecked": 1795728659,
+  "_history": [
+    {
+      "buildId": "26813317",
+      "branch": "public",
+      "timeUpdated": 1795183753,
+      "firstSeen": 1795728659,
+      "manifests": {
+        "5102611": {
+          "gid": "8415480172068460791",
+          "size": 165001504,
+          "download": 83062944
+        },
+        "5102612": {
+          "gid": "973432553637241833",
+          "size": 130075848,
+          "download": 74640080
+        }
+      }
+    }
+  ],
+  "_change_number": 41532620,
+  "_missing_token": false,
+  "_sha": "4f83b9415e18b71606c6c749122507d74936f9df",
+  "_size": 6996,
   "appid": "5102610",
   "common": {
     "associations": {
@@ -35,9 +54,9 @@
     },
     "clienticon": "7fce4307c36726a47bab284b62f17db425c506ef",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5102610",
     "genres": {
       "0": "4"
@@ -122,10 +141,13 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "91",
+    "review_score": "7",
     "small_capsule": {
       "english": "027ea31c282edd445839aeaa60229dc3b87892a5/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795705269",
     "store_asset_mtime": "1792407834",
     "store_tags": {
       "0": "597",
@@ -196,5 +218,123 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Kick The Piñata!",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "kick_the_pinata.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "kick_the_pinata.x86_64"
+      },
+      "2": {
+        "arguments": "--rendering-driver opengl3",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Compatibility (Older PCs or if you're having trouble)",
+        "description_loc": {
+          "english": "Compatibility (Older PCs or if you're having trouble)"
+        },
+        "executable": "kick_the_pinata.exe"
+      },
+      "3": {
+        "arguments": "--rendering-driver opengl3",
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Compatibility (Older PCs or if you're having trouble)",
+        "description_loc": {
+          "english": "Compatibility (Older PCs or if you're having trouble)"
+        },
+        "executable": "kick_the_pinata.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "5102611": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "83062944",
+          "gid": "8415480172068460791",
+          "size": "165001504"
+        }
+      }
+    },
+    "5102612": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "74640080",
+          "gid": "973432553637241833",
+          "size": "130075848"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26813317",
+        "timebuildupdated": "1795183751",
+        "timeupdated": "1795183753"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Eduardo Scarpato",
+    "dlcavailableonstore": "1",
+    "homepage": "https://drive.google.com/drive/folders/1hrJzCKcSNgAqqxmsuriDgC7ekFaktSbQ?usp=drive_link",
+    "listofdlc": "5393180",
+    "publisher": "Eduardo Scarpato"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Kick The Piñata!/save_files",
+            "replace": ".local/share/godot/app_userdata/Kick The Piñata!/save_files"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "Windows",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Kick The Piñata!/save_files",
+            "replace": "Godot/app_userdata/Kick The Piñata!/save_files"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "WinAppDataRoaming"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Kick The Piñata!/save_files",
+        "pattern": "*.save",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

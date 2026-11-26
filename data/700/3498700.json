@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795477990,
-  "_history": [],
-  "_change_number": 41392561,
-  "_missing_token": true,
-  "_sha": "8121560e6fa2098182e27635e1c42742e31508a9",
-  "_size": 7993,
+  "_lastChecked": 1795728630,
+  "_history": [
+    {
+      "buildId": "26945383",
+      "branch": "public",
+      "timeUpdated": 1795694524,
+      "firstSeen": 1795728630,
+      "manifests": {
+        "3498701": {
+          "gid": "6230430957627458259",
+          "size": 1199903874,
+          "download": 1038403440
+        },
+        "3498702": {
+          "gid": "491086461270669",
+          "size": 1192222004,
+          "download": 974219264
+        }
+      }
+    }
+  ],
+  "_change_number": 41532597,
+  "_missing_token": false,
+  "_sha": "bb083984441177f10914e73969809e51f66ca18c",
+  "_size": 9713,
   "appid": "3498700",
   "common": {
     "associations": {
@@ -34,9 +53,9 @@
     "clienticon": "0ec551e6e9d3706a3b56bf707851f76cfc6a2642",
     "clienttga": "386fc1fab8b8317dbdd3e1922f655c4bfddf8208",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3498700",
     "genres": {
       "0": "1",
@@ -142,7 +161,9 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "90",
+    "review_score": "7",
     "small_capsule": {
       "english": "4466debc437d14fd20c8bd7fa78fc5edd09155a7/capsule_231x87.jpg",
       "japanese": "1ff8741bb91c794d5d1c9f23ff8dd70b42860b6c/capsule_231x87_japanese.jpg",
@@ -217,7 +238,8 @@
         }
       }
     },
-    "store_asset_mtime": "1792140760",
+    "steam_release_date": "1795701033",
+    "store_asset_mtime": "1795701286",
     "store_tags": {
       "0": "4637",
       "1": "6621",
@@ -285,5 +307,100 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Appulse",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "appulse.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "appulse.sh"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3498701": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1038403440",
+          "gid": "6230430957627458259",
+          "size": "1199903874"
+        }
+      }
+    },
+    "3498702": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "974219264",
+          "gid": "491086461270669",
+          "size": "1192222004"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26945383",
+        "timebuildupdated": "1795690392",
+        "timeupdated": "1795694524"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Le Rado",
+    "homepage": "https://le-rado.fr/",
+    "publisher": "Raw Fury"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Appulse",
+            "replace": "Documents/Appulse"
+          }
+        },
+        "root": "WinMyDocuments",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Appulse",
+        "pattern": "*.save",
+        "root": "WinMyDocuments"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

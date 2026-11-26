@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795478016,
-  "_history": [],
-  "_change_number": 41354098,
-  "_missing_token": true,
-  "_sha": "56d9a12ad4f91ad9babda1c9138c5372ab7aca85",
-  "_size": 4573,
+  "_lastChecked": 1795728651,
+  "_history": [
+    {
+      "buildId": "26953073",
+      "branch": "public",
+      "timeUpdated": 1795711481,
+      "firstSeen": 1795728651,
+      "manifests": {
+        "4783981": {
+          "gid": "341195380984203939",
+          "size": 222492178,
+          "download": 99161376
+        },
+        "4783982": {
+          "gid": "5848926325513955182",
+          "size": 625456536,
+          "download": 146124336
+        }
+      }
+    }
+  ],
+  "_change_number": 41530673,
+  "_missing_token": false,
+  "_sha": "66e4d605723a70db76f69a90a094e9d0d5b7bb24",
+  "_size": 6513,
   "appid": "4783980",
   "common": {
     "associations": {
@@ -35,9 +54,9 @@
     },
     "clienticon": "744680f42da7a17df98a43c2d16a69d3f126e0dd",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4783980",
     "genres": {
       "0": "1",
@@ -109,10 +128,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "417f68a3723788a646f6ba6b99bd683f3bb0f248/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795723208",
     "store_asset_mtime": "1794845599",
     "store_tags": {
       "0": "723991",
@@ -227,5 +247,109 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "GUNBOAT-8",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "gunboat8.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "GUNBOAT-8.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "gunboat8.exe"
+      }
+    }
+  },
+  "depots": {
+    "4783981": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "99161376",
+          "gid": "341195380984203939",
+          "size": "222492178"
+        }
+      }
+    },
+    "4783982": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "146124336",
+          "gid": "5848926325513955182",
+          "size": "625456536"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26953073",
+        "timebuildupdated": "1795711280",
+        "timeupdated": "1795711481"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Orange Acorn Games",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5637170",
+    "publisher": "Orange Acorn Games"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": "",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgConfigHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "GUNBOAT-8",
+        "pattern": "profile.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "GUNBOAT-8",
+        "pattern": " runsave_solo.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "GUNBOAT-8",
+        "pattern": "runsave_mp.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "GUNBOAT-8",
+        "pattern": "demo_import.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
