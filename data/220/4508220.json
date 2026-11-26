@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794339888,
-  "_history": [],
-  "_change_number": 40789343,
-  "_missing_token": true,
-  "_sha": "24211a8872e10b40613e6ecd1195a3ded0cab08b",
-  "_size": 3491,
+  "_lastChecked": 1795680942,
+  "_history": [
+    {
+      "buildId": "26699696",
+      "branch": "public",
+      "timeUpdated": 1794832518,
+      "firstSeen": 1795680942,
+      "manifests": {
+        "4508221": {
+          "gid": "3562910283477984067",
+          "size": 288626858,
+          "download": 104110272
+        },
+        "4508222": {
+          "gid": "3379601592417265563",
+          "size": 404692016,
+          "download": 132721680
+        }
+      }
+    }
+  ],
+  "_change_number": 41501954,
+  "_missing_token": false,
+  "_sha": "c2a8958d1e4fa9a214807ec1bd69d69f80083189",
+  "_size": 4994,
   "appid": "4508220",
   "common": {
     "associations": {
@@ -30,8 +49,8 @@
     "clienticns": "f3ce177d57c18cef880f02dc3fd8c272d60447a9",
     "clienticon": "733420f7a880a03a0a1da5df0f26beac0726cefe",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4508220",
     "genres": {
       "0": "4",
@@ -107,10 +126,11 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9d15a1f406e8e77b357e30e1754367c881f87de0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795680788",
     "store_asset_mtime": "1790244792",
     "store_tags": {
       "0": "1664",
@@ -156,5 +176,84 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Face the Puzzle Masked Journey",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "masked journey.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "masked journey.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4508221": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "104110272",
+          "gid": "3562910283477984067",
+          "size": "288626858"
+        }
+      }
+    },
+    "4508222": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "132721680",
+          "gid": "3379601592417265563",
+          "size": "404692016"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26699696",
+        "timebuildupdated": "1794824986",
+        "timeupdated": "1794832518"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Rockbench Studio",
+    "publisher": "Rockbench Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Rockbench Studio/Masked Journey/{64BitSteamID}",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "Rockbench Studio/Masked Journey/{64BitSteamID}",
+        "pattern": "*.es3",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
+      }
+    }
+  }
 }

@@ -1,12 +1,60 @@
 {
-  "_lastChecked": 1794598847,
-  "_history": [],
-  "_change_number": 40924176,
-  "_missing_token": true,
-  "_sha": "0088f06a9303c82754eed0f9245e4c9628c10f71",
-  "_size": 4459,
+  "_lastChecked": 1795680923,
+  "_history": [
+    {
+      "buildId": "26931628",
+      "branch": "public",
+      "timeUpdated": 1795650888,
+      "firstSeen": 1795680923,
+      "manifests": {
+        "787351": {
+          "gid": "7575796868261518311",
+          "size": 1361705502,
+          "download": 906999264
+        },
+        "787352": {
+          "gid": "6798878591631770681",
+          "size": 1522751865,
+          "download": 957674864
+        },
+        "787353": {
+          "gid": "7962758642673645284",
+          "size": 1328189730,
+          "download": 898824224
+        }
+      }
+    },
+    {
+      "buildId": "26931628",
+      "branch": "testing",
+      "timeUpdated": 1795641206,
+      "firstSeen": 1795680923,
+      "manifests": {
+        "787351": {
+          "gid": "7575796868261518311",
+          "size": 1361705502,
+          "download": 906999264
+        },
+        "787352": {
+          "gid": "6798878591631770681",
+          "size": 1522751865,
+          "download": 957674864
+        },
+        "787353": {
+          "gid": "7962758642673645284",
+          "size": 1328189730,
+          "download": 898824224
+        }
+      }
+    }
+  ],
+  "_change_number": 41501753,
+  "_missing_token": false,
+  "_sha": "406a228fdd66664e4ae80398cf27b1d09aa42587",
+  "_size": 6766,
   "appid": "787350",
   "common": {
+    "aicontenttype": "1",
     "associations": {
       "0": {
         "name": "Lowscope",
@@ -45,9 +93,9 @@
     "clienticon": "f91ca737491c65fc3ecd1633880f452fb1d0257d",
     "clienttga": "7030648f91fd8d84240e8653a9c46c5fe48fc129",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "787350",
     "genres": {
       "0": "1",
@@ -137,10 +185,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "86b41c2a24524b9cbcdb84d070d746338f8cc738/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795654057",
     "store_asset_mtime": "1794587542",
     "store_tags": {
       "0": "19",
@@ -148,10 +197,10 @@
       "2": "21",
       "3": "122",
       "4": "1720",
-      "5": "3959",
-      "6": "4342",
-      "7": "4604",
-      "8": "4791",
+      "5": "4342",
+      "6": "4604",
+      "7": "4791",
+      "8": "3959",
       "9": "1716"
     },
     "supported_languages": {
@@ -203,5 +252,126 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MASKED",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "MASKED.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MASKED.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "MASKED.x86_64",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "787351": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "906999264",
+          "gid": "7575796868261518311",
+          "size": "1361705502"
+        },
+        "testing": {
+          "download": "906999264",
+          "gid": "7575796868261518311",
+          "size": "1361705502"
+        }
+      }
+    },
+    "787352": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "957674864",
+          "gid": "6798878591631770681",
+          "size": "1522751865"
+        },
+        "testing": {
+          "download": "957674864",
+          "gid": "6798878591631770681",
+          "size": "1522751865"
+        }
+      }
+    },
+    "787353": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "898824224",
+          "gid": "7962758642673645284",
+          "size": "1328189730"
+        },
+        "testing": {
+          "download": "898824224",
+          "gid": "7962758642673645284",
+          "size": "1328189730"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26931628",
+        "timebuildupdated": "1795641206",
+        "timeupdated": "1795650888"
+      },
+      "testing": {
+        "buildid": "26931628",
+        "description": "Test branch",
+        "timebuildupdated": "1795641206",
+        "timeupdated": "1795641206"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Lowscope",
+    "homepage": "https://low-scope.com/masked/",
+    "publisher": "Lowscope"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000001",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/MASKED",
+        "pattern": "*",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

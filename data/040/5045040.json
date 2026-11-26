@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795642889,
-  "_history": [],
-  "_change_number": 41472310,
-  "_missing_token": true,
-  "_sha": "1df401c3067889baeed66ba988582d673c91647e",
-  "_size": 4505,
+  "_lastChecked": 1795680949,
+  "_history": [
+    {
+      "buildId": "26941057",
+      "branch": "public",
+      "timeUpdated": 1795677373,
+      "firstSeen": 1795680949,
+      "manifests": {
+        "5045041": {
+          "gid": "2417083786258749007",
+          "size": 66227048,
+          "download": 55913600
+        },
+        "5045042": {
+          "gid": "8471847520490445849",
+          "size": 124766206,
+          "download": 61731248
+        }
+      }
+    }
+  ],
+  "_change_number": 41500505,
+  "_missing_token": false,
+  "_sha": "c7377c6d86e034b0bd9752bbcb215da406d6a9d4",
+  "_size": 6671,
   "appid": "5045040",
   "common": {
     "aicontenttype": "1",
@@ -33,6 +52,7 @@
     },
     "clienticon": "e12e9bdbd22b01e7439ffd3fc0dbb1996241382e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
     "eulas": {
       "0": {
@@ -42,7 +62,6 @@
         "version": "3"
       }
     },
-    "exfgls": "8",
     "gameid": "5045040",
     "genres": {
       "0": "4",
@@ -121,7 +140,7 @@
         }
       }
     },
-    "market_presence": "0",
+    "market_presence": "1",
     "name": "Traymon World: Taskbar Monster RPG",
     "name_localized": {
       "japanese": "トレイモンワールド：タスクバーモンスターRPG",
@@ -134,10 +153,13 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "37",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "25",
+    "review_score": "4",
     "small_capsule": {
       "english": "dcaafe819003fe1003a6fff57ce6ed32f36d9388/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795654645",
     "store_asset_mtime": "1795412230",
     "store_tags": {
       "0": "1320952",
@@ -201,5 +223,110 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Traymon World",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TraymonWorld.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "TraymonWorld.app"
+      }
+    }
+  },
+  "depots": {
+    "5045041": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "55913600",
+          "gid": "2417083786258749007",
+          "size": "66227048"
+        }
+      }
+    },
+    "5045042": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "61731248",
+          "gid": "8471847520490445849",
+          "size": "124766206"
+        }
+      }
+    },
+    "baselanguages": "english,koreana",
+    "branches": {
+      "public": {
+        "buildid": "26941057",
+        "timebuildupdated": "1795676568",
+        "timeupdated": "1795677373"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Kniv Studio Co., Ltd.",
+    "dlcavailableonstore": "1",
+    "homepage": "https://kniv.studio",
+    "isfreeapp": "1",
+    "listofdlc": "5519800,5568650,5568660,5568670",
+    "publisher": "Kniv Studio Co., Ltd."
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "SavesDir",
+        "pattern": "save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "SavesDir",
+        "pattern": "drop-audit.json",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "com.tmw.prototype",
+        "pattern": "save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "com.tmw.prototype",
+        "pattern": "drop-audit.json",
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "com.tmw.prototype/environments/dev-api",
+        "pattern": "save.json",
+        "root": "WinAppDataRoaming"
+      },
+      "7": {
+        "path": "com.tmw.prototype/environments/dev-api",
+        "pattern": "drop-audit.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

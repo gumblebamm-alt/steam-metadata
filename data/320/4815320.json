@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794948917,
+  "_lastChecked": 1795680945,
   "_history": [
     {
       "buildId": "26662904",
@@ -18,12 +18,35 @@
           "download": 208
         }
       }
+    },
+    {
+      "buildId": "26941259",
+      "branch": "public",
+      "timeUpdated": 1795678713,
+      "firstSeen": 1795680945,
+      "manifests": {
+        "4815321": {
+          "gid": "6751658341542362795",
+          "size": 1124104246,
+          "download": 893428384
+        },
+        "4815322": {
+          "gid": "6108140688522536848",
+          "size": 1313780975,
+          "download": 962850912
+        },
+        "5219710": {
+          "gid": "1602990542179285178",
+          "size": 170,
+          "download": 208
+        }
+      }
     }
   ],
-  "_change_number": 41148256,
+  "_change_number": 41501084,
   "_missing_token": false,
-  "_sha": "c3d84d8ec2839e380649100d7e8c39ef550a0b2d",
-  "_size": 6693,
+  "_sha": "169265bdedfee783eb6234a98d28279973a1b6f2",
+  "_size": 7345,
   "appid": "4815320",
   "common": {
     "aicontenttype": "1",
@@ -161,12 +184,13 @@
       "tchinese": "黃金礦工：派對狂歡"
     },
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "4",
     "releasestate": "released",
-    "review_percentage": "100",
-    "review_score": "7",
+    "review_percentage": "87",
+    "review_score": "8",
     "small_capsule": {
       "english": "a62812ad1ba45992feb746de7ab9bbdc673bfad6/capsule_231x87.jpg",
       "schinese": "2b07a9679713b4c0496c58349a3d5003325aad86/capsule_231x87_schinese.jpg"
@@ -242,7 +266,17 @@
     "installdir": "Gold Miner Together",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "start_protected_game.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "start_protected_game.app",
+        "type": "default"
       }
     },
     "steamconfigurator3rdpartynative": "65535",
@@ -259,11 +293,26 @@
       "sharedinstall": "1"
     },
     "4815321": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "889545024",
-          "gid": "1187297529968351912",
-          "size": "1115375093"
+          "download": "893428384",
+          "gid": "6751658341542362795",
+          "size": "1124104246"
+        }
+      }
+    },
+    "4815322": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "962850912",
+          "gid": "6108140688522536848",
+          "size": "1313780975"
         }
       }
     },
@@ -280,9 +329,9 @@
     "baselanguages": "english,french,german,italian,japanese,koreana,latam,polish,portuguese,russian,schinese,spanish,tchinese",
     "branches": {
       "public": {
-        "buildid": "26662904",
-        "timebuildupdated": "1794639843",
-        "timeupdated": "1794650439"
+        "buildid": "26941259",
+        "timebuildupdated": "1795677378",
+        "timeupdated": "1795678713"
       }
     },
     "privatebranches": "1"
@@ -298,8 +347,8 @@
     "remoteplaytogethertestingbranches": "default"
   },
   "ufs": {
-    "maxnumfiles": "10",
-    "quota": "1048576",
+    "maxnumfiles": "20",
+    "quota": "10485760",
     "savefiles": {
       "0": {
         "path": "gold-miner-party-rush/cloud/{64BitSteamID}",
@@ -308,6 +357,14 @@
           "1": "Windows"
         },
         "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "gold-miner-party-rush/cloud-mac/{64BitSteamID}",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "MacOS"
+        },
+        "root": "MacAppSupport"
       }
     }
   }

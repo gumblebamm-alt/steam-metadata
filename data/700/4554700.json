@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1795158836,
-  "_history": [],
-  "_change_number": 41288286,
-  "_missing_token": true,
-  "_sha": "e9a55e82f503409d45e9da5b7e654739b2c08a0f",
-  "_size": 3325,
+  "_lastChecked": 1795680943,
+  "_history": [
+    {
+      "buildId": "26933603",
+      "branch": "public",
+      "timeUpdated": 1795647697,
+      "firstSeen": 1795680943,
+      "manifests": {
+        "4554701": {
+          "gid": "8998082296238500318",
+          "size": 137872196,
+          "download": 59372304
+        },
+        "4554702": {
+          "gid": "4764868744094316679",
+          "size": 202207603,
+          "download": 79083200
+        },
+        "4554703": {
+          "gid": "4042998833373217573",
+          "size": 102804716,
+          "download": 50882704
+        }
+      }
+    }
+  ],
+  "_change_number": 41490143,
+  "_missing_token": false,
+  "_sha": "3a4982ab23e509c03d7ba85d739ef0a28ccb0fc6",
+  "_size": 5391,
   "appid": "4554700",
   "common": {
     "associations": {
@@ -40,9 +64,9 @@
     },
     "clienticon": "5ae6a3d181391a80b420ea0e1b1098abb6e4a4a9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4554700",
     "genres": {
       "0": "4",
@@ -114,11 +138,12 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "e975bf863140fc07e48da3861b22d95b698cb0ba/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1792523242",
+    "steam_release_date": "1795651003",
+    "store_asset_mtime": "1795650784",
     "store_tags": {
       "0": "597",
       "1": "1664",
@@ -148,5 +173,117 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_sniper"
+      }
+    },
+    "installdir": "BroCode",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "BroCode.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "BroCode.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "BroCode.app"
+      }
+    }
+  },
+  "depots": {
+    "4554701": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "59372304",
+          "gid": "8998082296238500318",
+          "size": "137872196"
+        }
+      }
+    },
+    "4554702": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "79083200",
+          "gid": "4764868744094316679",
+          "size": "202207603"
+        }
+      }
+    },
+    "4554703": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "50882704",
+          "gid": "4042998833373217573",
+          "size": "102804716"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26933603",
+        "timebuildupdated": "1795647602",
+        "timeupdated": "1795647697"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Gabe Haegele",
+    "publisher": "HAEGELE STUDIOS"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/BroCode/Resources",
+            "replace": "godot/app_userdata/BroCode/Resources"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/BroCode/Resources",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

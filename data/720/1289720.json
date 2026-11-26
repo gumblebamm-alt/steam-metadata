@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792457820,
+  "_lastChecked": 1795680926,
   "_history": [
     {
       "buildId": "20207682",
@@ -36,12 +36,35 @@
           "download": 33103326928
         }
       }
+    },
+    {
+      "buildId": "26130363",
+      "branch": "public",
+      "timeUpdated": 1792663647,
+      "firstSeen": 1795680926,
+      "manifests": {
+        "1289721": {
+          "gid": "747643663943243727",
+          "size": 34874063000,
+          "download": 33192862048
+        },
+        "1289722": {
+          "gid": "8067904071141996303",
+          "size": 34967408437,
+          "download": 33101008480
+        },
+        "1289723": {
+          "gid": "871576202880441167",
+          "size": 34971791205,
+          "download": 33104386944
+        }
+      }
     }
   ],
-  "_change_number": 39999103,
+  "_change_number": 41067533,
   "_missing_token": false,
-  "_sha": "ddcc1efcbfdf6ebbad434097729b03689d55a9e7",
-  "_size": 7313,
+  "_sha": "d5247d218be7d872c16066743b7a239ebda3ded9",
+  "_size": 7621,
   "appid": "1289720",
   "common": {
     "associations": {
@@ -301,6 +324,9 @@
   },
   "depots": {
     "1289721": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "download": "33192862048",
@@ -327,17 +353,17 @@
       },
       "manifests": {
         "public": {
-          "download": "33103326928",
-          "gid": "4624529191808159878",
-          "size": "34969257601"
+          "download": "33104386944",
+          "gid": "871576202880441167",
+          "size": "34971791205"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "24572643",
-        "timebuildupdated": "1785934233",
-        "timeupdated": "1792414637"
+        "buildid": "26130363",
+        "timebuildupdated": "1792663343",
+        "timeupdated": "1792663647"
       }
     },
     "privatebranches": "1"
@@ -350,13 +376,26 @@
   "ufs": {
     "maxnumfiles": "110",
     "quota": "67108864",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "addpath": ".local/share/",
+        "os": "Linux",
+        "oscompare": "=",
+        "root": "WinAppDataLocal",
+        "useinstead": "LinuxHome"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "Defy Reality Entertainment/Neyyah/Savegames",
         "pattern": "*.DAT",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocal"
       }
     }

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1790728737,
+  "_lastChecked": 1795680931,
   "_history": [
     {
       "buildId": "25130965",
@@ -28,10 +28,10 @@
       }
     }
   ],
-  "_change_number": 39312019,
+  "_change_number": 41494854,
   "_missing_token": false,
-  "_sha": "db8f4e395a422c48823e001d7d97f03f8bbb7115",
-  "_size": 8653,
+  "_sha": "f26a0d05336052cbd272f507494c01d8a7e23055",
+  "_size": 9125,
   "appid": "2437670",
   "common": {
     "associations": {
@@ -176,10 +176,27 @@
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "1",
-        "supported_input": "gamepad"
+        "supported_input": "other"
       },
-      "steam_machine_compatibility": "0",
-      "steam_machine_tests": {},
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
       "steamos_compatibility": "2",
       "steamos_tests": {
         "0": {
@@ -191,7 +208,7 @@
           "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
         }
       },
-      "test_timestamp": "1779494400",
+      "test_timestamp": "1790611295",
       "tested_build_id": "23315438",
       "tests": {
         "0": {

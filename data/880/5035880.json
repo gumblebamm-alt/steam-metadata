@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794467377,
-  "_history": [],
-  "_change_number": 40840677,
-  "_missing_token": true,
-  "_sha": "7c57d5ad868506a552a567dae33b4049505a7f93",
-  "_size": 6732,
+  "_lastChecked": 1795680948,
+  "_history": [
+    {
+      "buildId": "26936307",
+      "branch": "public",
+      "timeUpdated": 1795669246,
+      "firstSeen": 1795680948,
+      "manifests": {
+        "5035881": {
+          "gid": "5920616681896675386",
+          "size": 449273415,
+          "download": 295140944
+        }
+      }
+    }
+  ],
+  "_change_number": 41497129,
+  "_missing_token": false,
+  "_sha": "656b272cc480c1d642255536d2d8249c43471823",
+  "_size": 9036,
   "appid": "5035880",
   "common": {
     "aicontenttype": "1",
@@ -40,8 +54,8 @@
     "clienticns": "5ef33a6f2eb7416b23e05a8427115d13818ec379",
     "clienticon": "c0d2433db09871466b00939871415ebe8eed580d",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5035880",
     "genres": {
       "0": "4",
@@ -146,10 +160,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "4688b9e1adf30ab446f50179a7a11382045f455f/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795669329",
     "store_asset_mtime": "1789713978",
     "store_tags": {
       "0": "1036",
@@ -355,5 +370,103 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "QuizForge",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "QuizForge.exe"
+      }
+    }
+  },
+  "depots": {
+    "5035881": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "295140944",
+          "gid": "5920616681896675386",
+          "size": "449273415"
+        }
+      }
+    },
+    "baselanguages": "arabic,brazilian,bulgarian,czech,danish,dutch,english,finnish,french,german,greek,hungarian,indonesian,italian,japanese,koreana,latam,malay,norwegian,polish,portuguese,romanian,russian,schinese,spanish,swedish,tchinese,thai,turkish,ukrainian,vietnamese",
+    "branches": {
+      "public": {
+        "buildid": "26936307",
+        "timebuildupdated": "1795657075",
+        "timeupdated": "1795669246"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1",
+    "workshopdepot": "5035880"
+  },
+  "extended": {
+    "developer": "Howling Wolf Games",
+    "publisher": "Howling Wolf Games"
+  },
+  "ufs": {
+    "maxnumfiles": "5000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "DefaultCompany/ForgeQuiz/QuizForge",
+        "pattern": "LocalProfiles.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "DefaultCompany/ForgeQuiz/QuizForge",
+        "pattern": "Highscores.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      },
+      "2": {
+        "path": "DefaultCompany/ForgeQuiz/QuizForge/Profiles",
+        "pattern": "UserProfile.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "DefaultCompany/ForgeQuiz/QuizForge/Profiles",
+        "pattern": "UserStats.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "4": {
+        "path": "DefaultCompany/ForgeQuiz/QuizForge/Profiles",
+        "pattern": "Achievements.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "5": {
+        "path": "DefaultCompany/ForgeQuiz/QuizForge/Profiles",
+        "pattern": "CardForge.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

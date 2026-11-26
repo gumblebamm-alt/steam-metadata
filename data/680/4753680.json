@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793993057,
-  "_history": [],
-  "_change_number": 40666444,
-  "_missing_token": true,
-  "_sha": "70b9e80e7a92e35a2eaa86e6652ebb36bb3522f2",
-  "_size": 4129,
+  "_lastChecked": 1795680944,
+  "_history": [
+    {
+      "buildId": "26474842",
+      "branch": "public",
+      "timeUpdated": 1793934508,
+      "firstSeen": 1795680944,
+      "manifests": {
+        "4753681": {
+          "gid": "5629632226627005324",
+          "size": 909996887,
+          "download": 794254480
+        }
+      }
+    }
+  ],
+  "_change_number": 41494585,
+  "_missing_token": false,
+  "_sha": "8c48b29d7ce841e4f766b9fd76b2465a76a4d856",
+  "_size": 5738,
   "appid": "4753680",
   "common": {
     "associations": {
@@ -28,6 +42,7 @@
     },
     "clienticon": "11062fd735cf7d2021b11d1de4b84fa61b051823",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -36,7 +51,6 @@
     },
     "controller_support": "partial",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4753680",
     "genres": {
       "0": "25"
@@ -116,12 +130,15 @@
       }
     },
     "name": "Subway: 0% Escape",
+    "name_localized": {
+      "japanese": "新!!生存率0%地下鉄からの脱出"
+    },
     "osarch": "64",
     "oscpu": "",
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "f5926a7967fb0dba1548bb4bfde8ae097daeb4ee/capsule_231x87.jpg",
       "japanese": "e6736a62ddeaa25d2cbeb69971c4e03824c602cf/capsule_231x87_japanese.jpg"
@@ -154,5 +171,75 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Subway 0% Escape",
+    "launch": {
+      "1": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "SubwayZeroPercentEscape.exe",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "-save-preset=fullopen",
+        "config": {
+          "betakey": "test",
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Full Open",
+        "description_loc": {
+          "english": "Full Open",
+          "japanese": "フルオープン"
+        },
+        "executable": "SubwayZeroPercentEscape.exe",
+        "type": "option1"
+      }
+    },
+    "steamconfigurator3rdpartynative": "65524",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "4753681": {
+      "manifests": {
+        "public": {
+          "download": "794254480",
+          "gid": "5629632226627005324",
+          "size": "909996887"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "26474842",
+        "timebuildupdated": "1793934490",
+        "timeupdated": "1793934508"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Studio51 Inc.",
+    "publisher": "Voltage Inc."
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "256000000",
+    "savefiles": {
+      "0": {
+        "path": "© VOLTAGE Inc_/SubwayZeroPercentEscape/userdata/{Steam3AccountID}",
+        "pattern": "*_v4.dat",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "© VOLTAGE Inc_/SubwayZeroPercentEscape/userdata/{Steam3AccountID}",
+        "pattern": "*_v4.png",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }
