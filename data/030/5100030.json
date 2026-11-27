@@ -1,43 +1,29 @@
 {
-  "_lastChecked": 1793040172,
+  "_lastChecked": 1795814186,
   "_history": [
     {
-      "buildId": "25695691",
+      "buildId": "26967395",
       "branch": "public",
-      "timeUpdated": 1791028526,
-      "firstSeen": 1791203873,
+      "timeUpdated": 1795771295,
+      "firstSeen": 1795814186,
       "manifests": {
         "5100031": {
-          "gid": "5741749032019028113",
-          "size": null,
-          "download": null
-        }
-      },
-      "_source": "hubcap"
-    },
-    {
-      "buildId": "25883613",
-      "branch": "public",
-      "timeUpdated": 1791820282,
-      "firstSeen": 1791852303,
-      "manifests": {
-        "5100031": {
-          "gid": "7640822010934754182",
-          "size": 384775655,
-          "download": 143695280
+          "gid": "8696189567046969814",
+          "size": 406493784,
+          "download": 146464176
         }
       }
     },
     {
-      "buildId": "25952754",
+      "buildId": "26215565",
       "branch": "public",
-      "timeUpdated": 1792047064,
-      "firstSeen": 1792155383,
+      "timeUpdated": 1793020643,
+      "firstSeen": 1793040172,
       "manifests": {
         "5100031": {
-          "gid": "1214098748030331782",
-          "size": 392002465,
-          "download": 143895648
+          "gid": "8756461934896243962",
+          "size": 394768787,
+          "download": 144502624
         }
       }
     },
@@ -55,23 +41,36 @@
       }
     },
     {
-      "buildId": "26215565",
+      "buildId": "25952754",
       "branch": "public",
-      "timeUpdated": 1793020643,
-      "firstSeen": 1793040172,
+      "timeUpdated": 1792047064,
+      "firstSeen": 1792155383,
       "manifests": {
         "5100031": {
-          "gid": "8756461934896243962",
-          "size": 394768787,
-          "download": 144502624
+          "gid": "1214098748030331782",
+          "size": 392002465,
+          "download": 143895648
+        }
+      }
+    },
+    {
+      "buildId": "25883613",
+      "branch": "public",
+      "timeUpdated": 1791820282,
+      "firstSeen": 1791852303,
+      "manifests": {
+        "5100031": {
+          "gid": "7640822010934754182",
+          "size": 384775655,
+          "download": 143695280
         }
       }
     }
   ],
-  "_change_number": 40256260,
+  "_change_number": 41549830,
   "_missing_token": false,
-  "_sha": "419feb621250ce206bca7bc4bcd1d4dcf2ee14f0",
-  "_size": 3983,
+  "_sha": "dcddc737d58e53532b053ceafbe5b9792eac7cac",
+  "_size": 4649,
   "appid": "5100030",
   "common": {
     "aicontenttype": "1",
@@ -88,6 +87,7 @@
     "category": {
       "category_1": "1",
       "category_2": "1",
+      "category_23": "1",
       "category_24": "1",
       "category_28": "1",
       "category_36": "1",
@@ -182,8 +182,8 @@
     "oslist": "windows",
     "primary_genre": "18",
     "releasestate": "released",
-    "review_percentage": "96",
-    "review_score": "7",
+    "review_percentage": "92",
+    "review_score": "8",
     "small_capsule": {
       "english": "900d35a9758e64e8055c90cd61ce368c7e9f8b87/capsule_231x87.jpg"
     },
@@ -209,6 +209,9 @@
     "supported_languages": {
       "english": {
         "supported": "true"
+      },
+      "finnish": {
+        "supported": "true"
       }
     },
     "type": "Game"
@@ -229,17 +232,17 @@
     "5100031": {
       "manifests": {
         "public": {
-          "download": "144502624",
-          "gid": "8756461934896243962",
-          "size": "394768787"
+          "download": "146464176",
+          "gid": "8696189567046969814",
+          "size": "406493784"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26215565",
-        "timebuildupdated": "1793014086",
-        "timeupdated": "1793020643"
+        "buildid": "26967395",
+        "timebuildupdated": "1795765754",
+        "timeupdated": "1795771295"
       }
     },
     "privatebranches": "1"
@@ -247,5 +250,35 @@
   "extended": {
     "developer": "Joonas Kaunisto",
     "publisher": "Joonas Kaunisto"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "1000000000",
+    "savefiles": {
+      "0": {
+        "path": "SaveData/Cloud",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "1": {
+        "path": "SaveData/Cloud",
+        "pattern": "*.replay",
+        "recursive": "1",
+        "root": "gameinstall"
+      },
+      "2": {
+        "path": "jns/CenterIce/SaveData/Cloud",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "3": {
+        "path": "jns/CenterIce/SaveData/Cloud",
+        "pattern": "*.replay",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
   }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795329963,
-  "_history": [],
-  "_change_number": 41341688,
-  "_missing_token": true,
-  "_sha": "870d1dac0fc5b3455cb31a2b489dbd9aafbf0fec",
-  "_size": 3091,
+  "_lastChecked": 1795814155,
+  "_history": [
+    {
+      "buildId": "26978697",
+      "branch": "public",
+      "timeUpdated": 1795799027,
+      "firstSeen": 1795814155,
+      "manifests": {
+        "2505231": {
+          "gid": "664980144512349777",
+          "size": 232657696,
+          "download": 117821920
+        },
+        "2505232": {
+          "gid": "1225832407956670487",
+          "size": 199652664,
+          "download": 90715456
+        }
+      }
+    }
+  ],
+  "_change_number": 41573712,
+  "_missing_token": false,
+  "_sha": "c0df75b16713910ef5ff6e694b01fca12dd27f70",
+  "_size": 4331,
   "appid": "2505230",
   "common": {
     "associations": {
@@ -26,8 +45,8 @@
     "clienticon": "caee380b62db8cde3ff64fc53146f5b5ace01b46",
     "clienttga": "28d0efe128f5b774f68881a79e1a475418bb2914",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2505230",
     "genres": {
       "0": "25",
@@ -104,10 +123,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "7f06cc60d71dbf0c7b6882e95f7cf3aa91360d86/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795802363",
     "store_asset_mtime": "1795290208",
     "store_tags": {
       "0": "97376",
@@ -139,5 +159,72 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dreadwinter",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Dreadwinter.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Dreadwinter.exe"
+      }
+    }
+  },
+  "depots": {
+    "2505231": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "117821920",
+          "gid": "664980144512349777",
+          "size": "232657696"
+        }
+      }
+    },
+    "2505232": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "90715456",
+          "gid": "1225832407956670487",
+          "size": "199652664"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26978697",
+        "timebuildupdated": "1795799027",
+        "timeupdated": "1795799027"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Vogy Bear",
+    "homepage": "https://dreadwinter.com/",
+    "publisher": "Vogy Bear"
+  },
+  "ufs": {
+    "maxnumfiles": "240",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Dreadwinter/Saves/{Steam3AccountID}",
+        "pattern": "*.tres",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

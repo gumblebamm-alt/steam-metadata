@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795478016,
-  "_history": [],
-  "_change_number": 41381065,
-  "_missing_token": true,
-  "_sha": "745d9a09c0f65dc117ba1cc6dfd0b1b2932ba55b",
-  "_size": 4331,
+  "_lastChecked": 1795814179,
+  "_history": [
+    {
+      "buildId": "26862766",
+      "branch": "public",
+      "timeUpdated": 1795421400,
+      "firstSeen": 1795814179,
+      "manifests": {
+        "4781061": {
+          "gid": "4908565557746072649",
+          "size": 3341530635,
+          "download": 2146951312
+        }
+      }
+    }
+  ],
+  "_change_number": 41552845,
+  "_missing_token": false,
+  "_sha": "ed51608163f9a4d8425092aafbf652dff01e94b9",
+  "_size": 5812,
   "appid": "4781060",
   "common": {
     "aicontenttype": "2",
@@ -29,7 +43,6 @@
     "clienticon": "fa75c2007af8757ffb46efd379743a925134c154",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4781060",
     "genres": {
       "0": "23",
@@ -117,7 +130,7 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c7f37427b8ee207d26e97fb01ae0dcc829a8abcf/capsule_231x87.jpg",
       "schinese": "9e68a89edddbcc6f77bf4d55790876dbc3db265a/capsule_231x87_schinese.jpg"
@@ -162,5 +175,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "三国权谋模拟器",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "ThreeKingdomsAI.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4781061": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2146951312",
+          "gid": "4908565557746072649",
+          "size": "3341530635"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "26862766",
+        "timebuildupdated": "1795421400",
+        "timeupdated": "1795421400"
+      }
+    },
+    "hasdepotsindlc": "0",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "闪电游戏工作室",
+    "isfreeapp": "1",
+    "publisher": "闪电游戏工作室"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "1000000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "three-kingdoms-ai/saves",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataRoaming"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "three-kingdoms-ai/saves",
+        "pattern": "*",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "three-kingdoms-ai",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

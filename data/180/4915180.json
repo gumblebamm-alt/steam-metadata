@@ -1,10 +1,39 @@
 {
-  "_lastChecked": 1795595456,
-  "_history": [],
-  "_change_number": 41457738,
-  "_missing_token": true,
-  "_sha": "aafa702cda5ba554d4cb9ecf7aa6c7f0c620e5e7",
-  "_size": 11036,
+  "_lastChecked": 1795814181,
+  "_history": [
+    {
+      "buildId": "26979991",
+      "branch": "public",
+      "timeUpdated": 1795802788,
+      "firstSeen": 1795814181,
+      "manifests": {
+        "4915181": {
+          "gid": "4905683776245994424",
+          "size": 3811412550,
+          "download": 2055515392
+        },
+        "4915182": {
+          "gid": "3020556767317112964",
+          "size": 3792926846,
+          "download": 2048748768
+        },
+        "4915183": {
+          "gid": "7698445546196844459",
+          "size": 3810627065,
+          "download": 2059489392
+        },
+        "4915184": {
+          "gid": "5197084407516967969",
+          "size": 3857091559,
+          "download": 2083070176
+        }
+      }
+    }
+  ],
+  "_change_number": 41579016,
+  "_missing_token": false,
+  "_sha": "c822c2fb02fdb15746b4a0d7e9c8aacb0a067a4b",
+  "_size": 13484,
   "appid": "4915180",
   "common": {
     "aicontenttype": "1",
@@ -40,6 +69,7 @@
     "clienticns": "5e53c9186633920dd8140d2c5c9cfab7163c88ac",
     "clienticon": "518e604bfa330f014e7fa4dcaee2cb4ac466409b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -47,7 +77,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4915180",
     "genres": {
       "0": "1",
@@ -120,10 +149,11 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "213d02d5e2f28eaac83c416e0f724c62eeb6df77/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795802812",
     "store_asset_mtime": "1795594024",
     "store_tags": {
       "0": "9541",
@@ -577,5 +607,137 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "EXORCISMUS Vade Retro Satana",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "EXORCISMUS.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "EXORCISMUS",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "EXORCISMUS.app",
+        "type": "default"
+      }
+    },
+    "steamdecktouchscreen": "5"
+  },
+  "depots": {
+    "4915181": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2055515392",
+          "gid": "4905683776245994424",
+          "size": "3811412550"
+        }
+      }
+    },
+    "4915182": {
+      "config": {
+        "osarch": "32",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2048748768",
+          "gid": "3020556767317112964",
+          "size": "3792926846"
+        }
+      }
+    },
+    "4915183": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "2059489392",
+          "gid": "7698445546196844459",
+          "size": "3810627065"
+        }
+      }
+    },
+    "4915184": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "2083070176",
+          "gid": "5197084407516967969",
+          "size": "3857091559"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "public": {
+        "buildid": "26979991",
+        "timebuildupdated": "1795802706",
+        "timeupdated": "1795802788"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Airem",
+    "homepage": "http://airem.pl",
+    "publisher": "Airem"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "50000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Airem/EXORCISMUS",
+            "replace": ".config/unity3d/Airem/EXORCISMUS"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Airem/EXORCISMUS",
+            "replace": "unity.Airem.EXORCISMUS"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Airem/EXORCISMUS",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

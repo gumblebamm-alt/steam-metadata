@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1795244686,
-  "_history": [],
-  "_change_number": 41322618,
-  "_missing_token": true,
-  "_sha": "906fd1b19124a54f59ffc629fb6caf01f04dca0c",
-  "_size": 3161,
+  "_lastChecked": 1795814150,
+  "_history": [
+    {
+      "buildId": "26978525",
+      "branch": "public",
+      "timeUpdated": 1795798953,
+      "firstSeen": 1795814150,
+      "manifests": {
+        "1622131": {
+          "gid": "8866645534261824512",
+          "size": 1537154231,
+          "download": 1354124496
+        },
+        "5442720": {
+          "gid": "1525247725155892894",
+          "size": 6171029,
+          "download": 4620640
+        },
+        "5442730": {
+          "gid": "2530263313754252789",
+          "size": 8867940,
+          "download": 6488336
+        }
+      }
+    }
+  ],
+  "_change_number": 41576564,
+  "_missing_token": false,
+  "_sha": "22a5b1dcc23fe4ee222bdef82ce3b9aa2eaa6cd5",
+  "_size": 7126,
   "appid": "1622130",
   "common": {
     "associations": {
@@ -29,7 +53,6 @@
     "clienttga": "98207fa8b20e395023572e63a04d0c40c7d6eba0",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "1622130",
     "genres": {
       "0": "4",
@@ -107,15 +130,95 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "98",
+    "review_score": "8",
     "small_capsule": {
       "english": "c13a2a244a88c2e5209c1af367e5aa43cdb622d9/capsule_231x87.jpg"
     },
+    "steam_deck_compatibility": {
+      "category": "2",
+      "configuration": {
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "native",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "1",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "small_text": "0",
+        "supported_input": "other"
+      },
+      "steam_machine_compatibility": "2",
+      "steam_machine_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      },
+      "steamos_compatibility": "2",
+      "steamos_tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        }
+      },
+      "test_timestamp": "1795537404",
+      "tested_build_id": "26500692",
+      "tests": {
+        "0": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+        },
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      }
+    },
+    "steam_release_date": "1795784362",
     "store_asset_mtime": "1794018036",
     "store_tags": {
       "0": "3799",
       "1": "44868",
-      "10": "4726",
+      "10": "1654",
       "11": "6971",
       "12": "4305",
       "13": "5608",
@@ -132,7 +235,7 @@
       "6": "552282",
       "7": "4486",
       "8": "97376",
-      "9": "1654"
+      "9": "4726"
     },
     "supported_languages": {
       "english": {
@@ -142,5 +245,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Our Life Now & Forever",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "OurLifeNF.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "OurLifeNF.app",
+        "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "description": "Launch",
+        "description_loc": {
+          "english": "Launch"
+        },
+        "executable": "OurLifeNF.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "1622131": {
+      "manifests": {
+        "public": {
+          "download": "1354124496",
+          "gid": "8866645534261824512",
+          "size": "1537154231"
+        }
+      }
+    },
+    "5442720": {
+      "dlcappid": "5442720",
+      "manifests": {
+        "public": {
+          "download": "4620640",
+          "gid": "1525247725155892894",
+          "size": "6171029"
+        }
+      }
+    },
+    "5442730": {
+      "dlcappid": "5442730",
+      "manifests": {
+        "public": {
+          "download": "6488336",
+          "gid": "2530263313754252789",
+          "size": "8867940"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26978525",
+        "timebuildupdated": "1795798500",
+        "timeupdated": "1795798953"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "GB Patch Games",
+    "dlcavailableonstore": "1",
+    "homepage": "https://www.gbpatchgames.com/",
+    "isfreeapp": "1",
+    "listofdlc": "5442720,5442730",
+    "publisher": "GB Patch Games"
+  },
+  "ufs": {
+    "maxnumfiles": "0",
+    "quota": "0"
+  }
 }

@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795768096,
-  "_history": [],
-  "_change_number": 41539382,
-  "_missing_token": true,
-  "_sha": "a6cae12cbb414c0c565a3f54e02748bf1731c538",
-  "_size": 3112,
+  "_lastChecked": 1795814174,
+  "_history": [
+    {
+      "buildId": "26980065",
+      "branch": "public",
+      "timeUpdated": 1795802925,
+      "firstSeen": 1795814174,
+      "manifests": {
+        "4516213": {
+          "gid": "7313047508346424053",
+          "size": 3560510349,
+          "download": 3452050080
+        }
+      }
+    }
+  ],
+  "_change_number": 41579902,
+  "_missing_token": false,
+  "_sha": "ff04b18637393134dc04631548dc57d58815e208",
+  "_size": 4284,
   "appid": "4516210",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +45,8 @@
     },
     "clienticon": "a8d3626ceff41ea6ef867be9cad19e2ebf8e362e",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4516210",
     "genres": {
       "0": "4",
@@ -105,11 +119,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "80",
+    "review_score": "7",
     "small_capsule": {
       "english": "dcd7dca9c9a0d62d11a6909c6059eff96d1bfafb/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1795382407",
+    "steam_release_date": "1795784314",
+    "store_asset_mtime": "1795784717",
     "store_tags": {
       "0": "599",
       "1": "12472",
@@ -140,5 +157,57 @@
     "type": "Game",
     "workshop_visible": "1"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Studio Sim",
+    "launch": {
+      "0": {
+        "executable": "StudioSim.exe"
+      }
+    }
+  },
+  "depots": {
+    "4516213": {
+      "manifests": {
+        "public": {
+          "download": "3452050080",
+          "gid": "7313047508346424053",
+          "size": "3560510349"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26980065",
+        "timebuildupdated": "1795802873",
+        "timeupdated": "1795802925"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "4516210"
+  },
+  "extended": {
+    "developer": "PrattDesign",
+    "publisher": "PrattDesign"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "5368709120",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Studio Sim/steam/{64BitSteamID}/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/Studio Sim/steam/{64BitSteamID}/saves/.parts",
+        "pattern": "*.part",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Studio Sim/steam/{64BitSteamID}/saves",
+        "pattern": "*.json.previous",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

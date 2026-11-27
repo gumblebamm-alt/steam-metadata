@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795680950,
-  "_history": [],
-  "_change_number": 41496810,
-  "_missing_token": true,
-  "_sha": "23093b40c0d8584867d1c74dbda9a01b5d849d9a",
-  "_size": 4013,
+  "_lastChecked": 1795814188,
+  "_history": [
+    {
+      "buildId": "26982942",
+      "branch": "public",
+      "timeUpdated": 1795813005,
+      "firstSeen": 1795814188,
+      "manifests": {
+        "5165391": {
+          "gid": "4659027335566956859",
+          "size": 545666788,
+          "download": 366501888
+        }
+      }
+    }
+  ],
+  "_change_number": 41579910,
+  "_missing_token": false,
+  "_sha": "eb89cc425c425af13ca9158a4a355b457ba87825",
+  "_size": 5845,
   "appid": "5165390",
   "common": {
     "associations": {
@@ -35,6 +49,7 @@
     },
     "clienticon": "464a5cc716cb01bfcf2a958363ab7a54e39d1ced",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "2",
       "1": "5"
@@ -44,7 +59,6 @@
       "1": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5165390",
     "genres": {
       "0": "23",
@@ -116,11 +130,14 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "66",
+    "review_score": "5",
     "small_capsule": {
       "english": "1b653ce55d659a41c614ecb23578f4ec138c600f/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1795667981",
+    "steam_release_date": "1795802413",
+    "store_asset_mtime": "1795798293",
     "store_tags": {
       "0": "599",
       "1": "6378",
@@ -191,5 +208,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "HOOD",
+    "launch": {
+      "1": {
+        "arguments": "--rendering-driver vulkan",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "Vulkan (default)",
+        "description_loc": {
+          "english": "Vulkan (default)"
+        },
+        "executable": "HOOD.exe",
+        "type": "default"
+      },
+      "2": {
+        "arguments": "--rendering-driver opengl3",
+        "description": "OpenGL for low end PCs",
+        "description_loc": {
+          "english": "OpenGL for low end PCs"
+        },
+        "executable": "HOOD.exe",
+        "type": "default"
+      },
+      "3": {
+        "arguments": "--rendering-driver d3d12",
+        "config": {
+          "oslist": "windows"
+        },
+        "description": "DX12 if the game doesn't run well on Vulkan (stuttering and freezes)",
+        "description_loc": {
+          "english": "DX12 if the game doesn't run well on Vulkan (stuttering and freezes)"
+        },
+        "executable": "HOOD.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5165391": {
+      "manifests": {
+        "public": {
+          "download": "366501888",
+          "gid": "4659027335566956859",
+          "size": "545666788"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26982942",
+        "timebuildupdated": "1795812977",
+        "timeupdated": "1795813005"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "AOZ",
+    "publisher": "AOZ"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/HOOD/saves",
+        "pattern": "slot_*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/HOOD",
+        "pattern": "achievements.cfg",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

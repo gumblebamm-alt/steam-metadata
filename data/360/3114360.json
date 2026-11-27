@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792198509,
+  "_lastChecked": 1795814159,
   "_history": [
     {
       "buildId": "23609509",
@@ -52,12 +52,30 @@
           "download": 302602608
         }
       }
+    },
+    {
+      "buildId": "26980078",
+      "branch": "public",
+      "timeUpdated": 1795802931,
+      "firstSeen": 1795814159,
+      "manifests": {
+        "3114361": {
+          "gid": "838877975940642480",
+          "size": 1568583973,
+          "download": 302602608
+        },
+        "3114362": {
+          "gid": "538884228436964265",
+          "size": 1672901901,
+          "download": 321596688
+        }
+      }
     }
   ],
-  "_change_number": 39895964,
+  "_change_number": 41576941,
   "_missing_token": false,
-  "_sha": "af69e2457f7b65ab35edd6b8a21b53a6fa188a43",
-  "_size": 3228,
+  "_sha": "44414b46186c617ee3c00e137fa53fe733a5988b",
+  "_size": 4127,
   "appid": "3114360",
   "common": {
     "associations": {
@@ -166,8 +184,9 @@
       "14": "3841",
       "15": "492",
       "16": "769306",
-      "17": "4136",
-      "18": "5395",
+      "17": "1719",
+      "18": "4136",
+      "19": "5395",
       "2": "1738",
       "3": "1664",
       "4": "8369",
@@ -178,6 +197,10 @@
       "9": "597"
     },
     "supported_languages": {
+      "english": {
+        "subtitles": "true",
+        "supported": "true"
+      },
       "japanese": {
         "subtitles": "true",
         "supported": "true"
@@ -189,11 +212,21 @@
     "installdir": "ViruStream",
     "launch": {
       "0": {
+        "description": "For the Japanese version. If you installed EN Version,Don`t Use this.",
         "description_loc": {
-          "japanese": "起動する"
+          "english": "For the Japanese version. If you installed EN Version,Don`t Use this.",
+          "japanese": "基本はこちらで起動してください。(日本語版)"
         },
         "executable": "ViruStream/ViruStream.exe",
         "type": "default"
+      },
+      "1": {
+        "description": "Default. For the English version.",
+        "description_loc": {
+          "english": "Default. For the English version.",
+          "japanese": "日本版をインストールした場合、こちらでは起動しないでください。"
+        },
+        "executable": "ViruStream_en/ViruStream.exe"
       }
     },
     "steamcontrollertemplateindex": "6",
@@ -201,6 +234,9 @@
   },
   "depots": {
     "3114361": {
+      "config": {
+        "language": "japanese"
+      },
       "manifests": {
         "public": {
           "download": "302602608",
@@ -209,12 +245,24 @@
         }
       }
     },
-    "baselanguages": "japanese",
+    "3114362": {
+      "config": {
+        "language": "english"
+      },
+      "manifests": {
+        "public": {
+          "download": "321596688",
+          "gid": "538884228436964265",
+          "size": "1672901901"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
     "branches": {
       "public": {
-        "buildid": "25982505",
-        "timebuildupdated": "1792142531",
-        "timeupdated": "1792142605"
+        "buildid": "26980078",
+        "timebuildupdated": "1795802896",
+        "timeupdated": "1795802931"
       }
     }
   },

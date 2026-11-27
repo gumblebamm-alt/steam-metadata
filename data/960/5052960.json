@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1791679460,
-  "_history": [],
-  "_change_number": 39452831,
-  "_missing_token": true,
-  "_sha": "b40bef380d71997010d5843ca2f3f26559afc6c3",
-  "_size": 3764,
+  "_lastChecked": 1795814185,
+  "_history": [
+    {
+      "buildId": "26665569",
+      "branch": "public",
+      "timeUpdated": 1794655007,
+      "firstSeen": 1795814185,
+      "manifests": {
+        "5052961": {
+          "gid": "4309135499543817864",
+          "size": 2938236971,
+          "download": 1118929808
+        },
+        "5052962": {
+          "gid": "201274243513173567",
+          "size": 3038705031,
+          "download": 1167967856
+        },
+        "5052963": {
+          "gid": "5837586742570898191",
+          "size": 3023319854,
+          "download": 1147651328
+        }
+      }
+    }
+  ],
+  "_change_number": 41550020,
+  "_missing_token": false,
+  "_sha": "a9057f156f4648e05ed138f67d8e28fdd427f387",
+  "_size": 6076,
   "appid": "5052960",
   "common": {
     "aicontenttype": "1",
@@ -34,8 +58,8 @@
     "clienticns": "eb2b5964bb31b3107c9ff8d76c6e79abe9afa668",
     "clienticon": "97dfc3d24bbf728d68ad085cc471d93924822fa9",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5052960",
     "genres": {
       "0": "4",
@@ -108,10 +132,11 @@
     "osextended": "",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "bd4a13632987bd91dd92dae3cdf9575d3f161373/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795771555",
     "store_asset_mtime": "1790149028",
     "store_tags": {
       "0": "1645",
@@ -171,5 +196,121 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "The Long Harvest",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "TheEndlessHarvest.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "TheEndlessHarvest.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "TheEndlessHarvest.app"
+      }
+    }
+  },
+  "depots": {
+    "5052961": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1118929808",
+          "gid": "4309135499543817864",
+          "size": "2938236971"
+        }
+      }
+    },
+    "5052962": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "1167967856",
+          "gid": "201274243513173567",
+          "size": "3038705031"
+        }
+      }
+    },
+    "5052963": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1147651328",
+          "gid": "5837586742570898191",
+          "size": "3023319854"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26665569",
+        "timebuildupdated": "1794654821",
+        "timeupdated": "1794655007"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "R.J. Brontsema",
+    "publisher": "R.J. Brontsema"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "KeydosInteractive/TheEndlessHarvest",
+            "replace": ".config/unity3d/KeydosInteractive/TheEndlessHarvest"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "KeydosInteractive/TheEndlessHarvest",
+            "replace": "Library/Application Support/KeydosInteractive/TheEndlessHarvest"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "KeydosInteractive/TheEndlessHarvest",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": "KeydosInteractive/TheEndlessHarvest",
+        "pattern": "snapshot.jpg",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

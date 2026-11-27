@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795419348,
-  "_history": [],
-  "_change_number": 41375790,
-  "_missing_token": true,
-  "_sha": "f3bde33394b557841f09e6b6f5ab4d9839b80429",
-  "_size": 4147,
+  "_lastChecked": 1795814185,
+  "_history": [
+    {
+      "buildId": "26933757",
+      "branch": "public",
+      "timeUpdated": 1795648179,
+      "firstSeen": 1795814185,
+      "manifests": {
+        "5074821": {
+          "gid": "4837742438080278850",
+          "size": 3182729796,
+          "download": 624138576
+        }
+      }
+    }
+  ],
+  "_change_number": 41561430,
+  "_missing_token": false,
+  "_sha": "279e9866b293eca2eb64547a97572fa226ef50b7",
+  "_size": 5531,
   "appid": "5074820",
   "common": {
     "aicontenttype": "1",
@@ -31,8 +45,8 @@
     },
     "clienticon": "942673c34866d0cacde1e004a1281598ecabaa35",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5074820",
     "genres": {
       "0": "25",
@@ -120,13 +134,14 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "a013e28f57de20d40b5b92c93235bc37464c62e7/capsule_231x87.jpg",
       "schinese": "b84fa23ecf4ac31d3d07c8bb526d99786a103239/capsule_231x87_schinese.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/5074820/discussions/0/562542623246775197/",
-    "store_asset_mtime": "1795413428",
+    "steam_release_date": "1795786743",
+    "store_asset_mtime": "1795786174",
     "store_tags": {
       "0": "4434",
       "1": "16250",
@@ -161,5 +176,71 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dragon Era Rogue Slots",
+    "launch": {
+      "0": {
+        "arguments": "-screen-fullscreen 0 -popupwindow",
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Dragon Era.exe"
+      },
+      "1": {
+        "arguments": "-nohmd",
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Dragon Era.exe"
+      }
+    },
+    "steamcontrollertemplateindex": "6",
+    "steamcontrollertouchtemplateindex": "8",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5074821": {
+      "manifests": {
+        "public": {
+          "download": "624138576",
+          "gid": "4837742438080278850",
+          "size": "3182729796"
+        }
+      }
+    },
+    "baselanguages": "english,schinese",
+    "branches": {
+      "public": {
+        "buildid": "26933757",
+        "timebuildupdated": "1795648168",
+        "timeupdated": "1795648179"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Playmage",
+    "homepage": "https://impress.games/press-kit/playmage-llc/dragon-era-rogue-slots",
+    "publisher": "Playmage"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "Playmage/Dragon Era/",
+        "os": "Windows",
+        "oscompare": "=",
+        "root": "gameinstall",
+        "useinstead": "WinAppDataLocalLow"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "saves",
+        "pattern": "*.json",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

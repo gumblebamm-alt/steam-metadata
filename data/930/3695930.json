@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793124060,
+  "_lastChecked": 1795814164,
   "_history": [
     {
       "buildId": "25951906",
@@ -15,9 +15,9 @@
       }
     },
     {
-      "buildId": "",
+      "buildId": "26913777",
       "branch": "public",
-      "timeUpdated": 1792429783,
+      "timeUpdated": 1795792104,
       "firstSeen": 1792457744,
       "manifests": {
         "3695931": {
@@ -27,12 +27,25 @@
         }
       },
       "_source": "hubcap"
+    },
+    {
+      "buildId": "26913777",
+      "branch": "public-test-branch",
+      "timeUpdated": 1795697409,
+      "firstSeen": 1795814164,
+      "manifests": {
+        "3695931": {
+          "gid": "421143624564886723",
+          "size": 2941211450,
+          "download": 2156369168
+        }
+      }
     }
   ],
-  "_change_number": 40274188,
+  "_change_number": 41565778,
   "_missing_token": false,
-  "_sha": "b97564ac54abcbeb64a1ab2c7c68abe2c20aa6f9",
-  "_size": 7756,
+  "_sha": "db4071d1ff647a8863d7da72450d5dc38dadd81e",
+  "_size": 8858,
   "appid": "3695930",
   "common": {
     "associations": {
@@ -170,7 +183,7 @@
     "oslist": "windows",
     "primary_genre": "1",
     "releasestate": "released",
-    "review_percentage": "86",
+    "review_percentage": "87",
     "review_score": "8",
     "small_capsule": {
       "english": "1a348585cfaac976adb61dc1f5b9bd2b15812c62/capsule_231x87.jpg",
@@ -245,18 +258,48 @@
         }
       }
     },
+    "steam_frame_compatibility": {
+      "category": "1",
+      "configuration": {
+        "fdm_debug": "",
+        "gamescope_frame_limiter_not_supported": "0",
+        "hdr_support": "0",
+        "non_deck_display_glyphs": "0",
+        "primary_player_is_controller_slot_0": "0",
+        "recommended_runtime": "proton-11.0-3RC-arm64",
+        "requires_h264": "0",
+        "requires_internet_for_setup": "0",
+        "requires_internet_for_singleplayer": "0",
+        "requires_manual_keyboard_invoke": "0",
+        "requires_non_controller_launcher_nav": "0",
+        "requires_proton_soundfonts": "0",
+        "requires_voice_files": "0",
+        "rpo_debug": "",
+        "small_text": "0",
+        "supported_input": "other",
+        "tso_enable": "0"
+      },
+      "test_timestamp": "1794427927",
+      "tested_build_id": "26474256",
+      "tests": {
+        "0": {
+          "display": "2",
+          "token": "#SteamFrame_TestResult_UnsupportedGraphicsPerformance"
+        }
+      }
+    },
     "steam_release_date": "1792169462",
     "store_asset_mtime": "1792170512",
     "store_tags": {
-      "0": "5900",
-      "1": "7432",
+      "0": "7432",
+      "1": "5900",
       "10": "1667",
       "11": "11014",
       "12": "4598",
       "13": "1742",
       "14": "30358",
-      "15": "3916",
-      "16": "1697",
+      "15": "1697",
+      "16": "3916",
       "17": "21",
       "18": "4064",
       "19": "3987",
@@ -309,25 +352,34 @@
         "type": "default"
       }
     },
-    "steamconfigurator3rdpartynative": "11",
-    "steamcontrollertemplateindex": "2",
-    "steamdecktouchscreen": "1"
+    "steamdecktouchscreen": "5"
   },
   "depots": {
     "3695931": {
       "manifests": {
         "public": {
-          "download": "2156427520",
-          "gid": "4538698340426846501",
-          "size": "2941357263"
+          "download": "2156369168",
+          "gid": "421143624564886723",
+          "size": "2941211450"
+        },
+        "public-test-branch": {
+          "download": "2156369168",
+          "gid": "421143624564886723",
+          "size": "2941211450"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25951906",
-        "timebuildupdated": "1792041432",
-        "timeupdated": "1792135272"
+        "buildid": "26913777",
+        "timebuildupdated": "1795589325",
+        "timeupdated": "1795792104"
+      },
+      "public-test-branch": {
+        "buildid": "26913777",
+        "description": "For testing pre-release patches",
+        "timebuildupdated": "1795589325",
+        "timeupdated": "1795697409"
       }
     },
     "nocommonredists": "1",

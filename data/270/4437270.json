@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1795642876,
+  "_lastChecked": 1795814173,
   "_history": [
     {
       "buildId": "26919532",
@@ -36,12 +36,30 @@
           "download": 269296
         }
       }
+    },
+    {
+      "buildId": "26935461",
+      "branch": "4k_client",
+      "timeUpdated": 1795653921,
+      "firstSeen": 1795814173,
+      "manifests": {
+        "4437271": {
+          "gid": "9193052494186032223",
+          "size": 12502244580,
+          "download": 12132920144
+        },
+        "5599010": {
+          "gid": "7886836601804335185",
+          "size": 711840,
+          "download": 269296
+        }
+      }
     }
   ],
-  "_change_number": 41484153,
+  "_change_number": 41577497,
   "_missing_token": false,
-  "_sha": "8a3b186d57590c944c5bb286c767998c090e4637",
-  "_size": 10090,
+  "_sha": "49765c951cf8fd293bb72ce87e3343fca95ae78c",
+  "_size": 11559,
   "appid": "4437270",
   "common": {
     "aicontenttype": "1",
@@ -281,12 +299,20 @@
         "config": {
           "oslist": "windows"
         },
+        "description": "Play 1080p edition on PC",
+        "description_loc": {
+          "english": "Play 1080p edition on PC"
+        },
         "executable": "The_Last_Embrace.exe",
         "type": "default"
       },
       "1": {
         "config": {
           "oslist": "macos"
+        },
+        "description": "Play 1080p edition on Mac",
+        "description_loc": {
+          "english": "Play 1080p edition on Mac"
         },
         "executable": "The_Last_Embrace.app",
         "type": "default"
@@ -295,7 +321,47 @@
         "config": {
           "oslist": "linux"
         },
+        "description": "Play 1080p edition on Linux",
+        "description_loc": {
+          "english": "Play 1080p edition on Linux"
+        },
         "executable": "The_Last_Embrace.sh",
+        "type": "default"
+      },
+      "3": {
+        "config": {
+          "oslist": "windows",
+          "ownsdlc": "5762520"
+        },
+        "description": "Play 4K edition on PC",
+        "description_loc": {
+          "english": "Play 4K edition on PC"
+        },
+        "executable": "4k_client/The_Last_Embrace.exe",
+        "type": "default"
+      },
+      "4": {
+        "config": {
+          "oslist": "macos",
+          "ownsdlc": "5762520"
+        },
+        "description": "Play 4K edition on Mac",
+        "description_loc": {
+          "english": "Play 4K edition on Mac"
+        },
+        "executable": "4k_client/The_Last_Embrace.app",
+        "type": "default"
+      },
+      "5": {
+        "config": {
+          "oslist": "linux",
+          "ownsdlc": "5762520"
+        },
+        "description": "Play 4K edition on Linux",
+        "description_loc": {
+          "english": "Play 4K edition on Linux"
+        },
+        "executable": "4k_client/The_Last_Embrace.sh",
         "type": "default"
       }
     }
@@ -308,9 +374,9 @@
       },
       "manifests": {
         "4k_client": {
-          "download": "12133114688",
-          "gid": "8965009356649315809",
-          "size": "12502243221"
+          "download": "12132920144",
+          "gid": "9193052494186032223",
+          "size": "12502244580"
         },
         "public": {
           "download": "4174763904",
@@ -320,6 +386,9 @@
       }
     },
     "5599010": {
+      "config": {
+        "optionaldlc": "5599010"
+      },
       "dlcappid": "5599010",
       "manifests": {
         "4k_client": {
@@ -334,13 +403,23 @@
         }
       }
     },
+    "5762520": {
+      "config": {
+        "language": "english",
+        "optionaldlc": "5762520",
+        "osarch": "64"
+      },
+      "dlcappid": "5762520",
+      "manifests": {}
+    },
+    "appmanagesdlc": "1",
     "baselanguages": "english",
     "branches": {
       "4k_client": {
-        "buildid": "26919532",
+        "buildid": "26935461",
         "description": "4K UHD Client",
-        "timebuildupdated": "1795608239",
-        "timeupdated": "1795608239"
+        "timebuildupdated": "1795653921",
+        "timeupdated": "1795653921"
       },
       "public": {
         "buildid": "26930505",

@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1794117570,
+  "_lastChecked": 1795814159,
   "_history": [
     {
       "buildId": "25038329",
@@ -52,12 +52,25 @@
           "download": 583160128
         }
       }
+    },
+    {
+      "buildId": "26978293",
+      "branch": "public",
+      "timeUpdated": 1795805101,
+      "firstSeen": 1795814159,
+      "manifests": {
+        "3053951": {
+          "gid": "5243619628933475103",
+          "size": 3550179740,
+          "download": 585394512
+        }
+      }
     }
   ],
-  "_change_number": 40716060,
+  "_change_number": 41578539,
   "_missing_token": false,
-  "_sha": "41933292679459001f017667f46146e2bdfbc7e2",
-  "_size": 6434,
+  "_sha": "90ec583c8ad67c75412180e00093bee798229f25",
+  "_size": 7547,
   "appid": "3053950",
   "common": {
     "associations": {
@@ -171,7 +184,7 @@
     "oslist": "windows",
     "primary_genre": "1",
     "releasestate": "released",
-    "review_percentage": "91",
+    "review_percentage": "92",
     "review_score": "8",
     "small_capsule": {
       "english": "dc155b688276f30d189107b72d4d08aa9d859175/capsule_231x87.jpg"
@@ -182,32 +195,44 @@
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
-        "non_deck_display_glyphs": "1",
+        "non_deck_display_glyphs": "0",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-stable",
-        "requires_h264": "0",
+        "recommended_runtime": "proton-11.0-3RC",
+        "requires_h264": "1",
         "requires_internet_for_setup": "0",
-        "requires_internet_for_singleplayer": "0",
+        "requires_internet_for_singleplayer": "1",
         "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
-        "small_text": "1",
+        "small_text": "0",
         "supported_input": "other"
       },
       "steam_machine_compatibility": "2",
       "steam_machine_tests": {
         "0": {
           "display": "3",
-          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
         },
         "1": {
-          "display": "4",
-          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DisplayOutputHasNonblockingIssues"
         },
         "2": {
           "display": "4",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        "3": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "4": {
+          "display": "4",
           "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "5": {
+          "display": "1",
+          "token": "#SteamMachine_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
         }
       },
       "steamos_compatibility": "2",
@@ -215,18 +240,30 @@
         "0": {
           "display": "3",
           "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DisplayOutputHasNonblockingIssues"
+        },
+        "3": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
         }
       },
-      "test_timestamp": "1789482506",
-      "tested_build_id": "25314742",
+      "test_timestamp": "1793820509",
+      "tested_build_id": "26367589",
       "tests": {
         "0": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
         },
         "1": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+          "token": "#SteamDeckVerified_TestResult_DisplayOutputHasNonblockingIssues"
         },
         "2": {
           "display": "4",
@@ -234,7 +271,19 @@
         },
         "3": {
           "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "4": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        "5": {
+          "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        },
+        "6": {
+          "display": "1",
+          "token": "#SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
         }
       }
     },
@@ -255,8 +304,8 @@
       "19": "4791",
       "2": "1646",
       "3": "1720",
-      "4": "19",
-      "5": "3843",
+      "4": "3843",
+      "5": "19",
       "6": "1685",
       "7": "4172",
       "8": "4195",
@@ -294,17 +343,17 @@
       },
       "manifests": {
         "public": {
-          "download": "583160128",
-          "gid": "3292798890240586749",
-          "size": "3539170110"
+          "download": "585394512",
+          "gid": "5243619628933475103",
+          "size": "3550179740"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26491429",
-        "timebuildupdated": "1793988296",
-        "timeupdated": "1794007066"
+        "buildid": "26978293",
+        "timebuildupdated": "1795797808",
+        "timeupdated": "1795805101"
       }
     },
     "nocommonredists": "1",
@@ -314,7 +363,7 @@
     "developer": "Gamebreaking Studios",
     "dlcavailableonstore": "1",
     "homepage": "https://dungeonrampage.com/",
-    "listofdlc": "4444110,5413230,5413430,5413440,5413450,5413460",
+    "listofdlc": "4444110,5413230,5413430,5413440,5413450,5413460,5523860",
     "publisher": "Gamebreaking Studios"
   }
 }

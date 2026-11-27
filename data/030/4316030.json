@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1795728641,
+  "_lastChecked": 1795814171,
   "_history": [
     {
       "buildId": "26950581",
@@ -13,12 +13,43 @@
           "download": 1216276336
         }
       }
+    },
+    {
+      "buildId": "26974345",
+      "branch": "experimental-linux",
+      "timeUpdated": 1795787288,
+      "firstSeen": 1795814171,
+      "manifests": {
+        "4316031": {
+          "gid": "3801525753674193505",
+          "size": 1825977832,
+          "download": 1216351824
+        },
+        "4316032": {
+          "gid": "9021294034350380236",
+          "size": 1410577465,
+          "download": 987410016
+        }
+      }
+    },
+    {
+      "buildId": "26969764",
+      "branch": "public",
+      "timeUpdated": 1795773578,
+      "firstSeen": 1795814171,
+      "manifests": {
+        "4316031": {
+          "gid": "3801525753674193505",
+          "size": 1825977832,
+          "download": 1216351824
+        }
+      }
     }
   ],
-  "_change_number": 41521553,
+  "_change_number": 41561707,
   "_missing_token": false,
-  "_sha": "0a6dedb7395006399d22389614ca860a80bcdf7a",
-  "_size": 4119,
+  "_sha": "8373342b197a1a9acd637caccf2d89f4d6bbcda6",
+  "_size": 5016,
   "appid": "4316030",
   "common": {
     "aicontenttype": "1",
@@ -166,7 +197,23 @@
     "installdir": "Age of Failon - Birth of the Hero",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "Age of Failon Birth of the Hero.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "betakey": "experimental-linux",
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "description": "Experimental Linux Build",
+        "description_loc": {
+          "english": "Experimental Linux Build"
+        },
+        "executable": "Age of Failon - Birth of the Hero.x86_64",
         "type": "default"
       }
     },
@@ -175,23 +222,46 @@
   "depots": {
     "4316031": {
       "config": {
-        "language": "english",
         "oslist": "windows"
       },
       "manifests": {
+        "experimental-linux": {
+          "download": "1216351824",
+          "gid": "3801525753674193505",
+          "size": "1825977832"
+        },
         "public": {
-          "download": "1216276336",
-          "gid": "7801435556802787880",
-          "size": "1825718696"
+          "download": "1216351824",
+          "gid": "3801525753674193505",
+          "size": "1825977832"
+        }
+      }
+    },
+    "4316032": {
+      "config": {
+        "osarch": "64",
+        "oslist": "linux"
+      },
+      "manifests": {
+        "experimental-linux": {
+          "download": "987410016",
+          "gid": "9021294034350380236",
+          "size": "1410577465"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
+      "experimental-linux": {
+        "buildid": "26974345",
+        "description": "Experimental native Linux support",
+        "timebuildupdated": "1795786860",
+        "timeupdated": "1795787288"
+      },
       "public": {
-        "buildid": "26950581",
-        "timebuildupdated": "1795704706",
-        "timeupdated": "1795704777"
+        "buildid": "26969764",
+        "timebuildupdated": "1795773410",
+        "timeupdated": "1795773578"
       }
     },
     "hasdepotsindlc": "0",

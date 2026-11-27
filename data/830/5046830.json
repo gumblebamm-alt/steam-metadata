@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795642889,
-  "_history": [],
-  "_change_number": 41466756,
-  "_missing_token": true,
-  "_sha": "05044f326d855e92d5dbeb2ffaaf7c9518789a47",
-  "_size": 3542,
+  "_lastChecked": 1795814184,
+  "_history": [
+    {
+      "buildId": "26972247",
+      "branch": "public",
+      "timeUpdated": 1795781112,
+      "firstSeen": 1795814184,
+      "manifests": {
+        "5046831": {
+          "gid": "8291115017231718744",
+          "size": 526935912,
+          "download": 433202384
+        }
+      }
+    }
+  ],
+  "_change_number": 41569639,
+  "_missing_token": false,
+  "_sha": "d97bbba6dc5326d8cf7871e1585401c8ba4dc7a4",
+  "_size": 4946,
   "appid": "5046830",
   "common": {
     "associations": {
@@ -36,7 +50,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5046830",
     "genres": {
       "0": "23",
@@ -115,11 +128,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1837d5385a6e32c3282469da4b1684672dc45465/capsule_231x87.jpg",
       "schinese": "438d76d738a1329d3c3550da5779c283b7dcc7af/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1795781562",
     "store_asset_mtime": "1795017492",
     "store_tags": {
       "0": "3799",
@@ -150,5 +164,70 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "留在四月以后",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Launch Game",
+        "description_loc": {
+          "english": "Launch Game"
+        },
+        "executable": "CountYourSins.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "5046831": {
+      "manifests": {
+        "public": {
+          "download": "433202384",
+          "gid": "8291115017231718744",
+          "size": "526935912"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26972247",
+        "timebuildupdated": "1795781073",
+        "timeupdated": "1795781112"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Miyabi233",
+    "publisher": "Miyabi233"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "10485760",
+    "savefiles": {
+      "1": {
+        "path": "Godot/app_userdata/Count Your Sins — Version0.1",
+        "pattern": "savegame.save",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/Count Your Sins — Version0.1",
+        "pattern": "save_slot_*.save",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "Godot/app_userdata/Count Your Sins — Version0.1",
+        "pattern": "read_history.save",
+        "root": "WinAppDataRoaming"
+      },
+      "4": {
+        "path": "Godot/app_userdata/Count Your Sins — Version0.1/save_previews",
+        "pattern": "manual_slot_*.png",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

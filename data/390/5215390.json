@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793211953,
+  "_lastChecked": 1795814189,
   "_history": [
     {
       "buildId": "26119416",
@@ -23,12 +23,58 @@
           "download": 875467760
         }
       }
+    },
+    {
+      "buildId": "26284911",
+      "branch": "mac-transition-fix",
+      "timeUpdated": 1793231979,
+      "firstSeen": 1795814189,
+      "manifests": {
+        "5215391": {
+          "gid": "8077833023487044208",
+          "size": 947482720,
+          "download": 856455200
+        },
+        "5215392": {
+          "gid": "4591412783395968068",
+          "size": 912529916,
+          "download": 848024080
+        },
+        "5215393": {
+          "gid": "5317645131747598081",
+          "size": 1011995671,
+          "download": 876183328
+        }
+      }
+    },
+    {
+      "buildId": "26974024",
+      "branch": "public",
+      "timeUpdated": 1795787058,
+      "firstSeen": 1795814189,
+      "manifests": {
+        "5215391": {
+          "gid": "1813386795369898849",
+          "size": 960928304,
+          "download": 869842032
+        },
+        "5215392": {
+          "gid": "3191204249378179462",
+          "size": 925975500,
+          "download": 861388640
+        },
+        "5215393": {
+          "gid": "256239774356509565",
+          "size": 1025441255,
+          "download": 889547888
+        }
+      }
     }
   ],
-  "_change_number": 40348470,
+  "_change_number": 41561570,
   "_missing_token": false,
-  "_sha": "30bfb071ad649ac48ae86e6844d90924e4f5acdd",
-  "_size": 6117,
+  "_sha": "5d06d013a0cf38bda5585bcd01b6e1e73809ad88",
+  "_size": 7294,
   "appid": "5215390",
   "common": {
     "aicontenttype": "1",
@@ -141,7 +187,7 @@
       "english": "fbc8a054f06f0d61e906c6dead22acade527bbe7/capsule_231x87.jpg"
     },
     "steam_release_date": "1793205995",
-    "store_asset_mtime": "1792569389",
+    "store_asset_mtime": "1795786735",
     "store_tags": {
       "0": "1645",
       "1": "560542",
@@ -236,10 +282,15 @@
         "oslist": "windows"
       },
       "manifests": {
+        "mac-transition-fix": {
+          "download": "856455200",
+          "gid": "8077833023487044208",
+          "size": "947482720"
+        },
         "public": {
-          "download": "855768992",
-          "gid": "8046586000196124287",
-          "size": "946795064"
+          "download": "869842032",
+          "gid": "1813386795369898849",
+          "size": "960928304"
         }
       }
     },
@@ -248,10 +299,15 @@
         "oslist": "linux"
       },
       "manifests": {
+        "mac-transition-fix": {
+          "download": "848024080",
+          "gid": "4591412783395968068",
+          "size": "912529916"
+        },
         "public": {
-          "download": "847308512",
-          "gid": "2601211580548064196",
-          "size": "911842260"
+          "download": "861388640",
+          "gid": "3191204249378179462",
+          "size": "925975500"
         }
       }
     },
@@ -260,19 +316,30 @@
         "oslist": "macos"
       },
       "manifests": {
+        "mac-transition-fix": {
+          "download": "876183328",
+          "gid": "5317645131747598081",
+          "size": "1011995671"
+        },
         "public": {
-          "download": "875467760",
-          "gid": "2312824274672495524",
-          "size": "1011308015"
+          "download": "889547888",
+          "gid": "256239774356509565",
+          "size": "1025441255"
         }
       }
     },
     "baselanguages": "english,spanish",
     "branches": {
+      "mac-transition-fix": {
+        "buildid": "26284911",
+        "description": "Mac transition validation",
+        "timebuildupdated": "1793231971",
+        "timeupdated": "1793231979"
+      },
       "public": {
-        "buildid": "26119416",
-        "timebuildupdated": "1792622865",
-        "timeupdated": "1792622866"
+        "buildid": "26974024",
+        "timebuildupdated": "1795785982",
+        "timeupdated": "1795787058"
       }
     },
     "nocommonredists": "1"
@@ -286,11 +353,28 @@
     "quota": "200000000",
     "rootoverrides": {
       "0": {
-        "addpath": "~/.local/share/godot/app_userdata/Uncounted",
         "os": "Linux",
         "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Uncounted",
+            "replace": "godot/app_userdata/Uncounted"
+          }
+        },
         "root": "WinAppDataRoaming",
         "useinstead": "LinuxXdgDataHome"
+      },
+      "1": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Uncounted",
+            "replace": "Godot/app_userdata/Uncounted"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
       }
     },
     "savefiles": {
@@ -317,6 +401,16 @@
       "4": {
         "path": "Godot/app_userdata/Uncounted",
         "pattern": "fluid_music_v1.json",
+        "root": "WinAppDataRoaming"
+      },
+      "5": {
+        "path": "Godot/app_userdata/Uncounted",
+        "pattern": "fluid_achievements_v1.json",
+        "root": "WinAppDataRoaming"
+      },
+      "6": {
+        "path": "Godot/app_userdata/Uncounted",
+        "pattern": "fluid_towers_*_v1.dat",
         "root": "WinAppDataRoaming"
       }
     }

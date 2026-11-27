@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794425754,
-  "_history": [],
-  "_change_number": 40834888,
-  "_missing_token": true,
-  "_sha": "921822978cfd05f6cfb61457d79161df0380269c",
-  "_size": 3610,
+  "_lastChecked": 1795814166,
+  "_history": [
+    {
+      "buildId": "26950979",
+      "branch": "public",
+      "timeUpdated": 1795705875,
+      "firstSeen": 1795814166,
+      "manifests": {
+        "3889841": {
+          "gid": "800056795844335961",
+          "size": 1179018946,
+          "download": 904689472
+        }
+      }
+    }
+  ],
+  "_change_number": 41556411,
+  "_missing_token": false,
+  "_sha": "d3a1e9977934ec0dc6a932de5c1d9360a89a4389",
+  "_size": 4588,
   "appid": "3889840",
   "common": {
     "associations": {
@@ -38,6 +52,7 @@
     },
     "clienticon": "444c255328f7af6433daff22144d47259f53c1c6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "1",
       "1": "3",
@@ -52,7 +67,6 @@
     },
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "3889840",
     "genres": {
       "0": "4",
@@ -124,18 +138,19 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "5faaec82153d55bf0b8ba38cebe271d56b2b83a0/capsule_231x87.jpg"
     },
     "steam_deck_blog_url": "https://steamcommunity.com/app/3889840/discussions/0/657108053777419020/",
+    "steam_release_date": "1795780837",
     "store_asset_mtime": "1787736673",
     "store_tags": {
       "0": "597",
       "1": "599",
-      "10": "44868",
-      "11": "12095",
+      "10": "12095",
+      "11": "44868",
       "12": "3854",
       "13": "6650",
       "14": "492",
@@ -161,5 +176,58 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Oasis of Lilies",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "OasisofLilies.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "OasisofLilies.sh",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "3889841": {
+      "manifests": {
+        "public": {
+          "download": "904689472",
+          "gid": "800056795844335961",
+          "size": "1179018946"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26950979",
+        "timebuildupdated": "1795705775",
+        "timeupdated": "1795705875"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Arcus Plume",
+    "homepage": "https://arcusplume.com/blog/",
+    "publisher": "Arcus Plume"
+  },
+  "ufs": {
+    "maxnumfiles": "200",
+    "quota": "100000000",
+    "savefiles": {
+      "0": {
+        "path": "game/saves",
+        "pattern": "*",
+        "root": "gameinstall"
+      }
+    }
+  }
 }

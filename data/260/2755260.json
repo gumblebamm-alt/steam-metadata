@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1793993034,
-  "_history": [],
-  "_change_number": 40681177,
-  "_missing_token": true,
-  "_sha": "4846f04e93834a09b5c5cdcbdf7124babea3d010",
-  "_size": 2318,
+  "_lastChecked": 1795814157,
+  "_history": [
+    {
+      "buildId": "26929174",
+      "branch": "public",
+      "timeUpdated": 1795633829,
+      "firstSeen": 1795814157,
+      "manifests": {
+        "2755261": {
+          "gid": "3184035065665187988",
+          "size": 641011388,
+          "download": 523441808
+        }
+      }
+    }
+  ],
+  "_change_number": 41561296,
+  "_missing_token": false,
+  "_sha": "c947ea40b75db4733004330a9893d31ff1e680b8",
+  "_size": 3142,
   "appid": "2755260",
   "common": {
     "associations": {
@@ -25,7 +39,6 @@
     "clienttga": "8c134a7c5459a1497696214e765e66aed61c7f99",
     "community_hub_visible": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2755260",
     "genres": {
       "0": "1",
@@ -90,10 +103,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "3",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "capsule_231x87.jpg"
     },
+    "steam_release_date": "1795786471",
     "store_asset_mtime": "1793908758",
     "store_tags": {
       "0": "122",
@@ -125,5 +139,51 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dome RPG",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "DomeRPG\\Game.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2755261": {
+      "manifests": {
+        "public": {
+          "download": "523441808",
+          "gid": "3184035065665187988",
+          "size": "641011388"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26929174",
+        "timebuildupdated": "1795633704",
+        "timeupdated": "1795633829"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Horse Meat Games",
+    "publisher": "Horse Meat Games"
+  },
+  "ufs": {
+    "maxnumfiles": "50",
+    "quota": "150000000",
+    "savefiles": {
+      "0": {
+        "path": "DomeRPG\\www\\save",
+        "pattern": "*.rpgsave",
+        "root": "gameinstall"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

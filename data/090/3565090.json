@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1795728631,
-  "_history": [],
-  "_change_number": 41515862,
-  "_missing_token": true,
-  "_sha": "0dcf48a46ef7b770a57be9ddd15164f78bede9ad",
-  "_size": 3625,
+  "_lastChecked": 1795814163,
+  "_history": [
+    {
+      "buildId": "26973522",
+      "branch": "public",
+      "timeUpdated": 1795784610,
+      "firstSeen": 1795814163,
+      "manifests": {
+        "3565091": {
+          "gid": "365110680052650426",
+          "size": 624587313,
+          "download": 514658576
+        }
+      }
+    }
+  ],
+  "_change_number": 41565458,
+  "_missing_token": false,
+  "_sha": "ecbc9e640edbdd3023c9b849fd1946c652c1c3c2",
+  "_size": 4798,
   "appid": "3565090",
   "common": {
     "associations": {
@@ -44,6 +58,7 @@
     "clienticon": "3bd5cdd34c4c36230e9685491ce0a5cc9b425123",
     "clienttga": "bef79bbe9a8b37225a0ef01f8d0d26fef4369bac",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
     "eulas": {
@@ -51,10 +66,9 @@
         "id": "3565090_eula_0",
         "name": "Goobies 2 EULA",
         "url": "https://store.steampowered.com//eula/3565090_eula_0",
-        "version": "1"
+        "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "3565090",
     "genres": {
       "0": "1",
@@ -125,10 +139,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "93b9dc9c0e48cd1576cdd9cd929b1d980bd2f4a0/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795791603",
     "store_asset_mtime": "1795701191",
     "store_tags": {
       "0": "3814",
@@ -161,5 +176,69 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Goobies 2",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Goobies2.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "3565091": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "514658576",
+          "gid": "365110680052650426",
+          "size": "624587313"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26973522",
+        "timebuildupdated": "1795784573",
+        "timeupdated": "1795784610"
+      }
+    }
+  },
+  "extended": {
+    "developer": "Höganäs Spel",
+    "homepage": "https://www.hoganasspel.se/",
+    "publisher": "Höganäs Spel"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "swords/Saved/SaveGames/Main",
+        "pattern": "*.sav",
+        "root": "WinAppDataLocal"
+      }
+    },
+    "sync_while_suspended": "1"
+  }
 }

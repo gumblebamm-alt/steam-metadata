@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1792069000,
+  "_lastChecked": 1795814163,
   "_history": [
     {
       "buildId": "22529721",
@@ -39,12 +39,25 @@
           "download": 5933402752
         }
       }
+    },
+    {
+      "buildId": "26262254",
+      "branch": "public",
+      "timeUpdated": 1793162900,
+      "firstSeen": 1795814163,
+      "manifests": {
+        "3531261": {
+          "gid": "6462848466754087483",
+          "size": 11825986510,
+          "download": 6120885664
+        }
+      }
     }
   ],
-  "_change_number": 39850849,
+  "_change_number": 41520579,
   "_missing_token": false,
-  "_sha": "279a5d2952d01dd699a2e73a378ad4a2fa8e42a4",
-  "_size": 6904,
+  "_sha": "fa5422cb7c44db29558bb1baed1dadfd454f0b9e",
+  "_size": 7873,
   "appid": "3531260",
   "common": {
     "aicontenttype": "1",
@@ -157,19 +170,19 @@
     "oslist": "windows",
     "primary_genre": "28",
     "releasestate": "released",
-    "review_percentage": "71",
+    "review_percentage": "72",
     "review_score": "6",
     "small_capsule": {
       "english": "ce1565321f1cb067b3502d36aa65ccf5a497a602/capsule_231x87.jpg"
     },
     "steam_deck_compatibility": {
-      "category": "1",
+      "category": "2",
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
-        "non_deck_display_glyphs": "0",
+        "non_deck_display_glyphs": "1",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-7.0-6pin",
+        "recommended_runtime": "proton-11.0-3RC",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
@@ -180,17 +193,21 @@
         "small_text": "1",
         "supported_input": "other"
       },
-      "steam_machine_compatibility": "3",
+      "steam_machine_compatibility": "2",
       "steam_machine_tests": {
         "0": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+        },
+        "2": {
           "display": "4",
           "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
         },
-        "1": {
-          "display": "4",
-          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
-        },
-        "2": {
+        "3": {
           "display": "4",
           "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
         }
@@ -200,14 +217,42 @@
         "0": {
           "display": "3",
           "token": "#SteamOS_TestResult_GameStartupFunctional"
+        },
+        "1": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "2": {
+          "display": "1",
+          "token": "#SteamOS_TestResult_DisplayOutputHasNonblockingIssues"
         }
       },
-      "test_timestamp": "1790874085",
-      "tested_build_id": "22529721",
+      "test_timestamp": "1794427808",
+      "tested_build_id": "26262254",
       "tests": {
         "0": {
-          "display": "2",
-          "token": "#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+        },
+        "1": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+        },
+        "2": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+        },
+        "3": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DisplayOutputHasNonblockingIssues"
+        },
+        "4": {
+          "display": "3",
+          "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsNotPerformant"
+        },
+        "5": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         }
       }
     },
@@ -221,9 +266,9 @@
       "12": "1751",
       "13": "19995",
       "14": "1695",
-      "15": "7481",
-      "16": "19",
-      "17": "1671",
+      "15": "1671",
+      "16": "7481",
+      "17": "19",
       "18": "597",
       "19": "599",
       "2": "3959",
@@ -295,17 +340,17 @@
     "3531261": {
       "manifests": {
         "public": {
-          "download": "5933402752",
-          "gid": "1016288764665978204",
-          "size": "11395615832"
+          "download": "6120885664",
+          "gid": "6462848466754087483",
+          "size": "11825986510"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "25938206",
-        "timebuildupdated": "1791993334",
-        "timeupdated": "1791993369"
+        "buildid": "26262254",
+        "timebuildupdated": "1793162857",
+        "timeupdated": "1793162900"
       }
     },
     "privatebranches": "1",

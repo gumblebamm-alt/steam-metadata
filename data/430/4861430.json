@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795478018,
-  "_history": [],
-  "_change_number": 41378473,
-  "_missing_token": true,
-  "_sha": "61e4874fa46a7d8552e259765072f16946a3e12c",
-  "_size": 3500,
+  "_lastChecked": 1795814181,
+  "_history": [
+    {
+      "buildId": "26975391",
+      "branch": "public",
+      "timeUpdated": 1795789842,
+      "firstSeen": 1795814181,
+      "manifests": {
+        "4861431": {
+          "gid": "6528860457321064683",
+          "size": 375406504,
+          "download": 278474880
+        },
+        "4861432": {
+          "gid": "6456512461742756613",
+          "size": 465138564,
+          "download": 303699600
+        }
+      }
+    }
+  ],
+  "_change_number": 41565470,
+  "_missing_token": false,
+  "_sha": "d4e03de297f3cada0bd66bac2f7027f7bcb39f1a",
+  "_size": 5211,
   "appid": "4861430",
   "common": {
     "associations": {
@@ -34,8 +53,8 @@
     "clienticns": "50f9267e11ae1ec2cb5f0f5d12cc64813cd50383",
     "clienticon": "01058cedb2a3908ca223a301d151cf9f3e43268b",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4861430",
     "genres": {
       "0": "28",
@@ -106,10 +125,11 @@
     "osextended": "macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "614efdefaec1fb53307f4e885c4842866db31e9d/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795791614",
     "store_asset_mtime": "1794400259",
     "store_tags": {
       "0": "599",
@@ -164,5 +184,94 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "LLM Tychoon",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "LLM Tycoon.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "LLM Tycoon.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4861431": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "278474880",
+          "gid": "6528860457321064683",
+          "size": "375406504"
+        }
+      }
+    },
+    "4861432": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "303699600",
+          "gid": "6456512461742756613",
+          "size": "465138564"
+        }
+      }
+    },
+    "baselanguages": "english,french,german,italian,portuguese,spanish,turkish",
+    "branches": {
+      "public": {
+        "buildid": "26975391",
+        "timebuildupdated": "1795789842",
+        "timeupdated": "1795789842"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Futt Studio",
+    "homepage": "https://futtstudio.com",
+    "publisher": "Futt Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "2000",
+    "quota": "1024102410",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "LLM Tycoon/saves",
+        "pattern": "*.json",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "LLM Tycoon/saves",
+        "pattern": "saves_index.dat",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "LLM Tycoon",
+        "pattern": "profile.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }
