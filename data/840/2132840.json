@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1793599360,
+  "_lastChecked": 1795768083,
   "_history": [
     {
       "buildId": "13333463",
@@ -52,12 +52,30 @@
           "download": 493754032
         }
       }
+    },
+    {
+      "buildId": "26962161",
+      "branch": "public",
+      "timeUpdated": 1795743209,
+      "firstSeen": 1795768083,
+      "manifests": {
+        "2132841": {
+          "gid": "8900961366313888644",
+          "size": 2482035957,
+          "download": 493756528
+        },
+        "2132842": {
+          "gid": "3608293485786404684",
+          "size": 2503706422,
+          "download": 597962512
+        }
+      }
     }
   ],
-  "_change_number": 40496816,
+  "_change_number": 41538178,
   "_missing_token": false,
-  "_sha": "c2586318665da1a7f015ce0920e13c41198caf66",
-  "_size": 6441,
+  "_sha": "460ad0aea6fc3613bb141e1b8e9d98352386c12f",
+  "_size": 7078,
   "appid": "2132840",
   "common": {
     "associations": {
@@ -150,8 +168,9 @@
     },
     "name": "Deliverance & Reign",
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "2",
     "releasestate": "released",
     "review_percentage": "79",
@@ -290,25 +309,49 @@
     "installdir": "Deliverance Reign",
     "launch": {
       "0": {
+        "config": {
+          "oslist": "windows"
+        },
         "executable": "Deliverance.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Deliverance.app"
       }
     }
   },
   "depots": {
     "2132841": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "493754032",
-          "gid": "8002665299595645172",
-          "size": "2482031589"
+          "download": "493756528",
+          "gid": "8900961366313888644",
+          "size": "2482035957"
+        }
+      }
+    },
+    "2132842": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "597962512",
+          "gid": "3608293485786404684",
+          "size": "2503706422"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26372535",
-        "timebuildupdated": "1793595763",
-        "timeupdated": "1793595876"
+        "buildid": "26962161",
+        "timebuildupdated": "1795743209",
+        "timeupdated": "1795743209"
       }
     }
   },
@@ -320,21 +363,29 @@
   "ufs": {
     "maxnumfiles": "100",
     "quota": "100000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "One Up Plus/Deliverance",
+            "replace": "One Up Plus/Deliverance"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "One Up Plus/Deliverance",
         "pattern": "SaveData.txt",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocalLow"
       },
       "1": {
         "path": "One Up Plus/Deliverance",
         "pattern": "ReignSaveData.txt",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocalLow"
       }
     }

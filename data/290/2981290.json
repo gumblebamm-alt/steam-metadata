@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795680934,
-  "_history": [],
-  "_change_number": 41489827,
-  "_missing_token": true,
-  "_sha": "b9727e41cc4d7028fd1520530871e2ba9d544939",
-  "_size": 4230,
+  "_lastChecked": 1795768087,
+  "_history": [
+    {
+      "buildId": "26961710",
+      "branch": "public",
+      "timeUpdated": 1795741207,
+      "firstSeen": 1795768087,
+      "manifests": {
+        "2981291": {
+          "gid": "3566754583831474680",
+          "size": 12593987514,
+          "download": 1087094912
+        },
+        "2981292": {
+          "gid": "2356907947625345852",
+          "size": 12606194113,
+          "download": 1096666608
+        }
+      }
+    }
+  ],
+  "_change_number": 41537494,
+  "_missing_token": false,
+  "_sha": "533b21a68353dc1a25844b7d142d1294fc1d5e42",
+  "_size": 5202,
   "appid": "2981290",
   "common": {
     "associations": {
@@ -31,8 +50,8 @@
     "clienticon": "3b298023fbcf97d064f1aeeda5848bc275cc0ba0",
     "clienttga": "5141cf203f6e64f020a50eaa695aefe700a7c84f",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2981290",
     "genres": {
       "0": "25",
@@ -118,14 +137,16 @@
       "russian": "В час ночи по московскому времени"
     },
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "25",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "21278e2728a2dcf43a23e51edea49ff040083c6a/capsule_231x87.jpg",
       "russian": "c85593f56f9d182c3066140eb2263f5905c39a1d/capsule_231x87_russian.jpg"
     },
+    "steam_release_date": "1795730419",
     "store_asset_mtime": "1781814303",
     "store_tags": {
       "0": "3798",
@@ -161,5 +182,55 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "1 AM MOSCOW TIME",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "1AMMOSCOWTIME.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "2981291": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1087094912",
+          "gid": "3566754583831474680",
+          "size": "12593987514"
+        }
+      }
+    },
+    "2981292": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1096666608",
+          "gid": "2356907947625345852",
+          "size": "12606194113"
+        }
+      }
+    },
+    "baselanguages": "english,russian",
+    "branches": {
+      "public": {
+        "buildid": "26961710",
+        "timebuildupdated": "1795741207",
+        "timeupdated": "1795741207"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "yookond.",
+    "publisher": "yookond."
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794902054,
-  "_history": [],
-  "_change_number": 41082083,
-  "_missing_token": true,
-  "_sha": "dc78756f75b13eb7f867b8eeeba76deb8eb276a4",
-  "_size": 5399,
+  "_lastChecked": 1795768101,
+  "_history": [
+    {
+      "buildId": "26966011",
+      "branch": "public",
+      "timeUpdated": 1795759580,
+      "firstSeen": 1795768101,
+      "manifests": {
+        "5044751": {
+          "gid": "6780758291209479539",
+          "size": 449728285,
+          "download": 130535584
+        },
+        "5044752": {
+          "gid": "7849805667454891292",
+          "size": 506037681,
+          "download": 151838960
+        }
+      }
+    }
+  ],
+  "_change_number": 41544629,
+  "_missing_token": false,
+  "_sha": "257d82c4d586de4b23ae84d7760b7073a91ae1f1",
+  "_size": 6598,
   "appid": "5044750",
   "common": {
     "associations": {
@@ -24,8 +43,8 @@
     },
     "clienticon": "59e2881363e53436cadbe25aec20783401fd70d0",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5044750",
     "genres": {
       "0": "1",
@@ -121,17 +140,19 @@
       "japanese": "モグラと鉱石",
       "schinese": "鼹鼠与矿石"
     },
-    "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osarch": "64",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "411027a54dd19c5aaa89d0503b39661d33869782/capsule_231x87.jpg",
       "japanese": "6030ac8fcaee5733912607aa8ed99faaeb17dcad/capsule_231x87_japanese.jpg",
       "koreana": "3b5942c1113fa1abe890f2ba1cdc17f1efe13160/capsule_231x87_koreana.jpg",
       "schinese": "f2984fc124f37cb7654dd054893a479b316121e8/capsule_231x87_schinese.jpg"
     },
+    "steam_release_date": "1795750985",
     "store_asset_mtime": "1792817462",
     "store_tags": {
       "0": "19",
@@ -180,5 +201,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Mole and Ore",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Mole & Ore.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Mole & Ore.app"
+      },
+      "2": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Mole & Ore.exe"
+      }
+    }
+  },
+  "depots": {
+    "5044751": {
+      "config": {
+        "oslist": "windows,linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "130535584",
+          "gid": "6780758291209479539",
+          "size": "449728285"
+        }
+      }
+    },
+    "5044752": {
+      "config": {
+        "osarch": "64",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "151838960",
+          "gid": "7849805667454891292",
+          "size": "506037681"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26966011",
+        "timebuildupdated": "1795759506",
+        "timeupdated": "1795759580"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Aloya Productions",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5572990",
+    "publisher": "Aloya Productions"
+  }
 }

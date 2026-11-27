@@ -1,10 +1,42 @@
 {
-  "_lastChecked": 1795680940,
-  "_history": [],
-  "_change_number": 41501610,
-  "_missing_token": true,
-  "_sha": "f7e6cde2d3b3fd9d6bbaf57141e596f5f6bad789",
-  "_size": 3730,
+  "_lastChecked": 1795768094,
+  "_history": [
+    {
+      "buildId": "26943704",
+      "branch": "nightly",
+      "timeUpdated": 1795685769,
+      "firstSeen": 1795768094,
+      "manifests": {
+        "4275001": {
+          "gid": "3294864772312512745",
+          "size": 617411142,
+          "download": 224017840
+        }
+      }
+    },
+    {
+      "buildId": "26316548",
+      "branch": "public",
+      "timeUpdated": 1793340823,
+      "firstSeen": 1795768094,
+      "manifests": {
+        "4275001": {
+          "gid": "711503462880043168",
+          "size": 623288370,
+          "download": 224126976
+        },
+        "4275002": {
+          "gid": "126767390255502618",
+          "size": 524075577,
+          "download": 209889744
+        }
+      }
+    }
+  ],
+  "_change_number": 41544831,
+  "_missing_token": false,
+  "_sha": "c0a0e8c909453fbf4998d7d4766521d394ad4043",
+  "_size": 5110,
   "appid": "4275000",
   "common": {
     "associations": {
@@ -32,8 +64,8 @@
     },
     "clienticon": "8b5e05684a1bc8a69b8f1114d3ff75f790db3d85",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4275000",
     "genres": {
       "0": "4",
@@ -105,10 +137,11 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "65cb90144bedc61a5171814b5229b5cb625ce2d2/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795762785",
     "store_asset_mtime": "1794450520",
     "store_tags": {
       "0": "1320952",
@@ -181,5 +214,76 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Desktop Island",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "Desktop Island.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Desktop Island.app"
+      }
+    }
+  },
+  "depots": {
+    "4275001": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "nightly": {
+          "download": "224017840",
+          "gid": "3294864772312512745",
+          "size": "617411142"
+        },
+        "public": {
+          "download": "224126976",
+          "gid": "711503462880043168",
+          "size": "623288370"
+        }
+      }
+    },
+    "4275002": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "209889744",
+          "gid": "126767390255502618",
+          "size": "524075577"
+        }
+      }
+    },
+    "branches": {
+      "nightly": {
+        "buildid": "26943704",
+        "description": "beta branch",
+        "timebuildupdated": "1795685769",
+        "timeupdated": "1795685769"
+      },
+      "public": {
+        "buildid": "26316548",
+        "timebuildupdated": "1793340823",
+        "timeupdated": "1793340823"
+      }
+    },
+    "nocommonredists": "1",
+    "workshopdepot": "4275000"
+  },
+  "extended": {
+    "developer": "BiteMe Games",
+    "dlcavailableonstore": "1",
+    "listofdlc": "4803720",
+    "publisher": "BiteMe Games"
+  }
 }

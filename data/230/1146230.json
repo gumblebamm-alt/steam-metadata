@@ -1,42 +1,34 @@
 {
-  "_lastChecked": 1793734334,
+  "_lastChecked": 1795768081,
   "_history": [
     {
-      "buildId": "10286854",
+      "buildId": "26962157",
       "branch": "public",
-      "timeUpdated": 1673316680,
-      "firstSeen": 1788619412,
+      "timeUpdated": 1795743207,
+      "firstSeen": 1795768081,
       "manifests": {
         "1146231": {
-          "gid": "7197060606558303450",
-          "size": 593085174,
-          "download": 264745008
+          "gid": "2942512631024498352",
+          "size": 688592496,
+          "download": 309897184
+        },
+        "1146232": {
+          "gid": "8849018867590441203",
+          "size": 674927247,
+          "download": 311908192
         }
       }
     },
     {
-      "buildId": "25558766",
+      "buildId": "26403606",
       "branch": "public",
-      "timeUpdated": 1790505604,
-      "firstSeen": 1791679435,
+      "timeUpdated": 1793707522,
+      "firstSeen": 1793734334,
       "manifests": {
         "1146231": {
-          "gid": "7674866663749065261",
-          "size": 683772634,
-          "download": 308470720
-        }
-      }
-    },
-    {
-      "buildId": "26287701",
-      "branch": "public",
-      "timeUpdated": 1793243361,
-      "firstSeen": 1793467086,
-      "manifests": {
-        "1146231": {
-          "gid": "1014904015869807867",
-          "size": 687028265,
-          "download": 309444080
+          "gid": "2942512631024498352",
+          "size": 688592496,
+          "download": 309897184
         }
       }
     },
@@ -54,23 +46,36 @@
       }
     },
     {
-      "buildId": "26403606",
+      "buildId": "26287701",
       "branch": "public",
-      "timeUpdated": 1793707522,
-      "firstSeen": 1793734334,
+      "timeUpdated": 1793243361,
+      "firstSeen": 1793467086,
       "manifests": {
         "1146231": {
-          "gid": "2942512631024498352",
-          "size": 688592496,
-          "download": 309897184
+          "gid": "1014904015869807867",
+          "size": 687028265,
+          "download": 309444080
+        }
+      }
+    },
+    {
+      "buildId": "25558766",
+      "branch": "public",
+      "timeUpdated": 1790505604,
+      "firstSeen": 1791679435,
+      "manifests": {
+        "1146231": {
+          "gid": "7674866663749065261",
+          "size": 683772634,
+          "download": 308470720
         }
       }
     }
   ],
-  "_change_number": 40547730,
+  "_change_number": 41538175,
   "_missing_token": false,
-  "_sha": "d0fffa1ae1c82b834ad9b7b796c519716b902c26",
-  "_size": 8283,
+  "_sha": "d94b859c4505025e38977da646134cd60d069e97",
+  "_size": 8539,
   "appid": "1146230",
   "common": {
     "associations": {
@@ -192,8 +197,9 @@
       "tchinese": "魔域地牢 DungeonTop"
     },
     "osarch": "64",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64",
+    "oslist": "windows,macos",
     "primary_genre": "2",
     "releasestate": "released",
     "review_percentage": "80",
@@ -207,34 +213,30 @@
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
-        "non_deck_display_glyphs": "1",
+        "non_deck_display_glyphs": "0",
         "primary_player_is_controller_slot_0": "0",
         "recommended_runtime": "proton-stable",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "requires_manual_keyboard_invoke": "1",
+        "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "1",
         "supported_input": "other"
       },
-      "steam_machine_compatibility": "2",
+      "steam_machine_compatibility": "3",
       "steam_machine_tests": {
         "0": {
-          "display": "3",
-          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
-        },
-        "1": {
-          "display": "3",
-          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-        },
-        "2": {
           "display": "4",
           "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
         },
-        "3": {
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
           "display": "4",
           "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
         }
@@ -244,32 +246,24 @@
         "0": {
           "display": "3",
           "token": "#SteamOS_TestResult_GameStartupFunctional"
-        },
-        "1": {
-          "display": "1",
-          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
         }
       },
-      "test_timestamp": "1756512000",
-      "tested_build_id": "10286854",
+      "test_timestamp": "1793823199",
+      "tested_build_id": "26403606",
       "tests": {
         "0": {
           "display": "3",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
-        },
-        "1": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-        },
-        "2": {
-          "display": "3",
           "token": "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
         },
-        "3": {
+        "1": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
-        "4": {
+        "2": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "3": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
         }
@@ -360,8 +354,16 @@
     "installdir": "Spellsword Cards DungeonTop",
     "launch": {
       "0": {
-        "executable": "Dungeontop.exe",
-        "type": "none"
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Dungeontop.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "DungeonTop.app"
       }
     },
     "steamconfigurator3rdpartynative": "13",
@@ -370,6 +372,9 @@
   },
   "depots": {
     "1146231": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
           "download": "309897184",
@@ -378,11 +383,23 @@
         }
       }
     },
+    "1146232": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "311908192",
+          "gid": "8849018867590441203",
+          "size": "674927247"
+        }
+      }
+    },
     "branches": {
       "public": {
-        "buildid": "26403606",
-        "timebuildupdated": "1793703309",
-        "timeupdated": "1793707522"
+        "buildid": "26962157",
+        "timebuildupdated": "1795743207",
+        "timeupdated": "1795743207"
       }
     },
     "privatebranches": "1"
@@ -395,13 +412,24 @@
   "ufs": {
     "maxnumfiles": "10",
     "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "One Up Plus/Dungeontop",
+            "replace": "One Up Plus/DungeonTop"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
     "savefiles": {
       "0": {
         "path": "One Up Plus/Dungeontop",
         "pattern": "SaveData.txt",
-        "platforms": {
-          "1": "Windows"
-        },
         "root": "WinAppDataLocalLow"
       }
     }

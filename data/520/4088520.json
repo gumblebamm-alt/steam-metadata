@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795728637,
-  "_history": [],
-  "_change_number": 41509094,
-  "_missing_token": true,
-  "_sha": "5f3002681c5d27969010847ee80278ffefdd7e95",
-  "_size": 8940,
+  "_lastChecked": 1795768092,
+  "_history": [
+    {
+      "buildId": "26945115",
+      "branch": "public",
+      "timeUpdated": 1795689622,
+      "firstSeen": 1795768092,
+      "manifests": {
+        "4088521": {
+          "gid": "2870208477444854907",
+          "size": 3822362703,
+          "download": 2036549040
+        },
+        "4088522": {
+          "gid": "4605209453272928051",
+          "size": 4965827477,
+          "download": 2451072464
+        }
+      }
+    }
+  ],
+  "_change_number": 41544996,
+  "_missing_token": false,
+  "_sha": "644e36fa7a1456b63ae0796ea1c43151f534066b",
+  "_size": 10359,
   "appid": "4088520",
   "common": {
     "associations": {
@@ -41,9 +60,9 @@
     },
     "clienticon": "2e2e3039870a731876131a8b72b9100a3583f964",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4088520",
     "genres": {
       "0": "23",
@@ -153,7 +172,7 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "1ef7c87105fb70aa8421be3c8c99128c8df1b4e3/capsule_231x87.jpg",
       "japanese": "c411056f0cc0573fd76effaafdded2f73efc3d40/capsule_231x87_japanese.jpg",
@@ -229,6 +248,7 @@
         }
       }
     },
+    "steam_release_date": "1795763216",
     "store_asset_mtime": "1794333572",
     "store_tags": {
       "0": "599",
@@ -312,5 +332,83 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "MeowFactory",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "MeowFactory.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "MeowFactory.app"
+      }
+    }
+  },
+  "depots": {
+    "4088521": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "2036549040",
+          "gid": "2870208477444854907",
+          "size": "3822362703"
+        }
+      }
+    },
+    "4088522": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "2451072464",
+          "gid": "4605209453272928051",
+          "size": "4965827477"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26945115",
+        "timebuildupdated": "1795689622",
+        "timeupdated": "1795689622"
+      }
+    },
+    "nocommonredists": "1",
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Smola Game Studio",
+    "publisher": "Smola Game Studio"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "1073741824",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Smola Game Studio/MeowFactory",
+        "pattern": "*.json",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

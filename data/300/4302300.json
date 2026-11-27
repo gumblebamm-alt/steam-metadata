@@ -1,10 +1,50 @@
 {
-  "_lastChecked": 1795513999,
-  "_history": [],
-  "_change_number": 41410616,
-  "_missing_token": true,
-  "_sha": "a08e50bd0b0bb446ebf641f0deac36ecff6415a3",
-  "_size": 3107,
+  "_lastChecked": 1795768094,
+  "_history": [
+    {
+      "buildId": "26897225",
+      "branch": "beta",
+      "timeUpdated": 1795534705,
+      "firstSeen": 1795768094,
+      "manifests": {
+        "4302301": {
+          "gid": "7175205109293239781",
+          "size": 2626185642,
+          "download": 2465695824
+        }
+      }
+    },
+    {
+      "buildId": "26844838",
+      "branch": "previous_version",
+      "timeUpdated": 1795328807,
+      "firstSeen": 1795768094,
+      "manifests": {
+        "4302301": {
+          "gid": "5828070570491206946",
+          "size": 2626185722,
+          "download": 2465646080
+        }
+      }
+    },
+    {
+      "buildId": "26897225",
+      "branch": "public",
+      "timeUpdated": 1795534714,
+      "firstSeen": 1795768094,
+      "manifests": {
+        "4302301": {
+          "gid": "7175205109293239781",
+          "size": 2626185642,
+          "download": 2465695824
+        }
+      }
+    }
+  ],
+  "_change_number": 41544521,
+  "_missing_token": false,
+  "_sha": "4a040b32b7991606cdcfda343c938f302632b639",
+  "_size": 4785,
   "appid": "4302300",
   "common": {
     "aicontenttype": "1",
@@ -35,7 +75,6 @@
         "version": "2"
       }
     },
-    "exfgls": "8",
     "gameid": "4302300",
     "genres": {
       "0": "23",
@@ -107,11 +146,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "8a340dfc96221b730380d0b1ae056f493f0ecd09/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1795490994",
+    "steam_release_date": "1795755833",
+    "store_asset_mtime": "1795762008",
     "store_tags": {
       "0": "492",
       "1": "599",
@@ -138,5 +178,89 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Empire Water Works",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "EmpireWaterWorks.exe"
+      }
+    }
+  },
+  "depots": {
+    "228989": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "228990": {
+      "config": {
+        "oslist": "windows"
+      },
+      "depotfromapp": "228980",
+      "sharedinstall": "1"
+    },
+    "4302301": {
+      "manifests": {
+        "beta": {
+          "download": "2465695824",
+          "gid": "7175205109293239781",
+          "size": "2626185642"
+        },
+        "previous_version": {
+          "download": "2465646080",
+          "gid": "5828070570491206946",
+          "size": "2626185722"
+        },
+        "public": {
+          "download": "2465695824",
+          "gid": "7175205109293239781",
+          "size": "2626185642"
+        }
+      }
+    },
+    "branches": {
+      "beta": {
+        "buildid": "26897225",
+        "description": "Preview upcoming features and fixes",
+        "timebuildupdated": "1795534675",
+        "timeupdated": "1795534705"
+      },
+      "previous_version": {
+        "buildid": "26844838",
+        "description": "Prior version",
+        "timebuildupdated": "1795328781",
+        "timeupdated": "1795328807"
+      },
+      "public": {
+        "buildid": "26897225",
+        "timebuildupdated": "1795534675",
+        "timeupdated": "1795534714"
+      }
+    },
+    "privatebranches": "1"
+  },
+  "extended": {
+    "developer": "Harman Motor Works",
+    "publisher": "Harman Motor Works"
+  },
+  "ufs": {
+    "maxnumfiles": "20",
+    "quota": "10485760",
+    "savefiles": {
+      "0": {
+        "path": "EmpireWaterWorks/Saved/SaveGames",
+        "pattern": "*.sav",
+        "platforms": {
+          "1": "Windows"
+        },
+        "root": "WinAppDataLocal"
+      }
+    }
+  }
 }

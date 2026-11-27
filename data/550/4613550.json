@@ -1,10 +1,24 @@
 {
-  "_lastChecked": 1794986783,
-  "_history": [],
-  "_change_number": 41209753,
-  "_missing_token": true,
-  "_sha": "222a5b80a51234e6c54414438896a7db068520ab",
-  "_size": 4273,
+  "_lastChecked": 1795768097,
+  "_history": [
+    {
+      "buildId": "26963438",
+      "branch": "public",
+      "timeUpdated": 1795748298,
+      "firstSeen": 1795768097,
+      "manifests": {
+        "4613551": {
+          "gid": "5447187530804006588",
+          "size": 184362740,
+          "download": 100549200
+        }
+      }
+    }
+  ],
+  "_change_number": 41541588,
+  "_missing_token": false,
+  "_sha": "83627ac58532107473f84f85b818a96d40d037fb",
+  "_size": 5716,
   "appid": "4613550",
   "common": {
     "aicontenttype": "1",
@@ -26,8 +40,8 @@
     },
     "clienticon": "f2ebcb8feca11178c0ae2f70531acba25dccb5d4",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4613550",
     "genres": {
       "0": "23",
@@ -108,12 +122,13 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "9a7edca4b1a2352394f53504d02b09d85761432d/capsule_231x87.jpg",
       "schinese": "cf788b07ab2108633f104c4582e0d741b02a6996/capsule_231x87_schinese.jpg"
     },
-    "store_asset_mtime": "1788867554",
+    "steam_release_date": "1795751433",
+    "store_asset_mtime": "1795752798",
     "store_tags": {
       "0": "1662",
       "1": "3810",
@@ -180,5 +195,68 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "GhostomVillage",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "GhostomVillage.exe",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4613551": {
+      "manifests": {
+        "public": {
+          "download": "100549200",
+          "gid": "5447187530804006588",
+          "size": "184362740"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26963438",
+        "timebuildupdated": "1795748280",
+        "timeupdated": "1795748298"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Stellar Perturbation",
+    "publisher": "Stellar Perturbation"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "5000000000",
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/GhostomVillage/steam/4613550/{64BitSteamID}/saves",
+        "pattern": "*.res",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "1": {
+        "path": "Godot/app_userdata/GhostomVillage/steam/4613550/{64BitSteamID}/saves",
+        "pattern": "*.json",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "2": {
+        "path": "Godot/app_userdata/GhostomVillage/steam/4613550/{64BitSteasavmID}/saves",
+        "pattern": "*.png",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      },
+      "3": {
+        "path": "`Godot/app_userdata/GhostomVillage/steam/4613550/{64BitSteamID}",
+        "pattern": "illustrated_handbook.cfg",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

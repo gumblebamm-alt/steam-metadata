@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1794031074,
-  "_history": [],
-  "_change_number": 40688527,
-  "_missing_token": true,
-  "_sha": "9e4e43807ed1821ef5a28e58d130e4d9675e2f67",
-  "_size": 3357,
+  "_lastChecked": 1795768101,
+  "_history": [
+    {
+      "buildId": "26964485",
+      "branch": "public",
+      "timeUpdated": 1795752723,
+      "firstSeen": 1795768101,
+      "manifests": {
+        "5077431": {
+          "gid": "2162963525578050223",
+          "size": 261213070,
+          "download": 68289232
+        },
+        "5077432": {
+          "gid": "574984270061788743",
+          "size": 268805926,
+          "download": 69977600
+        }
+      }
+    }
+  ],
+  "_change_number": 41541823,
+  "_missing_token": false,
+  "_sha": "f8559a0805b325821ff1c4809771de21490a897f",
+  "_size": 4923,
   "appid": "5077430",
   "common": {
     "associations": {
@@ -37,9 +56,9 @@
     },
     "clienticon": "3f121fb5e7761ecad84d5518340742046d520549",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "5077430",
     "genres": {
       "0": "1",
@@ -115,10 +134,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "1",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3a62ecb2d98348488a099ac6be543e49acfec9a8/capsule_231x87.jpg"
     },
+    "steam_release_date": "1796025600",
     "store_asset_mtime": "1794008585",
     "store_tags": {
       "0": "3959",
@@ -151,5 +171,86 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Dead Man's Clock",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "Dead Man's Clock.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Dead Man's Clock.x86_64"
+      }
+    },
+    "steamcontrollertemplateindex": "4",
+    "steamdecktouchscreen": "1"
+  },
+  "depots": {
+    "5077431": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "68289232",
+          "gid": "2162963525578050223",
+          "size": "261213070"
+        }
+      }
+    },
+    "5077432": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "69977600",
+          "gid": "574984270061788743",
+          "size": "268805926"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26964485",
+        "timebuildupdated": "1795752604",
+        "timeupdated": "1795752723"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Wolfsoft Games",
+    "publisher": "Wolfsoft Games"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Wolfsoft Games/Dead Man's Clock",
+            "replace": ".config/unity3d/Wolfsoft Games/Dead Man's Clock"
+          }
+        },
+        "root": "WinAppDataLocalLow",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Wolfsoft Games/Dead Man's Clock",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

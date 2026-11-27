@@ -1,10 +1,34 @@
 {
-  "_lastChecked": 1795728649,
-  "_history": [],
-  "_change_number": 41523781,
-  "_missing_token": true,
-  "_sha": "caab72a1af61827b4755c2c2d99f9108dd36e2d6",
-  "_size": 3887,
+  "_lastChecked": 1795768098,
+  "_history": [
+    {
+      "buildId": "26960247",
+      "branch": "public",
+      "timeUpdated": 1795735276,
+      "firstSeen": 1795768098,
+      "manifests": {
+        "4729051": {
+          "gid": "4703578387317911035",
+          "size": 391326986,
+          "download": 242371824
+        },
+        "4729052": {
+          "gid": "5091207030496332929",
+          "size": 375029329,
+          "download": 239436640
+        },
+        "4729053": {
+          "gid": "4285862595874068251",
+          "size": 498653293,
+          "download": 274479264
+        }
+      }
+    }
+  ],
+  "_change_number": 41545754,
+  "_missing_token": false,
+  "_sha": "f96bdd97e33a01e54ea2c98130f13216f5facd52",
+  "_size": 5945,
   "appid": "4729050",
   "common": {
     "associations": {
@@ -26,8 +50,8 @@
     "clienticns": "8749b78239fca0e0ad729192d63a5a310f4fbda5",
     "clienticon": "8749b78239fca0e0ad729192d63a5a310f4fbda5",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4729050",
     "genres": {
       "0": "4",
@@ -106,14 +130,17 @@
     },
     "osarch": "",
     "oscpu": "",
-    "osextended": "macosapplesilicon,macosnotarized",
+    "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
+    "review_percentage": "94",
+    "review_score": "7",
     "small_capsule": {
       "english": "799fabbe934dc1c572ace4cd4649645fa4c44425/capsule_231x87.jpg"
     },
-    "store_asset_mtime": "1795713884",
+    "steam_release_date": "1795741248",
+    "store_asset_mtime": "1795741275",
     "store_tags": {
       "0": "615955",
       "1": "1320952",
@@ -176,5 +203,110 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Vibe Train",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "windows/Vibe Train.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "linux/Vibe Train.x86_64"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "macos/Vibe Train.app"
+      }
+    }
+  },
+  "depots": {
+    "4729051": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "242371824",
+          "gid": "4703578387317911035",
+          "size": "391326986"
+        }
+      }
+    },
+    "4729052": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "239436640",
+          "gid": "5091207030496332929",
+          "size": "375029329"
+        }
+      }
+    },
+    "4729053": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "274479264",
+          "gid": "4285862595874068251",
+          "size": "498653293"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26960247",
+        "timebuildupdated": "1795735272",
+        "timeupdated": "1795735276"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "IGNICORE GAMES",
+    "publisher": "IGNICORE GAMES"
+  },
+  "ufs": {
+    "maxnumfiles": "1000",
+    "quota": "104857600",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      },
+      "1": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/Vibe Train/saves/full_game",
+            "replace": "godot/app_userdata/Vibe Train/saves/full_game"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxXdgDataHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/Vibe Train/saves/full_game",
+        "pattern": "*.tres",
+        "recursive": "1",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795728622,
-  "_history": [],
-  "_change_number": 41515591,
-  "_missing_token": true,
-  "_sha": "c942ed12d311000a7c6ced6301ff95c52c510179",
-  "_size": 5101,
+  "_lastChecked": 1795768085,
+  "_history": [
+    {
+      "buildId": "26949134",
+      "branch": "public",
+      "timeUpdated": 1795700794,
+      "firstSeen": 1795768085,
+      "manifests": {
+        "2533701": {
+          "gid": "7579268531949066409",
+          "size": 821222728,
+          "download": 711249792
+        },
+        "2533702": {
+          "gid": "7380648296361960714",
+          "size": 970371529,
+          "download": 873860800
+        }
+      }
+    }
+  ],
+  "_change_number": 41541283,
+  "_missing_token": false,
+  "_sha": "10152f70eca5eaaeb1ab059082fc30bc2c679973",
+  "_size": 6577,
   "appid": "2533700",
   "common": {
     "associations": {
@@ -36,8 +55,8 @@
     "clienticon": "b8762ee7f62ce87fec7d1ce18c72a8206d6e94d2",
     "clienttga": "fdff70d29518b9b080ae2f1dd72d20397d62db94",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "2533700",
     "genres": {
       "0": "1",
@@ -143,13 +162,14 @@
     "osextended": "macos64,macosapplesilicon",
     "oslist": "windows,macos",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "3c623018a4ef0e8b8f460729a5f213aa21ea234d/capsule_231x87.jpg",
       "japanese": "5dbb7086e993f6c3ca63400618e7e8526994f321/capsule_231x87_japanese.jpg",
       "schinese": "f015cadcc8e50ba9b3325de6861abec7c7e14f76/capsule_231x87_schinese.jpg",
       "tchinese": "4edb0bc15676fe2ce91adc8036712acc8c74ac32/capsule_231x87_tchinese.jpg"
     },
+    "steam_release_date": "1795752015",
     "store_asset_mtime": "1795618902",
     "store_tags": {
       "0": "10235",
@@ -193,5 +213,85 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "LoveinDebt",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "love_in_debt.exe"
+      },
+      "1": {
+        "arguments": "love_in_debt.app/Contents/MacOS",
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "/love_in_debt.app/Contents/MacOS/love_in_debt"
+      }
+    }
+  },
+  "depots": {
+    "2533701": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "711249792",
+          "gid": "7579268531949066409",
+          "size": "821222728"
+        }
+      }
+    },
+    "2533702": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "873860800",
+          "gid": "7380648296361960714",
+          "size": "970371529"
+        }
+      }
+    },
+    "5541990": {
+      "dlcappid": "5541990"
+    },
+    "branches": {
+      "public": {
+        "buildid": "26949134",
+        "timebuildupdated": "1795700758",
+        "timeupdated": "1795700794"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Foy",
+    "publisher": "Foy"
+  },
+  "ufs": {
+    "maxnumfiles": "10000",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "addpath": "",
+        "os": "MacOS",
+        "oscompare": "=",
+        "root": "WinAppDataLocalLow",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "1": {
+        "path": "Hate Working!/love_in_debt",
+        "pattern": "*",
+        "recursive": "1",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

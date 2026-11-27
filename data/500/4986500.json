@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795288476,
-  "_history": [],
-  "_change_number": 40872303,
-  "_missing_token": true,
-  "_sha": "00368316e3dfe474b03db92a40d1997366cab86d",
-  "_size": 5500,
+  "_lastChecked": 1795768100,
+  "_history": [
+    {
+      "buildId": "26910304",
+      "branch": "public",
+      "timeUpdated": 1795574971,
+      "firstSeen": 1795768100,
+      "manifests": {
+        "4986501": {
+          "gid": "7069930145549465671",
+          "size": 286141779,
+          "download": 177878544
+        },
+        "4986502": {
+          "gid": "2865490755552594008",
+          "size": 305097857,
+          "download": 186548896
+        }
+      }
+    }
+  ],
+  "_change_number": 41540037,
+  "_missing_token": false,
+  "_sha": "c7cc3bafde442e47d5dd9f47a1a54966e7a37ff2",
+  "_size": 6516,
   "appid": "4986500",
   "common": {
     "aicontenttype": "1",
@@ -34,8 +53,8 @@
     },
     "clienticon": "3a10a4610ed14b397a87c93b09c9f064545b04c6",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4986500",
     "genres": {
       "0": "2"
@@ -131,7 +150,7 @@
     "osextended": "macos64,macosapplesilicon,macosnotarized",
     "oslist": "windows,macos",
     "primary_genre": "2",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "d2bb9f61e91ce2423634d0802ebab099d81fb02d/capsule_231x87.jpg",
       "japanese": "cc8dccd5219cdec243e2bb5f0af98e6219141469/capsule_231x87_japanese.jpg",
@@ -170,5 +189,62 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Lineup, Dark Lord!  Auto Battler",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "lineupdarklord.exe",
+        "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "lineupdarklord.app",
+        "type": "default"
+      }
+    }
+  },
+  "depots": {
+    "4986501": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "177878544",
+          "gid": "7069930145549465671",
+          "size": "286141779"
+        }
+      }
+    },
+    "4986502": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "186548896",
+          "gid": "2865490755552594008",
+          "size": "305097857"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26910304",
+        "timebuildupdated": "1795574722",
+        "timeupdated": "1795574971"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "SecondQuest",
+    "publisher": "SecondQuest"
+  }
 }

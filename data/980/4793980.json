@@ -1,10 +1,47 @@
 {
-  "_lastChecked": 1795205733,
-  "_history": [],
-  "_change_number": 41303725,
-  "_missing_token": true,
-  "_sha": "c494c6fe9081ce5a57b731c3839f00fbdcfcb8c4",
-  "_size": 3224,
+  "_lastChecked": 1795768098,
+  "_history": [
+    {
+      "buildId": "26828186",
+      "branch": "prerelease",
+      "timeUpdated": 1795236196,
+      "firstSeen": 1795768098,
+      "manifests": {
+        "4793981": {
+          "gid": "4850479196941365809",
+          "size": 24548440,
+          "download": 12619232
+        },
+        "4793982": {
+          "gid": "3320059827456150312",
+          "size": 24677472,
+          "download": 12714688
+        }
+      }
+    },
+    {
+      "buildId": "26828186",
+      "branch": "public",
+      "timeUpdated": 1795236196,
+      "firstSeen": 1795768098,
+      "manifests": {
+        "4793981": {
+          "gid": "4850479196941365809",
+          "size": 24548440,
+          "download": 12619232
+        },
+        "4793982": {
+          "gid": "3320059827456150312",
+          "size": 24677472,
+          "download": 12714688
+        }
+      }
+    }
+  ],
+  "_change_number": 41540006,
+  "_missing_token": false,
+  "_sha": "646a0a047532009e0f38281ddd2a52b56ce239a2",
+  "_size": 5183,
   "appid": "4793980",
   "common": {
     "associations": {
@@ -28,8 +65,8 @@
     },
     "clienticon": "aed649698ef3fa342de44fd8ff68b25338c74eeb",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4793980",
     "genres": {
       "0": "4",
@@ -100,10 +137,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "4",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "c6bbdb7ab02bcbf48867b7e052f72c838de8cba9/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795748532",
     "store_asset_mtime": "1795183655",
     "store_tags": {
       "0": "615955",
@@ -148,5 +186,107 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "app_mappings": {
+      "0": {
+        "platform": "linux",
+        "tool": "SteamLinuxRuntime_scout"
+      }
+    },
+    "installdir": "Pest Protocol",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "pest_protocol_linux"
+      },
+      "1": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "pest_protocol.exe"
+      }
+    }
+  },
+  "depots": {
+    "4793981": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "prerelease": {
+          "download": "12619232",
+          "gid": "4850479196941365809",
+          "size": "24548440"
+        },
+        "public": {
+          "download": "12619232",
+          "gid": "4850479196941365809",
+          "size": "24548440"
+        }
+      }
+    },
+    "4793982": {
+      "config": {
+        "oslist": "windows"
+      },
+      "manifests": {
+        "prerelease": {
+          "download": "12714688",
+          "gid": "3320059827456150312",
+          "size": "24677472"
+        },
+        "public": {
+          "download": "12714688",
+          "gid": "3320059827456150312",
+          "size": "24677472"
+        }
+      }
+    },
+    "baselanguages": "english",
+    "branches": {
+      "prerelease": {
+        "buildid": "26828186",
+        "description": "Prerelease branch before default",
+        "timebuildupdated": "1795236194",
+        "timeupdated": "1795236196"
+      },
+      "public": {
+        "buildid": "26828186",
+        "timebuildupdated": "1795236194",
+        "timeupdated": "1795236196"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Eternal Dev",
+    "publisher": "Eternal Dev"
+  },
+  "ufs": {
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "rootoverrides": {
+      "0": {
+        "os": "Linux",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "PestProtocol",
+            "replace": ".config/PestProtocol"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "LinuxHome"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "PestProtocol",
+        "pattern": "save_data.sav",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

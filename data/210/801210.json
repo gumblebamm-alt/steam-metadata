@@ -1,42 +1,34 @@
 {
-  "_lastChecked": 1793599358,
+  "_lastChecked": 1795768080,
   "_history": [
     {
-      "buildId": "12430617",
+      "buildId": "26962162",
       "branch": "public",
-      "timeUpdated": 1697175333,
-      "firstSeen": 1788617580,
+      "timeUpdated": 1795743212,
+      "firstSeen": 1795768080,
       "manifests": {
         "801211": {
-          "gid": "4055866566235282196",
-          "size": 804624985,
-          "download": 237919728
+          "gid": "5799256052876906090",
+          "size": 493622932,
+          "download": 391531520
+        },
+        "801212": {
+          "gid": "8076836253465523281",
+          "size": 515410458,
+          "download": 401422016
         }
       }
     },
     {
-      "buildId": "25803389",
+      "buildId": "26371994",
       "branch": "public",
-      "timeUpdated": 1791462339,
-      "firstSeen": 1791635744,
+      "timeUpdated": 1793593225,
+      "firstSeen": 1793599358,
       "manifests": {
         "801211": {
-          "gid": "4888907432884908025",
-          "size": 386699556,
-          "download": 296885424
-        }
-      }
-    },
-    {
-      "buildId": "25855977",
-      "branch": "public",
-      "timeUpdated": 1791669059,
-      "firstSeen": 1791679435,
-      "manifests": {
-        "801211": {
-          "gid": "5169549028410781889",
-          "size": 387182215,
-          "download": 297324160
+          "gid": "4078972367061502808",
+          "size": 481357372,
+          "download": 379979424
         }
       }
     },
@@ -54,23 +46,36 @@
       }
     },
     {
-      "buildId": "26371994",
+      "buildId": "25855977",
       "branch": "public",
-      "timeUpdated": 1793593225,
-      "firstSeen": 1793599358,
+      "timeUpdated": 1791669059,
+      "firstSeen": 1791679435,
       "manifests": {
         "801211": {
-          "gid": "4078972367061502808",
-          "size": 481357372,
-          "download": 379979424
+          "gid": "5169549028410781889",
+          "size": 387182215,
+          "download": 297324160
+        }
+      }
+    },
+    {
+      "buildId": "25803389",
+      "branch": "public",
+      "timeUpdated": 1791462339,
+      "firstSeen": 1791635744,
+      "manifests": {
+        "801211": {
+          "gid": "4888907432884908025",
+          "size": 386699556,
+          "download": 296885424
         }
       }
     }
   ],
-  "_change_number": 40496096,
+  "_change_number": 41538180,
   "_missing_token": false,
-  "_sha": "be54fc76b58f65b25083d4e5b3258615a3f83faa",
-  "_size": 6613,
+  "_sha": "f47b2d3b7f79630f99f749e19c67276e4c2821d1",
+  "_size": 6924,
   "appid": "801210",
   "common": {
     "associations": {
@@ -166,7 +171,9 @@
     "metacritic_name": "Spellsword Cards: Demontide",
     "name": "Spellsword Cards: Demontide",
     "osarch": "64",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "23",
     "releasestate": "released",
     "review_percentage": "60",
@@ -175,38 +182,34 @@
       "english": "7848d44f4b3e67d8feda4dec953a0668b2c801bf/capsule_231x87.jpg"
     },
     "steam_deck_compatibility": {
-      "category": "2",
+      "category": "3",
       "configuration": {
         "gamescope_frame_limiter_not_supported": "0",
         "hdr_support": "0",
-        "non_deck_display_glyphs": "1",
+        "non_deck_display_glyphs": "0",
         "primary_player_is_controller_slot_0": "0",
-        "recommended_runtime": "proton-stable",
+        "recommended_runtime": "proton-11.0-3RC",
         "requires_h264": "0",
         "requires_internet_for_setup": "0",
         "requires_internet_for_singleplayer": "0",
-        "requires_manual_keyboard_invoke": "1",
+        "requires_manual_keyboard_invoke": "0",
         "requires_non_controller_launcher_nav": "0",
         "requires_proton_soundfonts": "0",
         "requires_voice_files": "0",
         "small_text": "0",
         "supported_input": "other"
       },
-      "steam_machine_compatibility": "2",
+      "steam_machine_compatibility": "3",
       "steam_machine_tests": {
         "0": {
-          "display": "3",
-          "token": "#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
-        },
-        "1": {
-          "display": "3",
-          "token": "#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-        },
-        "2": {
           "display": "4",
           "token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
         },
-        "3": {
+        "1": {
+          "display": "4",
+          "token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        "2": {
           "display": "4",
           "token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
         }
@@ -216,32 +219,24 @@
         "0": {
           "display": "3",
           "token": "#SteamOS_TestResult_GameStartupFunctional"
-        },
-        "1": {
-          "display": "1",
-          "token": "#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
         }
       },
-      "test_timestamp": "1703116800",
-      "tested_build_id": "12430617",
+      "test_timestamp": "1793886519",
+      "tested_build_id": "26453761",
       "tests": {
         "0": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
-        },
-        "1": {
-          "display": "3",
-          "token": "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
-        },
-        "2": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
         },
-        "3": {
+        "1": {
+          "display": "4",
+          "token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        "2": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
         },
-        "4": {
+        "3": {
           "display": "4",
           "token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
         }
@@ -321,24 +316,46 @@
         },
         "executable": "Demontide.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "Demontide.app",
+        "type": "default"
       }
     }
   },
   "depots": {
     "801211": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "379979424",
-          "gid": "4078972367061502808",
-          "size": "481357372"
+          "download": "391531520",
+          "gid": "5799256052876906090",
+          "size": "493622932"
+        }
+      }
+    },
+    "801212": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "401422016",
+          "gid": "8076836253465523281",
+          "size": "515410458"
         }
       }
     },
     "branches": {
       "public": {
-        "buildid": "26371994",
-        "timebuildupdated": "1793593184",
-        "timeupdated": "1793593225"
+        "buildid": "26962162",
+        "timebuildupdated": "1795743212",
+        "timeupdated": "1795743212"
       }
     }
   },
@@ -346,5 +363,18 @@
     "developer": "One Up Plus Entertainment",
     "homepage": "https://www.oneupplustrust.com/demontide.html",
     "publisher": "One Up Plus Entertainment"
+  },
+  "ufs": {
+    "hidecloudui": "1",
+    "ignoreexternalfiles": "1",
+    "maxnumfiles": "10",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Library/Preferences",
+        "pattern": "com.oneupplus.spellswordcards.demontide.plist",
+        "root": "MacHome"
+      }
+    }
   }
 }

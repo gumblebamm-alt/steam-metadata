@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795559150,
-  "_history": [],
-  "_change_number": 41424690,
-  "_missing_token": true,
-  "_sha": "ddd44f1263f7674bcc2fa24120a53dd4889950b9",
-  "_size": 3457,
+  "_lastChecked": 1795768097,
+  "_history": [
+    {
+      "buildId": "26926325",
+      "branch": "public",
+      "timeUpdated": 1795625872,
+      "firstSeen": 1795768097,
+      "manifests": {
+        "4620791": {
+          "gid": "3052761106074289048",
+          "size": 392222216,
+          "download": 274271760
+        },
+        "4620792": {
+          "gid": "2736585894093444443",
+          "size": 487855945,
+          "download": 251175296
+        }
+      }
+    }
+  ],
+  "_change_number": 41547168,
+  "_missing_token": false,
+  "_sha": "37bd2cfd3aa949480ff7836ca76b8b47b3dbab91",
+  "_size": 4432,
   "appid": "4620790",
   "common": {
     "associations": {
@@ -27,9 +46,9 @@
     },
     "clienticon": "ca96c73cf7de2d89007a0f3f30e783022917bcf3",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "controller_support": "full",
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4620790",
     "genres": {
       "0": "1",
@@ -113,10 +132,11 @@
     "osextended": "",
     "oslist": "windows,linux",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "86c321c0a4f7d9d9b9432a89a24b4ec8530bed9a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795767782",
     "store_asset_mtime": "1794331264",
     "store_tags": {
       "0": "1664",
@@ -165,5 +185,60 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "CargoLines",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "CargoLines.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "CargoLines.x86_64"
+      }
+    }
+  },
+  "depots": {
+    "4620791": {
+      "config": {
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "274271760",
+          "gid": "3052761106074289048",
+          "size": "392222216"
+        }
+      }
+    },
+    "4620792": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "251175296",
+          "gid": "2736585894093444443",
+          "size": "487855945"
+        }
+      }
+    },
+    "branches": {
+      "public": {
+        "buildid": "26926325",
+        "timebuildupdated": "1795625870",
+        "timeupdated": "1795625872"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "splenbit",
+    "publisher": "splenbit"
+  }
 }
