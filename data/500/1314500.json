@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1795728617,
+  "_lastChecked": 1795851977,
   "_history": [
     {
       "buildId": "17210565",
@@ -26,12 +26,30 @@
           "download": 719187680
         }
       }
+    },
+    {
+      "buildId": "26985807",
+      "branch": "public",
+      "timeUpdated": 1795824319,
+      "firstSeen": 1795851977,
+      "manifests": {
+        "1314501": {
+          "gid": "3222155331490145323",
+          "size": 1203488923,
+          "download": 719187680
+        },
+        "1314502": {
+          "gid": "4160556909614283046",
+          "size": 1056261768,
+          "download": 598643072
+        }
+      }
     }
   ],
-  "_change_number": 41515034,
+  "_change_number": 41583687,
   "_missing_token": false,
-  "_sha": "780b6ccd786c1494399a42d52ae5cea3961f5b6d",
-  "_size": 4797,
+  "_sha": "78e9beefb490f669877c64c3901f7e5e70a01c38",
+  "_size": 5319,
   "appid": "1314500",
   "common": {
     "associations": {
@@ -144,7 +162,7 @@
     "osarch": "64",
     "oscpu": "",
     "osextended": "",
-    "oslist": "windows",
+    "oslist": "windows,linux",
     "primary_genre": "18",
     "releasestate": "released",
     "small_capsule": {
@@ -229,13 +247,20 @@
         },
         "executable": "Improbable Soccer.exe",
         "type": "default"
+      },
+      "1": {
+        "config": {
+          "oslist": "linux"
+        },
+        "executable": "Improbable Soccer.x64_x86",
+        "type": "default"
       }
     }
   },
   "depots": {
     "1314501": {
       "config": {
-        "language": ""
+        "oslist": "windows"
       },
       "manifests": {
         "public": {
@@ -245,12 +270,24 @@
         }
       }
     },
+    "1314502": {
+      "config": {
+        "oslist": "linux"
+      },
+      "manifests": {
+        "public": {
+          "download": "598643072",
+          "gid": "4160556909614283046",
+          "size": "1056261768"
+        }
+      }
+    },
     "baselanguages": "english,german,french,italian,spanish",
     "branches": {
       "public": {
-        "buildid": "26934896",
-        "timebuildupdated": "1795652027",
-        "timeupdated": "1795699428"
+        "buildid": "26985807",
+        "timebuildupdated": "1795824286",
+        "timeupdated": "1795824319"
       }
     },
     "hasdepotsindlc": "1"
@@ -273,6 +310,14 @@
           "1": "Windows"
         },
         "root": "WinAppDataLocalLow"
+      },
+      "1": {
+        "path": ".config/unity3d/CyberLab Studios/Improbable Soccer",
+        "pattern": "*.dat",
+        "platforms": {
+          "1": "Linux"
+        },
+        "root": "LinuxHome"
       }
     }
   }

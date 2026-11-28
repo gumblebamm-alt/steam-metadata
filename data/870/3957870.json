@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1795814167,
+  "_lastChecked": 1795851982,
   "_history": [
     {
       "buildId": "26981683",
@@ -13,12 +13,30 @@
           "download": 163951968
         }
       }
+    },
+    {
+      "buildId": "26990302",
+      "branch": "public",
+      "timeUpdated": 1795848457,
+      "firstSeen": 1795851982,
+      "manifests": {
+        "3957872": {
+          "gid": "4492041970783149643",
+          "size": 300543326,
+          "download": 121261744
+        },
+        "3957873": {
+          "gid": "7388005737744716594",
+          "size": 467100425,
+          "download": 181251456
+        }
+      }
     }
   ],
-  "_change_number": 41577901,
+  "_change_number": 41590526,
   "_missing_token": false,
-  "_sha": "b27379d2ab201015977f73d0a25817853dc931d0",
-  "_size": 4869,
+  "_sha": "c2ae95d01c15f0e56122f14dc2bfe3cb040624e2",
+  "_size": 5288,
   "appid": "3957870",
   "common": {
     "associations": {
@@ -44,7 +62,7 @@
       "category_68": "1",
       "category_9": "1"
     },
-    "clienticns": "8d9b88735d10aeb34dee4e32ab270390a30c386a",
+    "clienticns": "0fe51febf3a2fe17591976cab967afc636adf502",
     "clienticon": "b545082c347080916384194ee56d3f9df4107606",
     "clienttga": "a86338c3a036e8c54d3f26ccdf17fd0309bc4cca",
     "community_hub_visible": "1",
@@ -131,13 +149,15 @@
     "name": "A Dream You Had Before the Dream You Had Before the Dream",
     "name_localized": {},
     "osarch": "",
-    "osextended": "",
-    "oslist": "windows",
+    "oscpu": "",
+    "osextended": "macos64,macosapplesilicon",
+    "oslist": "windows,macos",
     "primary_genre": "23",
     "releasestate": "released",
     "small_capsule": {
       "english": "94ec99e5897a1739c8233418ecdfa0737f5d1592/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795805256",
     "store_asset_mtime": "1795698847",
     "store_tags": {
       "0": "4885",
@@ -202,6 +222,7 @@
     "launch": {
       "0": {
         "config": {
+          "osarch": "64",
           "oslist": "windows"
         },
         "executable": "A Dream.exe"
@@ -211,6 +232,13 @@
           "oslist": "macos"
         },
         "executable": "A Dream.app"
+      },
+      "2": {
+        "config": {
+          "osarch": "64",
+          "oslist": "linux"
+        },
+        "executable": "launch.sh"
       }
     }
   },
@@ -221,23 +249,35 @@
       },
       "manifests": {
         "public": {
-          "download": "163951968",
-          "gid": "3357358994643078738",
-          "size": "397574987"
+          "download": "121261744",
+          "gid": "4492041970783149643",
+          "size": "300543326"
         }
       }
     },
     "3957873": {
       "config": {
         "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "181251456",
+          "gid": "7388005737744716594",
+          "size": "467100425"
+        }
+      }
+    },
+    "3957874": {
+      "config": {
+        "oslist": "linux"
       }
     },
     "baselanguages": "",
     "branches": {
       "public": {
-        "buildid": "26981683",
-        "timebuildupdated": "1795808433",
-        "timeupdated": "1795808503"
+        "buildid": "26990302",
+        "timebuildupdated": "1795848381",
+        "timeupdated": "1795848457"
       }
     },
     "nocommonredists": "1"

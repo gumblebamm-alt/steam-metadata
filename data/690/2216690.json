@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1795120512,
+  "_lastChecked": 1795851978,
   "_history": [
     {
       "buildId": "10184411",
@@ -13,12 +13,25 @@
           "download": 82132048
         }
       }
+    },
+    {
+      "buildId": "26985541",
+      "branch": "public",
+      "timeUpdated": 1795823407,
+      "firstSeen": 1795851978,
+      "manifests": {
+        "2216691": {
+          "gid": "8612851283035748847",
+          "size": 412803918,
+          "download": 333735984
+        }
+      }
     }
   ],
-  "_change_number": 40969240,
+  "_change_number": 41584703,
   "_missing_token": false,
-  "_sha": "77d1490cf0d52f65411f3208dc7dbfe587891ff3",
-  "_size": 3425,
+  "_sha": "2c0a0e11b6e0cc9e9343691de4b8479d3ffc695c",
+  "_size": 4233,
   "appid": "2216690",
   "common": {
     "associations": {
@@ -63,12 +76,14 @@
       "1": "23"
     },
     "header_image": {
-      "english": "header.jpg"
+      "english": "53aa679668fc3bb313ed7a31988d9c1d2a16e7dd/header.jpg"
     },
     "icon": "0eabdff66af7ec27789e6a3ed913d096ab03316c",
     "library_assets": {
       "library_capsule": "en",
+      "library_header": "en",
       "library_hero": "en",
+      "library_hero_blur": "en",
       "library_logo": "en",
       "logo_position": {
         "height_pct": "100",
@@ -79,26 +94,39 @@
     "library_assets_full": {
       "library_capsule": {
         "image": {
-          "english": "library_600x900.jpg"
+          "english": "ef54ae778446ae326b80a991a123acc11da5e31a/library_capsule.jpg"
         },
         "image2x": {
-          "english": "library_600x900_2x.jpg"
+          "english": "ef54ae778446ae326b80a991a123acc11da5e31a/library_capsule_2x.jpg"
+        }
+      },
+      "library_header": {
+        "image": {
+          "english": "53aa679668fc3bb313ed7a31988d9c1d2a16e7dd/library_header.jpg"
+        },
+        "image2x": {
+          "english": "53aa679668fc3bb313ed7a31988d9c1d2a16e7dd/library_header_2x.jpg"
         }
       },
       "library_hero": {
         "image": {
-          "english": "library_hero.jpg"
+          "english": "4358f6c5bb6f15e60fe91cf60600293a0484fcf2/library_hero.jpg"
         },
         "image2x": {
-          "english": "library_hero_2x.jpg"
+          "english": "4358f6c5bb6f15e60fe91cf60600293a0484fcf2/library_hero_2x.jpg"
+        }
+      },
+      "library_hero_blur": {
+        "image": {
+          "english": "4358f6c5bb6f15e60fe91cf60600293a0484fcf2/library_hero_blur.jpg"
         }
       },
       "library_logo": {
         "image": {
-          "english": "logo.png"
+          "english": "1253b61b6def5bc267a80dbda9a67d36d322bce1/logo.png"
         },
         "image2x": {
-          "english": "logo_2x.png"
+          "english": "1253b61b6def5bc267a80dbda9a67d36d322bce1/logo_2x.png"
         },
         "logo_position": {
           "height_pct": "100",
@@ -115,10 +143,10 @@
     "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
-      "english": "capsule_231x87.jpg"
+      "english": "2943fe91c4b2985c40f9f5e09b9a77c904e910ba/capsule_231x87.jpg"
     },
     "steam_release_date": "1671740432",
-    "store_asset_mtime": "1793706264",
+    "store_asset_mtime": "1795827701",
     "store_tags": {
       "0": "597",
       "1": "1665",
@@ -153,7 +181,12 @@
     "installdir": "Turret Girl",
     "launch": {
       "0": {
-        "executable": "TurretGirl.exe"
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "executable": "TurretGirl.exe",
+        "type": "default"
       }
     }
   },
@@ -161,18 +194,18 @@
     "2216691": {
       "manifests": {
         "public": {
-          "download": "82132048",
-          "gid": "5665728856182641343",
-          "size": "526180136"
+          "download": "333735984",
+          "gid": "8612851283035748847",
+          "size": "412803918"
         }
       }
     },
     "baselanguages": "english",
     "branches": {
       "public": {
-        "buildid": "10184411",
-        "timebuildupdated": "1671540867",
-        "timeupdated": "1671540867"
+        "buildid": "26985541",
+        "timebuildupdated": "1795823181",
+        "timeupdated": "1795823407"
       }
     },
     "hasdepotsindlc": "1"
@@ -184,10 +217,8 @@
     "publisher": "Black Rada Dev"
   },
   "ufs": {
-    "hidecloudui": "1",
-    "ignoreexternalfiles": "1",
-    "maxnumfiles": "10",
-    "quota": "10000",
+    "maxnumfiles": "100",
+    "quota": "100000000",
     "savefiles": {
       "0": {
         "path": "SavesDir",

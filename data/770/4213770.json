@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795768093,
-  "_history": [],
-  "_change_number": 41542357,
-  "_missing_token": true,
-  "_sha": "ff0a9fe7c073340fdc5617d1ac7520f5fe79f70e",
-  "_size": 3278,
+  "_lastChecked": 1795851983,
+  "_history": [
+    {
+      "buildId": "26989652",
+      "branch": "public",
+      "timeUpdated": 1795844016,
+      "firstSeen": 1795851983,
+      "manifests": {
+        "4213771": {
+          "gid": "3556257985955866969",
+          "size": 1879056444,
+          "download": 1804300016
+        },
+        "4213772": {
+          "gid": "3208487338669940492",
+          "size": 1964058061,
+          "download": 1828908848
+        }
+      }
+    }
+  ],
+  "_change_number": 41589002,
+  "_missing_token": false,
+  "_sha": "72e248921f795c062a2c0946dd90f94337826206",
+  "_size": 4849,
   "appid": "4213770",
   "common": {
     "aicontenttype": "1",
@@ -35,6 +54,7 @@
     },
     "clienticon": "2c018c74007c6e27d386b10342412eed20849b20",
     "community_hub_visible": "1",
+    "community_visible_stats": "1",
     "content_descriptors": {
       "0": "5"
     },
@@ -42,7 +62,6 @@
       "0": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4213770",
     "genres": {
       "0": "23"
@@ -116,10 +135,11 @@
     "osextended": "",
     "oslist": "windows,macos",
     "primary_genre": "23",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "small_capsule": {
       "english": "46c6ef78823428075a3e9b7fe9f78996166fd00a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795844129",
     "store_asset_mtime": "1792473725",
     "store_tags": {
       "0": "3799",
@@ -149,5 +169,87 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "孤狼之春",
+    "launch": {
+      "0": {
+        "config": {
+          "oslist": "windows"
+        },
+        "executable": "LoneWolfSpring.exe"
+      },
+      "1": {
+        "config": {
+          "oslist": "macos"
+        },
+        "executable": "LoneWolfSpring.app"
+      }
+    }
+  },
+  "depots": {
+    "4213771": {
+      "config": {
+        "language": "schinese",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "1804300016",
+          "gid": "3556257985955866969",
+          "size": "1879056444"
+        }
+      }
+    },
+    "4213772": {
+      "config": {
+        "language": "schinese",
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "1828908848",
+          "gid": "3208487338669940492",
+          "size": "1964058061"
+        }
+      }
+    },
+    "baselanguages": "schinese",
+    "branches": {
+      "public": {
+        "buildid": "26989652",
+        "timebuildupdated": "1795843989",
+        "timeupdated": "1795844016"
+      }
+    },
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "幻象Gal",
+    "publisher": "幻象Gal"
+  },
+  "ufs": {
+    "maxnumfiles": "40",
+    "quota": "400000000",
+    "rootoverrides": {
+      "0": {
+        "os": "MacOS",
+        "oscompare": "=",
+        "pathtransforms": {
+          "0": {
+            "find": "Godot/app_userdata/LoneWolfSpring",
+            "replace": "Godot/app_userdata/LoneWolfSpring"
+          }
+        },
+        "root": "WinAppDataRoaming",
+        "useinstead": "MacAppSupport"
+      }
+    },
+    "savefiles": {
+      "0": {
+        "path": "Godot/app_userdata/LoneWolfSpring",
+        "pattern": "story_saves.json",
+        "root": "WinAppDataRoaming"
+      }
+    }
+  }
 }

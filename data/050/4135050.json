@@ -1,10 +1,29 @@
 {
-  "_lastChecked": 1795768093,
-  "_history": [],
-  "_change_number": 41541226,
-  "_missing_token": true,
-  "_sha": "79f025f82bc2992a751da9764c8f89a89569c7e4",
-  "_size": 4018,
+  "_lastChecked": 1795851983,
+  "_history": [
+    {
+      "buildId": "26963251",
+      "branch": "public",
+      "timeUpdated": 1795751912,
+      "firstSeen": 1795851983,
+      "manifests": {
+        "4135051": {
+          "gid": "7623668873523249",
+          "size": 7387423600,
+          "download": 3474213152
+        },
+        "4135052": {
+          "gid": "7362732145549202097",
+          "size": 7387423584,
+          "download": 3478275936
+        }
+      }
+    }
+  ],
+  "_change_number": 41586682,
+  "_missing_token": false,
+  "_sha": "bb79d92d5ca17b81f0e9e900ccb7be8a600e8b90",
+  "_size": 5394,
   "appid": "4135050",
   "common": {
     "aicontenttype": "1",
@@ -41,7 +60,6 @@
       "3": "5"
     },
     "controllertagwizard": "1",
-    "exfgls": "8",
     "gameid": "4135050",
     "genres": {
       "0": "4",
@@ -118,11 +136,12 @@
     "osextended": "",
     "oslist": "windows",
     "primary_genre": "28",
-    "releasestate": "prerelease",
+    "releasestate": "released",
     "restricted_countries": "CN,DE,SA",
     "small_capsule": {
       "english": "0f9e0bf1807a0a5773ba5dd6420e581ef4356b5a/capsule_231x87.jpg"
     },
+    "steam_release_date": "1795834819",
     "store_asset_mtime": "1795411313",
     "store_tags": {
       "0": "12095",
@@ -187,5 +206,79 @@
     },
     "type": "Game"
   },
-  "public_only": "1"
+  "config": {
+    "installdir": "Kameko",
+    "launch": {
+      "0": {
+        "config": {
+          "osarch": "64",
+          "oslist": "windows"
+        },
+        "description": "Default",
+        "description_loc": {
+          "english": "Default"
+        },
+        "executable": "Kameko.exe",
+        "type": "default",
+        "workingdir": "."
+      }
+    }
+  },
+  "depots": {
+    "4135051": {
+      "config": {
+        "language": "english",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3474213152",
+          "gid": "7623668873523249",
+          "size": "7387423600"
+        }
+      }
+    },
+    "4135052": {
+      "config": {
+        "language": "japanese",
+        "osarch": "64",
+        "oslist": "windows"
+      },
+      "manifests": {
+        "public": {
+          "download": "3478275936",
+          "gid": "7362732145549202097",
+          "size": "7387423584"
+        }
+      }
+    },
+    "baselanguages": "english,japanese",
+    "branches": {
+      "public": {
+        "buildid": "26963251",
+        "timebuildupdated": "1795747497",
+        "timeupdated": "1795751912"
+      }
+    },
+    "hasdepotsindlc": "1",
+    "nocommonredists": "1"
+  },
+  "extended": {
+    "developer": "Execute Pink",
+    "dlcavailableonstore": "1",
+    "listofdlc": "5658850",
+    "publisher": "HENTAI Plan"
+  },
+  "ufs": {
+    "maxnumfiles": "100",
+    "quota": "10000000",
+    "savefiles": {
+      "0": {
+        "path": "Execute Pink/Kameko/Saves",
+        "pattern": "*.json",
+        "root": "WinAppDataLocalLow"
+      }
+    }
+  }
 }

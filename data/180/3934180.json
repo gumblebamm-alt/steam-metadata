@@ -1,5 +1,5 @@
 {
-  "_lastChecked": 1795595446,
+  "_lastChecked": 1795851982,
   "_history": [
     {
       "buildId": "26770379",
@@ -26,12 +26,30 @@
           "download": 422739888
         }
       }
+    },
+    {
+      "buildId": "26961616",
+      "branch": "public",
+      "timeUpdated": 1795741145,
+      "firstSeen": 1795851982,
+      "manifests": {
+        "3934181": {
+          "gid": "3347653189709181039",
+          "size": 1943371084,
+          "download": 422779808
+        },
+        "3934182": {
+          "gid": "1624298811399592549",
+          "size": 1961136027,
+          "download": 429346608
+        }
+      }
     }
   ],
-  "_change_number": 41452595,
+  "_change_number": 41537448,
   "_missing_token": false,
-  "_sha": "96c31c7f3579b345592ff513c46712d9fd005671",
-  "_size": 4958,
+  "_sha": "cdb2e9ee07fc3bce9a2428dc04b81704f5e01d0f",
+  "_size": 5401,
   "appid": "3934180",
   "common": {
     "associations": {
@@ -135,8 +153,8 @@
     "name": "Don Memo",
     "osarch": "64",
     "oscpu": "",
-    "osextended": "",
-    "oslist": "windows",
+    "osextended": "macos64",
+    "oslist": "windows,macos",
     "primary_genre": "25",
     "releasestate": "released",
     "review_percentage": "100",
@@ -197,25 +215,50 @@
         },
         "executable": "Don Memo.exe",
         "type": "default"
+      },
+      "2": {
+        "config": {
+          "oslist": "macos"
+        },
+        "description": "Mac",
+        "description_loc": {
+          "english": "Mac"
+        },
+        "executable": "donmemomac.app"
       }
     }
   },
   "depots": {
     "3934181": {
+      "config": {
+        "oslist": "windows"
+      },
       "manifests": {
         "public": {
-          "download": "422739888",
-          "gid": "4223183066807413459",
-          "size": "1943931676"
+          "download": "422779808",
+          "gid": "3347653189709181039",
+          "size": "1943371084"
+        }
+      }
+    },
+    "3934182": {
+      "config": {
+        "oslist": "macos"
+      },
+      "manifests": {
+        "public": {
+          "download": "429346608",
+          "gid": "1624298811399592549",
+          "size": "1961136027"
         }
       }
     },
     "baselanguages": "latam",
     "branches": {
       "public": {
-        "buildid": "26851810",
-        "timebuildupdated": "1795368220",
-        "timeupdated": "1795368262"
+        "buildid": "26961616",
+        "timebuildupdated": "1795740787",
+        "timeupdated": "1795741145"
       }
     },
     "nocommonredists": "1",
